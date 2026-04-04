@@ -1,0 +1,10 @@
+{
+  "name": "geoint-strategic-globe",
+  "version": "2.0.0",
+  "description": "GEOINT Strategic Intelligence Globe — Interactive 3D world map with geopolitical data",
+  "private": true,
+  "scripts": {
+    "start": "npx serve public -l 3000",
+    "build": "echo 'Static site — no build step needed'"
+  }
+}
