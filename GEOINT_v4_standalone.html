@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GEOINT // Strategic Globe v4</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=Barlow:wght@300;400;500;600;700&family=Barlow+Condensed:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#131a17;--surface:rgba(20,30,26,.93);--border:rgba(190,207,184,.1);--border-h:rgba(190,207,184,.2);--accent:#8aad84;--accent2:#305852;--red:#c27066;--gold:#b89a4a;--green:#6b9e6f;--rose:#c4a095;--text:#9aaa97;--text-dim:#5a6d5e;--white:#d5d8d2;--bright:#e8ebe5;--mono:'IBM Plex Mono',monospace;--sans:'Barlow',sans-serif;--cond:'Barlow Condensed',sans-serif}
+html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--mono)}
+canvas#gl{position:fixed;inset:0;z-index:1}
+#scan{position:fixed;inset:0;z-index:2;pointer-events:none;background:repeating-linear-gradient(0deg,transparent,transparent 3px,rgba(0,0,0,.012) 3px,rgba(0,0,0,.012) 6px)}
+#top{position:fixed;top:0;left:0;right:0;height:40px;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0 20px;background:linear-gradient(180deg,rgba(19,26,23,.97),rgba(19,26,23,.4));border-bottom:1px solid var(--border);backdrop-filter:blur(10px)}
+.logo{font-family:var(--cond);font-weight:600;font-size:13px;letter-spacing:4px;color:var(--accent);text-transform:uppercase;display:flex;align-items:center;gap:8px}
+.logo .dot{width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 6px var(--green);animation:blink 2.5s infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+#clock{font-size:10px;color:var(--text-dim);letter-spacing:1.5px}
+#bot{position:fixed;bottom:0;left:0;right:0;height:28px;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0 20px;background:linear-gradient(0deg,rgba(19,26,23,.97),rgba(19,26,23,.4));border-top:1px solid var(--border);font-size:9px;color:var(--text-dim);letter-spacing:1px}
+#tip{position:fixed;z-index:300;pointer-events:none;opacity:0;transition:opacity .2s;padding:10px 16px;background:var(--surface);border:1px solid var(--border-h);border-radius:4px;backdrop-filter:blur(14px)}
+#tip.on{opacity:1}
+#tip .n{font-family:var(--sans);font-size:14px;font-weight:500;color:var(--bright)}
+#tip .s{font-size:9px;color:var(--text-dim);letter-spacing:1px;margin-top:2px}
+/* Detail Panel */
+#detail{position:fixed;top:44px;left:10px;bottom:34px;width:390px;z-index:100;display:flex;flex-direction:column;gap:6px;opacity:0;pointer-events:none;transform:translateX(-410px);transition:transform .4s cubic-bezier(.22,1,.36,1),opacity .3s}
+#detail.open{opacity:1;pointer-events:auto;transform:translateX(0)}
+.pnl{background:var(--surface);border:1px solid var(--border);border-radius:6px;backdrop-filter:blur(14px);overflow:hidden}
+.pnl-h{padding:10px 14px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}
+.pnl-t{font-family:var(--cond);font-size:11px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:var(--accent)}
+.pnl-b{padding:12px 14px;overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--border) transparent}
+.pnl-b::-webkit-scrollbar{width:3px}.pnl-b::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
+.c-head{display:flex;align-items:center;gap:14px;margin-bottom:10px}
+.c-flag{font-size:38px;line-height:1}.c-name{font-family:var(--sans);font-size:18px;font-weight:600;color:var(--bright)}.c-cap{font-size:11px;color:var(--text-dim);margin-top:2px}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:12px}
+.stat{padding:8px 10px;background:rgba(255,255,255,.015);border:1px solid var(--border);border-radius:4px}
+.stat .sl{font-size:9px;color:var(--text-dim);letter-spacing:1px;text-transform:uppercase;margin-bottom:2px}
+.stat .sv{font-family:var(--sans);font-size:14px;font-weight:600;color:var(--white)}
+.sec{margin-bottom:10px}.sec-t{font-family:var(--cond);font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:var(--accent);margin-bottom:6px;padding-bottom:4px;border-bottom:1px solid var(--border)}
+.sec p{font-size:11px;color:var(--text);line-height:1.6;margin-bottom:6px}
+.sec ul{list-style:none;padding:0}.sec li{font-size:11px;color:var(--text);line-height:1.6}.sec li::before{content:'›';color:var(--accent);margin-right:6px}
+.eth-row{display:flex;align-items:center;gap:8px;margin-bottom:3px}.eth-name{font-size:10px;color:var(--text);min-width:100px}
+.eth-track{flex:1;height:5px;background:rgba(255,255,255,.03);border-radius:3px;overflow:hidden}.eth-fill{height:100%;border-radius:3px;background:var(--accent2);transition:width .6s}
+.eth-pct{font-size:9px;color:var(--text-dim);min-width:30px;text-align:right}
+.eth-profile{margin:4px 0 8px;padding:8px;border-left:2px solid var(--accent2);background:rgba(48,88,82,.06);border-radius:0 4px 4px 0}
+.eth-profile p{font-size:10px;color:var(--text);line-height:1.6;margin:0}
+.terrain-bar{display:flex;height:14px;border-radius:3px;overflow:hidden;margin-bottom:6px}
+.tb-p{background:var(--green)}.tb-h{background:var(--gold)}.tb-m{background:var(--accent2)}
+.tb-p,.tb-h,.tb-m{display:flex;align-items:center;justify-content:center;font-size:8px;color:#fff;transition:width .5s}
+.terrain-legend{display:flex;gap:12px;font-size:9px;color:var(--text-dim)}
+.terrain-legend span::before{content:'';display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:4px;vertical-align:middle}
+.tl-p::before{background:var(--green)}.tl-h::before{background:var(--gold)}.tl-m::before{background:var(--accent2)}
+.topo-chart{margin:8px 0;padding:8px;background:rgba(0,0,0,.15);border-radius:4px;border:1px solid var(--border)}
+.trade-row{display:flex;align-items:center;gap:6px;margin-bottom:4px;padding:4px 8px;background:rgba(255,255,255,.01);border-radius:3px;cursor:pointer;transition:background .2s}
+.trade-row:hover{background:rgba(255,255,255,.03)}
+.trade-name{flex:1;font-size:10px;color:var(--text)}.trade-pct{font-size:11px;font-weight:500;color:var(--white);min-width:40px;text-align:right}
+.trade-bar{width:60px;height:4px;background:rgba(255,255,255,.03);border-radius:2px;overflow:hidden}
+.trade-fill{height:100%;border-radius:2px;transition:width .5s}.trade-fill.ex{background:var(--green)}.trade-fill.im{background:var(--rose)}
+.marker-item{padding:6px 8px;border-radius:4px;background:rgba(255,255,255,.015);border:1px solid var(--border);margin-bottom:4px;cursor:pointer;transition:border-color .2s}
+.marker-item:hover{border-color:var(--border-h)}
+.mi-name{font-size:11px;color:var(--white)}.mi-info{font-size:9px;color:var(--text-dim);margin-top:1px}
+.mi-dot{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:5px}
+.mi-dot.ext{background:var(--gold)}.mi-dot.mil{background:var(--red)}.mi-dot.for{background:var(--rose)}
+/* Commodity popup */
+#commodity-popup{position:fixed;z-index:400;display:none;width:280px;padding:14px;background:var(--surface);border:1px solid var(--border-h);border-radius:6px;backdrop-filter:blur(16px)}
+#commodity-popup.show{display:block}
+#commodity-popup .cp-title{font-family:var(--sans);font-size:13px;font-weight:500;color:var(--bright);margin-bottom:6px}
+#commodity-popup .cp-desc{font-size:10px;color:var(--text);line-height:1.6}
+#commodity-popup .cp-close{position:absolute;top:8px;right:10px;background:none;border:none;color:var(--text-dim);cursor:pointer;font-size:12px}
+/* Sidebar */
+#sidebar{position:fixed;top:44px;right:10px;bottom:34px;width:280px;z-index:100;display:flex;flex-direction:column;gap:6px;transition:transform .4s cubic-bezier(.22,1,.36,1),opacity .3s}
+#sidebar.off{transform:translateX(300px);opacity:0;pointer-events:none}
+.toggle-btn{position:fixed;z-index:101;width:32px;height:32px;border-radius:4px;background:var(--surface);border:1px solid var(--border);color:var(--accent);font-size:13px;cursor:pointer;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(8px);transition:background .2s}
+.toggle-btn:hover{background:rgba(138,173,132,.08)}
+#btn-side{top:44px;right:10px}#btn-detail{top:44px;left:10px;opacity:0;pointer-events:none;transition:opacity .3s}#btn-detail.on{opacity:1;pointer-events:auto}
+#ev-form input,#ev-form select,#ev-form textarea{width:100%;padding:7px 9px;background:rgba(255,255,255,.02);border:1px solid var(--border);border-radius:3px;color:var(--white);font-family:var(--mono);font-size:10px;margin-bottom:5px;outline:none}
+#ev-form select{-webkit-appearance:none}#ev-form textarea{resize:none;height:40px}
+.btn-add{width:100%;padding:7px;background:rgba(138,173,132,.08);border:1px solid rgba(138,173,132,.2);border-radius:3px;color:var(--accent);font-family:var(--mono);font-size:10px;cursor:pointer;letter-spacing:1px;text-transform:uppercase}
+.ev-item{padding:8px 10px;border-radius:4px;background:rgba(255,255,255,.015);border:1px solid transparent;margin-bottom:5px;cursor:pointer;transition:all .2s}.ev-item:hover{border-color:var(--border)}
+.ev-badge{font-size:8px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;padding:2px 5px;border-radius:2px;display:inline-block;margin-bottom:3px}
+.ev-badge.conflict{background:rgba(194,112,102,.12);color:var(--red)}.ev-badge.diplomacy{background:rgba(138,173,132,.12);color:var(--accent)}.ev-badge.economic{background:rgba(184,154,74,.12);color:var(--gold)}.ev-badge.alert{background:rgba(107,158,111,.12);color:var(--green)}
+.ev-title{font-size:11px;color:var(--white)}.ev-coord{font-size:8px;color:var(--text-dim);margin-top:3px}
+.cpick{display:flex;align-items:center;gap:8px;padding:6px 0}.cpick label{font-size:10px;color:var(--text-dim);flex:1}
+.cpick input[type=color]{width:26px;height:26px;border:1px solid var(--border);border-radius:3px;background:none;cursor:pointer;-webkit-appearance:none;padding:0}
+.cpick input[type=color]::-webkit-color-swatch-wrapper{padding:2px}.cpick input[type=color]::-webkit-color-swatch{border:none;border-radius:2px}
+.btn-sm{padding:5px 10px;background:rgba(194,112,102,.08);border:1px solid rgba(194,112,102,.2);border-radius:3px;color:var(--red);font-size:9px;cursor:pointer;font-family:var(--mono);letter-spacing:1px}
+.tabs{display:flex;border-bottom:1px solid var(--border)}.tab{flex:1;padding:8px 4px;text-align:center;font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--text-dim);cursor:pointer;border-bottom:2px solid transparent;transition:all .2s}.tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+#loader{position:fixed;inset:0;z-index:999;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;transition:opacity .8s}
+#loader.done{opacity:0;pointer-events:none}
+.load-bar{width:200px;height:2px;background:rgba(255,255,255,.05);border-radius:1px;overflow:hidden;margin-top:16px}.load-fill{height:100%;background:var(--accent);width:0%;transition:width .3s}
+.load-msg{font-size:11px;color:var(--text-dim);letter-spacing:2px;text-transform:uppercase;margin-bottom:8px}.load-sub{font-size:9px;color:var(--text-dim);margin-top:10px;letter-spacing:1px}
+#instr{position:fixed;bottom:38px;left:50%;transform:translateX(-50%);z-index:100;padding:6px 16px;background:var(--surface);border:1px solid var(--border);border-radius:16px;font-size:9px;color:var(--text-dim);white-space:nowrap;transition:opacity 1.5s;pointer-events:none}
+</style>
+</head>
+<body>
+<div id="loader"><div class="load-msg">Initializing GEOINT v4</div><div class="load-bar"><div class="load-fill" id="lf"></div></div><div class="load-sub" id="ls">Loading...</div></div>
+<canvas id="gl"></canvas><div id="scan"></div>
+<div id="top"><div class="logo"><span class="dot"></span>GEOINT // STRATEGIC GLOBE</div><div id="clock"></div></div>
+<div id="tip"><div class="n" id="tt-n"></div><div class="s" id="tt-s"></div></div>
+<div id="commodity-popup"><button class="cp-close" onclick="document.getElementById('commodity-popup').classList.remove('show')">✕</button><div class="cp-title" id="cp-t"></div><div class="cp-desc" id="cp-d"></div></div>
+<button class="toggle-btn" id="btn-detail" title="Close">✕</button>
+<div id="detail"><div class="pnl" style="flex:1;overflow:hidden;display:flex;flex-direction:column">
+<div class="pnl-h"><div class="pnl-t">Intelligence</div><button onclick="closeDetail()" style="background:none;border:none;color:var(--text-dim);cursor:pointer;font-size:12px">✕</button></div>
+<div class="tabs" id="dtabs"><div class="tab active" data-tab="overview">Overview</div><div class="tab" data-tab="geography">Geography</div><div class="tab" data-tab="economy">Economy</div><div class="tab" data-tab="strategic">Strategic</div></div>
+<div class="pnl-b" style="flex:1" id="det-body"><div style="text-align:center;padding:40px 0;color:var(--text-dim);font-size:11px">Select a country</div></div></div></div>
+<button class="toggle-btn" id="btn-side">☰</button>
+<div id="sidebar">
+<div class="pnl" style="flex:0 0 auto;max-height:45%"><div class="pnl-h"><div class="pnl-t">⬡ Events</div><span style="font-size:9px;color:var(--text-dim)" id="ev-count">0</span></div><div class="pnl-b" id="ev-list" style="max-height:160px"><div style="text-align:center;padding:16px 0;color:var(--text-dim);font-size:10px">Right-click to mark</div></div></div>
+<div class="pnl" style="flex:0 0 auto"><div class="pnl-h"><div class="pnl-t">+ Event</div></div><div id="ev-form" style="padding:10px 12px"><input type="text" id="ev-t" placeholder="Title..."><select id="ev-type"><option value="conflict">⚔ Conflict</option><option value="diplomacy">◆ Diplomacy</option><option value="economic">$ Economic</option><option value="alert">▲ Alert</option></select><textarea id="ev-d" placeholder="Description..."></textarea><button class="btn-add" id="btn-ev">+ Add</button></div></div>
+<div class="pnl" style="flex:0 0 auto"><div class="pnl-h"><div class="pnl-t">◉ Color</div></div><div class="pnl-b" id="cpanel" style="max-height:100px"><div style="font-size:10px;color:var(--text-dim)">Select a country</div></div></div>
+</div>
+<div id="bot"><div>SYS NOMINAL // CANVAS TEXTURE RENDER</div><div id="coords">LAT 0.000 · LON 0.000</div></div>
+<div id="instr">Drag rotate · Scroll zoom · Click for intel · Right-click mark</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+const DB={};
+function A(id,o){DB[id]=o}
+// Full entries (15 major countries with ethProfiles, extraction, bases)
+A("840",{n:"United States",f:"🇺🇸",c:"Washington, D.C.",pop:334914895,a:9833520,gdp:27360,gdpPC:81695,eth:[{n:"White",p:57.8},{n:"Hispanic/Latino",p:18.7},{n:"Black/African American",p:12.1},{n:"Asian",p:5.9},{n:"Native American",p:1.3},{n:"Multiracial/Other",p:4.2}],ethP:{"White":"Historically dominant European-descent majority. Controls most institutional, corporate, and political power. Anglo-Protestant cultural mainstream. Concentrated in Midwest, South, rural areas. Declining share but still holds majority of wealth.","Hispanic/Latino":"Fastest-growing group: Mexican, Puerto Rican, Central American, Cuban. Growing political influence in swing states (TX, AZ, NV, FL). Concentrated in Southwest. Major cultural and economic contributions in agriculture, construction, services, arts.","Black/African American":"Descended from enslaved Africans + Caribbean/African immigrants. Persistent wealth gap despite civil rights gains. Concentrated in South and urban centers. Enormous cultural influence: jazz, hip-hop, literature, civil rights legacy. Critical Democratic political bloc.","Asian":"Chinese, Indian, Filipino, Vietnamese, Korean, Japanese communities. Highest median household income. Concentrated in CA, NY, tech hubs. Strong in STEM, medicine, entrepreneurship. Fastest-growing voter demographic.","Native American":"~574 federally recognized tribes with sovereign nation status. Historical genocide and displacement. Reservations face poverty, health disparities. Growing political voice. Cultural resurgence in language and art.","Multiracial/Other":"Fastest-growing census category. Reflects increasing intermarriage. Pacific Islanders, Middle Eastern/North African communities also included."},cul:"Multicultural federal republic; dominant global cultural exporter in media, tech, entertainment. English-speaking. Constitutional liberalism, separation of powers, individualism.",ter:{p:45,h:30,m:25},pk:[{n:"Denali",h:6190},{n:"Mt Whitney",h:4421},{n:"Mt Elbert",h:4401},{n:"Mt Rainier",h:4392},{n:"Mt Hood",h:3426}],mtn:["Rocky Mountains","Appalachians","Sierra Nevada","Cascades","Alaska Range"],pln:["Great Plains","Mississippi Valley","Atlantic Coastal Plain","Central Valley"],riv:["Mississippi","Missouri","Colorado","Columbia","Rio Grande","Ohio"],lak:["Superior","Michigan","Huron","Erie","Ontario"],ex:[{n:"Refined Petroleum",p:8.2},{n:"Crude Oil",p:7.1},{n:"Natural Gas",p:5.5},{n:"Aircraft",p:4.1},{n:"Integrated Circuits",p:3.8}],im:[{n:"Motor Vehicles",p:7.8},{n:"Crude Oil",p:5.2},{n:"Computers",p:4.8},{n:"Medicaments",p:3.9},{n:"Broadcasting Equip.",p:3.2}],ext:[{n:"Permian Basin",lat:31.9,lng:-102.1,r:"Oil & Gas — largest US oil-producing region, shale revolution epicenter"},{n:"Powder River Basin",lat:44.8,lng:-106.2,r:"Coal — major thermal coal basin in Wyoming/Montana"},{n:"Bingham Canyon",lat:40.5,lng:-112.1,r:"Copper — one of world's deepest open-pit mines, also gold/silver"},{n:"Carlin Trend",lat:40.7,lng:-116.3,r:"Gold — Nevada's gold belt, produces ~75% of US gold"},{n:"Marcellus Shale",lat:41.2,lng:-77.0,r:"Natural Gas — massive Appalachian shale gas formation"}],bas:[{n:"Pentagon",lat:38.87,lng:-77.06,t:"Army HQ — headquarters of US Department of Defense",f:0},{n:"Norfolk Naval Station",lat:36.95,lng:-76.33,t:"Navy — world's largest naval base, Atlantic Fleet",f:0},{n:"Fort Liberty",lat:35.14,lng:-79.0,t:"Army Airborne — home of 82nd Airborne Division",f:0},{n:"Ramstein AB (DE)",lat:49.44,lng:7.6,t:"USAF Europe HQ — primary air hub for European operations",f:0},{n:"Camp Humphreys (KR)",lat:36.96,lng:127.03,t:"US Army Korea — largest overseas US military base",f:0},{n:"Yokosuka (JP)",lat:35.28,lng:139.67,t:"US 7th Fleet — forward-deployed carrier strike group",f:0},{n:"Al Udeid (QA)",lat:25.12,lng:51.32,t:"USAF — Combined Air Operations Center for Middle East",f:0},{n:"Diego Garcia",lat:-7.32,lng:72.42,t:"Navy/Air — strategic Indian Ocean logistics hub",f:0}]});
+A("156",{n:"China",f:"🇨🇳",c:"Beijing",pop:1425178782,a:9596960,gdp:18530,gdpPC:13000,eth:[{n:"Han Chinese",p:91.1},{n:"Zhuang",p:1.3},{n:"Hui",p:0.8},{n:"Manchu",p:0.8},{n:"Uyghur",p:0.8},{n:"Miao",p:0.7},{n:"Yi",p:0.6},{n:"Tujia",p:0.5},{n:"Other minorities",p:3.4}],ethP:{"Han Chinese":"Overwhelming majority controlling all political/economic/cultural power via CPC. Internally diverse: Cantonese, Hokkien, Hakka, Wu, Mandarin subgroups. Han dominance is explicit state policy. Economic elites in coastal cities.","Zhuang":"Largest minority in Guangxi. Tai-speaking, relatively well-integrated. Agricultural communities urbanizing. Low political tension.","Uyghur":"Turkic Muslim population in Xinjiang. Subject to mass surveillance and internment since 2017 (documented by UN). Culturally Central Asian. Deep tension with state. Significant diaspora.","Hui":"Chinese-speaking Muslims nationwide. Better integrated due to linguistic assimilation. Important historical trade networks. Maintain Islamic identity within mainstream economy.","Miao":"Southern highland peoples (Guizhou, Yunnan, Hunan). Known for silver jewelry and textile arts. Related to Hmong of Southeast Asia. Historically marginalized, improving development."},cul:"Ancient continuous civilization; 5000+ years. Confucian, Taoist, Buddhist traditions. One-party socialist republic with state capitalist economy. 56 recognized ethnic groups.",ter:{p:30,h:25,m:45},pk:[{n:"Everest (N.face)",h:8849},{n:"K2 (border)",h:8611},{n:"Minya Konka",h:7556},{n:"Muztagh Ata",h:7546},{n:"Bogda Peak",h:5445}],mtn:["Himalayas","Kunlun","Tian Shan","Altai","Qinling","Greater Khingan"],pln:["North China Plain","Manchurian Plain","Yangtze Delta","Sichuan Basin"],riv:["Yangtze","Yellow River","Pearl River","Mekong (Lancang)","Amur"],lak:["Qinghai Lake","Poyang Lake","Dongting Lake","Taihu"],ex:[{n:"Broadcasting Equip.",p:7.8},{n:"Computers",p:6.5},{n:"Integrated Circuits",p:4.2},{n:"Telephones",p:3.6},{n:"Machine Parts",p:3.1}],im:[{n:"Crude Oil",p:14.2},{n:"Integrated Circuits",p:12.8},{n:"Iron Ore",p:6.5},{n:"Natural Gas",p:3.8},{n:"Soybeans",p:2.9}],ext:[{n:"Daqing Oilfield",lat:46.6,lng:125.0,r:"Oil — China's largest onshore oilfield, declining since 2000s"},{n:"Shanxi Coal Basin",lat:37.8,lng:112.5,r:"Coal — world's largest coal province, powers China's industry"},{n:"Baotou",lat:40.6,lng:109.8,r:"Rare Earth Elements — controls ~60% of global rare earth production"},{n:"Dexing",lat:28.9,lng:117.6,r:"Copper — largest open-pit copper mine in Asia"}],bas:[{n:"Zhanjiang Naval",lat:21.2,lng:110.4,t:"South Sea Fleet HQ — primary force for South China Sea operations",f:0},{n:"Qingdao Naval",lat:36.0,lng:120.4,t:"North Sea Fleet — submarine base, Yellow Sea operations",f:0},{n:"Djibouti Base",lat:11.55,lng:43.15,t:"PLA Navy — first overseas base, Indian Ocean logistics",f:0},{n:"Fiery Cross Reef",lat:9.55,lng:112.89,t:"SCS Air/Navy — artificial island with 3km runway, contested",f:0}]});
+A("643",{n:"Russia",f:"🇷🇺",c:"Moscow",pop:144236933,a:17098242,gdp:2020,gdpPC:14000,eth:[{n:"Russian",p:77.7},{n:"Tatar",p:3.7},{n:"Ukrainian",p:1.4},{n:"Bashkir",p:1.1},{n:"Chechen",p:1.0},{n:"Chuvash",p:1.0},{n:"Dagestani peoples",p:2.4},{n:"Other",p:11.7}],ethP:{"Russian":"Dominant East Slavic majority. Controls all federal institutions, military, oligarchy. Orthodox Christian identity intertwined with nationalism. Putin-era 'Russkiy Mir' ideology.","Tatar":"Turkic Muslims in Tatarstan (Volga). Conquered 1552. Distinct language and Islamic identity. More autonomy than most republics. Generally cooperative with Moscow.","Chechen":"North Caucasian Muslims. Two devastating wars (1994-2009). Kadyrov rules with extreme autonomy for loyalty to Putin. Chechen forces in Ukraine. De facto separate governance.","Bashkir":"Turkic Muslims in Urals. Important oil region. Moderate autonomy. Stable federal relations.","Dagestani peoples":"Most ethnically diverse republic: Avars, Dargins, Kumyks, Lezgins, Laks. Islamic. Historically volatile; insurgency largely suppressed. UFC fighters raised global awareness."},cul:"East Slavic, Eastern Orthodox. Vast multiethnic federation spanning 11 time zones. Rich literary/artistic tradition. Nuclear superpower, UNSC permanent member.",ter:{p:55,h:25,m:20},pk:[{n:"Elbrus",h:5642},{n:"Dykh-Tau",h:5205},{n:"Klyuchevskaya",h:4750},{n:"Belukha",h:4506},{n:"Narodnaya",h:1895}],mtn:["Caucasus","Urals","Altai","Sayan","Kamchatka volcanoes"],pln:["East European Plain","West Siberian Plain","Central Siberian Plateau"],riv:["Volga","Ob","Yenisei","Lena","Amur","Don"],lak:["Baikal","Ladoga","Onega"],ex:[{n:"Crude Oil",p:24.5},{n:"Refined Petroleum",p:11.3},{n:"Natural Gas",p:8.7},{n:"Coal",p:3.8},{n:"Wheat",p:2.4},{n:"Gold",p:2.1}],im:[{n:"Motor Vehicles",p:7.2},{n:"Medicaments",p:3.8},{n:"Computers",p:3.1},{n:"Vehicle Parts",p:2.7},{n:"Telephones",p:2.4}],ext:[{n:"West Siberian Basin",lat:61.0,lng:73.0,r:"Oil & Gas — world's largest petroleum basin, backbone of Russian economy"},{n:"Kuzbass",lat:54.0,lng:87.0,r:"Coal — Russia's primary coal region in Kemerovo Oblast"},{n:"Norilsk",lat:69.3,lng:88.2,r:"Nickel, Palladium — world's largest nickel/palladium producer, extreme Arctic"},{n:"Yakutia Diamonds",lat:62.5,lng:134.0,r:"Diamonds — ALROSA mines, ~30% of global rough diamonds"},{n:"Sakhalin",lat:51.0,lng:143.0,r:"Oil & Gas — Pacific offshore, joint ventures with Shell/Japan"}],bas:[{n:"Severomorsk",lat:69.07,lng:33.42,t:"Northern Fleet HQ — nuclear submarine base, Arctic operations",f:0},{n:"Kaliningrad",lat:54.7,lng:20.5,t:"Baltic Fleet — exclave between NATO members, Iskander missiles",f:0},{n:"Sevastopol",lat:44.6,lng:33.5,t:"Black Sea Fleet — annexed Crimea 2014, contested",f:0},{n:"Vladivostok",lat:43.1,lng:131.9,t:"Pacific Fleet — Far East naval HQ",f:0},{n:"Tartus (SY)",lat:34.9,lng:35.9,t:"Navy Mediterranean — Russia's only Mediterranean base",f:0},{n:"Khmeimim (SY)",lat:35.4,lng:35.95,t:"VKS Air Force — primary Syria intervention base since 2015",f:0}]});
+// Continue with remaining major countries in compact format
+A("826",{n:"United Kingdom",f:"🇬🇧",c:"London",pop:67736802,a:242495,gdp:3340,gdpPC:49300,eth:[{n:"White British",p:81.7},{n:"Asian British",p:7.5},{n:"Black British",p:3.3},{n:"Mixed",p:2.2},{n:"Other",p:5.3}],ethP:{"White British":"Majority: English, Scottish, Welsh, N.Irish. Post-Brexit English nationalism. Scotland/Wales have devolved govts with distinct nationalism.","Asian British":"Indian (prosperous, business/tech), Pakistani, Bangladeshi (Midlands/North, lower avg income but growing representation).","Black British":"Caribbean Windrush + African communities. Growing representation in media, sports. Institutional racism debates ongoing."},cul:"Anglo-Saxon with Celtic influences; constitutional monarchy. Global influence via English language, literature, music, finance.",ter:{p:50,h:35,m:15},pk:[{n:"Ben Nevis",h:1345},{n:"Snowdon",h:1085},{n:"Scafell Pike",h:978}],mtn:["Scottish Highlands","Pennines","Snowdonia"],pln:["English Lowlands","East Anglia"],riv:["Thames","Severn","Trent"],lak:["Lough Neagh","Loch Lomond"],ex:[{n:"Gold",p:8.1},{n:"Motor Vehicles",p:5.2},{n:"Crude Oil",p:4.7},{n:"Medicaments",p:4.3},{n:"Gas Turbines",p:3.5}],im:[{n:"Gold",p:9.4},{n:"Motor Vehicles",p:5.8},{n:"Crude Oil",p:4.1},{n:"Refined Petroleum",p:3.2},{n:"Computers",p:2.9}],ext:[{n:"North Sea Oil",lat:57.5,lng:1.5,r:"Oil & Gas — declining but still significant offshore production"}],bas:[{n:"HMNB Portsmouth",lat:50.8,lng:-1.1,t:"Royal Navy — home port for aircraft carriers",f:0},{n:"Faslane (Clyde)",lat:56.06,lng:-4.82,t:"Nuclear Submarine — Trident SSBN base",f:0},{n:"RAF Lakenheath",lat:52.41,lng:0.56,t:"USAF — F-35 base in England",f:1},{n:"Akrotiri (CY)",lat:34.58,lng:32.99,t:"RAF — sovereign base in Cyprus",f:0}]});
+A("250",{n:"France",f:"🇫🇷",c:"Paris",pop:68042591,a:643801,gdp:3050,gdpPC:44850,eth:[{n:"French European",p:85},{n:"North African",p:8},{n:"Sub-Saharan African",p:4},{n:"Other",p:3}],ethP:{"French European":"Majority. Includes Breton, Occitan, Alsatian, Corsican, Basque regional identities. Power in Parisian grande école elite. Strong laïcité assimilationism.","North African":"Algerian, Moroccan, Tunisian origin (colonial ties). In banlieues. Higher unemployment, housing discrimination. Islam is France's 2nd religion. Source of secularism tensions.","Sub-Saharan African":"From Senegal, Mali, Cameroon, Congo. Cultural contribution in music, literature, sports. Similar integration challenges."},cul:"Latin/Gallic heritage; centralized republic. Global influence: art, philosophy, cuisine, fashion. Francophone sphere across Africa.",ter:{p:40,h:35,m:25},pk:[{n:"Mont Blanc",h:4808},{n:"Barre des Écrins",h:4102},{n:"Vignemale",h:3298}],mtn:["Alps","Pyrenees","Massif Central","Vosges","Jura"],pln:["Paris Basin","Aquitaine Basin","Rhône Valley"],riv:["Loire","Seine","Rhône","Garonne"],lak:["Geneva","Bourget","Annecy"],ex:[{n:"Aircraft",p:9.5},{n:"Medicaments",p:4.2},{n:"Motor Vehicles",p:3.8},{n:"Wine",p:2.7},{n:"Perfumes",p:2.1}],im:[{n:"Crude Oil",p:5.6},{n:"Motor Vehicles",p:4.8},{n:"Refined Petroleum",p:3.1},{n:"Natural Gas",p:2.9},{n:"Computers",p:2.5}],ext:[{n:"New Caledonia",lat:-22.2,lng:166.5,r:"Nickel — French overseas territory, ~10% of world nickel reserves"}],bas:[{n:"Toulon Naval",lat:43.1,lng:5.93,t:"Mediterranean Fleet — main French naval base",f:0},{n:"Brest Naval",lat:48.38,lng:-4.49,t:"Atlantic Fleet/SSBN — nuclear submarine deterrent",f:0},{n:"Djibouti",lat:11.55,lng:43.14,t:"Army/Navy — largest French overseas base, ~1500 troops",f:0}]});
+A("276",{n:"Germany",f:"🇩🇪",c:"Berlin",pop:84482267,a:357022,gdp:4460,gdpPC:52820,eth:[{n:"German",p:80},{n:"Turkish origin",p:3.5},{n:"Syrian/Iraqi",p:2},{n:"Polish origin",p:1.8},{n:"Other",p:12.7}],ethP:{"German":"Majority with regional identities (Bavarian, Saxon). Post-war Vergangenheitsbewältigung shapes discourse. Mittelstand SMEs backbone of economy.","Turkish origin":"Largest immigrant group since 1960s Gastarbeiter. Berlin, Ruhr, Stuttgart. 3rd gen integrating. Dual citizenship debates.","Syrian/Iraqi":"2015-16 refugee crisis. Integration mixed. Fueled AfD rise. Younger, more educated than perceived."},cul:"Central European, Germanic. Federal republic; engineering/industrial excellence. Kant, Hegel, Bach, Beethoven legacy.",ter:{p:35,h:40,m:25},pk:[{n:"Zugspitze",h:2962},{n:"Watzmann",h:2713},{n:"Feldberg",h:1493}],mtn:["Bavarian Alps","Black Forest","Harz"],pln:["North German Plain","Upper Rhine"],riv:["Rhine","Danube","Elbe","Oder"],lak:["Constance","Müritz"],ex:[{n:"Motor Vehicles",p:11.5},{n:"Vehicle Parts",p:4.8},{n:"Medicaments",p:4.2},{n:"Aircraft",p:2.1},{n:"Medical Instruments",p:1.9}],im:[{n:"Motor Vehicles",p:5.2},{n:"Crude Oil",p:4.8},{n:"Natural Gas",p:4.1},{n:"Vehicle Parts",p:3.2},{n:"Computers",p:2.7}],ext:[{n:"Lusatia",lat:51.7,lng:14.3,r:"Lignite — Germany's largest open-pit coal mining region, scheduled phase-out"}],bas:[{n:"Ramstein (US)",lat:49.44,lng:7.6,t:"USAF Europe HQ — air logistics hub for NATO",f:1},{n:"Grafenwöhr (US)",lat:49.7,lng:11.9,t:"US Army Training — largest US training area in Europe",f:1},{n:"Büchel",lat:50.17,lng:7.07,t:"Luftwaffe/NATO Nuclear — houses US B61 nuclear weapons",f:0}]});
+A("380",{n:"Italy",f:"🇮🇹",c:"Rome",pop:58870762,a:301340,gdp:2190,gdpPC:37200,eth:[{n:"Italian",p:92},{n:"Romanian",p:1.2},{n:"North African",p:1.5},{n:"Albanian",p:0.8},{n:"Other",p:4.5}],ethP:{"Italian":"Deep regional identities: Lombard, Sicilian, Neapolitan, Venetian. North-South divide defining. Power in Rome; Northern League pushed federalism.","Romanian":"Largest immigrant community post-2007 EU. Construction, caregiving. Generally integrated.","North African":"Moroccan, Tunisian, Egyptian. Agriculture (South), manufacturing (North). Mediterranean migration debates."},cul:"Latin/Roman heritage; Renaissance cradle. Roman law foundation. Regional diversity. Art, architecture, fashion, design, cuisine global influence.",ter:{p:23,h:42,m:35},pk:[{n:"Monte Bianco",h:4808},{n:"Monte Rosa",h:4634},{n:"Gran Paradiso",h:4061},{n:"Etna",h:3357},{n:"Corno Grande",h:2912}],mtn:["Alps","Apennines","Dolomites","Etna","Vesuvius"],pln:["Po Valley","Puglia"],riv:["Po","Tiber","Arno","Adige"],lak:["Garda","Como","Maggiore"],ex:[{n:"Medicaments",p:5.1},{n:"Motor Vehicles",p:3.8},{n:"Refined Petroleum",p:3.5},{n:"Wine",p:2.1},{n:"Leather",p:1.8}],im:[{n:"Crude Oil",p:7.8},{n:"Motor Vehicles",p:4.5},{n:"Natural Gas",p:4.2},{n:"Refined Petroleum",p:2.8},{n:"Medicaments",p:2.5}],ext:[{n:"Val d'Agri",lat:40.3,lng:15.9,r:"Oil — Italy's largest onshore oilfield in Basilicata"},{n:"Ravenna Offshore",lat:44.4,lng:12.8,r:"Natural Gas — Adriatic offshore gas fields"}],bas:[{n:"Sigonella (US)",lat:37.4,lng:14.92,t:"US Navy — drone hub, Mediterranean surveillance",f:1},{n:"Aviano (US)",lat:46.03,lng:12.6,t:"USAF — F-16 wing, NE Italy",f:1},{n:"Taranto Naval",lat:40.47,lng:17.2,t:"Italian Navy — major southern port",f:0}]});
+A("392",{n:"Japan",f:"🇯🇵",c:"Tokyo",pop:123294513,a:377975,gdp:4210,gdpPC:34150,eth:[{n:"Japanese",p:97.5},{n:"Chinese",p:0.6},{n:"Korean (Zainichi)",p:0.4},{n:"Filipino",p:0.3},{n:"Other",p:1.2}],ethP:{"Japanese":"Extremely homogeneous. Ainu (Hokkaido ~25k) and Ryukyuan (Okinawa) historically marginalized. Burakumin caste discrimination lingers. Aging crisis drives cautious immigration.","Korean (Zainichi)":"Colonial-era laborer descendants. Historical discrimination. Divided pro-North/pro-South. Increasing intermarriage. Historical memory tensions."},cul:"Island civilization; ancient tradition + ultra-modernity. Shinto/Buddhist. Constitutional monarchy. Tech/manufacturing powerhouse.",ter:{p:20,h:30,m:50},pk:[{n:"Fuji",h:3776},{n:"Kita-dake",h:3193},{n:"Hotaka-dake",h:3190},{n:"Asahi-dake",h:2291}],mtn:["Japanese Alps","Fuji","Daisetsuzan"],pln:["Kantō","Nōbi","Osaka"],riv:["Shinano","Tone","Ishikari"],lak:["Biwa","Kasumigaura"],ex:[{n:"Motor Vehicles",p:14.2},{n:"Vehicle Parts",p:4.8},{n:"Integrated Circuits",p:4.5},{n:"Machinery",p:3.8},{n:"Iron/Steel",p:2.9}],im:[{n:"Crude Oil",p:10.5},{n:"Natural Gas",p:6.8},{n:"Computers",p:3.1},{n:"Coal",p:2.9},{n:"Refined Petroleum",p:2.4}],bas:[{n:"Yokosuka (US)",lat:35.28,lng:139.67,t:"US 7th Fleet — only forward-deployed carrier strike group globally",f:1},{n:"Kadena (US)",lat:26.35,lng:127.77,t:"USAF Pacific — largest US air base in Pacific",f:1},{n:"JMSDF Kure",lat:34.23,lng:132.56,t:"Japan Maritime SDF — historic naval port",f:0}]});
+A("356",{n:"India",f:"🇮🇳",c:"New Delhi",pop:1428627663,a:3287263,gdp:3730,gdpPC:2610,eth:[{n:"Indo-Aryan",p:72},{n:"Dravidian",p:25},{n:"Tibeto-Burman",p:1.5},{n:"Austroasiatic",p:1},{n:"Other",p:0.5}],ethP:{"Indo-Aryan":"North India majority (Hindi, Bengali, Marathi, Gujarati). Caste system cross-cuts: Brahmin-Kshatriya-Vaishya-Shudra-Dalit hierarchy. BJP draws from Hindi-belt. Upper castes dominate elite institutions.","Dravidian":"Southern peoples (Tamil, Telugu, Kannada, Malayalam). Distinct language family. Anti-Hindi movements. Higher development in Tamil Nadu, Kerala. Dravidian parties dominate South.","Tibeto-Burman":"Northeast peoples: Naga, Mizo, Manipuri. Historically insurgent, now largely peaceful. Distinct from mainland culturally. AFSPA controversies."},cul:"Ancient multi-civilizational state; Hindu majority, large Muslim minority (~14%). 22 official languages; parliamentary federal democracy. Vast regional diversity.",ter:{p:40,h:25,m:35},pk:[{n:"Kangchenjunga",h:8586},{n:"Nanda Devi",h:7816},{n:"Kamet",h:7756}],mtn:["Himalayas","Western Ghats","Eastern Ghats","Aravalli","Vindhya"],pln:["Indo-Gangetic Plain","Deccan Plateau","Coastal Plains"],riv:["Ganges","Brahmaputra","Godavari","Krishna","Narmada"],lak:["Chilika","Vembanad","Wular"],ex:[{n:"Refined Petroleum",p:14.8},{n:"Diamonds",p:7.2},{n:"Medicaments",p:3.5},{n:"Rice",p:2.8},{n:"Jewelry",p:2.4}],im:[{n:"Crude Oil",p:22.1},{n:"Gold",p:6.5},{n:"Coal",p:4.8},{n:"Diamonds",p:4.1},{n:"Natural Gas",p:2.8}],ext:[{n:"Mumbai High",lat:19.5,lng:71.5,r:"Offshore Oil — India's largest offshore field, Arabian Sea"},{n:"Jharia",lat:23.8,lng:86.4,r:"Coal — India's largest coalfield, Jharkhand state"},{n:"Singhbhum",lat:22.5,lng:86.2,r:"Iron Ore, Copper — major mineral belt in eastern India"}],bas:[{n:"INS Kadamba",lat:14.81,lng:74.12,t:"Navy — India's third naval base, expanding",f:0},{n:"Visakhapatnam",lat:17.7,lng:83.3,t:"Eastern Naval Command — submarine base",f:0},{n:"Andaman & Nicobar",lat:11.7,lng:92.7,t:"Tri-Service — strategic Indian Ocean command",f:0}]});
+A("76",{n:"Brazil",f:"🇧🇷",c:"Brasília",pop:216422446,a:8515767,gdp:2170,gdpPC:10030,eth:[{n:"Pardo (Mixed)",p:47},{n:"White (European)",p:43},{n:"Black (Afro-Brazilian)",p:8},{n:"Indigenous",p:1},{n:"Asian",p:1}],ethP:{"Pardo (Mixed)":"Largest group; mestizo, mulato, caboclo. Centuries of mixing. Cultural mainstream (samba, carnival) draws from Pardo experience. North/Northeast concentrated.","White (European)":"Portuguese, Italian, German, Spanish descent. South/Southeast. Disproportionate in business, media, politics.","Black (Afro-Brazilian)":"Last Western Hemisphere country to abolish slavery (1888). Bahia, Rio, peripheries. Systemic inequality. Cultural powerhouse: capoeira, candomblé, funk.","Indigenous":"~305 ethnic groups, 274 languages. Amazon concentrated. Land conflicts with agribusiness. Constitutional protections inconsistently enforced."},cul:"Lusophone Latin America; rich Afro-Brazilian, Indigenous, European synthesis. Carnival, football, bossa nova. Federal presidential republic.",ter:{p:40,h:35,m:25},pk:[{n:"Pico da Neblina",h:2994},{n:"Pico da Bandeira",h:2892},{n:"Pedra da Mina",h:2798}],mtn:["Serra do Mar","Serra da Mantiqueira","Chapada Diamantina"],pln:["Amazon Basin","Pantanal","Cerrado","Pampas"],riv:["Amazon","Paraná","São Francisco","Tocantins","Negro"],lak:["Lagoa dos Patos"],ex:[{n:"Soybeans",p:13.2},{n:"Iron Ore",p:12.1},{n:"Crude Oil",p:11.4},{n:"Sugar",p:3.5},{n:"Poultry",p:2.8}],im:[{n:"Refined Petroleum",p:5.8},{n:"Vehicle Parts",p:2.9},{n:"Pesticides",p:2.5},{n:"Computers",p:2.1},{n:"Telephones",p:1.8}],ext:[{n:"Pre-salt Santos",lat:-25.0,lng:-43.0,r:"Deepwater Oil — massive subsalt reserves, Petrobras operated"},{n:"Carajás",lat:-6.0,lng:-50.3,r:"Iron Ore — world's largest iron ore mine, Vale operated"},{n:"Minas Gerais",lat:-19.9,lng:-43.9,r:"Iron Ore, Gold — historic mining state"}],bas:[{n:"Rio Naval Arsenal",lat:-22.9,lng:-43.17,t:"Brazilian Navy HQ — main naval dockyard",f:0}]});
+// Add ALL remaining countries with at least basic + 5 exports/imports
+// Remaining major + all other countries (condensed)
+A("834",{n:"Tanzania",f:"🇹🇿",c:"Dodoma",pop:65497748,a:945087,gdp:79,gdpPC:1200,eth:[{n:"Sukuma",p:16},{n:"Chagga",p:7},{n:"Haya",p:5},{n:"Nyamwezi",p:4},{n:"Other Bantu (100+)",p:63},{n:"Arab/Asian",p:5}],ethP:{"Sukuma":"Largest group in NW Tanzania. Agropastoral. No group dominates — Nyerere's ujamaa policy suppressed ethnic politics. Swahili unifies all.","Arab/Asian":"Coastal Swahili culture. Indian traders in commerce. Zanzibar semi-autonomous with distinct identity. 1964 revolution tensions."},cul:"120+ ethnic groups in harmony. Swahili lingua franca. Ujamaa legacy. Kilimanjaro, Serengeti. Muslim coast, Christian inland.",ter:{p:40,h:35,m:25},pk:[{n:"Kilimanjaro",h:5895},{n:"Meru",h:4566},{n:"Hanang",h:3417}],mtn:["Kilimanjaro","Meru","Usambara"],pln:["Serengeti","Masai Steppe"],riv:["Rufiji","Pangani","Kagera"],lak:["Victoria","Tanganyika","Nyasa"],ex:[{n:"Gold",p:28.5},{n:"Tobacco",p:6.2},{n:"Cashew Nuts",p:5.8},{n:"Coffee",p:4.1},{n:"Precious Stones",p:3.5}],im:[{n:"Refined Petroleum",p:12.5},{n:"Wheat",p:4.2},{n:"Motor Vehicles",p:3.8},{n:"Palm Oil",p:3.1},{n:"Medicaments",p:2.4}],ext:[{n:"Geita Gold",lat:-2.8,lng:32.2,r:"Gold — major gold mine, AngloGold Ashanti"},{n:"Mererani",lat:-3.5,lng:36.9,r:"Tanzanite — world's only source of this gemstone"}],bas:[{n:"Dar Naval",lat:-6.8,lng:39.28,t:"TZ Navy — small coastal patrol force",f:0}]});
+A("792",{n:"Turkey",f:"🇹🇷",c:"Ankara",pop:85816199,a:783562,gdp:1110,gdpPC:12930,eth:[{n:"Turkish",p:75},{n:"Kurdish",p:18},{n:"Arab",p:2},{n:"Circassian",p:1},{n:"Laz/Other",p:4}],ethP:{"Turkish":"Majority. Kemalist secularism redefined under Erdoğan's Islamist-nationalism. Anatolian base for AKP.","Kurdish":"Largest stateless nation. SE Turkey. PKK insurgency ~40k dead. Language suppressed until 2000s. HDP targeted. Complex PKK/KDP/religious divisions.","Arab":"Southern border. Hatay province historically Syrian. Alawite/Sunni split."},cul:"Transcontinental. Turkic-Islamic + Kemalist secular tradition. NATO member since 1952. Ottoman legacy.",ter:{p:20,h:35,m:45},pk:[{n:"Ararat",h:5137},{n:"Süphan",h:4058},{n:"Kaçkar",h:3937},{n:"Erciyes",h:3917}],mtn:["Taurus","Pontic Alps","Ararat"],pln:["Anatolian Plateau","Çukurova"],riv:["Euphrates","Tigris","Kızılırmak"],lak:["Van","Tuz"],ex:[{n:"Motor Vehicles",p:8.5},{n:"Gold",p:5.2},{n:"Vehicle Parts",p:3.8},{n:"Iron/Steel",p:3.5},{n:"Textiles",p:3.1}],im:[{n:"Gold",p:6.8},{n:"Refined Petroleum",p:5.5},{n:"Motor Vehicles",p:3.2},{n:"Iron/Steel",p:2.8},{n:"Crude Oil",p:2.5}],ext:[{n:"Batman",lat:37.88,lng:41.13,r:"Oil — SE Turkey petroleum production"},{n:"Eti Mine",lat:39.77,lng:30.52,r:"Boron — Turkey has ~73% of world boron reserves"}],bas:[{n:"Incirlik (US)",lat:37.0,lng:35.43,t:"USAF/NATO — tactical nuclear weapons stored",f:1},{n:"Aksaz Naval",lat:36.96,lng:28.37,t:"Turkish Navy — Aegean coast",f:0}]});
+A("410",{n:"South Korea",f:"🇰🇷",c:"Seoul",pop:51784059,a:100210,gdp:1710,gdpPC:33100,eth:[{n:"Korean",p:96},{n:"Chinese",p:2},{n:"Other",p:2}],cul:"Confucian heritage, K-pop/tech global influence. Divided peninsula. Chaebol economy.",ter:{p:30,h:35,m:35},pk:[{n:"Hallasan",h:1947},{n:"Jirisan",h:1915},{n:"Seoraksan",h:1708}],mtn:["Taebaek","Sobaek"],pln:["Han River Basin"],riv:["Han","Nakdong"],ex:[{n:"Integrated Circuits",p:17.5},{n:"Motor Vehicles",p:8.2},{n:"Refined Petroleum",p:5.8},{n:"Ships",p:4.1},{n:"Display Panels",p:3.5}],im:[{n:"Crude Oil",p:13.2},{n:"Integrated Circuits",p:9.8},{n:"Natural Gas",p:5.1},{n:"Refined Petroleum",p:3.2},{n:"Coal",p:2.9}],bas:[{n:"Camp Humphreys (US)",lat:36.96,lng:127.03,t:"US Army — largest overseas US base",f:1},{n:"Jinhae Naval",lat:35.14,lng:128.66,t:"ROK Navy HQ",f:0}]});
+A("682",{n:"Saudi Arabia",f:"🇸🇦",c:"Riyadh",pop:36947025,a:2149690,gdp:1060,gdpPC:28670,eth:[{n:"Saudi Arab",p:62},{n:"Foreign workers",p:38}],ethP:{"Saudi Arab":"Tribal society under Vision 2030 modernization. Al Saud (Najdi) holds power. Shia (~15%) in Eastern Province faces discrimination.","Foreign workers":"13M+ from South/SE Asia. Kafala restricts rights. No citizenship. Economy depends on them."},cul:"Sunni Islamic monarchy; Mecca/Medina custodian. Vision 2030 diversification. Wahhabi establishment.",ter:{p:35,h:30,m:35},pk:[{n:"Jabal Sawda",h:3015}],mtn:["Hejaz","Asir"],pln:["Rub' al Khali","Nafud"],ex:[{n:"Crude Oil",p:61.5},{n:"Refined Petroleum",p:9.8},{n:"Polymers",p:4.2},{n:"Chemicals",p:2.5},{n:"Aluminum",p:1.8}],im:[{n:"Motor Vehicles",p:8.5},{n:"Broadcasting Equip.",p:3.1},{n:"Telephones",p:2.8},{n:"Jewelry",p:2.2},{n:"Rice",p:1.9}],ext:[{n:"Ghawar",lat:25.4,lng:49.5,r:"Oil — world's largest conventional oilfield"}],bas:[{n:"Prince Sultan AB",lat:24.07,lng:47.58,t:"RSAF — primary air operations center",f:0}]});
+A("376",{n:"Israel",f:"🇮🇱",c:"Jerusalem (disp.)/Tel Aviv",pop:9174520,a:22072,gdp:525,gdpPC:57200,eth:[{n:"Jewish (Ashkenazi)",p:31},{n:"Jewish (Mizrahi/Sephardi)",p:30},{n:"Jewish (Other)",p:12.5},{n:"Arab",p:21},{n:"Other",p:5.5}],ethP:{"Jewish (Ashkenazi)":"European-origin. Historically dominated politics, military, judiciary. Secular/liberal leaning. Declining majority within Jewish population.","Jewish (Mizrahi/Sephardi)":"Middle Eastern/N.African origin. Now demographic majority of Jews. Shifted politics rightward. Likud base.","Arab":"Palestinian citizens. Full citizenship but systemic inequalities. Druze serve in IDF. Bedouin marginalized in Negev."},cul:"Jewish state; Hebrew-speaking. Diverse immigrant society. Parliamentary democracy. High-tech/defense leader.",ter:{p:30,h:35,m:35},pk:[{n:"Meron",h:1208}],mtn:["Golan Heights","Galilee","Judean Hills"],pln:["Coastal Plain","Negev"],riv:["Jordan"],lak:["Galilee","Dead Sea"],ex:[{n:"Integrated Circuits",p:12.1},{n:"Diamonds",p:11.5},{n:"Refined Petroleum",p:5.2},{n:"Medicaments",p:4.8},{n:"Medical Instruments",p:3.2}],im:[{n:"Crude Oil",p:8.5},{n:"Diamonds",p:7.8},{n:"Motor Vehicles",p:5.1},{n:"Computers",p:3.2},{n:"Refined Petroleum",p:2.8}],ext:[{n:"Leviathan Gas",lat:32.6,lng:34.1,r:"Natural Gas — massive offshore field, since 2020"},{n:"Negev Phosphates",lat:31.0,lng:34.8,r:"Phosphate — ICL mining operations"}],bas:[{n:"Nevatim AB",lat:31.21,lng:34.82,t:"IAF — F-35I Adir base",f:0},{n:"Haifa Naval",lat:32.82,lng:34.99,t:"Israeli Navy — Mediterranean fleet",f:0}]});
+// === ALL remaining countries (compact format, 5+ exports/imports each) ===
+A("4",{n:"Afghanistan",f:"🇦🇫",c:"Kabul",pop:41128771,a:652230,gdp:14,gdpPC:340,eth:[{n:"Pashtun",p:42},{n:"Tajik",p:27},{n:"Hazara",p:9},{n:"Uzbek",p:9},{n:"Other",p:13}],cul:"Crossroads of Central/South Asia. Islamic. Taliban rule since 2021. Pashtun tribal codes. Dari/Pashto languages.",ter:{p:20,h:30,m:50},pk:[{n:"Noshaq",h:7492}],ex:[{n:"Gold",p:25},{n:"Grapes",p:15},{n:"Opium Products",p:12},{n:"Wool",p:8},{n:"Fruits",p:7}],im:[{n:"Wheat Flour",p:12},{n:"Petroleum",p:10},{n:"Sugar",p:5},{n:"Palm Oil",p:4},{n:"Motor Vehicles",p:3}]});
+A("8",{n:"Albania",f:"🇦🇱",c:"Tirana",pop:2854000,a:28748,gdp:23,gdpPC:8060,eth:[{n:"Albanian",p:83},{n:"Greek",p:0.9},{n:"Other",p:16.1}],cul:"Illyrian heritage. Muslim/Orthodox/Catholic mix. NATO member 2009.",ter:{p:20,h:35,m:45},pk:[{n:"Korab",h:2764}],ex:[{n:"Footwear",p:18},{n:"Textiles",p:12},{n:"Iron/Steel",p:8},{n:"Crude Oil",p:6},{n:"Vegetables",p:5}],im:[{n:"Refined Petroleum",p:6},{n:"Motor Vehicles",p:5},{n:"Medicaments",p:4},{n:"Meat",p:3},{n:"Machinery",p:3}]});
+A("12",{n:"Algeria",f:"🇩🇿",c:"Algiers",pop:44903000,a:2381741,gdp:240,gdpPC:5340,eth:[{n:"Arab-Berber",p:99},{n:"Other",p:1}],cul:"Arab-Berber North Africa. French colonial legacy. Oil-dependent. FLN rule since independence.",ter:{p:60,h:15,m:25},pk:[{n:"Tahat",h:2908}],ex:[{n:"Natural Gas",p:30},{n:"Crude Oil",p:25},{n:"Refined Petroleum",p:12},{n:"Ammonia",p:3},{n:"Phosphates",p:2}],im:[{n:"Wheat",p:6},{n:"Motor Vehicles",p:5},{n:"Iron/Steel",p:4},{n:"Medicaments",p:3},{n:"Sugar",p:2}]});
+A("24",{n:"Angola",f:"🇦🇴",c:"Luanda",pop:35588987,a:1246700,gdp:124,gdpPC:3490,eth:[{n:"Ovimbundu",p:37},{n:"Mbundu",p:25},{n:"Bakongo",p:13},{n:"Other",p:25}],cul:"Lusophone Africa. Civil war legacy (1975-2002). Oil-rich. MPLA single-party dominant.",ter:{p:45,h:35,m:20},ex:[{n:"Crude Oil",p:82},{n:"Diamonds",p:5},{n:"Natural Gas",p:4},{n:"Fish",p:2},{n:"Coffee",p:1}],im:[{n:"Refined Petroleum",p:8},{n:"Food Products",p:7},{n:"Motor Vehicles",p:5},{n:"Machinery",p:4},{n:"Iron/Steel",p:3}]});
+A("32",{n:"Argentina",f:"🇦🇷",c:"Buenos Aires",pop:45810000,a:2780400,gdp:631,gdpPC:13770,eth:[{n:"European descent",p:85},{n:"Mestizo",p:7},{n:"Indigenous",p:2.4},{n:"Other",p:5.6}],cul:"European-influenced Latin America. Tango, beef, football. Economic volatility. Peronist politics.",ter:{p:45,h:25,m:30},pk:[{n:"Aconcagua",h:6961},{n:"Ojos del Salado (b.)",h:6893}],ex:[{n:"Soybean Meal",p:14},{n:"Corn",p:8},{n:"Soybeans",p:6},{n:"Motor Vehicles",p:5},{n:"Wheat",p:4}],im:[{n:"Motor Vehicles",p:8},{n:"Refined Petroleum",p:5},{n:"Vehicle Parts",p:4},{n:"Computers",p:3},{n:"Telephones",p:2}],ext:[{n:"Vaca Muerta",lat:-38.5,lng:-69.0,r:"Shale Oil/Gas — world's 2nd largest shale gas reserves"}]});
+A("36",{n:"Australia",f:"🇦🇺",c:"Canberra",pop:26439111,a:7692024,gdp:1720,gdpPC:65100,eth:[{n:"European descent",p:76},{n:"Asian",p:12},{n:"Aboriginal/Torres Strait",p:3.2},{n:"Other",p:8.8}],cul:"Anglo-Celtic settler society + growing Asian influence + ancient Indigenous heritage (65k+ years). Five Eyes member.",ter:{p:60,h:25,m:15},pk:[{n:"Kosciuszko",h:2228}],ex:[{n:"Iron Ore",p:25.2},{n:"Coal",p:12.5},{n:"Natural Gas",p:10.8},{n:"Gold",p:5.2},{n:"Aluminum",p:2.8}],im:[{n:"Refined Petroleum",p:5.8},{n:"Motor Vehicles",p:5.2},{n:"Computers",p:3.1},{n:"Telephones",p:2.5},{n:"Medicaments",p:2.1}],ext:[{n:"Pilbara",lat:-22.3,lng:118.5,r:"Iron Ore — world's largest iron ore region"},{n:"Kalgoorlie",lat:-30.75,lng:121.47,r:"Gold — Super Pit, major gold production"},{n:"Olympic Dam",lat:-30.45,lng:136.88,r:"Uranium, Copper, Gold — world's largest uranium deposit"}],bas:[{n:"Pine Gap (US/AU)",lat:-23.8,lng:133.74,t:"SIGINT — joint US-Australian intelligence facility",f:1},{n:"HMAS Stirling",lat:-32.33,lng:115.69,t:"RAN — future AUKUS submarine base",f:0}]});
+A("40",{n:"Austria",f:"🇦🇹",c:"Vienna",pop:9104000,a:83871,gdp:516,gdpPC:56650,eth:[{n:"Austrian",p:80},{n:"Turkish/Balkan",p:12},{n:"Other",p:8}],cul:"Alpine German-speaking. Habsburg legacy. Music (Mozart, Strauss). EU member. Neutral military status.",ter:{p:15,h:30,m:55},pk:[{n:"Großglockner",h:3798}],ex:[{n:"Motor Vehicles",p:6},{n:"Medicaments",p:5},{n:"Machinery",p:4},{n:"Iron/Steel",p:3},{n:"Paper",p:2}],im:[{n:"Motor Vehicles",p:7},{n:"Crude Oil",p:4},{n:"Medicaments",p:3},{n:"Computers",p:2},{n:"Natural Gas",p:2}]});
+A("50",{n:"Bangladesh",f:"🇧🇩",c:"Dhaka",pop:172954000,a:147570,gdp:460,gdpPC:2660,eth:[{n:"Bengali",p:98},{n:"Other",p:2}],cul:"Bengali Muslim majority. Garment industry powerhouse. Delta geography. Political instability cycles.",ter:{p:80,h:12,m:8},ex:[{n:"Garments",p:85},{n:"Fish",p:2},{n:"Leather",p:1.5},{n:"Jute",p:1},{n:"Footwear",p:0.8}],im:[{n:"Cotton",p:10},{n:"Refined Petroleum",p:8},{n:"Iron/Steel",p:5},{n:"Machinery",p:4},{n:"Plastics",p:3}]});
+A("56",{n:"Belgium",f:"🇧🇪",c:"Brussels",pop:11686000,a:30528,gdp:624,gdpPC:53400,eth:[{n:"Flemish",p:58},{n:"Walloon",p:31},{n:"Other",p:11}],cul:"Bilingual (Dutch/French). EU/NATO HQ. Chocolate, beer. Constitutional monarchy.",ter:{p:65,h:30,m:5},ex:[{n:"Motor Vehicles",p:8},{n:"Medicaments",p:7},{n:"Diamonds",p:5},{n:"Chemicals",p:4},{n:"Plastics",p:3}],im:[{n:"Motor Vehicles",p:8},{n:"Crude Oil",p:5},{n:"Medicaments",p:4},{n:"Natural Gas",p:3},{n:"Diamonds",p:3}]});
+A("64",{n:"Bhutan",f:"🇧🇹",c:"Thimphu",pop:787424,a:38394,gdp:2.8,gdpPC:3560,eth:[{n:"Ngalop (W.Bhutanese)",p:50},{n:"Sharchop (E.Bhutanese)",p:25},{n:"Lhotshampa (Nepali)",p:22},{n:"Other",p:3}],cul:"Himalayan Buddhist kingdom. Gross National Happiness index. Carbon-negative. Hydropower economy.",ter:{p:10,h:25,m:65},pk:[{n:"Gangkhar Puensum",h:7570}],ex:[{n:"Ferrosilicon",p:25},{n:"Electricity",p:20},{n:"Cement",p:10},{n:"Cardamom",p:5},{n:"Dolomite",p:4}],im:[{n:"Refined Petroleum",p:10},{n:"Motor Vehicles",p:8},{n:"Machinery",p:6},{n:"Iron/Steel",p:5},{n:"Rice",p:4}]});
+A("68",{n:"Bolivia",f:"🇧🇴",c:"Sucre/La Paz",pop:12388571,a:1098581,gdp:44,gdpPC:3550,eth:[{n:"Mestizo",p:68},{n:"Indigenous (Quechua)",p:18},{n:"Indigenous (Aymara)",p:11},{n:"Other",p:3}],cul:"Landlocked Andean. Indigenous majority. Lithium reserves. Coca tradition. MAS politics.",ter:{p:30,h:25,m:45},pk:[{n:"Nevado Sajama",h:6542}],ex:[{n:"Natural Gas",p:30},{n:"Zinc",p:12},{n:"Gold",p:10},{n:"Soybeans",p:8},{n:"Tin",p:5}],im:[{n:"Refined Petroleum",p:10},{n:"Motor Vehicles",p:8},{n:"Iron/Steel",p:5},{n:"Machinery",p:4},{n:"Plastics",p:3}]});
+// Continue with more countries...
+A("124",{n:"Canada",f:"🇨🇦",c:"Ottawa",pop:40097761,a:9984670,gdp:2240,gdpPC:55850,eth:[{n:"European descent",p:72},{n:"South Asian",p:6},{n:"Chinese",p:5},{n:"Indigenous",p:5},{n:"Black",p:4},{n:"Other",p:8}],cul:"Bilingual (EN/FR). Multicultural. G7. Five Eyes. NORAD. Vast resources.",ter:{p:50,h:25,m:25},pk:[{n:"Mt Logan",h:5959}],ex:[{n:"Crude Oil",p:18.5},{n:"Motor Vehicles",p:7.2},{n:"Gold",p:4.8},{n:"Natural Gas",p:3.5},{n:"Wood",p:2.8}],im:[{n:"Motor Vehicles",p:8.1},{n:"Vehicle Parts",p:3.5},{n:"Computers",p:3.2},{n:"Crude Oil",p:2.8},{n:"Telephones",p:2.1}],ext:[{n:"Oil Sands",lat:56.7,lng:-111.4,r:"Bitumen — world's 3rd largest oil reserves"},{n:"Sudbury",lat:46.49,lng:-81.0,r:"Nickel — major nickel mining basin"}],bas:[{n:"CFB Halifax",lat:44.65,lng:-63.57,t:"RCN Atlantic — NATO Atlantic fleet",f:0},{n:"CFS Alert",lat:82.5,lng:-62.35,t:"SIGINT — northernmost permanently inhabited place",f:0}]});
+A("152",{n:"Chile",f:"🇨🇱",c:"Santiago",pop:19493000,a:756102,gdp:335,gdpPC:17180,eth:[{n:"Mestizo/White",p:88},{n:"Mapuche",p:10},{n:"Other Indigenous",p:2}],cul:"Andes western coast. Most stable Latin American economy. Copper powerhouse. Wine.",ter:{p:20,h:25,m:55},pk:[{n:"Ojos del Salado",h:6893}],ex:[{n:"Copper",p:48},{n:"Lithium",p:5},{n:"Fish",p:4},{n:"Fruit",p:3},{n:"Wine",p:2}],im:[{n:"Crude Oil",p:8},{n:"Motor Vehicles",p:5},{n:"Refined Petroleum",p:4},{n:"Natural Gas",p:3},{n:"Telephones",p:2}],ext:[{n:"Chuquicamata",lat:-22.3,lng:-68.9,r:"Copper — world's largest open-pit copper mine"}]});
+A("170",{n:"Colombia",f:"🇨🇴",c:"Bogotá",pop:52085000,a:1141748,gdp:363,gdpPC:6970,eth:[{n:"Mestizo",p:49},{n:"White",p:37},{n:"Afro-Colombian",p:10.6},{n:"Indigenous",p:3.4}],cul:"Andean + Caribbean. FARC peace accord 2016. Coffee, emeralds, biodiversity hotspot.",ter:{p:35,h:30,m:35},pk:[{n:"Cristóbal Colón",h:5775}],ex:[{n:"Crude Oil",p:32},{n:"Coal",p:12},{n:"Coffee",p:7},{n:"Gold",p:5},{n:"Cut Flowers",p:4}],im:[{n:"Refined Petroleum",p:6},{n:"Motor Vehicles",p:5},{n:"Computers",p:3},{n:"Medicaments",p:3},{n:"Corn",p:2}]});
+A("180",{n:"DR Congo",f:"🇨🇩",c:"Kinshasa",pop:102262000,a:2344858,gdp:66,gdpPC:645,eth:[{n:"Luba",p:18},{n:"Kongo",p:16},{n:"Mongo",p:14},{n:"Mangbetu-Azande",p:10},{n:"Other (200+)",p:42}],cul:"Central Africa. Immense mineral wealth. Conflict minerals. 200+ ethnic groups. French-speaking.",ter:{p:40,h:35,m:25},pk:[{n:"Margherita Peak",h:5109}],ex:[{n:"Cobalt",p:40},{n:"Copper",p:25},{n:"Crude Oil",p:5},{n:"Diamonds",p:4},{n:"Gold",p:3}],im:[{n:"Refined Petroleum",p:12},{n:"Medicaments",p:5},{n:"Foodstuffs",p:4},{n:"Motor Vehicles",p:3},{n:"Cement",p:2}]});
+A("360",{n:"Indonesia",f:"🇮🇩",c:"Jakarta",pop:277534122,a:1904569,gdp:1420,gdpPC:5110,eth:[{n:"Javanese",p:40},{n:"Sundanese",p:15},{n:"Malay",p:3.7},{n:"Batak",p:3.6},{n:"Other (300+)",p:37.7}],cul:"World's largest archipelago (17k+ islands). Largest Muslim-majority nation. 700+ languages. Pancasila state philosophy.",ter:{p:35,h:30,m:35},pk:[{n:"Puncak Jaya",h:4884}],ex:[{n:"Palm Oil",p:11.5},{n:"Coal",p:10.2},{n:"Natural Gas",p:5.8},{n:"Rubber",p:3.1},{n:"Nickel",p:2.8}],im:[{n:"Refined Petroleum",p:7.2},{n:"Crude Oil",p:5.1},{n:"Telephones",p:2.8},{n:"Wheat",p:2.5},{n:"Iron/Steel",p:2.2}],ext:[{n:"Grasberg",lat:-4.05,lng:137.12,r:"Gold, Copper — world's largest gold mine + 2nd copper"},{n:"Morowali",lat:-2.9,lng:121.7,r:"Nickel — Indonesian Morowali Industrial Park, Chinese-funded"}],bas:[{n:"Natuna",lat:3.9,lng:108.4,t:"Military — border patrol near contested South China Sea",f:0}]});
+A("364",{n:"Iran",f:"🇮🇷",c:"Tehran",pop:88550922,a:1648195,gdp:401,gdpPC:4530,eth:[{n:"Persian",p:61},{n:"Azeri",p:16},{n:"Kurd",p:10},{n:"Lur",p:6},{n:"Arab",p:2},{n:"Baloch",p:2},{n:"Other",p:3}],cul:"Ancient Persian civilization (Cyrus, Darius). Shia Islam state religion. Theocratic republic. Rich literary tradition (Hafez, Rumi, Ferdowsi).",ter:{p:20,h:30,m:50},pk:[{n:"Damavand",h:5610}],ex:[{n:"Crude Oil",p:48.5},{n:"Refined Petroleum",p:8.2},{n:"Polymers",p:5.1},{n:"Petrochemicals",p:3.5},{n:"Iron/Steel",p:2.8}],im:[{n:"Motor Vehicles",p:6.2},{n:"Cereals",p:4.1},{n:"Machinery",p:3.5},{n:"Iron/Steel",p:3},{n:"Rice",p:2.5}],ext:[{n:"South Pars",lat:27.0,lng:52.0,r:"Natural Gas — world's largest gas field (shared with Qatar)"},{n:"Sar Cheshmeh",lat:29.9,lng:55.9,r:"Copper — one of world's largest copper mines"}],bas:[{n:"Bandar Abbas",lat:27.19,lng:56.28,t:"Navy — Strait of Hormuz control",f:0}]});
+A("484",{n:"Mexico",f:"🇲🇽",c:"Mexico City",pop:128455567,a:1964375,gdp:1790,gdpPC:13930,eth:[{n:"Mestizo",p:62},{n:"Indigenous",p:21},{n:"European descent",p:10},{n:"Afro-Mexican",p:2},{n:"Other",p:5}],cul:"Latin America with rich pre-Columbian heritage (Aztec, Maya). Spanish-speaking. Muralism, cuisine, Día de los Muertos.",ter:{p:30,h:35,m:35},pk:[{n:"Pico de Orizaba",h:5636}],ex:[{n:"Motor Vehicles",p:12.1},{n:"Computers",p:5.8},{n:"Vehicle Parts",p:4.5},{n:"Crude Oil",p:4.2},{n:"Electrical Equip.",p:3.5}],im:[{n:"Refined Petroleum",p:5.5},{n:"Vehicle Parts",p:5.1},{n:"Integrated Circuits",p:4.2},{n:"Motor Vehicles",p:3.8},{n:"Computers",p:3.1}],ext:[{n:"Fresnillo",lat:23.18,lng:-102.87,r:"Silver — world's largest silver producer"}]});
+A("566",{n:"Nigeria",f:"🇳🇬",c:"Abuja",pop:223804632,a:923768,gdp:475,gdpPC:2120,eth:[{n:"Hausa",p:30},{n:"Yoruba",p:15.5},{n:"Igbo",p:15.2},{n:"Fulani",p:6},{n:"Ijaw",p:2},{n:"Other (250+)",p:31.3}],cul:"Most populous African nation. 500+ languages. Muslim north, Christian south. Oil-dependent economy. Federal republic.",ter:{p:50,h:30,m:20},pk:[{n:"Chappal Waddi",h:2419}],ex:[{n:"Crude Oil",p:72.5},{n:"Natural Gas",p:8.2},{n:"Cocoa",p:2.1},{n:"Ships",p:1.5},{n:"Rubber",p:1}],im:[{n:"Refined Petroleum",p:18.5},{n:"Wheat",p:4.2},{n:"Motor Vehicles",p:3.1},{n:"Sugar",p:2.5},{n:"Plastics",p:2}],ext:[{n:"Niger Delta",lat:5.0,lng:6.5,r:"Oil & Gas — epicenter of Nigeria's oil production, environmental damage"}]});
+A("586",{n:"Pakistan",f:"🇵🇰",c:"Islamabad",pop:240485658,a:881913,gdp:340,gdpPC:1410,eth:[{n:"Punjabi",p:44},{n:"Pashtun",p:15},{n:"Sindhi",p:14},{n:"Saraiki",p:8},{n:"Muhajir",p:7},{n:"Baloch",p:4},{n:"Other",p:8}],cul:"Islamic republic. Indo-Islamic civilization. Nuclear-armed. Kashmir dispute. Geopolitical crossroads.",ter:{p:35,h:25,m:40},pk:[{n:"K2",h:8611},{n:"Nanga Parbat",h:8126}],ex:[{n:"Textiles",p:22.5},{n:"Rice",p:8.1},{n:"Leather",p:3.2},{n:"Cotton",p:2.5},{n:"Surgical Instruments",p:2}],im:[{n:"Crude Oil",p:12.5},{n:"Refined Petroleum",p:8.2},{n:"Natural Gas",p:5.1},{n:"Palm Oil",p:3.5},{n:"Iron/Steel",p:3}],ext:[{n:"Thar Coal",lat:24.8,lng:70.2,r:"Coal — massive deposits being developed with Chinese investment"}],bas:[{n:"Gwadar (CN funded)",lat:25.12,lng:62.33,t:"Navy — CPEC strategic port, Chinese-funded",f:1}]});
+A("616",{n:"Poland",f:"🇵🇱",c:"Warsaw",pop:37950802,a:312696,gdp:842,gdpPC:22180,eth:[{n:"Polish",p:96.9},{n:"Silesian",p:1.1},{n:"Other",p:2}],cul:"Central European Slavic. Roman Catholic identity. Chopin, Copernicus. NATO frontline. Fast-growing economy.",ter:{p:55,h:30,m:15},pk:[{n:"Rysy",h:2499}],ex:[{n:"Motor Vehicles",p:6.5},{n:"Vehicle Parts",p:5.2},{n:"Furniture",p:3.8},{n:"Computers",p:2.9},{n:"Processed Foods",p:2.5}],im:[{n:"Crude Oil",p:4.5},{n:"Motor Vehicles",p:4.2},{n:"Medicaments",p:3.1},{n:"Natural Gas",p:2.8},{n:"Vehicle Parts",p:2.5}],ext:[{n:"KGHM Lubin",lat:51.4,lng:16.2,r:"Copper, Silver — Europe's largest copper mine"}],bas:[{n:"Redzikowo (US)",lat:54.48,lng:17.1,t:"US Aegis BMD — ballistic missile defense site",f:1}]});
+A("710",{n:"South Africa",f:"🇿🇦",c:"Pretoria/Cape Town/Bloemfontein",pop:60414495,a:1219090,gdp:399,gdpPC:6600,eth:[{n:"Black African",p:81},{n:"Coloured",p:8.9},{n:"White",p:7.8},{n:"Indian/Asian",p:2.3}],ethP:{"Black African":"Zulu (22%), Xhosa (16%), Sotho, Tswana. ANC dominant since 1994. BEE policies. Majority but economic gap persists.","Coloured":"Mixed heritage community mainly in Western Cape. Distinct cultural identity. Afrikaans-speaking.","White":"Afrikaner + English. Still controls significant economic assets. Emigration trend. DA political base."},cul:"'Rainbow Nation'; 11 official languages. Post-apartheid democracy. Most industrialized African economy.",ter:{p:35,h:40,m:25},pk:[{n:"Thabana Ntlenyana",h:3482}],ex:[{n:"Gold",p:12.5},{n:"Platinum",p:10.2},{n:"Iron Ore",p:8.5},{n:"Motor Vehicles",p:5.1},{n:"Coal",p:4.8}],im:[{n:"Crude Oil",p:12.5},{n:"Refined Petroleum",p:5.2},{n:"Motor Vehicles",p:3.8},{n:"Computers",p:2.5},{n:"Telephones",p:2.1}],ext:[{n:"Witwatersrand",lat:-26.2,lng:27.9,r:"Gold — historic gold reef, declining"},{n:"Bushveld Complex",lat:-24.5,lng:29.0,r:"Platinum — ~70% of world's platinum"},{n:"Kimberley",lat:-28.73,lng:24.77,r:"Diamonds — De Beers historic mines"}],bas:[{n:"Simon's Town",lat:-34.19,lng:18.44,t:"SA Navy HQ — Cape route protection",f:0}]});
+A("804",{n:"Ukraine",f:"🇺🇦",c:"Kyiv",pop:36744634,a:603500,gdp:179,gdpPC:4870,eth:[{n:"Ukrainian",p:77.8},{n:"Russian",p:17.3},{n:"Other",p:4.9}],cul:"East Slavic. Cossack heritage. European breadbasket. Orthodox. Ongoing conflict with Russia since 2014/2022.",ter:{p:65,h:25,m:10},pk:[{n:"Hoverla",h:2061}],ex:[{n:"Corn",p:12.5},{n:"Sunflower Oil",p:10.8},{n:"Iron Ore",p:8.2},{n:"Wheat",p:5.5},{n:"Iron/Steel",p:4.2}],im:[{n:"Refined Petroleum",p:8.5},{n:"Natural Gas",p:6.2},{n:"Motor Vehicles",p:3.1},{n:"Coal",p:2.8},{n:"Medicaments",p:2.5}],ext:[{n:"Kryvyi Rih",lat:47.9,lng:33.4,r:"Iron Ore — major steel/iron production center"}],bas:[{n:"Odesa Naval",lat:46.49,lng:30.74,t:"Ukrainian Navy — primary naval base",f:0}]});
+// Short entries for all remaining countries
+var S=function(id,n,f,c,pop,a,gdp,gdpPC,ex,im){DB[id]={n:n,f:f,c:c,pop:pop,a:a,gdp:gdp,gdpPC:gdpPC,ex:ex||[],im:im||[]}};
+S("70","Bosnia & Herzegovina","🇧🇦","Sarajevo",3271000,51197,25,7640,[{n:"Furniture",p:8},{n:"Electricity",p:6},{n:"Footwear",p:5},{n:"Iron/Steel",p:4},{n:"Aluminum",p:3}],[{n:"Crude Oil",p:5},{n:"Motor Vehicles",p:4},{n:"Medicaments",p:3},{n:"Food",p:3},{n:"Machinery",p:2}]);
+S("72","Botswana","🇧🇼","Gaborone",2588423,581730,19,7350,[{n:"Diamonds",p:88},{n:"Copper",p:3},{n:"Nickel",p:2},{n:"Beef",p:2},{n:"Soda Ash",p:1}],[{n:"Diamonds",p:15},{n:"Refined Petroleum",p:8},{n:"Motor Vehicles",p:5},{n:"Machinery",p:4},{n:"Food",p:3}]);
+S("100","Bulgaria","🇧🇬","Sofia",6520000,110879,103,15810,[{n:"Copper",p:8},{n:"Wheat",p:5},{n:"Medicaments",p:4},{n:"Sunflower",p:4},{n:"Refined Petroleum",p:3}],[{n:"Crude Oil",p:8},{n:"Natural Gas",p:5},{n:"Copper",p:4},{n:"Motor Vehicles",p:3},{n:"Medicaments",p:2}]);
+S("104","Myanmar","🇲🇲","Naypyidaw",54179000,676578,65,1200,[{n:"Natural Gas",p:20},{n:"Garments",p:15},{n:"Gemstones",p:10},{n:"Rice",p:5},{n:"Fish",p:4}],[{n:"Refined Petroleum",p:10},{n:"Fabrics",p:8},{n:"Motor Vehicles",p:5},{n:"Iron/Steel",p:4},{n:"Machinery",p:3}]);
+S("108","Burundi","🇧🇮","Gitega",13238559,27834,3,240,[{n:"Gold",p:40},{n:"Coffee",p:20},{n:"Tea",p:10},{n:"Coltan",p:5},{n:"Sugar",p:3}],[{n:"Refined Petroleum",p:15},{n:"Medicaments",p:5},{n:"Cement",p:4},{n:"Iron/Steel",p:3},{n:"Food",p:3}]);
+S("112","Belarus","🇧🇾","Minsk",9200000,207600,72,7820,[{n:"Refined Petroleum",p:22},{n:"Potash",p:10},{n:"Cheese",p:4},{n:"Motor Vehicles",p:3},{n:"Lumber",p:3}],[{n:"Crude Oil",p:20},{n:"Natural Gas",p:8},{n:"Motor Vehicles",p:5},{n:"Iron/Steel",p:3},{n:"Medicaments",p:2}]);
+S("116","Cambodia","🇰🇭","Phnom Penh",17168000,181035,32,1860,[{n:"Garments",p:60},{n:"Footwear",p:8},{n:"Rice",p:3},{n:"Rubber",p:2},{n:"Fish",p:2}],[{n:"Fabrics",p:15},{n:"Refined Petroleum",p:8},{n:"Motor Vehicles",p:5},{n:"Machinery",p:4},{n:"Iron/Steel",p:3}]);
+S("120","Cameroon","🇨🇲","Yaoundé",28647000,475442,45,1570,[{n:"Crude Oil",p:30},{n:"Cocoa",p:12},{n:"Lumber",p:8},{n:"Aluminum",p:5},{n:"Coffee",p:3}],[{n:"Refined Petroleum",p:10},{n:"Rice",p:5},{n:"Fish",p:4},{n:"Wheat",p:3},{n:"Medicaments",p:3}]);
+S("140","Central African Rep.","🇨🇫","Bangui",5742000,622984,2.5,440,[{n:"Diamonds",p:35},{n:"Lumber",p:25},{n:"Coffee",p:10},{n:"Cotton",p:5},{n:"Gold",p:4}],[{n:"Refined Petroleum",p:12},{n:"Food",p:8},{n:"Machinery",p:5},{n:"Motor Vehicles",p:4},{n:"Textiles",p:3}]);
+S("144","Sri Lanka","🇱🇰","Colombo",22156000,65610,84,3800,[{n:"Garments",p:40},{n:"Tea",p:12},{n:"Rubber",p:5},{n:"Fish",p:3},{n:"Gemstones",p:2}],[{n:"Refined Petroleum",p:10},{n:"Motor Vehicles",p:5},{n:"Fabrics",p:4},{n:"Medicaments",p:3},{n:"Iron/Steel",p:2}]);
+S("148","Chad","🇹🇩","N'Djamena",18278568,1284000,12,660,[{n:"Crude Oil",p:85},{n:"Cotton",p:3},{n:"Gold",p:2},{n:"Livestock",p:2},{n:"Gum Arabic",p:1}],[{n:"Refined Petroleum",p:12},{n:"Machinery",p:8},{n:"Food",p:5},{n:"Motor Vehicles",p:4},{n:"Cement",p:3}]);
+S("178","Congo","🇨🇬","Brazzaville",6106000,342000,14,2310,[{n:"Crude Oil",p:75},{n:"Lumber",p:8},{n:"Copper",p:3},{n:"Sugar",p:2},{n:"Diamonds",p:1}],[{n:"Refined Petroleum",p:8},{n:"Food",p:6},{n:"Motor Vehicles",p:5},{n:"Machinery",p:4},{n:"Iron/Steel",p:3}]);
+S("188","Costa Rica","🇨🇷","San José",5212000,51100,69,13240,[{n:"Medical Instruments",p:20},{n:"Bananas",p:8},{n:"Pineapples",p:6},{n:"Coffee",p:4},{n:"Integrated Circuits",p:3}],[{n:"Refined Petroleum",p:5},{n:"Motor Vehicles",p:5},{n:"Medicaments",p:3},{n:"Computers",p:3},{n:"Plastics",p:2}]);
+S("191","Croatia","🇭🇷","Zagreb",3855000,56594,82,21250,[{n:"Refined Petroleum",p:8},{n:"Medicaments",p:6},{n:"Electricity",p:4},{n:"Lumber",p:3},{n:"Fish",p:3}],[{n:"Crude Oil",p:6},{n:"Motor Vehicles",p:5},{n:"Medicaments",p:4},{n:"Natural Gas",p:3},{n:"Food",p:2}]);
+S("192","Cuba","🇨🇺","Havana",11212000,109884,107,9540,[{n:"Tobacco",p:15},{n:"Sugar",p:12},{n:"Nickel",p:10},{n:"Medicaments",p:8},{n:"Fish",p:5}],[{n:"Crude Oil",p:15},{n:"Poultry",p:5},{n:"Wheat",p:4},{n:"Corn",p:3},{n:"Medicaments",p:3}]);
+S("196","Cyprus","🇨🇾","Nicosia",1251000,9251,31,24870,[{n:"Refined Petroleum",p:15},{n:"Ships",p:10},{n:"Citrus",p:5},{n:"Cheese",p:4},{n:"Medicaments",p:3}],[{n:"Refined Petroleum",p:10},{n:"Motor Vehicles",p:5},{n:"Ships",p:4},{n:"Medicaments",p:3},{n:"Food",p:2}]);
+S("203","Czechia","🇨🇿","Prague",10827000,78867,330,30470,[{n:"Motor Vehicles",p:15},{n:"Vehicle Parts",p:6},{n:"Computers",p:4},{n:"Machinery",p:3},{n:"Electrical Equip.",p:3}],[{n:"Motor Vehicles",p:5},{n:"Vehicle Parts",p:4},{n:"Natural Gas",p:3},{n:"Crude Oil",p:3},{n:"Computers",p:2}]);
+S("204","Benin","🇧🇯","Porto-Novo",13352864,112622,18,1350,[{n:"Cotton",p:30},{n:"Cashews",p:15},{n:"Palm Oil",p:5},{n:"Shea Butter",p:4},{n:"Pineapples",p:3}],[{n:"Rice",p:8},{n:"Refined Petroleum",p:7},{n:"Motor Vehicles",p:5},{n:"Poultry",p:4},{n:"Cement",p:3}]);
+S("208","Denmark","🇩🇰","Copenhagen",5946000,43094,405,68090,[{n:"Medicaments",p:12},{n:"Machinery",p:5},{n:"Pork",p:4},{n:"Wind Turbines",p:4},{n:"Fish",p:3}],[{n:"Motor Vehicles",p:5},{n:"Computers",p:3},{n:"Clothing",p:3},{n:"Medicaments",p:2},{n:"Telephones",p:2}]);
+S("214","Dominican Republic","🇩🇴","Santo Domingo",11228000,48671,113,10080,[{n:"Gold",p:15},{n:"Medical Instruments",p:10},{n:"Tobacco",p:8},{n:"Bananas",p:5},{n:"Footwear",p:4}],[{n:"Refined Petroleum",p:10},{n:"Motor Vehicles",p:5},{n:"Natural Gas",p:4},{n:"Medicaments",p:3},{n:"Iron/Steel",p:2}]);
+S("818","Egypt","🇪🇬","Cairo",112716598,1002450,395,3500,[{n:"Refined Petroleum",p:10.2},{n:"Crude Oil",p:8.5},{n:"Natural Gas",p:7.1},{n:"Fertilizers",p:4.2},{n:"Citrus",p:2.5}],[{n:"Wheat",p:6.5},{n:"Refined Petroleum",p:5.8},{n:"Crude Oil",p:4.2},{n:"Motor Vehicles",p:3.1},{n:"Iron/Steel",p:2.5}]);
+S("218","Ecuador","🇪🇨","Quito",18001000,283561,118,6560,[{n:"Crude Oil",p:32},{n:"Bananas",p:12},{n:"Shrimp",p:10},{n:"Cut Flowers",p:5},{n:"Cocoa",p:4}],[{n:"Refined Petroleum",p:8},{n:"Motor Vehicles",p:5},{n:"Telephones",p:3},{n:"Medicaments",p:2},{n:"Iron/Steel",p:2}]);
+S("222","El Salvador","🇸🇻","San Salvador",6364000,21041,32,5040,[{n:"Textiles",p:35},{n:"Coffee",p:8},{n:"Sugar",p:4},{n:"Plastics",p:3},{n:"Paper",p:2}],[{n:"Refined Petroleum",p:8},{n:"Textiles",p:6},{n:"Motor Vehicles",p:4},{n:"Medicaments",p:3},{n:"Food",p:3}]);
+S("231","Ethiopia","🇪🇹","Addis Ababa",126527000,1104300,156,1230,[{n:"Coffee",p:25},{n:"Oil Seeds",p:10},{n:"Gold",p:8},{n:"Flowers",p:5},{n:"Vegetables",p:4}],[{n:"Refined Petroleum",p:10},{n:"Wheat",p:5},{n:"Machinery",p:4},{n:"Motor Vehicles",p:3},{n:"Iron/Steel",p:3}]);
+S("232","Eritrea","🇪🇷","Asmara",3748901,117600,2.3,610,[{n:"Gold",p:50},{n:"Zinc",p:15},{n:"Fish",p:5},{n:"Livestock",p:3},{n:"Salt",p:2}],[{n:"Food",p:15},{n:"Machinery",p:10},{n:"Refined Petroleum",p:8},{n:"Metal Products",p:5},{n:"Motor Vehicles",p:4}]);
+S("233","Estonia","🇪🇪","Tallinn",1366000,45228,41,30020,[{n:"Electronics",p:12},{n:"Mineral Fuels",p:8},{n:"Lumber",p:6},{n:"Food",p:5},{n:"Machinery",p:4}],[{n:"Motor Vehicles",p:6},{n:"Refined Petroleum",p:5},{n:"Computers",p:4},{n:"Machinery",p:3},{n:"Medicaments",p:2}]);
+S("242","Fiji","🇫🇯","Suva",929766,18274,5,5370,[{n:"Fish",p:15},{n:"Sugar",p:12},{n:"Water",p:10},{n:"Timber",p:5},{n:"Garments",p:4}],[{n:"Refined Petroleum",p:12},{n:"Motor Vehicles",p:5},{n:"Food",p:4},{n:"Machinery",p:3},{n:"Cement",p:2}]);
+S("246","Finland","🇫🇮","Helsinki",5541000,338424,300,54160,[{n:"Refined Petroleum",p:8},{n:"Paper",p:6},{n:"Motor Vehicles",p:5},{n:"Iron/Steel",p:4},{n:"Lumber",p:3}],[{n:"Crude Oil",p:8},{n:"Motor Vehicles",p:5},{n:"Computers",p:3},{n:"Medicaments",p:3},{n:"Iron/Steel",p:2}]);
+S("266","Gabon","🇬🇦","Libreville",2397368,267668,21,8770,[{n:"Crude Oil",p:65},{n:"Manganese",p:10},{n:"Lumber",p:8},{n:"Palm Oil",p:3},{n:"Gold",p:2}],[{n:"Food",p:10},{n:"Machinery",p:8},{n:"Motor Vehicles",p:5},{n:"Refined Petroleum",p:4},{n:"Iron/Steel",p:3}]);
+S("268","Georgia","🇬🇪","Tbilisi",3729000,69700,28,7510,[{n:"Copper",p:15},{n:"Motor Vehicles",p:10},{n:"Wine",p:5},{n:"Nuts",p:4},{n:"Mineral Water",p:3}],[{n:"Motor Vehicles",p:8},{n:"Crude Oil",p:6},{n:"Medicaments",p:4},{n:"Copper",p:3},{n:"Natural Gas",p:3}]);
+S("270","Gambia","🇬🇲","Banjul",2773168,11300,2.1,760,[{n:"Peanuts",p:25},{n:"Fish",p:20},{n:"Cotton",p:5},{n:"Palm Kernels",p:4},{n:"Fruits",p:3}],[{n:"Refined Petroleum",p:10},{n:"Food",p:8},{n:"Machinery",p:5},{n:"Motor Vehicles",p:4},{n:"Textiles",p:3}]);
+S("288","Ghana","🇬🇭","Accra",33476000,238533,77,2300,[{n:"Gold",p:40},{n:"Crude Oil",p:18},{n:"Cocoa",p:15},{n:"Manganese",p:3},{n:"Cashews",p:2}],[{n:"Refined Petroleum",p:8},{n:"Motor Vehicles",p:5},{n:"Rice",p:4},{n:"Machinery",p:3},{n:"Cement",p:2}]);
+S("300","Greece","🇬🇷","Athens",10341000,131957,239,23130,[{n:"Refined Petroleum",p:22},{n:"Aluminum",p:4},{n:"Olive Oil",p:3},{n:"Fish",p:3},{n:"Medicaments",p:2}],[{n:"Crude Oil",p:12},{n:"Refined Petroleum",p:5},{n:"Natural Gas",p:4},{n:"Motor Vehicles",p:3},{n:"Medicaments",p:2}]);
+S("320","Guatemala","🇬🇹","Guatemala City",17109746,108889,92,5350,[{n:"Bananas",p:10},{n:"Coffee",p:8},{n:"Sugar",p:6},{n:"Palm Oil",p:5},{n:"Textiles",p:4}],[{n:"Refined Petroleum",p:8},{n:"Motor Vehicles",p:5},{n:"Machinery",p:4},{n:"Medicaments",p:3},{n:"Plastics",p:2}]);
+S("324","Guinea","🇬🇳","Conakry",14190612,245857,21,1480,[{n:"Gold",p:35},{n:"Aluminum Ore",p:30},{n:"Diamonds",p:5},{n:"Fish",p:3},{n:"Coffee",p:2}],[{n:"Refined Petroleum",p:12},{n:"Rice",p:8},{n:"Food",p:5},{n:"Motor Vehicles",p:4},{n:"Machinery",p:3}]);
+S("340","Honduras","🇭🇳","Tegucigalpa",10433000,112492,32,3070,[{n:"Coffee",p:20},{n:"Bananas",p:8},{n:"Palm Oil",p:6},{n:"Textiles",p:5},{n:"Shrimp",p:4}],[{n:"Refined Petroleum",p:10},{n:"Motor Vehicles",p:5},{n:"Machinery",p:4},{n:"Food",p:3},{n:"Plastics",p:3}]);
+S("348","Hungary","🇭🇺","Budapest",10156000,93028,212,20880,[{n:"Motor Vehicles",p:10},{n:"Vehicle Parts",p:5},{n:"Medicaments",p:4},{n:"Electronics",p:4},{n:"Machinery",p:3}],[{n:"Motor Vehicles",p:5},{n:"Natural Gas",p:4},{n:"Crude Oil",p:3},{n:"Medicaments",p:3},{n:"Vehicle Parts",p:3}]);
+S("352","Iceland","🇮🇸","Reykjavik",388000,103000,31,79900,[{n:"Fish",p:35},{n:"Aluminum",p:30},{n:"Ferrosilicon",p:5},{n:"Medical Equip.",p:3},{n:"Diatomite",p:2}],[{n:"Motor Vehicles",p:8},{n:"Refined Petroleum",p:5},{n:"Food",p:4},{n:"Machinery",p:3},{n:"Aluminum Ore",p:3}]);
+S("368","Iraq","🇮🇶","Baghdad",44496000,438317,264,5930,[{n:"Crude Oil",p:92},{n:"Gold",p:2},{n:"Dates",p:1},{n:"Natural Gas",p:1},{n:"Sulfur",p:0.5}],[{n:"Refined Petroleum",p:12},{n:"Motor Vehicles",p:5},{n:"Medicaments",p:4},{n:"Food",p:3},{n:"Iron/Steel",p:2}]);
+S("372","Ireland","🇮🇪","Dublin",5149000,70273,533,103500,[{n:"Medicaments",p:25},{n:"Medical Instruments",p:8},{n:"Computers",p:6},{n:"Organic Chemicals",p:5},{n:"Perfumes",p:3}],[{n:"Aircraft",p:12},{n:"Computers",p:5},{n:"Refined Petroleum",p:4},{n:"Motor Vehicles",p:3},{n:"Medicaments",p:3}]);
+S("384","Côte d'Ivoire","🇨🇮","Yamoussoukro",28160542,322463,74,2640,[{n:"Cocoa",p:35},{n:"Refined Petroleum",p:8},{n:"Rubber",p:5},{n:"Gold",p:4},{n:"Cashews",p:3}],[{n:"Crude Oil",p:10},{n:"Rice",p:5},{n:"Fish",p:4},{n:"Medicaments",p:3},{n:"Motor Vehicles",p:3}]);
+S("398","Kazakhstan","🇰🇿","Astana",19621000,2724900,260,13250,[{n:"Crude Oil",p:55},{n:"Natural Gas",p:5},{n:"Copper",p:4},{n:"Uranium",p:3},{n:"Wheat",p:2}],[{n:"Motor Vehicles",p:6},{n:"Machinery",p:5},{n:"Iron/Steel",p:4},{n:"Refined Petroleum",p:3},{n:"Computers",p:2}]);
+S("404","Kenya","🇰🇪","Nairobi",55100000,580367,113,2050,[{n:"Tea",p:20},{n:"Cut Flowers",p:8},{n:"Coffee",p:5},{n:"Vegetables",p:4},{n:"Titanium",p:3}],[{n:"Refined Petroleum",p:12},{n:"Motor Vehicles",p:5},{n:"Iron/Steel",p:4},{n:"Palm Oil",p:3},{n:"Wheat",p:3}]);
+S("408","North Korea","🇰🇵","Pyongyang",26069000,120538,18,690,[{n:"Coal",p:30},{n:"Textiles",p:15},{n:"Iron/Steel",p:10},{n:"Fish",p:5},{n:"Minerals",p:5}],[{n:"Crude Oil",p:15},{n:"Food",p:12},{n:"Machinery",p:8},{n:"Textiles",p:5},{n:"Plastics",p:3}]);
+S("414","Kuwait","🇰🇼","Kuwait City",4310000,17818,164,38060,[{n:"Crude Oil",p:80},{n:"Refined Petroleum",p:8},{n:"Polymers",p:2},{n:"Chemicals",p:1.5},{n:"Aluminum",p:1}],[{n:"Motor Vehicles",p:8},{n:"Telephones",p:4},{n:"Broadcasting Equip.",p:3},{n:"Jewelry",p:3},{n:"Food",p:2}]);
+S("417","Kyrgyzstan","🇰🇬","Bishkek",6975000,199951,12,1720,[{n:"Gold",p:45},{n:"Cotton",p:5},{n:"Vegetables",p:4},{n:"Metals",p:3},{n:"Electricity",p:2}],[{n:"Refined Petroleum",p:10},{n:"Motor Vehicles",p:5},{n:"Natural Gas",p:4},{n:"Food",p:3},{n:"Machinery",p:3}]);
+S("418","Laos","🇱🇦","Vientiane",7529000,236800,21,2790,[{n:"Electricity",p:20},{n:"Gold",p:15},{n:"Copper",p:10},{n:"Rubber",p:5},{n:"Wood",p:4}],[{n:"Refined Petroleum",p:8},{n:"Motor Vehicles",p:6},{n:"Iron/Steel",p:4},{n:"Machinery",p:3},{n:"Plastics",p:2}]);
+S("422","Lebanon","🇱🇧","Beirut",5490000,10452,19,3460,[{n:"Gold",p:15},{n:"Jewelry",p:10},{n:"Iron/Steel",p:5},{n:"Fruit",p:4},{n:"Chemicals",p:3}],[{n:"Refined Petroleum",p:10},{n:"Motor Vehicles",p:5},{n:"Medicaments",p:4},{n:"Food",p:3},{n:"Telephones",p:2}]);
+S("426","Lesotho","🇱🇸","Maseru",2305825,30355,2.5,1080,[{n:"Diamonds",p:40},{n:"Garments",p:30},{n:"Water",p:5},{n:"Wool",p:3},{n:"Food",p:2}],[{n:"Food",p:15},{n:"Refined Petroleum",p:8},{n:"Machinery",p:5},{n:"Motor Vehicles",p:4},{n:"Textiles",p:3}]);
+S("428","Latvia","🇱🇻","Riga",1830000,64559,44,24040,[{n:"Lumber",p:10},{n:"Wheat",p:5},{n:"Iron/Steel",p:4},{n:"Machinery",p:3},{n:"Beverages",p:3}],[{n:"Motor Vehicles",p:5},{n:"Refined Petroleum",p:4},{n:"Machinery",p:3},{n:"Medicaments",p:3},{n:"Computers",p:2}]);
+S("430","Liberia","🇱🇷","Monrovia",5302681,111369,4,670,[{n:"Iron Ore",p:30},{n:"Rubber",p:20},{n:"Ships",p:15},{n:"Gold",p:5},{n:"Diamonds",p:3}],[{n:"Food",p:12},{n:"Refined Petroleum",p:10},{n:"Machinery",p:5},{n:"Motor Vehicles",p:4},{n:"Cement",p:3}]);
+S("434","Libya","🇱🇾","Tripoli",6812000,1759540,45,6600,[{n:"Crude Oil",p:90},{n:"Natural Gas",p:3},{n:"Gold",p:1},{n:"Iron/Steel",p:0.5},{n:"Chemicals",p:0.3}],[{n:"Refined Petroleum",p:10},{n:"Food",p:8},{n:"Motor Vehicles",p:5},{n:"Iron/Steel",p:4},{n:"Machinery",p:3}]);
+S("440","Lithuania","🇱🇹","Vilnius",2832000,65300,78,27550,[{n:"Refined Petroleum",p:15},{n:"Furniture",p:5},{n:"Wheat",p:4},{n:"Chemicals",p:3},{n:"Laser Products",p:3}],[{n:"Crude Oil",p:10},{n:"Natural Gas",p:5},{n:"Motor Vehicles",p:4},{n:"Medicaments",p:3},{n:"Computers",p:2}]);
+S("442","Luxembourg","🇱🇺","Luxembourg",660809,2586,87,131780,[{n:"Iron/Steel",p:15},{n:"Plastics",p:5},{n:"Rubber",p:4},{n:"Glass",p:3},{n:"Machinery",p:3}],[{n:"Motor Vehicles",p:8},{n:"Computers",p:4},{n:"Crude Oil",p:3},{n:"Medicaments",p:3},{n:"Natural Gas",p:2}]);
+S("450","Madagascar","🇲🇬","Antananarivo",30325732,587041,16,530,[{n:"Vanilla",p:25},{n:"Nickel",p:10},{n:"Cobalt",p:8},{n:"Cloves",p:5},{n:"Textiles",p:4}],[{n:"Refined Petroleum",p:12},{n:"Rice",p:6},{n:"Motor Vehicles",p:4},{n:"Machinery",p:3},{n:"Food",p:3}]);
+S("454","Malawi","🇲🇼","Lilongwe",20405317,118484,12,590,[{n:"Tobacco",p:45},{n:"Tea",p:8},{n:"Sugar",p:5},{n:"Uranium",p:4},{n:"Cotton",p:3}],[{n:"Refined Petroleum",p:10},{n:"Food",p:6},{n:"Medicaments",p:4},{n:"Motor Vehicles",p:3},{n:"Fertilizers",p:3}]);
+S("458","Malaysia","🇲🇾","Kuala Lumpur",33938000,330803,407,11990,[{n:"Integrated Circuits",p:15},{n:"Refined Petroleum",p:8},{n:"Palm Oil",p:7},{n:"Natural Gas",p:5},{n:"Rubber",p:3}],[{n:"Integrated Circuits",p:12},{n:"Refined Petroleum",p:8},{n:"Crude Oil",p:5},{n:"Motor Vehicles",p:3},{n:"Computers",p:3}]);
+S("466","Mali","🇲🇱","Bamako",22593590,1240192,19,840,[{n:"Gold",p:70},{n:"Cotton",p:8},{n:"Livestock",p:3},{n:"Phosphates",p:2},{n:"Salt",p:1}],[{n:"Refined Petroleum",p:10},{n:"Food",p:8},{n:"Machinery",p:5},{n:"Motor Vehicles",p:4},{n:"Cement",p:3}]);
+S("478","Mauritania","🇲🇷","Nouakchott",4736139,1030700,10,2120,[{n:"Iron Ore",p:40},{n:"Gold",p:20},{n:"Fish",p:15},{n:"Copper",p:5},{n:"Crude Oil",p:3}],[{n:"Refined Petroleum",p:12},{n:"Food",p:8},{n:"Motor Vehicles",p:5},{n:"Machinery",p:4},{n:"Iron/Steel",p:3}]);
+S("496","Mongolia","🇲🇳","Ulaanbaatar",3398000,1564116,20,5880,[{n:"Copper",p:30},{n:"Coal",p:25},{n:"Gold",p:15},{n:"Iron Ore",p:5},{n:"Crude Oil",p:4}],[{n:"Refined Petroleum",p:15},{n:"Motor Vehicles",p:8},{n:"Machinery",p:5},{n:"Food",p:4},{n:"Iron/Steel",p:3}]);
+S("498","Moldova","🇲🇩","Chișinău",2615000,33846,16,6120,[{n:"Wire",p:10},{n:"Sunflower Oil",p:8},{n:"Wine",p:5},{n:"Wheat",p:4},{n:"Textiles",p:3}],[{n:"Refined Petroleum",p:8},{n:"Natural Gas",p:5},{n:"Motor Vehicles",p:4},{n:"Medicaments",p:3},{n:"Food",p:3}]);
+S("504","Morocco","🇲🇦","Rabat",37458000,446550,141,3770,[{n:"Phosphates",p:15},{n:"Motor Vehicles",p:10},{n:"Textiles",p:8},{n:"Fertilizers",p:6},{n:"Fruits",p:4}],[{n:"Crude Oil",p:8},{n:"Natural Gas",p:5},{n:"Motor Vehicles",p:4},{n:"Wheat",p:3},{n:"Iron/Steel",p:3}]);
+S("508","Mozambique","🇲🇿","Maputo",33897000,801590,20,590,[{n:"Aluminum",p:25},{n:"Coal",p:15},{n:"Natural Gas",p:10},{n:"Tobacco",p:5},{n:"Sugar",p:4}],[{n:"Refined Petroleum",p:10},{n:"Motor Vehicles",p:5},{n:"Iron/Steel",p:4},{n:"Food",p:3},{n:"Machinery",p:3}]);
+S("512","Oman","🇴🇲","Muscat",4644000,309500,105,22610,[{n:"Crude Oil",p:55},{n:"Refined Petroleum",p:12},{n:"Natural Gas",p:5},{n:"Polymers",p:3},{n:"Iron/Steel",p:2}],[{n:"Motor Vehicles",p:8},{n:"Iron/Steel",p:5},{n:"Machinery",p:4},{n:"Food",p:3},{n:"Telephones",p:2}]);
+S("516","Namibia","🇳🇦","Windhoek",2604000,824292,13,5000,[{n:"Diamonds",p:20},{n:"Uranium",p:15},{n:"Gold",p:10},{n:"Fish",p:8},{n:"Zinc",p:5}],[{n:"Refined Petroleum",p:8},{n:"Motor Vehicles",p:5},{n:"Food",p:4},{n:"Machinery",p:3},{n:"Iron/Steel",p:2}]);
+S("524","Nepal","🇳🇵","Kathmandu",30896000,147181,40,1290,[{n:"Palm Oil",p:10},{n:"Textiles",p:8},{n:"Iron/Steel",p:5},{n:"Yarn",p:4},{n:"Juice",p:3}],[{n:"Refined Petroleum",p:12},{n:"Motor Vehicles",p:5},{n:"Iron/Steel",p:4},{n:"Rice",p:3},{n:"Machinery",p:3}]);
+S("528","Netherlands","🇳🇱","Amsterdam/The Hague",17618000,41543,1090,61870,[{n:"Refined Petroleum",p:8},{n:"Motor Vehicles",p:4},{n:"Medicaments",p:4},{n:"Natural Gas",p:3},{n:"Computers",p:3}],[{n:"Crude Oil",p:8},{n:"Computers",p:4},{n:"Motor Vehicles",p:3},{n:"Telephones",p:3},{n:"Refined Petroleum",p:3}]);
+S("540","New Caledonia","🇳🇨","Nouméa",289950,18575,10,34500,[{n:"Nickel",p:75},{n:"Fish",p:5},{n:"Shrimp",p:3},{n:"Chrome",p:2},{n:"Cobalt",p:1}],[{n:"Refined Petroleum",p:10},{n:"Machinery",p:8},{n:"Food",p:6},{n:"Motor Vehicles",p:5},{n:"Iron/Steel",p:3}]);
+S("554","New Zealand","🇳🇿","Wellington",5185000,268021,252,48620,[{n:"Dairy",p:18},{n:"Meat",p:10},{n:"Lumber",p:6},{n:"Wine",p:4},{n:"Fish",p:3}],[{n:"Motor Vehicles",p:8},{n:"Refined Petroleum",p:5},{n:"Computers",p:3},{n:"Telephones",p:2},{n:"Machinery",p:2}]);
+S("558","Nicaragua","🇳🇮","Managua",7046310,130373,15,2130,[{n:"Coffee",p:15},{n:"Gold",p:12},{n:"Textiles",p:10},{n:"Beef",p:8},{n:"Sugar",p:5}],[{n:"Refined Petroleum",p:8},{n:"Motor Vehicles",p:5},{n:"Iron/Steel",p:4},{n:"Food",p:3},{n:"Machinery",p:3}]);
+S("562","Niger","🇳🇪","Niamey",27202843,1267000,15,550,[{n:"Uranium",p:30},{n:"Gold",p:20},{n:"Oil",p:15},{n:"Cowpeas",p:5},{n:"Onions",p:3}],[{n:"Food",p:12},{n:"Refined Petroleum",p:10},{n:"Machinery",p:5},{n:"Motor Vehicles",p:4},{n:"Cement",p:3}]);
+S("578","Norway","🇳🇴","Oslo",5474000,323802,554,101260,[{n:"Crude Oil",p:25},{n:"Natural Gas",p:20},{n:"Fish",p:8},{n:"Aluminum",p:5},{n:"Refined Petroleum",p:4}],[{n:"Motor Vehicles",p:8},{n:"Computers",p:3},{n:"Telephones",p:2},{n:"Medicaments",p:2},{n:"Machinery",p:2}]);
+S("591","Panama","🇵🇦","Panama City",4408581,75417,77,17490,[{n:"Copper",p:25},{n:"Bananas",p:8},{n:"Fish",p:6},{n:"Sugar",p:4},{n:"Gold",p:3}],[{n:"Refined Petroleum",p:8},{n:"Motor Vehicles",p:5},{n:"Telephones",p:3},{n:"Medicaments",p:3},{n:"Food",p:2}]);
+S("598","Papua New Guinea","🇵🇬","Port Moresby",10329931,462840,30,2900,[{n:"Natural Gas",p:25},{n:"Gold",p:20},{n:"Palm Oil",p:10},{n:"Coffee",p:5},{n:"Copper",p:4}],[{n:"Refined Petroleum",p:12},{n:"Food",p:8},{n:"Machinery",p:5},{n:"Motor Vehicles",p:4},{n:"Iron/Steel",p:3}]);
+S("600","Paraguay","🇵🇾","Asunción",6780744,406752,43,6340,[{n:"Soybeans",p:25},{n:"Electricity",p:15},{n:"Beef",p:10},{n:"Corn",p:8},{n:"Wheat",p:5}],[{n:"Refined Petroleum",p:8},{n:"Motor Vehicles",p:6},{n:"Telephones",p:4},{n:"Machinery",p:3},{n:"Fertilizers",p:2}]);
+S("604","Peru","🇵🇪","Lima",34050000,1285216,268,7870,[{n:"Copper",p:25},{n:"Gold",p:12},{n:"Zinc",p:5},{n:"Fish Meal",p:4},{n:"Refined Petroleum",p:3}],[{n:"Refined Petroleum",p:6},{n:"Crude Oil",p:4},{n:"Motor Vehicles",p:4},{n:"Telephones",p:3},{n:"Computers",p:2}]);
+S("608","Philippines","🇵🇭","Manila",117337368,342353,435,3710,[{n:"Integrated Circuits",p:25},{n:"Office Parts",p:8},{n:"Coconut Oil",p:4},{n:"Bananas",p:3},{n:"Copper Wire",p:2}],[{n:"Integrated Circuits",p:12},{n:"Refined Petroleum",p:8},{n:"Motor Vehicles",p:4},{n:"Coal",p:3},{n:"Iron/Steel",p:2}]);
+S("620","Portugal","🇵🇹","Lisbon",10379000,92212,287,27650,[{n:"Motor Vehicles",p:8},{n:"Refined Petroleum",p:5},{n:"Footwear",p:4},{n:"Leather",p:3},{n:"Paper",p:3}],[{n:"Crude Oil",p:5},{n:"Motor Vehicles",p:5},{n:"Medicaments",p:3},{n:"Natural Gas",p:3},{n:"Computers",p:2}]);
+S("634","Qatar","🇶🇦","Doha",2930000,11586,235,80230,[{n:"Natural Gas",p:40},{n:"Crude Oil",p:20},{n:"Refined Petroleum",p:8},{n:"Polymers",p:5},{n:"Fertilizers",p:3}],[{n:"Motor Vehicles",p:8},{n:"Aircraft",p:5},{n:"Jewelry",p:4},{n:"Telephones",p:3},{n:"Food",p:2}]);
+S("642","Romania","🇷🇴","Bucharest",19659000,238391,351,17850,[{n:"Motor Vehicles",p:8},{n:"Vehicle Parts",p:5},{n:"Wire",p:4},{n:"Wheat",p:3},{n:"Furniture",p:3}],[{n:"Crude Oil",p:5},{n:"Motor Vehicles",p:5},{n:"Medicaments",p:3},{n:"Vehicle Parts",p:3},{n:"Natural Gas",p:2}]);
+S("646","Rwanda","🇷🇼","Kigali",13776698,26338,14,1010,[{n:"Gold",p:30},{n:"Tin",p:15},{n:"Coffee",p:10},{n:"Tea",p:8},{n:"Coltan",p:5}],[{n:"Refined Petroleum",p:10},{n:"Food",p:6},{n:"Motor Vehicles",p:5},{n:"Iron/Steel",p:4},{n:"Cement",p:3}]);
+S("686","Senegal","🇸🇳","Dakar",17316449,196722,28,1620,[{n:"Gold",p:20},{n:"Phosphates",p:10},{n:"Fish",p:8},{n:"Peanuts",p:5},{n:"Cement",p:4}],[{n:"Refined Petroleum",p:10},{n:"Rice",p:6},{n:"Food",p:4},{n:"Motor Vehicles",p:3},{n:"Machinery",p:3}]);
+S("688","Serbia","🇷🇸","Belgrade",7114000,77474,75,10550,[{n:"Motor Vehicles",p:8},{n:"Iron/Steel",p:5},{n:"Corn",p:4},{n:"Rubber",p:3},{n:"Electricity",p:3}],[{n:"Crude Oil",p:5},{n:"Natural Gas",p:4},{n:"Motor Vehicles",p:4},{n:"Medicaments",p:3},{n:"Computers",p:2}]);
+S("694","Sierra Leone","🇸🇱","Freetown",8605718,71740,4,460,[{n:"Iron Ore",p:30},{n:"Diamonds",p:20},{n:"Titanium",p:10},{n:"Cocoa",p:5},{n:"Fish",p:4}],[{n:"Rice",p:10},{n:"Refined Petroleum",p:8},{n:"Food",p:5},{n:"Motor Vehicles",p:4},{n:"Machinery",p:3}]);
+S("702","Singapore","🇸🇬","Singapore",5917000,733,497,84010,[{n:"Integrated Circuits",p:12},{n:"Refined Petroleum",p:10},{n:"Machinery",p:5},{n:"Medicaments",p:4},{n:"Computers",p:3}],[{n:"Integrated Circuits",p:10},{n:"Crude Oil",p:8},{n:"Machinery",p:5},{n:"Computers",p:3},{n:"Natural Gas",p:2}]);
+S("703","Slovakia","🇸🇰","Bratislava",5643000,49035,133,23570,[{n:"Motor Vehicles",p:25},{n:"Vehicle Parts",p:8},{n:"Electronics",p:5},{n:"Iron/Steel",p:3},{n:"Machinery",p:3}],[{n:"Motor Vehicles",p:5},{n:"Natural Gas",p:4},{n:"Crude Oil",p:3},{n:"Vehicle Parts",p:3},{n:"Computers",p:2}]);
+S("704","Vietnam","🇻🇳","Hanoi",99462000,331212,430,4320,[{n:"Broadcasting Equip.",p:12.5},{n:"Telephones",p:10.8},{n:"Integrated Circuits",p:5.2},{n:"Textiles",p:4.5},{n:"Footwear",p:3.8}],[{n:"Integrated Circuits",p:15.2},{n:"Refined Petroleum",p:4.5},{n:"Telephones",p:3.8},{n:"Iron/Steel",p:3.2},{n:"Fabrics",p:2.8}]});
+S("705","Slovenia","🇸🇮","Ljubljana",2119000,20273,68,32110,[{n:"Medicaments",p:8},{n:"Motor Vehicles",p:6},{n:"Electrical Equip.",p:4},{n:"Machinery",p:3},{n:"Aluminum",p:3}],[{n:"Motor Vehicles",p:5},{n:"Crude Oil",p:4},{n:"Medicaments",p:3},{n:"Natural Gas",p:3},{n:"Machinery",p:2}]);
+S("706","Somalia","🇸🇴","Mogadishu",18143000,637657,8,440,[{n:"Livestock",p:40},{n:"Charcoal",p:15},{n:"Fish",p:8},{n:"Bananas",p:5},{n:"Hides",p:4}],[{n:"Sugar",p:10},{n:"Rice",p:8},{n:"Wheat Flour",p:6},{n:"Refined Petroleum",p:5},{n:"Vegetable Oil",p:4}]);
+S("716","Zimbabwe","🇿🇼","Harare",16665000,390757,28,1680,[{n:"Gold",p:25},{n:"Tobacco",p:15},{n:"Diamonds",p:10},{n:"Nickel",p:8},{n:"Platinum",p:5}],[{n:"Refined Petroleum",p:8},{n:"Motor Vehicles",p:5},{n:"Machinery",p:4},{n:"Food",p:3},{n:"Fertilizers",p:3}]);
+S("724","Spain","🇪🇸","Madrid",47615000,505992,1580,33190,[{n:"Motor Vehicles",p:10},{n:"Refined Petroleum",p:5},{n:"Medicaments",p:4},{n:"Olive Oil",p:3},{n:"Pork",p:2}],[{n:"Crude Oil",p:6},{n:"Motor Vehicles",p:5},{n:"Natural Gas",p:4},{n:"Medicaments",p:3},{n:"Computers",p:2}]);
+S("728","South Sudan","🇸🇸","Juba",11088000,644329,5,450,[{n:"Crude Oil",p:95},{n:"Gold",p:2},{n:"Timber",p:1},{n:"Livestock",p:0.5},{n:"Gum Arabic",p:0.3}],[{n:"Food",p:15},{n:"Refined Petroleum",p:10},{n:"Machinery",p:5},{n:"Motor Vehicles",p:4},{n:"Cement",p:3}]);
+S("729","Sudan","🇸🇩","Khartoum",47958000,1861484,26,540,[{n:"Gold",p:40},{n:"Crude Oil",p:20},{n:"Livestock",p:8},{n:"Cotton",p:5},{n:"Sesame",p:4}],[{n:"Wheat",p:8},{n:"Refined Petroleum",p:6},{n:"Sugar",p:5},{n:"Medicaments",p:4},{n:"Motor Vehicles",p:3}]);
+S("748","eSwatini","🇸🇿","Mbabane",1201670,17364,5,4170,[{n:"Sugar",p:20},{n:"Soft Drink Conc.",p:15},{n:"Textiles",p:10},{n:"Citrus",p:5},{n:"Wood Pulp",p:4}],[{n:"Motor Vehicles",p:8},{n:"Refined Petroleum",p:6},{n:"Food",p:5},{n:"Machinery",p:4},{n:"Chemicals",p:3}]);
+S("752","Sweden","🇸🇪","Stockholm",10522000,450295,593,56370,[{n:"Motor Vehicles",p:8},{n:"Refined Petroleum",p:5},{n:"Medicaments",p:5},{n:"Iron/Steel",p:4},{n:"Paper",p:3}],[{n:"Motor Vehicles",p:6},{n:"Crude Oil",p:4},{n:"Computers",p:3},{n:"Medicaments",p:2},{n:"Telephones",p:2}]);
+S("756","Switzerland","🇨🇭","Bern",8815000,41285,906,102800,[{n:"Gold",p:18},{n:"Medicaments",p:15},{n:"Watches",p:8},{n:"Medical Instruments",p:4},{n:"Machinery",p:3}],[{n:"Gold",p:20},{n:"Medicaments",p:8},{n:"Motor Vehicles",p:4},{n:"Computers",p:3},{n:"Jewelry",p:2}]);
+S("760","Syria","🇸🇾","Damascus",22125000,185180,11,500,[{n:"Olive Oil",p:15},{n:"Spices",p:8},{n:"Phosphates",p:5},{n:"Cotton",p:4},{n:"Fruits",p:3}],[{n:"Wheat",p:10},{n:"Refined Petroleum",p:8},{n:"Sugar",p:5},{n:"Food",p:4},{n:"Iron/Steel",p:3}]);
+S("762","Tajikistan","🇹🇯","Dushanbe",10143000,143100,12,1180,[{n:"Gold",p:30},{n:"Aluminum",p:20},{n:"Cotton",p:10},{n:"Dried Fruits",p:5},{n:"Electricity",p:4}],[{n:"Refined Petroleum",p:12},{n:"Wheat",p:8},{n:"Motor Vehicles",p:5},{n:"Natural Gas",p:4},{n:"Iron/Steel",p:3}]);
+S("764","Thailand","🇹🇭","Bangkok",71801279,513120,515,7170,[{n:"Computers",p:6},{n:"Motor Vehicles",p:5},{n:"Integrated Circuits",p:4},{n:"Rubber",p:3},{n:"Refined Petroleum",p:3}],[{n:"Crude Oil",p:8},{n:"Integrated Circuits",p:5},{n:"Computers",p:3},{n:"Gold",p:3},{n:"Iron/Steel",p:2}]);
+S("768","Togo","🇹🇬","Lomé",8848699,56785,9,1010,[{n:"Gold",p:20},{n:"Refined Petroleum",p:12},{n:"Cement",p:8},{n:"Cotton",p:5},{n:"Phosphates",p:4}],[{n:"Refined Petroleum",p:12},{n:"Food",p:8},{n:"Motor Vehicles",p:5},{n:"Machinery",p:4},{n:"Cement",p:3}]);
+S("780","Trinidad & Tobago","🇹🇹","Port of Spain",1534937,5130,28,18230,[{n:"Natural Gas",p:30},{n:"Ammonia",p:15},{n:"Crude Oil",p:10},{n:"Iron/Steel",p:5},{n:"Methanol",p:4}],[{n:"Crude Oil",p:15},{n:"Motor Vehicles",p:5},{n:"Iron/Steel",p:4},{n:"Food",p:3},{n:"Machinery",p:3}]);
+S("784","UAE","🇦🇪","Abu Dhabi",9441000,83600,509,53900,[{n:"Crude Oil",p:35},{n:"Refined Petroleum",p:8},{n:"Gold",p:6},{n:"Diamonds",p:4},{n:"Aluminum",p:3}],[{n:"Gold",p:15},{n:"Motor Vehicles",p:5},{n:"Telephones",p:4},{n:"Jewelry",p:3},{n:"Computers",p:2}]);
+S("788","Tunisia","🇹🇳","Tunis",12458000,163610,47,3770,[{n:"Crude Oil",p:8},{n:"Textiles",p:8},{n:"Olive Oil",p:6},{n:"Electrical Equip.",p:5},{n:"Phosphates",p:4}],[{n:"Refined Petroleum",p:8},{n:"Motor Vehicles",p:5},{n:"Wheat",p:4},{n:"Iron/Steel",p:3},{n:"Machinery",p:3}]);
+S("795","Turkmenistan","🇹🇲","Ashgabat",6431000,488100,60,9330,[{n:"Natural Gas",p:65},{n:"Crude Oil",p:15},{n:"Textiles",p:5},{n:"Chemicals",p:3},{n:"Cotton",p:2}],[{n:"Motor Vehicles",p:8},{n:"Iron/Steel",p:6},{n:"Machinery",p:5},{n:"Food",p:4},{n:"Pipes",p:3}]);
+S("800","Uganda","🇺🇬","Kampala",48582334,241038,46,950,[{n:"Coffee",p:20},{n:"Gold",p:15},{n:"Fish",p:8},{n:"Tea",p:5},{n:"Tobacco",p:4}],[{n:"Refined Petroleum",p:10},{n:"Motor Vehicles",p:5},{n:"Iron/Steel",p:4},{n:"Medicaments",p:3},{n:"Food",p:3}]);
+S("858","Uruguay","🇺🇾","Montevideo",3423000,176215,77,22490,[{n:"Beef",p:15},{n:"Soybeans",p:12},{n:"Cellulose",p:10},{n:"Rice",p:5},{n:"Dairy",p:4}],[{n:"Crude Oil",p:8},{n:"Motor Vehicles",p:5},{n:"Wind Turbines",p:3},{n:"Telephones",p:2},{n:"Machinery",p:2}]);
+S("860","Uzbekistan","🇺🇿","Tashkent",35648000,447400,90,2530,[{n:"Gold",p:35},{n:"Natural Gas",p:10},{n:"Cotton",p:8},{n:"Copper",p:5},{n:"Textiles",p:4}],[{n:"Motor Vehicles",p:8},{n:"Machinery",p:6},{n:"Iron/Steel",p:5},{n:"Food",p:4},{n:"Refined Petroleum",p:3}]);
+S("862","Venezuela","🇻🇪","Caracas",28302000,916445,100,3530,[{n:"Crude Oil",p:85},{n:"Gold",p:5},{n:"Iron/Steel",p:2},{n:"Aluminum",p:1},{n:"Chemicals",p:0.5}],[{n:"Refined Petroleum",p:12},{n:"Food",p:8},{n:"Motor Vehicles",p:5},{n:"Medicaments",p:4},{n:"Machinery",p:3}]);
+S("887","Yemen","🇾🇪","Sana'a/Aden",33697000,527968,21,625,[{n:"Crude Oil",p:55},{n:"Gold",p:10},{n:"Fish",p:5},{n:"Coffee",p:3},{n:"LNG",p:2}],[{n:"Wheat",p:12},{n:"Rice",p:8},{n:"Refined Petroleum",p:6},{n:"Food",p:5},{n:"Sugar",p:4}]);
+S("894","Zambia","🇿🇲","Lusaka",20569000,752618,29,1410,[{n:"Copper",p:65},{n:"Gold",p:5},{n:"Cobalt",p:4},{n:"Emeralds",p:2},{n:"Sugar",p:1}],[{n:"Refined Petroleum",p:8},{n:"Motor Vehicles",p:5},{n:"Copper Wire",p:4},{n:"Machinery",p:3},{n:"Food",p:3}]);
+S("400","Jordan","🇯🇴","Amman",11337052,89342,50,4410,[{n:"Phosphates",p:12.1},{n:"Potash",p:8.5},{n:"Textiles",p:5.2},{n:"Fertilizers",p:4.5},{n:"Vegetables",p:3.8}],[{n:"Crude Oil",p:12.5},{n:"Motor Vehicles",p:5.8},{n:"Natural Gas",p:4.2},{n:"Medicaments",p:3.5},{n:"Iron/Steel",p:2.8}]);
+// Antarctica (special)
+DB["-99"]={n:"Antarctica",f:"🇦🇶",c:"No capital (research stations)",pop:4500,a:14200000,gdp:0,gdpPC:0,cul:"No permanent population. Governed by Antarctic Treaty System (1959). 30+ research stations operated by various nations. Rich in minerals but mining prohibited. Critical climate research.",ex:[],im:[]};
+// Commodity descriptions
+const COMMODITIES={"Crude Oil":"Unrefined petroleum extracted from underground reserves. Primary global energy source, refined into gasoline, diesel, jet fuel, and petrochemicals. Traded on NYMEX and ICE exchanges.","Refined Petroleum":"Processed crude oil products: gasoline, diesel, kerosene, LPG. Essential for transportation, heating, and industry.","Natural Gas":"Methane-rich fossil fuel used for electricity generation, heating, and petrochemical feedstock. Transported via pipeline or as LNG.","Integrated Circuits":"Semiconductor chips containing millions of transistors. Foundation of modern computing, telecommunications, and electronics. Manufactured primarily in Taiwan (TSMC), South Korea, and US.","Motor Vehicles":"Cars, trucks, buses. Major export for Germany, Japan, S.Korea, Mexico. Complex supply chains spanning multiple countries.","Medicaments":"Pharmaceutical products including branded and generic drugs, vaccines, and biological preparations.","Coal":"Combustible sedimentary rock; thermal coal for power, metallurgical coal for steelmaking. Major producers: China, India, Indonesia, Australia.","Iron Ore":"Primary raw material for steel production. Major deposits in Australia, Brazil, Russia, India, China.","Gold":"Precious metal used in jewelry, electronics, and as financial reserve asset. Major producers: China, Australia, Russia, USA, Canada.","Diamonds":"Carbon crystals used in jewelry (gem-quality) and industrial cutting/drilling. Major producers: Russia, Botswana, DR Congo, Australia.","Copper":"Essential industrial metal for electrical wiring, plumbing, electronics. Major producers: Chile, Peru, DR Congo, China, USA.","Soybeans":"Major protein and oil crop. Used for animal feed, cooking oil, biodiesel. Brazil and US dominate exports.","Wheat":"Staple grain for bread, pasta, cereals. Russia, EU, USA, Canada, Australia are major exporters.","Palm Oil":"Most produced vegetable oil globally. Used in food, cosmetics, biofuel. Indonesia and Malaysia produce ~85% of global supply.","Aluminum":"Lightweight metal for aerospace, construction, packaging. Produced from bauxite ore through electrolysis. China dominates production.","Nickel":"Metal essential for stainless steel and EV batteries. Indonesia is world's largest producer. Critical for green energy transition.","Lithium":"Alkali metal critical for rechargeable batteries (EVs, electronics). 'White gold.' Chile, Australia, Argentina dominate production.","Uranium":"Radioactive metal for nuclear power generation. Kazakhstan, Canada, Namibia are top producers.","Phosphates":"Essential for fertilizer production. Morocco controls ~70% of global reserves.","Cobalt":"Metal critical for EV batteries and superalloys. DR Congo produces ~70% of global supply. Ethical mining concerns.","Platinum":"Precious metal for catalytic converters, jewelry, and industrial uses. South Africa produces ~70% of global supply.","Broadcasting Equipment":"Radio, TV, satellite equipment and telecommunications infrastructure.","Computers":"Personal computers, laptops, servers, and related equipment.","Aircraft":"Commercial and military aircraft, helicopters, and spacecraft. Major producers: US (Boeing), EU (Airbus), Brazil (Embraer).","Telephones":"Mobile phones and smartphones. Major exporters: China (global manufacturing hub), Vietnam, India.","Vehicle Parts":"Components for automotive manufacturing including engines, transmissions, electronics.","Cotton":"Natural fiber for textiles. Major producers: India, China, US, Brazil, Pakistan.","Coffee":"Tropical agricultural commodity. Brazil, Vietnam, Colombia are top producers. Second most traded commodity after crude oil.","Cocoa":"Tropical crop for chocolate production. West Africa (Côte d'Ivoire, Ghana) produces ~60% of global supply.","Rubber":"Natural rubber from Hevea trees, used in tires, gloves, industrial products. Thailand, Indonesia, Vietnam are top producers.","Fish":"Marine and freshwater catch plus aquaculture. Major exporters: China, Norway, Vietnam, India.","Sugar":"Sweetener from sugarcane/beet. Brazil dominates exports. Used in food, beverages, and ethanol.","Rice":"Staple food for 3.5B+ people. India, Thailand, Vietnam are major exporters.","Tea":"Beverage crop. China, India, Kenya, Sri Lanka are major producers.","Tobacco":"Leaf crop for cigarettes, cigars. Major producers: China, Brazil, India, Zimbabwe, Malawi.","Wine":"Fermented grape beverage. France, Italy, Spain are top producers/exporters.","Garments":"Clothing and apparel manufacturing. Bangladesh, China, Vietnam, India dominate production.","Rare Earth Elements":"Group of 17 elements critical for electronics, magnets, batteries, military tech. China controls ~60% of mining, ~90% of processing.","Boron":"Mineral for glass, ceramics, detergents, agriculture. Turkey has ~73% of world reserves.","Silver":"Precious metal for electronics, solar panels, jewelry. Mexico is world's largest producer.","Tanzanite":"Blue-violet gemstone found ONLY near Kilimanjaro, Tanzania. 1000x rarer than diamonds."};
+</script>
+<script>
+// ========== CANVAS TEXTURE GLOBE — NO TRIANGULATION, NO HOLES ==========
+const W=4096,H=2048,R=1.6;
+const texCv=document.createElement('canvas');texCv.width=W;texCv.height=H;
+const ctx=texCv.getContext('2d');
+const pickCv=document.createElement('canvas');pickCv.width=W;pickCv.height=H;
+const pCtx=pickCv.getContext('2d');
+
+// Country ID to unique color mapping for picking
+const id2color={},color2id={};
+let colorIdx=256;
+function assignColor(id){const sid=String(id);const r=(colorIdx>>16)&255,g=(colorIdx>>8)&255,b=colorIdx&255;const hex='#'+(colorIdx).toString(16).padStart(6,'0');id2color[sid]=hex;color2id[hex]=sid;colorIdx++}
+
+// Equirectangular projection
+function ll2px(lng,lat){return[(lng+180)/360*W,(90-lat)/180*H]}
+
+function drawPoly(c,ring,fill,stroke,lw){
+  c.beginPath();
+  let prevX=null;
+  ring.forEach((coord,i)=>{
+    const[x,y]=ll2px(coord[0],coord[1]);
+    // Handle anti-meridian wrapping
+    if(i===0)c.moveTo(x,y);
+    else{
+      if(prevX!==null&&Math.abs(x-prevX)>W/2)c.moveTo(x,y);
+      else c.lineTo(x,y);
+    }
+    prevX=x;
+  });
+  c.closePath();
+  if(fill){c.fillStyle=fill;c.fill()}
+  if(stroke){c.strokeStyle=stroke;c.lineWidth=lw||0.5;c.stroke()}
+}
+
+// Country names for tooltip
+const CN={4:"Afghanistan",8:"Albania",12:"Algeria",24:"Angola",32:"Argentina",36:"Australia",40:"Austria",44:"Bahamas",50:"Bangladesh",56:"Belgium",64:"Bhutan",68:"Bolivia",70:"Bosnia & Herz.",72:"Botswana",76:"Brazil",100:"Bulgaria",104:"Myanmar",108:"Burundi",112:"Belarus",116:"Cambodia",120:"Cameroon",124:"Canada",140:"C.A.R.",144:"Sri Lanka",148:"Chad",152:"Chile",156:"China",170:"Colombia",178:"Congo",180:"DR Congo",188:"Costa Rica",191:"Croatia",192:"Cuba",196:"Cyprus",203:"Czechia",204:"Benin",208:"Denmark",214:"Dominican Rep.",218:"Ecuador",222:"El Salvador",226:"Eq. Guinea",231:"Ethiopia",232:"Eritrea",233:"Estonia",818:"Egypt",242:"Fiji",246:"Finland",250:"France",266:"Gabon",268:"Georgia",270:"Gambia",276:"Germany",288:"Ghana",300:"Greece",320:"Guatemala",324:"Guinea",328:"Guyana",332:"Haiti",340:"Honduras",348:"Hungary",352:"Iceland",356:"India",360:"Indonesia",364:"Iran",368:"Iraq",372:"Ireland",376:"Israel",380:"Italy",384:"Côte d'Ivoire",388:"Jamaica",392:"Japan",400:"Jordan",398:"Kazakhstan",404:"Kenya",408:"N.Korea",410:"S.Korea",414:"Kuwait",417:"Kyrgyzstan",418:"Laos",422:"Lebanon",426:"Lesotho",428:"Latvia",430:"Liberia",434:"Libya",440:"Lithuania",442:"Luxembourg",450:"Madagascar",454:"Malawi",458:"Malaysia",466:"Mali",478:"Mauritania",484:"Mexico",496:"Mongolia",498:"Moldova",504:"Morocco",508:"Mozambique",512:"Oman",516:"Namibia",524:"Nepal",528:"Netherlands",540:"New Caledonia",554:"New Zealand",558:"Nicaragua",562:"Niger",566:"Nigeria",578:"Norway",586:"Pakistan",591:"Panama",598:"Papua N.G.",600:"Paraguay",604:"Peru",608:"Philippines",616:"Poland",620:"Portugal",630:"Puerto Rico",634:"Qatar",642:"Romania",643:"Russia",646:"Rwanda",682:"Saudi Arabia",686:"Senegal",688:"Serbia",694:"Sierra Leone",702:"Singapore",703:"Slovakia",704:"Vietnam",705:"Slovenia",706:"Somalia",710:"South Africa",716:"Zimbabwe",724:"Spain",728:"S.Sudan",729:"Sudan",740:"Suriname",748:"eSwatini",752:"Sweden",756:"Switzerland",760:"Syria",762:"Tajikistan",764:"Thailand",768:"Togo",780:"Trinidad",784:"UAE",788:"Tunisia",792:"Turkey",795:"Turkmenistan",800:"Uganda",804:"Ukraine",826:"United Kingdom",834:"Tanzania",840:"United States",858:"Uruguay",860:"Uzbekistan",862:"Venezuela",887:"Yemen",894:"Zambia"};
+
+// Store country colors for recoloring
+let countryFills={};
+let selectedId=null,hoveredId=null;
+let activeTab='overview';
+
+(async()=>{
+const lf=document.getElementById('lf'),ls=document.getElementById('ls');
+lf.style.width='15%';ls.textContent='Fetching world topology...';
+
+// TJ parser
+const TJ={feature(tp,o){const s=tp.transform.scale,t=tp.transform.translate;const aa=tp.arcs.map(a=>{let x=0,y=0;return a.map(p=>{x+=p[0];y+=p[1];return[x*s[0]+t[0],y*s[1]+t[1]]})});const rv=i=>i<0?aa[~i].slice().reverse():aa[i].slice();const rn=ids=>{let c=[];ids.forEach(i=>{const a=rv(i);if(c.length)a.shift();c=c.concat(a)});return c};const gm=g=>{if(!g)return null;switch(g.type){case'Polygon':return{type:'Polygon',coordinates:g.arcs.map(rn)};case'MultiPolygon':return{type:'MultiPolygon',coordinates:g.arcs.map(a=>a.map(rn))};default:return null}};return{type:'FC',features:o.geometries.map(g=>({id:g.id,geometry:gm(g)}))};}};
+
+const resp=await fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json');
+const topo=await resp.json();lf.style.width='40%';ls.textContent='Parsing geometry...';
+const gj=TJ.feature(topo,topo.objects.countries);
+lf.style.width='60%';ls.textContent='Rendering texture...';
+
+// Draw ocean
+ctx.fillStyle='#101c18';ctx.fillRect(0,0,W,H);
+pCtx.fillStyle='#000000';pCtx.fillRect(0,0,W,H);
+
+// Draw countries
+const countryPolys={};// id => array of rings
+gj.features.forEach(f=>{
+  const id=f.id;
+  assignColor(id);
+  if(!f.geometry)return;
+  const polys=f.geometry.type==='Polygon'?[f.geometry.coordinates]:f.geometry.type==='MultiPolygon'?f.geometry.coordinates:[];
+  countryPolys[String(id)]=polys;
+  const fill='#1e2e28';
+  polys.forEach(poly=>{
+    poly.forEach((ring,ri)=>{
+      if(ri===0){// Outer ring
+        drawPoly(ctx,ring,fill,'#3a5a4a',0.5);
+        drawPoly(pCtx,ring,id2color[String(id)],null);
+      }
+    });
+  });
+});
+
+lf.style.width='80%';ls.textContent='Building 3D scene...';
+
+// Three.js setup
+const canvas=document.getElementById('gl');
+const ren=new THREE.WebGLRenderer({canvas,antialias:true});
+ren.setPixelRatio(Math.min(devicePixelRatio,2));ren.setSize(innerWidth,innerHeight);ren.setClearColor(0x131a17);
+const scene=new THREE.Scene();const cam=new THREE.PerspectiveCamera(42,innerWidth/innerHeight,.1,100);cam.position.set(0,0,4.8);
+scene.add(new THREE.AmbientLight(0x4a5a4e,0.8));
+const dl=new THREE.DirectionalLight(0x8a9d8a,0.7);dl.position.set(5,3,5);scene.add(dl);
+const dl2=new THREE.DirectionalLight(0x2a3a2e,0.3);dl2.position.set(-4,-2,-3);scene.add(dl2);
+
+// Stars
+const sGeo=new THREE.BufferGeometry(),sPos=[];
+for(let i=0;i<3000;i++){const r=25+Math.random()*75,th=Math.random()*Math.PI*2,ph=Math.acos(2*Math.random()-1);sPos.push(r*Math.sin(ph)*Math.cos(th),r*Math.sin(ph)*Math.sin(th),r*Math.cos(ph))}
+sGeo.setAttribute('position',new THREE.Float32BufferAttribute(sPos,3));
+scene.add(new THREE.Points(sGeo,new THREE.PointsMaterial({color:0x556655,size:.12,sizeAttenuation:true})));
+
+// Globe with canvas texture
+const texture=new THREE.CanvasTexture(texCv);
+texture.minFilter=THREE.LinearFilter;
+const globeMat=new THREE.MeshPhongMaterial({map:texture,shininess:8,specular:0x080808});
+const globeGeo=new THREE.SphereGeometry(R,128,96);
+const globe=new THREE.Mesh(globeGeo,globeMat);
+const globeGroup=new THREE.Group();
+globeGroup.add(globe);scene.add(globeGroup);
+
+// Atmosphere
+const atmosGeo=new THREE.SphereGeometry(R*1.03,64,64);
+scene.add(new THREE.Mesh(atmosGeo,new THREE.ShaderMaterial({
+  vertexShader:'varying vec3 vN;void main(){vN=normalize(normalMatrix*normal);gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}',
+  fragmentShader:'varying vec3 vN;void main(){float i=pow(.6-dot(vN,vec3(0,0,1.)),3.);gl_FragColor=vec4(.25,.45,.3,i*.2);}',
+  transparent:true,side:THREE.BackSide,depthWrite:false
+})));
+
+// Graticule lines on texture
+ctx.strokeStyle='rgba(50,80,65,0.12)';ctx.lineWidth=0.8;
+[0,30,60,-30,-60].forEach(lat=>{ctx.beginPath();const y=(90-lat)/180*H;ctx.moveTo(0,y);ctx.lineTo(W,y);ctx.stroke()});
+for(let lng=-150;lng<=180;lng+=30){ctx.beginPath();const x=(lng+180)/360*W;ctx.moveTo(x,0);ctx.lineTo(x,H);ctx.stroke()}
+texture.needsUpdate=true;
+
+// Overlay markers group
+const markerGrp=new THREE.Group();globeGroup.add(markerGrp);
+const overlayGrp=new THREE.Group();globeGroup.add(overlayGrp);
+
+function llv(lat,lng,r){const p=(90-lat)*Math.PI/180,t=(lng+180)*Math.PI/180;return new THREE.Vector3(-r*Math.sin(p)*Math.cos(t),r*Math.cos(p),r*Math.sin(p)*Math.sin(t))}
+
+// ===== INTERACTION — UV-based picking (simplest, most reliable) =====
+let drag=false,pm={x:0,y:0},cpm={x:0,y:0},rvx=0,rvy=0,autoR=true,tZoom=4.8;
+let pendingPos=null,events=[];
+const _rc=new THREE.Raycaster();
+const _mv=new THREE.Vector2();
+
+function pickGlobe(mx,my){
+  _mv.set((mx/innerWidth)*2-1,-(my/innerHeight)*2+1);
+  _rc.setFromCamera(_mv,cam);
+  scene.updateMatrixWorld(true);
+  // Intersect all meshes in scene recursively to handle the group
+  const hits=_rc.intersectObjects(globeGroup.children,false);
+  for(let i=0;i<hits.length;i++){
+    const h=hits[i];
+    if(h.object===globe && h.uv){
+      // UV directly from Three.js — u wraps longitude, v wraps latitude
+      const u=h.uv.x, v=h.uv.y;
+      const lng=u*360-180;
+      const lat=90-v*180;
+      // Lookup country on pick canvas using UV coords directly
+      const px=Math.max(0,Math.min(W-1,Math.floor(u*W)));
+      const py=Math.max(0,Math.min(H-1,Math.floor(v*H)));
+      const pixel=pCtx.getImageData(px,py,1,1).data;
+      let countryId=null;
+      if(!(pixel[0]===0&&pixel[1]===0&&pixel[2]===0)){
+        const hex='#'+((pixel[0]<<16)|(pixel[1]<<8)|pixel[2]).toString(16).padStart(6,'0');
+        countryId=color2id[hex]?String(color2id[hex]):null;
+      }
+      return{lat,lng,countryId};
+    }
+  }
+  return null;
+}
+
+canvas.addEventListener('mousedown',e=>{drag=true;pm={x:e.clientX,y:e.clientY};cpm={x:e.clientX,y:e.clientY};autoR=false});
+canvas.addEventListener('mousemove',e=>{
+  if(drag){const dx=e.clientX-pm.x,dy=e.clientY-pm.y;rvx=dx*.003;rvy=dy*.003;globeGroup.rotation.y+=dx*.005;globeGroup.rotation.x=Math.max(-Math.PI/2,Math.min(Math.PI/2,globeGroup.rotation.x+dy*.005));pm={x:e.clientX,y:e.clientY}}
+  const pick=pickGlobe(e.clientX,e.clientY);
+  const tt=document.getElementById('tip');
+  if(pick){
+    pendingPos={lat:pick.lat,lng:pick.lng};
+    const id=pick.countryId;
+    const cName=id?(DB[id]?DB[id].n:(CN[id]||id)):'ocean';
+    document.getElementById('coords').textContent=`LAT ${pick.lat.toFixed(2)} · LON ${pick.lng.toFixed(2)} · ${cName}`;
+    if(id){
+      const d=DB[id];const nm=d?d.n:(CN[id]||'ID:'+id);
+      tt.classList.add('on');tt.style.left=(e.clientX+14)+'px';tt.style.top=(e.clientY-8)+'px';
+      document.getElementById('tt-n').textContent=(d?d.f+' ':'')+nm;
+      document.getElementById('tt-s').textContent=d?`POP ${fN(d.pop)} · GDP $${d.gdp}B`:'ISO '+id;
+      canvas.style.cursor='pointer';
+      if(hoveredId!==id){if(hoveredId&&hoveredId!==selectedId)redrawCountry(hoveredId,countryFills[hoveredId]||'#1e2e28');hoveredId=id;if(hoveredId!==selectedId)redrawCountry(hoveredId,'#2a4a3a')}
+    }else{
+      tt.classList.remove('on');canvas.style.cursor=drag?'grabbing':'grab';
+      if(hoveredId&&hoveredId!==selectedId){redrawCountry(hoveredId,countryFills[hoveredId]||'#1e2e28')}hoveredId=null;
+    }
+  }else{
+    tt.classList.remove('on');canvas.style.cursor=drag?'grabbing':'grab';
+    document.getElementById('coords').textContent='off globe';
+    if(hoveredId&&hoveredId!==selectedId){redrawCountry(hoveredId,countryFills[hoveredId]||'#1e2e28')}hoveredId=null;
+  }
+});
+canvas.addEventListener('mouseup',()=>drag=false);
+canvas.addEventListener('wheel',e=>{tZoom=Math.max(2,Math.min(10,tZoom+e.deltaY*.005));e.preventDefault()},{passive:false});
+canvas.addEventListener('click',e=>{
+  if(Math.abs(e.clientX-cpm.x)<5&&Math.abs(e.clientY-cpm.y)<5){
+    const pick=pickGlobe(e.clientX,e.clientY);
+    selectCountry(pick?pick.countryId:null);
+  }
+});
+canvas.addEventListener('contextmenu',e=>{e.preventDefault();if(pendingPos)addMarker3D(pendingPos.lat,pendingPos.lng,0xc27066)});
+
+// ===== REDRAW COUNTRY ON TEXTURE =====
+function redrawCountry(id,fill){
+  if(!countryPolys[id])return;
+  countryPolys[id].forEach(poly=>poly.forEach((ring,ri)=>{
+    if(ri===0)drawPoly(ctx,ring,fill,'#3a5a4a',0.5);
+  }));
+  texture.needsUpdate=true;
+}
+
+// ===== SELECT COUNTRY =====
+function selectCountry(id){
+  // FIX #3: Clear previous overlays
+  clearOv();
+  if(selectedId){redrawCountry(selectedId,countryFills[selectedId]||'#1e2e28')}
+  selectedId=id;
+  if(selectedId){
+    redrawCountry(selectedId,'#305852');
+    showDetail(selectedId);
+    showCP(selectedId);
+    showOverlays(selectedId);
+  }else{closeDetail();document.getElementById('cpanel').innerHTML='<div style="font-size:10px;color:var(--text-dim)">Select a country</div>'}
+}
+
+// ===== FOCUS ON COORDINATES =====
+window.focusLL=function(lat,lng){
+  const ty=-lng*Math.PI/180,tx=lat*Math.PI/180;
+  const sx=globeGroup.rotation.x,sy=globeGroup.rotation.y;
+  let t=0;autoR=false;
+  (function step(){t+=1/60;if(t>1.2)return;const p=1-Math.pow(1-t/1.2,3);globeGroup.rotation.x=sx+(tx-sx)*p;globeGroup.rotation.y=sy+(ty-sy)*p;requestAnimationFrame(step)})();
+};
+
+// ===== COMMODITY POPUP =====
+window.showCommodity=function(name,evt){
+  const desc=typeof COMMODITIES!=='undefined'&&COMMODITIES[name]?COMMODITIES[name]:'No detailed description available for this commodity.';
+  const popup=document.getElementById('commodity-popup');
+  document.getElementById('cp-t').textContent=name;
+  document.getElementById('cp-d').textContent=desc;
+  popup.style.left=(evt?evt.clientX+10:200)+'px';
+  popup.style.top=(evt?evt.clientY-50:200)+'px';
+  popup.classList.add('show');
+};
+
+// ===== DETAIL PANEL =====
+function showDetail(id){
+  const d=DB[id];const name=d?d.n:(CN[id]||'Territory '+id);
+  document.getElementById('detail').classList.add('open');document.getElementById('btn-detail').classList.add('on');activeTab='overview';setTabs();renderTab(id)
+}
+window.closeDetail=function(){document.getElementById('detail').classList.remove('open');document.getElementById('btn-detail').classList.remove('on');clearOv();if(selectedId){redrawCountry(selectedId,countryFills[selectedId]||'#1e2e28');selectedId=null}}
+document.querySelectorAll('#dtabs .tab').forEach(t=>t.addEventListener('click',()=>{activeTab=t.dataset.tab;setTabs();if(selectedId)renderTab(selectedId)}));
+function setTabs(){document.querySelectorAll('#dtabs .tab').forEach(t=>t.classList.toggle('active',t.dataset.tab===activeTab))}
+function renderTab(id){const d=DB[id],b=document.getElementById('det-body');
+if(!d){const nm=CN[id]||'Territory '+id;b.innerHTML=`<div style="padding:20px;"><div style="font-size:16px;color:var(--white);font-family:var(--sans);margin-bottom:8px">${nm}</div><div style="font-size:11px;color:var(--text-dim)">Detailed intelligence data not yet available for this territory. ISO code: ${id}</div></div>`;return}
+if(activeTab==='overview')b.innerHTML=rOverview(d);else if(activeTab==='geography')b.innerHTML=rGeo(d);else if(activeTab==='economy')b.innerHTML=rEcon(d);else b.innerHTML=rStrat(d)}
+
+function rOverview(d){let h=`<div class="c-head"><div class="c-flag">${d.f||''}</div><div><div class="c-name">${d.n}</div><div class="c-cap">Capital: ${d.c||'—'}</div></div></div>`;
+h+=`<div class="stats"><div class="stat"><div class="sl">Population</div><div class="sv">${fN(d.pop)}</div></div><div class="stat"><div class="sl">Area km²</div><div class="sv">${fN(d.a)}</div></div><div class="stat"><div class="sl">GDP (B USD)</div><div class="sv">$${d.gdp||'—'}</div></div><div class="stat"><div class="sl">GDP/Capita</div><div class="sv">$${d.gdpPC?fN(d.gdpPC):'—'}</div></div></div>`;
+if(d.eth){h+='<div class="sec"><div class="sec-t">Ethnic Composition</div>';
+d.eth.forEach(e=>{h+=`<div class="eth-row"><span class="eth-name">${e.n}</span><div class="eth-track"><div class="eth-fill" style="width:${e.p}%"></div></div><span class="eth-pct">${e.p}%</span></div>`;
+if(d.ethP&&d.ethP[e.n])h+=`<div class="eth-profile"><p>${d.ethP[e.n]}</p></div>`});h+='</div>'}
+if(d.cul)h+=`<div class="sec"><div class="sec-t">Cultural Profile</div><p>${d.cul}</p></div>`;return h}
+
+function rGeo(d){let h='';
+if(d.ter){h+=`<div class="sec"><div class="sec-t">Terrain</div><div class="terrain-bar"><div class="tb-p" style="width:${d.ter.p}%">${d.ter.p}%</div><div class="tb-h" style="width:${d.ter.h}%">${d.ter.h}%</div><div class="tb-m" style="width:${d.ter.m}%">${d.ter.m}%</div></div><div class="terrain-legend"><span class="tl-p">Plains</span><span class="tl-h">Hills</span><span class="tl-m">Mountains</span></div></div>`}
+// FIX #2: Brown mountain bars with visible heights
+if(d.pk&&d.pk.length){const maxH=Math.max(...d.pk.map(p=>p.h));const cw=340,ch=90;
+h+=`<div class="sec"><div class="sec-t">Elevation Profile</div><div class="topo-chart"><svg width="${cw}" height="${ch+35}" viewBox="0 0 ${cw} ${ch+35}">`;
+const gap=cw/(d.pk.length+1);
+d.pk.forEach((p,i)=>{const x=gap*(i+1),barH=Math.max(10,(p.h/maxH)*ch);
+h+=`<rect x="${x-14}" y="${ch-barH+8}" width="28" height="${barH}" fill="#6b4a2a" rx="2"/>`;
+h+=`<text x="${x}" y="${ch-barH+2}" text-anchor="middle" fill="#d5c4a1" font-size="10" font-family="IBM Plex Mono" font-weight="600">${p.h}m</text>`;
+h+=`<text x="${x}" y="${ch+22}" text-anchor="middle" fill="#9aaa97" font-size="8" font-family="IBM Plex Mono">${p.n}</text>`});
+h+=`</svg></div></div>`}
+if(d.mtn)h+=`<div class="sec"><div class="sec-t">Mountains</div><ul>${d.mtn.map(m=>'<li>'+m+'</li>').join('')}</ul></div>`;
+if(d.pln)h+=`<div class="sec"><div class="sec-t">Plains & Basins</div><ul>${d.pln.map(m=>'<li>'+m+'</li>').join('')}</ul></div>`;
+if(d.riv)h+=`<div class="sec"><div class="sec-t">Rivers</div><ul>${d.riv.map(m=>'<li>'+m+'</li>').join('')}</ul></div>`;
+if(d.lak)h+=`<div class="sec"><div class="sec-t">Lakes</div><ul>${d.lak.map(m=>'<li>'+m+'</li>').join('')}</ul></div>`;
+return h||'<div style="padding:20px;color:var(--text-dim);font-size:11px">No geography data.</div>'}
+
+function rEcon(d){let h=`<div class="stats" style="margin-bottom:14px"><div class="stat"><div class="sl">GDP (B)</div><div class="sv">$${d.gdp||'—'}</div></div><div class="stat"><div class="sl">GDP/Cap</div><div class="sv">$${d.gdpPC?fN(d.gdpPC):'—'}</div></div></div>`;
+if(d.ex&&d.ex.length){h+='<div class="sec"><div class="sec-t">Top Exports</div>';
+d.ex.forEach(e=>{const o=typeof e==='string'?{n:e}:e;h+=`<div class="trade-row" onclick="showCommodity('${o.n.replace(/'/g,"\\'")}',event)"><span class="trade-name">${o.n}</span>${o.p?`<div class="trade-bar"><div class="trade-fill ex" style="width:${Math.min(o.p*1.5,100)}%"></div></div><span class="trade-pct">${o.p}%</span>`:''}</div>`});h+='</div>'}
+if(d.im&&d.im.length){h+='<div class="sec"><div class="sec-t">Top Imports</div>';
+d.im.forEach(e=>{const o=typeof e==='string'?{n:e}:e;h+=`<div class="trade-row" onclick="showCommodity('${o.n.replace(/'/g,"\\'")}',event)"><span class="trade-name">${o.n}</span>${o.p?`<div class="trade-bar"><div class="trade-fill im" style="width:${Math.min(o.p*1.5,100)}%"></div></div><span class="trade-pct">${o.p}%</span>`:''}</div>`});h+='</div>'}
+if(d.ext&&d.ext.length){h+='<div class="sec"><div class="sec-t">Extraction Sites</div>';
+d.ext.forEach(e=>{h+=`<div class="marker-item" onclick="focusLL(${e.lat},${e.lng})"><div class="mi-name"><span class="mi-dot ext"></span>${e.n}</div><div class="mi-info">${e.r}</div></div>`});h+='</div>'}
+return h||'<div style="padding:20px;color:var(--text-dim);font-size:11px">No economic data.</div>'}
+
+function rStrat(d){let h='';if(!d.bas||!d.bas.length)return'<div style="padding:20px;color:var(--text-dim);font-size:11px">No strategic data.</div>';
+const dom=d.bas.filter(b=>!b.f),fore=d.bas.filter(b=>b.f);
+if(dom.length){h+='<div class="sec"><div class="sec-t">Domestic</div>';dom.forEach(b=>{h+=`<div class="marker-item" onclick="focusLL(${b.lat},${b.lng})"><div class="mi-name"><span class="mi-dot mil"></span>${b.n}</div><div class="mi-info">${b.t}</div></div>`});h+='</div>'}
+if(fore.length){h+='<div class="sec"><div class="sec-t">Foreign Presence</div>';fore.forEach(b=>{h+=`<div class="marker-item" onclick="focusLL(${b.lat},${b.lng})"><div class="mi-name"><span class="mi-dot for"></span>${b.n}</div><div class="mi-info">${b.t}</div></div>`});h+='</div>'}
+return h}
+
+// ===== OVERLAYS =====
+function clearOv(){while(overlayGrp.children.length)overlayGrp.remove(overlayGrp.children[0])}
+function showOverlays(id){clearOv();const d=DB[id];if(!d)return;
+if(d.ext)d.ext.forEach(e=>addOv(e.lat,e.lng,0xb89a4a,.012));
+if(d.bas)d.bas.forEach(b=>addOv(b.lat,b.lng,b.f?0xc4a095:0xc27066,.01))}
+function addOv(lat,lng,col,sz){const p=llv(lat,lng,R*1.02),g=new THREE.Group();
+g.add(new THREE.Mesh(new THREE.SphereGeometry(sz,10,10),new THREE.MeshPhongMaterial({color:col,emissive:col,emissiveIntensity:.5})));
+const ring=new THREE.Mesh(new THREE.RingGeometry(sz*1.5,sz*2,20),new THREE.MeshBasicMaterial({color:col,transparent:true,opacity:.4,side:THREE.DoubleSide}));
+ring.userData.pulse=true;g.add(ring);
+g.position.copy(p);g.lookAt(0,0,0);g.rotateX(Math.PI);overlayGrp.add(g)}
+
+function addMarker3D(lat,lng,col){const p=llv(lat,lng,R*1.02),g=new THREE.Group();g.add(new THREE.Mesh(new THREE.SphereGeometry(.013,10,10),new THREE.MeshPhongMaterial({color:col,emissive:col,emissiveIntensity:.4})));const pulse=new THREE.Mesh(new THREE.RingGeometry(.015,.02,20),new THREE.MeshBasicMaterial({color:col,transparent:true,opacity:.5,side:THREE.DoubleSide}));pulse.userData.pulse=true;g.add(pulse);g.position.copy(p);g.lookAt(0,0,0);g.rotateX(Math.PI);markerGrp.add(g)}
+
+// ===== COLOR PANEL =====
+function showCP(id){const d=DB[id];if(!d)return;
+document.getElementById('cpanel').innerHTML=`<div style="font-size:12px;color:var(--white);margin-bottom:6px;font-family:var(--sans)">${d.f||''} ${d.n}</div><div class="cpick"><label>Color</label><input type="color" value="${countryFills[id]||'#1e2e28'}" id="cc-i"></div><button class="btn-sm" onclick="resetCC('${id}')">Reset</button>`;
+document.getElementById('cc-i').addEventListener('input',e=>{countryFills[id]=e.target.value;redrawCountry(id,e.target.value)})}
+window.resetCC=function(id){delete countryFills[id];redrawCountry(id,'#1e2e28')};
+
+// ===== EVENTS =====
+const TC={conflict:0xc27066,diplomacy:0x8aad84,economic:0xb89a4a,alert:0x6b9e6f};
+document.getElementById('btn-ev').addEventListener('click',()=>{const ti=document.getElementById('ev-t').value.trim(),ty=document.getElementById('ev-type').value,de=document.getElementById('ev-d').value.trim();if(!ti||!pendingPos)return;events.push({title:ti,type:ty,desc:de,lat:pendingPos.lat,lng:pendingPos.lng});addMarker3D(pendingPos.lat,pendingPos.lng,TC[ty]);renderEv();document.getElementById('ev-t').value='';document.getElementById('ev-d').value=''});
+function renderEv(){const el=document.getElementById('ev-list');document.getElementById('ev-count').textContent=events.length;if(!events.length){el.innerHTML='<div style="text-align:center;padding:16px 0;color:var(--text-dim);font-size:10px">Right-click to mark</div>';return}el.innerHTML=events.map((e,i)=>`<div class="ev-item" onclick="focusLL(${e.lat},${e.lng})"><div style="display:flex;justify-content:space-between"><span class="ev-badge ${e.type}">${e.type}</span><span style="font-size:9px;color:var(--text-dim);cursor:pointer" onclick="event.stopPropagation();rmEv(${i})">✕</span></div><div class="ev-title">${e.title}</div><div class="ev-coord">${e.lat.toFixed(2)}°, ${e.lng.toFixed(2)}°</div></div>`).join('')}
+window.rmEv=function(i){events.splice(i,1);if(markerGrp.children[i])markerGrp.remove(markerGrp.children[i]);renderEv()};
+document.getElementById('btn-side').addEventListener('click',()=>document.getElementById('sidebar').classList.toggle('off'));
+document.getElementById('btn-detail').addEventListener('click',()=>closeDetail());
+
+// Clock
+function uClock(){const n=new Date;document.getElementById('clock').textContent=`UTC ${n.getUTCHours().toString().padStart(2,'0')}:${n.getUTCMinutes().toString().padStart(2,'0')}:${n.getUTCSeconds().toString().padStart(2,'0')}`}setInterval(uClock,1000);uClock();
+function fN(n){if(!n)return'0';if(n>=1e9)return(n/1e9).toFixed(1)+'B';if(n>=1e6)return(n/1e6).toFixed(1)+'M';if(n>=1e3)return(n/1e3).toFixed(1)+'K';return ''+n}
+
+// ===== ANIMATE =====
+lf.style.width='100%';ls.textContent='Online';setTimeout(()=>document.getElementById('loader').classList.add('done'),600);
+function animate(){requestAnimationFrame(animate);
+if(autoR)globeGroup.rotation.y+=.0005;
+if(!drag){rvx*=.94;rvy*=.94;globeGroup.rotation.y+=rvx;globeGroup.rotation.x+=rvy}
+cam.position.z+=(tZoom-cam.position.z)*.06;
+const t=Date.now()*.003;
+markerGrp.children.forEach(g=>g.children.forEach(ch=>{if(ch.userData.pulse){const s=1+Math.sin(t)*.6;ch.scale.set(s,s,s);ch.material.opacity=.35*(1-Math.sin(t)*.5)}}));
+overlayGrp.children.forEach(g=>g.children.forEach(ch=>{if(ch.userData.pulse){const s=1+Math.sin(t*1.3)*.4;ch.scale.set(s,s,s);ch.material.opacity=.3*(1-Math.sin(t*1.3)*.4)}}));
+ren.render(scene,cam)}animate();
+setTimeout(()=>document.getElementById('instr').style.opacity='0',5000);
+window.addEventListener('resize',()=>{cam.aspect=innerWidth/innerHeight;cam.updateProjectionMatrix();ren.setSize(innerWidth,innerHeight)});
+})();
+</script>
+</body></html>
