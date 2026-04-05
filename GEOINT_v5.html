@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GEOINT // Strategic Globe v5</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=Barlow:wght@300;400;500;600;700&family=Barlow+Condensed:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#131a17;--surface:rgba(20,30,26,.93);--border:rgba(190,207,184,.1);--border-h:rgba(190,207,184,.2);--accent:#8aad84;--accent2:#305852;--red:#c27066;--gold:#b89a4a;--green:#6b9e6f;--rose:#c4a095;--text:#9aaa97;--text-dim:#5a6d5e;--white:#d5d8d2;--bright:#e8ebe5;--mono:'IBM Plex Mono',monospace;--sans:'Barlow',sans-serif;--cond:'Barlow Condensed',sans-serif}
+html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--mono)}
+canvas#gl{position:fixed;inset:0;z-index:1}
+#top{position:fixed;top:0;left:0;right:0;height:40px;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0 20px;background:linear-gradient(180deg,rgba(19,26,23,.97),rgba(19,26,23,.4));border-bottom:1px solid var(--border);backdrop-filter:blur(10px)}
+.logo{font-family:var(--cond);font-weight:600;font-size:13px;letter-spacing:4px;color:var(--accent);text-transform:uppercase;display:flex;align-items:center;gap:8px}
+.logo .dot{width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 6px var(--green);animation:blink 2.5s infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+#clock{font-size:10px;color:var(--text-dim);letter-spacing:1.5px}
+#bot{position:fixed;bottom:0;left:0;right:0;height:28px;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0 20px;background:linear-gradient(0deg,rgba(19,26,23,.97),rgba(19,26,23,.4));border-top:1px solid var(--border);font-size:9px;color:var(--text-dim);letter-spacing:1px}
+#tip{position:fixed;z-index:300;pointer-events:none;opacity:0;transition:opacity .2s;padding:10px 16px;background:var(--surface);border:1px solid var(--border-h);border-radius:4px;backdrop-filter:blur(14px)}
+#tip.on{opacity:1}
+#tip .n{font-family:var(--sans);font-size:14px;font-weight:500;color:var(--bright)}
+#tip .s{font-size:9px;color:var(--text-dim);letter-spacing:1px;margin-top:2px}
+#detail{position:fixed;top:44px;left:10px;bottom:34px;width:390px;z-index:100;display:flex;flex-direction:column;gap:6px;opacity:0;pointer-events:none;transform:translateX(-410px);transition:transform .4s cubic-bezier(.22,1,.36,1),opacity .3s}
+#detail.open{opacity:1;pointer-events:auto;transform:translateX(0)}
+.pnl{background:var(--surface);border:1px solid var(--border);border-radius:6px;backdrop-filter:blur(14px);overflow:hidden}
+.pnl-h{padding:10px 14px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}
+.pnl-t{font-family:var(--cond);font-size:11px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:var(--accent)}
+.pnl-b{padding:12px 14px;overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--border) transparent}
+.pnl-b::-webkit-scrollbar{width:3px}.pnl-b::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
+.c-head{display:flex;align-items:center;gap:14px;margin-bottom:10px}
+.c-flag{font-size:38px;line-height:1}.c-name{font-family:var(--sans);font-size:18px;font-weight:600;color:var(--bright)}.c-cap{font-size:11px;color:var(--text-dim);margin-top:2px}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:12px}
+.stat{padding:8px 10px;background:rgba(255,255,255,.015);border:1px solid var(--border);border-radius:4px}
+.stat .sl{font-size:9px;color:var(--text-dim);letter-spacing:1px;text-transform:uppercase;margin-bottom:2px}
+.stat .sv{font-family:var(--sans);font-size:14px;font-weight:600;color:var(--white)}
+.sec{margin-bottom:10px}.sec-t{font-family:var(--cond);font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:var(--accent);margin-bottom:6px;padding-bottom:4px;border-bottom:1px solid var(--border)}
+.sec p{font-size:11px;color:var(--text);line-height:1.6;margin-bottom:6px}
+.sec ul{list-style:none;padding:0}.sec li{font-size:11px;color:var(--text);line-height:1.6}.sec li::before{content:'›';color:var(--accent);margin-right:6px}
+.eth-row{display:flex;align-items:center;gap:8px;margin-bottom:3px}.eth-name{font-size:10px;color:var(--text);min-width:100px}
+.eth-track{flex:1;height:5px;background:rgba(255,255,255,.03);border-radius:3px;overflow:hidden}.eth-fill{height:100%;border-radius:3px;background:var(--accent2);transition:width .6s}
+.eth-pct{font-size:9px;color:var(--text-dim);min-width:30px;text-align:right}
+.eth-profile{margin:4px 0 8px;padding:8px;border-left:2px solid var(--accent2);background:rgba(48,88,82,.06);border-radius:0 4px 4px 0}
+.eth-profile p{font-size:10px;color:var(--text);line-height:1.6;margin:0}
+.terrain-bar{display:flex;height:14px;border-radius:3px;overflow:hidden;margin-bottom:6px}
+.tb-p,.tb-h,.tb-m{display:flex;align-items:center;justify-content:center;font-size:8px;color:#fff}
+.tb-p{background:var(--green)}.tb-h{background:var(--gold)}.tb-m{background:var(--accent2)}
+.terrain-legend{display:flex;gap:12px;font-size:9px;color:var(--text-dim)}
+.terrain-legend span::before{content:'';display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:4px;vertical-align:middle}
+.tl-p::before{background:var(--green)}.tl-h::before{background:var(--gold)}.tl-m::before{background:var(--accent2)}
+.topo-chart{margin:8px 0;padding:8px;background:rgba(0,0,0,.15);border-radius:4px;border:1px solid var(--border)}
+.trade-row{display:flex;align-items:center;gap:6px;margin-bottom:4px;padding:4px 8px;background:rgba(255,255,255,.01);border-radius:3px;cursor:pointer;transition:background .2s}
+.trade-row:hover{background:rgba(255,255,255,.03)}
+.trade-name{flex:1;font-size:10px;color:var(--text)}.trade-pct{font-size:11px;font-weight:500;color:var(--white);min-width:40px;text-align:right}
+.trade-bar{width:60px;height:4px;background:rgba(255,255,255,.03);border-radius:2px;overflow:hidden}
+.trade-fill{height:100%;border-radius:2px}.trade-fill.ex{background:var(--green)}.trade-fill.im{background:var(--rose)}
+.marker-item{padding:6px 8px;border-radius:4px;background:rgba(255,255,255,.015);border:1px solid var(--border);margin-bottom:4px;cursor:pointer;transition:border-color .2s}
+.marker-item:hover{border-color:var(--border-h)}
+.mi-name{font-size:11px;color:var(--white)}.mi-info{font-size:9px;color:var(--text-dim);margin-top:1px}
+.mi-dot{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:5px}
+.mi-dot.ext{background:var(--gold)}.mi-dot.mil{background:var(--red)}.mi-dot.for{background:var(--rose)}
+#sidebar{position:fixed;top:44px;right:10px;bottom:34px;width:280px;z-index:100;display:flex;flex-direction:column;gap:6px;transition:transform .4s cubic-bezier(.22,1,.36,1),opacity .3s}
+#sidebar.off{transform:translateX(300px);opacity:0;pointer-events:none}
+.toggle-btn{position:fixed;z-index:101;width:32px;height:32px;border-radius:4px;background:var(--surface);border:1px solid var(--border);color:var(--accent);font-size:13px;cursor:pointer;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(8px)}
+#btn-side{top:44px;right:10px}
+#btn-detail{top:44px;left:10px;opacity:0;pointer-events:none;transition:opacity .3s}#btn-detail.on{opacity:1;pointer-events:auto}
+.tabs{display:flex;border-bottom:1px solid var(--border)}.tab{flex:1;padding:8px 4px;text-align:center;font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--text-dim);cursor:pointer;border-bottom:2px solid transparent;transition:all .2s}.tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+#loader{position:fixed;inset:0;z-index:999;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;transition:opacity .8s}#loader.done{opacity:0;pointer-events:none}
+.load-bar{width:200px;height:2px;background:rgba(255,255,255,.05);border-radius:1px;overflow:hidden;margin-top:16px}.load-fill{height:100%;background:var(--accent);width:0%;transition:width .3s}
+.load-msg{font-size:11px;color:var(--text-dim);letter-spacing:2px;text-transform:uppercase}
+.btn-add{width:100%;padding:7px;background:rgba(138,173,132,.08);border:1px solid rgba(138,173,132,.2);border-radius:3px;color:var(--accent);font-family:var(--mono);font-size:10px;cursor:pointer;letter-spacing:1px;text-transform:uppercase}
+#ev-form input,#ev-form select,#ev-form textarea{width:100%;padding:7px 9px;background:rgba(255,255,255,.02);border:1px solid var(--border);border-radius:3px;color:var(--white);font-family:var(--mono);font-size:10px;margin-bottom:5px;outline:none}
+#ev-form textarea{resize:none;height:40px}
+.ev-item{padding:8px 10px;border-radius:4px;background:rgba(255,255,255,.015);border:1px solid transparent;margin-bottom:5px;cursor:pointer}.ev-item:hover{border-color:var(--border)}
+.ev-badge{font-size:8px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;padding:2px 5px;border-radius:2px;display:inline-block;margin-bottom:3px}
+.ev-badge.conflict{background:rgba(194,112,102,.12);color:var(--red)}.ev-badge.diplomacy{background:rgba(138,173,132,.12);color:var(--accent)}.ev-badge.economic{background:rgba(184,154,74,.12);color:var(--gold)}.ev-badge.alert{background:rgba(107,158,111,.12);color:var(--green)}
+</style>
+</head>
+<body>
+<div id="loader"><div class="load-msg">GEOINT v5 — GPU PICKING</div><div class="load-bar"><div class="load-fill" id="lf"></div></div></div>
+<canvas id="gl"></canvas>
+<div id="top"><div class="logo"><span class="dot"></span>GEOINT // STRATEGIC GLOBE</div><div id="clock"></div></div>
+<div id="tip"><div class="n" id="tt-n"></div><div class="s" id="tt-s"></div></div>
+<button class="toggle-btn" id="btn-detail">✕</button>
+<div id="detail"><div class="pnl" style="flex:1;overflow:hidden;display:flex;flex-direction:column">
+<div class="pnl-h"><div class="pnl-t">Intelligence</div><button onclick="closeDetail()" style="background:none;border:none;color:var(--text-dim);cursor:pointer;font-size:12px">✕</button></div>
+<div class="tabs" id="dtabs"><div class="tab active" data-tab="overview">Overview</div><div class="tab" data-tab="geography">Geography</div><div class="tab" data-tab="economy">Economy</div><div class="tab" data-tab="strategic">Strategic</div></div>
+<div class="pnl-b" style="flex:1" id="det-body"><div style="text-align:center;padding:40px 0;color:var(--text-dim);font-size:11px">Select a country</div></div></div></div>
+<button class="toggle-btn" id="btn-side">☰</button>
+<div id="sidebar">
+<div class="pnl" style="flex:0 0 auto;max-height:45%"><div class="pnl-h"><div class="pnl-t">⬡ Events</div><span style="font-size:9px;color:var(--text-dim)" id="ev-count">0</span></div><div class="pnl-b" id="ev-list" style="max-height:160px"><div style="text-align:center;padding:16px 0;color:var(--text-dim);font-size:10px">Right-click to mark</div></div></div>
+<div class="pnl" style="flex:0 0 auto"><div class="pnl-h"><div class="pnl-t">+ Event</div></div><div id="ev-form" style="padding:10px 12px"><input type="text" id="ev-t" placeholder="Title..."><select id="ev-type"><option value="conflict">⚔ Conflict</option><option value="diplomacy">◆ Diplomacy</option><option value="economic">$ Economic</option><option value="alert">▲ Alert</option></select><textarea id="ev-d" placeholder="Description..."></textarea><button class="btn-add" id="btn-ev">+ Add</button></div></div>
+<div class="pnl" style="flex:0 0 auto"><div class="pnl-h"><div class="pnl-t">◉ Color</div></div><div class="pnl-b" id="cpanel"><div style="font-size:10px;color:var(--text-dim)">Select a country</div></div></div>
+</div>
+<div id="bot"><div>SYS NOMINAL // GPU PICK ENGINE</div><div id="coords">—</div></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+// ====== INLINE DATA (abbreviated for key countries) ======
+const DB={};const CN={};
+function A(id,d){DB[String(id)]=d;CN[String(id)]=d.n}
+A(840,{n:"United States",f:"🇺🇸",c:"Washington, D.C.",pop:334914895,a:9833520,gdp:27360,gdpPC:81695,eth:[{n:"White",p:57.8},{n:"Hispanic/Latino",p:18.7},{n:"Black",p:12.1},{n:"Asian",p:5.9},{n:"Other",p:5.5}],ethP:{"White":"European-descent majority. Controls most institutional power. Declining share.","Hispanic/Latino":"Fastest-growing. Mexican, Puerto Rican, Central American. Growing political influence.","Black":"Descended from enslaved Africans. Persistent wealth gap. Enormous cultural influence.","Asian":"Chinese, Indian, Filipino, Vietnamese, Korean. Highest median income."},cul:"Multicultural federal republic; global cultural exporter. Constitutional liberalism.",ter:{p:45,h:30,m:25},pk:[{n:"Denali",h:6190},{n:"Whitney",h:4421},{n:"Elbert",h:4401}],mtn:["Rockies","Appalachians","Sierra Nevada","Cascades"],pln:["Great Plains","Mississippi Valley"],riv:["Mississippi","Missouri","Colorado","Columbia"],lak:["Superior","Michigan","Huron"],ex:[{n:"Refined Petroleum",p:8.2},{n:"Crude Oil",p:7.1},{n:"Natural Gas",p:5.5},{n:"Aircraft",p:4.1},{n:"Integrated Circuits",p:3.8}],im:[{n:"Motor Vehicles",p:7.8},{n:"Crude Oil",p:5.2},{n:"Computers",p:4.8},{n:"Medicaments",p:3.9},{n:"Broadcasting Eq.",p:3.2}],ext:[{n:"Permian Basin",lat:31.9,lng:-102.1,r:"Oil & Gas"},{n:"Carlin Trend",lat:40.7,lng:-116.3,r:"Gold"}],bas:[{n:"Norfolk Naval",lat:36.95,lng:-76.33,t:"Navy — world's largest naval base",f:0},{n:"Ramstein (DE)",lat:49.44,lng:7.6,t:"USAF Europe HQ",f:0}]});
+A(156,{n:"China",f:"🇨🇳",c:"Beijing",pop:1425178782,a:9596960,gdp:18530,gdpPC:13000,eth:[{n:"Han Chinese",p:91.1},{n:"Zhuang",p:1.3},{n:"Uyghur",p:0.8},{n:"Other",p:6.8}],cul:"Ancient civilization. One-party socialist republic. 56 ethnic groups.",ter:{p:30,h:25,m:45},pk:[{n:"Everest(N)",h:8849},{n:"K2(b)",h:8611}],mtn:["Himalayas","Kunlun","Tian Shan"],pln:["North China Plain","Sichuan Basin"],riv:["Yangtze","Yellow River","Pearl"],lak:["Qinghai","Poyang"],ex:[{n:"Broadcasting Eq.",p:7.8},{n:"Computers",p:6.5},{n:"Integrated Circuits",p:4.2},{n:"Telephones",p:3.6},{n:"Machine Parts",p:3.1}],im:[{n:"Crude Oil",p:14.2},{n:"Integrated Circuits",p:12.8},{n:"Iron Ore",p:6.5},{n:"Natural Gas",p:3.8},{n:"Soybeans",p:2.9}],ext:[{n:"Baotou",lat:40.6,lng:109.8,r:"Rare Earth Elements"},{n:"Daqing",lat:46.6,lng:125.0,r:"Oil"}],bas:[{n:"Zhanjiang Naval",lat:21.2,lng:110.4,t:"South Sea Fleet",f:0},{n:"Djibouti Base",lat:11.55,lng:43.15,t:"Overseas logistics",f:0}]});
+A(643,{n:"Russia",f:"🇷🇺",c:"Moscow",pop:144236933,a:17098242,gdp:2020,gdpPC:14000,eth:[{n:"Russian",p:77.7},{n:"Tatar",p:3.7},{n:"Chechen",p:1.0},{n:"Other",p:17.6}],cul:"East Slavic, Orthodox. 11 time zones. Nuclear superpower.",ter:{p:55,h:25,m:20},pk:[{n:"Elbrus",h:5642},{n:"Dykh-Tau",h:5205}],mtn:["Caucasus","Urals","Altai"],pln:["East European Plain","W.Siberian Plain"],riv:["Volga","Ob","Yenisei","Lena"],lak:["Baikal","Ladoga"],ex:[{n:"Crude Oil",p:24.5},{n:"Refined Petroleum",p:11.3},{n:"Natural Gas",p:8.7},{n:"Coal",p:3.8},{n:"Wheat",p:2.4}],im:[{n:"Motor Vehicles",p:7.2},{n:"Medicaments",p:3.8},{n:"Computers",p:3.1},{n:"Vehicle Parts",p:2.7},{n:"Telephones",p:2.4}],ext:[{n:"W.Siberian Basin",lat:61,lng:73,r:"Oil & Gas"},{n:"Norilsk",lat:69.3,lng:88.2,r:"Nickel, Palladium"}],bas:[{n:"Severomorsk",lat:69.07,lng:33.42,t:"Northern Fleet HQ",f:0},{n:"Sevastopol",lat:44.6,lng:33.5,t:"Black Sea Fleet",f:0}]});
+A(826,{n:"United Kingdom",f:"🇬🇧",c:"London",pop:67736802,a:242495,gdp:3340,gdpPC:49300,eth:[{n:"White British",p:81.7},{n:"Asian British",p:7.5},{n:"Black British",p:3.3},{n:"Other",p:7.5}],cul:"Constitutional monarchy. Global influence via English language.",ter:{p:50,h:35,m:15},pk:[{n:"Ben Nevis",h:1345}],mtn:["Scottish Highlands","Pennines"],pln:["English Lowlands"],riv:["Thames","Severn"],ex:[{n:"Gold",p:8.1},{n:"Motor Vehicles",p:5.2},{n:"Crude Oil",p:4.7},{n:"Medicaments",p:4.3},{n:"Gas Turbines",p:3.5}],im:[{n:"Gold",p:9.4},{n:"Motor Vehicles",p:5.8},{n:"Crude Oil",p:4.1},{n:"Refined Petroleum",p:3.2},{n:"Computers",p:2.9}],bas:[{n:"Faslane",lat:56.06,lng:-4.82,t:"Nuclear Sub base",f:0}]});
+A(250,{n:"France",f:"🇫🇷",c:"Paris",pop:68042591,a:643801,gdp:3050,gdpPC:44850,eth:[{n:"French European",p:85},{n:"North African",p:8},{n:"Sub-Saharan",p:4},{n:"Other",p:3}],cul:"Centralized republic. Art, philosophy, cuisine, fashion.",ter:{p:40,h:35,m:25},pk:[{n:"Mont Blanc",h:4808}],mtn:["Alps","Pyrenees","Massif Central"],pln:["Paris Basin"],riv:["Loire","Seine","Rhône"],ex:[{n:"Aircraft",p:9.5},{n:"Medicaments",p:4.2},{n:"Motor Vehicles",p:3.8},{n:"Wine",p:2.7},{n:"Perfumes",p:2.1}],im:[{n:"Crude Oil",p:5.6},{n:"Motor Vehicles",p:4.8},{n:"Refined Petroleum",p:3.1},{n:"Natural Gas",p:2.9},{n:"Computers",p:2.5}],bas:[{n:"Toulon Naval",lat:43.1,lng:5.93,t:"Mediterranean Fleet",f:0}]});
+A(276,{n:"Germany",f:"🇩🇪",c:"Berlin",pop:84482267,a:357022,gdp:4460,gdpPC:52820,eth:[{n:"German",p:80},{n:"Turkish",p:3.5},{n:"Other",p:16.5}],cul:"Engineering excellence. Federal republic.",ter:{p:35,h:40,m:25},pk:[{n:"Zugspitze",h:2962}],mtn:["Bavarian Alps","Black Forest"],pln:["North German Plain"],riv:["Rhine","Danube","Elbe"],ex:[{n:"Motor Vehicles",p:11.5},{n:"Vehicle Parts",p:4.8},{n:"Medicaments",p:4.2},{n:"Aircraft",p:2.1},{n:"Medical Instruments",p:1.9}],im:[{n:"Motor Vehicles",p:5.2},{n:"Crude Oil",p:4.8},{n:"Natural Gas",p:4.1},{n:"Vehicle Parts",p:3.2},{n:"Computers",p:2.7}],bas:[{n:"Ramstein (US)",lat:49.44,lng:7.6,t:"USAF Europe HQ",f:1}]});
+A(380,{n:"Italy",f:"🇮🇹",c:"Rome",pop:58870762,a:301340,gdp:2190,gdpPC:37200,eth:[{n:"Italian",p:92},{n:"Other",p:8}],cul:"Renaissance cradle. Art, fashion, cuisine.",ter:{p:23,h:42,m:35},pk:[{n:"Monte Bianco",h:4808},{n:"Etna",h:3357}],mtn:["Alps","Apennines","Dolomites"],pln:["Po Valley"],riv:["Po","Tiber","Arno"],ex:[{n:"Medicaments",p:5.1},{n:"Motor Vehicles",p:3.8},{n:"Refined Petroleum",p:3.5},{n:"Wine",p:2.1},{n:"Leather",p:1.8}],im:[{n:"Crude Oil",p:7.8},{n:"Motor Vehicles",p:4.5},{n:"Natural Gas",p:4.2},{n:"Refined Petroleum",p:2.8},{n:"Medicaments",p:2.5}],bas:[{n:"Sigonella (US)",lat:37.4,lng:14.92,t:"US Navy",f:1}]});
+A(392,{n:"Japan",f:"🇯🇵",c:"Tokyo",pop:123294513,a:377975,gdp:4210,gdpPC:34150,eth:[{n:"Japanese",p:97.5},{n:"Other",p:2.5}],cul:"Island civilization. Tech powerhouse.",ter:{p:20,h:30,m:50},pk:[{n:"Fuji",h:3776}],mtn:["Japanese Alps"],pln:["Kantō Plain"],riv:["Shinano","Tone"],ex:[{n:"Motor Vehicles",p:14.2},{n:"Vehicle Parts",p:4.8},{n:"Integrated Circuits",p:4.5},{n:"Machinery",p:3.8},{n:"Iron/Steel",p:2.9}],im:[{n:"Crude Oil",p:10.5},{n:"Natural Gas",p:6.8},{n:"Computers",p:3.1},{n:"Coal",p:2.9},{n:"Refined Petroleum",p:2.4}],bas:[{n:"Yokosuka (US)",lat:35.28,lng:139.67,t:"US 7th Fleet",f:1}]});
+A(356,{n:"India",f:"🇮🇳",c:"New Delhi",pop:1428627663,a:3287263,gdp:3730,gdpPC:2610,eth:[{n:"Indo-Aryan",p:72},{n:"Dravidian",p:25},{n:"Other",p:3}],cul:"Multi-civilizational. 22 official languages. Parliamentary democracy.",ter:{p:40,h:25,m:35},pk:[{n:"Kangchenjunga",h:8586}],mtn:["Himalayas","Western Ghats"],pln:["Indo-Gangetic Plain","Deccan"],riv:["Ganges","Brahmaputra","Godavari"],ex:[{n:"Refined Petroleum",p:14.8},{n:"Diamonds",p:7.2},{n:"Medicaments",p:3.5},{n:"Rice",p:2.8},{n:"Jewelry",p:2.4}],im:[{n:"Crude Oil",p:22.1},{n:"Gold",p:6.5},{n:"Coal",p:4.8},{n:"Diamonds",p:4.1},{n:"Natural Gas",p:2.8}]});
+A(76,{n:"Brazil",f:"🇧🇷",c:"Brasília",pop:216422446,a:8515767,gdp:2170,gdpPC:10030,eth:[{n:"Pardo",p:47},{n:"White",p:43},{n:"Black",p:8},{n:"Other",p:2}],cul:"Lusophone. Afro-Brazilian-European synthesis.",ter:{p:40,h:35,m:25},pk:[{n:"Pico da Neblina",h:2994}],mtn:["Serra do Mar"],pln:["Amazon Basin","Pantanal"],riv:["Amazon","Paraná"],ex:[{n:"Soybeans",p:13.2},{n:"Iron Ore",p:12.1},{n:"Crude Oil",p:11.4},{n:"Sugar",p:3.5},{n:"Poultry",p:2.8}],im:[{n:"Refined Petroleum",p:5.8},{n:"Vehicle Parts",p:2.9},{n:"Pesticides",p:2.5},{n:"Computers",p:2.1},{n:"Telephones",p:1.8}]});
+A(410,{n:"South Korea",f:"🇰🇷",c:"Seoul",pop:51784059,a:100210,gdp:1710,gdpPC:33100,eth:[{n:"Korean",p:96},{n:"Other",p:4}],cul:"Confucian heritage. K-pop. Divided peninsula.",ter:{p:30,h:35,m:35},pk:[{n:"Hallasan",h:1947}],ex:[{n:"Integrated Circuits",p:17.5},{n:"Motor Vehicles",p:8.2},{n:"Refined Petroleum",p:5.8},{n:"Ships",p:4.1},{n:"Display Panels",p:3.5}],im:[{n:"Crude Oil",p:13.2},{n:"Integrated Circuits",p:9.8},{n:"Natural Gas",p:5.1},{n:"Refined Petroleum",p:3.2},{n:"Coal",p:2.9}]});
+A(792,{n:"Turkey",f:"🇹🇷",c:"Ankara",pop:85816199,a:783562,gdp:1110,gdpPC:12930,eth:[{n:"Turkish",p:75},{n:"Kurdish",p:18},{n:"Other",p:7}],cul:"Transcontinental. NATO member. Ottoman legacy.",ter:{p:20,h:35,m:45},pk:[{n:"Ararat",h:5137}],ex:[{n:"Motor Vehicles",p:8.5},{n:"Gold",p:5.2},{n:"Vehicle Parts",p:3.8},{n:"Iron/Steel",p:3.5},{n:"Textiles",p:3.1}],im:[{n:"Gold",p:6.8},{n:"Refined Petroleum",p:5.5},{n:"Motor Vehicles",p:3.2},{n:"Iron/Steel",p:2.8},{n:"Crude Oil",p:2.5}]});
+A(682,{n:"Saudi Arabia",f:"🇸🇦",c:"Riyadh",pop:36947025,a:2149690,gdp:1060,gdpPC:28670,eth:[{n:"Saudi Arab",p:62},{n:"Foreign workers",p:38}],cul:"Islamic monarchy. Mecca/Medina custodian.",ex:[{n:"Crude Oil",p:61.5},{n:"Refined Petroleum",p:9.8},{n:"Polymers",p:4.2},{n:"Chemicals",p:2.5},{n:"Aluminum",p:1.8}],im:[{n:"Motor Vehicles",p:8.5},{n:"Broadcasting Eq.",p:3.1},{n:"Telephones",p:2.8},{n:"Jewelry",p:2.2},{n:"Rice",p:1.9}]});
+A(376,{n:"Israel",f:"🇮🇱",c:"Jerusalem/Tel Aviv",pop:9174520,a:22072,gdp:525,gdpPC:57200,eth:[{n:"Jewish",p:73.5},{n:"Arab",p:21},{n:"Other",p:5.5}],cul:"Jewish state. High-tech leader.",ex:[{n:"Integrated Circuits",p:12.1},{n:"Diamonds",p:11.5},{n:"Refined Petroleum",p:5.2},{n:"Medicaments",p:4.8},{n:"Medical Instruments",p:3.2}],im:[{n:"Crude Oil",p:8.5},{n:"Diamonds",p:7.8},{n:"Motor Vehicles",p:5.1},{n:"Computers",p:3.2},{n:"Refined Petroleum",p:2.8}]});
+A(834,{n:"Tanzania",f:"🇹🇿",c:"Dodoma",pop:65497748,a:945087,gdp:79,gdpPC:1200,eth:[{n:"Sukuma",p:16},{n:"Chagga",p:7},{n:"Other Bantu",p:72},{n:"Arab/Asian",p:5}],cul:"120+ ethnic groups. Swahili lingua franca. Kilimanjaro.",ter:{p:40,h:35,m:25},pk:[{n:"Kilimanjaro",h:5895},{n:"Meru",h:4566}],ex:[{n:"Gold",p:28.5},{n:"Tobacco",p:6.2},{n:"Cashew Nuts",p:5.8},{n:"Coffee",p:4.1},{n:"Gems",p:3.5}],im:[{n:"Refined Petroleum",p:12.5},{n:"Wheat",p:4.2},{n:"Motor Vehicles",p:3.8},{n:"Palm Oil",p:3.1},{n:"Medicaments",p:2.4}]});
+// Basic entries for remaining countries
+var S=function(id,n,f,c,pop,gdp){DB[String(id)]={n,f,c,pop,gdp};CN[String(id)]=n};
+S(4,"Afghanistan","🇦🇫","Kabul",41128771,14);S(8,"Albania","🇦🇱","Tirana",2854000,23);S(12,"Algeria","🇩🇿","Algiers",44903000,240);S(24,"Angola","🇦🇴","Luanda",35588987,124);S(32,"Argentina","🇦🇷","Buenos Aires",45810000,631);S(36,"Australia","🇦🇺","Canberra",26439111,1720);S(40,"Austria","🇦🇹","Vienna",9104000,516);S(50,"Bangladesh","🇧🇩","Dhaka",172954000,460);S(56,"Belgium","🇧🇪","Brussels",11686000,624);S(64,"Bhutan","🇧🇹","Thimphu",787424,2.8);S(68,"Bolivia","🇧🇴","Sucre",12388571,44);S(70,"Bosnia & Herz.","🇧🇦","Sarajevo",3271000,25);S(72,"Botswana","🇧🇼","Gaborone",2588423,19);S(100,"Bulgaria","🇧🇬","Sofia",6520000,103);S(104,"Myanmar","🇲🇲","Naypyidaw",54179000,65);S(108,"Burundi","🇧🇮","Gitega",13238559,3);S(112,"Belarus","🇧🇾","Minsk",9200000,72);S(116,"Cambodia","🇰🇭","Phnom Penh",17168000,32);S(120,"Cameroon","🇨🇲","Yaoundé",28647000,45);S(124,"Canada","🇨🇦","Ottawa",40097761,2240);S(140,"C.A.R.","🇨🇫","Bangui",5742000,2.5);S(144,"Sri Lanka","🇱🇰","Colombo",22156000,84);S(148,"Chad","🇹🇩","N'Djamena",18278568,12);S(152,"Chile","🇨🇱","Santiago",19493000,335);S(170,"Colombia","🇨🇴","Bogotá",52085000,363);S(178,"Congo","🇨🇬","Brazzaville",6106000,14);S(180,"DR Congo","🇨🇩","Kinshasa",102262000,66);S(188,"Costa Rica","🇨🇷","San José",5212000,69);S(191,"Croatia","🇭🇷","Zagreb",3855000,82);S(192,"Cuba","🇨🇺","Havana",11212000,107);S(196,"Cyprus","🇨🇾","Nicosia",1251000,31);S(203,"Czechia","🇨🇿","Prague",10827000,330);S(204,"Benin","🇧🇯","Porto-Novo",13352864,18);S(208,"Denmark","🇩🇰","Copenhagen",5946000,405);S(214,"Dominican Rep.","🇩🇴","Santo Domingo",11228000,113);S(218,"Ecuador","🇪🇨","Quito",18001000,118);S(222,"El Salvador","🇸🇻","San Salvador",6364000,32);S(231,"Ethiopia","🇪🇹","Addis Ababa",126527000,156);S(232,"Eritrea","🇪🇷","Asmara",3748901,2.3);S(233,"Estonia","🇪🇪","Tallinn",1366000,41);S(818,"Egypt","🇪🇬","Cairo",112716598,395);S(242,"Fiji","🇫🇯","Suva",929766,5);S(246,"Finland","🇫🇮","Helsinki",5541000,300);S(266,"Gabon","🇬🇦","Libreville",2397368,21);S(268,"Georgia","🇬🇪","Tbilisi",3729000,28);S(270,"Gambia","🇬🇲","Banjul",2773168,2.1);S(288,"Ghana","🇬🇭","Accra",33476000,77);S(300,"Greece","🇬🇷","Athens",10341000,239);S(320,"Guatemala","🇬🇹","Guatemala City",17109746,92);S(324,"Guinea","🇬🇳","Conakry",14190612,21);S(328,"Guyana","🇬🇾","Georgetown",808726,15);S(332,"Haiti","🇭🇹","Port-au-Prince",11724763,20);S(340,"Honduras","🇭🇳","Tegucigalpa",10433000,32);S(348,"Hungary","🇭🇺","Budapest",10156000,212);S(352,"Iceland","🇮🇸","Reykjavik",388000,31);S(360,"Indonesia","🇮🇩","Jakarta",277534122,1420);S(364,"Iran","🇮🇷","Tehran",88550922,401);S(368,"Iraq","🇮🇶","Baghdad",44496000,264);S(372,"Ireland","🇮🇪","Dublin",5149000,533);S(384,"Côte d'Ivoire","🇨🇮","Yamoussoukro",28160542,74);S(388,"Jamaica","🇯🇲","Kingston",2820436,17);S(398,"Kazakhstan","🇰🇿","Astana",19621000,260);S(400,"Jordan","🇯🇴","Amman",11337052,50);S(404,"Kenya","🇰🇪","Nairobi",55100000,113);S(408,"N.Korea","🇰🇵","Pyongyang",26069000,18);S(414,"Kuwait","🇰🇼","Kuwait City",4310000,164);S(417,"Kyrgyzstan","🇰🇬","Bishkek",6975000,12);S(418,"Laos","🇱🇦","Vientiane",7529000,21);S(422,"Lebanon","🇱🇧","Beirut",5490000,19);S(426,"Lesotho","🇱🇸","Maseru",2305825,2.5);S(428,"Latvia","🇱🇻","Riga",1830000,44);S(430,"Liberia","🇱🇷","Monrovia",5302681,4);S(434,"Libya","🇱🇾","Tripoli",6812000,45);S(440,"Lithuania","🇱🇹","Vilnius",2832000,78);S(442,"Luxembourg","🇱🇺","Luxembourg",660809,87);S(450,"Madagascar","🇲🇬","Antananarivo",30325732,16);S(454,"Malawi","🇲🇼","Lilongwe",20405317,12);S(458,"Malaysia","🇲🇾","Kuala Lumpur",33938000,407);S(466,"Mali","🇲🇱","Bamako",22593590,19);S(478,"Mauritania","🇲🇷","Nouakchott",4736139,10);S(484,"Mexico","🇲🇽","Mexico City",128455567,1790);S(496,"Mongolia","🇲🇳","Ulaanbaatar",3398000,20);S(498,"Moldova","🇲🇩","Chișinău",2615000,16);S(504,"Morocco","🇲🇦","Rabat",37458000,141);S(508,"Mozambique","🇲🇿","Maputo",33897000,20);S(512,"Oman","🇴🇲","Muscat",4644000,105);S(516,"Namibia","🇳🇦","Windhoek",2604000,13);S(524,"Nepal","🇳🇵","Kathmandu",30896000,40);S(528,"Netherlands","🇳🇱","Amsterdam",17618000,1090);S(540,"New Caledonia","🇳🇨","Nouméa",289950,10);S(554,"New Zealand","🇳🇿","Wellington",5185000,252);S(558,"Nicaragua","🇳🇮","Managua",7046310,15);S(562,"Niger","🇳🇪","Niamey",27202843,15);S(566,"Nigeria","🇳🇬","Abuja",223804632,475);S(578,"Norway","🇳🇴","Oslo",5474000,554);S(586,"Pakistan","🇵🇰","Islamabad",240485658,340);S(591,"Panama","🇵🇦","Panama City",4408581,77);S(598,"Papua N.G.","🇵🇬","Port Moresby",10329931,30);S(600,"Paraguay","🇵🇾","Asunción",6780744,43);S(604,"Peru","🇵🇪","Lima",34050000,268);S(608,"Philippines","🇵🇭","Manila",117337368,435);S(616,"Poland","🇵🇱","Warsaw",37950802,842);S(620,"Portugal","🇵🇹","Lisbon",10379000,287);S(630,"Puerto Rico","🇵🇷","San Juan",3221789,113);S(634,"Qatar","🇶🇦","Doha",2930000,235);S(642,"Romania","🇷🇴","Bucharest",19659000,351);S(646,"Rwanda","🇷🇼","Kigali",13776698,14);S(686,"Senegal","🇸🇳","Dakar",17316449,28);S(688,"Serbia","🇷🇸","Belgrade",7114000,75);S(694,"Sierra Leone","🇸🇱","Freetown",8605718,4);S(702,"Singapore","🇸🇬","Singapore",5917000,497);S(703,"Slovakia","🇸🇰","Bratislava",5643000,133);S(704,"Vietnam","🇻🇳","Hanoi",99462000,430);S(705,"Slovenia","🇸🇮","Ljubljana",2119000,68);S(706,"Somalia","🇸🇴","Mogadishu",18143000,8);S(710,"South Africa","🇿🇦","Pretoria",60414495,399);S(716,"Zimbabwe","🇿🇼","Harare",16665000,28);S(724,"Spain","🇪🇸","Madrid",47615000,1580);S(728,"S.Sudan","🇸🇸","Juba",11088000,5);S(729,"Sudan","🇸🇩","Khartoum",47958000,26);S(740,"Suriname","🇸🇷","Paramaribo",618040,4);S(748,"eSwatini","🇸🇿","Mbabane",1201670,5);S(752,"Sweden","🇸🇪","Stockholm",10522000,593);S(756,"Switzerland","🇨🇭","Bern",8815000,906);S(760,"Syria","🇸🇾","Damascus",22125000,11);S(762,"Tajikistan","🇹🇯","Dushanbe",10143000,12);S(764,"Thailand","🇹🇭","Bangkok",71801279,515);S(768,"Togo","🇹🇬","Lomé",8848699,9);S(780,"Trinidad","🇹🇹","Port of Spain",1534937,28);S(784,"UAE","🇦🇪","Abu Dhabi",9441000,509);S(788,"Tunisia","🇹🇳","Tunis",12458000,47);S(795,"Turkmenistan","🇹🇲","Ashgabat",6431000,60);S(800,"Uganda","🇺🇬","Kampala",48582334,46);S(804,"Ukraine","🇺🇦","Kyiv",36744634,179);S(858,"Uruguay","🇺🇾","Montevideo",3423000,77);S(860,"Uzbekistan","🇺🇿","Tashkent",35648000,90);S(862,"Venezuela","🇻🇪","Caracas",28302000,100);S(887,"Yemen","🇾🇪","Sana'a",33697000,21);S(894,"Zambia","🇿🇲","Lusaka",20569000,29);
+</script>
+<script>
+// ============== GEOINT v5 — GPU PICKING ENGINE ==============
+const W=4096,H=2048,R=1.6;
+
+// Two canvases: visual texture + pick color texture
+const texCv=document.createElement('canvas');texCv.width=W;texCv.height=H;
+const ctx=texCv.getContext('2d');
+const pickCv=document.createElement('canvas');pickCv.width=W;pickCv.height=H;
+const pCtx=pickCv.getContext('2d');
+
+// Country ID ↔ unique color
+const id2color={},color2id={};
+let colorIdx=256;
+function assignPickColor(id){
+  const sid=String(id);
+  const hex='#'+(colorIdx).toString(16).padStart(6,'0');
+  id2color[sid]=hex;color2id[hex]=sid;
+  colorIdx++;
+}
+
+// Equirectangular projection
+function ll2px(lng,lat){return[(lng+180)/360*W,(90-lat)/180*H]}
+function drawPoly(c,ring,fill,stroke,lw){
+  c.beginPath();let px=null;
+  ring.forEach((co,i)=>{const[x,y]=ll2px(co[0],co[1]);if(i===0)c.moveTo(x,y);else if(px!==null&&Math.abs(x-px)>W/2)c.moveTo(x,y);else c.lineTo(x,y);px=x});
+  c.closePath();if(fill){c.fillStyle=fill;c.fill()}if(stroke){c.strokeStyle=stroke;c.lineWidth=lw||.5;c.stroke()}
+}
+
+// TopoJSON parser
+const TJ={feature(tp,o){const s=tp.transform.scale,t=tp.transform.translate;const aa=tp.arcs.map(a=>{let x=0,y=0;return a.map(p=>{x+=p[0];y+=p[1];return[x*s[0]+t[0],y*s[1]+t[1]]})});const rv=i=>i<0?aa[~i].slice().reverse():aa[i].slice();const rn=ids=>{let c=[];ids.forEach(i=>{const a=rv(i);if(c.length)a.shift();c=c.concat(a)});return c};const gm=g=>{if(!g)return null;switch(g.type){case'Polygon':return{type:'P',coords:g.arcs.map(rn)};case'MultiPolygon':return{type:'M',coords:g.arcs.map(a=>a.map(rn))};default:return null}};return o.geometries.map(g=>({id:String(g.id),geo:gm(g)}));}};
+
+(async()=>{
+const lf=document.getElementById('lf');lf.style.width='15%';
+const resp=await fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json');
+const topo=await resp.json();lf.style.width='40%';
+const features=TJ.feature(topo,topo.objects.countries);lf.style.width='60%';
+
+// Draw ocean
+ctx.fillStyle='#101c18';ctx.fillRect(0,0,W,H);
+pCtx.fillStyle='#000000';pCtx.fillRect(0,0,W,H);
+
+// Store country polygons for recoloring
+const countryPolys={};
+
+features.forEach(f=>{
+  const id=f.id;assignPickColor(id);
+  if(!f.geo)return;
+  const polys=f.geo.type==='P'?[f.geo.coords]:f.geo.type==='M'?f.geo.coords:[];
+  countryPolys[id]=polys;
+  polys.forEach(poly=>poly.forEach((ring,ri)=>{
+    if(ri===0){
+      drawPoly(ctx,ring,'#1e2e28','#3a5a4a',.5);
+      drawPoly(pCtx,ring,id2color[id],null);
+    }
+  }));
+});
+
+// Graticule
+ctx.strokeStyle='rgba(50,80,65,.12)';ctx.lineWidth=.8;
+[0,30,60,-30,-60].forEach(lat=>{ctx.beginPath();const y=(90-lat)/180*H;ctx.moveTo(0,y);ctx.lineTo(W,y);ctx.stroke()});
+for(let lng=-150;lng<=180;lng+=30){ctx.beginPath();const x=(lng+180)/360*W;ctx.moveTo(x,0);ctx.lineTo(x,H);ctx.stroke()}
+
+lf.style.width='80%';
+
+// ============== THREE.JS SETUP ==============
+const canvas=document.getElementById('gl');
+const ren=new THREE.WebGLRenderer({canvas,antialias:true});
+ren.setPixelRatio(Math.min(devicePixelRatio,2));
+ren.setSize(innerWidth,innerHeight);ren.setClearColor(0x131a17);
+ren.autoClear=false;
+
+const scene=new THREE.Scene();
+const cam=new THREE.PerspectiveCamera(42,innerWidth/innerHeight,.1,100);
+cam.position.set(0,0,4.8);
+
+scene.add(new THREE.AmbientLight(0x4a5a4e,.8));
+const dl=new THREE.DirectionalLight(0x8a9d8a,.7);dl.position.set(5,3,5);scene.add(dl);
+
+// Stars
+const sG=new THREE.BufferGeometry(),sP=[];
+for(let i=0;i<3000;i++){const r=25+Math.random()*75,th=Math.random()*Math.PI*2,ph=Math.acos(2*Math.random()-1);sP.push(r*Math.sin(ph)*Math.cos(th),r*Math.sin(ph)*Math.sin(th),r*Math.cos(ph))}
+sG.setAttribute('position',new THREE.Float32BufferAttribute(sP,3));
+scene.add(new THREE.Points(sG,new THREE.PointsMaterial({color:0x556655,size:.12,sizeAttenuation:true})));
+
+// Globe
+const globeGeo=new THREE.SphereGeometry(R,128,96);
+const visTex=new THREE.CanvasTexture(texCv);visTex.minFilter=THREE.LinearFilter;
+const visMat=new THREE.MeshPhongMaterial({map:visTex,shininess:8,specular:0x080808});
+const globe=new THREE.Mesh(globeGeo,visMat);
+
+// Ocean inner sphere
+const ocean=new THREE.Mesh(new THREE.SphereGeometry(R*.998,64,64),new THREE.MeshPhongMaterial({color:0x101c18,shininess:20}));
+
+const globeGroup=new THREE.Group();
+globeGroup.add(ocean);globeGroup.add(globe);
+scene.add(globeGroup);
+
+// Atmosphere
+scene.add(new THREE.Mesh(new THREE.SphereGeometry(R*1.03,64,64),new THREE.ShaderMaterial({
+  vertexShader:'varying vec3 vN;void main(){vN=normalize(normalMatrix*normal);gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}',
+  fragmentShader:'varying vec3 vN;void main(){float i=pow(.6-dot(vN,vec3(0,0,1.)),3.);gl_FragColor=vec4(.25,.45,.3,i*.2);}',
+  transparent:true,side:THREE.BackSide,depthWrite:false
+})));
+
+// Overlay markers
+const overlayGrp=new THREE.Group();globeGroup.add(overlayGrp);
+const markerGrp=new THREE.Group();globeGroup.add(markerGrp);
+
+// ============== GPU PICKING ==============
+const pickTex=new THREE.CanvasTexture(pickCv);pickTex.minFilter=THREE.LinearFilter;
+const pickMat=new THREE.MeshBasicMaterial({map:pickTex});
+const pickRT=new THREE.WebGLRenderTarget(innerWidth,innerHeight);
+
+// Dedicated pick scene — ONLY the pick-colored globe, nothing else
+const pickScene=new THREE.Scene();
+const pickGroup=new THREE.Group();
+const pickGlobe=new THREE.Mesh(globeGeo,pickMat);
+pickGroup.add(pickGlobe);
+pickScene.add(pickGroup);
+
+const pickBuf=new Uint8Array(4);
+
+function gpuPick(mx,my){
+  // Read pixel from last pick render
+  ren.readRenderTargetPixels(pickRT,
+    Math.floor(mx*pickRT.width/innerWidth),
+    pickRT.height-1-Math.floor(my*pickRT.height/innerHeight),
+    1,1,pickBuf);
+  if(pickBuf[0]===0&&pickBuf[1]===0&&pickBuf[2]===0)return null;
+  const hex='#'+((pickBuf[0]<<16)|(pickBuf[1]<<8)|pickBuf[2]).toString(16).padStart(6,'0');
+  return color2id[hex]||null;
+}
+
+// ============== INTERACTION ==============
+let drag=false,pm={x:0,y:0},cpm={x:0,y:0},rvx=0,rvy=0,autoR=true,tZoom=4.8;
+let selectedId=null,hoveredId=null,activeTab='overview';
+let events=[],pendingLL=null;
+
+function llv(lat,lng,r){const p=(90-lat)*Math.PI/180,t=(lng+180)*Math.PI/180;return new THREE.Vector3(-r*Math.sin(p)*Math.cos(t),r*Math.cos(p),r*Math.sin(p)*Math.sin(t))}
+function fN(n){if(!n)return'0';if(n>=1e9)return(n/1e9).toFixed(1)+'B';if(n>=1e6)return(n/1e6).toFixed(1)+'M';if(n>=1e3)return(n/1e3).toFixed(1)+'K';return''+n}
+
+canvas.addEventListener('mousedown',e=>{drag=true;pm=cpm={x:e.clientX,y:e.clientY};autoR=false});
+canvas.addEventListener('mousemove',e=>{
+  if(drag){const dx=e.clientX-pm.x,dy=e.clientY-pm.y;rvx=dx*.003;rvy=dy*.003;
+    globeGroup.rotation.y+=dx*.005;
+    globeGroup.rotation.x=Math.max(-Math.PI/2,Math.min(Math.PI/2,globeGroup.rotation.x+dy*.005));
+    pm={x:e.clientX,y:e.clientY};return}// Skip picking while dragging
+  const id=gpuPick(e.clientX,e.clientY);
+  const tt=document.getElementById('tip');
+  const d=id?DB[id]:null;
+  const nm=d?d.n:(id?CN[id]||id:null);
+  document.getElementById('coords').textContent=id?nm:'—';
+  if(id&&nm){
+    tt.classList.add('on');tt.style.left=(e.clientX+14)+'px';tt.style.top=(e.clientY-8)+'px';
+    document.getElementById('tt-n').textContent=(d&&d.f?d.f+' ':'')+nm;
+    document.getElementById('tt-s').textContent=d?`POP ${fN(d.pop)} · GDP $${d.gdp}B`:'';
+    canvas.style.cursor='pointer';
+    if(hoveredId!==id){
+      if(hoveredId&&hoveredId!==selectedId)redrawCountry(hoveredId,'#1e2e28');
+      hoveredId=id;if(hoveredId!==selectedId)redrawCountry(hoveredId,'#2a4a3a');
+    }
+  }else{
+    tt.classList.remove('on');canvas.style.cursor='grab';
+    if(hoveredId&&hoveredId!==selectedId){redrawCountry(hoveredId,'#1e2e28');hoveredId=null}
+  }
+});
+canvas.addEventListener('mouseup',()=>drag=false);
+canvas.addEventListener('wheel',e=>{tZoom=Math.max(2,Math.min(10,tZoom+e.deltaY*.005));e.preventDefault()},{passive:false});
+canvas.addEventListener('click',e=>{
+  if(Math.abs(e.clientX-cpm.x)>5||Math.abs(e.clientY-cpm.y)>5)return;
+  const id=gpuPick(e.clientX,e.clientY);
+  selectCountry(id);
+});
+canvas.addEventListener('contextmenu',e=>{e.preventDefault()});
+
+// ============== COUNTRY SELECT ==============
+function redrawCountry(id,fill){
+  if(!countryPolys[id])return;
+  countryPolys[id].forEach(poly=>poly.forEach((ring,ri)=>{if(ri===0)drawPoly(ctx,ring,fill,'#3a5a4a',.5)}));
+  visTex.needsUpdate=true;
+}
+
+function clearOv(){while(overlayGrp.children.length)overlayGrp.remove(overlayGrp.children[0])}
+
+function selectCountry(id){
+  clearOv();
+  if(selectedId)redrawCountry(selectedId,'#1e2e28');
+  selectedId=id;
+  if(!selectedId){closeDetail();return}
+  redrawCountry(selectedId,'#305852');
+  showDetail(selectedId);
+  // Show extraction/base markers
+  const d=DB[id];
+  if(d&&d.ext)d.ext.forEach(e=>addOv(e.lat,e.lng,0xb89a4a));
+  if(d&&d.bas)d.bas.forEach(b=>addOv(b.lat,b.lng,b.f?0xc4a095:0xc27066));
+}
+
+function addOv(lat,lng,col){
+  const p=llv(lat,lng,R*1.02),g=new THREE.Group();
+  g.add(new THREE.Mesh(new THREE.SphereGeometry(.012,8,8),new THREE.MeshBasicMaterial({color:col})));
+  g.position.copy(p);g.lookAt(0,0,0);g.rotateX(Math.PI);overlayGrp.add(g);
+}
+
+window.focusLL=function(lat,lng){
+  const ty=-lng*Math.PI/180,tx=lat*Math.PI/180;
+  const sx=globeGroup.rotation.x,sy=globeGroup.rotation.y;let t=0;autoR=false;
+  (function step(){t+=1/60;if(t>1.2)return;const p=1-Math.pow(1-t/1.2,3);
+    globeGroup.rotation.x=sx+(tx-sx)*p;globeGroup.rotation.y=sy+(ty-sy)*p;
+    requestAnimationFrame(step)})()};
+
+// ============== DETAIL PANEL ==============
+function showDetail(id){document.getElementById('detail').classList.add('open');document.getElementById('btn-detail').classList.add('on');activeTab='overview';setTabs();renderTab(id)}
+window.closeDetail=function(){document.getElementById('detail').classList.remove('open');document.getElementById('btn-detail').classList.remove('on');clearOv();if(selectedId){redrawCountry(selectedId,'#1e2e28');selectedId=null}}
+document.querySelectorAll('#dtabs .tab').forEach(t=>t.addEventListener('click',()=>{activeTab=t.dataset.tab;setTabs();if(selectedId)renderTab(selectedId)}));
+function setTabs(){document.querySelectorAll('#dtabs .tab').forEach(t=>t.classList.toggle('active',t.dataset.tab===activeTab))}
+
+function renderTab(id){
+  const d=DB[id],b=document.getElementById('det-body');
+  if(!d||!d.cul){b.innerHTML=`<div style="padding:20px"><div style="font-size:16px;color:var(--bright);font-family:var(--sans);margin-bottom:8px">${d?((d.f||'')+' '+d.n):(CN[id]||id)}</div><div class="stats"><div class="stat"><div class="sl">Population</div><div class="sv">${d?fN(d.pop):'—'}</div></div><div class="stat"><div class="sl">GDP (B USD)</div><div class="sv">${d?'$'+d.gdp:'—'}</div></div></div><div style="font-size:11px;color:var(--text-dim)">Extended intel not yet available.</div></div>`;return}
+  if(activeTab==='overview')b.innerHTML=rOverview(d);
+  else if(activeTab==='geography')b.innerHTML=rGeo(d);
+  else if(activeTab==='economy')b.innerHTML=rEcon(d);
+  else b.innerHTML=rStrat(d);
+}
+
+function rOverview(d){let h=`<div class="c-head"><div class="c-flag">${d.f||''}</div><div><div class="c-name">${d.n}</div><div class="c-cap">Capital: ${d.c||'—'}</div></div></div>`;
+h+=`<div class="stats"><div class="stat"><div class="sl">Population</div><div class="sv">${fN(d.pop)}</div></div><div class="stat"><div class="sl">Area km²</div><div class="sv">${fN(d.a)}</div></div><div class="stat"><div class="sl">GDP (B USD)</div><div class="sv">$${d.gdp}</div></div><div class="stat"><div class="sl">GDP/Capita</div><div class="sv">$${d.gdpPC?fN(d.gdpPC):'—'}</div></div></div>`;
+if(d.eth){h+='<div class="sec"><div class="sec-t">Ethnic Composition</div>';d.eth.forEach(e=>{h+=`<div class="eth-row"><span class="eth-name">${e.n}</span><div class="eth-track"><div class="eth-fill" style="width:${e.p}%"></div></div><span class="eth-pct">${e.p}%</span></div>`;if(d.ethP&&d.ethP[e.n])h+=`<div class="eth-profile"><p>${d.ethP[e.n]}</p></div>`});h+='</div>'}
+if(d.cul)h+=`<div class="sec"><div class="sec-t">Cultural Profile</div><p>${d.cul}</p></div>`;return h}
+
+function rGeo(d){let h='';
+if(d.ter){h+=`<div class="sec"><div class="sec-t">Terrain</div><div class="terrain-bar"><div class="tb-p" style="width:${d.ter.p}%">${d.ter.p}%</div><div class="tb-h" style="width:${d.ter.h}%">${d.ter.h}%</div><div class="tb-m" style="width:${d.ter.m}%">${d.ter.m}%</div></div><div class="terrain-legend"><span class="tl-p">Plains</span><span class="tl-h">Hills</span><span class="tl-m">Mountains</span></div></div>`}
+if(d.pk&&d.pk.length){const mx=Math.max(...d.pk.map(p=>p.h)),cw=340,ch=80;h+=`<div class="sec"><div class="sec-t">Elevation Profile</div><div class="topo-chart"><svg width="${cw}" height="${ch+35}" viewBox="0 0 ${cw} ${ch+35}">`;const gap=cw/(d.pk.length+1);d.pk.forEach((p,i)=>{const x=gap*(i+1),bh=Math.max(10,(p.h/mx)*ch);h+=`<rect x="${x-14}" y="${ch-bh+8}" width="28" height="${bh}" fill="#6b4a2a" rx="2"/><text x="${x}" y="${ch-bh+2}" text-anchor="middle" fill="#d5c4a1" font-size="10" font-family="IBM Plex Mono" font-weight="600">${p.h}m</text><text x="${x}" y="${ch+22}" text-anchor="middle" fill="#9aaa97" font-size="8" font-family="IBM Plex Mono">${p.n}</text>`});h+='</svg></div></div>'}
+if(d.mtn)h+=`<div class="sec"><div class="sec-t">Mountains</div><ul>${d.mtn.map(m=>'<li>'+m+'</li>').join('')}</ul></div>`;
+if(d.pln)h+=`<div class="sec"><div class="sec-t">Plains</div><ul>${d.pln.map(m=>'<li>'+m+'</li>').join('')}</ul></div>`;
+if(d.riv)h+=`<div class="sec"><div class="sec-t">Rivers</div><ul>${d.riv.map(m=>'<li>'+m+'</li>').join('')}</ul></div>`;
+if(d.lak)h+=`<div class="sec"><div class="sec-t">Lakes</div><ul>${d.lak.map(m=>'<li>'+m+'</li>').join('')}</ul></div>`;
+return h||'<p style="color:var(--text-dim)">No geography data.</p>'}
+
+function rEcon(d){let h=`<div class="stats"><div class="stat"><div class="sl">GDP (B)</div><div class="sv">$${d.gdp}</div></div><div class="stat"><div class="sl">GDP/Cap</div><div class="sv">$${d.gdpPC?fN(d.gdpPC):'—'}</div></div></div>`;
+if(d.ex&&d.ex.length){h+='<div class="sec"><div class="sec-t">Top Exports</div>';d.ex.forEach(e=>{const o=typeof e==='string'?{n:e}:e;h+=`<div class="trade-row"><span class="trade-name">${o.n}</span>${o.p?`<div class="trade-bar"><div class="trade-fill ex" style="width:${Math.min(o.p*1.5,100)}%"></div></div><span class="trade-pct">${o.p}%</span>`:''}</div>`});h+='</div>'}
+if(d.im&&d.im.length){h+='<div class="sec"><div class="sec-t">Top Imports</div>';d.im.forEach(e=>{const o=typeof e==='string'?{n:e}:e;h+=`<div class="trade-row"><span class="trade-name">${o.n}</span>${o.p?`<div class="trade-bar"><div class="trade-fill im" style="width:${Math.min(o.p*1.5,100)}%"></div></div><span class="trade-pct">${o.p}%</span>`:''}</div>`});h+='</div>'}
+if(d.ext&&d.ext.length){h+='<div class="sec"><div class="sec-t">Extraction Sites</div>';d.ext.forEach(e=>{h+=`<div class="marker-item" onclick="focusLL(${e.lat},${e.lng})"><div class="mi-name"><span class="mi-dot ext"></span>${e.n}</div><div class="mi-info">${e.r}</div></div>`});h+='</div>'}
+return h||'<p style="color:var(--text-dim)">No economic data.</p>'}
+
+function rStrat(d){if(!d.bas||!d.bas.length)return'<p style="color:var(--text-dim)">No strategic data.</p>';let h='';
+const dom=d.bas.filter(b=>!b.f),fore=d.bas.filter(b=>b.f);
+if(dom.length){h+='<div class="sec"><div class="sec-t">Domestic</div>';dom.forEach(b=>{h+=`<div class="marker-item" onclick="focusLL(${b.lat},${b.lng})"><div class="mi-name"><span class="mi-dot mil"></span>${b.n}</div><div class="mi-info">${b.t}</div></div>`});h+='</div>'}
+if(fore.length){h+='<div class="sec"><div class="sec-t">Foreign Presence</div>';fore.forEach(b=>{h+=`<div class="marker-item" onclick="focusLL(${b.lat},${b.lng})"><div class="mi-name"><span class="mi-dot for"></span>${b.n}</div><div class="mi-info">${b.t}</div></div>`});h+='</div>'}
+return h}
+
+// Sidebar toggle
+document.getElementById('btn-side').addEventListener('click',()=>document.getElementById('sidebar').classList.toggle('off'));
+document.getElementById('btn-detail').addEventListener('click',()=>closeDetail());
+
+// Events
+document.getElementById('btn-ev').addEventListener('click',()=>{
+  const ti=document.getElementById('ev-t').value.trim();if(!ti)return;
+  const ty=document.getElementById('ev-type').value;
+  events.push({title:ti,type:ty});
+  document.getElementById('ev-count').textContent=events.length;
+  document.getElementById('ev-t').value='';
+});
+
+// Clock
+setInterval(()=>{const n=new Date;document.getElementById('clock').textContent=`UTC ${n.getUTCHours().toString().padStart(2,'0')}:${n.getUTCMinutes().toString().padStart(2,'0')}:${n.getUTCSeconds().toString().padStart(2,'0')}`},1000);
+
+// ============== ANIMATION LOOP ==============
+lf.style.width='100%';setTimeout(()=>document.getElementById('loader').classList.add('done'),600);
+
+function animate(){
+  requestAnimationFrame(animate);
+  if(autoR)globeGroup.rotation.y+=.0005;
+  if(!drag){rvx*=.94;rvy*=.94;globeGroup.rotation.y+=rvx;globeGroup.rotation.x+=rvy}
+  cam.position.z+=(tZoom-cam.position.z)*.06;
+
+  // Sync pick scene rotation with main globe
+  pickGroup.rotation.copy(globeGroup.rotation);
+
+  // GPU PICK RENDER — render pick-colored globe to offscreen target
+  ren.setRenderTarget(pickRT);
+  ren.setClearColor(0x000000,1);
+  ren.clear();
+  ren.render(pickScene,cam);
+
+  // MAIN RENDER
+  ren.setRenderTarget(null);
+  ren.setClearColor(0x131a17,1);
+  ren.clear();
+  ren.render(scene,cam);
+
+  // Pulse markers
+  const t=Date.now()*.003;
+  overlayGrp.children.forEach(g=>{const s=1+Math.sin(t)*.3;g.scale.set(s,s,s)});
+}
+animate();
+
+window.addEventListener('resize',()=>{
+  cam.aspect=innerWidth/innerHeight;cam.updateProjectionMatrix();
+  ren.setSize(innerWidth,innerHeight);
+  pickRT.setSize(innerWidth,innerHeight);
+});
+})();
+</script>
+</body></html>
