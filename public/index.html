@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GEOINT // Strategic Globe v4</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=Barlow:wght@300;400;500;600;700&family=Barlow+Condensed:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#131a17;--surface:rgba(20,30,26,.93);--border:rgba(190,207,184,.1);--border-h:rgba(190,207,184,.2);--accent:#8aad84;--accent2:#305852;--red:#c27066;--gold:#b89a4a;--green:#6b9e6f;--rose:#c4a095;--text:#9aaa97;--text-dim:#5a6d5e;--white:#d5d8d2;--bright:#e8ebe5;--mono:'IBM Plex Mono',monospace;--sans:'Barlow',sans-serif;--cond:'Barlow Condensed',sans-serif}
+html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--mono)}
+canvas#gl{position:fixed;inset:0;z-index:1}
+#scan{position:fixed;inset:0;z-index:2;pointer-events:none;background:repeating-linear-gradient(0deg,transparent,transparent 3px,rgba(0,0,0,.012) 3px,rgba(0,0,0,.012) 6px)}
+#top{position:fixed;top:0;left:0;right:0;height:40px;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0 20px;background:linear-gradient(180deg,rgba(19,26,23,.97),rgba(19,26,23,.4));border-bottom:1px solid var(--border);backdrop-filter:blur(10px)}
+.logo{font-family:var(--cond);font-weight:600;font-size:13px;letter-spacing:4px;color:var(--accent);text-transform:uppercase;display:flex;align-items:center;gap:8px}
+.logo .dot{width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 6px var(--green);animation:blink 2.5s infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+#clock{font-size:10px;color:var(--text-dim);letter-spacing:1.5px}
+#bot{position:fixed;bottom:0;left:0;right:0;height:28px;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0 20px;background:linear-gradient(0deg,rgba(19,26,23,.97),rgba(19,26,23,.4));border-top:1px solid var(--border);font-size:9px;color:var(--text-dim);letter-spacing:1px}
+#tip{position:fixed;z-index:300;pointer-events:none;opacity:0;transition:opacity .2s;padding:10px 16px;background:var(--surface);border:1px solid var(--border-h);border-radius:4px;backdrop-filter:blur(14px)}
+#tip.on{opacity:1}
+#tip .n{font-family:var(--sans);font-size:14px;font-weight:500;color:var(--bright)}
+#tip .s{font-size:9px;color:var(--text-dim);letter-spacing:1px;margin-top:2px}
+/* Detail Panel */
+#detail{position:fixed;top:44px;left:10px;bottom:34px;width:390px;z-index:100;display:flex;flex-direction:column;gap:6px;opacity:0;pointer-events:none;transform:translateX(-410px);transition:transform .4s cubic-bezier(.22,1,.36,1),opacity .3s}
+#detail.open{opacity:1;pointer-events:auto;transform:translateX(0)}
+.pnl{background:var(--surface);border:1px solid var(--border);border-radius:6px;backdrop-filter:blur(14px);overflow:hidden}
+.pnl-h{padding:10px 14px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}
+.pnl-t{font-family:var(--cond);font-size:11px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:var(--accent)}
+.pnl-b{padding:12px 14px;overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--border) transparent}
+.pnl-b::-webkit-scrollbar{width:3px}.pnl-b::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
+.c-head{display:flex;align-items:center;gap:14px;margin-bottom:10px}
+.c-flag{font-size:38px;line-height:1}.c-name{font-family:var(--sans);font-size:18px;font-weight:600;color:var(--bright)}.c-cap{font-size:11px;color:var(--text-dim);margin-top:2px}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:12px}
+.stat{padding:8px 10px;background:rgba(255,255,255,.015);border:1px solid var(--border);border-radius:4px}
+.stat .sl{font-size:9px;color:var(--text-dim);letter-spacing:1px;text-transform:uppercase;margin-bottom:2px}
+.stat .sv{font-family:var(--sans);font-size:14px;font-weight:600;color:var(--white)}
+.sec{margin-bottom:10px}.sec-t{font-family:var(--cond);font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:var(--accent);margin-bottom:6px;padding-bottom:4px;border-bottom:1px solid var(--border)}
+.sec p{font-size:11px;color:var(--text);line-height:1.6;margin-bottom:6px}
+.sec ul{list-style:none;padding:0}.sec li{font-size:11px;color:var(--text);line-height:1.6}.sec li::before{content:'›';color:var(--accent);margin-right:6px}
+.eth-row{display:flex;align-items:center;gap:8px;margin-bottom:3px}.eth-name{font-size:10px;color:var(--text);min-width:100px}
+.eth-track{flex:1;height:5px;background:rgba(255,255,255,.03);border-radius:3px;overflow:hidden}.eth-fill{height:100%;border-radius:3px;background:var(--accent2);transition:width .6s}
+.eth-pct{font-size:9px;color:var(--text-dim);min-width:30px;text-align:right}
+.eth-profile{margin:4px 0 8px;padding:8px;border-left:2px solid var(--accent2);background:rgba(48,88,82,.06);border-radius:0 4px 4px 0}
+.eth-profile p{font-size:10px;color:var(--text);line-height:1.6;margin:0}
+.terrain-bar{display:flex;height:14px;border-radius:3px;overflow:hidden;margin-bottom:6px}
+.tb-p{background:var(--green)}.tb-h{background:var(--gold)}.tb-m{background:var(--accent2)}
+.tb-p,.tb-h,.tb-m{display:flex;align-items:center;justify-content:center;font-size:8px;color:#fff;transition:width .5s}
+.terrain-legend{display:flex;gap:12px;font-size:9px;color:var(--text-dim)}
+.terrain-legend span::before{content:'';display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:4px;vertical-align:middle}
+.tl-p::before{background:var(--green)}.tl-h::before{background:var(--gold)}.tl-m::before{background:var(--accent2)}
+.topo-chart{margin:8px 0;padding:8px;background:rgba(0,0,0,.15);border-radius:4px;border:1px solid var(--border)}
+.trade-row{display:flex;align-items:center;gap:6px;margin-bottom:4px;padding:4px 8px;background:rgba(255,255,255,.01);border-radius:3px;cursor:pointer;transition:background .2s}
+.trade-row:hover{background:rgba(255,255,255,.03)}
+.trade-name{flex:1;font-size:10px;color:var(--text)}.trade-pct{font-size:11px;font-weight:500;color:var(--white);min-width:40px;text-align:right}
+.trade-bar{width:60px;height:4px;background:rgba(255,255,255,.03);border-radius:2px;overflow:hidden}
+.trade-fill{height:100%;border-radius:2px;transition:width .5s}.trade-fill.ex{background:var(--green)}.trade-fill.im{background:var(--rose)}
+.marker-item{padding:6px 8px;border-radius:4px;background:rgba(255,255,255,.015);border:1px solid var(--border);margin-bottom:4px;cursor:pointer;transition:border-color .2s}
+.marker-item:hover{border-color:var(--border-h)}
+.mi-name{font-size:11px;color:var(--white)}.mi-info{font-size:9px;color:var(--text-dim);margin-top:1px}
+.mi-dot{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:5px}
+.mi-dot.ext{background:var(--gold)}.mi-dot.mil{background:var(--red)}.mi-dot.for{background:var(--rose)}
+/* Commodity popup */
+#commodity-popup{position:fixed;z-index:400;display:none;width:280px;padding:14px;background:var(--surface);border:1px solid var(--border-h);border-radius:6px;backdrop-filter:blur(16px)}
+#commodity-popup.show{display:block}
+#commodity-popup .cp-title{font-family:var(--sans);font-size:13px;font-weight:500;color:var(--bright);margin-bottom:6px}
+#commodity-popup .cp-desc{font-size:10px;color:var(--text);line-height:1.6}
+#commodity-popup .cp-close{position:absolute;top:8px;right:10px;background:none;border:none;color:var(--text-dim);cursor:pointer;font-size:12px}
+/* Sidebar */
+#sidebar{position:fixed;top:44px;right:10px;bottom:34px;width:280px;z-index:100;display:flex;flex-direction:column;gap:6px;transition:transform .4s cubic-bezier(.22,1,.36,1),opacity .3s}
+#sidebar.off{transform:translateX(300px);opacity:0;pointer-events:none}
+.toggle-btn{position:fixed;z-index:101;width:32px;height:32px;border-radius:4px;background:var(--surface);border:1px solid var(--border);color:var(--accent);font-size:13px;cursor:pointer;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(8px);transition:background .2s}
+.toggle-btn:hover{background:rgba(138,173,132,.08)}
+#btn-side{top:44px;right:10px}#btn-detail{top:44px;left:10px;opacity:0;pointer-events:none;transition:opacity .3s}#btn-detail.on{opacity:1;pointer-events:auto}
+#ev-form input,#ev-form select,#ev-form textarea{width:100%;padding:7px 9px;background:rgba(255,255,255,.02);border:1px solid var(--border);border-radius:3px;color:var(--white);font-family:var(--mono);font-size:10px;margin-bottom:5px;outline:none}
+#ev-form select{-webkit-appearance:none}#ev-form textarea{resize:none;height:40px}
+.btn-add{width:100%;padding:7px;background:rgba(138,173,132,.08);border:1px solid rgba(138,173,132,.2);border-radius:3px;color:var(--accent);font-family:var(--mono);font-size:10px;cursor:pointer;letter-spacing:1px;text-transform:uppercase}
+.ev-item{padding:8px 10px;border-radius:4px;background:rgba(255,255,255,.015);border:1px solid transparent;margin-bottom:5px;cursor:pointer;transition:all .2s}.ev-item:hover{border-color:var(--border)}
+.ev-badge{font-size:8px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;padding:2px 5px;border-radius:2px;display:inline-block;margin-bottom:3px}
+.ev-badge.conflict{background:rgba(194,112,102,.12);color:var(--red)}.ev-badge.diplomacy{background:rgba(138,173,132,.12);color:var(--accent)}.ev-badge.economic{background:rgba(184,154,74,.12);color:var(--gold)}.ev-badge.alert{background:rgba(107,158,111,.12);color:var(--green)}
+.ev-title{font-size:11px;color:var(--white)}.ev-coord{font-size:8px;color:var(--text-dim);margin-top:3px}
+.cpick{display:flex;align-items:center;gap:8px;padding:6px 0}.cpick label{font-size:10px;color:var(--text-dim);flex:1}
+.cpick input[type=color]{width:26px;height:26px;border:1px solid var(--border);border-radius:3px;background:none;cursor:pointer;-webkit-appearance:none;padding:0}
+.cpick input[type=color]::-webkit-color-swatch-wrapper{padding:2px}.cpick input[type=color]::-webkit-color-swatch{border:none;border-radius:2px}
+.btn-sm{padding:5px 10px;background:rgba(194,112,102,.08);border:1px solid rgba(194,112,102,.2);border-radius:3px;color:var(--red);font-size:9px;cursor:pointer;font-family:var(--mono);letter-spacing:1px}
+.tabs{display:flex;border-bottom:1px solid var(--border)}.tab{flex:1;padding:8px 4px;text-align:center;font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--text-dim);cursor:pointer;border-bottom:2px solid transparent;transition:all .2s}.tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+#loader{position:fixed;inset:0;z-index:999;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;transition:opacity .8s}
+#loader.done{opacity:0;pointer-events:none}
+.load-bar{width:200px;height:2px;background:rgba(255,255,255,.05);border-radius:1px;overflow:hidden;margin-top:16px}.load-fill{height:100%;background:var(--accent);width:0%;transition:width .3s}
+.load-msg{font-size:11px;color:var(--text-dim);letter-spacing:2px;text-transform:uppercase;margin-bottom:8px}.load-sub{font-size:9px;color:var(--text-dim);margin-top:10px;letter-spacing:1px}
+#instr{position:fixed;bottom:38px;left:50%;transform:translateX(-50%);z-index:100;padding:6px 16px;background:var(--surface);border:1px solid var(--border);border-radius:16px;font-size:9px;color:var(--text-dim);white-space:nowrap;transition:opacity 1.5s;pointer-events:none}
+</style>
+</head>
+<body>
+<div id="loader"><div class="load-msg">Initializing GEOINT v4</div><div class="load-bar"><div class="load-fill" id="lf"></div></div><div class="load-sub" id="ls">Loading...</div></div>
+<canvas id="gl"></canvas><div id="scan"></div>
+<div id="top"><div class="logo"><span class="dot"></span>GEOINT // STRATEGIC GLOBE</div><div id="clock"></div></div>
+<div id="tip"><div class="n" id="tt-n"></div><div class="s" id="tt-s"></div></div>
+<div id="commodity-popup"><button class="cp-close" onclick="document.getElementById('commodity-popup').classList.remove('show')">✕</button><div class="cp-title" id="cp-t"></div><div class="cp-desc" id="cp-d"></div></div>
+<button class="toggle-btn" id="btn-detail" title="Close">✕</button>
+<div id="detail"><div class="pnl" style="flex:1;overflow:hidden;display:flex;flex-direction:column">
+<div class="pnl-h"><div class="pnl-t">Intelligence</div><button onclick="closeDetail()" style="background:none;border:none;color:var(--text-dim);cursor:pointer;font-size:12px">✕</button></div>
+<div class="tabs" id="dtabs"><div class="tab active" data-tab="overview">Overview</div><div class="tab" data-tab="geography">Geography</div><div class="tab" data-tab="economy">Economy</div><div class="tab" data-tab="strategic">Strategic</div></div>
+<div class="pnl-b" style="flex:1" id="det-body"><div style="text-align:center;padding:40px 0;color:var(--text-dim);font-size:11px">Select a country</div></div></div></div>
+<button class="toggle-btn" id="btn-side">☰</button>
+<div id="sidebar">
+<div class="pnl" style="flex:0 0 auto;max-height:45%"><div class="pnl-h"><div class="pnl-t">⬡ Events</div><span style="font-size:9px;color:var(--text-dim)" id="ev-count">0</span></div><div class="pnl-b" id="ev-list" style="max-height:160px"><div style="text-align:center;padding:16px 0;color:var(--text-dim);font-size:10px">Right-click to mark</div></div></div>
+<div class="pnl" style="flex:0 0 auto"><div class="pnl-h"><div class="pnl-t">+ Event</div></div><div id="ev-form" style="padding:10px 12px"><input type="text" id="ev-t" placeholder="Title..."><select id="ev-type"><option value="conflict">⚔ Conflict</option><option value="diplomacy">◆ Diplomacy</option><option value="economic">$ Economic</option><option value="alert">▲ Alert</option></select><textarea id="ev-d" placeholder="Description..."></textarea><button class="btn-add" id="btn-ev">+ Add</button></div></div>
+<div class="pnl" style="flex:0 0 auto"><div class="pnl-h"><div class="pnl-t">◉ Color</div></div><div class="pnl-b" id="cpanel" style="max-height:100px"><div style="font-size:10px;color:var(--text-dim)">Select a country</div></div></div>
+</div>
+<div id="bot"><div>SYS NOMINAL // CANVAS TEXTURE RENDER</div><div id="coords">LAT 0.000 · LON 0.000</div></div>
+<div id="instr">Drag rotate · Scroll zoom · Click for intel · Right-click mark</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="data.js"></script>
+<script>
+// ========== CANVAS TEXTURE GLOBE — NO TRIANGULATION, NO HOLES ==========
+const W=4096,H=2048,R=1.6;
+const texCv=document.createElement('canvas');texCv.width=W;texCv.height=H;
+const ctx=texCv.getContext('2d');
+const pickCv=document.createElement('canvas');pickCv.width=W;pickCv.height=H;
+const pCtx=pickCv.getContext('2d');
+
+// Country ID to unique color mapping for picking
+const id2color={},color2id={};
+let colorIdx=256;
+function assignColor(id){const sid=String(id);const r=(colorIdx>>16)&255,g=(colorIdx>>8)&255,b=colorIdx&255;const hex='#'+(colorIdx).toString(16).padStart(6,'0');id2color[sid]=hex;color2id[hex]=sid;colorIdx++}
+
+// Equirectangular projection
+function ll2px(lng,lat){return[(lng+180)/360*W,(90-lat)/180*H]}
+
+function drawPoly(c,ring,fill,stroke,lw){
+  c.beginPath();
+  let prevX=null;
+  ring.forEach((coord,i)=>{
+    const[x,y]=ll2px(coord[0],coord[1]);
+    // Handle anti-meridian wrapping
+    if(i===0)c.moveTo(x,y);
+    else{
+      if(prevX!==null&&Math.abs(x-prevX)>W/2)c.moveTo(x,y);
+      else c.lineTo(x,y);
+    }
+    prevX=x;
+  });
+  c.closePath();
+  if(fill){c.fillStyle=fill;c.fill()}
+  if(stroke){c.strokeStyle=stroke;c.lineWidth=lw||0.5;c.stroke()}
+}
+
+// Country names for tooltip
+const CN={4:"Afghanistan",8:"Albania",12:"Algeria",24:"Angola",32:"Argentina",36:"Australia",40:"Austria",44:"Bahamas",50:"Bangladesh",56:"Belgium",64:"Bhutan",68:"Bolivia",70:"Bosnia & Herz.",72:"Botswana",76:"Brazil",100:"Bulgaria",104:"Myanmar",108:"Burundi",112:"Belarus",116:"Cambodia",120:"Cameroon",124:"Canada",140:"C.A.R.",144:"Sri Lanka",148:"Chad",152:"Chile",156:"China",170:"Colombia",178:"Congo",180:"DR Congo",188:"Costa Rica",191:"Croatia",192:"Cuba",196:"Cyprus",203:"Czechia",204:"Benin",208:"Denmark",214:"Dominican Rep.",218:"Ecuador",222:"El Salvador",226:"Eq. Guinea",231:"Ethiopia",232:"Eritrea",233:"Estonia",818:"Egypt",242:"Fiji",246:"Finland",250:"France",266:"Gabon",268:"Georgia",270:"Gambia",276:"Germany",288:"Ghana",300:"Greece",320:"Guatemala",324:"Guinea",328:"Guyana",332:"Haiti",340:"Honduras",348:"Hungary",352:"Iceland",356:"India",360:"Indonesia",364:"Iran",368:"Iraq",372:"Ireland",376:"Israel",380:"Italy",384:"Côte d'Ivoire",388:"Jamaica",392:"Japan",400:"Jordan",398:"Kazakhstan",404:"Kenya",408:"N.Korea",410:"S.Korea",414:"Kuwait",417:"Kyrgyzstan",418:"Laos",422:"Lebanon",426:"Lesotho",428:"Latvia",430:"Liberia",434:"Libya",440:"Lithuania",442:"Luxembourg",450:"Madagascar",454:"Malawi",458:"Malaysia",466:"Mali",478:"Mauritania",484:"Mexico",496:"Mongolia",498:"Moldova",504:"Morocco",508:"Mozambique",512:"Oman",516:"Namibia",524:"Nepal",528:"Netherlands",540:"New Caledonia",554:"New Zealand",558:"Nicaragua",562:"Niger",566:"Nigeria",578:"Norway",586:"Pakistan",591:"Panama",598:"Papua N.G.",600:"Paraguay",604:"Peru",608:"Philippines",616:"Poland",620:"Portugal",630:"Puerto Rico",634:"Qatar",642:"Romania",643:"Russia",646:"Rwanda",682:"Saudi Arabia",686:"Senegal",688:"Serbia",694:"Sierra Leone",702:"Singapore",703:"Slovakia",704:"Vietnam",705:"Slovenia",706:"Somalia",710:"South Africa",716:"Zimbabwe",724:"Spain",728:"S.Sudan",729:"Sudan",740:"Suriname",748:"eSwatini",752:"Sweden",756:"Switzerland",760:"Syria",762:"Tajikistan",764:"Thailand",768:"Togo",780:"Trinidad",784:"UAE",788:"Tunisia",792:"Turkey",795:"Turkmenistan",800:"Uganda",804:"Ukraine",826:"United Kingdom",834:"Tanzania",840:"United States",858:"Uruguay",860:"Uzbekistan",862:"Venezuela",887:"Yemen",894:"Zambia"};
+
+// Store country colors for recoloring
+let countryFills={};
+let selectedId=null,hoveredId=null;
+let activeTab='overview';
+
+(async()=>{
+const lf=document.getElementById('lf'),ls=document.getElementById('ls');
+lf.style.width='15%';ls.textContent='Fetching world topology...';
+
+// TJ parser
+const TJ={feature(tp,o){const s=tp.transform.scale,t=tp.transform.translate;const aa=tp.arcs.map(a=>{let x=0,y=0;return a.map(p=>{x+=p[0];y+=p[1];return[x*s[0]+t[0],y*s[1]+t[1]]})});const rv=i=>i<0?aa[~i].slice().reverse():aa[i].slice();const rn=ids=>{let c=[];ids.forEach(i=>{const a=rv(i);if(c.length)a.shift();c=c.concat(a)});return c};const gm=g=>{if(!g)return null;switch(g.type){case'Polygon':return{type:'Polygon',coordinates:g.arcs.map(rn)};case'MultiPolygon':return{type:'MultiPolygon',coordinates:g.arcs.map(a=>a.map(rn))};default:return null}};return{type:'FC',features:o.geometries.map(g=>({id:g.id,geometry:gm(g)}))};}};
+
+const resp=await fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json');
+const topo=await resp.json();lf.style.width='40%';ls.textContent='Parsing geometry...';
+const gj=TJ.feature(topo,topo.objects.countries);
+lf.style.width='60%';ls.textContent='Rendering texture...';
+
+// Draw ocean
+ctx.fillStyle='#101c18';ctx.fillRect(0,0,W,H);
+pCtx.fillStyle='#000000';pCtx.fillRect(0,0,W,H);
+
+// Draw countries
+const countryPolys={};// id => array of rings
+gj.features.forEach(f=>{
+  const id=f.id;
+  assignColor(id);
+  if(!f.geometry)return;
+  const polys=f.geometry.type==='Polygon'?[f.geometry.coordinates]:f.geometry.type==='MultiPolygon'?f.geometry.coordinates:[];
+  countryPolys[String(id)]=polys;
+  const fill='#1e2e28';
+  polys.forEach(poly=>{
+    poly.forEach((ring,ri)=>{
+      if(ri===0){// Outer ring
+        drawPoly(ctx,ring,fill,'#3a5a4a',0.5);
+        drawPoly(pCtx,ring,id2color[String(id)],null);
+      }
+    });
+  });
+});
+
+lf.style.width='80%';ls.textContent='Building 3D scene...';
+
+// Three.js setup
+const canvas=document.getElementById('gl');
+const ren=new THREE.WebGLRenderer({canvas,antialias:true});
+ren.setPixelRatio(Math.min(devicePixelRatio,2));ren.setSize(innerWidth,innerHeight);ren.setClearColor(0x131a17);
+const scene=new THREE.Scene();const cam=new THREE.PerspectiveCamera(42,innerWidth/innerHeight,.1,100);cam.position.set(0,0,4.8);
+scene.add(new THREE.AmbientLight(0x4a5a4e,0.8));
+const dl=new THREE.DirectionalLight(0x8a9d8a,0.7);dl.position.set(5,3,5);scene.add(dl);
+const dl2=new THREE.DirectionalLight(0x2a3a2e,0.3);dl2.position.set(-4,-2,-3);scene.add(dl2);
+
+// Stars
+const sGeo=new THREE.BufferGeometry(),sPos=[];
+for(let i=0;i<3000;i++){const r=25+Math.random()*75,th=Math.random()*Math.PI*2,ph=Math.acos(2*Math.random()-1);sPos.push(r*Math.sin(ph)*Math.cos(th),r*Math.sin(ph)*Math.sin(th),r*Math.cos(ph))}
+sGeo.setAttribute('position',new THREE.Float32BufferAttribute(sPos,3));
+scene.add(new THREE.Points(sGeo,new THREE.PointsMaterial({color:0x556655,size:.12,sizeAttenuation:true})));
+
+// Globe with canvas texture
+const texture=new THREE.CanvasTexture(texCv);
+texture.minFilter=THREE.LinearFilter;
+const globeMat=new THREE.MeshPhongMaterial({map:texture,shininess:8,specular:0x080808});
+const globeGeo=new THREE.SphereGeometry(R,128,96);
+const globe=new THREE.Mesh(globeGeo,globeMat);
+const globeGroup=new THREE.Group();
+globeGroup.add(globe);scene.add(globeGroup);
+
+// Atmosphere
+const atmosGeo=new THREE.SphereGeometry(R*1.03,64,64);
+scene.add(new THREE.Mesh(atmosGeo,new THREE.ShaderMaterial({
+  vertexShader:'varying vec3 vN;void main(){vN=normalize(normalMatrix*normal);gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}',
+  fragmentShader:'varying vec3 vN;void main(){float i=pow(.6-dot(vN,vec3(0,0,1.)),3.);gl_FragColor=vec4(.25,.45,.3,i*.2);}',
+  transparent:true,side:THREE.BackSide,depthWrite:false
+})));
+
+// Graticule lines on texture
+ctx.strokeStyle='rgba(50,80,65,0.12)';ctx.lineWidth=0.8;
+[0,30,60,-30,-60].forEach(lat=>{ctx.beginPath();const y=(90-lat)/180*H;ctx.moveTo(0,y);ctx.lineTo(W,y);ctx.stroke()});
+for(let lng=-150;lng<=180;lng+=30){ctx.beginPath();const x=(lng+180)/360*W;ctx.moveTo(x,0);ctx.lineTo(x,H);ctx.stroke()}
+texture.needsUpdate=true;
+
+// Overlay markers group
+const markerGrp=new THREE.Group();globeGroup.add(markerGrp);
+const overlayGrp=new THREE.Group();globeGroup.add(overlayGrp);
+
+function llv(lat,lng,r){const p=(90-lat)*Math.PI/180,t=(lng+180)*Math.PI/180;return new THREE.Vector3(-r*Math.sin(p)*Math.cos(t),r*Math.cos(p),r*Math.sin(p)*Math.sin(t))}
+
+// ===== INTERACTION — UV-based picking (simplest, most reliable) =====
+let drag=false,pm={x:0,y:0},cpm={x:0,y:0},rvx=0,rvy=0,autoR=true,tZoom=4.8;
+let pendingPos=null,events=[];
+const _rc=new THREE.Raycaster();
+const _mv=new THREE.Vector2();
+
+function pickGlobe(mx,my){
+  _mv.set((mx/innerWidth)*2-1,-(my/innerHeight)*2+1);
+  _rc.setFromCamera(_mv,cam);
+  scene.updateMatrixWorld(true);
+  // Intersect all meshes in scene recursively to handle the group
+  const hits=_rc.intersectObjects(globeGroup.children,false);
+  for(let i=0;i<hits.length;i++){
+    const h=hits[i];
+    if(h.object===globe && h.uv){
+      // UV directly from Three.js — u wraps longitude, v wraps latitude
+      const u=h.uv.x, v=h.uv.y;
+      const lng=u*360-180;
+      const lat=90-v*180;
+      // Lookup country on pick canvas using UV coords directly
+      const px=Math.max(0,Math.min(W-1,Math.floor(u*W)));
+      const py=Math.max(0,Math.min(H-1,Math.floor(v*H)));
+      const pixel=pCtx.getImageData(px,py,1,1).data;
+      let countryId=null;
+      if(!(pixel[0]===0&&pixel[1]===0&&pixel[2]===0)){
+        const hex='#'+((pixel[0]<<16)|(pixel[1]<<8)|pixel[2]).toString(16).padStart(6,'0');
+        countryId=color2id[hex]?String(color2id[hex]):null;
+      }
+      return{lat,lng,countryId};
+    }
+  }
+  return null;
+}
+
+canvas.addEventListener('mousedown',e=>{drag=true;pm={x:e.clientX,y:e.clientY};cpm={x:e.clientX,y:e.clientY};autoR=false});
+canvas.addEventListener('mousemove',e=>{
+  if(drag){const dx=e.clientX-pm.x,dy=e.clientY-pm.y;rvx=dx*.003;rvy=dy*.003;globeGroup.rotation.y+=dx*.005;globeGroup.rotation.x=Math.max(-Math.PI/2,Math.min(Math.PI/2,globeGroup.rotation.x+dy*.005));pm={x:e.clientX,y:e.clientY}}
+  const pick=pickGlobe(e.clientX,e.clientY);
+  const tt=document.getElementById('tip');
+  if(pick){
+    pendingPos={lat:pick.lat,lng:pick.lng};
+    const id=pick.countryId;
+    const cName=id?(DB[id]?DB[id].n:(CN[id]||id)):'ocean';
+    document.getElementById('coords').textContent=`LAT ${pick.lat.toFixed(2)} · LON ${pick.lng.toFixed(2)} · ${cName}`;
+    if(id){
+      const d=DB[id];const nm=d?d.n:(CN[id]||'ID:'+id);
+      tt.classList.add('on');tt.style.left=(e.clientX+14)+'px';tt.style.top=(e.clientY-8)+'px';
+      document.getElementById('tt-n').textContent=(d?d.f+' ':'')+nm;
+      document.getElementById('tt-s').textContent=d?`POP ${fN(d.pop)} · GDP $${d.gdp}B`:'ISO '+id;
+      canvas.style.cursor='pointer';
+      if(hoveredId!==id){if(hoveredId&&hoveredId!==selectedId)redrawCountry(hoveredId,countryFills[hoveredId]||'#1e2e28');hoveredId=id;if(hoveredId!==selectedId)redrawCountry(hoveredId,'#2a4a3a')}
+    }else{
+      tt.classList.remove('on');canvas.style.cursor=drag?'grabbing':'grab';
+      if(hoveredId&&hoveredId!==selectedId){redrawCountry(hoveredId,countryFills[hoveredId]||'#1e2e28')}hoveredId=null;
+    }
+  }else{
+    tt.classList.remove('on');canvas.style.cursor=drag?'grabbing':'grab';
+    document.getElementById('coords').textContent='off globe';
+    if(hoveredId&&hoveredId!==selectedId){redrawCountry(hoveredId,countryFills[hoveredId]||'#1e2e28')}hoveredId=null;
+  }
+});
+canvas.addEventListener('mouseup',()=>drag=false);
+canvas.addEventListener('wheel',e=>{tZoom=Math.max(2,Math.min(10,tZoom+e.deltaY*.005));e.preventDefault()},{passive:false});
+canvas.addEventListener('click',e=>{
+  if(Math.abs(e.clientX-cpm.x)<5&&Math.abs(e.clientY-cpm.y)<5){
+    const pick=pickGlobe(e.clientX,e.clientY);
+    selectCountry(pick?pick.countryId:null);
+  }
+});
+canvas.addEventListener('contextmenu',e=>{e.preventDefault();if(pendingPos)addMarker3D(pendingPos.lat,pendingPos.lng,0xc27066)});
+
+// ===== REDRAW COUNTRY ON TEXTURE =====
+function redrawCountry(id,fill){
+  if(!countryPolys[id])return;
+  countryPolys[id].forEach(poly=>poly.forEach((ring,ri)=>{
+    if(ri===0)drawPoly(ctx,ring,fill,'#3a5a4a',0.5);
+  }));
+  texture.needsUpdate=true;
+}
+
+// ===== SELECT COUNTRY =====
+function selectCountry(id){
+  // FIX #3: Clear previous overlays
+  clearOv();
+  if(selectedId){redrawCountry(selectedId,countryFills[selectedId]||'#1e2e28')}
+  selectedId=id;
+  if(selectedId){
+    redrawCountry(selectedId,'#305852');
+    showDetail(selectedId);
+    showCP(selectedId);
+    showOverlays(selectedId);
+  }else{closeDetail();document.getElementById('cpanel').innerHTML='<div style="font-size:10px;color:var(--text-dim)">Select a country</div>'}
+}
+
+// ===== FOCUS ON COORDINATES =====
+window.focusLL=function(lat,lng){
+  const ty=-lng*Math.PI/180,tx=lat*Math.PI/180;
+  const sx=globeGroup.rotation.x,sy=globeGroup.rotation.y;
+  let t=0;autoR=false;
+  (function step(){t+=1/60;if(t>1.2)return;const p=1-Math.pow(1-t/1.2,3);globeGroup.rotation.x=sx+(tx-sx)*p;globeGroup.rotation.y=sy+(ty-sy)*p;requestAnimationFrame(step)})();
+};
+
+// ===== COMMODITY POPUP =====
+window.showCommodity=function(name,evt){
+  const desc=typeof COMMODITIES!=='undefined'&&COMMODITIES[name]?COMMODITIES[name]:'No detailed description available for this commodity.';
+  const popup=document.getElementById('commodity-popup');
+  document.getElementById('cp-t').textContent=name;
+  document.getElementById('cp-d').textContent=desc;
+  popup.style.left=(evt?evt.clientX+10:200)+'px';
+  popup.style.top=(evt?evt.clientY-50:200)+'px';
+  popup.classList.add('show');
+};
+
+// ===== DETAIL PANEL =====
+function showDetail(id){
+  const d=DB[id];const name=d?d.n:(CN[id]||'Territory '+id);
+  document.getElementById('detail').classList.add('open');document.getElementById('btn-detail').classList.add('on');activeTab='overview';setTabs();renderTab(id)
+}
+window.closeDetail=function(){document.getElementById('detail').classList.remove('open');document.getElementById('btn-detail').classList.remove('on');clearOv();if(selectedId){redrawCountry(selectedId,countryFills[selectedId]||'#1e2e28');selectedId=null}}
+document.querySelectorAll('#dtabs .tab').forEach(t=>t.addEventListener('click',()=>{activeTab=t.dataset.tab;setTabs();if(selectedId)renderTab(selectedId)}));
+function setTabs(){document.querySelectorAll('#dtabs .tab').forEach(t=>t.classList.toggle('active',t.dataset.tab===activeTab))}
+function renderTab(id){const d=DB[id],b=document.getElementById('det-body');
+if(!d){const nm=CN[id]||'Territory '+id;b.innerHTML=`<div style="padding:20px;"><div style="font-size:16px;color:var(--white);font-family:var(--sans);margin-bottom:8px">${nm}</div><div style="font-size:11px;color:var(--text-dim)">Detailed intelligence data not yet available for this territory. ISO code: ${id}</div></div>`;return}
+if(activeTab==='overview')b.innerHTML=rOverview(d);else if(activeTab==='geography')b.innerHTML=rGeo(d);else if(activeTab==='economy')b.innerHTML=rEcon(d);else b.innerHTML=rStrat(d)}
+
+function rOverview(d){let h=`<div class="c-head"><div class="c-flag">${d.f||''}</div><div><div class="c-name">${d.n}</div><div class="c-cap">Capital: ${d.c||'—'}</div></div></div>`;
+h+=`<div class="stats"><div class="stat"><div class="sl">Population</div><div class="sv">${fN(d.pop)}</div></div><div class="stat"><div class="sl">Area km²</div><div class="sv">${fN(d.a)}</div></div><div class="stat"><div class="sl">GDP (B USD)</div><div class="sv">$${d.gdp||'—'}</div></div><div class="stat"><div class="sl">GDP/Capita</div><div class="sv">$${d.gdpPC?fN(d.gdpPC):'—'}</div></div></div>`;
+if(d.eth){h+='<div class="sec"><div class="sec-t">Ethnic Composition</div>';
+d.eth.forEach(e=>{h+=`<div class="eth-row"><span class="eth-name">${e.n}</span><div class="eth-track"><div class="eth-fill" style="width:${e.p}%"></div></div><span class="eth-pct">${e.p}%</span></div>`;
+if(d.ethP&&d.ethP[e.n])h+=`<div class="eth-profile"><p>${d.ethP[e.n]}</p></div>`});h+='</div>'}
+if(d.cul)h+=`<div class="sec"><div class="sec-t">Cultural Profile</div><p>${d.cul}</p></div>`;return h}
+
+function rGeo(d){let h='';
+if(d.ter){h+=`<div class="sec"><div class="sec-t">Terrain</div><div class="terrain-bar"><div class="tb-p" style="width:${d.ter.p}%">${d.ter.p}%</div><div class="tb-h" style="width:${d.ter.h}%">${d.ter.h}%</div><div class="tb-m" style="width:${d.ter.m}%">${d.ter.m}%</div></div><div class="terrain-legend"><span class="tl-p">Plains</span><span class="tl-h">Hills</span><span class="tl-m">Mountains</span></div></div>`}
+// FIX #2: Brown mountain bars with visible heights
+if(d.pk&&d.pk.length){const maxH=Math.max(...d.pk.map(p=>p.h));const cw=340,ch=90;
+h+=`<div class="sec"><div class="sec-t">Elevation Profile</div><div class="topo-chart"><svg width="${cw}" height="${ch+35}" viewBox="0 0 ${cw} ${ch+35}">`;
+const gap=cw/(d.pk.length+1);
+d.pk.forEach((p,i)=>{const x=gap*(i+1),barH=Math.max(10,(p.h/maxH)*ch);
+h+=`<rect x="${x-14}" y="${ch-barH+8}" width="28" height="${barH}" fill="#6b4a2a" rx="2"/>`;
+h+=`<text x="${x}" y="${ch-barH+2}" text-anchor="middle" fill="#d5c4a1" font-size="10" font-family="IBM Plex Mono" font-weight="600">${p.h}m</text>`;
+h+=`<text x="${x}" y="${ch+22}" text-anchor="middle" fill="#9aaa97" font-size="8" font-family="IBM Plex Mono">${p.n}</text>`});
+h+=`</svg></div></div>`}
+if(d.mtn)h+=`<div class="sec"><div class="sec-t">Mountains</div><ul>${d.mtn.map(m=>'<li>'+m+'</li>').join('')}</ul></div>`;
+if(d.pln)h+=`<div class="sec"><div class="sec-t">Plains & Basins</div><ul>${d.pln.map(m=>'<li>'+m+'</li>').join('')}</ul></div>`;
+if(d.riv)h+=`<div class="sec"><div class="sec-t">Rivers</div><ul>${d.riv.map(m=>'<li>'+m+'</li>').join('')}</ul></div>`;
+if(d.lak)h+=`<div class="sec"><div class="sec-t">Lakes</div><ul>${d.lak.map(m=>'<li>'+m+'</li>').join('')}</ul></div>`;
+return h||'<div style="padding:20px;color:var(--text-dim);font-size:11px">No geography data.</div>'}
+
+function rEcon(d){let h=`<div class="stats" style="margin-bottom:14px"><div class="stat"><div class="sl">GDP (B)</div><div class="sv">$${d.gdp||'—'}</div></div><div class="stat"><div class="sl">GDP/Cap</div><div class="sv">$${d.gdpPC?fN(d.gdpPC):'—'}</div></div></div>`;
+if(d.ex&&d.ex.length){h+='<div class="sec"><div class="sec-t">Top Exports</div>';
+d.ex.forEach(e=>{const o=typeof e==='string'?{n:e}:e;h+=`<div class="trade-row" onclick="showCommodity('${o.n.replace(/'/g,"\\'")}',event)"><span class="trade-name">${o.n}</span>${o.p?`<div class="trade-bar"><div class="trade-fill ex" style="width:${Math.min(o.p*1.5,100)}%"></div></div><span class="trade-pct">${o.p}%</span>`:''}</div>`});h+='</div>'}
+if(d.im&&d.im.length){h+='<div class="sec"><div class="sec-t">Top Imports</div>';
+d.im.forEach(e=>{const o=typeof e==='string'?{n:e}:e;h+=`<div class="trade-row" onclick="showCommodity('${o.n.replace(/'/g,"\\'")}',event)"><span class="trade-name">${o.n}</span>${o.p?`<div class="trade-bar"><div class="trade-fill im" style="width:${Math.min(o.p*1.5,100)}%"></div></div><span class="trade-pct">${o.p}%</span>`:''}</div>`});h+='</div>'}
+if(d.ext&&d.ext.length){h+='<div class="sec"><div class="sec-t">Extraction Sites</div>';
+d.ext.forEach(e=>{h+=`<div class="marker-item" onclick="focusLL(${e.lat},${e.lng})"><div class="mi-name"><span class="mi-dot ext"></span>${e.n}</div><div class="mi-info">${e.r}</div></div>`});h+='</div>'}
+return h||'<div style="padding:20px;color:var(--text-dim);font-size:11px">No economic data.</div>'}
+
+function rStrat(d){let h='';if(!d.bas||!d.bas.length)return'<div style="padding:20px;color:var(--text-dim);font-size:11px">No strategic data.</div>';
+const dom=d.bas.filter(b=>!b.f),fore=d.bas.filter(b=>b.f);
+if(dom.length){h+='<div class="sec"><div class="sec-t">Domestic</div>';dom.forEach(b=>{h+=`<div class="marker-item" onclick="focusLL(${b.lat},${b.lng})"><div class="mi-name"><span class="mi-dot mil"></span>${b.n}</div><div class="mi-info">${b.t}</div></div>`});h+='</div>'}
+if(fore.length){h+='<div class="sec"><div class="sec-t">Foreign Presence</div>';fore.forEach(b=>{h+=`<div class="marker-item" onclick="focusLL(${b.lat},${b.lng})"><div class="mi-name"><span class="mi-dot for"></span>${b.n}</div><div class="mi-info">${b.t}</div></div>`});h+='</div>'}
+return h}
+
+// ===== OVERLAYS =====
+function clearOv(){while(overlayGrp.children.length)overlayGrp.remove(overlayGrp.children[0])}
+function showOverlays(id){clearOv();const d=DB[id];if(!d)return;
+if(d.ext)d.ext.forEach(e=>addOv(e.lat,e.lng,0xb89a4a,.012));
+if(d.bas)d.bas.forEach(b=>addOv(b.lat,b.lng,b.f?0xc4a095:0xc27066,.01))}
+function addOv(lat,lng,col,sz){const p=llv(lat,lng,R*1.02),g=new THREE.Group();
+g.add(new THREE.Mesh(new THREE.SphereGeometry(sz,10,10),new THREE.MeshPhongMaterial({color:col,emissive:col,emissiveIntensity:.5})));
+const ring=new THREE.Mesh(new THREE.RingGeometry(sz*1.5,sz*2,20),new THREE.MeshBasicMaterial({color:col,transparent:true,opacity:.4,side:THREE.DoubleSide}));
+ring.userData.pulse=true;g.add(ring);
+g.position.copy(p);g.lookAt(0,0,0);g.rotateX(Math.PI);overlayGrp.add(g)}
+
+function addMarker3D(lat,lng,col){const p=llv(lat,lng,R*1.02),g=new THREE.Group();g.add(new THREE.Mesh(new THREE.SphereGeometry(.013,10,10),new THREE.MeshPhongMaterial({color:col,emissive:col,emissiveIntensity:.4})));const pulse=new THREE.Mesh(new THREE.RingGeometry(.015,.02,20),new THREE.MeshBasicMaterial({color:col,transparent:true,opacity:.5,side:THREE.DoubleSide}));pulse.userData.pulse=true;g.add(pulse);g.position.copy(p);g.lookAt(0,0,0);g.rotateX(Math.PI);markerGrp.add(g)}
+
+// ===== COLOR PANEL =====
+function showCP(id){const d=DB[id];if(!d)return;
+document.getElementById('cpanel').innerHTML=`<div style="font-size:12px;color:var(--white);margin-bottom:6px;font-family:var(--sans)">${d.f||''} ${d.n}</div><div class="cpick"><label>Color</label><input type="color" value="${countryFills[id]||'#1e2e28'}" id="cc-i"></div><button class="btn-sm" onclick="resetCC('${id}')">Reset</button>`;
+document.getElementById('cc-i').addEventListener('input',e=>{countryFills[id]=e.target.value;redrawCountry(id,e.target.value)})}
+window.resetCC=function(id){delete countryFills[id];redrawCountry(id,'#1e2e28')};
+
+// ===== EVENTS =====
+const TC={conflict:0xc27066,diplomacy:0x8aad84,economic:0xb89a4a,alert:0x6b9e6f};
+document.getElementById('btn-ev').addEventListener('click',()=>{const ti=document.getElementById('ev-t').value.trim(),ty=document.getElementById('ev-type').value,de=document.getElementById('ev-d').value.trim();if(!ti||!pendingPos)return;events.push({title:ti,type:ty,desc:de,lat:pendingPos.lat,lng:pendingPos.lng});addMarker3D(pendingPos.lat,pendingPos.lng,TC[ty]);renderEv();document.getElementById('ev-t').value='';document.getElementById('ev-d').value=''});
+function renderEv(){const el=document.getElementById('ev-list');document.getElementById('ev-count').textContent=events.length;if(!events.length){el.innerHTML='<div style="text-align:center;padding:16px 0;color:var(--text-dim);font-size:10px">Right-click to mark</div>';return}el.innerHTML=events.map((e,i)=>`<div class="ev-item" onclick="focusLL(${e.lat},${e.lng})"><div style="display:flex;justify-content:space-between"><span class="ev-badge ${e.type}">${e.type}</span><span style="font-size:9px;color:var(--text-dim);cursor:pointer" onclick="event.stopPropagation();rmEv(${i})">✕</span></div><div class="ev-title">${e.title}</div><div class="ev-coord">${e.lat.toFixed(2)}°, ${e.lng.toFixed(2)}°</div></div>`).join('')}
+window.rmEv=function(i){events.splice(i,1);if(markerGrp.children[i])markerGrp.remove(markerGrp.children[i]);renderEv()};
+document.getElementById('btn-side').addEventListener('click',()=>document.getElementById('sidebar').classList.toggle('off'));
+document.getElementById('btn-detail').addEventListener('click',()=>closeDetail());
+
+// Clock
+function uClock(){const n=new Date;document.getElementById('clock').textContent=`UTC ${n.getUTCHours().toString().padStart(2,'0')}:${n.getUTCMinutes().toString().padStart(2,'0')}:${n.getUTCSeconds().toString().padStart(2,'0')}`}setInterval(uClock,1000);uClock();
+function fN(n){if(!n)return'0';if(n>=1e9)return(n/1e9).toFixed(1)+'B';if(n>=1e6)return(n/1e6).toFixed(1)+'M';if(n>=1e3)return(n/1e3).toFixed(1)+'K';return ''+n}
+
+// ===== ANIMATE =====
+lf.style.width='100%';ls.textContent='Online';setTimeout(()=>document.getElementById('loader').classList.add('done'),600);
+function animate(){requestAnimationFrame(animate);
+if(autoR)globeGroup.rotation.y+=.0005;
+if(!drag){rvx*=.94;rvy*=.94;globeGroup.rotation.y+=rvx;globeGroup.rotation.x+=rvy}
+cam.position.z+=(tZoom-cam.position.z)*.06;
+const t=Date.now()*.003;
+markerGrp.children.forEach(g=>g.children.forEach(ch=>{if(ch.userData.pulse){const s=1+Math.sin(t)*.6;ch.scale.set(s,s,s);ch.material.opacity=.35*(1-Math.sin(t)*.5)}}));
+overlayGrp.children.forEach(g=>g.children.forEach(ch=>{if(ch.userData.pulse){const s=1+Math.sin(t*1.3)*.4;ch.scale.set(s,s,s);ch.material.opacity=.3*(1-Math.sin(t*1.3)*.4)}}));
+ren.render(scene,cam)}animate();
+setTimeout(()=>document.getElementById('instr').style.opacity='0',5000);
+window.addEventListener('resize',()=>{cam.aspect=innerWidth/innerHeight;cam.updateProjectionMatrix();ren.setSize(innerWidth,innerHeight)});
+})();
+</script>
+</body></html>
