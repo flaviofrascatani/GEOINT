@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GEOINT // Strategic Globe v7</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=Barlow:wght@300;400;500;600;700&family=Barlow+Condensed:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#131a17;--surface:rgba(20,30,26,.93);--border:rgba(190,207,184,.1);--border-h:rgba(190,207,184,.22);--accent:#8aad84;--accent2:#305852;--red:#c27066;--gold:#b89a4a;--green:#6b9e6f;--yellow:#e3c04a;--orange:#e0893a;--crim:#c0392b;--purple:#9b59b6;--rose:#c4a095;--text:#9aaa97;--text-dim:#5a6d5e;--white:#d5d8d2;--bright:#e8ebe5;--mono:'IBM Plex Mono',monospace;--sans:'Barlow',sans-serif;--cond:'Barlow Condensed',sans-serif}
+html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--mono)}
+canvas#gl{position:fixed;inset:0;z-index:1}
+#top{position:fixed;top:0;left:0;right:0;height:40px;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0 20px;background:linear-gradient(180deg,rgba(19,26,23,.97),rgba(19,26,23,.4));border-bottom:1px solid var(--border);backdrop-filter:blur(10px)}
+.logo{font-family:var(--cond);font-weight:600;font-size:13px;letter-spacing:4px;color:var(--accent);text-transform:uppercase;display:flex;align-items:center;gap:8px}
+.logo .dot{width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 6px var(--green);animation:blink 2.5s infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+#clock{font-size:10px;color:var(--text-dim);letter-spacing:1.5px}
+#bot{position:fixed;bottom:0;left:0;right:0;height:28px;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0 20px;background:linear-gradient(0deg,rgba(19,26,23,.97),rgba(19,26,23,.4));border-top:1px solid var(--border);font-size:9px;color:var(--text-dim);letter-spacing:1px}
+#tip{position:fixed;z-index:300;pointer-events:none;opacity:0;transition:opacity .15s;padding:10px 16px;background:var(--surface);border:1px solid var(--border-h);border-radius:4px;backdrop-filter:blur(14px)}
+#tip.on{opacity:1}
+#tip .n{font-family:var(--sans);font-size:14px;font-weight:500;color:var(--bright)}
+#tip .s{font-size:9px;color:var(--text-dim);letter-spacing:1px;margin-top:2px}
+
+#detail{position:fixed;top:44px;left:10px;bottom:34px;width:420px;z-index:100;display:flex;flex-direction:column;gap:6px;opacity:0;pointer-events:none;transform:translateX(-440px);transition:transform .4s cubic-bezier(.22,1,.36,1),opacity .3s}
+#detail.open{opacity:1;pointer-events:auto;transform:translateX(0)}
+.pnl{background:var(--surface);border:1px solid var(--border);border-radius:6px;backdrop-filter:blur(14px);overflow:hidden}
+.pnl-h{padding:10px 14px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}
+.pnl-t{font-family:var(--cond);font-size:11px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:var(--accent)}
+.pnl-b{padding:12px 14px;overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--border) transparent}
+.pnl-b::-webkit-scrollbar{width:4px}.pnl-b::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
+.c-head{display:flex;align-items:center;gap:14px;margin-bottom:10px}
+.c-flag{font-size:38px;line-height:1}
+.c-name{font-family:var(--sans);font-size:18px;font-weight:600;color:var(--bright);cursor:text;border-bottom:1px dashed transparent}
+.c-name:hover,.editable:hover{border-bottom:1px dashed var(--accent)}
+.c-cap{font-size:11px;color:var(--text-dim);margin-top:2px}
+.editable{cursor:text;outline:none;padding:0 2px;border-radius:2px}
+.editable:focus{background:rgba(138,173,132,.12);border-bottom:1px solid var(--accent)}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:12px}
+.stat{padding:8px 10px;background:rgba(255,255,255,.015);border:1px solid var(--border);border-radius:4px}
+.stat .sl{font-size:9px;color:var(--text-dim);letter-spacing:1px;text-transform:uppercase;margin-bottom:2px}
+.stat .sv{font-family:var(--sans);font-size:14px;font-weight:600;color:var(--white)}
+.sec{margin-bottom:12px}
+.sec-t{font-family:var(--cond);font-size:10px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:var(--accent);margin-bottom:6px;padding-bottom:4px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center}
+.sec p{font-size:11px;color:var(--text);line-height:1.6;margin-bottom:6px}
+.sec ul{list-style:none;padding:0}.sec li{font-size:11px;color:var(--text);line-height:1.6;display:flex;align-items:center;gap:6px}
+.sec li::before{content:'›';color:var(--accent)}
+.sec li .del{margin-left:auto;cursor:pointer;color:var(--text-dim);font-size:10px}
+.sec li .del:hover{color:var(--red)}
+.eth-row{display:flex;align-items:center;gap:8px;margin-bottom:3px}
+.eth-name{font-size:10px;color:var(--text);min-width:100px}
+.eth-track{flex:1;height:5px;background:rgba(255,255,255,.03);border-radius:3px;overflow:hidden}
+.eth-fill{height:100%;border-radius:3px;background:var(--accent2)}
+.eth-pct{font-size:9px;color:var(--text-dim);min-width:30px;text-align:right}
+.eth-profile{margin:4px 0 8px;padding:8px;border-left:2px solid var(--accent2);background:rgba(48,88,82,.06);border-radius:0 4px 4px 0}
+.eth-profile p{font-size:10px;color:var(--text);line-height:1.6;margin:0}
+.terrain-bar{display:flex;height:14px;border-radius:3px;overflow:hidden;margin-bottom:6px}
+.tb-p,.tb-h,.tb-m{display:flex;align-items:center;justify-content:center;font-size:8px;color:#fff}
+.tb-p{background:var(--green)}.tb-h{background:var(--gold)}.tb-m{background:var(--accent2)}
+.topo-chart{margin:8px 0;padding:10px;background:rgba(0,0,0,.18);border-radius:4px;border:1px solid var(--border)}
+.trade-row{display:flex;align-items:center;gap:6px;margin-bottom:4px;padding:4px 8px;background:rgba(255,255,255,.01);border-radius:3px}
+.trade-name{flex:1;font-size:10px;color:var(--text)}
+.trade-pct{font-size:11px;font-weight:500;color:var(--white);min-width:40px;text-align:right}
+.trade-bar{width:60px;height:4px;background:rgba(255,255,255,.03);border-radius:2px;overflow:hidden}
+.trade-fill{height:100%;border-radius:2px}.trade-fill.ex{background:var(--green)}.trade-fill.im{background:var(--rose)}
+.marker-item{padding:7px 9px;border-radius:4px;background:rgba(255,255,255,.015);border:1px solid var(--border);margin-bottom:5px;transition:border-color .2s}
+.marker-item:hover{border-color:var(--border-h)}
+.mi-row{display:flex;align-items:center;gap:6px}
+.mi-name{flex:1;font-size:11px;color:var(--white);cursor:pointer}
+.mi-info{font-size:9px;color:var(--text-dim);margin-top:2px}
+.mi-edit{font-size:9px;color:var(--accent);cursor:pointer;padding:2px 6px;border:1px solid var(--border);border-radius:2px;background:none;font-family:var(--mono)}
+.mi-edit:hover{background:rgba(138,173,132,.1)}
+.mi-del{font-size:10px;color:var(--text-dim);cursor:pointer;padding:2px 5px}
+.mi-del:hover{color:var(--red)}
+.mi-dot{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:5px}
+.mi-dot.ext{background:var(--gold)}.mi-dot.mil{background:var(--red)}.mi-dot.for{background:var(--rose)}
+.mi-edit-form{margin-top:6px;padding:6px;background:rgba(0,0,0,.2);border-radius:3px;display:none}
+.mi-edit-form.on{display:block}
+.mi-edit-form input{width:100%;margin-bottom:4px;padding:4px 6px;background:rgba(255,255,255,.02);border:1px solid var(--border);border-radius:2px;color:var(--white);font-family:var(--mono);font-size:10px;outline:none}
+.mi-edit-form .row2{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+.edit-btn{background:none;border:1px solid var(--border);border-radius:3px;color:var(--accent);font-size:9px;padding:3px 8px;cursor:pointer;font-family:var(--mono);letter-spacing:1px;transition:all .2s}
+.edit-btn:hover{background:rgba(138,173,132,.1);border-color:var(--accent)}
+.add-mini{font-size:9px;color:var(--accent);cursor:pointer;padding:2px 6px;border:1px dashed var(--border-h);border-radius:3px;background:none;font-family:var(--mono)}
+.add-mini:hover{border-color:var(--accent);background:rgba(138,173,132,.08)}
+.user-note{margin-top:8px;padding:10px;background:rgba(138,173,132,.04);border:1px solid rgba(138,173,132,.15);border-radius:4px}
+.user-note-label{font-size:8px;color:var(--accent);letter-spacing:1px;text-transform:uppercase;margin-bottom:4px}
+.user-note p{font-size:11px;color:var(--text);line-height:1.6;white-space:pre-wrap}
+.note-editor{width:100%;min-height:80px;padding:8px;background:rgba(0,0,0,.2);border:1px solid var(--accent);border-radius:4px;color:var(--white);font-family:var(--mono);font-size:11px;resize:vertical;outline:none;margin-top:6px}
+.note-save{margin-top:6px;padding:5px 12px;background:rgba(138,173,132,.15);border:1px solid var(--accent);border-radius:3px;color:var(--accent);font-family:var(--mono);font-size:10px;cursor:pointer;letter-spacing:1px}
+
+#sidebar{position:fixed;top:44px;right:10px;bottom:34px;width:300px;z-index:100;display:flex;flex-direction:column;gap:6px;transition:transform .4s cubic-bezier(.22,1,.36,1),opacity .3s;overflow:hidden}
+#sidebar.off{transform:translateX(320px);opacity:0;pointer-events:none}
+#sidebar .pnl{min-height:0}
+.toggle-btn{position:fixed;z-index:101;width:32px;height:32px;border-radius:4px;background:var(--surface);border:1px solid var(--border);color:var(--accent);font-size:13px;cursor:pointer;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(8px)}
+#btn-side{top:44px;right:10px}
+#btn-detail{top:44px;left:10px;opacity:0;pointer-events:none;transition:opacity .3s}
+#btn-detail.on{opacity:1;pointer-events:auto}
+.tabs{display:flex;border-bottom:1px solid var(--border)}
+.tab{flex:1;padding:8px 4px;text-align:center;font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--text-dim);cursor:pointer;border-bottom:2px solid transparent;transition:all .2s}
+.tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+.terrain-legend{display:flex;gap:12px;font-size:9px;color:var(--text-dim)}
+.terrain-legend span::before{content:'';display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:4px;vertical-align:middle}
+.tl-p::before{background:var(--green)}.tl-h::before{background:var(--gold)}.tl-m::before{background:var(--accent2)}
+#loader{position:fixed;inset:0;z-index:999;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;transition:opacity .8s}
+#loader.done{opacity:0;pointer-events:none}
+.load-bar{width:200px;height:2px;background:rgba(255,255,255,.05);border-radius:1px;overflow:hidden;margin-top:16px}
+.load-fill{height:100%;background:var(--accent);width:0%;transition:width .3s}
+.load-msg{font-size:11px;color:var(--text-dim);letter-spacing:2px;text-transform:uppercase}
+.btn-add{width:100%;padding:7px;background:rgba(138,173,132,.08);border:1px solid rgba(138,173,132,.2);border-radius:3px;color:var(--accent);font-family:var(--mono);font-size:10px;cursor:pointer;letter-spacing:1px;text-transform:uppercase;margin-top:4px}
+.btn-add:hover{background:rgba(138,173,132,.15)}
+#ev-form input,#ev-form select,#ev-form textarea{width:100%;padding:7px 9px;background:rgba(255,255,255,.02);border:1px solid var(--border);border-radius:3px;color:var(--white);font-family:var(--mono);font-size:10px;margin-bottom:5px;outline:none}
+#ev-form .row2{display:grid;grid-template-columns:1fr 1fr;gap:5px}
+#ev-form textarea{resize:none;height:44px}
+.sev-row{display:flex;gap:6px;margin-bottom:6px}
+.sev-dot{width:18px;height:18px;border-radius:50%;cursor:pointer;border:2px solid transparent;transition:all .2s}
+.sev-dot.on{border-color:var(--white);transform:scale(1.15)}
+.sev-dot[data-s="1"]{background:var(--green)}.sev-dot[data-s="2"]{background:var(--yellow)}.sev-dot[data-s="3"]{background:var(--orange)}.sev-dot[data-s="4"]{background:var(--crim)}.sev-dot[data-s="5"]{background:var(--purple)}
+.ev-item{padding:8px 10px;border-radius:4px;background:rgba(255,255,255,.015);border:1px solid transparent;margin-bottom:5px;cursor:pointer;display:flex;align-items:flex-start;gap:8px}
+.ev-item:hover{border-color:var(--border)}
+.ev-item .sev{width:10px;height:10px;border-radius:50%;flex-shrink:0;margin-top:3px}
+.ev-item .t{flex:1;font-size:10px;color:var(--white);line-height:1.4}
+.ev-item .x{color:var(--text-dim);font-size:10px;cursor:pointer}
+.ev-item .x:hover{color:var(--red)}
+.cpick{display:flex;align-items:center;gap:8px;padding:6px 0}
+.cpick label{font-size:10px;color:var(--text-dim);flex:1}
+.cpick input[type=color]{width:34px;height:26px;border:1px solid var(--border);border-radius:3px;background:none;cursor:pointer;-webkit-appearance:none}
+.cpick input[type=color]::-webkit-color-swatch-wrapper{padding:2px}
+.cpick input[type=color]::-webkit-color-swatch{border:none;border-radius:2px}
+
+/* Event card overlay */
+#ev-card{position:fixed;z-index:250;width:260px;background:var(--surface);border:1px solid var(--purple);border-radius:6px;backdrop-filter:blur(14px);overflow:hidden;display:none;box-shadow:0 0 20px rgba(155,89,182,.3)}
+#ev-card.on{display:block}
+#ev-card img{width:100%;height:120px;object-fit:cover;display:block;background:rgba(0,0,0,.3)}
+#ev-card .body{padding:10px 12px}
+#ev-card .hd{display:flex;align-items:center;gap:8px;margin-bottom:4px}
+#ev-card .sev{width:12px;height:12px;border-radius:50%;flex-shrink:0}
+#ev-card .ti{font-family:var(--sans);font-size:13px;font-weight:600;color:var(--bright);flex:1}
+#ev-card .ds{font-size:10px;color:var(--text);line-height:1.5;margin-top:4px}
+#ev-card .cl{position:absolute;top:6px;right:8px;cursor:pointer;color:var(--white);font-size:14px;background:rgba(0,0,0,.5);width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;z-index:2}
+</style>
+</head>
+<body>
+<div id="loader"><div class="load-msg">GEOINT v7 — RAISED GPU PICK</div><div class="load-bar"><div class="load-fill" id="lf"></div></div></div>
+<canvas id="gl"></canvas>
+<div id="top"><div class="logo"><span class="dot"></span>GEOINT // STRATEGIC GLOBE v7</div><div style="display:flex;align-items:center;gap:14px"><button onclick="openGhSettings()" style="background:none;border:1px solid var(--border);color:var(--accent);font-family:var(--mono);font-size:9px;letter-spacing:1.5px;padding:4px 10px;border-radius:3px;cursor:pointer">⬢ GITHUB SYNC</button><div id="clock"></div></div></div>
+<div id="tip"><div class="n" id="tt-n"></div><div class="s" id="tt-s"></div></div>
+<button class="toggle-btn" id="btn-detail">✕</button>
+<div id="detail">
+  <div class="pnl" style="flex:1;overflow:hidden;display:flex;flex-direction:column">
+    <div class="pnl-h"><div class="pnl-t">Intelligence</div><button onclick="closeDetail()" style="background:none;border:none;color:var(--text-dim);cursor:pointer;font-size:12px">✕</button></div>
+    <div class="tabs" id="dtabs">
+      <div class="tab active" data-tab="overview">Overview</div>
+      <div class="tab" data-tab="geography">Geography</div>
+      <div class="tab" data-tab="economy">Economy</div>
+      <div class="tab" data-tab="strategic">Strategic</div>
+    </div>
+    <div class="pnl-b" style="flex:1" id="det-body"><div style="text-align:center;padding:40px 0;color:var(--text-dim);font-size:11px">Select a country</div></div>
+  </div>
+</div>
+<button class="toggle-btn" id="btn-side">☰</button>
+<div id="sidebar">
+  <div class="pnl" style="flex:1 1 0;min-height:120px;display:flex;flex-direction:column">
+    <div class="pnl-h"><div class="pnl-t">⬡ Events</div><span style="font-size:9px;color:var(--text-dim)" id="ev-count">0</span></div>
+    <div class="pnl-b" id="ev-list" style="flex:1"><div style="text-align:center;padding:16px 0;color:var(--text-dim);font-size:10px">Add event ↓</div></div>
+  </div>
+  <div class="pnl" style="flex:0 0 auto">
+    <div class="pnl-h"><div class="pnl-t">+ Event</div></div>
+    <div id="ev-form" style="padding:10px 12px">
+      <input type="text" id="ev-t" placeholder="Title...">
+      <textarea id="ev-d" placeholder="Description..."></textarea>
+      <div class="row2">
+        <input type="number" step="0.01" id="ev-lat" placeholder="Lat">
+        <input type="number" step="0.01" id="ev-lng" placeholder="Lng">
+      </div>
+      <div style="font-size:9px;color:var(--text-dim);margin:4px 0 4px;letter-spacing:1px">SEVERITY</div>
+      <div class="sev-row" id="sev-row">
+        <div class="sev-dot on" data-s="1" title="Notable"></div>
+        <div class="sev-dot" data-s="2" title="Watch"></div>
+        <div class="sev-dot" data-s="3" title="Crisis"></div>
+        <div class="sev-dot" data-s="4" title="Severe"></div>
+        <div class="sev-dot" data-s="5" title="Total risk"></div>
+      </div>
+      <input type="file" id="ev-img" accept="image/*" style="font-size:9px">
+      <button class="btn-add" id="btn-ev">+ Add Event</button>
+      <button class="btn-add" id="btn-ai" title="Requires backend/API key" style="opacity:.55;margin-top:4px">⚡ AI Daily (setup required)</button>
+    </div>
+  </div>
+  <div class="pnl" style="flex:0 0 auto">
+    <div class="pnl-h"><div class="pnl-t">◉ Color</div></div>
+    <div class="pnl-b" id="cpanel"><div style="font-size:10px;color:var(--text-dim)">Select a country</div></div>
+  </div>
+</div>
+<div id="ev-card"><div class="cl" id="ev-card-cl">✕</div><img id="ev-card-img" style="display:none"><div class="body"><div class="hd"><div class="sev" id="ev-card-sev"></div><div class="ti" id="ev-card-ti"></div></div><div class="ds" id="ev-card-ds"></div></div></div>
+<div id="bot"><div>SYS NOMINAL // RAISED SELECTION // ANTIMERIDIAN FIX // EDIT MODE</div><div id="coords">—</div></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://unpkg.com/earcut@2.2.4/dist/earcut.min.js"></script>
+<script src="flags.js"></script>
+<script src="data.js"></script>
+<script src="ethnicities-africa.js"></script>
+<script src="ethnicities-americas.js"></script>
+<script src="ethnicities-asia.js"></script>
+<script src="ethnicities-europe-oceania.js"></script>
+<script>
+(async()=>{
+// ================= STORAGE =================
+const LS={
+  get:(k,d)=>{try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},
+  set:(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+};
+function getCustomName(id){return LS.get('gx_name_'+id,'')}
+function setCustomName(id,v){LS.set('gx_name_'+id,v)}
+function getDBOverrides(id){return LS.get('gx_db_'+id,{})}
+function saveDBOverride(id,key,val){const o=getDBOverrides(id);o[key]=val;LS.set('gx_db_'+id,o)}
+function loadOverrides(){Object.keys(localStorage).filter(k=>k.startsWith('gx_db_')).forEach(k=>{const id=k.slice(6);const ov=LS.get(k,{});if(!COUNTRY_DB[id])COUNTRY_DB[id]={};Object.assign(COUNTRY_DB[id],ov)})}
+function getUserNotes(id,tab){return LS.get('gx_notes_'+id,{})[tab]||''}
+function setUserNotes(id,tab,text){const d=LS.get('gx_notes_'+id,{});d[tab]=text;LS.set('gx_notes_'+id,d)}
+const countryColors=LS.get('gx_colors',{});
+const savedEvents=LS.get('gx_events',[]);
+function saveColors(){LS.set('gx_colors',countryColors)}
+function saveEvents(){LS.set('gx_events',events)}
+loadOverrides();
+
+function countryName(id){const cn=getCustomName(id);if(cn)return cn;const d=COUNTRY_DB[id];if(d&&d.name)return d.name;const f=window.CN_FULL&&window.CN_FULL[id];if(f)return f.n;if(window._SYNTH_NAMES&&window._SYNTH_NAMES[id])return window._SYNTH_NAMES[id];return 'Territory '+id}
+function countryFlag(id){const d=COUNTRY_DB[id];if(d&&d.flag)return d.flag;const f=window.CN_FULL&&window.CN_FULL[id];return f?f.f:'🏳'}
+
+// ================= CANVAS TEXTURE =================
+const W=8192,H=4096,R=1.6;
+const texCv=document.createElement('canvas');texCv.width=W;texCv.height=H;const ctx=texCv.getContext('2d');
+const pickCv=document.createElement('canvas');pickCv.width=W;pickCv.height=H;const pCtx=pickCv.getContext('2d');
+const id2color={},color2id={};let colorIdx=256;
+function assignPickColor(id){const sid=String(id);if(id2color[sid])return;const hex='#'+(colorIdx++).toString(16).padStart(6,'0');id2color[sid]=hex;color2id[hex]=sid}
+function ll2px(lng,lat){return[(lng+180)/360*W,(90-lat)/180*H]}
+
+// Normalize id: strip leading zeros from numeric ids so "036" -> "36", "076" -> "76"
+function normId(raw){if(raw==null)return'';const s=String(raw);return /^\d+$/.test(s)?String(parseInt(s,10)):s}
+
+// Normalize COUNTRY_DB and CN_FULL keys too (strip leading zeros) so lookups always match topojson ids
+(function normalizeLookups(){
+  [window.COUNTRY_DB,window.CN_FULL].forEach(obj=>{
+    if(!obj)return;
+    Object.keys(obj).forEach(k=>{
+      const nk=normId(k);
+      if(nk!==k&&!obj[nk]){obj[nk]=obj[k];delete obj[k]}
+    });
+  });
+})();
+
+// ============ GEOMETRY HELPERS ============
+// Unwrap a ring so consecutive vertices never jump by more than 180° of longitude.
+// Turns a wrap-around ring into a continuous strip in (lng, lat) space.
+function unwrapRing(ring){
+  if(!ring.length)return ring;
+  const out=[ring[0].slice()];
+  for(let i=1;i<ring.length;i++){
+    const prev=out[i-1];
+    let lng=ring[i][0];
+    while(lng-prev[0]>180)lng-=360;
+    while(lng-prev[0]<-180)lng+=360;
+    out.push([lng,ring[i][1]]);
+  }
+  return out;
+}
+function ringLngSpan(ring){let mn=Infinity,mx=-Infinity;for(const p of ring){if(p[0]<mn)mn=p[0];if(p[0]>mx)mx=p[0]}return mx-mn}
+// If ring is a polar cap (unwrapped span ≥ ~340°), add pole corners.
+function augmentPolarCap(ring){
+  const span=ringLngSpan(ring);
+  if(span<340)return ring;
+  const avg=ring.reduce((s,p)=>s+p[1],0)/ring.length;
+  const pole=avg<0?-90:90;
+  const last=ring[ring.length-1];
+  const first=ring[0];
+  return [...ring,[last[0],pole],[first[0],pole]];
+}
+
+// Canvas drawing with antimeridian moveTo-split (NO geometry shifting).
+function drawRingCanvas(c,ring,fill,stroke,lw){
+  if(ring.length<2)return;
+  // Polar cap: use augmented ring so fill reaches the pole
+  let r=ring;
+  const uw=unwrapRing(ring);
+  if(ringLngSpan(uw)>=340)r=augmentPolarCap(uw);
+  c.beginPath();
+  let px=null;
+  r.forEach((co,i)=>{
+    const[x,y]=ll2px(co[0],co[1]);
+    if(i===0)c.moveTo(x,y);
+    else if(px!==null&&Math.abs(x-px)>W/2)c.moveTo(x,y);
+    else c.lineTo(x,y);
+    px=x;
+  });
+  c.closePath();
+  if(fill){c.fillStyle=fill;c.fill()}
+  if(stroke){c.strokeStyle=stroke;c.lineWidth=lw||.5;c.stroke()}
+}
+
+// ================= TOPOJSON DECODE =================
+const TJ={feature(tp,o){const s=tp.transform.scale,t=tp.transform.translate;const aa=tp.arcs.map(a=>{let x=0,y=0;return a.map(p=>{x+=p[0];y+=p[1];return[x*s[0]+t[0],y*s[1]+t[1]]})});const rv=i=>i<0?aa[~i].slice().reverse():aa[i].slice();const rn=ids=>{let c=[];ids.forEach(i=>{const a=rv(i);if(c.length)a.shift();c=c.concat(a)});return c};const gm=g=>{if(!g)return null;switch(g.type){case'Polygon':return{t:'P',c:g.arcs.map(rn)};case'MultiPolygon':return{t:'M',c:g.arcs.map(a=>a.map(rn))};default:return null}};return o.geometries.map(g=>({id:normId(g.id),name:g.properties&&g.properties.name,geo:gm(g)}))}};
+
+// ================= LOAD =================
+const lf=document.getElementById('lf');lf.style.width='10%';
+let topo;
+try{
+  const resp=await fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-10m.json');
+  topo=await resp.json();
+}catch(e){
+  const resp=await fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json');
+  topo=await resp.json();
+}
+lf.style.width='40%';
+const features=TJ.feature(topo,topo.objects.countries);lf.style.width='55%';
+
+ctx.fillStyle='#0d1715';ctx.fillRect(0,0,W,H);
+pCtx.fillStyle='#000000';pCtx.fillRect(0,0,W,H);
+
+// ---- Feature loading with synthetic IDs + duplicate handling ----
+const countryPolys={};
+const synthNames={};
+const usedIds=new Set();
+function synthIdFor(name){if(!name)return null;return 'x_'+name.toLowerCase().replace(/[^a-z0-9]+/g,'_')}
+features.forEach(f=>{
+  let id=f.id;
+  // No ID (Somaliland, Kosovo, N.Cyprus, etc.) -> synthetic from name
+  if(!id){id=synthIdFor(f.name);if(!id)return}
+  // Duplicate ID (e.g. Australia/Ashmore both "36") -> give the second a synthetic ID
+  if(usedIds.has(id)){id=synthIdFor(f.name);if(!id||usedIds.has(id))return}
+  usedIds.add(id);
+  if(f.name&&!COUNTRY_DB[id])synthNames[id]=f.name;
+  assignPickColor(id);
+  if(!f.geo)return;
+  const polys=f.geo.t==='P'?[f.geo.c]:f.geo.t==='M'?f.geo.c:[];
+  countryPolys[id]=polys;
+});
+window._SYNTH_NAMES=synthNames;
+
+function drawCountry(id,fill,stroke,lw){
+  const polys=countryPolys[id];if(!polys)return;
+  polys.forEach(poly=>{ drawRingCanvas(ctx,poly[0],fill,stroke,lw) });
+}
+function drawCountryPick(id){
+  const polys=countryPolys[id];if(!polys)return;
+  const col=id2color[id];
+  polys.forEach(poly=>{ drawRingCanvas(pCtx,poly[0],col,null,0) });
+}
+
+const sortedIds=Object.keys(countryPolys).sort((a,b)=>{
+  const ca=countryPolys[a].reduce((s,p)=>s+(p[0]?p[0].length:0),0);
+  const cb=countryPolys[b].reduce((s,p)=>s+(p[0]?p[0].length:0),0);
+  return cb-ca;
+});
+sortedIds.forEach(id=>{
+  const fill=countryColors[id]||'#1e2e28';
+  drawCountry(id,fill,'#3a5a4a',1.5);
+  drawCountryPick(id);
+});
+
+// Graticule
+ctx.strokeStyle='rgba(50,80,65,.1)';ctx.lineWidth=1.5;
+[0,30,60,-30,-60].forEach(lat=>{ctx.beginPath();const y=(90-lat)/180*H;ctx.moveTo(0,y);ctx.lineTo(W,y);ctx.stroke()});
+for(let lng=-150;lng<=180;lng+=30){ctx.beginPath();const x=(lng+180)/360*W;ctx.moveTo(x,0);ctx.lineTo(x,H);ctx.stroke()}
+lf.style.width='75%';
+
+// ================= THREE.JS =================
+const canvas=document.getElementById('gl');
+const ren=new THREE.WebGLRenderer({canvas,antialias:true});
+ren.setPixelRatio(Math.min(devicePixelRatio,2));
+ren.setSize(innerWidth,innerHeight);
+ren.setClearColor(0x131a17);
+ren.autoClear=false;
+const scene=new THREE.Scene();
+const cam=new THREE.PerspectiveCamera(42,innerWidth/innerHeight,.1,100);
+cam.position.set(0,0,4.8);
+scene.add(new THREE.AmbientLight(0x5a6a5e,.9));
+const dl=new THREE.DirectionalLight(0x9aad94,.75);dl.position.set(5,3,5);scene.add(dl);
+
+// Stars
+const sG=new THREE.BufferGeometry(),sP=[];
+for(let i=0;i<3000;i++){const r=25+Math.random()*75,th=Math.random()*Math.PI*2,ph=Math.acos(2*Math.random()-1);sP.push(r*Math.sin(ph)*Math.cos(th),r*Math.sin(ph)*Math.sin(th),r*Math.cos(ph))}
+sG.setAttribute('position',new THREE.Float32BufferAttribute(sP,3));
+scene.add(new THREE.Points(sG,new THREE.PointsMaterial({color:0x556655,size:.12,sizeAttenuation:true})));
+
+const globeGeo=new THREE.SphereGeometry(R,128,96);
+const visTex=new THREE.CanvasTexture(texCv);
+visTex.minFilter=THREE.LinearFilter;
+visTex.anisotropy=Math.min(ren.capabilities.getMaxAnisotropy(),4);
+const visMat=new THREE.MeshPhongMaterial({map:visTex,shininess:8,specular:0x080808});
+const globe=new THREE.Mesh(globeGeo,visMat);
+const ocean=new THREE.Mesh(new THREE.SphereGeometry(R*.998,96,64),new THREE.MeshPhongMaterial({color:0x0a1512,shininess:20}));
+const globeGroup=new THREE.Group();globeGroup.add(ocean);globeGroup.add(globe);scene.add(globeGroup);
+scene.add(new THREE.Mesh(new THREE.SphereGeometry(R*1.03,64,64),new THREE.ShaderMaterial({
+  vertexShader:'varying vec3 vN;void main(){vN=normalize(normalMatrix*normal);gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}',
+  fragmentShader:'varying vec3 vN;void main(){float i=pow(.6-dot(vN,vec3(0,0,1.)),3.);gl_FragColor=vec4(.25,.45,.3,i*.2);}',
+  transparent:true,side:THREE.BackSide,depthWrite:false
+})));
+
+const overlayGrp=new THREE.Group();globeGroup.add(overlayGrp);
+const eventGrp=new THREE.Group();globeGroup.add(eventGrp);
+const raisedGrp=new THREE.Group();globeGroup.add(raisedGrp);
+
+// ================= GPU PICKING =================
+const pickTex=new THREE.CanvasTexture(pickCv);pickTex.minFilter=THREE.LinearFilter;pickTex.magFilter=THREE.NearestFilter;pickTex.generateMipmaps=false;
+const pickMat=new THREE.MeshBasicMaterial({map:pickTex});
+const pickRT=new THREE.WebGLRenderTarget(innerWidth,innerHeight);
+const pickScene=new THREE.Scene();
+const pickGroup=new THREE.Group();
+const pickGlobe=new THREE.Mesh(globeGeo,pickMat);
+pickGroup.add(pickGlobe);
+pickScene.add(pickGroup);
+const pickBuf=new Uint8Array(4);
+function gpuPick(mx,my){
+  ren.readRenderTargetPixels(pickRT,Math.floor(mx*pickRT.width/innerWidth),pickRT.height-1-Math.floor(my*pickRT.height/innerHeight),1,1,pickBuf);
+  if(pickBuf[0]===0&&pickBuf[1]===0&&pickBuf[2]===0)return null;
+  const hex='#'+((pickBuf[0]<<16)|(pickBuf[1]<<8)|pickBuf[2]).toString(16).padStart(6,'0');
+  return color2id[hex]||null;
+}
+
+// ================= UTILS =================
+function llv(lat,lng,r){const p=(90-lat)*Math.PI/180,t=(lng+180)*Math.PI/180;return new THREE.Vector3(-r*Math.sin(p)*Math.cos(t),r*Math.cos(p),r*Math.sin(p)*Math.sin(t))}
+function fN(n){if(!n&&n!==0)return'—';if(n>=1e9)return(n/1e9).toFixed(1)+'B';if(n>=1e6)return(n/1e6).toFixed(1)+'M';if(n>=1e3)return(n/1e3).toFixed(1)+'K';return''+n}
+
+function redrawCountry(id){
+  const polys=countryPolys[id];if(!polys)return;
+  const fill=countryColors[id]||'#1e2e28';
+  // Clear the country area first by redrawing with background (approximation: just redraw country)
+  drawCountry(id,fill,'#3a5a4a',1.5);
+  visTex.needsUpdate=true;
+}
+
+function clearOverlay(){while(overlayGrp.children.length)overlayGrp.remove(overlayGrp.children[0])}
+function addOverlayDot(lat,lng,col){
+  const p=llv(lat,lng,R*1.02);
+  const m=new THREE.Mesh(new THREE.SphereGeometry(.014,10,10),new THREE.MeshBasicMaterial({color:col}));
+  m.position.copy(p);
+  overlayGrp.add(m);
+}
+
+// ================= RAISED COUNTRY MESH (flat 2D cap curved on sphere) =================
+let raisedMesh=null,raisedEdge=null;
+function clearRaised(){while(raisedGrp.children.length)raisedGrp.remove(raisedGrp.children[0]);raisedMesh=null;raisedEdge=null}
+
+// Densify a ring: insert points on segments longer than maxSeg (in degrees)
+function densifyRing(ring,maxSeg){
+  const out=[];
+  for(let i=0;i<ring.length;i++){
+    const a=ring[i],b=ring[(i+1)%ring.length];
+    out.push(a);
+    const d=Math.max(Math.abs(b[0]-a[0]),Math.abs(b[1]-a[1]));
+    if(d>maxSeg){
+      const n=Math.ceil(d/maxSeg);
+      for(let k=1;k<n;k++){const t=k/n;out.push([a[0]+(b[0]-a[0])*t,a[1]+(b[1]-a[1])*t])}
+    }
+  }
+  return out;
+}
+
+function buildCountryMesh(id,color){
+  clearRaised();
+  const polys=countryPolys[id];if(!polys||!window.earcut)return;
+  const RH=R*1.0035;
+  const positions=[],indices=[];
+  const edgePositions=[];
+  let vi=0;
+
+  const pushRingMesh=(rawRing)=>{
+    if(!rawRing||rawRing.length<3)return;
+    // UNWRAP: eliminates antimeridian jumps by making lng continuous
+    let ring=unwrapRing(rawRing);
+    // Polar cap: augment with pole corners so mesh covers the pole
+    if(ringLngSpan(ring)>=340)ring=augmentPolarCap(ring);
+    // Densify for curvature. Adaptive: smaller step for small countries, coarser for huge ones.
+    const baseStep=ring.length>4000?4:(ring.length>1500?2:1.5);
+    ring=densifyRing(ring,baseStep);
+    const flat=[];ring.forEach(([lng,lat])=>flat.push(lng,lat));
+    const tris=earcut(flat);
+    if(!tris.length)return;
+    const baseIdx=vi;
+    ring.forEach(([lng,lat])=>{const v=llv(lat,lng,RH);positions.push(v.x,v.y,v.z);vi++});
+    for(let i=0;i<tris.length;i++)indices.push(baseIdx+tris[i]);
+    // Edge outline — skip pole-corner artificial segments (huge straight lines)
+    for(let i=0;i<ring.length;i++){
+      const i2=(i+1)%ring.length;
+      if(Math.abs(ring[i][1])>89||Math.abs(ring[i2][1])>89)continue;
+      const a=llv(ring[i][1],ring[i][0],RH*1.0008);
+      const b=llv(ring[i2][1],ring[i2][0],RH*1.0008);
+      edgePositions.push(a.x,a.y,a.z,b.x,b.y,b.z);
+    }
+  };
+
+  polys.forEach(poly=>{
+    const outer=poly[0];
+    if(!outer||outer.length<3)return;
+    pushRingMesh(outer);
+  });
+
+  if(!positions.length)return;
+  const geo=new THREE.BufferGeometry();
+  geo.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
+  geo.setIndex(indices);
+  const mat=new THREE.MeshBasicMaterial({color:color||0x5fa888,transparent:true,opacity:.72,side:THREE.DoubleSide,depthWrite:false});
+  raisedMesh=new THREE.Mesh(geo,mat);
+  raisedGrp.add(raisedMesh);
+  const eg=new THREE.BufferGeometry();
+  eg.setAttribute('position',new THREE.Float32BufferAttribute(edgePositions,3));
+  raisedEdge=new THREE.LineSegments(eg,new THREE.LineBasicMaterial({color:0xd5e8d0,transparent:true,opacity:.95}));
+  raisedGrp.add(raisedEdge);
+}
+
+// ================= EVENTS ON GLOBE =================
+let events=savedEvents.slice();
+let currentSeverity=1;
+const SEV_COLOR=[null,0x6b9e6f,0xe3c04a,0xe0893a,0xc0392b,0x9b59b6];
+const SEV_HEX=[null,'#6b9e6f','#e3c04a','#e0893a','#c0392b','#9b59b6'];
+
+function rebuildEventMarkers(){
+  while(eventGrp.children.length)eventGrp.remove(eventGrp.children[0]);
+  events.forEach((e,i)=>{
+    if(typeof e.lat!=='number'||typeof e.lng!=='number')return;
+    const p=llv(e.lat,e.lng,R*1.025);
+    const m=new THREE.Mesh(
+      new THREE.SphereGeometry(.022,12,12),
+      new THREE.MeshBasicMaterial({color:SEV_COLOR[e.severity||1]})
+    );
+    m.position.copy(p);
+    m.userData.eventIdx=i;
+    eventGrp.add(m);
+    // Pulse ring
+    const ring=new THREE.Mesh(
+      new THREE.RingGeometry(.028,.036,24),
+      new THREE.MeshBasicMaterial({color:SEV_COLOR[e.severity||1],transparent:true,opacity:.5,side:THREE.DoubleSide})
+    );
+    ring.position.copy(p);
+    ring.lookAt(0,0,0);
+    ring.userData.pulse=true;
+    eventGrp.add(ring);
+  });
+}
+rebuildEventMarkers();
+
+function renderEventList(){
+  document.getElementById('ev-count').textContent=events.length;
+  const el=document.getElementById('ev-list');
+  if(!events.length){el.innerHTML='<div style="text-align:center;padding:16px 0;color:var(--text-dim);font-size:10px">Add event ↓</div>';return}
+  el.innerHTML=events.map((e,i)=>`<div class="ev-item" data-i="${i}"><div class="sev" style="background:${SEV_HEX[e.severity||1]}"></div><div class="t">${escapeHTML(e.title)}<div style="font-size:8px;color:var(--text-dim);margin-top:2px">${e.lat?.toFixed(1)}, ${e.lng?.toFixed(1)}</div></div><div class="x" data-del="${i}">✕</div></div>`).join('');
+}
+renderEventList();
+
+function escapeHTML(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c])}
+
+// ================= INTERACTION =================
+let drag=false,pm={x:0,y:0},cpm={x:0,y:0},rvx=0,rvy=0,autoR=true,tZoom=4.8;
+let selectedId=null,hoveredId=null,activeTab='overview';
+
+canvas.addEventListener('mousedown',e=>{drag=true;pm=cpm={x:e.clientX,y:e.clientY};autoR=false});
+canvas.addEventListener('mousemove',e=>{
+  if(drag){
+    const dx=e.clientX-pm.x,dy=e.clientY-pm.y;
+    rvx=dx*.003;rvy=dy*.003;
+    globeGroup.rotation.y+=dx*.005;
+    globeGroup.rotation.x=Math.max(-Math.PI/2,Math.min(Math.PI/2,globeGroup.rotation.x+dy*.005));
+    pm={x:e.clientX,y:e.clientY};
+    return;
+  }
+  const id=gpuPick(e.clientX,e.clientY);
+  const tt=document.getElementById('tip');
+  const nm=id?countryName(id):null;
+  document.getElementById('coords').textContent=nm||'—';
+  if(id&&nm){
+    const d=COUNTRY_DB[id];
+    tt.classList.add('on');
+    tt.style.left=(e.clientX+14)+'px';
+    tt.style.top=(e.clientY-8)+'px';
+    document.getElementById('tt-n').textContent=countryFlag(id)+' '+nm;
+    document.getElementById('tt-s').textContent=d?`POP ${fN(d.population)} · GDP $${d.gdp||'—'}B`:'';
+    canvas.style.cursor='pointer';
+    hoveredId=id;
+  }else{
+    tt.classList.remove('on');
+    canvas.style.cursor='grab';
+    hoveredId=null;
+  }
+});
+canvas.addEventListener('mouseup',()=>drag=false);
+canvas.addEventListener('wheel',e=>{tZoom=Math.max(2,Math.min(10,tZoom+e.deltaY*.005));e.preventDefault()},{passive:false});
+canvas.addEventListener('click',e=>{
+  if(Math.abs(e.clientX-cpm.x)>5||Math.abs(e.clientY-cpm.y)>5)return;
+  // Check event marker click first (raycast)
+  const mouse=new THREE.Vector2((e.clientX/innerWidth)*2-1,-(e.clientY/innerHeight)*2+1);
+  const rc=new THREE.Raycaster();
+  rc.setFromCamera(mouse,cam);
+  const hits=rc.intersectObjects(eventGrp.children,false);
+  const evHit=hits.find(h=>h.object.userData.eventIdx!==undefined);
+  if(evHit){showEventCard(evHit.object.userData.eventIdx,e.clientX,e.clientY);return}
+  selectCountry(gpuPick(e.clientX,e.clientY));
+});
+canvas.addEventListener('contextmenu',e=>e.preventDefault());
+
+function selectCountry(id){
+  clearOverlay();
+  clearRaised();
+  if(selectedId){redrawCountry(selectedId)}
+  selectedId=id;
+  if(!selectedId){closeDetail();document.getElementById('cpanel').innerHTML='<div style="font-size:10px;color:var(--text-dim)">Select a country</div>';return}
+  // Redraw selected country with highlight fill on canvas (still useful under the raised mesh edges)
+  drawCountry(selectedId,countryColors[selectedId]||'#305852','#7ba890',2);
+  visTex.needsUpdate=true;
+  // Build extruded mesh
+  const clrHex=countryColors[selectedId]?parseInt(countryColors[selectedId].slice(1),16):0x4a8270;
+  buildCountryMesh(selectedId,clrHex);
+  showDetail(selectedId);
+  showCP(selectedId);
+  const d=COUNTRY_DB[id];
+  if(d&&d.extraction)d.extraction.forEach(ex=>addOverlayDot(ex.lat,ex.lng,0xb89a4a));
+  if(d&&d.bases)d.bases.forEach(b=>addOverlayDot(b.lat,b.lng,b.f?0xc4a095:0xc27066));
+}
+
+window.focusLL=function(lat,lng){
+  const ty=-lng*Math.PI/180,tx=lat*Math.PI/180;
+  const sx=globeGroup.rotation.x,sy=globeGroup.rotation.y;
+  let t=0;autoR=false;
+  (function step(){
+    t+=1/60;
+    if(t>1.2)return;
+    const p=1-Math.pow(1-t/1.2,3);
+    globeGroup.rotation.x=sx+(tx-sx)*p;
+    globeGroup.rotation.y=sy+(ty-sy)*p;
+    requestAnimationFrame(step);
+  })();
+};
+
+// ================= DETAIL PANEL =================
+function showDetail(id){
+  document.getElementById('detail').classList.add('open');
+  document.getElementById('btn-detail').classList.add('on');
+  activeTab='overview';setTabs();renderTab(id);
+}
+window.closeDetail=function(){
+  document.getElementById('detail').classList.remove('open');
+  document.getElementById('btn-detail').classList.remove('on');
+  clearOverlay();
+  clearRaised();
+  if(selectedId){redrawCountry(selectedId);selectedId=null}
+};
+document.querySelectorAll('#dtabs .tab').forEach(t=>t.addEventListener('click',()=>{activeTab=t.dataset.tab;setTabs();if(selectedId)renderTab(selectedId)}));
+function setTabs(){document.querySelectorAll('#dtabs .tab').forEach(t=>t.classList.toggle('active',t.dataset.tab===activeTab))}
+
+// Universal inline editor: any element with contenteditable onblur triggers save
+window.editField=function(id,key,numeric){
+  return `contenteditable="true" class="editable" onblur="saveField('${id}','${key}',${numeric?'true':'false'},this)" onkeydown="if(event.key==='Enter'){event.preventDefault();this.blur()}"`;
+};
+window.saveField=function(id,key,numeric,el){
+  let v=el.textContent.trim();
+  if(numeric){v=parseFloat(v.replace(/[,$\s]/g,''));if(isNaN(v))v=null}
+  if(!COUNTRY_DB[id])COUNTRY_DB[id]={};
+  COUNTRY_DB[id][key]=v;
+  saveDBOverride(id,key,v);
+  renderTab(id);
+};
+
+function renderTab(id){
+  const d=COUNTRY_DB[id]||{};
+  const b=document.getElementById('det-body');
+  const nm=countryName(id);
+  if(activeTab==='overview')b.innerHTML=rOverview(d,id,nm);
+  else if(activeTab==='geography')b.innerHTML=rGeo(d,id);
+  else if(activeTab==='economy')b.innerHTML=rEcon(d,id);
+  else b.innerHTML=rStrat(d,id);
+}
+
+function rOverview(d,id,nm){
+  const flag=countryFlag(id);
+  let h=`<div class="c-head"><div class="c-flag">${flag}</div><div><div class="c-name" ${editField(id,'name',false)}>${nm}</div><div class="c-cap">Capital: <span ${editField(id,'capital',false)}>${d.capital||'—'}</span></div></div></div>`;
+  h+=`<div class="stats">
+    <div class="stat"><div class="sl">Population</div><div class="sv" ${editField(id,'population',true)}>${fN(d.population)}</div></div>
+    <div class="stat"><div class="sl">Area km²</div><div class="sv" ${editField(id,'area',true)}>${fN(d.area)}</div></div>
+    <div class="stat"><div class="sl">GDP (B USD)</div><div class="sv">$<span ${editField(id,'gdp',true)}>${d.gdp||'—'}</span></div></div>
+    <div class="stat"><div class="sl">GDP/Capita</div><div class="sv">$<span ${editField(id,'gdpPC',true)}>${d.gdpPC?fN(d.gdpPC):'—'}</span></div></div>
+  </div>`;
+  // Always render Ethnic Composition section, even if empty
+  h+=`<div class="sec"><div class="sec-t">Ethnic Composition <button class="add-mini" onclick="addEthnicity('${id}')">+ add</button></div>`;
+  const eths=d.ethnicities||[];
+  if(eths.length===0){
+    h+='<div style="font-size:10px;color:var(--text-dim);font-style:italic;padding:4px 0">No data — click + add</div>';
+  } else {
+    eths.forEach((e,i)=>{
+      h+=`<div class="eth-row">
+        <span class="eth-name" contenteditable="true" onblur="saveEthName('${id}',${i},this)" onkeydown="if(event.key==='Enter'){event.preventDefault();this.blur()}">${escapeHTML(e.n)}</span>
+        <div class="eth-track"><div class="eth-fill" style="width:${e.p}%"></div></div>
+        <span class="eth-pct" contenteditable="true" onblur="saveEthPct('${id}',${i},this)" onkeydown="if(event.key==='Enter'){event.preventDefault();this.blur()}">${e.p}%</span>
+        <span class="mi-del" onclick="delEthnicity('${id}',${i})" style="margin-left:6px;cursor:pointer;color:var(--text-dim);font-size:11px">✕</span>
+      </div>`;
+      if(d.ethProfiles&&d.ethProfiles[e.n]){
+        h+=`<div class="eth-profile"><p contenteditable="true" onblur="saveEthProfile('${id}','${escapeHTML(e.n)}',this)">${escapeHTML(d.ethProfiles[e.n])}</p></div>`;
+      } else {
+        h+=`<div class="eth-profile"><p contenteditable="true" onblur="saveEthProfile('${id}','${escapeHTML(e.n)}',this)" style="color:var(--text-dim);font-style:italic">Click to add description…</p></div>`;
+      }
+    });
+  }
+  h+='</div>';
+  if(d.culture)h+=`<div class="sec"><div class="sec-t">Cultural Profile</div><p ${editField(id,'culture',false)}>${d.culture}</p></div>`;
+  else h+=`<div class="sec"><div class="sec-t">Cultural Profile</div><p ${editField(id,'culture',false)} style="color:var(--text-dim);font-style:italic">Click to add…</p></div>`;
+  h+=noteHTML(id,'overview','Overview Notes');
+  return h;
+}
+
+function rGeo(d,id){
+  let h='';
+  if(d.terrain){
+    const t=d.terrain;
+    h+=`<div class="sec"><div class="sec-t">Terrain</div><div class="terrain-bar"><div class="tb-p" style="width:${t.plains}%">${t.plains}%</div><div class="tb-h" style="width:${t.hills}%">${t.hills}%</div><div class="tb-m" style="width:${t.mountains}%">${t.mountains}%</div></div><div class="terrain-legend"><span class="tl-p">Plains</span><span class="tl-h">Hills</span><span class="tl-m">Mountains</span></div></div>`;
+  }
+  if(d.peaks&&d.peaks.length){
+    const mx=Math.max(...d.peaks.map(p=>p.h));
+    const cw=380,ch=170,pad=30;
+    h+=`<div class="sec"><div class="sec-t">Elevation Profile</div><div class="topo-chart"><svg width="100%" viewBox="0 0 ${cw} ${ch+50}" preserveAspectRatio="xMidYMid meet">`;
+    const gap=cw/(d.peaks.length+1);
+    d.peaks.forEach((p,i)=>{
+      const x=gap*(i+1);
+      const bh=Math.max(14,(p.h/mx)*(ch-pad));
+      const y=ch-bh+pad;
+      h+=`<rect x="${x-18}" y="${y}" width="36" height="${bh}" fill="#7a5a34" rx="2"/>`;
+      h+=`<text x="${x}" y="${y-6}" text-anchor="middle" fill="#e8d8b8" font-size="11" font-family="IBM Plex Mono" font-weight="600">${p.h}m</text>`;
+      h+=`<text x="${x}" y="${ch+pad+18}" text-anchor="middle" fill="#9aaa97" font-size="9" font-family="IBM Plex Mono">${p.n}</text>`;
+    });
+    h+=`<line x1="0" y1="${ch+pad}" x2="${cw}" y2="${ch+pad}" stroke="#3a5a4a" stroke-width="1"/>`;
+    h+='</svg></div></div>';
+  }
+  if(d.mountains)h+=`<div class="sec"><div class="sec-t">Mountains</div><ul>${d.mountains.map(m=>'<li>'+m+'</li>').join('')}</ul></div>`;
+  if(d.plains)h+=`<div class="sec"><div class="sec-t">Plains</div><ul>${d.plains.map(m=>'<li>'+m+'</li>').join('')}</ul></div>`;
+  if(d.rivers)h+=`<div class="sec"><div class="sec-t">Rivers</div><ul>${d.rivers.map(m=>'<li>'+m+'</li>').join('')}</ul></div>`;
+  if(d.lakes)h+=`<div class="sec"><div class="sec-t">Lakes</div><ul>${d.lakes.map(m=>'<li>'+m+'</li>').join('')}</ul></div>`;
+  h+=noteHTML(id,'geography','Geography Notes');
+  return h||noteHTML(id,'geography','Geography Notes');
+}
+
+function rEcon(d,id){
+  let h=`<div class="stats"><div class="stat"><div class="sl">GDP (B)</div><div class="sv">$<span ${editField(id,'gdp',true)}>${d.gdp||'—'}</span></div></div><div class="stat"><div class="sl">GDP/Cap</div><div class="sv">$<span ${editField(id,'gdpPC',true)}>${d.gdpPC?fN(d.gdpPC):'—'}</span></div></div></div>`;
+  if(d.exports&&d.exports.length){
+    h+='<div class="sec"><div class="sec-t">Top Exports</div>';
+    d.exports.forEach(e=>{const o=typeof e==='string'?{n:e}:e;h+=`<div class="trade-row"><span class="trade-name">${o.n}</span>${o.p?`<div class="trade-bar"><div class="trade-fill ex" style="width:${Math.min(o.p*1.5,100)}%"></div></div><span class="trade-pct">${o.p}%</span>`:''}</div>`});
+    h+='</div>';
+  }
+  if(d.imports&&d.imports.length){
+    h+='<div class="sec"><div class="sec-t">Top Imports</div>';
+    d.imports.forEach(e=>{const o=typeof e==='string'?{n:e}:e;h+=`<div class="trade-row"><span class="trade-name">${o.n}</span>${o.p?`<div class="trade-bar"><div class="trade-fill im" style="width:${Math.min(o.p*1.5,100)}%"></div></div><span class="trade-pct">${o.p}%</span>`:''}</div>`});
+    h+='</div>';
+  }
+  h+=`<div class="sec"><div class="sec-t">Extraction Sites <button class="add-mini" onclick="addMarker('${id}','extraction')">+ add</button></div>`;
+  if(d.extraction&&d.extraction.length){
+    d.extraction.forEach((e,i)=>{h+=markerHTML(id,'extraction',i,e,'ext')});
+  }
+  h+='</div>';
+  h+=noteHTML(id,'economy','Economic Notes');
+  return h;
+}
+
+function rStrat(d,id){
+  let h='';
+  h+=`<div class="sec"><div class="sec-t">Strategic Sites <button class="add-mini" onclick="addMarker('${id}','bases')">+ add</button></div>`;
+  if(d.bases&&d.bases.length){
+    d.bases.forEach((e,i)=>{h+=markerHTML(id,'bases',i,e,e.f?'for':'mil')});
+  }
+  h+='</div>';
+  h+=noteHTML(id,'strategic','Strategic Notes');
+  return h;
+}
+
+function markerHTML(id,key,idx,e,cls){
+  const isExt=key==='extraction';
+  return `<div class="marker-item">
+    <div class="mi-row">
+      <span class="mi-dot ${cls}"></span>
+      <div class="mi-name" onclick="focusLL(${e.lat},${e.lng})">${escapeHTML(e.n||'—')}</div>
+      <button class="mi-edit" onclick="toggleMarkerEdit(this)">✎</button>
+      <span class="mi-del" onclick="delMarker('${id}','${key}',${idx})">✕</span>
+    </div>
+    <div class="mi-info">${escapeHTML(isExt?(e.r||''):(e.t||''))}${!isExt&&e.f?' (foreign)':''}</div>
+    <div class="mi-edit-form">
+      <input placeholder="Name" value="${escapeHTML(e.n||'')}" data-k="n">
+      <input placeholder="${isExt?'Resource':'Type'}" value="${escapeHTML(isExt?(e.r||''):(e.t||''))}" data-k="${isExt?'r':'t'}">
+      <div class="row2"><input type="number" step="0.01" placeholder="Lat" value="${e.lat||''}" data-k="lat"><input type="number" step="0.01" placeholder="Lng" value="${e.lng||''}" data-k="lng"></div>
+      ${!isExt?`<label style="font-size:9px;color:var(--text-dim)"><input type="checkbox" ${e.f?'checked':''} data-k="f" style="margin-right:4px;vertical-align:middle"> Foreign deployment</label>`:''}
+      <button class="btn-add" onclick="saveMarker('${id}','${key}',${idx},this)">Save</button>
+    </div>
+  </div>`;
+}
+
+window.toggleMarkerEdit=function(btn){btn.closest('.marker-item').querySelector('.mi-edit-form').classList.toggle('on')};
+window.addMarker=function(id,key){
+  if(!COUNTRY_DB[id])COUNTRY_DB[id]={};
+  if(!COUNTRY_DB[id][key])COUNTRY_DB[id][key]=[];
+  const tmpl=key==='extraction'?{n:'New site',lat:0,lng:0,r:'Resource'}:{n:'New base',lat:0,lng:0,t:'Type',f:0};
+  COUNTRY_DB[id][key].push(tmpl);
+  saveDBOverride(id,key,COUNTRY_DB[id][key]);
+  renderTab(id);
+};
+window.delMarker=function(id,key,idx){
+  if(!COUNTRY_DB[id]||!COUNTRY_DB[id][key])return;
+  COUNTRY_DB[id][key].splice(idx,1);
+  saveDBOverride(id,key,COUNTRY_DB[id][key]);
+  renderTab(id);
+  // refresh overlay dots
+  clearOverlay();
+  const d=COUNTRY_DB[id];
+  if(d.extraction)d.extraction.forEach(ex=>addOverlayDot(ex.lat,ex.lng,0xb89a4a));
+  if(d.bases)d.bases.forEach(b=>addOverlayDot(b.lat,b.lng,b.f?0xc4a095:0xc27066));
+};
+window.saveMarker=function(id,key,idx,btn){
+  const form=btn.closest('.mi-edit-form');
+  const cur=COUNTRY_DB[id][key][idx];
+  form.querySelectorAll('[data-k]').forEach(el=>{
+    const k=el.dataset.k;
+    if(el.type==='number')cur[k]=parseFloat(el.value)||0;
+    else if(el.type==='checkbox')cur[k]=el.checked?1:0;
+    else cur[k]=el.value;
+  });
+  saveDBOverride(id,key,COUNTRY_DB[id][key]);
+  renderTab(id);
+  clearOverlay();
+  const d=COUNTRY_DB[id];
+  if(d.extraction)d.extraction.forEach(ex=>addOverlayDot(ex.lat,ex.lng,0xb89a4a));
+  if(d.bases)d.bases.forEach(b=>addOverlayDot(b.lat,b.lng,b.f?0xc4a095:0xc27066));
+};
+
+// ============ ETHNICITY EDITING ============
+function ensureEthArray(id){
+  if(!COUNTRY_DB[id])COUNTRY_DB[id]={};
+  if(!Array.isArray(COUNTRY_DB[id].ethnicities))COUNTRY_DB[id].ethnicities=[];
+  return COUNTRY_DB[id].ethnicities;
+}
+window.addEthnicity=function(id){
+  const arr=ensureEthArray(id);
+  arr.push({n:'New group',p:0});
+  saveDBOverride(id,'ethnicities',arr);
+  renderTab(id);
+};
+window.delEthnicity=function(id,idx){
+  const arr=ensureEthArray(id);
+  const removed=arr[idx];
+  arr.splice(idx,1);
+  saveDBOverride(id,'ethnicities',arr);
+  // Also remove its profile if any
+  if(removed&&COUNTRY_DB[id].ethProfiles&&COUNTRY_DB[id].ethProfiles[removed.n]){
+    delete COUNTRY_DB[id].ethProfiles[removed.n];
+    saveDBOverride(id,'ethProfiles',COUNTRY_DB[id].ethProfiles);
+  }
+  renderTab(id);
+};
+window.saveEthName=function(id,idx,el){
+  const arr=ensureEthArray(id);
+  const oldName=arr[idx].n;
+  const newName=el.textContent.trim()||'Unnamed';
+  if(newName===oldName)return;
+  arr[idx].n=newName;
+  // Migrate profile key if exists
+  if(COUNTRY_DB[id].ethProfiles&&COUNTRY_DB[id].ethProfiles[oldName]){
+    COUNTRY_DB[id].ethProfiles[newName]=COUNTRY_DB[id].ethProfiles[oldName];
+    delete COUNTRY_DB[id].ethProfiles[oldName];
+    saveDBOverride(id,'ethProfiles',COUNTRY_DB[id].ethProfiles);
+  }
+  saveDBOverride(id,'ethnicities',arr);
+  renderTab(id);
+};
+window.saveEthPct=function(id,idx,el){
+  const arr=ensureEthArray(id);
+  let v=parseFloat(el.textContent.replace(/[^\d.]/g,''));
+  if(isNaN(v))v=0;
+  v=Math.max(0,Math.min(100,v));
+  arr[idx].p=v;
+  saveDBOverride(id,'ethnicities',arr);
+  renderTab(id);
+};
+window.saveEthProfile=function(id,name,el){
+  if(!COUNTRY_DB[id])COUNTRY_DB[id]={};
+  if(!COUNTRY_DB[id].ethProfiles)COUNTRY_DB[id].ethProfiles={};
+  const txt=el.textContent.trim();
+  if(txt&&txt!=='Click to add description…'){
+    COUNTRY_DB[id].ethProfiles[name]=txt;
+  } else {
+    delete COUNTRY_DB[id].ethProfiles[name];
+  }
+  saveDBOverride(id,'ethProfiles',COUNTRY_DB[id].ethProfiles);
+};
+
+// ============ GITHUB PUSH SYSTEM ============
+// Settings: token + owner + repo + branch + path stored in localStorage
+function ghCfg(){return LS.get('gx_ghcfg',{token:'',owner:'',repo:'',branch:'main',path:'public/data.js'})}
+function setGhCfg(c){LS.set('gx_ghcfg',c)}
+
+// Build a clean COUNTRY_DB JS source from in-memory state
+function buildDataJS(){
+  // COUNTRY_DB has been mutated in place by overrides — stringify it
+  const json=JSON.stringify(COUNTRY_DB,null,1);
+  return '// Auto-generated by GEOINT v7 — '+new Date().toISOString()+'\nconst COUNTRY_DB='+json+';\n';
+}
+
+window.openGhSettings=function(){
+  const c=ghCfg();
+  const html=`<div style="padding:14px;background:var(--surface);border:1px solid var(--accent);border-radius:6px">
+    <div style="font-family:var(--cond);font-size:12px;color:var(--accent);letter-spacing:2px;margin-bottom:10px">⬢ GITHUB SYNC</div>
+    <div style="font-size:9px;color:var(--text-dim);margin-bottom:8px;line-height:1.5">Personal access token with <b>Contents: Read &amp; Write</b> on the target repo only. Generate at github.com/settings/tokens?type=beta. Token is stored only in your browser localStorage.</div>
+    <input id="gh-token" type="password" placeholder="ghp_… or github_pat_…" value="${escapeHTML(c.token)}" style="width:100%;padding:6px 8px;background:rgba(0,0,0,.25);border:1px solid var(--border);border-radius:3px;color:var(--white);font-family:var(--mono);font-size:10px;margin-bottom:5px;outline:none">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px;margin-bottom:5px">
+      <input id="gh-owner" placeholder="owner (e.g. tony)" value="${escapeHTML(c.owner)}" style="padding:6px 8px;background:rgba(0,0,0,.25);border:1px solid var(--border);border-radius:3px;color:var(--white);font-family:var(--mono);font-size:10px;outline:none">
+      <input id="gh-repo" placeholder="repo (e.g. geoint)" value="${escapeHTML(c.repo)}" style="padding:6px 8px;background:rgba(0,0,0,.25);border:1px solid var(--border);border-radius:3px;color:var(--white);font-family:var(--mono);font-size:10px;outline:none">
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 2fr;gap:5px;margin-bottom:8px">
+      <input id="gh-branch" placeholder="branch" value="${escapeHTML(c.branch||'main')}" style="padding:6px 8px;background:rgba(0,0,0,.25);border:1px solid var(--border);border-radius:3px;color:var(--white);font-family:var(--mono);font-size:10px;outline:none">
+      <input id="gh-path" placeholder="path" value="${escapeHTML(c.path||'public/data.js')}" style="padding:6px 8px;background:rgba(0,0,0,.25);border:1px solid var(--border);border-radius:3px;color:var(--white);font-family:var(--mono);font-size:10px;outline:none">
+    </div>
+    <button class="btn-add" onclick="saveGhCfg()">💾 Save settings</button>
+    <button class="btn-add" onclick="pushToGitHub()" style="margin-top:5px;background:rgba(155,89,182,.12);border-color:var(--purple);color:var(--purple)">⬆ Push data.js to GitHub</button>
+    <div id="gh-status" style="margin-top:8px;font-size:9px;color:var(--text-dim);min-height:14px"></div>
+  </div>`;
+  document.getElementById('cpanel').innerHTML=html;
+};
+window.saveGhCfg=function(){
+  setGhCfg({
+    token:document.getElementById('gh-token').value.trim(),
+    owner:document.getElementById('gh-owner').value.trim(),
+    repo:document.getElementById('gh-repo').value.trim(),
+    branch:document.getElementById('gh-branch').value.trim()||'main',
+    path:document.getElementById('gh-path').value.trim()||'public/data.js'
+  });
+  document.getElementById('gh-status').textContent='✓ Settings saved locally';
+};
+window.pushToGitHub=async function(){
+  const c=ghCfg();
+  const st=document.getElementById('gh-status');
+  if(!c.token||!c.owner||!c.repo){st.textContent='✗ Missing token/owner/repo';st.style.color='var(--red)';return}
+  st.style.color='var(--text-dim)';
+  st.textContent='⏳ Fetching current file SHA…';
+  const apiUrl=`https://api.github.com/repos/${c.owner}/${c.repo}/contents/${c.path}?ref=${c.branch}`;
+  try{
+    // Step 1: get current SHA (required for update)
+    let sha=null;
+    const head=await fetch(apiUrl,{headers:{'Authorization':'Bearer '+c.token,'Accept':'application/vnd.github+json'}});
+    if(head.status===200){const j=await head.json();sha=j.sha}
+    else if(head.status!==404){const t=await head.text();throw new Error('GET failed: '+head.status+' '+t.slice(0,200))}
+    // Step 2: build new content + base64
+    const newContent=buildDataJS();
+    // UTF-8 safe base64
+    const b64=btoa(unescape(encodeURIComponent(newContent)));
+    st.textContent='⏳ Pushing commit…';
+    const body={
+      message:'GEOINT data update '+new Date().toISOString().slice(0,19),
+      content:b64,
+      branch:c.branch
+    };
+    if(sha)body.sha=sha;
+    const put=await fetch(apiUrl,{
+      method:'PUT',
+      headers:{'Authorization':'Bearer '+c.token,'Accept':'application/vnd.github+json','Content-Type':'application/json'},
+      body:JSON.stringify(body)
+    });
+    if(put.status>=200&&put.status<300){
+      const j=await put.json();
+      st.style.color='var(--green)';
+      st.innerHTML='✓ Pushed! <a href="'+j.commit.html_url+'" target="_blank" style="color:var(--accent)">View commit</a>';
+    } else {
+      const t=await put.text();
+      throw new Error('PUT failed: '+put.status+' '+t.slice(0,300));
+    }
+  }catch(err){
+    st.style.color='var(--red)';
+    st.textContent='✗ '+err.message;
+  }
+};
+
+function noteHTML(id,tab,label){
+  const ex=getUserNotes(id,tab);
+  return `<div class="user-note"><div class="user-note-label">✏ ${label}</div>${ex?`<p>${escapeHTML(ex)}</p><button class="edit-btn" onclick="editNote('${id}','${tab}')">Edit</button>`:`<button class="edit-btn" onclick="editNote('${id}','${tab}')">+ Add Note</button>`}</div>`;
+}
+window.editNote=function(id,tab){
+  const ex=getUserNotes(id,tab);
+  const c=document.querySelector('.user-note');
+  if(!c)return;
+  c.innerHTML=`<div class="user-note-label">✏ Editing</div><textarea class="note-editor" id="note-ed">${escapeHTML(ex)}</textarea><button class="note-save" onclick="saveNote('${id}','${tab}')">Save</button>`;
+  document.getElementById('note-ed').focus();
+};
+window.saveNote=function(id,tab){
+  const t=document.getElementById('note-ed').value;
+  setUserNotes(id,tab,t);
+  renderTab(id);
+};
+
+// ================= COLOR PANEL =================
+function showCP(id){
+  const cur=countryColors[id]||'#1e2e28';
+  document.getElementById('cpanel').innerHTML=`<div style="font-size:12px;color:var(--white);margin-bottom:8px">${countryFlag(id)} ${escapeHTML(countryName(id))}</div>
+  <div class="cpick"><label>Fill color</label><input type="color" value="${cur}" id="cp-in"></div>
+  <button class="edit-btn" onclick="resetColor('${id}')">Reset</button>`;
+  const inp=document.getElementById('cp-in');
+  inp.addEventListener('input',e=>{
+    countryColors[id]=e.target.value;
+    saveColors();
+    redrawCountry(id);
+    // rebuild raised mesh with new color
+    if(selectedId===id){
+      const c=parseInt(e.target.value.slice(1),16);
+      buildCountryMesh(id,c);
+    }
+  });
+}
+window.resetColor=function(id){
+  delete countryColors[id];saveColors();redrawCountry(id);
+  if(selectedId===id)buildCountryMesh(id,0x4a8270);
+  showCP(id);
+};
+
+// ================= EVENT CARD =================
+const evCard=document.getElementById('ev-card');
+document.getElementById('ev-card-cl').onclick=()=>evCard.classList.remove('on');
+function showEventCard(idx,mx,my){
+  const e=events[idx];if(!e)return;
+  document.getElementById('ev-card-ti').textContent=e.title||'Untitled';
+  document.getElementById('ev-card-ds').textContent=e.description||'';
+  document.getElementById('ev-card-sev').style.background=SEV_HEX[e.severity||1];
+  const img=document.getElementById('ev-card-img');
+  if(e.image){img.src=e.image;img.style.display='block'}else{img.style.display='none'}
+  const x=Math.min(mx+16,innerWidth-276);
+  const y=Math.min(my-20,innerHeight-240);
+  evCard.style.left=Math.max(10,x)+'px';
+  evCard.style.top=Math.max(50,y)+'px';
+  evCard.classList.add('on');
+}
+
+// ================= EVENT FORM =================
+document.querySelectorAll('#sev-row .sev-dot').forEach(d=>{
+  d.addEventListener('click',()=>{
+    document.querySelectorAll('#sev-row .sev-dot').forEach(x=>x.classList.remove('on'));
+    d.classList.add('on');
+    currentSeverity=parseInt(d.dataset.s);
+  });
+});
+
+let pendingImg=null;
+document.getElementById('ev-img').addEventListener('change',e=>{
+  const f=e.target.files[0];if(!f)return;
+  const r=new FileReader();
+  r.onload=ev=>{pendingImg=ev.target.result};
+  r.readAsDataURL(f);
+});
+
+document.getElementById('btn-ev').addEventListener('click',()=>{
+  const ti=document.getElementById('ev-t').value.trim();
+  if(!ti)return;
+  const lat=parseFloat(document.getElementById('ev-lat').value);
+  const lng=parseFloat(document.getElementById('ev-lng').value);
+  if(isNaN(lat)||isNaN(lng)){alert('Please provide Lat and Lng');return}
+  events.push({
+    title:ti,
+    description:document.getElementById('ev-d').value.trim(),
+    lat,lng,
+    severity:currentSeverity,
+    image:pendingImg||null,
+    ts:Date.now()
+  });
+  saveEvents();
+  rebuildEventMarkers();
+  renderEventList();
+  document.getElementById('ev-t').value='';
+  document.getElementById('ev-d').value='';
+  document.getElementById('ev-lat').value='';
+  document.getElementById('ev-lng').value='';
+  document.getElementById('ev-img').value='';
+  pendingImg=null;
+});
+
+document.getElementById('ev-list').addEventListener('click',e=>{
+  const del=e.target.closest('[data-del]');
+  if(del){events.splice(+del.dataset.del,1);saveEvents();rebuildEventMarkers();renderEventList();return}
+  const it=e.target.closest('.ev-item');
+  if(it){
+    const idx=+it.dataset.i;
+    const ev=events[idx];
+    if(ev&&typeof ev.lat==='number')focusLL(ev.lat,ev.lng);
+    showEventCard(idx,innerWidth/2-130,100);
+  }
+});
+
+// AI Daily hook — placeholder. Wire up to your backend / LLM with geopolitical news feed.
+document.getElementById('btn-ai').addEventListener('click',()=>{
+  alert("AI Daily events requires a backend endpoint.\n\nTo enable:\n1. Create a serverless function (e.g. Vercel /api/events) that queries a news API + LLM and returns JSON array of {title,description,lat,lng,severity,image}.\n2. Replace this handler with: fetch('/api/events').then(r=>r.json()).then(arr=>{events=arr;saveEvents();rebuildEventMarkers();renderEventList()})\n\nThis cannot run from a static site without exposing API keys.");
+});
+
+// ================= SIDEBAR TOGGLE =================
+document.getElementById('btn-side').addEventListener('click',()=>document.getElementById('sidebar').classList.toggle('off'));
+document.getElementById('btn-detail').addEventListener('click',()=>closeDetail());
+
+// ================= CLOCK =================
+setInterval(()=>{const n=new Date;document.getElementById('clock').textContent=`UTC ${n.getUTCHours().toString().padStart(2,'0')}:${n.getUTCMinutes().toString().padStart(2,'0')}:${n.getUTCSeconds().toString().padStart(2,'0')}`},1000);
+
+// ================= ANIMATION =================
+lf.style.width='100%';
+setTimeout(()=>document.getElementById('loader').classList.add('done'),500);
+
+function animate(){
+  requestAnimationFrame(animate);
+  if(autoR)globeGroup.rotation.y+=.0005;
+  if(!drag){rvx*=.94;rvy*=.94;globeGroup.rotation.y+=rvx;globeGroup.rotation.x+=rvy}
+  cam.position.z+=(tZoom-cam.position.z)*.06;
+  pickGroup.rotation.copy(globeGroup.rotation);
+  ren.setRenderTarget(pickRT);
+  ren.setClearColor(0x000000,1);
+  ren.clear();
+  ren.render(pickScene,cam);
+  ren.setRenderTarget(null);
+  ren.setClearColor(0x131a17,1);
+  ren.clear();
+  ren.render(scene,cam);
+  // Pulse event rings only
+  const t=Date.now()*.003;
+  const s=1+Math.sin(t)*.15;
+  eventGrp.children.forEach(c=>{if(c.userData.pulse)c.scale.set(s,s,s)});
+}
+animate();
+
+window.addEventListener('resize',()=>{
+  cam.aspect=innerWidth/innerHeight;
+  cam.updateProjectionMatrix();
+  ren.setSize(innerWidth,innerHeight);
+  pickRT.setSize(innerWidth,innerHeight);
+});
+
+})();
+</script>
+</body></html>
