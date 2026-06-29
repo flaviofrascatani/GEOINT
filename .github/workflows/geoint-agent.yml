@@ -40,7 +40,7 @@ jobs:
 
       - name: Run agent
         env:
-          GROQ_API_KEY: ${{ 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 }}
+          GROQ_API_KEY: ${{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}}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GEOINT_MAX_EVENTS: '200'
           GEOINT_MAX_AGE_H: '168'
