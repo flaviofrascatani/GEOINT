@@ -223,8 +223,8 @@ canvas#gl{position:fixed;inset:0;z-index:1}
       <button class="tf-btn" data-tf="168">7d</button>
       <button class="tf-btn on" data-tf="all">All</button>
     </div>
-    <div class="sync-info"><span id="sync-stat">Idle</span> · <span id="sync-time">—</span></div>
-    <div class="pnl-b" id="ev-list" style="flex:1"><div style="text-align:center;padding:16px 0;color:var(--text-dim);font-size:10px">Add event ↓</div></div>
+    <div class="sync-info"><span id="sync-stat">Idle</span> &middot; <span id="sync-time">-</span></div>
+    <div class="pnl-b" id="ev-list" style="flex:1"><div style="text-align:center;padding:16px 0;color:var(--text-dim);font-size:10px">No events in window</div></div>
   </div>
   <div class="pnl" style="flex:0 0 auto">
     <div class="pnl-h"><div class="pnl-t">Add Event</div></div>
@@ -245,7 +245,7 @@ canvas#gl{position:fixed;inset:0;z-index:1}
       </div>
       <input type="file" id="ev-img" accept="image/*" style="font-size:9px">
       <button class="btn-add" id="btn-ev">+ Add Event</button>
-      <button class="btn-add" id="btn-ai" title="Pull latest events from feed" style="margin-top:4px">↻ Sync feed now</button>
+      <button class="btn-add" id="btn-ai" title="Pull latest events from feed" style="margin-top:4px">Sync feed now</button>
     </div>
   </div>
   <div class="pnl" style="flex:0 0 auto">
@@ -678,67 +678,81 @@ function buildCountryMesh(id,color){
 }
 
 // ================= EVENTS ON GLOBE =================
-// Severity scale (matches Python agent):
-//   1 GREEN  — diplomatic détente
-//   2 YELLOW — economic/military treaties
-//   3 ORANGE — diplomatic tension, small skirmishes, econ/military hardening
-//   4 RED    — degenerating military/economic, critical situation
-//   5 PURPLE — full-scale war / civil war
-let events=savedEvents.slice();
-let currentSeverity=1;
-let timeFilter='all'; // 'all' | 6 | 24 | 168 (hours)
-const SEV_COLOR=[null,0x6b9e6f,0xe3c04a,0xe0893a,0xc0392b,0x9b59b6];
-const SEV_HEX=[null,'#6b9e6f','#e3c04a','#e0893a','#c0392b','#9b59b6'];
+// Severity: 1 green / 2 yellow / 3 orange / 4 red / 5 purple
+var events = savedEvents.slice();
+var currentSeverity = 1;
+var timeFilter = 'all';
+var SEV_COLOR = [null, 0x6b9e6f, 0xe3c04a, 0xe0893a, 0xc0392b, 0x9b59b6];
+var SEV_HEX = [null, '#6b9e6f', '#e3c04a', '#e0893a', '#c0392b', '#9b59b6'];
 
-function filteredEvents(){
-  if(timeFilter==='all')return events.map((e,i)=>({e,i}));
-  const cutoff=Date.now()-timeFilter*3600*1000;
-  return events.map((e,i)=>({e,i})).filter(({e})=>(e.ts||0)>=cutoff);
+function filteredEvents() {
+  if (timeFilter === 'all') return events.map(function(e, i){ return {e:e, i:i}; });
+  var cutoff = Date.now() - timeFilter * 3600 * 1000;
+  return events.map(function(e, i){ return {e:e, i:i}; })
+    .filter(function(p){ return (p.e.ts || 0) >= cutoff; });
 }
 
-function rebuildEventMarkers(){
-  while(eventGrp.children.length)eventGrp.remove(eventGrp.children[0]);
-  filteredEvents().forEach(({e,i})=>{
-    if(typeof e.lat!=='number'||typeof e.lng!=='number')return;
-    const p=llv(e.lat,e.lng,R*1.025);
-    const m=new THREE.Mesh(
-      new THREE.SphereGeometry(.022,12,12),
-      new THREE.MeshBasicMaterial({color:SEV_COLOR[e.severity||1]})
+function rebuildEventMarkers() {
+  while (eventGrp.children.length) eventGrp.remove(eventGrp.children[0]);
+  filteredEvents().forEach(function(p) {
+    var e = p.e, i = p.i;
+    if (typeof e.lat !== 'number' || typeof e.lng !== 'number') return;
+    var pos = llv(e.lat, e.lng, R * 1.025);
+    var m = new THREE.Mesh(
+      new THREE.SphereGeometry(.022, 12, 12),
+      new THREE.MeshBasicMaterial({ color: SEV_COLOR[e.severity || 1] })
     );
-    m.position.copy(p);
-    m.userData.eventIdx=i;
+    m.position.copy(pos);
+    m.userData.eventIdx = i;
     eventGrp.add(m);
-    const ring=new THREE.Mesh(
-      new THREE.RingGeometry(.028,.036,24),
-      new THREE.MeshBasicMaterial({color:SEV_COLOR[e.severity||1],transparent:true,opacity:.5,side:THREE.DoubleSide})
+    var ring = new THREE.Mesh(
+      new THREE.RingGeometry(.028, .036, 24),
+      new THREE.MeshBasicMaterial({
+        color: SEV_COLOR[e.severity || 1],
+        transparent: true, opacity: .5, side: THREE.DoubleSide
+      })
     );
-    ring.position.copy(p);
-    ring.lookAt(0,0,0);
-    ring.userData.pulse=true;
+    ring.position.copy(pos);
+    ring.lookAt(0, 0, 0);
+    ring.userData.pulse = true;
     eventGrp.add(ring);
   });
 }
 rebuildEventMarkers();
 
-function fmtAgo(ts){
-  if(!ts)return '';
-  const m=Math.floor((Date.now()-ts)/60000);
-  if(m<1)return 'now';
-  if(m<60)return m+'m ago';
-  const h=Math.floor(m/60);
-  if(h<24)return h+'h ago';
-  return Math.floor(h/24)+'d ago';
+function fmtAgo(ts) {
+  if (!ts) return '';
+  var m = Math.floor((Date.now() - ts) / 60000);
+  if (m < 1) return 'now';
+  if (m < 60) return m + 'm ago';
+  var h = Math.floor(m / 60);
+  if (h < 24) return h + 'h ago';
+  return Math.floor(h / 24) + 'd ago';
 }
 
-function renderEventList(){
-  const filt=filteredEvents();
-  document.getElementById('ev-count').textContent=filt.length;
-  document.getElementById('ev-total').textContent=events.length;
-  const el=document.getElementById('ev-list');
-  if(!filt.length){el.innerHTML='<div style="text-align:center;padding:16px 0;color:var(--text-dim);font-size:10px">No events in window</div>';return}
-  // Newest first
-  filt.sort((a,b)=>(b.e.ts||0)-(a.e.ts||0));
-  el.innerHTML=filt.map(({e,i})=>`<div class="ev-item" data-i="${i}"><div class="sev" style="background:${SEV_HEX[e.severity||1]}"></div><div class="t">${escapeHTML(e.title)}<div class="meta">${e.lat?.toFixed(1)}, ${e.lng?.toFixed(1)} · ${fmtAgo(e.ts)}</div></div><div class="x" data-del="${i}">✕</div></div>`).join('');
+function renderEventList() {
+  var filt = filteredEvents();
+  document.getElementById('ev-count').textContent = filt.length;
+  document.getElementById('ev-total').textContent = events.length;
+  var el = document.getElementById('ev-list');
+  if (!filt.length) {
+    el.innerHTML = '<div style="text-align:center;padding:16px 0;color:var(--text-dim);font-size:10px">No events in window</div>';
+    return;
+  }
+  filt.sort(function(a, b){ return (b.e.ts || 0) - (a.e.ts || 0); });
+  var parts = filt.map(function(p) {
+    var e = p.e, i = p.i;
+    var lat = (typeof e.lat === 'number') ? e.lat.toFixed(1) : '?';
+    var lng = (typeof e.lng === 'number') ? e.lng.toFixed(1) : '?';
+    return '<div class="ev-item" data-i="' + i + '">' +
+      '<div class="sev" style="background:' + SEV_HEX[e.severity || 1] + '"></div>' +
+      '<div class="t">' + escapeHTML(e.title) +
+        '<div class="meta">' + lat + ', ' + lng + ' \u00b7 ' + fmtAgo(e.ts) + '</div>' +
+      '</div>' +
+      '<div class="x" data-del="' + i + '">x</div>' +
+    '</div>';
+  });
+  el.innerHTML = parts.join('');
 }
 renderEventList();
 
@@ -1496,72 +1510,85 @@ document.getElementById('ev-list').addEventListener('click',e=>{
 });
 
 // ============ REMOTE FEED SYNC ============
-// Pulls events.json (written by the Python GitHub-Actions agent) and merges
-// with the user's local events. Dedup is by `id` (agent-assigned hash).
-// Local user-added events have no `id` and are preserved.
-const FEED_URL='events.json'; // same-origin, no CORS, no API key
+var FEED_URL = 'events.json';
 
-function mergeEvents(remote){
-  if(!Array.isArray(remote))return 0;
-  const existingIds=new Set(events.filter(e=>e.id).map(e=>e.id));
-  let added=0;
-  remote.forEach(e=>{
-    if(!e||!e.id||existingIds.has(e.id))return;
-    if(typeof e.lat!=='number'||typeof e.lng!=='number')return;
+function mergeEvents(remote) {
+  if (!remote || !remote.length) return 0;
+  var existingIds = {};
+  for (var k = 0; k < events.length; k++) {
+    if (events[k].id) existingIds[events[k].id] = true;
+  }
+  var added = 0;
+  for (var i = 0; i < remote.length; i++) {
+    var e = remote[i];
+    if (!e || !e.id || existingIds[e.id]) continue;
+    if (typeof e.lat !== 'number' || typeof e.lng !== 'number') continue;
+    var sev = parseInt(e.severity);
+    if (isNaN(sev)) sev = 1;
+    if (sev < 1) sev = 1;
+    if (sev > 5) sev = 5;
     events.push({
-      id:e.id,
-      title:String(e.title||'').slice(0,200),
-      description:String(e.description||'').slice(0,1000),
-      lat:e.lat, lng:e.lng,
-      severity:Math.max(1,Math.min(5,parseInt(e.severity)||1)),
-      image:e.image||null,
-      source:e.source||null,
-      url:e.url||null,
-      ts:e.ts||Date.now()
+      id: e.id,
+      title: String(e.title || '').slice(0, 200),
+      description: String(e.description || '').slice(0, 1000),
+      lat: e.lat,
+      lng: e.lng,
+      severity: sev,
+      image: e.image || null,
+      source: e.source || null,
+      url: e.url || null,
+      ts: e.ts || Date.now()
     });
     added++;
-  });
+  }
   return added;
 }
 
-async function syncFeed(silent){
-  const stat=document.getElementById('sync-stat');
-  const tEl=document.getElementById('sync-time');
-  stat.innerHTML='<span style="color:var(--accent)">Syncing…</span>';
-  try{
-    const r=await fetch(FEED_URL+'?t='+Date.now(),{cache:'no-store'});
-    if(!r.ok)throw new Error('HTTP '+r.status);
-    const data=await r.json();
-    const added=mergeEvents(data.events||data);
-    saveEvents();
-    rebuildEventMarkers();
-    renderEventList();
-    stat.innerHTML='<span class="ok">+'+added+' new</span>';
-    tEl.textContent=new Date().toLocaleTimeString();
-    if(!silent&&added===0)stat.innerHTML='<span class="ok">Up to date</span>';
-  }catch(err){
-    stat.innerHTML='<span class="err">Sync failed</span>';
-    if(!silent)console.warn('Feed sync error:',err);
-  }
+function syncFeed(silent) {
+  var stat = document.getElementById('sync-stat');
+  var tEl = document.getElementById('sync-time');
+  if (stat) stat.innerHTML = '<span style="color:var(--accent)">Syncing...</span>';
+  fetch(FEED_URL + '?t=' + Date.now(), { cache: 'no-store' })
+    .then(function(r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
+    .then(function(data) {
+      var list = data && data.events ? data.events : data;
+      var added = mergeEvents(list);
+      saveEvents();
+      rebuildEventMarkers();
+      renderEventList();
+      if (stat) stat.innerHTML = '<span class="ok">+' + added + ' new</span>';
+      if (tEl) tEl.textContent = new Date().toLocaleTimeString();
+      if (!silent && added === 0 && stat) {
+        stat.innerHTML = '<span class="ok">Up to date</span>';
+      }
+    })
+    .catch(function(err) {
+      if (stat) stat.innerHTML = '<span class="err">Sync failed</span>';
+      if (!silent) console.warn('Feed sync error:', err);
+    });
 }
 
-document.getElementById('btn-ai').addEventListener('click',()=>syncFeed(false));
-
-// Auto-sync on load and every 5 min
+document.getElementById('btn-ai').addEventListener('click', function() { syncFeed(false); });
 syncFeed(true);
-setInterval(()=>syncFeed(true),5*60*1000);
+setInterval(function() { syncFeed(true); }, 5 * 60 * 1000);
 
 // ============ TIME FILTER ============
-document.querySelectorAll('.tf-btn').forEach(btn=>{
-  btn.addEventListener('click',()=>{
-    document.querySelectorAll('.tf-btn').forEach(b=>b.classList.remove('on'));
-    btn.classList.add('on');
-    const v=btn.dataset.tf;
-    timeFilter=v==='all'?'all':parseInt(v);
-    rebuildEventMarkers();
-    renderEventList();
-  });
-});
+var tfButtons = document.querySelectorAll('.tf-btn');
+for (var ti = 0; ti < tfButtons.length; ti++) {
+  (function(btn) {
+    btn.addEventListener('click', function() {
+      for (var k = 0; k < tfButtons.length; k++) tfButtons[k].classList.remove('on');
+      btn.classList.add('on');
+      var v = btn.getAttribute('data-tf');
+      timeFilter = (v === 'all') ? 'all' : parseInt(v);
+      rebuildEventMarkers();
+      renderEventList();
+    });
+  })(tfButtons[ti]);
+}
 
 // ================= SIDEBAR TOGGLE =================
 document.getElementById('btn-side').addEventListener('click',()=>document.getElementById('sidebar').classList.toggle('off'));
@@ -1790,4 +1817,89 @@ function renderAlliance(allianceId){
   window._allianceHighlighted=highlighted;
 }
 
-function rend
+function renderAlliancesList(){
+  const el=document.getElementById('alliances-list');
+  if(!el||!window.ALLIANCES)return;
+  let h='';
+  window.ALLIANCES.forEach(a=>{
+    const isSel=a.id===currentAllianceId;
+    const memberCount=a.members.length;
+    h+=`<div class="route-item${isSel?' selected':''}" data-aid="${a.id}">
+      <div class="route-name"><span class="route-dot" style="background:${a.color}"></span>${escapeHTML(a.name)}</div>
+      <div class="route-type" style="color:var(--accent);font-weight:500">${escapeHTML(a.type)}</div>
+      <div style="font-size:9px;color:var(--text-dim);margin-top:2px">Founded ${a.founded} · ${memberCount} members</div>
+      <div class="route-desc"><div style="font-size:11px;color:var(--text);line-height:1.6;margin-top:6px">${escapeHTML(a.description)}</div>
+        ${a.features?`<div style="margin-top:8px"><div style="font-size:10px;color:var(--accent);letter-spacing:.3px;text-transform:uppercase;margin-bottom:4px;font-weight:600">Key Features</div><ul style="list-style:none;padding:0">${a.features.map(f=>'<li style="font-size:10px;color:var(--text);line-height:1.55;padding-left:10px;position:relative;margin-bottom:3px">›&nbsp;'+escapeHTML(f)+'</li>').join('')}</ul></div>`:''}
+        <div style="margin-top:8px"><div style="font-size:10px;color:var(--accent);letter-spacing:.3px;text-transform:uppercase;margin-bottom:4px;font-weight:600">Members (${memberCount})</div>
+        <div style="font-size:10px;color:var(--text);line-height:1.6">${a.members.map(mid=>{const nm=(COUNTRY_DB[normId(mid)]&&COUNTRY_DB[normId(mid)].name)||(window.CN_FULL&&window.CN_FULL[normId(mid)]&&window.CN_FULL[normId(mid)].n)||mid;return escapeHTML(nm)}).join(' · ')}</div></div>
+      </div>
+    </div>`;
+  });
+  el.innerHTML=h;
+  el.querySelectorAll('.route-item').forEach(it=>{
+    it.addEventListener('click',()=>{
+      const aid=it.dataset.aid;
+      if(currentAllianceId===aid){
+        currentAllianceId=null;
+        clearAlliance();
+      }else{
+        currentAllianceId=aid;
+        renderAlliance(aid);
+      }
+      renderAlliancesList();
+    });
+  });
+}
+
+window.toggleAlliancesPanel=function(){
+  alliancesPanelOpen=!alliancesPanelOpen;
+  document.getElementById('alliances-panel').classList.toggle('on',alliancesPanelOpen);
+  document.getElementById('btn-alliances').classList.toggle('on',alliancesPanelOpen);
+  if(alliancesPanelOpen){
+    // Close routes panel if open (mutual exclusion)
+    if(routesPanelOpen)toggleRoutesPanel();
+    renderAlliancesList();
+  } else {
+    // Auto-clear highlighting when panel closes
+    if(currentAllianceId){currentAllianceId=null;clearAlliance()}
+  }
+};
+document.getElementById('btn-alliances').addEventListener('click',toggleAlliancesPanel);
+
+// ================= ANIMATION =================
+lf.style.width='100%';
+setTimeout(()=>document.getElementById('loader').classList.add('done'),500);
+
+function animate(){
+  requestAnimationFrame(animate);
+  if(autoR)globeGroup.rotation.y+=.0005;
+  if(!drag){rvx*=.94;rvy*=.94;globeGroup.rotation.y+=rvx;globeGroup.rotation.x+=rvy}
+  cam.position.z+=(tZoom-cam.position.z)*.06;
+  pickGroup.rotation.copy(globeGroup.rotation);
+  ren.setRenderTarget(pickRT);
+  ren.setClearColor(0x000000,1);
+  ren.clear();
+  ren.render(pickScene,cam);
+  ren.setRenderTarget(null);
+  ren.setClearColor(0x131a17,1);
+  ren.clear();
+  ren.render(scene,cam);
+  // Pulse event rings only
+  const t=Date.now()*.003;
+  const s=1+Math.sin(t)*.15;
+  eventGrp.children.forEach(c=>{if(c.userData.pulse)c.scale.set(s,s,s)});
+  // Track event card to its globe anchor
+  if(evCardAnchor)updateEvCardPosition();
+}
+animate();
+
+window.addEventListener('resize',()=>{
+  cam.aspect=innerWidth/innerHeight;
+  cam.updateProjectionMatrix();
+  ren.setSize(innerWidth,innerHeight);
+  pickRT.setSize(innerWidth,innerHeight);
+});
+
+})();
+</script>
+</body></html>
