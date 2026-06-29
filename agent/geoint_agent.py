@@ -68,8 +68,62 @@ def fetch_url(url: str, timeout: int = 20) -> bytes:
         return r.read()
  
  
+IMG_IN_HTML_RE = re.compile(r'<img[^>]+src=["\'](https?://[^"\']+)["\']', re.IGNORECASE)
+ 
+ 
+def _extract_image(item) -> str:
+    """Look for an image URL in common RSS/Atom places."""
+    # enclosure type="image/*" url="..."
+    for enc in item.iter("enclosure"):
+        url = enc.get("url") or ""
+        typ = (enc.get("type") or "").lower()
+        if url and ("image" in typ or url.lower().endswith((".jpg", ".jpeg", ".png", ".webp", ".gif"))):
+            return url
+    # media:content / media:thumbnail (namespace already stripped)
+    for tag in ("content", "thumbnail"):
+        for m in item.iter(tag):
+            url = m.get("url") or ""
+            if url and any(url.lower().endswith(ext) for ext in (".jpg", ".jpeg", ".png", ".webp", ".gif")):
+                return url
+            # media:content may not have extension; trust it if type starts with image
+            if url and (m.get("type") or "").lower().startswith("image"):
+                return url
+    # <img> inside description / content
+    for body_tag in ("description", "summary", "content", "encoded"):
+        body = item.findtext(body_tag) or ""
+        match = IMG_IN_HTML_RE.search(body)
+        if match:
+            return match.group(1)
+    return ""
+ 
+ 
+def _parse_pubdate(s: str) -> int:
+    """Return Unix ms, or 0 if unparseable."""
+    if not s:
+        return 0
+    s = s.strip()
+    # RFC 822: Mon, 29 Jun 2026 12:34:56 GMT
+    for fmt in (
+        "%a, %d %b %Y %H:%M:%S %z",
+        "%a, %d %b %Y %H:%M:%S GMT",
+        "%a, %d %b %Y %H:%M:%S %Z",
+        "%Y-%m-%dT%H:%M:%S%z",
+        "%Y-%m-%dT%H:%M:%SZ",
+        "%Y-%m-%dT%H:%M:%S.%f%z",
+        "%Y-%m-%dT%H:%M:%S.%fZ",
+    ):
+        try:
+            d = dt.datetime.strptime(s, fmt)
+            if d.tzinfo is None:
+                d = d.replace(tzinfo=dt.timezone.utc)
+            return int(d.timestamp() * 1000)
+        except ValueError:
+            continue
+    return 0
+ 
+ 
 def parse_rss(xml_bytes: bytes) -> list:
-    """Tiny RSS / Atom parser — no external dep."""
+    """Tiny RSS / Atom parser - no external dep."""
     items = []
     try:
         root = ET.fromstring(xml_bytes)
@@ -84,7 +138,11 @@ def parse_rss(xml_bytes: bytes) -> list:
         desc = (it.findtext("description") or "").strip()
         pub = (it.findtext("pubDate") or "").strip()
         if title:
-            items.append({"title": title, "link": link, "desc": desc, "pub": pub})
+            items.append({
+                "title": title, "link": link, "desc": desc, "pub": pub,
+                "image": _extract_image(it),
+                "pub_ms": _parse_pubdate(pub),
+            })
     for it in root.iter("entry"):
         title = (it.findtext("title") or "").strip()
         link_el = it.find("link")
@@ -92,7 +150,11 @@ def parse_rss(xml_bytes: bytes) -> list:
         desc = (it.findtext("summary") or it.findtext("content") or "").strip()
         pub = (it.findtext("updated") or it.findtext("published") or "").strip()
         if title:
-            items.append({"title": title, "link": link, "desc": desc, "pub": pub})
+            items.append({
+                "title": title, "link": link, "desc": desc, "pub": pub,
+                "image": _extract_image(it),
+                "pub_ms": _parse_pubdate(pub),
+            })
     return items
  
  
@@ -114,6 +176,8 @@ def collect_headlines(limit_per_feed: int) -> list:
                     "title": it["title"],
                     "description": strip_html(it["desc"])[:400],
                     "url": it["link"],
+                    "image": it.get("image") or "",
+                    "pub_ms": it.get("pub_ms") or 0,
                 })
             print(f"[feed] {src_name}: {len(items)} items", file=sys.stderr)
         except Exception as exc:
@@ -196,10 +260,15 @@ def call_llm(prompt: str, system: str) -> str:
  
 SYSTEM_PROMPT = (
     "You are a geopolitical and economic intelligence analyst. "
-    "From a batch of news headlines you select only items of strategic significance "
-    "(armed conflicts, sanctions, treaties, diplomatic incidents, major economic shocks, "
-    "elections with geopolitical consequences). You ignore sports, celebrity, weather, "
-    "domestic crime, lifestyle. For each selected item you output strict JSON.\n\n"
+    "From a batch of news headlines you select items of strategic significance "
+    "across the FULL spectrum: armed conflicts AND peace deals, sanctions AND trade "
+    "agreements, diplomatic incidents AND state visits, economic shocks AND major "
+    "investment pacts, elections with geopolitical consequences. "
+    "You IGNORE sports, celebrity, weather, domestic crime, lifestyle.\n\n"
+    "IMPORTANT: actively look for positive items too. Diplomatic detente, treaties, "
+    "alliance expansions, peace negotiations, prisoner exchanges, normalisation deals "
+    "all matter and belong on the map as GREEN (1) or YELLOW (2). Do not over-weight "
+    "negative news. A good batch typically contains a MIX of severities 1 through 5.\n\n"
     + SEVERITY_GUIDE +
     "\nFor each event also provide approximate latitude and longitude of the city or "
     "country where it primarily occurred. Use your geographic knowledge; do not guess "
@@ -211,10 +280,10 @@ USER_TEMPLATE = """Here are recent news headlines. Return a JSON object:
 {{"events":[ {{ "title": "...", "description": "1-2 sentence summary", "lat": float, "lng": float, "severity": 1-5, "location": "City, Country", "source_idx": int }} ]}}
  
 Rules:
-- Keep at most {max_keep} items, the most strategically important.
+- Keep at most {max_keep} items.
+- Try to PICK A MIX of severities. If only severe items are picked, the map becomes a wall of red; aim for at least 2 items of severity 1 or 2 (green / yellow: peace deals, treaties, trade agreements, diplomatic openings) when the news batch contains any.
 - `source_idx` is the index of the source headline in the list below (0-based).
 - Description must be in the same language as the original headline.
-- If a headline is not strategically significant, omit it. Better few good ones than many weak.
 - Severity must reflect the GLOBAL strategic impact, not local sentiment.
  
 Headlines (numbered):
@@ -262,6 +331,10 @@ def analyse(headlines: list, max_keep: int) -> list:
         ev_id = hashlib.sha1(
             (title + dt.datetime.now(dt.timezone.utc).strftime("%Y%m%d")).encode("utf-8")
         ).hexdigest()[:12]
+        src_image = headlines[idx].get("image") if 0 <= idx < len(headlines) else None
+        src_pub_ms = headlines[idx].get("pub_ms") if 0 <= idx < len(headlines) else 0
+        # Use the article pubDate if available, otherwise now()
+        ev_ts = src_pub_ms if src_pub_ms else int(time.time() * 1000)
         enriched.append({
             "id": ev_id,
             "title": title[:200],
@@ -272,8 +345,8 @@ def analyse(headlines: list, max_keep: int) -> list:
             "location": str(ev.get("location", "")).strip()[:120],
             "source": src_name,
             "url": src_url,
-            "image": None,
-            "ts": int(time.time() * 1000),
+            "image": src_image or None,
+            "ts": ev_ts,
         })
     return enriched
  
