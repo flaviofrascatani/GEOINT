@@ -1333,10 +1333,40 @@ window.pushToGitHub=async function(){
   }
 };
 
+// ============ COUNTRY 3D TOPOGRAPHIC MAPS REGISTRY ============
+// Maps country id → standalone 3D topo HTML page. When a country is registered
+// here, the Geography panel embeds the 3D map (with real lat/lon, GEOINT styling,
+// event overlay, and fullscreen toggle) instead of the generic SVG contour map.
+const COUNTRY_3D_MAPS={
+  '250':'topo3d/fra.html',   // France
+  '380':'topo3d/ita.html',   // Italy
+  '276':'topo3d/deu.html',   // Germany
+  '392':'topo3d/jpn.html',   // Japan
+  '643':'topo3d/rus.html',   // Russia
+  '156':'topo3d/chn.html',   // China
+  '840':'topo3d/usa.html'    // United States
+};
+
 // ============ TOPOGRAPHIC MAP LOADER ============
 async function loadTopoFor(id){
   const host=document.getElementById('topo-host-'+id);
   if(!host)return;
+  // If this country has a dedicated 3D map, embed it as an iframe
+  if(COUNTRY_3D_MAPS[id]){
+    const src=COUNTRY_3D_MAPS[id];
+    host.style.padding='0';
+    host.style.minHeight='320px';
+    host.innerHTML=
+      `<iframe src="${src}" style="width:100%;height:320px;border:0;display:block;background:#131a17" `+
+      `allow="fullscreen" allowfullscreen loading="lazy"></iframe>`+
+      `<div style="display:flex;justify-content:space-between;align-items:center;padding:6px 10px;`+
+      `background:rgba(10,17,13,.6);border-top:1px solid var(--border);`+
+      `font-family:var(--mono);font-size:9px;color:var(--text-dim);letter-spacing:.6px">`+
+      `<span>3D DEM · drag to rotate · wheel to zoom</span>`+
+      `<a href="${src}" target="_blank" rel="noopener" `+
+      `style="color:var(--accent);text-decoration:none;letter-spacing:1px">OPEN ↗</a></div>`;
+    return;
+  }
   if(!window.GEOINT_TOPO){
     host.innerHTML='<div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--red);font-size:11px;letter-spacing:.2px;font-family:var(--sans)">Topo module not loaded</div>';
     return;
