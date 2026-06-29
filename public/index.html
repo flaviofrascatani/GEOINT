@@ -1536,7 +1536,7 @@ async function syncFeed(silent){
     saveEvents();
     rebuildEventMarkers();
     renderEventList();
-    stat.innerHTML=`<span class="ok">+${added} new</span>`;
+    stat.innerHTML='<span class="ok">+'+added+' new</span>';
     tEl.textContent=new Date().toLocaleTimeString();
     if(!silent&&added===0)stat.innerHTML='<span class="ok">Up to date</span>';
   }catch(err){
