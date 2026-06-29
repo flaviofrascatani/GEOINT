@@ -1,14 +1,13 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "public/**", "use": "@vercel/static" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/public/$1" }
-  ],
   "headers": [
     {
       "source": "/events.json",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=60, must-revalidate" },
-        { "key": "X-Content-Type-Options", "value": "nosniff" 
+        { "key": "Cache-Control", "value": "public, max-age=60, must-revalidate" }
+      ]
+    }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/public/$1" }
+  ]
+}
