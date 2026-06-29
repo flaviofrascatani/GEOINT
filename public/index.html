@@ -150,6 +150,9 @@ canvas#gl{position:fixed;inset:0;z-index:1}
 #ev-card .sev{width:12px;height:12px;border-radius:50%;flex-shrink:0}
 #ev-card .ti{font-family:var(--sans);font-size:13px;font-weight:600;color:var(--bright);flex:1}
 #ev-card .ds{font-size:10px;color:var(--text);line-height:1.5;margin-top:4px}
+#ev-card .meta{font-size:9px;color:var(--text-dim);font-family:var(--mono);margin-top:8px;padding-top:6px;border-top:1px solid var(--border);line-height:1.5}
+#ev-card .meta a{color:var(--accent);text-decoration:none}
+#ev-card .meta a:hover{text-decoration:underline}
 #ev-card .cl{position:absolute;top:6px;right:8px;cursor:pointer;color:var(--white);font-size:14px;background:rgba(0,0,0,.5);width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;z-index:2}
 
 /* History timeline */
@@ -253,7 +256,7 @@ canvas#gl{position:fixed;inset:0;z-index:1}
     <div class="pnl-b" id="cpanel"><div style="font-size:10px;color:var(--text-dim)">Select a country</div></div>
   </div>
 </div>
-<div id="ev-card"><div class="cl" id="ev-card-cl">✕</div><img id="ev-card-img" style="display:none"><div class="body"><div class="hd"><div class="sev" id="ev-card-sev"></div><div class="ti" id="ev-card-ti"></div></div><div class="ds" id="ev-card-ds"></div></div></div>
+<div id="ev-card"><div class="cl" id="ev-card-cl">✕</div><img id="ev-card-img" style="display:none" onerror="this.style.display='none'"><div class="body"><div class="hd"><div class="sev" id="ev-card-sev"></div><div class="ti" id="ev-card-ti"></div></div><div class="ds" id="ev-card-ds"></div><div class="meta" id="ev-card-meta"></div></div></div>
 <svg id="ev-leader" style="position:fixed;inset:0;pointer-events:none;z-index:249;display:none"><line id="ev-leader-line" stroke="rgba(155,89,182,.7)" stroke-width="1.5" stroke-dasharray="4 3"/></svg>
 <button id="btn-routes">◈ Trade Routes</button>
 <button id="btn-alliances">◇ Alliances</button>
@@ -747,7 +750,7 @@ function renderEventList() {
     return '<div class="ev-item" data-i="' + i + '">' +
       '<div class="sev" style="background:' + SEV_HEX[e.severity || 1] + '"></div>' +
       '<div class="t">' + escapeHTML(e.title) +
-        '<div class="meta">' + lat + ', ' + lng + ' \u00b7 ' + fmtAgo(e.ts) + '</div>' +
+        '<div class="meta">' + lat + ', ' + lng + ' \u00b7 ' + fmtAgo(e.ts) + (e.source ? ' \u00b7 ' + escapeHTML(e.source) : '') + '</div>' +
       '</div>' +
       '<div class="x" data-del="' + i + '">x</div>' +
     '</div>';
@@ -1401,13 +1404,36 @@ const evLeader=document.getElementById('ev-leader');
 const evLeaderLine=document.getElementById('ev-leader-line');
 let evCardAnchor=null; // {lat,lng} or null
 document.getElementById('ev-card-cl').onclick=()=>{evCard.classList.remove('on');evLeader.style.display='none';evCardAnchor=null};
+function fmtDateTime(ts){
+  if(!ts)return '';
+  var d=new Date(ts);
+  // Local timezone, ISO-ish but readable
+  var pad=function(n){return n<10?'0'+n:''+n;};
+  return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate())+
+    ' '+pad(d.getHours())+':'+pad(d.getMinutes());
+}
 function showEventCard(idx){
-  const e=events[idx];if(!e)return;
+  var e=events[idx];if(!e)return;
   document.getElementById('ev-card-ti').textContent=e.title||'Untitled';
   document.getElementById('ev-card-ds').textContent=e.description||'';
   document.getElementById('ev-card-sev').style.background=SEV_HEX[e.severity||1];
-  const img=document.getElementById('ev-card-img');
-  if(e.image){img.src=e.image;img.style.display='block'}else{img.style.display='none'}
+  var img=document.getElementById('ev-card-img');
+  if(e.image){img.src=e.image;img.style.display='block';}else{img.removeAttribute('src');img.style.display='none';}
+  // Meta block: date, source link, location
+  var meta=document.getElementById('ev-card-meta');
+  var parts=[];
+  if(e.ts)parts.push(fmtDateTime(e.ts));
+  if(e.location)parts.push(escapeHTML(e.location));
+  var line1=parts.join(' &middot; ');
+  var line2='';
+  if(e.source&&e.url){
+    line2='Source: <a href="'+escapeHTML(e.url)+'" target="_blank" rel="noopener noreferrer">'+escapeHTML(e.source)+'</a>';
+  }else if(e.source){
+    line2='Source: '+escapeHTML(e.source);
+  }else if(e.url){
+    line2='<a href="'+escapeHTML(e.url)+'" target="_blank" rel="noopener noreferrer">Open article</a>';
+  }
+  meta.innerHTML=(line1?'<div>'+line1+'</div>':'')+(line2?'<div>'+line2+'</div>':'');
   evCardAnchor={lat:e.lat,lng:e.lng};
   evCard.classList.add('on');
   evLeader.style.display='block';
