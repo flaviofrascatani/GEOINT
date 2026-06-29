@@ -1,1 +1,61 @@
 
+name: GEOINT news agent
+
+on:
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Manual trigger reason'
+        required: false
+        default: 'manual run'
+  # Default cadence: every 30 minutes.
+  # To switch cadence edit the cron below:
+  #   '*/30 * * * *'  -> every 30 minutes
+  #   '0 * * * *'     -> every hour
+  #   '0 */2 * * *'   -> every 2 hours
+  schedule:
+    - cron: '*/30 * * * *'
+
+permissions:
+  contents: write   # needed for the agent to commit events.json back
+
+concurrency:
+  group: geoint-agent
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run agent
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEOINT_MAX_EVENTS: '200'
+          GEOINT_MAX_AGE_H: '168'
+          GEOINT_FEED_LIMIT: '25'
+          GEOINT_KEEP_PER_RUN: '8'
+        run: python agent/geoint_agent.py
+
+      - name: Commit updated events.json
+        run: |
+          git config user.name  "geoint-agent[bot]"
+          git config user.email "geoint-agent@users.noreply.github.com"
+          if git diff --quiet -- public/events.json; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git add public/events.json
+          git commit -m "chore(agent): refresh events.json [skip ci]"
+          git push
