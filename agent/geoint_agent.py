@@ -1,19 +1,19 @@
 #!/usr/bin/env python3
 """
 GEOINT autonomous news agent.
-
+ 
 Pulls geopolitical / economic headlines from free RSS feeds, asks an LLM
 (Groq free tier by default, Anthropic optional) to keep only the strategically
 relevant ones, classify severity on a 5-step scale, and geocode them, then
 writes public/events.json. Designed to run unattended in GitHub Actions.
-
+ 
 Severity scale (matches the front-end):
     1 GREEN   diplomatic detente
     2 YELLOW  economic / military treaties
     3 ORANGE  diplomatic tension, small skirmishes, econ / military hardening
     4 RED     degenerating military / economic situation, critical
     5 PURPLE  full-scale war, civil war outbreak
-
+ 
 Environment variables:
     GROQ_API_KEY        free key from https://console.groq.com  (preferred)
     ANTHROPIC_API_KEY   optional Anthropic fallback
@@ -21,7 +21,7 @@ Environment variables:
     GEOINT_MAX_AGE_H    drop events older than N hours (default 168 = 7d)
     GEOINT_FEED_LIMIT   max headlines fetched per feed (default 25)
 """
-
+ 
 from __future__ import annotations
 import datetime as dt
 import hashlib
@@ -34,10 +34,10 @@ import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
-
+ 
 ROOT = Path(__file__).resolve().parent.parent
 OUT_FILE = ROOT / "public" / "events.json"
-
+ 
 # ---- Free RSS feeds (no key required) -------------------------------------
 RSS_FEEDS = [
     ("Reuters World", "https://feeds.reuters.com/Reuters/worldNews"),
@@ -48,9 +48,9 @@ RSS_FEEDS = [
     ("ANSA Economia", "https://www.ansa.it/sito/notizie/economia/economia_rss.xml"),
     ("GNews Geopolitics", "https://news.google.com/rss/search?q=geopolitics+OR+sanctions+OR+conflict&hl=en"),
 ]
-
+ 
 USER_AGENT = "Mozilla/5.0 (compatible; GEOINT-agent/1.0; +https://github.com)"
-
+ 
 SEVERITY_GUIDE = (
     "Severity scale (output an INTEGER 1-5):\n"
     "  1 GREEN   diplomatic detente, peace deals, prisoner exchanges, summits with positive outcome\n"
@@ -59,15 +59,15 @@ SEVERITY_GUIDE = (
     "  4 RED     deteriorating military or economic situation, missile strikes, financial crisis, government collapse imminent\n"
     "  5 PURPLE  full-scale war outbreak, civil war erupts, total economic collapse, mass mobilisation\n"
 )
-
+ 
 # ---------------------------------------------------------------------------
-
+ 
 def fetch_url(url: str, timeout: int = 20) -> bytes:
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read()
-
-
+ 
+ 
 def parse_rss(xml_bytes: bytes) -> list:
     """Tiny RSS / Atom parser — no external dep."""
     items = []
@@ -94,14 +94,14 @@ def parse_rss(xml_bytes: bytes) -> list:
         if title:
             items.append({"title": title, "link": link, "desc": desc, "pub": pub})
     return items
-
-
+ 
+ 
 def strip_html(s: str) -> str:
     s = re.sub(r"<[^>]+>", " ", s)
     s = re.sub(r"\s+", " ", s).strip()
     return s
-
-
+ 
+ 
 def collect_headlines(limit_per_feed: int) -> list:
     out = []
     for src_name, url in RSS_FEEDS:
@@ -126,10 +126,10 @@ def collect_headlines(limit_per_feed: int) -> list:
         seen.add(k)
         dedup.append(h)
     return dedup
-
-
+ 
+ 
 # ---- LLM clients ----------------------------------------------------------
-
+ 
 def call_groq(prompt: str, system: str) -> str:
     api_key = os.environ.get("GROQ_API_KEY")
     if not api_key:
@@ -149,13 +149,15 @@ def call_groq(prompt: str, system: str) -> str:
         headers={
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
+            "User-Agent": USER_AGENT,
+            "Accept": "application/json",
         },
     )
     with urllib.request.urlopen(req, timeout=90) as r:
         data = json.loads(r.read())
     return data["choices"][0]["message"]["content"]
-
-
+ 
+ 
 def call_anthropic(prompt: str, system: str) -> str:
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
@@ -173,23 +175,25 @@ def call_anthropic(prompt: str, system: str) -> str:
             "x-api-key": api_key,
             "anthropic-version": "2023-06-01",
             "Content-Type": "application/json",
+            "User-Agent": USER_AGENT,
+            "Accept": "application/json",
         },
     )
     with urllib.request.urlopen(req, timeout=90) as r:
         data = json.loads(r.read())
     return data["content"][0]["text"]
-
-
+ 
+ 
 def call_llm(prompt: str, system: str) -> str:
     if os.environ.get("GROQ_API_KEY"):
         return call_groq(prompt, system)
     if os.environ.get("ANTHROPIC_API_KEY"):
         return call_anthropic(prompt, system)
     raise RuntimeError("Set GROQ_API_KEY (free at console.groq.com) or ANTHROPIC_API_KEY")
-
-
+ 
+ 
 # ---- Analysis prompt ------------------------------------------------------
-
+ 
 SYSTEM_PROMPT = (
     "You are a geopolitical and economic intelligence analyst. "
     "From a batch of news headlines you select only items of strategic significance "
@@ -202,22 +206,22 @@ SYSTEM_PROMPT = (
     "if truly unknown — drop the item instead. Coordinates must be decimal degrees, "
     "lat in [-90,90], lng in [-180,180]."
 )
-
+ 
 USER_TEMPLATE = """Here are recent news headlines. Return a JSON object:
 {{"events":[ {{ "title": "...", "description": "1-2 sentence summary", "lat": float, "lng": float, "severity": 1-5, "location": "City, Country", "source_idx": int }} ]}}
-
+ 
 Rules:
 - Keep at most {max_keep} items, the most strategically important.
 - `source_idx` is the index of the source headline in the list below (0-based).
 - Description must be in the same language as the original headline.
 - If a headline is not strategically significant, omit it. Better few good ones than many weak.
 - Severity must reflect the GLOBAL strategic impact, not local sentiment.
-
+ 
 Headlines (numbered):
 {headlines}
 """
-
-
+ 
+ 
 def analyse(headlines: list, max_keep: int) -> list:
     numbered = "\n".join(
         f"[{i}] ({h['source']}) {h['title']} — {h['description'][:200]}"
@@ -272,10 +276,10 @@ def analyse(headlines: list, max_keep: int) -> list:
             "ts": int(time.time() * 1000),
         })
     return enriched
-
-
+ 
+ 
 # ---- File I/O -------------------------------------------------------------
-
+ 
 def load_existing() -> dict:
     if not OUT_FILE.exists():
         return {"schema": 1, "updated": None, "events": []}
@@ -283,8 +287,8 @@ def load_existing() -> dict:
         return json.loads(OUT_FILE.read_text(encoding="utf-8"))
     except Exception:
         return {"schema": 1, "updated": None, "events": []}
-
-
+ 
+ 
 def save(events: list) -> None:
     payload = {
         "schema": 1,
@@ -296,45 +300,46 @@ def save(events: list) -> None:
         json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     print(f"[write] {OUT_FILE} ({len(events)} events)", file=sys.stderr)
-
-
+ 
+ 
 # ---- Main -----------------------------------------------------------------
-
+ 
 def main() -> int:
     max_events = int(os.environ.get("GEOINT_MAX_EVENTS", "200"))
     max_age_h = int(os.environ.get("GEOINT_MAX_AGE_H", "168"))
     feed_limit = int(os.environ.get("GEOINT_FEED_LIMIT", "25"))
     keep_per_run = int(os.environ.get("GEOINT_KEEP_PER_RUN", "8"))
-
+ 
     existing = load_existing()
     old_events = existing.get("events", [])
-
+ 
     cutoff_ms = (time.time() - max_age_h * 3600) * 1000
     old_events = [e for e in old_events if e.get("ts", 0) >= cutoff_ms]
-
+ 
     print(f"[start] {len(old_events)} existing events after pruning", file=sys.stderr)
     headlines = collect_headlines(feed_limit)
     print(f"[start] {len(headlines)} headlines collected", file=sys.stderr)
     if not headlines:
         save(old_events)
         return 0
-
+ 
     new_events = analyse(headlines, max_keep=keep_per_run)
     print(f"[llm] {len(new_events)} events after analysis", file=sys.stderr)
-
+ 
     seen = {e["id"] for e in old_events if "id" in e}
     for ev in new_events:
         if ev["id"] in seen:
             continue
         old_events.append(ev)
         seen.add(ev["id"])
-
+ 
     old_events.sort(key=lambda e: e.get("ts", 0), reverse=True)
     old_events = old_events[:max_events]
-
+ 
     save(old_events)
     return 0
-
-
+ 
+ 
 if __name__ == "__main__":
     sys.exit(main())
+ 
