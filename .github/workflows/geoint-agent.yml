@@ -38,6 +38,25 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Debug — does the secret arrive?
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          if [ -z "$GROQ_API_KEY" ]; then
+            echo "::error::GROQ_API_KEY is EMPTY — secret not set or wrong name"
+            exit 1
+          fi
+          echo "Key length: ${#GROQ_API_KEY}"
+          echo "First 4 chars: ${GROQ_API_KEY:0:4}"
+          echo "Testing Groq auth..."
+          HTTP=$(curl -s -o /tmp/resp.json -w "%{http_code}" \
+            -H "Authorization: Bearer $GROQ_API_KEY" \
+            https://api.groq.com/openai/v1/models)
+          echo "HTTP $HTTP"
+          cat /tmp/resp.json | head -c 400
+          echo
+          if [ "$HTTP" != "200" ]; then exit 1; fi
+
       - name: Run agent
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
