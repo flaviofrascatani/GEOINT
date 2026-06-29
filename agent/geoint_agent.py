@@ -149,6 +149,8 @@ def call_groq(prompt: str, system: str) -> str:
         headers={
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
+            "User-Agent": USER_AGENT,
+            "Accept": "application/json",
         },
     )
     with urllib.request.urlopen(req, timeout=90) as r:
