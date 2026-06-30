@@ -1,11 +1,24 @@
 {
   "schema": 1,
-  "updated": "2026-06-29T23:05:27.230557+00:00",
+  "updated": "2026-06-30T00:16:12.621310+00:00",
   "events": [
     {
       "id": "8e1d4ff3e4af",
       "title": "Peru's electoral authority proclaims Keiko Fujimori as president",
       "description": "Peru's electoral authority has proclaimed Keiko Fujimori as the winner of the presidential election, after a lengthy vote count.",
+      "lat": -12.0464,
+      "lng": -77.0283,
+      "severity": 2,
+      "location": "Lima, Peru",
+      "source": "ANSA Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/06/29/peru-lautorita-elettorale-proclama-keiko-fujimori-presidente_e7d66d13-f6e0-4cf4-a25b-6b823d10f52c.html",
+      "image": null,
+      "ts": 1782765391000
+    },
+    {
+      "id": "b2ad90a100f4",
+      "title": "Peru's electoral authority proclaims Keiko Fujimori president",
+      "description": "Peru's electoral authority has proclaimed Keiko Fujimori as the winner of the presidential election, after a narrow victory over Roberto Sánchez.",
       "lat": -12.0464,
       "lng": -77.0283,
       "severity": 2,
@@ -55,9 +68,35 @@
       "ts": 1782762723000
     },
     {
+      "id": "9e4f6e8c7de6",
+      "title": "Bolivia floats currency after 15 years",
+      "description": "Bolivia has floated its currency, the boliviano, after 15 years of a fixed exchange rate, with the currency depreciating by 40%.",
+      "lat": -16.5073,
+      "lng": -68.1243,
+      "severity": 3,
+      "location": "La Paz, Bolivia",
+      "source": "ANSA Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/06/29/addio-al-cambio-fisso-in-bolivia-da-oggi-il-dollaro-fluttua-dopo-quasi-15-anni_45c13bd9-2531-4331-b80f-c2479c3af0c5.html",
+      "image": null,
+      "ts": 1782762723000
+    },
+    {
       "id": "a0075858b907",
       "title": "Israel launches attacks and incursions inside southern Syria",
       "description": "Israel has launched attacks and incursions inside southern Syria, with the Syrian government condemning the actions as a violation of international law.",
+      "lat": 33.5138,
+      "lng": 36.2765,
+      "severity": 4,
+      "location": "Damascus, Syria",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/29/israel-launches-attacks-and-incursions-inside-southern-syria?traffic_source=rss",
+      "image": null,
+      "ts": 1782758595000
+    },
+    {
+      "id": "833886f8dd3d",
+      "title": "Israel launches attacks and incursions inside southern Syria",
+      "description": "Israeli forces have shelled a village in southern Syria, firing artillery and illumination flares overnight.",
       "lat": 33.5138,
       "lng": 36.2765,
       "severity": 4,
@@ -224,6 +263,19 @@
       "ts": 1782752391000
     },
     {
+      "id": "932b81b68b2f",
+      "title": "US Supreme Court backs Trump's firings",
+      "description": "The US Supreme Court has ruled in favor of expanded executive power, preserving Lisa Cook's Fed position amid Trump's dismissal attempt.",
+      "lat": 38.8951,
+      "lng": -77.0364,
+      "severity": 3,
+      "location": "Washington D.C., USA",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/6/29/supreme-court-blocks-trumps-bid-to-fire-us-federal-reserves-lisa-cook?traffic_source=rss",
+      "image": null,
+      "ts": 1782752391000
+    },
+    {
       "id": "ff233115de7f",
       "title": "US Supreme Court Blocks Trump's Attempt to Fire Federal Reserve Governor",
       "description": "The US Supreme Court has blocked Trump's attempt to fire Federal Reserve Governor Lisa Cook, citing the importance of central bank independence.",
@@ -241,6 +293,19 @@
       "title": "Venezuela earthquake death toll rises to 1,719",
       "description": "The death toll from the recent earthquakes in Venezuela has risen to 1,719, with tens of thousands still missing.",
       "lat": 10.4881,
+      "lng": -66.8792,
+      "severity": 4,
+      "location": "Caracas, Venezuela",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/6/29/aftershock-hits-caracas-during-critical-hours-for-venezuela-rescue-efforts?traffic_source=rss",
+      "image": null,
+      "ts": 1782751361000
+    },
+    {
+      "id": "688d27a7a63e",
+      "title": "Venezuela earthquake death toll rises",
+      "description": "The death toll from the twin earthquakes that struck Venezuela has risen to 1,719, with tens of thousands still missing.",
+      "lat": 10.4884,
       "lng": -66.8792,
       "severity": 4,
       "location": "Caracas, Venezuela",
@@ -393,6 +458,19 @@
       "ts": 1782748010000
     },
     {
+      "id": "022645e9bca1",
+      "title": "Pakistani strikes kill Afghan civilians",
+      "description": "Pakistani strikes have killed at least 28 civilians in Afghanistan, with the Taliban government calling it an 'atrocity'.",
+      "lat": 34.5281,
+      "lng": 69.1761,
+      "severity": 4,
+      "location": "Kabul, Afghanistan",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cy8wygyed0wo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dd12/live/616bf460-73d1-11f1-8f46-43735d200ab1.jpg",
+      "ts": 1782748010000
+    },
+    {
       "id": "c0fce3cb3193",
       "title": "US Supreme Court backs Trump's firings, expands executive power",
       "description": "The US Supreme Court has ruled in favor of expanded executive power, allowing President Trump to fire certain officials.",
@@ -458,12 +536,38 @@
       "ts": 1782723329000
     },
     {
+      "id": "ee893143b381",
+      "title": "South Korea unveils $880bn chip and AI investment plan",
+      "description": "South Korea has unveiled a plan to invest $880bn in the chip and AI industries, as regional rivals like Taiwan, China, and Japan invest heavily in the sector.",
+      "lat": 37.5665,
+      "lng": 126.9779,
+      "severity": 2,
+      "location": "Seoul, South Korea",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/c9q2pwzngjqo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9182/live/a6bd7ef0-7384-11f1-9e21-8bd55db03589.jpg",
+      "ts": 1782723329000
+    },
+    {
       "id": "63f8262b3297",
       "title": "US and Iran Agree to 'Stand Down' After Exchange of Strikes",
       "description": "The US and Iran have agreed to 'stand down' after an exchange of strikes, with both countries seeking to de-escalate tensions.",
       "lat": 32.0,
       "lng": 53.0,
       "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cdxdwkgqgq0o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/38a0/live/7c4274f0-727b-11f1-8e1d-bbbb1017d210.jpg",
+      "ts": 1782622490000
+    },
+    {
+      "id": "8c9fade68f3f",
+      "title": "US and Iran exchange strikes",
+      "description": "The US and Iran have exchanged strikes, with the US hitting multiple targets across Iran and Iran launching retaliatory attacks at US infrastructure in Kuwait and Bahrain.",
+      "lat": 32.4243,
+      "lng": 53.0638,
+      "severity": 4,
       "location": "Tehran, Iran",
       "source": "BBC World",
       "url": "https://www.bbc.co.uk/news/articles/cdxdwkgqgq0o?at_medium=RSS&at_campaign=rss",
