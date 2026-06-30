@@ -1,7 +1,33 @@
 {
   "schema": 1,
-  "updated": "2026-06-30T00:16:12.621310+00:00",
+  "updated": "2026-06-30T04:47:27.635389+00:00",
   "events": [
+    {
+      "id": "0fbfea2562f8",
+      "title": "Venezuela earthquakes",
+      "description": "Twin earthquakes have devastated areas of Venezuela, leaving tens of thousands of people missing and many using crowbars, pickaxes, and their bare hands to try to reach survivors.",
+      "lat": 10.4884,
+      "lng": -66.8792,
+      "severity": 4,
+      "location": "Caracas, Venezuela",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cqj1210rj0yo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f1c3/live/dd101930-73e9-11f1-bb9e-33cb2da512b5.png",
+      "ts": 1782793318000
+    },
+    {
+      "id": "fe35207478cd",
+      "title": "Peru presidential election",
+      "description": "Keiko Fujimori has been declared the winner of the Peruvian presidential election, defeating Roberto Sánchez by a narrow margin.",
+      "lat": -12.0464,
+      "lng": -77.0244,
+      "severity": 2,
+      "location": "Lima, Peru",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/6/30/keiko-fujimori-leads-in-peruvian-presidential-race-as-vote-count-concludes?traffic_source=rss",
+      "image": null,
+      "ts": 1782779323000
+    },
     {
       "id": "8e1d4ff3e4af",
       "title": "Peru's electoral authority proclaims Keiko Fujimori as president",
@@ -74,6 +100,19 @@
       "lat": -16.5073,
       "lng": -68.1243,
       "severity": 3,
+      "location": "La Paz, Bolivia",
+      "source": "ANSA Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/06/29/addio-al-cambio-fisso-in-bolivia-da-oggi-il-dollaro-fluttua-dopo-quasi-15-anni_45c13bd9-2531-4331-b80f-c2479c3af0c5.html",
+      "image": null,
+      "ts": 1782762723000
+    },
+    {
+      "id": "332af3bb5dc7",
+      "title": "Bolivia ends fixed exchange rate",
+      "description": "Bolivia has ended its fixed exchange rate, allowing the boliviano to float on the foreign exchange market and potentially leading to increased economic flexibility.",
+      "lat": -16.5073,
+      "lng": -68.1243,
+      "severity": 2,
       "location": "La Paz, Bolivia",
       "source": "ANSA Mondo",
       "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/06/29/addio-al-cambio-fisso-in-bolivia-da-oggi-il-dollaro-fluttua-dopo-quasi-15-anni_45c13bd9-2531-4331-b80f-c2479c3af0c5.html",
@@ -471,6 +510,19 @@
       "ts": 1782748010000
     },
     {
+      "id": "a1ab6a718084",
+      "title": "Pakistani strikes kill civilians in Afghanistan",
+      "description": "Pakistani strikes have killed at least 28 civilians in Afghanistan, with the UN reporting that the strikes were targeting militants near the border but resulted in significant civilian casualties.",
+      "lat": 34.5228,
+      "lng": 69.1761,
+      "severity": 4,
+      "location": "Kabul, Afghanistan",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cy8wygyed0wo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dd12/live/616bf460-73d1-11f1-8f46-43735d200ab1.jpg",
+      "ts": 1782748010000
+    },
+    {
       "id": "c0fce3cb3193",
       "title": "US Supreme Court backs Trump's firings, expands executive power",
       "description": "The US Supreme Court has ruled in favor of expanded executive power, allowing President Trump to fire certain officials.",
@@ -504,6 +556,19 @@
       "lng": 51.389,
       "severity": 3,
       "location": "Tehran, Iran",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c872rjw17qpo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6f1a/live/c0952770-737e-11f1-b1db-af71d47507d6.jpg",
+      "ts": 1782744730000
+    },
+    {
+      "id": "fb300077c168",
+      "title": "US and Iran agree to 'stand down'",
+      "description": "The US has agreed to 'stand down' after an exchange of strikes with Iran, with the US saying it has hit multiple targets across Iran and Iran launching retaliatory attacks at US infrastructure in Kuwait and Bahrain.",
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "severity": 3,
+      "location": "Washington D.C., USA",
       "source": "BBC World",
       "url": "https://www.bbc.co.uk/news/articles/c872rjw17qpo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6f1a/live/c0952770-737e-11f1-b1db-af71d47507d6.jpg",
@@ -573,6 +638,19 @@
       "url": "https://www.bbc.co.uk/news/articles/cdxdwkgqgq0o?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/38a0/live/7c4274f0-727b-11f1-8e1d-bbbb1017d210.jpg",
       "ts": 1782622490000
+    },
+    {
+      "id": "c92cc59a1fda",
+      "title": "EU extends economic sanctions on Russia",
+      "description": "The EU has extended economic sanctions on Russia for another year, citing ongoing aggression against Ukraine and the need to maintain pressure on the Russian government.",
+      "lat": 50.8503,
+      "lng": 4.3517,
+      "severity": 3,
+      "location": "Brussels, Belgium",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNT2ItV1V3ODJDSFN5dkxmZDZ6eUg0c1B2RzZjMFQ2V1JMbmhTRmFxTTBOTTdUbU9qOTA1WjhMcVo5b3BwanN0YTMtRDFvYi0tdDhSbFBoNWFFdTd1Ql9iNWNUTEw0al9DdXRubmk2WF9tVVNieXItS3JIUW9SaWJZRUU5eThJVmRoMDlpRTBGWERrLUsycU4tYkNtWGVvbWhVdXRnOXBlQ1Y4azBETTNkZjlFSF85YnkteEtDX3ZMbHFwbEZVRFhUbmpTejdvNnd1WEZCRG5CUTU5ZDdxcHhlTHlqS2NtUXdFZndFWHM4dE15YXc2?oc=5",
+      "image": null,
+      "ts": 1782409596000
     }
   ]
 }
