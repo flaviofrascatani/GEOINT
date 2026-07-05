@@ -1,12 +1,51 @@
 {
   "schema": 1,
-  "updated": "2026-07-05T19:35:54.981058+00:00",
+  "updated": "2026-07-05T20:39:00.410219+00:00",
   "events": [
+    {
+      "id": "10f330cce1e8",
+      "title": "Trump Thanks FIFA for Suspending Balogun's Ban",
+      "description": "Donald Trump has thanked FIFA for suspending the ban of US striker Folarin Balogun, making him available for the World Cup match against Belgium.",
+      "lat": 40.7128,
+      "lng": -74.006,
+      "severity": 1,
+      "location": "New York City, USA",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/5/trump-thanks-fifa-as-it-suspends-baloguns-ban-for-belgium-world-cup-match?traffic_source=rss",
+      "image": null,
+      "ts": 1783276102000
+    },
+    {
+      "id": "7ebf215dd7b4",
+      "title": "EasyJet Reaches Agreement in Principle for Potential Takeover",
+      "description": "EasyJet has reached an agreement in principle for a potential takeover, with the low-cost airline previously rejecting four takeover offers.",
+      "lat": 51.5085,
+      "lng": -0.12569999999999482,
+      "severity": 2,
+      "location": "London, UK",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cgjxx7ngz51o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e030/live/4c0dc8e0-7873-11f1-ab53-3dbca6ef5ee1.jpg",
+      "ts": 1783272655000
+    },
     {
       "id": "218b9408ab25",
       "title": "Super Typhoon Bavi threatens Guam with catastrophic winds and flooding",
       "description": "The storm system is expected to reach landfall on Monday morning.",
       "lat": 13.4443,
+      "lng": 144.7937,
+      "severity": 4,
+      "location": "Guam",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/5/super-typhoon-bavi-threatens-guam-with-catastrophic-winds-and-flooding?traffic_source=rss",
+      "image": null,
+      "ts": 1783270466000
+    },
+    {
+      "id": "dae6a9b14a3f",
+      "title": "Super Typhoon Bavi Threatens Guam",
+      "description": "Super Typhoon Bavi is expected to bring catastrophic winds and flooding to Guam, with evacuations underway.",
+      "lat": 14.5443,
       "lng": 144.7937,
       "severity": 4,
       "location": "Guam",
@@ -196,6 +235,19 @@
       "url": "https://www.bbc.co.uk/news/articles/c4gy51ky75vo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a119/live/d5d21d80-782b-11f1-b976-0b9c15b0ccfc.jpg",
       "ts": 1783231101000
+    },
+    {
+      "id": "a663dfeb24c7",
+      "title": "Iran's New Regime",
+      "description": "Iran's new leadership is very different from the previous one, with the funeral of Ayatollah Ali Khamenei marking a significant change.",
+      "lat": 35.6892,
+      "lng": 51.38900000000001,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cg534ryp660o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f432/live/ca78ef20-76d9-11f1-9510-1546718f668b.jpg",
+      "ts": 1783230007000
     },
     {
       "id": "f7770d8db35c",
@@ -2549,58 +2601,6 @@
       "url": "https://www.aljazeera.com/economy/2026/6/29/supreme-court-blocks-trumps-bid-to-fire-us-federal-reserves-lisa-cook?traffic_source=rss",
       "image": null,
       "ts": 1782752391000
-    },
-    {
-      "id": "7e02109b152f",
-      "title": "US Supreme Court backs Trump's firings, preserves Fed's independence",
-      "description": "The US Supreme Court has ruled in favor of expanded executive power, preserving the independence of the Federal Reserve.",
-      "lat": 38.8951,
-      "lng": -77.0364,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/6/29/supreme-court-blocks-trumps-bid-to-fire-us-federal-reserves-lisa-cook?traffic_source=rss",
-      "image": null,
-      "ts": 1782752391000
-    },
-    {
-      "id": "932b81b68b2f",
-      "title": "US Supreme Court backs Trump's firings",
-      "description": "The US Supreme Court has ruled in favor of expanded executive power, preserving Lisa Cook's Fed position amid Trump's dismissal attempt.",
-      "lat": 38.8951,
-      "lng": -77.0364,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/6/29/supreme-court-blocks-trumps-bid-to-fire-us-federal-reserves-lisa-cook?traffic_source=rss",
-      "image": null,
-      "ts": 1782752391000
-    },
-    {
-      "id": "ff233115de7f",
-      "title": "US Supreme Court Blocks Trump's Attempt to Fire Federal Reserve Governor",
-      "description": "The US Supreme Court has blocked Trump's attempt to fire Federal Reserve Governor Lisa Cook, citing the importance of central bank independence.",
-      "lat": 38.9,
-      "lng": -77.0,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cy4wwy0nkeno?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea62/live/7a927010-17db-11f1-992f-8778a9867203.jpg",
-      "ts": 1782751912000
-    },
-    {
-      "id": "1763f0c97f91",
-      "title": "Venezuela earthquake death toll rises to 1,719",
-      "description": "The death toll from the recent earthquakes in Venezuela has risen to 1,719, with tens of thousands still missing.",
-      "lat": 10.4881,
-      "lng": -66.8792,
-      "severity": 4,
-      "location": "Caracas, Venezuela",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/6/29/aftershock-hits-caracas-during-critical-hours-for-venezuela-rescue-efforts?traffic_source=rss",
-      "image": null,
-      "ts": 1782751361000
     }
   ]
 }
