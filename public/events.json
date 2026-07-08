@@ -1,7 +1,20 @@
 {
   "schema": 1,
-  "updated": "2026-07-08T21:16:44.410476+00:00",
+  "updated": "2026-07-08T22:35:08.521838+00:00",
   "events": [
+    {
+      "id": "24fe9e20e45a",
+      "title": "US to delist Syria as a state sponsor of terrorism",
+      "description": "The US has announced plans to delist Syria as a state sponsor of terrorism.",
+      "lat": 38.89,
+      "lng": -77.01,
+      "severity": 2,
+      "location": "Washington D.C., USA",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/8/us-moves-to-delist-syria-as-a-state-sponsor-of-terrorism?traffic_source=rss",
+      "image": null,
+      "ts": 1783546562000
+    },
     {
       "id": "fc48cbdce07d",
       "title": "Former rebel turned government ally proposes a path to peace for Sudan",
@@ -16,6 +29,19 @@
       "ts": 1783543755000
     },
     {
+      "id": "aaf1cd8c6506",
+      "title": "NATO summit concludes with pledge to expand defense budgets",
+      "description": "The NATO summit has concluded with a pledge to expand defense budgets and support for Ukraine.",
+      "lat": 52.07,
+      "lng": 4.300000000000011,
+      "severity": 2,
+      "location": "The Hague, Netherlands",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/8/five-key-takeaways-from-the-nato-summit-in-ankara?traffic_source=rss",
+      "image": null,
+      "ts": 1783537595000
+    },
+    {
       "id": "71d7b44e7f6d",
       "title": "Trump says he doesn't think Iran conflict will start again",
       "description": "Trump says he doesn't think the Iran conflict will start again.",
@@ -27,6 +53,19 @@
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNjNfYy16UERGMkFmTE01eDZtUXllSmtob0sxSHNnSzE2S1g2NFBSbm9kc1hkWEQ2alp2NV9WVG9YSjlfLWxwVDRnYjhNZTAtanB3LW42eFNTUTNaVHp4TkJjdHNoTURyTXduMnpRQzlBcndEZndjQm5DcWowVHk0OG1yUWltQWlyMmpOdTlRQURydUJla2w2UHJQRENvbnhZQjRKTW1pV3hzUWNKWWsydg?oc=5",
       "image": null,
       "ts": 1783536665000
+    },
+    {
+      "id": "301219ecd419",
+      "title": "France returns Syrian artefacts",
+      "description": "France has returned 23 Syrian antique artefacts that it had held since the outbreak of the 2011 civil war.",
+      "lat": 48.86,
+      "lng": 2.289999999999992,
+      "severity": 1,
+      "location": "Paris, France",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/8/france-returns-syrian-artefacts-its-held-since-civil-war?traffic_source=rss",
+      "image": null,
+      "ts": 1783533338000
     },
     {
       "id": "f6a6d3de251a",
@@ -218,6 +257,19 @@
       "lng": 32.860000000000014,
       "severity": 2,
       "location": "Ankara, Turkey",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/ckg4e3lwzqzo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b9c/live/d6af33b0-7a73-11f1-b49c-fd67f645cd09.jpg",
+      "ts": 1783490273000
+    },
+    {
+      "id": "ff4b7a317dfe",
+      "title": "NATO pledges $37bn for new missile project",
+      "description": "NATO allies have announced a $37bn investment in a new missile project.",
+      "lat": 52.07,
+      "lng": 4.300000000000011,
+      "severity": 2,
+      "location": "The Hague, Netherlands",
       "source": "BBC World",
       "url": "https://www.bbc.co.uk/news/articles/ckg4e3lwzqzo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b9c/live/d6af33b0-7a73-11f1-b49c-fd67f645cd09.jpg",
@@ -2549,58 +2601,6 @@
       "url": "https://www.bbc.co.uk/news/articles/c5yz95188jjo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/11db/live/76416a80-7617-11f1-ac6e-25f7e4f0c9b9.jpg",
       "ts": 1783007085000
-    },
-    {
-      "id": "2b84f0f01824",
-      "title": "US Treasury sanctions over 100 ISIS-K crypto addresses",
-      "description": "The US Treasury has sanctioned over 100 ISIS-K crypto addresses that moved over $1.4 million.",
-      "lat": 38.9,
-      "lng": -77.0,
-      "severity": 3,
-      "location": "Washington, D.C., USA",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSktNSlFOTk9pQkhTU2ZsQ0kxZUxyakhNWC14dlRncG1PZHh4RG42SU5qcHZLRVhPcEhtSjcyVUx2ZmZDTUpmUHVZbnRWNm1sT0l5aU5PTktIcnluSEdnZHI1czlEMmh2dlRDMWEyWm1UYXctSDJob3FDMW0wbzkxaGFfWFgxejl1NDVDRzV0TnhoMkZoRjMxRDhORjRsN1o2QUhCMnBMa0hYdGRWVHdwd3hFTVEzLUV6VVpWR3NNSVdkWkhq?oc=5",
-      "image": null,
-      "ts": 1783003863000
-    },
-    {
-      "id": "69a6fc32a0fa",
-      "title": "Rights Groups Demand End to Venezuela Sanctions as Earthquake Death Toll Passes 2,000",
-      "description": "Rights groups are demanding an end to Venezuela sanctions as the earthquake death toll passes 2,000.",
-      "lat": 10.48,
-      "lng": -67.02,
-      "severity": 4,
-      "location": "Venezuela",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSWxxNG43VTVsTHFPbmQzazBJVU9wT2ZEQ2h0RzNTcm16ZTZfZ2NacTZqdU5zZl9lLXNrTnpoOEF6Sjg5UVdPYVFQVWsxdEV5X1ZuOS1hUTRXVEhzeHZ2Y2lzT2ItUHpoNXFEd1FJU2NiZ2FkVHRJTDFNS2RSdWFUNXNSdzhXbkNFa1dyWFBlX3NuRHlUWTBBMUpJakxTSjlwQ1d4TzdYdnpBY2pRakRwMFZQNFJib2x4TmI1MExkanpMcjE0bEt0X2VyaVZ2Zw?oc=5",
-      "image": null,
-      "ts": 1783001074000
-    },
-    {
-      "id": "8b14636db388",
-      "title": "Kiev, at least 20 killed in Russian attack on Ukrainian capital",
-      "description": "At least 20 people have been killed in a Russian attack on the Ukrainian capital, Kiev.",
-      "lat": 50.45,
-      "lng": 32.42519999999999,
-      "severity": 4,
-      "location": "Kiev, Ukraine",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c4gyv05gk4do?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3b2e/live/248b9c60-75d1-11f1-be8b-cbfeee563106.jpg",
-      "ts": 1782999933000
-    },
-    {
-      "id": "2d6c2112a128",
-      "title": "Canada and US discuss trade deal",
-      "description": "The US has confirmed it will not extend the North American trade agreement for another 16 years, but stopped short of more dramatic action.",
-      "lat": 46.52,
-      "lng": -73.7848,
-      "severity": 2,
-      "location": "Ottawa, Canada",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c70yd58y27yo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/74d8/live/fc2ae000-75fd-11f1-b409-f16cfa99a4ec.jpg",
-      "ts": 1782999819000
     }
   ]
 }
