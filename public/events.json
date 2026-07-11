@@ -1,7 +1,46 @@
 {
   "schema": 1,
-  "updated": "2026-07-11T12:31:44.565605+00:00",
+  "updated": "2026-07-11T14:02:21.604406+00:00",
   "events": [
+    {
+      "id": "8e8bb23f9661",
+      "title": "Landmark US housing bill becomes law",
+      "description": "A landmark US housing bill has become law, aiming to reduce costs and increase supply despite protests from Trump.",
+      "lat": 38.9,
+      "lng": -77.02,
+      "severity": 2,
+      "location": "Washington D.C., USA",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cn8qwj611qxo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2995/live/0335cba0-7c6e-11f1-98fd-6b03daaf8a77.jpg",
+      "ts": 1783776909000
+    },
+    {
+      "id": "cb6b133c6489",
+      "title": "US-Iran talks resume in Oman",
+      "description": "The US and Iran are set to resume talks in Oman, with the US seeking a pledge from Iran to stop shooting at ships in the Strait of Hormuz.",
+      "lat": 24.72,
+      "lng": 58.53,
+      "severity": 2,
+      "location": "Muscat, Oman",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/crelyq79x71o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b9e/live/f34fa810-7cfd-11f1-926f-c90d1bcfbc84.jpg",
+      "ts": 1783775659000
+    },
+    {
+      "id": "80697456146f",
+      "title": "US pays out $3m to Havana Syndrome victims",
+      "description": "The US has paid out $3m to victims of the mysterious Havana Syndrome condition reported by spies and diplomats.",
+      "lat": 38.9,
+      "lng": -77.02,
+      "severity": 3,
+      "location": "Washington D.C., USA",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cr7xyl78vnko?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7562/live/ef363980-cfa0-11ef-b967-0b921216563e.jpg",
+      "ts": 1783775512000
+    },
     {
       "id": "ae929f997601",
       "title": "China prepares for Typhoon Bavi",
@@ -68,11 +107,37 @@
       "ts": 1783760423000
     },
     {
+      "id": "716a0684bc4d",
+      "title": "Cuba suffers second nationwide blackout",
+      "description": "Cuba has suffered its second nationwide blackout in five days, leaving the country without power.",
+      "lat": 23.13,
+      "lng": -82.38,
+      "severity": 3,
+      "location": "Havana, Cuba",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/cuba-suffers-second-nationwide-blackout-in-five-days?traffic_source=rss",
+      "image": null,
+      "ts": 1783760423000
+    },
+    {
       "id": "689a104c40da",
       "title": "Russia launches missile attacks on Kyiv",
       "description": "Russian overnight strikes on Kyiv injure ten, as the conflict between Russia and Ukraine continues to escalate.",
       "lat": 50.45,
       "lng": 32.42519999999999,
+      "severity": 4,
+      "location": "Kyiv, Ukraine",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/11/russian-missile-attacks-wound-11-in-kyiv?traffic_source=rss",
+      "image": null,
+      "ts": 1783760003000
+    },
+    {
+      "id": "8de2c4846f01",
+      "title": "Russia launches missile and drone barrage on Ukraine",
+      "description": "Russia has launched a missile and drone barrage on Ukraine, killing two and wounding 19 in the latest escalation of the conflict.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
       "severity": 4,
       "location": "Kyiv, Ukraine",
       "source": "Al Jazeera",
@@ -2536,71 +2601,6 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeGF1Njd3MW1BMW42cS1Qb0VJTjktdWt4eUplMlhvajB3dk9FaXJPV0dzMU1WVE9FSENPYlpCcy0tT2pwUVRZN1UxS05mUzV1Mi1UdTRtNkMwd2s3WV96eG5hMzBaMk45cmo2UWo1YjJyS29ydXdCMmlka09YRTBiOE1ncnVlQldmYkxSN0g0Z2kzcmtFWTdVTWw4XzBWRmtPNm9vczR4NnAxVVBQQnEw?oc=5",
       "image": null,
       "ts": 1783267410000
-    },
-    {
-      "id": "0d9c7ca81546",
-      "title": "Oil prices hover near pre-conflict levels as OPEC+ boosts output again",
-      "description": "Oil prices hover near pre-conflict levels as OPEC+ boosts output again",
-      "lat": 24.7136,
-      "lng": 46.6753,
-      "severity": 2,
-      "location": "Riyadh, Saudi Arabia",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMkNoTG5aUlhwNXRMdk1hN3dUZV9RRkhCWFA0Ul9oMTRiZUlfWGNNQlV4VjkzamwxMXQ0VnJ0dlVXZGVYendtNTN5SDNvdGNKX2hHSlhsQTBBMzRJMDQtUm9xRDFicEU5THVmdV9rd2kxSW8wMndST2MzV2l3ZmVpYUdpZHdZQ0dNMFhSRE1EbVpEOUFhV29iRm9NbmRaZU41Wk130gGoAUFVX3lxTE5WSVpvZE9sRFp1VVVoTTVvZzlLaF9XRE8zM0FZS05JMm9NQUhuRTZQQXcxaURUQlJOd0ZDSlJvM1dRSmFacVNqMnJsTG1zeUpBYzdVeEhZb0NKUkYxM0VOX2tDa1FzQnIydDhkYW5PZThrU3F2YmNFekxqQkF3NnRhaVJ5UlZSbGJ5THVhTUZJMWltUmZ5aGpQMWxZOEhEZjZuLU05VW9LQw?oc=5",
-      "image": null,
-      "ts": 1783267260000
-    },
-    {
-      "id": "fbfb66b0cb42",
-      "title": "At least 15 Yemeni government troops killed in Hodeidah fighting",
-      "description": "Yemeni minister says more than 50 Houthi fighters were killed in the Hodeidah clashes.",
-      "lat": 15.35,
-      "lng": 42.9667,
-      "severity": 4,
-      "location": "Hodeidah, Yemen",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/5/at-least-15-yemeni-government-troops-killed-in-hodeidah-fighting?traffic_source=rss",
-      "image": null,
-      "ts": 1783259192000
-    },
-    {
-      "id": "e891524d1655",
-      "title": "Houthi rebels kill 16 Yemeni government troops in fiercest clashes in years",
-      "description": "Medical sources on the Red Sea coast report 16 dead from pro-government forces and 22 wounded.",
-      "lat": 15.35,
-      "lng": 44.21,
-      "severity": 4,
-      "location": "Hodeidah, Yemen",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/5/at-least-15-yemeni-government-troops-killed-in-hodeidah-fighting?traffic_source=rss",
-      "image": null,
-      "ts": 1783259192000
-    },
-    {
-      "id": "a79526b8f97d",
-      "title": "Iran's supreme leader's funeral",
-      "description": "Iran's supreme leader Ali Khamenei's funeral is being attended by senior officials, with his son Mojtaba absent.",
-      "lat": 35.7,
-      "lng": 51.420000000000016,
-      "severity": 3,
-      "location": "Tehran, Iran",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cevllyj9vv3o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/74a2/live/459df790-7860-11f1-ab53-3dbca6ef5ee1.jpg",
-      "ts": 1783254558000
-    },
-    {
-      "id": "d65b0d5bcf6c",
-      "title": "Iran's supreme leader absent as senior officials attend ayatollah's funeral",
-      "description": "Mojtaba Khamenei has not been seen in public since the attack which killed his father at the onset of the US-Israel war with Iran.",
-      "lat": 35.6892,
-      "lng": 51.38900000000001,
-      "severity": 3,
-      "location": "Tehran, Iran",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cevllyj9vv3o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/74a2/live/459df790-7860-11f1-ab53-3dbca6ef5ee1.jpg",
-      "ts": 1783254558000
     }
   ]
 }
