@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-07-14T18:10:17.591520+00:00",
+  "updated": "2026-07-14T19:52:15.182744+00:00",
   "events": [
     {
       "id": "d310d21ef738",
@@ -9,6 +9,19 @@
       "lat": 45.88,
       "lng": 63.31,
       "severity": 1,
+      "location": "Baikonur Cosmodrome, Kazakhstan",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/14/us-russian-astronauts-launch-into-orbit-for-joint-space-mission?traffic_source=rss",
+      "image": null,
+      "ts": 1784051368000
+    },
+    {
+      "id": "c7226c2d4ba2",
+      "title": "US, Russian astronauts launch into orbit for joint space mission",
+      "description": "NASA chief Jared Isaacman made a rare visit to the Russia-operated Baikonur Cosmodrome to witness the launch.",
+      "lat": 47.02,
+      "lng": 63.31,
+      "severity": 2,
       "location": "Baikonur Cosmodrome, Kazakhstan",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/7/14/us-russian-astronauts-launch-into-orbit-for-joint-space-mission?traffic_source=rss",
@@ -40,6 +53,19 @@
       "url": "https://www.aljazeera.com/economy/2026/7/14/us-consumer-prices-drop-in-june-as-energy-costs-tumble?traffic_source=rss",
       "image": null,
       "ts": 1784048262000
+    },
+    {
+      "id": "c0856f5d7567",
+      "title": "Trump scraps threat of 20% fee on Hormuz cargo",
+      "description": "Trump drops a 24-hour-old vow to charge cargo ships for using the Strait as the US continues its battle to break Iran's hold on the waterway.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 3,
+      "location": "Strait of Hormuz, Middle East",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cy0608wy8pro?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6c0/live/e8f90230-7fb4-11f1-926f-c90d1bcfbc84.jpg",
+      "ts": 1784048086000
     },
     {
       "id": "72026e47bd50",
@@ -79,6 +105,19 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/israel-launches-new-illegal-settlement-expansion-plan?traffic_source=rss",
       "image": null,
       "ts": 1784033750000
+    },
+    {
+      "id": "0511e42f790a",
+      "title": "Firmata ufficialmente l'intesa Ue-Regno Unito per il nuovo status di Gibilterra",
+      "description": "Madrid, il ministro Albares: 'Accordo storico, a Gibilterra cade la frontiera dopo tre secoli'.",
+      "lat": 37.24,
+      "lng": -5.349999999999994,
+      "severity": 1,
+      "location": "Gibilterra",
+      "source": "ANSA Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/07/14/firmata-ufficialmente-lintesa-ue-regno-unito-per-il-nuovo-status-di-gibilterra_babf6e6b-fc8f-4339-baa7-1b89d6524653.html",
+      "image": null,
+      "ts": 1784033454000
     },
     {
       "id": "53f802b6e22c",
@@ -123,6 +162,19 @@
       "id": "ca2333d06cd7",
       "title": "EU bans gold imports from Sudan",
       "description": "The EU has banned gold imports from Sudan to curb money financing the war.",
+      "lat": 50.85,
+      "lng": 4.349999999999994,
+      "severity": 3,
+      "location": "Brussels, Belgium",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/ce3e3nqwr5do?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e6a5/live/d6cd2350-7f52-11f1-a97a-9b1029617ccb.jpg",
+      "ts": 1784017969000
+    },
+    {
+      "id": "342149172414",
+      "title": "EU bans gold imports from Sudan to curb money financing the war",
+      "description": "The ban also restricts exports of mercury and cyanide to Sudan, chemicals widely used in gold mining.",
       "lat": 50.85,
       "lng": 4.349999999999994,
       "severity": 3,
@@ -2549,58 +2601,6 @@
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9QbHIxMmw1ajc5MTZtamhXU3BFYlpOdEFBLUpoVUdMUkswZDVydUJXT1R6S2pTdzd4R0RBeUE2VS1FUzRXS0hTZXh5UQ?oc=5",
       "image": null,
       "ts": 1783586748000
-    },
-    {
-      "id": "c257847de2a7",
-      "title": "US launches strikes on Iran",
-      "description": "The US has launched strikes on Iran in response to the bombing of ships, with blasts reported in the south of the country.",
-      "lat": 29.62,
-      "lng": 52.54,
-      "severity": 4,
-      "location": "Shiraz, Iran",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cz75zjj5wp8o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/84f4/live/30109df0-7b0e-11f1-b976-0b9c15b0ccfc.jpg",
-      "ts": 1783574489000
-    },
-    {
-      "id": "a1928d978bc1",
-      "title": "IMF cuts 2026 world growth forecast, citing Iran war fallout",
-      "description": "Global economy to grow 3 percent in 2026, as AI demand partly offsets energy shock from Iran war, IMF says.",
-      "lat": 48.85,
-      "lng": 2.289999999999992,
-      "severity": 4,
-      "location": "Paris, France",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/7/9/imf-cuts-2026-world-growth-forecast-citing-iran-war-fallout?traffic_source=rss",
-      "image": null,
-      "ts": 1783565900000
-    },
-    {
-      "id": "552577eefe09",
-      "title": "IMF cuts 2026 world growth forecast",
-      "description": "The International Monetary Fund (IMF) has cut its forecast for global economic growth in 2026, citing the fallout from the Iran war.",
-      "lat": 48.85,
-      "lng": 2.289999999999992,
-      "severity": 3,
-      "location": "Paris, France",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/7/9/imf-cuts-2026-world-growth-forecast-citing-iran-war-fallout?traffic_source=rss",
-      "image": null,
-      "ts": 1783565900000
-    },
-    {
-      "id": "74202294da91",
-      "title": "Khamenei’s coffin in Karbala on last stop before burial in Mashhad",
-      "description": "Millions gathered in the holy city of Karbala, Iraq to pay their respects at the funeral of Iran’s late supreme leader.",
-      "lat": 32.62,
-      "lng": 44.02,
-      "severity": 3,
-      "location": "Karbala, Iraq",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/9/khameneis-coffin-in-karbala-on-last-stop-before-burial-in-mashhad?traffic_source=rss",
-      "image": null,
-      "ts": 1783556060000
     }
   ]
 }
