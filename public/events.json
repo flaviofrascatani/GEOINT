@@ -1,7 +1,46 @@
 {
   "schema": 1,
-  "updated": "2026-07-14T08:20:50.761219+00:00",
+  "updated": "2026-07-14T10:19:38.706523+00:00",
   "events": [
+    {
+      "id": "138eb2d99041",
+      "title": "Yemen's Houthis launch missiles at Saudi Arabia",
+      "description": "The Iran-backed Houthis blame Saudi Arabia for the attack in Yemen's capital and say they targeted Abha airport in response.",
+      "lat": 18.33,
+      "lng": 45.0,
+      "severity": 4,
+      "location": "Abha, Saudi Arabia",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cp9ldle3d3xo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ddfb/live/25ca1c70-7ebc-11f1-8439-ebc9c5f19300.jpg",
+      "ts": 1784023363000
+    },
+    {
+      "id": "4a5b366a4675",
+      "title": "US bombs Iran again",
+      "description": "The US has launched another attack on Iran, with the conflict between the two countries escalating.",
+      "lat": 35.7,
+      "lng": 51.420000000000016,
+      "severity": 5,
+      "location": "Tehran, Iran",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/14/us-bombs-iran-again-tehran-strikes-gulf-tankers-whats-the-latest?traffic_source=rss",
+      "image": null,
+      "ts": 1784019142000
+    },
+    {
+      "id": "ca2333d06cd7",
+      "title": "EU bans gold imports from Sudan",
+      "description": "The EU has banned gold imports from Sudan to curb money financing the war.",
+      "lat": 50.85,
+      "lng": 4.349999999999994,
+      "severity": 3,
+      "location": "Brussels, Belgium",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/ce3e3nqwr5do?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e6a5/live/d6cd2350-7f52-11f1-a97a-9b1029617ccb.jpg",
+      "ts": 1784017969000
+    },
     {
       "id": "de82dd183927",
       "title": "EU opens new cluster in negotiations with Ukraine",
@@ -14,6 +53,19 @@
       "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/07/14/lue-apre-nuovo-cluster-nei-negoziati-di-adesione-con-lucraina_851e3f18-69c2-4624-9111-06f5fd3e61eb.html",
       "image": null,
       "ts": 1784016325000
+    },
+    {
+      "id": "f008bbb61c05",
+      "title": "Trump threatens to attack 'Pickaxe Mountain' a nuclear facility inside Iran",
+      "description": "US President Donald Trump is threatening to attack a heavily-fortified underground nuclear facility in Iran.",
+      "lat": 36.8,
+      "lng": 53.325199999999995,
+      "severity": 5,
+      "location": "Tehran, Iran",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/trump-threatens-to-attack-pickaxe-mountain-a-nuclear-facility-inside-ira?traffic_source=rss",
+      "image": null,
+      "ts": 1784006140000
     },
     {
       "id": "9e6cf98f0090",
@@ -313,6 +365,19 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/yemeni-government-forces-strike-sanaa-airport?traffic_source=rss",
       "image": null,
       "ts": 1783951424000
+    },
+    {
+      "id": "9f53fc918589",
+      "title": "EU imposes sanctions on Russians over human rights and cybercrime",
+      "description": "The EU has imposed sanctions on Russians over human rights and cybercrime, including four individuals and five entities.",
+      "lat": 50.85,
+      "lng": 4.349999999999994,
+      "severity": 3,
+      "location": "Brussels, Belgium",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNU3hldW1VTmFKUndqSE5RQjFSeWNnTUlOMW51b09sZWxPX3BhVGRaRUhwVTJ3enVxT3dYdnRFUHB1Yk9OOUF4N0xXc1hvVFlKdkNyR2ZhSjZzWWgtWjdtWDk3N044ejdiZEFFSkVSMEVIMTBkWHdsb1RweVk0QmNDdEE2Z0RCUm52ZFhIbG50TmlEc3FtWE9rdG5WQ3A1SG9IdUZic0FYUlh6Z1J6YnhsUw?oc=5",
+      "image": null,
+      "ts": 1783950681000
     },
     {
       "id": "417893c0df83",
@@ -2536,71 +2601,6 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUEgwa2piSkJ1YnZ0VnExUVk1NHhCR2NZSFZlMEhzOFJUSUNNN1kzdHFFaGNPWmlKLUUzQi10eHFkTGpsSl9BNFRfV1R4YkRQR1ZONmJrVjhmNnFfeHpXTW1LVVZEczgtN2FIR2NYcjI4bVc5UFFPMFhqRGcyek4xTS1TVHA4ZkowUlZsZ1NxT1h1MXQ3V3NHVlozNXcwRENyb1A0bGx3Um5yYVlOV05zQUpEd2NuU2vSAbwBQVVfeXFMTk9nWGlKQXlmWEVsblA4eUZZRDVxTHNidzIxSWh3cHB1MFRSVlBiSDZVMFBTYkYxNmplMW94RkZzQjEzYlVWX0dOa0V1WTdPVExMbUdyYVk1RUlkclotMkVWNkZwX0NGUVhuNE1xZDdYTnF6UVB1bjJtOEc3cFNaQUlYcDdpbGdGTXNHY1RydWVkc1FnekgxWjlOY2dKZVFHeU80ejhmMVpCdEJNX1lVSjMxbWpLTGttWDgtQ0U?oc=5",
       "image": null,
       "ts": 1783530905000
-    },
-    {
-      "id": "61e4e65d54e6",
-      "title": "US charges Indian crime leader in Sikh activist’s assassination",
-      "description": "US indicts Indian crime boss, links him to Sikh leader's killing that strained India-Canada relations",
-      "lat": 38.89,
-      "lng": -77.01,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/8/us-charges-indian-crime-leader-in-sikh-activists-assassination?traffic_source=rss",
-      "image": null,
-      "ts": 1783529079000
-    },
-    {
-      "id": "6e63cdb9886a",
-      "title": "Germany urges US-Iran negotiations",
-      "description": "German Foreign Minister Johann Wadephul urged the US and Iran to resume negotiations",
-      "lat": 51.95,
-      "lng": 6.255200000000002,
-      "severity": 3,
-      "location": "Brussels, Belgium",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/8/germany-urges-us-iran-negotiations-offers-to-minesweep-hormuz?traffic_source=rss",
-      "image": null,
-      "ts": 1783526261000
-    },
-    {
-      "id": "4abb9f42e135",
-      "title": "Macron evokes future joint exercises of the 'Volunteers for Kiev'",
-      "description": "The announcement comes ahead of the meeting on July 13 in Paris.",
-      "lat": 48.86,
-      "lng": 4.1952,
-      "severity": 3,
-      "location": "Paris, France",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/07/08/macron-evoca-future-esercitazioni-congiunte-dei-volenterosi-per-kiev_1f93e20e-31f3-47d6-bc2b-c449ec5122d6.html",
-      "image": null,
-      "ts": 1783524945000
-    },
-    {
-      "id": "b5c34488d55c",
-      "title": "Accordo tra Nato e Accenture per una nuova infrastruttura digitale",
-      "description": "200 million for the creation of the base of classified operations, Leonardo will also collaborate",
-      "lat": 39.93,
-      "lng": 32.860000000000014,
-      "severity": 2,
-      "location": "Ankara, Turkey",
-      "source": "ANSA Economia",
-      "url": "https://www.ansa.it/sito/notizie/economia/2026/07/08/accordo-tra-nato-e-accenture-per-una-nuova-infrastruttura-digitale_4cf9f245-d308-4cfd-9311-0af51af9a742.html",
-      "image": null,
-      "ts": 1783522024000
-    },
-    {
-      "id": "6573b7ea9d1b",
-      "title": "Eight killed after landslide hits girls' school in Bangladesh",
-      "description": "Rescuers pull bodies from the mud after heavy monsoon rains batter the south-eastern coast.",
-      "lat": 23.81,
-      "lng": 90.42,
-      "severity": 4,
-      "location": "Bangladesh",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cx2wkzww20ro?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/116a/live/3c94ce00-7acf-11f1-b976-0b9c15b0ccfc.jpg",
-      "ts": 1783519374000
     }
   ]
 }
