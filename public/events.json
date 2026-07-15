@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-07-15T00:53:03.804302+00:00",
+  "updated": "2026-07-15T04:10:17.832759+00:00",
   "events": [
     {
       "id": "01e4254d47c1",
@@ -55,6 +55,19 @@
       "ts": 1784060276000
     },
     {
+      "id": "e17581c280df",
+      "title": "US imposes blockade on Iranian ports",
+      "description": "The US has imposed a blockade on Iranian ports, with the US military saying it will take action against any Iranian ships that try to leave or enter the ports.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 4,
+      "location": "Strait of Hormuz",
+      "source": "ANSA Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/07/14/usa-e-scattato-il-blocco-delle-navi-e-di-porti-iraniani_3b883269-7572-410c-be9a-68629f284cfb.html",
+      "image": null,
+      "ts": 1784060202000
+    },
+    {
       "id": "519cb4de1cf8",
       "title": "New York imposes ban on large data centers",
       "description": "New York has imposed a landmark one-year ban on large data centers.",
@@ -88,6 +101,19 @@
       "lng": -77.0,
       "severity": 3,
       "location": "Washington D.C., USA",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/14/senate-democrats-block-defence-bill-over-iran-war-israel-provisions?traffic_source=rss",
+      "image": null,
+      "ts": 1784059926000
+    },
+    {
+      "id": "a4d62440b4e7",
+      "title": "US Senate blocks defense bill over Iran war",
+      "description": "The US Senate has blocked a defense bill over the Iran war and Israel integration, with Democrats voting against the bill.",
+      "lat": 38.89,
+      "lng": -77.01,
+      "severity": 3,
+      "location": "Washington, D.C., USA",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/7/14/senate-democrats-block-defence-bill-over-iran-war-israel-provisions?traffic_source=rss",
       "image": null,
@@ -635,6 +661,19 @@
       "severity": 2,
       "location": "Brussels, Belgium",
       "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c621p9yjz1zo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a579/live/e797f600-7ecc-11f1-a521-db2da184cdb6.jpg",
+      "ts": 1783958713000
+    },
+    {
+      "id": "249d920b8645",
+      "title": "US and UK sign new trade agreement",
+      "description": "The US and UK have signed a new trade agreement, which is expected to increase exports by $5.2 billion annually.",
+      "lat": 51.5,
+      "lng": -0.12999999999999545,
+      "severity": 2,
+      "location": "London, UK",
+      "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c621p9yjz1zo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a579/live/e797f600-7ecc-11f1-a521-db2da184cdb6.jpg",
       "ts": 1783958713000
@@ -2562,45 +2601,6 @@
       "url": "https://www.aljazeera.com/news/2026/7/9/palestinian-legislative-elections-set-for-november-28?traffic_source=rss",
       "image": null,
       "ts": 1783618329000
-    },
-    {
-      "id": "5b3edd692b21",
-      "title": "Chemical weapons watchdog restores Syria’s voting rights",
-      "description": "Chemical weapons watchdog restores Syria’s voting rights, citing progress in addressing chemical weapons issues",
-      "lat": 35.16,
-      "lng": 37.26259999999999,
-      "severity": 1,
-      "location": "Damascus, Syria",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/9/chemical-weapons-watchdog-restores-syrias-voting-rights-citing-progress?traffic_source=rss",
-      "image": null,
-      "ts": 1783611529000
-    },
-    {
-      "id": "9df80279441c",
-      "title": "Ukraine strikes Russian ships near Crimea",
-      "description": "Ukraine has struck Russian ships near Crimea, escalating tensions between the two countries.",
-      "lat": 44.63,
-      "lng": 33.52,
-      "severity": 4,
-      "location": "Crimea, Ukraine",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c70yd1g67z5o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/db10/live/4259e690-7ac5-11f1-b541-536d253827b8.png",
-      "ts": 1783610477000
-    },
-    {
-      "id": "77e48a198f33",
-      "title": "Iran prepares to bury slain leader Khamenei",
-      "description": "The late Iranian supreme leader will be buried in his hometown of Mashhad, with millions of people expected to attend the funeral.",
-      "lat": 37.39,
-      "lng": 59.610000000000014,
-      "severity": 1,
-      "location": "Mashhad, Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/gallery/2026/7/9/photos-iran-to-bury-slain-supreme-leader-in-culmination-of-mass-funeral?traffic_source=rss",
-      "image": null,
-      "ts": 1783604547000
     }
   ]
 }
