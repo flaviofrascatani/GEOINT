@@ -1,7 +1,20 @@
 {
   "schema": 1,
-  "updated": "2026-07-16T13:03:49.993448+00:00",
+  "updated": "2026-07-16T15:09:35.663125+00:00",
   "events": [
+    {
+      "id": "6fbc5d8514cd",
+      "title": "Ukraine protests against defence minister removal",
+      "description": "Protests in Ukrainian cities against Zelensky's removal of defence minister, causing upset among civil society and the military",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 3,
+      "location": "Kiev, Ukraine",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cdx76069n3do?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4cba/live/4b6416b0-810b-11f1-926f-c90d1bcfbc84.jpg",
+      "ts": 1784211731000
+    },
     {
       "id": "18bd9ee86911",
       "title": "Uganda discharges last Ebola patient",
@@ -14,6 +27,19 @@
       "url": "https://www.bbc.co.uk/news/articles/cx2myxjv172o?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/674d/live/ec3e9520-8105-11f1-b8b2-1fedac836136.jpg",
       "ts": 1784205395000
+    },
+    {
+      "id": "2c81756b9986",
+      "title": "US strikes Iranian tanker",
+      "description": "The US military targeted an unladen oil tanker heading for the key Iranian oil terminal on Kharg island",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 4,
+      "location": "Strait of Hormuz",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/clyqwkegqk0o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/796a/live/75bc39a0-8107-11f1-b976-0b9c15b0ccfc.png",
+      "ts": 1784203766000
     },
     {
       "id": "5470b5839164",
@@ -79,6 +105,19 @@
       "url": "https://www.bbc.co.uk/news/articles/c62x8ldxr7eo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0874/live/d7c92fe0-80ad-11f1-ba1f-795e92f7cb6e.jpg",
       "ts": 1784197380000
+    },
+    {
+      "id": "243504e57af4",
+      "title": "Iran claims strikes on US bases",
+      "description": "Iran claims strikes on US bases in Kuwait and Bahrain, warns of wider attacks on the region",
+      "lat": 29.37,
+      "lng": 47.97,
+      "severity": 4,
+      "location": "Kuwait City, Kuwait",
+      "source": "ANSA Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/07/16/teheran-rivendica-attacchi-contro-basi-usa-in-kuwait-e-bahrein_caf6e660-e8e9-4af4-923b-a53c096b07ac.html",
+      "image": null,
+      "ts": 1784195473000
     },
     {
       "id": "400c7f936836",
@@ -2562,45 +2601,6 @@
       "url": "https://www.aljazeera.com/economy/2026/7/10/apple-files-lawsuit-accusing-chatgpt-maker-openai-of-stealing-trade-secrets?traffic_source=rss",
       "image": null,
       "ts": 1783724411000
-    },
-    {
-      "id": "1adf2a2225f2",
-      "title": "Apple sues OpenAI, its employees claiming theft of trade secrets",
-      "description": "Apple has sued OpenAI, alleging that the company's employees stole trade secrets from Apple.",
-      "lat": 37.33,
-      "lng": -120.1348,
-      "severity": 2,
-      "location": "Cupertino, USA",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cy8w379e091o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c345/live/988f5600-7ca3-11f1-bc75-67a16fbc54d2.jpg",
-      "ts": 1783724056000
-    },
-    {
-      "id": "bea843f6f4d7",
-      "title": "Venezuela Earthquakes: Death Toll Rises to Over 4,000",
-      "description": "The death toll from the recent earthquakes in Venezuela has risen to over 4,000, with many more injured and displaced.",
-      "lat": 11.58,
-      "lng": -64.9948,
-      "severity": 5,
-      "location": "Caracas, Venezuela",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/07/11/sale-a-oltre-quattromila-morti-il-bilancio-dei-terremoti-in-venezuela_b08ce126-a4f2-43f4-9027-16df17cd9171.html",
-      "image": null,
-      "ts": 1783723927000
-    },
-    {
-      "id": "a280bbd0deaa",
-      "title": "Venezuela suffers earthquake aftermath",
-      "description": "Venezuela is struggling to cope with the aftermath of a devastating earthquake, with thousands of people affected and a significant number of deaths reported.",
-      "lat": 10.48,
-      "lng": -66.9,
-      "severity": 4,
-      "location": "Caracas, Venezuela",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/07/11/sale-a-oltre-quattromila-morti-il-bilancio-dei-terremoti-in-venezuela_b08ce126-a4f2-43f4-9027-16df17cd9171.html",
-      "image": null,
-      "ts": 1783723927000
     }
   ]
 }
