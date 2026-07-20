@@ -1,7 +1,78 @@
 {
   "schema": 1,
-  "updated": "2026-07-20T09:55:01.874534+00:00",
+  "updated": "2026-07-20T10:18:34.378116+00:00",
   "events": [
+    {
+      "id": "47a5093ec0cf",
+      "title": "Iran's Attack on Kuwait Infrastructure",
+      "description": "Iran's attack on Kuwait infrastructure has raised concerns about the conflict spilling over into the Gulf region.",
+      "lat": 29.37,
+      "lng": 47.99,
+      "severity": 3,
+      "location": "Kuwait City, Kuwait",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/20/what-does-irans-attack-on-kuwait-infrastructure-mean-for-gulf?traffic_source=rss",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-07/260718-kuwait-nd-a0946c.jpg",
+      "ts": 1784542080000,
+      "coverage": {
+        "left": 4,
+        "center": 1,
+        "right": 1,
+        "total": 6,
+        "sources": [
+          "HuffPost World",
+          "NBC News World",
+          "Der Spiegel International",
+          "Al Jazeera",
+          "France 24",
+          "TASS"
+        ]
+      }
+    },
+    {
+      "id": "6730083d01e4",
+      "title": "Russia-North Korea Summit Decisions Being Implemented",
+      "description": "Decisions made during the 2024 summit between Russia and North Korea are being gradually implemented, according to Russian Foreign Minister Lavrov.",
+      "lat": 55.75,
+      "lng": 37.62,
+      "severity": 2,
+      "location": "Moscow, Russia",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2162505",
+      "image": null,
+      "ts": 1784541794000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "sources": [
+          "TASS"
+        ]
+      }
+    },
+    {
+      "id": "fceec721e102",
+      "title": "EU Fines AliExpress €550m",
+      "description": "The EU has fined AliExpress €550m for failing to tackle sales of illegal, unsafe, and counterfeit products on its platform.",
+      "lat": 50.85,
+      "lng": 4.349999999999994,
+      "severity": 2,
+      "location": "Brussels, Belgium",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/13c385e7-600f-471a-858e-6f1970802a10?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1784541603000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "sources": [
+          "RTE News"
+        ]
+      }
+    },
     {
       "id": "ee4a886eca74",
       "title": "Rubio: US ‘open to diplomacy’ after ninth night of bombing Iran",
@@ -84,6 +155,40 @@
       }
     },
     {
+      "id": "8d351f1cb89e",
+      "title": "Spain Wins 2026 World Cup",
+      "description": "Spain has won the 2026 World Cup, defeating Argentina in the final.",
+      "lat": 41.52,
+      "lng": -3.6999999999999886,
+      "severity": 1,
+      "location": "Madrid, Spain",
+      "source": "Breitbart",
+      "url": "https://www.breitbart.com/sports/2026/07/19/spain-defeats-argentina-in-extra-time-to-win-its-second-world-cup/",
+      "image": null,
+      "ts": 1784500760000,
+      "coverage": {
+        "left": 5,
+        "center": 4,
+        "right": 4,
+        "total": 13,
+        "sources": [
+          "CBS News World",
+          "NDTV World",
+          "Mirror World",
+          "Al Jazeera",
+          "Time",
+          "CNBC World",
+          "Politico",
+          "France 24",
+          "DW News",
+          "RT News",
+          "OAN",
+          "Breitbart",
+          "Daily Star World"
+        ]
+      }
+    },
+    {
       "id": "99c6206187c3",
       "title": "US service member killed in Iraq",
       "description": "A U.S. service member was killed in Iraq while handling explosives from a downed Iranian drone",
@@ -155,26 +260,24 @@
       }
     },
     {
-      "id": "47a5093ec0cf",
-      "title": "Iran and Kuwait report attacks on water and power infrastructure",
-      "description": "Critical water and power infrastructure sites have been damaged as the US and Iran continue to trade strikes",
-      "lat": 29.37,
-      "lng": 47.99,
+      "id": "3b4808a64cd6",
+      "title": "Tensions Rise Between US and Iran",
+      "description": "Tensions between the US and Iran continue to rise, with both countries engaging in military strikes and diplomatic rhetoric.",
+      "lat": 27.67,
+      "lng": 58.15520000000001,
       "severity": 4,
-      "location": "Kuwait City, Kuwait",
+      "location": "Strait of Hormuz",
       "source": "NBC News World",
       "url": "https://www.nbcnews.com/world/iran/water-energy-sites-hit-us-iran-strikes-escalate-rcna588143",
       "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-07/260718-kuwait-nd-a0946c.jpg",
       "ts": 1784379497000,
       "coverage": {
         "left": 1,
-        "center": 1,
-        "right": 1,
-        "total": 3,
+        "center": 0,
+        "right": 0,
+        "total": 1,
         "sources": [
-          "NBC News World",
-          "France 24",
-          "TASS"
+          "NBC News World"
         ]
       }
     },
