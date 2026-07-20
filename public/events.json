@@ -1,7 +1,83 @@
 {
   "schema": 1,
-  "updated": "2026-07-20T16:38:46.546318+00:00",
+  "updated": "2026-07-20T18:59:06.208452+00:00",
   "events": [
+    {
+      "id": "9aed1f9ab9b3",
+      "title": "Tate Brothers Appear in Miami Court on Rape and Trafficking Charges",
+      "description": "Andrew and Tristan Tate have appeared in a Miami courtroom, as British prosecutors seek to extradite them on charges of rape and trafficking.",
+      "lat": 25.76,
+      "lng": -80.19,
+      "severity": 3,
+      "location": "Miami, United States",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/now/video/tate-brothers-in-miami-court-after-new-u-k-charges-266963013563",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/mpx/2704722219/2026_07/1784573505608_now_daily_b_dce_tate_brothers_new_uk_charges_260720_S3_1920x1080-tl0sbz.jpg",
+      "ts": 1784573512000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "sources": [
+          "NBC News World",
+          "Fox News World"
+        ]
+      }
+    },
+    {
+      "id": "5abeb86973b4",
+      "title": "Houthis Declare Maritime Blockade on Saudi Arabia",
+      "description": "Yemen's Iran-backed Houthi rebels have announced a maritime blockade on Saudi Arabia, in response to a Saudi blockade of ports and airports in Yemen.",
+      "lat": 16.45,
+      "lng": 44.19999999999999,
+      "severity": 3,
+      "location": "Sana'a, Yemen",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0f9/live/01fcfa10-845c-11f1-bee8-53ce494e1abc.jpg",
+      "ts": 1784568782000,
+      "coverage": {
+        "left": 4,
+        "center": 1,
+        "right": 0,
+        "total": 5,
+        "sources": [
+          "New York Times World",
+          "ABC News International",
+          "NDTV World",
+          "Al Jazeera",
+          "BBC World"
+        ]
+      }
+    },
+    {
+      "id": "57001a12956f",
+      "title": "Ukraine Launches Drone Attack on Moscow",
+      "description": "Ukraine has launched a drone attack on Moscow, targeting an oil depot and logistics facilities, in one of the war's largest attacks.",
+      "lat": 56.86,
+      "lng": 37.620000000000005,
+      "severity": 4,
+      "location": "Moscow, Russia",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/ukraine-unleashes-more-than-400-drones-near-moscow-one-wars-biggest-attacks",
+      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/07/explosion-efrat.gif",
+      "ts": 1784564103000,
+      "coverage": {
+        "left": 3,
+        "center": 1,
+        "right": 2,
+        "total": 6,
+        "sources": [
+          "HuffPost World",
+          "The Guardian World",
+          "NDTV World",
+          "France 24",
+          "Fox News World",
+          "Daily Mail World"
+        ]
+      }
+    },
     {
       "id": "a33f1aa7982b",
       "title": "Russia and North Korea deepen relations",
@@ -25,6 +101,28 @@
       }
     },
     {
+      "id": "7b1bbd3d7906",
+      "title": "Hungary Probes Deal with China's BYD Car Maker",
+      "description": "Hungary's government is investigating a major foreign investment by Chinese automaker BYD, amid concerns over the deal's implications.",
+      "lat": 48.6,
+      "lng": 20.95519999999999,
+      "severity": 2,
+      "location": "Budapest, Hungary",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/hungary-probes-deal-chinas-byd-carmaker-after-foreign-134916105",
+      "image": "https://s.abcnews.com/images/International/wirestory_2aaa8f568762e2cd92dd1c65bd3c59bd_4x3_384.jpg",
+      "ts": 1784561891000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "sources": [
+          "ABC News International"
+        ]
+      }
+    },
+    {
       "id": "6d77dd55da24",
       "title": "US gas prices rise above $4 a gallon",
       "description": "US gas prices have climbed back above $4 a gallon as the Iran war intensifies, driving frustration with President Donald Trump ahead of midterm elections.",
@@ -43,6 +141,54 @@
         "total": 1,
         "sources": [
           "Financial Times World"
+        ]
+      }
+    },
+    {
+      "id": "eb3d5ba861fb",
+      "title": "US Gas Prices Rise Amid Iran Conflict",
+      "description": "US gas prices have risen to an average of $4 per gallon, as the conflict between the US and Iran continues to disrupt oil markets.",
+      "lat": 40.0,
+      "lng": -75.0948,
+      "severity": 3,
+      "location": "Washington D.C., United States",
+      "source": "OAN",
+      "url": "https://www.oann.com/business/us-gas-prices-back-up-to-an-average-of-4-a-gallon-as-iran-war-heats-up/",
+      "image": null,
+      "ts": 1784561075000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 1,
+        "total": 5,
+        "sources": [
+          "NBC News World",
+          "Axios",
+          "IBTimes",
+          "GNews Geopolitics",
+          "Breitbart"
+        ]
+      }
+    },
+    {
+      "id": "1fb46b149387",
+      "title": "AliExpress Fined €550m by EU for Allowing Sale of Illegal Goods",
+      "description": "The Chinese retailer AliExpress has been fined a record €550m by the EU for allowing the sale of unsafe toys and counterfeit clothes on its site.",
+      "lat": 51.95,
+      "lng": 4.349999999999994,
+      "severity": 2,
+      "location": "Brussels, Belgium",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cp8714286dpo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/00ee/live/51afee90-843a-11f1-9dde-1165f12cfa4b.jpg",
+      "ts": 1784560974000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "sources": [
+          "BBC Business"
         ]
       }
     },
@@ -1824,45 +1970,6 @@
       "url": "https://www.aljazeera.com/news/2026/7/13/us-judge-voids-trumps-irs-settlement-alleges-self-dealing?traffic_source=rss",
       "image": null,
       "ts": 1783969786000
-    },
-    {
-      "id": "cac4710802ea",
-      "title": "UK Designates IRGC as Terrorist Organisation",
-      "description": "The UK government designated Iran's Revolutionary Guard Corps (IRGC) as a terrorist organisation under new powers.",
-      "lat": 51.5,
-      "lng": 1.7752000000000123,
-      "severity": 3,
-      "location": "London, UK",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/uk-designates-irgc-as-terrorist-organisation?traffic_source=rss",
-      "image": null,
-      "ts": 1783969077000
-    },
-    {
-      "id": "87f3845e0857",
-      "title": "US judge voids Donald Trump's $1.8bn settlement with IRS",
-      "description": "The judge said the suit was brought for 'improper purposes' and referred a Trump attorney for possible disciplinary action.",
-      "lat": 38.9,
-      "lng": -77.0,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cn8q0e8d4ego?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/468c/live/a01b76f0-7ede-11f1-84b4-d5196cc76857.jpg",
-      "ts": 1783968766000
-    },
-    {
-      "id": "5a7880a98921",
-      "title": "Houthi lanciano sei missili su aeroporto in Arabia Saudita",
-      "description": "'Milizie filo-Iran stanno usando missili ipersonici'",
-      "lat": 24.77,
-      "lng": 46.68,
-      "severity": 4,
-      "location": "Arabia Saudita",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/07/13/media-houthi-lanciano-sei-missili-su-aeroporto-in-arabia-saudita_94ccd187-630a-4b75-b746-0809228ca9c0.html",
-      "image": null,
-      "ts": 1783963302000
     }
   ]
 }
