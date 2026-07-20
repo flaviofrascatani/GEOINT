@@ -1,7 +1,103 @@
 {
   "schema": 1,
-  "updated": "2026-07-20T12:34:30.360594+00:00",
+  "updated": "2026-07-20T14:51:14.957244+00:00",
   "events": [
+    {
+      "id": "89a29a1a5e44",
+      "title": "UN Secretary-General to Visit Cyprus",
+      "description": "Antonio Guterres will visit Cyprus to revive the stalled peace process.",
+      "lat": 35.17,
+      "lng": 33.37,
+      "severity": 1,
+      "location": "Nicosia, Cyprus",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/guterres-to-visit-cyprus-as-un-seeks-to-revive-peace-talks/a-78037819?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1784559074786,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "sources": [
+          "DW News"
+        ]
+      }
+    },
+    {
+      "id": "ee844c034976",
+      "title": "Burnham Advocates Closer EU Relationship",
+      "description": "Andy Burnham inherits the Labour leadership at a moment when Britain's political debate is defined by its relationship with the EU.",
+      "lat": 51.5,
+      "lng": -0.12999999999999545,
+      "severity": 2,
+      "location": "London, UK",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/burnham-advocates-closer-eu-relationship-big-gains-will-only-come-from-rejoining-the-single-market",
+      "image": "https://s.france24.com/media/display/20f967a0-843e-11f1-94d3-005056bfb2b6/w:1024/p:16x9/EN-20260720-130102-131614-CS.jpg",
+      "ts": 1784557902000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "sources": [
+          "France 24"
+        ]
+      }
+    },
+    {
+      "id": "47a5093ec0cf",
+      "title": "Iran Strikes US Facilities in Kuwait, Bahrain",
+      "description": "The Islamic Revolutionary Guard Corps carried out the attack in three phases, using drones and missiles.",
+      "lat": 29.37,
+      "lng": 47.99,
+      "severity": 4,
+      "location": "Kuwait City, Kuwait",
+      "source": "TASS",
+      "url": "https://tass.com/world/2162657",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-07/260718-kuwait-nd-a0946c.jpg",
+      "ts": 1784557456000,
+      "coverage": {
+        "left": 3,
+        "center": 1,
+        "right": 2,
+        "total": 6,
+        "sources": [
+          "HuffPost World",
+          "NBC News World",
+          "Al Jazeera",
+          "Jerusalem Post",
+          "TASS",
+          "Breitbart"
+        ]
+      }
+    },
+    {
+      "id": "839a0a0e8484",
+      "title": "Houthi Rebels Declare Maritime Blockade Against Saudi Arabia",
+      "description": "Yemen's Houthi rebels, allies of Iran, declared a maritime embargo of Saudi Arabia, threatening the kingdom's crude exports through the Red Sea.",
+      "lat": 15.35,
+      "lng": 44.2,
+      "severity": 3,
+      "location": "Sana'a, Yemen",
+      "source": "IBTimes",
+      "url": "https://www.ibtimes.com/yemens-houthi-rebels-have-been-threatening-help-iran-close-key-waterway-they-are-now-targeting-3805492",
+      "image": null,
+      "ts": 1784553285000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 0,
+        "total": 4,
+        "sources": [
+          "ABC News International",
+          "NDTV World",
+          "IBTimes",
+          "Financial Times World"
+        ]
+      }
+    },
     {
       "id": "9af34ca9b50f",
       "title": "Andy Burnham Becomes New UK Prime Minister",
@@ -69,33 +165,6 @@
         "total": 1,
         "sources": [
           "RT News"
-        ]
-      }
-    },
-    {
-      "id": "47a5093ec0cf",
-      "title": "Iran's Attack on Kuwait Infrastructure",
-      "description": "Iran's attack on Kuwait infrastructure has raised concerns about the conflict spilling over into the Gulf region.",
-      "lat": 29.37,
-      "lng": 47.99,
-      "severity": 3,
-      "location": "Kuwait City, Kuwait",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/20/what-does-irans-attack-on-kuwait-infrastructure-mean-for-gulf?traffic_source=rss",
-      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-07/260718-kuwait-nd-a0946c.jpg",
-      "ts": 1784542080000,
-      "coverage": {
-        "left": 4,
-        "center": 1,
-        "right": 1,
-        "total": 6,
-        "sources": [
-          "HuffPost World",
-          "NBC News World",
-          "Der Spiegel International",
-          "Al Jazeera",
-          "France 24",
-          "TASS"
         ]
       }
     },
@@ -373,6 +442,29 @@
         "total": 1,
         "sources": [
           "NBC News World"
+        ]
+      }
+    },
+    {
+      "id": "31280f931302",
+      "title": "US Military Launches New Airstrikes Against Iran",
+      "description": "The US military has launched new airstrikes against Iran, in response to the deaths of US troops.",
+      "lat": 35.68,
+      "lng": 51.420000000000016,
+      "severity": 4,
+      "location": "Tehran, Iran",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/us-iran-trade-strikes-over-strait-of-hormuz-kuwait-suffers-infrastructure-damage_n_6a5b69d7e4b0dbc7658797de",
+      "image": null,
+      "ts": 1784377192000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "sources": [
+          "HuffPost World",
+          "Breitbart"
         ]
       }
     },
@@ -1736,106 +1828,6 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/trump-us-will-take-over-strait-of-hormuz?traffic_source=rss",
       "image": null,
       "ts": 1783957267000
-    },
-    {
-      "id": "1fe611500d6b",
-      "title": "Yemen government says attacked Sanaa airport",
-      "description": "The Yemen government has said its forces attacked Sanaa airport, reviving a dormant conflict.",
-      "lat": 15.35,
-      "lng": 44.21,
-      "severity": 4,
-      "location": "Sanaa, Yemen",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUTFLc1Z5T1JPYnBycWFERkluYVBJSDVvRHlNNGMySGxORmkzTlkxQmJ6YTRiU2VUYVczdlVHQ1hlLVNxVU5GWG9WbjlGRC0tZXd3TVE2a3BvWFAxSUdFLS01SjZVT25NVVFPWjZ4WVoxMER3cEpGRDdNbXcwQXNiT2VSWjM4MFpnZDQ3WXJPblI1UHhQOVVNWUx3YXpUOFBQbUdmY0J3S2tlaGFDMzVSbVByMXQ2Zw?oc=5",
-      "image": null,
-      "ts": 1783953150000
-    },
-    {
-      "id": "d966012843bf",
-      "title": "EU sanctions nine people over alleged Russian cyber-spying campaign",
-      "description": "The EU has imposed sanctions on nine individuals and four entities over an alleged years-long cyber-espionage campaign.",
-      "lat": 50.85,
-      "lng": 4.349999999999994,
-      "severity": 3,
-      "location": "Brussels, Belgium",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRkJwS0FmUmlOcm5wU0xMOHNJRlJSM2pfTjNzRy1pTU9fZEswQjNwREtIc0xVSFNzYnJpOHdXQWZxdEVLM05HSWQ3RlBYSjRWcnZLNlowY1JTTTJyekVZRFNtSjBvdzhjc0ZXTjE0OEZWeFJMS2x4VXZmOFpvaWRqSEJEMm1OTEhlTGNtNV9JSnZuWEUyQ2tJdXo2RlpEVDVuWjRWWktjQS1ZeEpH0gGyAUFVX3lxTFBDbkpJbHpxZk5yYjZNUVoyZDktaFZDNURqSDRmV1FmU29oaVF5eEpNUGJ0NEZRdG0za0xIdlpJYlFpbUJMUDNlZFpZQUh0aV9VTkRtU2xleTEzWWJwOGxFMjlDX1U2TWJHR194b2FrazJDTm51eTdoc0VZRmFlUFQ5MDJQcGV4M0p6RlFuZ2RveXpuWU9PZVRWTnJHWHpQRk5GUE5RdGxVMjdITHRaVjA0UFE?oc=5",
-      "image": null,
-      "ts": 1783951972000
-    },
-    {
-      "id": "f4ae23326f3e",
-      "title": "Yemeni government forces strike Sanaa airport",
-      "description": "Yemeni government forces strike Sanaa airport",
-      "lat": 16.45,
-      "lng": 44.22,
-      "severity": 4,
-      "location": "Sanaa, Yemen",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/yemeni-government-forces-strike-sanaa-airport?traffic_source=rss",
-      "image": null,
-      "ts": 1783951424000
-    },
-    {
-      "id": "9f53fc918589",
-      "title": "EU imposes sanctions on Russians over human rights and cybercrime",
-      "description": "The EU has imposed sanctions on Russians over human rights and cybercrime, including four individuals and five entities.",
-      "lat": 50.85,
-      "lng": 4.349999999999994,
-      "severity": 3,
-      "location": "Brussels, Belgium",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNU3hldW1VTmFKUndqSE5RQjFSeWNnTUlOMW51b09sZWxPX3BhVGRaRUhwVTJ3enVxT3dYdnRFUHB1Yk9OOUF4N0xXc1hvVFlKdkNyR2ZhSjZzWWgtWjdtWDk3N044ejdiZEFFSkVSMEVIMTBkWHdsb1RweVk0QmNDdEE2Z0RCUm52ZFhIbG50TmlEc3FtWE9rdG5WQ3A1SG9IdUZic0FYUlh6Z1J6YnhsUw?oc=5",
-      "image": null,
-      "ts": 1783950681000
-    },
-    {
-      "id": "417893c0df83",
-      "title": "EU launches Team Gaza initiative",
-      "description": "EU launches initiative to support the reconstruction of Gaza with 883.6 million euros",
-      "lat": 50.85,
-      "lng": 4.349999999999994,
-      "severity": 2,
-      "location": "Brussels, Belgium",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/07/13/lue-lancia-liniziativa-team-gaza-italia-tra-i-paesi-aderenti_ee2b3b77-d970-4936-9cf1-b34f39b1f37a.html",
-      "image": null,
-      "ts": 1783947891000
-    },
-    {
-      "id": "2f245e2c7324",
-      "title": "EU launches initiative to support Gaza reconstruction",
-      "description": "The EU has launched an initiative to support the reconstruction of Gaza.",
-      "lat": 50.85,
-      "lng": 4.349999999999994,
-      "severity": 2,
-      "location": "Brussels, Belgium",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/07/13/lue-lancia-liniziativa-team-gaza-italia-tra-i-paesi-aderenti_ee2b3b77-d970-4936-9cf1-b34f39b1f37a.html",
-      "image": null,
-      "ts": 1783947891000
-    },
-    {
-      "id": "0d9ec22f6ac8",
-      "title": "China and Russia Deepen Military Cooperation",
-      "description": "China and Russia have deepened their military cooperation, with secret documents revealing plans for joint military operations and the development of advanced military technologies.",
-      "lat": 39.91,
-      "lng": 116.39,
-      "severity": 3,
-      "location": "Beijing, China",
-      "source": "Der Spiegel International",
-      "url": "https://www.spiegel.de/international/world/the-new-axis-of-evil-der-spiegel-investigation-reveals-deep-military-cooperation-between-russia-and-china-a-12dc295a-413d-4a2f-b44f-2922092270e3#ref=rss",
-      "image": "https://cdn.prod.www.spiegel.de/images/4f88271b-a7c2-4657-8e85-ddfdbecb33e1_w520_r2.08_fpx44_fpy51.jpg",
-      "ts": 1783591260000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "sources": [
-          "Der Spiegel International"
-        ]
-      }
     }
   ]
 }
