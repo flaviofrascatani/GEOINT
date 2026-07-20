@@ -1,7 +1,51 @@
 {
   "schema": 1,
-  "updated": "2026-07-20T14:51:14.957244+00:00",
+  "updated": "2026-07-20T16:38:46.546318+00:00",
   "events": [
+    {
+      "id": "a33f1aa7982b",
+      "title": "Russia and North Korea deepen relations",
+      "description": "Russia and North Korea have agreed to deepen their relations, with the Russian foreign ministry noting that the comprehensive deepening of relations between the two countries contributes to ensuring regional and international security.",
+      "lat": 37.56,
+      "lng": 126.97,
+      "severity": 2,
+      "location": "Pyongyang, North Korea",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2162699",
+      "image": null,
+      "ts": 1784563626000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "sources": [
+          "TASS"
+        ]
+      }
+    },
+    {
+      "id": "6d77dd55da24",
+      "title": "US gas prices rise above $4 a gallon",
+      "description": "US gas prices have climbed back above $4 a gallon as the Iran war intensifies, driving frustration with President Donald Trump ahead of midterm elections.",
+      "lat": 40.0,
+      "lng": -77.02,
+      "severity": 3,
+      "location": "Washington D.C., USA",
+      "source": "OAN",
+      "url": "https://www.oann.com/business/us-gas-prices-back-up-to-an-average-of-4-a-gallon-as-iran-war-heats-up/",
+      "image": null,
+      "ts": 1784561075000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "sources": [
+          "Financial Times World"
+        ]
+      }
+    },
     {
       "id": "89a29a1a5e44",
       "title": "UN Secretary-General to Visit Cyprus",
@@ -74,6 +118,51 @@
       }
     },
     {
+      "id": "b8242b436cf6",
+      "title": "Hamas names new leader",
+      "description": "Hamas has named Khalil al-Hayya as its new overall leader, replacing Yahya Sinwar who was killed by Israeli forces in Gaza in 2024.",
+      "lat": 32.61,
+      "lng": 34.46000000000001,
+      "severity": 3,
+      "location": "Gaza City, Gaza Strip",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cx25nzkyj50o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ba5/live/ce9d2310-842f-11f1-8db9-6b4471749e2a.jpg",
+      "ts": 1784556151000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "sources": [
+          "BBC World",
+          "ANSA Mondo"
+        ]
+      }
+    },
+    {
+      "id": "6b46e2cc8783",
+      "title": "China develops new AI model",
+      "description": "China has developed a new AI model, with the country now the only state serially producing two distinct stealth fighter families simultaneously.",
+      "lat": 39.91,
+      "lng": 116.39,
+      "severity": 2,
+      "location": "Beijing, China",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/opinion/the-5-piece-set-chinas-naval-air-power-is-growing-faster-than-india-can-ignore-11796056#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2024-05/hac7a7ro_fujian-_625x300_10_May_24.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "ts": 1784554071000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "sources": [
+          "NDTV World"
+        ]
+      }
+    },
+    {
       "id": "839a0a0e8484",
       "title": "Houthi Rebels Declare Maritime Blockade Against Saudi Arabia",
       "description": "Yemen's Houthi rebels, allies of Iran, declared a maritime embargo of Saudi Arabia, threatening the kingdom's crude exports through the Red Sea.",
@@ -118,6 +207,34 @@
         "sources": [
           "New York Times World",
           "France 24"
+        ]
+      }
+    },
+    {
+      "id": "df0e7a2958be",
+      "title": "Andy Burnham becomes UK Prime Minister",
+      "description": "Andy Burnham has become Britain's new prime minister, succeeding Keir Starmer. He has pledged to tackle the cost of living and expand devolution.",
+      "lat": 51.5,
+      "lng": -0.12999999999999545,
+      "severity": 2,
+      "location": "London, UK",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/andy-burnham-becomes-uk-prime-minister_n_6a5e066fe4b0252a18ddd208",
+      "image": null,
+      "ts": 1784547532000,
+      "coverage": {
+        "left": 4,
+        "center": 2,
+        "right": 1,
+        "total": 7,
+        "sources": [
+          "HuffPost World",
+          "New York Times World",
+          "ABC News International",
+          "NDTV World",
+          "IBTimes",
+          "France 24",
+          "Breitbart"
         ]
       }
     },
@@ -256,6 +373,28 @@
           "Mirror World",
           "IBTimes",
           "France 24"
+        ]
+      }
+    },
+    {
+      "id": "852ad9520a67",
+      "title": "US-Iran conflict escalates",
+      "description": "The US and Iran have continued to exchange fire, with the US bombing Iran for nine consecutive nights in retaliation for repeated attacks on oil tankers transiting the Strait of Hormuz.",
+      "lat": 26.57,
+      "lng": 58.15520000000001,
+      "severity": 4,
+      "location": "Strait of Hormuz",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
+      "image": null,
+      "ts": 1784523600000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "sources": [
+          "CNBC World"
         ]
       }
     },
@@ -1724,110 +1863,6 @@
       "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/07/13/media-houthi-lanciano-sei-missili-su-aeroporto-in-arabia-saudita_94ccd187-630a-4b75-b746-0809228ca9c0.html",
       "image": null,
       "ts": 1783963302000
-    },
-    {
-      "id": "bbbd68f8bf84",
-      "title": "EU unveils $1bn fund for Gaza war recovery",
-      "description": "The scheme falls critically short of the $71bn reportedly needed for Gaza's recovery over the next 10 years",
-      "lat": 50.85,
-      "lng": 4.349999999999994,
-      "severity": 2,
-      "location": "Brussels, Belgium",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/eu-unveils-1bn-fund-for-gaza-war-recovery?traffic_source=rss",
-      "image": null,
-      "ts": 1783960132000
-    },
-    {
-      "id": "ae13edae984e",
-      "title": "Volkswagen planning to cut up to 100,000 jobs globally",
-      "description": "The group, which includes Porsche and Audi, has faced a steep fall in profits and tough competition from China.",
-      "lat": 51.52,
-      "lng": 7.45,
-      "severity": 3,
-      "location": "Wolfsburg, Germany",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cx2wzpwn51lo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e86/live/076e2020-7ec9-11f1-af40-3101fe5a127d.jpg",
-      "ts": 1783959555000
-    },
-    {
-      "id": "2c09a12ecab9",
-      "title": "US imposes new sanctions on Cuba tourism ministry, state-owned companies",
-      "description": "The US Treasury Department posted the new directive on its website on Monday",
-      "lat": 38.9,
-      "lng": -77.0,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/7/13/us-imposes-new-sanctions-on-cuba-tourism-ministry-state-owned-companies?traffic_source=rss",
-      "image": null,
-      "ts": 1783959055000
-    },
-    {
-      "id": "56f8604af25e",
-      "title": "US Imposes New Sanctions on Cuba Tourism Ministry and State-Owned Companies",
-      "description": "The US imposed new sanctions on Cuba's tourism ministry and state-owned companies, targeting the country's tourism and trade sectors.",
-      "lat": 39.76,
-      "lng": -98.5,
-      "severity": 4,
-      "location": "Washington D.C., USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/7/13/us-imposes-new-sanctions-on-cuba-tourism-ministry-state-owned-companies?traffic_source=rss",
-      "image": null,
-      "ts": 1783959055000
-    },
-    {
-      "id": "d187138b54cf",
-      "title": "UK-Switzerland deal to scrap roaming charges",
-      "description": "The UK signs a new services deal with Switzerland to increase exports by £5.2bn annually",
-      "lat": 50.85,
-      "lng": 4.349999999999994,
-      "severity": 2,
-      "location": "Brussels, Belgium",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c621p9yjz1zo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a579/live/e797f600-7ecc-11f1-a521-db2da184cdb6.jpg",
-      "ts": 1783958713000
-    },
-    {
-      "id": "249d920b8645",
-      "title": "US and UK sign new trade agreement",
-      "description": "The US and UK have signed a new trade agreement, which is expected to increase exports by $5.2 billion annually.",
-      "lat": 51.5,
-      "lng": -0.12999999999999545,
-      "severity": 2,
-      "location": "London, UK",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c621p9yjz1zo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a579/live/e797f600-7ecc-11f1-a521-db2da184cdb6.jpg",
-      "ts": 1783958713000
-    },
-    {
-      "id": "8db89cfd6765",
-      "title": "Trump says US will take over Strait of Hormuz",
-      "description": "President Donald Trump has said the US will 'take over' the Strait of Hormuz, accusing Iran of breaking the deal.",
-      "lat": 38.89,
-      "lng": -75.1048,
-      "severity": 4,
-      "location": "Washington D.C., USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/trump-us-will-take-over-strait-of-hormuz?traffic_source=rss",
-      "image": null,
-      "ts": 1783957267000
-    },
-    {
-      "id": "4b27a5d91c72",
-      "title": "Trump Announces Plan to Take Control of Strait of Hormuz",
-      "description": "US President Donald Trump announced a plan to take control of the Strait of Hormuz and collect tolls from ships passing through the waterway.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 5,
-      "location": "Strait of Hormuz, Middle East",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/trump-us-will-take-over-strait-of-hormuz?traffic_source=rss",
-      "image": null,
-      "ts": 1783957267000
     }
   ]
 }
