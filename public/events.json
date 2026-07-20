@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-07-20T21:45:50.100165+00:00",
+  "updated": "2026-07-20T23:06:38.347691+00:00",
   "events": [
+    {
+      "id": "211f42b6f211",
+      "title": "Prisoner Exchange Between Russia and Ukraine",
+      "description": "Russia's ombudswoman has announced preparations for a new prisoner exchange with Ukraine, with separate lists for military personnel and civilians.",
+      "lat": 56.86,
+      "lng": 39.525199999999984,
+      "severity": 1,
+      "location": "Moscow, Russia",
+      "source": "TASS",
+      "url": "https://tass.com/world/2162779",
+      "image": null,
+      "ts": 1784587507000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2162779"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6dd12c72acc4",
+      "title": "US and Iran Conflict Escalates",
+      "description": "The conflict between the US and Iran has escalated, with both sides trading strikes and the US imposing sanctions on Iran.",
+      "lat": 35.69,
+      "lng": 51.420000000000016,
+      "severity": 4,
+      "location": "Tehran, Iran",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/20/aje-onl-nf_war-on-iran-back-to-square-one-200726?traffic_source=rss",
+      "image": null,
+      "ts": 1784586409000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/7/20/aje-onl-nf_war-on-iran-back-to-square-one-200726?traffic_source=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "6d31e7cc445f",
       "title": "Lebanese army deploys to southern pilot zones",
@@ -31,6 +97,39 @@
             "n": "France 24",
             "b": "center",
             "u": "https://www.france24.com/en/middle-east/20260720-lebanese-army-south-lebanon-pilot-zones-israel-withdrawal"
+          }
+        ]
+      }
+    },
+    {
+      "id": "142b17836427",
+      "title": "US Imposes 50% Tariffs on Canadian Goods",
+      "description": "The US has imposed 50% tariffs on certain Canadian goods, citing 'discriminatory treatment' in areas such as alcohol, automobiles, and dairy products.",
+      "lat": 50.85,
+      "lng": 4.349999999999994,
+      "severity": 3,
+      "location": "Brussels, Belgium",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/us-imposes-new-50-tariffs-on-certain-canadian-goods-11798474#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2025-10/6dod9c3_trump-carney-afp_625x300_08_October_25.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1784583621000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/us-imposes-new-50-tariffs-on-certain-canadian-goods-11798474#publisher=newsstand"
           }
         ]
       }
@@ -813,6 +912,39 @@
       }
     },
     {
+      "id": "5e1c5c8dba84",
+      "title": "Ebola Outbreak in DR Congo",
+      "description": "The Ebola outbreak in the Democratic Republic of Congo has claimed over 930 lives, with the World Health Organisation warning of a 'very high risk' of the virus spreading.",
+      "lat": -4.32,
+      "lng": 15.31,
+      "severity": 4,
+      "location": "Kinshasa, DR Congo",
+      "source": "Daily Star World",
+      "url": "https://www.dailystar.co.uk/news/world-news/very-high-risk-ebola-strain-37453444",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37453534.ece/ALTERNATES/s615/1_KENYA-DRCONGO-HEALTH-EBOLA.jpg",
+      "ts": 1784549172000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/ebola-deaths-in-dr-congo-rise-to-930-amid-attacks-on-health-workers-13565139"
+          }
+        ]
+      }
+    },
+    {
       "id": "df0e7a2958be",
       "title": "Andy Burnham becomes UK Prime Minister",
       "description": "Andy Burnham has become Britain's new prime minister, succeeding Keir Starmer. He has pledged to tackle the cost of living and expand devolution.",
@@ -837,6 +969,69 @@
           "IBTimes",
           "France 24",
           "Breitbart"
+        ]
+      }
+    },
+    {
+      "id": "1873b645d387",
+      "title": "Andy Burnham Becomes UK Prime Minister",
+      "description": "Andy Burnham has become the UK's 7th prime minister in a decade, succeeding Keir Starmer and inheriting a country beset by low wages and internal strife.",
+      "lat": 51.5,
+      "lng": -0.12999999999999545,
+      "severity": 2,
+      "location": "London, UK",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/andy-burnham-becomes-uk-prime-minister_n_6a5e066fe4b0252a18ddd208",
+      "image": null,
+      "ts": 1784547532000,
+      "coverage": {
+        "left": 5,
+        "center": 2,
+        "right": 0,
+        "total": 7,
+        "buckets": {
+          "left": 1,
+          "lean_left": 4,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/andy-burnham-becomes-uk-prime-minister_n_6a5e066fe4b0252a18ddd208"
+          },
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/20/world/europe/andy-burnham-uk.html"
+          },
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/united-kingdom/andy-burnham-british-prime-minister-keir-starmer-labour-king-charles-rcna588324"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/andy-burnham-become-uk-prime-minister-after-meeting-134906887"
+          },
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/07/20/andy-burnham-uk-prime-minister-day-one-trump-invitation/"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/andy-burnham-now-british-prime-minister-he-vowing-implement-new-economic-model-3805501"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/video/20260720-replay-andy-burnham-gives-first-speech-as-uk-prime-minister-1"
+          }
         ]
       }
     },
@@ -2298,30 +2493,37 @@
       "ts": 1783993068000
     },
     {
-      "id": "024fa327727a",
-      "title": "US and Iran conflict reignites",
-      "description": "The conflict between the US and Iran has reignited, with the US taking over the Strait of Hormuz.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYkZaamlwNS1ielVkSzd5WnNEYWdaUmhhbWd1am1ZaXkxcXFrRktlaVNJN0xMZ2RIbkk5ejh3X0VtdzJJTHdiWnJ1cmpIWnhIN0hTRVJCMm1iVmNjbUsyR19oY2xiUHljd2oycFV1akdoM2ZRRDV4UUVrMHhQQTBGb21jNmt5VkZqTVpCOFRGeUl1d2Z0b2UxTDNXNlBCM0ZqM3g4elln?oc=5",
-      "image": null,
-      "ts": 1783983349000
-    },
-    {
-      "id": "07e15c32dd6c",
-      "title": "Venezuela-US Sanctions",
-      "description": "The US has imposed sanctions on Venezuela, with Senior Associate Attorney Megan Mohler discussing the implications.",
-      "lat": 11.58,
-      "lng": -66.9,
+      "id": "80287a8065cd",
+      "title": "Russia and China Deepen Military Cooperation",
+      "description": "Russia and China have been found to have deep military cooperation, with secret documents revealing plans for joint military operations.",
+      "lat": 55.76,
+      "lng": 37.62,
       "severity": 3,
-      "location": "Caracas, Venezuela",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOU2lKTzVzSEQ1M0s2YVg3UkFmQkVJWWNJdkdCR2JHMW4zcDRONElZamZEMUdBMldWaXp4UVVjMDZWX3FBTWVuTjJfR1FQazRBazdBZ2E2TVRqM0xsT0hxS1U1cTl3OWZHUnEyRm9SSFJmQnFrM1NrWUtCRkRqR3JyQ0gwS20yVmtS?oc=5",
-      "image": null,
-      "ts": 1783982528000
+      "location": "Moscow, Russia",
+      "source": "Der Spiegel International",
+      "url": "https://www.spiegel.de/international/world/the-new-axis-of-evil-der-spiegel-investigation-reveals-deep-military-cooperation-between-russia-and-china-a-12dc295a-413d-4a2f-b44f-2922092270e3#ref=rss",
+      "image": "https://cdn.prod.www.spiegel.de/images/4f88271b-a7c2-4657-8e85-ddfdbecb33e1_w520_r2.08_fpx44_fpy51.jpg",
+      "ts": 1783591260000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Der Spiegel International",
+            "b": "lean_left",
+            "u": "https://www.spiegel.de/international/world/the-new-axis-of-evil-der-spiegel-investigation-reveals-deep-military-cooperation-between-russia-and-china-a-12dc295a-413d-4a2f-b44f-2922092270e3#ref=rss"
+          }
+        ]
+      }
     }
   ]
 }
