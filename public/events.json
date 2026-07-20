@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-07-20T20:26:26.188289+00:00",
+  "updated": "2026-07-20T21:45:50.100165+00:00",
   "events": [
+    {
+      "id": "6d31e7cc445f",
+      "title": "Lebanese army deploys to southern pilot zones",
+      "description": "The Lebanese army has begun assuming security responsibilities in three southern villages under a US-backed pilot initiative.",
+      "lat": 34.43,
+      "lng": 35.329999999999984,
+      "severity": 2,
+      "location": "Froun, Lebanon",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20260720-lebanese-army-south-lebanon-pilot-zones-israel-withdrawal",
+      "image": "https://s.france24.com/media/display/86e39c64-6f3c-11f1-821b-005056bfb2b6/w:1024/p:16x9/000-B82P964.jpg",
+      "ts": 1784583897000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20260720-lebanese-army-south-lebanon-pilot-zones-israel-withdrawal"
+          }
+        ]
+      }
+    },
+    {
+      "id": "856b724a0422",
+      "title": "US imposes 50% tariff on Canadian imports",
+      "description": "The US has imposed a 50% tariff on many Canadian goods, escalating trade tensions between the two countries.",
+      "lat": 51.95,
+      "lng": 6.255200000000002,
+      "severity": 3,
+      "location": "Brussels, Belgium",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06cc/live/a320cf00-8481-11f1-926f-c90d1bcfbc84.jpg",
+      "ts": 1784583333000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/us-imposes-new-50-tariff-on-many-canadian-goods/a-78042667?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cd5aeb3ee4bf",
+      "title": "US launches fresh strikes on Iran",
+      "description": "The US has launched fresh strikes on Iran, marking the 10th consecutive night of attacks.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 4,
+      "location": "Strait of Hormuz",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c484/live/46eda4a0-8059-11f1-bee8-53ce494e1abc.jpg",
+      "ts": 1784581771000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/iran-war-us-launches-fresh-strikes-as-trump-vows-revenge/live-78042474?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
     {
       "id": "53184519aa81",
       "title": "US vows to 'swiftly punish' Iran after more troops killed",
@@ -31,6 +130,77 @@
             "n": "CBS News World",
             "b": "lean_left",
             "u": "https://www.cbsnews.com/live-updates/iran-war-trump-us-troops-killed-wounded-jordan-base/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "831dafc145f3",
+      "title": "Senegalese president assumes ECOWAS leadership",
+      "description": "Senegalese President Bassirou Diomaye Faye has taken the helm of the Economic Community of West African States (ECOWAS).",
+      "lat": 14.73,
+      "lng": -17.38,
+      "severity": 2,
+      "location": "Dakar, Senegal",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/senegalese-president-assumes-ecowas-leadership",
+      "image": "https://s.france24.com/media/display/01bb0a9a-8477-11f1-b581-005056a90284/w:1024/p:16x9/ANGL260720-2145-Live-01.jpg",
+      "ts": 1784578629000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/senegalese-president-assumes-ecowas-leadership"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cab442be2b33",
+      "title": "Trump vows to protect Netanyahu from arrest",
+      "description": "US President Trump has vowed to protect Israeli Prime Minister Netanyahu from arrest during his upcoming visit to the US.",
+      "lat": 40.71,
+      "lng": -74.01,
+      "severity": 3,
+      "location": "New York City, USA",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-903105",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_3667,w_5500/729916",
+      "ts": 1784577129000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/iran-news/article-903105"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/trump-vows-netanyahu-will-not-be-arrested-in-the-u-s-despite-mamdanis-calls-for-his-arrest/"
           }
         ]
       }
@@ -178,6 +348,39 @@
             "n": "Washington Post World",
             "b": "lean_left",
             "u": "https://www.washingtonpost.com/world/2026/07/20/ukraine-bombs-warehouses-targeting-wildberries-russias-version-amazon/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0cf1db285bcd",
+      "title": "US and Iran trade strikes, escalating conflict",
+      "description": "The US and Iran have intensified attacks, with the US launching strikes on Iran and Iran retaliating with attacks on US bases.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 4,
+      "location": "Strait of Hormuz",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/07/20/iran-retaliates-against-us-strikes-gas-returns-4-gallon/",
+      "image": null,
+      "ts": 1784568936000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/07/20/iran-retaliates-against-us-strikes-gas-returns-4-gallon/"
           }
         ]
       }
@@ -1380,19 +1583,6 @@
       "ts": 1784122325000
     },
     {
-      "id": "cd5aeb3ee4bf",
-      "title": "Iran threatens to block more trade routes",
-      "description": "Iran threatens to block more trade routes as US launches fresh strikes.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 3,
-      "location": "Strait of Hormuz",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c484/live/46eda4a0-8059-11f1-bee8-53ce494e1abc.jpg",
-      "ts": 1784118398000
-    },
-    {
       "id": "93ba3df4d2c4",
       "title": "Venezuela government to launch formal talks with opposition members",
       "description": "The opposition says the aim of the talks is to strengthen the democratic institutions and the electoral system.",
@@ -2132,71 +2322,6 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOU2lKTzVzSEQ1M0s2YVg3UkFmQkVJWWNJdkdCR2JHMW4zcDRONElZamZEMUdBMldWaXp4UVVjMDZWX3FBTWVuTjJfR1FQazRBazdBZ2E2TVRqM0xsT0hxS1U1cTl3OWZHUnEyRm9SSFJmQnFrM1NrWUtCRkRqR3JyQ0gwS20yVmtS?oc=5",
       "image": null,
       "ts": 1783982528000
-    },
-    {
-      "id": "cbd74498b97a",
-      "title": "US to Impose 20% Charge on Cargo Passing Through Strait of Hormuz",
-      "description": "The US president has announced plans to impose a 20% charge on all cargo shipped through the Strait of Hormuz.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/caac/live/6d318280-7ece-11f1-a521-db2da184cdb6.jpg",
-      "ts": 1783976228000
-    },
-    {
-      "id": "c0e64a4d4a74",
-      "title": "Ukraine and Allies Launch Coalition to Tackle Russian Ballistic Missiles",
-      "description": "Ukraine and its allies have launched a coalition to tackle Russia's ballistic missiles.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 3,
-      "location": "Kyiv, Ukraine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/ukraine-and-allies-launch-coalition-to-tackle-russias-ballistic-missiles?traffic_source=rss",
-      "image": null,
-      "ts": 1783975287000
-    },
-    {
-      "id": "c4f853b099b0",
-      "title": "Iran Warns US Against Interference in Strait of Hormuz",
-      "description": "Iran's military has warned the US against interfering in the management of the Strait of Hormuz.",
-      "lat": 35.69,
-      "lng": 51.420000000000016,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/iran-military-warns-us-against-strait-of-hormuz?traffic_source=rss",
-      "image": null,
-      "ts": 1783975207000
-    },
-    {
-      "id": "f1670d7692fe",
-      "title": "Hungary parliament votes to remove president",
-      "description": "Tamás Sulyok was widely seen as a loyalist of former prime minister Viktor Orbán, who lost power in April after 16 years.",
-      "lat": 47.5,
-      "lng": 19.08,
-      "severity": 3,
-      "location": "Budapest, Hungary",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cp8r002gdevo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3314/live/d7e89fb0-7ef5-11f1-bee8-53ce494e1abc.jpg",
-      "ts": 1783975154000
-    },
-    {
-      "id": "82ced5b9e5c2",
-      "title": "Hungary parliament votes to remove president from office",
-      "description": "The Hungarian parliament has voted to remove the president from office.",
-      "lat": 48.6,
-      "lng": 19.05000000000001,
-      "severity": 3,
-      "location": "Budapest, Hungary",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cp8r002gdevo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3314/live/d7e89fb0-7ef5-11f1-bee8-53ce494e1abc.jpg",
-      "ts": 1783975154000
     }
   ]
 }
