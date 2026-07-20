@@ -1,7 +1,131 @@
 {
   "schema": 1,
-  "updated": "2026-07-20T18:59:06.208452+00:00",
+  "updated": "2026-07-20T20:26:26.188289+00:00",
   "events": [
+    {
+      "id": "53184519aa81",
+      "title": "US vows to 'swiftly punish' Iran after more troops killed",
+      "description": "At least 3 U.S. service members were killed over the weekend in Iraq and Jordan, where back-to-back Iranian attacks on a U.S. base seem to have evaded defenses.",
+      "lat": 34.42,
+      "lng": 44.420000000000016,
+      "severity": 4,
+      "location": "Baghdad, Iraq",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-troops-killed-wounded-jordan-base/",
+      "image": null,
+      "ts": 1784578921000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-trump-us-troops-killed-wounded-jordan-base/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3dd07f8d942e",
+      "title": "Khalil al-Hayya elected as new Hamas leader",
+      "description": "Al-Hayya wins Hamas leadership with a single-vote margin, signalling a focus on Gaza amidst continued Israeli aggression.",
+      "lat": 31.51,
+      "lng": 34.46000000000001,
+      "severity": 3,
+      "location": "Gaza City, Gaza",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/20/what-does-khalil-al-hayyas-election-win-mean-for-gaza?traffic_source=rss",
+      "image": null,
+      "ts": 1784576582000,
+      "coverage": {
+        "left": 3,
+        "center": 3,
+        "right": 0,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/20/world/middleeast/gaza-talks-khalil-al-hayya-leader.html"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/khalil-al-hayya-man-who-led-gaza-ceasefire-talks-will-now-lead-hamas-11797266#publisher=newsstand"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/7/20/what-does-khalil-al-hayyas-election-win-mean-for-gaza?traffic_source=rss"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cx25nzkyj50o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-903070"
+          },
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/07/20/hamas-khalil-al-hayya-eletto-nuovo-leader-del-gruppo_de4f5ca6-a30c-4405-8d13-ccfe55554dbe.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "743eaab49b70",
+      "title": "New British PM says he will 'bear down' on Russia",
+      "description": "Andy Burnham stated during a telephone conversation with Vladimir Zelensky that London would continue to assist Kiev.",
+      "lat": 51.5,
+      "lng": 1.7752000000000123,
+      "severity": 3,
+      "location": "London, UK",
+      "source": "TASS",
+      "url": "https://tass.com/world/2162751",
+      "image": null,
+      "ts": 1784575435000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2162751"
+          }
+        ]
+      }
+    },
     {
       "id": "9aed1f9ab9b3",
       "title": "Tate Brothers Appear in Miami Court on Rape and Trafficking Charges",
@@ -22,6 +146,39 @@
         "sources": [
           "NBC News World",
           "Fox News World"
+        ]
+      }
+    },
+    {
+      "id": "866aa3f9bf44",
+      "title": "Ukraine bombs warehouses, targeting Wildberries",
+      "description": "Ukraine’s long-range drone attacks, including strikes this weekend on e-commerce warehouses, have undercut the Kremlin’s efforts to shield most Russian citizens from the war.",
+      "lat": 50.45,
+      "lng": 32.42519999999999,
+      "severity": 3,
+      "location": "Kyiv, Ukraine",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/07/20/ukraine-bombs-warehouses-targeting-wildberries-russias-version-amazon/",
+      "image": null,
+      "ts": 1784571775000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/07/20/ukraine-bombs-warehouses-targeting-wildberries-russias-version-amazon/"
+          }
         ]
       }
     },
@@ -48,6 +205,69 @@
           "NDTV World",
           "Al Jazeera",
           "BBC World"
+        ]
+      }
+    },
+    {
+      "id": "839a0a0e8484",
+      "title": "Yemen's Houthis announce 'maritime embargo' on Saudi Arabia",
+      "description": "The Houthis say the embargo begins immediately and is a response to a Saudi blockade of ports and airports in Yemen.",
+      "lat": 15.35,
+      "lng": 44.2,
+      "severity": 4,
+      "location": "Sana'a, Yemen",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss",
+      "image": null,
+      "ts": 1784568782000,
+      "coverage": {
+        "left": 4,
+        "center": 3,
+        "right": 0,
+        "total": 7,
+        "buckets": {
+          "left": 0,
+          "lean_left": 4,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/20/world/middleeast/yemen-houthis-saudi-arabia-red-sea-blockade.html"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/yemens-houthis-announce-maritime-embargo-saudi-arabia-134912678"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/yemen-saudi-arabia-houthi-rebels-iran-backed-houthis-announce-saudi-maritime-blockade-11796619#publisher=newsstand"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/7/20/houthis-announce-maritime-blockade-on-saudi-arabia?traffic_source=rss"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/yemens-houthi-rebels-have-been-threatening-help-iran-close-key-waterway-they-are-now-targeting-3805492"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/97389cc7-7c83-496e-a2d2-72a1eb574281?syn-25a6b1a6=1"
+          }
         ]
       }
     },
@@ -97,6 +317,64 @@
         "total": 1,
         "sources": [
           "TASS"
+        ]
+      }
+    },
+    {
+      "id": "b898a4ad2552",
+      "title": "Ismael 'El Mayo' Zambada sentenced to life in prison",
+      "description": "A Mexican drug lord who trafficked substances into the US for the Sinaloa cartel has been jailed for life.",
+      "lat": 41.81,
+      "lng": -72.0848,
+      "severity": 2,
+      "location": "New York City, USA",
+      "source": "Mirror World",
+      "url": "https://www.mirror.co.uk/news/world-news/mexican-cartel-el-mayo-jailed-37455212",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37455250.ece/ALTERNATES/s615/0_Screen-Shot-2021-09-24-at-152927.jpg",
+      "ts": 1784563337000,
+      "coverage": {
+        "left": 2,
+        "center": 3,
+        "right": 1,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 3,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/mexican-cartel-el-mayo-jailed-37455212"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/7/20/mexican-drug-lord-ismael-el-mayo-zambada-sentenced-to-life-in-us-prison?traffic_source=rss"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/el-mayo-zambada-led-sinaloa-cartel-four-decades-now-he-will-spend-rest-his-life-prison-3805511"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/mexican-drug-kingpin-ismael-el-mayo-zambada-sentenced-to-life-in-prison-13565339"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/mexican-drug-lord-el-mayo-sentenced-to-life-without-parole-in-us-prison/a-78042164?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/fmr-mexican-drug-cartel-leader-ismael-el-mayo-zambada-garcia-sentenced-to-life-in-prison-without-possibility-of-parole/"
+          }
         ]
       }
     },
@@ -305,31 +583,6 @@
         "total": 1,
         "sources": [
           "NDTV World"
-        ]
-      }
-    },
-    {
-      "id": "839a0a0e8484",
-      "title": "Houthi Rebels Declare Maritime Blockade Against Saudi Arabia",
-      "description": "Yemen's Houthi rebels, allies of Iran, declared a maritime embargo of Saudi Arabia, threatening the kingdom's crude exports through the Red Sea.",
-      "lat": 15.35,
-      "lng": 44.2,
-      "severity": 3,
-      "location": "Sana'a, Yemen",
-      "source": "IBTimes",
-      "url": "https://www.ibtimes.com/yemens-houthi-rebels-have-been-threatening-help-iran-close-key-waterway-they-are-now-targeting-3805492",
-      "image": null,
-      "ts": 1784553285000,
-      "coverage": {
-        "left": 2,
-        "center": 2,
-        "right": 0,
-        "total": 4,
-        "sources": [
-          "ABC News International",
-          "NDTV World",
-          "IBTimes",
-          "Financial Times World"
         ]
       }
     },
@@ -1944,32 +2197,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cp8r002gdevo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3314/live/d7e89fb0-7ef5-11f1-bee8-53ce494e1abc.jpg",
       "ts": 1783975154000
-    },
-    {
-      "id": "7baf3ba8e1de",
-      "title": "US to Impose Naval Blockade on Iranian Ports",
-      "description": "The US president announced the reinstatement of a naval blockade of Iranian ports and a 20% toll on all cargo shipped through the Strait of Hormuz.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz, Middle East",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/caac/live/6d318280-7ece-11f1-a521-db2da184cdb6.jpg",
-      "ts": 1783970440000
-    },
-    {
-      "id": "977f024d8a95",
-      "title": "US judge voids Trump's IRS settlement, alleges self-dealing",
-      "description": "A US judge has voided Trump's IRS settlement, alleging self-dealing.",
-      "lat": 38.89,
-      "lng": -77.01,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/us-judge-voids-trumps-irs-settlement-alleges-self-dealing?traffic_source=rss",
-      "image": null,
-      "ts": 1783969786000
     }
   ]
 }
