@@ -1,7 +1,77 @@
 {
   "schema": 1,
-  "updated": "2026-07-20T10:18:34.378116+00:00",
+  "updated": "2026-07-20T12:34:30.360594+00:00",
   "events": [
+    {
+      "id": "9af34ca9b50f",
+      "title": "Andy Burnham Becomes New UK Prime Minister",
+      "description": "Andy Burnham has been sworn in as the new UK Prime Minister, replacing Keir Starmer, and has promised to shift power away from London.",
+      "lat": 51.5,
+      "lng": -0.12999999999999545,
+      "severity": 2,
+      "location": "London, UK",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/andy-burnham-takes-over-uk-prime-minister-calls-new-political-model",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/07/931/523/andy-burnham-10-downing.jpg?ve=1&tl=1",
+      "ts": 1784549467000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "sources": [
+          "New York Times World",
+          "France 24"
+        ]
+      }
+    },
+    {
+      "id": "7d8c53050f5c",
+      "title": "India's 'Cockroach' Party Leads Protests Against Education Minister",
+      "description": "The youth-led 'Cockroach' movement in India has led thousands of protesters to march to parliament, demanding the sacking of the country's education minister.",
+      "lat": 28.61,
+      "lng": 77.23,
+      "severity": 3,
+      "location": "New Delhi, India",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/india-s-cockroach-party-leads-thousands-of-youth-in-protest-to-parliament",
+      "image": "https://s.france24.com/media/display/16147b30-8390-11f1-a82d-005056bf30b7/w:1024/p:16x9/AP26200495034063.jpg",
+      "ts": 1784547338000,
+      "coverage": {
+        "left": 3,
+        "center": 1,
+        "right": 0,
+        "total": 4,
+        "sources": [
+          "New York Times World",
+          "NBC News World",
+          "ABC News International",
+          "France 24"
+        ]
+      }
+    },
+    {
+      "id": "431e068d2513",
+      "title": "Iran Thanks Jordanians for Help in Targeting US Forces",
+      "description": "Iran's Islamic Revolutionary Guard Corps has thanked Jordanians for allegedly providing intelligence used to target US forces and aircraft.",
+      "lat": 32.33,
+      "lng": 36.2,
+      "severity": 3,
+      "location": "Amman, Jordan",
+      "source": "RT News",
+      "url": "https://www.rt.com/news/643253-iran-jordan-us-strike/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.07/thumbnail/6a5dfe4285f540058c239638.jpg",
+      "ts": 1784546788000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "sources": [
+          "RT News"
+        ]
+      }
+    },
     {
       "id": "47a5093ec0cf",
       "title": "Iran's Attack on Kuwait Infrastructure",
@@ -92,6 +162,31 @@
         "total": 1,
         "sources": [
           "Al Jazeera"
+        ]
+      }
+    },
+    {
+      "id": "6e4cc0c32f82",
+      "title": "Iran and US Continue to Escalate in the Middle East",
+      "description": "The conflict between Iran and the US has escalated, with both sides launching attacks on each other's targets, raising concerns of a wider war.",
+      "lat": 32.43,
+      "lng": 53.06,
+      "severity": 4,
+      "location": "Tehran, Iran",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/us-iran-tensions-rise_n_6a5dd6cae4b063a1f5f1fb7c",
+      "image": null,
+      "ts": 1784535253000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 0,
+        "total": 4,
+        "sources": [
+          "Business Insider",
+          "Mirror World",
+          "IBTimes",
+          "France 24"
         ]
       }
     },
@@ -1721,43 +1816,26 @@
       "ts": 1783947891000
     },
     {
-      "id": "671429815cd4",
-      "title": "Sudan's paramilitary RSF chief sentenced to death",
-      "description": "Mohamed Hamdan Dagalo was convicted in absentia along with 15 RSF commanders and allies.",
-      "lat": 15.63,
-      "lng": 32.53,
-      "severity": 4,
-      "location": "Khartoum, Sudan",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cn4dk3kl0l4o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/83f7/live/eb705460-7eaf-11f1-b5ec-67e9897fe2ad.jpg",
-      "ts": 1783944139000
-    },
-    {
-      "id": "a46cb562e07a",
-      "title": "EU strengthens sanctions regime against Sudan",
-      "description": "The EU has strengthened its sanctions regime against Sudan by targeting the gold trade.",
-      "lat": 52.5,
-      "lng": 5.302600000000012,
+      "id": "0d9ec22f6ac8",
+      "title": "China and Russia Deepen Military Cooperation",
+      "description": "China and Russia have deepened their military cooperation, with secret documents revealing plans for joint military operations and the development of advanced military technologies.",
+      "lat": 39.91,
+      "lng": 116.39,
       "severity": 3,
-      "location": "Brussels, Belgium",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdFN3T0hsQzZCQkpfWFk5RGtzWU9hZFBIbDRYQzJsV3h5UUlnM0FOOGEwWUJrNXVCUk1CQW41Z2MtZEF6Qml1UmJwZmRLM21sUkhtVlFZaV9ETDNaWEx1YTFhNW1vRzVaNVRiZEtrZjN4SkliZnU2QTh6eVpQS29QNTZleU1XTVk5U3ZwOFBPZy1TVTJENEVwNzZOQW1kUGJzV0c3eGJQTUxRS004ZmpFS0o4Q1V5ZEtldGVjM3RpaDZKVGdWaHhKRmdjR2hNWVZkbXVN?oc=5",
-      "image": null,
-      "ts": 1783938827000
-    },
-    {
-      "id": "7c7cfc62ba3a",
-      "title": "EU countries consider sanctions on trade from illegal Israeli settlements",
-      "description": "Pressure from EU member states to impose sanctions has increased in recent months amid escalating settler violence",
-      "lat": 50.85,
-      "lng": 4.349999999999994,
-      "severity": 3,
-      "location": "Brussels, Belgium",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/eu-countries-consider-sanctions-on-trade-from-illegal-israeli-settlements?traffic_source=rss",
-      "image": null,
-      "ts": 1783938745000
+      "location": "Beijing, China",
+      "source": "Der Spiegel International",
+      "url": "https://www.spiegel.de/international/world/the-new-axis-of-evil-der-spiegel-investigation-reveals-deep-military-cooperation-between-russia-and-china-a-12dc295a-413d-4a2f-b44f-2922092270e3#ref=rss",
+      "image": "https://cdn.prod.www.spiegel.de/images/4f88271b-a7c2-4657-8e85-ddfdbecb33e1_w520_r2.08_fpx44_fpy51.jpg",
+      "ts": 1783591260000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "sources": [
+          "Der Spiegel International"
+        ]
+      }
     }
   ]
 }
