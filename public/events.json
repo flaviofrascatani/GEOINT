@@ -1,7 +1,83 @@
 {
   "schema": 1,
-  "updated": "2026-07-21T03:36:24.668406+00:00",
+  "updated": "2026-07-21T06:14:20.888538+00:00",
   "events": [
+    {
+      "id": "73bedfa47c36",
+      "title": "Nicaragua's Ortega announces no elections anytime soon",
+      "description": "Nicaragua's President Daniel Ortega has announced that the country will not hold elections anytime soon, eliminating any path for opposition to challenge his rule.",
+      "lat": 12.12,
+      "lng": -86.25,
+      "severity": 4,
+      "location": "Managua, Nicaragua",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/nicaragua-ortega-ends-elections",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/07/931/523/Daniel-Ortega-elections-rule.png?ve=1&tl=1",
+      "ts": 1784609787000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/20/world/americas/nicaragua-ortega-abolish-elections.html"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/nicaraguas-president-ortega-moves-extend-20-year-rule-134932447"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/nicaragua-ortega-ends-elections"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e1d03074079c",
+      "title": "US and Iran engage in diplomatic efforts",
+      "description": "Despite ongoing tensions, the US and Iran have engaged in diplomatic efforts, with the US imposing sanctions and Iran responding with retaliatory measures.",
+      "lat": 35.69,
+      "lng": 51.420000000000016,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/07/21/iran-war-ceasefire-proposal-trump-troops",
+      "image": "https://images.axios.com/nLkeI9jW39E_zRMRSUZihCdBB9s=/0x0:5187x2918/1366x768/2026/07/21/1784597483574.jpeg",
+      "ts": 1784597547000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/07/21/iran-war-ceasefire-proposal-trump-troops"
+          }
+        ]
+      }
+    },
     {
       "id": "adc60bbf1d27",
       "title": "Russia returns 550 servicemen from Ukrainian captivity",
@@ -312,6 +388,39 @@
       }
     },
     {
+      "id": "842089d32d4b",
+      "title": "ASEAN top diplomats meet in shadow of US-Iran conflict",
+      "description": "ASEAN's top diplomats have met to discuss regional issues, including the ongoing US-Iran conflict and its impact on the region.",
+      "lat": 1.29,
+      "lng": 103.85,
+      "severity": 2,
+      "location": "Singapore",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTUk5MFphUndRWUE2X3NSdURrVDQzSlc5VThFNjd2bUNfRnR6YW9OMVFiU3NCbENieUhISnZWblNWQXktMFVWWWRleUJaNThta2hDMDdBeGZiMmpramRSdDl6U0M1VkF5a2hNdWI0N2RpQ21HTkQwZ2gxMHdoVmd6aXhBeEtzWHVucjJFMFBRTW1NQnZCQkZZRll1X1Zidw?oc=5",
+      "image": null,
+      "ts": 1784584980000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTUk5MFphUndRWUE2X3NSdURrVDQzSlc5VThFNjd2bUNfRnR6YW9OMVFiU3NCbENieUhISnZWblNWQXktMFVWWWRleUJaNThta2hDMDdBeGZiMmpramRSdDl6U0M1VkF5a2hNdWI0N2RpQ21HTkQwZ2gxMHdoVmd6aXhBeEtzWHVucjJFMFBRTW1NQnZCQkZZRll1X1Zidw?oc=5"
+          }
+        ]
+      }
+    },
+    {
       "id": "6d31e7cc445f",
       "title": "Lebanese army deploys to southern pilot zones",
       "description": "The Lebanese army has begun assuming security responsibilities in three southern villages under a US-backed pilot initiative.",
@@ -412,26 +521,26 @@
     },
     {
       "id": "839a0a0e8484",
-      "title": "Yemen's Houthis announce 'maritime embargo' on Saudi Arabia",
-      "description": "The Houthis say the embargo begins immediately and is a response to a Saudi blockade of ports and airports in Yemen.",
+      "title": "Houthis declare maritime embargo on Saudi Arabia",
+      "description": "The Houthis have announced a maritime embargo on Saudi Arabia, marking a major escalation in the Middle East conflict.",
       "lat": 15.35,
       "lng": 44.2,
-      "severity": 3,
+      "severity": 4,
       "location": "Sana'a, Yemen",
       "source": "BBC World",
       "url": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss",
       "image": null,
       "ts": 1784583019000,
       "coverage": {
-        "left": 4,
+        "left": 2,
         "center": 3,
-        "right": 0,
-        "total": 7,
+        "right": 1,
+        "total": 6,
         "buckets": {
           "left": 0,
-          "lean_left": 4,
+          "lean_left": 2,
           "center": 3,
-          "lean_right": 0,
+          "lean_right": 1,
           "right": 0
         },
         "sources": [
@@ -446,19 +555,14 @@
             "u": "https://abcnews.com/International/wireStory/yemens-houthis-announce-maritime-embargo-saudi-arabia-134912678"
           },
           {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/yemen-saudi-arabia-houthi-rebels-iran-backed-houthis-announce-saudi-maritime-blockade-11796619#publisher=newsstand"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/7/20/houthis-announce-maritime-blockade-on-saudi-arabia?traffic_source=rss"
-          },
-          {
             "n": "BBC World",
             "b": "center",
             "u": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/07/20/iran-houthi-yemen-saudi-arabia.html"
           },
           {
             "n": "IBTimes",
@@ -466,9 +570,9 @@
             "u": "https://www.ibtimes.com/yemens-houthi-rebels-have-been-threatening-help-iran-close-key-waterway-they-are-now-targeting-3805492"
           },
           {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/policy/international/5979139-houthi-saudi-arabia-red-sea-blockade/"
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/643278-houthis-saudi-naval-blockade/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
           }
         ]
       }
@@ -2765,19 +2869,6 @@
       "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/07/14/lue-apre-nuovo-cluster-nei-negoziati-di-adesione-con-lucraina_851e3f18-69c2-4624-9111-06f5fd3e61eb.html",
       "image": null,
       "ts": 1784016325000
-    },
-    {
-      "id": "0400e0f7a65f",
-      "title": "UAE condemns Iran's 'brazen' attack on tankers",
-      "description": "The UAE has condemned Iran's attack on tankers, calling it a 'brazen' attack.",
-      "lat": 24.48,
-      "lng": 56.275199999999984,
-      "severity": 3,
-      "location": "Abu Dhabi, UAE",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0962/live/b6b2aac0-7f36-11f1-b9f9-7523a937b0a2.jpg",
-      "ts": 1784004648000
     }
   ]
 }
