@@ -1,7 +1,50 @@
 {
   "schema": 1,
-  "updated": "2026-07-21T19:44:30.773296+00:00",
+  "updated": "2026-07-21T21:20:50.059062+00:00",
   "events": [
+    {
+      "id": "2f610ee41db8",
+      "title": "Ukraine's Zelenskyy fires military chief after protests",
+      "description": "Ukrainian President Volodymyr Zelenskyy has fired Gen. Oleksandr Syrsky as commander-in-chief of Ukraine’s armed forces, following days of mass protests in Kyiv and other cities nationwide demanding his removal.",
+      "lat": 50.45,
+      "lng": 30.52,
+      "severity": 3,
+      "location": "Kyiv, Ukraine",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/ukraines-zelenskyy-fires-military-chief-after-protests-names-134962594",
+      "image": "https://s.abcnews.com/images/International/wirestory_504513cfcc5cbc55175dc605cc711793_4x3_384.jpg",
+      "ts": 1784666043000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/ukraines-zelenskyy-fires-military-chief-after-protests-names-134962594"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/ukraine-s-zelensky-fires-military-chief-after-protests-and-names-a-replacement"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/ukraine-s-zelenskyy-fires-military-chief-after-days-of-protests/a-78059652?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
     {
       "id": "8c5b8b3d2974",
       "title": "France becomes first EU nation to ban social media access for under-15s",
@@ -31,6 +74,82 @@
             "n": "Daily Express World",
             "b": "right",
             "u": "https://www.express.co.uk/news/world/2231604/france-bans-social-media-under-15s"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4d55107abf79",
+      "title": "Trump to impose 50% tariffs on Canadian hockey sticks, alcohol, other goods",
+      "description": "President Trump is imposing 50% tariffs on a range of Canadian goods, from hockey equipment to alcoholic beverages, escalating the trade dispute between the two countries.",
+      "lat": 45.42,
+      "lng": -75.69,
+      "severity": 3,
+      "location": "Ottawa, Canada",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/trump-canada-tariffs-hockey-milk-alcohol/",
+      "image": null,
+      "ts": 1784661960000,
+      "coverage": {
+        "left": 3,
+        "center": 0,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/us-news/2026/jul/20/trump-canada-tariffs"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/trump-canada-tariffs-hockey-milk-alcohol/"
+          },
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/07/21/trump-tariffs-canada-alcohol-motor-vehicles-dairy/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6d12ddaa528b",
+      "title": "Guterres calls for stepping up diplomatic efforts to end US-Iran conflict",
+      "description": "UN Secretary-General António Guterres has called for stepping up diplomatic efforts to end the conflict between the US and Iran.",
+      "lat": 41.85,
+      "lng": -73.97,
+      "severity": 2,
+      "location": "New York City, USA",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Rem9oZURvTmtpa1E1T1VHRmc3bUdZRFBwRHFiNjhReGY5Y3B0dnhPUFZqdW9PNDIwRnJmT0NISTNzTGVoR1l5MkZYUUl1SVNRRUFtQS1GYw?oc=5",
+      "image": null,
+      "ts": 1784661377000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Rem9oZURvTmtpa1E1T1VHRmc3bUdZRFBwRHFiNjhReGY5Y3B0dnhPUFZqdW9PNDIwRnJmT0NISTNzTGVoR1l5MkZYUUl1SVNRRUFtQS1GYw?oc=5"
           }
         ]
       }
@@ -107,6 +226,49 @@
       }
     },
     {
+      "id": "b2ea5e0be7b7",
+      "title": "Iran Shifted Nuclear Centrifuges To Pickaxe Mountain",
+      "description": "According to a Wall Street Journal report citing US and Israeli officials, Israeli intelligence believes the transfer took place last autumn, months after the 12-day conflict in June 2025.",
+      "lat": 32.42,
+      "lng": 53.06,
+      "severity": 4,
+      "location": "Pickaxe Mountain, Iran",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/iran-shifted-nuclear-centrifuges-to-pickaxe-mountain-report-11803267#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-07/hj6dn5k_pickaxe-mountain_625x300_15_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1784659408000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/iran-shifted-nuclear-centrifuges-to-pickaxe-mountain-report-11803267#publisher=newsstand"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/07/21/trump-iran-pickaxe-mountain-bomb"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/iran-news/article-903221"
+          }
+        ]
+      }
+    },
+    {
       "id": "b1a7d499b513",
       "title": "Netherlands to sanction trade with illegal Israeli settlements",
       "description": "Dutch ban on Israeli goods from occupied territory comes as efforts to implement EU-wide sanctions remain stalled.",
@@ -135,6 +297,39 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/news/2026/7/21/netherlands-to-sanction-trade-with-illegal-israeli-settlements?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "34f1d788e41c",
+      "title": "Moldova's parliament elects investor Vasile Tofan as prime minister to push EU membership bid",
+      "description": "Moldova's pro-Western parliament has elected investor Vasile Tofan as prime minister to push the country's bid for EU membership.",
+      "lat": 47.01,
+      "lng": 28.86,
+      "severity": 1,
+      "location": "Chișinău, Moldova",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/moldovas-parliament-elects-investor-vasile-tofan-prime-minister-134958590",
+      "image": "https://s.abcnews.com/images/International/wirestory_22c8c6d3298d3f00b09fd0c1c065bcac_4x3_384.jpg",
+      "ts": 1784658848000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/moldovas-parliament-elects-investor-vasile-tofan-prime-minister-134958590"
           }
         ]
       }
@@ -2991,71 +3186,6 @@
       "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/07/11/il-nicaragua-autorizza-per-la-prima-volta-lingresso-di-militari-cinesi_72bf543a-db09-4ec4-8edf-028d9db4abc0.html",
       "image": null,
       "ts": 1783765911000
-    },
-    {
-      "id": "2256733a5ebd",
-      "title": "Venezuela earthquake toll worsened by sanctions",
-      "description": "The earthquake toll in Venezuela has been worsened by sanctions, which have limited the country's ability to respond to the disaster.",
-      "lat": 10.48,
-      "lng": -66.9,
-      "severity": 4,
-      "location": "Caracas, Venezuela",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPc2d1Z1laWkptYUFqMG1Sa1RqWXV6dVV0bHFIZnI5U20xR083VjJMQ0NkSmM4Y3VXZHBOb3otV1p3SUFjVUxRNlVLLXBoSXlvcXFRekJmTDBieEFjUXJidDJwbGcxaE9YVU1FMTVTcnl1Z1ZHYW9ER2xwbU9DTGZBTi1rVFNpajBxNHRr?oc=5",
-      "image": null,
-      "ts": 1783764180000
-    },
-    {
-      "id": "ce5941dac0d0",
-      "title": "Trump Threatens to Decimate Iran",
-      "description": "Trump has threatened to decimate Iran if it attempts to kill him, as tensions between the US and Iran continue to rise.",
-      "lat": 38.89,
-      "lng": -77.01,
-      "severity": 4,
-      "location": "Washington, D.C., USA",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBvODdoUDdFOEwwM0pfWXBmcl9KYkdrZG9kbmJIajVzSUhxSEcxWTVqTTVqNUNrMWVMajhKYXU1SjZGUGlyenBtdHFTOXlCOTNaR0EzSHFUUEFuSXBwNXfSAWNBVV95cUxQRUtfMEJjQW5fUjRLYXI4NWtkb1duYnZZc09CZUVFYTF3dExMTjhjalFSODNwalAtNmZVRHNSaHlPOEZOV2xqTUZscWQwZHB0MnY5UzRYLWZCVW5lNFBGeWdaZWc?oc=5",
-      "image": null,
-      "ts": 1783762563000
-    },
-    {
-      "id": "0c848b5e6a3e",
-      "title": "Typhoon Bavi approaches China",
-      "description": "Typhoon Bavi is approaching China, with over 900,000 people evacuated from the affected areas.",
-      "lat": 23.13,
-      "lng": 113.27,
-      "severity": 4,
-      "location": "Guangzhou, China",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/hundreds-of-thousands-evacuated-as-typhoon-bavi-barrels-towards-china?traffic_source=rss",
-      "image": null,
-      "ts": 1783762377000
-    },
-    {
-      "id": "42a4c8c08f28",
-      "title": "China Typhoon",
-      "description": "More than 1 million evacuated as Typhoon Bavi makes landfall in China",
-      "lat": 29.08,
-      "lng": 122.5752,
-      "severity": 3,
-      "location": "Wenzhou, China",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/hundreds-of-thousands-evacuated-as-typhoon-bavi-barrels-towards-china?traffic_source=rss",
-      "image": null,
-      "ts": 1783762377000
-    },
-    {
-      "id": "ff3fd53e6f6a",
-      "title": "Venezuela suffers second nationwide blackout in five days",
-      "description": "Venezuela experiences a second nationwide blackout in five days, with the cause of the power outage unknown.",
-      "lat": 10.48,
-      "lng": -66.9,
-      "severity": 4,
-      "location": "Caracas, Venezuela",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/cuba-suffers-second-nationwide-blackout-in-five-days?traffic_source=rss",
-      "image": null,
-      "ts": 1783760423000
     }
   ]
 }
