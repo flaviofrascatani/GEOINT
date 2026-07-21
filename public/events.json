@@ -1,7 +1,78 @@
 {
   "schema": 1,
-  "updated": "2026-07-21T06:14:20.888538+00:00",
+  "updated": "2026-07-21T09:12:47.578247+00:00",
   "events": [
+    {
+      "id": "6f4053ae38c0",
+      "title": "Lebanon's President to Meet with Trump to Push for Israeli Troop Withdrawal",
+      "description": "Lebanon's president is set to meet with US President Trump to push for the withdrawal of Israeli troops from Lebanese territory.",
+      "lat": 38.89,
+      "lng": -75.1048,
+      "severity": 2,
+      "location": "Washington D.C., USA",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/lebanons-president-meet-trump-washington-push-israeli-troop-134939118",
+      "image": "https://s.abcnews.com/images/US/wirestory_e0364d0334c2f4d888d2b3970c9fe5b1_4x3_384.jpg",
+      "ts": 1784615205000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/lebanons-president-meet-trump-washington-push-israeli-troop-134939118"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20260721-lebanon-s-aoun-to-press-trump-for-israeli-troop-withdrawal-as-pressure-builds-to-disarm-hezbollah"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0eca5fa9c215",
+      "title": "Iran Revolutionary Guards Hit US Radar and Air Defence Systems",
+      "description": "Iran's Revolutionary Guards have hit US radar and air defence systems in Bahrain and Kuwait, according to Iranian state media.",
+      "lat": 27.12,
+      "lng": 50.55000000000001,
+      "severity": 4,
+      "location": "Manama, Bahrain",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20260721-live-lebanon-s-aoun-to-meet-trump-as-pressure-builds-to-disarm-hezbollah",
+      "image": null,
+      "ts": 1784613216000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20260721-live-lebanon-s-aoun-to-meet-trump-as-pressure-builds-to-disarm-hezbollah"
+          }
+        ]
+      }
+    },
     {
       "id": "73bedfa47c36",
       "title": "Nicaragua's Ortega announces no elections anytime soon",
@@ -356,11 +427,11 @@
     },
     {
       "id": "d2bb72f03f66",
-      "title": "Unknown mediators reportedly float 10-day ceasefire for U.S. and Iran",
-      "description": "Unnamed mediators have reportedly shopped a proposal for a ten-day de-escalation ceasefire between the U.S. and Iran.",
+      "title": "Mediators Push for 10-Day Ceasefire in US-Iran Conflict",
+      "description": "Mediators have proposed a 10-day ceasefire in the conflict between the US and Iran, as tensions continue to escalate in the region.",
       "lat": 35.69,
       "lng": 51.420000000000016,
-      "severity": 1,
+      "severity": 2,
       "location": "Tehran, Iran",
       "source": "Breitbart",
       "url": "https://www.breitbart.com/middle-east/2026/07/20/unknown-mediators-reportedly-float-10-day-ceasefire-for-u-s-and-iran/",
@@ -369,16 +440,21 @@
       "coverage": {
         "left": 0,
         "center": 0,
-        "right": 1,
-        "total": 1,
+        "right": 2,
+        "total": 2,
         "buckets": {
           "left": 0,
           "lean_left": 0,
           "center": 0,
-          "lean_right": 0,
+          "lean_right": 1,
           "right": 1
         },
         "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2162803"
+          },
           {
             "n": "Breitbart",
             "b": "right",
@@ -393,6 +469,39 @@
       "description": "ASEAN's top diplomats have met to discuss regional issues, including the ongoing US-Iran conflict and its impact on the region.",
       "lat": 1.29,
       "lng": 103.85,
+      "severity": 2,
+      "location": "Singapore",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTUk5MFphUndRWUE2X3NSdURrVDQzSlc5VThFNjd2bUNfRnR6YW9OMVFiU3NCbENieUhISnZWblNWQXktMFVWWWRleUJaNThta2hDMDdBeGZiMmpramRSdDl6U0M1VkF5a2hNdWI0N2RpQ21HTkQwZ2gxMHdoVmd6aXhBeEtzWHVucjJFMFBRTW1NQnZCQkZZRll1X1Zidw?oc=5",
+      "image": null,
+      "ts": 1784584980000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTUk5MFphUndRWUE2X3NSdURrVDQzSlc5VThFNjd2bUNfRnR6YW9OMVFiU3NCbENieUhISnZWblNWQXktMFVWWWRleUJaNThta2hDMDdBeGZiMmpramRSdDl6U0M1VkF5a2hNdWI0N2RpQ21HTkQwZ2gxMHdoVmd6aXhBeEtzWHVucjJFMFBRTW1NQnZCQkZZRll1X1Zidw?oc=5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "055787fcfc63",
+      "title": "ASEAN Top Diplomats Meet, Voice Concern Over Middle East Hostilities",
+      "description": "ASEAN's top diplomats have met to discuss the ongoing hostilities in the Middle East, and have voiced their concern over the escalating conflict.",
+      "lat": 2.39,
+      "lng": 103.85000000000002,
       "severity": 2,
       "location": "Singapore",
       "source": "GNews Geopolitics",
@@ -1870,6 +1979,39 @@
       }
     },
     {
+      "id": "0f5f5cb04a87",
+      "title": "UK Aid Cuts Reduce Bilateral Support to Some African Countries by 90%",
+      "description": "The UK's aid cuts have reduced bilateral support to some African countries by as much as 90%, according to critics.",
+      "lat": 51.5,
+      "lng": -0.12999999999999545,
+      "severity": 3,
+      "location": "London, UK",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/politics/2026/jul/16/uk-aid-cuts-bilateral-support-african-countries",
+      "image": null,
+      "ts": 1784215258000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/politics/2026/jul/16/uk-aid-cuts-bilateral-support-african-countries"
+          }
+        ]
+      }
+    },
+    {
       "id": "18bd9ee86911",
       "title": "Uganda discharges last Ebola patient",
       "description": "Most of the recent cases were among travellers from the Democratic Republic of Congo.",
@@ -2817,58 +2959,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cp9ldle3d3xo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ddfb/live/25ca1c70-7ebc-11f1-8439-ebc9c5f19300.jpg",
       "ts": 1784023363000
-    },
-    {
-      "id": "4a5b366a4675",
-      "title": "US bombs Iran again",
-      "description": "The US has launched another attack on Iran, with the conflict between the two countries escalating.",
-      "lat": 35.7,
-      "lng": 51.420000000000016,
-      "severity": 5,
-      "location": "Tehran, Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/14/us-bombs-iran-again-tehran-strikes-gulf-tankers-whats-the-latest?traffic_source=rss",
-      "image": null,
-      "ts": 1784019142000
-    },
-    {
-      "id": "ca2333d06cd7",
-      "title": "EU bans gold imports from Sudan",
-      "description": "The EU has banned gold imports from Sudan to curb money financing the war.",
-      "lat": 50.85,
-      "lng": 4.349999999999994,
-      "severity": 3,
-      "location": "Brussels, Belgium",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/ce3e3nqwr5do?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e6a5/live/d6cd2350-7f52-11f1-a97a-9b1029617ccb.jpg",
-      "ts": 1784017969000
-    },
-    {
-      "id": "342149172414",
-      "title": "EU bans gold imports from Sudan to curb money financing the war",
-      "description": "The ban also restricts exports of mercury and cyanide to Sudan, chemicals widely used in gold mining.",
-      "lat": 50.85,
-      "lng": 4.349999999999994,
-      "severity": 3,
-      "location": "Brussels, Belgium",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/ce3e3nqwr5do?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e6a5/live/d6cd2350-7f52-11f1-a97a-9b1029617ccb.jpg",
-      "ts": 1784017969000
-    },
-    {
-      "id": "de82dd183927",
-      "title": "EU opens new cluster in negotiations with Ukraine",
-      "description": "The EU opens a new cluster in negotiations with Ukraine, a significant step towards Ukraine's accession to the EU",
-      "lat": 50.8503,
-      "lng": 4.351699999999994,
-      "severity": 2,
-      "location": "Brussels, Belgium",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/07/14/lue-apre-nuovo-cluster-nei-negoziati-di-adesione-con-lucraina_851e3f18-69c2-4624-9111-06f5fd3e61eb.html",
-      "image": null,
-      "ts": 1784016325000
     }
   ]
 }
