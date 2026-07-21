@@ -1,7 +1,311 @@
 {
   "schema": 1,
-  "updated": "2026-07-16T13:03:49.993448+00:00",
+  "updated": "2026-07-21T16:37:22.700526+00:00",
   "events": [
+    {
+      "id": "c9081567726d",
+      "title": "US imposes 50% tariffs on Canadian goods",
+      "description": "The Trump administration imposes 50% tariffs on Canadian dairy, alcohol, and cars, citing discriminatory actions.",
+      "lat": 51.95,
+      "lng": 4.349999999999994,
+      "severity": 3,
+      "location": "Brussels, Belgium",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/07/21/world/canada/trump-carney-trade-tariffs.html",
+      "image": "https://static01.nyt.com/images/2026/07/21/multimedia/21int-canada-trade-analysis-01-twlj/21int-canada-trade-analysis-01-twlj-mediumSquareAt3X.jpg",
+      "ts": 1784651175000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/video/trump-imposes-50-tariffs-on-dairy-alcohol-and-cars-from-canada-266971717891"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ee09d8f9b920",
+      "title": "Trump meets Lebanese President Joseph Aoun",
+      "description": "US President Donald Trump meets with Lebanese President Joseph Aoun at the White House, discussing US support for Lebanon and potential talks with Hezbollah.",
+      "lat": 39.99,
+      "lng": -77.04,
+      "severity": 1,
+      "location": "Washington, D.C., USA",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/as-he-hosts-the-lebanese-president-trump-says-the-us-will-help-the-country",
+      "image": "https://s.france24.com/media/display/5e843832-851c-11f1-8100-005056a97e36/w:1024/p:16x9/2026-07-21T155146Z-1731238555-RC2BIMAU7W6X-RTRMADP-3-USA-TRUMP.jpg",
+      "ts": 1784650748000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/replay-lebanon-s-joseph-aoun-and-us-s-donald-trump-hold-press-conference"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-903213"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/politics/2026/07/21/watch-live-donald-trump-meets-with-president-of-lebanon/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "374ff52a692d",
+      "title": "France to ban social media for children under 15",
+      "description": "The French parliament is expected to approve a law banning social media for children under 15, citing concerns over mental health.",
+      "lat": 48.86,
+      "lng": 2.289999999999992,
+      "severity": 2,
+      "location": "Paris, France",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/07/21/world/europe/france-social-media-ban.html",
+      "image": "https://static01.nyt.com/images/2026/07/21/multimedia/21int-france-social-hclw/21int-france-social-hclw-mediumSquareAt3X.jpg",
+      "ts": 1784649719000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/21/world/europe/france-social-media-ban.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d0dd4938894e",
+      "title": "US and China to hold AI talks",
+      "description": "The US and China will hold talks on AI safety, frontier models, and government oversight amid growing concerns over military applications and cyber risks.",
+      "lat": 39.91,
+      "lng": 116.39,
+      "severity": 2,
+      "location": "Beijing, China",
+      "source": "IBTimes",
+      "url": "https://www.ibtimes.com/us-chinas-competition-over-frontier-models-intensifies-they-will-now-hold-ai-talks-3805547",
+      "image": null,
+      "ts": 1784647116000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/us-chinas-competition-over-frontier-models-intensifies-they-will-now-hold-ai-talks-3805547"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ec7e6799fa41",
+      "title": "Iran-backed militia declares Red Sea blockade",
+      "description": "The Houthi militia in Yemen declares a Red Sea blockade on Saudi Arabia, potentially opening a new front in the war.",
+      "lat": 15.35,
+      "lng": 44.21,
+      "severity": 4,
+      "location": "Sana'a, Yemen",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/07/21/world/middleeast/houthis-yemen-iran-war.html",
+      "image": "https://static01.nyt.com/images/2026/07/21/multimedia/21int-yemen-houthis-1-vmfb/21int-yemen-houthis-1-vmfb-mediumSquareAt3X.jpg",
+      "ts": 1784636816000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/21/world/middleeast/houthis-yemen-iran-war.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ba07240755e4",
+      "title": "Israeli airstrike kills family of six in Gaza",
+      "description": "An Israeli airstrike kills a family of six in Gaza, including three daughters and a son.",
+      "lat": 31.55,
+      "lng": 34.44999999999999,
+      "severity": 5,
+      "location": "Gaza, Palestine",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/family-of-six-killed-in-gaza-in-israeli-airstrike-13565495",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13bb/live/d7d46710-7f87-11f1-a47a-d94293d2b0e4.jpg",
+      "ts": 1784619180000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c0qv0pdj18go?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/family-of-six-killed-in-gaza-in-israeli-airstrike-13565495"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c0771fc5bc7a",
+      "title": "Nicaragua's President Ortega abolishes elections",
+      "description": "Nicaraguan President Daniel Ortega announces that the country will no longer hold elections, ending any pretense of democracy.",
+      "lat": 12.12,
+      "lng": -86.25,
+      "severity": 5,
+      "location": "Managua, Nicaragua",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/nicaragua-ortega-ends-elections",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/07/931/523/Daniel-Ortega-elections-rule.png?ve=1&tl=1",
+      "ts": 1784609787000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/nicaraguas-president-ortega-moves-extend-20-year-rule-134932447"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/nicaraguas-president-had-already-been-perpetuating-himself-power-he-now-announced-there-will-3805552"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/nicaragua-ortega-ends-elections"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6a64dd03b4cd",
+      "title": "Trump vows revenge on Iran for killing US soldiers",
+      "description": "US President Donald Trump vows revenge on Iran for killing US soldiers in an Iranian strike in Jordan.",
+      "lat": 39.99,
+      "lng": -75.1348,
+      "severity": 4,
+      "location": "Washington, D.C., USA",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/nightly-news/video/president-trump-vows-revenge-on-iran-for-killing-u-s-service-members-266975813831",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/mpx/2704722219/2026_07/1784587830862_nn_simmons_us_soldiers_260720_S3_1920x1080-4ysuce.jpg",
+      "ts": 1784587836000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 2,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 2,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/israel-reportedly-believes-iran-moved-nuclear-centrifuges-another-location-trump-has-threatened-3805535"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2163183"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/643286-trump-uk-burnham-bases/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
     {
       "id": "18bd9ee86911",
       "title": "Uganda discharges last Ebola patient",
@@ -833,19 +1137,6 @@
       "url": "https://www.aljazeera.com/news/2026/7/14/us-russian-astronauts-launch-into-orbit-for-joint-space-mission?traffic_source=rss",
       "image": null,
       "ts": 1784051368000
-    },
-    {
-      "id": "ba07240755e4",
-      "title": "Israeli Strike on Gaza Police Station",
-      "description": "An Israeli strike on a police station in north Gaza has killed seven people.",
-      "lat": 31.55,
-      "lng": 34.44999999999999,
-      "severity": 4,
-      "location": "Gaza, Palestine",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cqj1jqeyl5ro?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13bb/live/d7d46710-7f87-11f1-a47a-d94293d2b0e4.jpg",
-      "ts": 1784049207000
     },
     {
       "id": "2627c0f8a8d0",
@@ -2510,97 +2801,6 @@
       "url": "https://www.aljazeera.com/news/liveblog/2026/7/11/iran-war-live-us-demands-iran-publicly-state-strait-of-hormuz-open-for-all?traffic_source=rss",
       "image": null,
       "ts": 1783728000000
-    },
-    {
-      "id": "515dfbb66702",
-      "title": "Venezuela, la Procura ispeziona il cimitero dove sono sepolte vittime non identificate",
-      "description": "The prosecutor's office in Venezuela is inspecting a cemetery where unidentified victims are buried, following a recent earthquake.",
-      "lat": 10.57,
-      "lng": -65.0248,
-      "severity": 1,
-      "location": "La Guaira, Venezuela",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/07/11/venezuela-la-procura-ispeziona-il-cimitero-dove-sono-sepolte-vittime-non-identificate_5f9ea516-253f-4ad0-94b0-3d9a3d765ef2.html",
-      "image": null,
-      "ts": 1783726550000
-    },
-    {
-      "id": "85c906d58549",
-      "title": "Cuba Suffers Second Island-Wide Blackout in a Week Amid Trump Fuel Blockade",
-      "description": "Cuba has suffered its second island-wide blackout in a week, amid a fuel blockade imposed by the Trump administration.",
-      "lat": 23.13,
-      "lng": -80.4748,
-      "severity": 4,
-      "location": "Havana, Cuba",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/10/cuba-suffers-second-island-wide-blackout-in-a-week-amid-trump-fuel-blockade?traffic_source=rss",
-      "image": null,
-      "ts": 1783725488000
-    },
-    {
-      "id": "0c232ab4479a",
-      "title": "Venezuela suffers second island-wide blackout in a week",
-      "description": "Venezuela has suffered its second island-wide blackout in a week.",
-      "lat": 9.5274,
-      "lng": -65.25,
-      "severity": 4,
-      "location": "Caracas, Venezuela",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/10/cuba-suffers-second-island-wide-blackout-in-a-week-amid-trump-fuel-blockade?traffic_source=rss",
-      "image": null,
-      "ts": 1783725488000
-    },
-    {
-      "id": "6ff6bdbe4bb9",
-      "title": "Apple files lawsuit accusing ChatGPT maker OpenAI of stealing trade secrets",
-      "description": "Apple has filed a lawsuit against OpenAI, the maker of ChatGPT, accusing the company of stealing trade secrets and engaging in a coordinated effort to poach its employees.",
-      "lat": 38.43,
-      "lng": -120.1248,
-      "severity": 3,
-      "location": "Cupertino, USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/7/10/apple-files-lawsuit-accusing-chatgpt-maker-openai-of-stealing-trade-secrets?traffic_source=rss",
-      "image": null,
-      "ts": 1783724411000
-    },
-    {
-      "id": "1adf2a2225f2",
-      "title": "Apple sues OpenAI, its employees claiming theft of trade secrets",
-      "description": "Apple has sued OpenAI, alleging that the company's employees stole trade secrets from Apple.",
-      "lat": 37.33,
-      "lng": -120.1348,
-      "severity": 2,
-      "location": "Cupertino, USA",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cy8w379e091o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c345/live/988f5600-7ca3-11f1-bc75-67a16fbc54d2.jpg",
-      "ts": 1783724056000
-    },
-    {
-      "id": "bea843f6f4d7",
-      "title": "Venezuela Earthquakes: Death Toll Rises to Over 4,000",
-      "description": "The death toll from the recent earthquakes in Venezuela has risen to over 4,000, with many more injured and displaced.",
-      "lat": 11.58,
-      "lng": -64.9948,
-      "severity": 5,
-      "location": "Caracas, Venezuela",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/07/11/sale-a-oltre-quattromila-morti-il-bilancio-dei-terremoti-in-venezuela_b08ce126-a4f2-43f4-9027-16df17cd9171.html",
-      "image": null,
-      "ts": 1783723927000
-    },
-    {
-      "id": "a280bbd0deaa",
-      "title": "Venezuela suffers earthquake aftermath",
-      "description": "Venezuela is struggling to cope with the aftermath of a devastating earthquake, with thousands of people affected and a significant number of deaths reported.",
-      "lat": 10.48,
-      "lng": -66.9,
-      "severity": 4,
-      "location": "Caracas, Venezuela",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/07/11/sale-a-oltre-quattromila-morti-il-bilancio-dei-terremoti-in-venezuela_b08ce126-a4f2-43f4-9027-16df17cd9171.html",
-      "image": null,
-      "ts": 1783723927000
     }
   ]
 }
