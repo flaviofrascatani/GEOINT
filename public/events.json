@@ -1,7 +1,121 @@
 {
   "schema": 1,
-  "updated": "2026-07-21T09:12:47.578247+00:00",
+  "updated": "2026-07-21T11:25:28.687559+00:00",
   "events": [
+    {
+      "id": "72efb7b2415f",
+      "title": "China and Philippines Clash in South China Sea",
+      "description": "China and the Philippines traded accusations after a violent altercation between navy personnel in the disputed South China Sea.",
+      "lat": 10.0,
+      "lng": 115.0,
+      "severity": 3,
+      "location": "South China Sea",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/china-philippines-clash-in-south-china-sea-ahead-of-asean-meeting/a-78044915?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1784633128495,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/7/21/china-and-philippines-trade-accusations-after-sailor-injured-at-sea?traffic_source=rss"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/china-philippines-clash-in-south-china-sea-ahead-of-asean-meeting/a-78044915?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "77ab4814f733",
+      "title": "Trump to Meet Lebanon's President as US Pushes Ahead with Peace Deal",
+      "description": "Lebanese President Joseph Aoun will meet President Trump in the Oval Office, as part of a US-brokered agreement for Israeli withdrawal from Lebanon.",
+      "lat": 38.9,
+      "lng": -77.02,
+      "severity": 2,
+      "location": "Washington D.C., USA",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/13092f23-4b2f-4e62-8aa9-76ab465a667c?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1784631096000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/lebanons-president-meet-trump-washington-push-israeli-troop-134939118"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/07/21/lebanon-israel-trump-aoun-hezbollah"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/13092f23-4b2f-4e62-8aa9-76ab465a667c?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "73a7952b5e3b",
+      "title": "Lebanese Army Deploys in 'Pilot Zone' After Israeli Withdrawal",
+      "description": "A US-brokered agreement should see Israeli troops pulling out of a small part of Lebanon occupied during their conflict with Hezbollah.",
+      "lat": 35.54,
+      "lng": 36.45259999999999,
+      "severity": 2,
+      "location": "Beirut, Lebanon",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cy8mynlmn55o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d3d/live/a63a1b50-84e1-11f1-bee8-53ce494e1abc.jpg",
+      "ts": 1784630628000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cy8mynlmn55o?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "6f4053ae38c0",
       "title": "Lebanon's President to Meet with Trump to Push for Israeli Troop Withdrawal",
@@ -428,10 +542,10 @@
     {
       "id": "d2bb72f03f66",
       "title": "Mediators Push for 10-Day Ceasefire in US-Iran Conflict",
-      "description": "Mediators have proposed a 10-day ceasefire in the conflict between the US and Iran, as tensions continue to escalate in the region.",
+      "description": "Unnamed mediators have reportedly shopped a proposal for a ten-day de-escalation ceasefire between the U.S. and Iran.",
       "lat": 35.69,
       "lng": 51.420000000000016,
-      "severity": 2,
+      "severity": 1,
       "location": "Tehran, Iran",
       "source": "Breitbart",
       "url": "https://www.breitbart.com/middle-east/2026/07/20/unknown-mediators-reportedly-float-10-day-ceasefire-for-u-s-and-iran/",
@@ -440,21 +554,16 @@
       "coverage": {
         "left": 0,
         "center": 0,
-        "right": 2,
-        "total": 2,
+        "right": 1,
+        "total": 1,
         "buckets": {
           "left": 0,
           "lean_left": 0,
           "center": 0,
-          "lean_right": 1,
+          "lean_right": 0,
           "right": 1
         },
         "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2162803"
-          },
           {
             "n": "Breitbart",
             "b": "right",
@@ -630,34 +739,29 @@
     },
     {
       "id": "839a0a0e8484",
-      "title": "Houthis declare maritime embargo on Saudi Arabia",
-      "description": "The Houthis have announced a maritime embargo on Saudi Arabia, marking a major escalation in the Middle East conflict.",
+      "title": "Yemen's Houthis Announce 'Maritime Embargo' on Saudi Arabia",
+      "description": "The Houthis say the embargo begins immediately and is a response to a Saudi blockade of ports and airports in Yemen.",
       "lat": 15.35,
       "lng": 44.2,
-      "severity": 4,
+      "severity": 3,
       "location": "Sana'a, Yemen",
       "source": "BBC World",
       "url": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss",
       "image": null,
       "ts": 1784583019000,
       "coverage": {
-        "left": 2,
-        "center": 3,
+        "left": 1,
+        "center": 2,
         "right": 1,
-        "total": 6,
+        "total": 4,
         "buckets": {
           "left": 0,
-          "lean_left": 2,
-          "center": 3,
+          "lean_left": 1,
+          "center": 2,
           "lean_right": 1,
           "right": 0
         },
         "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/07/20/world/middleeast/yemen-houthis-saudi-arabia-red-sea-blockade.html"
-          },
           {
             "n": "ABC News International",
             "b": "lean_left",
@@ -671,12 +775,7 @@
           {
             "n": "CNBC World",
             "b": "center",
-            "u": "https://www.cnbc.com/2026/07/20/iran-houthi-yemen-saudi-arabia.html"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/yemens-houthi-rebels-have-been-threatening-help-iran-close-key-waterway-they-are-now-targeting-3805492"
+            "u": "https://www.cnbc.com/2026/07/21/us-iran-war-trump-hormuz-houthis.html"
           },
           {
             "n": "RT News",
@@ -2946,19 +3045,6 @@
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB1Ulh0X1Z2c0djQW9tWHVqRHBWVThSUnlwcnpxWVdDOG9GTG42OW5GZ1lPSUM4QU5RN3VVemhCRUxuV3BBdFhDX2psOVhhM0VaNFJ4UDU2NXJUZWM?oc=5",
       "image": null,
       "ts": 1784031479000
-    },
-    {
-      "id": "138eb2d99041",
-      "title": "Yemen's Houthis launch missiles at Saudi Arabia",
-      "description": "The Iran-backed Houthis blame Saudi Arabia for the attack in Yemen's capital and say they targeted Abha airport in response.",
-      "lat": 18.33,
-      "lng": 45.0,
-      "severity": 4,
-      "location": "Abha, Saudi Arabia",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cp9ldle3d3xo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ddfb/live/25ca1c70-7ebc-11f1-8439-ebc9c5f19300.jpg",
-      "ts": 1784023363000
     }
   ]
 }
