@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-07-21T00:06:02.265802+00:00",
+  "updated": "2026-07-21T03:36:24.668406+00:00",
   "events": [
+    {
+      "id": "adc60bbf1d27",
+      "title": "Russia returns 550 servicemen from Ukrainian captivity",
+      "description": "Russian Human Rights Commissioner Yana Lantratova stated it as a result of several successful exchanges.",
+      "lat": 55.76,
+      "lng": 39.525199999999984,
+      "severity": 2,
+      "location": "Moscow, Russia",
+      "source": "TASS",
+      "url": "https://tass.com/world/2162797",
+      "image": null,
+      "ts": 1784597413000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2162797"
+          }
+        ]
+      }
+    },
     {
       "id": "624284ca625c",
       "title": "US imposes new 50% tariff on many Canadian goods",
@@ -36,6 +69,49 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/economy/2162775"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b23013a8949e",
+      "title": "Guyana ferry capsizes, leaving at least 27 dead",
+      "description": "At least 27 people died after a ferry capsized off Guyana, Prime Minister Mark Phillips said Monday, as rescuers searched for 83 people still missing.",
+      "lat": 7.0,
+      "lng": -58.15,
+      "severity": 4,
+      "location": "Georgetown, Guyana",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/americas/20260720-guyana-ferry-capsize-27-dead-83-missing",
+      "image": "https://s.france24.com/media/display/d4e957a6-8494-11f1-9e46-005056a90284/w:1024/p:16x9/AP26200427243709.jpg",
+      "ts": 1784591090000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/27-dead-83-missing-from-capsised-guyana-ferry-11798556#publisher=newsstand"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cm2gm99nrm7o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/americas/20260720-guyana-ferry-capsize-27-dead-83-missing"
           }
         ]
       }
@@ -84,6 +160,54 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/tate-brothers-remain-behind-bars-now-uk-seeks-extradition-rape-trafficking-charges"
+          }
+        ]
+      }
+    },
+    {
+      "id": "45508608d77d",
+      "title": "Andy Burnham becomes new UK Prime Minister",
+      "description": "Andy Burnham, until recently the mayor of Greater Manchester, promised to create a 'circuit breaker' moment in the cycle of failure and cynicism that have plagued British politics for the past decade.",
+      "lat": 51.5,
+      "lng": -0.12999999999999545,
+      "severity": 2,
+      "location": "London, UK",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/07/20/andy-burnham-take-charge-uk-prime-minister-replacing-keir-starmer/",
+      "image": null,
+      "ts": 1784589537000,
+      "coverage": {
+        "left": 3,
+        "center": 1,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/20/world/europe/andy-burnham-uk.html"
+          },
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/07/20/andy-burnham-take-charge-uk-prime-minister-replacing-keir-starmer/"
+          },
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/07/20/andy-burnham-uk-prime-minister-day-one-trump-invitation/"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/andy-burnham-now-british-prime-minister-he-vowing-implement-new-economic-model-3805501"
           }
         ]
       }
@@ -687,6 +811,44 @@
             "n": "Washington Post World",
             "b": "lean_left",
             "u": "https://www.washingtonpost.com/world/2026/07/20/ukraine-bombs-warehouses-targeting-wildberries-russias-version-amazon/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fa63a2697cbb",
+      "title": "Tate brothers to remain behind bars",
+      "description": "Andrew and Tristan Tate will remain behind bars for now after appearing in a Miami federal courtroom as they begin fighting Britain's extradition request on 59 charges, including rape and human trafficking.",
+      "lat": 27.44,
+      "lng": -79.1774,
+      "severity": 3,
+      "location": "Miami, USA",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/tate-brothers-remain-behind-bars-now-uk-seeks-extradition-rape-trafficking-charges",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/07/931/523/tristan-tate-andrew-tate.jpg?ve=1&tl=1",
+      "ts": 1784571036000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/andrew-tristan-tate-brothers-federal-detention-miami/"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/tate-brothers-remain-behind-bars-now-uk-seeks-extradition-rape-trafficking-charges"
           }
         ]
       }
@@ -2616,45 +2778,6 @@
       "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0962/live/b6b2aac0-7f36-11f1-b9f9-7523a937b0a2.jpg",
       "ts": 1784004648000
-    },
-    {
-      "id": "9e6cf98f0090",
-      "title": "US burrito giant Chipotle opening first outlet in Mexico",
-      "description": "US burrito giant Chipotle is opening its first outlet in Mexico, a significant expansion into the country where its dishes originated",
-      "lat": 19.4326,
-      "lng": -99.1332,
-      "severity": 2,
-      "location": "Mexico City, Mexico",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c0ryr89gp09o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f9ab/live/6119a2a0-7f2a-11f1-a2d1-357b5800ed69.jpg",
-      "ts": 1783996971000
-    },
-    {
-      "id": "811d2da0df25",
-      "title": "US launches fresh strikes on Iran",
-      "description": "The third consecutive night of US strikes on Iran came as Trump announced a 20% charge as part of a new blockade on the strait.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz, Middle East",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/caac/live/6d318280-7ece-11f1-a521-db2da184cdb6.jpg",
-      "ts": 1783996070000
-    },
-    {
-      "id": "3979ef05be30",
-      "title": "Trump demands payment to protect Gulf nations",
-      "description": "US President Donald Trump says the US should be paid by ‘rich’ oil-producing Gulf nations to secure the Strait of Hormuz",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/trump-demands-payment-to-protect-gulf-nations-from-iranian-attacks?traffic_source=rss",
-      "image": null,
-      "ts": 1783993068000
     }
   ]
 }
