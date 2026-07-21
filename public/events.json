@@ -1,7 +1,156 @@
 {
   "schema": 1,
-  "updated": "2026-07-21T21:20:50.059062+00:00",
+  "updated": "2026-07-21T22:29:37.104607+00:00",
   "events": [
+    {
+      "id": "5128444e3937",
+      "title": "US Allows Direct Flights to Lebanon",
+      "description": "The US has reauthorized direct flights to Lebanon, following a meeting between President Trump and Lebanese President Joseph Aoun.",
+      "lat": 38.89,
+      "lng": -77.01,
+      "severity": 2,
+      "location": "Washington, D.C., USA",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/trump-allows-direct-us-flights-to-lebanon-in-historic-move/a-78059787?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1784672976977,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/trump-allows-direct-us-flights-to-lebanon-in-historic-move/a-78059787?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/homenews/administration/5981950-trump-direct-lebanon-flights/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "91a670abd943",
+      "title": "Ukraine's Zelenskyy Fires Military Commander",
+      "description": "Ukrainian President Volodymyr Zelenskyy has fired the commander-in-chief of the armed forces, Oleksandr Syrsky, amid protests and a major shake-up in the military leadership.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 3,
+      "location": "Kyiv, Ukraine",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/500286b4-335b-43a7-bff5-30336d852e96?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1784668599000,
+      "coverage": {
+        "left": 4,
+        "center": 1,
+        "right": 1,
+        "total": 6,
+        "buckets": {
+          "left": 1,
+          "lean_left": 3,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/ukraine-blitz-amid-zelenskyy-political-crisis_n_6a5df680e4b0ab756517c58f"
+          },
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/07/21/zelensky-ousts-ukraines-military-commander-major-shake-up-continues/"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/ukraine-zelenskyy-fires-general-after-protests/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/ukraines-zelensky-sacks-army-chief-amid-war-11803393#publisher=newsstand"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/ukraine-s-zelenskyy-fires-military-chief-after-days-of-protests/a-78059652?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4657933/zelensky-sack-ukraine-commander-oleksandr-syrsky-military-commanders-lined-up/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4cb9a35df1db",
+      "title": "Iran Holds Funerals for Children Killed in US Strike",
+      "description": "Iran has held funerals for 32 children killed in a US strike on a school in Minab, Iran.",
+      "lat": 29.04,
+      "lng": 58.04259999999999,
+      "severity": 4,
+      "location": "Minab, Iran",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/21/iran-holds-funerals-for-children-killed-in-minab-school-strike?traffic_source=rss",
+      "image": null,
+      "ts": 1784668382000,
+      "coverage": {
+        "left": 3,
+        "center": 1,
+        "right": 1,
+        "total": 5,
+        "buckets": {
+          "left": 1,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/us-strikes-iran_n_6a5c4de6e4b063a1f5f1a3bb"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/were-not-finished-trump-warns-of-strike-on-irans-pickaxe-mountain-nuclear-site-11803045#publisher=newsstand"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/7/21/iran-holds-funerals-for-children-killed-in-minab-school-strike?traffic_source=rss"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/iran-claims-amazon-data-center-attack-bahrain-3805541"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/politics/2026/07/21/trump-u-s-not-finished-at-all-in-iran-pickaxe-mountain-strike-coming-pretty-soon/"
+          }
+        ]
+      }
+    },
     {
       "id": "2f610ee41db8",
       "title": "Ukraine's Zelenskyy fires military chief after protests",
@@ -79,6 +228,44 @@
       }
     },
     {
+      "id": "131bb3ebb156",
+      "title": "France Becomes First EU Nation to Ban Social Media Access for Under-15s",
+      "description": "France has become the first EU nation to ban social media access for under-15s, in a bid to protect children from the potential harms of social media.",
+      "lat": 48.86,
+      "lng": 2.289999999999992,
+      "severity": 2,
+      "location": "Paris, France",
+      "source": "Daily Express World",
+      "url": "https://www.express.co.uk/news/world/2231604/france-bans-social-media-under-15s",
+      "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2231604_1.jpg",
+      "ts": 1784662200000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/21/world/europe/france-social-media-ban.html"
+          },
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2231604/france-bans-social-media-under-15s"
+          }
+        ]
+      }
+    },
+    {
       "id": "4d55107abf79",
       "title": "Trump to impose 50% tariffs on Canadian hockey sticks, alcohol, other goods",
       "description": "President Trump is imposing 50% tariffs on a range of Canadian goods, from hockey equipment to alcoholic beverages, escalating the trade dispute between the two countries.",
@@ -117,6 +304,49 @@
             "n": "Time",
             "b": "lean_left",
             "u": "https://time.com/article/2026/07/21/trump-tariffs-canada-alcohol-motor-vehicles-dairy/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fa114030647a",
+      "title": "US to Impose 50% Tariffs on Canada",
+      "description": "US President Donald Trump has imposed 50% tariffs on Canadian imports, escalating trade tensions between the two countries.",
+      "lat": 38.89,
+      "lng": -77.01,
+      "severity": 3,
+      "location": "Washington, D.C., USA",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/trump-canada-tariffs-hockey-milk-alcohol/",
+      "image": null,
+      "ts": 1784661960000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/21/world/canada/trump-carney-trade-tariffs.html"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/trump-canada-tariffs-hockey-milk-alcohol/"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/643285-trump-canada-tariffs/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
           }
         ]
       }
@@ -406,6 +636,39 @@
             "n": "Axios",
             "b": "center",
             "u": "https://www.axios.com/2026/07/21/lebanon-israel-trump-aoun-hezbollah"
+          }
+        ]
+      }
+    },
+    {
+      "id": "373231436542",
+      "title": "India's Young Protesters Are Bloodied but Unbowed",
+      "description": "Thousands of young protesters in India have returned to the streets, demanding action over the country's failings in education, despite being forcibly broken up by police the previous day.",
+      "lat": 28.7,
+      "lng": 77.1,
+      "severity": 3,
+      "location": "New Delhi, India",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/07/21/world/asia/india-protests-cockroach-janta-party.html",
+      "image": "https://static01.nyt.com/images/2026/07/21/multimedia/21int-india-protesters-04-cplf/21int-india-protesters-04-cplf-mediumSquareAt3X.jpg",
+      "ts": 1784654665000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/21/world/asia/india-protests-cockroach-janta-party.html"
           }
         ]
       }
@@ -857,6 +1120,54 @@
             "n": "New York Post",
             "b": "lean_right",
             "u": "https://nypost.com/video/fbi-probes-nyc-ice-attack-trump-vows-iran-will-pay-after-deadly-strikes/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "181ec0750e27",
+      "title": "US and Iran Inch Closer to All-Out War",
+      "description": "The US and Iran are inching closer to all-out war, with the US carrying out its 10th consecutive night of strikes on Iran.",
+      "lat": 35.69,
+      "lng": 51.420000000000016,
+      "severity": 4,
+      "location": "Tehran, Iran",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/us-carrying-out-10th-consecutive-night-of-strikes-on-iran_n_6a5e9002e4b06bbe43f37012",
+      "image": null,
+      "ts": 1784582659000,
+      "coverage": {
+        "left": 3,
+        "center": 0,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 1,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/us-carrying-out-10th-consecutive-night-of-strikes-on-iran_n_6a5e9002e4b06bbe43f37012"
+          },
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/21/world/middleeast/houthis-yemen-iran-war.html"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/iran-us-war-news-live-update-new-strikes-middle-east-conflict-donald-trump-strait-of-hormuz-mojtaba-khamenei-israel-netanyahu-11799301#publisher=newsstand"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/politics/2026/07/21/trump-u-s-not-finished-at-all-in-iran-pickaxe-mountain-strike-coming-pretty-soon/"
           }
         ]
       }
@@ -3095,97 +3406,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cn8qwj611qxo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2995/live/0335cba0-7c6e-11f1-98fd-6b03daaf8a77.jpg",
       "ts": 1783776909000
-    },
-    {
-      "id": "9376c5648bb1",
-      "title": "Landmark US housing bill becomes law despite Trump protest",
-      "description": "A landmark US housing bill has become law despite protests from President Trump, who had wanted voter ID legislation passed first.",
-      "lat": 38.9,
-      "lng": -77.0,
-      "severity": 1,
-      "location": "Washington D.C., USA",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cn8qwj611qxo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2995/live/0335cba0-7c6e-11f1-98fd-6b03daaf8a77.jpg",
-      "ts": 1783776909000
-    },
-    {
-      "id": "cb6b133c6489",
-      "title": "US-Iran talks resume in Oman",
-      "description": "The US and Iran are set to resume talks in Oman, with the US seeking a pledge from Iran to stop shooting at ships in the Strait of Hormuz.",
-      "lat": 24.72,
-      "lng": 58.53,
-      "severity": 2,
-      "location": "Muscat, Oman",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/crelyq79x71o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b9e/live/f34fa810-7cfd-11f1-926f-c90d1bcfbc84.jpg",
-      "ts": 1783775659000
-    },
-    {
-      "id": "80697456146f",
-      "title": "US pays out $3m to Havana Syndrome victims",
-      "description": "The US has paid out $3m to victims of the mysterious Havana Syndrome condition reported by spies and diplomats.",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cr7xyl78vnko?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7562/live/ef363980-cfa0-11ef-b967-0b921216563e.jpg",
-      "ts": 1783775512000
-    },
-    {
-      "id": "ae929f997601",
-      "title": "China prepares for Typhoon Bavi",
-      "description": "Over 900,000 people are evacuated in China as Typhoon Bavi approaches, with the city of Wenzhou close to the storm's path.",
-      "lat": 27.99,
-      "lng": 120.67,
-      "severity": 3,
-      "location": "Wenzhou, China",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/china-prepares-as-typhoon-bavi-leaves-taiwan?traffic_source=rss",
-      "image": null,
-      "ts": 1783772265000
-    },
-    {
-      "id": "73144b0e8933",
-      "title": "Typhoon Bavi approaches China, hundreds of thousands evacuated",
-      "description": "Hundreds of thousands of people have been evacuated in China as Typhoon Bavi approaches.",
-      "lat": 29.08,
-      "lng": 120.67000000000002,
-      "severity": 3,
-      "location": "Wenzhou, China",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/china-prepares-as-typhoon-bavi-leaves-taiwan?traffic_source=rss",
-      "image": null,
-      "ts": 1783772265000
-    },
-    {
-      "id": "8c1ea288c1e3",
-      "title": "Cuba and US discuss potential cooperation",
-      "description": "Cuba confirms dialogue with the US and acknowledges the role of Raúl Castro's nephew in the talks, potentially paving the way for improved relations.",
-      "lat": 23.13,
-      "lng": -82.38,
-      "severity": 1,
-      "location": "Havana, Cuba",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/07/11/cuba-conferma-il-dialogo-con-gli-usa-e-il-ruolo-del-nipote-di-raul_aa289be7-a05e-427a-9a82-ac3d9cc267ad.html",
-      "image": null,
-      "ts": 1783767276000
-    },
-    {
-      "id": "87e621e889b1",
-      "title": "Nicaragua authorizes entry of Chinese military",
-      "description": "Nicaragua allows Chinese military personnel to enter the country, marking a significant strategic advantage for China in the region.",
-      "lat": 12.12,
-      "lng": -86.25,
-      "severity": 3,
-      "location": "Managua, Nicaragua",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/07/11/il-nicaragua-autorizza-per-la-prima-volta-lingresso-di-militari-cinesi_72bf543a-db09-4ec4-8edf-028d9db4abc0.html",
-      "image": null,
-      "ts": 1783765911000
     }
   ]
 }
