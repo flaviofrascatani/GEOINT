@@ -1,7 +1,93 @@
 {
   "schema": 1,
-  "updated": "2026-07-20T23:06:38.347691+00:00",
+  "updated": "2026-07-21T00:06:02.265802+00:00",
   "events": [
+    {
+      "id": "624284ca625c",
+      "title": "US imposes new 50% tariff on many Canadian goods",
+      "description": "The tariffs will cover products including wine and hockey sticks, but not energy or fish.",
+      "lat": 50.85,
+      "lng": 4.349999999999994,
+      "severity": 3,
+      "location": "Brussels, Belgium",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/us-imposes-new-50-tariff-on-many-canadian-goods/a-78042667?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1784592362059,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/us-imposes-new-50-tariff-on-many-canadian-goods/a-78042667?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/economy/2162775"
+          }
+        ]
+      }
+    },
+    {
+      "id": "534a9e45b47d",
+      "title": "Tate brothers detained as they face new charges, possible U.K. extradition",
+      "description": "Influencer brothers Andrew and Tristan Tate will fight extradition to the U.K., where they face rape and sex trafficking charges.",
+      "lat": 26.86,
+      "lng": -80.19,
+      "severity": 3,
+      "location": "Miami, USA",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/andrew-tristan-tate-brothers-federal-detention-miami/",
+      "image": null,
+      "ts": 1784589903000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 2,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 1,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/andrew-tristan-tate-brothers-federal-detention-miami/"
+          },
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/07/20/andrew-tristan-tate-brothers-arrest-uk-extradition-trump-rubio/"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/643274-tate-brothers-uk-extradition/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/tate-brothers-remain-behind-bars-now-uk-seeks-extradition-rape-trafficking-charges"
+          }
+        ]
+      }
+    },
     {
       "id": "211f42b6f211",
       "title": "Prisoner Exchange Between Russia and Ukraine",
@@ -64,6 +150,39 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/video/newsfeed/2026/7/20/aje-onl-nf_war-on-iran-back-to-square-one-200726?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d2bb72f03f66",
+      "title": "Unknown mediators reportedly float 10-day ceasefire for U.S. and Iran",
+      "description": "Unnamed mediators have reportedly shopped a proposal for a ten-day de-escalation ceasefire between the U.S. and Iran.",
+      "lat": 35.69,
+      "lng": 51.420000000000016,
+      "severity": 1,
+      "location": "Tehran, Iran",
+      "source": "Breitbart",
+      "url": "https://www.breitbart.com/middle-east/2026/07/20/unknown-mediators-reportedly-float-10-day-ceasefire-for-u-s-and-iran/",
+      "image": null,
+      "ts": 1784585298000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/middle-east/2026/07/20/unknown-mediators-reportedly-float-10-day-ceasefire-for-u-s-and-iran/"
           }
         ]
       }
@@ -168,6 +287,69 @@
       }
     },
     {
+      "id": "839a0a0e8484",
+      "title": "Yemen's Houthis announce 'maritime embargo' on Saudi Arabia",
+      "description": "The Houthis say the embargo begins immediately and is a response to a Saudi blockade of ports and airports in Yemen.",
+      "lat": 15.35,
+      "lng": 44.2,
+      "severity": 3,
+      "location": "Sana'a, Yemen",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss",
+      "image": null,
+      "ts": 1784583019000,
+      "coverage": {
+        "left": 4,
+        "center": 3,
+        "right": 0,
+        "total": 7,
+        "buckets": {
+          "left": 0,
+          "lean_left": 4,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/20/world/middleeast/yemen-houthis-saudi-arabia-red-sea-blockade.html"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/yemens-houthis-announce-maritime-embargo-saudi-arabia-134912678"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/yemen-saudi-arabia-houthi-rebels-iran-backed-houthis-announce-saudi-maritime-blockade-11796619#publisher=newsstand"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/7/20/houthis-announce-maritime-blockade-on-saudi-arabia?traffic_source=rss"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/yemens-houthi-rebels-have-been-threatening-help-iran-close-key-waterway-they-are-now-targeting-3805492"
+          },
+          {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/policy/international/5979139-houthi-saudi-arabia-red-sea-blockade/"
+          }
+        ]
+      }
+    },
+    {
       "id": "cd5aeb3ee4bf",
       "title": "US launches fresh strikes on Iran",
       "description": "The US has launched fresh strikes on Iran, marking the 10th consecutive night of attacks.",
@@ -196,6 +378,64 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/iran-war-us-launches-fresh-strikes-as-trump-vows-revenge/live-78042474?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f008bbb61c05",
+      "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
+      "description": "The US says the attacks were aimed at degrading Iran's capabilities to attack ships in the Strait of Hormuz.",
+      "lat": 36.8,
+      "lng": 53.325199999999995,
+      "severity": 4,
+      "location": "Tehran, Iran",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
+      "image": null,
+      "ts": 1784581771000,
+      "coverage": {
+        "left": 3,
+        "center": 2,
+        "right": 1,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 2,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/20/world/middleeast/iran-united-states-escalation.html"
+          },
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/nightly-news/video/president-trump-vows-revenge-on-iran-for-killing-u-s-service-members-266975813831"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/video/us-soldier-killed-in-iraq-trump-orders-more-strikes-against-iran/"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/iran-war-us-launches-fresh-strikes-as-trump-vows-revenge/live-78042474?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2231164/donald-trump-warned-iran-war"
           }
         ]
       }
@@ -507,69 +747,6 @@
           "NDTV World",
           "Al Jazeera",
           "BBC World"
-        ]
-      }
-    },
-    {
-      "id": "839a0a0e8484",
-      "title": "Yemen's Houthis announce 'maritime embargo' on Saudi Arabia",
-      "description": "The Houthis say the embargo begins immediately and is a response to a Saudi blockade of ports and airports in Yemen.",
-      "lat": 15.35,
-      "lng": 44.2,
-      "severity": 4,
-      "location": "Sana'a, Yemen",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss",
-      "image": null,
-      "ts": 1784568782000,
-      "coverage": {
-        "left": 4,
-        "center": 3,
-        "right": 0,
-        "total": 7,
-        "buckets": {
-          "left": 0,
-          "lean_left": 4,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/07/20/world/middleeast/yemen-houthis-saudi-arabia-red-sea-blockade.html"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/yemens-houthis-announce-maritime-embargo-saudi-arabia-134912678"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/yemen-saudi-arabia-houthi-rebels-iran-backed-houthis-announce-saudi-maritime-blockade-11796619#publisher=newsstand"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/7/20/houthis-announce-maritime-blockade-on-saudi-arabia?traffic_source=rss"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/yemens-houthi-rebels-have-been-threatening-help-iran-close-key-waterway-they-are-now-targeting-3805492"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/97389cc7-7c83-496e-a2d2-72a1eb574281?syn-25a6b1a6=1"
-          }
         ]
       }
     },
@@ -2428,19 +2605,6 @@
       "ts": 1784016325000
     },
     {
-      "id": "f008bbb61c05",
-      "title": "Trump threatens to attack 'Pickaxe Mountain' a nuclear facility inside Iran",
-      "description": "US President Donald Trump is threatening to attack a heavily-fortified underground nuclear facility in Iran.",
-      "lat": 36.8,
-      "lng": 53.325199999999995,
-      "severity": 5,
-      "location": "Tehran, Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/trump-threatens-to-attack-pickaxe-mountain-a-nuclear-facility-inside-ira?traffic_source=rss",
-      "image": null,
-      "ts": 1784006140000
-    },
-    {
       "id": "0400e0f7a65f",
       "title": "UAE condemns Iran's 'brazen' attack on tankers",
       "description": "The UAE has condemned Iran's attack on tankers, calling it a 'brazen' attack.",
@@ -2491,39 +2655,6 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/trump-demands-payment-to-protect-gulf-nations-from-iranian-attacks?traffic_source=rss",
       "image": null,
       "ts": 1783993068000
-    },
-    {
-      "id": "80287a8065cd",
-      "title": "Russia and China Deepen Military Cooperation",
-      "description": "Russia and China have been found to have deep military cooperation, with secret documents revealing plans for joint military operations.",
-      "lat": 55.76,
-      "lng": 37.62,
-      "severity": 3,
-      "location": "Moscow, Russia",
-      "source": "Der Spiegel International",
-      "url": "https://www.spiegel.de/international/world/the-new-axis-of-evil-der-spiegel-investigation-reveals-deep-military-cooperation-between-russia-and-china-a-12dc295a-413d-4a2f-b44f-2922092270e3#ref=rss",
-      "image": "https://cdn.prod.www.spiegel.de/images/4f88271b-a7c2-4657-8e85-ddfdbecb33e1_w520_r2.08_fpx44_fpy51.jpg",
-      "ts": 1783591260000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Der Spiegel International",
-            "b": "lean_left",
-            "u": "https://www.spiegel.de/international/world/the-new-axis-of-evil-der-spiegel-investigation-reveals-deep-military-cooperation-between-russia-and-china-a-12dc295a-413d-4a2f-b44f-2922092270e3#ref=rss"
-          }
-        ]
-      }
     }
   ]
 }
