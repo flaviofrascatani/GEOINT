@@ -1,7 +1,83 @@
 {
   "schema": 1,
-  "updated": "2026-07-21T16:37:22.700526+00:00",
+  "updated": "2026-07-21T17:56:34.620077+00:00",
   "events": [
+    {
+      "id": "fb680edb479d",
+      "title": "Trump vows support for Lebanon peace efforts with Israel",
+      "description": "The president met with his Lebanese counterpart, who is trying to restore government control over southern territory where Israel has been fighting Hezbollah.",
+      "lat": 38.89,
+      "lng": -75.1148,
+      "severity": 2,
+      "location": "Washington, D.C., USA",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/politics/2026/07/21/trump-pledges-support-lebanon-peace-efforts-with-israel-clashes-continue/",
+      "image": null,
+      "ts": 1784656096000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/politics/2026/07/21/trump-pledges-support-lebanon-peace-efforts-with-israel-clashes-continue/"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/07/21/lebanon-israel-trump-aoun-hezbollah"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2163199"
+          }
+        ]
+      }
+    },
+    {
+      "id": "22e560348bac",
+      "title": "Netherlands bans imports from Israeli settlements in West Bank",
+      "description": "The ban will take effect on September 22, following a similar decision by Belgium.",
+      "lat": 53.17,
+      "lng": 4.300000000000011,
+      "severity": 3,
+      "location": "The Hague, Netherlands",
+      "source": "ANSA Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/07/21/i-paesi-bassi-vietano-limport-dagli-insediamenti-israeliani-in-cisgiordania_a8e87fcc-a5bd-4663-9269-63324a4f09b1.html",
+      "image": null,
+      "ts": 1784654222000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/europa/2026/07/21/i-paesi-bassi-vietano-limport-dagli-insediamenti-israeliani-in-cisgiordania_a8e87fcc-a5bd-4663-9269-63324a4f09b1.html"
+          }
+        ]
+      }
+    },
     {
       "id": "c9081567726d",
       "title": "US imposes 50% tariffs on Canadian goods",
@@ -74,6 +150,120 @@
             "n": "Breitbart",
             "b": "right",
             "u": "https://www.breitbart.com/politics/2026/07/21/watch-live-donald-trump-meets-with-president-of-lebanon/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a25cf5856438",
+      "title": "Trump meets with President of Lebanon",
+      "description": "The meeting comes as the US and Lebanon work towards a peace agreement with Israel.",
+      "lat": 38.89,
+      "lng": -77.02,
+      "severity": 2,
+      "location": "Washington, D.C., USA",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/as-he-hosts-the-lebanese-president-trump-says-the-us-will-help-the-country",
+      "image": "https://s.france24.com/media/display/5e843832-851c-11f1-8100-005056a97e36/w:1024/p:16x9/2026-07-21T155146Z-1731238555-RC2BIMAU7W6X-RTRMADP-3-USA-TRUMP.jpg",
+      "ts": 1784650748000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 2,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 2
+        },
+        "sources": [
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/07/20/andy-burnham-uk-prime-minister-day-one-trump-invitation/"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/07/21/lebanon-israel-trump-aoun-hezbollah"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/politics/2026/07/21/watch-live-donald-trump-meets-with-president-of-lebanon/"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/white-house/4657062/trump-says-syrian-invasion-of-southern-lebanon-to-disarm-hezbollah-could-be-very-effective/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "22ff5a710d8f",
+      "title": "US launches fresh strikes on Iran",
+      "description": "Iran says it has hit two ships in the Strait of Hormuz as well as targets in Bahrain and Jordan.",
+      "lat": 27.67,
+      "lng": 56.25,
+      "severity": 4,
+      "location": "Strait of Hormuz",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ae7d/live/d48c2a30-84c7-11f1-b976-0b9c15b0ccfc.jpg",
+      "ts": 1784650256000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6d41f95b1b3e",
+      "title": "Lebanese army says troops deploying in 'pilot zone' after Israeli withdrawal",
+      "description": "A US-brokered agreement should see Israeli troops pulling out of a small part of Lebanon occupied during their conflict with Hezbollah.",
+      "lat": 33.85,
+      "lng": 35.51,
+      "severity": 2,
+      "location": "Beirut, Lebanon",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cy8mynlmn55o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d3d/live/a63a1b50-84e1-11f1-bee8-53ce494e1abc.jpg",
+      "ts": 1784649802000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cy8mynlmn55o?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
@@ -302,6 +492,49 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/643286-trump-uk-burnham-bases/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f008bbb61c05",
+      "title": "Trump vows revenge on Iran for killing U.S. service members",
+      "description": "After a weekend of deadly attacks, the Pentagon has released the identities of some of the fallen service members.",
+      "lat": 36.8,
+      "lng": 53.325199999999995,
+      "severity": 4,
+      "location": "Tehran, Iran",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/nightly-news/video/president-trump-vows-revenge-on-iran-for-killing-u-s-service-members-266975813831",
+      "image": null,
+      "ts": 1784587836000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/nightly-news/video/president-trump-vows-revenge-on-iran-for-killing-u-s-service-members-266975813831"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/iran-news/article-903221"
+          },
+          {
+            "n": "New York Post",
+            "b": "lean_right",
+            "u": "https://nypost.com/video/fbi-probes-nyc-ice-attack-trump-vows-iran-will-pay-after-deadly-strikes/"
           }
         ]
       }
@@ -1306,19 +1539,6 @@
       "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/07/14/lue-apre-nuovo-cluster-nei-negoziati-di-adesione-con-lucraina_851e3f18-69c2-4624-9111-06f5fd3e61eb.html",
       "image": null,
       "ts": 1784016325000
-    },
-    {
-      "id": "f008bbb61c05",
-      "title": "Trump threatens to attack 'Pickaxe Mountain' a nuclear facility inside Iran",
-      "description": "US President Donald Trump is threatening to attack a heavily-fortified underground nuclear facility in Iran.",
-      "lat": 36.8,
-      "lng": 53.325199999999995,
-      "severity": 5,
-      "location": "Tehran, Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/trump-threatens-to-attack-pickaxe-mountain-a-nuclear-facility-inside-ira?traffic_source=rss",
-      "image": null,
-      "ts": 1784006140000
     },
     {
       "id": "0400e0f7a65f",
@@ -2736,71 +2956,6 @@
       "url": "https://www.aljazeera.com/news/2026/7/11/sealed-in-blood-where-does-the-china-north-korea-alliance-stand-today?traffic_source=rss",
       "image": null,
       "ts": 1783758080000
-    },
-    {
-      "id": "1dff1ad0453d",
-      "title": "US wants Iran to pledge to stop shooting at ships in Strait of Hormuz",
-      "description": "US officials, including Vice-President JD Vance, are set to take part in negotiations with Iran in Oman to discuss the Strait of Hormuz.",
-      "lat": 23.62,
-      "lng": 58.59,
-      "severity": 3,
-      "location": "Muscat, Oman",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/crelyq79x71o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/83f6/live/e1bcc750-7a4a-11f1-8540-110da73337d9.jpg",
-      "ts": 1783745793000
-    },
-    {
-      "id": "6a492f2eb64e",
-      "title": "Zaporizhzhia’s mayor says Russian advance reaches city’s outskirts",
-      "description": "The mayor of Zaporizhzhia has said that Russian forces have reached the outskirts of the city, amid ongoing fighting in eastern Ukraine.",
-      "lat": 47.83,
-      "lng": 35.13,
-      "severity": 4,
-      "location": "Zaporizhzhia, Ukraine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/zaporizhzhias-mayor-says-russian-advance-reaches-citys-outskirts?traffic_source=rss",
-      "image": null,
-      "ts": 1783732366000
-    },
-    {
-      "id": "5789ec6137c0",
-      "title": "Kiev attacked by Russian missiles, multiple explosions heard",
-      "description": "Kiev has been attacked by Russian missiles, with multiple explosions heard in the city, and air raid sirens sounding",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 4,
-      "location": "Kiev, Ukraine",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/07/11/kiev-attaccata-da-missili-russi-udite-diverse-esplosioni_56a01f83-a021-49ae-b787-de4abe5201a5.html",
-      "image": null,
-      "ts": 1783731600000
-    },
-    {
-      "id": "919ed480a343",
-      "title": "Bipartisan senators reach deal on stalled Russian sanctions bill",
-      "description": "Bipartisan senators have reached a deal on a stalled Russian sanctions bill, which could lead to increased pressure on Russia.",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcm93LXNaVy1lZnJueGt3bDlFOXg1U0xQUllHcUpYbHdsMkJSWXMyZU5vWUszc3VhOVVubkhaTWFEODdPYU9GTTNSc2E2c3RCeTR4QlloNm1aU1ZlNUc0TEZyUEJ2bVpHS3RKWXRMMXI2S0dxcGVFOVUtV2JkUHVIa0Vhc0lfQdIBiwFBVV95cUxPQ2tFamZLdFhSQWgtMVM4aC1LRGJmdWhTR29hSE1wWDd2aG5ianFvb1NDZkk5T1JxWEhyRzExUU40aExtTngtVy1DUVBwazZpdi1VTmlQcUJJZUloY29NUXlLTk5jbDVncVFBQ0NCU0FTeEdRM29OeGtLUmZWUjYtSjdDNDNIa3VUTjF3?oc=5",
-      "image": null,
-      "ts": 1783730875000
-    },
-    {
-      "id": "98d339dbe973",
-      "title": "Iran war: Trump threatens to ‘decimate’ Iran if it tries to kill him",
-      "description": "US President Donald Trump has threatened to decimate Iran if it tries to kill him, amid rising tensions between the two countries.",
-      "lat": 36.79,
-      "lng": 51.420000000000016,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/7/11/iran-war-live-us-demands-iran-publicly-state-strait-of-hormuz-open-for-all?traffic_source=rss",
-      "image": null,
-      "ts": 1783728000000
     }
   ]
 }
