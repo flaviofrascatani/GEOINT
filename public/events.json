@@ -1,15 +1,190 @@
 {
   "schema": 1,
-  "updated": "2026-07-21T17:56:34.620077+00:00",
+  "updated": "2026-07-21T19:44:30.773296+00:00",
   "events": [
     {
+      "id": "8c5b8b3d2974",
+      "title": "France becomes first EU nation to ban social media access for under-15s",
+      "description": "The landmark measure is a flagship initiative of Emmanuel Macron's second term.",
+      "lat": 48.86,
+      "lng": 2.289999999999992,
+      "severity": 2,
+      "location": "Paris, France",
+      "source": "Daily Express World",
+      "url": "https://www.express.co.uk/news/world/2231604/france-bans-social-media-under-15s",
+      "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2231604_1.jpg",
+      "ts": 1784662200000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2231604/france-bans-social-media-under-15s"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ee09d8f9b920",
+      "title": "Trump says he’s open to talks with Hezbollah, vows to help Lebanon",
+      "description": "US President Trump said he is open to direct talks with Hezbollah.",
+      "lat": 39.99,
+      "lng": -77.04,
+      "severity": 2,
+      "location": "Washington, D.C., USA",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/21/trump-says-hes-open-to-talks-with-hezbollah-vows-to-help-lebanon?traffic_source=rss",
+      "image": "https://s.france24.com/media/display/5e843832-851c-11f1-8100-005056a97e36/w:1024/p:16x9/2026-07-21T155146Z-1731238555-RC2BIMAU7W6X-RTRMADP-3-USA-TRUMP.jpg",
+      "ts": 1784661368000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/7/21/trump-says-hes-open-to-talks-with-hezbollah-vows-to-help-lebanon?traffic_source=rss"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2163213"
+          }
+        ]
+      }
+    },
+    {
+      "id": "63f92fc5936c",
+      "title": "Mediators Gave The U.S. a Proposal For a 10-Day Ceasefire With Iran",
+      "description": "Iran reportedly sent the U.S. a proposal for a 10-day ceasefire as hostilities between the countries continue to escalate.",
+      "lat": 36.79,
+      "lng": 51.420000000000016,
+      "severity": 1,
+      "location": "Tehran, Iran",
+      "source": "IBTimes",
+      "url": "https://www.ibtimes.com/mediators-gave-us-proposal-10-day-ceasefire-iran-it-was-tehran-that-reportedly-proposed-it-3805565",
+      "image": null,
+      "ts": 1784660848000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/mediators-gave-us-proposal-10-day-ceasefire-iran-it-was-tehran-that-reportedly-proposed-it-3805565"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1a7d499b513",
+      "title": "Netherlands to sanction trade with illegal Israeli settlements",
+      "description": "Dutch ban on Israeli goods from occupied territory comes as efforts to implement EU-wide sanctions remain stalled.",
+      "lat": 52.12,
+      "lng": 5.55,
+      "severity": 3,
+      "location": "Amsterdam, Netherlands",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/21/netherlands-to-sanction-trade-with-illegal-israeli-settlements?traffic_source=rss",
+      "image": null,
+      "ts": 1784659312000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/7/21/netherlands-to-sanction-trade-with-illegal-israeli-settlements?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
       "id": "fb680edb479d",
-      "title": "Trump vows support for Lebanon peace efforts with Israel",
+      "title": "Trump vows to attack Iranian nuclear facility as Middle East war escalates",
       "description": "The president met with his Lebanese counterpart, who is trying to restore government control over southern territory where Israel has been fighting Hezbollah.",
       "lat": 38.89,
       "lng": -75.1148,
-      "severity": 2,
+      "severity": 4,
       "location": "Washington, D.C., USA",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/90facd68-4df7-40c2-9383-e989a02fbe51?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1784656096000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/politics/2026/07/21/trump-pledges-support-lebanon-peace-efforts-with-israel-clashes-continue/"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/90facd68-4df7-40c2-9383-e989a02fbe51?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e03d6bd4eb70",
+      "title": "Trump pledges support for Lebanon peace efforts with Israel as clashes continue",
+      "description": "The president met with his Lebanese counterpart, who is trying to restore government control over southern territory where Israel has been fighting Hezbollah.",
+      "lat": 34.99,
+      "lng": 35.5,
+      "severity": 2,
+      "location": "Beirut, Lebanon",
       "source": "Washington Post World",
       "url": "https://www.washingtonpost.com/politics/2026/07/21/trump-pledges-support-lebanon-peace-efforts-with-israel-clashes-continue/",
       "image": null,
@@ -17,13 +192,13 @@
       "coverage": {
         "left": 1,
         "center": 1,
-        "right": 1,
-        "total": 3,
+        "right": 0,
+        "total": 2,
         "buckets": {
           "left": 0,
           "lean_left": 1,
           "center": 1,
-          "lean_right": 1,
+          "lean_right": 0,
           "right": 0
         },
         "sources": [
@@ -36,11 +211,6 @@
             "n": "Axios",
             "b": "center",
             "u": "https://www.axios.com/2026/07/21/lebanon-israel-trump-aoun-hezbollah"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2163199"
           }
         ]
       }
@@ -107,49 +277,6 @@
             "n": "NBC News World",
             "b": "lean_left",
             "u": "https://www.nbcnews.com/video/trump-imposes-50-tariffs-on-dairy-alcohol-and-cars-from-canada-266971717891"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ee09d8f9b920",
-      "title": "Trump meets Lebanese President Joseph Aoun",
-      "description": "US President Donald Trump meets with Lebanese President Joseph Aoun at the White House, discussing US support for Lebanon and potential talks with Hezbollah.",
-      "lat": 39.99,
-      "lng": -77.04,
-      "severity": 1,
-      "location": "Washington, D.C., USA",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/as-he-hosts-the-lebanese-president-trump-says-the-us-will-help-the-country",
-      "image": "https://s.france24.com/media/display/5e843832-851c-11f1-8100-005056a97e36/w:1024/p:16x9/2026-07-21T155146Z-1731238555-RC2BIMAU7W6X-RTRMADP-3-USA-TRUMP.jpg",
-      "ts": 1784650748000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/replay-lebanon-s-joseph-aoun-and-us-s-donald-trump-hold-press-conference"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/article-903213"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/politics/2026/07/21/watch-live-donald-trump-meets-with-president-of-lebanon/"
           }
         ]
       }
@@ -535,6 +662,44 @@
             "n": "New York Post",
             "b": "lean_right",
             "u": "https://nypost.com/video/fbi-probes-nyc-ice-attack-trump-vows-iran-will-pay-after-deadly-strikes/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f872a9fc5f7c",
+      "title": "Ukraine Fires 400 Drones Toward Moscow As Zelenskyy Grapples With Protests",
+      "description": "The blitz came hours after Russia bombarded Kyiv and other Ukrainian cities with ballistic missiles.",
+      "lat": 50.45,
+      "lng": 32.42519999999999,
+      "severity": 4,
+      "location": "Kyiv, Ukraine",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/ukraine-blitz-amid-zelenskyy-political-crisis_n_6a5df680e4b0ab756517c58f",
+      "image": null,
+      "ts": 1784543411000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/ukraine-blitz-amid-zelenskyy-political-crisis_n_6a5df680e4b0ab756517c58f"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/ukraine-unleashes-more-than-400-drones-near-moscow-one-wars-biggest-attacks"
           }
         ]
       }
@@ -2891,71 +3056,6 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/cuba-suffers-second-nationwide-blackout-in-five-days?traffic_source=rss",
       "image": null,
       "ts": 1783760423000
-    },
-    {
-      "id": "716a0684bc4d",
-      "title": "Cuba suffers second nationwide blackout",
-      "description": "Cuba has suffered its second nationwide blackout in five days, leaving the country without power.",
-      "lat": 23.13,
-      "lng": -82.38,
-      "severity": 3,
-      "location": "Havana, Cuba",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/cuba-suffers-second-nationwide-blackout-in-five-days?traffic_source=rss",
-      "image": null,
-      "ts": 1783760423000
-    },
-    {
-      "id": "c6b53fabead2",
-      "title": "Cuba suffers second nationwide blackout in five days",
-      "description": "Cuba has suffered its second nationwide blackout in five days, causing widespread disruptions.",
-      "lat": 23.13,
-      "lng": -82.38,
-      "severity": 3,
-      "location": "Havana, Cuba",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/cuba-suffers-second-nationwide-blackout-in-five-days?traffic_source=rss",
-      "image": null,
-      "ts": 1783760423000
-    },
-    {
-      "id": "689a104c40da",
-      "title": "Russia launches missile attacks on Kyiv",
-      "description": "Russian overnight strikes on Kyiv injure ten, as the conflict between Russia and Ukraine continues to escalate.",
-      "lat": 50.45,
-      "lng": 32.42519999999999,
-      "severity": 4,
-      "location": "Kyiv, Ukraine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/russian-missile-attacks-wound-11-in-kyiv?traffic_source=rss",
-      "image": null,
-      "ts": 1783760003000
-    },
-    {
-      "id": "8de2c4846f01",
-      "title": "Russia launches missile and drone barrage on Ukraine",
-      "description": "Russia has launched a missile and drone barrage on Ukraine, killing two and wounding 19 in the latest escalation of the conflict.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 4,
-      "location": "Kyiv, Ukraine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/russian-missile-attacks-wound-11-in-kyiv?traffic_source=rss",
-      "image": null,
-      "ts": 1783760003000
-    },
-    {
-      "id": "11f170498c1f",
-      "title": "China and North Korea celebrate 65th anniversary of friendship treaty",
-      "description": "China and North Korea are celebrating the 65th anniversary of their friendship treaty.",
-      "lat": 39.02,
-      "lng": 125.75,
-      "severity": 2,
-      "location": "Pyongyang, North Korea",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/sealed-in-blood-where-does-the-china-north-korea-alliance-stand-today?traffic_source=rss",
-      "image": null,
-      "ts": 1783758080000
     }
   ]
 }
