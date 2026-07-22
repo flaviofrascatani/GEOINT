@@ -1,7 +1,235 @@
 {
   "schema": 1,
-  "updated": "2026-07-22T07:15:34.247646+00:00",
+  "updated": "2026-07-22T10:03:39.884046+00:00",
   "events": [
+    {
+      "id": "e227bbb2e64a",
+      "title": "Historic Trump-Aoun meeting showcases White House's new Middle East priorities",
+      "description": "A recent meeting between President Trump and Lebanese President Aoun demonstrates a US commitment to brokering peace between Israel and Lebanon.",
+      "lat": 33.8938,
+      "lng": 37.40699999999998,
+      "severity": 1,
+      "location": "Beirut, Lebanon",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/international/article-903276",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_3321,w_4981/730928",
+      "ts": 1784718992000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/international/article-903276"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2087072ce745",
+      "title": "Ukraine renews strikes on Russia's largest online retailer",
+      "description": "Ukraine's military has again targeted warehouses belonging to Wildberries, a company Kyiv says provides logistics for Russia's military.",
+      "lat": 45.0352,
+      "lng": 41.0353,
+      "severity": 3,
+      "location": "Krasnodar, Russia",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/ukraine-renews-strikes-on-russia-s-largest-online-retailer/a-78063598?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1784714619756,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/07/20/ukraine-bombs-warehouses-targeting-wildberries-russias-version-amazon/"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/ukraine-russia-wildberries-strikes-putin-37461440"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/ukraine-renews-strikes-on-russia-s-largest-online-retailer/a-78063598?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0179148a349c",
+      "title": "Turkey-PKK peace talks show promise",
+      "description": "Peace talks between the PKK and Turkey are going slowly, but some observers believe that they will succeed in bringing an end to the conflict.",
+      "lat": 38.9637,
+      "lng": 43.0553,
+      "severity": 2,
+      "location": "Ankara, Turkey",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/turkey-pkk-talks-is-peace-finally-possible/a-78059048?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1784714619756,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/turkey-pkk-talks-is-peace-finally-possible/a-78059048?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1eeb2d963ef6",
+      "title": "Iran launches missiles at Jordan",
+      "description": "Missile alert sirens have sounded in Jordan's port city of Aqaba as attacks across the Middle East overshadowed diplomatic efforts in Pakistan to salvage an interim ceasefire deal.",
+      "lat": 29.5167,
+      "lng": 35.0,
+      "severity": 4,
+      "location": "Aqaba, Jordan",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/iran-launches-missiles-jordan-134974879",
+      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
+      "ts": 1784710762000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/iran-launches-missiles-jordan-134974879"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/trump-says-the-united-states-is-not-finished-with-iran/live-78042474?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-903278"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2ea5e0be7b7",
+      "title": "Trump threatens to bomb Iran's Pickaxe Mountain nuclear facility",
+      "description": "President Trump has threatened to bomb Iran's underground nuclear facility in Pickaxe Mountain, amid escalating tensions between the US and Iran.",
+      "lat": 32.42,
+      "lng": 53.06,
+      "severity": 5,
+      "location": "Pickaxe Mountain, Iran",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/trump-threatens-to-bomb-irans-pickaxe-nuke-site-soon-but-can-us-destroy-it-11805222#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-07/hj6dn5k_pickaxe-mountain_625x300_15_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1784709128000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/trump-threatens-to-bomb-irans-pickaxe-nuke-site-soon-but-can-us-destroy-it-11805222#publisher=newsstand"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cdrv0p37k8jo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/07/22/pickaxe-mountain-location-nuclear-iran-trump.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "01f67a328d24",
+      "title": "India's Modi government under growing pressure as 'cockroach' protests intensify",
+      "description": "The Indian government is facing growing pressure as protests, dubbed the 'cockroach' protests, intensify across the country.",
+      "lat": 29.8041,
+      "lng": 77.10250000000002,
+      "severity": 3,
+      "location": "New Delhi, India",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c9d8p88lyjdo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cb5f/live/ef78f7e0-85a0-11f1-bee8-53ce494e1abc.jpg",
+      "ts": 1784707324000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c9d8p88lyjdo?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "1bf6de0f921c",
       "title": "EAEU's interim trade agreement with Mongolia enters into force",
@@ -996,49 +1224,6 @@
       }
     },
     {
-      "id": "b2ea5e0be7b7",
-      "title": "Iran Shifted Nuclear Centrifuges To Pickaxe Mountain",
-      "description": "According to a Wall Street Journal report citing US and Israeli officials, Israeli intelligence believes the transfer took place last autumn, months after the 12-day conflict in June 2025.",
-      "lat": 32.42,
-      "lng": 53.06,
-      "severity": 4,
-      "location": "Pickaxe Mountain, Iran",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/iran-shifted-nuclear-centrifuges-to-pickaxe-mountain-report-11803267#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-07/hj6dn5k_pickaxe-mountain_625x300_15_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1784659408000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/iran-shifted-nuclear-centrifuges-to-pickaxe-mountain-report-11803267#publisher=newsstand"
-          },
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/07/21/trump-iran-pickaxe-mountain-bomb"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/iran-news/article-903221"
-          }
-        ]
-      }
-    },
-    {
       "id": "b1a7d499b513",
       "title": "Netherlands to sanction trade with illegal Israeli settlements",
       "description": "Dutch ban on Israeli goods from occupied territory comes as efforts to implement EU-wide sanctions remain stalled.",
@@ -1646,39 +1831,29 @@
     },
     {
       "id": "c0771fc5bc7a",
-      "title": "Nicaragua's President Ortega abolishes elections",
-      "description": "Nicaraguan President Daniel Ortega announces that the country will no longer hold elections, ending any pretense of democracy.",
+      "title": "Nicaragua's Ortega says country will 'never again' hold elections",
+      "description": "Nicaragua's President Daniel Ortega has said that the country will hold no more elections, eliminating any path for opposition to challenge his rule.",
       "lat": 12.12,
       "lng": -86.25,
-      "severity": 5,
+      "severity": 3,
       "location": "Managua, Nicaragua",
       "source": "Fox News World",
       "url": "https://www.foxnews.com/world/nicaragua-ortega-ends-elections",
       "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/07/931/523/Daniel-Ortega-elections-rule.png?ve=1&tl=1",
       "ts": 1784609787000,
       "coverage": {
-        "left": 1,
-        "center": 1,
+        "left": 0,
+        "center": 0,
         "right": 1,
-        "total": 3,
+        "total": 1,
         "buckets": {
           "left": 0,
-          "lean_left": 1,
-          "center": 1,
+          "lean_left": 0,
+          "center": 0,
           "lean_right": 0,
           "right": 1
         },
         "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/nicaraguas-president-ortega-moves-extend-20-year-rule-134932447"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/nicaraguas-president-had-already-been-perpetuating-himself-power-he-now-announced-there-will-3805552"
-          },
           {
             "n": "Fox News World",
             "b": "right",
@@ -3781,71 +3956,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cdxd3wkp2rzo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e90d/live/996516b0-7dce-11f1-b976-0b9c15b0ccfc.jpg",
       "ts": 1783841985000
-    },
-    {
-      "id": "156b33f48588",
-      "title": "China evacuates nearly two million people as powerful typhoon makes landfall",
-      "description": "Schools, work and outdoor activities have been suspended in Zhejiang province and many transport services cancelled.",
-      "lat": 28.22,
-      "lng": 120.67000000000002,
-      "severity": 3,
-      "location": "Zhejiang province, China",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cdxd3wkp2rzo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e90d/live/996516b0-7dce-11f1-b976-0b9c15b0ccfc.jpg",
-      "ts": 1783841985000
-    },
-    {
-      "id": "8469f938ab23",
-      "title": "IRGC vows ‘crushing response’ to any further US attacks",
-      "description": "IRGC vows ‘crushing response’ to any further US attacks.",
-      "lat": 35.69,
-      "lng": 51.420000000000016,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/irgc-vows-crushing-response-to-any-further-us-attacks?traffic_source=rss",
-      "image": null,
-      "ts": 1783840100000
-    },
-    {
-      "id": "23121a6935de",
-      "title": "US Senator Lindsey Graham passes away",
-      "description": "US Senator Lindsey Graham has passed away, according to a breaking news report.",
-      "lat": 33.83,
-      "lng": -81.16,
-      "severity": 1,
-      "location": "Columbia, South Carolina, USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/12/us-senator-lindsey-graham-passes-away?traffic_source=rss",
-      "image": null,
-      "ts": 1783837626000
-    },
-    {
-      "id": "52e2581174dc",
-      "title": "US-Iran conflict flares again after container ship hit in Hormuz",
-      "description": "The US-Iran conflict has flared again after a container ship was hit in the Strait of Hormuz.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMmlDNmJTVWxfOVExTHpXbTJmOEswWUFGWWdTc0ZPcVdJWFpoMm81VnVtQk54WG1RSlJ4eTVXVjlUM1lQaG04Wk5oZFN0ZElZNjdDYlJKTFZucEpNZ2xTcnY2emFnYjVGRVNDa1Q5Vzc2U2lKYW9tcGdlV3dmMzFzeFNvUlJSdmN1S1ZtWi04VWU?oc=5",
-      "image": null,
-      "ts": 1783826599000
-    },
-    {
-      "id": "93360ade90c5",
-      "title": "Nigeria rescues dozens of abducted school children in Oyo state",
-      "description": "Nigerian security forces have rescued 39 schoolchildren and five teachers abducted nearly two months ago in Oyo state.",
-      "lat": 8.02,
-      "lng": 4.03,
-      "severity": 1,
-      "location": "Oyo, Nigeria",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/nigeria-rescues-dozens-of-abducted-school-children-in-oyo-state?traffic_source=rss",
-      "image": null,
-      "ts": 1783821361000
     }
   ]
 }
