@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-07-21T23:32:21.000788+00:00",
+  "updated": "2026-07-22T00:59:24.660196+00:00",
   "events": [
     {
       "id": "d1d96cd7ec5b",
@@ -433,6 +433,39 @@
       }
     },
     {
+      "id": "7548e38b198a",
+      "title": "Trump meets with Lebanese leader, pledges support for peace efforts",
+      "description": "US President Donald Trump has met with the Lebanese leader, pledging support for peace efforts with Israel.",
+      "lat": 38.9,
+      "lng": -77.02,
+      "severity": 2,
+      "location": "Washington D.C., USA",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/politics/2026/07/21/trump-pledges-support-lebanon-peace-efforts-with-israel-clashes-continue/",
+      "image": null,
+      "ts": 1784665791000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/politics/2026/07/21/trump-pledges-support-lebanon-peace-efforts-with-israel-clashes-continue/"
+          }
+        ]
+      }
+    },
+    {
       "id": "8c5b8b3d2974",
       "title": "France becomes first EU nation to ban social media access for under-15s",
       "description": "The landmark measure is a flagship initiative of Emmanuel Macron's second term.",
@@ -596,6 +629,39 @@
       "lat": 41.85,
       "lng": -73.97,
       "severity": 2,
+      "location": "New York City, USA",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Rem9oZURvTmtpa1E1T1VHRmc3bUdZRFBwRHFiNjhReGY5Y3B0dnhPUFZqdW9PNDIwRnJmT0NISTNzTGVoR1l5MkZYUUl1SVNRRUFtQS1GYw?oc=5",
+      "image": null,
+      "ts": 1784661377000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Rem9oZURvTmtpa1E1T1VHRmc3bUdZRFBwRHFiNjhReGY5Y3B0dnhPUFZqdW9PNDIwRnJmT0NISTNzTGVoR1l5MkZYUUl1SVNRRUFtQS1GYw?oc=5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2d68543ef163",
+      "title": "US and Iran engage in diplomatic efforts to end conflict",
+      "description": "The US and Iran are engaging in diplomatic efforts to end the conflict, with the UN calling for stepped-up efforts to resolve the issue.",
+      "lat": 41.85,
+      "lng": -72.0648,
+      "severity": 1,
       "location": "New York City, USA",
       "source": "GNews Geopolitics",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Rem9oZURvTmtpa1E1T1VHRmc3bUdZRFBwRHFiNjhReGY5Y3B0dnhPUFZqdW9PNDIwRnJmT0NISTNzTGVoR1l5MkZYUUl1SVNRRUFtQS1GYw?oc=5",
@@ -1239,6 +1305,39 @@
       }
     },
     {
+      "id": "c17164542b33",
+      "title": "India tunnel disaster leaves at least 10 dead, 17 feared trapped",
+      "description": "A tunnel disaster in India has left at least 10 people dead and 17 feared trapped.",
+      "lat": 29.58,
+      "lng": 79.42,
+      "severity": 4,
+      "location": "Uttarakhand, India",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/at-least-10-dead-in-india-tunnel-disaster-with-17-feared-trapped-13565561",
+      "image": "https://e3.365dm.com/26/07/1920x1080/samardung-india-tunnel-hydropower_7303140.jpg?20260721111631",
+      "ts": 1784629800000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/at-least-10-dead-in-india-tunnel-disaster-with-17-feared-trapped-13565561"
+          }
+        ]
+      }
+    },
+    {
       "id": "ba07240755e4",
       "title": "Israeli airstrike kills family of six in Gaza",
       "description": "An Israeli airstrike kills a family of six in Gaza, including three daughters and a son.",
@@ -1492,6 +1591,39 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/ukraine-unleashes-more-than-400-drones-near-moscow-one-wars-biggest-attacks"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1b06722162e8",
+      "title": "Ghana's sensationalist film posters become collectible art",
+      "description": "Ghana's hand-painted film posters have become collectible art, often wildly unfaithful to the movies they portray.",
+      "lat": 5.56,
+      "lng": -0.21,
+      "severity": 1,
+      "location": "Accra, Ghana",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/world/2026/jul/18/ghana-sensationalist-film-posters-collectible-art",
+      "image": null,
+      "ts": 1784347247000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/jul/18/ghana-sensationalist-film-posters-collectible-art"
           }
         ]
       }
@@ -3549,58 +3681,6 @@
       "url": "https://www.bbc.co.uk/news/articles/c0qyk9jwq9no?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/892a/live/ccf1fdf0-7d46-11f1-8417-c9f35e2ce384.jpg",
       "ts": 1783792809000
-    },
-    {
-      "id": "6ecabda7eca0",
-      "title": "Lebanon-Israel talks",
-      "description": "Lebanon confirms participation in Rome talks with Israel",
-      "lat": 41.87,
-      "lng": 12.5,
-      "severity": 2,
-      "location": "Rome, Italy",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/07/11/il-libano-conferma-partecipazione-ai-colloqui-di-roma-con-israele_cc8efc17-b68f-4bd2-ba78-bbd2ba98af84.html",
-      "image": null,
-      "ts": 1783791917000
-    },
-    {
-      "id": "1fc020132d37",
-      "title": "Iran-US Tensions",
-      "description": "Iran must pledge to stop shooting at ships in Strait of Hormuz, US officials say",
-      "lat": 27.67,
-      "lng": 58.15520000000001,
-      "severity": 3,
-      "location": "Strait of Hormuz",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/crelyq79x71o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b9e/live/f34fa810-7cfd-11f1-926f-c90d1bcfbc84.jpg",
-      "ts": 1783788957000
-    },
-    {
-      "id": "f46c4a4b5e58",
-      "title": "Trump administration subpoenas New York Times journalists",
-      "description": "The Trump administration has subpoenaed New York Times journalists over their reporting on alleged security issues with the president's new plane.",
-      "lat": 40.75,
-      "lng": -73.98,
-      "severity": 3,
-      "location": "New York City, USA",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cpd3g8q51g7o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a1ec/live/f2614840-7d30-11f1-8f06-e145dd803033.jpg",
-      "ts": 1783786293000
-    },
-    {
-      "id": "c4fa18672ea4",
-      "title": "Syrians optimistic about economic hopes after sanctions removal",
-      "description": "The removal of sanctions has revived economic hopes in Syria, with many Syrians optimistic about the potential for economic growth and development.",
-      "lat": 33.51,
-      "lng": 36.28999999999999,
-      "severity": 1,
-      "location": "Damascus, Syria",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQa1Awbnd3UklkM01rdDQ1bThleGlBdWJfa0VmeTVBVS1HTGQzczctdGxyaWVqNDFXM21zaGJBMGVkaUhLU2xwNWpNODdWZ2hCZHkyMTVPcTFfSHZmNlZhX0xZcmkxVlhQQ0VQVlJhNkVoSzBXRVZ0RloyUkNhOG85NEVzY0k2LWw5V0t5VktpSERjcUJOcnhmNnkwSXpVdHdtMWkxSEMzVmN3aGlVc1R2dWFydDRrUE3SAbwBQVVfeXFMTW1aTFhSLXpJTXBiVWVrWi10dXpDZUEyc2JNWFJlVVNLWVZqbTczM205MmtMT3E4LWV1bExrZ3k5SjRpMm5ESzhKWUhzT1M0Q3ltczV6WXhXbWM3YWttb3podFNjNGEtM2F6eF9TTy12U0FGUzVBZG1NOGNwWXpJLUpFUTZ4SU8xdjJLeVYyNl90Uy1KMFlmSUJKRk03bzRDa01rR0JYcnEyNHNyZGpSS0ZrUDhoM0ZzN0h6LTI?oc=5",
-      "image": null,
-      "ts": 1783785459000
     }
   ]
 }
