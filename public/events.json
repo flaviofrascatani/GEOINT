@@ -1,7 +1,116 @@
 {
   "schema": 1,
-  "updated": "2026-07-22T16:04:30.758834+00:00",
+  "updated": "2026-07-22T17:36:08.013141+00:00",
   "events": [
+    {
+      "id": "b2e68c6b5c90",
+      "title": "Hamas's new leader calls for permanent Gaza ceasefire",
+      "description": "In his first speech since being elected Hamas political chief, Khalil al-Hayya called for a permanent ceasefire in Gaza.",
+      "lat": 32.615,
+      "lng": 34.4667,
+      "severity": 1,
+      "location": "Gaza City, Gaza Strip",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/22/hamass-new-leader-calls-for-permanent-gaza-ceasefire?traffic_source=rss",
+      "image": null,
+      "ts": 1784739770000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/7/22/hamass-new-leader-calls-for-permanent-gaza-ceasefire?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c29f7081869c",
+      "title": "France becomes 1st EU country to ban social media for minors under 15",
+      "description": "France has become the first country in the European Union to ban social media platforms such as TikTok and Snapchat for children under the age of 15.",
+      "lat": 50.5067,
+      "lng": 3.3035999999999888,
+      "severity": 2,
+      "location": "Paris, France",
+      "source": "OAN",
+      "url": "https://www.oann.com/newsroom/france-becomes-1st-eu-country-to-ban-social-media-for-minors-under-15/",
+      "image": null,
+      "ts": 1784738471000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/french-lawmakers-adopt-pioneering-social-media-ban-for-children-under-15_n_6a5fba15e4b06bbe43f4ce0e"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/france-approves-blanket-social-media-ban-for-under-15s-13565790"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/france-becomes-1st-eu-country-to-ban-social-media-for-minors-under-15/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3fd4fcefb0bc",
+      "title": "Zelenskyy replaces Ukraine's top general after days of protests",
+      "description": "Ukraine's President Volodymyr Zelenskyy announced that he will replace the commander in chief of the armed forces as a government shake-up continues.",
+      "lat": 50.4333,
+      "lng": 30.516700000000014,
+      "severity": 3,
+      "location": "Kyiv, Ukraine",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/ukraine-zelenskyy-fires-general-after-protests/",
+      "image": null,
+      "ts": 1784738379000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/ukraine-zelenskyy-fires-general-after-protests/"
+          }
+        ]
+      }
+    },
     {
       "id": "ed15b275ea4d",
       "title": "EU Review of Airline Ownership Rules",
@@ -176,11 +285,11 @@
     },
     {
       "id": "955fa789c6c2",
-      "title": "Bulgaria Approves US Use of Air Base",
-      "description": "Bulgaria has approved the use of its Bezmer Air Base by the US for Middle East support, with up to eight US tanker aircraft and 250 personnel to be stationed there.",
+      "title": "Bulgaria approves US use of Bezmer Air Base for Middle East support",
+      "description": "Up to eight US tanker aircraft and 250 personnel will be stationed at Bezmer Air Base from Friday to October without further approvals.",
       "lat": 42.45,
       "lng": 25.15,
-      "severity": 2,
+      "severity": 3,
       "location": "Bezmer Air Base, Bulgaria",
       "source": "NDTV World",
       "url": "https://www.ndtv.com/world-news/bulgaria-and-us-relations-bulgaria-approves-us-use-of-air-base-for-middle-east-support-11806527#publisher=newsstand",
@@ -383,6 +492,39 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/turkey-pkk-talks-is-peace-finally-possible/a-78059048?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d251c525979e",
+      "title": "US identifies 3rd service member killed in Iranian attack",
+      "description": "The United States military identified Angel S. Rampersad as a third servicemember believed to have been killed in Jordan after an Iranian attack.",
+      "lat": 32.5333,
+      "lng": 36.3333,
+      "severity": 4,
+      "location": "Jordan",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/news/us-news/iran-war-us-service-member-killed-attack-jordan-base-military-rcna588668",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-07/260722-3x2-Rampersad-rs-e6e669.jpg",
+      "ts": 1784714024000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/news/us-news/iran-war-us-service-member-killed-attack-jordan-base-military-rcna588668"
           }
         ]
       }
@@ -4199,58 +4341,6 @@
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaTF3eDZqNnJQLUJjMjMwRlF6Z2VXU1VfU3FPU1NnU3pwbl9Fa0FqU1JIbGs3akV5OWRKMWtKcjZYcVhqRWtDWlo5TFVCZTRxaWplN2RQU2FZY1QyZkJ1UUVYelhzaUxwdkp3TnR2aklkY2QzWkVJd3J5TWMwaHFleVlVaDgzXzjSAYwBQVVfeXFMTUI5RnZVaUplY3lPNU9yMDN6WFlFRzdiQ09aOS1NQmNqVXUxRm5CVVlHUGoxeEJDWmlwc1BpWFhfencyVzAtY0FJVDJvWG96eUNhSWZONGY2blBwOGFVaF9vNUR4SGg3eGVOUkFCX3JHeXJhMXpzUTBLNFh4cHlXbkJrRk9kYi1NY25SLWY?oc=5",
       "image": null,
       "ts": 1783881780000
-    },
-    {
-      "id": "7c5efffa87e3",
-      "title": "Qatar's Father Emir Sheikh Hamad bin Khalifa Al Thani Passes Away",
-      "description": "Sheikh Hamad bin Khalifa Al Thani, the former Emir of Qatar, has passed away at the age of 74.",
-      "lat": 25.28,
-      "lng": 53.43520000000001,
-      "severity": 1,
-      "location": "Doha, Qatar",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/thousands-gather-to-bid-farewell-to-qatars-father-emir-sheikh-hamad?traffic_source=rss",
-      "image": null,
-      "ts": 1783880670000
-    },
-    {
-      "id": "8554934165e9",
-      "title": "US-Iran conflict escalates",
-      "description": "The conflict between the US and Iran is escalating, with both sides exchanging attacks.",
-      "lat": 35.69,
-      "lng": 51.420000000000016,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/12/concern-for-renewed-war-in-iran-as-us-attacks-military-civilian-targets?traffic_source=rss",
-      "image": null,
-      "ts": 1783878627000
-    },
-    {
-      "id": "257764147ca1",
-      "title": "UN Chief Urges US and Iran to Halt Fighting",
-      "description": "The UN chief has urged the US and Iran to halt fighting and resume talks as the conflict escalates.",
-      "lat": 41.85,
-      "lng": -72.0648,
-      "severity": 4,
-      "location": "New York City, USA",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZDFTVHUyR1RLdUd4aTU0UzR5eFQ2ajVWYXVsUDI0SS1odXdiVFN5b1pHN29qTnBOZUNtUVJRNXJFSDhUSG1QU3F0Snk1SW5DamxTZm8xTUxSZWpJZGkzZnpYVzFFY0lsZDM1cWt1MmVabUZGUzZDbEltSFNqUFNOTFVnN1ZXdjQ0THowN3lHVEdiQ19iV0tjYWc2SjVpTkplSk52YVJZclE2Ti11bDl2QkZaeHpNcnVpaXc?oc=5",
-      "image": null,
-      "ts": 1783877862000
-    },
-    {
-      "id": "b1fa9e41959a",
-      "title": "Funeral Prayers Held for Qatar's Father Emir",
-      "description": "Funeral prayers have been held for Qatar's Father Emir, Sheikh Hamad bin Khalifa Al Thani, in Doha.",
-      "lat": 26.39,
-      "lng": 53.43520000000001,
-      "severity": 1,
-      "location": "Doha, Qatar",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/12/funeral-prayers-held-for-qatars-father-emir-sheikh-hamad-in-doha?traffic_source=rss",
-      "image": null,
-      "ts": 1783875491000
     }
   ]
 }
