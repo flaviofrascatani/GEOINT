@@ -1,7 +1,78 @@
 {
   "schema": 1,
-  "updated": "2026-07-22T18:44:42.544430+00:00",
+  "updated": "2026-07-22T20:17:37.690011+00:00",
   "events": [
+    {
+      "id": "68106f02734c",
+      "title": "Ukraine Leadership Shake-up",
+      "description": "Ukrainian President Volodymyr Zelensky has removed several top officials in a major shake-up, amid reports of improving battlefield gains.",
+      "lat": 51.55,
+      "lng": 30.52000000000001,
+      "severity": 3,
+      "location": "Kyiv, Ukraine",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/07/22/why-is-zelensky-firing-top-leaders-ukraines-outlook-improves/",
+      "image": null,
+      "ts": 1784747498000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/07/22/why-is-zelensky-firing-top-leaders-ukraines-outlook-improves/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "781c957dcd91",
+      "title": "Trump Attends Dignified Transfer of Fallen US Service Members",
+      "description": "President Trump attended the dignified transfer of the remains of four US service members killed in Iranian attacks, as the US and Iran continue to clash.",
+      "lat": 40.12,
+      "lng": -73.5548,
+      "severity": 4,
+      "location": "Dover Air Force Base, Delaware, USA",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/politics/white-house/trump-attends-dignified-transfer-4-service-members-killed-iran-attacks-rcna588737",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-07/260722-trump-dignified-transfer-mn-1225-292657.jpg",
+      "ts": 1784745688000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/politics/white-house/trump-attends-dignified-transfer-4-service-members-killed-iran-attacks-rcna588737"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/iran-us-war-news-live-update-new-strikes-middle-east-conflict-donald-trump-strait-of-hormuz-mojtaba-khamenei-israel-netanyahu-11799301#publisher=newsstand"
+          }
+        ]
+      }
+    },
     {
       "id": "d464f1beb4bd",
       "title": "Mauritius Approves Law to Criminalize Marital Rape",
@@ -31,6 +102,39 @@
             "n": "ANSA Mondo",
             "b": "center",
             "u": "https://www.ansa.it/sito/notizie/mondo/africa/2026/07/22/mauritius-approva-una-legge-per-criminalizzare-lo-stupro-coniugale_92b48f35-ca3e-4202-9e7b-5dba8b64c6cb.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fb0d66f92752",
+      "title": "India Education System Protests",
+      "description": "A youth-led movement in India is protesting against the education system and lack of jobs, posing a rare challenge to the government.",
+      "lat": 27.7474,
+      "lng": 78.75,
+      "severity": 3,
+      "location": "New Delhi, India",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/07/22/world/asia/india-youth-protest-modi-cockroach-janta-party.html",
+      "image": "https://static01.nyt.com/images/2026/07/22/multimedia/22int-india-protests-wtk-05-lcqm/22int-india-protests-wtk-05-lcqm-mediumSquareAt3X.jpg",
+      "ts": 1784743997000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/22/world/asia/india-youth-protest-modi-cockroach-janta-party.html"
           }
         ]
       }
@@ -4417,45 +4521,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cwydz60j3eno?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/df71/live/aad05480-7c4a-11f1-bee8-53ce494e1abc.jpg",
       "ts": 1783898946000
-    },
-    {
-      "id": "f65de15d1bc1",
-      "title": "US launches new wave of strikes against Iran",
-      "description": "The US has launched a new wave of strikes against Iran, aimed at degrading its military capabilities.",
-      "lat": 32.42,
-      "lng": 53.68000000000001,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/12/us-launches-new-wave-of-strikes-against-iran-aimed-at-degrading-military?traffic_source=rss",
-      "image": null,
-      "ts": 1783897412000
-    },
-    {
-      "id": "481045125b2a",
-      "title": "Israel to hold national elections on October 27",
-      "description": "Israel's parliament has announced that national elections will be held on October 27, with Prime Minister Netanyahu confirming he will run for office again.",
-      "lat": 31.78,
-      "lng": 35.22,
-      "severity": 2,
-      "location": "Jerusalem, Israel",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/12/israel-to-hold-national-elections-on-october-27-parliament-says?traffic_source=rss",
-      "image": null,
-      "ts": 1783891588000
-    },
-    {
-      "id": "a56fcec7a79a",
-      "title": "Iran says almost a dozen 'enemy projectiles' targeted Qeshm Island",
-      "description": "Iran has reported that almost a dozen 'enemy projectiles' have targeted Qeshm Island, amid escalating tensions in the region.",
-      "lat": 26.97,
-      "lng": 56.27000000000001,
-      "severity": 4,
-      "location": "Qeshm Island, Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/iran-says-almost-a-dozen-enemy-projectiles-targeted-qeshm-island?traffic_source=rss",
-      "image": null,
-      "ts": 1783886186000
     }
   ]
 }
