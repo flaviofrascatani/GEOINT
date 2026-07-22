@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-07-22T14:16:15.596937+00:00",
+  "updated": "2026-07-22T16:04:30.758834+00:00",
   "events": [
+    {
+      "id": "ed15b275ea4d",
+      "title": "EU Review of Airline Ownership Rules",
+      "description": "The EU is reviewing airline ownership rules, which could impact Apollo's £5.7bn bid for easyJet.",
+      "lat": 50.85,
+      "lng": 4.349999999999994,
+      "severity": 3,
+      "location": "Brussels, Belgium",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/8c3a155b-03c0-4034-9403-839674a3df9e?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1784735281000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/8c3a155b-03c0-4034-9403-839674a3df9e?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
     {
       "id": "c6c6740bcdb7",
       "title": "US-Saudi Nuclear Deal",
@@ -104,6 +137,39 @@
             "n": "Washington Examiner",
             "b": "right",
             "u": "https://www.washingtonexaminer.com/news/world/4658406/trump-threatens-blow-up-bridge-power-plant-every-ship-iran-strikes/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "617b448dc40e",
+      "title": "Iran War Costs Rising",
+      "description": "The costs of the Iran war are rising, as Trump and Tehran signal no letup in the expanding conflict.",
+      "lat": 35.69,
+      "lng": 53.325199999999995,
+      "severity": 4,
+      "location": "Tehran, Iran",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTDhhM3dwNExYeUkxSU5xQzhhTGdLSDdNdk1ZY0hicHh4eWJiRGdWc21Hc0ZIZDdMdTFZdndtWDRMM2JEYVE2cHR5UVJtZHJiYXU1ZkxkTlBlcmhKSkxvVl9zVEZ1dlNKcGhwVXR6cFZQMWRtM2pWX2labU96N0hlcnlXWFpyQXJYN2pGMGJReHpFNHpuc0s0UzU5NXI1SXBEa2xMbjRuMWVVYXVTRjZhMg?oc=5",
+      "image": null,
+      "ts": 1784726975000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTDhhM3dwNExYeUkxSU5xQzhhTGdLSDdNdk1ZY0hicHh4eWJiRGdWc21Hc0ZIZDdMdTFZdndtWDRMM2JEYVE2cHR5UVJtZHJiYXU1ZkxkTlBlcmhKSkxvVl9zVEZ1dlNKcGhwVXR6cFZQMWRtM2pWX2labU96N0hlcnlXWFpyQXJYN2pGMGJReHpFNHpuc0s0UzU5NXI1SXBEa2xMbjRuMWVVYXVTRjZhMg?oc=5"
           }
         ]
       }
@@ -2392,6 +2458,39 @@
       }
     },
     {
+      "id": "64d31eb5a931",
+      "title": "São Tomé and Príncipe Presidential Election",
+      "description": "Voters in São Tomé and Príncipe are going to the polls for a presidential election, with the incumbent hoping to secure a second term.",
+      "lat": 0.33,
+      "lng": 6.73,
+      "severity": 2,
+      "location": "São Tomé, São Tomé and Príncipe",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/world/2026/jul/19/sao-tome-and-principe-presidential-election",
+      "image": null,
+      "ts": 1784433616000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/jul/19/sao-tome-and-principe-presidential-election"
+          }
+        ]
+      }
+    },
+    {
       "id": "1b06722162e8",
       "title": "Ghana's sensationalist film posters become collectible art",
       "description": "Ghana's hand-painted film posters have become collectible art, often wildly unfaithful to the movies they portray.",
@@ -4152,45 +4251,6 @@
       "url": "https://www.aljazeera.com/news/2026/7/12/funeral-prayers-held-for-qatars-father-emir-sheikh-hamad-in-doha?traffic_source=rss",
       "image": null,
       "ts": 1783875491000
-    },
-    {
-      "id": "1a0c79dd63e3",
-      "title": "US and Iran exchange strikes",
-      "description": "The US insists the Strait of Hormuz is open as it exchanges strikes with Iran.",
-      "lat": 26.57,
-      "lng": 58.15520000000001,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4e75/live/a70b6a10-7e07-11f1-afb0-9dae682daff3.jpg",
-      "ts": 1783874784000
-    },
-    {
-      "id": "cba04f6d2165",
-      "title": "Qatar Mourns Death of Former Emir Sheikh Hamad",
-      "description": "Qatar is mourning the death of its former Emir, Sheikh Hamad bin Khalifa Al Thani, who played a significant role in the country's development.",
-      "lat": 26.38,
-      "lng": 51.53,
-      "severity": 1,
-      "location": "Doha, Qatar",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/funeral-prayers-held-for-qatars-father-emir-sheikh-hamad?traffic_source=rss",
-      "image": null,
-      "ts": 1783874604000
-    },
-    {
-      "id": "f92cf6536475",
-      "title": "US-Iran Deal Unravels",
-      "description": "The US-Iran deal has unraveled, with missiles and sanctions returning to the forefront.",
-      "lat": 35.69,
-      "lng": 51.420000000000016,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYXI2d0Y4MGw3TEYydjYycXBlTDdGOTEwWlVwdl9WNXRfaHJmd25qRnVMdGZIRm95UWQ3Z3RWWHFwQ3Q5QzUwLU9fV05LX0hGa3dLWnlCM29KWTl6RWY1bWlBUVVjZHYyZHRLSzJTWVlYNFZfSmpHVG8xR3Y3cEVSTWNiRXZ0bmI5YXVmSVFqSlpKc00xQUFQUkJsTnp5V3Yw?oc=5",
-      "image": null,
-      "ts": 1783872009000
     }
   ]
 }
