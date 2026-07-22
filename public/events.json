@@ -1,7 +1,177 @@
 {
   "schema": 1,
-  "updated": "2026-07-22T00:59:24.660196+00:00",
+  "updated": "2026-07-22T04:23:26.768588+00:00",
   "events": [
+    {
+      "id": "1e2dd4761544",
+      "title": "France bans social media for under-15s",
+      "description": "France will ban social media for under-15s from September 1, following the UK and Australia's moves toward blanket bans.",
+      "lat": 48.86,
+      "lng": 2.289999999999992,
+      "severity": 2,
+      "location": "Paris, France",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/22/france-becomes-first-eu-country-to-officially-ban-social-media-for-children?traffic_source=rss",
+      "image": null,
+      "ts": 1784691251000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/7/22/france-becomes-first-eu-country-to-officially-ban-social-media-for-children?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "49ea71029be7",
+      "title": "US renews strikes on Iran",
+      "description": "The US military launched an 11th straight night of strikes on Iran early Wednesday, with President Donald Trump saying the US was 'not finished' attacking the Middle Eastern nation.",
+      "lat": 33.52,
+      "lng": 54.96520000000001,
+      "severity": 4,
+      "location": "Tehran, Iran",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cdrv0p37k8jo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a13/live/5d582620-8572-11f1-bee8-53ce494e1abc.jpg",
+      "ts": 1784689508000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20260722-middle-east-live-us-launches-11th-night-of-iran-strikes-as-diplomacy-falters"
+          }
+        ]
+      }
+    },
+    {
+      "id": "17f0d9bcc52f",
+      "title": "Zelenskyy sacks Ukraine's top general",
+      "description": "Ukrainian President Volodymyr Zelenskyy has sacked the country's top general, Oleksandr Syrskyi, after days of protests.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 3,
+      "location": "Kyiv, Ukraine",
+      "source": "Daily Express World",
+      "url": "https://www.express.co.uk/news/world/2231638/zelensky-fire-ukraine-military-chief",
+      "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2231638_1.jpg",
+      "ts": 1784687940000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/ukraine-zelenskyy-fires-general-after-protests/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f034937824df",
+      "title": "Trump announces tariffs on generic drugs",
+      "description": "US President Donald Trump announced a 100% tariff on imported generic pharmaceutical drugs on Tuesday.",
+      "lat": 38.9,
+      "lng": -77.02,
+      "severity": 3,
+      "location": "Washington D.C., USA",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/americas/20260722-trump-announces-100-tariffs-on-imported-generic-pharmaceutical-drugs",
+      "image": "https://s.france24.com/media/display/161914ec-8561-11f1-8c19-005056a97e36/w:1024/p:16x9/AP26202587608286.jpg",
+      "ts": 1784684311000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/donald-trump-says-imported-generic-drugs-to-face-100-tariff-from-august-2028-11803611#publisher=newsstand"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/americas/20260722-trump-announces-100-tariffs-on-imported-generic-pharmaceutical-drugs"
+          }
+        ]
+      }
+    },
+    {
+      "id": "10f6e61c4dd6",
+      "title": "US and Iran engage in 11th consecutive night of strikes",
+      "description": "The US military says it's launched an 11th night of strikes on Iran as they vie for control of the choked-off Strait of Hormuz.",
+      "lat": 26.57,
+      "lng": 58.15520000000001,
+      "severity": 4,
+      "location": "Strait of Hormuz",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/us-military-launches-11th-consecutive-night-of-strikes-on-iran-11803634#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-06/ntkkpch4_us-army_625x300_16_June_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1784679357000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/us-military-launches-11th-consecutive-night-of-strikes-on-iran-11803634#publisher=newsstand"
+          }
+        ]
+      }
+    },
     {
       "id": "d1d96cd7ec5b",
       "title": "Trump Allows Direct US Flights to Lebanon in Historic Move",
@@ -1310,6 +1480,39 @@
       "description": "A tunnel disaster in India has left at least 10 people dead and 17 feared trapped.",
       "lat": 29.58,
       "lng": 79.42,
+      "severity": 4,
+      "location": "Uttarakhand, India",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/at-least-10-dead-in-india-tunnel-disaster-with-17-feared-trapped-13565561",
+      "image": "https://e3.365dm.com/26/07/1920x1080/samardung-india-tunnel-hydropower_7303140.jpg?20260721111631",
+      "ts": 1784629800000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/at-least-10-dead-in-india-tunnel-disaster-with-17-feared-trapped-13565561"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7661fb4e56f7",
+      "title": "India tunnel disaster kills at least 10",
+      "description": "At least 10 people have died in a disaster inside an under-construction tunnel in India.",
+      "lat": 30.69,
+      "lng": 79.43,
       "severity": 4,
       "location": "Uttarakhand, India",
       "source": "Sky News World",
@@ -3603,84 +3806,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/721f/live/8f50baf0-7d59-11f1-b976-0b9c15b0ccfc.jpg",
       "ts": 1783811658000
-    },
-    {
-      "id": "79c3e713a995",
-      "title": "Iran Conflict Lifts Mortgage Rates",
-      "description": "The conflict with Iran has led to an increase in mortgage rates, but housing demand remains positive.",
-      "lat": 38.89,
-      "lng": -77.01,
-      "severity": 3,
-      "location": "Washington, D.C., USA",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaHp1Rm5mUzA5cEtmZFA5RkJnMldTSFNyZVhBSG9GTmpRSlQwUXVqamNROENEN0trLXhIaThUc0Jjdm9SckdiZEdHNlJ4T3VsZjQzMzRFc0RERE5ja280ZmM0NVJweHNjSDREUFREaFRrYVpYZGZjQ2dkREFoS2NSaUJLWnJDd2RKek1OZDNzTVhOWHc5aEVIQVZwWnlYVjdlMU1WRHROR1M5QQ?oc=5",
-      "image": null,
-      "ts": 1783803443000
-    },
-    {
-      "id": "908003e69060",
-      "title": "Iran supreme leader calls for revenge for father's killing",
-      "description": "Iran's supreme leader has called for revenge for his father's killing, stating that vengeance is 'inevitable' and a 'desire of the nation'",
-      "lat": 35.69,
-      "lng": 51.420000000000016,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/721f/live/8f50baf0-7d59-11f1-b976-0b9c15b0ccfc.jpg",
-      "ts": 1783798236000
-    },
-    {
-      "id": "2fbbec0fdd79",
-      "title": "US Rep Ro Khanna speaks out about being harassed by Israeli settlers",
-      "description": "US Rep Ro Khanna speaks out about being harassed by Israeli settlers",
-      "lat": 31.78,
-      "lng": 35.22,
-      "severity": 3,
-      "location": "West Bank",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/us-rep-ro-khanna-speaks-out-about-being-harassed-by-israeli-settlers?traffic_source=rss",
-      "image": null,
-      "ts": 1783796341000
-    },
-    {
-      "id": "259ca65abc31",
-      "title": "US, Lebanese delegations meet to discuss Israeli withdrawal",
-      "description": "US and Lebanese delegations meet to discuss the withdrawal of Israeli 'pilot zones'",
-      "lat": 34.99,
-      "lng": 35.5,
-      "severity": 2,
-      "location": "Beirut, Lebanon",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/us-lebanese-delegations-meet-to-discuss-israeli-pilot-zones-withdrawal?traffic_source=rss",
-      "image": null,
-      "ts": 1783794024000
-    },
-    {
-      "id": "4f9bfb076f04",
-      "title": "US, Lebanese delegations meet to discuss Israeli ‘pilot zones’ withdrawal",
-      "description": "Sources tell Al Jazeera that talks are focused on establishing mechanism for first of two so-called 'pilot zones'.",
-      "lat": 33.89,
-      "lng": 35.5,
-      "severity": 2,
-      "location": "Beirut, Lebanon",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/us-lebanese-delegations-meet-to-discuss-israeli-pilot-zones-withdrawal?traffic_source=rss",
-      "image": null,
-      "ts": 1783794024000
-    },
-    {
-      "id": "a15e63fbb4df",
-      "title": "US Democrat Ro Khanna detained by Israeli settlers",
-      "description": "US Democrat Ro Khanna says he was detained by armed Israeli settlers",
-      "lat": 31.7,
-      "lng": 35.21000000000001,
-      "severity": 3,
-      "location": "West Bank",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c0qyk9jwq9no?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/892a/live/ccf1fdf0-7d46-11f1-8417-c9f35e2ce384.jpg",
-      "ts": 1783792809000
     }
   ]
 }
