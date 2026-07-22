@@ -1,7 +1,151 @@
 {
   "schema": 1,
-  "updated": "2026-07-22T11:57:16.246217+00:00",
+  "updated": "2026-07-22T14:16:15.596937+00:00",
   "events": [
+    {
+      "id": "c6c6740bcdb7",
+      "title": "US-Saudi Nuclear Deal",
+      "description": "The US and Saudi Arabia are expected to sign a deal for US companies to run nuclear power for the Saudis, potentially allowing the Saudis to enrich their own fuel for nuclear reactors.",
+      "lat": 38.9,
+      "lng": -77.02,
+      "severity": 2,
+      "location": "Washington D.C., USA",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/us-deal-saudis-enrich-nuclear-program/",
+      "image": null,
+      "ts": 1784728420000,
+      "coverage": {
+        "left": 4,
+        "center": 2,
+        "right": 0,
+        "total": 6,
+        "buckets": {
+          "left": 1,
+          "lean_left": 3,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/trump-saudi-nuclear-approve-report_n_6a603728e4b0fb869f7d208d"
+          },
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/22/world/middleeast/saudi-nuclear-deal-israel.html"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/us-deal-saudis-enrich-nuclear-program/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/us-plans-to-announce-nuclear-agreement-with-saudi-arabia-amid-iran-tensions-11806494#publisher=newsstand"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/trump-has-reportedly-approved-nuclear-deal-saudi-arabia-it-could-face-obstacles-congress-3805588"
+          },
+          {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/policy/international/5982724-donald-trump-us-saudi-arabia-potential-nuclear-deal-uranium/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0f3e2842c253",
+      "title": "Trump Threatens Iran",
+      "description": "President Trump has threatened to destroy a bridge or power plant for every ship fired upon in the Strait of Hormuz, escalating tensions between the US and Iran.",
+      "lat": 25.95,
+      "lng": 56.25,
+      "severity": 4,
+      "location": "Strait of Hormuz",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/us-will-bomb-bridges-power-plants-if-iran-shoots-at-ships-in-hormuz-trump-11806783#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-03/75or2ou8_trump-afp_625x300_03_March_26.jpg",
+      "ts": 1784728248000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/live/2026/07/22/world/iran-war-strikes-trump-hormuz"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/clashes-between-us-iran-continue-escalate-trump-threatened-climb-further-3805595"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/iran-war-trump-threatens-bridges-over-hormuz-strait-attacks/live-78060128?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4658406/trump-threatens-blow-up-bridge-power-plant-every-ship-iran-strikes/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "955fa789c6c2",
+      "title": "Bulgaria Approves US Use of Air Base",
+      "description": "Bulgaria has approved the use of its Bezmer Air Base by the US for Middle East support, with up to eight US tanker aircraft and 250 personnel to be stationed there.",
+      "lat": 42.45,
+      "lng": 25.15,
+      "severity": 2,
+      "location": "Bezmer Air Base, Bulgaria",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/bulgaria-and-us-relations-bulgaria-approves-us-use-of-air-base-for-middle-east-support-11806527#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-06/3isf7dso_iran-war-afp_625x300_04_June_26.jpeg",
+      "ts": 1784724724000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/bulgaria-and-us-relations-bulgaria-approves-us-use-of-air-base-for-middle-east-support-11806527#publisher=newsstand"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/europe/2026/07/22/bulgaria-parliament-signs-off-on-u-s-air-base-for-middle-east-operations/"
+          }
+        ]
+      }
+    },
     {
       "id": "23ee5ea22cc9",
       "title": "Ukraine's New Military Chief Faces a Monumental Test",
@@ -64,6 +208,39 @@
             "n": "Jerusalem Post",
             "b": "center",
             "u": "https://www.jpost.com/international/article-903276"
+          }
+        ]
+      }
+    },
+    {
+      "id": "716b94a6e423",
+      "title": "Oil Prices Soar",
+      "description": "Oil prices have surged past $95 as the US downplays Iran diplomacy and a second key trade route is disrupted, exacerbating tensions in the region.",
+      "lat": 24.9974,
+      "lng": 57.900000000000006,
+      "severity": 4,
+      "location": "Strait of Hormuz",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/business/business-news/oil-prices-brent-gas-iran-war-trump-hormuz-red-sea-houthis-rcna588671",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-07/260715-strait-hof-hormuz-rs-725aac.jpg",
+      "ts": 1784718937000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/prospects-ceasefire-between-us-iran-remain-dim-oil-continues-soar-3805586"
           }
         ]
       }
@@ -401,44 +578,6 @@
       }
     },
     {
-      "id": "c6c6740bcdb7",
-      "title": "Trump Approves Nuclear Agreement That May Allow Saudi Arabia To Enrich Uranium",
-      "description": "Trump has approved an agreement with Saudi Arabia that may provide the kingdom with uranium enrichment capability for its civilian nuclear program.",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/trump-saudi-nuclear-approve-report_n_6a603728e4b0fb869f7d208d",
-      "image": null,
-      "ts": 1784690664000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 1,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/trump-saudi-nuclear-approve-report_n_6a603728e4b0fb869f7d208d"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/us-president-donald-trump-approves-saudi-arabia-nuclear-deal-that-could-allow-uranium-enrichment-report-11803828#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
       "id": "49ea71029be7",
       "title": "US renews strikes on Iran",
       "description": "The US military launched an 11th straight night of strikes on Iran early Wednesday, with President Donald Trump saying the US was 'not finished' attacking the Middle Eastern nation.",
@@ -538,6 +677,39 @@
             "n": "France 24",
             "b": "center",
             "u": "https://www.france24.com/en/americas/20260722-trump-announces-100-tariffs-on-imported-generic-pharmaceutical-drugs"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5c114d1c8d38",
+      "title": "Iran War Costs",
+      "description": "The costs of the Iran war are rising, with President Trump seeking an additional $67 billion in funding, as the conflict shows no signs of abating.",
+      "lat": 38.89,
+      "lng": -77.01,
+      "severity": 4,
+      "location": "Washington, D.C., USA",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/07/21/red-sea-blockade-threatens-new-front-us-iran-war/",
+      "image": null,
+      "ts": 1784683812000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/07/21/red-sea-blockade-threatens-new-front-us-iran-war/"
           }
         ]
       }
@@ -757,38 +929,33 @@
     },
     {
       "id": "588fc8f39c32",
-      "title": "France Approves Blanket Social Media Ban for Under-15s",
+      "title": "France Bans Social Media for Under-15s",
       "description": "France has approved a blanket ban on under-15 children using social media, the first European country to introduce such a restriction.",
       "lat": 48.86,
       "lng": 2.289999999999992,
-      "severity": 2,
+      "severity": 1,
       "location": "Paris, France",
-      "source": "Mirror World",
-      "url": "https://www.mirror.co.uk/news/world-news/france-first-eu-country-ban-37451160",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/french-lawmakers-adopt-pioneering-social-media-ban-for-children-under-15_n_6a5fba15e4b06bbe43f4ce0e",
       "image": "https://i2-prod.mirror.co.uk/incoming/article37461004.ece/ALTERNATES/s615/0_Emmanuel-Macron-At-Asterya-Child-Support-Center-Paris-France-21-Jul-2026.jpg",
       "ts": 1784670468000,
       "coverage": {
         "left": 1,
-        "center": 2,
+        "center": 1,
         "right": 0,
-        "total": 3,
+        "total": 2,
         "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
+          "left": 1,
+          "lean_left": 0,
+          "center": 1,
           "lean_right": 0,
           "right": 0
         },
         "sources": [
           {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/07/21/world/europe/france-social-media-ban.html"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/2026/0721/1584481-france-social-media/"
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/french-lawmakers-adopt-pioneering-social-media-ban-for-children-under-15_n_6a5fba15e4b06bbe43f4ce0e"
           },
           {
             "n": "Sky News World",
@@ -4024,58 +4191,6 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYXI2d0Y4MGw3TEYydjYycXBlTDdGOTEwWlVwdl9WNXRfaHJmd25qRnVMdGZIRm95UWQ3Z3RWWHFwQ3Q5QzUwLU9fV05LX0hGa3dLWnlCM29KWTl6RWY1bWlBUVVjZHYyZHRLSzJTWVlYNFZfSmpHVG8xR3Y3cEVSTWNiRXZ0bmI5YXVmSVFqSlpKc00xQUFQUkJsTnp5V3Yw?oc=5",
       "image": null,
       "ts": 1783872009000
-    },
-    {
-      "id": "f1e8d721bda9",
-      "title": "Ukraine’s Zelenskyy announces cabinet reshuffle, replaces PM Svyrydenko",
-      "description": "Ukrainian President Volodymyr Zelenskyy has announced a cabinet reshuffle, replacing Prime Minister Yulia Svyrydenko with a new premier.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 2,
-      "location": "Kyiv, Ukraine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/12/ukraines-zelenskyy-announces-cabinet-reshuffle-replaces-pm-svyrydenko?traffic_source=rss",
-      "image": null,
-      "ts": 1783862933000
-    },
-    {
-      "id": "2ef81a21810c",
-      "title": "Ukraine's Zelenskyy announces cabinet reshuffle",
-      "description": "Ukrainian President Zelenskyy has announced a cabinet reshuffle, replacing the prime minister and making changes to the government, in an effort to prioritize foreign policy and security goals.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 2,
-      "location": "Kyiv, Ukraine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/12/ukraines-zelenskyy-announces-cabinet-reshuffle-replaces-pm-svyrydenko?traffic_source=rss",
-      "image": null,
-      "ts": 1783862933000
-    },
-    {
-      "id": "7cd34d6e7c17",
-      "title": "Ukraine's Zelenskyy Announces Cabinet Reshuffle",
-      "description": "Ukraine's President Zelenskyy has announced a cabinet reshuffle, which could lead to changes in Ukraine's government and policies.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 2,
-      "location": "Kyiv, Ukraine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/12/ukraines-zelenskyy-announces-cabinet-reshuffle-replaces-pm-svyrydenko?traffic_source=rss",
-      "image": null,
-      "ts": 1783862933000
-    },
-    {
-      "id": "f043ba93eae4",
-      "title": "Oman convokes Iranian ambassador to protest attacks",
-      "description": "Oman has convoked the Iranian ambassador to protest attacks on its territory.",
-      "lat": 24.71,
-      "lng": 60.4452,
-      "severity": 3,
-      "location": "Muscat, Oman",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/07/12/oman-convoca-ambasciatore-iran-protesta-formale-per-attacchi_cbdf5e2a-361c-4091-aa44-7b3aea16b93c.html",
-      "image": null,
-      "ts": 1783859559000
     }
   ]
 }
