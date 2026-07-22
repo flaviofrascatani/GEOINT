@@ -1,7 +1,83 @@
 {
   "schema": 1,
-  "updated": "2026-07-22T21:39:59.670442+00:00",
+  "updated": "2026-07-22T23:11:39.065439+00:00",
   "events": [
+    {
+      "id": "138eb2d99041",
+      "title": "Yemen's Houthis claim attack on two Saudi oil tankers",
+      "description": "Claimed attacks come days after Houthis announced naval embargo on Saudi vessels",
+      "lat": 18.33,
+      "lng": 45.0,
+      "severity": 3,
+      "location": "Abha, Saudi Arabia",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/22/yemens-houthis-claim-attack-on-two-saudi-oil-tankers?traffic_source=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ddfb/live/25ca1c70-7ebc-11f1-8439-ebc9c5f19300.jpg",
+      "ts": 1784759174000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/7/22/yemens-houthis-claim-attack-on-two-saudi-oil-tankers?traffic_source=rss"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/us-hits-iran-as-houthis-claim-strikes-on-saudi-tankers/live-78077811?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2163849"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7b12e7fb7c35",
+      "title": "Iranian missiles show deadly precision amid US-Iran war escalation",
+      "description": "Killing of three US soldiers at Jordan base shows Iran maintains the ability to exact deadly toll in grinding conflict.",
+      "lat": 31.95,
+      "lng": 37.835199999999986,
+      "severity": 4,
+      "location": "Amman, Jordan",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/22/iranian-missiles-show-deadly-precision-amid-us-iran-war-escalation?traffic_source=rss",
+      "image": null,
+      "ts": 1784757793000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/7/22/iranian-missiles-show-deadly-precision-amid-us-iran-war-escalation?traffic_source=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "fe78781577d0",
       "title": "US signs landmark nuclear deal with Saudi Arabia",
@@ -497,6 +573,54 @@
             "n": "CBS News World",
             "b": "lean_left",
             "u": "https://www.cbsnews.com/news/ukraine-zelenskyy-fires-general-after-protests/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3d3d5ee37ab",
+      "title": "Trump vows to bomb Iran's bridges, power plants if it shoots at ships in Hormuz Strait",
+      "description": "He issued his threat after U.S. Central Command hit Iranian targets for an 11th straight night.",
+      "lat": 38.9,
+      "lng": -77.0,
+      "severity": 4,
+      "location": "Washington D.C., USA",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/07/22/us-iran-war-trump-hormuz-.html",
+      "image": null,
+      "ts": 1784736871000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/us-iran-tensions-rise_n_6a5dd6cae4b063a1f5f1fb7c"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cdrv0p37k8jo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/07/22/us-iran-war-trump-hormuz-.html"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20260722-trump-threatens-iranian-infrastructure-over-strait-of-hormuz-attacks"
           }
         ]
       }
@@ -4106,19 +4230,6 @@
       "ts": 1784031479000
     },
     {
-      "id": "138eb2d99041",
-      "title": "Yemen's Houthis launch missiles at Saudi Arabia",
-      "description": "The Iran-backed Houthis blame Saudi Arabia for the attack in Yemen's capital and say they targeted Abha airport in response.",
-      "lat": 18.33,
-      "lng": 45.0,
-      "severity": 4,
-      "location": "Abha, Saudi Arabia",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cp9ldle3d3xo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ddfb/live/25ca1c70-7ebc-11f1-8439-ebc9c5f19300.jpg",
-      "ts": 1784023363000
-    },
-    {
       "id": "4a5b366a4675",
       "title": "US bombs Iran again",
       "description": "The US has launched another attack on Iran, with the conflict between the two countries escalating.",
@@ -4650,32 +4761,6 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOS2FkZ2lld0lsYlNLY0d2eXNHWjc5SG5pTmEzeUEzNXpVY0QtY1BxNjhhTERMRnd6LWxQc2hhQlptNlVsOHhickI5TG1fT2ZMU0xLaGZkcEJsV2VQMGlKc09ZdnVMUTFGUFNldmxBTVp3amVDTzBKckZHcTRVOGpBNVh2Z3NJbDJoWWU4X3F2eWdFQlNvbW5NTzJQeU0yNWlja0hPQXNmUDZrY2M2SFktWWU3ZU4wMjk1RlJsa0NiQW3SAcYBQVVfeXFMT3pKYUtmcm1ITlJPVXBDUDdlalVpVUpEZWNRZVZrVE9MNFZFRGZZeUdRdngwaFVjX0NDYlVWMG5FaEMwZlN5X1hxNUx5NHloOEduMmtZS0lHVVNMWXdxR29aMTRUTW1PcDRJTDMyTVBzdDI3anBZUkFoMExpT3JDWmxQNGdUMXl6MEY5bDlUOXVMNFZ0alN6YmZveklOTjZBMU9vTUFralRjNXhSNGtncTVvVnhSaVU5NGtLbFhXYkxoSVg2YVpR?oc=5",
       "image": null,
       "ts": 1783928539000
-    },
-    {
-      "id": "0372f8f56170",
-      "title": "Kimmit: Renewed US-Iran fighting could reignite wider regional conflict",
-      "description": "Retired US General Mark Kimmitt warns renewed attacks in the Strait of Hormuz could push the US and Iran",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/kimmit-renewed-us-iran-fighting-could-reignite-wider-regional-conflict-2?traffic_source=rss",
-      "image": null,
-      "ts": 1783928519000
-    },
-    {
-      "id": "bae7fb77328a",
-      "title": "EU foreign ministers discuss new Russia sanctions",
-      "description": "EU foreign ministers discuss new Russia sanctions and international issues",
-      "lat": 50.85,
-      "lng": 4.349999999999994,
-      "severity": 3,
-      "location": "Brussels, Belgium",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONUMtQmdnT21hZ1B0WDBnMm8xUjZiZ2IwRVBESmhSczh3MlpPWnhwMjA1aV8wVmZUU1VrYW9IcjJRSkJnNDZCcnBPX3VPZE53a0FIZE9KcnNxQTlyZHEwWllQRnRMVm9aMVM4UWpzaWhhTTlDRTVOOU5KQUE5RG9wSVE1OE5nTVVhTEFGaHRTTkxjQXo5N1RVc2twZkZaODVIRFY4WGlNdXRaVzVoeWNR?oc=5",
-      "image": null,
-      "ts": 1783927196000
     }
   ]
 }
