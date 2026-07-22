@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-07-22T04:23:26.768588+00:00",
+  "updated": "2026-07-22T07:15:34.247646+00:00",
   "events": [
+    {
+      "id": "1bf6de0f921c",
+      "title": "EAEU's interim trade agreement with Mongolia enters into force",
+      "description": "Customs duties on 367 tariff subheadings for each side will be eliminated or reduced",
+      "lat": 47.92,
+      "lng": 106.92,
+      "severity": 2,
+      "location": "Ulaanbaatar, Mongolia",
+      "source": "TASS",
+      "url": "https://tass.com/economy/2163351",
+      "image": null,
+      "ts": 1784702809000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/economy/2163351"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0cbf361a2f89",
+      "title": "UK inflation falls more than expected to 2.6% in June",
+      "description": "Figure comes as Prime Minister Andy Burnham seeks to cut cost of living",
+      "lat": 51.5,
+      "lng": -0.13,
+      "severity": 2,
+      "location": "London, UK",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/62c39102-c288-4041-911f-8f2ba74fc451?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1784701926000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/62c39102-c288-4041-911f-8f2ba74fc451?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
     {
       "id": "1e2dd4761544",
       "title": "France bans social media for under-15s",
@@ -3780,32 +3846,6 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/nigeria-rescues-dozens-of-abducted-school-children-in-oyo-state?traffic_source=rss",
       "image": null,
       "ts": 1783821361000
-    },
-    {
-      "id": "4f0c4f67ac3d",
-      "title": "Iran war live: Tehran attacks Jordan, Bahrain and Kuwait after US bombings",
-      "description": "Iran targets Jordan and Gulf states after US bombs Iranian cities including Bandar Abbas, Sirik and Chabahar",
-      "lat": 32.32,
-      "lng": 54.96520000000001,
-      "severity": 5,
-      "location": "Tehran, Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/7/12/iran-war-live-irgc-declares-strait-of-hormuz-closed-over-us-interference?traffic_source=rss",
-      "image": null,
-      "ts": 1783814400000
-    },
-    {
-      "id": "40e2b4cd60f5",
-      "title": "Iran closes Strait of Hormuz",
-      "description": "Iran says Strait of Hormuz closed 'until further notice' after firing a warning shot at a vessel in the strait",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/721f/live/8f50baf0-7d59-11f1-b976-0b9c15b0ccfc.jpg",
-      "ts": 1783811658000
     }
   ]
 }
