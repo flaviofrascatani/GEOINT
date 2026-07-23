@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-07-23T14:25:05.002797+00:00",
+  "updated": "2026-07-23T16:10:18.838241+00:00",
   "events": [
+    {
+      "id": "bd8567829b78",
+      "title": "France Evacuates 20,000 Due to Wildfires",
+      "description": "France has evacuated 20,000 people as wildfires spread in the south-west of the country.",
+      "lat": 44.84,
+      "lng": -1.15,
+      "severity": 3,
+      "location": "Arcachon Bay, France",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cy4kmr82n44o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7df8/live/48d08300-867b-11f1-8c77-df97511a6b05.jpg",
+      "ts": 1784813102000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cy4kmr82n44o?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "411e0be3e863",
       "title": "Oil Price Surge",
@@ -538,6 +571,49 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/politics/2163869"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b03274e3df3b",
+      "title": "Trump's Threat to Iran",
+      "description": "President Trump has threatened 'major military punishment' for Iran and its Houthi allies after the Yemeni fighters struck two Saudi oil tankers in the Red Sea.",
+      "lat": 38.89,
+      "lng": -77.01,
+      "severity": 4,
+      "location": "Washington D.C., USA",
+      "source": "RTE News",
+      "url": "https://www.rte.ie/news/2026/0723/1584705-houtis-tanker-strikes/",
+      "image": "https://www.rte.ie/images/0024be6f-800.jpg",
+      "ts": 1784765790000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/07/23/iran-war-us-trump-houthis-red-sea-oil.html"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/2026/0723/1584705-houtis-tanker-strikes/"
+          },
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/news/article-15997393/trump-iran-threat-oil-hormuz.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
           }
         ]
       }
@@ -5130,32 +5206,6 @@
       "url": "https://www.aljazeera.com/news/2026/7/13/eu-unveils-1bn-fund-for-gaza-war-recovery?traffic_source=rss",
       "image": null,
       "ts": 1783960132000
-    },
-    {
-      "id": "ae13edae984e",
-      "title": "Volkswagen planning to cut up to 100,000 jobs globally",
-      "description": "The group, which includes Porsche and Audi, has faced a steep fall in profits and tough competition from China.",
-      "lat": 51.52,
-      "lng": 7.45,
-      "severity": 3,
-      "location": "Wolfsburg, Germany",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cx2wzpwn51lo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e86/live/076e2020-7ec9-11f1-af40-3101fe5a127d.jpg",
-      "ts": 1783959555000
-    },
-    {
-      "id": "2c09a12ecab9",
-      "title": "US imposes new sanctions on Cuba tourism ministry, state-owned companies",
-      "description": "The US Treasury Department posted the new directive on its website on Monday",
-      "lat": 38.9,
-      "lng": -77.0,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/7/13/us-imposes-new-sanctions-on-cuba-tourism-ministry-state-owned-companies?traffic_source=rss",
-      "image": null,
-      "ts": 1783959055000
     }
   ]
 }
