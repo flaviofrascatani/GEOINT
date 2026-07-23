@@ -1,7 +1,164 @@
 {
   "schema": 1,
-  "updated": "2026-07-23T16:10:18.838241+00:00",
+  "updated": "2026-07-23T17:57:00.793604+00:00",
   "events": [
+    {
+      "id": "b03274e3df3b",
+      "title": "US Strikes on Iran",
+      "description": "The US has carried out strikes on Iranian infrastructure, including tunnels and bridges, in response to attacks on Saudi oil tankers in the Red Sea.",
+      "lat": 38.89,
+      "lng": -77.01,
+      "severity": 4,
+      "location": "Washington D.C., USA",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/us-strikes-on-southern-iran-infrastructure-widen-war/a-78087402?maca=en-rss-en-all-1573-rdf",
+      "image": "https://www.rte.ie/images/0024be6f-800.jpg",
+      "ts": 1784832702000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 2,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/iran-strikes-cia-facilities-russia_n_6a618e5de4b05756b0dfcf25"
+          },
+          {
+            "n": "The Intercept",
+            "b": "left",
+            "u": "https://theintercept.com/2026/07/21/iran-war-pentagon-casualties-injuries/"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/iran-conducted-missile-strikes-secret-cia-facilities-investigators-are-looking-russia-3805628"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3ed09212af8",
+      "title": "New EU Sanctions Package",
+      "description": "The European Union has agreed on a new sanctions package targeting Russian banks and other entities, in response to Russia's actions in Ukraine.",
+      "lat": 50.85,
+      "lng": 4.349999999999994,
+      "severity": 3,
+      "location": "Brussels, Belgium",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTW4weFhXaGF2TExZeFdWUjJaekNhNlhDcnFqOEdLcTJLZ0lFa0tqN0w0UndvaHJueTNCNHVRdi1KbE9VOTVwQUo2VjRxMjFVSWxONVR2OEtmLVhPTHNpNHNnU2FSTU1GUG9KSWYxMmdRblpqRlpCbFZmNkRhbzhOdlVfdWJCUXpjZnhvcmFpSl9BblNOeXN1T0FNZWRDdw?oc=5",
+      "image": null,
+      "ts": 1784826955000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQmt2VUstcUhzMEhTMnJpSkhQUVlIcVQyb09UXzVUd0xWNkYyZ1pOeVFXY1FGUVM1SWtVSTh6RU5kUHJfVFhadWVtaTdsU2djUU1Td3NlamdZYkZYamQwMnJ4X2E5WElDc3hYX2VrZTFMVElCNVllY1N1RWtaZHdjSlVORXdFUGdhNjZWdWhodVRsa1pDaFhtODlLS2w?oc=5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c6c6740bcdb7",
+      "title": "US-Saudi Arms Deal",
+      "description": "The US has agreed to sell arms to Saudi Arabia, despite concerns over the kingdom's human rights record and the ongoing war in Yemen.",
+      "lat": 38.9,
+      "lng": -77.02,
+      "severity": 3,
+      "location": "Washington D.C., USA",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/bd7626de-c367-4e64-ab94-e84c2d10d87f?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1784825247000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/23/world/asia/us-saudi-nuclear-deal-south-korea.html"
+          },
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/07/23/us-saudi-arabia-nuclear-deal-explainer/"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/trump-confirms-potential-nuclear-deal-saudi-arabia-conditions-it-historical-agreement-israel-3805639"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/middle-east/2026/07/23/trump-civil-nuclear-deal-totally-subject-to-saudi-arabia-joining-very-respected-abraham-accords/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2806fb364f44",
+      "title": "EU Imposes Sanctions on Russia",
+      "description": "The European Union has imposed more sanctions on Russia, targeting its energy, financial services, and crypto sectors.",
+      "lat": 50.85,
+      "lng": 4.349999999999994,
+      "severity": 3,
+      "location": "Brussels, Belgium",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQNHNJM2pLUjlpTTd0MFFLU295ajhEVkRNM3NDd1N4dXRKMVFCbk83T19WQmFQaFhIQWxOZGpkNVBzaC1vNVl2TjdXMlFUa3VyeTdGam4yN3Q5WnprM094Mm5ZMExkS3U5X0RLdERPZGxQVnh5SElFa2ZJbDRiUURSMF96T0NVdV9jWlVDeGFYRzV0cmd2al90SHh2QWFKajcyLTRJRGpBWERTTEJ3ZW5FVjVWNWhoTTl3b3BVbnRFTEM3MW9YRmhFcjB4bWJvYWJ3QURPWllBM3ZzU1VaSlNXSEJEcXpWZw?oc=5",
+      "image": null,
+      "ts": 1784821444000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQmt2VUstcUhzMEhTMnJpSkhQUVlIcVQyb09UXzVUd0xWNkYyZ1pOeVFXY1FGUVM1SWtVSTh6RU5kUHJfVFhadWVtaTdsU2djUU1Td3NlamdZYkZYamQwMnJ4X2E5WElDc3hYX2VrZTFMVElCNVllY1N1RWtaZHdjSlVORXdFUGdhNjZWdWhodVRsa1pDaFhtODlLS2w?oc=5"
+          }
+        ]
+      }
+    },
     {
       "id": "bd8567829b78",
       "title": "France Evacuates 20,000 Due to Wildfires",
@@ -571,49 +728,6 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/politics/2163869"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b03274e3df3b",
-      "title": "Trump's Threat to Iran",
-      "description": "President Trump has threatened 'major military punishment' for Iran and its Houthi allies after the Yemeni fighters struck two Saudi oil tankers in the Red Sea.",
-      "lat": 38.89,
-      "lng": -77.01,
-      "severity": 4,
-      "location": "Washington D.C., USA",
-      "source": "RTE News",
-      "url": "https://www.rte.ie/news/2026/0723/1584705-houtis-tanker-strikes/",
-      "image": "https://www.rte.ie/images/0024be6f-800.jpg",
-      "ts": 1784765790000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/07/23/iran-war-us-trump-houthis-red-sea-oil.html"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/2026/0723/1584705-houtis-tanker-strikes/"
-          },
-          {
-            "n": "Daily Mail World",
-            "b": "right",
-            "u": "https://www.dailymail.com/news/article-15997393/trump-iran-threat-oil-hormuz.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
           }
         ]
       }
@@ -1440,64 +1554,6 @@
             "n": "Jerusalem Post",
             "b": "center",
             "u": "https://www.jpost.com/middle-east/iran-news/article-903322"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c6c6740bcdb7",
-      "title": "US-Saudi Nuclear Deal",
-      "description": "The US and Saudi Arabia are expected to sign a deal for US companies to run nuclear power for the Saudis, potentially allowing the Saudis to enrich their own fuel for nuclear reactors.",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/us-deal-saudis-enrich-nuclear-program/",
-      "image": null,
-      "ts": 1784728420000,
-      "coverage": {
-        "left": 4,
-        "center": 2,
-        "right": 0,
-        "total": 6,
-        "buckets": {
-          "left": 1,
-          "lean_left": 3,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/trump-saudi-nuclear-approve-report_n_6a603728e4b0fb869f7d208d"
-          },
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/07/22/world/middleeast/saudi-nuclear-deal-israel.html"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/us-deal-saudis-enrich-nuclear-program/"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/us-plans-to-announce-nuclear-agreement-with-saudi-arabia-amid-iran-tensions-11806494#publisher=newsstand"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/trump-has-reportedly-approved-nuclear-deal-saudi-arabia-it-could-face-obstacles-congress-3805588"
-          },
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/policy/international/5982724-donald-trump-us-saudi-arabia-potential-nuclear-deal-uranium/"
           }
         ]
       }
@@ -5180,32 +5236,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cn8q0e8d4ego?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/468c/live/a01b76f0-7ede-11f1-84b4-d5196cc76857.jpg",
       "ts": 1783968766000
-    },
-    {
-      "id": "5a7880a98921",
-      "title": "Houthi lanciano sei missili su aeroporto in Arabia Saudita",
-      "description": "'Milizie filo-Iran stanno usando missili ipersonici'",
-      "lat": 24.77,
-      "lng": 46.68,
-      "severity": 4,
-      "location": "Arabia Saudita",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/07/13/media-houthi-lanciano-sei-missili-su-aeroporto-in-arabia-saudita_94ccd187-630a-4b75-b746-0809228ca9c0.html",
-      "image": null,
-      "ts": 1783963302000
-    },
-    {
-      "id": "bbbd68f8bf84",
-      "title": "EU unveils $1bn fund for Gaza war recovery",
-      "description": "The scheme falls critically short of the $71bn reportedly needed for Gaza's recovery over the next 10 years",
-      "lat": 50.85,
-      "lng": 4.349999999999994,
-      "severity": 2,
-      "location": "Brussels, Belgium",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/eu-unveils-1bn-fund-for-gaza-war-recovery?traffic_source=rss",
-      "image": null,
-      "ts": 1783960132000
     }
   ]
 }
