@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-07-23T11:56:38.690558+00:00",
+  "updated": "2026-07-23T14:25:05.002797+00:00",
   "events": [
+    {
+      "id": "411e0be3e863",
+      "title": "Oil Price Surge",
+      "description": "Oil prices have surged to over $100 a barrel after attacks on Saudi tankers in the Red Sea, threatening a prolonged surge in inflation.",
+      "lat": 25.81,
+      "lng": 46.68000000000001,
+      "severity": 4,
+      "location": "Riyadh, Saudi Arabia",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/07/23/least-one-saudi-oil-tanker-is-attacked-red-sea-war-risks-widen/",
+      "image": null,
+      "ts": 1784813034000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/07/23/least-one-saudi-oil-tanker-is-attacked-red-sea-war-risks-widen/"
+          }
+        ]
+      }
+    },
     {
       "id": "befc010e2753",
       "title": "EU targets Russian banks in new sanctions package over Ukraine war",
@@ -45,6 +78,39 @@
       "title": "India Sends Medical Aid To Kenya To Boost Ebola Readiness",
       "description": "India has sent medical aid to Kenya to help the country prepare for a potential Ebola outbreak.",
       "lat": 1.29,
+      "lng": 36.82,
+      "severity": 1,
+      "location": "Nairobi, Kenya",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/india-sends-medical-aid-to-kenya-to-boost-ebola-readiness-11811033#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-07/huurk0ms_india-kenya_625x300_23_July_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "ts": 1784804634000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/india-sends-medical-aid-to-kenya-to-boost-ebola-readiness-11811033#publisher=newsstand"
+          }
+        ]
+      }
+    },
+    {
+      "id": "88358163d813",
+      "title": "India Sends Medical Aid to Kenya",
+      "description": "India has sent medical aid to Kenya to boost Ebola readiness, following a recent outbreak in the Democratic Republic of Congo.",
+      "lat": -1.29,
       "lng": 36.82,
       "severity": 1,
       "location": "Nairobi, Kenya",
@@ -211,6 +277,39 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/politics/2164155"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fa64e7805174",
+      "title": "Ebola Outbreak in DRC",
+      "description": "More than 1,000 people have died in the Ebola outbreak in the Democratic Republic of Congo, with health officials warning of a potential further spread.",
+      "lat": -4.32,
+      "lng": 15.31,
+      "severity": 4,
+      "location": "Kinshasa, DRC",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/ebola-more-than-1000-people-killed-in-dr-congo-outbreak-13566201",
+      "image": "https://e3.365dm.com/26/07/1920x1080/skynews-ebola-congo-ituri_7304798.jpg?20260723103506",
+      "ts": 1784795220000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/ebola-more-than-1000-people-killed-in-dr-congo-outbreak-13566201"
           }
         ]
       }
@@ -5057,45 +5156,6 @@
       "url": "https://www.aljazeera.com/economy/2026/7/13/us-imposes-new-sanctions-on-cuba-tourism-ministry-state-owned-companies?traffic_source=rss",
       "image": null,
       "ts": 1783959055000
-    },
-    {
-      "id": "56f8604af25e",
-      "title": "US Imposes New Sanctions on Cuba Tourism Ministry and State-Owned Companies",
-      "description": "The US imposed new sanctions on Cuba's tourism ministry and state-owned companies, targeting the country's tourism and trade sectors.",
-      "lat": 39.76,
-      "lng": -98.5,
-      "severity": 4,
-      "location": "Washington D.C., USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/7/13/us-imposes-new-sanctions-on-cuba-tourism-ministry-state-owned-companies?traffic_source=rss",
-      "image": null,
-      "ts": 1783959055000
-    },
-    {
-      "id": "d187138b54cf",
-      "title": "UK-Switzerland deal to scrap roaming charges",
-      "description": "The UK signs a new services deal with Switzerland to increase exports by £5.2bn annually",
-      "lat": 50.85,
-      "lng": 4.349999999999994,
-      "severity": 2,
-      "location": "Brussels, Belgium",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c621p9yjz1zo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a579/live/e797f600-7ecc-11f1-a521-db2da184cdb6.jpg",
-      "ts": 1783958713000
-    },
-    {
-      "id": "249d920b8645",
-      "title": "US and UK sign new trade agreement",
-      "description": "The US and UK have signed a new trade agreement, which is expected to increase exports by $5.2 billion annually.",
-      "lat": 51.5,
-      "lng": -0.12999999999999545,
-      "severity": 2,
-      "location": "London, UK",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c621p9yjz1zo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a579/live/e797f600-7ecc-11f1-a521-db2da184cdb6.jpg",
-      "ts": 1783958713000
     }
   ]
 }
