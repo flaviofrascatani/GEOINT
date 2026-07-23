@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-07-23T21:15:10.285232+00:00",
+  "updated": "2026-07-23T22:32:58.547063+00:00",
   "events": [
+    {
+      "id": "f372043448a0",
+      "title": "US Imposes New Tariffs On 60 Countries",
+      "description": "The United States said Thursday that it would impose new tariffs on 60 trading partners over forced labor concerns, replacing an expiring global duty rolled out by President Donald Trump earlier.",
+      "lat": 38.9,
+      "lng": -77.02,
+      "severity": 3,
+      "location": "Washington D.C., USA",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/us-imposes-new-tariffs-on-60-countries-over-forced-labour-concerns-11813910#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-07/9nm27spo_donald-trump_625x300_24_July_26.jpeg",
+      "ts": 1784843118000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/us-imposes-new-tariffs-on-60-countries-over-forced-labour-concerns-11813910#publisher=newsstand"
+          }
+        ]
+      }
+    },
     {
       "id": "652d1cd27e07",
       "title": "Trump Threatens Iran and Houthis",
@@ -5373,19 +5406,6 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/iran-military-warns-us-against-strait-of-hormuz?traffic_source=rss",
       "image": null,
       "ts": 1783975207000
-    },
-    {
-      "id": "f1670d7692fe",
-      "title": "Hungary parliament votes to remove president",
-      "description": "Tamás Sulyok was widely seen as a loyalist of former prime minister Viktor Orbán, who lost power in April after 16 years.",
-      "lat": 47.5,
-      "lng": 19.08,
-      "severity": 3,
-      "location": "Budapest, Hungary",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cp8r002gdevo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3314/live/d7e89fb0-7ef5-11f1-bee8-53ce494e1abc.jpg",
-      "ts": 1783975154000
     }
   ]
 }
