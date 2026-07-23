@@ -1,7 +1,83 @@
 {
   "schema": 1,
-  "updated": "2026-07-23T07:08:56.211651+00:00",
+  "updated": "2026-07-23T10:02:21.252851+00:00",
   "events": [
+    {
+      "id": "2ce569f7dbeb",
+      "title": "EU imposes new round of sanctions against Russia",
+      "description": "The European Union has agreed upon a new sanctions package against Russia for its war in Ukraine, which includes a price cap on Russian oil.",
+      "lat": 50.85,
+      "lng": 4.349999999999994,
+      "severity": 3,
+      "location": "Brussels, Belgium",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/eu-imposes-new-round-of-sanctions-against-russia/a-78081102?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1784800941159,
+      "coverage": {
+        "left": 0,
+        "center": 3,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/2026/0723/1584733-eu-agrees-new-round-of-sanctions-on-russia-diplomats/"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/europe/20260723-eu-ambassadors-agree-21st-sanctions-package-against-russia"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/eu-imposes-new-round-of-sanctions-against-russia/a-78081102?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d5bc7abf1a3d",
+      "title": "Russia observing positive momentum in special military operation",
+      "description": "Dmitry Peskov said that Moscow is open to negotiations",
+      "lat": 55.76,
+      "lng": 37.62,
+      "severity": 3,
+      "location": "Moscow, Russia",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2164155",
+      "image": null,
+      "ts": 1784800744000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2164155"
+          }
+        ]
+      }
+    },
     {
       "id": "13489eec1d12",
       "title": "US carries out 12th straight night of strikes as threats to oil trade deepen",
@@ -971,6 +1047,39 @@
             "n": "BBC World",
             "b": "center",
             "u": "https://www.bbc.co.uk/news/articles/cn0n127lpzgo?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8c06c2e5a04b",
+      "title": "US trial date set for Venezuela's ousted president Maduro",
+      "description": "Venezuela's captured president Nicolas Maduro and his wife Cilia Flores appeared in a US court today over drugs trafficking charges.",
+      "lat": 38.89,
+      "lng": -77.01,
+      "severity": 4,
+      "location": "Washington D.C., USA",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/us-trial-date-set-for-venezuelas-ousted-president-nicolas-maduro-over-drugs-trafficking-charges-13566011",
+      "image": "https://e3.365dm.com/26/01/1920x1080/skynews-nicolas-maduro-court_7127135.jpg?20260105151757",
+      "ts": 1784731320000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/us-trial-date-set-for-venezuelas-ousted-president-nicolas-maduro-over-drugs-trafficking-charges-13566011"
           }
         ]
       }
@@ -4902,45 +5011,6 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRkJwS0FmUmlOcm5wU0xMOHNJRlJSM2pfTjNzRy1pTU9fZEswQjNwREtIc0xVSFNzYnJpOHdXQWZxdEVLM05HSWQ3RlBYSjRWcnZLNlowY1JTTTJyekVZRFNtSjBvdzhjc0ZXTjE0OEZWeFJMS2x4VXZmOFpvaWRqSEJEMm1OTEhlTGNtNV9JSnZuWEUyQ2tJdXo2RlpEVDVuWjRWWktjQS1ZeEpH0gGyAUFVX3lxTFBDbkpJbHpxZk5yYjZNUVoyZDktaFZDNURqSDRmV1FmU29oaVF5eEpNUGJ0NEZRdG0za0xIdlpJYlFpbUJMUDNlZFpZQUh0aV9VTkRtU2xleTEzWWJwOGxFMjlDX1U2TWJHR194b2FrazJDTm51eTdoc0VZRmFlUFQ5MDJQcGV4M0p6RlFuZ2RveXpuWU9PZVRWTnJHWHpQRk5GUE5RdGxVMjdITHRaVjA0UFE?oc=5",
       "image": null,
       "ts": 1783951972000
-    },
-    {
-      "id": "f4ae23326f3e",
-      "title": "Yemeni government forces strike Sanaa airport",
-      "description": "Yemeni government forces strike Sanaa airport",
-      "lat": 16.45,
-      "lng": 44.22,
-      "severity": 4,
-      "location": "Sanaa, Yemen",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/yemeni-government-forces-strike-sanaa-airport?traffic_source=rss",
-      "image": null,
-      "ts": 1783951424000
-    },
-    {
-      "id": "9f53fc918589",
-      "title": "EU imposes sanctions on Russians over human rights and cybercrime",
-      "description": "The EU has imposed sanctions on Russians over human rights and cybercrime, including four individuals and five entities.",
-      "lat": 50.85,
-      "lng": 4.349999999999994,
-      "severity": 3,
-      "location": "Brussels, Belgium",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNU3hldW1VTmFKUndqSE5RQjFSeWNnTUlOMW51b09sZWxPX3BhVGRaRUhwVTJ3enVxT3dYdnRFUHB1Yk9OOUF4N0xXc1hvVFlKdkNyR2ZhSjZzWWgtWjdtWDk3N044ejdiZEFFSkVSMEVIMTBkWHdsb1RweVk0QmNDdEE2Z0RCUm52ZFhIbG50TmlEc3FtWE9rdG5WQ3A1SG9IdUZic0FYUlh6Z1J6YnhsUw?oc=5",
-      "image": null,
-      "ts": 1783950681000
-    },
-    {
-      "id": "417893c0df83",
-      "title": "EU launches Team Gaza initiative",
-      "description": "EU launches initiative to support the reconstruction of Gaza with 883.6 million euros",
-      "lat": 50.85,
-      "lng": 4.349999999999994,
-      "severity": 2,
-      "location": "Brussels, Belgium",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/07/13/lue-lancia-liniziativa-team-gaza-italia-tra-i-paesi-aderenti_ee2b3b77-d970-4936-9cf1-b34f39b1f37a.html",
-      "image": null,
-      "ts": 1783947891000
     }
   ]
 }
