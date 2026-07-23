@@ -1,7 +1,164 @@
 {
   "schema": 1,
-  "updated": "2026-07-23T17:57:00.793604+00:00",
+  "updated": "2026-07-23T19:38:35.195381+00:00",
   "events": [
+    {
+      "id": "0de7a829653f",
+      "title": "Germany Seeks Energy Partners in Africa",
+      "description": "Germany is seeking to boost relations with Africa, particularly in the areas of energy, infrastructure, and economy.",
+      "lat": 52.52,
+      "lng": 13.41,
+      "severity": 2,
+      "location": "Berlin, Germany",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/germany-seeks-energy-and-trading-partners-in-africa/a-78084153?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1784835515083,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/germany-seeks-energy-and-trading-partners-in-africa/a-78084153?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cbabca01d1d2",
+      "title": "US Navy Restricting Press Access to Sailors' Service History",
+      "description": "The US Navy will no longer release service history information for sailors, citing security threats and harassment concerns.",
+      "lat": 38.89,
+      "lng": -77.02,
+      "severity": 3,
+      "location": "Washington D.C., USA",
+      "source": "The Hill",
+      "url": "https://thehill.com/policy/defense/5986786-navy-stops-releasing-sailor-history-press/",
+      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/05/AP26089614428913-e1779314710729.jpg?w=900",
+      "ts": 1784833847000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/policy/defense/5986786-navy-stops-releasing-sailor-history-press/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c6c6740bcdb7",
+      "title": "Saudi Nuclear Deal in Doubt",
+      "description": "A nuclear deal between the US and Saudi Arabia is in doubt after President Trump added a new condition, requiring Saudi Arabia to normalize relations with Israel.",
+      "lat": 38.9,
+      "lng": -77.02,
+      "severity": 3,
+      "location": "Washington D.C., USA",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/politics/2026/07/23/trump-adds-condition-nuclear-deal-with-saudi-arabia-throwing-pact-into-doubt/",
+      "image": null,
+      "ts": 1784833440000,
+      "coverage": {
+        "left": 6,
+        "center": 0,
+        "right": 0,
+        "total": 6,
+        "buckets": {
+          "left": 1,
+          "lean_left": 5,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/trump-saudi-nuclear-approve-report_n_6a603728e4b0fb869f7d208d"
+          },
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/23/world/middleeast/saudi-arabia-nuclear.html"
+          },
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/politics/2026/07/23/trump-adds-condition-nuclear-deal-with-saudi-arabia-throwing-pact-into-doubt/"
+          },
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/middle-east/trump-saudi-arabia-normalize-israel-ties-nuclear-deal-rcna588859"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/us-and-saudi-arabia-nuclear-deal-abraham-accords-us-saudi-nuclear-agreement-hinges-on-riyadh-recognizing-israel-11811817#publisher=newsstand"
+          },
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/07/23/us-saudi-arabia-nuclear-deal-explainer/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6557428c4937",
+      "title": "Zimbabwe Joins BRICS New Development Bank",
+      "description": "Zimbabwe has joined the BRICS New Development Bank, a move seen as a positive step in securing credit lines.",
+      "lat": -17.83,
+      "lng": 31.05,
+      "severity": 2,
+      "location": "Harare, Zimbabwe",
+      "source": "TASS",
+      "url": "https://tass.com/economy/2164409",
+      "image": null,
+      "ts": 1784832938000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/economy/2164409"
+          }
+        ]
+      }
+    },
     {
       "id": "b03274e3df3b",
       "title": "US Strikes on Iran",
@@ -46,6 +203,79 @@
       }
     },
     {
+      "id": "f008bbb61c05",
+      "title": "Trump Threatens 'Massive Attack' on Iran",
+      "description": "President Trump has threatened a 'massive attack' on Iran, stating that the US is 'all set' for such an action.",
+      "lat": 36.8,
+      "lng": 53.325199999999995,
+      "severity": 5,
+      "location": "Tehran, Iran",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-903482",
+      "image": null,
+      "ts": 1784832702000,
+      "coverage": {
+        "left": 2,
+        "center": 5,
+        "right": 2,
+        "total": 9,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 5,
+          "lean_right": 1,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/nightly-news/video/president-trump-vows-revenge-on-iran-for-killing-u-s-service-members-266975813831"
+          },
+          {
+            "n": "Der Spiegel International",
+            "b": "lean_left",
+            "u": "https://www.spiegel.de/international/world/the-minab-attack-did-the-united-states-commit-a-war-crime-in-iran-a-24f05985-fc36-4d01-9c00-ee4f218bc071#ref=rss"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/07/23/iran-war-us-trump-houthis-red-sea-oil.html"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/07/23/trump-axios-iran-interview"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/houthis-escalated-middle-east-trump-now-says-hes-considering-massive-attack-3805657"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/2026/0723/1584705-houtis-tanker-strikes/"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/iran-news/article-903482"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2164375"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/trump-u-s-will-hold-iran-responsible-for-attacks-by-houthis-after-they-threaten-shipping-in-vital-international-waterway/"
+          }
+        ]
+      }
+    },
+    {
       "id": "b3ed09212af8",
       "title": "New EU Sanctions Package",
       "description": "The European Union has agreed on a new sanctions package targeting Russian banks and other entities, in response to Russia's actions in Ukraine.",
@@ -74,54 +304,6 @@
             "n": "GNews Geopolitics",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQmt2VUstcUhzMEhTMnJpSkhQUVlIcVQyb09UXzVUd0xWNkYyZ1pOeVFXY1FGUVM1SWtVSTh6RU5kUHJfVFhadWVtaTdsU2djUU1Td3NlamdZYkZYamQwMnJ4X2E5WElDc3hYX2VrZTFMVElCNVllY1N1RWtaZHdjSlVORXdFUGdhNjZWdWhodVRsa1pDaFhtODlLS2w?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c6c6740bcdb7",
-      "title": "US-Saudi Arms Deal",
-      "description": "The US has agreed to sell arms to Saudi Arabia, despite concerns over the kingdom's human rights record and the ongoing war in Yemen.",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/bd7626de-c367-4e64-ab94-e84c2d10d87f?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1784825247000,
-      "coverage": {
-        "left": 2,
-        "center": 1,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/07/23/world/asia/us-saudi-nuclear-deal-south-korea.html"
-          },
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/07/23/us-saudi-arabia-nuclear-deal-explainer/"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/trump-confirms-potential-nuclear-deal-saudi-arabia-conditions-it-historical-agreement-israel-3805639"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/middle-east/2026/07/23/trump-civil-nuclear-deal-totally-subject-to-saudi-arabia-joining-very-respected-abraham-accords/"
           }
         ]
       }
@@ -3860,49 +4042,6 @@
       }
     },
     {
-      "id": "f008bbb61c05",
-      "title": "Trump vows revenge on Iran for killing U.S. service members",
-      "description": "After a weekend of deadly attacks, the Pentagon has released the identities of some of the fallen service members.",
-      "lat": 36.8,
-      "lng": 53.325199999999995,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "NBC News World",
-      "url": "https://www.nbcnews.com/nightly-news/video/president-trump-vows-revenge-on-iran-for-killing-u-s-service-members-266975813831",
-      "image": null,
-      "ts": 1784587836000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/nightly-news/video/president-trump-vows-revenge-on-iran-for-killing-u-s-service-members-266975813831"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/iran-news/article-903221"
-          },
-          {
-            "n": "New York Post",
-            "b": "lean_right",
-            "u": "https://nypost.com/video/fbi-probes-nyc-ice-attack-trump-vows-iran-will-pay-after-deadly-strikes/"
-          }
-        ]
-      }
-    },
-    {
       "id": "181ec0750e27",
       "title": "US and Iran Inch Closer to All-Out War",
       "description": "The US and Iran are inching closer to all-out war, with the US carrying out its 10th consecutive night of strikes on Iran.",
@@ -5197,45 +5336,6 @@
       "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/caac/live/6d318280-7ece-11f1-a521-db2da184cdb6.jpg",
       "ts": 1783970440000
-    },
-    {
-      "id": "977f024d8a95",
-      "title": "US judge voids Trump's IRS settlement, alleges self-dealing",
-      "description": "A US judge has voided Trump's IRS settlement, alleging self-dealing.",
-      "lat": 38.89,
-      "lng": -77.01,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/us-judge-voids-trumps-irs-settlement-alleges-self-dealing?traffic_source=rss",
-      "image": null,
-      "ts": 1783969786000
-    },
-    {
-      "id": "cac4710802ea",
-      "title": "UK Designates IRGC as Terrorist Organisation",
-      "description": "The UK government designated Iran's Revolutionary Guard Corps (IRGC) as a terrorist organisation under new powers.",
-      "lat": 51.5,
-      "lng": 1.7752000000000123,
-      "severity": 3,
-      "location": "London, UK",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/uk-designates-irgc-as-terrorist-organisation?traffic_source=rss",
-      "image": null,
-      "ts": 1783969077000
-    },
-    {
-      "id": "87f3845e0857",
-      "title": "US judge voids Donald Trump's $1.8bn settlement with IRS",
-      "description": "The judge said the suit was brought for 'improper purposes' and referred a Trump attorney for possible disciplinary action.",
-      "lat": 38.9,
-      "lng": -77.0,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cn8q0e8d4ego?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/468c/live/a01b76f0-7ede-11f1-84b4-d5196cc76857.jpg",
-      "ts": 1783968766000
     }
   ]
 }
