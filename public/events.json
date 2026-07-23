@@ -1,7 +1,45 @@
 {
   "schema": 1,
-  "updated": "2026-07-23T22:32:58.547063+00:00",
+  "updated": "2026-07-23T23:30:59.905998+00:00",
   "events": [
+    {
+      "id": "4424e424212b",
+      "title": "India Activist Ends Hunger Strike",
+      "description": "Indian activist Sonam Wangchuk has ended his 26-day hunger strike after talks with government ministers.",
+      "lat": 28.7,
+      "lng": 77.10000000000002,
+      "severity": 1,
+      "location": "New Delhi, India",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/asia-pacific/20260723-indian-activist-ends-26-day-hunger-strike-though-student-protests-continue",
+      "image": "https://s.france24.com/media/display/cdd044dc-82ac-11f1-8571-005056a90284/w:1024/p:16x9/2026-07-18T043932Z-1551593670-RC21GMA0Z36R-RTRMADP-3-INDIA-GEN-Z-ACTIVIST.jpg",
+      "ts": 1784846672000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/asia-pacific/20260723-indian-activist-ends-26-day-hunger-strike-though-student-protests-continue"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/indian-activist-sonam-wangchuk-ends-hunger-strike/a-78076216?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
     {
       "id": "f372043448a0",
       "title": "US Imposes New Tariffs On 60 Countries",
@@ -857,6 +895,39 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/643359-lavrov-rubio-meet-manila/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5e1d34b080ca",
+      "title": "US and Iran Conflict Escalates",
+      "description": "The conflict between the US and Iran has escalated, with both sides engaging in military strikes and diplomatic tensions rising.",
+      "lat": 32.43,
+      "lng": 54.96520000000001,
+      "severity": 4,
+      "location": "Middle East",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/iran-strikes-cia-facilities-russia_n_6a618e5de4b05756b0dfcf25",
+      "image": null,
+      "ts": 1784778787000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/iran-strikes-cia-facilities-russia_n_6a618e5de4b05756b0dfcf25"
           }
         ]
       }
@@ -5380,32 +5451,6 @@
       "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/caac/live/6d318280-7ece-11f1-a521-db2da184cdb6.jpg",
       "ts": 1783976228000
-    },
-    {
-      "id": "c0e64a4d4a74",
-      "title": "Ukraine and Allies Launch Coalition to Tackle Russian Ballistic Missiles",
-      "description": "Ukraine and its allies have launched a coalition to tackle Russia's ballistic missiles.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 3,
-      "location": "Kyiv, Ukraine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/ukraine-and-allies-launch-coalition-to-tackle-russias-ballistic-missiles?traffic_source=rss",
-      "image": null,
-      "ts": 1783975287000
-    },
-    {
-      "id": "c4f853b099b0",
-      "title": "Iran Warns US Against Interference in Strait of Hormuz",
-      "description": "Iran's military has warned the US against interfering in the management of the Strait of Hormuz.",
-      "lat": 35.69,
-      "lng": 51.420000000000016,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/iran-military-warns-us-against-strait-of-hormuz?traffic_source=rss",
-      "image": null,
-      "ts": 1783975207000
     }
   ]
 }
