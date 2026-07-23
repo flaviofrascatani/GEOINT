@@ -1,7 +1,45 @@
 {
   "schema": 1,
-  "updated": "2026-07-23T19:38:35.195381+00:00",
+  "updated": "2026-07-23T21:15:10.285232+00:00",
   "events": [
+    {
+      "id": "652d1cd27e07",
+      "title": "Trump Threatens Iran and Houthis",
+      "description": "President Trump has threatened Iran and the Houthis amid signs of a US military buildup in the region.",
+      "lat": 38.89,
+      "lng": 77.01,
+      "severity": 4,
+      "location": "Washington D.C., USA",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-oil-prices-red-sea-houthis/",
+      "image": null,
+      "ts": 1784836227000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-oil-prices-red-sea-houthis/"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/trump-u-s-will-hold-iran-responsible-for-attacks-by-houthis-after-they-threaten-shipping-in-vital-international-waterway/"
+          }
+        ]
+      }
+    },
     {
       "id": "0de7a829653f",
       "title": "Germany Seeks Energy Partners in Africa",
@@ -31,6 +69,39 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/germany-seeks-energy-and-trading-partners-in-africa/a-78084153?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bd8567829b78",
+      "title": "France Evacuates 20,000 as Wildfires Spread",
+      "description": "France has evacuated 20,000 people as wildfires spread in the south-west of the country.",
+      "lat": 44.84,
+      "lng": -1.15,
+      "severity": 4,
+      "location": "Arcachon Bay, France",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cy4kmr82n44o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7df8/live/48d08300-867b-11f1-8c77-df97511a6b05.jpg",
+      "ts": 1784834262000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cy4kmr82n44o?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
@@ -70,27 +141,27 @@
     },
     {
       "id": "c6c6740bcdb7",
-      "title": "Saudi Nuclear Deal in Doubt",
-      "description": "A nuclear deal between the US and Saudi Arabia is in doubt after President Trump added a new condition, requiring Saudi Arabia to normalize relations with Israel.",
+      "title": "US and Saudis Sign Nuclear Deal",
+      "description": "The US and Saudi Arabia have reached a nuclear cooperation deal, contingent on Saudi Arabia joining the Abraham Accords and normalizing relations with Israel.",
       "lat": 38.9,
       "lng": -77.02,
-      "severity": 3,
+      "severity": 2,
       "location": "Washington D.C., USA",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/politics/2026/07/23/trump-adds-condition-nuclear-deal-with-saudi-arabia-throwing-pact-into-doubt/",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/us-deal-saudis-enrich-nuclear-program/",
       "image": null,
       "ts": 1784833440000,
       "coverage": {
-        "left": 6,
-        "center": 0,
-        "right": 0,
+        "left": 4,
+        "center": 1,
+        "right": 1,
         "total": 6,
         "buckets": {
           "left": 1,
-          "lean_left": 5,
-          "center": 0,
+          "lean_left": 3,
+          "center": 1,
           "lean_right": 0,
-          "right": 0
+          "right": 1
         },
         "sources": [
           {
@@ -101,27 +172,27 @@
           {
             "n": "New York Times World",
             "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/07/23/world/middleeast/saudi-arabia-nuclear.html"
+            "u": "https://www.nytimes.com/2026/07/23/world/asia/us-saudi-nuclear-deal-south-korea.html"
           },
           {
-            "n": "Washington Post World",
+            "n": "CBS News World",
             "b": "lean_left",
-            "u": "https://www.washingtonpost.com/politics/2026/07/23/trump-adds-condition-nuclear-deal-with-saudi-arabia-throwing-pact-into-doubt/"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/middle-east/trump-saudi-arabia-normalize-israel-ties-nuclear-deal-rcna588859"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/us-and-saudi-arabia-nuclear-deal-abraham-accords-us-saudi-nuclear-agreement-hinges-on-riyadh-recognizing-israel-11811817#publisher=newsstand"
+            "u": "https://www.cbsnews.com/news/us-deal-saudis-enrich-nuclear-program/"
           },
           {
             "n": "Time",
             "b": "lean_left",
             "u": "https://time.com/article/2026/07/23/us-saudi-arabia-nuclear-deal-explainer/"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/us-signs-nuclear-deal-with-saudi-arabia-13565968"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/trump-u-s-saudi-nuclear-pact-hinges-on-riyadh-joining-abraham-accords/"
           }
         ]
       }
@@ -342,39 +413,6 @@
       }
     },
     {
-      "id": "bd8567829b78",
-      "title": "France Evacuates 20,000 Due to Wildfires",
-      "description": "France has evacuated 20,000 people as wildfires spread in the south-west of the country.",
-      "lat": 44.84,
-      "lng": -1.15,
-      "severity": 3,
-      "location": "Arcachon Bay, France",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cy4kmr82n44o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7df8/live/48d08300-867b-11f1-8c77-df97511a6b05.jpg",
-      "ts": 1784813102000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cy4kmr82n44o?at_medium=RSS&at_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
       "id": "411e0be3e863",
       "title": "Oil Price Surge",
       "description": "Oil prices have surged to over $100 a barrel after attacks on Saudi tankers in the Red Sea, threatening a prolonged surge in inflation.",
@@ -540,6 +578,44 @@
             "n": "Financial Times World",
             "b": "center",
             "u": "https://www.ft.com/content/c1c69ecc-4fe5-4488-9c0f-3611c4f3a1e6?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "621ec681e2e5",
+      "title": "EU Hits Google With $1 Billion Fine",
+      "description": "The European Commission fined Google for manipulating its search results to hurt competitors and blocking app developers from directing customers to cheaper alternatives.",
+      "lat": 50.85,
+      "lng": 4.349999999999994,
+      "severity": 3,
+      "location": "Brussels, Belgium",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/eu-hits-google-with-1-billion-fine_n_6a61e9b6e4b0f1b7fc5169dc",
+      "image": null,
+      "ts": 1784802010000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/eu-hits-google-with-1-billion-fine_n_6a61e9b6e4b0f1b7fc5169dc"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/07/23/eu-google-billion-fine-search-play-store"
           }
         ]
       }
@@ -5310,32 +5386,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cp8r002gdevo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3314/live/d7e89fb0-7ef5-11f1-bee8-53ce494e1abc.jpg",
       "ts": 1783975154000
-    },
-    {
-      "id": "82ced5b9e5c2",
-      "title": "Hungary parliament votes to remove president from office",
-      "description": "The Hungarian parliament has voted to remove the president from office.",
-      "lat": 48.6,
-      "lng": 19.05000000000001,
-      "severity": 3,
-      "location": "Budapest, Hungary",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cp8r002gdevo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3314/live/d7e89fb0-7ef5-11f1-bee8-53ce494e1abc.jpg",
-      "ts": 1783975154000
-    },
-    {
-      "id": "7baf3ba8e1de",
-      "title": "US to Impose Naval Blockade on Iranian Ports",
-      "description": "The US president announced the reinstatement of a naval blockade of Iranian ports and a 20% toll on all cargo shipped through the Strait of Hormuz.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz, Middle East",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/caac/live/6d318280-7ece-11f1-a521-db2da184cdb6.jpg",
-      "ts": 1783970440000
     }
   ]
 }
