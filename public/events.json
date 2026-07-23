@@ -1,7 +1,98 @@
 {
   "schema": 1,
-  "updated": "2026-07-23T01:04:40.007991+00:00",
+  "updated": "2026-07-23T04:24:48.049782+00:00",
   "events": [
+    {
+      "id": "d72797b11fe9",
+      "title": "Lavrov and Rubio hold talks in Manila",
+      "description": "Russian Foreign Minister Sergey Lavrov and US Secretary of State Marco Rubio are holding talks in Manila, the Philippines.",
+      "lat": 14.58,
+      "lng": 121.0,
+      "severity": 3,
+      "location": "Manila, Philippines",
+      "source": "RT News",
+      "url": "https://www.rt.com/news/643359-lavrov-rubio-meet-manila/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.07/thumbnail/6a6193e185f5404ad7127a88.jpg",
+      "ts": 1784779783000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/643359-lavrov-rubio-meet-manila/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "138eb2d99041",
+      "title": "Houthis claim strikes on Saudi oil tankers in Red Sea",
+      "description": "Yemen's Houthis have reported striking two Saudi oil tankers in the Red Sea after imposing a naval blockade on the kingdom.",
+      "lat": 18.33,
+      "lng": 45.0,
+      "severity": 4,
+      "location": "Abha, Saudi Arabia",
+      "source": "RT News",
+      "url": "https://www.rt.com/news/643358-houthis-strikes-saudi-tankers/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ddfb/live/25ca1c70-7ebc-11f1-8439-ebc9c5f19300.jpg",
+      "ts": 1784775304000,
+      "coverage": {
+        "left": 2,
+        "center": 3,
+        "right": 1,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 3,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/iran-us-war-news-live-updates-houthis-attack-saudi-tankers-red-sea-us-hits-iran-strait-of-hormuz-11808915#publisher=newsstand"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/liveblog/2026/7/23/iran-war-live-us-launches-new-attacks-houthis-attack-2-saudi-oil-tankers?traffic_source=rss"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/07/23/cnbc-daily-open-iran-trump-power-plants-bridges.html"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/2026/0723/1584705-houtis-tanker-strikes/"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/us-hits-iran-as-houthis-claim-strikes-on-saudi-tankers/live-78077811?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/643358-houthis-strikes-saudi-tankers/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
     {
       "id": "77f3cb198550",
       "title": "Kuwait military intercepts Iranian drones, IRGC claim tanker explosion in Strait of Hormuz",
@@ -168,49 +259,6 @@
             "n": "NDTV World",
             "b": "lean_left",
             "u": "https://www.ndtv.com/world-news/us-house-approves-95-billion-budget-plan-with-iran-war-funding-11808609#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "138eb2d99041",
-      "title": "Yemen's Houthis claim attack on two Saudi oil tankers",
-      "description": "Claimed attacks come days after Houthis announced naval embargo on Saudi vessels",
-      "lat": 18.33,
-      "lng": 45.0,
-      "severity": 3,
-      "location": "Abha, Saudi Arabia",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/22/yemens-houthis-claim-attack-on-two-saudi-oil-tankers?traffic_source=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ddfb/live/25ca1c70-7ebc-11f1-8439-ebc9c5f19300.jpg",
-      "ts": 1784759174000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/7/22/yemens-houthis-claim-attack-on-two-saudi-oil-tankers?traffic_source=rss"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/us-hits-iran-as-houthis-claim-strikes-on-saudi-tankers/live-78077811?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2163849"
           }
         ]
       }
@@ -743,6 +791,39 @@
             "n": "CBS News World",
             "b": "lean_left",
             "u": "https://www.cbsnews.com/news/ukraine-zelenskyy-fires-general-after-protests/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a4c6c7f024c2",
+      "title": "Trump threatens to blow up 'bridge or power plant' every time Iran hits ship",
+      "description": "US President Donald Trump has thrashed out plans for Iran ground invasion as he warned Tehran he will blow up a bridge or a power depot every time they hit a ship in the Strait of Hormuz.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 5,
+      "location": "Strait of Hormuz",
+      "source": "Mirror World",
+      "url": "https://www.mirror.co.uk/news/world-news/trump-bomb-bridge-power-iran-37464688",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37464789.ece/ALTERNATES/s615/1_APTOPIX-Trump-WCup-Soccer-26198801005292.jpg",
+      "ts": 1784738221000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/trump-bomb-bridge-power-iran-37464688"
           }
         ]
       }
@@ -4840,32 +4921,6 @@
       "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/07/13/lue-lancia-liniziativa-team-gaza-italia-tra-i-paesi-aderenti_ee2b3b77-d970-4936-9cf1-b34f39b1f37a.html",
       "image": null,
       "ts": 1783947891000
-    },
-    {
-      "id": "671429815cd4",
-      "title": "Sudan's paramilitary RSF chief sentenced to death",
-      "description": "Mohamed Hamdan Dagalo was convicted in absentia along with 15 RSF commanders and allies.",
-      "lat": 15.63,
-      "lng": 32.53,
-      "severity": 4,
-      "location": "Khartoum, Sudan",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cn4dk3kl0l4o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/83f7/live/eb705460-7eaf-11f1-b5ec-67e9897fe2ad.jpg",
-      "ts": 1783944139000
-    },
-    {
-      "id": "a46cb562e07a",
-      "title": "EU strengthens sanctions regime against Sudan",
-      "description": "The EU has strengthened its sanctions regime against Sudan by targeting the gold trade.",
-      "lat": 52.5,
-      "lng": 5.302600000000012,
-      "severity": 3,
-      "location": "Brussels, Belgium",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdFN3T0hsQzZCQkpfWFk5RGtzWU9hZFBIbDRYQzJsV3h5UUlnM0FOOGEwWUJrNXVCUk1CQW41Z2MtZEF6Qml1UmJwZmRLM21sUkhtVlFZaV9ETDNaWEx1YTFhNW1vRzVaNVRiZEtrZjN4SkliZnU2QTh6eVpQS29QNTZleU1XTVk5U3ZwOFBPZy1TVTJENEVwNzZOQW1kUGJzV0c3eGJQTUxRS004ZmpFS0o4Q1V5ZEtldGVjM3RpaDZKVGdWaHhKRmdjR2hNWVZkbXVN?oc=5",
-      "image": null,
-      "ts": 1783938827000
     }
   ]
 }
