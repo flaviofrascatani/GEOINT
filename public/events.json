@@ -1,7 +1,177 @@
 {
   "schema": 1,
-  "updated": "2026-07-22T23:11:39.065439+00:00",
+  "updated": "2026-07-23T01:04:40.007991+00:00",
   "events": [
+    {
+      "id": "77f3cb198550",
+      "title": "Kuwait military intercepts Iranian drones, IRGC claim tanker explosion in Strait of Hormuz",
+      "description": "The IRGC spokesperson added that US interventions in Iran 'have no effect on the world except the energy crisis and the reduction of agricultural fertilizers.'",
+      "lat": 29.37,
+      "lng": 47.99,
+      "severity": 4,
+      "location": "Kuwait",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-903376",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_1934,w_3454/730735",
+      "ts": 1784768876000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20260722-trump-threatens-iranian-infrastructure-over-strait-of-hormuz-attacks"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/iran-news/article-903376"
+          }
+        ]
+      }
+    },
+    {
+      "id": "41ec1ebf70a8",
+      "title": "Taoiseach in Kyiv to pledge EU support in war effort",
+      "description": "Taoiseach Micheál Martin is in Kyiv today for a bilateral meeting with Ukrainian President Volodymyr Zelensky to pledge EU support in the war effort.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 2,
+      "location": "Kyiv, Ukraine",
+      "source": "RTE News",
+      "url": "https://www.rte.ie/news/2026/0723/1584707-martin-kyiv/",
+      "image": "https://www.rte.ie/images/00249f0f-800.jpg",
+      "ts": 1784768323000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/2026/0723/1584707-martin-kyiv/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1b5790aafd53",
+      "title": "Ukraine’s attack being repelled in Sevastopol, four drones shot down",
+      "description": "Governor Mikhail Razvozhayev says air defense systems and mobile fire groups are in action.",
+      "lat": 44.62,
+      "lng": 33.52,
+      "severity": 4,
+      "location": "Sevastopol",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2163869",
+      "image": null,
+      "ts": 1784766345000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2163869"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0832b2d5b865",
+      "title": "Trump attends dignified transfer for 4 fallen U.S. troops",
+      "description": "President Donald Trump, along with Secretary of War Pete Hegseth, have traveled to Dover Air Force Base in Delaware to attend the dignified transfer honoring the four U.S. service members who were killed in action.",
+      "lat": 38.1774,
+      "lng": -73.81,
+      "severity": 4,
+      "location": "Dover Air Force Base, Delaware",
+      "source": "OAN",
+      "url": "https://www.oann.com/newsroom/trump-attends-dignified-transfer-for-4-fallen-u-s-troops-one-of-the-hardest-things-to-do-as-a-president/",
+      "image": null,
+      "ts": 1784761256000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/trump-attends-dignified-transfer-for-4-fallen-u-s-troops-one-of-the-hardest-things-to-do-as-a-president/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7303c167e39b",
+      "title": "US House Approves $95 Billion Budget Plan With Iran War Funding",
+      "description": "The US House of Representatives approved a $95 billion budget framework on Wednesday, with most of the funding earmarked for the Pentagon to fund the war against Iran.",
+      "lat": 38.89,
+      "lng": -77.01,
+      "severity": 4,
+      "location": "Washington D.C.",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/us-house-approves-95-billion-budget-plan-with-iran-war-funding-11808609#publisher=newsstand",
+      "image": "https://i.ndtvimg.com/i/2018-02/us-house-of-representatives-website_650x400_71517889056.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1784760679000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/us-house-approves-95-billion-budget-plan-with-iran-war-funding-11808609#publisher=newsstand"
+          }
+        ]
+      }
+    },
     {
       "id": "138eb2d99041",
       "title": "Yemen's Houthis claim attack on two Saudi oil tankers",
@@ -4696,71 +4866,6 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdFN3T0hsQzZCQkpfWFk5RGtzWU9hZFBIbDRYQzJsV3h5UUlnM0FOOGEwWUJrNXVCUk1CQW41Z2MtZEF6Qml1UmJwZmRLM21sUkhtVlFZaV9ETDNaWEx1YTFhNW1vRzVaNVRiZEtrZjN4SkliZnU2QTh6eVpQS29QNTZleU1XTVk5U3ZwOFBPZy1TVTJENEVwNzZOQW1kUGJzV0c3eGJQTUxRS004ZmpFS0o4Q1V5ZEtldGVjM3RpaDZKVGdWaHhKRmdjR2hNWVZkbXVN?oc=5",
       "image": null,
       "ts": 1783938827000
-    },
-    {
-      "id": "7c7cfc62ba3a",
-      "title": "EU countries consider sanctions on trade from illegal Israeli settlements",
-      "description": "Pressure from EU member states to impose sanctions has increased in recent months amid escalating settler violence",
-      "lat": 50.85,
-      "lng": 4.349999999999994,
-      "severity": 3,
-      "location": "Brussels, Belgium",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/eu-countries-consider-sanctions-on-trade-from-illegal-israeli-settlements?traffic_source=rss",
-      "image": null,
-      "ts": 1783938745000
-    },
-    {
-      "id": "57ffa8e080af",
-      "title": "EU and UK impose first-ever joint sanctions against Russian cyber-war complex",
-      "description": "The EU and UK have imposed joint sanctions against a Russian cyber-war complex.",
-      "lat": 50.85,
-      "lng": 4.349999999999994,
-      "severity": 3,
-      "location": "Brussels, Belgium",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPU0FSTWh1ZkVuVGRSTDlySEczNk43d0dQSE1hZ1ZCcllsdTJwN0dHN0QzaXlETElyQ1BMWDRMbzduV2cySF82ckdSWnZPdllJaktEbWpDeU5qRWVEOGgwbmJHeDluSWZDenA2Vi03WmdBVm53ZHFZWWRYVm1QZzFIRGNFUUNXUkdoNGsw?oc=5",
-      "image": null,
-      "ts": 1783934624000
-    },
-    {
-      "id": "0d3947899309",
-      "title": "US and Iran trade strikes as ceasefire comes under growing strain",
-      "description": "Iran's IRGC says it attacked sites linked to the US military in Kuwait, Bahrain and Oman after latest US bombardment",
-      "lat": 30.71,
-      "lng": 50.54259999999999,
-      "severity": 4,
-      "location": "Kuwait",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/us-and-iran-trade-strikes-as-ceasefire-comes-under-growing-strain?traffic_source=rss",
-      "image": null,
-      "ts": 1783933308000
-    },
-    {
-      "id": "32ba8a9145e9",
-      "title": "UK and EU strike Russian cyber networks with new sanctions",
-      "description": "UK and EU strike Russian cyber networks with new sanctions",
-      "lat": 51.5,
-      "lng": -0.13,
-      "severity": 3,
-      "location": "London, UK",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORXRYZXNCQXJPSXpBN3BobjJjb2IwN05IT2owMDlNcG54Y1hLMy04bDdoaFgwMVVWVk5wOWZhaEI1d3hyR21aaUZFN0EwQXhuc2J0Ukw3ZkdZUmtGaEVIMVMydURnMi1veUl3LXJEVWhsMVR4WjNaaDBSejZZQ014Ni1RVjR3MHVlQS11VkJWSFR3NThuSFdvOA?oc=5",
-      "image": null,
-      "ts": 1783932373000
-    },
-    {
-      "id": "38e092834d62",
-      "title": "US-Iran conflict escalates, oil prices surge",
-      "description": "Renewed US-Iran fighting could reignite wider regional conflict",
-      "lat": 35.68,
-      "lng": 51.420000000000016,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOS2FkZ2lld0lsYlNLY0d2eXNHWjc5SG5pTmEzeUEzNXpVY0QtY1BxNjhhTERMRnd6LWxQc2hhQlptNlVsOHhickI5TG1fT2ZMU0xLaGZkcEJsV2VQMGlKc09ZdnVMUTFGUFNldmxBTVp3amVDTzBKckZHcTRVOGpBNVh2Z3NJbDJoWWU4X3F2eWdFQlNvbW5NTzJQeU0yNWlja0hPQXNmUDZrY2M2SFktWWU3ZU4wMjk1RlJsa0NiQW3SAcYBQVVfeXFMT3pKYUtmcm1ITlJPVXBDUDdlalVpVUpEZWNRZVZrVE9MNFZFRGZZeUdRdngwaFVjX0NDYlVWMG5FaEMwZlN5X1hxNUx5NHloOEduMmtZS0lHVVNMWXdxR29aMTRUTW1PcDRJTDMyTVBzdDI3anBZUkFoMExpT3JDWmxQNGdUMXl6MEY5bDlUOXVMNFZ0alN6YmZveklOTjZBMU9vTUFralRjNXhSNGtncTVvVnhSaVU5NGtLbFhXYkxoSVg2YVpR?oc=5",
-      "image": null,
-      "ts": 1783928539000
     }
   ]
 }
