@@ -1,7 +1,141 @@
 {
   "schema": 1,
-  "updated": "2026-07-24T17:09:59.971670+00:00",
+  "updated": "2026-07-24T19:02:08.074899+00:00",
   "events": [
+    {
+      "id": "9ba68b8f3555",
+      "title": "Trump threatens EU with tariff probe over Google, tech fines",
+      "description": "US President Donald Trump has threatened to impose tariffs on the EU in response to fines against US tech companies.",
+      "lat": 37.09,
+      "lng": -95.71,
+      "severity": 2,
+      "location": "Washington, USA",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/trump-threatens-eu-with-tariff-probe-over-google-tech-fines/a-78105954?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1784919727922,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 1,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 3,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/07/24/trump-says-eu-to-pay-very-big-price-for-890-million-google-fine_6755804_4.html"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/trump-threatens-eu-with-tariff-probe-over-google-tech-fines/a-78105954?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-07-24/trump-vows-fresh-tariffs-on-european-union-over-google-fine"
+          },
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20260725000200315"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/643447-trump-threatens-eu-google/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a5723888c0d1",
+      "title": "China investigates former securities regulator Fang Xinghai",
+      "description": "Respected economist Fang Xinghai is being probed for suspected ‘serious violations’.",
+      "lat": 41.01,
+      "lng": 116.38999999999999,
+      "severity": 2,
+      "location": "Beijing, China",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/4d8139b2-8ea2-468b-a674-5f6a90a84182?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1784917510000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/4d8139b2-8ea2-468b-a674-5f6a90a84182?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "761b87e8de1d",
+      "title": "ICC prosecutor Karim Khan dismissed over sexual misconduct allegations",
+      "description": "Member states of the International Criminal Court voted to dismiss Karim Khan as prosecutor following allegations of sexual misconduct.",
+      "lat": 52.09,
+      "lng": 4.32,
+      "severity": 2,
+      "location": "The Hague, Netherlands",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/europe/20260724-icc-chief-prosecutor-karim-khan-dismissed-over-sexual-misconduct-allegations-sources-say",
+      "image": "https://s.france24.com/media/display/589033e4-8784-11f1-a867-005056a90284/w:1024/p:16x9/AP26170439513124.jpg",
+      "ts": 1784916765000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/bruising-icc-scandal-heads-secret-vote-removing-chief-135045570"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/europe/20260724-icc-chief-prosecutor-karim-khan-dismissed-over-sexual-misconduct-allegations-sources-say"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/icc-members-vote-to-remove-chief-prosecutor-karim-khan-amid-sexual-misconduct-allegations/a-78092577?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/article/3361809/international-criminal-court-members-dismiss-prosecutor-karim-khan-insiders-say?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
     {
       "id": "43a39ae98d16",
       "title": "Iran keeps targeting American bases as US interceptor stockpiles dwindle",
@@ -536,6 +670,39 @@
             "n": "MercoPress",
             "b": "center",
             "u": "https://en.mercopress.com/2026/07/24/uruguay-faces-a-12.5-us-tariff-as-its-foreign-ministry-weighs-the-implications?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f3fdef4c925f",
+      "title": "Two Russian men jailed in Angola for terrorism and spying",
+      "description": "Two Russian men have been found guilty by an Angolan court of terrorism and spying over an alleged plan to stage a coup and organise deadly demonstrations.",
+      "lat": -8.83,
+      "lng": 13.23,
+      "severity": 3,
+      "location": "Luanda, Angola",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/world/2026/jul/23/two-russian-men-jailed-angola-terrorism-and-spying",
+      "image": null,
+      "ts": 1784816641000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/jul/23/two-russian-men-jailed-angola-terrorism-and-spying"
           }
         ]
       }
@@ -2899,58 +3066,6 @@
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPc2d1Z1laWkptYUFqMG1Sa1RqWXV6dVV0bHFIZnI5U20xR083VjJMQ0NkSmM4Y3VXZHBOb3otV1p3SUFjVUxRNlVLLXBoSXlvcXFRekJmTDBieEFjUXJidDJwbGcxaE9YVU1FMTVTcnl1Z1ZHYW9ER2xwbU9DTGZBTi1rVFNpajBxNHRr?oc=5",
       "image": null,
       "ts": 1783764180000
-    },
-    {
-      "id": "ce5941dac0d0",
-      "title": "Trump Threatens to Decimate Iran",
-      "description": "Trump has threatened to decimate Iran if it attempts to kill him, as tensions between the US and Iran continue to rise.",
-      "lat": 38.89,
-      "lng": -77.01,
-      "severity": 4,
-      "location": "Washington, D.C., USA",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBvODdoUDdFOEwwM0pfWXBmcl9KYkdrZG9kbmJIajVzSUhxSEcxWTVqTTVqNUNrMWVMajhKYXU1SjZGUGlyenBtdHFTOXlCOTNaR0EzSHFUUEFuSXBwNXfSAWNBVV95cUxQRUtfMEJjQW5fUjRLYXI4NWtkb1duYnZZc09CZUVFYTF3dExMTjhjalFSODNwalAtNmZVRHNSaHlPOEZOV2xqTUZscWQwZHB0MnY5UzRYLWZCVW5lNFBGeWdaZWc?oc=5",
-      "image": null,
-      "ts": 1783762563000
-    },
-    {
-      "id": "0c848b5e6a3e",
-      "title": "Typhoon Bavi approaches China",
-      "description": "Typhoon Bavi is approaching China, with over 900,000 people evacuated from the affected areas.",
-      "lat": 23.13,
-      "lng": 113.27,
-      "severity": 4,
-      "location": "Guangzhou, China",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/hundreds-of-thousands-evacuated-as-typhoon-bavi-barrels-towards-china?traffic_source=rss",
-      "image": null,
-      "ts": 1783762377000
-    },
-    {
-      "id": "42a4c8c08f28",
-      "title": "China Typhoon",
-      "description": "More than 1 million evacuated as Typhoon Bavi makes landfall in China",
-      "lat": 29.08,
-      "lng": 122.5752,
-      "severity": 3,
-      "location": "Wenzhou, China",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/hundreds-of-thousands-evacuated-as-typhoon-bavi-barrels-towards-china?traffic_source=rss",
-      "image": null,
-      "ts": 1783762377000
-    },
-    {
-      "id": "ff3fd53e6f6a",
-      "title": "Venezuela suffers second nationwide blackout in five days",
-      "description": "Venezuela experiences a second nationwide blackout in five days, with the cause of the power outage unknown.",
-      "lat": 10.48,
-      "lng": -66.9,
-      "severity": 4,
-      "location": "Caracas, Venezuela",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/cuba-suffers-second-nationwide-blackout-in-five-days?traffic_source=rss",
-      "image": null,
-      "ts": 1783760423000
     }
   ]
 }
