@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-07-23T23:30:59.905998+00:00",
+  "updated": "2026-07-24T00:58:53.722027+00:00",
   "events": [
+    {
+      "id": "fad9ac9d9ca0",
+      "title": "Iran Rejects US Cease-Fire Offer",
+      "description": "Iran has rejected a US cease-fire offer delivered by Iraq, with the US military beginning a 13th consecutive night of strikes on Iran.",
+      "lat": 33.89,
+      "lng": 51.44,
+      "severity": 4,
+      "location": "Tehran, Iran",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/live/2026/07/23/world/iran-war-strikes-oil-trump",
+      "image": "https://static01.nyt.com/images/2026/07/23/multimedia/23mideast-live-promo-8pm-ptjg/23mideast-live-promo-8pm-ptjg-mediumSquareAt3X.jpg",
+      "ts": 1784853878000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/live/2026/07/23/world/iran-war-strikes-oil-trump"
+          }
+        ]
+      }
+    },
     {
       "id": "4424e424212b",
       "title": "India Activist Ends Hunger Strike",
@@ -212,27 +245,27 @@
     },
     {
       "id": "c6c6740bcdb7",
-      "title": "US and Saudis Sign Nuclear Deal",
-      "description": "The US and Saudi Arabia have reached a nuclear cooperation deal, contingent on Saudi Arabia joining the Abraham Accords and normalizing relations with Israel.",
+      "title": "Saudi Nuclear Deal in Doubt",
+      "description": "The US-Saudi nuclear deal is in doubt after President Trump announced that the deal is dependent on Saudi Arabia recognizing Israel.",
       "lat": 38.9,
       "lng": -77.02,
-      "severity": 2,
+      "severity": 4,
       "location": "Washington D.C., USA",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/us-deal-saudis-enrich-nuclear-program/",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/politics/2026/07/23/trump-adds-condition-nuclear-deal-with-saudi-arabia-throwing-pact-into-doubt/",
       "image": null,
       "ts": 1784833440000,
       "coverage": {
-        "left": 4,
-        "center": 1,
-        "right": 1,
-        "total": 6,
+        "left": 5,
+        "center": 0,
+        "right": 0,
+        "total": 5,
         "buckets": {
           "left": 1,
-          "lean_left": 3,
-          "center": 1,
+          "lean_left": 4,
+          "center": 0,
           "lean_right": 0,
-          "right": 1
+          "right": 0
         },
         "sources": [
           {
@@ -243,27 +276,22 @@
           {
             "n": "New York Times World",
             "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/07/23/world/asia/us-saudi-nuclear-deal-south-korea.html"
+            "u": "https://www.nytimes.com/2026/07/23/world/middleeast/saudi-arabia-nuclear.html"
           },
           {
-            "n": "CBS News World",
+            "n": "Washington Post World",
             "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/us-deal-saudis-enrich-nuclear-program/"
+            "u": "https://www.washingtonpost.com/politics/2026/07/23/trump-adds-condition-nuclear-deal-with-saudi-arabia-throwing-pact-into-doubt/"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/7/23/us-saudi-nuclear-deal-hinges-on-normalisation-with-israel?traffic_source=rss"
           },
           {
             "n": "Time",
             "b": "lean_left",
             "u": "https://time.com/article/2026/07/23/us-saudi-arabia-nuclear-deal-explainer/"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/us-signs-nuclear-deal-with-saudi-arabia-13565968"
-          },
-          {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/newsroom/trump-u-s-saudi-nuclear-pact-hinges-on-riyadh-joining-abraham-accords/"
           }
         ]
       }
@@ -687,6 +715,39 @@
             "n": "Axios",
             "b": "center",
             "u": "https://www.axios.com/2026/07/23/eu-google-billion-fine-search-play-store"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3bfd809b01d1",
+      "title": "EU Hits Google with $1 Billion Fine",
+      "description": "The EU has fined Google $1 billion over its Play App Store and search practices, in the latest major crackdown on Big Tech by Brussels.",
+      "lat": 50.85,
+      "lng": 4.349999999999994,
+      "severity": 2,
+      "location": "Brussels, Belgium",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/eu-hits-google-with-1-billion-fine_n_6a61e9b6e4b0f1b7fc5169dc",
+      "image": null,
+      "ts": 1784802010000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/eu-hits-google-with-1-billion-fine_n_6a61e9b6e4b0f1b7fc5169dc"
           }
         ]
       }
@@ -5425,32 +5486,6 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYkZaamlwNS1ielVkSzd5WnNEYWdaUmhhbWd1am1ZaXkxcXFrRktlaVNJN0xMZ2RIbkk5ejh3X0VtdzJJTHdiWnJ1cmpIWnhIN0hTRVJCMm1iVmNjbUsyR19oY2xiUHljd2oycFV1akdoM2ZRRDV4UUVrMHhQQTBGb21jNmt5VkZqTVpCOFRGeUl1d2Z0b2UxTDNXNlBCM0ZqM3g4elln?oc=5",
       "image": null,
       "ts": 1783983349000
-    },
-    {
-      "id": "07e15c32dd6c",
-      "title": "Venezuela-US Sanctions",
-      "description": "The US has imposed sanctions on Venezuela, with Senior Associate Attorney Megan Mohler discussing the implications.",
-      "lat": 11.58,
-      "lng": -66.9,
-      "severity": 3,
-      "location": "Caracas, Venezuela",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOU2lKTzVzSEQ1M0s2YVg3UkFmQkVJWWNJdkdCR2JHMW4zcDRONElZamZEMUdBMldWaXp4UVVjMDZWX3FBTWVuTjJfR1FQazRBazdBZ2E2TVRqM0xsT0hxS1U1cTl3OWZHUnEyRm9SSFJmQnFrM1NrWUtCRkRqR3JyQ0gwS20yVmtS?oc=5",
-      "image": null,
-      "ts": 1783982528000
-    },
-    {
-      "id": "cbd74498b97a",
-      "title": "US to Impose 20% Charge on Cargo Passing Through Strait of Hormuz",
-      "description": "The US president has announced plans to impose a 20% charge on all cargo shipped through the Strait of Hormuz.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/caac/live/6d318280-7ece-11f1-a521-db2da184cdb6.jpg",
-      "ts": 1783976228000
     }
   ]
 }
