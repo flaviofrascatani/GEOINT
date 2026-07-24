@@ -1,7 +1,144 @@
 {
   "schema": 1,
-  "updated": "2026-07-24T12:54:48.110624+00:00",
+  "updated": "2026-07-24T15:37:15.751057+00:00",
   "events": [
+    {
+      "id": "dbea278f5849",
+      "title": "US floats AI 'kill switch' to stop rogue AI models",
+      "description": "The US is considering introducing an AI 'kill switch' to stop rogue AI models, following concerns over the potential dangers of the technology.",
+      "lat": 40.0,
+      "lng": -77.02,
+      "severity": 2,
+      "location": "Washington D.C., USA",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/us-floats-ai-kill-switch-to-stop-rogue-ai-models/a-78100594?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1784907435602,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/us-floats-ai-kill-switch-to-stop-rogue-ai-models/a-78100594?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8d75d3e4d57a",
+      "title": "Wildfires force evacuation of Cap Ferret resort",
+      "description": "Tens of thousands of people have been evacuated from the Cap Ferret resort on the Atlantic coast of France due to wildfires.",
+      "lat": 46.31,
+      "lng": -0.2974000000000103,
+      "severity": 3,
+      "location": "Cap Ferret, France",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/6e1d4a14-b7ad-4a36-86d9-3990497272a3?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1784907239000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/6e1d4a14-b7ad-4a36-86d9-3990497272a3?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c1138aec5616",
+      "title": "Iran keeps targeting US bases",
+      "description": "Iran has launched retaliatory strikes against US bases in Bahrain, Jordan, and Kuwait, with American personnel reportedly hit.",
+      "lat": 26.02,
+      "lng": 50.55,
+      "severity": 4,
+      "location": "Manama, Bahrain",
+      "source": "RT News",
+      "url": "https://www.rt.com/news/643432-iran-strikes-us-bases-bahrain/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.07/thumbnail/6a63827c2030277b300e007d.jpg",
+      "ts": 1784906403000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/643432-iran-strikes-us-bases-bahrain/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1590ecbe340f",
+      "title": "Pakistan and Iran explore path towards new talks with US",
+      "description": "Pakistan is exploring a path towards a resumption of stalled US-Iran talks over ending their nearly five-month-old war, following a push initiated by China.",
+      "lat": 33.72,
+      "lng": 73.04,
+      "severity": 2,
+      "location": "Islamabad, Pakistan",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/pakistan-iran-explore-path-towards-new-talks-with-us-in-a-china-initiated-push-sources-say",
+      "image": null,
+      "ts": 1784906308000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/07/24/oil-price-trump-hormuz-red-sea-iran-war.html"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/pakistan-iran-explore-path-towards-new-talks-with-us-in-a-china-initiated-push-sources-say"
+          }
+        ]
+      }
+    },
     {
       "id": "20dd5a9201ba",
       "title": "US hits dozens of countries with new wave of tariffs",
@@ -31,6 +168,39 @@
             "n": "Axios",
             "b": "center",
             "u": "https://www.axios.com/2026/07/23/trump-tariffs-trade-labor"
+          }
+        ]
+      }
+    },
+    {
+      "id": "58bdef700515",
+      "title": "EU sanctions six Iranian individuals over human rights violations",
+      "description": "The EU has imposed sanctions on six Iranian individuals over serious human rights violations.",
+      "lat": 52.52,
+      "lng": 13.41,
+      "severity": 3,
+      "location": "Brussels, Belgium",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxObm9tLUJlUkZLOHM5anQ2RUVxdzVIeVFWd3BXQXFJWWtSS20zdnVzMmhVNGZEcGZlWl9YWWZQNVdGeWdNcGZMekVvNXhMMFFKSWtBdDU1SFdMcnpjeXVTeUxMX01yenZrWHgyQ2F4ZU0zS3hjdlJMY3ZRcUJYankwM0s4NXNCcXNpNGtTZEN5cDZRU2Q2ZzV2b1dEZS1VYnRsdkhoOEUwdm1RTmlpNWpKWEFxclRNMUZfSEd6aUhMdWE5Y1dKWFNnU1lsM0o2VVZaZVNjd09lbjgxQTBvdWlNdGxjai14SFpxb3hSNktn?oc=5",
+      "image": null,
+      "ts": 1784896393000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxObm9tLUJlUkZLOHM5anQ2RUVxdzVIeVFWd3BXQXFJWWtSS20zdnVzMmhVNGZEcGZlWl9YWWZQNVdGeWdNcGZMekVvNXhMMFFKSWtBdDU1SFdMcnpjeXVTeUxMX01yenZrWHgyQ2F4ZU0zS3hjdlJMY3ZRcUJYankwM0s4NXNCcXNpNGtTZEN5cDZRU2Q2ZzV2b1dEZS1VYnRsdkhoOEUwdm1RTmlpNWpKWEFxclRNMUZfSEd6aUhMdWE5Y1dKWFNnU1lsM0o2VVZaZVNjd09lbjgxQTBvdWlNdGxjai14SFpxb3hSNktn?oc=5"
           }
         ]
       }
@@ -234,6 +404,39 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/643410-trump-threatens-seize-iranian-assets/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9c7459c9128c",
+      "title": "Uruguay faces 12.5% US tariff",
+      "description": "Uruguay has been placed in the highest band of the new US tariff scheme, with an additional 12.5% levy on its exports to the United States.",
+      "lat": -32.52,
+      "lng": -55.76,
+      "severity": 3,
+      "location": "Montevideo, Uruguay",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/07/24/uruguay-faces-a-12.5-us-tariff-as-its-foreign-ministry-weighs-the-implications?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": "https://en.mercopress.com/data/cache/noticias/110904/100x80/mia.jpg",
+      "ts": 1784876700000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/07/24/uruguay-faces-a-12.5-us-tariff-as-its-foreign-ministry-weighs-the-implications?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
           }
         ]
       }
@@ -2688,84 +2891,6 @@
       "url": "https://www.aljazeera.com/news/2026/7/11/russian-missile-attacks-wound-11-in-kyiv?traffic_source=rss",
       "image": null,
       "ts": 1783760003000
-    },
-    {
-      "id": "8de2c4846f01",
-      "title": "Russia launches missile and drone barrage on Ukraine",
-      "description": "Russia has launched a missile and drone barrage on Ukraine, killing two and wounding 19 in the latest escalation of the conflict.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 4,
-      "location": "Kyiv, Ukraine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/russian-missile-attacks-wound-11-in-kyiv?traffic_source=rss",
-      "image": null,
-      "ts": 1783760003000
-    },
-    {
-      "id": "11f170498c1f",
-      "title": "China and North Korea celebrate 65th anniversary of friendship treaty",
-      "description": "China and North Korea are celebrating the 65th anniversary of their friendship treaty.",
-      "lat": 39.02,
-      "lng": 125.75,
-      "severity": 2,
-      "location": "Pyongyang, North Korea",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/sealed-in-blood-where-does-the-china-north-korea-alliance-stand-today?traffic_source=rss",
-      "image": null,
-      "ts": 1783758080000
-    },
-    {
-      "id": "1dff1ad0453d",
-      "title": "US wants Iran to pledge to stop shooting at ships in Strait of Hormuz",
-      "description": "US officials, including Vice-President JD Vance, are set to take part in negotiations with Iran in Oman to discuss the Strait of Hormuz.",
-      "lat": 23.62,
-      "lng": 58.59,
-      "severity": 3,
-      "location": "Muscat, Oman",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/crelyq79x71o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/83f6/live/e1bcc750-7a4a-11f1-8540-110da73337d9.jpg",
-      "ts": 1783745793000
-    },
-    {
-      "id": "6a492f2eb64e",
-      "title": "Zaporizhzhia’s mayor says Russian advance reaches city’s outskirts",
-      "description": "The mayor of Zaporizhzhia has said that Russian forces have reached the outskirts of the city, amid ongoing fighting in eastern Ukraine.",
-      "lat": 47.83,
-      "lng": 35.13,
-      "severity": 4,
-      "location": "Zaporizhzhia, Ukraine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/zaporizhzhias-mayor-says-russian-advance-reaches-citys-outskirts?traffic_source=rss",
-      "image": null,
-      "ts": 1783732366000
-    },
-    {
-      "id": "5789ec6137c0",
-      "title": "Kiev attacked by Russian missiles, multiple explosions heard",
-      "description": "Kiev has been attacked by Russian missiles, with multiple explosions heard in the city, and air raid sirens sounding",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 4,
-      "location": "Kiev, Ukraine",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/07/11/kiev-attaccata-da-missili-russi-udite-diverse-esplosioni_56a01f83-a021-49ae-b787-de4abe5201a5.html",
-      "image": null,
-      "ts": 1783731600000
-    },
-    {
-      "id": "919ed480a343",
-      "title": "Bipartisan senators reach deal on stalled Russian sanctions bill",
-      "description": "Bipartisan senators have reached a deal on a stalled Russian sanctions bill, which could lead to increased pressure on Russia.",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcm93LXNaVy1lZnJueGt3bDlFOXg1U0xQUllHcUpYbHdsMkJSWXMyZU5vWUszc3VhOVVubkhaTWFEODdPYU9GTTNSc2E2c3RCeTR4QlloNm1aU1ZlNUc0TEZyUEJ2bVpHS3RKWXRMMXI2S0dxcGVFOVUtV2JkUHVIa0Vhc0lfQdIBiwFBVV95cUxPQ2tFamZLdFhSQWgtMVM4aC1LRGJmdWhTR29hSE1wWDd2aG5ianFvb1NDZkk5T1JxWEhyRzExUU40aExtTngtVy1DUVBwazZpdi1VTmlQcUJJZUloY29NUXlLTk5jbDVncVFBQ0NCU0FTeEdRM29OeGtLUmZWUjYtSjdDNDNIa3VUTjF3?oc=5",
-      "image": null,
-      "ts": 1783730875000
     }
   ]
 }
