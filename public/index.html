@@ -2,14 +2,18 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#131a17">
 <title>GEOINT // Strategic Globe v8</title>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{--bg:#131a17;--surface:rgba(20,30,26,.93);--border:rgba(190,207,184,.1);--border-h:rgba(190,207,184,.22);--accent:#8aad84;--accent2:#305852;--red:#c27066;--gold:#b89a4a;--green:#6b9e6f;--yellow:#e3c04a;--orange:#e0893a;--crim:#c0392b;--purple:#9b59b6;--rose:#c4a095;--text:#9aaa97;--text-dim:#5a6d5e;--white:#d5d8d2;--bright:#e8ebe5;--mono:'JetBrains Mono',ui-monospace,monospace;--sans:'EB Garamond',Garamond,Georgia,serif;--cond:'EB Garamond',Garamond,Georgia,serif;--serif:'Fraunces',Georgia,serif}
 html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--sans);font-feature-settings:"ss01","cv01","cv11"}
-canvas#gl{position:fixed;inset:0;z-index:1}
+canvas#gl{position:fixed;inset:0;z-index:1;touch-action:none}
 #top{position:fixed;top:0;left:0;right:0;height:40px;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0 20px;background:linear-gradient(180deg,rgba(19,26,23,.97),rgba(19,26,23,.4));border-bottom:1px solid var(--border);backdrop-filter:blur(10px)}
 .logo{font-family:var(--sans);font-weight:600;font-size:13px;letter-spacing:1.5px;color:var(--accent);display:flex;align-items:center;gap:8px}
 .logo .dot{width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 6px var(--green);animation:blink 2.5s infinite}
@@ -286,6 +290,113 @@ canvas#gl{position:fixed;inset:0;z-index:1}
 #btn-routes,#btn-alliances,#btn-sources{padding:6px 13px;background:var(--surface);border:1px solid var(--border);border-radius:4px;color:var(--accent);font-family:var(--sans);font-size:11.5px;font-weight:500;cursor:pointer;backdrop-filter:blur(10px);letter-spacing:.1px}
 #btn-routes:hover,#btn-alliances:hover,#btn-sources:hover{background:rgba(138,173,132,.12);border-color:var(--accent)}
 #btn-routes.on,#btn-alliances.on,#btn-sources.on{background:rgba(138,173,132,.15);color:var(--bright)}
+
+/* =========================================================================
+   RESPONSIVE — phones & small tablets
+   The globe canvas is fluid already; here we shrink chrome (bars, panels,
+   buttons, coords box) and switch side panels to near-full-width overlays.
+   Two breakpoints:  ≤ 780 px = tablet & large phone,  ≤ 480 px = phone.
+   ========================================================================= */
+@media (max-width: 780px) {
+  /* Top / bottom bars — tighter */
+  #top{height:36px;padding:0 10px;gap:8px}
+  #top .logo{font-size:11px;letter-spacing:.8px}
+  #top .logo .dot{width:5px;height:5px}
+  #top #search-in{width:120px;font-size:10px;padding:4px 8px}
+  #top #search-res{width:calc(100vw - 40px);max-width:240px;right:0}
+  #top #btn-hide-news{font-size:9.5px;padding:3px 7px}
+  #clock{font-size:8.5px}
+
+  #bot{min-height:32px;height:auto;padding:4px 8px;gap:6px;flex-wrap:wrap}
+  #bot .left,#bot .right{flex-wrap:wrap;gap:5px}
+  #bot .fs-btn{font-size:10px;padding:3px 7px}
+  #coords-box{padding:2px 6px;gap:5px}
+  #coords-box .val{min-width:80px;font-size:8.5px}
+  #coords-box .nm{font-size:9px;padding-right:5px}
+  #coords-box .lbl{font-size:6.5px}
+
+  /* Side / bottom panels — full width up to their normal cap */
+  #detail{width:calc(100vw - 20px);max-width:420px;top:40px;bottom:44px}
+  #detail.open{transform:translateX(0)}
+  #sidebar{width:calc(100vw - 20px);max-width:300px;top:40px;bottom:44px}
+  #sidebar.off{transform:translateX(calc(100vw + 20px))}
+  #routes-panel,#alliances-panel,#sources-panel,#sat-panel{
+    width:calc(100vw - 20px);max-width:340px;bottom:84px}
+  #sat-detail{width:calc(100vw - 20px);max-width:340px;top:40px;bottom:44px}
+  #sat-shell-bar{max-width:calc(100vw - 20px);bottom:84px}
+
+  /* Floating helpers */
+  #settings-pop{width:calc(100vw - 20px);max-width:280px;left:10px;bottom:60px}
+  #ev-card{width:calc(100vw - 20px);max-width:280px}
+  #btn-side{top:40px}
+  #btn-detail{top:40px}
+  .toggle-btn{width:36px;height:36px;font-size:14px}
+
+  /* Panel typography — slightly smaller */
+  .pnl-h{padding:8px 12px}
+  .pnl-b{padding:10px 12px}
+  .pnl-t{font-size:11px}
+  .c-name{font-size:19px}
+  .c-flag{font-size:32px}
+  .sec-t{font-size:10.5px}
+  .stats{gap:5px}
+  .stat{padding:6px 8px}
+  .stat .sv{font-size:13.5px}
+  .stat .sl{font-size:8px}
+
+  /* Country intelligence report — tighter cards */
+  .cr-out .cr-title{font-size:11.5px}
+  .cr-out .cr-desc{font-size:10.5px}
+  .cr-out .cr-meta{font-size:9px}
+
+  /* Bigger tap targets: sat rows, ev items */
+  .sat-card{padding:11px 13px}
+  .ev-item{padding:9px 10px}
+  .search-item{padding:9px 12px !important;font-size:12px !important}
+}
+
+@media (max-width: 480px) {
+  /* Very small phones — drop non-essential chrome */
+  #clock{display:none}
+  #coords-box .lbl{display:none}
+  #coords-box .val{min-width:70px}
+  #top #btn-hide-news{padding:2px 5px;font-size:9px}
+  #top #search-in{width:96px}
+
+  /* Buttons: labels shrink so 4-5 buttons fit on one line */
+  #bot .fs-btn{font-size:9.5px;padding:3px 6px;letter-spacing:.1px}
+
+  /* Panels take almost the entire viewport width */
+  #detail,#sidebar,#routes-panel,#alliances-panel,#sources-panel,#sat-panel,#sat-detail{
+    width:calc(100vw - 12px);max-width:calc(100vw - 12px);
+    left:6px;right:6px}
+  #detail{width:calc(100vw - 12px);max-width:calc(100vw - 12px)}
+  #sidebar{width:calc(100vw - 12px);max-width:calc(100vw - 12px)}
+  #settings-pop{width:calc(100vw - 12px);max-width:calc(100vw - 12px);left:6px}
+  #ev-card{width:calc(100vw - 20px);max-width:calc(100vw - 20px)}
+
+  /* Slightly smaller inner padding to reclaim width */
+  .pnl-b{padding:9px 10px}
+  .pnl-h{padding:7px 10px}
+  .stats{grid-template-columns:1fr 1fr;gap:4px}
+  .c-head{gap:10px;margin-bottom:8px}
+  .c-flag{font-size:28px}
+  .c-name{font-size:17px}
+
+  /* Sat-shell bar can scroll horizontally */
+  #sat-shell-bar{padding:4px 6px;gap:4px}
+}
+
+/* Fingers vs mouse — hover pseudo-classes don't fire on touch so make active states visible */
+@media (hover: none) {
+  .fs-btn:active{background:rgba(138,173,132,.22);border-color:var(--accent)}
+  .toggle-btn:active{background:rgba(138,173,132,.22)}
+  .sat-card:active{background:rgba(138,173,132,.12)}
+  .search-item:active{background:rgba(138,173,132,.18)}
+  /* Larger minimum tap-target size for interactive text on touch */
+  button, .fs-btn, .toggle-btn{min-height:32px}
+  canvas#gl{touch-action:none} /* stop browser scroll while dragging the globe */
+}
 </style>
 </head>
 <body>
@@ -1095,6 +1206,72 @@ canvas.addEventListener('click',e=>{
 });
 canvas.addEventListener('contextmenu',e=>e.preventDefault());
 
+// ---- Touch support (phones / tablets) ----
+// One finger  = rotate (equivalent to mouse drag)
+// Two fingers = pinch to zoom
+// Short tap   = click / country select
+let _touchPinchDist=0,_touchTap={x:0,y:0,t:0};
+canvas.addEventListener('touchstart',e=>{
+  if(e.touches.length===1){
+    const t=e.touches[0];
+    drag=true;
+    pm=cpm={x:t.clientX,y:t.clientY};
+    _touchTap={x:t.clientX,y:t.clientY,t:Date.now()};
+    autoR=false;
+  } else if(e.touches.length===2){
+    drag=false; // 2-finger gesture cancels drag-rotate
+    _touchTap.t=0;
+    const a=e.touches[0],b=e.touches[1];
+    _touchPinchDist=Math.hypot(b.clientX-a.clientX,b.clientY-a.clientY);
+  }
+  e.preventDefault();
+},{passive:false});
+canvas.addEventListener('touchmove',e=>{
+  if(e.touches.length===1 && drag){
+    const t=e.touches[0];
+    const dx=t.clientX-pm.x,dy=t.clientY-pm.y;
+    rvx=dx*.003;rvy=dy*.003;
+    globeGroup.rotation.y+=dx*.005;
+    globeGroup.rotation.x=Math.max(-Math.PI/2,Math.min(Math.PI/2,globeGroup.rotation.x+dy*.005));
+    pm={x:t.clientX,y:t.clientY};
+    // Any movement past a few px cancels the "tap" so we don't accidentally select
+    if(Math.hypot(t.clientX-_touchTap.x,t.clientY-_touchTap.y)>10)_touchTap.t=0;
+  } else if(e.touches.length===2){
+    const a=e.touches[0],b=e.touches[1];
+    const d=Math.hypot(b.clientX-a.clientX,b.clientY-a.clientY);
+    if(_touchPinchDist>0){
+      // Pinch-out (fingers apart) → zoom IN → smaller tZoom
+      const delta=(_touchPinchDist-d)*0.01;
+      tZoom=Math.max(2,Math.min(10,tZoom+delta));
+      _touchPinchDist=d;
+    }
+  }
+  e.preventDefault();
+},{passive:false});
+canvas.addEventListener('touchend',e=>{
+  // Short single-finger tap without movement = click
+  if(e.changedTouches.length===1 && _touchTap.t && (Date.now()-_touchTap.t)<300){
+    const t=e.changedTouches[0];
+    const mouse=new THREE.Vector2((t.clientX/innerWidth)*2-1,-(t.clientY/innerHeight)*2+1);
+    const rc=new THREE.Raycaster();
+    rc.setFromCamera(mouse,cam);
+    const hits=newsHidden?[]:rc.intersectObjects(eventGrp.children,false);
+    const evHit=hits.find(h=>h.object.userData.eventIdx!==undefined);
+    if(evHit){
+      const evIdx=evHit.object.userData.eventIdx;
+      const ev=events[evIdx];
+      if(ev&&typeof ev.lat==='number')focusLL(ev.lat,ev.lng,3.2);
+      showEventCard(evIdx);
+    } else {
+      selectCountry(gpuPick(t.clientX,t.clientY));
+    }
+  }
+  drag=false;
+  _touchPinchDist=0;
+  _touchTap.t=0;
+});
+canvas.addEventListener('touchcancel',()=>{drag=false;_touchPinchDist=0;_touchTap.t=0});
+
 // 3D Cartesian centroid: avoids antimeridian wraparound issues. Cached.
 const _centroidCache={};
 function countryCentroid(id){
@@ -1238,6 +1415,21 @@ async function runCountryReport(id, name){
     out.innerHTML=_crRenderPayload(cached.payload);
     return;
   }
+  // ---- Client-side cooldown after a 429 ----
+  // Groq's TPM counter resets every 60 s. If we just hit a rate limit, block
+  // new requests locally instead of round-tripping to Vercel and back.
+  var cd=window._crCooldownUntil||0;
+  if(Date.now()<cd){
+    var remaining=Math.ceil((cd-Date.now())/1000);
+    out.innerHTML='<div class="cr-err"><strong>Rate limit cooldown.</strong><br>'+
+      'Wait <b>'+remaining+' s</b> before trying again — Groq\'s free-tier LLM resets its per-minute counter every 60 s. '+
+      'You can also pick a shorter time window (24 h / 3 d) to keep the prompt smaller.</div>';
+    // Auto-clear the message once cooldown expires
+    if(!window._crCooldownTimer){
+      window._crCooldownTimer=setTimeout(function(){window._crCooldownTimer=null;if(out&&window._crCooldownUntil<=Date.now())out.innerHTML=''},remaining*1000);
+    }
+    return;
+  }
   if(_countryReportInflight[cacheKey])return;
   _countryReportInflight[cacheKey]=true;
   if(btn){btn.disabled=true;btn.style.opacity='.7';btn.textContent='◐ Fetching sources & analysing…'}
@@ -1256,6 +1448,12 @@ async function runCountryReport(id, name){
     if(ct.indexOf('json')>=0){payload=await res.json()}
     else{payload={error:'Non-JSON response ('+res.status+'). If you are running locally without `vercel dev`, this endpoint is not available yet.'}}
     if(!res.ok){payload.error=payload.error||('HTTP '+res.status)}
+    // If the server tells us we're rate-limited, arm the local cooldown so
+    // the user can't spam the button and pile more 429s onto the counter.
+    var errMsg=String(payload&&payload.error||'');
+    if(res.status===429 || /429|too many requests|rate limit|rate-limited/i.test(errMsg)){
+      window._crCooldownUntil=Date.now()+60*1000; // 60s block
+    }
     _countryReportCache[cacheKey]={ts:Date.now(),payload:payload};
     out.innerHTML=_crRenderPayload(payload);
   }catch(err){
