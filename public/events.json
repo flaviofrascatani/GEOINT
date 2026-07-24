@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-07-24T15:37:15.751057+00:00",
+  "updated": "2026-07-24T17:09:59.971670+00:00",
   "events": [
+    {
+      "id": "43a39ae98d16",
+      "title": "Iran keeps targeting American bases as US interceptor stockpiles dwindle",
+      "description": "Iran has continued to target American bases, with explosions heard near a US base in Iraq.",
+      "lat": 33.32,
+      "lng": 44.39,
+      "severity": 4,
+      "location": "Baghdad, Iraq",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east/",
+      "image": null,
+      "ts": 1784912608000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8b14cf78c1fb",
+      "title": "Thousands of student-loan borrowers are getting long-awaited debt cancellation",
+      "description": "Thousands of student-loan borrowers are receiving debt cancellation as part of a $23 billion settlement.",
+      "lat": 40.0,
+      "lng": -75.1148,
+      "severity": 1,
+      "location": "Washington, D.C., USA",
+      "source": "Business Insider",
+      "url": "https://www.businessinsider.com/student-loan-forgiveness-defrauded-borrowers-sweet-vs-mcmahon-settlement-debt-2026-7",
+      "image": "https://i.insider.com/6a637d74548c9c486b31034a?format=jpeg",
+      "ts": 1784912362000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Business Insider",
+            "b": "lean_left",
+            "u": "https://www.businessinsider.com/student-loan-forgiveness-defrauded-borrowers-sweet-vs-mcmahon-settlement-debt-2026-7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a9d5f9806072",
+      "title": "Romanian F-16 shoots down drone after airspace breach",
+      "description": "A Romanian F-16 has shot down an unauthorized drone over Buzău County.",
+      "lat": 45.15,
+      "lng": 26.83,
+      "severity": 3,
+      "location": "Buzău County, Romania",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/romanian-f-16-shoots-down-drone-after-airspace-breach-marking-first-nato-ally",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/07/931/523/f-16-nato.jpg?ve=1&tl=1",
+      "ts": 1784907722000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/romanian-f-16-shoots-down-drone-after-airspace-breach-marking-first-nato-ally"
+          }
+        ]
+      }
+    },
     {
       "id": "dbea278f5849",
       "title": "US floats AI 'kill switch' to stop rogue AI models",
@@ -410,11 +509,11 @@
     },
     {
       "id": "9c7459c9128c",
-      "title": "Uruguay faces 12.5% US tariff",
-      "description": "Uruguay has been placed in the highest band of the new US tariff scheme, with an additional 12.5% levy on its exports to the United States.",
+      "title": "Uruguay faces a 12.5% US tariff as its foreign ministry weighs the implications",
+      "description": "Uruguay has been placed in the highest band of the new US tariff scheme, with an additional 12.5% levy on its exports.",
       "lat": -32.52,
       "lng": -55.76,
-      "severity": 3,
+      "severity": 2,
       "location": "Montevideo, Uruguay",
       "source": "MercoPress",
       "url": "https://en.mercopress.com/2026/07/24/uruguay-faces-a-12.5-us-tariff-as-its-foreign-ministry-weighs-the-implications?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
@@ -2852,45 +2951,6 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/cuba-suffers-second-nationwide-blackout-in-five-days?traffic_source=rss",
       "image": null,
       "ts": 1783760423000
-    },
-    {
-      "id": "716a0684bc4d",
-      "title": "Cuba suffers second nationwide blackout",
-      "description": "Cuba has suffered its second nationwide blackout in five days, leaving the country without power.",
-      "lat": 23.13,
-      "lng": -82.38,
-      "severity": 3,
-      "location": "Havana, Cuba",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/cuba-suffers-second-nationwide-blackout-in-five-days?traffic_source=rss",
-      "image": null,
-      "ts": 1783760423000
-    },
-    {
-      "id": "c6b53fabead2",
-      "title": "Cuba suffers second nationwide blackout in five days",
-      "description": "Cuba has suffered its second nationwide blackout in five days, causing widespread disruptions.",
-      "lat": 23.13,
-      "lng": -82.38,
-      "severity": 3,
-      "location": "Havana, Cuba",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/cuba-suffers-second-nationwide-blackout-in-five-days?traffic_source=rss",
-      "image": null,
-      "ts": 1783760423000
-    },
-    {
-      "id": "689a104c40da",
-      "title": "Russia launches missile attacks on Kyiv",
-      "description": "Russian overnight strikes on Kyiv injure ten, as the conflict between Russia and Ukraine continues to escalate.",
-      "lat": 50.45,
-      "lng": 32.42519999999999,
-      "severity": 4,
-      "location": "Kyiv, Ukraine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/russian-missile-attacks-wound-11-in-kyiv?traffic_source=rss",
-      "image": null,
-      "ts": 1783760003000
     }
   ]
 }
