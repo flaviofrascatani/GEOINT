@@ -436,6 +436,51 @@ Headlines:
 """
 
 
+# --------------------------------------------------------------------------
+# LLM call with 429 handling. Groq's free tier caps tokens-per-minute; when
+# the app is hammered from the browser we can bump into it. Retry once with a
+# short backoff, then raise a friendly error the frontend can display.
+_RETRY_STATUS = (429, 500, 502, 503, 504)
+
+
+def _call_llm_with_backoff(prompt, system, attempts=2):
+    import urllib.error
+    last_exc = None
+    for i in range(attempts):
+        try:
+            return call_llm(prompt, system)
+        except urllib.error.HTTPError as exc:
+            if exc.code == 429:
+                # Read Retry-After if present
+                ra = exc.headers.get("Retry-After") if hasattr(exc, "headers") else None
+                try:
+                    wait = min(6.0, float(ra)) if ra else 3.0
+                except (TypeError, ValueError):
+                    wait = 3.0
+                if i < attempts - 1:
+                    time.sleep(wait)
+                    last_exc = exc
+                    continue
+                raise RuntimeError(
+                    "Groq rate limit hit (HTTP 429). The free-tier LLM has a per-minute "
+                    "token/request cap — wait ~60 s and try again, or shorten the time window."
+                ) from exc
+            if exc.code in _RETRY_STATUS and i < attempts - 1:
+                time.sleep(2.0)
+                last_exc = exc
+                continue
+            raise
+        except Exception as exc:  # noqa: BLE001
+            if i < attempts - 1:
+                time.sleep(1.5)
+                last_exc = exc
+                continue
+            raise
+    if last_exc:
+        raise last_exc
+    raise RuntimeError("LLM call failed for unknown reason")
+
+
 # Titles and descriptions the model sometimes fabricates when told to "hit a target".
 # Anything matching these is treated as a hallucinated filler row and dropped.
 _FILLER_TITLE_RE = re.compile(
@@ -479,13 +524,16 @@ def _is_filler(title: str, description: str) -> bool:
 
 
 def analyse_country(headlines, country_name, hours, max_keep=10):
-    # Cap the pool sent to the LLM so we don't blow the context window on
-    # a 30-day report. sample_for_llm round-robins across sources so every
-    # outlet stays represented rather than one loud feed dominating.
-    llm_cap = int(os.environ.get("COUNTRY_REPORT_LLM_HEADLINES", "180"))
+    # Cap the pool sent to the LLM so we stay inside Groq's free-tier
+    # tokens-per-minute limit (roughly 6-12k TPM for llama-3.3-70b).
+    # sample_for_llm round-robins across sources so every outlet stays
+    # represented rather than one loud feed dominating.
+    llm_cap = int(os.environ.get("COUNTRY_REPORT_LLM_HEADLINES", "60"))
     pool = sample_for_llm(headlines, llm_cap) if len(headlines) > llm_cap else headlines
+    # Trim descriptions HARD before sending — the LLM only needs enough context
+    # to disambiguate the story, and every character costs tokens.
     numbered = "\n".join(
-        f"[{i}] ({h['source']}) {h['title']} - {h['description'][:200]}"
+        f"[{i}] ({h['source']}) {h['title']} - {h['description'][:120]}"
         for i, h in enumerate(pool)
     )
     prompt = USER_TEMPLATE_COUNTRY.format(
@@ -493,7 +541,7 @@ def analyse_country(headlines, country_name, hours, max_keep=10):
         n_headlines=len(pool), headlines=numbered
     )
     headlines = pool  # downstream source_idx resolution must use the same list
-    raw = call_llm(prompt, SYSTEM_PROMPT_COUNTRY)
+    raw = _call_llm_with_backoff(prompt, SYSTEM_PROMPT_COUNTRY)
     try:
         parsed = json.loads(raw)
     except json.JSONDecodeError:
