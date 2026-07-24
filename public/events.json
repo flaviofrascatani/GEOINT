@@ -1,7 +1,276 @@
 {
   "schema": 1,
-  "updated": "2026-07-16T13:03:49.993448+00:00",
+  "updated": "2026-07-24T12:54:48.110624+00:00",
   "events": [
+    {
+      "id": "20dd5a9201ba",
+      "title": "US hits dozens of countries with new wave of tariffs",
+      "description": "The Trump administration has imposed new tariffs of as much as 12.5% on 60 trading partners, preventing a lapse in import taxes as a temporary tariff program nears expiration.",
+      "lat": 38.9,
+      "lng": -77.02,
+      "severity": 2,
+      "location": "Washington D.C., USA",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78a1/live/d9a08500-875d-11f1-b2ab-0dd01740f9f6.jpg",
+      "ts": 1784896844000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/07/23/trump-tariffs-trade-labor"
+          }
+        ]
+      }
+    },
+    {
+      "id": "911b8ff948c6",
+      "title": "Spain declares national emergency over wildfires",
+      "description": "Spain has declared a national emergency over wildfires that have forced tens of thousands to evacuate a vacation hotspot.",
+      "lat": 40.41,
+      "lng": -3.7,
+      "severity": 3,
+      "location": "Madrid, Spain",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/24/spain-declares-national-emergency-over-wildfires?traffic_source=rss",
+      "image": null,
+      "ts": 1784895334000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/7/24/spain-declares-national-emergency-over-wildfires?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a15c7ed2f9d7",
+      "title": "Iran launches more strikes against neighbors",
+      "description": "Iran claimed responsibility for new attacks in the Middle East on Friday, after denying reports that a new peace deal from the United States was delivered to, and rejected by, it.",
+      "lat": 35.69,
+      "lng": 51.39,
+      "severity": 4,
+      "location": "Tehran, Iran",
+      "source": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/world/4661976/iran-strikes-middle-east-neighbors-rejecting-reports-new-us-peace-deal/",
+      "image": null,
+      "ts": 1784894687000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4661976/iran-strikes-middle-east-neighbors-rejecting-reports-new-us-peace-deal/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7d209b786797",
+      "title": "Wildfires in France force thousands to flee",
+      "description": "Wildfires in France have forced thousands to flee amid an ongoing European heatwave, as scientists warn that climate change is worsening the continent's water shortages.",
+      "lat": 44.84,
+      "lng": -1.15,
+      "severity": 3,
+      "location": "Cap Ferret, France",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/video/wildfires-in-france-force-more-than-10-000-people-to-flee-267214405522",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/mpx/2704722219/2026_07/wildfires-sjcsam.jpg",
+      "ts": 1784890783000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/video/wildfires-in-france-force-more-than-10-000-people-to-flee-267214405522"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5bc28653fe2e",
+      "title": "China slaps export controls on 14 EU entities",
+      "description": "China has slapped export controls on 14 EU entities in retaliation for Russia-related sanctions.",
+      "lat": 39.91,
+      "lng": 116.39,
+      "severity": 2,
+      "location": "Beijing, China",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNV2lLZG9JbFgxUFhZUFVLMkh3MEtMQlJaeW9WYlI4QWI4TmJtdHVXY2FxOENmSnhOTU5jMnBIUVZZNXh6ZEcyckN6bG5BdUpMY1lGM01PVHNIb1paRUZ5aDRlODBPV1VBQlhaNk5DWU10Wnp3N1dkd0xnaEU4MV9uQ0daclZudTdKNGZGa2tocXhNTzBvMHQxajdEUUV0VlR4ZnlBMVRjUQ?oc=5",
+      "image": null,
+      "ts": 1784888820000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/china-slaps-export-controls-14-eu-entities-retaliation-135045129"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUlVQVGZKNU9qbFNNcHFBcy0tMVdwZ2RCS1Z0SC1oZDVBeUZrX2xSZlpvTklTMTBteUNmME55OVhVWWx5RlhINnRhOG9TS0dKSlNxN3hmWHExbXgtV0NIY3NmMVpaaERiaW1kUDFUVjlteWZQaHhOMUxqMWU5UWF6RW1hX1pCY1JWUEdJeWxrVW5ZZi02QXBVV3VHVGxLb05uaEtTYkl1WFJ1dUdpRFhxSVd0RnhpSmdONWtLQU1hek5VWjVwQ1Z1VWJSdG9mWGFPMFc4Sg?oc=5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c2f1129b6e29",
+      "title": "US carries out more Iran strikes",
+      "description": "The U.S. has carried out more strikes against Iran as the war between the two countries spreads to another key waterway.",
+      "lat": 36.79,
+      "lng": 51.389999999999986,
+      "severity": 4,
+      "location": "Tehran, Iran",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-oil-prices-red-sea-houthis/",
+      "image": null,
+      "ts": 1784887920000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-oil-prices-red-sea-houthis/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8c03128905d6",
+      "title": "Trump threatens to seize Iranian assets",
+      "description": "US President Donald Trump has threatened to seize frozen Iranian assets for ship damage during the Middle East conflict.",
+      "lat": 36.79,
+      "lng": 53.295199999999994,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "RT News",
+      "url": "https://www.rt.com/news/643410-trump-threatens-seize-iranian-assets/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.07/thumbnail/6a631ca185f540400650a634.jpg",
+      "ts": 1784883238000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/643410-trump-threatens-seize-iranian-assets/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2722d890fadb",
+      "title": "EU imposes sanctions on Russia",
+      "description": "The European Union has imposed more sanctions on Russia in a compromise deal, looking to keep up pressure on Russia as Ukraine's outlook improves.",
+      "lat": 55.75,
+      "lng": 37.62,
+      "severity": 3,
+      "location": "Moscow, Russia",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/07/23/eu-imposes-more-sanctions-russia-compromise-deal/",
+      "image": null,
+      "ts": 1784810595000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/07/23/eu-imposes-more-sanctions-russia-compromise-deal/"
+          }
+        ]
+      }
+    },
     {
       "id": "18bd9ee86911",
       "title": "Uganda discharges last Ebola patient",
@@ -2497,110 +2766,6 @@
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcm93LXNaVy1lZnJueGt3bDlFOXg1U0xQUllHcUpYbHdsMkJSWXMyZU5vWUszc3VhOVVubkhaTWFEODdPYU9GTTNSc2E2c3RCeTR4QlloNm1aU1ZlNUc0TEZyUEJ2bVpHS3RKWXRMMXI2S0dxcGVFOVUtV2JkUHVIa0Vhc0lfQdIBiwFBVV95cUxPQ2tFamZLdFhSQWgtMVM4aC1LRGJmdWhTR29hSE1wWDd2aG5ianFvb1NDZkk5T1JxWEhyRzExUU40aExtTngtVy1DUVBwazZpdi1VTmlQcUJJZUloY29NUXlLTk5jbDVncVFBQ0NCU0FTeEdRM29OeGtLUmZWUjYtSjdDNDNIa3VUTjF3?oc=5",
       "image": null,
       "ts": 1783730875000
-    },
-    {
-      "id": "98d339dbe973",
-      "title": "Iran war: Trump threatens to ‘decimate’ Iran if it tries to kill him",
-      "description": "US President Donald Trump has threatened to decimate Iran if it tries to kill him, amid rising tensions between the two countries.",
-      "lat": 36.79,
-      "lng": 51.420000000000016,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/7/11/iran-war-live-us-demands-iran-publicly-state-strait-of-hormuz-open-for-all?traffic_source=rss",
-      "image": null,
-      "ts": 1783728000000
-    },
-    {
-      "id": "515dfbb66702",
-      "title": "Venezuela, la Procura ispeziona il cimitero dove sono sepolte vittime non identificate",
-      "description": "The prosecutor's office in Venezuela is inspecting a cemetery where unidentified victims are buried, following a recent earthquake.",
-      "lat": 10.57,
-      "lng": -65.0248,
-      "severity": 1,
-      "location": "La Guaira, Venezuela",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/07/11/venezuela-la-procura-ispeziona-il-cimitero-dove-sono-sepolte-vittime-non-identificate_5f9ea516-253f-4ad0-94b0-3d9a3d765ef2.html",
-      "image": null,
-      "ts": 1783726550000
-    },
-    {
-      "id": "85c906d58549",
-      "title": "Cuba Suffers Second Island-Wide Blackout in a Week Amid Trump Fuel Blockade",
-      "description": "Cuba has suffered its second island-wide blackout in a week, amid a fuel blockade imposed by the Trump administration.",
-      "lat": 23.13,
-      "lng": -80.4748,
-      "severity": 4,
-      "location": "Havana, Cuba",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/10/cuba-suffers-second-island-wide-blackout-in-a-week-amid-trump-fuel-blockade?traffic_source=rss",
-      "image": null,
-      "ts": 1783725488000
-    },
-    {
-      "id": "0c232ab4479a",
-      "title": "Venezuela suffers second island-wide blackout in a week",
-      "description": "Venezuela has suffered its second island-wide blackout in a week.",
-      "lat": 9.5274,
-      "lng": -65.25,
-      "severity": 4,
-      "location": "Caracas, Venezuela",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/10/cuba-suffers-second-island-wide-blackout-in-a-week-amid-trump-fuel-blockade?traffic_source=rss",
-      "image": null,
-      "ts": 1783725488000
-    },
-    {
-      "id": "6ff6bdbe4bb9",
-      "title": "Apple files lawsuit accusing ChatGPT maker OpenAI of stealing trade secrets",
-      "description": "Apple has filed a lawsuit against OpenAI, the maker of ChatGPT, accusing the company of stealing trade secrets and engaging in a coordinated effort to poach its employees.",
-      "lat": 38.43,
-      "lng": -120.1248,
-      "severity": 3,
-      "location": "Cupertino, USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/7/10/apple-files-lawsuit-accusing-chatgpt-maker-openai-of-stealing-trade-secrets?traffic_source=rss",
-      "image": null,
-      "ts": 1783724411000
-    },
-    {
-      "id": "1adf2a2225f2",
-      "title": "Apple sues OpenAI, its employees claiming theft of trade secrets",
-      "description": "Apple has sued OpenAI, alleging that the company's employees stole trade secrets from Apple.",
-      "lat": 37.33,
-      "lng": -120.1348,
-      "severity": 2,
-      "location": "Cupertino, USA",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cy8w379e091o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c345/live/988f5600-7ca3-11f1-bc75-67a16fbc54d2.jpg",
-      "ts": 1783724056000
-    },
-    {
-      "id": "bea843f6f4d7",
-      "title": "Venezuela Earthquakes: Death Toll Rises to Over 4,000",
-      "description": "The death toll from the recent earthquakes in Venezuela has risen to over 4,000, with many more injured and displaced.",
-      "lat": 11.58,
-      "lng": -64.9948,
-      "severity": 5,
-      "location": "Caracas, Venezuela",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/07/11/sale-a-oltre-quattromila-morti-il-bilancio-dei-terremoti-in-venezuela_b08ce126-a4f2-43f4-9027-16df17cd9171.html",
-      "image": null,
-      "ts": 1783723927000
-    },
-    {
-      "id": "a280bbd0deaa",
-      "title": "Venezuela suffers earthquake aftermath",
-      "description": "Venezuela is struggling to cope with the aftermath of a devastating earthquake, with thousands of people affected and a significant number of deaths reported.",
-      "lat": 10.48,
-      "lng": -66.9,
-      "severity": 4,
-      "location": "Caracas, Venezuela",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/07/11/sale-a-oltre-quattromila-morti-il-bilancio-dei-terremoti-in-venezuela_b08ce126-a4f2-43f4-9027-16df17cd9171.html",
-      "image": null,
-      "ts": 1783723927000
     }
   ]
 }
