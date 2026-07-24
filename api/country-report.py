@@ -355,8 +355,8 @@ def _country_patterns(name, code):
 SYSTEM_PROMPT_COUNTRY = (
     "You are a geopolitical and economic intelligence analyst producing an "
     "on-demand country brief. You receive a batch of headlines that are "
-    "already scoped to ONE country. From this batch, select AS MANY meaningful "
-    "items as the batch contains, up to the requested limit. Cover the FULL "
+    "already scoped to ONE country. From this batch, select every meaningful "
+    "item up to the requested limit. Cover the FULL "
     "spectrum: politics, government decisions, elections, security incidents, "
     "military operations, terror attacks, diplomacy, trade, sanctions, "
     "economy, energy, finance, technology deals, court rulings, corruption, "
@@ -364,15 +364,22 @@ SYSTEM_PROMPT_COUNTRY = (
     "with policy implications, notable cultural/scientific milestones with a "
     "public-affairs angle. IGNORE only pure sports, celebrity gossip, "
     "weather forecasts, ordinary domestic crime, lifestyle features.\n\n"
+    "CRITICAL - NEVER FABRICATE OR PAD:\n"
+    "  - Every returned item must correspond to a real, distinct headline present in the input.\n"
+    "  - If the batch only supports 3 real events, return 3. If it supports 15, return 15.\n"
+    "  - Never generate placeholder titles like 'No Additional Information Available',\n"
+    "    'Update on Situation', 'Recent Developments', or generic filler.\n"
+    "  - Never generate descriptions that describe the absence of information (e.g.\n"
+    "    'no additional headlines available', 'no further details').\n"
+    "  - Never duplicate the same story with different phrasing to reach a target count.\n"
+    "  - Return an empty events array if truly nothing qualifies.\n\n"
     "PACKING GUIDANCE:\n"
-    "  - Do NOT be conservative. If the batch gives you 10-15 valid stories, "
-    "return 10-15. Only return fewer if the batch genuinely lacks them.\n"
     "  - Group multi-source coverage of the same story into a single item — "
-    "but count that as ONE, and still fill the rest of the slots.\n"
-    "  - A local outlet's front-page story is almost always worth including "
-    "if it fits any category above.\n"
+    "  keep the most complete version and drop the rest.\n"
+    "  - A local outlet's front-page story is usually worth including "
+    "  if it fits any category above.\n"
     "  - Prefer diverse topics: a good brief mixes political, security, "
-    "economic and social items rather than being all one kind.\n\n"
+    "  economic and social items rather than being all one kind.\n\n"
     "EDITORIAL DISCIPLINE - reject the following outright:\n"
     "  - Speculative/hypothetical stories ('may', 'might', 'could', 'would', "
     "'possibly', 'expected to', 'likely to', 'planning to', 'considering', "
@@ -403,14 +410,22 @@ Return a JSON object with a single top-level array called `events`, where each e
   title, description (1-2 sentences), lat, lng, severity (1-5), location (City, Country), source_idx.
 
 Rules:
-- TARGET SIZE: return {max_keep} items when the batch supports it. This is a HARD TARGET, not a soft cap.
-  A 30-day brief on a major country should ALWAYS reach {max_keep} — pick a mix of politics, security,
-  economy, diplomacy, court cases, protests, elections, tech/energy deals, corruption, natural disasters
-  with policy angle. Only return fewer if the batch genuinely lacks that many qualifying stories.
-- Do NOT return just 1-3 items on a large, well-covered country over a multi-day window — that means
-  you are being over-conservative. Re-read the batch and pull more.
-- Group duplicate coverage of the same story into ONE item, but keep filling slots with other stories.
-- Aim for a MIX of severities across the brief — do not return all severity 4/5.
+- TARGET SIZE: up to {max_keep} distinct real events. Return FEWER if the batch does not contain that many —
+  QUALITY MATTERS FAR MORE THAN QUANTITY.
+- ABSOLUTELY FORBIDDEN — do NOT invent, pad, or duplicate to reach the target:
+  • Never emit placeholder titles like "No Additional Information Available", "No Further Details",
+    "Update on Situation", "Recent Developments", "Ongoing Events", "Miscellaneous News", or any
+    generic filler.
+  • Never emit descriptions that say things like "no additional headlines available", "no further
+    details", "no more information", "unable to provide additional context", or that describe the
+    ABSENCE of information rather than a real event.
+  • Never repeat the same story with different phrasing to fill slots.
+  • If only 2 real events exist in the batch, RETURN 2. If only 1, return 1. Empty array is acceptable
+    if truly nothing qualifies.
+- Every entry MUST correspond to a real headline in the numbered list below and MUST cite it via source_idx.
+- Group duplicate coverage of the same event into ONE item and keep only the most complete version.
+- Aim for a MIX of severities and topics when the batch supports it — politics, security, economy,
+  diplomacy, court cases, protests, tech/energy, corruption.
 - `source_idx` is the 0-based index of the picked headline in the numbered list below.
 - Description in the same language as the source headline.
 
@@ -419,6 +434,48 @@ There are {n_headlines} headlines about {country} in the last {hours} hours. Ski
 Headlines:
 {headlines}
 """
+
+
+# Titles and descriptions the model sometimes fabricates when told to "hit a target".
+# Anything matching these is treated as a hallucinated filler row and dropped.
+_FILLER_TITLE_RE = re.compile(
+    r"^(?:\s*)("
+    r"no\s+additional\s+information|"
+    r"no\s+further\s+(?:information|details|updates?)|"
+    r"no\s+(?:more|new|other)\s+(?:information|details|news|updates?)|"
+    r"additional\s+information\s+unavailable|"
+    r"information\s+unavailable|"
+    r"details?\s+unavailable|"
+    r"placeholder|"
+    r"update\s+on\s+(?:the\s+)?situation|"
+    r"recent\s+developments?|"
+    r"ongoing\s+events?|"
+    r"miscellaneous\s+news|"
+    r"unspecified|"
+    r"n\s*/\s*a|"
+    r"none"
+    r")\b",
+    re.IGNORECASE,
+)
+_FILLER_DESC_RE = re.compile(
+    r"(?:no\s+(?:additional|further|more|other)\s+(?:headlines?|information|details?|news|updates?)\s+"
+    r"(?:are\s+|were\s+)?available|"
+    r"unable\s+to\s+provide\s+(?:additional|further|more)|"
+    r"no\s+(?:further|additional|more)\s+context|"
+    r"the\s+batch\s+does\s+not\s+contain|"
+    r"there\s+(?:is|are)\s+no\s+additional)",
+    re.IGNORECASE,
+)
+
+
+def _is_filler(title: str, description: str) -> bool:
+    if not title:
+        return True
+    if _FILLER_TITLE_RE.search(title):
+        return True
+    if description and _FILLER_DESC_RE.search(description):
+        return True
+    return False
 
 
 def analyse_country(headlines, country_name, hours, max_keep=10):
@@ -446,17 +503,35 @@ def analyse_country(headlines, country_name, hours, max_keep=10):
         parsed = json.loads(m.group(0))
     events = parsed.get("events", [])
     enriched = []
+    seen_idx = set()
+    seen_titles = set()
     for ev in events:
         try:
             idx = int(ev.get("source_idx", -1))
         except (ValueError, TypeError):
             idx = -1
-        src_url = headlines[idx]["url"] if 0 <= idx < len(headlines) else None
-        src_name = headlines[idx]["source"] if 0 <= idx < len(headlines) else None
+        # Reject any entry that doesn't map to a real headline in the batch —
+        # if there's no valid source_idx it's almost certainly fabricated.
+        if not (0 <= idx < len(headlines)):
+            continue
+        # Reject duplicate picks of the same source headline
+        if idx in seen_idx:
+            continue
+        src_url = headlines[idx]["url"]
+        src_name = headlines[idx]["source"]
         title = str(ev.get("title", "")).strip()
         desc = str(ev.get("description", "")).strip()
         if not title:
             continue
+        # Drop fabricated / filler entries
+        if _is_filler(title, desc):
+            continue
+        # Drop duplicate titles (LLM re-phrasing to hit target count)
+        tkey = re.sub(r"\W+", " ", title.lower()).strip()[:100]
+        if tkey in seen_titles:
+            continue
+        seen_titles.add(tkey)
+        seen_idx.add(idx)
         if _is_hypothetical(title) or _is_hypothetical(desc):
             continue
         try:
