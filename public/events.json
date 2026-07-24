@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-07-24T07:11:24.534599+00:00",
+  "updated": "2026-07-24T09:58:38.186194+00:00",
   "events": [
+    {
+      "id": "eb33e610b9a2",
+      "title": "Romania Shoots Down Drone Breaching Its Airspace",
+      "description": "Romania shot down a drone in its airspace, its president said - a first since the start of Russia's full-scale invasion of Ukraine.",
+      "lat": 44.44,
+      "lng": 26.1,
+      "severity": 3,
+      "location": "Bucharest, Romania",
+      "source": "RTE News",
+      "url": "https://www.rte.ie/news/europe/2026/0724/1584914-romania-drone-breach/",
+      "image": "https://www.rte.ie/images/0024bffa-800.jpg",
+      "ts": 1784885168000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/europe/2026/0724/1584914-romania-drone-breach/"
+          }
+        ]
+      }
+    },
     {
       "id": "c81fd558c30a",
       "title": "US launches new strikes on Iran",
@@ -1060,6 +1093,49 @@
             "n": "CBS News World",
             "b": "lean_left",
             "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-oil-prices-red-sea-houthis/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9011028e104c",
+      "title": "Jurgen Klopp Named New Germany Head Coach",
+      "description": "Former Liverpool manager Jurgen Klopp has been confirmed as the new head coach for the German men's football team.",
+      "lat": 53.62,
+      "lng": 13.409999999999997,
+      "severity": 2,
+      "location": "Berlin, Germany",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/former-liverpool-manager-jurgen-klopp-confirmed-as-new-germany-head-coach-13565913",
+      "image": "https://e3.365dm.com/24/01/1920x1080/skynews-liverpool-jurgen-klopp_6427151.jpg?20260724103641",
+      "ts": 1784783460000,
+      "coverage": {
+        "left": 0,
+        "center": 3,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/sport/soccer/2026/0724/1584918-ex-liverpool-manager-klopp-handed-germany-reins/"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/former-liverpool-manager-jurgen-klopp-confirmed-as-new-germany-head-coach-13565913"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/jürgen-klopp-and-germany-a-partnership-long-in-the-making/a-77805100?maca=en-rss-en-all-1573-rdf"
           }
         ]
       }
@@ -5545,32 +5621,6 @@
       "url": "https://www.bbc.co.uk/news/articles/ce3e3nqwr5do?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e6a5/live/d6cd2350-7f52-11f1-a97a-9b1029617ccb.jpg",
       "ts": 1784017969000
-    },
-    {
-      "id": "de82dd183927",
-      "title": "EU opens new cluster in negotiations with Ukraine",
-      "description": "The EU opens a new cluster in negotiations with Ukraine, a significant step towards Ukraine's accession to the EU",
-      "lat": 50.8503,
-      "lng": 4.351699999999994,
-      "severity": 2,
-      "location": "Brussels, Belgium",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/07/14/lue-apre-nuovo-cluster-nei-negoziati-di-adesione-con-lucraina_851e3f18-69c2-4624-9111-06f5fd3e61eb.html",
-      "image": null,
-      "ts": 1784016325000
-    },
-    {
-      "id": "0400e0f7a65f",
-      "title": "UAE condemns Iran's 'brazen' attack on tankers",
-      "description": "The UAE has condemned Iran's attack on tankers, calling it a 'brazen' attack.",
-      "lat": 24.48,
-      "lng": 56.275199999999984,
-      "severity": 3,
-      "location": "Abu Dhabi, UAE",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0962/live/b6b2aac0-7f36-11f1-b9f9-7523a937b0a2.jpg",
-      "ts": 1784004648000
     }
   ]
 }
