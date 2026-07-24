@@ -1,7 +1,126 @@
 {
   "schema": 1,
-  "updated": "2026-07-24T21:40:37.824932+00:00",
+  "updated": "2026-07-24T23:10:25.229922+00:00",
   "events": [
+    {
+      "id": "bd94e0fcd3a6",
+      "title": "Ukrainian forces attack DPR, leaving one dead and four injured",
+      "description": "Ukrainian forces have attacked the Donetsk People's Republic (DPR) 10 times over the past day, resulting in one death and four injuries",
+      "lat": 48.0,
+      "lng": 37.0,
+      "severity": 3,
+      "location": "Donetsk, Ukraine",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2165089",
+      "image": null,
+      "ts": 1784933057000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2165089"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c3ad673efb89",
+      "title": "Brazil and Peru sign memorandum to protect Indigenous territories",
+      "description": "Brazil's Ministry of Indigenous Peoples signed a memorandum with Peru's Ministry of Culture to protect Indigenous territories along their border",
+      "lat": -10.0,
+      "lng": -55.0,
+      "severity": 1,
+      "location": "Brasília, Brazil",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/brazils-government-working-peru-protect-border-indigenous-lands-135068710",
+      "image": "https://s.abcnews.com/images/International/wirestory_942da004b37fa36291cce157b00a51be_4x3_384.jpg",
+      "ts": 1784931053000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/brazils-government-working-peru-protect-border-indigenous-lands-135068710"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1ec9a0438e79",
+      "title": "Saudi Arabia strikes Houthi-rebel-controlled Hodeidah province in Yemen",
+      "description": "Saudi Arabia launched strikes on Yemen's Red Sea governorate of Hodeidah, targeting Houthi-rebel-controlled areas",
+      "lat": 15.0,
+      "lng": 42.0,
+      "severity": 3,
+      "location": "Hodeidah, Yemen",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/saudi-strikes-houthi-rebel-controlled-hodeidah-province-in-yemen-11818885#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-01/cqsefuk4_yemen_625x300_03_January_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1784930033000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 1,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/saudi-strikes-houthi-rebel-controlled-hodeidah-province-in-yemen-11818885#publisher=newsstand"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/7/24/saudis-strike-yemens-houthi-held-hodeida-rebel-media?traffic_source=rss"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-903581"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/middle-east/article/3361814/saudi-strikes-houthi-sites-yemen-conflict-flares?utm_source=rss_feed"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2165075"
+          }
+        ]
+      }
+    },
     {
       "id": "5356f9026351",
       "title": "Iran War Live Updates: Trump Meets With Cabinet Over Whether to Intensify Iran Strikes",
@@ -120,11 +239,11 @@
     },
     {
       "id": "fb9198eb493d",
-      "title": "Wildfires force over 200K people in southern France, central Spain to flee homes",
-      "description": "Wildfires force over 200,000 people in southern France and central Spain to flee homes, officials say",
+      "title": "Wildfires force over 200K people to flee homes in southern France and central Spain",
+      "description": "Wildfires have forced over 200,000 people in southern France and central Spain to flee their homes, with officials struggling to contain the blazes",
       "lat": 43.29,
       "lng": 1.44,
-      "severity": 4,
+      "severity": 3,
       "location": "Southern France",
       "source": "ABC News International",
       "url": "https://abcnews.com/International/wireStory/wildfires-force-200000-people-southern-france-central-spain-135065368",
@@ -157,6 +276,72 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/643445-spain-france-fires-videos/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3885c335e21d",
+      "title": "Turkey does not meet requirements to receive F-35 jets",
+      "description": "The US State Department has stated that Turkey does not meet the legal requirements to receive F-35 jets",
+      "lat": 39.93,
+      "lng": 32.86,
+      "severity": 2,
+      "location": "Ankara, Turkey",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/article-903578",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_3712,w_5568/706988",
+      "ts": 1784927890000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-903578"
+          }
+        ]
+      }
+    },
+    {
+      "id": "33c1c4f28840",
+      "title": "Iran and US engage in talks amidst escalating tensions",
+      "description": "The US and Iran are in talks to negotiate an end to their conflict, with President Trump stating that Tehran is not yet ready for a deal",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/07/trump-says-us-and-iran-are-talking-tehran-not-yet-ready-deal",
+      "image": null,
+      "ts": 1784926006000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/07/trump-says-us-and-iran-are-talking-tehran-not-yet-ready-deal"
           }
         ]
       }
@@ -3291,71 +3476,6 @@
       "url": "https://www.aljazeera.com/news/2026/7/11/syrians-optimistic-but-cautious-as-sanctions-removal-revives-economic-hopes?traffic_source=rss",
       "image": null,
       "ts": 1783785265000
-    },
-    {
-      "id": "7d9b1005c263",
-      "title": "Syria sanctions removal",
-      "description": "Syrians optimistic but cautious as sanctions removal revives economic hopes",
-      "lat": 33.52,
-      "lng": 36.28999999999999,
-      "severity": 1,
-      "location": "Damascus, Syria",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/syrians-optimistic-but-cautious-as-sanctions-removal-revives-economic-hopes?traffic_source=rss",
-      "image": null,
-      "ts": 1783785265000
-    },
-    {
-      "id": "3aefd9e87a39",
-      "title": "Algeria and Mali restore diplomatic ties",
-      "description": "Algeria and Mali have restored diplomatic ties following a year-long rift, with both countries reinstating ambassadors and reopening airspace closed to each other since April 2025.",
-      "lat": 16.29,
-      "lng": -0.03,
-      "severity": 1,
-      "location": "Bamako, Mali",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/algeria-and-mali-restore-diplomatic-ties-following-yearlong-rift?traffic_source=rss",
-      "image": null,
-      "ts": 1783783772000
-    },
-    {
-      "id": "34afbc6f9d02",
-      "title": "Algeria-Mali Diplomatic Ties",
-      "description": "Algeria and Mali restore diplomatic ties following yearlong rift",
-      "lat": 17.39,
-      "lng": 0.030000000000001137,
-      "severity": 2,
-      "location": "Bamako, Mali",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/algeria-and-mali-restore-diplomatic-ties-following-yearlong-rift?traffic_source=rss",
-      "image": null,
-      "ts": 1783783772000
-    },
-    {
-      "id": "4777b9863c42",
-      "title": "Nigerian army operation frees kidnapped children and teachers",
-      "description": "More than 40 kidnapped children and teachers have been freed after a Nigerian army operation.",
-      "lat": 10.18,
-      "lng": 8.919999999999987,
-      "severity": 2,
-      "location": "Abuja, Nigeria",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cly9lnjlp1eo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c94a/live/062ee420-7d2e-11f1-9bb6-f90d2cb001e2.jpg",
-      "ts": 1783779574000
-    },
-    {
-      "id": "e7bce69dc200",
-      "title": "US-Iran tensions ease as Iran pledges to stop shooting at ships",
-      "description": "Iran has told US officials an attack on ships crossing the Strait of Hormuz was 'a mistake'.",
-      "lat": 27.67,
-      "lng": 56.25,
-      "severity": 3,
-      "location": "Strait of Hormuz, Middle East",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/crelyq79x71o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b9e/live/f34fa810-7cfd-11f1-926f-c90d1bcfbc84.jpg",
-      "ts": 1783778887000
     }
   ]
 }
