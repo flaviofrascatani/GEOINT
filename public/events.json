@@ -1,7 +1,131 @@
 {
   "schema": 1,
-  "updated": "2026-07-24T00:58:53.722027+00:00",
+  "updated": "2026-07-24T04:21:45.135716+00:00",
   "events": [
+    {
+      "id": "c81fd558c30a",
+      "title": "US launches new strikes on Iran",
+      "description": "The US has carried out fresh strikes against Iran, marking the 13th night of active combat in the region.",
+      "lat": 33.52,
+      "lng": 53.06,
+      "severity": 4,
+      "location": "Ahvaz, Iran",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/us-launches-new-strikes-on-iran-over-shipping-routes-threat/live-78093040?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1784866904997,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/us-launches-new-strikes-on-iran-over-shipping-routes-threat/live-78093040?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7b18a2545ee2",
+      "title": "US imposes tariffs on dozens of trade partners",
+      "description": "The US has imposed new tariffs on 60 trading partners over claims they failed to properly stop forced labor.",
+      "lat": 38.9,
+      "lng": -77.02,
+      "severity": 3,
+      "location": "Washington, D.C., USA",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/02b7/live/fa2c0bc0-86b1-11f1-bb58-d3ffca85db6d.jpg",
+      "ts": 1784859000000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/us-imposes-new-tariffs-on-dozens-of-trade-partners-over-forced-labour-imports-13566498"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c6c6740bcdb7",
+      "title": "US-Saudi nuke deal depends on recognizing Israel",
+      "description": "The US has said that a civilian nuclear cooperation agreement with Saudi Arabia depends on the kingdom recognizing Israel.",
+      "lat": 38.9,
+      "lng": -77.02,
+      "severity": 2,
+      "location": "Washington D.C., USA",
+      "source": "RT News",
+      "url": "https://www.rt.com/news/643396-us-saudi-nuke-deal-israel/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": null,
+      "ts": 1784856252000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 1,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/politics/2026/07/23/trump-adds-condition-nuclear-deal-with-saudi-arabia-throwing-pact-into-doubt/"
+          },
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/middle-east/trump-saudi-arabia-normalize-israel-ties-nuclear-deal-rcna588859"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/07/23/url-slug-trump-saudi-nuclear-deal-enrichment-israel"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/us-signs-nuclear-deal-with-saudi-arabia-13565968"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/643396-us-saudi-nuke-deal-israel/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
     {
       "id": "fad9ac9d9ca0",
       "title": "Iran Rejects US Cease-Fire Offer",
@@ -69,6 +193,39 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/indian-activist-sonam-wangchuk-ends-hunger-strike/a-78076216?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "03413244938f",
+      "title": "US and EU impose tariffs on each other",
+      "description": "The US and EU have imposed tariffs on each other's goods, with the US targeting EU products over forced labor concerns.",
+      "lat": 50.85,
+      "lng": 4.349999999999994,
+      "severity": 3,
+      "location": "Brussels, Belgium",
+      "source": "ANSA Economia",
+      "url": "https://www.ansa.it/sito/notizie/economia/2026/07/23/trump-impone-nuovi-dazi-tra-il-10-e-125-per-cento-a-oltre-60-paesi_229e1d2c-a000-4cac-8f2a-55f859455ae8.html",
+      "image": null,
+      "ts": 1784844385000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ANSA Economia",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/economia/2026/07/23/trump-impone-nuovi-dazi-tra-il-10-e-125-per-cento-a-oltre-60-paesi_229e1d2c-a000-4cac-8f2a-55f859455ae8.html"
           }
         ]
       }
@@ -239,59 +396,6 @@
             "n": "The Hill",
             "b": "center",
             "u": "https://thehill.com/policy/defense/5986786-navy-stops-releasing-sailor-history-press/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c6c6740bcdb7",
-      "title": "Saudi Nuclear Deal in Doubt",
-      "description": "The US-Saudi nuclear deal is in doubt after President Trump announced that the deal is dependent on Saudi Arabia recognizing Israel.",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 4,
-      "location": "Washington D.C., USA",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/politics/2026/07/23/trump-adds-condition-nuclear-deal-with-saudi-arabia-throwing-pact-into-doubt/",
-      "image": null,
-      "ts": 1784833440000,
-      "coverage": {
-        "left": 5,
-        "center": 0,
-        "right": 0,
-        "total": 5,
-        "buckets": {
-          "left": 1,
-          "lean_left": 4,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/trump-saudi-nuclear-approve-report_n_6a603728e4b0fb869f7d208d"
-          },
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/07/23/world/middleeast/saudi-arabia-nuclear.html"
-          },
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/politics/2026/07/23/trump-adds-condition-nuclear-deal-with-saudi-arabia-throwing-pact-into-doubt/"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/7/23/us-saudi-nuclear-deal-hinges-on-normalisation-with-israel?traffic_source=rss"
-          },
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/07/23/us-saudi-arabia-nuclear-deal-explainer/"
           }
         ]
       }
@@ -5447,45 +5551,6 @@
       "url": "https://www.bbc.co.uk/news/articles/c0ryr89gp09o?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f9ab/live/6119a2a0-7f2a-11f1-a2d1-357b5800ed69.jpg",
       "ts": 1783996971000
-    },
-    {
-      "id": "811d2da0df25",
-      "title": "US launches fresh strikes on Iran",
-      "description": "The third consecutive night of US strikes on Iran came as Trump announced a 20% charge as part of a new blockade on the strait.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz, Middle East",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/caac/live/6d318280-7ece-11f1-a521-db2da184cdb6.jpg",
-      "ts": 1783996070000
-    },
-    {
-      "id": "3979ef05be30",
-      "title": "Trump demands payment to protect Gulf nations",
-      "description": "US President Donald Trump says the US should be paid by ‘rich’ oil-producing Gulf nations to secure the Strait of Hormuz",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/trump-demands-payment-to-protect-gulf-nations-from-iranian-attacks?traffic_source=rss",
-      "image": null,
-      "ts": 1783993068000
-    },
-    {
-      "id": "024fa327727a",
-      "title": "US and Iran conflict reignites",
-      "description": "The conflict between the US and Iran has reignited, with the US taking over the Strait of Hormuz.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYkZaamlwNS1ielVkSzd5WnNEYWdaUmhhbWd1am1ZaXkxcXFrRktlaVNJN0xMZ2RIbkk5ejh3X0VtdzJJTHdiWnJ1cmpIWnhIN0hTRVJCMm1iVmNjbUsyR19oY2xiUHljd2oycFV1akdoM2ZRRDV4UUVrMHhQQTBGb21jNmt5VkZqTVpCOFRGeUl1d2Z0b2UxTDNXNlBCM0ZqM3g4elln?oc=5",
-      "image": null,
-      "ts": 1783983349000
     }
   ]
 }
