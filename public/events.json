@@ -1,7 +1,139 @@
 {
   "schema": 1,
-  "updated": "2026-07-24T19:02:08.074899+00:00",
+  "updated": "2026-07-24T20:26:39.267618+00:00",
   "events": [
+    {
+      "id": "cb39af2df6ed",
+      "title": "Satellite lofted for first Arab country",
+      "description": "A Chinese-made communications satellite has been launched for Algeria, the first such export to an Arab country.",
+      "lat": 36.77,
+      "lng": 3.06,
+      "severity": 1,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1784924799140,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d9c24d07299e",
+      "title": "Costa Rica captures top fugitive 'Diablo,' wanted by U.S.",
+      "description": "Alejandro Arias-Monge, a top fugitive wanted by the US, has been captured by Costa Rican authorities.",
+      "lat": 9.94,
+      "lng": -84.09,
+      "severity": 3,
+      "location": "San José, Costa Rica",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/costa-rica-captures-top-fugitive-diablo-drug-trafficking/",
+      "image": null,
+      "ts": 1784923812000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/costa-rica-captures-top-fugitive-diablo-drug-trafficking/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "84c416b6ddc1",
+      "title": "Israel strikes Hamas targets in Gaza Strip",
+      "description": "The Israel Defense Forces have struck Hamas targets in the Gaza Strip.",
+      "lat": 31.51,
+      "lng": 34.46,
+      "severity": 3,
+      "location": "Gaza Strip",
+      "source": "TASS",
+      "url": "https://tass.com/world/2165055",
+      "image": null,
+      "ts": 1784923801000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2165055"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d680975837b9",
+      "title": "France and Spain evacuate 150,000 as ‘unprecedented’ wildfires spread",
+      "description": "Extreme heat and high winds fuel fast-moving blazes as authorities in both countries battle to contain them.",
+      "lat": 44.84,
+      "lng": 0.58,
+      "severity": 3,
+      "location": "Bordeaux, France",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/6e1d4a14-b7ad-4a36-86d9-3990497272a3?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1784923671000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/6e1d4a14-b7ad-4a36-86d9-3990497272a3?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
     {
       "id": "9ba68b8f3555",
       "title": "Trump threatens EU with tariff probe over Google, tech fines",
@@ -132,6 +264,39 @@
             "n": "South China Morning Post",
             "b": "center",
             "u": "https://www.scmp.com/news/world/article/3361809/international-criminal-court-members-dismiss-prosecutor-karim-khan-insiders-say?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f6d7506ecde7",
+      "title": "US hits network of Iranian financier Zanjani with more sanctions",
+      "description": "The US has imposed more sanctions on a network of Iranian financier Zanjani.",
+      "lat": 35.69,
+      "lng": 53.295199999999994,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdktDNmVIbXBUenpMSTEtWTRYS09hSlNKdmVpakhHNVQ4SFZNWnNoV19ZQTYtcUhmQXZHeVpvdE84NXVhei00YktROW1WdUllYXBWdUY4Tlp5TzhES0k4a09kRFhQZ2QxQWxIN29IcWRxZGtyT1lkdjR3ZGRTMnVDZW5VaXRRVWdwOUxCaDJqUHhEOTVzRUdWSlN6RjFHSGxWOVNpbDkyRzZHTlVkaEZ5LTZpMTBZZw?oc=5",
+      "image": null,
+      "ts": 1784914053000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdktDNmVIbXBUenpMSTEtWTRYS09hSlNKdmVpakhHNVQ4SFZNWnNoV19ZQTYtcUhmQXZHeVpvdE84NXVhei00YktROW1WdUllYXBWdUY4Tlp5TzhES0k4a09kRFhQZ2QxQWxIN29IcWRxZGtyT1lkdjR3ZGRTMnVDZW5VaXRRVWdwOUxCaDJqUHhEOTVzRUdWSlN6RjFHSGxWOVNpbDkyRzZHTlVkaEZ5LTZpMTBZZw?oc=5"
           }
         ]
       }
@@ -3001,71 +3166,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cr7xyl78vnko?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7562/live/ef363980-cfa0-11ef-b967-0b921216563e.jpg",
       "ts": 1783775512000
-    },
-    {
-      "id": "ae929f997601",
-      "title": "China prepares for Typhoon Bavi",
-      "description": "Over 900,000 people are evacuated in China as Typhoon Bavi approaches, with the city of Wenzhou close to the storm's path.",
-      "lat": 27.99,
-      "lng": 120.67,
-      "severity": 3,
-      "location": "Wenzhou, China",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/china-prepares-as-typhoon-bavi-leaves-taiwan?traffic_source=rss",
-      "image": null,
-      "ts": 1783772265000
-    },
-    {
-      "id": "73144b0e8933",
-      "title": "Typhoon Bavi approaches China, hundreds of thousands evacuated",
-      "description": "Hundreds of thousands of people have been evacuated in China as Typhoon Bavi approaches.",
-      "lat": 29.08,
-      "lng": 120.67000000000002,
-      "severity": 3,
-      "location": "Wenzhou, China",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/china-prepares-as-typhoon-bavi-leaves-taiwan?traffic_source=rss",
-      "image": null,
-      "ts": 1783772265000
-    },
-    {
-      "id": "8c1ea288c1e3",
-      "title": "Cuba and US discuss potential cooperation",
-      "description": "Cuba confirms dialogue with the US and acknowledges the role of Raúl Castro's nephew in the talks, potentially paving the way for improved relations.",
-      "lat": 23.13,
-      "lng": -82.38,
-      "severity": 1,
-      "location": "Havana, Cuba",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/07/11/cuba-conferma-il-dialogo-con-gli-usa-e-il-ruolo-del-nipote-di-raul_aa289be7-a05e-427a-9a82-ac3d9cc267ad.html",
-      "image": null,
-      "ts": 1783767276000
-    },
-    {
-      "id": "87e621e889b1",
-      "title": "Nicaragua authorizes entry of Chinese military",
-      "description": "Nicaragua allows Chinese military personnel to enter the country, marking a significant strategic advantage for China in the region.",
-      "lat": 12.12,
-      "lng": -86.25,
-      "severity": 3,
-      "location": "Managua, Nicaragua",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/07/11/il-nicaragua-autorizza-per-la-prima-volta-lingresso-di-militari-cinesi_72bf543a-db09-4ec4-8edf-028d9db4abc0.html",
-      "image": null,
-      "ts": 1783765911000
-    },
-    {
-      "id": "2256733a5ebd",
-      "title": "Venezuela earthquake toll worsened by sanctions",
-      "description": "The earthquake toll in Venezuela has been worsened by sanctions, which have limited the country's ability to respond to the disaster.",
-      "lat": 10.48,
-      "lng": -66.9,
-      "severity": 4,
-      "location": "Caracas, Venezuela",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPc2d1Z1laWkptYUFqMG1Sa1RqWXV6dVV0bHFIZnI5U20xR083VjJMQ0NkSmM4Y3VXZHBOb3otV1p3SUFjVUxRNlVLLXBoSXlvcXFRekJmTDBieEFjUXJidDJwbGcxaE9YVU1FMTVTcnl1Z1ZHYW9ER2xwbU9DTGZBTi1rVFNpajBxNHRr?oc=5",
-      "image": null,
-      "ts": 1783764180000
     }
   ]
 }
