@@ -1267,7 +1267,16 @@ async function runCountryReport(id, name){
 }
 function _crRenderPayload(p){
   if(p.error){
-    return '<div class="cr-err">'+_crEscape(p.error)+'</div>';
+    var msg=String(p.error||'');
+    // Recognise Groq's rate-limit error and show clearer guidance
+    if(/429|too many requests|rate limit/i.test(msg)){
+      return '<div class="cr-err">'+
+        '<strong>Rate limit reached.</strong><br>'+
+        'The free-tier LLM behind this report caps how many requests it will answer per minute. '+
+        'Wait about a minute and press <em>Re-run report</em> again — or pick a shorter time window (24 h / 3 d) to keep the prompt smaller.'+
+      '</div>';
+    }
+    return '<div class="cr-err">'+_crEscape(msg)+'</div>';
   }
   var events=p.events||[];
   if(!events.length){
