@@ -1,7 +1,113 @@
 {
   "schema": 1,
-  "updated": "2026-07-25T04:18:52.973008+00:00",
+  "updated": "2026-07-25T06:40:54.297411+00:00",
   "events": [
+    {
+      "id": "4affeb67822e",
+      "title": "Trump says Israeli PM Netanyahu to visit US next week",
+      "description": "US President Donald Trump announced that Israeli Prime Minister Benjamin Netanyahu will visit the US next week.",
+      "lat": 38.9,
+      "lng": -77.02,
+      "severity": 2,
+      "location": "Washington D.C., USA",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/president-donald-trump-says-israeli-pm-netanyahu-to-visit-us-next-week/article71265315.ece",
+      "image": "https://th-i.thgim.com/public/incoming/yzfcmu/article71259863.ece/alternates/LANDSCAPE_1200/2026-07-23T205955Z_1910357374_RC2WJMAQWY12_RTRMADP_3_USA-TRUMP.JPG",
+      "ts": 1784960592000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/president-donald-trump-says-israeli-pm-netanyahu-to-visit-us-next-week/article71265315.ece"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/us/2026/0725/1585035-trump-netanyahu/"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/07/trump-says-israeli-pm-netanyahu-will-visit-us-next-week"
+          },
+          {
+            "n": "Times of India World",
+            "b": "center",
+            "u": "https://timesofindia.indiatimes.com/world/middle-east/trump-confirms-netanyahus-us-visit-next-week-amid-regional-tensions/articleshow/132617908.cms"
+          }
+        ]
+      }
+    },
+    {
+      "id": "be6df97ec5ce",
+      "title": "Iran-backed Houthi rebels claim missile attack on Saudi's Jizan",
+      "description": "Houthis claim missile attack on southern Saudi city of Jizan, after vowing retaliation against the kingdom for attacks this week.",
+      "lat": 16.89,
+      "lng": 42.63,
+      "severity": 3,
+      "location": "Jizan, Saudi Arabia",
+      "source": "RTE News",
+      "url": "https://www.rte.ie/news/middle-east/2026/0725/1585036-houthis-strikes/",
+      "image": "https://www.rte.ie/images/0024be61-800.jpg",
+      "ts": 1784953015000,
+      "coverage": {
+        "left": 1,
+        "center": 5,
+        "right": 0,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 5,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-saudi-arabia-houthis-attack-gulf-states-strait-of-hormuz-live-updates-july-25-2026/article71265151.ece"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/middle-east/2026/0725/1585036-houthis-strikes/"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/iran-war-saudi-led-coalition-attacks-yemen-s-hodeida-port-city/live-78093040?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-07-25/houthi-claim-missile-strikes-on-southern-saudi-arabia"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/07/houthis-say-hit-saudi-arabia-trump-weighs-harder-iran-strikes"
+          }
+        ]
+      }
+    },
     {
       "id": "242e29c87289",
       "title": "Wildfires force evacuations in France and Spain",
@@ -47,43 +153,33 @@
     },
     {
       "id": "761b87e8de1d",
-      "title": "ICC Prosecutor Karim Khan Removed Over Sexual Misconduct Allegations",
-      "description": "ICC member states have voted to remove Chief Prosecutor Karim Khan over allegations of sexual misconduct",
+      "title": "ICC members vote to dismiss embattled prosecutor Karim Khan",
+      "description": "International Criminal Court member states voted to dismiss prosecutor Karim Khan following disputed allegations of sexual assault.",
       "lat": 52.09,
       "lng": 4.32,
-      "severity": 4,
+      "severity": 3,
       "location": "The Hague, Netherlands",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/icc-votes-to-dismiss-chief-prosecutor-karim-khan/a-78092577?maca=en-rss-en-all-1573-rdf",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/07/24/icc-members-vote-to-dismiss-embattled-prosecutor-karim-khan/",
       "image": "https://s.france24.com/media/display/589033e4-8784-11f1-a867-005056a90284/w:1024/p:16x9/AP26170439513124.jpg",
       "ts": 1784941469429,
       "coverage": {
         "left": 1,
-        "center": 7,
-        "right": 1,
-        "total": 9,
+        "center": 4,
+        "right": 0,
+        "total": 5,
         "buckets": {
           "left": 0,
           "lean_left": 1,
-          "center": 7,
+          "center": 4,
           "lean_right": 0,
-          "right": 1
+          "right": 0
         },
         "sources": [
           {
-            "n": "NDTV World",
+            "n": "ABC News International",
             "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/world-court-prosecutor-karim-khan-sacked-over-sexual-misconduct-allegations-11818801#publisher=newsstand"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cqjxddx12qqo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/b99f3302-1c83-4acb-b8e4-28a880c1339a?syn-25a6b1a6=1"
+            "u": "https://abcnews.com/International/wireStory/bruising-icc-scandal-heads-secret-vote-removing-chief-135045570"
           },
           {
             "n": "France 24",
@@ -101,19 +197,47 @@
             "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOS2tkckxBak5lVkgzYnBjcTNWUnVjaHNWbWhLc3J3U2lHWTVQUF85YXhSU2JMZ1RSYWs5TDdETWViTFVZbld5SWJfbTZ6T1EwaFdpZDlVd21aMnVELTQ5WWZmZWt4bjlnV0JvQWhtYmszdW5aTy1lQ1NmaXItdzRjZ1ZOSk5scktoTGtRMXVSa1BwYk5xTXNCOGJVU21DRS1DMEhPUjh3UEtrc3duX210ZdIBtgFBVV95cUxQUFNYOUJEZFNIQ1VMaDFHeWVVa2VlSDIyWVNhTi1ZUU9FYW5aaEhhbUU4VlZWVXZSY3FWRFhJYlg5MTZ6NHpqX1pIcUVaM2V5V3Q1YldhNzg5OElSZzZaRWxNNjdSWTkwN1hzV2FpV1VIQWVSekNkNUJrRWQzcWExTEtkZHhrcTl0QUlWODVGY0dYSDA2V3psNjlCTmM3MTZoUktLV1NZdlJVYWZyTHNxWlRmbnN1UQ?oc=5"
           },
           {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/07/icc-prosecutor-karim-khan-removed-over-serious-misconduct"
-          },
-          {
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/07/24/icc-members-vote-to-dismiss-embattled-prosecutor-karim-khan/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "baeb1b080ab1",
+      "title": "Ten killed in Russian attack on drone exhibition near Kyiv",
+      "description": "A Russian attack on a drone exhibition near Kyiv has killed ten people.",
+      "lat": 46.48,
+      "lng": 30.73,
+      "severity": 4,
+      "location": "Odesa, Ukraine",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&at_campaign=rss",
+      "image": null,
+      "ts": 1784938013000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&at_campaign=rss"
           },
           {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/icc-prosecutor-whose-netanyahu-warrant-fueled-mamdani-arrest-threat-fired-over-sexual-misconduct"
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/07/24/russia-ukraine-war-zelenskyy-putin-oil.html"
           }
         ]
       }
@@ -2007,19 +2131,6 @@
       "ts": 1784106412000
     },
     {
-      "id": "baeb1b080ab1",
-      "title": "Russian attack on Odesa kills three",
-      "description": "At least three people have been killed and three others wounded in Russian strikes on Odesa.",
-      "lat": 46.48,
-      "lng": 30.73,
-      "severity": 3,
-      "location": "Odesa, Ukraine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/15/russian-attack-on-odesa-kills-three-as-ukraine-targets-vessels-in-black-sea?traffic_source=rss",
-      "image": null,
-      "ts": 1784105740000
-    },
-    {
       "id": "e919b38bfed0",
       "title": "US Resumes Iran Ports Blockade",
       "description": "The US has resumed a naval blockade on Iranian ports, less than a month after signing an MoU as a step towards peace.",
@@ -3565,32 +3676,6 @@
       "url": "https://www.aljazeera.com/news/2026/7/11/us-lebanese-delegations-meet-to-discuss-israeli-pilot-zones-withdrawal?traffic_source=rss",
       "image": null,
       "ts": 1783794024000
-    },
-    {
-      "id": "a15e63fbb4df",
-      "title": "US Democrat Ro Khanna detained by Israeli settlers",
-      "description": "US Democrat Ro Khanna says he was detained by armed Israeli settlers",
-      "lat": 31.7,
-      "lng": 35.21000000000001,
-      "severity": 3,
-      "location": "West Bank",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c0qyk9jwq9no?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/892a/live/ccf1fdf0-7d46-11f1-8417-c9f35e2ce384.jpg",
-      "ts": 1783792809000
-    },
-    {
-      "id": "6ecabda7eca0",
-      "title": "Lebanon-Israel talks",
-      "description": "Lebanon confirms participation in Rome talks with Israel",
-      "lat": 41.87,
-      "lng": 12.5,
-      "severity": 2,
-      "location": "Rome, Italy",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/07/11/il-libano-conferma-partecipazione-ai-colloqui-di-roma-con-israele_cc8efc17-b68f-4bd2-ba78-bbd2ba98af84.html",
-      "image": null,
-      "ts": 1783791917000
     }
   ]
 }
