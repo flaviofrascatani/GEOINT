@@ -1,7 +1,55 @@
 {
   "schema": 1,
-  "updated": "2026-07-25T18:32:01.834502+00:00",
+  "updated": "2026-07-25T19:46:42.362467+00:00",
   "events": [
+    {
+      "id": "952d60f4cfef",
+      "title": "Iran condemns Ukrainian strike on its commercial ship in Caspian Sea",
+      "description": "The Islamic Republic’s foreign ministry said that this attack violates Section 4 Article 2 of the UN Charter and constitutes an act of aggression",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "TASS",
+      "url": "https://tass.com/world/2165333",
+      "image": null,
+      "ts": 1785008145000,
+      "coverage": {
+        "left": 0,
+        "center": 3,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 3,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/07/25/saudi-military-strikes-iran-backed-houthi-targets-yemen.html"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/international/article-903598"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOVpNZ2psN29sT085Yy0tT0xweWpLcTBRbUxaVlRGS1hJVFRHc3R0QjdlSWEybjlnNmtKYXM4WjQxaG9neGFqZkNrUEthVHJsQ2VEM0VEX2hJc2tIcHNZT0tEV3JQRUtrbk9YT0dGOGo0T0VVbUVkOVZaS29hWHRBcUw0QkJ4VjlSc2h6czhXWGRkT2xiMkJJUlBkcENSX0VjQndrSjJlT25vS2FFSVA4WE5B?oc=5"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2165333"
+          }
+        ]
+      }
+    },
     {
       "id": "ad491114c5b2",
       "title": "Iran-backed Houthis step up conflict with Saudis by targeting oil facilities",
@@ -4393,19 +4441,6 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/thousands-gather-to-bid-farewell-to-qatars-father-emir-sheikh-hamad?traffic_source=rss",
       "image": null,
       "ts": 1783880670000
-    },
-    {
-      "id": "8554934165e9",
-      "title": "US-Iran conflict escalates",
-      "description": "The conflict between the US and Iran is escalating, with both sides exchanging attacks.",
-      "lat": 35.69,
-      "lng": 51.420000000000016,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/12/concern-for-renewed-war-in-iran-as-us-attacks-military-civilian-targets?traffic_source=rss",
-      "image": null,
-      "ts": 1783878627000
     }
   ]
 }
