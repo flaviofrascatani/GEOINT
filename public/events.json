@@ -1,7 +1,60 @@
 {
   "schema": 1,
-  "updated": "2026-07-25T19:46:42.362467+00:00",
+  "updated": "2026-07-25T21:03:18.725708+00:00",
   "events": [
+    {
+      "id": "14148a2c1818",
+      "title": "Thousands of people flee raging wildfires in France and Spain",
+      "description": "Wildfires in France and Spain forced the evacuation of over 260,000 people.",
+      "lat": 43.61,
+      "lng": 1.4399999999999977,
+      "severity": 4,
+      "location": "Toulouse, France",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/wildfires-france-spain-madrid-bordeaux-evacuations-europe/",
+      "image": "https://www.rte.ie/images/0024c0f3-800.jpg",
+      "ts": 1785012536000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 1,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/live/2026/07/25/world/france-spain-wildfires-evacuations"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/wildfires-france-spain-madrid-bordeaux-evacuations-europe/"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/europe/2026/0725/1585038-wildfires-france-spain/"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUTNJekJCcW5qQXRmMDVfUW5iT0R3RFk1Vmg2RlQxdF9yQXptOUxrZkpYRWJjVTVoWkZRUWJPWHE4NWJGYzgxMkRZU1dPYnNpREloMENHR3piSmlUN1RpOHN1T2hYMEFibG9iMy1Va1ZiVllmM2Z1bGd5OWZpTVBDUkRoellWUTVW?oc=5"
+          },
+          {
+            "n": "New York Post",
+            "b": "lean_right",
+            "u": "https://nypost.com/2026/07/25/world-news/over-250000-people-forced-to-flee-homes-as-france-and-spain-battle-raging-wildfires/"
+          }
+        ]
+      }
+    },
     {
       "id": "952d60f4cfef",
       "title": "Iran condemns Ukrainian strike on its commercial ship in Caspian Sea",
@@ -51,6 +104,44 @@
       }
     },
     {
+      "id": "f6d7506ecde7",
+      "title": "New US sanctions target billionaire Iranian financier Babak Zanjani",
+      "description": "The US imposed new sanctions on billionaire Iranian financier Babak Zanjani.",
+      "lat": 35.69,
+      "lng": 53.295199999999994,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdENFLUN1cko1X1ptWEhmOVFPaW9GeWd5ZHZFSUZ4NDc5clprUkRxc3ByMWwzTTNiV3NzQkJCUEJXbnVJcE02MWRUWjRyNFJIeFg5X3ozQTU5ZmRKTTdoTHJVbVR4bkgydU1BcHYySFpDZ1Uwb09ZWEl3ZjJTREtxbHF2V2JlS0doYm1mZWswbW9Dbmh6TXU00gGcAUFVX3lxTFBhZGpLdUtRSEJlQWRwdnRySlUwWFBKWXczMUtGckFPeHByV21XUjhsTDlJcmlTMTNiZm90QjdMNExjV1FWU0s2MUgwVFp5RWYwdzBrVzdvWXFlUGEtTkZaZkF4anU1M25ReV9LbEFhcDJQVUgwWXlBQUNBeEhfOXE2akFtZWZBZ19KZGhmYmRycE14X1NIZWpEelF0ZA?oc=5",
+      "image": null,
+      "ts": 1785000420000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/policy/international/5990297-us-sanctions-babak-zanjani-businesses-iran/"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdENFLUN1cko1X1ptWEhmOVFPaW9GeWd5ZHZFSUZ4NDc5clprUkRxc3ByMWwzTTNiV3NzQkJCUEJXbnVJcE02MWRUWjRyNFJIeFg5X3ozQTU5ZmRKTTdoTHJVbVR4bkgydU1BcHYySFpDZ1Uwb09ZWEl3ZjJTREtxbHF2V2JlS0doYm1mZWswbW9Dbmh6TXU00gGcAUFVX3lxTFBhZGpLdUtRSEJlQWRwdnRySlUwWFBKWXczMUtGckFPeHByV21XUjhsTDlJcmlTMTNiZm90QjdMNExjV1FWU0s2MUgwVFp5RWYwdzBrVzdvWXFlUGEtTkZaZkF4anU1M25ReV9LbEFhcDJQVUgwWXlBQUNBeEhfOXE2akFtZWZBZ19KZGhmYmRycE14X1NIZWpEelF0ZA?oc=5"
+          }
+        ]
+      }
+    },
+    {
       "id": "ad491114c5b2",
       "title": "Iran-backed Houthis step up conflict with Saudis by targeting oil facilities",
       "description": "The Iran-backed Houthi rebels in Yemen said they targeted two oil facilities in Saudi Arabia owned by Aramco on Saturday.",
@@ -84,6 +175,39 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/07/trump-mulls-iran-escalation-houthis-fire-saudi-red-sea-oil-sites"
+          }
+        ]
+      }
+    },
+    {
+      "id": "77b780d01cf4",
+      "title": "Iran Guards say stopped four ships trying to transit Hormuz strait",
+      "description": "Iran's Guards said they stopped four ships trying to transit the Hormuz strait, as US President Trump described negotiations with Iran as 'by far the most serious that we’ve seen'.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 2,
+      "location": "Hormuz Strait, Iran",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-saudi-arabia-houthis-attack-gulf-states-strait-of-hormuz-live-updates-july-25-2026/article71265151.ece",
+      "image": null,
+      "ts": 1784999844000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-saudi-arabia-houthis-attack-gulf-states-strait-of-hormuz-live-updates-july-25-2026/article71265151.ece"
           }
         ]
       }
@@ -1005,39 +1129,6 @@
       }
     },
     {
-      "id": "14148a2c1818",
-      "title": "Over 250,000 evacuated as French, Spanish fires rage",
-      "description": "Out-of-control wildfires raging in France and Spain have forced the evacuation of more than 250,000 people in total",
-      "lat": 43.61,
-      "lng": 1.4399999999999977,
-      "severity": 3,
-      "location": "Toulouse, France",
-      "source": "RTE News",
-      "url": "https://www.rte.ie/news/europe/2026/0725/1585038-wildfires-france-spain/",
-      "image": "https://www.rte.ie/images/0024c0f3-800.jpg",
-      "ts": 1784964541000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/europe/2026/0725/1585038-wildfires-france-spain/"
-          }
-        ]
-      }
-    },
-    {
       "id": "be6df97ec5ce",
       "title": "Iran-backed Houthis claim missile attack on Saudi Arabia",
       "description": "US military says it disabled a tanker that was attempting to evade the American blockade on Iranian ports.",
@@ -1954,39 +2045,6 @@
             "n": "Financial Times World",
             "b": "center",
             "u": "https://www.ft.com/content/4d8139b2-8ea2-468b-a674-5f6a90a84182?syn-25a6b1a6=1"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f6d7506ecde7",
-      "title": "US hits network of Iranian financier Zanjani with more sanctions",
-      "description": "The US has imposed new sanctions on a network of Iranian financier Zanjani.",
-      "lat": 35.69,
-      "lng": 53.295199999999994,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdktDNmVIbXBUenpMSTEtWTRYS09hSlNKdmVpakhHNVQ4SFZNWnNoV19ZQTYtcUhmQXZHeVpvdE84NXVhei00YktROW1WdUllYXBWdUY4Tlp5TzhES0k4a09kRFhQZ2QxQWxIN29IcWRxZGtyT1lkdjR3ZGRTMnVDZW5VaXRRVWdwOUxCaDJqUHhEOTVzRUdWSlN6RjFHSGxWOVNpbDkyRzZHTlVkaEZ5LTZpMTBZZw?oc=5",
-      "image": null,
-      "ts": 1784914053000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdktDNmVIbXBUenpMSTEtWTRYS09hSlNKdmVpakhHNVQ4SFZNWnNoV19ZQTYtcUhmQXZHeVpvdE84NXVhei00YktROW1WdUllYXBWdUY4Tlp5TzhES0k4a09kRFhQZ2QxQWxIN29IcWRxZGtyT1lkdjR3ZGRTMnVDZW5VaXRRVWdwOUxCaDJqUHhEOTVzRUdWSlN6RjFHSGxWOVNpbDkyRzZHTlVkaEZ5LTZpMTBZZw?oc=5"
           }
         ]
       }
@@ -4428,19 +4486,6 @@
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaTF3eDZqNnJQLUJjMjMwRlF6Z2VXU1VfU3FPU1NnU3pwbl9Fa0FqU1JIbGs3akV5OWRKMWtKcjZYcVhqRWtDWlo5TFVCZTRxaWplN2RQU2FZY1QyZkJ1UUVYelhzaUxwdkp3TnR2aklkY2QzWkVJd3J5TWMwaHFleVlVaDgzXzjSAYwBQVVfeXFMTUI5RnZVaUplY3lPNU9yMDN6WFlFRzdiQ09aOS1NQmNqVXUxRm5CVVlHUGoxeEJDWmlwc1BpWFhfencyVzAtY0FJVDJvWG96eUNhSWZONGY2blBwOGFVaF9vNUR4SGg3eGVOUkFCX3JHeXJhMXpzUTBLNFh4cHlXbkJrRk9kYi1NY25SLWY?oc=5",
       "image": null,
       "ts": 1783881780000
-    },
-    {
-      "id": "7c5efffa87e3",
-      "title": "Qatar's Father Emir Sheikh Hamad bin Khalifa Al Thani Passes Away",
-      "description": "Sheikh Hamad bin Khalifa Al Thani, the former Emir of Qatar, has passed away at the age of 74.",
-      "lat": 25.28,
-      "lng": 53.43520000000001,
-      "severity": 1,
-      "location": "Doha, Qatar",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/thousands-gather-to-bid-farewell-to-qatars-father-emir-sheikh-hamad?traffic_source=rss",
-      "image": null,
-      "ts": 1783880670000
     }
   ]
 }
