@@ -1,7 +1,50 @@
 {
   "schema": 1,
-  "updated": "2026-07-25T01:04:29.568092+00:00",
+  "updated": "2026-07-25T04:18:52.973008+00:00",
   "events": [
+    {
+      "id": "242e29c87289",
+      "title": "Wildfires force evacuations in France and Spain",
+      "description": "Over 160,000 people have been evacuated in France and Spain due to wildfires.",
+      "lat": 45.26,
+      "lng": 2.3925999999999874,
+      "severity": 3,
+      "location": "Toulouse, France",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/166000-evacuated-as-wildfires-spin-out-of-control-in-france-spain/article71264193.ece",
+      "image": "https://th-i.thgim.com/public/incoming/173eyj/article71264699.ece/alternates/LANDSCAPE_1200/2026-07-24T222513Z_1981115009_RC2FKMAS3Y2G_RTRMADP_3_EUROPE-WEATHER-SPAIN-WILDFIRE.JPG",
+      "ts": 1784944130000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/24/world/europe/france-spain-wildfires.html"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/wildfires-force-200000-people-southern-france-central-spain-135065368"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/643445-spain-france-fires-videos/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
     {
       "id": "761b87e8de1d",
       "title": "ICC Prosecutor Karim Khan Removed Over Sexual Misconduct Allegations",
@@ -382,6 +425,39 @@
             "n": "Jerusalem Post",
             "b": "center",
             "u": "https://www.jpost.com/middle-east/article-903578"
+          }
+        ]
+      }
+    },
+    {
+      "id": "306bbae2c28b",
+      "title": "Turkey enters ASEAN's inner circle",
+      "description": "Turkey's elevation from an ASEAN Sectoral Dialogue Partner to a full ASEAN Dialogue Partner represents a transformation in the country's relations with Southeast Asia.",
+      "lat": 41.03,
+      "lng": 32.860000000000014,
+      "severity": 1,
+      "location": "Ankara, Turkey",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/opinion/op-ed/turkiye-enters-aseans-inner-circle-while-malaysia-takes-lead",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/07/24/452309.jpg",
+      "ts": 1784927100000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/opinion/op-ed/turkiye-enters-aseans-inner-circle-while-malaysia-takes-lead"
           }
         ]
       }
@@ -1069,6 +1145,39 @@
       }
     },
     {
+      "id": "18b4c4b44f2e",
+      "title": "Giraffes given a new home in Uganda",
+      "description": "Rangers in Uganda's largest national park are on a mission to translocate 12 endangered Nubian giraffes to escape oil drilling in the country's largest park.",
+      "lat": 0.39,
+      "lng": 32.53,
+      "severity": 1,
+      "location": "Kampala, Uganda",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/giraffes-new-home-uganda-escape-oil-drilling-countrys-135046161",
+      "image": "https://s.abcnews.com/images/International/wirestory_7938db24acfc4ba289bec6e347760b2a_4x3_384.jpg",
+      "ts": 1784895453000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/giraffes-new-home-uganda-escape-oil-drilling-countrys-135046161"
+          }
+        ]
+      }
+    },
+    {
       "id": "911b8ff948c6",
       "title": "Spain declares national emergency over wildfires",
       "description": "Spain has declared a national emergency over wildfires that have forced tens of thousands to evacuate a vacation hotspot.",
@@ -1300,6 +1409,39 @@
             "n": "MercoPress",
             "b": "center",
             "u": "https://en.mercopress.com/2026/07/24/uruguay-faces-a-12.5-us-tariff-as-its-foreign-ministry-weighs-the-implications?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eead0a494b5e",
+      "title": "US imposes new tariffs on 60 countries",
+      "description": "The Trump administration has imposed new tariffs of at least 10% on imports from 60 countries over claims they failed to prevent forced labor.",
+      "lat": 38.9,
+      "lng": -75.1148,
+      "severity": 3,
+      "location": "Washington D.C., USA",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/us-imposes-new-tariffs-on-dozens-of-trade-partners-over-forced-labour-imports-13566498",
+      "image": "https://e3.365dm.com/26/07/1920x1080/skynews-donald-trump-us_7305495.jpg?20260724025130",
+      "ts": 1784850240000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/us-imposes-new-tariffs-on-dozens-of-trade-partners-over-forced-labour-imports-13566498"
           }
         ]
       }
@@ -3449,58 +3591,6 @@
       "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/07/11/il-libano-conferma-partecipazione-ai-colloqui-di-roma-con-israele_cc8efc17-b68f-4bd2-ba78-bbd2ba98af84.html",
       "image": null,
       "ts": 1783791917000
-    },
-    {
-      "id": "1fc020132d37",
-      "title": "Iran-US Tensions",
-      "description": "Iran must pledge to stop shooting at ships in Strait of Hormuz, US officials say",
-      "lat": 27.67,
-      "lng": 58.15520000000001,
-      "severity": 3,
-      "location": "Strait of Hormuz",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/crelyq79x71o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b9e/live/f34fa810-7cfd-11f1-926f-c90d1bcfbc84.jpg",
-      "ts": 1783788957000
-    },
-    {
-      "id": "f46c4a4b5e58",
-      "title": "Trump administration subpoenas New York Times journalists",
-      "description": "The Trump administration has subpoenaed New York Times journalists over their reporting on alleged security issues with the president's new plane.",
-      "lat": 40.75,
-      "lng": -73.98,
-      "severity": 3,
-      "location": "New York City, USA",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cpd3g8q51g7o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a1ec/live/f2614840-7d30-11f1-8f06-e145dd803033.jpg",
-      "ts": 1783786293000
-    },
-    {
-      "id": "c4fa18672ea4",
-      "title": "Syrians optimistic about economic hopes after sanctions removal",
-      "description": "The removal of sanctions has revived economic hopes in Syria, with many Syrians optimistic about the potential for economic growth and development.",
-      "lat": 33.51,
-      "lng": 36.28999999999999,
-      "severity": 1,
-      "location": "Damascus, Syria",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQa1Awbnd3UklkM01rdDQ1bThleGlBdWJfa0VmeTVBVS1HTGQzczctdGxyaWVqNDFXM21zaGJBMGVkaUhLU2xwNWpNODdWZ2hCZHkyMTVPcTFfSHZmNlZhX0xZcmkxVlhQQ0VQVlJhNkVoSzBXRVZ0RloyUkNhOG85NEVzY0k2LWw5V0t5VktpSERjcUJOcnhmNnkwSXpVdHdtMWkxSEMzVmN3aGlVc1R2dWFydDRrUE3SAbwBQVVfeXFMTW1aTFhSLXpJTXBiVWVrWi10dXpDZUEyc2JNWFJlVVNLWVZqbTczM205MmtMT3E4LWV1bExrZ3k5SjRpMm5ESzhKWUhzT1M0Q3ltczV6WXhXbWM3YWttb3podFNjNGEtM2F6eF9TTy12U0FGUzVBZG1NOGNwWXpJLUpFUTZ4SU8xdjJLeVYyNl90Uy1KMFlmSUJKRk03bzRDa01rR0JYcnEyNHNyZGpSS0ZrUDhoM0ZzN0h6LTI?oc=5",
-      "image": null,
-      "ts": 1783785459000
-    },
-    {
-      "id": "60aa5bc19d2a",
-      "title": "Syria Sanctions Removal",
-      "description": "US decision to delist Syria as a 'state sponsor of terrorism' prompts cautious optimism among businesses and citizens",
-      "lat": 33.52,
-      "lng": 38.1952,
-      "severity": 2,
-      "location": "Damascus, Syria",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/syrians-optimistic-but-cautious-as-sanctions-removal-revives-economic-hopes?traffic_source=rss",
-      "image": null,
-      "ts": 1783785265000
     }
   ]
 }
