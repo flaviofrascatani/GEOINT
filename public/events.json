@@ -1,7 +1,93 @@
 {
   "schema": 1,
-  "updated": "2026-07-25T06:40:54.297411+00:00",
+  "updated": "2026-07-25T09:06:13.144900+00:00",
   "events": [
+    {
+      "id": "73533e77f8e0",
+      "title": "UN Chief Guterres calls for global support on landmark Syria trip",
+      "description": "United Nations Secretary-General Antonio Guterres arrived in Damascus on Saturday for the first visit by a U.N. chief to Syria in 17 years, calling on the international community to support the war-torn country.",
+      "lat": 33.51,
+      "lng": 36.18,
+      "severity": 1,
+      "location": "Damascus, Syria",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/world/mid-east/un-chief-guterres-calls-for-global-support-on-landmark-syria-trip",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/07/25/452475.jpg",
+      "ts": 1784969460000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/7/25/guterres-arrives-in-syria-in-first-official-visit-by-a-un-chief-in-17-years?traffic_source=rss"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/07/guterres-set-be-first-un-chief-visit-syria-2011-war"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/un-chief-guterres-calls-for-global-support-on-landmark-syria-trip"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2f58a2514bc",
+      "title": "Wildfires in Spain and France force evacuation of 200,000 people",
+      "description": "France has appealed for international help, while Spain has declared a national emergency as wildfires continue to rage across the region.",
+      "lat": 43.5,
+      "lng": 3.3452000000000055,
+      "severity": 3,
+      "location": "Bordeaux, France",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/25/wildfires-in-spain-and-france-force-evacuation-of-200000-people?traffic_source=rss",
+      "image": null,
+      "ts": 1784965303000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/24/world/europe/france-spain-wildfires.html"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/7/25/wildfires-in-spain-and-france-force-evacuation-of-200000-people?traffic_source=rss"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/643445-spain-france-fires-videos/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
     {
       "id": "4affeb67822e",
       "title": "Trump says Israeli PM Netanyahu to visit US next week",
@@ -52,11 +138,11 @@
     },
     {
       "id": "be6df97ec5ce",
-      "title": "Iran-backed Houthi rebels claim missile attack on Saudi's Jizan",
-      "description": "Houthis claim missile attack on southern Saudi city of Jizan, after vowing retaliation against the kingdom for attacks this week.",
+      "title": "Houthis claim Saudi Arabia strike, US mulls Iran strategy",
+      "description": "The Houthis claimed to have struck Saudi Arabia with missiles on Saturday morning, deepening their involvement in the Middle East war, while the US appeared to end a run of 13 days of strikes on Iran.",
       "lat": 16.89,
       "lng": 42.63,
-      "severity": 3,
+      "severity": 4,
       "location": "Jizan, Saudi Arabia",
       "source": "RTE News",
       "url": "https://www.rte.ie/news/middle-east/2026/0725/1585036-houthis-strikes/",
@@ -64,13 +150,13 @@
       "ts": 1784953015000,
       "coverage": {
         "left": 1,
-        "center": 5,
+        "center": 6,
         "right": 0,
-        "total": 6,
+        "total": 7,
         "buckets": {
           "left": 0,
           "lean_left": 1,
-          "center": 5,
+          "center": 6,
           "lean_right": 0,
           "right": 0
         },
@@ -93,7 +179,12 @@
           {
             "n": "DW News",
             "b": "center",
-            "u": "https://www.dw.com/en/iran-war-saudi-led-coalition-attacks-yemen-s-hodeida-port-city/live-78093040?maca=en-rss-en-all-1573-rdf"
+            "u": "https://www.dw.com/en/iran-war-houthis-vow-response-to-dangerous-escalation-by-saudi-arabia/live-78107211?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/iran-news/article-903582"
           },
           {
             "n": "Bloomberg Politics",
@@ -103,7 +194,7 @@
           {
             "n": "Al-Monitor",
             "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/07/houthis-say-hit-saudi-arabia-trump-weighs-harder-iran-strikes"
+            "u": "https://www.al-monitor.com/originals/2026/07/houthis-claim-strike-saudi-arabia-conflict-deepens"
           }
         ]
       }
@@ -935,11 +1026,11 @@
     },
     {
       "id": "f6d7506ecde7",
-      "title": "US Imposes Sanctions on Iranian Financier Zanjani",
-      "description": "The US has imposed sanctions on Iranian financier Zanjani and his network, in an effort to pressure Iran to negotiate a new nuclear deal",
+      "title": "US hits network of Iranian financier Zanjani with more sanctions",
+      "description": "The US has imposed new sanctions on a network of Iranian financier Zanjani.",
       "lat": 35.69,
       "lng": 53.295199999999994,
-      "severity": 3,
+      "severity": 2,
       "location": "Tehran, Iran",
       "source": "GNews Geopolitics",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdktDNmVIbXBUenpMSTEtWTRYS09hSlNKdmVpakhHNVQ4SFZNWnNoV19ZQTYtcUhmQXZHeVpvdE84NXVhei00YktROW1WdUllYXBWdUY4Tlp5TzhES0k4a09kRFhQZ2QxQWxIN29IcWRxZGtyT1lkdjR3ZGRTMnVDZW5VaXRRVWdwOUxCaDJqUHhEOTVzRUdWSlN6RjFHSGxWOVNpbDkyRzZHTlVkaEZ5LTZpMTBZZw?oc=5",
@@ -3650,32 +3741,6 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/us-rep-ro-khanna-speaks-out-about-being-harassed-by-israeli-settlers?traffic_source=rss",
       "image": null,
       "ts": 1783796341000
-    },
-    {
-      "id": "259ca65abc31",
-      "title": "US, Lebanese delegations meet to discuss Israeli withdrawal",
-      "description": "US and Lebanese delegations meet to discuss the withdrawal of Israeli 'pilot zones'",
-      "lat": 34.99,
-      "lng": 35.5,
-      "severity": 2,
-      "location": "Beirut, Lebanon",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/us-lebanese-delegations-meet-to-discuss-israeli-pilot-zones-withdrawal?traffic_source=rss",
-      "image": null,
-      "ts": 1783794024000
-    },
-    {
-      "id": "4f9bfb076f04",
-      "title": "US, Lebanese delegations meet to discuss Israeli ‘pilot zones’ withdrawal",
-      "description": "Sources tell Al Jazeera that talks are focused on establishing mechanism for first of two so-called 'pilot zones'.",
-      "lat": 33.89,
-      "lng": 35.5,
-      "severity": 2,
-      "location": "Beirut, Lebanon",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/11/us-lebanese-delegations-meet-to-discuss-israeli-pilot-zones-withdrawal?traffic_source=rss",
-      "image": null,
-      "ts": 1783794024000
     }
   ]
 }
