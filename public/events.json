@@ -1,7 +1,93 @@
 {
   "schema": 1,
-  "updated": "2026-07-25T15:12:47.009320+00:00",
+  "updated": "2026-07-25T16:27:48.741738+00:00",
   "events": [
+    {
+      "id": "cb39af2df6ed",
+      "title": "Satellite lofted for first Arab country",
+      "description": "A Chinese-made communications satellite has been launched for Algeria, marking the first such export to an Arab country.",
+      "lat": 36.77,
+      "lng": 3.06,
+      "severity": 2,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1784996868608,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "242e29c87289",
+      "title": "Wildfires in France and Spain force more than 267,000 to flee",
+      "description": "Wildfires in France and Spain have forced over 267,000 people to flee, with the fires spreading rapidly due to hot and dry conditions.",
+      "lat": 45.26,
+      "lng": 2.3925999999999874,
+      "severity": 4,
+      "location": "Toulouse, France",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/wildfires-france-spain-madrid-bordeaux-evacuations-europe/",
+      "image": "https://th-i.thgim.com/public/incoming/173eyj/article71264699.ece/alternates/LANDSCAPE_1200/2026-07-24T222513Z_1981115009_RC2FKMAS3Y2G_RTRMADP_3_EUROPE-WEATHER-SPAIN-WILDFIRE.JPG",
+      "ts": 1784992509000,
+      "coverage": {
+        "left": 3,
+        "center": 1,
+        "right": 1,
+        "total": 5,
+        "buckets": {
+          "left": 1,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/quarter-million-people-flee-their-homes-in-france-and-spain-as-wildfires-burn_n_6a64a899e4b089c330669d5c"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/wildfires-force-200000-people-southern-france-central-spain-135065368"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/wildfires-france-spain-madrid-bordeaux-evacuations-europe/"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQb0VHYWpLWnhpQkxOakdtUC15eGUxUFp5VFlXV21mZXlpc29abjcydkFyY0dWYTJJQjN2ZzNyeDN1dHR6ckxReV9JUkx1ZGNkQk5kY0ZieFBkX1dkQXFITHJrNVllLUtoRlpwOWdzVWJubW92RnFJLVR1MERydkoxSzE0b1k5ZmFuU3JrOW5zNHJsVWlwTVN0cVhEWnRsb2pzbzc2anNvWdIBrAFBVV95cUxOQTU1Zzd1SXRsM3QtOG5HaGU1NFFDcm1CQi05bXE4LVRZU3Rtc3I0OU1kMnJZcWpUdmp1OUdZckhoaHpXdkk1Z01Xd3daRWl1akhrdXFfZlRXc2pkeEtQT3JNb0Z4SXUxTGdoS21oWW5STjAzWGt4dE1WTGJjOXIzM1hLNGtHTzlCdTl4Y1ozSkNua1dpOGxwNVNOaHk3dVNJMEd4TTh5c3YyNjZR?oc=5"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/643445-spain-france-fires-videos/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
     {
       "id": "10e34edb5724",
       "title": "Visiting UN chief urges respect for Syria's sovereignty, international support",
@@ -69,6 +155,104 @@
             "n": "France 24",
             "b": "center",
             "u": "https://www.france24.com/en/middle-east/20260725-unesco-adds-west-bank-site-lebanese-castles-to-world-heritage-list-despite-israeli-opposition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5aaf220f4b6b",
+      "title": "Houthis Fire On Saudi Oil Installations On The Red Sea Coast",
+      "description": "Houthis fired on Saudi oil installations on the Red Sea coast, prompting a response from the US which held back from launching air strikes on Iran.",
+      "lat": 21.72,
+      "lng": 39.15,
+      "severity": 4,
+      "location": "Jeddah, Saudi Arabia",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/houthis-fire-saudi-oil-installations-on-the-red-seacoast_n_6a64bcc5e4b089c33066a05c",
+      "image": null,
+      "ts": 1784987976000,
+      "coverage": {
+        "left": 4,
+        "center": 9,
+        "right": 1,
+        "total": 14,
+        "buckets": {
+          "left": 1,
+          "lean_left": 3,
+          "center": 9,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/houthis-fire-saudi-oil-installations-on-the-red-seacoast_n_6a64bcc5e4b089c33066a05c"
+          },
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/business/markets/oil-prices-rise-red-sea-attacks-houthis-saudi-trump-iran-war-rcna588851"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/07/25/houthis-target-saudi-oil-over-red-sea-front_6755831_4.html"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/houthis-fire-missiles-drones-at-saudi-arabia-in-response-to-strikes-on-yemeni-city/article71267142.ece"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/07/25/saudi-military-strikes-iran-backed-houthi-targets-yemen.html"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/middle-east/2026/0725/1585036-houthis-strikes/"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/14ee6049-87bf-4aac-b684-c9937374fdcc?syn-25a6b1a6=1"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/iran-war-houthis-vow-response-to-dangerous-escalation-by-saudi-arabia/live-78107211?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/policy/international/5990145-houthi-rebels-yemen-saudi-arabia-strikes-iran-war/"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVnV3Mm1rUEtJU2NZVURHalNWRVFISmJVZjQzNlFPdC1XVTY3NFcyZzVJd1phMk01RmlJdnIyTkF4RmNwWHk1dDlaNG1scmhlamo0RjZFbzZCU0hNRXE3T2FVNW94aTVMXzJVMWo4clpQY3Fnb2NMRXNsMUViOEZNX1JJdXFwOFZ0RTIwbTA4Z3dnNl9POVZqYk1lbnZITG8?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-07-25/houthi-claim-missile-strikes-on-southern-saudi-arabia"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/07/trump-mulls-iran-escalation-houthis-fire-saudi-red-sea-oil-sites"
+          },
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/saudi-arabia-strikes-huthi-targets-in-yemen-after-vessel-was-attacked-in-red-sea/"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4663431/houthis-fire-missiles-drones-saudi-arabia/"
           }
         ]
       }
@@ -282,6 +466,39 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/mid-east/un-chief-guterres-calls-for-global-support-on-landmark-syria-trip"
+          }
+        ]
+      }
+    },
+    {
+      "id": "129f4bf7cba8",
+      "title": "India’s 'Cockroach' movement ends protests after education minister resigns",
+      "description": "India's 'Cockroach' movement ended protests after the education minister resigned, marking a victory for the youth-led movement.",
+      "lat": 29.71,
+      "lng": 79.1352,
+      "severity": 1,
+      "location": "New Delhi, India",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/world/india/india-education-minister-resigns-escalating-cockroach-protests-challen-rcna589188",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-07/260725-india-nd-33728a.jpg",
+      "ts": 1784976167000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/india-s-cockroach-movement-ends-protests-after-education-minister-resigns"
           }
         ]
       }
@@ -800,49 +1017,6 @@
       }
     },
     {
-      "id": "242e29c87289",
-      "title": "Wildfires force evacuations in France and Spain",
-      "description": "Over 160,000 people have been evacuated in France and Spain due to wildfires.",
-      "lat": 45.26,
-      "lng": 2.3925999999999874,
-      "severity": 3,
-      "location": "Toulouse, France",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/166000-evacuated-as-wildfires-spin-out-of-control-in-france-spain/article71264193.ece",
-      "image": "https://th-i.thgim.com/public/incoming/173eyj/article71264699.ece/alternates/LANDSCAPE_1200/2026-07-24T222513Z_1981115009_RC2FKMAS3Y2G_RTRMADP_3_EUROPE-WEATHER-SPAIN-WILDFIRE.JPG",
-      "ts": 1784944130000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/07/24/world/europe/france-spain-wildfires.html"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/wildfires-force-200000-people-southern-france-central-spain-135065368"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/643445-spain-france-fires-videos/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
       "id": "761b87e8de1d",
       "title": "ICC members vote to dismiss embattled prosecutor Karim Khan",
       "description": "International Criminal Court member states voted to dismiss prosecutor Karim Khan following disputed allegations of sexual assault.",
@@ -1087,48 +1261,38 @@
     },
     {
       "id": "5356f9026351",
-      "title": "Iran War Live Updates: Trump Meets With Cabinet Over Whether to Intensify Iran Strikes",
-      "description": "The discussions at the White House came days before a planned meeting with Prime Minister Benjamin Netanyahu of Israel",
+      "title": "US launches new strikes and Trump threatens ‘massive attack’ as Iran widens war",
+      "description": "The US has launched new strikes on Iran, with President Trump threatening a 'massive attack' as Tehran opens a second front in its pressure campaign.",
       "lat": 35.69,
       "lng": 51.389999999999986,
-      "severity": 2,
+      "severity": 4,
       "location": "Tehran, Iran",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/live/2026/07/24/world/iran-war-us-strikes-trump-oil",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/world/iran/us-iran-strikes-trump-massive-attack-war-hormuz-red-sea-oil-rcna589016",
       "image": "https://static01.nyt.com/images/2026/07/24/multimedia/24mideast-live-promo430p-fzwj/24mideast-live-promo430p-fzwj-mediumSquareAt3X.jpg",
       "ts": 1784929035000,
       "coverage": {
-        "left": 7,
-        "center": 4,
+        "left": 5,
+        "center": 0,
         "right": 0,
-        "total": 11,
+        "total": 5,
         "buckets": {
-          "left": 2,
+          "left": 0,
           "lean_left": 5,
-          "center": 4,
+          "center": 0,
           "lean_right": 0,
           "right": 0
         },
         "sources": [
           {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/iran-us-strikes-hormuz_n_6a62a4b5e4b0f1b7fc52560a"
-          },
-          {
-            "n": "The Intercept",
-            "b": "left",
-            "u": "https://theintercept.com/2026/07/21/iran-war-pentagon-casualties-injuries/"
-          },
-          {
             "n": "New York Times World",
             "b": "lean_left",
-            "u": "https://www.nytimes.com/live/2026/07/24/world/iran-war-us-strikes-trump-oil"
+            "u": "https://www.nytimes.com/live/2026/07/25/world/iran-war-us-strikes-trump-oil"
           },
           {
             "n": "Washington Post World",
             "b": "lean_left",
-            "u": "https://www.washingtonpost.com/national-security/2026/07/23/house-passes-measure-restrain-trump-iran/"
+            "u": "https://www.washingtonpost.com/politics/2026/07/24/trump-swings-back-toward-diplomacy-escalating-iran-war/"
           },
           {
             "n": "NBC News World",
@@ -1136,34 +1300,14 @@
             "u": "https://www.nbcnews.com/world/iran/us-iran-strikes-trump-massive-attack-war-hormuz-red-sea-oil-rcna589016"
           },
           {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-oil-prices-red-sea-houthis/"
-          },
-          {
             "n": "NDTV World",
             "b": "lean_left",
             "u": "https://www.ndtv.com/world-news/not-in-best-interests-trump-warns-china-russia-against-arms-sale-to-iran-11818585#publisher=newsstand"
           },
           {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/2026/0724/1584878-us-strikes-iran/"
-          },
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/homenews/administration/5986971-live-updates-trump-iran-tariffs-white-house-correspondents-dinner/"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNekVNZHhVQkF4WWRNNm84S0JDZWJ1U3ZJRl85dFBtdV9DNlFSZGhtTGxIZll4aWRMZDVGd3JFX0hfWFR2SEwxUlVLOXR6NlNrQ3RPOUpBbm1qZERuVG1VM0FyY0NKNFZvZGtwV3VjU3BBSE5IeDV6dEpYYnYybnM3Zg?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/07/trump-says-hasnt-decided-big-iran-strikes-tehran-getting-serious"
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/07/24/us-iran-ceasefire-attack-energy-prices-oil-hormuz-strait/"
           }
         ]
       }
@@ -1377,39 +1521,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/07/trump-says-us-and-iran-are-talking-tehran-not-yet-ready-deal"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cb39af2df6ed",
-      "title": "Satellite lofted for first Arab country",
-      "description": "A Chinese-made communications satellite has been launched for Algeria, the first such export to an Arab country.",
-      "lat": 36.77,
-      "lng": 3.06,
-      "severity": 1,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1784924799140,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
           }
         ]
       }
@@ -2371,6 +2482,39 @@
       "description": "Two Russian men have been found guilty by an Angolan court of terrorism and spying over an alleged plan to stage a coup and organise deadly demonstrations.",
       "lat": -8.83,
       "lng": 13.23,
+      "severity": 3,
+      "location": "Luanda, Angola",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/world/2026/jul/23/two-russian-men-jailed-angola-terrorism-and-spying",
+      "image": null,
+      "ts": 1784816641000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/jul/23/two-russian-men-jailed-angola-terrorism-and-spying"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ebd20987fae5",
+      "title": "Two Russian men jailed in Angola for terrorism and spying",
+      "description": "Two Russian men were jailed in Angola for terrorism and spying, highlighting the country's concerns about foreign interference.",
+      "lat": -7.73,
+      "lng": 13.22999999999999,
       "severity": 3,
       "location": "Luanda, Angola",
       "source": "The Guardian World",
@@ -4172,45 +4316,6 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/funeral-prayers-held-for-qatars-father-emir-sheikh-hamad?traffic_source=rss",
       "image": null,
       "ts": 1783874604000
-    },
-    {
-      "id": "f92cf6536475",
-      "title": "US-Iran Deal Unravels",
-      "description": "The US-Iran deal has unraveled, with missiles and sanctions returning to the forefront.",
-      "lat": 35.69,
-      "lng": 51.420000000000016,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYXI2d0Y4MGw3TEYydjYycXBlTDdGOTEwWlVwdl9WNXRfaHJmd25qRnVMdGZIRm95UWQ3Z3RWWHFwQ3Q5QzUwLU9fV05LX0hGa3dLWnlCM29KWTl6RWY1bWlBUVVjZHYyZHRLSzJTWVlYNFZfSmpHVG8xR3Y3cEVSTWNiRXZ0bmI5YXVmSVFqSlpKc00xQUFQUkJsTnp5V3Yw?oc=5",
-      "image": null,
-      "ts": 1783872009000
-    },
-    {
-      "id": "f1e8d721bda9",
-      "title": "Ukraine’s Zelenskyy announces cabinet reshuffle, replaces PM Svyrydenko",
-      "description": "Ukrainian President Volodymyr Zelenskyy has announced a cabinet reshuffle, replacing Prime Minister Yulia Svyrydenko with a new premier.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 2,
-      "location": "Kyiv, Ukraine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/12/ukraines-zelenskyy-announces-cabinet-reshuffle-replaces-pm-svyrydenko?traffic_source=rss",
-      "image": null,
-      "ts": 1783862933000
-    },
-    {
-      "id": "2ef81a21810c",
-      "title": "Ukraine's Zelenskyy announces cabinet reshuffle",
-      "description": "Ukrainian President Zelenskyy has announced a cabinet reshuffle, replacing the prime minister and making changes to the government, in an effort to prioritize foreign policy and security goals.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 2,
-      "location": "Kyiv, Ukraine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/12/ukraines-zelenskyy-announces-cabinet-reshuffle-replaces-pm-svyrydenko?traffic_source=rss",
-      "image": null,
-      "ts": 1783862933000
     }
   ]
 }
