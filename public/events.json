@@ -1,7 +1,45 @@
 {
   "schema": 1,
-  "updated": "2026-07-25T10:41:02.980251+00:00",
+  "updated": "2026-07-25T12:07:21.649453+00:00",
   "events": [
+    {
+      "id": "a06f97b66e5d",
+      "title": "UN chief urges international community to back Syrians during visit to Damascus",
+      "description": "U.N. Secretary-General António Guterres has appealed to the international community to support the people of Syria",
+      "lat": 34.61,
+      "lng": 36.28999999999999,
+      "severity": 1,
+      "location": "Damascus, Syria",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/chief-urges-international-community-back-syrians-visit-damascus-135078176",
+      "image": "https://s.abcnews.com/images/US/wirestory_059b77b718acf33cda6630e22c11d1d8_4x3_384.jpg",
+      "ts": 1784977520000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/chief-urges-international-community-back-syrians-visit-damascus-135078176"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/un-chief-guterres-calls-for-global-support-on-landmark-syria-trip"
+          }
+        ]
+      }
+    },
     {
       "id": "6739a29ca0af",
       "title": "Wildfires Rage in France and Spain",
@@ -51,6 +89,64 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/643445-spain-france-fires-videos/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c414f439ee74",
+      "title": "India’s education minister resigns after weeks of student protests",
+      "description": "Dharmendra Pradhan’s departure was a key demand of the growing student movement",
+      "lat": 29.71,
+      "lng": 77.23000000000002,
+      "severity": 2,
+      "location": "New Delhi, India",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/5f267b7d-9e57-40f6-9bb5-6fe5d6cf9d1d?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1784975892000,
+      "coverage": {
+        "left": 2,
+        "center": 4,
+        "right": 0,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 4,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/indias-education-minister-resigns-after-weeks-student-led-135077325"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/7/25/indias-education-minister-resigns-after-weeks-of-cockroach-protests?traffic_source=rss"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/5f267b7d-9e57-40f6-9bb5-6fe5d6cf9d1d?syn-25a6b1a6=1"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/indias-education-minister-resigns-after-mass-protests-led-by-cockroach-movement-13566842"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/india-education-minister-resigns-amid-student-led-protests/live-78108089?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/live-blog/2026-07-25/india-education-minister-resigns"
           }
         ]
       }
@@ -289,6 +385,39 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/643445-spain-france-fires-videos/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14148a2c1818",
+      "title": "Over 250,000 evacuated as French, Spanish fires rage",
+      "description": "Out-of-control wildfires raging in France and Spain have forced the evacuation of more than 250,000 people in total",
+      "lat": 43.61,
+      "lng": 1.4399999999999977,
+      "severity": 3,
+      "location": "Toulouse, France",
+      "source": "RTE News",
+      "url": "https://www.rte.ie/news/europe/2026/0725/1585038-wildfires-france-spain/",
+      "image": "https://www.rte.ie/images/0024c0f3-800.jpg",
+      "ts": 1784964541000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/europe/2026/0725/1585038-wildfires-france-spain/"
           }
         ]
       }
@@ -883,6 +1012,44 @@
       }
     },
     {
+      "id": "19d3375e41a9",
+      "title": "ICC prosecutor whose Netanyahu warrant fueled Mamdani arrest threat is fired over sexual misconduct",
+      "description": "ICC member states voted to remove chief prosecutor Karim Khan over sexual misconduct allegations",
+      "lat": 53.18,
+      "lng": 4.289999999999992,
+      "severity": 2,
+      "location": "The Hague, Netherlands",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/icc-prosecutor-whose-netanyahu-warrant-fueled-mamdani-arrest-threat-fired-over-sexual-misconduct",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/05/931/523/karim-khan-icc.jpg?ve=1&tl=1",
+      "ts": 1784927449000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/icc-votes-to-dismiss-chief-prosecutor-karim-khan/a-78092577?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/icc-prosecutor-whose-netanyahu-warrant-fueled-mamdani-arrest-threat-fired-over-sexual-misconduct"
+          }
+        ]
+      }
+    },
+    {
       "id": "306bbae2c28b",
       "title": "Turkey enters ASEAN's inner circle",
       "description": "Turkey's elevation from an ASEAN Sectoral Dialogue Partner to a full ASEAN Dialogue Partner represents a transformation in the country's relations with Southeast Asia.",
@@ -1357,6 +1524,39 @@
             "n": "Business Insider",
             "b": "lean_left",
             "u": "https://www.businessinsider.com/student-loan-forgiveness-defrauded-borrowers-sweet-vs-mcmahon-settlement-debt-2026-7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9810cd12ed12",
+      "title": "Mali’s government does not rule out U.S. military intervention",
+      "description": "The country’s foreign minister said, however, that anyone wishing to partner with the West African nation “must respect” its sovereignty",
+      "lat": 12.65,
+      "lng": -8.0,
+      "severity": 2,
+      "location": "Bamako, Mali",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/07/24/malis-government-does-not-rule-out-us-military-intervention/",
+      "image": null,
+      "ts": 1784911485000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/07/24/malis-government-does-not-rule-out-us-military-intervention/"
           }
         ]
       }
@@ -3836,71 +4036,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cdxd3wkp2rzo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e90d/live/996516b0-7dce-11f1-b976-0b9c15b0ccfc.jpg",
       "ts": 1783841985000
-    },
-    {
-      "id": "156b33f48588",
-      "title": "China evacuates nearly two million people as powerful typhoon makes landfall",
-      "description": "Schools, work and outdoor activities have been suspended in Zhejiang province and many transport services cancelled.",
-      "lat": 28.22,
-      "lng": 120.67000000000002,
-      "severity": 3,
-      "location": "Zhejiang province, China",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cdxd3wkp2rzo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e90d/live/996516b0-7dce-11f1-b976-0b9c15b0ccfc.jpg",
-      "ts": 1783841985000
-    },
-    {
-      "id": "8469f938ab23",
-      "title": "IRGC vows ‘crushing response’ to any further US attacks",
-      "description": "IRGC vows ‘crushing response’ to any further US attacks.",
-      "lat": 35.69,
-      "lng": 51.420000000000016,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/irgc-vows-crushing-response-to-any-further-us-attacks?traffic_source=rss",
-      "image": null,
-      "ts": 1783840100000
-    },
-    {
-      "id": "23121a6935de",
-      "title": "US Senator Lindsey Graham passes away",
-      "description": "US Senator Lindsey Graham has passed away, according to a breaking news report.",
-      "lat": 33.83,
-      "lng": -81.16,
-      "severity": 1,
-      "location": "Columbia, South Carolina, USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/12/us-senator-lindsey-graham-passes-away?traffic_source=rss",
-      "image": null,
-      "ts": 1783837626000
-    },
-    {
-      "id": "52e2581174dc",
-      "title": "US-Iran conflict flares again after container ship hit in Hormuz",
-      "description": "The US-Iran conflict has flared again after a container ship was hit in the Strait of Hormuz.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMmlDNmJTVWxfOVExTHpXbTJmOEswWUFGWWdTc0ZPcVdJWFpoMm81VnVtQk54WG1RSlJ4eTVXVjlUM1lQaG04Wk5oZFN0ZElZNjdDYlJKTFZucEpNZ2xTcnY2emFnYjVGRVNDa1Q5Vzc2U2lKYW9tcGdlV3dmMzFzeFNvUlJSdmN1S1ZtWi04VWU?oc=5",
-      "image": null,
-      "ts": 1783826599000
-    },
-    {
-      "id": "93360ade90c5",
-      "title": "Nigeria rescues dozens of abducted school children in Oyo state",
-      "description": "Nigerian security forces have rescued 39 schoolchildren and five teachers abducted nearly two months ago in Oyo state.",
-      "lat": 8.02,
-      "lng": 4.03,
-      "severity": 1,
-      "location": "Oyo, Nigeria",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/nigeria-rescues-dozens-of-abducted-school-children-in-oyo-state?traffic_source=rss",
-      "image": null,
-      "ts": 1783821361000
     }
   ]
 }
