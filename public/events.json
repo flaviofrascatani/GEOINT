@@ -1,7 +1,45 @@
 {
   "schema": 1,
-  "updated": "2026-07-25T16:27:48.741738+00:00",
+  "updated": "2026-07-25T17:34:26.769329+00:00",
   "events": [
+    {
+      "id": "ad491114c5b2",
+      "title": "Iran-backed Houthis step up conflict with Saudis by targeting oil facilities",
+      "description": "The Iran-backed Houthi rebels in Yemen said they targeted two oil facilities in Saudi Arabia owned by Aramco on Saturday.",
+      "lat": 24.71,
+      "lng": 46.67,
+      "severity": 4,
+      "location": "Riyadh, Saudi Arabia",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east/",
+      "image": null,
+      "ts": 1785000133000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east/"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/07/trump-mulls-iran-escalation-houthis-fire-saudi-red-sea-oil-sites"
+          }
+        ]
+      }
+    },
     {
       "id": "cb39af2df6ed",
       "title": "Satellite lofted for first Arab country",
@@ -31,6 +69,39 @@
             "n": "China Daily World",
             "b": "right",
             "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eaee9e6f5f31",
+      "title": "Brazil Blocks Visas of US Envoys Over Election Interference",
+      "description": "Brazil has denied visas to two senior US State Department officials whom the Trump administration planned to send to scrutinize the fairness and integrity of the country’s electoral system",
+      "lat": -15.78,
+      "lng": -47.93,
+      "severity": 3,
+      "location": "Brasilia, Brazil",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-25/brazil-blocks-visas-of-us-envoys-over-election-interference-fear",
+      "image": null,
+      "ts": 1784996169000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-07-25/brazil-blocks-visas-of-us-envoys-over-election-interference-fear"
           }
         ]
       }
@@ -499,6 +570,39 @@
             "n": "France 24",
             "b": "center",
             "u": "https://www.france24.com/en/india-s-cockroach-movement-ends-protests-after-education-minister-resigns"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dd21628d2441",
+      "title": "India’s youth protest leaders declare victory as minister resigns",
+      "description": "India’s viral Cockroach Janta Party called off its nationwide protests on Saturday after the country’s education minister resigned",
+      "lat": 28.7,
+      "lng": 79.0052,
+      "severity": 2,
+      "location": "New Delhi, India",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/world/india/india-education-minister-resigns-escalating-cockroach-protests-challen-rcna589188",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-07/260725-india-nd-33728a.jpg",
+      "ts": 1784976167000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/india/india-education-minister-resigns-escalating-cockroach-protests-challen-rcna589188"
           }
         ]
       }
@@ -1174,6 +1278,59 @@
       }
     },
     {
+      "id": "5356f9026351",
+      "title": "Trump swings back toward diplomacy in escalating war with Iran",
+      "description": "After threatening a “massive attack,” the president said his envoys were talking with Tehran but left open the possibility of a sharp military escalation.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/politics/2026/07/24/trump-swings-back-toward-diplomacy-escalating-iran-war/",
+      "image": "https://static01.nyt.com/images/2026/07/24/multimedia/24mideast-live-promo430p-fzwj/24mideast-live-promo430p-fzwj-mediumSquareAt3X.jpg",
+      "ts": 1784932516000,
+      "coverage": {
+        "left": 4,
+        "center": 1,
+        "right": 0,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 4,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/live/2026/07/25/world/iran-war-us-strikes-trump-oil"
+          },
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/politics/2026/07/24/trump-swings-back-toward-diplomacy-escalating-iran-war/"
+          },
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/iran/us-iran-strikes-trump-massive-attack-war-hormuz-red-sea-oil-rcna589016"
+          },
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/07/24/us-iran-ceasefire-attack-energy-prices-oil-hormuz-strait/"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/07/25/trump-iran-war-military-directive-strikes"
+          }
+        ]
+      }
+    },
+    {
       "id": "c3ad673efb89",
       "title": "Brazil and Peru sign memorandum to protect Indigenous territories",
       "description": "Brazil's Ministry of Indigenous Peoples signed a memorandum with Peru's Ministry of Culture to protect Indigenous territories along their border",
@@ -1255,59 +1412,6 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/world/2165075"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5356f9026351",
-      "title": "US launches new strikes and Trump threatens ‘massive attack’ as Iran widens war",
-      "description": "The US has launched new strikes on Iran, with President Trump threatening a 'massive attack' as Tehran opens a second front in its pressure campaign.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "NBC News World",
-      "url": "https://www.nbcnews.com/world/iran/us-iran-strikes-trump-massive-attack-war-hormuz-red-sea-oil-rcna589016",
-      "image": "https://static01.nyt.com/images/2026/07/24/multimedia/24mideast-live-promo430p-fzwj/24mideast-live-promo430p-fzwj-mediumSquareAt3X.jpg",
-      "ts": 1784929035000,
-      "coverage": {
-        "left": 5,
-        "center": 0,
-        "right": 0,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 5,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/live/2026/07/25/world/iran-war-us-strikes-trump-oil"
-          },
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/politics/2026/07/24/trump-swings-back-toward-diplomacy-escalating-iran-war/"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/iran/us-iran-strikes-trump-massive-attack-war-hormuz-red-sea-oil-rcna589016"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/not-in-best-interests-trump-warns-china-russia-against-arms-sale-to-iran-11818585#publisher=newsstand"
-          },
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/07/24/us-iran-ceasefire-attack-energy-prices-oil-hormuz-strait/"
           }
         ]
       }
@@ -2104,6 +2208,44 @@
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/pakistan-iran-explore-path-towards-new-talks-with-us-in-a-china-initiated-push-sources-say"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e4b5dbac86dd",
+      "title": "Police in Northern Ireland intercept car bomb near Irish border",
+      "description": "Irish police have intercepted a significant car bomb near the Northern Ireland border during an investigation of dissident republicans",
+      "lat": 54.6,
+      "lng": -7.0,
+      "severity": 3,
+      "location": "Northern Ireland, UK",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/police-northern-ireland-intercept-car-bomb-irish-border-135048934",
+      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
+      "ts": 1784899131000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/police-northern-ireland-intercept-car-bomb-irish-border-135048934"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/extremely-significant-car-bomb-intercepted-near-border-by-irish-police-13566599"
           }
         ]
       }
@@ -4264,58 +4406,6 @@
       "url": "https://www.aljazeera.com/news/2026/7/12/concern-for-renewed-war-in-iran-as-us-attacks-military-civilian-targets?traffic_source=rss",
       "image": null,
       "ts": 1783878627000
-    },
-    {
-      "id": "257764147ca1",
-      "title": "UN Chief Urges US and Iran to Halt Fighting",
-      "description": "The UN chief has urged the US and Iran to halt fighting and resume talks as the conflict escalates.",
-      "lat": 41.85,
-      "lng": -72.0648,
-      "severity": 4,
-      "location": "New York City, USA",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZDFTVHUyR1RLdUd4aTU0UzR5eFQ2ajVWYXVsUDI0SS1odXdiVFN5b1pHN29qTnBOZUNtUVJRNXJFSDhUSG1QU3F0Snk1SW5DamxTZm8xTUxSZWpJZGkzZnpYVzFFY0lsZDM1cWt1MmVabUZGUzZDbEltSFNqUFNOTFVnN1ZXdjQ0THowN3lHVEdiQ19iV0tjYWc2SjVpTkplSk52YVJZclE2Ti11bDl2QkZaeHpNcnVpaXc?oc=5",
-      "image": null,
-      "ts": 1783877862000
-    },
-    {
-      "id": "b1fa9e41959a",
-      "title": "Funeral Prayers Held for Qatar's Father Emir",
-      "description": "Funeral prayers have been held for Qatar's Father Emir, Sheikh Hamad bin Khalifa Al Thani, in Doha.",
-      "lat": 26.39,
-      "lng": 53.43520000000001,
-      "severity": 1,
-      "location": "Doha, Qatar",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/12/funeral-prayers-held-for-qatars-father-emir-sheikh-hamad-in-doha?traffic_source=rss",
-      "image": null,
-      "ts": 1783875491000
-    },
-    {
-      "id": "1a0c79dd63e3",
-      "title": "US and Iran exchange strikes",
-      "description": "The US insists the Strait of Hormuz is open as it exchanges strikes with Iran.",
-      "lat": 26.57,
-      "lng": 58.15520000000001,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4e75/live/a70b6a10-7e07-11f1-afb0-9dae682daff3.jpg",
-      "ts": 1783874784000
-    },
-    {
-      "id": "cba04f6d2165",
-      "title": "Qatar Mourns Death of Former Emir Sheikh Hamad",
-      "description": "Qatar is mourning the death of its former Emir, Sheikh Hamad bin Khalifa Al Thani, who played a significant role in the country's development.",
-      "lat": 26.38,
-      "lng": 51.53,
-      "severity": 1,
-      "location": "Doha, Qatar",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/funeral-prayers-held-for-qatars-father-emir-sheikh-hamad?traffic_source=rss",
-      "image": null,
-      "ts": 1783874604000
     }
   ]
 }
