@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-07-25T22:02:26.210666+00:00",
+  "updated": "2026-07-25T23:02:17.583654+00:00",
   "events": [
+    {
+      "id": "cc34b6de70e4",
+      "title": "Vehicle crashes into Berlin's Gay Pride parade, killing at least 1 person",
+      "description": "A vehicle has crashed into a crowd during Berlin's LGBTQ+ parade, killing at least one person and injuring several others.",
+      "lat": 53.62,
+      "lng": 15.315200000000004,
+      "severity": 4,
+      "location": "Berlin, Germany",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/berlin-lgbtq-pride-car-crash/",
+      "image": null,
+      "ts": 1785020297000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/berlin-lgbtq-pride-car-crash/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a0721cc297cf",
+      "title": "US halts strikes on Iran, sees opening for talks",
+      "description": "The US has halted its strikes on Iran, seeing an opportunity for talks amid a lull in Iranian attacks on commercial shipping in the Strait of Hormuz.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/07/us-halts-strikes-iran-sees-opening-talks-what-know",
+      "image": null,
+      "ts": 1785017821000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/07/us-halts-strikes-iran-sees-opening-talks-what-know"
+          }
+        ]
+      }
+    },
     {
       "id": "65a24bd93e2d",
       "title": "Berlin pride parade canceled after attack",
@@ -117,6 +183,59 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-07-25/morocco-football-boss-enters-politics-with-premier-bid-possible"
+          }
+        ]
+      }
+    },
+    {
+      "id": "23bb4ba48217",
+      "title": "US Pauses Nightly Strikes on Iran",
+      "description": "The US has paused its nightly strikes on Iran, raising questions about President Trump's strategy in the region.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-25/us-pauses-nightly-strikes-on-iran-as-houthis-clash-with-saudis",
+      "image": null,
+      "ts": 1785008871000,
+      "coverage": {
+        "left": 3,
+        "center": 1,
+        "right": 1,
+        "total": 5,
+        "buckets": {
+          "left": 2,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/iran-us-strikes-hormuz_n_6a62a4b5e4b0f1b7fc52560a"
+          },
+          {
+            "n": "The Intercept",
+            "b": "left",
+            "u": "https://theintercept.com/2026/07/21/iran-war-pentagon-casualties-injuries/"
+          },
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/live/2026/07/25/world/iran-war-us-strikes-trump-oil"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-07-25/us-pauses-nightly-strikes-on-iran-as-houthis-clash-with-saudis"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/entertainment/2026/07/25/katy-perry-freaks-out-after-white-house-uses-firework-in-iran-strikes-video-i-am-deeply-appalled/"
           }
         ]
       }
@@ -1223,6 +1342,39 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/643445-spain-france-fires-videos/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6011ef9bb7d2",
+      "title": "Côte d’Ivoire and Ghana lead Africa’s cocoa strategy through CIGCI",
+      "description": "Côte d’Ivoire and Ghana are leading Africa's cocoa strategy through the CIGCI, aiming to strengthen bargaining power and capture more value from the global cocoa trade.",
+      "lat": 5.33,
+      "lng": -4.02,
+      "severity": 1,
+      "location": "Abidjan, Côte d’Ivoire",
+      "source": "The Africa Report",
+      "url": "https://www.theafricareport.com/425540/cote-divoire-and-ghana-lead-africas-cocoa-strategy-through-cigci/",
+      "image": null,
+      "ts": 1784962800000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Africa Report",
+            "b": "center",
+            "u": "https://www.theafricareport.com/425540/cote-divoire-and-ghana-lead-africas-cocoa-strategy-through-cigci/"
           }
         ]
       }
@@ -4494,58 +4646,6 @@
       "url": "https://www.aljazeera.com/news/2026/7/12/us-launches-new-wave-of-strikes-against-iran-aimed-at-degrading-military?traffic_source=rss",
       "image": null,
       "ts": 1783897412000
-    },
-    {
-      "id": "481045125b2a",
-      "title": "Israel to hold national elections on October 27",
-      "description": "Israel's parliament has announced that national elections will be held on October 27, with Prime Minister Netanyahu confirming he will run for office again.",
-      "lat": 31.78,
-      "lng": 35.22,
-      "severity": 2,
-      "location": "Jerusalem, Israel",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/12/israel-to-hold-national-elections-on-october-27-parliament-says?traffic_source=rss",
-      "image": null,
-      "ts": 1783891588000
-    },
-    {
-      "id": "a56fcec7a79a",
-      "title": "Iran says almost a dozen 'enemy projectiles' targeted Qeshm Island",
-      "description": "Iran has reported that almost a dozen 'enemy projectiles' have targeted Qeshm Island, amid escalating tensions in the region.",
-      "lat": 26.97,
-      "lng": 56.27000000000001,
-      "severity": 4,
-      "location": "Qeshm Island, Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/iran-says-almost-a-dozen-enemy-projectiles-targeted-qeshm-island?traffic_source=rss",
-      "image": null,
-      "ts": 1783886186000
-    },
-    {
-      "id": "56e21b8de3ac",
-      "title": "Iraqi PM to Meet US President",
-      "description": "The Iraqi PM is set to meet the US President in Washington to deepen strategic ties.",
-      "lat": 38.89,
-      "lng": -77.01,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/12/iraqi-pm-to-meet-us-president-trump-in-washington-to-deepen-strategic-ties?traffic_source=rss",
-      "image": null,
-      "ts": 1783885680000
-    },
-    {
-      "id": "c575a5a9613d",
-      "title": "Iraqi PM to meet US President Trump in Washington",
-      "description": "The Iraqi Prime Minister is set to meet US President Trump in Washington, with oil and gas deals expected to be signed.",
-      "lat": 40.0,
-      "lng": -77.02,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/12/iraqi-pm-to-meet-us-president-trump-in-washington-to-deepen-strategic-ties?traffic_source=rss",
-      "image": null,
-      "ts": 1783885680000
     }
   ]
 }
