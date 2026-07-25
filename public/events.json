@@ -1,7 +1,116 @@
 {
   "schema": 1,
-  "updated": "2026-07-25T13:58:02.689956+00:00",
+  "updated": "2026-07-25T15:12:47.009320+00:00",
   "events": [
+    {
+      "id": "10e34edb5724",
+      "title": "Visiting UN chief urges respect for Syria's sovereignty, international support",
+      "description": "UN chief Antonio Guterres on Saturday called for an end to Israeli violations in Syria and urged international support for the country's transition.",
+      "lat": 33.52,
+      "lng": 36.28999999999999,
+      "severity": 2,
+      "location": "Damascus, Syria",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/07/visiting-un-chief-urges-respect-syrias-sovereignty-international-support",
+      "image": null,
+      "ts": 1784989838000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/07/visiting-un-chief-urges-respect-syrias-sovereignty-international-support"
+          }
+        ]
+      }
+    },
+    {
+      "id": "83bfd26d7c0e",
+      "title": "UNESCO adds West Bank site, Lebanese castles to World Heritage List",
+      "description": "UNESCO added a major archaeological site in the West Bank and a group of historic castles in southern Lebanon to its World Heritage List, defying Israeli objections.",
+      "lat": 31.95,
+      "lng": 37.115200000000016,
+      "severity": 2,
+      "location": "West Bank",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20260725-unesco-adds-west-bank-site-lebanese-castles-to-world-heritage-list-despite-israeli-opposition",
+      "image": "https://s.france24.com/media/display/a615f28a-8832-11f1-9803-005056bfb2b6/w:1024/p:16x9/AP26205335159820.jpg",
+      "ts": 1784989770000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/georgias-okefenokee-swamp-new-additions-join-unescos-world-135076385"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20260725-unesco-adds-west-bank-site-lebanese-castles-to-world-heritage-list-despite-israeli-opposition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "afeacb3954ce",
+      "title": "At least 35 people killed after buses collide in Syria",
+      "description": "The crash occurred on a highway linking the Syrian capital with Deir el-Zour.",
+      "lat": 33.52,
+      "lng": 38.1952,
+      "severity": 4,
+      "location": "Damascus, Syria",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/35-people-killed-after-buses-collide-syria-state-135078799",
+      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
+      "ts": 1784987763000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/35-people-killed-after-buses-collide-syria-state-135078799"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/35-dead-30-injured-after-buses-collide-on-syrian-highway"
+          }
+        ]
+      }
+    },
     {
       "id": "1887685c6654",
       "title": "Wildfires in France and Spain force 200,000 to flee",
@@ -69,6 +178,39 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/africa/congo-ebola-outbreak-nears-3000-cases-as-death-toll-tops-1300"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dc66846f997c",
+      "title": "Iran Journey Reveals Society’s Wartime Defiance and Hope",
+      "description": "A journey through Iran reveals a society that is defiant but also weary, despairing but hopeful.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/07/25/world/middleeast/what-a-journey-through-wartime-iran-revealed.html",
+      "image": "https://static01.nyt.com/images/2026/07/25/multimedia/25iran-01-gvkh/25iran-01-gvkh-mediumSquareAt3X.jpg",
+      "ts": 1784981486000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/25/world/middleeast/what-a-journey-through-wartime-iran-revealed.html"
           }
         ]
       }
@@ -4069,58 +4211,6 @@
       "url": "https://www.aljazeera.com/news/2026/7/12/ukraines-zelenskyy-announces-cabinet-reshuffle-replaces-pm-svyrydenko?traffic_source=rss",
       "image": null,
       "ts": 1783862933000
-    },
-    {
-      "id": "7cd34d6e7c17",
-      "title": "Ukraine's Zelenskyy Announces Cabinet Reshuffle",
-      "description": "Ukraine's President Zelenskyy has announced a cabinet reshuffle, which could lead to changes in Ukraine's government and policies.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 2,
-      "location": "Kyiv, Ukraine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/12/ukraines-zelenskyy-announces-cabinet-reshuffle-replaces-pm-svyrydenko?traffic_source=rss",
-      "image": null,
-      "ts": 1783862933000
-    },
-    {
-      "id": "f043ba93eae4",
-      "title": "Oman convokes Iranian ambassador to protest attacks",
-      "description": "Oman has convoked the Iranian ambassador to protest attacks on its territory.",
-      "lat": 24.71,
-      "lng": 60.4452,
-      "severity": 3,
-      "location": "Muscat, Oman",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/07/12/oman-convoca-ambasciatore-iran-protesta-formale-per-attacchi_cbdf5e2a-361c-4091-aa44-7b3aea16b93c.html",
-      "image": null,
-      "ts": 1783859559000
-    },
-    {
-      "id": "ac271b1e136f",
-      "title": "Qatar mourns Father Emir Sheikh Hamad bin Khalifa Al Thani",
-      "description": "Qatar is mourning the death of former Emir Sheikh Hamad bin Khalifa Al Thani, who ruled the country from 1995 to 2013 and was a key architect of its development.",
-      "lat": 25.29,
-      "lng": 51.53,
-      "severity": 1,
-      "location": "Doha, Qatar",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/qatar-mourns-father-emir-sheikh-hamad-bin-khalifa-al-thani?traffic_source=rss",
-      "image": null,
-      "ts": 1783858242000
-    },
-    {
-      "id": "08ddcd042f0f",
-      "title": "El Salvador Humanitarian Aid to Venezuela",
-      "description": "The government of El Salvador is setting up a humanitarian hospital in Venezuela to provide assistance to those affected by the recent earthquake.",
-      "lat": 10.22,
-      "lng": -84.1,
-      "severity": 1,
-      "location": "San Salvador, El Salvador",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/07/12/il-governo-di-el-salvador-allestisce-un-ospedale-umanitario-in-venezuela_19772719-c86d-4239-bdb8-da22804fd642.html",
-      "image": null,
-      "ts": 1783853523000
     }
   ]
 }
