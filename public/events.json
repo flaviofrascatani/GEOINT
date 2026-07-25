@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-07-25T12:07:21.649453+00:00",
+  "updated": "2026-07-25T13:58:02.689956+00:00",
   "events": [
+    {
+      "id": "1887685c6654",
+      "title": "Wildfires in France and Spain force 200,000 to flee",
+      "description": "The fires in Spain and France advanced quickly because of tinderbox conditions worsened by successive heatwaves.",
+      "lat": 44.8378,
+      "lng": -0.579199999999986,
+      "severity": 3,
+      "location": "Bordeaux, France",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/wildfires-france-spain-madrid-bordeaux-evacuations-europe/",
+      "image": null,
+      "ts": 1784982694000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/wildfires-france-spain-madrid-bordeaux-evacuations-europe/"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/643445-spain-france-fires-videos/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fd82e07d5170",
+      "title": "Congo Ebola outbreak nears 3,000 cases as death toll tops 1,300",
+      "description": "The Ebola outbreak in the Democratic Republic of Congo continued to worsen, with the number of confirmed infections rising to 2,973 and the death toll reaching 1,309.",
+      "lat": -4.3281,
+      "lng": 15.3139,
+      "severity": 4,
+      "location": "Kinshasa, Democratic Republic of the Congo",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/world/africa/congo-ebola-outbreak-nears-3000-cases-as-death-toll-tops-1300",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/07/25/452491.jpg",
+      "ts": 1784982360000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/africa/congo-ebola-outbreak-nears-3000-cases-as-death-toll-tops-1300"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2339985a06a4",
+      "title": "UN chief urges global support for Syria as it recovers from civil war",
+      "description": "Antonio Guterres, who held talks with interim President Ahmed al-Sharaa, said the country was at a 'pivotal moment'.",
+      "lat": 34.615,
+      "lng": 38.200199999999995,
+      "severity": 1,
+      "location": "Damascus, Syria",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/07/25/un-chief-urges-global-support-for-syria-as-it-recovers-from-civil-war/",
+      "image": "http://images.euronews.com/articles/stories/09/85/05/60/640x360_cmsv2_b4c747e8-5950-57c2-8ac9-4f01da784be5-9850560.jpg?1784977426",
+      "ts": 1784980757000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/07/25/un-chief-urges-global-support-for-syria-as-it-recovers-from-civil-war/"
+          }
+        ]
+      }
+    },
     {
       "id": "a06f97b66e5d",
       "title": "UN chief urges international community to back Syrians during visit to Damascus",
@@ -423,6 +527,89 @@
       }
     },
     {
+      "id": "be6df97ec5ce",
+      "title": "Iran-backed Houthis claim missile attack on Saudi Arabia",
+      "description": "US military says it disabled a tanker that was attempting to evade the American blockade on Iranian ports.",
+      "lat": 16.89,
+      "lng": 42.63,
+      "severity": 3,
+      "location": "Jizan, Saudi Arabia",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss",
+      "image": "https://www.rte.ie/images/0024be61-800.jpg",
+      "ts": 1784961280000,
+      "coverage": {
+        "left": 1,
+        "center": 9,
+        "right": 1,
+        "total": 11,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 9,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-saudi-arabia-houthis-attack-gulf-states-strait-of-hormuz-live-updates-july-25-2026/article71265151.ece"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/07/25/saudi-military-strikes-iran-backed-houthi-targets-yemen.html"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/middle-east/2026/0725/1585036-houthis-strikes/"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/14ee6049-87bf-4aac-b684-c9937374fdcc?syn-25a6b1a6=1"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/iran-war-houthis-vow-response-to-dangerous-escalation-by-saudi-arabia/live-78107211?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/iran-news/article-903582"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVnV3Mm1rUEtJU2NZVURHalNWRVFISmJVZjQzNlFPdC1XVTY3NFcyZzVJd1phMk01RmlJdnIyTkF4RmNwWHk1dDlaNG1scmhlamo0RjZFbzZCU0hNRXE3T2FVNW94aTVMXzJVMWo4clpQY3Fnb2NMRXNsMUViOEZNX1JJdXFwOFZ0RTIwbTA4Z3dnNl9POVZqYk1lbnZITG8?oc=5"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/07/houthis-claim-strike-saudi-arabia-conflict-deepens"
+          },
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/saudi-arabia-strikes-huthi-targets-in-yemen-after-vessel-was-attacked-in-red-sea/"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/saudi-arabia-intercepts-houthi-missiles-targeting-oil-refineries"
+          }
+        ]
+      }
+    },
+    {
       "id": "4affeb67822e",
       "title": "Trump says Israeli PM Netanyahu to visit US next week",
       "description": "US President Donald Trump announced that Israeli Prime Minister Benjamin Netanyahu will visit the US next week.",
@@ -466,69 +653,6 @@
             "n": "Times of India World",
             "b": "center",
             "u": "https://timesofindia.indiatimes.com/world/middle-east/trump-confirms-netanyahus-us-visit-next-week-amid-regional-tensions/articleshow/132617908.cms"
-          }
-        ]
-      }
-    },
-    {
-      "id": "be6df97ec5ce",
-      "title": "Houthis claim Saudi Arabia strike, US mulls Iran strategy",
-      "description": "The Houthis claimed to have struck Saudi Arabia with missiles on Saturday morning, deepening their involvement in the Middle East war, while the US appeared to end a run of 13 days of strikes on Iran.",
-      "lat": 16.89,
-      "lng": 42.63,
-      "severity": 4,
-      "location": "Jizan, Saudi Arabia",
-      "source": "RTE News",
-      "url": "https://www.rte.ie/news/middle-east/2026/0725/1585036-houthis-strikes/",
-      "image": "https://www.rte.ie/images/0024be61-800.jpg",
-      "ts": 1784953015000,
-      "coverage": {
-        "left": 1,
-        "center": 6,
-        "right": 0,
-        "total": 7,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 6,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-saudi-arabia-houthis-attack-gulf-states-strait-of-hormuz-live-updates-july-25-2026/article71265151.ece"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/middle-east/2026/0725/1585036-houthis-strikes/"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/iran-war-houthis-vow-response-to-dangerous-escalation-by-saudi-arabia/live-78107211?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/iran-news/article-903582"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-07-25/houthi-claim-missile-strikes-on-southern-saudi-arabia"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/07/houthis-claim-strike-saudi-arabia-conflict-deepens"
           }
         ]
       }
@@ -3997,45 +4121,6 @@
       "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/07/12/il-governo-di-el-salvador-allestisce-un-ospedale-umanitario-in-venezuela_19772719-c86d-4239-bdb8-da22804fd642.html",
       "image": null,
       "ts": 1783853523000
-    },
-    {
-      "id": "126c6d2667e5",
-      "title": "US Senator Graham died day after his last visit to Kyiv",
-      "description": "His Russia's 'sanctions from hell' bill loses its architect at moment it might pass.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 3,
-      "location": "Kyiv, Ukraine",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPenVPcy1nc3JuWmlFNHpqLXV6NEQzNVBOMVZsSGdTblZuakR4M2M0SFVFenhWQ0MzZF9nMURPakFpNGdVVWJBZ3Zfdlkza21tbnBBSUN6R1c5bHZsRF9YNy1tUXFEd0ZVOVgxS2FBMkFRQlJlajZET3oxdTZfQ24yV3ZFTFUyRURhNWY4b3VzMlVKOVpUN3YtQmRTVVVWdnh3NnV5THg4emxJdURTdzZqa2lrUF9vYTVjOVBxbzVhTF8tRlBmMEVaRm50YnhnMEZvVjNLR3Y5amhpRVM2dXJJSDZWUWRRWC1ZT1NieWs2dzgtZmR0aGR5UW5KZUhYYy0xcWNHRmJn?oc=5",
-      "image": null,
-      "ts": 1783848451000
-    },
-    {
-      "id": "4ba99e24ae76",
-      "title": "Iran attacks five Gulf nations, shuts Hormuz",
-      "description": "Iran has attacked five Gulf nations and shut the Strait of Hormuz after US bombing.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 5,
-      "location": "Strait of Hormuz",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/12/iran-attacks-five-gulf-nations-shuts-hormuz-after-us-bombing-all-to-know?traffic_source=rss",
-      "image": null,
-      "ts": 1783847606000
-    },
-    {
-      "id": "8fc13d5bc295",
-      "title": "China evacuates nearly two million people as powerful typhoon makes landfall",
-      "description": "China has evacuated nearly two million people as a powerful typhoon makes landfall, with widespread disruption expected.",
-      "lat": 27.67,
-      "lng": 122.36259999999999,
-      "severity": 3,
-      "location": "Zhejiang province, China",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cdxd3wkp2rzo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e90d/live/996516b0-7dce-11f1-b976-0b9c15b0ccfc.jpg",
-      "ts": 1783841985000
     }
   ]
 }
