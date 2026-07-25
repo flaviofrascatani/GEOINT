@@ -1,41 +1,246 @@
 {
   "schema": 1,
-  "updated": "2026-07-25T09:06:13.144900+00:00",
+  "updated": "2026-07-25T10:41:02.980251+00:00",
   "events": [
     {
-      "id": "73533e77f8e0",
-      "title": "UN Chief Guterres calls for global support on landmark Syria trip",
-      "description": "United Nations Secretary-General Antonio Guterres arrived in Damascus on Saturday for the first visit by a U.N. chief to Syria in 17 years, calling on the international community to support the war-torn country.",
-      "lat": 33.51,
-      "lng": 36.18,
-      "severity": 1,
-      "location": "Damascus, Syria",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/world/mid-east/un-chief-guterres-calls-for-global-support-on-landmark-syria-trip",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/07/25/452475.jpg",
-      "ts": 1784969460000,
+      "id": "6739a29ca0af",
+      "title": "Wildfires Rage in France and Spain",
+      "description": "Hot, arid weather and strong winds have continued to fuel wildfires in France, Spain and Italy, devastating huge swaths of land and forcing mass evacuations.",
+      "lat": 46.4878,
+      "lng": 1.531800000000004,
+      "severity": 3,
+      "location": "Bordeaux, France",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/europe-wildfires-rage-on-forcing-200-000-from-homes/a-78109406?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1784976062802,
       "coverage": {
-        "left": 1,
+        "left": 3,
         "center": 1,
         "right": 1,
-        "total": 3,
+        "total": 5,
         "buckets": {
           "left": 0,
-          "lean_left": 1,
+          "lean_left": 3,
           "center": 1,
           "lean_right": 1,
           "right": 0
         },
         "sources": [
           {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/25/world/europe/france-spain-wildfires-evacuations.html"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/wildfires-force-200000-people-southern-france-central-spain-135065368"
+          },
+          {
             "n": "Al Jazeera",
             "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/7/25/guterres-arrives-in-syria-in-first-official-visit-by-a-un-chief-in-17-years?traffic_source=rss"
+            "u": "https://www.aljazeera.com/news/2026/7/25/wildfires-in-spain-and-france-force-evacuation-of-200000-people?traffic_source=rss"
           },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/europe-wildfires-rage-on-forcing-200-000-from-homes/a-78109406?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/643445-spain-france-fires-videos/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "db24643462fb",
+      "title": "China Evacuates 20,000 People as Typhoon Noul Nears",
+      "description": "Typhoon Noul is forecast to make landfall in the coastal area stretching from Hong Kong to Guangdong province between Saturday evening and Sunday morning.",
+      "lat": 22.3964,
+      "lng": 114.1095,
+      "severity": 3,
+      "location": "Hong Kong, China",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/east-asia/china-typhoon-noul-20000-people-evacuate-hong-kong-guangdong-6277921",
+      "image": null,
+      "ts": 1784974740000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/east-asia/china-typhoon-noul-20000-people-evacuate-hong-kong-guangdong-6277921"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c0e64a4d4a74",
+      "title": "Russian Attack Kills 3 in Ukraine",
+      "description": "Ukrainian President Volodymyr Zelensky warned that Russia was preparing missiles for a large attack.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 2,
+      "location": "Kyiv, Ukraine",
+      "source": "New York Post",
+      "url": "https://nypost.com/2026/07/25/world-news/russian-attack-kills-3-in-ukraine-as-romania-downs-second-drone-in-2-days/",
+      "image": null,
+      "ts": 1784974276000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/russian-attack-kills-3-ukraines-sumy-region-romania-135076941"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-07-25/ukraine-drone-strike-hits-tyumen-oil-refinery-deep-inside-russian-territory"
+          },
+          {
+            "n": "Times of India World",
+            "b": "center",
+            "u": "https://timesofindia.indiatimes.com/world/europe/10-killed-nearly-100-injured-in-russian-strike-on-ukraine-defence-event/articleshow/132617526.cms"
+          },
+          {
+            "n": "New York Post",
+            "b": "lean_right",
+            "u": "https://nypost.com/2026/07/25/world-news/russian-attack-kills-3-in-ukraine-as-romania-downs-second-drone-in-2-days/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3e9c5f6ebbb5",
+      "title": "India's Education Minister Resigns",
+      "description": "Dharmendra Pradhan resigned on Saturday after protests over exam paper leaks, marking the biggest concession yet by the government to one of the country's largest student movements.",
+      "lat": 28.7041,
+      "lng": 77.1025,
+      "severity": 1,
+      "location": "New Delhi, India",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3361839/indias-education-minister-quits-major-win-youth-protesters?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/25/00bf80ac-0e65-43d9-a9e4-a216fe3e6f2d_da0a1793.jpg?itok=nKD8XspR&v=1784973705",
+      "ts": 1784973709000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/25/world/asia/india-education-minister-resigns.html"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/07/25/india-education-minister-announces-resignation-after-countrywide-protests_6755822_4.html"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-07-25/india-education-minister-pradhan-resigns-after-student-protests"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0ebebd0dad80",
+      "title": "Egyptian and Dutch FMs Discuss Strengthening Bilateral Relations",
+      "description": "Foreign Minister, International Cooperation, and Egyptian Expatriates Badr Abdelatty welcomed the progress witnessed in Egyptian-Dutch relations in recent years during a meeting on Friday.",
+      "lat": 30.0626,
+      "lng": 31.2497,
+      "severity": 2,
+      "location": "Cairo, Egypt",
+      "source": "Egypt Independent",
+      "url": "https://www.egyptindependent.com/egyptian-dutch-fms-discuss-strengthening-bilateral-relations-regional-developments/",
+      "image": null,
+      "ts": 1784973464000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/egyptian-dutch-fms-discuss-strengthening-bilateral-relations-regional-developments/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "73533e77f8e0",
+      "title": "UN Secretary General Visits Syria",
+      "description": "U.N. Secretary General Antonio Guterres arrived in Damascus on Saturday for the first trip to Syria by a serving United Nations' chief since 2009.",
+      "lat": 33.51,
+      "lng": 36.18,
+      "severity": 2,
+      "location": "Damascus, Syria",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/07/guterres-makes-first-visit-syria-un-chief-civil-war",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/07/25/452475.jpg",
+      "ts": 1784969460000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
           {
             "n": "Al-Monitor",
             "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/07/guterres-set-be-first-un-chief-visit-syria-2011-war"
+            "u": "https://www.al-monitor.com/originals/2026/07/guterres-makes-first-visit-syria-un-chief-civil-war"
           },
           {
             "n": "Daily Sabah",
@@ -329,6 +534,39 @@
             "n": "CNBC World",
             "b": "center",
             "u": "https://www.cnbc.com/2026/07/24/russia-ukraine-war-zelenskyy-putin-oil.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2022ee18986",
+      "title": "US Military Intentionally Allowing Some Iranian Projectiles Through Defenses",
+      "description": "Two senior U.S. officials tell NBC News that military commanders are allowing some Iranian missiles and attack drones to get through air defenses amid an effort to preserve the Pentagon's shrinking supplies of interceptor missiles.",
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "severity": 4,
+      "location": "Washington D.C., USA",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/nightly-news/video/u-s-military-intentionally-allowing-some-iranian-projectiles-through-defenses-267250757926",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/mpx/2704722219/2026_07/1784933540192_nn_cku_iran_missiles_update_260724_S3_1920x1080-2hpha7.jpg",
+      "ts": 1784933544000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/nightly-news/video/u-s-military-intentionally-allowing-some-iranian-projectiles-through-defenses-267250757926"
           }
         ]
       }
@@ -2820,19 +3058,6 @@
       "ts": 1783976228000
     },
     {
-      "id": "c0e64a4d4a74",
-      "title": "Ukraine and Allies Launch Coalition to Tackle Russian Ballistic Missiles",
-      "description": "Ukraine and its allies have launched a coalition to tackle Russia's ballistic missiles.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 3,
-      "location": "Kyiv, Ukraine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/ukraine-and-allies-launch-coalition-to-tackle-russias-ballistic-missiles?traffic_source=rss",
-      "image": null,
-      "ts": 1783975287000
-    },
-    {
       "id": "c4f853b099b0",
       "title": "Iran Warns US Against Interference in Strait of Hormuz",
       "description": "Iran's military has warned the US against interfering in the management of the Strait of Hormuz.",
@@ -3676,71 +3901,6 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/12/nigeria-rescues-dozens-of-abducted-school-children-in-oyo-state?traffic_source=rss",
       "image": null,
       "ts": 1783821361000
-    },
-    {
-      "id": "4f0c4f67ac3d",
-      "title": "Iran war live: Tehran attacks Jordan, Bahrain and Kuwait after US bombings",
-      "description": "Iran targets Jordan and Gulf states after US bombs Iranian cities including Bandar Abbas, Sirik and Chabahar",
-      "lat": 32.32,
-      "lng": 54.96520000000001,
-      "severity": 5,
-      "location": "Tehran, Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/7/12/iran-war-live-irgc-declares-strait-of-hormuz-closed-over-us-interference?traffic_source=rss",
-      "image": null,
-      "ts": 1783814400000
-    },
-    {
-      "id": "40e2b4cd60f5",
-      "title": "Iran closes Strait of Hormuz",
-      "description": "Iran says Strait of Hormuz closed 'until further notice' after firing a warning shot at a vessel in the strait",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/721f/live/8f50baf0-7d59-11f1-b976-0b9c15b0ccfc.jpg",
-      "ts": 1783811658000
-    },
-    {
-      "id": "79c3e713a995",
-      "title": "Iran Conflict Lifts Mortgage Rates",
-      "description": "The conflict with Iran has led to an increase in mortgage rates, but housing demand remains positive.",
-      "lat": 38.89,
-      "lng": -77.01,
-      "severity": 3,
-      "location": "Washington, D.C., USA",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaHp1Rm5mUzA5cEtmZFA5RkJnMldTSFNyZVhBSG9GTmpRSlQwUXVqamNROENEN0trLXhIaThUc0Jjdm9SckdiZEdHNlJ4T3VsZjQzMzRFc0RERE5ja280ZmM0NVJweHNjSDREUFREaFRrYVpYZGZjQ2dkREFoS2NSaUJLWnJDd2RKek1OZDNzTVhOWHc5aEVIQVZwWnlYVjdlMU1WRHROR1M5QQ?oc=5",
-      "image": null,
-      "ts": 1783803443000
-    },
-    {
-      "id": "908003e69060",
-      "title": "Iran supreme leader calls for revenge for father's killing",
-      "description": "Iran's supreme leader has called for revenge for his father's killing, stating that vengeance is 'inevitable' and a 'desire of the nation'",
-      "lat": 35.69,
-      "lng": 51.420000000000016,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cj9gkpp0dkeo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/721f/live/8f50baf0-7d59-11f1-b976-0b9c15b0ccfc.jpg",
-      "ts": 1783798236000
-    },
-    {
-      "id": "2fbbec0fdd79",
-      "title": "US Rep Ro Khanna speaks out about being harassed by Israeli settlers",
-      "description": "US Rep Ro Khanna speaks out about being harassed by Israeli settlers",
-      "lat": 31.78,
-      "lng": 35.22,
-      "severity": 3,
-      "location": "West Bank",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/us-rep-ro-khanna-speaks-out-about-being-harassed-by-israeli-settlers?traffic_source=rss",
-      "image": null,
-      "ts": 1783796341000
     }
   ]
 }
