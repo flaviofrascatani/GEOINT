@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-07-26T22:09:27.316490+00:00",
+  "updated": "2026-07-26T23:32:10.473828+00:00",
   "events": [
+    {
+      "id": "57144d0814f7",
+      "title": "Enemy drone attack leaves 12, including two minors, injured in Russia’s Belgorod",
+      "description": "A drone attack on the Russian city of Belgorod has left 12 people injured, including two minors.",
+      "lat": 50.59,
+      "lng": 36.59,
+      "severity": 4,
+      "location": "Belgorod, Russia",
+      "source": "TASS",
+      "url": "https://tass.com/emergencies/2165737",
+      "image": null,
+      "ts": 1785107369000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/emergencies/2165737"
+          }
+        ]
+      }
+    },
     {
       "id": "243b8d58c4c0",
       "title": "Burnham: 'Pronto a contrastare Trump se necessario'. E oggi incontra Zelensky",
@@ -383,6 +416,54 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/07/26/ugandan-diplomat-olara-otunnu-joins-race-to-lead-the-united-nations/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5aaf220f4b6b",
+      "title": "U.S. forgoes strikes on Iran, but conflict in the Red Sea escalates",
+      "description": "The U.S. has paused its strikes on Iran, but the conflict in the Red Sea has escalated, with both sides engaging in military actions.",
+      "lat": 21.72,
+      "lng": 39.15,
+      "severity": 2,
+      "location": "Jeddah, Saudi Arabia",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeWVyNHlmdS1zUk1OOFRSdWJDNkN5a2NNV0JleEM0d2tnV0dBOG1XUEhWTTJROXNFMzlHODlOSnh3ZXFUQm8tUEw1OHZSWGhwR2wxWENrN1ROdUJjT1htaXJTdXppN0V0MTNWWXNsQmZtU2wyTjNaUVFKTFpXU0pRVTRDZlVWOWRnWG93Z3o1MlM3eGFvdmJUal9ZdHE?oc=5",
+      "image": null,
+      "ts": 1785076448000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 1,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/houthis-fire-saudi-oil-installations-on-the-red-seacoast_n_6a64bcc5e4b089c33066a05c"
+          },
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/iran/us-forgoes-strikes-iran-conflict-escalates-red-sea-rcna589285"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeWVyNHlmdS1zUk1OOFRSdWJDNkN5a2NNV0JleEM0d2tnV0dBOG1XUEhWTTJROXNFMzlHODlOSnh3ZXFUQm8tUEw1OHZSWGhwR2wxWENrN1ROdUJjT1htaXJTdXppN0V0MTNWWXNsQmZtU2wyTjNaUVFKTFpXU0pRVTRDZlVWOWRnWG93Z3o1MlM3eGFvdmJUal9ZdHE?oc=5"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/07/iran-war-spreads-red-sea-and-caspian-gulf-quiet-us-forgoes-strikes"
           }
         ]
       }
@@ -1407,11 +1488,11 @@
     },
     {
       "id": "ad491114c5b2",
-      "title": "Houthis Fire Missiles At Saudi Arabia",
-      "description": "Yemen’s Iran-backed Houthi rebels say they fired missiles and drones at Saudi Arabia in response to Saudi airstrikes on Yemen's strategic Red Sea city of Hodeida.",
+      "title": "Houthis Fire Missiles At Saudi Arabia In Response To Airstrikes In Yemen",
+      "description": "Yemen's Houthi rebels have fired missiles and drones at Saudi Arabia in response to Saudi airstrikes on Yemen's strategic Red Sea city of Hodeida.",
       "lat": 24.71,
       "lng": 46.67,
-      "severity": 3,
+      "severity": 4,
       "location": "Riyadh, Saudi Arabia",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/ap-ml-iran-us-houthis-saudi-arabia_n_6a651d0ce4b021af4925b01c",
@@ -1419,13 +1500,13 @@
       "ts": 1785032591000,
       "coverage": {
         "left": 2,
-        "center": 2,
+        "center": 1,
         "right": 0,
-        "total": 4,
+        "total": 3,
         "buckets": {
           "left": 1,
           "lean_left": 1,
-          "center": 2,
+          "center": 1,
           "lean_right": 0,
           "right": 0
         },
@@ -1444,11 +1525,6 @@
             "n": "BBC World",
             "b": "center",
             "u": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/singapore/mfa-condemn-red-sea-attacks-saudi-arabia-6279121"
           }
         ]
       }
@@ -2247,104 +2323,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/russian-attack-kills-3-ukraines-sumy-region-romania-135076941"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5aaf220f4b6b",
-      "title": "Houthis Fire On Saudi Oil Installations On The Red Sea Coast",
-      "description": "Houthis fired on Saudi oil installations on the Red Sea coast, prompting a response from the US which held back from launching air strikes on Iran.",
-      "lat": 21.72,
-      "lng": 39.15,
-      "severity": 4,
-      "location": "Jeddah, Saudi Arabia",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/houthis-fire-saudi-oil-installations-on-the-red-seacoast_n_6a64bcc5e4b089c33066a05c",
-      "image": null,
-      "ts": 1784987976000,
-      "coverage": {
-        "left": 4,
-        "center": 9,
-        "right": 1,
-        "total": 14,
-        "buckets": {
-          "left": 1,
-          "lean_left": 3,
-          "center": 9,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/houthis-fire-saudi-oil-installations-on-the-red-seacoast_n_6a64bcc5e4b089c33066a05c"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/business/markets/oil-prices-rise-red-sea-attacks-houthis-saudi-trump-iran-war-rcna588851"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/07/25/houthis-target-saudi-oil-over-red-sea-front_6755831_4.html"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/houthis-fire-missiles-drones-at-saudi-arabia-in-response-to-strikes-on-yemeni-city/article71267142.ece"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/07/25/saudi-military-strikes-iran-backed-houthi-targets-yemen.html"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/middle-east/2026/0725/1585036-houthis-strikes/"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/14ee6049-87bf-4aac-b684-c9937374fdcc?syn-25a6b1a6=1"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/iran-war-houthis-vow-response-to-dangerous-escalation-by-saudi-arabia/live-78107211?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/policy/international/5990145-houthi-rebels-yemen-saudi-arabia-strikes-iran-war/"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVnV3Mm1rUEtJU2NZVURHalNWRVFISmJVZjQzNlFPdC1XVTY3NFcyZzVJd1phMk01RmlJdnIyTkF4RmNwWHk1dDlaNG1scmhlamo0RjZFbzZCU0hNRXE3T2FVNW94aTVMXzJVMWo4clpQY3Fnb2NMRXNsMUViOEZNX1JJdXFwOFZ0RTIwbTA4Z3dnNl9POVZqYk1lbnZITG8?oc=5"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-07-25/houthi-claim-missile-strikes-on-southern-saudi-arabia"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/07/trump-mulls-iran-escalation-houthis-fire-saudi-red-sea-oil-sites"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/saudi-arabia-strikes-huthi-targets-in-yemen-after-vessel-was-attacked-in-red-sea/"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/world/4663431/houthis-fire-missiles-drones-saudi-arabia/"
           }
         ]
       }
@@ -5758,19 +5736,6 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOU2lKTzVzSEQ1M0s2YVg3UkFmQkVJWWNJdkdCR2JHMW4zcDRONElZamZEMUdBMldWaXp4UVVjMDZWX3FBTWVuTjJfR1FQazRBazdBZ2E2TVRqM0xsT0hxS1U1cTl3OWZHUnEyRm9SSFJmQnFrM1NrWUtCRkRqR3JyQ0gwS20yVmtS?oc=5",
       "image": null,
       "ts": 1783982528000
-    },
-    {
-      "id": "cbd74498b97a",
-      "title": "US to Impose 20% Charge on Cargo Passing Through Strait of Hormuz",
-      "description": "The US president has announced plans to impose a 20% charge on all cargo shipped through the Strait of Hormuz.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/caac/live/6d318280-7ece-11f1-a521-db2da184cdb6.jpg",
-      "ts": 1783976228000
     }
   ]
 }
