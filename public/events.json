@@ -1,30 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-07-26T14:11:13.357361+00:00",
+  "updated": "2026-07-26T15:42:48.139743+00:00",
   "events": [
     {
+      "id": "ec6346e1051d",
+      "title": "Trump to meet Zelensky at White House",
+      "description": "President Trump will meet Ukrainian President Volodymyr Zelensky at the White House on Tuesday",
+      "lat": 38.9,
+      "lng": -77.02,
+      "severity": 1,
+      "location": "Washington D.C., USA",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/07/26/trump-zelensky-white-house-maga-ukraine",
+      "image": "https://images.axios.com/iBI0lZ2w0_TCH-l_FmL3o6DkYZ0=/0x585:5617x3745/1366x768/2026/07/26/1785077071387.jpeg",
+      "ts": 1785078935000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cd7le4ylev2o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/07/26/trump-zelensky-white-house-maga-ukraine"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/europe/2026/07/26/trump-and-zelensky-to-meet-in-washington-this-week/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3430eccec022",
+      "title": "UN chief urges immediate removal of all Syria sanctions",
+      "description": "United Nations chief Antonio Guterres on Sunday urged the removal of all sanctions imposed on Syria during the era of ousted ruler Bashar al-Assad",
+      "lat": 33.51,
+      "lng": 36.28999999999999,
+      "severity": 2,
+      "location": "Damascus, Syria",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/07/un-chief-urges-immediate-removal-all-syria-sanctions",
+      "image": null,
+      "ts": 1785076234000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/07/un-chief-urges-immediate-removal-all-syria-sanctions"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/business/economy/un-chief-calls-for-removal-of-all-syria-sanctions-during-visit"
+          }
+        ]
+      }
+    },
+    {
       "id": "b80448a35925",
-      "title": "Germany classifies Berlin Pride attack as terror attack",
-      "description": "German authorities have classified the Berlin Pride attack as a terror attack, with the suspect believed to have Islamist ties.",
+      "title": "Berlin Pride attack",
+      "description": "A van slammed into people gathered for Berlin’s Pride event, killing one person and injuring at least 16 others",
       "lat": 52.52,
       "lng": 15.315200000000004,
-      "severity": 3,
+      "severity": 4,
       "location": "Berlin, Germany",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/germany-classifies-berlin-pride-ramming-as-terror-attack/live-78117180?maca=en-rss-en-all-1573-rdf",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/1-dead-after-van-drives-into-crowd-during-berlins-lgbtq-event_n_6a653ccfe4b089c33066aee5",
       "image": null,
       "ts": 1785075073232,
       "coverage": {
         "left": 6,
         "center": 8,
-        "right": 2,
-        "total": 16,
+        "right": 5,
+        "total": 19,
         "buckets": {
           "left": 1,
           "lean_left": 5,
           "center": 8,
-          "lean_right": 0,
-          "right": 2
+          "lean_right": 1,
+          "right": 4
         },
         "sources": [
           {
@@ -75,7 +156,7 @@
           {
             "n": "France 24",
             "b": "center",
-            "u": "https://www.france24.com/en/europe/20260726-deadly-berlin-pride-ramming-was-islamist-terror-attack-says-german-interior-minister"
+            "u": "https://www.france24.com/en/germany-berlin-pride-attack-believed-to-be-an-act-of-islamic-extremist-terror"
           },
           {
             "n": "DW News",
@@ -85,7 +166,7 @@
           {
             "n": "Google News Top",
             "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPc0ZvMkVXb3NsYVhpMzhUR0FEZUVaWmlzbGJEdlliOTNIdG85QkNIbC1UX0o0aUowb05adnpNY3Y5T0F0VjhkWnZrYVFHYmY2enFKaEpPNTgxSEVTWDA3UktDakVyTko4V2stSHJJendhYVNOeDVUa2M0QldLS0RGYmxhN1JwakN5dmRRM251YV9fRHlob3JBazdYTEdGdm13MUM5VW1FcUJ4Z2JvUnRwUGRZaFc?oc=5"
+            "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUk1peTczYkVuampNNFg3QXNzcV9acU1tTndtdXl3dFcwT01hZGJxUzQ5b2ZfckltZnJaLWpzVXdZcmlpQl93cFJqWWFxa3RmLTdkWlhDTTBnX3RMUGtvejhDWDJmRVEwTWl3ZWJHNlhubWRwOWFoYjdKWHBXakxPRVhqSnNkb1UwczFCaF82YnpuZEk4bVdwdzc4RC1sSEtwS2RDTXRsVDA?oc=5"
           },
           {
             "n": "Channel News Asia",
@@ -98,9 +179,24 @@
             "u": "https://timesofindia.indiatimes.com/world/europe/berlin-police-hunt-islamist-suspect-after-pride-attack-kills-one-injures-16/articleshow/132642244.cms"
           },
           {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/europe/germany-hunts-suspect-after-terror-attack-near-berlin-pride-parade"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/berlin-pride-attack-believed-act-islamic-terror-suspect-run-german-minister"
+          },
+          {
             "n": "Daily Express World",
             "b": "right",
             "u": "https://www.express.co.uk/news/world/2232974/berlin-pride-suspect-named-pictured"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/europe/2026/07/26/berlin-pride-parade-terror-attack-suspect-identified-as-islamist-previously-detained-by-police/"
           },
           {
             "n": "Daily Star World",
@@ -207,6 +303,39 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-07-26/us-pauses-iran-strikes-for-second-night-as-red-sea-tensions-rise"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ea819af10c8f",
+      "title": "US pauses attacks on Iran for a second day",
+      "description": "US pauses attacks on Iran for a second day as peace talks continue",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/07/26/world/middleeast/us-iran-war-pause.html",
+      "image": "https://static01.nyt.com/images/2026/07/26/multimedia/26int-Iran-War-gpvc/26int-Iran-War-gpvc-mediumSquareAt3X.jpg",
+      "ts": 1785070155000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/26/world/middleeast/us-iran-war-pause.html"
           }
         ]
       }
@@ -5427,45 +5556,6 @@
       "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/07/13/media-houthi-lanciano-sei-missili-su-aeroporto-in-arabia-saudita_94ccd187-630a-4b75-b746-0809228ca9c0.html",
       "image": null,
       "ts": 1783963302000
-    },
-    {
-      "id": "bbbd68f8bf84",
-      "title": "EU unveils $1bn fund for Gaza war recovery",
-      "description": "The scheme falls critically short of the $71bn reportedly needed for Gaza's recovery over the next 10 years",
-      "lat": 50.85,
-      "lng": 4.349999999999994,
-      "severity": 2,
-      "location": "Brussels, Belgium",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/eu-unveils-1bn-fund-for-gaza-war-recovery?traffic_source=rss",
-      "image": null,
-      "ts": 1783960132000
-    },
-    {
-      "id": "ae13edae984e",
-      "title": "Volkswagen planning to cut up to 100,000 jobs globally",
-      "description": "The group, which includes Porsche and Audi, has faced a steep fall in profits and tough competition from China.",
-      "lat": 51.52,
-      "lng": 7.45,
-      "severity": 3,
-      "location": "Wolfsburg, Germany",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cx2wzpwn51lo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e86/live/076e2020-7ec9-11f1-af40-3101fe5a127d.jpg",
-      "ts": 1783959555000
-    },
-    {
-      "id": "2c09a12ecab9",
-      "title": "US imposes new sanctions on Cuba tourism ministry, state-owned companies",
-      "description": "The US Treasury Department posted the new directive on its website on Monday",
-      "lat": 38.9,
-      "lng": -77.0,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/7/13/us-imposes-new-sanctions-on-cuba-tourism-ministry-state-owned-companies?traffic_source=rss",
-      "image": null,
-      "ts": 1783959055000
     }
   ]
 }
