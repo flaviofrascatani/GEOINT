@@ -1,7 +1,88 @@
 {
   "schema": 1,
-  "updated": "2026-07-26T18:35:29.043526+00:00",
+  "updated": "2026-07-26T19:47:06.255327+00:00",
   "events": [
+    {
+      "id": "06b60a2cd387",
+      "title": "US pauses Iran strikes as Oman pursues Hormuz transit deal",
+      "description": "Neither side launches attacks for second consecutive night as mediators seek to avert return to full-blown war",
+      "lat": 25.0,
+      "lng": 56.0,
+      "severity": 2,
+      "location": "Muscat, Oman",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/ffdeacf0-91b8-48fd-9ff8-d8d134ef5f11?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1785094422000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/iran-says-progress-in-oman-talks-on-hormuz-strait-management/article71270220.ece"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/ffdeacf0-91b8-48fd-9ff8-d8d134ef5f11?syn-25a6b1a6=1"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-07-26/us-pauses-iran-strikes-for-second-night-as-red-sea-tensions-rise"
+          }
+        ]
+      }
+    },
+    {
+      "id": "949d75cfbdb4",
+      "title": "Israel to allow international force into Gaza",
+      "description": "Israel will allow an international force into Gaza, according to an official",
+      "lat": 32.4526,
+      "lng": 36.099999999999994,
+      "severity": 2,
+      "location": "Gaza",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/world/israel-allow-international-force-gaza-official-6279381",
+      "image": null,
+      "ts": 1785094379000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/world/israel-allow-international-force-gaza-official-6279381"
+          }
+        ]
+      }
+    },
     {
       "id": "4ac80c61c0c6",
       "title": "US halts strikes on Iran as diplomatic talks move in positive direction",
@@ -5560,32 +5641,6 @@
       "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/caac/live/6d318280-7ece-11f1-a521-db2da184cdb6.jpg",
       "ts": 1783970440000
-    },
-    {
-      "id": "977f024d8a95",
-      "title": "US judge voids Trump's IRS settlement, alleges self-dealing",
-      "description": "A US judge has voided Trump's IRS settlement, alleging self-dealing.",
-      "lat": 38.89,
-      "lng": -77.01,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/13/us-judge-voids-trumps-irs-settlement-alleges-self-dealing?traffic_source=rss",
-      "image": null,
-      "ts": 1783969786000
-    },
-    {
-      "id": "cac4710802ea",
-      "title": "UK Designates IRGC as Terrorist Organisation",
-      "description": "The UK government designated Iran's Revolutionary Guard Corps (IRGC) as a terrorist organisation under new powers.",
-      "lat": 51.5,
-      "lng": 1.7752000000000123,
-      "severity": 3,
-      "location": "London, UK",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/uk-designates-irgc-as-terrorist-organisation?traffic_source=rss",
-      "image": null,
-      "ts": 1783969077000
     }
   ]
 }
