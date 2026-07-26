@@ -1,7 +1,136 @@
 {
   "schema": 1,
-  "updated": "2026-07-26T03:49:27.823248+00:00",
+  "updated": "2026-07-26T06:43:50.818656+00:00",
   "events": [
+    {
+      "id": "de4031beacbe",
+      "title": "Wildfires in France and Spain force over 250,000 to flee",
+      "description": "Recent wildfires in southern Europe have displaced over 250,000 people, including 70,000 in central Spain.",
+      "lat": 44.84,
+      "lng": 0.5900000000000034,
+      "severity": 4,
+      "location": "Bordeaux, France",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/france-spain-battle-wildfires-as-more-people-are-forced-to-flee-homes/article71268639.ece",
+      "image": "https://th-i.thgim.com/public/incoming/c8asm6/article71268684.ece/alternates/LANDSCAPE_1200/2026-07-25T234452Z_58099679_RC2BLMAUVGIG_RTRMADP_3_EUROPE-WEATHER-FRANCE-WILDFIRE.JPG",
+      "ts": 1785047915000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 1,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/quarter-million-people-flee-their-homes-in-france-and-spain-as-wildfires-burn_n_6a64a899e4b089c330669d5c"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/france-spain-battle-wildfires-as-more-people-are-forced-to-flee-homes/article71268639.ece"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/europe/2026/0726/1585132-france-spain-wildfires/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "78a667d5329a",
+      "title": "Nepal eases post-demonetisation curbs on Indian currency",
+      "description": "Following the demonetisation, Nepal prohibited the entry and use of Indian currency notes of denominations above ₹100; while the ceiling of ₹25,000 on carrying Indian currency remained unchanged.",
+      "lat": 27.7,
+      "lng": 85.3,
+      "severity": 2,
+      "location": "Kathmandu, Nepal",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/nepal-eases-post-demonetisation-curbs-on-indian-currency-allows-200-500-notes/article71268707.ece",
+      "image": "https://th-i.thgim.com/public/hindi/editorial/hiceg1/article71268728.ece/alternates/LANDSCAPE_1200/iStock-1171982977.jpg",
+      "ts": 1785047912000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/nepal-eases-post-demonetisation-curbs-on-indian-currency-allows-200-500-notes/article71268707.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6650e7578e88",
+      "title": "Typhoon Noul makes landfall in China, with hundreds of thousands evacuated",
+      "description": "Noul hit southern Guangdong province and neighbouring Hong Kong, bringing strong winds and heavy rain to the region.",
+      "lat": 22.27,
+      "lng": 115.4452,
+      "severity": 4,
+      "location": "Guangdong, China",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/26/typhoon-noul-makes-landfall-in-china-with-hundreds-of-thousands-evacuated?traffic_source=rss",
+      "image": null,
+      "ts": 1785043754000,
+      "coverage": {
+        "left": 3,
+        "center": 2,
+        "right": 0,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/typhoon-noul-china-hong-kong-weather-storm-evacuations/"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/7/26/typhoon-noul-makes-landfall-in-china-with-hundreds-of-thousands-evacuated?traffic_source=rss"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/typhoon-noul-makes-landfall-in-southern-china-updates-july-26-2026/article71268544.ece"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/east-asia/southern-china-drenched-typhoon-noul-makes-landfall-6278561"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/east-asia/southern-china-drenched-as-typhoon-noul-makes-landfall"
+          }
+        ]
+      }
+    },
     {
       "id": "ad491114c5b2",
       "title": "Houthis attack Saudi oil site, US holds back strike on Iran",
@@ -638,6 +767,44 @@
             "n": "The Hindu International",
             "b": "lean_left",
             "u": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-saudi-arabia-houthis-attack-gulf-states-strait-of-hormuz-live-updates-july-25-2026/article71265151.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b12c01ac56fa",
+      "title": "India’s Education Minister Steps Down in Victory for Cockroach Party Protesters",
+      "description": "The Cockroach Janta Party called an end to weeks of protests after the education minister resigned, a win for that movement even as deep-seated anger among young people remains.",
+      "lat": 28.7,
+      "lng": 77.10000000000002,
+      "severity": 2,
+      "location": "New Delhi, India",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/07/25/world/asia/india-education-minister-resigns-cockroach-protests.html",
+      "image": "https://static01.nyt.com/images/2026/07/25/multimedia/25int-india-minister-btlh/25int-india-minister-btlh-mediumSquareAt3X.jpg",
+      "ts": 1784999261000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/25/world/asia/india-education-minister-resigns-cockroach-protests.html"
+          },
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/07/25/cockroach-movement-forces-out-india-education-minister/"
           }
         ]
       }
@@ -4764,58 +4931,6 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORXRYZXNCQXJPSXpBN3BobjJjb2IwN05IT2owMDlNcG54Y1hLMy04bDdoaFgwMVVWVk5wOWZhaEI1d3hyR21aaUZFN0EwQXhuc2J0Ukw3ZkdZUmtGaEVIMVMydURnMi1veUl3LXJEVWhsMVR4WjNaaDBSejZZQ014Ni1RVjR3MHVlQS11VkJWSFR3NThuSFdvOA?oc=5",
       "image": null,
       "ts": 1783932373000
-    },
-    {
-      "id": "38e092834d62",
-      "title": "US-Iran conflict escalates, oil prices surge",
-      "description": "Renewed US-Iran fighting could reignite wider regional conflict",
-      "lat": 35.68,
-      "lng": 51.420000000000016,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOS2FkZ2lld0lsYlNLY0d2eXNHWjc5SG5pTmEzeUEzNXpVY0QtY1BxNjhhTERMRnd6LWxQc2hhQlptNlVsOHhickI5TG1fT2ZMU0xLaGZkcEJsV2VQMGlKc09ZdnVMUTFGUFNldmxBTVp3amVDTzBKckZHcTRVOGpBNVh2Z3NJbDJoWWU4X3F2eWdFQlNvbW5NTzJQeU0yNWlja0hPQXNmUDZrY2M2SFktWWU3ZU4wMjk1RlJsa0NiQW3SAcYBQVVfeXFMT3pKYUtmcm1ITlJPVXBDUDdlalVpVUpEZWNRZVZrVE9MNFZFRGZZeUdRdngwaFVjX0NDYlVWMG5FaEMwZlN5X1hxNUx5NHloOEduMmtZS0lHVVNMWXdxR29aMTRUTW1PcDRJTDMyTVBzdDI3anBZUkFoMExpT3JDWmxQNGdUMXl6MEY5bDlUOXVMNFZ0alN6YmZveklOTjZBMU9vTUFralRjNXhSNGtncTVvVnhSaVU5NGtLbFhXYkxoSVg2YVpR?oc=5",
-      "image": null,
-      "ts": 1783928539000
-    },
-    {
-      "id": "0372f8f56170",
-      "title": "Kimmit: Renewed US-Iran fighting could reignite wider regional conflict",
-      "description": "Retired US General Mark Kimmitt warns renewed attacks in the Strait of Hormuz could push the US and Iran",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/kimmit-renewed-us-iran-fighting-could-reignite-wider-regional-conflict-2?traffic_source=rss",
-      "image": null,
-      "ts": 1783928519000
-    },
-    {
-      "id": "bae7fb77328a",
-      "title": "EU foreign ministers discuss new Russia sanctions",
-      "description": "EU foreign ministers discuss new Russia sanctions and international issues",
-      "lat": 50.85,
-      "lng": 4.349999999999994,
-      "severity": 3,
-      "location": "Brussels, Belgium",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONUMtQmdnT21hZ1B0WDBnMm8xUjZiZ2IwRVBESmhSczh3MlpPWnhwMjA1aV8wVmZUU1VrYW9IcjJRSkJnNDZCcnBPX3VPZE53a0FIZE9KcnNxQTlyZHEwWllQRnRMVm9aMVM4UWpzaWhhTTlDRTVOOU5KQUE5RG9wSVE1OE5nTVVhTEFGaHRTTkxjQXo5N1RVc2twZkZaODVIRFY4WGlNdXRaVzVoeWNR?oc=5",
-      "image": null,
-      "ts": 1783927196000
-    },
-    {
-      "id": "73025d322cc3",
-      "title": "No EU agreement yet on 21st Russian sanctions package, Kallas says",
-      "description": "No EU agreement yet on 21st Russian sanctions package, Kallas says",
-      "lat": 50.85,
-      "lng": 4.349999999999994,
-      "severity": 3,
-      "location": "Brussels, Belgium",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOUhXLWdnMVNoLTEtT3lrUVdWZU51YnZGNGpoc2g1b3REZ2xhd3ZQTEU5R1dRU1d2TU9KZXdVRVV3OVo0LUFYTW1xUTQ1OWtPcmQwS2QzTnpPblRjeHF6VVd2Ti1GYzkwUXF6SUVaTjhqX1UyZHRCQTRwajl6dVhIMjQwME11aGZlQzIxbGZDcHpyQXpBaUdBcmtTUktuZmprU0JRY1ZXYw?oc=5",
-      "image": null,
-      "ts": 1783923660000
     }
   ]
 }
