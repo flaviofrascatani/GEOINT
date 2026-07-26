@@ -1,7 +1,126 @@
 {
   "schema": 1,
-  "updated": "2026-07-26T15:42:48.139743+00:00",
+  "updated": "2026-07-26T17:11:44.511984+00:00",
   "events": [
+    {
+      "id": "441cdd05de70",
+      "title": "Israel OKs deployment of international force in Gaza",
+      "description": "Israel has approved the deployment of an international force in Gaza under the Trump plan.",
+      "lat": 32.6,
+      "lng": 34.44999999999999,
+      "severity": 2,
+      "location": "Gaza, Palestine",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/world/mid-east/israel-oks-deployment-of-international-force-in-gaza-under-trump-plan",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/07/26/452664.JPG",
+      "ts": 1785084480000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/israel-oks-deployment-of-international-force-in-gaza-under-trump-plan"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e6246c58df4f",
+      "title": "Brazil recalls ambassador after Milei attacks Lula",
+      "description": "Brazil has recalled its ambassador to Argentina after President Javier Milei launched an attack on President Luiz Inácio Lula da Silva.",
+      "lat": -34.6,
+      "lng": -58.38,
+      "severity": 3,
+      "location": "Buenos Aires, Argentina",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-26/brazil-summons-ambassador-after-milei-attacks-lula-judge",
+      "image": null,
+      "ts": 1785084090000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-07-26/brazil-summons-ambassador-after-milei-attacks-lula-judge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4ac80c61c0c6",
+      "title": "Iran says progress in Oman talks on Hormuz Strait management",
+      "description": "Iran and Oman have made progress in talks on the management of the Hormuz Strait.",
+      "lat": 27.67,
+      "lng": 56.25,
+      "severity": 1,
+      "location": "Strait of Hormuz",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/iran-says-progress-in-oman-talks-on-hormuz-strait-management/article71270220.ece",
+      "image": null,
+      "ts": 1785082882000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 1,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 3,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/iran-says-progress-in-oman-talks-on-hormuz-strait-management/article71270220.ece"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/ffdeacf0-91b8-48fd-9ff8-d8d134ef5f11?syn-25a6b1a6=1"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-07-26/us-pauses-iran-strikes-for-second-night-as-red-sea-tensions-rise"
+          },
+          {
+            "n": "New York Post",
+            "b": "lean_right",
+            "u": "https://nypost.com/2026/07/26/world-news/tanker-hits-mine-in-the-strait-of-hormuz-as-iran-intercepts-six-vessels/"
+          }
+        ]
+      }
+    },
     {
       "id": "ec6346e1051d",
       "title": "Trump to meet Zelensky at White House",
@@ -260,49 +379,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/mid-east/israeli-settlers-vandalize-torch-2-mosques-in-occupied-west-bank"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4ac80c61c0c6",
-      "title": "Oman-Iran talks on Strait of Hormuz",
-      "description": "Talks between Oman and Iran on reopening the Strait of Hormuz have made progress, according to sources.",
-      "lat": 27.67,
-      "lng": 56.25,
-      "severity": 2,
-      "location": "Strait of Hormuz",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east/",
-      "image": null,
-      "ts": 1785072045000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east/"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/ffdeacf0-91b8-48fd-9ff8-d8d134ef5f11?syn-25a6b1a6=1"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-07-26/us-pauses-iran-strikes-for-second-night-as-red-sea-tensions-rise"
           }
         ]
       }
@@ -5530,32 +5606,6 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/uk-designates-irgc-as-terrorist-organisation?traffic_source=rss",
       "image": null,
       "ts": 1783969077000
-    },
-    {
-      "id": "87f3845e0857",
-      "title": "US judge voids Donald Trump's $1.8bn settlement with IRS",
-      "description": "The judge said the suit was brought for 'improper purposes' and referred a Trump attorney for possible disciplinary action.",
-      "lat": 38.9,
-      "lng": -77.0,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cn8q0e8d4ego?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/468c/live/a01b76f0-7ede-11f1-84b4-d5196cc76857.jpg",
-      "ts": 1783968766000
-    },
-    {
-      "id": "5a7880a98921",
-      "title": "Houthi lanciano sei missili su aeroporto in Arabia Saudita",
-      "description": "'Milizie filo-Iran stanno usando missili ipersonici'",
-      "lat": 24.77,
-      "lng": 46.68,
-      "severity": 4,
-      "location": "Arabia Saudita",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/07/13/media-houthi-lanciano-sei-missili-su-aeroporto-in-arabia-saudita_94ccd187-630a-4b75-b746-0809228ca9c0.html",
-      "image": null,
-      "ts": 1783963302000
     }
   ]
 }
