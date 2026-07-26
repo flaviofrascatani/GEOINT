@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-07-26T19:47:06.255327+00:00",
+  "updated": "2026-07-26T21:06:10.529223+00:00",
   "events": [
     {
       "id": "06b60a2cd387",
@@ -448,6 +448,39 @@
       "id": "ea819af10c8f",
       "title": "US pauses attacks on Iran for a second day",
       "description": "US pauses attacks on Iran for a second day as peace talks continue",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/07/26/world/middleeast/us-iran-war-pause.html",
+      "image": "https://static01.nyt.com/images/2026/07/26/multimedia/26int-Iran-War-gpvc/26int-Iran-War-gpvc-mediumSquareAt3X.jpg",
+      "ts": 1785070155000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/26/world/middleeast/us-iran-war-pause.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "495387ed2017",
+      "title": "U.S.-Iran War Pauses for 2nd Straight Day",
+      "description": "President Trump put off plans to escalate the fighting in part because of dwindling stockpiles of interceptor missiles, American officials said.",
       "lat": 35.69,
       "lng": 51.389999999999986,
       "severity": 2,
@@ -1182,26 +1215,26 @@
     },
     {
       "id": "ad491114c5b2",
-      "title": "Houthis Fire Missiles At Saudi Arabia In Response To Airstrikes In Yemen",
+      "title": "Houthis Fire Missiles At Saudi Arabia",
       "description": "Yemen’s Iran-backed Houthi rebels say they fired missiles and drones at Saudi Arabia in response to Saudi airstrikes on Yemen's strategic Red Sea city of Hodeida.",
       "lat": 24.71,
       "lng": 46.67,
-      "severity": 4,
+      "severity": 3,
       "location": "Riyadh, Saudi Arabia",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/ap-ml-iran-us-houthis-saudi-arabia_n_6a651d0ce4b021af4925b01c",
       "image": null,
       "ts": 1785032591000,
       "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 1,
-        "total": 3,
+        "left": 2,
+        "center": 2,
+        "right": 0,
+        "total": 4,
         "buckets": {
           "left": 1,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 1,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
           "right": 0
         },
         "sources": [
@@ -1211,14 +1244,19 @@
             "u": "https://www.huffpost.com/entry/ap-ml-iran-us-houthis-saudi-arabia_n_6a651d0ce4b021af4925b01c"
           },
           {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/7/26/houthis-claim-saudi-drone-downed-over-northwestern-yemen?traffic_source=rss"
+          },
+          {
             "n": "BBC World",
             "b": "center",
             "u": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss"
           },
           {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2165459"
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/singapore/mfa-condemn-red-sea-attacks-saudi-arabia-6279121"
           }
         ]
       }
@@ -5628,19 +5666,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cp8r002gdevo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3314/live/d7e89fb0-7ef5-11f1-bee8-53ce494e1abc.jpg",
       "ts": 1783975154000
-    },
-    {
-      "id": "7baf3ba8e1de",
-      "title": "US to Impose Naval Blockade on Iranian Ports",
-      "description": "The US president announced the reinstatement of a naval blockade of Iranian ports and a 20% toll on all cargo shipped through the Strait of Hormuz.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz, Middle East",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/caac/live/6d318280-7ece-11f1-a521-db2da184cdb6.jpg",
-      "ts": 1783970440000
     }
   ]
 }
