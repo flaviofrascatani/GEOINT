@@ -585,7 +585,10 @@ function setUserNotes(id,tab,text){const d=LS.get('gx_notes_'+id,{});d[tab]=text
 const countryColors=LS.get('gx_colors',{});
 const savedEvents=LS.get('gx_events',[]);
 function saveColors(){LS.set('gx_colors',countryColors)}
-function saveEvents(){LS.set('gx_events',events)}
+// Only user-added events are persisted. Agent events are always re-fetched
+// fresh from events.json, so every browser sees exactly the same map instead
+// of a drifting local history.
+function saveEvents(){LS.set('gx_events',events.filter(isUserEvent))}
 loadOverrides();
 
 function countryName(id){const cn=getCustomName(id);if(cn)return cn;const d=COUNTRY_DB[id];if(d&&d.name)return d.name;const f=window.CN_FULL&&window.CN_FULL[id];if(f)return f.n;if(window._SYNTH_NAMES&&window._SYNTH_NAMES[id])return window._SYNTH_NAMES[id];return 'Territory '+id}
@@ -953,12 +956,23 @@ function buildCountryMesh(id,color){
 
 // ================= EVENTS ON GLOBE =================
 // Severity: 1 green / 2 yellow / 3 orange / 4 red / 5 purple
-var MAX_EVENT_AGE_MS = 30 * 24 * 3600 * 1000; // auto-delete news older than 1 month
+// Kept in sync with agent/geoint_agent.py's GEOINT_MAX_AGE_H default (14 days).
+var MAX_EVENT_AGE_MS = 14 * 24 * 3600 * 1000;
 function pruneOldEvents(list) {
   var now = Date.now();
   return list.filter(function(e){ return !e.ts || (now - e.ts) <= MAX_EVENT_AGE_MS; });
 }
-var events = pruneOldEvents(savedEvents.slice());
+// An event is "user-added" if it lacks the agent-generated id (agent events
+// always carry a 12-char hex id from hashlib.sha1). We use this to decide what
+// to keep in localStorage: only user-added events, so the map is always driven
+// by the shared events.json rather than a per-browser accumulated history.
+function isUserEvent(e){
+  return !e || !e.id || String(e.id).indexOf('user_') === 0;
+}
+// Boot: drop any stale agent events left over from an older build that used
+// to persist everything to localStorage. From now on the agent feed is the
+// single source of truth and is re-fetched fresh on every page load.
+var events = pruneOldEvents(savedEvents.slice()).filter(isUserEvent);
 var newsHidden = false;
 var currentSeverity = 1;
 var timeFilter = 24; // default: last 24h
@@ -2108,6 +2122,7 @@ document.getElementById('btn-ev').addEventListener('click',()=>{
   const lng=parseFloat(document.getElementById('ev-lng').value);
   if(isNaN(lat)||isNaN(lng)){alert('Please provide Lat and Lng');return}
   events.push({
+    id: 'user_' + Date.now().toString(36) + '_' + Math.random().toString(36).slice(2, 8),
     title:ti,
     description:document.getElementById('ev-d').value.trim(),
     lat,lng,
@@ -3881,3 +3896,10 @@ window.addEventListener('resize',()=>{
 })();
 </script>
 </body></html>
+
+
+
+
+
+
+
