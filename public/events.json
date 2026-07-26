@@ -1,7 +1,146 @@
 {
   "schema": 1,
-  "updated": "2026-07-26T11:04:57.739287+00:00",
+  "updated": "2026-07-26T12:11:53.845979+00:00",
   "events": [
+    {
+      "id": "4ac80c61c0c6",
+      "title": "Oman-Iran talks advance on reopening Strait of Hormuz",
+      "description": "Talks between Oman and Iran on reopening the Strait of Hormuz and their respective territorial waterways have made progress.",
+      "lat": 27.67,
+      "lng": 56.25,
+      "severity": 1,
+      "location": "Strait of Hormuz",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east/",
+      "image": null,
+      "ts": 1785067252000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east/"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/7/26/after-strait-of-hormuz-and-red-sea-has-iran-war-now-reached-caspian-sea?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "46d77984d6b2",
+      "title": "US-Russian space crew lands safely in Kazakhstan",
+      "description": "A U.S.-Russian space crew landed safely in the steppes of Kazakhstan after an eight-month stint on the International Space Station.",
+      "lat": 48.03,
+      "lng": 66.92,
+      "severity": 1,
+      "location": "Kazakhstan",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/us-russian-space-crew-lands-safely-kazakhstan-after-135095540",
+      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
+      "ts": 1785066943000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/us-russian-space-crew-lands-safely-kazakhstan-after-135095540"
+          },
+          {
+            "n": "New York Post",
+            "b": "lean_right",
+            "u": "https://nypost.com/2026/07/26/science/us-russian-space-crew-lands-in-kazakhstan-after-an-8-month-stint-on-the-iss/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14ced9f20e0c",
+      "title": "Japan, Philippines and the U.S. complete exercises in South China Sea",
+      "description": "The armed forces said the joint drills show the Philippines' commitment to ensuring freedom of navigation and overflight in the West Philippine Sea.",
+      "lat": 10.0,
+      "lng": 115.0,
+      "severity": 2,
+      "location": "South China Sea",
+      "source": "Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/07/26/japan/south-china-sea-military-exercise/",
+      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/07/26/553627.JPG",
+      "ts": 1785064140000,
+      "coverage": {
+        "left": 1,
+        "center": 5,
+        "right": 1,
+        "total": 7,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 5,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/vietnam-south-china-sea-ship-sinking-july-26-2026/article71268677.ece"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/vietnamese-vessel-sinks-in-south-china-sea-17-missing/a-78118211?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/07/26/japan/south-china-sea-military-exercise/"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/china/diplomacy/article/3361901/search-survivors-continues-45-rescued-after-cargo-ship-sinks-south-china-sea?utm_source=rss_feed"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/asia/us-japan-join-philippines-in-south-china-sea-drills-6278791"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/china-holds-air-navy-patrol-in-south-china-sea"
+          },
+          {
+            "n": "Global Times",
+            "b": "right",
+            "u": "https://www.globaltimes.cn/page/202606/1363326.shtml"
+          }
+        ]
+      }
+    },
     {
       "id": "caffe7b987e9",
       "title": "Iran accuses US of attacking rescue boats",
@@ -31,6 +170,64 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/643486-iran-accuses-us-attacking-rescue-boats/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "952d60f4cfef",
+      "title": "Ukraine strikes Iranian vessels in Caspian Sea",
+      "description": "The latest attacks by Ukraine, combined with Saudi military strikes on Iran-backed Houthi targets in Yemen, represent a widening of the Middle East conflict.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 4,
+      "location": "Tehran, Iran",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/07/26/ukraine-strikes-iranian-vessels-tehran-accuses-kyiv-of-hostile-act.html",
+      "image": null,
+      "ts": 1785060879000,
+      "coverage": {
+        "left": 2,
+        "center": 3,
+        "right": 1,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 3,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/ukraine-attacks-iranian-ship-officials-37476900"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/7/26/after-strait-of-hormuz-and-red-sea-has-iran-war-now-reached-caspian-sea?traffic_source=rss"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/07/26/ukraine-strikes-iranian-vessels-tehran-accuses-kyiv-of-hostile-act.html"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/iran-news/article-903653"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/07/iran-war-spreads-red-sea-and-caspian-gulf-quiet-us-forgoes-strikes"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/defense/2165503"
           }
         ]
       }
@@ -462,53 +659,33 @@
     },
     {
       "id": "ad491114c5b2",
-      "title": "Houthis attack Saudi oil site, US holds back strike on Iran",
-      "description": "There were no reports on Saturday of attacks from Iran on neighboring countries, like those that have been taking place daily in response to the US attacks.",
+      "title": "Houthis Fire Missiles At Saudi Arabia In Response To Airstrikes In Yemen",
+      "description": "Yemen’s Iran-backed Houthi rebels say they fired missiles and drones at Saudi Arabia in response to Saudi airstrikes on Yemen's strategic Red Sea city of Hodeida.",
       "lat": 24.71,
       "lng": 46.67,
-      "severity": 3,
+      "severity": 4,
       "location": "Riyadh, Saudi Arabia",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/us-iran-war-houthis-attack-saudi-aramco-oil-sitenear-red-sea-us-holds-back-strike-on-iran-for-1st-time-in-2-weeks-11822739#publisher=newsstand",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/ap-ml-iran-us-houthis-saudi-arabia_n_6a651d0ce4b021af4925b01c",
       "image": null,
       "ts": 1785032591000,
       "coverage": {
-        "left": 5,
-        "center": 8,
-        "right": 0,
-        "total": 13,
+        "left": 1,
+        "center": 1,
+        "right": 1,
+        "total": 3,
         "buckets": {
           "left": 1,
-          "lean_left": 4,
-          "center": 8,
-          "lean_right": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 1,
           "right": 0
         },
         "sources": [
           {
             "n": "HuffPost World",
             "b": "left",
-            "u": "https://www.huffpost.com/entry/houthis-fire-saudi-oil-installations-on-the-red-seacoast_n_6a64bcc5e4b089c33066a05c"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/us-iran-war-houthis-attack-saudi-aramco-oil-sitenear-red-sea-us-holds-back-strike-on-iran-for-1st-time-in-2-weeks-11822739#publisher=newsstand"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/7/26/yemens-houthis-target-saudi-oil-facilities-along-the-red-sea?traffic_source=rss"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/07/25/houthis-target-saudi-oil-over-red-sea-front_6755831_4.html"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/houthis-fire-missiles-drones-at-saudi-arabia-in-response-to-strikes-on-yemeni-city/article71267142.ece"
+            "u": "https://www.huffpost.com/entry/ap-ml-iran-us-houthis-saudi-arabia_n_6a651d0ce4b021af4925b01c"
           },
           {
             "n": "BBC World",
@@ -516,39 +693,9 @@
             "u": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss"
           },
           {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/07/25/saudi-military-strikes-iran-backed-houthi-targets-yemen.html"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/14ee6049-87bf-4aac-b684-c9937374fdcc?syn-25a6b1a6=1"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVnV3Mm1rUEtJU2NZVURHalNWRVFISmJVZjQzNlFPdC1XVTY3NFcyZzVJd1phMk01RmlJdnIyTkF4RmNwWHk1dDlaNG1scmhlamo0RjZFbzZCU0hNRXE3T2FVNW94aTVMXzJVMWo4clpQY3Fnb2NMRXNsMUViOEZNX1JJdXFwOFZ0RTIwbTA4Z3dnNl9POVZqYk1lbnZITG8?oc=5"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-07-25/us-pauses-nightly-strikes-on-iran-as-houthis-clash-with-saudis"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/07/trump-mulls-iran-escalation-houthis-fire-saudi-red-sea-oil-sites"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/middle-east/article/3361857/us-pauses-nightly-iran-strikes-houthis-clash-saudis?utm_source=rss_feed"
-          },
-          {
-            "n": "Times of India World",
-            "b": "center",
-            "u": "https://timesofindia.indiatimes.com/world/middle-east/iran-backed-houthis-fire-missiles-at-saudi-arabia-in-response-to-airstrikes-in-yemen/articleshow/132635180.cms"
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2165459"
           }
         ]
       }
@@ -906,54 +1053,6 @@
             "n": "Breitbart",
             "b": "right",
             "u": "https://www.breitbart.com/entertainment/2026/07/25/katy-perry-freaks-out-after-white-house-uses-firework-in-iran-strikes-video-i-am-deeply-appalled/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "952d60f4cfef",
-      "title": "Iran condemns Ukrainian strike on its commercial ship in Caspian Sea",
-      "description": "The Islamic Republic’s foreign ministry said that this attack violates Section 4 Article 2 of the UN Charter and constitutes an act of aggression",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 3,
-      "location": "Tehran, Iran",
-      "source": "TASS",
-      "url": "https://tass.com/world/2165333",
-      "image": null,
-      "ts": 1785008145000,
-      "coverage": {
-        "left": 0,
-        "center": 3,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 3,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/07/25/saudi-military-strikes-iran-backed-houthi-targets-yemen.html"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/international/article-903598"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOVpNZ2psN29sT085Yy0tT0xweWpLcTBRbUxaVlRGS1hJVFRHc3R0QjdlSWEybjlnNmtKYXM4WjQxaG9neGFqZkNrUEthVHJsQ2VEM0VEX2hJc2tIcHNZT0tEV3JQRUtrbk9YT0dGOGo0T0VVbUVkOVZaS29hWHRBcUw0QkJ4VjlSc2h6czhXWGRkT2xiMkJJUlBkcENSX0VjQndrSjJlT25vS2FFSVA4WE5B?oc=5"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2165333"
           }
         ]
       }
@@ -5162,45 +5261,6 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/trump-us-will-take-over-strait-of-hormuz?traffic_source=rss",
       "image": null,
       "ts": 1783957267000
-    },
-    {
-      "id": "4b27a5d91c72",
-      "title": "Trump Announces Plan to Take Control of Strait of Hormuz",
-      "description": "US President Donald Trump announced a plan to take control of the Strait of Hormuz and collect tolls from ships passing through the waterway.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 5,
-      "location": "Strait of Hormuz, Middle East",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/13/trump-us-will-take-over-strait-of-hormuz?traffic_source=rss",
-      "image": null,
-      "ts": 1783957267000
-    },
-    {
-      "id": "1fe611500d6b",
-      "title": "Yemen government says attacked Sanaa airport",
-      "description": "The Yemen government has said its forces attacked Sanaa airport, reviving a dormant conflict.",
-      "lat": 15.35,
-      "lng": 44.21,
-      "severity": 4,
-      "location": "Sanaa, Yemen",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUTFLc1Z5T1JPYnBycWFERkluYVBJSDVvRHlNNGMySGxORmkzTlkxQmJ6YTRiU2VUYVczdlVHQ1hlLVNxVU5GWG9WbjlGRC0tZXd3TVE2a3BvWFAxSUdFLS01SjZVT25NVVFPWjZ4WVoxMER3cEpGRDdNbXcwQXNiT2VSWjM4MFpnZDQ3WXJPblI1UHhQOVVNWUx3YXpUOFBQbUdmY0J3S2tlaGFDMzVSbVByMXQ2Zw?oc=5",
-      "image": null,
-      "ts": 1783953150000
-    },
-    {
-      "id": "d966012843bf",
-      "title": "EU sanctions nine people over alleged Russian cyber-spying campaign",
-      "description": "The EU has imposed sanctions on nine individuals and four entities over an alleged years-long cyber-espionage campaign.",
-      "lat": 50.85,
-      "lng": 4.349999999999994,
-      "severity": 3,
-      "location": "Brussels, Belgium",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRkJwS0FmUmlOcm5wU0xMOHNJRlJSM2pfTjNzRy1pTU9fZEswQjNwREtIc0xVSFNzYnJpOHdXQWZxdEVLM05HSWQ3RlBYSjRWcnZLNlowY1JTTTJyekVZRFNtSjBvdzhjc0ZXTjE0OEZWeFJMS2x4VXZmOFpvaWRqSEJEMm1OTEhlTGNtNV9JSnZuWEUyQ2tJdXo2RlpEVDVuWjRWWktjQS1ZeEpH0gGyAUFVX3lxTFBDbkpJbHpxZk5yYjZNUVoyZDktaFZDNURqSDRmV1FmU29oaVF5eEpNUGJ0NEZRdG0za0xIdlpJYlFpbUJMUDNlZFpZQUh0aV9VTkRtU2xleTEzWWJwOGxFMjlDX1U2TWJHR194b2FrazJDTm51eTdoc0VZRmFlUFQ5MDJQcGV4M0p6RlFuZ2RveXpuWU9PZVRWTnJHWHpQRk5GUE5RdGxVMjdITHRaVjA0UFE?oc=5",
-      "image": null,
-      "ts": 1783951972000
     }
   ]
 }
