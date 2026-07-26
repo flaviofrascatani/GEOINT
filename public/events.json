@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-07-25T23:02:17.583654+00:00",
+  "updated": "2026-07-26T00:07:08.918493+00:00",
   "events": [
+    {
+      "id": "cb39af2df6ed",
+      "title": "China launches satellite for Algeria",
+      "description": "China has launched a communications satellite for Algeria, marking the first time it has exported such a spacecraft to an Arab country.",
+      "lat": 36.77,
+      "lng": 3.06,
+      "severity": 1,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1785024428778,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
     {
       "id": "cc34b6de70e4",
       "title": "Vehicle crashes into Berlin's Gay Pride parade, killing at least 1 person",
@@ -97,6 +130,49 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/berlin-csd-pride-parade-canceled-after-vehicle-drives-into-crowd/a-78116146?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8da14001d00a",
+      "title": "India's education minister resigns after student protests",
+      "description": "India's Education Minister has resigned after weeks of student-led protests over allegations of failing to prevent leaks of medical school entrance exams.",
+      "lat": 27.6574,
+      "lng": 78.88,
+      "severity": 3,
+      "location": "New Delhi, India",
+      "source": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/world/4663625/india-education-minister-resign-protests/",
+      "image": null,
+      "ts": 1785015472000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/indias-education-minister-resigns-after-weeks-student-led-135077325"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/07/25/india-education-minister-announces-resignation-after-countrywide-protests_6755822_4.html"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4663625/india-education-minister-resign-protests/"
           }
         ]
       }
@@ -289,6 +365,44 @@
       }
     },
     {
+      "id": "fb9198eb493d",
+      "title": "Wildfires force 70,000 to flee homes in Spain",
+      "description": "Wildfires in Spain have forced 70,000 people to flee their homes, with officials calling it the region's worst fire on record.",
+      "lat": 43.29,
+      "lng": 1.44,
+      "severity": 4,
+      "location": "Southern France",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/spain-races-to-save-lives-as-wildfires-force-70-000-to-flee-homes-11822302#publisher=newsstand",
+      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
+      "ts": 1785004361000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/spain-races-to-save-lives-as-wildfires-force-70-000-to-flee-homes-11822302#publisher=newsstand"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/200-000-people-flee-their-homes-in-france-as-wildfires-continue"
+          }
+        ]
+      }
+    },
+    {
       "id": "f6d7506ecde7",
       "title": "New US sanctions target billionaire Iranian financier Babak Zanjani",
       "description": "The US imposed new sanctions on billionaire Iranian financier Babak Zanjani.",
@@ -393,39 +507,6 @@
             "n": "The Hindu International",
             "b": "lean_left",
             "u": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-saudi-arabia-houthis-attack-gulf-states-strait-of-hormuz-live-updates-july-25-2026/article71265151.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cb39af2df6ed",
-      "title": "Satellite lofted for first Arab country",
-      "description": "A Chinese-made communications satellite has been launched for Algeria, marking the first such export to an Arab country.",
-      "lat": 36.77,
-      "lng": 3.06,
-      "severity": 2,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1784996868608,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
           }
         ]
       }
@@ -583,6 +664,39 @@
             "n": "France 24",
             "b": "center",
             "u": "https://www.france24.com/en/middle-east/20260725-unesco-adds-west-bank-site-lebanese-castles-to-world-heritage-list-despite-israeli-opposition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4842aa52dc3a",
+      "title": "Ukrainian attacks on holiday camps kill 11",
+      "description": "Ukrainian attacks on holiday camps in partly Russian-occupied Zaporizhzhia have killed 11 people, dimming hopes for a diplomatic end to the war.",
+      "lat": 47.83,
+      "lng": 35.13,
+      "severity": 4,
+      "location": "Zaporizhzhia, Ukraine",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/russian-attack-kills-3-ukraines-sumy-region-romania-135076941",
+      "image": "https://s.abcnews.com/images/International/wirestory_6c4dfdb04df911d135675b24ec2e6a7a_4x3_384.jpg",
+      "ts": 1784989563000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/russian-attack-kills-3-ukraines-sumy-region-romania-135076941"
           }
         ]
       }
@@ -1835,49 +1949,6 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/video/newsfeed/2026/7/24/china-philippine-coastguard-vessels-clash-in-south-china-sea?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "fb9198eb493d",
-      "title": "Wildfires force over 200K people to flee homes in southern France and central Spain",
-      "description": "Wildfires have forced over 200,000 people in southern France and central Spain to flee their homes, with officials struggling to contain the blazes",
-      "lat": 43.29,
-      "lng": 1.44,
-      "severity": 3,
-      "location": "Southern France",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/wildfires-force-200000-people-southern-france-central-spain-135065368",
-      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
-      "ts": 1784928495000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/07/24/world/europe/france-spain-wildfires.html"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/wildfires-force-200000-people-southern-france-central-spain-135065368"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/643445-spain-france-fires-videos/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
           }
         ]
       }
@@ -4620,32 +4691,6 @@
       "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/07/13/commercio-tra-italia-e-messico-in-crescita-dell11-nei-primi-5-mesi-del_8b128f45-6c8d-429e-b83d-6acf072cdc05.html",
       "image": null,
       "ts": 1783902178000
-    },
-    {
-      "id": "12ec66cbe31b",
-      "title": "New era for Gibraltar with removal of 118-year-old border controls with Spain",
-      "description": "Gibraltar has removed its 118-year-old border controls with Spain, in a move expected to provide an economic boost to the region.",
-      "lat": 36.14,
-      "lng": -5.35,
-      "severity": 1,
-      "location": "Gibraltar",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cwydz60j3eno?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/df71/live/aad05480-7c4a-11f1-bee8-53ce494e1abc.jpg",
-      "ts": 1783898946000
-    },
-    {
-      "id": "f65de15d1bc1",
-      "title": "US launches new wave of strikes against Iran",
-      "description": "The US has launched a new wave of strikes against Iran, aimed at degrading its military capabilities.",
-      "lat": 32.42,
-      "lng": 53.68000000000001,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/12/us-launches-new-wave-of-strikes-against-iran-aimed-at-degrading-military?traffic_source=rss",
-      "image": null,
-      "ts": 1783897412000
     }
   ]
 }
