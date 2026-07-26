@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-07-26T17:11:44.511984+00:00",
+  "updated": "2026-07-26T18:35:29.043526+00:00",
   "events": [
+    {
+      "id": "4ac80c61c0c6",
+      "title": "US halts strikes on Iran as diplomatic talks move in positive direction",
+      "description": "The US has paused its strikes on Iran as diplomatic talks with Oman show progress, aiming to reopen the Strait of Hormuz.",
+      "lat": 27.67,
+      "lng": 56.25,
+      "severity": 2,
+      "location": "Strait of Hormuz",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east/",
+      "image": null,
+      "ts": 1785090690000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east/"
+          }
+        ]
+      }
+    },
     {
       "id": "441cdd05de70",
       "title": "Israel OKs deployment of international force in Gaza",
@@ -64,59 +97,6 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-07-26/brazil-summons-ambassador-after-milei-attacks-lula-judge"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4ac80c61c0c6",
-      "title": "Iran says progress in Oman talks on Hormuz Strait management",
-      "description": "Iran and Oman have made progress in talks on the management of the Hormuz Strait.",
-      "lat": 27.67,
-      "lng": 56.25,
-      "severity": 1,
-      "location": "Strait of Hormuz",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/iran-says-progress-in-oman-talks-on-hormuz-strait-management/article71270220.ece",
-      "image": null,
-      "ts": 1785082882000,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 1,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/iran-says-progress-in-oman-talks-on-hormuz-strait-management/article71270220.ece"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/ffdeacf0-91b8-48fd-9ff8-d8d134ef5f11?syn-25a6b1a6=1"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-07-26/us-pauses-iran-strikes-for-second-night-as-red-sea-tensions-rise"
-          },
-          {
-            "n": "New York Post",
-            "b": "lean_right",
-            "u": "https://nypost.com/2026/07/26/world-news/tanker-hits-mine-in-the-strait-of-hormuz-as-iran-intercepts-six-vessels/"
           }
         ]
       }
