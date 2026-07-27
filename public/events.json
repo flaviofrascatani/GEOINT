@@ -1,7 +1,126 @@
 {
   "schema": 1,
-  "updated": "2026-07-27T20:27:01.414566+00:00",
+  "updated": "2026-07-27T21:42:33.744689+00:00",
   "events": [
+    {
+      "id": "e25e2cf3c373",
+      "title": "Ukraine and UK strengthen ties",
+      "description": "Ukrainian President Zelenskyy met with UK Prime Minister Burnham, solidifying their countries' alliance.",
+      "lat": 52.6,
+      "lng": -0.12000000000000455,
+      "severity": 1,
+      "location": "London, United Kingdom",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/ukraine-s-zelenskyy-in-uk-to-meet-new-pm-burnham/a-78136104?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1785188553593,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/ukraine-s-zelenskyy-in-uk-to-meet-new-pm-burnham/a-78136104?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1ad900230ea3",
+      "title": "Houthis corner Saudi Arabia",
+      "description": "The Iranian-backed Houthi militia in Yemen has seized on a vulnerable moment for neighboring Saudi Arabia.",
+      "lat": 15.35,
+      "lng": 44.19,
+      "severity": 3,
+      "location": "Sanaa, Yemen",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/07/27/world/middleeast/houthis-saudi-arabia-iran-war.html",
+      "image": "https://static01.nyt.com/images/2026/07/27/multimedia/27saudi-houthis-01-zjhw/27saudi-houthis-01-zjhw-mediumSquareAt3X.jpg",
+      "ts": 1785185827000,
+      "coverage": {
+        "left": 3,
+        "center": 2,
+        "right": 0,
+        "total": 5,
+        "buckets": {
+          "left": 1,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/ap-ml-iran-us-houthis-saudi-arabia_n_6a651d0ce4b021af4925b01c"
+          },
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/27/world/middleeast/houthis-saudi-arabia-iran-war.html"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/why-houthis-are-risking-another-war-with-saudi-arabia-after-years-of-calm-11830017#publisher=newsstand"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20260727-saudi-arabia-says-it-intercepted-drones-from-iraq-as-houthis-target-oil-sites"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeGxuNkNPd0oxM2NINVF0YkhnZElaRmQyb2NLcy1pNC1XamlpUnBsNFJlVzd6OU0xNnlCalA4cTR4Nm1aNXlmcXZZMlJ6bWc0dEhFNUNlSF9iSTlpUkRkWnhja3ZORDM0YkgxUUE5Tm01VDJwSVVBNnFHVEdaSnk5Rlhram1fcjkwT1ZvcUNBYw?oc=5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0950e17e5755",
+      "title": "Iran releases video on killing Melania Trump",
+      "description": "A video showing how to kill Melania Trump has been released in Iran, highlighting weaknesses.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "Daily Star World",
+      "url": "https://www.dailystar.co.uk/news/world-news/breaking-iran-releases-sick-where-37483154",
+      "image": "https://i2-prod.irishstar.com/news/us-news/article37474481.ece/ALTERNATES/s615/1_TOPSHOT-US-POLITICS-TRUMP.jpg",
+      "ts": 1785184167000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Daily Star World",
+            "b": "right",
+            "u": "https://www.dailystar.co.uk/news/world-news/breaking-iran-releases-sick-where-37483154"
+          }
+        ]
+      }
+    },
     {
       "id": "e322b5095230",
       "title": "U.S. and Iran Hold Fire Amid Diplomatic Efforts",
@@ -36,44 +155,34 @@
       }
     },
     {
-      "id": "e25e2cf3c373",
-      "title": "Ukraine's Zelenskyy Meets UK's New PM Burnham",
-      "description": "Ukrainian President Zelenskyy has met with the UK's new Prime Minister Burnham to discuss ongoing support for Ukraine.",
-      "lat": 52.6,
-      "lng": -0.12000000000000455,
-      "severity": 2,
-      "location": "London, United Kingdom",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/ukraine-s-zelenskyy-in-uk-to-meet-new-pm-burnham/a-78136104?maca=en-rss-en-all-1573-rdf",
+      "id": "ec09c284d19f",
+      "title": "Wildfires in France",
+      "description": "Wildfires in southwestern France have forced the evacuation of over 250,000 people.",
+      "lat": 44.84,
+      "lng": 0.5800000000000125,
+      "severity": 3,
+      "location": "Bordeaux, France",
+      "source": "Die Welt",
+      "url": "https://www.welt.de/vermischtes/article6a67a9bcf253f42392cda854/waldbraende-in-frankreich-die-kommenden-wochen-werden-hart-macron-besucht-krisenzentrum-in-bordeaux.html",
       "image": null,
-      "ts": 1785178755793,
+      "ts": 1785180622000,
       "coverage": {
-        "left": 2,
-        "center": 1,
-        "right": 0,
-        "total": 3,
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
         "buckets": {
           "left": 0,
-          "lean_left": 2,
-          "center": 1,
-          "lean_right": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
           "right": 0
         },
         "sources": [
           {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/zelenskyy-visit-britain-visit-foreign-leader-burnham-office-135111156"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/7/27/new-uk-pm-burnham-assures-zelenskyy-of-continuing-ukraine-support?traffic_source=rss"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/ukraine-s-zelenskyy-in-uk-to-meet-new-pm-burnham/a-78136104?maca=en-rss-en-all-1573-rdf"
+            "n": "Die Welt",
+            "b": "lean_right",
+            "u": "https://www.welt.de/vermischtes/article6a67a9bcf253f42392cda854/waldbraende-in-frankreich-die-kommenden-wochen-werden-hart-macron-besucht-krisenzentrum-in-bordeaux.html"
           }
         ]
       }
@@ -226,6 +335,39 @@
             "n": "South China Morning Post",
             "b": "center",
             "u": "https://www.scmp.com/news/world/middle-east/article/3362025/iran-halts-strikes-trump-gives-space-talks?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f4be5bbdc0a8",
+      "title": "China supports Brazil",
+      "description": "China has expressed support for Brazil in opposing external interference and maintaining regional peace.",
+      "lat": 30.52,
+      "lng": 114.31,
+      "severity": 2,
+      "location": "Wuhan, China",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/china-supports-brazil-in-opposing-interference-xi-to-lula/article71274355.ece",
+      "image": "https://th-i.thgim.com/public/incoming/s16lfq/article71274356.ece/alternates/LANDSCAPE_1200/China-pitches-AGC1G8VVUH.3.jpg.jpg",
+      "ts": 1785174677000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/china-supports-brazil-in-opposing-interference-xi-to-lula/article71274355.ece"
           }
         ]
       }
@@ -1034,39 +1176,6 @@
             "n": "Breitbart",
             "b": "right",
             "u": "https://www.breitbart.com/europe/2026/07/27/france-wildfires-threaten-bordeaux-as-more-than-300000-leave-homes-in-france-and-spain/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ec09c284d19f",
-      "title": "Wildfires in France Force Mass Evacuations",
-      "description": "Wildfires in southwestern France have forced more than 250,000 people to evacuate their homes.",
-      "lat": 44.84,
-      "lng": 0.5800000000000125,
-      "severity": 4,
-      "location": "Bordeaux, France",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/europe-wildfires-2026_n_6a66abf2e4b00feba845e7d1",
-      "image": null,
-      "ts": 1785113986000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/macron-holds-crisis-meeting-as-monster-wildfires-drive-250-000-from-their-homes-11827855#publisher=newsstand"
           }
         ]
       }
@@ -6412,45 +6521,6 @@
       "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/07/14/usa-e-scattato-il-blocco-delle-navi-e-di-porti-iraniani_3b883269-7572-410c-be9a-68629f284cfb.html",
       "image": null,
       "ts": 1784060202000
-    },
-    {
-      "id": "519cb4de1cf8",
-      "title": "New York imposes ban on large data centers",
-      "description": "New York has imposed a landmark one-year ban on large data centers.",
-      "lat": 40.71,
-      "lng": -72.1048,
-      "severity": 2,
-      "location": "New York City, USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/7/14/new-york-imposes-landmark-one-year-ban-on-large-data-centres?traffic_source=rss",
-      "image": null,
-      "ts": 1784060012000
-    },
-    {
-      "id": "6aa4c5b83316",
-      "title": "New York Imposes Ban on Large Data Centers",
-      "description": "New York becomes the first US state to impose a one-year ban on the construction of large data centers, citing environmental concerns.",
-      "lat": 40.71,
-      "lng": -74.01,
-      "severity": 2,
-      "location": "New York City, USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/7/14/new-york-imposes-landmark-one-year-ban-on-large-data-centres?traffic_source=rss",
-      "image": null,
-      "ts": 1784060012000
-    },
-    {
-      "id": "c6c128de07fb",
-      "title": "US Senate Democrats block defense bill over Iran war",
-      "description": "The Senate votes 50-46 to block debate on the annual defense bill over war funding and defense cooperation with Israel.",
-      "lat": 38.9,
-      "lng": -77.0,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/14/senate-democrats-block-defence-bill-over-iran-war-israel-provisions?traffic_source=rss",
-      "image": null,
-      "ts": 1784059926000
     }
   ]
 }
