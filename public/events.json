@@ -1,7 +1,45 @@
 {
   "schema": 1,
-  "updated": "2026-07-27T21:42:33.744689+00:00",
+  "updated": "2026-07-27T23:13:31.769546+00:00",
   "events": [
+    {
+      "id": "ec09c284d19f",
+      "title": "Wildfires in France Force Evacuation of Over 220,000 People",
+      "description": "Wildfires in southwestern France have forced the evacuation of over 220,000 people, with the situation being described as the country's 'most difficult' since World War II.",
+      "lat": 44.84,
+      "lng": 0.5800000000000125,
+      "severity": 4,
+      "location": "Bordeaux, France",
+      "source": "Mirror World",
+      "url": "https://www.mirror.co.uk/news/world-news/france-wildfires-live-bordeaux-map-37479425",
+      "image": null,
+      "ts": 1785192246000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 1,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/quarter-million-people-flee-their-homes-in-france-and-spain-as-wildfires-burn_n_6a64a899e4b089c330669d5c"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/macron-holds-crisis-meeting-as-monster-wildfires-drive-250-000-from-their-homes-11827855#publisher=newsstand"
+          }
+        ]
+      }
+    },
     {
       "id": "e25e2cf3c373",
       "title": "Ukraine and UK strengthen ties",
@@ -31,6 +69,59 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/ukraine-s-zelenskyy-in-uk-to-meet-new-pm-burnham/a-78136104?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "47072eee880e",
+      "title": "Trump Asks Supreme Court to Allow Mail-In Voting Restrictions",
+      "description": "President Trump has asked the Supreme Court to allow his mail-in voting restrictions, which were blocked by a lower court.",
+      "lat": 38.89,
+      "lng": -77.01,
+      "severity": 2,
+      "location": "Washington D.C., USA",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/27/trump-asks-us-supreme-court-to-allow-mail-in-voting-restrictions?traffic_source=rss",
+      "image": null,
+      "ts": 1785187471000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 1,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 3,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/7/27/trump-asks-us-supreme-court-to-allow-mail-in-voting-restrictions?traffic_source=rss"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTUsxaE9veTZCWkFwWGFfVVhCeU1yZlRkQk1vWVlTWjBfNUZkOFNtTzlUVi05VHFRS1NsbXhNNDgtTG9nZmNOVUdPUFhXaVdfVFNtMERlRWJaS25LMTFuWVR4VXJZNkNlMVgxODR0STJhYXRNcWxrRlNBeTROalBONm9ud2M2eFJ5TnlYUF9vbG5uMk5uOTF3MjJwc2lyUllsWTNaMXRoeDdYcTBZMVJEUExWS2Y?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-07-27/us-asks-supreme-court-to-restore-trump-mail-in-voting-order"
+          },
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/07/27/trump-asks-the-supreme-court-to-allow-his-mail-voting-restrictions-before-the-midterms?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/supreme-court/4664902/trump-request-supreme-court-unblock-mail-in-voting-executive-order/"
           }
         ]
       }
@@ -150,39 +241,6 @@
             "n": "NDTV World",
             "b": "lean_left",
             "u": "https://www.ndtv.com/world-news/donald-trump-says-good-chance-of-progress-in-iran-talks-as-both-hold-fire-11830052#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ec09c284d19f",
-      "title": "Wildfires in France",
-      "description": "Wildfires in southwestern France have forced the evacuation of over 250,000 people.",
-      "lat": 44.84,
-      "lng": 0.5800000000000125,
-      "severity": 3,
-      "location": "Bordeaux, France",
-      "source": "Die Welt",
-      "url": "https://www.welt.de/vermischtes/article6a67a9bcf253f42392cda854/waldbraende-in-frankreich-die-kommenden-wochen-werden-hart-macron-besucht-krisenzentrum-in-bordeaux.html",
-      "image": null,
-      "ts": 1785180622000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Die Welt",
-            "b": "lean_right",
-            "u": "https://www.welt.de/vermischtes/article6a67a9bcf253f42392cda854/waldbraende-in-frankreich-die-kommenden-wochen-werden-hart-macron-besucht-krisenzentrum-in-bordeaux.html"
           }
         ]
       }
@@ -373,6 +431,39 @@
       }
     },
     {
+      "id": "57a34c8d5f65",
+      "title": "China Supports Brazil in Opposing 'Interference'",
+      "description": "China has expressed support for Brazil in opposing 'interference', with Chinese President Xi Jinping stating that Beijing supports Brazil in safeguarding its sovereignty and independence.",
+      "lat": -14.68,
+      "lng": -47.93000000000001,
+      "severity": 2,
+      "location": "Brasilia, Brazil",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/china-supports-brazil-in-opposing-interference-xi-to-lula/article71274355.ece",
+      "image": "https://th-i.thgim.com/public/incoming/s16lfq/article71274356.ece/alternates/LANDSCAPE_1200/China-pitches-AGC1G8VVUH.3.jpg.jpg",
+      "ts": 1785174677000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/china-supports-brazil-in-opposing-interference-xi-to-lula/article71274355.ece"
+          }
+        ]
+      }
+    },
+    {
       "id": "a7b76930006f",
       "title": "Chad to Withdraw from International Criminal Court",
       "description": "Chad's government has announced plans to withdraw from the International Criminal Court, citing limited and uneven effectiveness.",
@@ -416,6 +507,44 @@
       }
     },
     {
+      "id": "952d60f4cfef",
+      "title": "Ukraine Dismisses Iranian Threats After Caspian Sea Strike",
+      "description": "Ukraine has dismissed Iranian threats after a strike on an Iranian vessel in the Caspian Sea, directly linking the wars in the region.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cwyj7yl0xndo?at_medium=RSS&at_campaign=rss",
+      "image": null,
+      "ts": 1785169985000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cwyj7yl0xndo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/ukraine-strike-iranian-ship-us-investigates-russia-attacks-cia-sites-3805758"
+          }
+        ]
+      }
+    },
+    {
       "id": "e1f63d4bff4d",
       "title": "U.S. and Iran Hold Fire for Third Consecutive Day",
       "description": "The U.S. and Iran have held their fire for a third consecutive day, with Saudi Arabia intercepting a drone attack launched by Tehran-backed groups in Iraq.",
@@ -454,6 +583,44 @@
             "n": "Breitbart",
             "b": "right",
             "u": "https://www.breitbart.com/europe/2026/07/27/u-s-and-iran-pause-mutual-attacks-for-second-straight-day/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5531bfda0df3",
+      "title": "Nigeria: Gunmen Attack Community, Killing 30 People",
+      "description": "Gunmen have attacked a community in northwestern Nigeria, killing at least 30 people and injuring several others.",
+      "lat": 9.08,
+      "lng": 8.68,
+      "severity": 4,
+      "location": "Kaduna State, Nigeria",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/gunmen-attack-community-northwestern-nigeria-kill-30-people-135122160",
+      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
+      "ts": 1785167146000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/27/world/europe/gay-community-berlin-attack.html"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/gunmen-attack-community-northwestern-nigeria-kill-30-people-135122160"
           }
         ]
       }
@@ -796,6 +963,39 @@
             "n": "NBC News World",
             "b": "lean_left",
             "u": "https://www.nbcnews.com/world/iran/oil-prices-slide-us-iran-pause-strikes-trump-diplomacy-hormuz-red-sea-rcna589383"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f4080365d8d3",
+      "title": "U.S., Iran Pause Fighting to Allow for Diplomacy",
+      "description": "The U.S. and Iran have paused fighting to allow for diplomacy, with President Trump deciding to pause U.S. attacks.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/oil-prices-after-us-iran-pause-attacks_n_6a671affe4b00feba8461a69",
+      "image": null,
+      "ts": 1785142553000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/oil-prices-after-us-iran-pause-attacks_n_6a671affe4b00feba8461a69"
           }
         ]
       }
@@ -2309,64 +2509,6 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/643486-iran-accuses-us-attacking-rescue-boats/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "952d60f4cfef",
-      "title": "Ukraine strikes Iranian vessels in Caspian Sea",
-      "description": "The latest attacks by Ukraine, combined with Saudi military strikes on Iran-backed Houthi targets in Yemen, represent a widening of the Middle East conflict.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/07/26/ukraine-strikes-iranian-vessels-tehran-accuses-kyiv-of-hostile-act.html",
-      "image": null,
-      "ts": 1785060879000,
-      "coverage": {
-        "left": 2,
-        "center": 3,
-        "right": 1,
-        "total": 6,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 3,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/ukraine-attacks-iranian-ship-officials-37476900"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/7/26/after-strait-of-hormuz-and-red-sea-has-iran-war-now-reached-caspian-sea?traffic_source=rss"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/07/26/ukraine-strikes-iranian-vessels-tehran-accuses-kyiv-of-hostile-act.html"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/iran-news/article-903653"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/07/iran-war-spreads-red-sea-and-caspian-gulf-quiet-us-forgoes-strikes"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/defense/2165503"
           }
         ]
       }
@@ -6469,58 +6611,6 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/us-russian-crew-launches-on-mission-to-space-station?traffic_source=rss",
       "image": null,
       "ts": 1784061417000
-    },
-    {
-      "id": "6b6a363eb0fa",
-      "title": "US-Russia Joint Space Mission",
-      "description": "A US-Russian crew launches into orbit for a joint space mission, marking a rare instance of cooperation between the two nations.",
-      "lat": 45.92,
-      "lng": 65.21519999999998,
-      "severity": 1,
-      "location": "Baikonur Cosmodrome, Kazakhstan",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/us-russian-crew-launches-on-mission-to-space-station?traffic_source=rss",
-      "image": null,
-      "ts": 1784061417000
-    },
-    {
-      "id": "9175cca29c18",
-      "title": "US imposes new sanctions on Iran",
-      "description": "The US has imposed new sanctions on Iran, targeting individuals, entities, and vessels.",
-      "lat": 38.9,
-      "lng": -77.0,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/07/14/usa-impongono-nuove-sanzioni-alliran-nel-mirino-anche-la-banca-centrale_b4d9f1f3-faa7-4408-9cf0-95ee8e644995.html",
-      "image": null,
-      "ts": 1784060788000
-    },
-    {
-      "id": "0e20814dc4db",
-      "title": "Yemen's Fragile Peace Deadlock",
-      "description": "The fragile peace in Yemen is on the verge of collapse, with mobilization of fighters and attacks signaling a potential return to conflict.",
-      "lat": 16.45,
-      "lng": 46.115200000000016,
-      "severity": 4,
-      "location": "Sana'a, Yemen",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/features/2026/7/14/why-yemens-long-no-war-no-peace-deadlock-may-be-ending?traffic_source=rss",
-      "image": null,
-      "ts": 1784060276000
-    },
-    {
-      "id": "e17581c280df",
-      "title": "US imposes blockade on Iranian ports",
-      "description": "The US has imposed a blockade on Iranian ports, with the US military saying it will take action against any Iranian ships that try to leave or enter the ports.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/07/14/usa-e-scattato-il-blocco-delle-navi-e-di-porti-iraniani_3b883269-7572-410c-be9a-68629f284cfb.html",
-      "image": null,
-      "ts": 1784060202000
     }
   ]
 }
