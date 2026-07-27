@@ -1,7 +1,116 @@
 {
   "schema": 1,
-  "updated": "2026-07-27T08:56:48.843462+00:00",
+  "updated": "2026-07-27T12:34:03.427602+00:00",
   "events": [
+    {
+      "id": "93fc4dd43ec6",
+      "title": "Zelenskyy arrives in UK for talks with new Prime Minister Andy Burnham",
+      "description": "Ukrainian President Volodymyr Zelenskyy has arrived in the UK for talks with new Prime Minister Andy Burnham.",
+      "lat": 51.5,
+      "lng": -0.13,
+      "severity": 2,
+      "location": "London, UK",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-27/zelenskyy-arrives-in-uk-for-burnham-talks-before-visit-to-trump",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article36936854.ece/ALTERNATES/s615/1_Sunday-with-Laura-Kuenssberg.jpg",
+      "ts": 1785154297000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-07-27/zelenskyy-arrives-in-uk-for-burnham-talks-before-visit-to-trump"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3664e4497578",
+      "title": "Iran says it still controls Strait of Hormuz after US pauses bombing",
+      "description": "Iran claims it still controls the Strait of Hormuz after the US paused its bombing campaign in the region.",
+      "lat": 27.67,
+      "lng": 58.15520000000001,
+      "severity": 3,
+      "location": "Strait of Hormuz",
+      "source": "The Hill",
+      "url": "https://thehill.com/policy/defense/5991703-iran-hormuz-strait/",
+      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/07/AP26096376134283-e1784629473640.jpg?w=900",
+      "ts": 1785153826000,
+      "coverage": {
+        "left": 0,
+        "center": 3,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/403625cc-8371-43ee-997a-f6908a97f52e?syn-25a6b1a6=1"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/iran-rules-out-us-talks-as-hormuz-strait-remains-closed/live-78127467?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/policy/defense/5991703-iran-hormuz-strait/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "747439873146",
+      "title": "US and Iran pause strikes to give 'space' for diplomacy",
+      "description": "The US and Iran have paused their strikes to allow for diplomatic talks, according to the US ambassador to the UN.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/iran-us-pause-attacks_n_6a672eaae4b00feba8462a2c",
+      "image": null,
+      "ts": 1785147502000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/iran/oil-prices-slide-us-iran-pause-strikes-trump-diplomacy-hormuz-red-sea-rcna589383"
+          }
+        ]
+      }
+    },
     {
       "id": "f45a7c25b2e9",
       "title": "US pauses attacks on Iran for a second straight day",
@@ -505,44 +614,6 @@
             "n": "AGI Estero",
             "b": "center",
             "u": "https://www.agi.it/estero/news/2026-07-26/burnham-tre-misure-fiscali-popolari-38236519/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "93fc4dd43ec6",
-      "title": "Ukraine President Zelensky meets UK PM Burnham",
-      "description": "Ukrainian President Volodymyr Zelensky has met with UK Prime Minister Andy Burnham to discuss support for Ukraine.",
-      "lat": 51.5,
-      "lng": -0.13,
-      "severity": 1,
-      "location": "London, UK",
-      "source": "Mirror World",
-      "url": "https://www.mirror.co.uk/news/politics/zelensky-andy-burnham-ukraine-drones-37478475",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article36936854.ece/ALTERNATES/s615/1_Sunday-with-Laura-Kuenssberg.jpg",
-      "ts": 1785101404000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/politics/zelensky-andy-burnham-ukraine-drones-37478475"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/world/2026/0727/1585220-burnham-zelensky/"
           }
         ]
       }
@@ -5985,32 +6056,6 @@
       "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/07/14/il-governo-rodriguez-apre-al-dialogo-con-lopposizione-in-venezuela_5042bfaf-3ae8-4a5b-a41c-ce4a776a0c99.html",
       "image": null,
       "ts": 1784046717000
-    },
-    {
-      "id": "083149c5320a",
-      "title": "Trump pays writer E Jean Carroll $5m in damages",
-      "description": "Donald Trump has paid writer E Jean Carroll $5m in damages over sexual abuse and defamation.",
-      "lat": 41.81,
-      "lng": -74.01,
-      "severity": 3,
-      "location": "New York City, USA",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c2dydj1wp93o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a14c/live/efc3d020-7f98-11f1-a5f4-433bb9aa2e5a.jpg",
-      "ts": 1784045975000
-    },
-    {
-      "id": "474bd0dc770e",
-      "title": "Israel launches new illegal settlement expansion plan",
-      "description": "Israel has launched a new plan to expand illegal settlements, sparking international condemnation.",
-      "lat": 30.8274,
-      "lng": 36.860000000000014,
-      "severity": 4,
-      "location": "Jerusalem, Israel",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/israel-launches-new-illegal-settlement-expansion-plan?traffic_source=rss",
-      "image": null,
-      "ts": 1784033750000
     }
   ]
 }
