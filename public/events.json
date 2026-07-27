@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-07-26T23:32:10.473828+00:00",
+  "updated": "2026-07-27T01:12:04.025968+00:00",
   "events": [
+    {
+      "id": "fe31fc34fd9c",
+      "title": "Guterres tours Syria's notorious 'Assad Prison'",
+      "description": "UN Secretary-General Antonio Guterres has toured the notorious former 'Assad prison' in Sednaya, Syria.",
+      "lat": 33.17,
+      "lng": 36.129999999999995,
+      "severity": 1,
+      "location": "Sednaya, Syria",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/27/aje-onl-nf_guterres-tours-syrias-assad-prison-in-sednaya-260726?traffic_source=rss",
+      "image": null,
+      "ts": 1785113286000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/7/27/aje-onl-nf_guterres-tours-syrias-assad-prison-in-sednaya-260726?traffic_source=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "57144d0814f7",
       "title": "Enemy drone attack leaves 12, including two minors, injured in Russia’s Belgorod",
@@ -508,27 +541,27 @@
     },
     {
       "id": "b80448a35925",
-      "title": "Berlin Pride attack suspect shot and killed during police operation",
-      "description": "The suspect, identified as 21-year-old Abdul Ballout, was killed in a confrontation with police in a suburb of Berlin.",
+      "title": "Berlin Pride attack",
+      "description": "A van slammed into people gathered for Berlin's Pride event, killing one person and injuring at least 16 others.",
       "lat": 52.52,
       "lng": 15.315200000000004,
-      "severity": 3,
+      "severity": 4,
       "location": "Berlin, Germany",
-      "source": "NBC News World",
-      "url": "https://www.nbcnews.com/world/germany/manhunt-underway-suspect-islamist-ties-deadly-berlin-pride-attack-rcna589276",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/1-dead-after-van-drives-into-crowd-during-berlins-lgbtq-event_n_6a653ccfe4b089c33066aee5",
       "image": null,
       "ts": 1785075073232,
       "coverage": {
         "left": 10,
-        "center": 10,
-        "right": 5,
-        "total": 25,
+        "center": 9,
+        "right": 3,
+        "total": 22,
         "buckets": {
           "left": 1,
           "lean_left": 9,
-          "center": 10,
+          "center": 9,
           "lean_right": 1,
-          "right": 4
+          "right": 2
         },
         "sources": [
           {
@@ -587,11 +620,6 @@
             "u": "https://www.bbc.co.uk/news/articles/c62eg899l99o?at_medium=RSS&at_campaign=rss"
           },
           {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/07/26/vehicle-mows-down-crowd-at-berlin-pride-festival-killing-one.html"
-          },
-          {
             "n": "IBTimes",
             "b": "center",
             "u": "https://www.ibtimes.com/berlin-pride-attack-leaves-one-dead-16-injured-police-hunt-suspect-islamist-ties-3805741"
@@ -622,9 +650,9 @@
             "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOS1VfYVUxQ3FPa01HZ0ZlT1lkamc4Yllrak5QYlBjT2hHUGJ6RFQtNUpfNzB1Sl9BbGdVUTJqX3pZWkVwR1YwT1VHOXNUY1ZtRUdXajRMeE4tdGIwa3MzeWRmQlEySzJVNFF2TmQ0eExYZmtWalVBalVmX0FqZmtZYkx4N05kel90WlE?oc=5"
           },
           {
-            "n": "South China Morning Post",
+            "n": "Japan Times",
             "b": "center",
-            "u": "https://www.scmp.com/news/world/europe/article/3361917/chief-suspect-berlin-pride-attack-shot-dead-police-say?utm_source=rss_feed"
+            "u": "https://www.japantimes.co.jp/news/2026/07/27/world/crime-legal/berlin-pride-attack-manhunt/"
           },
           {
             "n": "Times of India World",
@@ -640,16 +668,6 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/berlin-pride-attack-believed-act-islamic-terror-suspect-run-german-minister"
-          },
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2233111/berlin-pride-suspect-shot-dead"
-          },
-          {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/newsroom/suspect-of-berlin-pride-attack-shot-and-killed-during-police-operation/"
           },
           {
             "n": "Daily Star World",
@@ -5723,19 +5741,6 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYkZaamlwNS1ielVkSzd5WnNEYWdaUmhhbWd1am1ZaXkxcXFrRktlaVNJN0xMZ2RIbkk5ejh3X0VtdzJJTHdiWnJ1cmpIWnhIN0hTRVJCMm1iVmNjbUsyR19oY2xiUHljd2oycFV1akdoM2ZRRDV4UUVrMHhQQTBGb21jNmt5VkZqTVpCOFRGeUl1d2Z0b2UxTDNXNlBCM0ZqM3g4elln?oc=5",
       "image": null,
       "ts": 1783983349000
-    },
-    {
-      "id": "07e15c32dd6c",
-      "title": "Venezuela-US Sanctions",
-      "description": "The US has imposed sanctions on Venezuela, with Senior Associate Attorney Megan Mohler discussing the implications.",
-      "lat": 11.58,
-      "lng": -66.9,
-      "severity": 3,
-      "location": "Caracas, Venezuela",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOU2lKTzVzSEQ1M0s2YVg3UkFmQkVJWWNJdkdCR2JHMW4zcDRONElZamZEMUdBMldWaXp4UVVjMDZWX3FBTWVuTjJfR1FQazRBazdBZ2E2TVRqM0xsT0hxS1U1cTl3OWZHUnEyRm9SSFJmQnFrM1NrWUtCRkRqR3JyQ0gwS20yVmtS?oc=5",
-      "image": null,
-      "ts": 1783982528000
     }
   ]
 }
