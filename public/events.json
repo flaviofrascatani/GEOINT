@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-07-27T18:59:15.935443+00:00",
+  "updated": "2026-07-27T20:27:01.414566+00:00",
   "events": [
+    {
+      "id": "e322b5095230",
+      "title": "U.S. and Iran Hold Fire Amid Diplomatic Efforts",
+      "description": "The U.S. and Iran have held fire amid diplomatic efforts, with President Trump stating that there is a good chance of progress in talks.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/donald-trump-says-good-chance-of-progress-in-iran-talks-as-both-hold-fire-11830052#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-07/eecul5v_donald-trump_625x300_23_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1785181435000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/donald-trump-says-good-chance-of-progress-in-iran-talks-as-both-hold-fire-11830052#publisher=newsstand"
+          }
+        ]
+      }
+    },
     {
       "id": "e25e2cf3c373",
       "title": "Ukraine's Zelenskyy Meets UK's New PM Burnham",
@@ -74,6 +107,44 @@
             "n": "Washington Post World",
             "b": "lean_left",
             "u": "https://www.washingtonpost.com/nation/2026/07/27/gordie-howe-bridge-between-canada-us-opens-after-trump-tried-block-it/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "81cf5c2f722c",
+      "title": "New Canada-U.S. Bridge Opens",
+      "description": "A new bridge connecting Canada and the U.S. has opened, strengthening a key trade corridor between the two countries.",
+      "lat": 43.42,
+      "lng": -83.05,
+      "severity": 1,
+      "location": "Detroit, USA",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/nation/2026/07/27/gordie-howe-bridge-between-canada-us-opens-after-trump-tried-block-it/",
+      "image": null,
+      "ts": 1785177780000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/nation/2026/07/27/gordie-howe-bridge-between-canada-us-opens-after-trump-tried-block-it/"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/americas/new-canada-us-bridge-opens-strengthening-key-trade-corridor"
           }
         ]
       }
@@ -996,6 +1067,39 @@
             "n": "NDTV World",
             "b": "lean_left",
             "u": "https://www.ndtv.com/world-news/macron-holds-crisis-meeting-as-monster-wildfires-drive-250-000-from-their-homes-11827855#publisher=newsstand"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6245bcd25dbc",
+      "title": "Wildfires in France Displace Over 250,000",
+      "description": "Wildfires in France have displaced over 250,000 people, with the French president pledging support and vowing to win the battle against the fires.",
+      "lat": 44.84,
+      "lng": -0.5800000000000125,
+      "severity": 4,
+      "location": "Bordeaux, France",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/europe-wildfires-2026_n_6a66abf2e4b00feba845e7d1",
+      "image": null,
+      "ts": 1785113986000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/europe-wildfires-2026_n_6a66abf2e4b00feba845e7d1"
           }
         ]
       }
@@ -6347,45 +6451,6 @@
       "url": "https://www.aljazeera.com/news/2026/7/14/senate-democrats-block-defence-bill-over-iran-war-israel-provisions?traffic_source=rss",
       "image": null,
       "ts": 1784059926000
-    },
-    {
-      "id": "a4d62440b4e7",
-      "title": "US Senate blocks defense bill over Iran war",
-      "description": "The US Senate has blocked a defense bill over the Iran war and Israel integration, with Democrats voting against the bill.",
-      "lat": 38.89,
-      "lng": -77.01,
-      "severity": 3,
-      "location": "Washington, D.C., USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/14/senate-democrats-block-defence-bill-over-iran-war-israel-provisions?traffic_source=rss",
-      "image": null,
-      "ts": 1784059926000
-    },
-    {
-      "id": "d9150fff489c",
-      "title": "US Resumes Blockade of Iran Ports",
-      "description": "The US resumes its blockade of Iranian ports, with the US Navy intercepting and inspecting cargo ships in the Strait of Hormuz.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cy0608wy8pro?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6c0/live/e8f90230-7fb4-11f1-926f-c90d1bcfbc84.jpg",
-      "ts": 1784059837000
-    },
-    {
-      "id": "ba97f53c34bc",
-      "title": "US and Iraq Discuss Economic Cooperation",
-      "description": "US President Donald Trump has met with Iraqi Prime Minister Ali al-Zaidi to discuss economic cooperation and investment.",
-      "lat": 38.9,
-      "lng": -77.0,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/us-president-trump-meets-with-fan-of-america-iraqi-pm-ali-al-zaidi?traffic_source=rss",
-      "image": null,
-      "ts": 1784058206000
     }
   ]
 }
