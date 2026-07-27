@@ -1,7 +1,126 @@
 {
   "schema": 1,
-  "updated": "2026-07-27T17:19:18.961471+00:00",
+  "updated": "2026-07-27T18:59:15.935443+00:00",
   "events": [
+    {
+      "id": "e25e2cf3c373",
+      "title": "Ukraine's Zelenskyy Meets UK's New PM Burnham",
+      "description": "Ukrainian President Zelenskyy has met with the UK's new Prime Minister Burnham to discuss ongoing support for Ukraine.",
+      "lat": 52.6,
+      "lng": -0.12000000000000455,
+      "severity": 2,
+      "location": "London, United Kingdom",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/ukraine-s-zelenskyy-in-uk-to-meet-new-pm-burnham/a-78136104?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1785178755793,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/zelenskyy-visit-britain-visit-foreign-leader-burnham-office-135111156"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/7/27/new-uk-pm-burnham-assures-zelenskyy-of-continuing-ukraine-support?traffic_source=rss"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/ukraine-s-zelenskyy-in-uk-to-meet-new-pm-burnham/a-78136104?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dce6c88c7a10",
+      "title": "Bridge Connecting Canada and U.S. Opens",
+      "description": "The Gordie Howe International Bridge connecting Detroit and Windsor, Ontario, has opened after being blocked by Trump.",
+      "lat": 42.31,
+      "lng": -83.05,
+      "severity": 1,
+      "location": "Detroit, USA",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/nation/2026/07/27/gordie-howe-bridge-between-canada-us-opens-after-trump-tried-block-it/",
+      "image": null,
+      "ts": 1785177780000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/nation/2026/07/27/gordie-howe-bridge-between-canada-us-opens-after-trump-tried-block-it/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e8a4338942ea",
+      "title": "EU Sanctions on Russia Obstruct Fight Against Wildfires",
+      "description": "EU sanctions on Russia have grounded Russian-made firefighting helicopters in Spain, hindering efforts to combat wildfires.",
+      "lat": 41.52,
+      "lng": -3.710000000000008,
+      "severity": 3,
+      "location": "Madrid, Spain",
+      "source": "RT News",
+      "url": "https://www.rt.com/news/643547-spain-wildfire-russia-sanctions/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.07/thumbnail/6a67805285f54078c8522422.jpg",
+      "ts": 1785176445000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 2,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 2,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS2tpdEJLQmpReXhycktNc193eUk2MzNzS0xkcXg2WVM2VGZ4aTN3ZkI3Z1I1b0RZLW1zYWtyOHJxU2haaWRfUkdiN2FZVERIT3pLWk5zbkN5VFg2T1lpWDJQMFVjRjVUdjAxYm9Eclk4QWNuU2ZnSUxjSzVEMTZ1b2xyWWEtQlZCZjRmY2VfRncwTTlkcTRPZUZmMXNhdw?oc=5"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2166125"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/643547-spain-wildfire-russia-sanctions/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
     {
       "id": "269a07c50f43",
       "title": "Trump says US in 'deep talks' with Iran",
@@ -127,39 +246,54 @@
       }
     },
     {
-      "id": "e25e2cf3c373",
-      "title": "Zelensky Meets with UK's New Prime Minister",
-      "description": "Ukrainian President Volodymyr Zelensky met with the UK's new Prime Minister, Andy Burnham, to discuss ongoing support for Kyiv against Russia.",
-      "lat": 52.6,
-      "lng": -0.12000000000000455,
-      "severity": 1,
-      "location": "London, United Kingdom",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/07/27/zelensky-is-first-foreign-leader-visit-burnham-uks-new-prime-minister/",
+      "id": "77b780d01cf4",
+      "title": "Iran Claims Control of Strait of Hormuz",
+      "description": "Iran claims it remains firmly in control of the Strait of Hormuz and has no desire to resume negotiations with the U.S.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 3,
+      "location": "Hormuz Strait, Iran",
+      "source": "Breitbart",
+      "url": "https://www.breitbart.com/middle-east/2026/07/27/iran-claims-it-controls-strait-hormuz-has-no-interest-negotiations-mafia-u-s/",
       "image": null,
-      "ts": 1785166814000,
+      "ts": 1785166825000,
       "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
+        "left": 1,
+        "center": 3,
+        "right": 1,
+        "total": 5,
         "buckets": {
           "left": 0,
-          "lean_left": 2,
-          "center": 0,
+          "lean_left": 1,
+          "center": 3,
           "lean_right": 0,
-          "right": 0
+          "right": 1
         },
         "sources": [
           {
-            "n": "Washington Post World",
+            "n": "CBS News World",
             "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/07/27/zelensky-is-first-foreign-leader-visit-burnham-uks-new-prime-minister/"
+            "u": "https://www.cbsnews.com/video/us-iran-fighting-paused-as-progress-reported-in-talks-to-reopen-strait-of-hormuz/"
           },
           {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/zelenskyy-visit-britain-visit-foreign-leader-burnham-office-135111156"
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/israel-believes-us-iran-wont-reach-deal-over-hormuz-strait-so-trump-will-escalate-3805756"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/403625cc-8371-43ee-997a-f6908a97f52e?syn-25a6b1a6=1"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/iran-rules-out-us-talks-as-hormuz-strait-remains-closed/live-78127467?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/middle-east/2026/07/27/iran-claims-it-controls-strait-hormuz-has-no-interest-negotiations-mafia-u-s/"
           }
         ]
       }
@@ -2924,39 +3058,6 @@
             "n": "GNews Geopolitics",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdENFLUN1cko1X1ptWEhmOVFPaW9GeWd5ZHZFSUZ4NDc5clprUkRxc3ByMWwzTTNiV3NzQkJCUEJXbnVJcE02MWRUWjRyNFJIeFg5X3ozQTU5ZmRKTTdoTHJVbVR4bkgydU1BcHYySFpDZ1Uwb09ZWEl3ZjJTREtxbHF2V2JlS0doYm1mZWswbW9Dbmh6TXU00gGcAUFVX3lxTFBhZGpLdUtRSEJlQWRwdnRySlUwWFBKWXczMUtGckFPeHByV21XUjhsTDlJcmlTMTNiZm90QjdMNExjV1FWU0s2MUgwVFp5RWYwdzBrVzdvWXFlUGEtTkZaZkF4anU1M25ReV9LbEFhcDJQVUgwWXlBQUNBeEhfOXE2akFtZWZBZ19KZGhmYmRycE14X1NIZWpEelF0ZA?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "77b780d01cf4",
-      "title": "Iran Guards say stopped four ships trying to transit Hormuz strait",
-      "description": "Iran's Guards said they stopped four ships trying to transit the Hormuz strait, as US President Trump described negotiations with Iran as 'by far the most serious that we’ve seen'.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 2,
-      "location": "Hormuz Strait, Iran",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-saudi-arabia-houthis-attack-gulf-states-strait-of-hormuz-live-updates-july-25-2026/article71265151.ece",
-      "image": null,
-      "ts": 1784999844000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-saudi-arabia-houthis-attack-gulf-states-strait-of-hormuz-live-updates-july-25-2026/article71265151.ece"
           }
         ]
       }
@@ -6279,32 +6380,6 @@
       "description": "US President Donald Trump has met with Iraqi Prime Minister Ali al-Zaidi to discuss economic cooperation and investment.",
       "lat": 38.9,
       "lng": -77.0,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/us-president-trump-meets-with-fan-of-america-iraqi-pm-ali-al-zaidi?traffic_source=rss",
-      "image": null,
-      "ts": 1784058206000
-    },
-    {
-      "id": "a91fe94cc15c",
-      "title": "Trump meets with Iraqi PM at White House",
-      "description": "US President Donald Trump welcomed Iraqi Prime Minister Ali al-Zaidi to the White House.",
-      "lat": 38.9,
-      "lng": -77.0,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/us-president-trump-meets-with-fan-of-america-iraqi-pm-ali-al-zaidi?traffic_source=rss",
-      "image": null,
-      "ts": 1784058206000
-    },
-    {
-      "id": "8c2a3dd3b0c7",
-      "title": "US and Iraq Strengthen Economic Ties",
-      "description": "US President Trump meets with Iraqi Prime Minister Ali al-Zaidi at the White House, discussing economic cooperation and investment opportunities.",
-      "lat": 38.89,
-      "lng": -77.01,
       "severity": 2,
       "location": "Washington D.C., USA",
       "source": "Al Jazeera",
