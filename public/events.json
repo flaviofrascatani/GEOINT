@@ -1,7 +1,121 @@
 {
   "schema": 1,
-  "updated": "2026-07-27T01:12:04.025968+00:00",
+  "updated": "2026-07-27T05:28:42.619846+00:00",
   "events": [
+    {
+      "id": "22a2a2582b99",
+      "title": "Thousands march in Pakistan-administered Kashmir amid election unrest",
+      "description": "Thousands of people have marched in Pakistan-administered Kashmir amid unrest over upcoming elections.",
+      "lat": 34.96,
+      "lng": 73.75999999999999,
+      "severity": 3,
+      "location": "Muzaffarabad, Pakistan-administered Kashmir",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/27/aje-onl-nf_26-07-sv-pakistan-kashmir-march-km-270726?traffic_source=rss",
+      "image": null,
+      "ts": 1785127227000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/7/27/aje-onl-nf_26-07-sv-pakistan-kashmir-march-km-270726?traffic_source=rss"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/can-pakistan-administered-kashmir-elections-calm-tensions/a-78101422?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-07-27/pakistan-administered-kashmir-election-what-to-know-does-vote-matter-to-india"
+          }
+        ]
+      }
+    },
+    {
+      "id": "67bdeaba06d8",
+      "title": "Two killed, several injured in shooting at Seattle food festival",
+      "description": "At least two people have been killed and several others injured in a shooting at a food festival in Seattle.",
+      "lat": 47.61,
+      "lng": -122.33,
+      "severity": 4,
+      "location": "Seattle, USA",
+      "source": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/crime/4663871/shooting-space-needle-seattle/",
+      "image": null,
+      "ts": 1785120946000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/07/27/seattle-shooting-leaves-two-dead-five-injured.html"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/world/2026/0727/1585225-seattle-shooting/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2425b380904",
+      "title": "China industrial profit growth slows in June",
+      "description": "China's industrial profit growth has slowed in June due to retreating oil prices.",
+      "lat": 41.01,
+      "lng": 118.29520000000002,
+      "severity": 3,
+      "location": "Beijing, China",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/07/27/china-industrial-profit-growth-exports-oil-drops.html",
+      "image": null,
+      "ts": 1785117724000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/07/27/china-industrial-profit-growth-exports-oil-drops.html"
+          }
+        ]
+      }
+    },
     {
       "id": "fe31fc34fd9c",
       "title": "Guterres tours Syria's notorious 'Assad Prison'",
@@ -31,6 +145,39 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/video/newsfeed/2026/7/27/aje-onl-nf_guterres-tours-syrias-assad-prison-in-sednaya-260726?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9966f0638c10",
+      "title": "US and Iran halt attacks",
+      "description": "The US and Iran have halted attacks, raising hopes of a renewed diplomatic push after nearly two weeks of escalating attacks.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "Le Monde English",
+      "url": "https://www.lemonde.fr/en/international/article/2026/07/27/us-and-iran-halt-attacks-in-tentative-opening-for-renewed-talks_6755863_4.html",
+      "image": "https://img.lemde.fr/2026/07/25/250/0/3000/1500/644/322/60/0/55720cb_ftp-1-ydm0hviwyken-5705732-01-06.jpg",
+      "ts": 1785112261000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/07/27/us-and-iran-halt-attacks-in-tentative-opening-for-renewed-talks_6755863_4.html"
           }
         ]
       }
@@ -145,6 +292,44 @@
             "n": "AGI Estero",
             "b": "center",
             "u": "https://www.agi.it/estero/news/2026-07-26/burnham-tre-misure-fiscali-popolari-38236519/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "93fc4dd43ec6",
+      "title": "Ukraine President Zelensky meets UK PM Burnham",
+      "description": "Ukrainian President Volodymyr Zelensky has met with UK Prime Minister Andy Burnham to discuss support for Ukraine.",
+      "lat": 51.5,
+      "lng": -0.13,
+      "severity": 1,
+      "location": "London, UK",
+      "source": "Mirror World",
+      "url": "https://www.mirror.co.uk/news/politics/zelensky-andy-burnham-ukraine-drones-37478475",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article36936854.ece/ALTERNATES/s615/1_Sunday-with-Laura-Kuenssberg.jpg",
+      "ts": 1785101404000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/politics/zelensky-andy-burnham-ukraine-drones-37478475"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/world/2026/0727/1585220-burnham-zelensky/"
           }
         ]
       }
@@ -5676,71 +5861,6 @@
       "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/07/14/lue-apre-nuovo-cluster-nei-negoziati-di-adesione-con-lucraina_851e3f18-69c2-4624-9111-06f5fd3e61eb.html",
       "image": null,
       "ts": 1784016325000
-    },
-    {
-      "id": "0400e0f7a65f",
-      "title": "UAE condemns Iran's 'brazen' attack on tankers",
-      "description": "The UAE has condemned Iran's attack on tankers, calling it a 'brazen' attack.",
-      "lat": 24.48,
-      "lng": 56.275199999999984,
-      "severity": 3,
-      "location": "Abu Dhabi, UAE",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0962/live/b6b2aac0-7f36-11f1-b9f9-7523a937b0a2.jpg",
-      "ts": 1784004648000
-    },
-    {
-      "id": "9e6cf98f0090",
-      "title": "US burrito giant Chipotle opening first outlet in Mexico",
-      "description": "US burrito giant Chipotle is opening its first outlet in Mexico, a significant expansion into the country where its dishes originated",
-      "lat": 19.4326,
-      "lng": -99.1332,
-      "severity": 2,
-      "location": "Mexico City, Mexico",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c0ryr89gp09o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f9ab/live/6119a2a0-7f2a-11f1-a2d1-357b5800ed69.jpg",
-      "ts": 1783996971000
-    },
-    {
-      "id": "811d2da0df25",
-      "title": "US launches fresh strikes on Iran",
-      "description": "The third consecutive night of US strikes on Iran came as Trump announced a 20% charge as part of a new blockade on the strait.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz, Middle East",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/caac/live/6d318280-7ece-11f1-a521-db2da184cdb6.jpg",
-      "ts": 1783996070000
-    },
-    {
-      "id": "3979ef05be30",
-      "title": "Trump demands payment to protect Gulf nations",
-      "description": "US President Donald Trump says the US should be paid by ‘rich’ oil-producing Gulf nations to secure the Strait of Hormuz",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/trump-demands-payment-to-protect-gulf-nations-from-iranian-attacks?traffic_source=rss",
-      "image": null,
-      "ts": 1783993068000
-    },
-    {
-      "id": "024fa327727a",
-      "title": "US and Iran conflict reignites",
-      "description": "The conflict between the US and Iran has reignited, with the US taking over the Strait of Hormuz.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYkZaamlwNS1ielVkSzd5WnNEYWdaUmhhbWd1am1ZaXkxcXFrRktlaVNJN0xMZ2RIbkk5ejh3X0VtdzJJTHdiWnJ1cmpIWnhIN0hTRVJCMm1iVmNjbUsyR19oY2xiUHljd2oycFV1akdoM2ZRRDV4UUVrMHhQQTBGb21jNmt5VkZqTVpCOFRGeUl1d2Z0b2UxTDNXNlBCM0ZqM3g4elln?oc=5",
-      "image": null,
-      "ts": 1783983349000
     }
   ]
 }
