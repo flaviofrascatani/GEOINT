@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-07-28T12:23:10.905454+00:00",
+  "updated": "2026-07-28T15:02:07.826160+00:00",
   "events": [
+    {
+      "id": "85051df24fc1",
+      "title": "Iraqi PM Visits Turkey",
+      "description": "Iraqi Prime Minister Ali al-Zaidi arrived in Ankara for an official visit to discuss strengthening ties with Turkey.",
+      "lat": 41.03,
+      "lng": 34.76519999999999,
+      "severity": 1,
+      "location": "Ankara, Turkey",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/politics/diplomacy/iraqi-pm-arrives-in-turkiye-for-inaugural-visit",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/07/28/453068.jpg",
+      "ts": 1785248460000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/politics/diplomacy/iraqi-pm-arrives-in-turkiye-for-inaugural-visit"
+          }
+        ]
+      }
+    },
     {
       "id": "4ff8535aecef",
       "title": "Wildfires in France and Spain",
@@ -6893,19 +6926,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cd959x4edy8o?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8de/live/7e6a3480-7f40-11f1-ba68-9b76167cb04b.jpg",
       "ts": 1784110908000
-    },
-    {
-      "id": "191e096fa213",
-      "title": "US groups sue Trump administration claiming ICC sanctions violate first amendment",
-      "description": "US groups sue Trump administration claiming ICC sanctions violate first amendment.",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZWE5QkpMREdZQS1xWkM3YnZRVVBKM095SHd2aUJKNWtjT0hkRG9fc0FXaFBGSm50OTY0ek01MlI4N1ozQUdEWXJsNDRwT1ZleWdyQjNtWHVRaGNncVpuZzBTN1JSVi1PZDN4S0E3aGdnb0RITHZqakYxS1VVcDJjaC14VE05azREUkY5bTRxV3dMcUc4?oc=5",
-      "image": null,
-      "ts": 1784109600000
     }
   ]
 }
