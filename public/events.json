@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-07-28T21:17:05.275826+00:00",
+  "updated": "2026-07-28T22:36:36.448830+00:00",
   "events": [
+    {
+      "id": "cb39af2df6ed",
+      "title": "China and Algeria launch communications satellite",
+      "description": "A Chinese-made communications satellite was launched for Algeria, marking the first export of such a spacecraft to an Arab country.",
+      "lat": 36.77,
+      "lng": 3.06,
+      "severity": 1,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1785278196297,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "adee34126771",
+      "title": "Japan earthquake kills at least 2",
+      "description": "A 7.1-magnitude earthquake struck Japan's Kyushu island, causing building collapses, fires, and widespread damage.",
+      "lat": 32.82,
+      "lng": 130.74,
+      "severity": 4,
+      "location": "Kumamoto, Japan",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/live/2026/07/28/world/japan-earthquake-kumamoto-tsunami",
+      "image": "https://static01.nyt.com/images/2026/07/28/multimedia/28japan-earthquake-kumamoto-wkhb/28japan-earthquake-kumamoto-wkhb-mediumSquareAt3X.jpg",
+      "ts": 1785274997000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/7/28/japan-kumamoto-earthquake-what-happened-damage-victims-latest-updates?traffic_source=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "bcec83796d76",
       "title": "China, Russia exercises highlight holes in Japan's Pacific defenses",
@@ -943,39 +1009,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/china-japan-differ-foreign-ministers-spoke-week-asean-135113362"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cb39af2df6ed",
-      "title": "China launches satellite for Algeria, first for an Arab country",
-      "description": "China has launched a communications satellite for Algeria, marking the first such export to an Arab country.",
-      "lat": 36.77,
-      "lng": 3.06,
-      "severity": 2,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1785200262462,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
           }
         ]
       }
@@ -2231,11 +2264,11 @@
     },
     {
       "id": "a2bc347aff7c",
-      "title": "Uganda begins emergency food handouts after 19 die from hunger",
-      "description": "Uganda has launched emergency food relief distribution after at least 19 deaths from hunger in Karamoja, with 1.5m people facing malnutrition.",
+      "title": "Uganda begins emergency food handouts",
+      "description": "The Ugandan government has launched emergency food relief distribution after at least 19 deaths from hunger due to months of drought and crop failures.",
       "lat": 2.96,
       "lng": 34.40260000000001,
-      "severity": 3,
+      "severity": 4,
       "location": "Kampala, Uganda",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger",
@@ -7223,19 +7256,6 @@
       "url": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c484/live/46eda4a0-8059-11f1-bee8-53ce494e1abc.jpg",
       "ts": 1784152504000
-    },
-    {
-      "id": "574ca6c7c450",
-      "title": "Iran says peace deal voided, fighting ‘existential war’ after US attacks",
-      "description": "The US announced a new wave of attacks Wednesday night, amid reported explosions in Bandar Abbas, Chabahar and Ahvaz.",
-      "lat": 32.32,
-      "lng": 51.65,
-      "severity": 4,
-      "location": "Isfahan, Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/15/iran-says-peace-deal-voided-fighting-existential-war-after-us-attacks?traffic_source=rss",
-      "image": null,
-      "ts": 1784152017000
     }
   ]
 }
