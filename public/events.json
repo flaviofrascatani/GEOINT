@@ -1,7 +1,98 @@
 {
   "schema": 1,
-  "updated": "2026-07-28T10:10:52.724984+00:00",
+  "updated": "2026-07-28T12:23:10.905454+00:00",
   "events": [
+    {
+      "id": "4ff8535aecef",
+      "title": "Wildfires in France and Spain",
+      "description": "Firefighters are battling major wildfires in France and Spain, with thousands of people evacuated.",
+      "lat": 44.84,
+      "lng": 0.5800000000000125,
+      "severity": 3,
+      "location": "Bordeaux, France",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/b0dfd771-a6d6-476e-a435-7a5aedf2f820?syn-25a6b1a6=1",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/07/931/523/france-gironde-wildfire-1.jpg?ve=1&tl=1",
+      "ts": 1785239339000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 1,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/quarter-million-people-flee-their-homes-in-france-and-spain-as-wildfires-burn_n_6a64a899e4b089c330669d5c"
+          },
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/28/world/europe/wildfires-france-spain.html"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/b0dfd771-a6d6-476e-a435-7a5aedf2f820?syn-25a6b1a6=1"
+          },
+          {
+            "n": "Daily Star World",
+            "b": "right",
+            "u": "https://www.dailystar.co.uk/news/world-news/latest-spain-travel-advice-national-37483982"
+          }
+        ]
+      }
+    },
+    {
+      "id": "435cd6d6b365",
+      "title": "Earthquake Hits Southern Japan",
+      "description": "A 7.1-magnitude earthquake has hit southern Japan, causing destruction and trapping people in a shopping mall.",
+      "lat": 33.92,
+      "lng": 130.74,
+      "severity": 4,
+      "location": "Kumamoto, Japan",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/07/28/powerful-earthquake-strikes-southern-japan-causing-destruction/",
+      "image": null,
+      "ts": 1785239132000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/japan-earthquake-tsunami-alert-strong-7-1-magnitude-earthquake-hit-southern-japan-tsunami-alert-issued-11831700#publisher=newsstand"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/major-earthquake-hits-japan-13567677"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/japan-strong-earthquake-hits-kumamoto-many-deaths-feared/a-78143660?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
     {
       "id": "539627313d4e",
       "title": "Iran Hangs Two Men Convicted of Killing Police Officers",
@@ -327,6 +418,39 @@
             "n": "Mirror World",
             "b": "lean_left",
             "u": "https://www.mirror.co.uk/news/world-news/france-wildfires-live-bordeaux-map-37479425"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3298e5603a60",
+      "title": "China and Japan Differ on Foreign Ministers' Meeting",
+      "description": "China and Japan have given conflicting accounts of whether their foreign ministers met at the ASEAN summit.",
+      "lat": 39.91,
+      "lng": 116.38999999999999,
+      "severity": 3,
+      "location": "Beijing, China",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/china-japan-differ-foreign-ministers-spoke-week-asean-135113362",
+      "image": "https://s.abcnews.com/images/International/wirestory_6c20754abd5462e59ec15cdfa1b249d1_4x3_384.jpg",
+      "ts": 1785201717000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/china-japan-differ-foreign-ministers-spoke-week-asean-135113362"
           }
         ]
       }
@@ -1582,11 +1706,11 @@
     },
     {
       "id": "a2bc347aff7c",
-      "title": "Uganda begins emergency food handouts after 19 die from hunger",
-      "description": "Government move follows months of drought and crop failures in Karamoja, with 1.5m people facing malnutrition",
+      "title": "Uganda Begins Emergency Food Handouts",
+      "description": "The Ugandan government has started distributing emergency food to 1.5 million people facing malnutrition due to drought and crop failures.",
       "lat": 2.96,
       "lng": 34.40260000000001,
-      "severity": 4,
+      "severity": 1,
       "location": "Kampala, Uganda",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger",
@@ -2755,59 +2879,6 @@
             "n": "Times of India World",
             "b": "center",
             "u": "https://timesofindia.indiatimes.com/world/china/baby-crib-sent-flying-800000-flee-typhoon-noul-hits-china-scary-visuals-emerge/articleshow/132639611.cms"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4ff8535aecef",
-      "title": "Wildfires in France and Spain",
-      "description": "Tens of thousands of people have been evacuated from wildfires across France and Spain, with the blazes threatening the city of Bordeaux.",
-      "lat": 44.84,
-      "lng": 0.5800000000000125,
-      "severity": 2,
-      "location": "Bordeaux, France",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/wildfires-displace-250000-france-threaten-famed-wine-region",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/07/931/523/france-gironde-wildfire-1.jpg?ve=1&tl=1",
-      "ts": 1785068432000,
-      "coverage": {
-        "left": 1,
-        "center": 4,
-        "right": 0,
-        "total": 5,
-        "buckets": {
-          "left": 1,
-          "lean_left": 0,
-          "center": 4,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/quarter-million-people-flee-their-homes-in-france-and-spain-as-wildfires-burn_n_6a64a899e4b089c330669d5c"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/clyj8k4nn5jo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/wildfires-spread-in-france-and-spain-forcing-more-to-flee/a-78119908?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/07/wildfires-threaten-bordeaux-france-spain-battle-blazes"
-          },
-          {
-            "n": "Times of India World",
-            "b": "center",
-            "u": "https://timesofindia.indiatimes.com/world/europe/watch-wildfires-rage-across-france-spain-as-thousands-flee-national-emergency-declared/articleshow/132639428.cms"
           }
         ]
       }
@@ -6835,32 +6906,6 @@
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZWE5QkpMREdZQS1xWkM3YnZRVVBKM095SHd2aUJKNWtjT0hkRG9fc0FXaFBGSm50OTY0ek01MlI4N1ozQUdEWXJsNDRwT1ZleWdyQjNtWHVRaGNncVpuZzBTN1JSVi1PZDN4S0E3aGdnb0RITHZqakYxS1VVcDJjaC14VE05azREUkY5bTRxV3dMcUc4?oc=5",
       "image": null,
       "ts": 1784109600000
-    },
-    {
-      "id": "3566f2e6bbb1",
-      "title": "US launches fresh strikes on Iran",
-      "description": "The US has expended a significant number of munitions since the war began in February.",
-      "lat": 35.69,
-      "lng": 53.325199999999995,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOT0VyUS0wbUp2Wi1ocnZndDNKWFFRY3hTdzdONnNZOGhvY2RJR1NhcTQtSXhZS3VrenNtWDhqaGl1cUpWdW5DRFFJZ0t1TDVIX3pNenRmZWtEY1R4dGRGOHI3cWNTNm44bFVtNGtrS0NHMmlicGozZlJFVERITlEyYmdGeXhhTXo3YTFFUNIBkgFBVV95cUxPRkh2Z25MUnYtd0FYVXJITmlwNXZRVkhjV2tfbHY1MUpPQ3JCQ3h4Q3Z3dGdjZGhOR0RDRV9xdVotdG05WFdPRTBWQUxBSW5lWWpNZU0wbGU0Yjh6LXoxdTVfSWY5Z2szTzZrUllyX1BaVXVLQzR4czNhbXYydHdvcGpqVXJWLUJXZFNoS1lxWU5mZw?oc=5",
-      "image": null,
-      "ts": 1784107469000
-    },
-    {
-      "id": "4240055b2714",
-      "title": "Iran Launches Attacks on US Targets",
-      "description": "Iran has launched attacks on US targets in the region, including the US Fifth Fleet's command center.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz, Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/15/iran-launches-attacks-across-region-as-us-strikes-continue?traffic_source=rss",
-      "image": null,
-      "ts": 1784106956000
     }
   ]
 }
