@@ -1,7 +1,131 @@
 {
   "schema": 1,
-  "updated": "2026-07-28T04:16:51.291538+00:00",
+  "updated": "2026-07-28T07:18:00.766774+00:00",
   "events": [
+    {
+      "id": "5cd4d60f812c",
+      "title": "Ukraine Attacks Russia's Moscow Region with 390 Drones",
+      "description": "Defenses downed a few dozen drones elsewhere in the region, including in Podolsk, Domodedovo, and Kolomna, Vorobyov said.",
+      "lat": 56.85,
+      "lng": 37.620000000000005,
+      "severity": 4,
+      "location": "Moscow, Russia",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/390-drones-in-one-night-ukraine-attacks-russias-moscow-region-11830934#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2023-05/e8ioeupg_russia-drone-attack-ndtv-650_650x400_03_May_23.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1785217894000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/390-drones-in-one-night-ukraine-attacks-russias-moscow-region-11830934#publisher=newsstand"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/ukraine-strike-iranian-ship-us-investigates-russia-attacks-cia-sites-3805758"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/emergencies/2166225"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e3bc1c2edf9a",
+      "title": "Iran's Foreign Minister Discusses Security of Strait of Hormuz with Saudi, Omani Counterparts",
+      "description": "Iran's foreign minister discussed issues related to the security of the Strait of Hormuz in separate phone calls with his Saudi and Omani counterparts.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 2,
+      "location": "Strait of Hormuz",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/07/irans-foreign-minister-discusses-security-strait-hormuz-saudi-omani-counterparts",
+      "image": null,
+      "ts": 1785217606000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/video/us-iran-fighting-paused-as-progress-reported-in-talks-to-reopen-strait-of-hormuz/"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/07/28/us-iran-war-trump-hormuz.html"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/07/irans-foreign-minister-discusses-security-strait-hormuz-saudi-omani-counterparts"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2166219"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e8a4338942ea",
+      "title": "China Vows Response to US Sanctions Threat Against AI Firms",
+      "description": "China Vows Response to US Sanctions Threat Against AI Firms",
+      "lat": 41.52,
+      "lng": -3.710000000000008,
+      "severity": 2,
+      "location": "Madrid, Spain",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMW4xS3BqaGhYRTV6M19Vd2NpNWZZTjB1TVk4TkRQZHBha3NRbnY4WmpiVUN2M0hwUHQzaGZhU1Z5TWp0VzNIQk85RW9VU1g2a19hanVsSFh3ZTY3NXBoQ3ZDbzU4Xy1SZkEtU3RoRWRTRkl3eF9TU1VwV0Y3LWNxSTRsRDlBN1FhMXFBT3Z1WEQwSGhNVFVZRHlDclVta1pqcUtlN05tNGFfV3RHUWdv?oc=5",
+      "image": "https://mf.b37mrtl.ru/files/2026.07/thumbnail/6a67805285f54078c8522422.jpg",
+      "ts": 1785211260000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMW4xS3BqaGhYRTV6M19Vd2NpNWZZTjB1TVk4TkRQZHBha3NRbnY4WmpiVUN2M0hwUHQzaGZhU1Z5TWp0VzNIQk85RW9VU1g2a19hanVsSFh3ZTY3NXBoQ3ZDbzU4Xy1SZkEtU3RoRWRTRkl3eF9TU1VwV0Y3LWNxSTRsRDlBN1FhMXFBT3Z1WEQwSGhNVFVZRHlDclVta1pqcUtlN05tNGFfV3RHUWdv?oc=5"
+          }
+        ]
+      }
+    },
     {
       "id": "f22b2add8a16",
       "title": "France Battles Wildfires",
@@ -454,49 +578,6 @@
       }
     },
     {
-      "id": "e8a4338942ea",
-      "title": "EU Sanctions on Russia Obstruct Fight Against Wildfires",
-      "description": "EU sanctions on Russia have grounded Russian-made firefighting helicopters in Spain, hindering efforts to combat wildfires.",
-      "lat": 41.52,
-      "lng": -3.710000000000008,
-      "severity": 3,
-      "location": "Madrid, Spain",
-      "source": "RT News",
-      "url": "https://www.rt.com/news/643547-spain-wildfire-russia-sanctions/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.07/thumbnail/6a67805285f54078c8522422.jpg",
-      "ts": 1785176445000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 2,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 2,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS2tpdEJLQmpReXhycktNc193eUk2MzNzS0xkcXg2WVM2VGZ4aTN3ZkI3Z1I1b0RZLW1zYWtyOHJxU2haaWRfUkdiN2FZVERIT3pLWk5zbkN5VFg2T1lpWDJQMFVjRjVUdjAxYm9Eclk4QWNuU2ZnSUxjSzVEMTZ1b2xyWWEtQlZCZjRmY2VfRncwTTlkcTRPZUZmMXNhdw?oc=5"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/politics/2166125"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/643547-spain-wildfire-russia-sanctions/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
       "id": "269a07c50f43",
       "title": "Trump says US in 'deep talks' with Iran",
       "description": "US President Donald Trump has said that the US is in 'deep talks' with Iran, and will return to military action if negotiations fail.",
@@ -720,6 +801,49 @@
             "n": "Breitbart",
             "b": "right",
             "u": "https://www.breitbart.com/europe/2026/07/27/u-s-and-iran-pause-mutual-attacks-for-second-straight-day/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "44f8a5508e3b",
+      "title": "Iran and Oman Discuss Restarting Hormuz Shipping Traffic",
+      "description": "Negotiators from Iran and Oman are trying to reach an agreement to restart shipping through the Strait of Hormuz.",
+      "lat": 26.57,
+      "lng": 58.15520000000001,
+      "severity": 2,
+      "location": "Strait of Hormuz",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-27/iran-oman-talks-focused-on-restarting-hormuz-shipping-traffic",
+      "image": null,
+      "ts": 1785169649000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/07/28/us-iran-war-trump-hormuz.html"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-07-27/iran-oman-talks-focused-on-restarting-hormuz-shipping-traffic"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2166219"
           }
         ]
       }
@@ -6637,45 +6761,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cz9l9venjd8o?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8854/live/13a1fe10-7fce-11f1-82bc-eb96a9eb8087.jpg",
       "ts": 1784070953000
-    },
-    {
-      "id": "1d1d2d980c68",
-      "title": "Venezuela opposition to meet with government for dialogue",
-      "description": "The Venezuelan opposition is set to meet with the government for dialogue, in an effort to find a peaceful solution to the country's crisis.",
-      "lat": 10.48,
-      "lng": -66.9,
-      "severity": 2,
-      "location": "Caracas, Venezuela",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/07/15/venezuela-machado-gonzalez-convocano-opposizione-dopo-apertura-del-governo-al-dialogo_cc53dffe-023a-4750-a547-1e1a9bcbda2e.html",
-      "image": null,
-      "ts": 1784069221000
-    },
-    {
-      "id": "da13e65d23c5",
-      "title": "India-UK trade deal comes into effect",
-      "description": "The deal cuts tariffs on thousands of goods and widens access for services firms and professionals in both markets.",
-      "lat": 51.5,
-      "lng": -0.12999999999999545,
-      "severity": 2,
-      "location": "London, UK",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c0kymrz0vkgo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/546d/live/37232a00-8026-11f1-8ae2-1d238eb2d791.jpg",
-      "ts": 1784067463000
-    },
-    {
-      "id": "491fd55ee828",
-      "title": "Italy-UK trade deal comes into effect",
-      "description": "The free trade agreement between the world's fifth and sixth largest economies has come into effect.",
-      "lat": 52.6,
-      "lng": -0.12999999999999545,
-      "severity": 2,
-      "location": "London, UK",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c0kymrz0vkgo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/546d/live/37232a00-8026-11f1-8ae2-1d238eb2d791.jpg",
-      "ts": 1784067463000
     }
   ]
 }
