@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-07-28T20:03:38.862149+00:00",
+  "updated": "2026-07-28T21:17:05.275826+00:00",
   "events": [
+    {
+      "id": "bcec83796d76",
+      "title": "China, Russia exercises highlight holes in Japan's Pacific defenses",
+      "description": "China and Russia have conducted joint military exercises, exposing weaknesses in Japan's defense capabilities.",
+      "lat": 35.68,
+      "lng": 139.76,
+      "severity": 2,
+      "location": "Tokyo, Japan",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/politics/defense/china-russia-exercises-highlight-holes-in-japan-s-pacific-defenses",
+      "image": null,
+      "ts": 1785273425125,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Nikkei Asia",
+            "b": "center",
+            "u": "https://asia.nikkei.com/politics/defense/china-russia-exercises-highlight-holes-in-japan-s-pacific-defenses"
+          }
+        ]
+      }
+    },
     {
       "id": "73051084df55",
       "title": "Many feared trapped in quake-hit Japan mall",
@@ -687,6 +720,39 @@
             "n": "Daily Star World",
             "b": "right",
             "u": "https://www.dailystar.co.uk/news/world-news/71-magnitude-earthquake-hits-japan-37484061"
+          }
+        ]
+      }
+    },
+    {
+      "id": "41469dc93629",
+      "title": "France, Spain race to contain wildfires as heatwave looms",
+      "description": "France has evacuated 4,000 more people in the face of a giant wildfire as it braced for worsening conditions.",
+      "lat": 44.84,
+      "lng": 0.5800000000000125,
+      "severity": 3,
+      "location": "Bordeaux, France",
+      "source": "RTE News",
+      "url": "https://www.rte.ie/news/europe/2026/0728/1585381-france-spain-wildfires-heatwave/",
+      "image": "https://www.rte.ie/images/0024c580-800.jpg",
+      "ts": 1785219844000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/europe/2026/0728/1585381-france-spain-wildfires-heatwave/"
           }
         ]
       }
@@ -2166,10 +2232,10 @@
     {
       "id": "a2bc347aff7c",
       "title": "Uganda begins emergency food handouts after 19 die from hunger",
-      "description": "Government move follows months of drought and crop failures in Karamoja, with 1.5m people facing malnutrition",
+      "description": "Uganda has launched emergency food relief distribution after at least 19 deaths from hunger in Karamoja, with 1.5m people facing malnutrition.",
       "lat": 2.96,
       "lng": 34.40260000000001,
-      "severity": 4,
+      "severity": 3,
       "location": "Kampala, Uganda",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger",
@@ -7170,32 +7236,6 @@
       "url": "https://www.aljazeera.com/news/2026/7/15/iran-says-peace-deal-voided-fighting-existential-war-after-us-attacks?traffic_source=rss",
       "image": null,
       "ts": 1784152017000
-    },
-    {
-      "id": "8e6e5cae7756",
-      "title": "Mercosur and Canada accelerate negotiations for a free trade agreement",
-      "description": "The goal is to close the agreement by 2026, announced Canadian Minister Anand.",
-      "lat": -34.6,
-      "lng": -58.38,
-      "severity": 2,
-      "location": "Buenos Aires, Argentina",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/07/15/mercosur-e-canada-accelerano-i-negoziati-per-un-accordo-di-libero-scambio_c9068643-74c3-4a72-a7f1-b4b28cd97882.html",
-      "image": null,
-      "ts": 1784148750000
-    },
-    {
-      "id": "fc185b8546f7",
-      "title": "French Parliament approves landmark assisted-dying bill",
-      "description": "Parliament adopted the text by 291 votes to 241, though it still needs approval from the Constitutional Council.",
-      "lat": 48.86,
-      "lng": 2.29,
-      "severity": 1,
-      "location": "Paris, France",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/15/french-parliament-approves-landmark-assisted-dying-bill?traffic_source=rss",
-      "image": null,
-      "ts": 1784145533000
     }
   ]
 }
