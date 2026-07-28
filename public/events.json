@@ -1,7 +1,146 @@
 {
   "schema": 1,
-  "updated": "2026-07-28T22:36:36.448830+00:00",
+  "updated": "2026-07-28T23:34:35.121621+00:00",
   "events": [
+    {
+      "id": "b6b6a635cfd5",
+      "title": "US military says intercepted missiles launched by Iran",
+      "description": "The US military said it thwarted an attempted surprise attack by Iran that came after a days-long lull in fighting.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 4,
+      "location": "Tehran, Iran",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/world/us-military-says-intercepted-missiles-launched-iran-6284471",
+      "image": null,
+      "ts": 1785281100000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/iran-war-us-military-says-it-intercepted-missiles-launched-by-iran-11835466#publisher=newsstand"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/iran-war-us-says-iranian-missiles-intercepted/live-78152241?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/world/us-military-says-intercepted-missiles-launched-iran-6284471"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ae4c3f0e4cd4",
+      "title": "Milei and Fujimori meet in Lima and agree to strengthen economic and security cooperation",
+      "description": "Argentine President Javier Milei met with Peru's President Keiko Fujimori in a bilateral encounter in Lima.",
+      "lat": -12.05,
+      "lng": -77.05,
+      "severity": 1,
+      "location": "Lima, Peru",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/07/28/milei-and-fujimori-meet-in-lima-and-agree-to-strengthen-economic-and-security-cooperation?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": "https://en.mercopress.com/data/cache/noticias/110949/100x80/jmke.jpg",
+      "ts": 1785279240000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/07/28/milei-and-fujimori-meet-in-lima-and-agree-to-strengthen-economic-and-security-cooperation?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d808833eefdc",
+      "title": "Iran launches missiles at US bases in Middle East",
+      "description": "Iran has launched multiple ballistic missiles towards US military bases in Jordan in a major overnight escalation.",
+      "lat": 31.95,
+      "lng": 38.129999999999995,
+      "severity": 4,
+      "location": "Amman, Jordan",
+      "source": "Daily Express World",
+      "url": "https://www.express.co.uk/news/world/2233909/iran-launches-missiles-us-military-bases-jordan",
+      "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2233909_1.jpg",
+      "ts": 1785278220000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 4,
+        "total": 7,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 2,
+          "right": 2
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/us-iran-war-trump-strait-of-hormuz-talks-oman/"
+          },
+          {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/policy/defense/5995522-iran-missile-attack-us-base/"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/iran-news/article-903953"
+          },
+          {
+            "n": "New York Post",
+            "b": "lean_right",
+            "u": "https://nypost.com/2026/07/28/us-news/iran-launches-attempted-surprise-attack-on-us-forces-in-middle-east/"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/643592-iran-us-jordan-surprise-attack/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          },
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2233909/iran-launches-missiles-us-military-bases-jordan"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4666347/iran-struck-14-middle-eastern-nations-where-things-stand-ally-or-neutral-military/"
+          }
+        ]
+      }
+    },
     {
       "id": "cb39af2df6ed",
       "title": "China and Algeria launch communications satellite",
@@ -7217,45 +7356,6 @@
       "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/07/16/trump-liran-ha-rilasciato-unamericana-detenuta-dal-2024_0f94a28d-d6e6-4078-9738-b62f0b0229d1.html",
       "image": null,
       "ts": 1784156453000
-    },
-    {
-      "id": "e477777ece8b",
-      "title": "Trump says Iran has released a US citizen detained since 2024",
-      "description": "Iran has released a US citizen detained since 2024, according to US President Donald Trump.",
-      "lat": 38.89,
-      "lng": -77.01,
-      "severity": 1,
-      "location": "Washington D.C., USA",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/07/16/trump-liran-ha-rilasciato-unamericana-detenuta-dal-2024_0f94a28d-d6e6-4078-9738-b62f0b0229d1.html",
-      "image": null,
-      "ts": 1784156453000
-    },
-    {
-      "id": "7eebdd13e792",
-      "title": "Argentina face action over Falklands banner",
-      "description": "Argentina face disciplinary action from Fifa after their players celebrate the World Cup semi-final win against England with a banner in support of their country's claims to the Falklands.",
-      "lat": -33.5037,
-      "lng": -58.38159999999999,
-      "severity": 3,
-      "location": "Buenos Aires, Argentina",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c935pgr4dklo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4aa5/live/ab442060-80e9-11f1-bee8-53ce494e1abc.jpg",
-      "ts": 1784155787000
-    },
-    {
-      "id": "22df55a6564d",
-      "title": "US launches fresh strikes on Iran",
-      "description": "US President Donald Trump says he is yet to decide whether or not he will 'finish off' Iran.",
-      "lat": 35.68,
-      "lng": 51.420000000000016,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c484/live/46eda4a0-8059-11f1-bee8-53ce494e1abc.jpg",
-      "ts": 1784152504000
     }
   ]
 }
