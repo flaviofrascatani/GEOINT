@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-07-28T15:02:07.826160+00:00",
+  "updated": "2026-07-28T16:46:00.178956+00:00",
   "events": [
+    {
+      "id": "65fef4f48362",
+      "title": "France, Spain Make Headway Against Wildfires",
+      "description": "Firefighters have made progress in containing huge wildfires that have forced unprecedented evacuations of tens of thousands of people across France and Spain.",
+      "lat": 43.61,
+      "lng": 1.4399999999999977,
+      "severity": 3,
+      "location": "Toulouse, France",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/europe/article/3362177/france-spain-make-headway-against-wildfires-new-heatwave-looms?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/29/6874cbf1-0f32-4c52-8f96-1fc854e4c55e_9079f6e2.jpg?itok=Aw-LNIUo&v=1785254459",
+      "ts": 1785254469000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/video/wildfires-scorch-spain-and-france-with-more-dry-weather-expected/"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/europe/article/3362177/france-spain-make-headway-against-wildfires-new-heatwave-looms?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "530a84997ea3",
+      "title": "UK to Resume Military Training in Kenya",
+      "description": "Kenya and Britain have agreed to resume military training in Kenya after delays in signing a new defense cooperation agreement.",
+      "lat": -0.09,
+      "lng": 34.75,
+      "severity": 2,
+      "location": "Nairobi, Kenya",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/uk-resume-military-training-kenya-after-delays-human-135157418",
+      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
+      "ts": 1785254173000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/uk-resume-military-training-kenya-after-delays-human-135157418"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f7822b113494",
+      "title": "Germany Deports Afghan Without Criminal Record for First Time Since Taliban Takeover",
+      "description": "Germany has deported an Afghan national without a criminal record for the first time since the Taliban returned to power, sparking controversy and debate over asylum policies.",
+      "lat": 52.52,
+      "lng": 13.409999999999997,
+      "severity": 3,
+      "location": "Berlin, Germany",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/07/germany-deports-afghan-without-criminal-record-first-time-taliban-takeover",
+      "image": null,
+      "ts": 1785250029000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/07/germany-deports-afghan-without-criminal-record-first-time-taliban-takeover"
+          }
+        ]
+      }
+    },
     {
       "id": "85051df24fc1",
       "title": "Iraqi PM Visits Turkey",
@@ -122,6 +226,49 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/japan-strong-earthquake-hits-kumamoto-many-deaths-feared/a-78143660?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5660997b45ca",
+      "title": "Powerful Earthquake Strikes Southern Japan",
+      "description": "A 7.1-magnitude earthquake has struck southern Japan, causing destruction and injuring at least 50 people, with reports of collapsed buildings and damaged roads.",
+      "lat": 33.88,
+      "lng": 132.6452,
+      "severity": 4,
+      "location": "Kumamoto, Japan",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/07/28/powerful-earthquake-strikes-southern-japan-causing-destruction/",
+      "image": null,
+      "ts": 1785239132000,
+      "coverage": {
+        "left": 3,
+        "center": 0,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 1,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/major-earthquake-hits-japan_n_6a6867c3e4b02c67a5adc7af"
+          },
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/07/28/powerful-earthquake-strikes-southern-japan-causing-destruction/"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/video/dozens-injured-buildings-damaged-after-powerful-earthquake-strikes-japan/"
           }
         ]
       }
@@ -6874,58 +7021,6 @@
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMDNHN2JDVnI5UWZKdzdGSXE1NW43TWZSSEJHdE9zX2xMVkh1RlVtS2ExbktodGtjRDM2eDFYUktMRG5FN0x4ZEY0bUhlQWh2N21xbTRhV1E2Tkl5czE0WGV6bV9NTWc2M2dKTURkYi1LV05XQmN2Uk9FRWxZQnRXUjFiZ3VvVnNPeFk1c1FKcVpqNGhpY2V6Vml6by1yRi16dklZTDlZOUs4MDRoNXpwQndSeEFBUFg4Rmo0NFFGVG5QOFhYa0E?oc=5",
       "image": null,
       "ts": 1784117893000
-    },
-    {
-      "id": "77e9bd88c8c0",
-      "title": "Italy's Meloni suffers surprise setback in close vote on electoral reform",
-      "description": "The defeat triggered opposition calls for Meloni to resign ahead of next year's general election.",
-      "lat": 42.97,
-      "lng": 14.405200000000008,
-      "severity": 2,
-      "location": "Rome, Italy",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c1kykx3vnyyo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8aee/live/f5abe350-8039-11f1-86b6-ffbb9ce74513.jpg",
-      "ts": 1784115868000
-    },
-    {
-      "id": "1a3a88e9090a",
-      "title": "Sierra Leone drops treason charge against ex-president",
-      "description": "Ernest Bai Koroma was arrested in 2023 after gunmen broke into an armoury and some jails, freeing inmates.",
-      "lat": 8.46,
-      "lng": -13.23,
-      "severity": 2,
-      "location": "Freetown, Sierra Leone",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cx2w2k3vklgo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8cd1/live/0dc02dc0-8030-11f1-bee8-53ce494e1abc.jpg",
-      "ts": 1784115795000
-    },
-    {
-      "id": "c896825f5b54",
-      "title": "Gibraltar Border Controls Lifted",
-      "description": "The UK and EU have signed a treaty that includes the removal of border checks between Spain and Gibraltar.",
-      "lat": 37.24,
-      "lng": -3.4447999999999865,
-      "severity": 1,
-      "location": "Gibraltar",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/15/gibraltar-border-controls-lifted-is-it-part-of-schengen-the-uk-or-both?traffic_source=rss",
-      "image": null,
-      "ts": 1784112304000
-    },
-    {
-      "id": "6e58d1163b75",
-      "title": "China economic growth falls sharply, missing target",
-      "description": "Weak demand domestically and the impact of the Iran war on oil prices overshadowed the country's strong exports.",
-      "lat": 41.01,
-      "lng": 116.38999999999999,
-      "severity": 4,
-      "location": "Beijing, China",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cd959x4edy8o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8de/live/7e6a3480-7f40-11f1-ba68-9b76167cb04b.jpg",
-      "ts": 1784110908000
     }
   ]
 }
