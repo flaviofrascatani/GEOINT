@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-07-28T18:20:32.137988+00:00",
+  "updated": "2026-07-28T20:03:38.862149+00:00",
   "events": [
+    {
+      "id": "73051084df55",
+      "title": "Many feared trapped in quake-hit Japan mall",
+      "description": "Ten people were thought to be unaccounted for in the mall as night fell after the afternoon quake.",
+      "lat": 32.78,
+      "lng": 132.6452,
+      "severity": 4,
+      "location": "Kumamoto, Japan",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/east-asia/many-feared-trapped-in-quake-hit-japan-mall",
+      "image": null,
+      "ts": 1785266318000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/east-asia/many-feared-trapped-in-quake-hit-japan-mall"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1d8ce3233f7",
+      "title": "Kuwait Eyes Saudi-Style Defence Pact With Pak",
+      "description": "Kuwait already has a defence cooperation agreement with Pakistan, but now wants a deeper military backing.",
+      "lat": 29.37,
+      "lng": 47.98,
+      "severity": 2,
+      "location": "Kuwait City, Kuwait",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/kuwait-eyes-saudi-style-defence-pact-with-pak-islamabad-rules-out-troops-11835100#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2022-09/66abjdp8_shehbaz-sharif-pakistan-pm-afp_625x300_21_September_22.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1785264909000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/kuwait-eyes-saudi-style-defence-pact-with-pak-islamabad-rules-out-troops-11835100#publisher=newsstand"
+          }
+        ]
+      }
+    },
     {
       "id": "e0df3dee8468",
       "title": "Wildfires in France",
@@ -2099,11 +2165,11 @@
     },
     {
       "id": "a2bc347aff7c",
-      "title": "Uganda Begins Emergency Food Handouts",
-      "description": "The Ugandan government has started distributing emergency food to 1.5 million people facing malnutrition due to drought and crop failures.",
+      "title": "Uganda begins emergency food handouts after 19 die from hunger",
+      "description": "Government move follows months of drought and crop failures in Karamoja, with 1.5m people facing malnutrition",
       "lat": 2.96,
       "lng": 34.40260000000001,
-      "severity": 1,
+      "severity": 4,
       "location": "Kampala, Uganda",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger",
@@ -7130,32 +7196,6 @@
       "url": "https://www.aljazeera.com/news/2026/7/15/french-parliament-approves-landmark-assisted-dying-bill?traffic_source=rss",
       "image": null,
       "ts": 1784145533000
-    },
-    {
-      "id": "a1db1107818b",
-      "title": "French MPs approve assisted dying law",
-      "description": "French MPs have approved an assisted dying law with strict rules, allowing terminally ill adults to receive assistance in ending their lives.",
-      "lat": 49.96,
-      "lng": 2.289999999999992,
-      "severity": 1,
-      "location": "Paris, France",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cvg7g2z4pv3o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16a7/live/8bde6ac0-807e-11f1-bee8-53ce494e1abc.jpg",
-      "ts": 1784136566000
-    },
-    {
-      "id": "86dd752344ab",
-      "title": "France approves assisted dying law",
-      "description": "The French parliament has approved a law allowing assisted dying for terminally ill adults, with strict criteria to be met.",
-      "lat": 48.86,
-      "lng": 4.1952,
-      "severity": 1,
-      "location": "Paris, France",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cvg7g2z4pv3o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16a7/live/8bde6ac0-807e-11f1-bee8-53ce494e1abc.jpg",
-      "ts": 1784136566000
     }
   ]
 }
