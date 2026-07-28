@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-07-28T00:57:42.623109+00:00",
+  "updated": "2026-07-28T04:16:51.291538+00:00",
   "events": [
+    {
+      "id": "f22b2add8a16",
+      "title": "France Battles Wildfires",
+      "description": "France is struggling to contain massive wildfires, with over 220,000 people evacuated from the affected areas.",
+      "lat": 44.83,
+      "lng": -0.5699999999999932,
+      "severity": 4,
+      "location": "Bordeaux, France",
+      "source": "Mirror World",
+      "url": "https://www.mirror.co.uk/news/world-news/france-wildfires-live-bordeaux-map-37479425",
+      "image": "https://i2-prod.dailystar.co.uk/incoming/article37480017.ece/ALTERNATES/s615/0_GettyImages-2287122823.jpg",
+      "ts": 1785209145000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/france-wildfires-live-bordeaux-map-37479425"
+          }
+        ]
+      }
+    },
     {
       "id": "cb39af2df6ed",
       "title": "China launches satellite for Algeria, first for an Arab country",
@@ -6643,19 +6676,6 @@
       "url": "https://www.bbc.co.uk/news/articles/c0kymrz0vkgo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/546d/live/37232a00-8026-11f1-8ae2-1d238eb2d791.jpg",
       "ts": 1784067463000
-    },
-    {
-      "id": "a5a99fe68b0d",
-      "title": "US Sanctions Iranian Shipping",
-      "description": "The US has sanctioned more than 50 individuals, entities, and vessels tied to Iranian shipping.",
-      "lat": 38.8977,
-      "lng": -77.0365,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOeDRwQnhKNEZTbVRvS19xX2VRbmNPcGpCcGtRTWdfUDRZN0czQ2RiZ1hhcmhfY3ZZanFmUVR1VDVwU0owd2dxaXhkUkE4bzBOb2hLYm5iWE5xVFBPSm44eEhtNnFoT0NLSDczOWxQbmJhYWVVNndoWjcwd1dNS2hMRWQyREpwQl80MzN6V2s4NXVSQzAySEV5UkF4NjQ4SjFCZGRBNUJLZWM3M2xaREw3XzQ5RTVLaTFzczc4TGVxMkVoWDdYeEZXelg5OA?oc=5",
-      "image": null,
-      "ts": 1784063426000
     }
   ]
 }
