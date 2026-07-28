@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-07-27T23:13:31.769546+00:00",
+  "updated": "2026-07-28T00:57:42.623109+00:00",
   "events": [
+    {
+      "id": "cb39af2df6ed",
+      "title": "China launches satellite for Algeria, first for an Arab country",
+      "description": "China has launched a communications satellite for Algeria, marking the first such export to an Arab country.",
+      "lat": 36.77,
+      "lng": 3.06,
+      "severity": 2,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1785200262462,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5794e89a81a",
+      "title": "U.S. Senate backs Clayton's nomination as top spy in procedural vote",
+      "description": "The U.S. Senate has voted to proceed with the nomination of Jay Clayton as the top spy, despite some opposition.",
+      "lat": 38.89,
+      "lng": -77.01,
+      "severity": 2,
+      "location": "Washington D.C., USA",
+      "source": "TASS",
+      "url": "https://tass.com/world/2166187",
+      "image": null,
+      "ts": 1785197400000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2166187"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0304098752e1",
+      "title": "Zelenskyy visits Britain as new PM signals more support for Kyiv",
+      "description": "Ukrainian President Zelenskyy traveled to the UK to meet with the new Prime Minister, who pledged unwavering support for Ukraine.",
+      "lat": 52.6,
+      "lng": 1.7752000000000123,
+      "severity": 1,
+      "location": "London, United Kingdom",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/zelenskyy-visits-britain-as-new-pm-signals-more-support-for-kyiv/article71274647.ece",
+      "image": "https://th-i.thgim.com/public/incoming/jptqf4/article71274648.ece/alternates/LANDSCAPE_1200/Russia_Ukraine_War__4534.jpg",
+      "ts": 1785194903000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/zelenskyy-visit-britain-visit-foreign-leader-burnham-office-135111156"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/zelenskyy-visits-britain-as-new-pm-signals-more-support-for-kyiv/article71274647.ece"
+          }
+        ]
+      }
+    },
     {
       "id": "ec09c284d19f",
       "title": "Wildfires in France Force Evacuation of Over 220,000 People",
@@ -181,11 +285,11 @@
     },
     {
       "id": "0950e17e5755",
-      "title": "Iran releases video on killing Melania Trump",
-      "description": "A video showing how to kill Melania Trump has been released in Iran, highlighting weaknesses.",
+      "title": "Iran releases video showing 'where and how to kill' First Lady Melania Trump",
+      "description": "A video has been released in Iran showing the alleged weaknesses of First Lady Melania Trump, sparking concerns.",
       "lat": 35.69,
       "lng": 51.389999999999986,
-      "severity": 2,
+      "severity": 3,
       "location": "Tehran, Iran",
       "source": "Daily Star World",
       "url": "https://www.dailystar.co.uk/news/world-news/breaking-iran-releases-sick-where-37483154",
@@ -2957,39 +3061,6 @@
             "n": "Channel News Asia",
             "b": "center",
             "u": "https://www.channelnewsasia.com/east-asia/southern-china-drenched-typhoon-noul-makes-landfall-6278561"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cb39af2df6ed",
-      "title": "China launches satellite for Algeria",
-      "description": "China has launched a communications satellite for Algeria, marking the first time it has exported such a spacecraft to an Arab country.",
-      "lat": 36.77,
-      "lng": 3.06,
-      "severity": 1,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1785024428778,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
           }
         ]
       }
@@ -6585,32 +6656,6 @@
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOeDRwQnhKNEZTbVRvS19xX2VRbmNPcGpCcGtRTWdfUDRZN0czQ2RiZ1hhcmhfY3ZZanFmUVR1VDVwU0owd2dxaXhkUkE4bzBOb2hLYm5iWE5xVFBPSm44eEhtNnFoT0NLSDczOWxQbmJhYWVVNndoWjcwd1dNS2hMRWQyREpwQl80MzN6V2s4NXVSQzAySEV5UkF4NjQ4SjFCZGRBNUJLZWM3M2xaREw3XzQ5RTVLaTFzczc4TGVxMkVoWDdYeEZXelg5OA?oc=5",
       "image": null,
       "ts": 1784063426000
-    },
-    {
-      "id": "c4badee42e92",
-      "title": "US Senate unveils revised Russia sanctions bill",
-      "description": "The US Senate has unveiled a revised Russia sanctions bill, which aims to squeeze Putin and target Russian oil.",
-      "lat": 38.89,
-      "lng": -77.01,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1kVVJHYndKSlZaNVhxbW1VZDJXSzZEUW5VeHlSdXlORlNlaG1CT1J1dWVLOHRVRUFKMWZFd0ZBT0JyVGdpQXJpSl9BWWNlekQ5LUdfc3lrOVdFdVQzanZ5LTUzcmZBcEkycjFnRVdDb0dlTmZKMURJSGJERDdqUQ?oc=5",
-      "image": null,
-      "ts": 1784062260000
-    },
-    {
-      "id": "01e4254d47c1",
-      "title": "US and Russian astronauts launch into orbit",
-      "description": "A US-Russian crew blasted off onboard a Soyuz spacecraft for an eight-month mission to the International Space Station.",
-      "lat": 47.02,
-      "lng": 65.21519999999998,
-      "severity": 2,
-      "location": "Baikonur Cosmodrome, Kazakhstan",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/us-russian-crew-launches-on-mission-to-space-station?traffic_source=rss",
-      "image": null,
-      "ts": 1784061417000
     }
   ]
 }
