@@ -1,7 +1,88 @@
 {
   "schema": 1,
-  "updated": "2026-07-29T17:50:45.523115+00:00",
+  "updated": "2026-07-29T19:36:05.696728+00:00",
   "events": [
+    {
+      "id": "7afa082566fd",
+      "title": "Fed Holds Interest Rates Steady",
+      "description": "US Federal Reserve leaves interest rates unchanged in a 9-3 decision.",
+      "lat": 38.9,
+      "lng": -75.1148,
+      "severity": 2,
+      "location": "Washington D.C., USA",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cy07wgqjv08o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa1f/live/9a5f9640-8b56-11f1-8322-5bf52455cf04.jpg",
+      "ts": 1785353440000,
+      "coverage": {
+        "left": 0,
+        "center": 3,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 3,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/fed-kept-interest-rates-steady-it-was-not-unanimous-decision-3805875"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/videos/2026-07-29/fed-holds-rates-steady-three-dissenters-wanted-a-hike-video"
+          },
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20260730000351315"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/economy/2026/07/29/fed-rates-decision/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bef6a4f8b2b6",
+      "title": "India and Bangladesh Strengthen Ties",
+      "description": "Indian High Commissioner meets Bangladesh Foreign Minister to strengthen ties.",
+      "lat": 23.79,
+      "lng": 90.41,
+      "severity": 1,
+      "location": "Dhaka, Bangladesh",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/indian-high-commissioner-meets-bangladesh-foreign-minister-to-strengthen-ties-11840241#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-07/k630kfqc_dinesh-trivedi-_625x300_29_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1785349070000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/indian-high-commissioner-meets-bangladesh-foreign-minister-to-strengthen-ties-11840241#publisher=newsstand"
+          }
+        ]
+      }
+    },
     {
       "id": "cf17e942d4ff",
       "title": "Russia hits Ukraine’s command, deployment points in Kherson and Kharkov Regions",
@@ -31,6 +112,39 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/politics/2166965"
+          }
+        ]
+      }
+    },
+    {
+      "id": "66468d5550df",
+      "title": "Wildfires Devastate France's Wildlife",
+      "description": "Wildfires in southwest France devastate the region's wildlife.",
+      "lat": 44.84,
+      "lng": -0.5800000000000125,
+      "severity": 3,
+      "location": "Bordeaux, France",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/video/20260729-wild-animals-first-victims-of-raging-wildfire-in-southwest-france",
+      "image": "https://s.france24.com/media/display/7b4f1358-8b73-11f1-a84a-005056bf30b7/w:1024/p:16x9/EN-20260729-190311-190502-CS.jpg",
+      "ts": 1785346427000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/video/20260729-wild-animals-first-victims-of-raging-wildfire-in-southwest-france"
           }
         ]
       }
@@ -837,11 +951,11 @@
     },
     {
       "id": "ae4c3f0e4cd4",
-      "title": "Milei and Fujimori meet in Lima and agree to strengthen economic and security cooperation",
-      "description": "Argentine President Javier Milei and Peruvian President Keiko Fujimori have met in Lima and agreed to strengthen economic and security cooperation between their countries.",
+      "title": "Argentina and Peru Strengthen Economic and Security Cooperation",
+      "description": "Argentine President Milei meets Peruvian President Fujimori to strengthen economic and security ties.",
       "lat": -12.05,
       "lng": -77.05,
-      "severity": 2,
+      "severity": 1,
       "location": "Lima, Peru",
       "source": "MercoPress",
       "url": "https://en.mercopress.com/2026/07/28/milei-and-fujimori-meet-in-lima-and-agree-to-strengthen-economic-and-security-cooperation?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
@@ -7649,105 +7763,6 @@
             "n": "GNews Geopolitics",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUlVQVGZKNU9qbFNNcHFBcy0tMVdwZ2RCS1Z0SC1oZDVBeUZrX2xSZlpvTklTMTBteUNmME55OVhVWWx5RlhINnRhOG9TS0dKSlNxN3hmWHExbXgtV0NIY3NmMVpaaERiaW1kUDFUVjlteWZQaHhOMUxqMWU5UWF6RW1hX1pCY1JWUEdJeWxrVW5ZZi02QXBVV3VHVGxLb05uaEtTYkl1WFJ1dUdpRFhxSVd0RnhpSmdONWtLQU1hek5VWjVwQ1Z1VWJSdG9mWGFPMFc4Sg?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c2f1129b6e29",
-      "title": "US carries out more Iran strikes",
-      "description": "The U.S. has carried out more strikes against Iran as the war between the two countries spreads to another key waterway.",
-      "lat": 36.79,
-      "lng": 51.389999999999986,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-oil-prices-red-sea-houthis/",
-      "image": null,
-      "ts": 1784887920000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-oil-prices-red-sea-houthis/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8c03128905d6",
-      "title": "Trump threatens to seize Iranian assets",
-      "description": "US President Donald Trump has threatened to seize frozen Iranian assets for ship damage during the Middle East conflict.",
-      "lat": 36.79,
-      "lng": 53.295199999999994,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "RT News",
-      "url": "https://www.rt.com/news/643410-trump-threatens-seize-iranian-assets/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.07/thumbnail/6a631ca185f540400650a634.jpg",
-      "ts": 1784883238000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/643410-trump-threatens-seize-iranian-assets/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9c7459c9128c",
-      "title": "Uruguay faces a 12.5% US tariff as its foreign ministry weighs the implications",
-      "description": "Uruguay has been placed in the highest band of the new US tariff scheme, with an additional 12.5% levy on its exports.",
-      "lat": -32.52,
-      "lng": -55.76,
-      "severity": 2,
-      "location": "Montevideo, Uruguay",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/07/24/uruguay-faces-a-12.5-us-tariff-as-its-foreign-ministry-weighs-the-implications?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/110904/100x80/mia.jpg",
-      "ts": 1784876700000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/07/24/uruguay-faces-a-12.5-us-tariff-as-its-foreign-ministry-weighs-the-implications?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
           }
         ]
       }
