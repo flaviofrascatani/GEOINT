@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-07-29T12:32:16.842974+00:00",
+  "updated": "2026-07-29T14:53:51.238123+00:00",
   "events": [
+    {
+      "id": "e8a4be4ea57d",
+      "title": "Ukraine-Russia Conflict",
+      "description": "Ukraine claimed to have hit two of Russia's major oil refineries in its latest long-range strikes.",
+      "lat": 51.55,
+      "lng": 30.52000000000001,
+      "severity": 4,
+      "location": "Kyiv, Ukraine",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/ukraine-hit-major-russian-oil-refinery-hours-after-135181989",
+      "image": "https://s.abcnews.com/images/International/wirestory_4275c2280107aedba37df8704f226ce6_4x3_384.jpg",
+      "ts": 1785328927000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/07/28/russia-squashes-dissent-ahead-election-public-anger-grows-over-war/"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/ukraine-hit-major-russian-oil-refinery-hours-after-135181989"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4bd506e91400",
+      "title": "France Wildfires",
+      "description": "A massive wildfire is burning in southwestern France, forcing evacuations and threatening a nuclear power plant.",
+      "lat": 44.83,
+      "lng": 0.5800000000000125,
+      "severity": 2,
+      "location": "Bordeaux, France",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/europe-wildfires-france-battles-wildfire-4-times-the-size-of-paris-amid-record-heatwave-11838386#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-07/c4d4cg8g_europe-wildfire-_625x300_27_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1785328291000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/europe-wildfires-france-battles-wildfire-4-times-the-size-of-paris-amid-record-heatwave-11838386#publisher=newsstand"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bb5ce90c39e2",
+      "title": "Cyprus Peace Talks",
+      "description": "The United Nations announced plans to convene formal talks to break years of diplomatic paralysis over the divided island of Cyprus.",
+      "lat": 35.17,
+      "lng": 33.37,
+      "severity": 1,
+      "location": "Nicosia, Cyprus",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-29/cyprus-leaders-accept-un-plan-for-new-talks-over-divided-island",
+      "image": null,
+      "ts": 1785321760000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-07-29/cyprus-leaders-accept-un-plan-for-new-talks-over-divided-island"
+          }
+        ]
+      }
+    },
     {
       "id": "8d75d3e4d57a",
       "title": "France Wildfires",
@@ -97,6 +201,39 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/07/29/equatorial-guinea-and-gabon-resolve-50-year-dispute-over-gulf-of-guinea-islands/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "36ba2ac949d8",
+      "title": "Japan Earthquake",
+      "description": "A 7.1-magnitude earthquake struck southwestern Japan, killing at least 18 people and leaving many missing.",
+      "lat": 33.02,
+      "lng": 133.7,
+      "severity": 4,
+      "location": "Kumamoto, Japan",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/world/asia/least-13-killed-japan-earthquake-others-trapped-rubble-rcna589771",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-07/260728-japan-quake-vsb-2313-bb6f43.jpg",
+      "ts": 1785303738000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/asia/least-13-killed-japan-earthquake-others-trapped-rubble-rcna589771"
           }
         ]
       }
@@ -348,11 +485,11 @@
     },
     {
       "id": "ae4c3f0e4cd4",
-      "title": "Milei and Fujimori meet in Lima and agree to strengthen economic and security cooperation",
-      "description": "Argentine President Javier Milei met with Peru's President Keiko Fujimori in a bilateral encounter to strengthen economic and security cooperation",
+      "title": "Argentina-Peru Economic Cooperation",
+      "description": "Argentine President Javier Milei met with Peruvian President Keiko Fujimori to strengthen economic and security cooperation between the two countries.",
       "lat": -12.05,
       "lng": -77.05,
-      "severity": 2,
+      "severity": 1,
       "location": "Lima, Peru",
       "source": "MercoPress",
       "url": "https://en.mercopress.com/2026/07/28/milei-and-fujimori-meet-in-lima-and-agree-to-strengthen-economic-and-security-cooperation?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
@@ -7509,58 +7646,6 @@
       "url": "https://www.aljazeera.com/news/2026/7/16/fire-at-orphanage-in-algeria-kills-11-people-including-children?traffic_source=rss",
       "image": null,
       "ts": 1784198501000
-    },
-    {
-      "id": "94327355cbd1",
-      "title": "Chip giant TSMC pledges another $100bn to expand US production",
-      "description": "TSMC will create high-tech, high-paying jobs and raise its total commitment to the US to $265bn.",
-      "lat": 37.0902,
-      "lng": -95.7129,
-      "severity": 2,
-      "location": "United States",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c62x8ldxr7eo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0874/live/d7c92fe0-80ad-11f1-ba1f-795e92f7cb6e.jpg",
-      "ts": 1784197380000
-    },
-    {
-      "id": "400c7f936836",
-      "title": "US releases video of strikes on Iran",
-      "description": "The US has released a video of its strikes on Iran.",
-      "lat": 35.6895,
-      "lng": 51.38900000000001,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/16/us-releases-video-of-strikes-on-iran?traffic_source=rss",
-      "image": null,
-      "ts": 1784190384000
-    },
-    {
-      "id": "1936af1ce22c",
-      "title": "Greece pins hopes on heat-seeking satellites to predict wildfires",
-      "description": "Greece is using heat-seeking satellites to predict and prevent wildfires.",
-      "lat": 37.9833,
-      "lng": 23.7333,
-      "severity": 2,
-      "location": "Athens, Greece",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/16/greece-pins-hopes-on-heat-seeking-satellites-to-predict-wildfires?traffic_source=rss",
-      "image": null,
-      "ts": 1784190100000
-    },
-    {
-      "id": "78391ab1e02d",
-      "title": "British Steel taken into public ownership",
-      "description": "The UK government has taken British Steel into public ownership, in a bid to protect the country's steel supply.",
-      "lat": 54.68,
-      "lng": -0.6699999999999875,
-      "severity": 2,
-      "location": "Scunthorpe, UK",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c5y680w62wno?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5dd4/live/ee156d40-80df-11f1-926f-c90d1bcfbc84.jpg",
-      "ts": 1784187287000
     }
   ]
 }
