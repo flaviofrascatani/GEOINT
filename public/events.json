@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-07-29T04:19:22.315808+00:00",
+  "updated": "2026-07-29T07:22:59.237899+00:00",
   "events": [
+    {
+      "id": "3a9321e45578",
+      "title": "Equatorial Guinea and Gabon resolve 50-year dispute over Gulf of Guinea islands",
+      "description": "Gabon and Equatorial Guinea resolved a 50-year dispute on Tuesday, signing an agreement over three tiny islands in the Gulf of Guinea.",
+      "lat": 1.65,
+      "lng": 10.25,
+      "severity": 1,
+      "location": "Gulf of Guinea, Equatorial Guinea",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/07/29/equatorial-guinea-and-gabon-resolve-50-year-dispute-over-gulf-of-guinea-islands/",
+      "image": "http://images.euronews.com/articles/stories/09/85/43/20/640x360_cmsv2_ed01bed3-c50b-56ca-977c-b317a523f08c-9854320.jpg?1785300760",
+      "ts": 1785307807000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/07/29/equatorial-guinea-and-gabon-resolve-50-year-dispute-over-gulf-of-guinea-islands/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "32fffb42c6cc",
+      "title": "Japan earthquake: Rescuers race to find people trapped in mall as death toll rises",
+      "description": "The 7.1-magnitude quake struck southwestern Japan on Tuesday afternoon, killing at least 13 people, seriously injuring seven and leaving tens of thousands of homes without power amid widespread damage.",
+      "lat": 32.82,
+      "lng": 130.74,
+      "severity": 4,
+      "location": "Kumamoto, Japan",
+      "source": "Le Monde English",
+      "url": "https://www.lemonde.fr/en/international/article/2026/07/29/rescuers-search-for-survivors-after-powerful-japan-quake-kills-at-least-13_6755944_4.html",
+      "image": "https://img.lemde.fr/2026/07/29/416/0/5000/2500/644/322/60/0/22021fa_ftp-1-jc40ho6eizps-2026-07-29t024756z-559589482-rc2enmas51du-rtrmadp-3-japan-quake.JPG",
+      "ts": 1785295068000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/07/29/rescuers-search-for-survivors-after-powerful-japan-quake-kills-at-least-13_6755944_4.html"
+          }
+        ]
+      }
+    },
     {
       "id": "1ec9a0438e79",
       "title": "US and Saudi Arabia launch strikes on Iran-backed groups in Iraq",
@@ -7475,32 +7541,6 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/7/16/former-us-ambassador-says-iran-miscalculated-trumps-resolve?traffic_source=rss",
       "image": null,
       "ts": 1784175502000
-    },
-    {
-      "id": "544e374b4f0c",
-      "title": "China and North Korea hold talks",
-      "description": "A senior Chinese delegation has visited North Korea for talks, with China's fourth-highest-ranked official, Wang Huning, meeting a top official of North Korea's governing party.",
-      "lat": 40.13,
-      "lng": 125.75999999999999,
-      "severity": 2,
-      "location": "Pyongyang, North Korea",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/16/senior-chinese-delegation-visits-north-korea-for-talks?traffic_source=rss",
-      "image": null,
-      "ts": 1784173533000
-    },
-    {
-      "id": "dee160cecac3",
-      "title": "Iran launches strikes on Gulf",
-      "description": "Iran has launched strikes on the Gulf, with Iranian FM Araghchi visiting Qatar to pay respects following the death of the Father Emir, Sheikh Hamad bin al Thani.",
-      "lat": 25.29,
-      "lng": 51.53,
-      "severity": 4,
-      "location": "Doha, Qatar",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/16/aje-onl-nf_iran-strikes-gulf-nations-even-as-fm-visits-qatar-150726?traffic_source=rss",
-      "image": null,
-      "ts": 1784167858000
     }
   ]
 }
