@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-07-29T16:27:23.360722+00:00",
+  "updated": "2026-07-29T17:50:45.523115+00:00",
   "events": [
+    {
+      "id": "cf17e942d4ff",
+      "title": "Russia hits Ukraine’s command, deployment points in Kherson and Kharkov Regions",
+      "description": "The successful destruction of targets was confirmed by means of objective monitoring in real time",
+      "lat": 51.66,
+      "lng": 37.18260000000001,
+      "severity": 4,
+      "location": "Kharkiv, Ukraine",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2166965",
+      "image": null,
+      "ts": 1785347146000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2166965"
+          }
+        ]
+      }
+    },
     {
       "id": "568edbf2bb40",
       "title": "Two firefighters die in Crete as wildfires threaten parts of Southern Europe",
@@ -107,6 +140,122 @@
       }
     },
     {
+      "id": "a18f72293edc",
+      "title": "DR Congo says militia linked to Rwanda's genocide agree to surrender",
+      "description": "The disarmament of the FDLR is a key step towards implementing a United States-brokered peace deal between Kinshasa and Kigali.",
+      "lat": -4.32,
+      "lng": 15.310000000000002,
+      "severity": 1,
+      "location": "Kinshasa, Democratic Republic of the Congo",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/07/29/dr-congo-says-militia-linked-to-rwandas-genocide-agree-to-surrender/",
+      "image": "http://images.euronews.com/articles/stories/09/85/51/48/640x360_cmsv2_9a48ba7e-5821-53da-a27f-33897441a103-9855148.jpg?1785331599",
+      "ts": 1785339515000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/07/29/dr-congo-says-militia-linked-to-rwandas-genocide-agree-to-surrender/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "be6df97ec5ce",
+      "title": "Trump threatens to hit Iran ‘hard’ following missile attack on U.S. assets",
+      "description": "The threat came after Saudi Arabia joined U.S. military strikes on Iranian proxies.",
+      "lat": 16.89,
+      "lng": 42.63,
+      "severity": 2,
+      "location": "Jizan, Saudi Arabia",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/national-security/2026/07/28/us-says-it-shot-down-iranian-missiles-targeting-troops-middle-east/",
+      "image": "https://www.rte.ie/images/0024be61-800.jpg",
+      "ts": 1785337352000,
+      "coverage": {
+        "left": 4,
+        "center": 6,
+        "right": 1,
+        "total": 11,
+        "buckets": {
+          "left": 0,
+          "lean_left": 4,
+          "center": 6,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/national-security/2026/07/28/us-says-it-shot-down-iranian-missiles-targeting-troops-middle-east/"
+          },
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/middle-east/us-thwarts-iranian-missile-attack-launches-strikes-saudi-arabia-rcna589773"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/us-iran-war-live-will-beat-s-t-out-of-them-donald-trump-after-surprise-iran-attack-on-us-base-11838999#publisher=newsstand"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/7/29/trump-says-us-to-deliver-beating-to-iran-after-bases-again-targeted?traffic_source=rss"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/07/29/oil-prices-today-brent-wti-iran-us-hormuz.html"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/07/28/iran-missile-attack-us-base-jordan"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/trump-anticipates-forceful-response-against-iran-breaking-lull-fighting-theyre-going-get-3805852"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-903989"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85bWFLTHpqbzJxT05STTlNTEpnZlVXeUdHZU9DeWhrQWZ2X2NYbVhtNElZS19vX3ZINncxY09jZFNVSDdrUlhVb2paVFpFSi1DZHJuOGwtalFqUkpiX0tWSGstc1J2R2k0Q1M0U1A0WQ?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/videos/2026-07-29/trump-says-iran-will-get-hit-hard-after-attack-on-base-video"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/middle-east/2026/07/29/president-trump-following-iran-attack-on-u-s-forces-were-going-to-beat-the-fking-sht-out-of-them/"
+          }
+        ]
+      }
+    },
+    {
       "id": "9724ac7da7b5",
       "title": "Iran war paralyses neighbouring Iraq's crucial Umm Qasr port",
       "description": "The blockade of the Strait of Hormuz has prevented commercial vessels from reaching Iraq's Umm Qasr port, one of the country's main trade terminals.",
@@ -135,6 +284,72 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/07/29/iran-war-paralyses-neighbouring-iraqs-crucial-umm-qasr-port/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "49ce44f31166",
+      "title": "IMF chief visits Argentina's Vaca Muerta shale field",
+      "description": "IMF chief Kristalina Georgieva tours Loma Campana field, operated by YPF in Neuquén, during visit to Argentina.",
+      "lat": -38.97,
+      "lng": -68.13,
+      "severity": 2,
+      "location": "Neuquen, Argentina",
+      "source": "Buenos Aires Times",
+      "url": "https://www.batimes.com.ar/news/economy/imf-chief-visits-argentinas-vaca-muerta-shale-field.phtml",
+      "image": "https://fotos.perfil.com/2026/07/29/trim/540/304/imf-managing-director-kristalina-georgieva-vaca-muerta-2293261.jpg",
+      "ts": 1785335889000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Buenos Aires Times",
+            "b": "center",
+            "u": "https://www.batimes.com.ar/news/economy/imf-chief-visits-argentinas-vaca-muerta-shale-field.phtml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "935ce29834b5",
+      "title": "Lee heads to Chile following summit with Lula in Brazil",
+      "description": "President Lee Jae Myung departed Brazil on Wednesday after a summit with Brazilian President Luiz Inacio Lula da Silva.",
+      "lat": -22.45,
+      "lng": -46.629999999999995,
+      "severity": 1,
+      "location": "Sao Paulo, Brazil",
+      "source": "Yonhap News",
+      "url": "https://en.yna.co.kr/view/AEN20260729003300315",
+      "image": "https://img.yna.co.kr/etc/inner/EN/2026/07/29/AEN20260729003300315_01_i_P2.jpg",
+      "ts": 1785335515000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20260729003300315"
           }
         ]
       }
@@ -3031,6 +3246,39 @@
       "lat": 2.96,
       "lng": 34.40260000000001,
       "severity": 4,
+      "location": "Kampala, Uganda",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger",
+      "image": null,
+      "ts": 1785135634000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger"
+          }
+        ]
+      }
+    },
+    {
+      "id": "af8c6d702dda",
+      "title": "Uganda begins emergency food handouts after 19 die from hunger",
+      "description": "Government move follows months of drought and crop failures in Karamoja, with 1.5m people facing malnutrition",
+      "lat": -0.6326,
+      "lng": 33.120000000000005,
+      "severity": 3,
       "location": "Kampala, Uganda",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger",
@@ -6154,89 +6402,6 @@
       }
     },
     {
-      "id": "be6df97ec5ce",
-      "title": "Iran-backed Houthis claim missile attack on Saudi Arabia",
-      "description": "US military says it disabled a tanker that was attempting to evade the American blockade on Iranian ports.",
-      "lat": 16.89,
-      "lng": 42.63,
-      "severity": 3,
-      "location": "Jizan, Saudi Arabia",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss",
-      "image": "https://www.rte.ie/images/0024be61-800.jpg",
-      "ts": 1784961280000,
-      "coverage": {
-        "left": 1,
-        "center": 9,
-        "right": 1,
-        "total": 11,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 9,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/west-asia-war-iran-us-conflict-saudi-arabia-houthis-attack-gulf-states-strait-of-hormuz-live-updates-july-25-2026/article71265151.ece"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/07/25/saudi-military-strikes-iran-backed-houthi-targets-yemen.html"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/middle-east/2026/0725/1585036-houthis-strikes/"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/14ee6049-87bf-4aac-b684-c9937374fdcc?syn-25a6b1a6=1"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/iran-war-houthis-vow-response-to-dangerous-escalation-by-saudi-arabia/live-78107211?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/iran-news/article-903582"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVnV3Mm1rUEtJU2NZVURHalNWRVFISmJVZjQzNlFPdC1XVTY3NFcyZzVJd1phMk01RmlJdnIyTkF4RmNwWHk1dDlaNG1scmhlamo0RjZFbzZCU0hNRXE3T2FVNW94aTVMXzJVMWo4clpQY3Fnb2NMRXNsMUViOEZNX1JJdXFwOFZ0RTIwbTA4Z3dnNl9POVZqYk1lbnZITG8?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/07/houthis-claim-strike-saudi-arabia-conflict-deepens"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/saudi-arabia-strikes-huthi-targets-in-yemen-after-vessel-was-attacked-in-red-sea/"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/mid-east/saudi-arabia-intercepts-houthi-missiles-targeting-oil-refineries"
-          }
-        ]
-      }
-    },
-    {
       "id": "4affeb67822e",
       "title": "Trump says Israeli PM Netanyahu to visit US next week",
       "description": "US President Donald Trump announced that Israeli Prime Minister Benjamin Netanyahu will visit the US next week.",
@@ -7586,151 +7751,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "eead0a494b5e",
-      "title": "US imposes new tariffs on 60 countries",
-      "description": "The Trump administration has imposed new tariffs of at least 10% on imports from 60 countries over claims they failed to prevent forced labor.",
-      "lat": 38.9,
-      "lng": -75.1148,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "Sky News World",
-      "url": "https://news.sky.com/story/us-imposes-new-tariffs-on-dozens-of-trade-partners-over-forced-labour-imports-13566498",
-      "image": "https://e3.365dm.com/26/07/1920x1080/skynews-donald-trump-us_7305495.jpg?20260724025130",
-      "ts": 1784850240000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/us-imposes-new-tariffs-on-dozens-of-trade-partners-over-forced-labour-imports-13566498"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f3fdef4c925f",
-      "title": "Two Russian men jailed in Angola for terrorism and spying",
-      "description": "Two Russian men have been found guilty by an Angolan court of terrorism and spying over an alleged plan to stage a coup and organise deadly demonstrations.",
-      "lat": -8.83,
-      "lng": 13.23,
-      "severity": 3,
-      "location": "Luanda, Angola",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/world/2026/jul/23/two-russian-men-jailed-angola-terrorism-and-spying",
-      "image": null,
-      "ts": 1784816641000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/world/2026/jul/23/two-russian-men-jailed-angola-terrorism-and-spying"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ebd20987fae5",
-      "title": "Two Russian men jailed in Angola for terrorism and spying",
-      "description": "Two Russian men were jailed in Angola for terrorism and spying, highlighting the country's concerns about foreign interference.",
-      "lat": -7.73,
-      "lng": 13.22999999999999,
-      "severity": 3,
-      "location": "Luanda, Angola",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/world/2026/jul/23/two-russian-men-jailed-angola-terrorism-and-spying",
-      "image": null,
-      "ts": 1784816641000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/world/2026/jul/23/two-russian-men-jailed-angola-terrorism-and-spying"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2722d890fadb",
-      "title": "EU imposes sanctions on Russia",
-      "description": "The European Union has imposed more sanctions on Russia in a compromise deal, looking to keep up pressure on Russia as Ukraine's outlook improves.",
-      "lat": 55.75,
-      "lng": 37.62,
-      "severity": 3,
-      "location": "Moscow, Russia",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/07/23/eu-imposes-more-sanctions-russia-compromise-deal/",
-      "image": null,
-      "ts": 1784810595000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/07/23/eu-imposes-more-sanctions-russia-compromise-deal/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "18bd9ee86911",
-      "title": "Uganda discharges last Ebola patient",
-      "description": "Most of the recent cases were among travellers from the Democratic Republic of Congo.",
-      "lat": 0.32,
-      "lng": 32.58,
-      "severity": 1,
-      "location": "Kampala, Uganda",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cx2myxjv172o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/674d/live/ec3e9520-8105-11f1-b8b2-1fedac836136.jpg",
-      "ts": 1784205395000
     }
   ]
 }
