@@ -1,7 +1,50 @@
 {
   "schema": 1,
-  "updated": "2026-07-29T20:33:36.861813+00:00",
+  "updated": "2026-07-29T21:29:57.312449+00:00",
   "events": [
+    {
+      "id": "36fd42d16ed3",
+      "title": "Drone hits storage tanker at Egyptian port",
+      "description": "A drone hit a U.S.-owned gas storage tanker at Egypt's Mediterranean port of Damietta",
+      "lat": 32.62,
+      "lng": 31.72,
+      "severity": 4,
+      "location": "Damietta, Egypt",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/drone-hits-storage-tanker-at-egyptian-port-in-major-middle-east-escalation-security-firm-says",
+      "image": "https://s.france24.com/media/display/768147f8-8b8f-11f1-9a46-005056bf30b7/w:1024/p:16x9/EN-20260729-210111-210319-CS.jpg",
+      "ts": 1785358544000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/drone-strikes-us-owned-gas-tanker-at-egypts-damietta-port-11840299#publisher=newsstand"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/drone-hits-storage-tanker-at-egyptian-port-in-major-middle-east-escalation-security-firm-says"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-904026"
+          }
+        ]
+      }
+    },
     {
       "id": "2d683d4b5028",
       "title": "Algeria elects first-ever woman speaker of parliament",
@@ -64,6 +107,39 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/hundreds-migrants-swimming-morocco-spanish-territory-ceuta-135201715"
+          }
+        ]
+      }
+    },
+    {
+      "id": "29b7f388b372",
+      "title": "UN extends sanctions against armed groups in Central African Republic",
+      "description": "The measures include asset freezes, travel bans, and restrictions on supplying weapons and military equipment to them",
+      "lat": 4.37,
+      "lng": 18.56,
+      "severity": 3,
+      "location": "Bangui, Central African Republic",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/07/29/united-nations-extends-sanctions-against-armed-groups-in-central-african-republic/",
+      "image": "http://images.euronews.com/articles/stories/09/85/55/57/640x360_cmsv2_9e97acb0-1456-5685-85b8-d02ced50abd2-9855557.jpg?1785348899",
+      "ts": 1785355417000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/07/29/united-nations-extends-sanctions-against-armed-groups-in-central-african-republic/"
           }
         ]
       }
@@ -188,6 +264,49 @@
             "n": "BBC Business",
             "b": "center",
             "u": "https://www.bbc.co.uk/news/articles/cy07wgqjv08o?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5d65b1fe66d3",
+      "title": "Saudi Arabia's dilemma in US-Iran war",
+      "description": "The kingdom faces a choice of whether to keep hitting back as a deterrent or to try to de-escalate the situation",
+      "lat": 25.81,
+      "lng": 46.68000000000001,
+      "severity": 2,
+      "location": "Riyadh, Saudi Arabia",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/clyx83l8jv8o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0138/live/d922f0a0-8b7b-11f1-843a-4d201c635cc1.jpg",
+      "ts": 1785350491000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/clyx83l8jv8o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/07/oil-jumps-8-us-iran-war-pressures-saudi-arabia-explosions-hit-egypt"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/u-s-and-saudi-arabia-strike-iran-backed-terrorist-militias-in-iraq-as-trump-warns-of-further-retaliation/"
           }
         ]
       }
@@ -325,6 +444,44 @@
             "n": "BBC World",
             "b": "center",
             "u": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bb967df441ef",
+      "title": "FIFA opens disciplinary case against Argentina FA",
+      "description": "FIFA has opened disciplinary proceedings against Argentina's football association and its players for several alleged breaches at the World Cup",
+      "lat": -33.5,
+      "lng": -58.370000000000005,
+      "severity": 2,
+      "location": "Buenos Aires, Argentina",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/fifa-opens-case-against-argentina-fa-over-falklands-banner-and-other-incidents-13568193",
+      "image": "https://e3.365dm.com/26/07/1920x1080/skynews-argentina-falklands_7298610.jpg?20260729190706",
+      "ts": 1785341640000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/sport/football/articles/cp3rkwgy6y7o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/fifa-opens-case-against-argentina-fa-over-falklands-banner-and-other-incidents-13568193"
           }
         ]
       }
@@ -7631,143 +7788,6 @@
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/pakistan-iran-explore-path-towards-new-talks-with-us-in-a-china-initiated-push-sources-say"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e4b5dbac86dd",
-      "title": "Police in Northern Ireland intercept car bomb near Irish border",
-      "description": "Irish police have intercepted a significant car bomb near the Northern Ireland border during an investigation of dissident republicans",
-      "lat": 54.6,
-      "lng": -7.0,
-      "severity": 3,
-      "location": "Northern Ireland, UK",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/police-northern-ireland-intercept-car-bomb-irish-border-135048934",
-      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
-      "ts": 1784899131000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/police-northern-ireland-intercept-car-bomb-irish-border-135048934"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/extremely-significant-car-bomb-intercepted-near-border-by-irish-police-13566599"
-          }
-        ]
-      }
-    },
-    {
-      "id": "20dd5a9201ba",
-      "title": "US hits dozens of countries with new wave of tariffs",
-      "description": "The Trump administration has imposed new tariffs of as much as 12.5% on 60 trading partners, preventing a lapse in import taxes as a temporary tariff program nears expiration.",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78a1/live/d9a08500-875d-11f1-b2ab-0dd01740f9f6.jpg",
-      "ts": 1784896844000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/07/23/trump-tariffs-trade-labor"
-          }
-        ]
-      }
-    },
-    {
-      "id": "58bdef700515",
-      "title": "EU sanctions six Iranian individuals over human rights violations",
-      "description": "The EU has imposed sanctions on six Iranian individuals over serious human rights violations.",
-      "lat": 52.52,
-      "lng": 13.41,
-      "severity": 3,
-      "location": "Brussels, Belgium",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxObm9tLUJlUkZLOHM5anQ2RUVxdzVIeVFWd3BXQXFJWWtSS20zdnVzMmhVNGZEcGZlWl9YWWZQNVdGeWdNcGZMekVvNXhMMFFKSWtBdDU1SFdMcnpjeXVTeUxMX01yenZrWHgyQ2F4ZU0zS3hjdlJMY3ZRcUJYankwM0s4NXNCcXNpNGtTZEN5cDZRU2Q2ZzV2b1dEZS1VYnRsdkhoOEUwdm1RTmlpNWpKWEFxclRNMUZfSEd6aUhMdWE5Y1dKWFNnU1lsM0o2VVZaZVNjd09lbjgxQTBvdWlNdGxjai14SFpxb3hSNktn?oc=5",
-      "image": null,
-      "ts": 1784896393000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxObm9tLUJlUkZLOHM5anQ2RUVxdzVIeVFWd3BXQXFJWWtSS20zdnVzMmhVNGZEcGZlWl9YWWZQNVdGeWdNcGZMekVvNXhMMFFKSWtBdDU1SFdMcnpjeXVTeUxMX01yenZrWHgyQ2F4ZU0zS3hjdlJMY3ZRcUJYankwM0s4NXNCcXNpNGtTZEN5cDZRU2Q2ZzV2b1dEZS1VYnRsdkhoOEUwdm1RTmlpNWpKWEFxclRNMUZfSEd6aUhMdWE5Y1dKWFNnU1lsM0o2VVZaZVNjd09lbjgxQTBvdWlNdGxjai14SFpxb3hSNktn?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "18b4c4b44f2e",
-      "title": "Giraffes given a new home in Uganda",
-      "description": "Rangers in Uganda's largest national park are on a mission to translocate 12 endangered Nubian giraffes to escape oil drilling in the country's largest park.",
-      "lat": 0.39,
-      "lng": 32.53,
-      "severity": 1,
-      "location": "Kampala, Uganda",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/giraffes-new-home-uganda-escape-oil-drilling-countrys-135046161",
-      "image": "https://s.abcnews.com/images/International/wirestory_7938db24acfc4ba289bec6e347760b2a_4x3_384.jpg",
-      "ts": 1784895453000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/giraffes-new-home-uganda-escape-oil-drilling-countrys-135046161"
           }
         ]
       }
