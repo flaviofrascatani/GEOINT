@@ -1,7 +1,88 @@
 {
   "schema": 1,
-  "updated": "2026-07-29T21:29:57.312449+00:00",
+  "updated": "2026-07-29T22:32:00.026558+00:00",
   "events": [
+    {
+      "id": "8daffe008ab1",
+      "title": "Zelensky warns of possible major Russian strike",
+      "description": "Zelensky warns of possible major Russian strike overnight",
+      "lat": 51.55,
+      "lng": 32.42519999999999,
+      "severity": 2,
+      "location": "Kyiv, Ukraine",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/europe/20260729-zelensky-warns-of-possible-major-russian-strike-overnight",
+      "image": "https://s.france24.com/media/display/a04dc3d6-8784-11f1-bcd2-005056a90284/w:1024/p:16x9/AP26205465075778.jpg",
+      "ts": 1785361795000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/europe/20260729-zelensky-warns-of-possible-major-russian-strike-overnight"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2167646f5e67",
+      "title": "Saudi Arabia seeks international coalition",
+      "description": "Saudi Arabia seeks international coalition to protect Red Sea shipping from Houthi attacks",
+      "lat": 25.81,
+      "lng": 48.585199999999986,
+      "severity": 3,
+      "location": "Riyadh, Saudi Arabia",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/07/saudi-arabia-seeks-international-coalition-protect-red-sea-shipping-houthis",
+      "image": null,
+      "ts": 1785361602000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 2,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 1,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-904052"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/07/saudi-arabia-seeks-international-coalition-protect-red-sea-shipping-houthis"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/saudi-arabia-seeks-coalition-to-safeguard-red-sea-shipping-sources"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4668290/joint-operation-us-saudi-arabia-reform-barrage-iran-third-largest-arms-importer/"
+          }
+        ]
+      }
+    },
     {
       "id": "36fd42d16ed3",
       "title": "Drone hits storage tanker at Egyptian port",
@@ -340,6 +421,39 @@
             "n": "NDTV World",
             "b": "lean_left",
             "u": "https://www.ndtv.com/world-news/indian-high-commissioner-meets-bangladesh-foreign-minister-to-strengthen-ties-11840241#publisher=newsstand"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2039725e590e",
+      "title": "Iran hiding centrifuges at Pickaxe Mountain",
+      "description": "Iran hiding centrifuges at Pickaxe Mountain, nuclear program 'not destroyed,' source tells 'Post'",
+      "lat": 36.79,
+      "lng": 51.389999999999986,
+      "severity": 4,
+      "location": "Tehran, Iran",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/article-904016",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_396,w_594/731945",
+      "ts": 1785348038000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-904016"
           }
         ]
       }
@@ -763,6 +877,39 @@
             "n": "Yonhap News",
             "b": "center",
             "u": "https://en.yna.co.kr/view/AEN20260729003300315"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f8f56c4c75cd",
+      "title": "Iran has not sought talks with US",
+      "description": "Iran has not sought talks with US over past two weeks, official says",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "Egypt Independent",
+      "url": "https://www.egyptindependent.com/iran-has-not-sought-talks-with-us-over-past-two-weeks-official-says/",
+      "image": null,
+      "ts": 1785328998000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/iran-has-not-sought-talks-with-us-over-past-two-weeks-official-says/"
           }
         ]
       }
@@ -7651,143 +7798,6 @@
             "n": "Washington Post World",
             "b": "lean_left",
             "u": "https://www.washingtonpost.com/world/2026/07/24/malis-government-does-not-rule-out-us-military-intervention/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a9d5f9806072",
-      "title": "Romanian F-16 shoots down drone after airspace breach",
-      "description": "A Romanian F-16 has shot down an unauthorized drone over Buzău County.",
-      "lat": 45.15,
-      "lng": 26.83,
-      "severity": 3,
-      "location": "Buzău County, Romania",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/romanian-f-16-shoots-down-drone-after-airspace-breach-marking-first-nato-ally",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/07/931/523/f-16-nato.jpg?ve=1&tl=1",
-      "ts": 1784907722000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/romanian-f-16-shoots-down-drone-after-airspace-breach-marking-first-nato-ally"
-          }
-        ]
-      }
-    },
-    {
-      "id": "dbea278f5849",
-      "title": "US floats AI 'kill switch' to stop rogue AI models",
-      "description": "The US is considering introducing an AI 'kill switch' to stop rogue AI models, following concerns over the potential dangers of the technology.",
-      "lat": 40.0,
-      "lng": -77.02,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/us-floats-ai-kill-switch-to-stop-rogue-ai-models/a-78100594?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1784907435602,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/us-floats-ai-kill-switch-to-stop-rogue-ai-models/a-78100594?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c1138aec5616",
-      "title": "Iran keeps targeting US bases",
-      "description": "Iran has launched retaliatory strikes against US bases in Bahrain, Jordan, and Kuwait, with American personnel reportedly hit.",
-      "lat": 26.02,
-      "lng": 50.55,
-      "severity": 4,
-      "location": "Manama, Bahrain",
-      "source": "RT News",
-      "url": "https://www.rt.com/news/643432-iran-strikes-us-bases-bahrain/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.07/thumbnail/6a63827c2030277b300e007d.jpg",
-      "ts": 1784906403000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/643432-iran-strikes-us-bases-bahrain/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1590ecbe340f",
-      "title": "Pakistan and Iran explore path towards new talks with US",
-      "description": "Pakistan is exploring a path towards a resumption of stalled US-Iran talks over ending their nearly five-month-old war, following a push initiated by China.",
-      "lat": 33.72,
-      "lng": 73.04,
-      "severity": 2,
-      "location": "Islamabad, Pakistan",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/pakistan-iran-explore-path-towards-new-talks-with-us-in-a-china-initiated-push-sources-say",
-      "image": null,
-      "ts": 1784906308000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/07/24/oil-price-trump-hormuz-red-sea-iran-war.html"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/pakistan-iran-explore-path-towards-new-talks-with-us-in-a-china-initiated-push-sources-say"
           }
         ]
       }
