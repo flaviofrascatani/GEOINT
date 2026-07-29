@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-07-29T07:22:59.237899+00:00",
+  "updated": "2026-07-29T10:12:07.954144+00:00",
   "events": [
+    {
+      "id": "8d75d3e4d57a",
+      "title": "France Wildfires",
+      "description": "Wildfires in southwestern France have forced the evacuation of thousands of people and burned thousands of hectares of land.",
+      "lat": 46.31,
+      "lng": -0.2974000000000103,
+      "severity": 3,
+      "location": "Cap Ferret, France",
+      "source": "Mirror World",
+      "url": "https://www.mirror.co.uk/news/world-news/france-wildfires-bordeaux-weather-heatwave-37489052",
+      "image": null,
+      "ts": 1785319780000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/france-wildfires-bordeaux-weather-heatwave-37489052"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1dfa767b387",
+      "title": "Egypt and Cyprus Discuss Energy Cooperation",
+      "description": "Egypt and Cyprus have discussed strengthening energy cooperation, including joint natural gas projects.",
+      "lat": 31.16,
+      "lng": 33.14519999999999,
+      "severity": 2,
+      "location": "Cairo, Egypt",
+      "source": "Egypt Independent",
+      "url": "https://www.egyptindependent.com/egypt-cyprus-discuss-strengthening-energy-cooperation/",
+      "image": null,
+      "ts": 1785317200000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/egypt-cyprus-discuss-strengthening-energy-cooperation/"
+          }
+        ]
+      }
+    },
     {
       "id": "3a9321e45578",
       "title": "Equatorial Guinea and Gabon resolve 50-year dispute over Gulf of Guinea islands",
@@ -1059,39 +1125,6 @@
             "n": "All Africa",
             "b": "center",
             "u": "https://allafrica.com/stories/202607280119.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8d75d3e4d57a",
-      "title": "France Wildfires Force Thousands to Evacuate",
-      "description": "Wildfires in southwestern France have forced the evacuation of thousands of people, with flames nearing the French Atlantic Coast.",
-      "lat": 46.31,
-      "lng": -0.2974000000000103,
-      "severity": 4,
-      "location": "Cap Ferret, France",
-      "source": "Mirror World",
-      "url": "https://www.mirror.co.uk/news/world-news/wildfires-france-map-bordeaux-evacuation-37479425",
-      "image": null,
-      "ts": 1785232514000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/wildfires-france-map-bordeaux-evacuation-37479425"
           }
         ]
       }
@@ -7528,19 +7561,6 @@
       "url": "https://www.bbc.co.uk/news/articles/c5y680w62wno?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5dd4/live/ee156d40-80df-11f1-926f-c90d1bcfbc84.jpg",
       "ts": 1784187287000
-    },
-    {
-      "id": "6d448298dd3d",
-      "title": "US and Iran exchange fire for fourth day",
-      "description": "The US and Iran have exchanged fire for the fourth consecutive day, with the conflict showing no signs of easing.",
-      "lat": 35.69,
-      "lng": 51.420000000000016,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/16/former-us-ambassador-says-iran-miscalculated-trumps-resolve?traffic_source=rss",
-      "image": null,
-      "ts": 1784175502000
     }
   ]
 }
