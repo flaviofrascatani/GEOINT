@@ -1,7 +1,83 @@
 {
   "schema": 1,
-  "updated": "2026-07-30T11:57:35.839363+00:00",
+  "updated": "2026-07-30T14:24:46.549949+00:00",
   "events": [
+    {
+      "id": "0c6b9c9de552",
+      "title": "Pakistan ‘doing its utmost’ to bring U.S., Iran back to negotiating table",
+      "description": "Pakistan's Foreign Office said the country is 'doing its utmost' to bring the US and Iran back to the negotiating table.",
+      "lat": 33.72,
+      "lng": 73.04,
+      "severity": 2,
+      "location": "Islamabad, Pakistan",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/pakistan-doing-its-utmost-to-bring-us-iran-back-to-negotiating-table-foreign-office/article71286172.ece",
+      "image": "https://th-i.thgim.com/public/incoming/c5y6bf/article71286262.ece/alternates/LANDSCAPE_1200/2026-07-30T125336Z_1212819768_RC2COMANOX7E_RTRMADP_3_IRAN-CRISIS-AHVAZ-SMOKE.JPG",
+      "ts": 1785419922000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/pakistan-doing-its-utmost-to-bring-us-iran-back-to-negotiating-table-foreign-office/article71286172.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5b14fc643854",
+      "title": "Thousands breach Spanish enclave Ceuta's border with Morocco",
+      "description": "Thousands of migrants entered Spain's North African enclave of Ceuta from Morocco, as local officials called for a national emergency and military deployment to restore order.",
+      "lat": 36.98,
+      "lng": -5.310000000000002,
+      "severity": 3,
+      "location": "Ceuta, Spain",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/world/europe/thousands-breach-spanish-enclave-ceutas-border-with-morocco",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/07/30/453492.jpg",
+      "ts": 1785418920000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/ceuta-asks-madrid-declare-national-emergency-thousands-cross-135222179"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/07/30/hundreds-of-migrants-swim-from-morocco-to-the-spanish-territory-of-ceuta/"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/europe/thousands-breach-spanish-enclave-ceutas-border-with-morocco"
+          }
+        ]
+      }
+    },
     {
       "id": "b81d91c8e47c",
       "title": "Negotiators working on final roadmap for Gaza’s future, Hamas disarmament",
@@ -31,6 +107,39 @@
             "n": "Jerusalem Post",
             "b": "center",
             "u": "https://www.jpost.com/middle-east/article-904113"
+          }
+        ]
+      }
+    },
+    {
+      "id": "292bd59dd078",
+      "title": "US launches 'heavy wave' of new attacks on Iran",
+      "description": "The US military said it had completed a 'heavy wave of strikes' on Iran overnight, the latest retaliation for an attack by Tehran on US forces.",
+      "lat": 36.79,
+      "lng": 53.295199999999994,
+      "severity": 4,
+      "location": "Tehran, Iran",
+      "source": "Google News Top",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZUJwNER6Z1d6T0p5aVBwUnpZM2JUQWFxR2pSdVB4cVhCVGZkRDBvcVV4WDMwS0hEUDhpNTdWaEszeURRc1otQnJ3Z0toUlF3bThfN1Zvam5EYlItMU5JVU0yalYyT0RFS29Ycl9WSXZzUnpkQ004SmRfMFR3SUZRdmg0a3FBckd0LVhFMlNB0gGTAUFVX3lxTE1id1NxcERIelVSWk9aamxvSE1tQ3duZkY5VFRPVm5hQzd4bEp6MENxeXNjRlhIczlvbG1ZQ19HeHJxY2JNOE5LVHVqMGhYeGhGa3Z6QjZnNjhQcjRBcHNXeVRObXN4a2l6WUtxcUpTalNYSEdRR3k5dEJKN3lFZjEwcFFzLVFzZkx1NXJsMFByQnJWZw?oc=5",
+      "image": null,
+      "ts": 1785416852000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/iran/us-heavy-wave-strikes-iran-war-attack-trump-saudi-egypt-drone-oil-rcna589967"
           }
         ]
       }
@@ -7619,130 +7728,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/mid-east/un-chief-guterres-calls-for-global-support-on-landmark-syria-trip"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b2f58a2514bc",
-      "title": "Wildfires in Spain and France force evacuation of 200,000 people",
-      "description": "France has appealed for international help, while Spain has declared a national emergency as wildfires continue to rage across the region.",
-      "lat": 43.5,
-      "lng": 3.3452000000000055,
-      "severity": 3,
-      "location": "Bordeaux, France",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/25/wildfires-in-spain-and-france-force-evacuation-of-200000-people?traffic_source=rss",
-      "image": null,
-      "ts": 1784965303000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/07/24/world/europe/france-spain-wildfires.html"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/7/25/wildfires-in-spain-and-france-force-evacuation-of-200000-people?traffic_source=rss"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/643445-spain-france-fires-videos/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6011ef9bb7d2",
-      "title": "Côte d’Ivoire and Ghana lead Africa’s cocoa strategy through CIGCI",
-      "description": "Côte d’Ivoire and Ghana are leading Africa's cocoa strategy through the CIGCI, aiming to strengthen bargaining power and capture more value from the global cocoa trade.",
-      "lat": 5.33,
-      "lng": -4.02,
-      "severity": 1,
-      "location": "Abidjan, Côte d’Ivoire",
-      "source": "The Africa Report",
-      "url": "https://www.theafricareport.com/425540/cote-divoire-and-ghana-lead-africas-cocoa-strategy-through-cigci/",
-      "image": null,
-      "ts": 1784962800000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Africa Report",
-            "b": "center",
-            "u": "https://www.theafricareport.com/425540/cote-divoire-and-ghana-lead-africas-cocoa-strategy-through-cigci/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4affeb67822e",
-      "title": "Trump says Israeli PM Netanyahu to visit US next week",
-      "description": "US President Donald Trump announced that Israeli Prime Minister Benjamin Netanyahu will visit the US next week.",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/president-donald-trump-says-israeli-pm-netanyahu-to-visit-us-next-week/article71265315.ece",
-      "image": "https://th-i.thgim.com/public/incoming/yzfcmu/article71259863.ece/alternates/LANDSCAPE_1200/2026-07-23T205955Z_1910357374_RC2WJMAQWY12_RTRMADP_3_USA-TRUMP.JPG",
-      "ts": 1784960592000,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/president-donald-trump-says-israeli-pm-netanyahu-to-visit-us-next-week/article71265315.ece"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/us/2026/0725/1585035-trump-netanyahu/"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/07/trump-says-israeli-pm-netanyahu-will-visit-us-next-week"
-          },
-          {
-            "n": "Times of India World",
-            "b": "center",
-            "u": "https://timesofindia.indiatimes.com/world/middle-east/trump-confirms-netanyahus-us-visit-next-week-amid-regional-tensions/articleshow/132617908.cms"
           }
         ]
       }
