@@ -1,7 +1,88 @@
 {
   "schema": 1,
-  "updated": "2026-07-30T07:16:48.680593+00:00",
+  "updated": "2026-07-30T10:00:41.981919+00:00",
   "events": [
+    {
+      "id": "7f2454d38338",
+      "title": "Brazil El Niño Plan Injects US$262M to Stockpile Corn, Rice",
+      "description": "Brazil's government has announced a plan to stockpile corn and rice to mitigate the effects of El Niño.",
+      "lat": -14.69,
+      "lng": -46.0248,
+      "severity": 2,
+      "location": "Brasília, Brazil",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/brazil-el-nino-plan-injects-us262m-to-stockpile-corn-rice/",
+      "image": null,
+      "ts": 1785405575000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/brazil-el-nino-plan-injects-us262m-to-stockpile-corn-rice/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "016c25add998",
+      "title": "Poland issues major update over 'Russian missile entering NATO airspace'",
+      "description": "NATO scrambled fighter jets overnight following concerning reports of a Russian missile entering Polish airspace.",
+      "lat": 52.13,
+      "lng": 21.02,
+      "severity": 3,
+      "location": "Warsaw, Poland",
+      "source": "Daily Express World",
+      "url": "https://www.express.co.uk/news/world/2234384/poland-nato-russia-missile",
+      "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2234384_1.jpg",
+      "ts": 1785402360000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/russian-attacks-on-ukraine-kill-several-prompt-fresh-zelenskyy-call-for-more-air-defense-missiles-from-allies/"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cwymkgenv2ro?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-07-30/poland-likely-hit-by-russian-missile-premier-says"
+          },
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2234384/poland-nato-russia-missile"
+          }
+        ]
+      }
+    },
     {
       "id": "66ceb2034555",
       "title": "Jordan says it foiled Iranian missile attack",
@@ -130,6 +211,39 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-07-30/us-launches-fresh-strikes-against-iran-as-war-escalates-again"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f7bf2b72005c",
+      "title": "Russia launches ballistic missile attack on Kyiv",
+      "description": "Multiple explosions rocked Kyiv after Russia launched ballistic missiles, hours after Volodymyr Zelenskyy warned of a massive overnight assault.",
+      "lat": 50.45,
+      "lng": 32.42519999999999,
+      "severity": 4,
+      "location": "Kyiv, Ukraine",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/russia-launches-ballistic-missile-attack-kyiv-hours-after-zelenskyy-warns-major-strike",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/07/931/523/Kyiv-Attack-July-1.jpg?ve=1&tl=1",
+      "ts": 1785374058000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/russia-launches-ballistic-missile-attack-kyiv-hours-after-zelenskyy-warns-major-strike"
           }
         ]
       }
@@ -4240,11 +4354,11 @@
     },
     {
       "id": "a2bc347aff7c",
-      "title": "Uganda begins emergency food handouts",
-      "description": "Uganda has launched emergency food relief distribution after at least 19 deaths from hunger in Karamoja, with 1.5m people facing malnutrition.",
+      "title": "Uganda begins emergency food handouts after 19 die from hunger",
+      "description": "The government move follows months of drought and crop failures in Karamoja, with 1.5m people facing malnutrition.",
       "lat": 2.96,
       "lng": 34.40260000000001,
-      "severity": 1,
+      "severity": 3,
       "location": "Kampala, Uganda",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger",
@@ -7654,105 +7768,6 @@
             "n": "Axios",
             "b": "center",
             "u": "https://www.axios.com/2026/07/25/trump-iran-war-military-directive-strikes"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c3ad673efb89",
-      "title": "Brazil and Peru sign memorandum to protect Indigenous territories",
-      "description": "Brazil's Ministry of Indigenous Peoples signed a memorandum with Peru's Ministry of Culture to protect Indigenous territories along their border",
-      "lat": -10.0,
-      "lng": -55.0,
-      "severity": 1,
-      "location": "Brasília, Brazil",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/brazils-government-working-peru-protect-border-indigenous-lands-135068710",
-      "image": "https://s.abcnews.com/images/International/wirestory_942da004b37fa36291cce157b00a51be_4x3_384.jpg",
-      "ts": 1784931053000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/brazils-government-working-peru-protect-border-indigenous-lands-135068710"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1f992d7b35b0",
-      "title": "China, Philippine coastguard vessels clash in South China Sea",
-      "description": "China, Philippine coastguard vessels clash in South China Sea",
-      "lat": 12.58,
-      "lng": 114.28,
-      "severity": 3,
-      "location": "South China Sea",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/24/china-philippine-coastguard-vessels-clash-in-south-china-sea?traffic_source=rss",
-      "image": null,
-      "ts": 1784928550000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/7/24/china-philippine-coastguard-vessels-clash-in-south-china-sea?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3885c335e21d",
-      "title": "Turkey does not meet requirements to receive F-35 jets",
-      "description": "The US State Department has stated that Turkey does not meet the legal requirements to receive F-35 jets",
-      "lat": 39.93,
-      "lng": 32.86,
-      "severity": 2,
-      "location": "Ankara, Turkey",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/middle-east/article-903578",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_3712,w_5568/706988",
-      "ts": 1784927890000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/article-903578"
           }
         ]
       }
