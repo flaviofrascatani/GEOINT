@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-07-29T23:34:43.002296+00:00",
+  "updated": "2026-07-30T00:57:07.516492+00:00",
   "events": [
+    {
+      "id": "0352cf0af12e",
+      "title": "Samsung Electronics profit hits all-time high on device and memory sales",
+      "description": "Samsung Electronics has reported an all-time high profit due to strong sales of devices and memory chips.",
+      "lat": 38.67,
+      "lng": 126.99000000000001,
+      "severity": 1,
+      "location": "Seoul, South Korea",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/companies/samsung-electronics-profit-hits-all-time-high-on-device-and-memory-sales",
+      "image": null,
+      "ts": 1785373027360,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Nikkei Asia",
+            "b": "center",
+            "u": "https://asia.nikkei.com/business/companies/samsung-electronics-profit-hits-all-time-high-on-device-and-memory-sales"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cf81cf9b3a79",
+      "title": "US launches new strikes on Iran",
+      "description": "The US military launched a new wave of strikes against Iranian targets after President Donald Trump threatened to retaliate forcibly for a recent attack.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 4,
+      "location": "Tehran, Iran",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-30/us-launches-fresh-strikes-against-iran-as-war-escalates-again",
+      "image": null,
+      "ts": 1785371360000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-07-30/us-launches-fresh-strikes-against-iran-as-war-escalates-again"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9f74392f49b0",
+      "title": "Microsoft signs $130bn in data centre leases as it races to meet AI demand",
+      "description": "Microsoft has signed $130bn in data centre leases to meet growing demand for artificial intelligence services.",
+      "lat": 49.29,
+      "lng": -121.1774,
+      "severity": 1,
+      "location": "Redmond, USA",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/da7c4472-cb30-4b82-b321-d82c1859419e?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1785369909000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/da7c4472-cb30-4b82-b321-d82c1859419e?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
     {
       "id": "1e9ccd110cec",
       "title": "France wildfires",
@@ -31,6 +130,44 @@
             "n": "Mirror World",
             "b": "lean_left",
             "u": "https://www.mirror.co.uk/news/world-news/france-wildfires-bordeaux-weather-heatwave-37489052"
+          }
+        ]
+      }
+    },
+    {
+      "id": "54f29477d34f",
+      "title": "15 elephants die from cyanide poisoning in Kenya",
+      "description": "Fifteen elephants in southern Kenya are suspected to have been poisoned by cyanide-contaminated tomatoes.",
+      "lat": -2.65,
+      "lng": 37.95,
+      "severity": 3,
+      "location": "Amboseli National Park, Kenya",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/kenya-15-elephants-died-cyanide-poisoning-after-eating-135206914",
+      "image": "https://s.abcnews.com/images/International/wirestory_16472f80a3b345db6d476fc3bf4ef57b_4x3_384.jpg",
+      "ts": 1785362623000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/kenya-15-elephants-died-cyanide-poisoning-after-eating-135206914"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/kenya-elephants-cyanide-poisoned-tomatoes/"
           }
         ]
       }
@@ -70,33 +207,38 @@
     },
     {
       "id": "2167646f5e67",
-      "title": "Saudi Arabia seeks international coalition",
-      "description": "Saudi Arabia seeks international coalition to protect Red Sea shipping from Houthi attacks",
+      "title": "Saudi Arabia seeks international coalition to protect Red Sea shipping",
+      "description": "Saudi Arabia is seeking to build an international coalition to protect shipping in the Red Sea from Houthi attacks.",
       "lat": 25.81,
       "lng": 48.585199999999986,
-      "severity": 3,
+      "severity": 2,
       "location": "Riyadh, Saudi Arabia",
       "source": "Al-Monitor",
       "url": "https://www.al-monitor.com/originals/2026/07/saudi-arabia-seeks-international-coalition-protect-red-sea-shipping-houthis",
       "image": null,
       "ts": 1785361602000,
       "coverage": {
-        "left": 0,
+        "left": 1,
         "center": 2,
         "right": 2,
-        "total": 4,
+        "total": 5,
         "buckets": {
           "left": 0,
-          "lean_left": 0,
+          "lean_left": 1,
           "center": 2,
           "lean_right": 1,
           "right": 1
         },
         "sources": [
           {
-            "n": "Jerusalem Post",
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/7/29/saudi-arabia-seeks-international-coalition-against-houthis-in-red-sea?traffic_source=rss"
+          },
+          {
+            "n": "Google News Top",
             "b": "center",
-            "u": "https://www.jpost.com/middle-east/article-904052"
+            "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUk5DNlFtUFNDdkhMSkVpNDNIeGFZLUI5Q3NscTk3NC1kY09KWC1lblMwNlc1N0ZhdEQ1VUhjUFJ1Qk9oVFpEWWpHUkRkS2wtazVjU0ZwSGFydk81aXQycWw1NVpBWmdMdGlOQTlhWDBQbi1lS0stajVZZDlPazJLZkF6NzVpTGlCLXV0aWt0ejNsTEdRMmZsYU5OM1huZy05ekhZR05Qek0wRm5UWGNF0gG0AUFVX3lxTFA2Y3VkOTJ4TmktdFJjSXIwNUhmWkMtS0pTTFNna0pGMTR2aU9FcEtvN3EwSTVsVl9YVkN6cFFyUVYzTDVuWFNKVGc4UUZGV1NTS09QX0hHa2NPd1NWOTN4T2xMcUxrUkRzdkNTdm1HSjdfSk9NY3p3cU1vY0xRYWxaeXllbGNEZUs1dEIxOW50cXZ4MGR6ajdGbEVrYUp4dTRXMkRGd29CS1FIQTVNV2ZOd2syUA?oc=5"
           },
           {
             "n": "Al-Monitor",
@@ -3901,10 +4043,10 @@
     {
       "id": "a2bc347aff7c",
       "title": "Uganda begins emergency food handouts after 19 die from hunger",
-      "description": "The Ugandan government has launched emergency food relief distribution after at least 19 deaths from hunger.",
+      "description": "The Ugandan government has launched emergency food relief distribution after at least 19 deaths from hunger due to drought and crop failures.",
       "lat": 2.96,
       "lng": 34.40260000000001,
-      "severity": 4,
+      "severity": 3,
       "location": "Kampala, Uganda",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger",
@@ -7616,188 +7758,6 @@
             "n": "Financial Times World",
             "b": "center",
             "u": "https://www.ft.com/content/6e1d4a14-b7ad-4a36-86d9-3990497272a3?syn-25a6b1a6=1"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4e1258ead9ad",
-      "title": "Trump says Iranians Getting 'Very Serious' In Talks",
-      "description": "US President Donald Trump said Friday that he had not decided on whether to launch major strikes on Iran as Tehran was now getting 'very serious' in talks with Washington",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 1,
-      "location": "Tehran, Iran",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/donald-trump-says-iranians-getting-very-serious-in-talks-11818692#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-03/v72pufqg_donald-trump-reuters_625x300_28_March_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1784923507000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/donald-trump-says-iranians-getting-very-serious-in-talks-11818692#publisher=newsstand"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/2026/0724/1584878-us-strikes-iran/"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/07/trump-says-hasnt-decided-big-iran-strikes-tehran-getting-serious"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9ba68b8f3555",
-      "title": "Trump threatens EU with tariff probe over Google, tech fines",
-      "description": "US President Donald Trump has threatened to impose tariffs on the EU in response to fines against US tech companies.",
-      "lat": 37.09,
-      "lng": -95.71,
-      "severity": 2,
-      "location": "Washington, USA",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/trump-threatens-eu-with-tariff-probe-over-google-tech-fines/a-78105954?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1784919727922,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 1,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/07/24/trump-says-eu-to-pay-very-big-price-for-890-million-google-fine_6755804_4.html"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/trump-threatens-eu-with-tariff-probe-over-google-tech-fines/a-78105954?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-07-24/trump-vows-fresh-tariffs-on-european-union-over-google-fine"
-          },
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20260725000200315"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/643447-trump-threatens-eu-google/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f008bbb61c05",
-      "title": "Trump considers ‘massive attack’ on Iran",
-      "description": "The president told Axios he was considering an operation 'bigger than ever before'",
-      "lat": 36.8,
-      "lng": 53.325199999999995,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/07/24/us-iran-war-trump-hormuz-houthis.html",
-      "image": null,
-      "ts": 1784918890000,
-      "coverage": {
-        "left": 3,
-        "center": 2,
-        "right": 0,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/live/2026/07/24/world/iran-war-us-strikes-trump-oil"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/iran/us-iran-strikes-trump-massive-attack-war-hormuz-red-sea-oil-rcna589016"
-          },
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/07/24/us-iran-ceasefire-attack-energy-prices-oil-hormuz-strait/"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/07/24/us-iran-war-trump-hormuz-houthis.html"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNekVNZHhVQkF4WWRNNm84S0JDZWJ1U3ZJRl85dFBtdV9DNlFSZGhtTGxIZll4aWRMZDVGd3JFX0hfWFR2SEwxUlVLOXR6NlNrQ3RPOUpBbm1qZERuVG1VM0FyY0NKNFZvZGtwV3VjU3BBSE5IeDV6dEpYYnYybnM3Zg?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a5723888c0d1",
-      "title": "China investigates former securities regulator Fang Xinghai",
-      "description": "Respected economist Fang Xinghai is being probed for suspected ‘serious violations’.",
-      "lat": 41.01,
-      "lng": 116.38999999999999,
-      "severity": 2,
-      "location": "Beijing, China",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/4d8139b2-8ea2-468b-a674-5f6a90a84182?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1784917510000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/4d8139b2-8ea2-468b-a674-5f6a90a84182?syn-25a6b1a6=1"
           }
         ]
       }
