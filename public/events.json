@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-07-30T00:57:07.516492+00:00",
+  "updated": "2026-07-30T04:12:17.365363+00:00",
   "events": [
+    {
+      "id": "ff40681e76c9",
+      "title": "Nepal's tiger population more than triples in 16 years",
+      "description": "The population of tigers in Nepal has increased from 121 in 2010 to 429, according to the WWF.",
+      "lat": 28.8,
+      "lng": 85.30000000000001,
+      "severity": 1,
+      "location": "Kathmandu, Nepal",
+      "source": "AGI Estero",
+      "url": "https://www.agi.it/estero/news/2026-07-30/nepal-tigri-38288418/",
+      "image": "https://images.agi.it/pictures/agi/agi/2026/07/29/121548598-0f944dfd-38cb-4474-8036-8ca58c395cf7.jpg",
+      "ts": 1785380400000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "AGI Estero",
+            "b": "center",
+            "u": "https://www.agi.it/estero/news/2026-07-30/nepal-tigri-38288418/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c0ee9e8cb704",
+      "title": "China threatens retaliation against US humanoid robot ban",
+      "description": "China's Commerce Ministry said the US Federal Communications Commission has repeatedly ignored Beijing's restrained stance, and the ban 'severely damages' relations.",
+      "lat": 41.0,
+      "lng": 116.39999999999998,
+      "severity": 2,
+      "location": "Beijing, China",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/07/30/china-us-robot-humanoid-ban-trump-visit.html",
+      "image": null,
+      "ts": 1785379950000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/07/30/china-us-robot-humanoid-ban-trump-visit.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "41f00bf03716",
+      "title": "US launches fresh airstrikes in Iran",
+      "description": "The US military conducted a heavy wave of airstrikes in Iran on Wednesday evening, targeting its Islamic Revolutionary Guard Corps in response to attacks on American military bases in the Middle East.",
+      "lat": 32.43,
+      "lng": 53.68,
+      "severity": 4,
+      "location": "Tehran, Iran",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/07/29/us-airstrikes-iran-trump-resume",
+      "image": "https://images.axios.com/-pFa2pQChAVgLMtfGHlQIR-4Y1o=/0x100:5015x2921/1366x768/2026/07/29/1785367921837.jpeg",
+      "ts": 1785379551000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-07-30/us-launches-fresh-strikes-against-iran-as-war-escalates-again"
+          }
+        ]
+      }
+    },
     {
       "id": "0352cf0af12e",
       "title": "Samsung Electronics profit hits all-time high on device and memory sales",
@@ -254,6 +353,39 @@
             "n": "Washington Examiner",
             "b": "right",
             "u": "https://www.washingtonexaminer.com/news/world/4668290/joint-operation-us-saudi-arabia-reform-barrage-iran-third-largest-arms-importer/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7203e4d5548f",
+      "title": "Italy's highest court strengthens citizenship claims by descendants of Italian emigrants",
+      "description": "Italy's highest court has ruled that children born with both Italian and another citizenship do not automatically lose their Italian citizenship if a parent naturalizes abroad.",
+      "lat": 41.87,
+      "lng": 12.5,
+      "severity": 1,
+      "location": "Rome, Italy",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/italys-highest-court-strengthens-citizenship-claims-descendants-italian-135205893",
+      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
+      "ts": 1785361356000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/italys-highest-court-strengthens-citizenship-claims-descendants-italian-135205893"
           }
         ]
       }
@@ -4043,10 +4175,10 @@
     {
       "id": "a2bc347aff7c",
       "title": "Uganda begins emergency food handouts after 19 die from hunger",
-      "description": "The Ugandan government has launched emergency food relief distribution after at least 19 deaths from hunger due to drought and crop failures.",
+      "description": "The government has launched emergency food relief distribution after at least 19 deaths from hunger, with 1.5 million people facing malnutrition in Karamoja.",
       "lat": 2.96,
       "lng": 34.40260000000001,
-      "severity": 3,
+      "severity": 4,
       "location": "Kampala, Uganda",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger",
@@ -7626,138 +7758,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/opinion/op-ed/turkiye-enters-aseans-inner-circle-while-malaysia-takes-lead"
-          }
-        ]
-      }
-    },
-    {
-      "id": "33c1c4f28840",
-      "title": "Iran and US engage in talks amidst escalating tensions",
-      "description": "The US and Iran are in talks to negotiate an end to their conflict, with President Trump stating that Tehran is not yet ready for a deal",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/07/trump-says-us-and-iran-are-talking-tehran-not-yet-ready-deal",
-      "image": null,
-      "ts": 1784926006000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/07/trump-says-us-and-iran-are-talking-tehran-not-yet-ready-deal"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d9c24d07299e",
-      "title": "Costa Rica captures top fugitive 'Diablo,' wanted by U.S.",
-      "description": "Alejandro Arias-Monge, a top fugitive wanted by the US, has been captured by Costa Rican authorities.",
-      "lat": 9.94,
-      "lng": -84.09,
-      "severity": 3,
-      "location": "San José, Costa Rica",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/costa-rica-captures-top-fugitive-diablo-drug-trafficking/",
-      "image": null,
-      "ts": 1784923812000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/costa-rica-captures-top-fugitive-diablo-drug-trafficking/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "84c416b6ddc1",
-      "title": "Israel strikes Hamas targets in Gaza Strip",
-      "description": "The Israel Defense Forces have struck Hamas targets in the Gaza Strip.",
-      "lat": 31.51,
-      "lng": 34.46,
-      "severity": 3,
-      "location": "Gaza Strip",
-      "source": "TASS",
-      "url": "https://tass.com/world/2165055",
-      "image": null,
-      "ts": 1784923801000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2165055"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d680975837b9",
-      "title": "France and Spain evacuate 150,000 as ‘unprecedented’ wildfires spread",
-      "description": "Extreme heat and high winds fuel fast-moving blazes as authorities in both countries battle to contain them.",
-      "lat": 44.84,
-      "lng": 0.58,
-      "severity": 3,
-      "location": "Bordeaux, France",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/6e1d4a14-b7ad-4a36-86d9-3990497272a3?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1784923671000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/6e1d4a14-b7ad-4a36-86d9-3990497272a3?syn-25a6b1a6=1"
           }
         ]
       }
