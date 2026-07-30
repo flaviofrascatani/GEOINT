@@ -1,14 +1,52 @@
 {
   "schema": 1,
-  "updated": "2026-07-30T17:59:12.444258+00:00",
+  "updated": "2026-07-30T19:44:29.849066+00:00",
   "events": [
     {
+      "id": "9cb52cbcf3a5",
+      "title": "Poland says 'nuclear capable' missile from Russia exploded in country",
+      "description": "The incident has raised fears of a wider conflict between Russia and NATO.",
+      "lat": 53.33,
+      "lng": 21.00999999999999,
+      "severity": 4,
+      "location": "Warsaw, Poland",
+      "source": "Daily Express World",
+      "url": "https://www.express.co.uk/news/world/2234632/poland-says-nuclear-capable-missile",
+      "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2234632_1.jpg",
+      "ts": 1785437820000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/poland-blames-russia-for-firing-missile-into-its-territory-as-moscow-unleashes-deadly-attack-on-ukraine/"
+          },
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2234632/poland-says-nuclear-capable-missile"
+          }
+        ]
+      }
+    },
+    {
       "id": "6014456a21a9",
-      "title": "Crisis-hit Cuba opens pharmacies, gas stations to private firms",
-      "description": "Prime Minister Manuel Marrero said the first foreign investment project for the importation, distribution and marketing of fuel has been approved.",
+      "title": "Cuba opens pharmacies, gas stations to private firms",
+      "description": "The move is part of Cuba's efforts to liberalize its economy and attract foreign investment.",
       "lat": 24.23,
       "lng": -82.38,
-      "severity": 2,
+      "severity": 1,
       "location": "Havana, Cuba",
       "source": "The Hindu International",
       "url": "https://www.thehindu.com/news/international/crisis-hit-cuba-opens-pharmacies-gas-stations-to-private-firms/article71287621.ece",
@@ -97,6 +135,72 @@
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/blast-at-pakistan-coal-mine-complex-kills-eight-dozens-missing-official-says"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c1793d1cea4f",
+      "title": "UEFA threatens World Cup boycott over FIFA private equity investment plan",
+      "description": "FIFA has faced backlash from global soccer governing bodies over the proposal to allow private investment in the World Cup.",
+      "lat": 49.96,
+      "lng": 2.289999999999992,
+      "severity": 2,
+      "location": "Paris, France",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/07/30/uefa-threatens-world-cup-boycott-over-fifa-investment-plan.html",
+      "image": null,
+      "ts": 1785432606000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/07/30/uefa-threatens-world-cup-boycott-over-fifa-investment-plan.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b09dcd2844c5",
+      "title": "US and China discuss trade, rare earths in call ahead of Xi visit",
+      "description": "The call is part of efforts to improve relations between the two countries ahead of Chinese President Xi Jinping's visit to the US.",
+      "lat": 40.0,
+      "lng": -77.02,
+      "severity": 2,
+      "location": "Washington, D.C., USA",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-30/china-shares-concern-over-restrictive-us-measures-with-bessent",
+      "image": null,
+      "ts": 1785432214000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-07-30/china-shares-concern-over-restrictive-us-measures-with-bessent"
           }
         ]
       }
@@ -7614,110 +7718,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/africa/congo-ebola-outbreak-nears-3000-cases-as-death-toll-tops-1300"
-          }
-        ]
-      }
-    },
-    {
-      "id": "dc66846f997c",
-      "title": "Iran Journey Reveals Society’s Wartime Defiance and Hope",
-      "description": "A journey through Iran reveals a society that is defiant but also weary, despairing but hopeful.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/07/25/world/middleeast/what-a-journey-through-wartime-iran-revealed.html",
-      "image": "https://static01.nyt.com/images/2026/07/25/multimedia/25iran-01-gvkh/25iran-01-gvkh-mediumSquareAt3X.jpg",
-      "ts": 1784981486000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/07/25/world/middleeast/what-a-journey-through-wartime-iran-revealed.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2339985a06a4",
-      "title": "UN chief urges global support for Syria as it recovers from civil war",
-      "description": "Antonio Guterres, who held talks with interim President Ahmed al-Sharaa, said the country was at a 'pivotal moment'.",
-      "lat": 34.615,
-      "lng": 38.200199999999995,
-      "severity": 1,
-      "location": "Damascus, Syria",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/07/25/un-chief-urges-global-support-for-syria-as-it-recovers-from-civil-war/",
-      "image": "http://images.euronews.com/articles/stories/09/85/05/60/640x360_cmsv2_b4c747e8-5950-57c2-8ac9-4f01da784be5-9850560.jpg?1784977426",
-      "ts": 1784980757000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/07/25/un-chief-urges-global-support-for-syria-as-it-recovers-from-civil-war/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a06f97b66e5d",
-      "title": "UN chief urges international community to back Syrians during visit to Damascus",
-      "description": "U.N. Secretary-General António Guterres has appealed to the international community to support the people of Syria",
-      "lat": 34.61,
-      "lng": 36.28999999999999,
-      "severity": 1,
-      "location": "Damascus, Syria",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/chief-urges-international-community-back-syrians-visit-damascus-135078176",
-      "image": "https://s.abcnews.com/images/US/wirestory_059b77b718acf33cda6630e22c11d1d8_4x3_384.jpg",
-      "ts": 1784977520000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/chief-urges-international-community-back-syrians-visit-damascus-135078176"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/mid-east/un-chief-guterres-calls-for-global-support-on-landmark-syria-trip"
           }
         ]
       }
