@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-07-31T19:47:06.675958+00:00",
+  "updated": "2026-07-31T21:15:26.655505+00:00",
   "events": [
+    {
+      "id": "7f6acb9f027c",
+      "title": "Naples earthquake",
+      "description": "A 4.7 magnitude earthquake struck Naples, causing damage and panic.",
+      "lat": 40.85,
+      "lng": 14.27,
+      "severity": 3,
+      "location": "Naples, Italy",
+      "source": "Mirror World",
+      "url": "https://www.mirror.co.uk/news/world-news/naples-earthquake-italy-landslide-magnitude-37501905",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37502107.ece/ALTERNATES/s615/0_Screenshot-2026-07-31-at-205717JPG.jpg",
+      "ts": 1785531852000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/naples-earthquake-italy-landslide-magnitude-37501905"
+          }
+        ]
+      }
+    },
+    {
+      "id": "60e5c99f2885",
+      "title": "Spain migrant crisis",
+      "description": "Tens of thousands of migrants crossed into Spain's North African territory, with dozens killed and many returned to Morocco.",
+      "lat": 35.89,
+      "lng": -5.360000000000014,
+      "severity": 4,
+      "location": "Ceuta, Spain",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/live/2026/07/31/world/spain-ceuta-migrants-morocco",
+      "image": "https://static01.nyt.com/images/2026/07/31/multimedia/31eurpope-migrants-promo-330-hgkj/31eurpope-migrants-promo-330-hgkj-mediumSquareAt3X.jpg",
+      "ts": 1785531466000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/live/2026/07/31/world/spain-ceuta-migrants-morocco"
+          }
+        ]
+      }
+    },
     {
       "id": "a985ef2abc0f",
       "title": "South Korea and Argentina Agree to Enhance Cooperation on Critical Minerals",
@@ -558,6 +624,39 @@
             "n": "South China Morning Post",
             "b": "center",
             "u": "https://www.scmp.com/news/china/military/article/3362573/china-signals-buildout-nuclear-missile-silos-strategic-trump-cards?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "044145f8bede",
+      "title": "Archbishop of Canterbury vows support for communities affected by enslavement",
+      "description": "The Archbishop of Canterbury expressed regret and vowed to support a £100m pledge to help communities affected by enslavement.",
+      "lat": 6.66,
+      "lng": -0.21000000000000796,
+      "severity": 1,
+      "location": "Accra, Ghana",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/news/2026/jul/31/archbishop-of-canterbury-support-pledge-helping-communities-enslavement",
+      "image": null,
+      "ts": 1785497926000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/news/2026/jul/31/archbishop-of-canterbury-support-pledge-helping-communities-enslavement"
           }
         ]
       }
@@ -2397,6 +2496,39 @@
             "n": "Rio Times",
             "b": "center",
             "u": "https://www.riotimesonline.com/brazil-el-nino-plan-injects-us262m-to-stockpile-corn-rice/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ce1cb1348c80",
+      "title": "Pakistani police post attacked",
+      "description": "A militant attack on a police post in northwestern Pakistan left 11 officers and 15 attackers dead.",
+      "lat": 34.02,
+      "lng": 71.58,
+      "severity": 4,
+      "location": "Peshawar, Pakistan",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/deadly-overnight-raid-pakistani-police-post-leaves-11-135216651",
+      "image": "https://s.abcnews.com/images/International/wirestory_a747a0f15041ad7622785d47fb5cb96b_4x3_384.jpg",
+      "ts": 1785401892000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/deadly-overnight-raid-pakistani-police-post-leaves-11-135216651"
           }
         ]
       }
@@ -7341,288 +7473,6 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/07/26/ugandan-diplomat-olara-otunnu-joins-race-to-lead-the-united-nations/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5aaf220f4b6b",
-      "title": "U.S. forgoes strikes on Iran, but conflict in the Red Sea escalates",
-      "description": "The U.S. has paused its strikes on Iran, but the conflict in the Red Sea has escalated, with both sides engaging in military actions.",
-      "lat": 21.72,
-      "lng": 39.15,
-      "severity": 2,
-      "location": "Jeddah, Saudi Arabia",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeWVyNHlmdS1zUk1OOFRSdWJDNkN5a2NNV0JleEM0d2tnV0dBOG1XUEhWTTJROXNFMzlHODlOSnh3ZXFUQm8tUEw1OHZSWGhwR2wxWENrN1ROdUJjT1htaXJTdXppN0V0MTNWWXNsQmZtU2wyTjNaUVFKTFpXU0pRVTRDZlVWOWRnWG93Z3o1MlM3eGFvdmJUal9ZdHE?oc=5",
-      "image": null,
-      "ts": 1785076448000,
-      "coverage": {
-        "left": 2,
-        "center": 2,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 1,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/houthis-fire-saudi-oil-installations-on-the-red-seacoast_n_6a64bcc5e4b089c33066a05c"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/iran/us-forgoes-strikes-iran-conflict-escalates-red-sea-rcna589285"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeWVyNHlmdS1zUk1OOFRSdWJDNkN5a2NNV0JleEM0d2tnV0dBOG1XUEhWTTJROXNFMzlHODlOSnh3ZXFUQm8tUEw1OHZSWGhwR2wxWENrN1ROdUJjT1htaXJTdXppN0V0MTNWWXNsQmZtU2wyTjNaUVFKTFpXU0pRVTRDZlVWOWRnWG93Z3o1MlM3eGFvdmJUal9ZdHE?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/07/iran-war-spreads-red-sea-and-caspian-gulf-quiet-us-forgoes-strikes"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3430eccec022",
-      "title": "UN chief urges immediate removal of all Syria sanctions",
-      "description": "United Nations chief Antonio Guterres on Sunday urged the removal of all sanctions imposed on Syria during the era of ousted ruler Bashar al-Assad",
-      "lat": 33.51,
-      "lng": 36.28999999999999,
-      "severity": 2,
-      "location": "Damascus, Syria",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/07/un-chief-urges-immediate-removal-all-syria-sanctions",
-      "image": null,
-      "ts": 1785076234000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/07/un-chief-urges-immediate-removal-all-syria-sanctions"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/business/economy/un-chief-calls-for-removal-of-all-syria-sanctions-during-visit"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b80448a35925",
-      "title": "Berlin Pride attack",
-      "description": "A van slammed into people gathered for Berlin's Pride event, killing one person and injuring at least 16 others.",
-      "lat": 52.52,
-      "lng": 15.315200000000004,
-      "severity": 4,
-      "location": "Berlin, Germany",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/1-dead-after-van-drives-into-crowd-during-berlins-lgbtq-event_n_6a653ccfe4b089c33066aee5",
-      "image": null,
-      "ts": 1785075073232,
-      "coverage": {
-        "left": 10,
-        "center": 9,
-        "right": 3,
-        "total": 22,
-        "buckets": {
-          "left": 1,
-          "lean_left": 9,
-          "center": 9,
-          "lean_right": 1,
-          "right": 2
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/1-dead-after-van-drives-into-crowd-during-berlins-lgbtq-event_n_6a653ccfe4b089c33066aee5"
-          },
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/07/26/world/europe/berlin-gay-pride-attack.html"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/germany/manhunt-underway-suspect-islamist-ties-deadly-berlin-pride-attack-rcna589276"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/germany-fatal-berlin-pride-attack-believed-islamic-extremist-135095850"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/berlin-lgbtq-pride-christopher-street-attack-ramming-suspect-search-germany/"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/chief-suspect-in-deadly-attack-near-berlin-pride-parade-shot-dead-11825373#publisher=newsstand"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/berlin-pride-live-christopher-street-37477005"
-          },
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/07/26/berlin-pride-attack-suspect-dies-in-police-confrontation-after-daylong-manhunt/"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/07/26/german-interior-minister-says-attack-near-berlin-pride-was-an-islamist-terror-attack_6755852_4.html"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/suspect-in-deadly-berlin-pride-attack-killed-in-confrontation-with-police-officials-say/article71270344.ece"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c62eg899l99o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/berlin-pride-attack-leaves-one-dead-16-injured-police-hunt-suspect-islamist-ties-3805741"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/europe/2026/0726/1585128-berlin-pride-incident/"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/6bd2290f-209d-4b30-9fac-dcfcd32bfb5d?syn-25a6b1a6=1"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/europe/20260726-deadly-berlin-pride-ramming-was-islamist-terror-attack-says-german-interior-minister"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/berlin-pride-ramming-police-shoot-suspect-dead/live-78117180?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOS1VfYVUxQ3FPa01HZ0ZlT1lkamc4Yllrak5QYlBjT2hHUGJ6RFQtNUpfNzB1Sl9BbGdVUTJqX3pZWkVwR1YwT1VHOXNUY1ZtRUdXajRMeE4tdGIwa3MzeWRmQlEySzJVNFF2TmQ0eExYZmtWalVBalVmX0FqZmtZYkx4N05kel90WlE?oc=5"
-          },
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/07/27/world/crime-legal/berlin-pride-attack-manhunt/"
-          },
-          {
-            "n": "Times of India World",
-            "b": "center",
-            "u": "https://timesofindia.indiatimes.com/world/europe/berlin-police-hunt-islamist-suspect-after-pride-attack-kills-one-injures-16/articleshow/132642244.cms"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/europe/germany-hunts-suspect-after-terror-attack-near-berlin-pride-parade"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/berlin-pride-attack-believed-act-islamic-terror-suspect-run-german-minister"
-          },
-          {
-            "n": "Daily Star World",
-            "b": "right",
-            "u": "https://www.dailystar.co.uk/news/world-news/berlin-pride-attack-suspect-shot-37478900"
-          }
-        ]
-      }
-    },
-    {
-      "id": "93da719801ae",
-      "title": "Israeli settlers attack West Bank mosques",
-      "description": "Israeli settlers have set fire to mosques and scrawled graffiti on buildings in the occupied West Bank, following a deadly clash between settlers and Palestinians.",
-      "lat": 30.9974,
-      "lng": 35.75999999999999,
-      "severity": 3,
-      "location": "West Bank",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3361911/israeli-settlers-set-fire-west-bank-mosques-graffiti-and-arson-reported?utm_source=rss_feed",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/26/8b457be6-aaae-4854-a516-61931d3bf247_bf7b49be.jpg?itok=PzQNrE3X&v=1785073977",
-      "ts": 1785073986000,
-      "coverage": {
-        "left": 3,
-        "center": 2,
-        "right": 1,
-        "total": 6,
-        "buckets": {
-          "left": 1,
-          "lean_left": 2,
-          "center": 2,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Intercept",
-            "b": "left",
-            "u": "https://theintercept.com/2026/07/23/west-bank-israeli-settlers-palestine/"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/7/26/why-are-israeli-settlers-on-a-rampage-in-the-occupied-west-bank?traffic_source=rss"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/israeli-settlers-set-fire-to-west-bank-mosques-after-deadly-clash/article71269221.ece"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cjrv77gl4deo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/middle-east/article/3361911/israeli-settlers-set-fire-west-bank-mosques-graffiti-and-arson-reported?utm_source=rss_feed"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/mid-east/israeli-settlers-vandalize-torch-2-mosques-in-occupied-west-bank"
           }
         ]
       }
