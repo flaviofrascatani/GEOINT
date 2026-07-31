@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-07-31T14:30:11.048348+00:00",
+  "updated": "2026-07-31T16:18:16.547557+00:00",
   "events": [
+    {
+      "id": "b1938029e989",
+      "title": "US Lawmaker Submits Bill Aimed at Countering N.K. IT Worker Schemes",
+      "description": "A U.S. lawmaker has introduced a bill aimed at countering North Korean IT worker schemes.",
+      "lat": 40.0,
+      "lng": -75.1148,
+      "severity": 2,
+      "location": "Washington D.C., USA",
+      "source": "Yonhap News",
+      "url": "https://en.yna.co.kr/view/AEN20260731012100315",
+      "image": "https://img.yna.co.kr/etc/inner/EN/2026/07/31/AEN20260731012100315_01_i_P2.jpg",
+      "ts": 1785507827000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20260731012100315"
+          }
+        ]
+      }
+    },
     {
       "id": "06b60a2cd387",
       "title": "Iran Strikes Two Tankers Under U.S. 'Air Escort' in Hormuz",
@@ -118,11 +151,11 @@
     },
     {
       "id": "ac243a2fff5f",
-      "title": "Poland Scrambles Fighter Jets to Intercept Russian Spy Plane",
-      "description": "Poland has scrambled two F-16 fighter jets to intercept a Russian Il-20 reconnaissance aircraft flying near NATO airspace.",
+      "title": "Poland Scrambles Fighter Jets to Intercept Russian Spy Plane Near NATO Airspace",
+      "description": "Poland has scrambled two F-16 fighter jets to intercept a Russian Il-20 reconnaissance aircraft flying around 40km north of Kolobrzeg over the Baltic Sea.",
       "lat": 54.35,
       "lng": 18.66,
-      "severity": 2,
+      "severity": 3,
       "location": "Kolobrzeg, Poland",
       "source": "Mirror World",
       "url": "https://www.mirror.co.uk/news/poland-scrambles-fighter-jet-nato-37500006",
@@ -145,6 +178,49 @@
             "n": "Mirror World",
             "b": "lean_left",
             "u": "https://www.mirror.co.uk/news/poland-scrambles-fighter-jet-nato-37500006"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0ae7f66cb0b1",
+      "title": "Hamas Agrees to Disarm: What Are the Challenges Ahead?",
+      "description": "Hamas said on Friday it agreed to a deal to end the war with Israel that included provisions addressing its weapons and the gradual withdrawal of Israeli forces from the Gaza Strip.",
+      "lat": 31.51,
+      "lng": 34.46000000000001,
+      "severity": 2,
+      "location": "Gaza, Palestine",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/07/hamas-agrees-disarm-what-are-challenges-ahead",
+      "image": null,
+      "ts": 1785501048000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/longest-nightmare-voices-from-gaza-as-hamas-agrees-to-disarm-11848904#publisher=newsstand"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/07/hamas-agrees-disarm-what-are-challenges-ahead"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/07/31/hamas-agrees-to-completely-disarm-in-plan-including-israeli-withdrawal/"
           }
         ]
       }
@@ -302,6 +378,39 @@
       }
     },
     {
+      "id": "94fcd883042d",
+      "title": "Italy Threatens to Enforce European Border Controls on Spain",
+      "description": "Italian Prime Minister Giorgia Meloni is threatening to exclude Spain from Europe's Schengen open-borders area over the Ceuta crisis.",
+      "lat": 43.17,
+      "lng": 12.57,
+      "severity": 2,
+      "location": "Rome, Italy",
+      "source": "Breitbart",
+      "url": "https://www.breitbart.com/europe/2026/07/31/ceuta-crisis-italy-threatens-to-enforce-european-border-controls-on-spain/",
+      "image": null,
+      "ts": 1785490780000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/europe/2026/07/31/ceuta-crisis-italy-threatens-to-enforce-european-border-controls-on-spain/"
+          }
+        ]
+      }
+    },
+    {
       "id": "c56988d5f433",
       "title": "Ukraine strikes Lukoil's Volgograd oil refinery",
       "description": "Ukraine has struck one of Russia's largest oil refineries, threatening to disrupt fuel supplies again as strikes on the country's energy infrastructure resumed.",
@@ -398,6 +507,39 @@
             "n": "OAN",
             "b": "right",
             "u": "https://www.oann.com/newsroom/spain-deploys-military-to-ceuta-as-thousands-of-moroccan-migrants-breach-the-border/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e4e98e1af081",
+      "title": "Spain Deploys Military After 49,000 Breach Border And At Least 19 Die",
+      "description": "The mass crossing into Ceuta caused division in Europe, with Italy threatening to suspend the EU’s internal open border scheme.",
+      "lat": 35.88,
+      "lng": -5.310000000000002,
+      "severity": 3,
+      "location": "Ceuta, Spain",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/migration-spain-ceuta_n_6a6c4d16e4b0c78215f8163c",
+      "image": null,
+      "ts": 1785482674000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/migration-spain-ceuta-morocco_n_6a6c8e34e4b0ea7db0fc2baf"
           }
         ]
       }
@@ -734,74 +876,6 @@
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/tiny-pacific-island-nation-nauru-reclaims-traditional-name-naoero"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0ae7f66cb0b1",
-      "title": "Hamas agrees to deal for disarmament, Israel's withdrawal from Gaza",
-      "description": "Hamas said it agreed to a deal to end the war with Israel that included provisions addressing its weapons and the gradual withdrawal of Israeli forces from the Gaza Strip.",
-      "lat": 31.51,
-      "lng": 34.46000000000001,
-      "severity": 1,
-      "location": "Gaza, Palestine",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/07/hamas-agrees-deal-disarmament-israels-withdrawal-gaza",
-      "image": null,
-      "ts": 1785454237000,
-      "coverage": {
-        "left": 2,
-        "center": 5,
-        "right": 1,
-        "total": 8,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 5,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/trump-hamas-next-phase-gaza-peace-deal-disarmament/"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/israel-hamas-war-gaza-board-of-peace-trump-announces-historic-deal-for-hamas-complete-disarmament-in-gaza-11846098#publisher=newsstand"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/us/2026/0731/1585908-trump-gaza-deal/"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/article-904113"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUndhOUUzYVZnLTU2czFvMzduUEVsdllVRWo0SGNSWUNGNC1yV25nc1dMRU5KWVl2cmd3cW45Z3JlOHlxY0IzZkpxbzl3MFpGV3NaNTRtVTF1c2lkbnZTeGhsRDFkOGNMQXNXRDczVElxRWZGZlI5dnpnTzYxYlRhaHdRVWMxWW9CaF9nRWlaQ2VrUERyTThhdDBYVFRPc3R5VUxBRmVUdlNRc2lGLTk2WVJNQy1TRm96U0ZQLVhWaFpENEpMUVJzQ2VhM0VGbTZzV3hRNDZ5ak0?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/07/hamas-agrees-deal-disarmament-israels-withdrawal-gaza"
-          },
-          {
-            "n": "Times of India World",
-            "b": "center",
-            "u": "https://timesofindia.indiatimes.com/world/us/monumental-step-toward-lasting-peace-donald-trump-announces-historic-gaza-deal-as-board-of-peace-agrees-on-hamas-disarmament/articleshow/132752458.cms"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2167487"
           }
         ]
       }
@@ -7614,120 +7688,6 @@
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/china-holds-air-navy-patrol-in-south-china-sea"
-          }
-        ]
-      }
-    },
-    {
-      "id": "939b6c84c362",
-      "title": "Vietnamese vessel sinks in South China Sea",
-      "description": "A Vietnamese-registered cargo ship carrying 62 crew members has sunk near Yongshu Reef in the South China Sea, with 23 people still missing.",
-      "lat": 9.65,
-      "lng": 112.93,
-      "severity": 4,
-      "location": "South China Sea",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/vietnam-south-china-sea-ship-sinking-july-26-2026/article71268677.ece",
-      "image": null,
-      "ts": 1785056610000,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/vietnam-south-china-sea-ship-sinking-july-26-2026/article71268677.ece"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/vietnamese-vessel-sinks-in-south-china-sea-23-missing/a-78118211?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/asia/us-japan-join-philippines-in-south-china-sea-drills-6278791"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/se-asia/rescuers-scour-south-china-sea-for-23-missing-after-vietnamese-vessel-sinks"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f3ef032375aa",
-      "title": "Israel eyes pre-war tourist levels from India by 2027",
-      "description": "Israel is aiming to reach pre-war tourist levels from India by 2027, following a strong recovery in tourism after the COVID-19 pandemic.",
-      "lat": 30.8274,
-      "lng": 36.870000000000005,
-      "severity": 1,
-      "location": "Tel Aviv, Israel",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/national/closer-ties-and-easier-travel-israel-eyes-pre-war-tourist-levels-from-india-by-2027/article71268861.ece",
-      "image": "https://th-i.thgim.com/public/news/national/xpxs6o/article71268899.ece/alternates/LANDSCAPE_1200/iStock-953938074.jpg",
-      "ts": 1785053613000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/national/closer-ties-and-easier-travel-israel-eyes-pre-war-tourist-levels-from-india-by-2027/article71268861.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "dfb2ee8e4b95",
-      "title": "US pauses Iran strikes",
-      "description": "The US has paused its almost two-week run of strikes against Iran for a second night, as skirmishes between Yemen's Houthi militants and Saudi Arabia ratcheted up tensions near a global energy chokepoint.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-26/us-pauses-iran-strikes-for-second-night-as-red-sea-tensions-rise",
-      "image": null,
-      "ts": 1785049342000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-07-26/us-pauses-iran-strikes-for-second-night-as-red-sea-tensions-rise"
           }
         ]
       }
