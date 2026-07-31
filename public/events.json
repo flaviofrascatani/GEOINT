@@ -1,7 +1,103 @@
 {
   "schema": 1,
-  "updated": "2026-07-31T00:11:50.620146+00:00",
+  "updated": "2026-07-31T04:03:50.730161+00:00",
   "events": [
+    {
+      "id": "ca88b3088b4a",
+      "title": "Spain deploys military after thousands of migrants overwhelm border enclave",
+      "description": "At least 15 people have drowned as migrants try to swim to Spanish territory amid scenes of chaos at the border.",
+      "lat": 35.88,
+      "lng": -5.349999999999994,
+      "severity": 4,
+      "location": "Ceuta, Spain",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a0fd/live/af9c6590-8c2f-11f1-b8ee-9b3c26ad07bb.jpg",
+      "ts": 1785465669000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/thousands-of-migrants-from-morocco-enter-spanish-enclave-of-ceuta-as-locals-demand-army-restore-border-13568466"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/spain-deploys-military-after-thousands-migrants-overwhelm-border-enclave-least-9-dead"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5b14fc643854",
+      "title": "Thousands breach Morocco border with Spanish territory",
+      "description": "Thousands of migrants streamed into the tiny Spanish territory of Ceuta from Morocco, prompting local officials to call on Spain to declare a national emergency and send the army to restore order.",
+      "lat": 36.98,
+      "lng": -5.310000000000002,
+      "severity": 4,
+      "location": "Ceuta, Spain",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/absolute-chaos-thousands-breach-morocco-border-with-spanish-territory-11844879#publisher=newsstand",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/07/30/453492.jpg",
+      "ts": 1785461085000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 1,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/ceuta-asks-madrid-declare-national-emergency-thousands-cross-135222179"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/absolute-chaos-thousands-breach-morocco-border-with-spanish-territory-11844879#publisher=newsstand"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/thousands-of-migrants-from-morocco-enter-spanish-enclave-of-ceuta-as-locals-demand-army-restore-border-13568466"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/07/30/ceuta-calls-for-emergency-as-thousands-of-migrants-cross/"
+          },
+          {
+            "n": "Daily Star World",
+            "b": "right",
+            "u": "https://www.dailystar.co.uk/news/world-news/breaking-spain-urged-declare-national-37496894"
+          }
+        ]
+      }
+    },
     {
       "id": "cb39af2df6ed",
       "title": "China Launches Satellite for Algeria",
@@ -112,6 +208,74 @@
       }
     },
     {
+      "id": "0ae7f66cb0b1",
+      "title": "Hamas agrees to deal for disarmament, Israel's withdrawal from Gaza",
+      "description": "Hamas said it agreed to a deal to end the war with Israel that included provisions addressing its weapons and the gradual withdrawal of Israeli forces from the Gaza Strip.",
+      "lat": 31.51,
+      "lng": 34.46000000000001,
+      "severity": 1,
+      "location": "Gaza, Palestine",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/07/hamas-agrees-deal-disarmament-israels-withdrawal-gaza",
+      "image": null,
+      "ts": 1785454237000,
+      "coverage": {
+        "left": 2,
+        "center": 5,
+        "right": 1,
+        "total": 8,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 5,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/trump-hamas-next-phase-gaza-peace-deal-disarmament/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/israel-hamas-war-gaza-board-of-peace-trump-announces-historic-deal-for-hamas-complete-disarmament-in-gaza-11846098#publisher=newsstand"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/us/2026/0731/1585908-trump-gaza-deal/"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-904113"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUndhOUUzYVZnLTU2czFvMzduUEVsdllVRWo0SGNSWUNGNC1yV25nc1dMRU5KWVl2cmd3cW45Z3JlOHlxY0IzZkpxbzl3MFpGV3NaNTRtVTF1c2lkbnZTeGhsRDFkOGNMQXNXRDczVElxRWZGZlI5dnpnTzYxYlRhaHdRVWMxWW9CaF9nRWlaQ2VrUERyTThhdDBYVFRPc3R5VUxBRmVUdlNRc2lGLTk2WVJNQy1TRm96U0ZQLVhWaFpENEpMUVJzQ2VhM0VGbTZzV3hRNDZ5ak0?oc=5"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/07/hamas-agrees-deal-disarmament-israels-withdrawal-gaza"
+          },
+          {
+            "n": "Times of India World",
+            "b": "center",
+            "u": "https://timesofindia.indiatimes.com/world/us/monumental-step-toward-lasting-peace-donald-trump-announces-historic-gaza-deal-as-board-of-peace-agrees-on-hamas-disarmament/articleshow/132752458.cms"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2167487"
+          }
+        ]
+      }
+    },
+    {
       "id": "68d11238cc9f",
       "title": "Spain deploys 60 troops as thousands storm border from Morocco",
       "description": "Spain has deployed just 60 troops to its North African exclave of Ceuta after thousands of migrants overwhelmed security forces.",
@@ -211,6 +375,39 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/07/30/ai-generated-africa-map-blunder-overshadows-us-presentation-at-global-aids-conference/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f5e59590e0b8",
+      "title": "Wildfires kill two firefighters on Crete as tourists are evacuated",
+      "description": "Two firefighters have died on Crete after becoming trapped while tackling a wildfire, several of which are raging through the mountains on Greece's largest island.",
+      "lat": 36.42,
+      "lng": 24.960000000000008,
+      "severity": 4,
+      "location": "Crete, Greece",
+      "source": "Mirror World",
+      "url": "https://www.mirror.co.uk/news/world-news/crete-wildfires-firefighters-dead-37496815",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37496767.ece/ALTERNATES/s615/1_GREECE-ENVIRONMENT-CLIMATE-WEATHER-WILDFIRE.jpg",
+      "ts": 1785445664000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/crete-wildfires-firefighters-dead-37496815"
           }
         ]
       }
@@ -353,12 +550,45 @@
       }
     },
     {
+      "id": "d83d6fcd0f6e",
+      "title": "Mastercard Foundation Commits $500 Million to Transform Higher Education in Africa",
+      "description": "The Mastercard Foundation has committed $500 million to transform higher education in Africa, aiming to create jobs for the rapidly growing youth population.",
+      "lat": 1.56,
+      "lng": 35.71260000000001,
+      "severity": 1,
+      "location": "Nairobi, Kenya",
+      "source": "All Africa",
+      "url": "https://allafrica.com/stories/202607300588.html",
+      "image": null,
+      "ts": 1785441740000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "All Africa",
+            "b": "center",
+            "u": "https://allafrica.com/stories/202607300588.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "65d6c52ae77b",
-      "title": "Liberia Burns Cocaine Worth $336 Million",
-      "description": "Liberian law enforcement agents have burned 4.2 metric tons of cocaine worth about $336 million, as senior police officials are implicated in the scandal.",
+      "title": "Liberian authorities burn $336 million in cocaine as senior police officials are implicated",
+      "description": "Liberian law enforcement agents have burned some 4.2 metric tons of cocaine worth about $336 million.",
       "lat": 6.31,
       "lng": -10.79,
-      "severity": 2,
+      "severity": 3,
       "location": "Monrovia, Liberia",
       "source": "ABC News International",
       "url": "https://abcnews.com/International/wireStory/liberian-authorities-burn-336-million-cocaine-senior-police-135239745",
@@ -850,49 +1080,6 @@
             "n": "The Hindu International",
             "b": "lean_left",
             "u": "https://www.thehindu.com/news/international/pakistan-doing-its-utmost-to-bring-us-iran-back-to-negotiating-table-foreign-office/article71286172.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5b14fc643854",
-      "title": "Thousands breach Spanish enclave Ceuta's border with Morocco",
-      "description": "Thousands of migrants entered Spain's North African enclave of Ceuta from Morocco, as local officials called for a national emergency and military deployment to restore order.",
-      "lat": 36.98,
-      "lng": -5.310000000000002,
-      "severity": 3,
-      "location": "Ceuta, Spain",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/world/europe/thousands-breach-spanish-enclave-ceutas-border-with-morocco",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/07/30/453492.jpg",
-      "ts": 1785418920000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/ceuta-asks-madrid-declare-national-emergency-thousands-cross-135222179"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/07/30/hundreds-of-migrants-swim-from-morocco-to-the-spanish-territory-of-ceuta/"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/europe/thousands-breach-spanish-enclave-ceutas-border-with-morocco"
           }
         ]
       }
@@ -7536,163 +7723,6 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-07-25/morocco-football-boss-enters-politics-with-premier-bid-possible"
-          }
-        ]
-      }
-    },
-    {
-      "id": "23bb4ba48217",
-      "title": "US Pauses Nightly Strikes on Iran",
-      "description": "The US has paused its nightly strikes on Iran, raising questions about President Trump's strategy in the region.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-25/us-pauses-nightly-strikes-on-iran-as-houthis-clash-with-saudis",
-      "image": null,
-      "ts": 1785008871000,
-      "coverage": {
-        "left": 3,
-        "center": 1,
-        "right": 1,
-        "total": 5,
-        "buckets": {
-          "left": 2,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/iran-us-strikes-hormuz_n_6a62a4b5e4b0f1b7fc52560a"
-          },
-          {
-            "n": "The Intercept",
-            "b": "left",
-            "u": "https://theintercept.com/2026/07/21/iran-war-pentagon-casualties-injuries/"
-          },
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/live/2026/07/25/world/iran-war-us-strikes-trump-oil"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-07-25/us-pauses-nightly-strikes-on-iran-as-houthis-clash-with-saudis"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/entertainment/2026/07/25/katy-perry-freaks-out-after-white-house-uses-firework-in-iran-strikes-video-i-am-deeply-appalled/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "39ba1ffbc923",
-      "title": "Wildfires lead to evacuations in suburbs of Bordeaux",
-      "description": "France is using a massive cargo aircraft to dump flame retardants on a wildfire near the wine country city of Bordeaux.",
-      "lat": 44.84,
-      "lng": -0.5800000000000125,
-      "severity": 3,
-      "location": "Bordeaux, France",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/wildfire-leads-evacuations-suburbs-french-city-bordeaux-135076745",
-      "image": "https://s.abcnews.com/images/International/wirestory_93678a31ff53fc46564b6dfd9934eae1_4x3_384.jpg",
-      "ts": 1785007804000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/wildfire-leads-evacuations-suburbs-french-city-bordeaux-135076745"
-          }
-        ]
-      }
-    },
-    {
-      "id": "fb9198eb493d",
-      "title": "Wildfires force 70,000 to flee homes in Spain",
-      "description": "Wildfires in Spain have forced 70,000 people to flee their homes, with officials calling it the region's worst fire on record.",
-      "lat": 43.29,
-      "lng": 1.44,
-      "severity": 4,
-      "location": "Southern France",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/spain-races-to-save-lives-as-wildfires-force-70-000-to-flee-homes-11822302#publisher=newsstand",
-      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
-      "ts": 1785004361000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/spain-races-to-save-lives-as-wildfires-force-70-000-to-flee-homes-11822302#publisher=newsstand"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/200-000-people-flee-their-homes-in-france-as-wildfires-continue"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1bbb37946e65",
-      "title": "US-Iran conflict pause",
-      "description": "The US military paused its airstrikes against Iran for a second night, amid reports of dwindling munitions stockpiles.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/07/25/trump-iran-war-military-directive-strikes",
-      "image": "https://images.axios.com/XgxzPFkFCtx-Bjjai0KQiFkNXl8=/0x0:4144x2331/1366x768/2026/07/25/1784994461802.jpeg",
-      "ts": 1785003828000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/07/25/trump-iran-war-military-directive-strikes"
           }
         ]
       }
