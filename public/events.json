@@ -1,7 +1,139 @@
 {
   "schema": 1,
-  "updated": "2026-07-31T21:15:26.655505+00:00",
+  "updated": "2026-07-31T22:35:08.706640+00:00",
   "events": [
+    {
+      "id": "cb39af2df6ed",
+      "title": "China launches satellite for Algeria",
+      "description": "A Chinese-made communications satellite has been launched for Algeria, the first such export to an Arab country.",
+      "lat": 36.77,
+      "lng": 3.06,
+      "severity": 1,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1785537308565,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9efd92a1c21c",
+      "title": "Russian forces hit Ukrainian cargo vessels",
+      "description": "Russian forces have hit over 80 vessels involved in cargo deliveries for the Ukrainian army in July.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 4,
+      "location": "Kyiv, Ukraine",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2167867",
+      "image": null,
+      "ts": 1785536280000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2167867"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d79af8e42ea9",
+      "title": "China and US agree on soybean trade",
+      "description": "Chinese government buyers have bought at least eight cargoes of US soybeans for shipment from US Gulf Coast terminals.",
+      "lat": 39.91,
+      "lng": 116.38999999999999,
+      "severity": 1,
+      "location": "Beijing, China",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3362615/chinese-buyers-acquire-us-soybeans-october-november-traders-say?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/01/9e26d3e1-bedf-4b0d-961a-1e87270d4c97_b3cc7136.jpg?itok=w8s_fiex&v=1785535112",
+      "ts": 1785535114000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/united-states-canada/article/3362615/chinese-buyers-acquire-us-soybeans-october-november-traders-say?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6dfc1d28ff20",
+      "title": "Iran warns of retaliation against US",
+      "description": "Iran has warned that the global economy will pay the price if the US attacks again.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "Daily Express World",
+      "url": "https://www.express.co.uk/news/world/2235031/iran-warns-trump-global-economy",
+      "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2235031_1.jpg",
+      "ts": 1785535080000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2235031/iran-warns-trump-global-economy"
+          }
+        ]
+      }
+    },
     {
       "id": "7f6acb9f027c",
       "title": "Naples earthquake",
@@ -173,6 +305,77 @@
             "n": "Rio Times",
             "b": "center",
             "u": "https://www.riotimesonline.com/fdlr-disarmament-congo-rwanda-washington-accords-2026/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7dcdb3464a9e",
+      "title": "Two-week ceasefire in Gaza",
+      "description": "A two-week ceasefire has been agreed to allow Hamas to disarm and launch a peace deal, according to sources.",
+      "lat": 30.5574,
+      "lng": 36.110000000000014,
+      "severity": 2,
+      "location": "Gaza, Palestine",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-904233",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_1066,w_1600/698406",
+      "ts": 1785520533000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/israel-news/defense-news/article-904233"
+          }
+        ]
+      }
+    },
+    {
+      "id": "22fc9d007f9f",
+      "title": "Migrant crisis in Ceuta",
+      "description": "At least 57 people died as tens of thousands of migrants crossed into the Spanish enclave of Ceuta from Morocco, prompting a crisis in Spain and divisions in Europe.",
+      "lat": 35.89,
+      "lng": -5.310000000000002,
+      "severity": 4,
+      "location": "Ceuta, Spain",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/world/2026/jul/31/ceuta-spain-morocco-border-deaths",
+      "image": null,
+      "ts": 1785520331000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/spain-deploys-military-ceuta-morocco-border-migrants/"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
@@ -416,6 +619,39 @@
             "n": "The Hindu International",
             "b": "lean_left",
             "u": "https://www.thehindu.com/news/international/iran-israel-war-live-july-31-2026-updates-pakistan-us-donald-trump-west-asia/article71288966.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0d4e984b58b4",
+      "title": "Cyberattacks target US water systems",
+      "description": "Hackers have targeted municipal water systems in at least seven US states, prompting warnings from the FBI and EPA.",
+      "lat": 38.9,
+      "lng": -77.02,
+      "severity": 4,
+      "location": "Washington D.C., USA",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/tech/security/hackers-targeted-municipal-water-systems-7-states-week-fbi-says-rcna590210",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-07/260731-minnesota-water-mn-0905-878e3e.jpg",
+      "ts": 1785506074000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/tech/security/hackers-targeted-municipal-water-systems-7-states-week-fbi-says-rcna590210"
           }
         ]
       }
@@ -1150,39 +1386,6 @@
             "n": "Daily Mail World",
             "b": "right",
             "u": "https://www.dailymail.com/news/article-16018319/Donald-Trump-disarm-hamas-gaza-israel.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cb39af2df6ed",
-      "title": "China Launches Satellite for Algeria",
-      "description": "A Chinese-made communications satellite has been launched for Algeria, marking the first export of such a spacecraft to an Arab country.",
-      "lat": 36.77,
-      "lng": 3.06,
-      "severity": 2,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1785456710458,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
           }
         ]
       }
@@ -7270,209 +7473,6 @@
             "n": "Channel News Asia",
             "b": "center",
             "u": "https://www.channelnewsasia.com/world/israel-allow-international-force-gaza-official-6279381"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4ac80c61c0c6",
-      "title": "US halts strikes on Iran as diplomatic talks move in positive direction",
-      "description": "The US has paused its strikes on Iran as diplomatic talks with Oman show progress, aiming to reopen the Strait of Hormuz.",
-      "lat": 27.67,
-      "lng": 56.25,
-      "severity": 2,
-      "location": "Strait of Hormuz",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east/",
-      "image": null,
-      "ts": 1785090690000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-hormuz-middle-east/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f5c3a7b5146b",
-      "title": "India's education minister resigns after month-long student protests",
-      "description": "India's prime minister dismissed his education minister on Saturday, meeting a month-long demand from student protesters.",
-      "lat": 28.61,
-      "lng": 77.23000000000002,
-      "severity": 3,
-      "location": "New Delhi, India",
-      "source": "Le Monde English",
-      "url": "https://www.lemonde.fr/en/international/article/2026/07/26/india-s-cockroach-youth-movement-leaves-modi-weakend_6755854_4.html",
-      "image": "https://img.lemde.fr/2026/07/26/0/0/7027/3513/644/322/60/0/c286097_ftp-1-tiqvhrhcfkoh-94ba39c9f8c04732b936001bb3407154-0-b4c0902be70d4b8fb8edb4045c2e8ac0.jpg",
-      "ts": 1785085322000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/07/26/india-s-cockroach-youth-movement-leaves-modi-weakend_6755854_4.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "441cdd05de70",
-      "title": "Israel OKs deployment of international force in Gaza",
-      "description": "Israel has approved the deployment of an international force in Gaza under the Trump plan.",
-      "lat": 32.6,
-      "lng": 34.44999999999999,
-      "severity": 2,
-      "location": "Gaza, Palestine",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/world/mid-east/israel-oks-deployment-of-international-force-in-gaza-under-trump-plan",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/07/26/452664.JPG",
-      "ts": 1785084480000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/mid-east/israel-oks-deployment-of-international-force-in-gaza-under-trump-plan"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e6246c58df4f",
-      "title": "Brazil recalls ambassador after Milei attacks Lula",
-      "description": "Brazil has recalled its ambassador to Argentina after President Javier Milei launched an attack on President Luiz Inácio Lula da Silva.",
-      "lat": -34.6,
-      "lng": -58.38,
-      "severity": 3,
-      "location": "Buenos Aires, Argentina",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-26/brazil-summons-ambassador-after-milei-attacks-lula-judge",
-      "image": null,
-      "ts": 1785084090000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-07-26/brazil-summons-ambassador-after-milei-attacks-lula-judge"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ec6346e1051d",
-      "title": "Trump to meet Zelensky at White House",
-      "description": "President Trump will meet Ukrainian President Volodymyr Zelensky at the White House on Tuesday, a White House official confirmed to Axios.",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/07/26/trump-zelensky-white-house-maga-ukraine",
-      "image": "https://images.axios.com/iBI0lZ2w0_TCH-l_FmL3o6DkYZ0=/0x585:5617x3745/1366x768/2026/07/26/1785077071387.jpeg",
-      "ts": 1785078935000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/07/26/trump-zelensky-white-house-maga-ukraine"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/entertainment/2026/07/26/white-house-defends-president-trump-against-alan-ritchsons-epstein-files-tirade-hes-been-totally-exonerated/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f3141d76e7f5",
-      "title": "Ugandan diplomat Olara Otunnu joins race to lead the United Nations",
-      "description": "The former UN under-secretary-general, who served as a special representative for children and armed conflict, was nominated by Kampala on Friday.",
-      "lat": 1.42,
-      "lng": 32.579999999999984,
-      "severity": 1,
-      "location": "Kampala, Uganda",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/07/26/ugandan-diplomat-olara-otunnu-joins-race-to-lead-the-united-nations/",
-      "image": "http://images.euronews.com/articles/stories/09/85/11/88/640x360_cmsv2_ad581b0e-b827-5a9e-98d7-4755a0f71bde-9851188.jpg?1785071172",
-      "ts": 1785078090000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/07/26/ugandan-diplomat-olara-otunnu-joins-race-to-lead-the-united-nations/"
           }
         ]
       }
