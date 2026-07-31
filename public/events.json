@@ -1,7 +1,169 @@
 {
   "schema": 1,
-  "updated": "2026-07-31T16:18:16.547557+00:00",
+  "updated": "2026-07-31T18:06:14.549615+00:00",
   "events": [
+    {
+      "id": "bf06eede7523",
+      "title": "Italy Suspends Schengen Agreement with Spain",
+      "description": "Italy has suspended its Schengen agreement with Spain due to the migrant crisis in Ceuta.",
+      "lat": 42.97,
+      "lng": 14.405200000000008,
+      "severity": 3,
+      "location": "Rome, Italy",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/europe/article/3362607/italy-suspends-eu-schengen-free-travel-pact-spain-over-ceuta-migrant-crisis?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/01/6216cd62-9460-43d9-b1e7-147f9ad670f1_de15da4d.jpg?itok=arwKmBZY&v=1785519550",
+      "ts": 1785519558000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 3,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 2,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/europe/2026/0731/1585954-ceuta-migrants/"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/europe/article/3362607/italy-suspends-eu-schengen-free-travel-pact-spain-over-ceuta-migrant-crisis?utm_source=rss_feed"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2167789"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/europe/italy-halts-schengen-free-travel-with-spain-over-ceuta-tensions"
+          },
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2234985/italy-suspends-schengen-agreement-spain"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4671f15811d9",
+      "title": "DR Congo Ebola Epidemic Becomes World's Second Largest Outbreak",
+      "description": "The Ebola epidemic in the Democratic Republic of Congo has become the world's second largest outbreak.",
+      "lat": -3.22,
+      "lng": 15.300000000000011,
+      "severity": 4,
+      "location": "Kinshasa, DR Congo",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/31/dr-congo-ebola-epidemic-becomes-worlds-second-largest-outbreak?traffic_source=rss",
+      "image": null,
+      "ts": 1785516724000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 1,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/congo-ebola-death-toll-grows_n_6a6b383fe4b0fddbd71339b9"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/7/31/dr-congo-ebola-epidemic-becomes-worlds-second-largest-outbreak?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aa9649c089c1",
+      "title": "Kuwait Destroys Iranian Drones Targeting Vital Facilities",
+      "description": "Kuwaiti forces have destroyed Iranian drones targeting vital and military facilities in the country.",
+      "lat": 29.37,
+      "lng": 49.8852,
+      "severity": 4,
+      "location": "Kuwait City, Kuwait",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/kuwait-says-shot-down-iranian-drones-targeting-vital-and-military-sites-11850043#publisher=newsstand",
+      "image": "https://i.ndtvimg.com/i/2017-10/drone_650x400_41509186317.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1785515154000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/kuwait-says-shot-down-iranian-drones-targeting-vital-and-military-sites-11850043#publisher=newsstand"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5c4d73e22f9b",
+      "title": "Sri Lanka's Ex-Police Chief Sentenced to Death Over 2019 Easter Bombings",
+      "description": "A Sri Lankan court has sentenced the former police chief to death over the 2019 Easter bombings.",
+      "lat": 6.93,
+      "lng": 79.85,
+      "severity": 4,
+      "location": "Colombo, Sri Lanka",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3362602/sri-lankas-ex-police-chief-sentenced-death-over-2019-easter-bombings?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/31/2a814bad-1949-4e11-808a-f42d00c50f40_0a2bd0c2.jpg?itok=S_wbsXLs&v=1785510832",
+      "ts": 1785510836000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/asia/south-asia/article/3362602/sri-lankas-ex-police-chief-sentenced-death-over-2019-easter-bombings?utm_source=rss_feed"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/former-sri-lankan-defence-official-ex-police-chief-sentenced-to-death-over-2019-easter-bombings"
+          }
+        ]
+      }
+    },
     {
       "id": "b1938029e989",
       "title": "US Lawmaker Submits Bill Aimed at Countering N.K. IT Worker Schemes",
@@ -79,6 +241,39 @@
             "n": "The Hindu International",
             "b": "lean_left",
             "u": "https://www.thehindu.com/news/international/iran-israel-war-live-july-31-2026-updates-pakistan-us-donald-trump-west-asia/article71288966.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0cbd90cfc088",
+      "title": "Algerian Bus Plunges into Ravine, Killing at Least 25",
+      "description": "At least 25 people have been killed and 44 injured in a bus accident in Algeria.",
+      "lat": 37.87,
+      "lng": 4.96520000000001,
+      "severity": 4,
+      "location": "Algiers, Algeria",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/algerian-bus-plunges-ravine-algiers-killing-25-injuring-135258957",
+      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
+      "ts": 1785504861000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/algerian-bus-plunges-ravine-algiers-killing-25-injuring-135258957"
           }
         ]
       }
@@ -445,11 +640,11 @@
     },
     {
       "id": "74881c0efbf5",
-      "title": "Spain Deploys Military After Thousands of Migrants Breach Border",
-      "description": "Spain has deployed its military to restore order at its border with Morocco in Ceuta after thousands of migrants streamed into the tiny Spanish territory, with at least 19 dying in the attempt.",
+      "title": "Spain Deploys Military After 49,000 Breach Border",
+      "description": "At least 19 people have died as thousands of migrants crossed into Spain's Ceuta enclave from Morocco.",
       "lat": 35.89,
       "lng": -5.310000000000002,
-      "severity": 3,
+      "severity": 4,
       "location": "Ceuta, Spain",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/migration-spain-ceuta_n_6a6c4d16e4b0c78215f8163c",
@@ -457,13 +652,13 @@
       "ts": 1785482674000,
       "coverage": {
         "left": 4,
-        "center": 3,
+        "center": 2,
         "right": 1,
-        "total": 8,
+        "total": 7,
         "buckets": {
           "left": 1,
           "lean_left": 3,
-          "center": 3,
+          "center": 2,
           "lean_right": 0,
           "right": 1
         },
@@ -479,14 +674,14 @@
             "u": "https://www.nbcnews.com/video/spain-deploys-military-to-ceuta-after-thousands-of-migrants-breach-the-border-267575365720"
           },
           {
-            "n": "CBS News World",
+            "n": "ABC News International",
             "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/spain-deploys-military-ceuta-morocco-border-migrants/"
+            "u": "https://abcnews.com/International/wireStory/18-die-after-breach-border-morocco-spanish-territory-135252200"
           },
           {
-            "n": "NDTV World",
+            "n": "CBS News World",
             "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/absolute-chaos-thousands-breach-morocco-border-with-spanish-territory-11844879#publisher=newsstand"
+            "u": "https://www.cbsnews.com/news/spain-ceuta-morocco-migrants-border-crossings/"
           },
           {
             "n": "BBC World",
@@ -494,19 +689,14 @@
             "u": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss"
           },
           {
-            "n": "Sky News World",
+            "n": "Africanews",
             "b": "center",
-            "u": "https://news.sky.com/story/thousands-of-migrants-from-morocco-enter-spanish-enclave-of-ceuta-as-locals-demand-army-restore-border-13568466"
+            "u": "http://www.africanews.com/2026/07/31/spain-and-morocco-reinforce-border-after-tens-of-thousands-cross-into-ceuta/"
           },
           {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoU0pUT3FQZi1XdXM0bXpLdG00MHlFbFFCX2djZVktZzBnNk12LUtkblhMZnlYNVAyb0xIX1NMTWtlWVhhNWdKVDYxYUdKN3dxTHBGWGo3STNOM3ZtYkwzbk5EYnhBa3lUR2VaRUZ5aE9EU3pyTnlId0tuWTVtZUU?oc=5"
-          },
-          {
-            "n": "OAN",
+            "n": "Fox News World",
             "b": "right",
-            "u": "https://www.oann.com/newsroom/spain-deploys-military-to-ceuta-as-thousands-of-moroccan-migrants-breach-the-border/"
+            "u": "https://www.foxnews.com/world/spain-deploys-military-after-thousands-migrants-overwhelm-border-enclave-least-9-dead"
           }
         ]
       }
@@ -7458,236 +7648,6 @@
             "n": "Times of India World",
             "b": "center",
             "u": "https://timesofindia.indiatimes.com/world/china/baby-crib-sent-flying-800000-flee-typhoon-noul-hits-china-scary-visuals-emerge/articleshow/132639611.cms"
-          }
-        ]
-      }
-    },
-    {
-      "id": "46d77984d6b2",
-      "title": "US-Russian space crew lands safely in Kazakhstan",
-      "description": "A U.S.-Russian space crew landed safely in the steppes of Kazakhstan after an eight-month stint on the International Space Station.",
-      "lat": 48.03,
-      "lng": 66.92,
-      "severity": 1,
-      "location": "Kazakhstan",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/us-russian-space-crew-lands-safely-kazakhstan-after-135095540",
-      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
-      "ts": 1785066943000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/us-russian-space-crew-lands-safely-kazakhstan-after-135095540"
-          },
-          {
-            "n": "New York Post",
-            "b": "lean_right",
-            "u": "https://nypost.com/2026/07/26/science/us-russian-space-crew-lands-in-kazakhstan-after-an-8-month-stint-on-the-iss/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "14ced9f20e0c",
-      "title": "Japan, Philippines and the U.S. complete exercises in South China Sea",
-      "description": "The armed forces said the joint drills show the Philippines' commitment to ensuring freedom of navigation and overflight in the West Philippine Sea.",
-      "lat": 10.0,
-      "lng": 115.0,
-      "severity": 2,
-      "location": "South China Sea",
-      "source": "Japan Times",
-      "url": "https://www.japantimes.co.jp/news/2026/07/26/japan/south-china-sea-military-exercise/",
-      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/07/26/553627.JPG",
-      "ts": 1785064140000,
-      "coverage": {
-        "left": 1,
-        "center": 5,
-        "right": 1,
-        "total": 7,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 5,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/vietnam-south-china-sea-ship-sinking-july-26-2026/article71268677.ece"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/vietnamese-vessel-sinks-in-south-china-sea-17-missing/a-78118211?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/07/26/japan/south-china-sea-military-exercise/"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/china/diplomacy/article/3361901/search-survivors-continues-45-rescued-after-cargo-ship-sinks-south-china-sea?utm_source=rss_feed"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/asia/us-japan-join-philippines-in-south-china-sea-drills-6278791"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/china-holds-air-navy-patrol-in-south-china-sea"
-          },
-          {
-            "n": "Global Times",
-            "b": "right",
-            "u": "https://www.globaltimes.cn/page/202606/1363326.shtml"
-          }
-        ]
-      }
-    },
-    {
-      "id": "caffe7b987e9",
-      "title": "Iran accuses US of attacking rescue boats",
-      "description": "Iran has accused the US of targeting two rescue boats, saying the attack is a war crime.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "RT News",
-      "url": "https://www.rt.com/news/643486-iran-accuses-us-attacking-rescue-boats/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.07/thumbnail/6a65e66e203027149a66367b.jpg",
-      "ts": 1785063045000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/643486-iran-accuses-us-attacking-rescue-boats/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d9d5c90d1307",
-      "title": "D-Day landing beaches added to UNESCO World Heritage List",
-      "description": "The D-Day landing beaches in northern France have been added to the UNESCO World Heritage List.",
-      "lat": 49.37,
-      "lng": 0.53,
-      "severity": 1,
-      "location": "Normandy, France",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/unesco-adds-frances-day-landing-beaches-greeces-mount-135095093",
-      "image": "https://s.abcnews.com/images/International/wirestory_1d3fabaa482d9384b1cb0b5c917ce5d5_4x3_384.jpg",
-      "ts": 1785059410000,
-      "coverage": {
-        "left": 2,
-        "center": 1,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/unesco-adds-frances-day-landing-beaches-greeces-mount-135095093"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/history/article/2026/07/26/d-day-beaches-now-part-of-unesco-world-heritage-list_6755848_157.html"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/europe/20260726-unesco-adds-normandy-d-day-landing-beaches-to-world-heritage-list"
-          }
-        ]
-      }
-    },
-    {
-      "id": "fa537e50e457",
-      "title": "China holds air and navy patrol in South China Sea",
-      "description": "China has organised a routine patrol by its naval and air forces in the South China Sea.",
-      "lat": 12.0,
-      "lng": 113.0,
-      "severity": 3,
-      "location": "South China Sea",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/china-holds-air-navy-patrol-in-south-china-sea",
-      "image": null,
-      "ts": 1785058825000,
-      "coverage": {
-        "left": 1,
-        "center": 4,
-        "right": 0,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 4,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/vietnam-south-china-sea-ship-sinking-july-26-2026/article71268677.ece"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/vietnamese-vessel-sinks-in-south-china-sea-23-missing/a-78118211?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/07/26/asia-pacific/vietnamese-ship-south-china-sea/"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/asia/us-japan-join-philippines-in-south-china-sea-drills-6278791"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/china-holds-air-navy-patrol-in-south-china-sea"
           }
         ]
       }
