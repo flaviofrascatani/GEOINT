@@ -1,7 +1,126 @@
 {
   "schema": 1,
-  "updated": "2026-07-31T09:50:28.799485+00:00",
+  "updated": "2026-07-31T12:06:37.689952+00:00",
   "events": [
+    {
+      "id": "0ab1c5545a96",
+      "title": "China Signals Buildout of Nuclear Missile Silos",
+      "description": "China has given a rare acknowledgement that it has built more nuclear missile silos in recent years.",
+      "lat": 39.9,
+      "lng": 116.38999999999999,
+      "severity": 3,
+      "location": "Beijing, China",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/china/military/article/3362573/china-signals-buildout-nuclear-missile-silos-strategic-trump-cards?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/31/5de7b44e-0913-4b0d-adfc-14e41554a454_e708f9bb.jpg?itok=LKDAupI0&v=1785496180",
+      "ts": 1785499207000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/china/military/article/3362573/china-signals-buildout-nuclear-missile-silos-strategic-trump-cards?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f924a26a2dbe",
+      "title": "Spain Says 49,000 Migrants Entered Ceuta Enclave in One Day",
+      "description": "Spain says a record 49,000 migrants entered the Ceuta enclave in one day, with at least 18 dying in the attempt.",
+      "lat": 35.89,
+      "lng": -5.310000000000002,
+      "severity": 3,
+      "location": "Ceuta, Spain",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/34917d6f-c8ec-4e13-890a-4d8475806bb7?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1785496979000,
+      "coverage": {
+        "left": 0,
+        "center": 3,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 3,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/34917d6f-c8ec-4e13-890a-4d8475806bb7?syn-25a6b1a6=1"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/thousands-of-migrants-from-morocco-enter-spanish-enclave-of-ceuta-as-locals-demand-army-restore-border-13568466"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoU0pUT3FQZi1XdXM0bXpLdG00MHlFbFFCX2djZVktZzBnNk12LUtkblhMZnlYNVAyb0xIX1NMTWtlWVhhNWdKVDYxYUdKN3dxTHBGWGo3STNOM3ZtYkwzbk5EYnhBa3lUR2VaRUZ5aE9EU3pyTnlId0tuWTVtZUU?oc=5"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/europe/migrants-torch-vehicles-in-tense-night-near-spains-ceuta-border"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a73d8feacad1",
+      "title": "Iran Targets Strategic US Assets in Kuwait and Bahrain",
+      "description": "Iran's army has launched attacks on strategic US assets and military bases in Kuwait and Bahrain.",
+      "lat": 30.47,
+      "lng": 49.87520000000001,
+      "severity": 4,
+      "location": "Kuwait City, Kuwait",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/07/31/us-iran-war-trump-hormuz.html",
+      "image": null,
+      "ts": 1785493934000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/31/world/middleeast/iran-us-military-kuwait-drone-attack.html"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/07/31/us-iran-war-trump-hormuz.html"
+          }
+        ]
+      }
+    },
     {
       "id": "c56988d5f433",
       "title": "Ukraine strikes Lukoil's Volgograd oil refinery",
@@ -31,6 +150,74 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-07-31/ukraine-says-it-attacked-lukoil-s-volgograd-oil-refinery"
+          }
+        ]
+      }
+    },
+    {
+      "id": "74881c0efbf5",
+      "title": "Spain Deploys Military After Thousands of Migrants Breach Border",
+      "description": "Spain has deployed its military to restore order at its border with Morocco in Ceuta after thousands of migrants streamed into the tiny Spanish territory, with at least 19 dying in the attempt.",
+      "lat": 35.89,
+      "lng": -5.310000000000002,
+      "severity": 3,
+      "location": "Ceuta, Spain",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/migration-spain-ceuta_n_6a6c4d16e4b0c78215f8163c",
+      "image": null,
+      "ts": 1785482674000,
+      "coverage": {
+        "left": 4,
+        "center": 3,
+        "right": 1,
+        "total": 8,
+        "buckets": {
+          "left": 1,
+          "lean_left": 3,
+          "center": 3,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/migration-spain-ceuta_n_6a6c4d16e4b0c78215f8163c"
+          },
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/video/spain-deploys-military-to-ceuta-after-thousands-of-migrants-breach-the-border-267575365720"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/spain-deploys-military-ceuta-morocco-border-migrants/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/absolute-chaos-thousands-breach-morocco-border-with-spanish-territory-11844879#publisher=newsstand"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/thousands-of-migrants-from-morocco-enter-spanish-enclave-of-ceuta-as-locals-demand-army-restore-border-13568466"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoU0pUT3FQZi1XdXM0bXpLdG00MHlFbFFCX2djZVktZzBnNk12LUtkblhMZnlYNVAyb0xIX1NMTWtlWVhhNWdKVDYxYUdKN3dxTHBGWGo3STNOM3ZtYkwzbk5EYnhBa3lUR2VaRUZ5aE9EU3pyTnlId0tuWTVtZUU?oc=5"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/spain-deploys-military-to-ceuta-as-thousands-of-moroccan-migrants-breach-the-border/"
           }
         ]
       }
@@ -150,6 +337,114 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/white-house-blasts-spanish-government-thousands-migrants-surge-from-morocco-emergency-request-denied"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ed806ad85675",
+      "title": "Hamas Agrees to Disarm Under Trump-Backed Gaza Peace Plan",
+      "description": "Hamas has agreed to disarm under a peace plan announced by US President Donald Trump, aimed at ending the war with Israel.",
+      "lat": 31.51,
+      "lng": 34.46000000000001,
+      "severity": 2,
+      "location": "Gaza City, Gaza Strip",
+      "source": "OAN",
+      "url": "https://www.oann.com/newsroom/trump-announces-complete-disarmament-of-hamas-in-historic-gaza-agreement/",
+      "image": null,
+      "ts": 1785457520000,
+      "coverage": {
+        "left": 4,
+        "center": 6,
+        "right": 6,
+        "total": 16,
+        "buckets": {
+          "left": 0,
+          "lean_left": 4,
+          "center": 6,
+          "lean_right": 2,
+          "right": 4
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/trump-hamas-next-phase-gaza-peace-deal-disarmament/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/israel-hamas-war-gaza-board-of-peace-trump-announces-historic-deal-for-hamas-complete-disarmament-in-gaza-11846098#publisher=newsstand"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/trump-peace-deal-hamas-israel-37498742"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/7/31/hamas-agrees-to-phased-disarmament-in-gaza?traffic_source=rss"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cj03m512r4go?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/07/31/trump-hamas-disarmament-conditions.html"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/trump-touts-agreement-disarm-hamas-gaza-group-says-theres-caveat-3805929"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMzg3OVA4VmsxU0N2bktXWktRVGpRblJwMENKRWR5TjdnVnZVSFRSeG5XVjFrdUZMM0xORGdTZDZPaEN5eno1cWpudEtBM1FRcmxqY25sbVVQSDN5UEYycjRVOVVaVFhNYjNCQTRpaWFOVkpWM1NYVF9NUGNKT3FGajhvZzNPbzd2ZDQzbnNuREZSaWI3cWNJVkhua3RTMERRQWxMU0FvYTlfTFRtRHhrZXRqM0tJLTjSAbwBQVVfeXFMTy1ZMzItTkRPdlVhWnFyYW0yREJoTXRaMWxhWDc4RmNIcFZPdmpYdFNJX2VBMV84aS02NENsaTM1T1NtdXExc0lUTzg5c1lhb01lejM4TXphMmhRaVJ3d093Q0J6dUJsVTVSR3JYTGtNTkJPRmc5dTA4TWRrYWdVRmNFUTFjNDcxRVJQNlJzOTVEcjV5YnRPT3hnRXdORzN4OG82eDFPRXQxN1hBQ19sSEZsTlhHa1BzTGFjbEU?oc=5"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/07/hamas-agrees-disarm-under-trump-plan-no-word-israel"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/07/31/hamas-agrees-to-completely-disarm-in-plan-including-israeli-withdrawal/"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/643692-trump-gaza-peace-board-hamas/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/hamas-agrees-to-disarm-under-trump-backed-gaza-peace-plan"
+          },
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2234667/donald-trump-claims-peace-Hamas"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/trump-announces-complete-disarmament-of-hamas-in-historic-gaza-agreement/"
+          },
+          {
+            "n": "Daily Star World",
+            "b": "right",
+            "u": "https://www.dailystar.co.uk/news/world-news/donald-trump-claims-hamas-been-37497828"
+          },
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/news/article-16018319/Donald-Trump-disarm-hamas-gaza-israel.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
           }
         ]
       }
@@ -332,6 +627,39 @@
       }
     },
     {
+      "id": "f51b0697e7a6",
+      "title": "US Government Map of Africa Mislabels Every Country",
+      "description": "A US government map of Africa mislabeled every country during a state department presentation at a global conference.",
+      "lat": -8.78,
+      "lng": 13.23,
+      "severity": 2,
+      "location": "Luanda, Angola",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/us-news/2026/jul/30/government-map-mislabels-african-countries",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/31/d952e1f9-26ed-4eb2-b5e8-62e6ed579717_6b069d81.jpg?itok=kUZ90_Tc&v=1785445719",
+      "ts": 1785451682000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/us-news/2026/jul/30/government-map-mislabels-african-countries"
+          }
+        ]
+      }
+    },
+    {
       "id": "68d11238cc9f",
       "title": "Spain deploys 60 troops as thousands storm border from Morocco",
       "description": "Spain has deployed just 60 troops to its North African exclave of Ceuta after thousands of migrants overwhelmed security forces.",
@@ -393,44 +721,6 @@
             "n": "CBS News World",
             "b": "lean_left",
             "u": "https://www.cbsnews.com/news/european-soccer-uefa-boycott-fifa-plan-sell-stake-world-cup-investors-joshua-kushner/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f51b0697e7a6",
-      "title": "US government map of Africa mislabels every country",
-      "description": "A US government map of Africa mislabeled every country during a State Department presentation at a global conference.",
-      "lat": -8.78,
-      "lng": 13.23,
-      "severity": 3,
-      "location": "Luanda, Angola",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3362448/us-government-map-africa-gets-every-country-wrong-global-conference?utm_source=rss_feed",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/31/d952e1f9-26ed-4eb2-b5e8-62e6ed579717_6b069d81.jpg?itok=kUZ90_Tc&v=1785445719",
-      "ts": 1785445721000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/us-news/2026/jul/30/government-map-mislabels-african-countries"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/07/30/ai-generated-africa-map-blunder-overshadows-us-presentation-at-global-aids-conference/"
           }
         ]
       }
@@ -7468,181 +7758,6 @@
             "n": "Sky News World",
             "b": "center",
             "u": "https://news.sky.com/story/ebola-cases-in-dr-congo-surpass-3000-as-health-workers-go-on-strike-13567032"
-          }
-        ]
-      }
-    },
-    {
-      "id": "028c0c44c5a3",
-      "title": "Ebola outbreak in DR Congo",
-      "description": "The number of confirmed Ebola cases in the DR Congo has surpassed 3,000, with over 1,000 deaths reported.",
-      "lat": -3.28,
-      "lng": 17.21520000000001,
-      "severity": 4,
-      "location": "Kinshasa, DR Congo",
-      "source": "Sky News World",
-      "url": "https://news.sky.com/story/ebola-cases-in-dr-congo-surpass-3000-as-health-workers-go-on-strike-13567032",
-      "image": "https://e3.365dm.com/26/07/1920x1080/skynews-a-health-worker-ebola_7306854.jpg?20260726055819",
-      "ts": 1785036960000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/07/26/dr-congo-says-the-number-of-confirmed-ebola-cases-has-surpassed-3000/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "30b1f7ad4794",
-      "title": "Typhoon Noul makes landfall in southern China",
-      "description": "Typhoon Noul made landfall in southern China, with over 340,000 people evacuated.",
-      "lat": 23.92,
-      "lng": 114.49259999999998,
-      "severity": 3,
-      "location": "Guangzhou, China",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/typhoon-noul-makes-landfall-in-southern-china-updates-july-26-2026/article71268544.ece",
-      "image": "https://th-i.thgim.com/public/incoming/ysg1e9/article71268550.ece/alternates/LANDSCAPE_1200/Asia_Storm_853_2.jpg",
-      "ts": 1785031999000,
-      "coverage": {
-        "left": 2,
-        "center": 1,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/typhoon-noul-china-hong-kong-weather-storm-evacuations/"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/typhoon-noul-makes-landfall-in-southern-china-updates-july-26-2026/article71268544.ece"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/east-asia/southern-china-drenched-typhoon-noul-makes-landfall-6278561"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cc34b6de70e4",
-      "title": "Vehicle crashes into Berlin's Gay Pride parade, killing at least 1 person",
-      "description": "A vehicle has crashed into a crowd during Berlin's LGBTQ+ parade, killing at least one person and injuring several others.",
-      "lat": 53.62,
-      "lng": 15.315200000000004,
-      "severity": 4,
-      "location": "Berlin, Germany",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/berlin-lgbtq-pride-car-crash/",
-      "image": null,
-      "ts": 1785020297000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/berlin-lgbtq-pride-car-crash/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a0721cc297cf",
-      "title": "US halts strikes on Iran, sees opening for talks",
-      "description": "The US has halted its strikes on Iran, seeing an opportunity for talks amid a lull in Iranian attacks on commercial shipping in the Strait of Hormuz.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/07/us-halts-strikes-iran-sees-opening-talks-what-know",
-      "image": null,
-      "ts": 1785017821000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/07/us-halts-strikes-iran-sees-opening-talks-what-know"
-          }
-        ]
-      }
-    },
-    {
-      "id": "65a24bd93e2d",
-      "title": "Berlin pride parade canceled after attack",
-      "description": "Berlin CSD Pride parade canceled after vehicle drives into crowd, killing one and injuring 15",
-      "lat": 53.62,
-      "lng": 13.370000000000005,
-      "severity": 4,
-      "location": "Berlin, Germany",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/berlin-csd-pride-parade-canceled-after-vehicle-drives-into-crowd/a-78116146?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1785016946038,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/berlin-csd-pride-parade-canceled-after-vehicle-drives-into-crowd/a-78116146?maca=en-rss-en-all-1573-rdf"
           }
         ]
       }
