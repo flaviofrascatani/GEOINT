@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-07-31T04:03:50.730161+00:00",
+  "updated": "2026-07-31T06:51:27.956128+00:00",
   "events": [
     {
       "id": "ca88b3088b4a",
@@ -47,11 +47,11 @@
     },
     {
       "id": "5b14fc643854",
-      "title": "Thousands breach Morocco border with Spanish territory",
-      "description": "Thousands of migrants streamed into the tiny Spanish territory of Ceuta from Morocco, prompting local officials to call on Spain to declare a national emergency and send the army to restore order.",
+      "title": "Thousands of migrants surge into Spanish territory of Ceuta from Morocco",
+      "description": "Thousands of migrants have surged into the Spanish territory of Ceuta from Morocco, prompting local officials to call on Spain to declare a national emergency.",
       "lat": 36.98,
       "lng": -5.310000000000002,
-      "severity": 4,
+      "severity": 3,
       "location": "Ceuta, Spain",
       "source": "NDTV World",
       "url": "https://www.ndtv.com/world-news/absolute-chaos-thousands-breach-morocco-border-with-spanish-territory-11844879#publisher=newsstand",
@@ -59,13 +59,13 @@
       "ts": 1785461085000,
       "coverage": {
         "left": 2,
-        "center": 2,
+        "center": 0,
         "right": 1,
-        "total": 5,
+        "total": 3,
         "buckets": {
           "left": 0,
           "lean_left": 2,
-          "center": 2,
+          "center": 0,
           "lean_right": 0,
           "right": 1
         },
@@ -73,7 +73,7 @@
           {
             "n": "ABC News International",
             "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/ceuta-asks-madrid-declare-national-emergency-thousands-cross-135222179"
+            "u": "https://abcnews.com/International/wireStory/spanish-authorities-9-people-died-reach-ceuta-morocco-135240068"
           },
           {
             "n": "NDTV World",
@@ -81,19 +81,9 @@
             "u": "https://www.ndtv.com/world-news/absolute-chaos-thousands-breach-morocco-border-with-spanish-territory-11844879#publisher=newsstand"
           },
           {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/thousands-of-migrants-from-morocco-enter-spanish-enclave-of-ceuta-as-locals-demand-army-restore-border-13568466"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/07/30/ceuta-calls-for-emergency-as-thousands-of-migrants-cross/"
-          },
-          {
-            "n": "Daily Star World",
+            "n": "Fox News World",
             "b": "right",
-            "u": "https://www.dailystar.co.uk/news/world-news/breaking-spain-urged-declare-national-37496894"
+            "u": "https://www.foxnews.com/world/white-house-blasts-spanish-government-thousands-migrants-surge-from-morocco-emergency-request-denied"
           }
         ]
       }
@@ -2147,6 +2137,49 @@
       }
     },
     {
+      "id": "be6df97ec5ce",
+      "title": "Trump threatens to hit Iran ‘hard’ following missile attack on U.S. assets",
+      "description": "The US President has threatened to hit Iran hard after a missile attack on US assets.",
+      "lat": 16.89,
+      "lng": 42.63,
+      "severity": 4,
+      "location": "Jizan, Saudi Arabia",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/national-security/2026/07/28/us-says-it-shot-down-iranian-missiles-targeting-troops-middle-east/",
+      "image": "https://www.rte.ie/images/0024be61-800.jpg",
+      "ts": 1785354961000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 2,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 2
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/national-security/2026/07/28/us-says-it-shot-down-iranian-missiles-targeting-troops-middle-east/"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/trump-retaliates-after-iran-attack-expert-warns-regime-growing-more-dangerous"
+          },
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/news/article-16015265/US-launches-fresh-round-intensive-airstrikes-Iran.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+          }
+        ]
+      }
+    },
+    {
       "id": "105d40e53b96",
       "title": "5 Cops Killed, Dozens Injured In Terrorist Attack In Pakistan",
       "description": "Militants attacked a police post in northwestern Pakistan, triggering a gunbattle that killed five police officers and wounded about two dozen others.",
@@ -2616,89 +2649,6 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/07/29/dr-congo-says-militia-linked-to-rwandas-genocide-agree-to-surrender/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "be6df97ec5ce",
-      "title": "Trump threatens to hit Iran ‘hard’ following missile attack on U.S. assets",
-      "description": "The threat came after Saudi Arabia joined U.S. military strikes on Iranian proxies.",
-      "lat": 16.89,
-      "lng": 42.63,
-      "severity": 2,
-      "location": "Jizan, Saudi Arabia",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/national-security/2026/07/28/us-says-it-shot-down-iranian-missiles-targeting-troops-middle-east/",
-      "image": "https://www.rte.ie/images/0024be61-800.jpg",
-      "ts": 1785337352000,
-      "coverage": {
-        "left": 4,
-        "center": 6,
-        "right": 1,
-        "total": 11,
-        "buckets": {
-          "left": 0,
-          "lean_left": 4,
-          "center": 6,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/national-security/2026/07/28/us-says-it-shot-down-iranian-missiles-targeting-troops-middle-east/"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/middle-east/us-thwarts-iranian-missile-attack-launches-strikes-saudi-arabia-rcna589773"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/us-iran-war-live-will-beat-s-t-out-of-them-donald-trump-after-surprise-iran-attack-on-us-base-11838999#publisher=newsstand"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/7/29/trump-says-us-to-deliver-beating-to-iran-after-bases-again-targeted?traffic_source=rss"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/07/29/oil-prices-today-brent-wti-iran-us-hormuz.html"
-          },
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/07/28/iran-missile-attack-us-base-jordan"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/trump-anticipates-forceful-response-against-iran-breaking-lull-fighting-theyre-going-get-3805852"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/article-903989"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85bWFLTHpqbzJxT05STTlNTEpnZlVXeUdHZU9DeWhrQWZ2X2NYbVhtNElZS19vX3ZINncxY09jZFNVSDdrUlhVb2paVFpFSi1DZHJuOGwtalFqUkpiX0tWSGstc1J2R2k0Q1M0U1A0WQ?oc=5"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/videos/2026-07-29/trump-says-iran-will-get-hit-hard-after-attack-on-base-video"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/middle-east/2026/07/29/president-trump-following-iran-attack-on-u-s-forces-were-going-to-beat-the-fking-sht-out-of-them/"
           }
         ]
       }
