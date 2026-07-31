@@ -1,7 +1,116 @@
 {
   "schema": 1,
-  "updated": "2026-07-31T18:06:14.549615+00:00",
+  "updated": "2026-07-31T19:47:06.675958+00:00",
   "events": [
+    {
+      "id": "a985ef2abc0f",
+      "title": "South Korea and Argentina Agree to Enhance Cooperation on Critical Minerals",
+      "description": "South Korea and Argentina have agreed to enhance cooperation on critical minerals, in a bid to strengthen their economic ties.",
+      "lat": -33.5,
+      "lng": -56.4748,
+      "severity": 1,
+      "location": "Buenos Aires, Argentina",
+      "source": "Yonhap News",
+      "url": "https://en.yna.co.kr/view/AEN20260801000252315",
+      "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/01/AEN20260801000252315_03_i_P2.jpg",
+      "ts": 1785526084000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20260801000252315"
+          }
+        ]
+      }
+    },
+    {
+      "id": "797ea830b0a0",
+      "title": "US and Iran Conflict Escalates, With No End in Sight",
+      "description": "The conflict between the US and Iran continues to escalate, with both sides exchanging blows and no end to the violence in sight.",
+      "lat": 35.69,
+      "lng": 53.295199999999994,
+      "severity": 4,
+      "location": "Tehran, Iran",
+      "source": "IBTimes",
+      "url": "https://www.ibtimes.com/clashes-between-us-iran-continue-without-progress-trump-says-hes-losing-faith-tehran-3805960",
+      "image": null,
+      "ts": 1785526081000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/clashes-between-us-iran-continue-without-progress-trump-says-hes-losing-faith-tehran-3805960"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c67dfef6d665",
+      "title": "Hamas Disarmament Deal Announced, But Implementation Will Be Key",
+      "description": "A deal for Hamas to disarm in stages in return for Israeli withdrawal has been announced, but its implementation will be crucial to its success.",
+      "lat": 31.78,
+      "lng": 37.12520000000001,
+      "severity": 2,
+      "location": "Jerusalem, Israel",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-904233",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_1066,w_1600/698406",
+      "ts": 1785520533000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/31/world/middleeast/trump-gaza-hamas-deal-disarm.html"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/7/31/world-reacts-with-cautious-optimism-to-hamas-disarmament-agreement?traffic_source=rss"
+          },
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/fdlr-disarmament-congo-rwanda-washington-accords-2026/"
+          }
+        ]
+      }
+    },
     {
       "id": "bf06eede7523",
       "title": "Italy Suspends Schengen Agreement with Spain",
@@ -640,25 +749,25 @@
     },
     {
       "id": "74881c0efbf5",
-      "title": "Spain Deploys Military After 49,000 Breach Border",
-      "description": "At least 19 people have died as thousands of migrants crossed into Spain's Ceuta enclave from Morocco.",
+      "title": "Spain Deploys Military After Thousands of Migrants Overwhelm Border Enclave",
+      "description": "At least 18 people have died during the crossings, with many more injured. The Spanish government has deployed the military to the area to help control the situation.",
       "lat": 35.89,
       "lng": -5.310000000000002,
-      "severity": 4,
+      "severity": 3,
       "location": "Ceuta, Spain",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/migration-spain-ceuta_n_6a6c4d16e4b0c78215f8163c",
       "image": null,
       "ts": 1785482674000,
       "coverage": {
-        "left": 4,
-        "center": 2,
+        "left": 2,
+        "center": 1,
         "right": 1,
-        "total": 7,
+        "total": 4,
         "buckets": {
           "left": 1,
-          "lean_left": 3,
-          "center": 2,
+          "lean_left": 1,
+          "center": 1,
           "lean_right": 0,
           "right": 1
         },
@@ -669,29 +778,14 @@
             "u": "https://www.huffpost.com/entry/migration-spain-ceuta_n_6a6c4d16e4b0c78215f8163c"
           },
           {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/video/spain-deploys-military-to-ceuta-after-thousands-of-migrants-breach-the-border-267575365720"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/18-die-after-breach-border-morocco-spanish-territory-135252200"
-          },
-          {
             "n": "CBS News World",
             "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/spain-ceuta-morocco-migrants-border-crossings/"
+            "u": "https://www.cbsnews.com/news/spain-deploys-military-ceuta-morocco-border-migrants/"
           },
           {
-            "n": "BBC World",
+            "n": "Rio Times",
             "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/07/31/spain-and-morocco-reinforce-border-after-tens-of-thousands-cross-into-ceuta/"
+            "u": "https://www.riotimesonline.com/ceuta-migrant-crossing-morocco-spain-2026/"
           },
           {
             "n": "Fox News World",
@@ -7529,125 +7623,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/mid-east/israeli-settlers-vandalize-torch-2-mosques-in-occupied-west-bank"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ea819af10c8f",
-      "title": "US pauses attacks on Iran for a second day",
-      "description": "US pauses attacks on Iran for a second day as peace talks continue",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/07/26/world/middleeast/us-iran-war-pause.html",
-      "image": "https://static01.nyt.com/images/2026/07/26/multimedia/26int-Iran-War-gpvc/26int-Iran-War-gpvc-mediumSquareAt3X.jpg",
-      "ts": 1785070155000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/07/26/world/middleeast/us-iran-war-pause.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "495387ed2017",
-      "title": "U.S.-Iran War Pauses for 2nd Straight Day",
-      "description": "President Trump put off plans to escalate the fighting in part because of dwindling stockpiles of interceptor missiles, American officials said.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/07/26/world/middleeast/us-iran-war-pause.html",
-      "image": "https://static01.nyt.com/images/2026/07/26/multimedia/26int-Iran-War-gpvc/26int-Iran-War-gpvc-mediumSquareAt3X.jpg",
-      "ts": 1785070155000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/07/26/world/middleeast/us-iran-war-pause.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "21ed693751cc",
-      "title": "Typhoon Noul hits southern China",
-      "description": "Typhoon Noul has made landfall in southern China, bringing gale-force winds and heavy rain to the region.",
-      "lat": 24.23,
-      "lng": 113.26999999999998,
-      "severity": 4,
-      "location": "Guangzhou, China",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/typhoon-noul-makes-landfall-in-southern-china-updates-july-26-2026/article71268544.ece",
-      "image": "https://s.abcnews.com/images/International/wirestory_05f860066a9a75595c5bcc4df8356337_4x3_384.jpg",
-      "ts": 1785069239000,
-      "coverage": {
-        "left": 3,
-        "center": 2,
-        "right": 0,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/typhoon-noul-weakens-after-making-landfall-brings-heavy-135094999"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/typhoon-noul-china-hong-kong-weather-storm-evacuations/"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/typhoon-noul-makes-landfall-in-southern-china-updates-july-26-2026/article71268544.ece"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/east-asia/southern-china-typhoon-noul-torrential-rain-flood-6278926"
-          },
-          {
-            "n": "Times of India World",
-            "b": "center",
-            "u": "https://timesofindia.indiatimes.com/world/china/baby-crib-sent-flying-800000-flee-typhoon-noul-hits-china-scary-visuals-emerge/articleshow/132639611.cms"
           }
         ]
       }
