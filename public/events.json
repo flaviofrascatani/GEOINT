@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-07-31T06:51:27.956128+00:00",
+  "updated": "2026-07-31T09:50:28.799485+00:00",
   "events": [
+    {
+      "id": "c56988d5f433",
+      "title": "Ukraine strikes Lukoil's Volgograd oil refinery",
+      "description": "Ukraine has struck one of Russia's largest oil refineries, threatening to disrupt fuel supplies again as strikes on the country's energy infrastructure resumed.",
+      "lat": 48.72,
+      "lng": 39.29,
+      "severity": 4,
+      "location": "Volgograd, Russia",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/ukraine-says-it-attacked-lukoil-s-volgograd-oil-refinery",
+      "image": null,
+      "ts": 1785487034000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-07-31/ukraine-says-it-attacked-lukoil-s-volgograd-oil-refinery"
+          }
+        ]
+      }
+    },
+    {
+      "id": "27654ed0546c",
+      "title": "FIFA rocked as AFC sides with UEFA & senior adviser quits",
+      "description": "The Asian Football Confederation has expressed deep concern about the proposed establishment of a US$20 billion commercial subsidiary to run the World Cup and FIFA's other events.",
+      "lat": 39.42,
+      "lng": 128.0226,
+      "severity": 2,
+      "location": "Seoul, South Korea",
+      "source": "RTE News",
+      "url": "https://www.rte.ie/sport/soccer/2026/0731/1585915-fifa-uefa/",
+      "image": "https://www.rte.ie/images/0024c849-800.jpg",
+      "ts": 1785471662000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/sport/fifa-investment-plan-asian-football-confederation-opposition-uefa-concacaf-6290796"
+          }
+        ]
+      }
+    },
     {
       "id": "ca88b3088b4a",
       "title": "Spain deploys military after thousands of migrants overwhelm border enclave",
@@ -711,29 +777,34 @@
     },
     {
       "id": "7c6a4b6e15f1",
-      "title": "US Sanctions Iranian Airline",
+      "title": "US issues sanctions targeting support networks for Iran's Mahan Air",
       "description": "The US has issued sanctions targeting support networks for Iran's Mahan Air.",
       "lat": 33.52,
       "lng": 54.96520000000001,
-      "severity": 2,
+      "severity": 3,
       "location": "Tehran, Iran",
       "source": "GNews Geopolitics",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYWwwbkpQREZyMHd4cWZMcVdqOXZJZEpWMGpJeFRWcE1CVG53TElTMWdOa1pPSmVvelZXVUVJdkVvSWl2YU5vb1poSVFtR29vdmxtQnE5WW4zZ2Jvck5lSnM0Ykg5Z0dqU2xKa3l3ZVM0QjA2X0w2djluS1o4WUsxZU53bkp5YzY2MFRld3EtajFPS0NUemVuMTJfRGh2bU1VZk5HcjZ5NERoSjhab1RVRDZPZkIyRGs?oc=5",
       "image": null,
       "ts": 1785433604000,
       "coverage": {
-        "left": 0,
+        "left": 1,
         "center": 1,
         "right": 0,
-        "total": 1,
+        "total": 2,
         "buckets": {
           "left": 0,
-          "lean_left": 0,
+          "lean_left": 1,
           "center": 1,
           "lean_right": 0,
           "right": 0
         },
         "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/india-based-sales-agent-of-irans-mahan-air-among-entities-facing-us-sanctions/article71288871.ece"
+          },
           {
             "n": "GNews Geopolitics",
             "b": "center",
@@ -1142,11 +1213,11 @@
     },
     {
       "id": "292bd59dd078",
-      "title": "Iran vows to punish the aggressor today",
-      "description": "Iran vowed to punish the United States on Thursday after the American military said it had completed a heavy wave of strikes overnight, the latest retaliation for an attack by Tehran on U.S. forces.",
+      "title": "Iran vows to punish aggressor after US strikes",
+      "description": "Iran has vowed to punish the aggressor after the US unleashed a heavy wave of strikes, with Egypt confirming that a drone hit two natural gas vessels at one of its ports.",
       "lat": 36.79,
       "lng": 53.295199999999994,
-      "severity": 2,
+      "severity": 4,
       "location": "Tehran, Iran",
       "source": "NBC News World",
       "url": "https://www.nbcnews.com/world/iran/us-heavy-wave-strikes-iran-war-attack-trump-saudi-egypt-drone-oil-rcna589967",
@@ -1155,36 +1226,64 @@
       "coverage": {
         "left": 1,
         "center": 0,
-        "right": 1,
-        "total": 2,
+        "right": 0,
+        "total": 1,
         "buckets": {
           "left": 0,
           "lean_left": 1,
           "center": 0,
           "lean_right": 0,
-          "right": 1
+          "right": 0
         },
         "sources": [
           {
             "n": "NBC News World",
             "b": "lean_left",
             "u": "https://www.nbcnews.com/world/iran/us-heavy-wave-strikes-iran-war-attack-trump-saudi-egypt-drone-oil-rcna589967"
-          },
+          }
+        ]
+      }
+    },
+    {
+      "id": "6c432010d1a6",
+      "title": "Bank of England keeps key rate at 3.75% for the fifth time this year",
+      "description": "The Bank of England has kept its key interest rate on hold for the fifth time this year after a bigger-than-expected drop in the inflation rate last month gave policymakers breathing space to assess the future of the economy.",
+      "lat": 51.51,
+      "lng": 1.8251999999999953,
+      "severity": 2,
+      "location": "London, United Kingdom",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/bank-england-key-rate-375-time-year-135219562",
+      "image": "https://s.abcnews.com/images/International/wirestory_4c1858032eb701ae776d286db674d994_4x3_384.jpg",
+      "ts": 1785415805000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
           {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/newsroom/u-s-strikes-iran-with-heavy-wave-after-trump-vowed-retaliation-for-attempted-attack-on-u-s-forces/"
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/bank-england-key-rate-375-time-year-135219562"
           }
         ]
       }
     },
     {
       "id": "51c44bfb4bdf",
-      "title": "Malaysia begins screening 5,000 refugees for their planned return to Myanmar",
+      "title": "Malaysia begins screening refugees for return to Myanmar",
       "description": "Malaysia has started documenting and screening detained Myanmar nationals as part of a repatriation program.",
       "lat": 3.14,
       "lng": 101.71,
-      "severity": 1,
+      "severity": 2,
       "location": "Kuala Lumpur, Malaysia",
       "source": "ABC News International",
       "url": "https://abcnews.com/International/wireStory/malaysia-begins-screening-5000-refugees-planned-return-myanmar-135220818",
@@ -7544,135 +7643,6 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/berlin-csd-pride-parade-canceled-after-vehicle-drives-into-crowd/a-78116146?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8da14001d00a",
-      "title": "India's education minister resigns after student protests",
-      "description": "India's Education Minister has resigned after weeks of student-led protests over allegations of failing to prevent leaks of medical school entrance exams.",
-      "lat": 27.6574,
-      "lng": 78.88,
-      "severity": 3,
-      "location": "New Delhi, India",
-      "source": "Washington Examiner",
-      "url": "https://www.washingtonexaminer.com/news/world/4663625/india-education-minister-resign-protests/",
-      "image": null,
-      "ts": 1785015472000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/indias-education-minister-resigns-after-weeks-student-led-135077325"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/07/25/india-education-minister-announces-resignation-after-countrywide-protests_6755822_4.html"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/world/4663625/india-education-minister-resign-protests/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "14148a2c1818",
-      "title": "Thousands of people flee raging wildfires in France and Spain",
-      "description": "Wildfires in France and Spain forced the evacuation of over 260,000 people.",
-      "lat": 43.61,
-      "lng": 1.4399999999999977,
-      "severity": 4,
-      "location": "Toulouse, France",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/wildfires-france-spain-madrid-bordeaux-evacuations-europe/",
-      "image": "https://www.rte.ie/images/0024c0f3-800.jpg",
-      "ts": 1785012536000,
-      "coverage": {
-        "left": 2,
-        "center": 2,
-        "right": 1,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 2,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/live/2026/07/25/world/france-spain-wildfires-evacuations"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/wildfires-france-spain-madrid-bordeaux-evacuations-europe/"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/europe/2026/0725/1585038-wildfires-france-spain/"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUTNJekJCcW5qQXRmMDVfUW5iT0R3RFk1Vmg2RlQxdF9yQXptOUxrZkpYRWJjVTVoWkZRUWJPWHE4NWJGYzgxMkRZU1dPYnNpREloMENHR3piSmlUN1RpOHN1T2hYMEFibG9iMy1Va1ZiVllmM2Z1bGd5OWZpTVBDUkRoellWUTVW?oc=5"
-          },
-          {
-            "n": "New York Post",
-            "b": "lean_right",
-            "u": "https://nypost.com/2026/07/25/world-news/over-250000-people-forced-to-flee-homes-as-france-and-spain-battle-raging-wildfires/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "80c36ec905f3",
-      "title": "Morocco football boss enters politics",
-      "description": "Morocco’s football czar joined one of the kingdom’s biggest political parties, edging closer to a possible bid for the role of prime minister",
-      "lat": 33.59,
-      "lng": -7.62,
-      "severity": 1,
-      "location": "Rabat, Morocco",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-25/morocco-football-boss-enters-politics-with-premier-bid-possible",
-      "image": null,
-      "ts": 1785011686000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-07-25/morocco-football-boss-enters-politics-with-premier-bid-possible"
           }
         ]
       }
