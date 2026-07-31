@@ -1,7 +1,55 @@
 {
   "schema": 1,
-  "updated": "2026-07-31T22:35:08.706640+00:00",
+  "updated": "2026-07-31T23:36:22.425193+00:00",
   "events": [
+    {
+      "id": "46321b219d80",
+      "title": "Trump doubles down on Iran threat",
+      "description": "US President Donald Trump has reiterated his threat to hit Iran 'very hard', raising the possibility of new strikes.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/3350e4d1-1568-494d-8567-0363d6ef427b?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1785540034000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/middle-east/us-thwarts-iranian-missile-attack-launches-strikes-saudi-arabia-rcna589773"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-kuwait-jordan-air-base/"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/3350e4d1-1568-494d-8567-0363d6ef427b?syn-25a6b1a6=1"
+          },
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2235027/donald-trump-launch-new-strike"
+          }
+        ]
+      }
+    },
     {
       "id": "cb39af2df6ed",
       "title": "China launches satellite for Algeria",
@@ -201,6 +249,39 @@
       }
     },
     {
+      "id": "763db4411da6",
+      "title": "Morocco's King Mohammed VI marks 27th anniversary",
+      "description": "Morocco's King Mohammed VI has marked the 27th anniversary of his accession to the throne, receiving congratulatory messages from world leaders.",
+      "lat": 33.99,
+      "lng": -6.85,
+      "severity": 1,
+      "location": "Rabat, Morocco",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/07/31/moroccos-king-mohammed-vi-marks-27th-anniversary-of-accession-to-throne/",
+      "image": "http://images.euronews.com/articles/stories/09/85/82/54/640x360_cmsv2_0bbd6262-afdf-50fb-baef-c791db525d69-9858254.jpg?1785517093",
+      "ts": 1785527434000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/07/31/moroccos-king-mohammed-vi-marks-27th-anniversary-of-accession-to-throne/"
+          }
+        ]
+      }
+    },
+    {
       "id": "a985ef2abc0f",
       "title": "South Korea and Argentina Agree to Enhance Cooperation on Critical Minerals",
       "description": "South Korea and Argentina have agreed to enhance cooperation on critical minerals, in a bid to strengthen their economic ties.",
@@ -262,6 +343,39 @@
             "n": "IBTimes",
             "b": "center",
             "u": "https://www.ibtimes.com/clashes-between-us-iran-continue-without-progress-trump-says-hes-losing-faith-tehran-3805960"
+          }
+        ]
+      }
+    },
+    {
+      "id": "54126fac7658",
+      "title": "India-Bangladesh-US diplomatic meeting",
+      "description": "India's High Commissioner to Bangladesh met with the US Ambassador to India in Dhaka, marking a first for such a meeting in a foreign location.",
+      "lat": 24.91,
+      "lng": 90.42000000000002,
+      "severity": 2,
+      "location": "Dhaka, Bangladesh",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/national/in-a-first-indias-high-commissioner-to-bangladesh-meets-us-ambassador-to-india-in-dhaka/article71291620.ece",
+      "image": "https://th-i.thgim.com/public/incoming/bm35vj/article71292068.ece/alternates/LANDSCAPE_1200/HLqjHbFXUAAKpFO.jpg",
+      "ts": 1785520697000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/national/in-a-first-indias-high-commissioner-to-bangladesh-meets-us-ambassador-to-india-in-dhaka/article71291620.ece"
           }
         ]
       }
@@ -7359,120 +7473,6 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/emergencies/2165737"
-          }
-        ]
-      }
-    },
-    {
-      "id": "243b8d58c4c0",
-      "title": "Burnham: 'Pronto a contrastare Trump se necessario'. E oggi incontra Zelensky",
-      "description": "Il premier britannico Andy Burnham ospiterà oggi - lunedì 27 luglio - il presidente ucraino Volodymyr Zelensky per sottolineare il 'sostegno incrollabile' di Londra a Kiev.",
-      "lat": 51.95,
-      "lng": -1.3899999999999864,
-      "severity": 1,
-      "location": "Portsmouth, UK",
-      "source": "AGI Estero",
-      "url": "https://www.agi.it/estero/news/2026-07-26/burnham-tre-misure-fiscali-popolari-38236519/",
-      "image": "https://images.agi.it/pictures/agi/agi/2026/07/26/052035872-428554f7-c395-47cd-8039-46d95e4d453e.jpg",
-      "ts": 1785103463000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-07-26/burnham-tre-misure-fiscali-popolari-38236519/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "03d7c2aac4e1",
-      "title": "Andy Burnham to meet Volodymyr Zelensky as Ukraine President becomes first world leader to visit PM in UK",
-      "description": "Volodymyr Zelensky and Andy Burnham are going to meet on a British naval base on Monday - as Britain shares vital know-how on how to make state-of-the-art Stone Cloak jammers to prevent Russia tracking.",
-      "lat": 50.85,
-      "lng": -1.39,
-      "severity": 1,
-      "location": "Portsmouth, UK",
-      "source": "Mirror World",
-      "url": "https://www.mirror.co.uk/news/politics/zelensky-andy-burnham-ukraine-drones-37478475",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article36936854.ece/ALTERNATES/s615/1_Sunday-with-Laura-Kuenssberg.jpg",
-      "ts": 1785101404000,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/politics/zelensky-andy-burnham-ukraine-drones-37478475"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cy8me5vyjg2o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/07/26/trump-zelensky-white-house-maga-ukraine"
-          },
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-07-26/burnham-tre-misure-fiscali-popolari-38236519/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "949d75cfbdb4",
-      "title": "Israel to allow international force into Gaza",
-      "description": "Israel will allow an international force into Gaza, according to an official",
-      "lat": 32.4526,
-      "lng": 36.099999999999994,
-      "severity": 2,
-      "location": "Gaza",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/world/israel-allow-international-force-gaza-official-6279381",
-      "image": null,
-      "ts": 1785094379000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/world/israel-allow-international-force-gaza-official-6279381"
           }
         ]
       }
