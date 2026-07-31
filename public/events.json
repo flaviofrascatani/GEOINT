@@ -1,7 +1,116 @@
 {
   "schema": 1,
-  "updated": "2026-07-30T22:39:18.043556+00:00",
+  "updated": "2026-07-31T00:11:50.620146+00:00",
   "events": [
+    {
+      "id": "cb39af2df6ed",
+      "title": "China Launches Satellite for Algeria",
+      "description": "A Chinese-made communications satellite has been launched for Algeria, marking the first export of such a spacecraft to an Arab country.",
+      "lat": 36.77,
+      "lng": 3.06,
+      "severity": 2,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1785456710458,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "040957e98b49",
+      "title": "Hamas to Disarm",
+      "description": "US President Donald Trump announced a historic agreement for the complete disarmament of Hamas, calling it a critical step toward a new Palestinian government in Gaza.",
+      "lat": 31.5,
+      "lng": 34.44999999999999,
+      "severity": 1,
+      "location": "Gaza, Palestine",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/trump-announces-hamas-to-disarm-paving-way-for-israel-to-withdraw-from-gaza?traffic_source=rss",
+      "image": null,
+      "ts": 1785455500000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/us/2026/0731/1585908-trump-gaza-deal/"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/07/trump-announces-areement-disarmament-hamas"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/643692-trump-gaza-peace-board-hamas/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3fdf354c721c",
+      "title": "Nauru Reclaims Traditional Name",
+      "description": "The Pacific island nation of Nauru has officially changed its name to the Republic of Naoero, reverting to its traditional designation.",
+      "lat": -0.53,
+      "lng": 166.93,
+      "severity": 1,
+      "location": "Naoero",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/tiny-pacific-island-nation-nauru-reclaims-traditional-name-naoero",
+      "image": null,
+      "ts": 1785455488000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/tiny-pacific-island-nation-nauru-reclaims-traditional-name-naoero"
+          }
+        ]
+      }
+    },
     {
       "id": "68d11238cc9f",
       "title": "Spain deploys 60 troops as thousands storm border from Morocco",
@@ -245,11 +354,11 @@
     },
     {
       "id": "65d6c52ae77b",
-      "title": "Liberian authorities burn $336 million in cocaine",
-      "description": "Liberian law enforcement agents have burned some 4.2 metric tons of cocaine worth about $336 million.",
+      "title": "Liberia Burns Cocaine Worth $336 Million",
+      "description": "Liberian law enforcement agents have burned 4.2 metric tons of cocaine worth about $336 million, as senior police officials are implicated in the scandal.",
       "lat": 6.31,
       "lng": -10.79,
-      "severity": 1,
+      "severity": 2,
       "location": "Monrovia, Liberia",
       "source": "ABC News International",
       "url": "https://abcnews.com/International/wireStory/liberian-authorities-burn-336-million-cocaine-senior-police-135239745",
@@ -315,6 +424,39 @@
       }
     },
     {
+      "id": "18372f1565b6",
+      "title": "Migrant Surge in Ceuta",
+      "description": "Thousands of migrants have surged into Ceuta, a Spanish enclave in Morocco, prompting the Spanish government to deploy its military to the border.",
+      "lat": 35.88,
+      "lng": -5.310000000000002,
+      "severity": 3,
+      "location": "Ceuta, Spain",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/white-house-blasts-spanish-government-thousands-migrants-surge-from-morocco-emergency-request-denied",
+      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/07/spain-migration.gif",
+      "ts": 1785435545000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/thousands-of-migrants-from-morocco-enter-spanish-enclave-of-ceuta-as-locals-demand-army-restore-border-13568466"
+          }
+        ]
+      }
+    },
+    {
       "id": "6014456a21a9",
       "title": "Cuba opens pharmacies, gas stations to private firms",
       "description": "The move is part of Cuba's efforts to liberalize its economy and attract foreign investment.",
@@ -349,14 +491,14 @@
     },
     {
       "id": "7c6a4b6e15f1",
-      "title": "US issues sanctions targeting support networks for Iran's Mahan Air",
-      "description": "The United States issued new sanctions targeting global networks supporting Mahan Air, the Iranian carrier Washington says transports Iran's Revolutionary Guard.",
+      "title": "US Sanctions Iranian Airline",
+      "description": "The US has issued sanctions targeting support networks for Iran's Mahan Air.",
       "lat": 33.52,
       "lng": 54.96520000000001,
-      "severity": 3,
+      "severity": 2,
       "location": "Tehran, Iran",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/07/us-issues-sanctions-targeting-support-networks-irans-mahan-air",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYWwwbkpQREZyMHd4cWZMcVdqOXZJZEpWMGpJeFRWcE1CVG53TElTMWdOa1pPSmVvelZXVUVJdkVvSWl2YU5vb1poSVFtR29vdmxtQnE5WW4zZ2Jvck5lSnM0Ykg5Z0dqU2xKa3l3ZVM0QjA2X0w2djluS1o4WUsxZU53bkp5YzY2MFRld3EtajFPS0NUemVuMTJfRGh2bU1VZk5HcjZ5NERoSjhab1RVRDZPZkIyRGs?oc=5",
       "image": null,
       "ts": 1785433604000,
       "coverage": {
@@ -373,9 +515,9 @@
         },
         "sources": [
           {
-            "n": "Al-Monitor",
+            "n": "GNews Geopolitics",
             "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/07/us-issues-sanctions-targeting-support-networks-irans-mahan-air"
+            "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYWwwbkpQREZyMHd4cWZMcVdqOXZJZEpWMGpJeFRWcE1CVG53TElTMWdOa1pPSmVvelZXVUVJdkVvSWl2YU5vb1poSVFtR29vdmxtQnE5WW4zZ2Jvck5lSnM0Ykg5Z0dqU2xKa3l3ZVM0QjA2X0w2djluS1o4WUsxZU53bkp5YzY2MFRld3EtajFPS0NUemVuMTJfRGh2bU1VZk5HcjZ5NERoSjhab1RVRDZPZkIyRGs?oc=5"
           }
         ]
       }
@@ -3112,39 +3254,6 @@
             "n": "Washington Examiner",
             "b": "right",
             "u": "https://www.washingtonexaminer.com/news/world/4666347/iran-struck-14-middle-eastern-nations-where-things-stand-ally-or-neutral-military/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cb39af2df6ed",
-      "title": "China and Algeria launch communications satellite",
-      "description": "A Chinese-made communications satellite was launched for Algeria, marking the first export of such a spacecraft to an Arab country.",
-      "lat": 36.77,
-      "lng": 3.06,
-      "severity": 1,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1785278196297,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
           }
         ]
       }
@@ -7584,120 +7693,6 @@
             "n": "Axios",
             "b": "center",
             "u": "https://www.axios.com/2026/07/25/trump-iran-war-military-directive-strikes"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f6d7506ecde7",
-      "title": "New US sanctions target billionaire Iranian financier Babak Zanjani",
-      "description": "The US imposed new sanctions on billionaire Iranian financier Babak Zanjani.",
-      "lat": 35.69,
-      "lng": 53.295199999999994,
-      "severity": 3,
-      "location": "Tehran, Iran",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdENFLUN1cko1X1ptWEhmOVFPaW9GeWd5ZHZFSUZ4NDc5clprUkRxc3ByMWwzTTNiV3NzQkJCUEJXbnVJcE02MWRUWjRyNFJIeFg5X3ozQTU5ZmRKTTdoTHJVbVR4bkgydU1BcHYySFpDZ1Uwb09ZWEl3ZjJTREtxbHF2V2JlS0doYm1mZWswbW9Dbmh6TXU00gGcAUFVX3lxTFBhZGpLdUtRSEJlQWRwdnRySlUwWFBKWXczMUtGckFPeHByV21XUjhsTDlJcmlTMTNiZm90QjdMNExjV1FWU0s2MUgwVFp5RWYwdzBrVzdvWXFlUGEtTkZaZkF4anU1M25ReV9LbEFhcDJQVUgwWXlBQUNBeEhfOXE2akFtZWZBZ19KZGhmYmRycE14X1NIZWpEelF0ZA?oc=5",
-      "image": null,
-      "ts": 1785000420000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/policy/international/5990297-us-sanctions-babak-zanjani-businesses-iran/"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdENFLUN1cko1X1ptWEhmOVFPaW9GeWd5ZHZFSUZ4NDc5clprUkRxc3ByMWwzTTNiV3NzQkJCUEJXbnVJcE02MWRUWjRyNFJIeFg5X3ozQTU5ZmRKTTdoTHJVbVR4bkgydU1BcHYySFpDZ1Uwb09ZWEl3ZjJTREtxbHF2V2JlS0doYm1mZWswbW9Dbmh6TXU00gGcAUFVX3lxTFBhZGpLdUtRSEJlQWRwdnRySlUwWFBKWXczMUtGckFPeHByV21XUjhsTDlJcmlTMTNiZm90QjdMNExjV1FWU0s2MUgwVFp5RWYwdzBrVzdvWXFlUGEtTkZaZkF4anU1M25ReV9LbEFhcDJQVUgwWXlBQUNBeEhfOXE2akFtZWZBZ19KZGhmYmRycE14X1NIZWpEelF0ZA?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b12c01ac56fa",
-      "title": "India’s Education Minister Steps Down in Victory for Cockroach Party Protesters",
-      "description": "The Cockroach Janta Party called an end to weeks of protests after the education minister resigned, a win for that movement even as deep-seated anger among young people remains.",
-      "lat": 28.7,
-      "lng": 77.10000000000002,
-      "severity": 2,
-      "location": "New Delhi, India",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/07/25/world/asia/india-education-minister-resigns-cockroach-protests.html",
-      "image": "https://static01.nyt.com/images/2026/07/25/multimedia/25int-india-minister-btlh/25int-india-minister-btlh-mediumSquareAt3X.jpg",
-      "ts": 1784999261000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/07/25/world/asia/india-education-minister-resigns-cockroach-protests.html"
-          },
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/07/25/cockroach-movement-forces-out-india-education-minister/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e49f26edeea4",
-      "title": "India's Education Minister steps down",
-      "description": "India's Education Minister has stepped down in a victory for the 'Cockroach Party' protesters, who had been demonstrating against the government's education policies.",
-      "lat": 28.7,
-      "lng": 77.10000000000002,
-      "severity": 1,
-      "location": "New Delhi, India",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/07/25/world/asia/india-education-minister-resigns-cockroach-protests.html",
-      "image": "https://static01.nyt.com/images/2026/07/25/multimedia/25int-india-minister-btlh/25int-india-minister-btlh-mediumSquareAt3X.jpg",
-      "ts": 1784999261000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/07/25/world/asia/india-education-minister-resigns-cockroach-protests.html"
-          },
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/07/25/cockroach-movement-forces-out-india-education-minister/"
           }
         ]
       }
