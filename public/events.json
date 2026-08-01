@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-08-01T12:07:48.742999+00:00",
+  "updated": "2026-08-01T13:48:28.577153+00:00",
   "events": [
+    {
+      "id": "c811c741a230",
+      "title": "Israel Election Puts Netanyahu Under Pressure",
+      "description": "The upcoming Israel election has put Prime Minister Benjamin Netanyahu under pressure, with challenger Gadi Eisenkot gaining support.",
+      "lat": 31.78,
+      "lng": 35.22,
+      "severity": 2,
+      "location": "Jerusalem, Israel",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-01/israel-election-puts-netanyahu-under-pressure-video",
+      "image": null,
+      "ts": 1785590385000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/videos/2026-08-01/israel-election-puts-netanyahu-under-pressure-video"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bbedded0c7b4",
+      "title": "Spanish PM calls for urgent EU meeting after ‘selfish’ responses to Ceuta crisis",
+      "description": "Spanish PM Pedro Sánchez has called for an urgent EU meeting after criticizing some EU countries for their ‘selfish’ responses to the Ceuta migrant crisis.",
+      "lat": 40.42,
+      "lng": -3.7,
+      "severity": 3,
+      "location": "Madrid, Spain",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing",
+      "image": null,
+      "ts": 1785587704000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing"
+          }
+        ]
+      }
+    },
     {
       "id": "97a8fae89ef3",
       "title": "Iran warns neighbors against being US 'defensive shield'",
@@ -7452,72 +7518,6 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-07-27/albania-s-parliament-approves-302-million-us-defense-loan"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2187d8f79dda",
-      "title": "China opposes US 'forced labour' tariffs",
-      "description": "China has opposed US 'forced labour' tariffs, calling for them to be cancelled.",
-      "lat": 39.91,
-      "lng": 118.29520000000002,
-      "severity": 2,
-      "location": "Beijing, China",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/china-opposes-us-forced-labour-tariffs-calls-for-them-to-cancelled/article71273031.ece",
-      "image": "https://th-i.thgim.com/public/incoming/wuwfw2/article71273158.ece/alternates/LANDSCAPE_1200/iStock-515912196.jpg",
-      "ts": 1785160185000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/china-opposes-us-forced-labour-tariffs-calls-for-them-to-cancelled/article71273031.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "93fc4dd43ec6",
-      "title": "Zelenskyy arrives in UK for talks with new Prime Minister Andy Burnham",
-      "description": "Ukrainian President Volodymyr Zelenskyy has arrived in the UK for talks with new Prime Minister Andy Burnham.",
-      "lat": 51.5,
-      "lng": -0.13,
-      "severity": 2,
-      "location": "London, UK",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-27/zelenskyy-arrives-in-uk-for-burnham-talks-before-visit-to-trump",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article36936854.ece/ALTERNATES/s615/1_Sunday-with-Laura-Kuenssberg.jpg",
-      "ts": 1785154297000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-07-27/zelenskyy-arrives-in-uk-for-burnham-talks-before-visit-to-trump"
           }
         ]
       }
