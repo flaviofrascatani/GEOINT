@@ -1,7 +1,83 @@
 {
   "schema": 1,
-  "updated": "2026-07-31T23:36:22.425193+00:00",
+  "updated": "2026-08-01T01:09:13.898982+00:00",
   "events": [
+    {
+      "id": "cb39af2df6ed",
+      "title": "China Launches Satellite for Algeria",
+      "description": "A Chinese-made communications satellite was launched for Algeria, the first such export to an Arab country.",
+      "lat": 36.77,
+      "lng": 3.06,
+      "severity": 2,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1785546553736,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ca6cf5928af2",
+      "title": "FIFA Scraps Private Investment Plan",
+      "description": "FIFA has dropped its plan to sell a stake in the World Cup to private investors after opposition from football officials.",
+      "lat": 47.32,
+      "lng": 8.045199999999994,
+      "severity": 2,
+      "location": "Zurich, Switzerland",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/sport/fifa-scraps-private-investment-plan-after-backlash-infantino-6292276",
+      "image": null,
+      "ts": 1785545213000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/sports/2026/7/31/fifa-forced-to-scrap-world-cup-private-investment-plan-after-backlash?traffic_source=rss"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/sport/fifa-scraps-private-investment-plan-after-backlash-infantino-6292276"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/sports/2167879"
+          }
+        ]
+      }
+    },
     {
       "id": "46321b219d80",
       "title": "Trump doubles down on Iran threat",
@@ -46,39 +122,6 @@
             "n": "Daily Express World",
             "b": "right",
             "u": "https://www.express.co.uk/news/world/2235027/donald-trump-launch-new-strike"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cb39af2df6ed",
-      "title": "China launches satellite for Algeria",
-      "description": "A Chinese-made communications satellite has been launched for Algeria, the first such export to an Arab country.",
-      "lat": 36.77,
-      "lng": 3.06,
-      "severity": 1,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1785537308565,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
           }
         ]
       }
@@ -586,6 +629,39 @@
       }
     },
     {
+      "id": "89b927a7a9c3",
+      "title": "Hungary Shuts Down Paks Nuclear Plant Due to Low Water Levels",
+      "description": "Hungary's only nuclear power plant is shutting down for the first time due to record-low water levels on the Danube River.",
+      "lat": 46.57,
+      "lng": 18.85,
+      "severity": 3,
+      "location": "Paks, Hungary",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/hungary-braces-full-shutdown-paks-nuclear-plant-danube-135263354",
+      "image": "https://s.abcnews.com/images/International/wirestory_aebc3b54c9c5987e99c489b4652c91fe_4x3_384.jpg",
+      "ts": 1785516221000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/hungary-braces-full-shutdown-paks-nuclear-plant-danube-135263354"
+          }
+        ]
+      }
+    },
+    {
       "id": "aa9649c089c1",
       "title": "Kuwait Destroys Iranian Drones Targeting Vital Facilities",
       "description": "Kuwaiti forces have destroyed Iranian drones targeting vital and military facilities in the country.",
@@ -739,11 +815,11 @@
     },
     {
       "id": "0d4e984b58b4",
-      "title": "Cyberattacks target US water systems",
-      "description": "Hackers have targeted municipal water systems in at least seven US states, prompting warnings from the FBI and EPA.",
+      "title": "Hackers Target Municipal Water Systems in 7 US States",
+      "description": "Cyberattacks targeting municipal water systems have been reported in at least seven states, prompting the FBI and EPA to issue a warning.",
       "lat": 38.9,
       "lng": -77.02,
-      "severity": 4,
+      "severity": 3,
       "location": "Washington D.C., USA",
       "source": "NBC News World",
       "url": "https://www.nbcnews.com/tech/security/hackers-targeted-municipal-water-systems-7-states-week-fbi-says-rcna590210",
@@ -751,13 +827,13 @@
       "ts": 1785506074000,
       "coverage": {
         "left": 1,
-        "center": 0,
+        "center": 1,
         "right": 0,
-        "total": 1,
+        "total": 2,
         "buckets": {
           "left": 0,
           "lean_left": 1,
-          "center": 0,
+          "center": 1,
           "lean_right": 0,
           "right": 0
         },
@@ -766,6 +842,74 @@
             "n": "NBC News World",
             "b": "lean_left",
             "u": "https://www.nbcnews.com/tech/security/hackers-targeted-municipal-water-systems-7-states-week-fbi-says-rcna590210"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/leaked-memo-links-iran-minnesota-water-utility-cyberattacks-dozens-systems-were-targeted-3805954"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0ae7f66cb0b1",
+      "title": "Hamas Agrees to Disarm, Israel to Leave Gaza",
+      "description": "US President Donald Trump announced a deal for Hamas to disarm and Israel to withdraw its forces from Gaza.",
+      "lat": 31.51,
+      "lng": 34.46000000000001,
+      "severity": 1,
+      "location": "Gaza, Palestine",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/read-full-text-deal-hamas-disarm-israel-leave-135256751",
+      "image": null,
+      "ts": 1785504897000,
+      "coverage": {
+        "left": 4,
+        "center": 1,
+        "right": 2,
+        "total": 7,
+        "buckets": {
+          "left": 0,
+          "lean_left": 4,
+          "center": 1,
+          "lean_right": 1,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/07/31/world/middleeast/trump-gaza-hamas-deal-disarm.html"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/read-full-text-deal-hamas-disarm-israel-leave-135256751"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/trump-peace-deal-hamas-israel-37498742"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/1/israel-launches-attacks-across-gaza-one-day-after-hamas-agrees-to-disarm?traffic_source=rss"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/analysis-and-comment/2026/0731/1586051-hamas-disarmament-gaza/"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/643725-israel-strikes-gaza-trump/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          },
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/news/article-16018319/Donald-Trump-disarm-hamas-gaza-israel.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
           }
         ]
       }
@@ -898,49 +1042,6 @@
             "n": "Mirror World",
             "b": "lean_left",
             "u": "https://www.mirror.co.uk/news/poland-scrambles-fighter-jet-nato-37500006"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0ae7f66cb0b1",
-      "title": "Hamas Agrees to Disarm: What Are the Challenges Ahead?",
-      "description": "Hamas said on Friday it agreed to a deal to end the war with Israel that included provisions addressing its weapons and the gradual withdrawal of Israeli forces from the Gaza Strip.",
-      "lat": 31.51,
-      "lng": 34.46000000000001,
-      "severity": 2,
-      "location": "Gaza, Palestine",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/07/hamas-agrees-disarm-what-are-challenges-ahead",
-      "image": null,
-      "ts": 1785501048000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/longest-nightmare-voices-from-gaza-as-hamas-agrees-to-disarm-11848904#publisher=newsstand"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/07/hamas-agrees-disarm-what-are-challenges-ahead"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/07/31/hamas-agrees-to-completely-disarm-in-plan-including-israeli-withdrawal/"
           }
         ]
       }
@@ -7407,72 +7508,6 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/video/newsfeed/2026/7/27/aje-onl-nf_guterres-tours-syrias-assad-prison-in-sednaya-260726?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9966f0638c10",
-      "title": "US and Iran halt attacks",
-      "description": "The US and Iran have halted attacks, raising hopes of a renewed diplomatic push after nearly two weeks of escalating attacks.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "Le Monde English",
-      "url": "https://www.lemonde.fr/en/international/article/2026/07/27/us-and-iran-halt-attacks-in-tentative-opening-for-renewed-talks_6755863_4.html",
-      "image": "https://img.lemde.fr/2026/07/25/250/0/3000/1500/644/322/60/0/55720cb_ftp-1-ydm0hviwyken-5705732-01-06.jpg",
-      "ts": 1785112261000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/07/27/us-and-iran-halt-attacks-in-tentative-opening-for-renewed-talks_6755863_4.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "57144d0814f7",
-      "title": "Enemy drone attack leaves 12, including two minors, injured in Russia’s Belgorod",
-      "description": "A drone attack on the Russian city of Belgorod has left 12 people injured, including two minors.",
-      "lat": 50.59,
-      "lng": 36.59,
-      "severity": 4,
-      "location": "Belgorod, Russia",
-      "source": "TASS",
-      "url": "https://tass.com/emergencies/2165737",
-      "image": null,
-      "ts": 1785107369000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/emergencies/2165737"
           }
         ]
       }
