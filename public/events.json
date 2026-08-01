@@ -1,7 +1,131 @@
 {
   "schema": 1,
-  "updated": "2026-08-01T01:09:13.898982+00:00",
+  "updated": "2026-08-01T04:58:23.885020+00:00",
   "events": [
+    {
+      "id": "958fe71858e1",
+      "title": "Humanitarian aid delivered to Venezuela",
+      "description": "A Russian company has delivered humanitarian aid to Venezuela's La Guaira state.",
+      "lat": 10.23,
+      "lng": -67.93,
+      "severity": 1,
+      "location": "La Guaira, Venezuela",
+      "source": "TASS",
+      "url": "https://tass.com/society/2167907",
+      "image": null,
+      "ts": 1785559690000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/society/2167907"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3aa90702e6ff",
+      "title": "Russian strikes on Kyiv",
+      "description": "Russian strikes on Ukraine's capital killed at least nine people and wounded more than two dozen others.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 4,
+      "location": "Kyiv, Ukraine",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/russian-strikes-kyiv-ukraine-fatalities-injuries/",
+      "image": null,
+      "ts": 1785559541000,
+      "coverage": {
+        "left": 3,
+        "center": 3,
+        "right": 0,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/russian-strikes-kyiv-ukraine-fatalities-injuries/"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/1/russian-missile-attack-kills-three-in-ukraines-kyiv?traffic_source=rss"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/08/01/russian-strikes-on-kyiv-kill-four-wound-more-than-a-dozen_6756054_4.html"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/2026/0801/1586086-russian-strikes/"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/ukraine-russia-hits-kyiv-with-deadly-missile-strikes/a-78198568?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORXV2dkxDX25CSFZ4RVpvYVdYWXIzOTJmNnBNVlNteTV4dTd3akFzLTUzek9Hdm5FSDdYRjNnSDM3eTFnSDNaX2oyMFdGRTgzZnZ5XzRVVzBKbGNaQkVxOHZPUFZSNFVoVmphdkVYeEtGTTFKME51dlRsRUJ4YkZJbXVKU1d5bFoyUng3WHNGMHVYVXdFdkHSAZsBQVVfeXFMUDZ0SF9oTDlZaHdWci1Ya0M1d04yelNJZ2U2NXlEaVVpSXF4TDRVU0JRTUFHVUNFS2syRENvQWdfWXdJckdPNEFpNmx6R2dSWUN2QjltLTViVllnMWNPQVAzbGRTZmhMY2xBNmpJa0U0NmJXSkY3M01ZdnFMYkhvWnhzNTFsaHRCRVpRZmR3YzZyV0JJTkxBbTNRSW8?oc=5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4b174f6d5ea2",
+      "title": "US drops charges against Olympian",
+      "description": "The US Department of Justice has moved to dismiss its case against Olympian David Hearn.",
+      "lat": 38.89,
+      "lng": -77.01,
+      "severity": 1,
+      "location": "Washington, D.C., USA",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/us-drops-charges-against-olympian-for-damage-to-reflecting-pool?traffic_source=rss",
+      "image": null,
+      "ts": 1785558970000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/1/us-drops-charges-against-olympian-for-damage-to-reflecting-pool?traffic_source=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "cb39af2df6ed",
       "title": "China Launches Satellite for Algeria",
@@ -127,6 +251,39 @@
       }
     },
     {
+      "id": "e86b6f5bb78b",
+      "title": "FIFA scraps World Cup sell-off plan",
+      "description": "FIFA President Gianni Infantino announced that the organization is scrapping plans to sell shares in the World Cup to private investors.",
+      "lat": 46.22,
+      "lng": 8.045199999999994,
+      "severity": 2,
+      "location": "Zurich, Switzerland",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/created-division-gianni-infantino-abandons-fifa-sell-off-plan-following-global-backlash-13568939",
+      "image": "https://e3.365dm.com/26/07/1920x1080/skynews-gianni-infantino-fifa-president_7308706.jpg?20260728162521",
+      "ts": 1785538860000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/created-division-gianni-infantino-abandons-fifa-sell-off-plan-following-global-backlash-13568939"
+          }
+        ]
+      }
+    },
+    {
       "id": "9efd92a1c21c",
       "title": "Russian forces hit Ukrainian cargo vessels",
       "description": "Russian forces have hit over 80 vessels involved in cargo deliveries for the Ukrainian army in July.",
@@ -221,6 +378,49 @@
             "n": "Daily Express World",
             "b": "right",
             "u": "https://www.express.co.uk/news/world/2235031/iran-warns-trump-global-economy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6857b046cd7e",
+      "title": "US and Israel plan strikes on Iran",
+      "description": "The US and Israel are planning a potential bombing campaign targeting Iran's energy infrastructure.",
+      "lat": 33.16,
+      "lng": 34.77000000000001,
+      "severity": 2,
+      "location": "Tel Aviv, Israel",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/world/mid-east/us-israel-plan-weekend-strikes-on-iran-energy-infrastructure",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/07/31/453698.JPG",
+      "ts": 1785532800000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/video/us-israel-planning-harshest-attacks-yet-energy-related-sites-iran-sources-say/"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTExVbGpfeGpwRzZoYzd1SlBvaWhnZVJoUXc3ekdDWWZ6alQ2ckh2dzhSV3B5VWVJLWZlSkp4bDltM3pQaXN1MHJBUWQ2NnV1UnFQeG05SWQ3akZJczRxd0lmaDVvd2R4R2VXQWZ2T2pLWXQydGowVDMtUWhYUTBNMzd0emxJUldOcHJ3SVF6UjcxUU5Tdm9SdDNkUQ?oc=5"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/us-israel-plan-weekend-strikes-on-iran-energy-infrastructure"
           }
         ]
       }
@@ -1374,6 +1574,39 @@
             "n": "HuffPost World",
             "b": "left",
             "u": "https://www.huffpost.com/entry/migration-spain-ceuta-morocco_n_6a6c8e34e4b0ea7db0fc2baf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4ad0cd0b253f",
+      "title": "Pakistan searches for missing climbers",
+      "description": "Pakistani rescuers are searching for 10 international climbers missing after an avalanche on Broad Peak.",
+      "lat": 35.81,
+      "lng": 76.17,
+      "severity": 4,
+      "location": "Broad Peak, Pakistan",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/10-climbers-led-renowned-nepalese-mountaineer-missing-pakistan-135248153",
+      "image": "https://s.abcnews.com/images/International/wirestory_8bfa2c9e346b3a617cfed91f091283e5_4x3_384.jpg",
+      "ts": 1785479599000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/10-climbers-led-renowned-nepalese-mountaineer-missing-pakistan-135248153"
           }
         ]
       }
@@ -7285,229 +7518,6 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-07-27/pakistan-administered-kashmir-election-what-to-know-does-vote-matter-to-india"
-          }
-        ]
-      }
-    },
-    {
-      "id": "67bdeaba06d8",
-      "title": "Two killed, several injured in shooting at Seattle food festival",
-      "description": "At least two people have been killed and several others injured in a shooting at a food festival in Seattle.",
-      "lat": 47.61,
-      "lng": -122.33,
-      "severity": 4,
-      "location": "Seattle, USA",
-      "source": "Washington Examiner",
-      "url": "https://www.washingtonexaminer.com/news/crime/4663871/shooting-space-needle-seattle/",
-      "image": null,
-      "ts": 1785120946000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/07/27/seattle-shooting-leaves-two-dead-five-injured.html"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/world/2026/0727/1585225-seattle-shooting/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b2425b380904",
-      "title": "China industrial profit growth slows in June",
-      "description": "China's industrial profit growth has slowed in June due to retreating oil prices.",
-      "lat": 41.01,
-      "lng": 118.29520000000002,
-      "severity": 3,
-      "location": "Beijing, China",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/07/27/china-industrial-profit-growth-exports-oil-drops.html",
-      "image": null,
-      "ts": 1785117724000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/07/27/china-industrial-profit-growth-exports-oil-drops.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6cfab5c2abe8",
-      "title": "Wildfires in France drive more than 250,000 from their homes",
-      "description": "Fire crews are battling round-the-clock against the blaze that has burned an area four times the size of Paris.",
-      "lat": 44.84,
-      "lng": 0.5800000000000125,
-      "severity": 4,
-      "location": "Bordeaux, France",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/europe-wildfires-2026_n_6a66abf2e4b00feba845e7d1",
-      "image": null,
-      "ts": 1785113986000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 1,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/europe-wildfires-2026_n_6a66abf2e4b00feba845e7d1"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d8a9debaa38a",
-      "title": "Wildfires in France and Spain force hundreds of thousands to evacuate",
-      "description": "Wildfires in France and Spain have forced hundreds of thousands to evacuate as the fires continue to spread.",
-      "lat": 44.84,
-      "lng": 0.5800000000000125,
-      "severity": 4,
-      "location": "Bordeaux, France",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/europe-wildfires-2026_n_6a66abf2e4b00feba845e7d1",
-      "image": null,
-      "ts": 1785113986000,
-      "coverage": {
-        "left": 4,
-        "center": 0,
-        "right": 1,
-        "total": 5,
-        "buckets": {
-          "left": 1,
-          "lean_left": 3,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/quarter-million-people-flee-their-homes-in-france-and-spain-as-wildfires-burn_n_6a64a899e4b089c330669d5c"
-          },
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/live/2026/07/27/world/france-spain-wildfires-evacutions"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/historic-wildfires-france-spain-135116167"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/wildfire-map-france-spain-holiday-37479534"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/europe/2026/07/27/france-wildfires-threaten-bordeaux-as-more-than-300000-leave-homes-in-france-and-spain/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6245bcd25dbc",
-      "title": "Wildfires in France Displace Over 250,000",
-      "description": "Wildfires in France have displaced over 250,000 people, with the French president pledging support and vowing to win the battle against the fires.",
-      "lat": 44.84,
-      "lng": -0.5800000000000125,
-      "severity": 4,
-      "location": "Bordeaux, France",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/europe-wildfires-2026_n_6a66abf2e4b00feba845e7d1",
-      "image": null,
-      "ts": 1785113986000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 1,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/europe-wildfires-2026_n_6a66abf2e4b00feba845e7d1"
-          }
-        ]
-      }
-    },
-    {
-      "id": "fe31fc34fd9c",
-      "title": "Guterres tours Syria's notorious 'Assad Prison'",
-      "description": "UN Secretary-General Antonio Guterres has toured the notorious former 'Assad prison' in Sednaya, Syria.",
-      "lat": 33.17,
-      "lng": 36.129999999999995,
-      "severity": 1,
-      "location": "Sednaya, Syria",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/27/aje-onl-nf_guterres-tours-syrias-assad-prison-in-sednaya-260726?traffic_source=rss",
-      "image": null,
-      "ts": 1785113286000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/7/27/aje-onl-nf_guterres-tours-syrias-assad-prison-in-sednaya-260726?traffic_source=rss"
           }
         ]
       }
