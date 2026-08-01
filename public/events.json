@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-01T15:08:38.378532+00:00",
+  "updated": "2026-08-01T16:31:40.830817+00:00",
   "events": [
+    {
+      "id": "5e32c384edd7",
+      "title": "EU to hold emergency interior ministers’ videoconference on Ceuta",
+      "description": "The EU will hold an emergency interior ministers’ videoconference on Ceuta on August 4, after the mass crossing of migrants into the Spanish enclave.",
+      "lat": 51.95,
+      "lng": 4.349999999999994,
+      "severity": 3,
+      "location": "Brussels, Belgium",
+      "source": "TASS",
+      "url": "https://tass.com/world/2168009",
+      "image": null,
+      "ts": 1785601455000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2168009"
+          }
+        ]
+      }
+    },
     {
       "id": "c811c741a230",
       "title": "Israel Election Puts Netanyahu Under Pressure",
@@ -649,6 +682,44 @@
             "n": "Buenos Aires Times",
             "b": "center",
             "u": "https://www.batimes.com.ar/news/economy/argentina-and-south-korea-announce-critical-minerals-partnership.phtml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "700a4c53709e",
+      "title": "Migrant crossings into Ceuta stopped overnight",
+      "description": "Spain has said that migrant crossings into its North African territory of Ceuta stopped overnight, as police began installing a 500-metre floating barrier off its border with Morocco.",
+      "lat": 35.89,
+      "lng": -5.310000000000002,
+      "severity": 2,
+      "location": "Ceuta, Spain",
+      "source": "RTE News",
+      "url": "https://www.rte.ie/news/europe/2026/0801/1586091-ceuta-morocco/",
+      "image": "https://www.rte.ie/images/0024c97b-800.jpg",
+      "ts": 1785569422000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/europe/2026/0801/1586091-ceuta-morocco/"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/europe/spain-erects-floating-barrier-in-ceuta-after-deadly-border-rush"
           }
         ]
       }
@@ -1589,6 +1660,39 @@
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/former-sri-lankan-defence-official-ex-police-chief-sentenced-to-death-over-2019-easter-bombings"
+          }
+        ]
+      }
+    },
+    {
+      "id": "566418051710",
+      "title": "UAE’s Etihad stakes its claim in West African skies with Nigeria’s Air Peace",
+      "description": "Etihad Airways has signed interline agreements with Air Peace in Nigeria and Africa World Airlines in Ghana, favouring local alliances to take on Emirates and Qatar Airways.",
+      "lat": 6.45,
+      "lng": 3.38,
+      "severity": 2,
+      "location": "Lagos, Nigeria",
+      "source": "The Africa Report",
+      "url": "https://www.theafricareport.com/426681/uaes-etihad-stakes-its-claim-in-west-african-skies-with-nigerias-air-peace/",
+      "image": null,
+      "ts": 1785510000000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Africa Report",
+            "b": "center",
+            "u": "https://www.theafricareport.com/426681/uaes-etihad-stakes-its-claim-in-west-african-skies-with-nigerias-air-peace/"
           }
         ]
       }
@@ -3404,11 +3508,11 @@
     },
     {
       "id": "292bd59dd078",
-      "title": "US and Iran Conflict Escalates",
-      "description": "The US and Iran conflict has escalated, with Iran vowing to 'punish the aggressor today' after the US unleashed a 'heavy wave' of strikes.",
+      "title": "Iran vows to punish the aggressor after US strikes",
+      "description": "Iran has vowed to punish the aggressor after the US unleashed a heavy wave of strikes, with the conflict drawing in new countries.",
       "lat": 36.79,
       "lng": 53.295199999999994,
-      "severity": 4,
+      "severity": 2,
       "location": "Tehran, Iran",
       "source": "NBC News World",
       "url": "https://www.nbcnews.com/world/iran/us-heavy-wave-strikes-iran-war-attack-trump-saudi-egypt-drone-oil-rcna589967",
@@ -7419,140 +7523,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/gunmen-attack-community-northwestern-nigeria-kill-30-people-135122160"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e546139c4c9a",
-      "title": "Oil prices near one-week low after US, Iran pause fighting",
-      "description": "Oil prices fell as the US and Iran paused fighting over the weekend, allowing for diplomacy.",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "The Intercept",
-      "url": "https://theintercept.com/2026/07/27/breakthrough-news-journalists-subpoena/",
-      "image": "https://theintercept.com/wp-content/uploads/2026/07/AP26202590542697_173970.jpg?fit=5000%2C3333",
-      "ts": 1785166941000,
-      "coverage": {
-        "left": 2,
-        "center": 1,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 1,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/oil-prices-after-us-iran-pause-attacks_n_6a671affe4b00feba8461a69"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/iran/oil-prices-slide-us-iran-pause-strikes-trump-diplomacy-hormuz-red-sea-rcna589383"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/07/29/oil-prices-today-brent-wti-iran-us-hormuz.html"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/middle-east/2026/07/28/saudi-arabia-says-iran-proxies-in-iraq-are-launching-drones-at-its-oil-facilities/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "77b780d01cf4",
-      "title": "Iran Claims Control of Strait of Hormuz",
-      "description": "Iran claims it remains firmly in control of the Strait of Hormuz and has no desire to resume negotiations with the U.S.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 3,
-      "location": "Hormuz Strait, Iran",
-      "source": "Breitbart",
-      "url": "https://www.breitbart.com/middle-east/2026/07/27/iran-claims-it-controls-strait-hormuz-has-no-interest-negotiations-mafia-u-s/",
-      "image": null,
-      "ts": 1785166825000,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 1,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/video/us-iran-fighting-paused-as-progress-reported-in-talks-to-reopen-strait-of-hormuz/"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/israel-believes-us-iran-wont-reach-deal-over-hormuz-strait-so-trump-will-escalate-3805756"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/403625cc-8371-43ee-997a-f6908a97f52e?syn-25a6b1a6=1"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/iran-rules-out-us-talks-as-hormuz-strait-remains-closed/live-78127467?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/middle-east/2026/07/27/iran-claims-it-controls-strait-hormuz-has-no-interest-negotiations-mafia-u-s/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a099bd78fb3a",
-      "title": "India, China to Resume Border Trade via Nathu La Pass",
-      "description": "Border trade between India and China through the Nathu La Pass in East Sikkim will resume on August 1.",
-      "lat": 51.5074,
-      "lng": -0.12780000000000769,
-      "severity": 1,
-      "location": "London, UK",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/india-china-to-resume-silk-route-border-trade-via-nathu-la-pass-from-august-1-11829166#publisher=newsstand",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/546d/live/37232a00-8026-11f1-8ae2-1d238eb2d791.jpg",
-      "ts": 1785165420000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/india-china-to-resume-silk-route-border-trade-via-nathu-la-pass-from-august-1-11829166#publisher=newsstand"
           }
         ]
       }
