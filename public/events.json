@@ -1,7 +1,192 @@
 {
   "schema": 1,
-  "updated": "2026-08-01T07:33:06.536817+00:00",
+  "updated": "2026-08-01T09:32:39.899253+00:00",
   "events": [
+    {
+      "id": "4aa04fc84882",
+      "title": "Egypt Wins Chairmanship of AI Governance and Quantum Computing Working Groups",
+      "description": "Egypt has won the presidency of the AI Governance Working Group and the Quantum Computing Working Group under the Arab Permanent Committee for AI and Emerging Technologies.",
+      "lat": 30.05,
+      "lng": 33.15520000000001,
+      "severity": 1,
+      "location": "Cairo, Egypt",
+      "source": "Egypt Independent",
+      "url": "https://www.egyptindependent.com/egypt-wins-chairmanship-of-ai-governance-quantum-computing-working-groups-at-arab-ai-committee/",
+      "image": null,
+      "ts": 1785575862000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/egypt-wins-chairmanship-of-ai-governance-quantum-computing-working-groups-at-arab-ai-committee/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b829fbb8834c",
+      "title": "Spain Installs Floating Barrier in Ceuta After Influx of Migrants",
+      "description": "Spain installed a floating barrier in Ceuta after an influx of migrants from Morocco, with at least 67 people dying in the attempt to cross the border.",
+      "lat": 35.89,
+      "lng": -5.310000000000002,
+      "severity": 3,
+      "location": "Ceuta, Spain",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/08/01/world/europe/spain-ceuta-migrants-morocco-border.html",
+      "image": "https://static01.nyt.com/images/2026/08/01/multimedia/01int-spain-cueta-01-cqlt/01int-spain-cueta-01-cqlt-mediumSquareAt3X.jpg",
+      "ts": 1785574180000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 1,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/migration-spain-ceuta_n_6a6c4d16e4b0c78215f8163c"
+          },
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/01/world/europe/spain-ceuta-migrants-morocco-border.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aa9649c089c1",
+      "title": "Kuwait Intercepts Iranian Drones as US Weighs Fresh Strikes",
+      "description": "Kuwait's air defenses have intercepted and destroyed Iranian drones, as the US weighs fresh strikes against Iran.",
+      "lat": 29.37,
+      "lng": 49.8852,
+      "severity": 3,
+      "location": "Kuwait City, Kuwait",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-01/kuwait-intercepts-iranian-drones-as-trump-weighs-fresh-strikes",
+      "image": "https://i.ndtvimg.com/i/2017-10/drone_650x400_41509186317.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1785572465000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/us-iran-strikes_n_6a6ab6b5e4b0fddbd71302f9"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20260801-middle-east-live-tanker-struck-by-unknown-projectile-oman-iran-war-hormuz"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-904257"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-01/kuwait-intercepts-iranian-drones-as-trump-weighs-fresh-strikes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ec5ed2460f6a",
+      "title": "US Makes Visa Bond Program Permanent For 50 Countries",
+      "description": "The US State Department has made its visa bond program permanent, allowing consular officers to require certain B1/B2 visa applicants from 50 countries to post bonds of up to $20,000.",
+      "lat": 38.89,
+      "lng": -77.01,
+      "severity": 2,
+      "location": "Washington D.C., USA",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/us-makes-visa-bond-program-permanent-for-50-countries-is-india-on-the-list-11851976#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-08/517m525g_us-makes-visa-bond-program-permanent-for-50-countries-is-india-on-the-list_625x300_01_August_26.jpeg",
+      "ts": 1785571999000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/us-makes-visa-bond-program-permanent-for-50-countries-is-india-on-the-list-11851976#publisher=newsstand"
+          }
+        ]
+      }
+    },
+    {
+      "id": "36bb33268dcb",
+      "title": "Argentina and South Korea Announce Critical Minerals Partnership",
+      "description": "Argentina and South Korea have announced a partnership to deepen cooperation in critical minerals, energy, and trade.",
+      "lat": -34.6,
+      "lng": -58.37,
+      "severity": 1,
+      "location": "Buenos Aires, Argentina",
+      "source": "Buenos Aires Times",
+      "url": "https://www.batimes.com.ar/news/economy/argentina-and-south-korea-announce-critical-minerals-partnership.phtml",
+      "image": "https://fotos.perfil.com/2026/08/01/trim/540/304/president-javier-milei-and-south-koreas-president-lee-jae-myung-2295675.jpg",
+      "ts": 1785571101000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Buenos Aires Times",
+            "b": "center",
+            "u": "https://www.batimes.com.ar/news/economy/argentina-and-south-korea-announce-critical-minerals-partnership.phtml"
+          }
+        ]
+      }
+    },
     {
       "id": "958fe71858e1",
       "title": "Humanitarian aid delivered to Venezuela",
@@ -910,39 +1095,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/hungary-braces-full-shutdown-paks-nuclear-plant-danube-135263354"
-          }
-        ]
-      }
-    },
-    {
-      "id": "aa9649c089c1",
-      "title": "Kuwait Destroys Iranian Drones Targeting Vital Facilities",
-      "description": "Kuwaiti forces have destroyed Iranian drones targeting vital and military facilities in the country.",
-      "lat": 29.37,
-      "lng": 49.8852,
-      "severity": 4,
-      "location": "Kuwait City, Kuwait",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/kuwait-says-shot-down-iranian-drones-targeting-vital-and-military-sites-11850043#publisher=newsstand",
-      "image": "https://i.ndtvimg.com/i/2017-10/drone_650x400_41509186317.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1785515154000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/kuwait-says-shot-down-iranian-drones-targeting-vital-and-military-sites-11850043#publisher=newsstand"
           }
         ]
       }
@@ -2844,11 +2996,11 @@
     },
     {
       "id": "292bd59dd078",
-      "title": "Iran Vows to Punish Aggressor",
-      "description": "Iran vowed to punish the aggressor after the US unleashed a 'heavy wave' of strikes.",
+      "title": "US and Iran Conflict Escalates",
+      "description": "The US and Iran conflict has escalated, with Iran vowing to 'punish the aggressor today' after the US unleashed a 'heavy wave' of strikes.",
       "lat": 36.79,
       "lng": 53.295199999999994,
-      "severity": 2,
+      "severity": 4,
       "location": "Tehran, Iran",
       "source": "NBC News World",
       "url": "https://www.nbcnews.com/world/iran/us-heavy-wave-strikes-iran-war-attack-trump-saudi-egypt-drone-oil-rcna589967",
@@ -7381,153 +7533,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/south-korean-court-ousted-president-yoon-suspended-jail-135110496"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cec8f2ee1640",
-      "title": "Three dead after shooting at Seattle food festival",
-      "description": "Three people have been killed and at least four others wounded, including a toddler, after an apparent gunfight near the Space Needle landmark in Seattle last night, according to police.",
-      "lat": 48.72,
-      "lng": -122.35,
-      "severity": 4,
-      "location": "Seattle, USA",
-      "source": "Daily Star World",
-      "url": "https://www.dailystar.co.uk/news/world-news/live-streamer-captures-bite-seattle-37479588",
-      "image": "https://i2-prod.dailystar.co.uk/incoming/article37479713.ece/ALTERNATES/s615/1_Hawaiian.jpg",
-      "ts": 1785140043000,
-      "coverage": {
-        "left": 0,
-        "center": 3,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 3,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/07/27/seattle-shooting-leaves-two-dead-five-injured.html"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/world/2026/0727/1585225-seattle-shooting/"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/us-at-least-three-killed-in-shooting-in-seattle/a-78124829?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/americas/at-least-3-killed-4-wounded-in-shooting-near-seattle-food-fest"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a2bc347aff7c",
-      "title": "Uganda begins emergency food handouts after 19 die from hunger",
-      "description": "The government move follows months of drought and crop failures in Karamoja, with 1.5m people facing malnutrition.",
-      "lat": 2.96,
-      "lng": 34.40260000000001,
-      "severity": 3,
-      "location": "Kampala, Uganda",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger",
-      "image": null,
-      "ts": 1785135634000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger"
-          }
-        ]
-      }
-    },
-    {
-      "id": "af8c6d702dda",
-      "title": "Uganda begins emergency food handouts after 19 die from hunger",
-      "description": "Government move follows months of drought and crop failures in Karamoja, with 1.5m people facing malnutrition",
-      "lat": -0.6326,
-      "lng": 33.120000000000005,
-      "severity": 3,
-      "location": "Kampala, Uganda",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger",
-      "image": null,
-      "ts": 1785135634000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a01de20fd7c6",
-      "title": "Uganda begins emergency food handouts after 19 die from hunger",
-      "description": "The Ugandan government has launched emergency food relief distribution after at least 19 deaths from hunger were reported in the Karamoja region.",
-      "lat": 1.31,
-      "lng": 32.59,
-      "severity": 4,
-      "location": "Kampala, Uganda",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger",
-      "image": null,
-      "ts": 1785135634000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger"
           }
         ]
       }
