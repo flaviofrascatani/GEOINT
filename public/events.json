@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-08-01T18:33:22.877575+00:00",
+  "updated": "2026-08-01T19:47:21.823087+00:00",
   "events": [
+    {
+      "id": "d7e593423a85",
+      "title": "Gaza hospital strike",
+      "description": "Israeli strikes on Gaza left a huge crater at a hospital, killing seven people and damaging medical supplies.",
+      "lat": 31.51,
+      "lng": 34.46000000000001,
+      "severity": 4,
+      "location": "Gaza, Palestine",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/gaza-officials-say-israeli-strikes-kill-seven-day-after-deal",
+      "image": null,
+      "ts": 1785612636000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/gaza-officials-say-israeli-strikes-kill-seven-day-after-deal"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7b9858afbbad",
+      "title": "EU meeting on migrant crisis",
+      "description": "The EU will hold an urgent meeting of interior ministers to discuss the migrant crisis in Ceuta.",
+      "lat": 51.95,
+      "lng": 6.255200000000002,
+      "severity": 2,
+      "location": "Brussels, Belgium",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing",
+      "image": null,
+      "ts": 1785611019000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing"
+          }
+        ]
+      }
+    },
     {
       "id": "8ecbbcb8022e",
       "title": "Explosion in Moscow cafe",
@@ -64,39 +130,6 @@
             "n": "IBTimes",
             "b": "center",
             "u": "https://www.ibtimes.com/china-sent-iran-shoulder-fired-missiles-land-after-xi-denied-it-trump-3805981"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7b9858afbbad",
-      "title": "EU to hold urgent meeting over Ceuta migrant crisis",
-      "description": "The EU will hold an extraordinary meeting of interior ministers after a breakdown over the migrant crisis in Ceuta",
-      "lat": 51.95,
-      "lng": 6.255200000000002,
-      "severity": 3,
-      "location": "Brussels, Belgium",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing",
-      "image": null,
-      "ts": 1785603547000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing"
           }
         ]
       }
@@ -957,11 +990,11 @@
     },
     {
       "id": "700a4c53709e",
-      "title": "Migrant crossings into Ceuta stopped overnight",
-      "description": "Spain has said that migrant crossings into its North African territory of Ceuta stopped overnight, as police began installing a 500-metre floating barrier off its border with Morocco.",
+      "title": "Spain-Morocco border crisis",
+      "description": "Spain has stopped migrant crossings into its North African territory of Ceuta, with police installing a 500-meter floating barrier off its border with Morocco.",
       "lat": 35.89,
       "lng": -5.310000000000002,
-      "severity": 2,
+      "severity": 3,
       "location": "Ceuta, Spain",
       "source": "RTE News",
       "url": "https://www.rte.ie/news/europe/2026/0801/1586091-ceuta-morocco/",
@@ -2001,11 +2034,11 @@
     },
     {
       "id": "0d4e984b58b4",
-      "title": "Hackers targeted municipal water systems in 7 US states",
-      "description": "Cyberattacks targeting municipal water systems have been reported in at least seven states this week",
+      "title": "Cyberattacks on US water systems",
+      "description": "Hackers targeted municipal water systems in at least seven US states, prompting the FBI and EPA to warn utilities nationwide.",
       "lat": 38.9,
       "lng": -77.02,
-      "severity": 4,
+      "severity": 3,
       "location": "Washington D.C., USA",
       "source": "NBC News World",
       "url": "https://www.nbcnews.com/tech/security/hackers-targeted-municipal-water-systems-7-states-week-fbi-says-rcna590210",
@@ -7440,39 +7473,6 @@
             "n": "NDTV World",
             "b": "lean_left",
             "u": "https://www.ndtv.com/world-news/donald-trump-says-good-chance-of-progress-in-iran-talks-as-both-hold-fire-11830052#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "dce6c88c7a10",
-      "title": "Bridge Connecting Canada and U.S. Opens",
-      "description": "The Gordie Howe International Bridge connecting Detroit and Windsor, Ontario, has opened after being blocked by Trump.",
-      "lat": 42.31,
-      "lng": -83.05,
-      "severity": 1,
-      "location": "Detroit, USA",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/nation/2026/07/27/gordie-howe-bridge-between-canada-us-opens-after-trump-tried-block-it/",
-      "image": null,
-      "ts": 1785177780000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/nation/2026/07/27/gordie-howe-bridge-between-canada-us-opens-after-trump-tried-block-it/"
           }
         ]
       }
