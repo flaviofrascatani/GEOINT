@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-08-01T17:34:19.506423+00:00",
+  "updated": "2026-08-01T18:33:22.877575+00:00",
   "events": [
+    {
+      "id": "8ecbbcb8022e",
+      "title": "Explosion in Moscow cafe",
+      "description": "3 people died and 15 were injured in an explosion in a Moscow cafe",
+      "lat": 55.75,
+      "lng": 37.62,
+      "severity": 4,
+      "location": "Moscow, Russia",
+      "source": "ANSA Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/08/01/esplosione-in-un-caffe-a-mosca-3-morti-e-15-feriti_d1af2053-890c-469d-8410-d4514b475e6c.html",
+      "image": null,
+      "ts": 1785608017000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/europa/2026/08/01/esplosione-in-un-caffe-a-mosca-3-morti-e-15-feriti_d1af2053-890c-469d-8410-d4514b475e6c.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4e4e22ccbb4f",
+      "title": "China sent Iran shoulder-fired missiles",
+      "description": "China arranged delivery of up to 400 shoulder-fired air-defense missiles to Iran through a Pakistan land corridor",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "IBTimes",
+      "url": "https://www.ibtimes.com/china-sent-iran-shoulder-fired-missiles-land-after-xi-denied-it-trump-3805981",
+      "image": null,
+      "ts": 1785607643000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/china-sent-iran-shoulder-fired-missiles-land-after-xi-denied-it-trump-3805981"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7b9858afbbad",
+      "title": "EU to hold urgent meeting over Ceuta migrant crisis",
+      "description": "The EU will hold an extraordinary meeting of interior ministers after a breakdown over the migrant crisis in Ceuta",
+      "lat": 51.95,
+      "lng": 6.255200000000002,
+      "severity": 3,
+      "location": "Brussels, Belgium",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing",
+      "image": null,
+      "ts": 1785603547000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing"
+          }
+        ]
+      }
+    },
     {
       "id": "af48e12c3d86",
       "title": "Turkiye and Iraq sign one-year oil pipeline deal",
@@ -102,6 +201,39 @@
       }
     },
     {
+      "id": "ce9d405e6d7e",
+      "title": "Israel and Serbia deepen defense ties",
+      "description": "Serbia becomes one of Israel's closest allies in Europe as defense ties deepen",
+      "lat": 44.82,
+      "lng": 20.46,
+      "severity": 2,
+      "location": "Belgrade, Serbia",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/international/article-904177",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_448,w_632/732186",
+      "ts": 1785597981000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/international/article-904177"
+          }
+        ]
+      }
+    },
+    {
       "id": "97ca1e1fb1d8",
       "title": "Ballistic missiles hit Kyiv",
       "description": "Ukrainian President Volodymyr Zelensky had appealed for American air-defense missiles during a White House meeting on Tuesday.",
@@ -130,6 +262,44 @@
             "n": "Washington Post World",
             "b": "lean_left",
             "u": "https://www.washingtonpost.com/world/2026/08/01/russia-hits-kyiv-with-second-ballistic-missile-assault-week/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cc5e261f934d",
+      "title": "China holds military drills near disputed South China Sea shoal",
+      "description": "The drills occur as territorial tensions with the Philippines intensify",
+      "lat": 11.73,
+      "lng": 114.28,
+      "severity": 2,
+      "location": "South China Sea",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/china-holds-military-drills-disputed-shoal-south-china-135284501",
+      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
+      "ts": 1785592437000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/china-holds-military-drills-disputed-shoal-south-china-135284501"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/amid-row-with-philippines-china-issues-new-rules-to-assert-control-over-south-china-sea-shoal/article71295672.ece"
           }
         ]
       }
@@ -1831,11 +2001,11 @@
     },
     {
       "id": "0d4e984b58b4",
-      "title": "Hackers Target Municipal Water Systems in 7 US States",
-      "description": "Cyberattacks targeting municipal water systems have been reported in at least seven states, prompting the FBI and EPA to issue a warning.",
+      "title": "Hackers targeted municipal water systems in 7 US states",
+      "description": "Cyberattacks targeting municipal water systems have been reported in at least seven states this week",
       "lat": 38.9,
       "lng": -77.02,
-      "severity": 3,
+      "severity": 4,
       "location": "Washington D.C., USA",
       "source": "NBC News World",
       "url": "https://www.nbcnews.com/tech/security/hackers-targeted-municipal-water-systems-7-states-week-fbi-says-rcna590210",
@@ -1843,13 +2013,13 @@
       "ts": 1785506074000,
       "coverage": {
         "left": 1,
-        "center": 1,
+        "center": 0,
         "right": 0,
-        "total": 2,
+        "total": 1,
         "buckets": {
           "left": 0,
           "lean_left": 1,
-          "center": 1,
+          "center": 0,
           "lean_right": 0,
           "right": 0
         },
@@ -1858,11 +2028,6 @@
             "n": "NBC News World",
             "b": "lean_left",
             "u": "https://www.nbcnews.com/tech/security/hackers-targeted-municipal-water-systems-7-states-week-fbi-says-rcna590210"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/leaked-memo-links-iran-minnesota-water-utility-cyberattacks-dozens-systems-were-targeted-3805954"
           }
         ]
       }
@@ -7308,191 +7473,6 @@
             "n": "Washington Post World",
             "b": "lean_left",
             "u": "https://www.washingtonpost.com/nation/2026/07/27/gordie-howe-bridge-between-canada-us-opens-after-trump-tried-block-it/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "81cf5c2f722c",
-      "title": "New Canada-U.S. Bridge Opens",
-      "description": "A new bridge connecting Canada and the U.S. has opened, strengthening a key trade corridor between the two countries.",
-      "lat": 43.42,
-      "lng": -83.05,
-      "severity": 1,
-      "location": "Detroit, USA",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/nation/2026/07/27/gordie-howe-bridge-between-canada-us-opens-after-trump-tried-block-it/",
-      "image": null,
-      "ts": 1785177780000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/nation/2026/07/27/gordie-howe-bridge-between-canada-us-opens-after-trump-tried-block-it/"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/americas/new-canada-us-bridge-opens-strengthening-key-trade-corridor"
-          }
-        ]
-      }
-    },
-    {
-      "id": "269a07c50f43",
-      "title": "Trump says US in 'deep talks' with Iran",
-      "description": "US President Donald Trump has said that the US is in 'deep talks' with Iran, and will return to military action if negotiations fail.",
-      "lat": 35.6895,
-      "lng": 51.38900000000001,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/middle-east/iran-news/article-903821",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/44ee/live/987ef710-802c-11f1-926f-c90d1bcfbc84.jpg",
-      "ts": 1785175927000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/iran-news/article-903821"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/middle-east/article/3362025/iran-halts-strikes-trump-gives-space-talks?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f4be5bbdc0a8",
-      "title": "China supports Brazil",
-      "description": "China has expressed support for Brazil in opposing external interference and maintaining regional peace.",
-      "lat": 30.52,
-      "lng": 114.31,
-      "severity": 2,
-      "location": "Wuhan, China",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/china-supports-brazil-in-opposing-interference-xi-to-lula/article71274355.ece",
-      "image": "https://th-i.thgim.com/public/incoming/s16lfq/article71274356.ece/alternates/LANDSCAPE_1200/China-pitches-AGC1G8VVUH.3.jpg.jpg",
-      "ts": 1785174677000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/china-supports-brazil-in-opposing-interference-xi-to-lula/article71274355.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "57a34c8d5f65",
-      "title": "China Supports Brazil in Opposing 'Interference'",
-      "description": "China has expressed support for Brazil in opposing 'interference', with Chinese President Xi Jinping stating that Beijing supports Brazil in safeguarding its sovereignty and independence.",
-      "lat": -14.68,
-      "lng": -47.93000000000001,
-      "severity": 2,
-      "location": "Brasilia, Brazil",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/china-supports-brazil-in-opposing-interference-xi-to-lula/article71274355.ece",
-      "image": "https://th-i.thgim.com/public/incoming/s16lfq/article71274356.ece/alternates/LANDSCAPE_1200/China-pitches-AGC1G8VVUH.3.jpg.jpg",
-      "ts": 1785174677000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/china-supports-brazil-in-opposing-interference-xi-to-lula/article71274355.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a7b76930006f",
-      "title": "Chad to Withdraw from International Criminal Court",
-      "description": "Chad's government has announced plans to withdraw from the International Criminal Court, citing limited and uneven effectiveness.",
-      "lat": 12.11,
-      "lng": 15.06,
-      "severity": 3,
-      "location": "N'Djamena, Chad",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/chad-s-government-says-it-s-withdrawing-from-the-icc/a-78132322?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1785172758801,
-      "coverage": {
-        "left": 0,
-        "center": 3,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/chad-s-government-says-it-s-withdrawing-from-the-icc/a-78132322?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/international/article-903799"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/07/chad-says-will-withdraw-international-criminal-court"
           }
         ]
       }
