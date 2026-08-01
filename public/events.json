@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-08-01T04:58:23.885020+00:00",
+  "updated": "2026-08-01T07:33:06.536817+00:00",
   "events": [
     {
       "id": "958fe71858e1",
@@ -95,11 +95,11 @@
     },
     {
       "id": "4b174f6d5ea2",
-      "title": "US drops charges against Olympian",
-      "description": "The US Department of Justice has moved to dismiss its case against Olympian David Hearn.",
+      "title": "US Drops Charges Against Olympian",
+      "description": "The US Department of Justice dropped its case against Olympian David Hearn, who was accused of damaging the Lincoln Memorial Reflecting Pool.",
       "lat": 38.89,
       "lng": -77.01,
-      "severity": 1,
+      "severity": 2,
       "location": "Washington, D.C., USA",
       "source": "Al Jazeera",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/us-drops-charges-against-olympian-for-damage-to-reflecting-pool?traffic_source=rss",
@@ -107,13 +107,66 @@
       "ts": 1785558970000,
       "coverage": {
         "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
+        "center": 3,
+        "right": 1,
+        "total": 5,
         "buckets": {
           "left": 0,
           "lean_left": 1,
-          "center": 0,
+          "center": 3,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/1/us-drops-charges-against-olympian-for-damage-to-reflecting-pool?traffic_source=rss"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/us/2026/0801/1586089-washington-reflecting-pool/"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/live-news/20260801-us-drops-reflecting-pool-case-admits-damage-due-to-botched-renovation"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcGtYSUliRHQ4R0dpaktGWFp3LTMxRDNXeVVUcUlfbThQdm1YdmU3ZDUwb0tvUFNYT1JNQ05qTG5PNkdRQ3liT2pvbTJiVkRmT2dJMzIxMzM0dnVuUUZmUHdJeG96MU9vNzVxVFpZRG1XRnZJOFA0M2xYb2p2ODlrMTIwbmxLQWQtWUgzdFBvVi1fNi1hS0xGYWgxb2RzbXZRV1ctNW5BTndDR0syamUwRUFSWDlhZ9IBuwFBVV95cUxOcmhvZmdHLTFvOWY5TVpqdmdLd2RVbE56T2xFMEVtMXVEYld0aHhRYWFQUHJsSG9tS2Z6Q0lEN2lMb2JoOHBDQ2ZBUkJucEtIOXItRWxIVGVkcGllY20xb2Nma3NZUjF4QWRUVG9id1A2UFliTFQ3dy1jdmEyay16aDBFNVhvRGdHbHNXMmZldUhWeE0zYmR3OUxldXg2OHNGUEZyWGd2UnE2cW1pQ28zczdIV2tqOVRxcHln?oc=5"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/justice/4671639/pirro-dismisses-reflecting-pool-vandalism-charge/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0f350fd496c1",
+      "title": "Peru's Ex-President Released",
+      "description": "Peru's ex-president Ollanta Humala was released after his conviction was overturned.",
+      "lat": -10.95,
+      "lng": -77.05,
+      "severity": 2,
+      "location": "Lima, Peru",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/peru-ex-president-ollanta-humala-walks-free-after-conviction-quashed/article71293420.ece",
+      "image": "https://th-i.thgim.com/public/incoming/b4a0z2/article71293421.ece/alternates/LANDSCAPE_1200/2026-08-01T022111Z_246013989_RC2CPMANN6EO_RTRMADP_3_PERU-POLITICS-HUMALA.JPG",
+      "ts": 1785552769000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
           "lean_right": 0,
           "right": 0
         },
@@ -121,7 +174,12 @@
           {
             "n": "Al Jazeera",
             "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/1/us-drops-charges-against-olympian-for-damage-to-reflecting-pool?traffic_source=rss"
+            "u": "https://www.aljazeera.com/news/2026/8/1/perus-ex-president-humala-released-after-conviction-overturned?traffic_source=rss"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cx2j9nj88rro?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
@@ -668,11 +726,11 @@
     },
     {
       "id": "7dcdb3464a9e",
-      "title": "Two-week ceasefire in Gaza",
-      "description": "A two-week ceasefire has been agreed to allow Hamas to disarm and launch a peace deal, according to sources.",
+      "title": "Two-Week Ceasefire in Gaza",
+      "description": "A two-week ceasefire is in place to allow Hamas to disarm and launch a peace deal.",
       "lat": 30.5574,
       "lng": 36.110000000000014,
-      "severity": 2,
+      "severity": 1,
       "location": "Gaza, Palestine",
       "source": "Jerusalem Post",
       "url": "https://www.jpost.com/israel-news/defense-news/article-904233",
@@ -701,38 +759,33 @@
     },
     {
       "id": "22fc9d007f9f",
-      "title": "Migrant crisis in Ceuta",
-      "description": "At least 57 people died as tens of thousands of migrants crossed into the Spanish enclave of Ceuta from Morocco, prompting a crisis in Spain and divisions in Europe.",
+      "title": "Migrant Crisis in Ceuta",
+      "description": "Around 60,000 migrants crossed into the Spanish territory of Ceuta from Morocco, sparking a crisis in Europe.",
       "lat": 35.89,
       "lng": -5.310000000000002,
-      "severity": 4,
+      "severity": 3,
       "location": "Ceuta, Spain",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/world/2026/jul/31/ceuta-spain-morocco-border-deaths",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/migration-spain-ceuta-morocco_n_6a6c8e34e4b0ea7db0fc2baf",
       "image": null,
       "ts": 1785520331000,
       "coverage": {
-        "left": 1,
+        "left": 0,
         "center": 1,
         "right": 0,
-        "total": 2,
+        "total": 1,
         "buckets": {
           "left": 0,
-          "lean_left": 1,
+          "lean_left": 0,
           "center": 1,
           "lean_right": 0,
           "right": 0
         },
         "sources": [
           {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/spain-deploys-military-ceuta-morocco-border-migrants/"
-          },
-          {
-            "n": "BBC World",
+            "n": "RTE News",
             "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss"
+            "u": "https://www.rte.ie/news/europe/2026/0801/1586091-ceuta-crisis/"
           }
         ]
       }
@@ -2791,11 +2844,11 @@
     },
     {
       "id": "292bd59dd078",
-      "title": "Iran vows to punish aggressor after US strikes",
-      "description": "Iran has vowed to punish the aggressor after the US unleashed a heavy wave of strikes, with Egypt confirming that a drone hit two natural gas vessels at one of its ports.",
+      "title": "Iran Vows to Punish Aggressor",
+      "description": "Iran vowed to punish the aggressor after the US unleashed a 'heavy wave' of strikes.",
       "lat": 36.79,
       "lng": 53.295199999999994,
-      "severity": 4,
+      "severity": 2,
       "location": "Tehran, Iran",
       "source": "NBC News World",
       "url": "https://www.nbcnews.com/world/iran/us-heavy-wave-strikes-iran-war-attack-trump-saudi-egypt-drone-oil-rcna589967",
@@ -7475,49 +7528,6 @@
             "n": "The Guardian World",
             "b": "lean_left",
             "u": "https://www.theguardian.com/global-development/2026/jul/27/uganda-begins-emergency-food-handouts-after-19-die-from-hunger"
-          }
-        ]
-      }
-    },
-    {
-      "id": "22a2a2582b99",
-      "title": "Thousands march in Pakistan-administered Kashmir amid election unrest",
-      "description": "Thousands of people have marched in Pakistan-administered Kashmir amid unrest over upcoming elections.",
-      "lat": 34.96,
-      "lng": 73.75999999999999,
-      "severity": 3,
-      "location": "Muzaffarabad, Pakistan-administered Kashmir",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/27/aje-onl-nf_26-07-sv-pakistan-kashmir-march-km-270726?traffic_source=rss",
-      "image": null,
-      "ts": 1785127227000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/7/27/aje-onl-nf_26-07-sv-pakistan-kashmir-march-km-270726?traffic_source=rss"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/can-pakistan-administered-kashmir-elections-calm-tensions/a-78101422?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-07-27/pakistan-administered-kashmir-election-what-to-know-does-vote-matter-to-india"
           }
         ]
       }
