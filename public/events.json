@@ -1,7 +1,45 @@
 {
   "schema": 1,
-  "updated": "2026-08-01T21:03:22.299719+00:00",
+  "updated": "2026-08-01T22:03:43.799384+00:00",
   "events": [
+    {
+      "id": "52caac0245f7",
+      "title": "Explosion at Moscow restaurant kills three and injures 21",
+      "description": "An improvised explosive device detonated at a restaurant Saturday in central Moscow, according to Russian state media.",
+      "lat": 56.85,
+      "lng": 39.525199999999984,
+      "severity": 4,
+      "location": "Moscow, Russia",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/explosion-moscow-restaurant-fatalities-injuries/",
+      "image": null,
+      "ts": 1785619424000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/explosion-moscow-restaurant-fatalities-injuries/"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/explosion-restaurant-central-moscow-leaves-three-dead-dozen-injured"
+          }
+        ]
+      }
+    },
     {
       "id": "023e2b34d3da",
       "title": "Tourist plane crashes in Peru",
@@ -46,6 +84,44 @@
       }
     },
     {
+      "id": "e9a583350a03",
+      "title": "State Department urges Americans to consider leaving Middle East as regional conflict escalates",
+      "description": "The State Department on Saturday urged Americans across the Middle East to consider leaving the region or be prepared to depart on short notice.",
+      "lat": 38.9,
+      "lng": 77.0,
+      "severity": 2,
+      "location": "Washington D.C., USA",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/world/middle-east/state-department-urges-americans-consider-leaving-middle-east-region-rcna590396",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2025-04/190816-department-of-state-seal-ew-1255p-bac8cc.jpg",
+      "ts": 1785616674000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/middle-east/state-department-urges-americans-consider-leaving-middle-east-region-rcna590396"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd0FsRGVyTmhKN1lFZHVkMkdsREEzZkVqTWJHMDVkOE9mbXdmNklBQjFXUllKU2t5anpDbGhQdVdRRU9rWWxzSmhvV2ZoS09GRFc4Znk1QXlSMkYzbHFfd0VRb0Vuang0MTUwOE5BUGszb1gwTTVrNnZmVU1KWmxBNjZxZEpkSW9pU0ZRWllOc1pHcm5lOWJmYWIyc1JqT2tsYkdjcW1PTnhDbENlUktjWXJ4eEpnUEVZQTd4SXVR?oc=5"
+          }
+        ]
+      }
+    },
+    {
       "id": "d7e593423a85",
       "title": "Gaza hospital strike",
       "description": "Israeli strikes on Gaza left a huge crater at a hospital, killing seven people and damaging medical supplies.",
@@ -80,11 +156,11 @@
     },
     {
       "id": "7b9858afbbad",
-      "title": "EU to hold urgent meeting on Ceuta migrant crisis",
-      "description": "The EU is to hold an urgent meeting of interior ministers on Tuesday amid continued divisions in the bloc over the mass crossing of migrants into the Spanish territory of Ceuta.",
+      "title": "EU to hold urgent meeting of interior ministers on Tuesday over Ceuta crisis",
+      "description": "The EU is to hold an urgent meeting of interior ministers on Tuesday amid continued divisions in the bloc over the influx of migrants into the enclave of Ceuta.",
       "lat": 51.95,
       "lng": 6.255200000000002,
-      "severity": 3,
+      "severity": 2,
       "location": "Brussels, Belgium",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing",
@@ -7382,112 +7458,6 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/ukraine-s-zelenskyy-in-uk-to-meet-new-pm-burnham/a-78136104?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "47072eee880e",
-      "title": "Trump Asks Supreme Court to Allow Mail-In Voting Restrictions",
-      "description": "President Trump has asked the Supreme Court to allow his mail-in voting restrictions, which were blocked by a lower court.",
-      "lat": 38.89,
-      "lng": -77.01,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/27/trump-asks-us-supreme-court-to-allow-mail-in-voting-restrictions?traffic_source=rss",
-      "image": null,
-      "ts": 1785187471000,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 1,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/7/27/trump-asks-us-supreme-court-to-allow-mail-in-voting-restrictions?traffic_source=rss"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTUsxaE9veTZCWkFwWGFfVVhCeU1yZlRkQk1vWVlTWjBfNUZkOFNtTzlUVi05VHFRS1NsbXhNNDgtTG9nZmNOVUdPUFhXaVdfVFNtMERlRWJaS25LMTFuWVR4VXJZNkNlMVgxODR0STJhYXRNcWxrRlNBeTROalBONm9ud2M2eFJ5TnlYUF9vbG5uMk5uOTF3MjJwc2lyUllsWTNaMXRoeDdYcTBZMVJEUExWS2Y?oc=5"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-07-27/us-asks-supreme-court-to-restore-trump-mail-in-voting-order"
-          },
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/07/27/trump-asks-the-supreme-court-to-allow-his-mail-voting-restrictions-before-the-midterms?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/supreme-court/4664902/trump-request-supreme-court-unblock-mail-in-voting-executive-order/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1ad900230ea3",
-      "title": "Houthis corner Saudi Arabia",
-      "description": "The Iranian-backed Houthi militia in Yemen has seized on a vulnerable moment for neighboring Saudi Arabia.",
-      "lat": 15.35,
-      "lng": 44.19,
-      "severity": 3,
-      "location": "Sanaa, Yemen",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/07/27/world/middleeast/houthis-saudi-arabia-iran-war.html",
-      "image": "https://static01.nyt.com/images/2026/07/27/multimedia/27saudi-houthis-01-zjhw/27saudi-houthis-01-zjhw-mediumSquareAt3X.jpg",
-      "ts": 1785185827000,
-      "coverage": {
-        "left": 3,
-        "center": 2,
-        "right": 0,
-        "total": 5,
-        "buckets": {
-          "left": 1,
-          "lean_left": 2,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/ap-ml-iran-us-houthis-saudi-arabia_n_6a651d0ce4b021af4925b01c"
-          },
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/07/27/world/middleeast/houthis-saudi-arabia-iran-war.html"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/why-houthis-are-risking-another-war-with-saudi-arabia-after-years-of-calm-11830017#publisher=newsstand"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/middle-east/20260727-saudi-arabia-says-it-intercepted-drones-from-iraq-as-houthis-target-oil-sites"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeGxuNkNPd0oxM2NINVF0YkhnZElaRmQyb2NLcy1pNC1XamlpUnBsNFJlVzd6OU0xNnlCalA4cTR4Nm1aNXlmcXZZMlJ6bWc0dEhFNUNlSF9iSTlpUkRkWnhja3ZORDM0YkgxUUE5Tm01VDJwSVVBNnFHVEdaSnk5Rlhram1fcjkwT1ZvcUNBYw?oc=5"
           }
         ]
       }
