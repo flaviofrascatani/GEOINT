@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-08-01T22:03:43.799384+00:00",
+  "updated": "2026-08-01T23:02:23.871884+00:00",
   "events": [
     {
       "id": "52caac0245f7",
@@ -155,6 +155,54 @@
       }
     },
     {
+      "id": "1d48a482a586",
+      "title": "Gaza officials say Israeli strikes kill seven",
+      "description": "Gaza authorities said that seven people were killed in Israeli strikes that also damaged a hospital's medical supplies, a day after Hamas said it agreed to the latest stage of a deal to end the conflict.",
+      "lat": 31.51,
+      "lng": 34.46000000000001,
+      "severity": 4,
+      "location": "Gaza, Palestine",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/gaza-officials-say-israeli-strikes-kill-seven-day-after-deal",
+      "image": null,
+      "ts": 1785612636000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/israeli-strikes-in-gaza-medical-supply-warehouses-hit/article71295680.ece"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/middle-east/2026/0801/1586125-gaza-israel-strikes/"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/gaza-officials-say-israeli-strikes-kill-seven-day-after-deal"
+          },
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/israeli-strike-leaves-huge-crater-at-gaza-hospital-amid-uncertainty-over-trump-plan/"
+          }
+        ]
+      }
+    },
+    {
       "id": "7b9858afbbad",
       "title": "EU to hold urgent meeting of interior ministers on Tuesday over Ceuta crisis",
       "description": "The EU is to hold an urgent meeting of interior ministers on Tuesday amid continued divisions in the bloc over the influx of migrants into the enclave of Ceuta.",
@@ -222,11 +270,11 @@
     },
     {
       "id": "4e4e22ccbb4f",
-      "title": "China sent Iran shoulder-fired missiles",
-      "description": "China arranged delivery of up to 400 shoulder-fired air-defense missiles to Iran through a Pakistan land corridor",
+      "title": "China sent Iran shoulder-fired missiles by land",
+      "description": "China arranged delivery of up to 400 shoulder-fired air-defense missiles to Iran through a Pakistan land corridor, contradicting Xi Jinping's personal assurance to Trump.",
       "lat": 35.69,
       "lng": 51.389999999999986,
-      "severity": 2,
+      "severity": 3,
       "location": "Tehran, Iran",
       "source": "IBTimes",
       "url": "https://www.ibtimes.com/china-sent-iran-shoulder-fired-missiles-land-after-xi-denied-it-trump-3805981",
@@ -7425,39 +7473,6 @@
             "n": "NDTV World",
             "b": "lean_left",
             "u": "https://www.ndtv.com/world-news/macron-holds-crisis-meeting-as-monster-wildfires-drive-250-000-from-their-homes-11827855#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e25e2cf3c373",
-      "title": "Ukraine and UK strengthen ties",
-      "description": "Ukrainian President Zelenskyy met with UK Prime Minister Burnham, solidifying their countries' alliance.",
-      "lat": 52.6,
-      "lng": -0.12000000000000455,
-      "severity": 1,
-      "location": "London, United Kingdom",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/ukraine-s-zelenskyy-in-uk-to-meet-new-pm-burnham/a-78136104?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1785188553593,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/ukraine-s-zelenskyy-in-uk-to-meet-new-pm-burnham/a-78136104?maca=en-rss-en-all-1573-rdf"
           }
         ]
       }
