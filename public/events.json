@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-01T09:32:39.899253+00:00",
+  "updated": "2026-08-01T11:01:47.230372+00:00",
   "events": [
+    {
+      "id": "2f34dcce093a",
+      "title": "UEFA Welcomes FIFA's Decision to Scrap Stake Sale",
+      "description": "UEFA has welcomed FIFA's decision to scrap its plans to sell a stake in the World Cup, a proposal that had been met with widespread opposition from European football's governing body.",
+      "lat": 48.86,
+      "lng": 4.1952,
+      "severity": 2,
+      "location": "Paris, France",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/sport/uefa-welcomes-fifas-decision-scrap-stake-sale-6292726",
+      "image": null,
+      "ts": 1785578745000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/sport/uefa-welcomes-fifas-decision-scrap-stake-sale-6292726"
+          }
+        ]
+      }
+    },
     {
       "id": "4aa04fc84882",
       "title": "Egypt Wins Chairmanship of AI Governance and Quantum Computing Working Groups",
@@ -69,6 +102,44 @@
             "n": "New York Times World",
             "b": "lean_left",
             "u": "https://www.nytimes.com/2026/08/01/world/europe/spain-ceuta-migrants-morocco-border.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "06b60a2cd387",
+      "title": "Iran Accuses U.S. of Escalating Tensions as Washington Plans More Strikes",
+      "description": "Iran accused the U.S. of escalating tensions in the region and said it's preparing its own response if Washington goes ahead with new strikes.",
+      "lat": 25.0,
+      "lng": 56.0,
+      "severity": 2,
+      "location": "Muscat, Oman",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-kuwait-jordan-air-base/",
+      "image": null,
+      "ts": 1785573242000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 1,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/middle-east-flare-ups_n_6a6b0f6ce4b098352c30d0ba"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-kuwait-jordan-air-base/"
           }
         ]
       }
@@ -868,43 +939,33 @@
     },
     {
       "id": "c67dfef6d665",
-      "title": "Hamas Disarmament Deal Announced, But Implementation Will Be Key",
-      "description": "A deal for Hamas to disarm in stages in return for Israeli withdrawal has been announced, but its implementation will be crucial to its success.",
+      "title": "Two-Week Ceasefire Intended to Allow Hamas Disarmament, Launch Peace Deal",
+      "description": "There is currently a two-week ceasefire to finalize the details of the process. However, if Hamas does not begin the process, this will be considered a violation of and an end to the ceasefire.",
       "lat": 31.78,
       "lng": 37.12520000000001,
-      "severity": 2,
+      "severity": 1,
       "location": "Jerusalem, Israel",
       "source": "Jerusalem Post",
       "url": "https://www.jpost.com/israel-news/defense-news/article-904233",
       "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_1066,w_1600/698406",
       "ts": 1785520533000,
       "coverage": {
-        "left": 2,
+        "left": 0,
         "center": 1,
         "right": 0,
-        "total": 3,
+        "total": 1,
         "buckets": {
           "left": 0,
-          "lean_left": 2,
+          "lean_left": 0,
           "center": 1,
           "lean_right": 0,
           "right": 0
         },
         "sources": [
           {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/07/31/world/middleeast/trump-gaza-hamas-deal-disarm.html"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/7/31/world-reacts-with-cautious-optimism-to-hamas-disarmament-agreement?traffic_source=rss"
-          },
-          {
-            "n": "Rio Times",
+            "n": "Jerusalem Post",
             "b": "center",
-            "u": "https://www.riotimesonline.com/fdlr-disarmament-congo-rwanda-washington-accords-2026/"
+            "u": "https://www.jpost.com/israel-news/defense-news/article-904233"
           }
         ]
       }
@@ -1166,54 +1227,6 @@
             "n": "Yonhap News",
             "b": "center",
             "u": "https://en.yna.co.kr/view/AEN20260731012100315"
-          }
-        ]
-      }
-    },
-    {
-      "id": "06b60a2cd387",
-      "title": "Iran Strikes Two Tankers Under U.S. 'Air Escort' in Hormuz",
-      "description": "Iran says it struck two tankers under U.S. 'air escort' trying to pass Hormuz, escalating tensions in the region.",
-      "lat": 25.0,
-      "lng": 56.0,
-      "severity": 4,
-      "location": "Muscat, Oman",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-kuwait-jordan-air-base/",
-      "image": null,
-      "ts": 1785507079000,
-      "coverage": {
-        "left": 4,
-        "center": 0,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 2,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/middle-east-flare-ups_n_6a6b0f6ce4b098352c30d0ba"
-          },
-          {
-            "n": "The Intercept",
-            "b": "left",
-            "u": "https://theintercept.com/2026/07/28/iran-missiles-drones-us-air-defenses/"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-kuwait-jordan-air-base/"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/iran-israel-war-live-july-31-2026-updates-pakistan-us-donald-trump-west-asia/article71288966.ece"
           }
         ]
       }
@@ -7500,39 +7513,6 @@
             "n": "Channel News Asia",
             "b": "center",
             "u": "https://www.channelnewsasia.com/singapore/singapore-australia-protocol-essential-supplies-free-trade-agreement-6280141"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cab24c8f4d36",
-      "title": "South Korean court gives ousted Yoon suspended jail term for lying during campaign",
-      "description": "Former South Korean President President Yoon Suk Yeol has been convicted of making false statements during his presidential campaign",
-      "lat": 37.56,
-      "lng": 126.97,
-      "severity": 3,
-      "location": "Seoul, South Korea",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/south-korean-court-ousted-president-yoon-suspended-jail-135110496",
-      "image": "https://s.abcnews.com/images/International/wirestory_cc56b97ea82bdd372b9359c4cd39a4f2_4x3_384.jpg",
-      "ts": 1785140283000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/south-korean-court-ousted-president-yoon-suspended-jail-135110496"
           }
         ]
       }
