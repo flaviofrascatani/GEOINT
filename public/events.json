@@ -1,7 +1,50 @@
 {
   "schema": 1,
-  "updated": "2026-08-01T19:47:21.823087+00:00",
+  "updated": "2026-08-01T21:03:22.299719+00:00",
   "events": [
+    {
+      "id": "023e2b34d3da",
+      "title": "Tourist plane crashes in Peru",
+      "description": "A small plane carrying tourists crashed in a field outside the city of Nazca, killing 13 people.",
+      "lat": -14.83,
+      "lng": -74.95,
+      "severity": 4,
+      "location": "Nazca, Peru",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/tourist-plane-crashes-peru-killing-13-nazca-lines-135294691",
+      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
+      "ts": 1785617431000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/tourist-plane-crashes-peru-killing-13-nazca-lines-135294691"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c70g132erlko?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/13-dead-after-small-tourist-plane-crashes-in-peru/a-78204342?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
     {
       "id": "d7e593423a85",
       "title": "Gaza hospital strike",
@@ -37,11 +80,11 @@
     },
     {
       "id": "7b9858afbbad",
-      "title": "EU meeting on migrant crisis",
-      "description": "The EU will hold an urgent meeting of interior ministers to discuss the migrant crisis in Ceuta.",
+      "title": "EU to hold urgent meeting on Ceuta migrant crisis",
+      "description": "The EU is to hold an urgent meeting of interior ministers on Tuesday amid continued divisions in the bloc over the mass crossing of migrants into the Spanish territory of Ceuta.",
       "lat": 51.95,
       "lng": 6.255200000000002,
-      "severity": 2,
+      "severity": 3,
       "location": "Brussels, Belgium",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing",
@@ -2289,6 +2332,44 @@
             "n": "HuffPost World",
             "b": "left",
             "u": "https://www.huffpost.com/entry/migration-spain-ceuta-morocco_n_6a6c8e34e4b0ea7db0fc2baf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "02d4ff7dd52b",
+      "title": "Migrant crisis in Ceuta",
+      "description": "At least 57 people died trying to enter the Spanish enclave of Ceuta from Morocco, with tens of thousands crossing the border.",
+      "lat": 35.89,
+      "lng": -5.310000000000002,
+      "severity": 4,
+      "location": "Ceuta, Spain",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/migration-spain-ceuta-morocco_n_6a6c8e34e4b0ea7db0fc2baf",
+      "image": null,
+      "ts": 1785499654000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/01/world/europe/spain-ceuta-migrants-morocco-border.html"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/07/31/residents-of-spanish-enclave-of-ceuta-angered-by-mass-influx-of-migrants/"
           }
         ]
       }
@@ -7407,72 +7488,6 @@
             "n": "GNews Geopolitics",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeGxuNkNPd0oxM2NINVF0YkhnZElaRmQyb2NLcy1pNC1XamlpUnBsNFJlVzd6OU0xNnlCalA4cTR4Nm1aNXlmcXZZMlJ6bWc0dEhFNUNlSF9iSTlpUkRkWnhja3ZORDM0YkgxUUE5Tm01VDJwSVVBNnFHVEdaSnk5Rlhram1fcjkwT1ZvcUNBYw?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0950e17e5755",
-      "title": "Iran releases video showing 'where and how to kill' First Lady Melania Trump",
-      "description": "A video has been released in Iran showing the alleged weaknesses of First Lady Melania Trump, sparking concerns.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 3,
-      "location": "Tehran, Iran",
-      "source": "Daily Star World",
-      "url": "https://www.dailystar.co.uk/news/world-news/breaking-iran-releases-sick-where-37483154",
-      "image": "https://i2-prod.irishstar.com/news/us-news/article37474481.ece/ALTERNATES/s615/1_TOPSHOT-US-POLITICS-TRUMP.jpg",
-      "ts": 1785184167000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Daily Star World",
-            "b": "right",
-            "u": "https://www.dailystar.co.uk/news/world-news/breaking-iran-releases-sick-where-37483154"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e322b5095230",
-      "title": "U.S. and Iran Hold Fire Amid Diplomatic Efforts",
-      "description": "The U.S. and Iran have held fire amid diplomatic efforts, with President Trump stating that there is a good chance of progress in talks.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/donald-trump-says-good-chance-of-progress-in-iran-talks-as-both-hold-fire-11830052#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-07/eecul5v_donald-trump_625x300_23_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1785181435000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/donald-trump-says-good-chance-of-progress-in-iran-talks-as-both-hold-fire-11830052#publisher=newsstand"
           }
         ]
       }
