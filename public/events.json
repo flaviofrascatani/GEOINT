@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-02T17:09:49.062933+00:00",
+  "updated": "2026-08-02T18:32:57.884378+00:00",
   "events": [
+    {
+      "id": "38d95e3ad1e3",
+      "title": "At least 72 dead amid mass migrant rush to storm Spanish enclave of Ceuta",
+      "description": "At least 72 migrants are dead as Spain searches for more victims and a deadly border crossing sparks renewed political tensions across Europe.",
+      "lat": 35.88,
+      "lng": -5.310000000000002,
+      "severity": 4,
+      "location": "Ceuta, Spain",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/least-72-dead-mass-migrant-rush-storm-spanish-enclave-ceuta-sparking-border-crisis",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/08/931/523/migrants-ceuta-spain-morocco-return.jpg?ve=1&tl=1",
+      "ts": 1785690071000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/least-72-dead-mass-migrant-rush-storm-spanish-enclave-ceuta-sparking-border-crisis"
+          }
+        ]
+      }
+    },
     {
       "id": "64bdaa9e54e2",
       "title": "Suicide bomber kills 14 outside police station in Pakistan",
@@ -36,6 +69,39 @@
             "n": "South China Morning Post",
             "b": "center",
             "u": "https://www.scmp.com/news/asia/south-asia/article/3362726/least-14-dead-suicide-bomb-attack-anti-militant-rally-pakistan?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "718c3a597408",
+      "title": "13 Killed In Suicide Blast During Peace Rally In Pakistan",
+      "description": "The blast happened when a peace rally was going on in a town in Swat district, Pakistan",
+      "lat": 36.4,
+      "lng": 73.3126,
+      "severity": 4,
+      "location": "Swat, Pakistan",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/7-killed-in-suicide-blast-during-peace-rally-in-pakistan-khyber-pakhtunkhwa-11856435#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-08/hnikolf_swat-explosion_625x300_02_August_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1785688253000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/7-killed-in-suicide-blast-during-peace-rally-in-pakistan-khyber-pakhtunkhwa-11856435#publisher=newsstand"
           }
         ]
       }
@@ -7482,77 +7548,6 @@
             "n": "Google News Top",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeWdMSVB3OUxtSmtXNWtjQW9EWHRKb0hKaUFkeXd4ek45MHpkUUhFWnNBNHpIUnJpM2RXYkU5MHJOaHN2c1BJeDdXZ0ZpZDdkVUNfbHczcmt2MExCQ082MUZWbnFxYXd4U0ZidUI4bUhWb3NMMjdNVjFyLXh1c3E2ZEVDY1dHSEpoSGFFVE0xWHRheGhRdXkybnBuTnVZSC0yaTl5U3QtdEJQenhEMThhSGVtQkZVcmRMakdN?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "54cfb930c80e",
-      "title": "Lee and Lula agree to boost S. Korea-Brazil cooperation",
-      "description": "South Korean President Lee Jae Myung and Brazilian President Luiz Inácio Lula da Silva have agreed to boost cooperation between their countries.",
-      "lat": -23.55,
-      "lng": -46.63,
-      "severity": 1,
-      "location": "Sao Paulo, Brazil",
-      "source": "Yonhap News",
-      "url": "https://en.yna.co.kr/view/AEN20260728005551315",
-      "image": "https://img.yna.co.kr/etc/inner/EN/2026/07/28/AEN20260728005551315_01_i_P2.jpg",
-      "ts": 1785257386000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20260728005551315"
-          }
-        ]
-      }
-    },
-    {
-      "id": "65fef4f48362",
-      "title": "France, Spain Make Headway Against Wildfires",
-      "description": "Firefighters have made progress in containing huge wildfires that have forced unprecedented evacuations of tens of thousands of people across France and Spain.",
-      "lat": 43.61,
-      "lng": 1.4399999999999977,
-      "severity": 3,
-      "location": "Toulouse, France",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3362177/france-spain-make-headway-against-wildfires-new-heatwave-looms?utm_source=rss_feed",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/29/6874cbf1-0f32-4c52-8f96-1fc854e4c55e_9079f6e2.jpg?itok=Aw-LNIUo&v=1785254459",
-      "ts": 1785254469000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/video/wildfires-scorch-spain-and-france-with-more-dry-weather-expected/"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/europe/article/3362177/france-spain-make-headway-against-wildfires-new-heatwave-looms?utm_source=rss_feed"
           }
         ]
       }
