@@ -1,7 +1,141 @@
 {
   "schema": 1,
-  "updated": "2026-08-02T09:15:48.319557+00:00",
+  "updated": "2026-08-02T11:03:03.924566+00:00",
   "events": [
+    {
+      "id": "18be42409dd6",
+      "title": "Five dead, 41 missing in Indonesia ferry fire",
+      "description": "A ferry carrying around 250 passengers and crew caught fire off the coast of Indonesia's Madura Island, leaving at least five people dead and 41 missing.",
+      "lat": -7.05,
+      "lng": 113.43,
+      "severity": 4,
+      "location": "Madura Island, Indonesia",
+      "source": "Daily Express World",
+      "url": "https://www.express.co.uk/news/world/2235252/indonesia-ferry-fire-Mutiara-Sentosa-2-Madura-island",
+      "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2235252_1.jpg",
+      "ts": 1785668340000,
+      "coverage": {
+        "left": 1,
+        "center": 6,
+        "right": 1,
+        "total": 8,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 6,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/five-dead-fire-ferry-indonesia-37505031"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c74g0wjvlrxo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/at-least-five-dead-and-41-missing-after-indonesian-ferry-catches-fire-13569145"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/indonesia-at-least-five-dead-in-ferry-fire/a-78206895?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/international/article-904310"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/asia/indonesia-ferry-fire-five-dead-41-missing-6293626"
+          },
+          {
+            "n": "Times of India World",
+            "b": "center",
+            "u": "https://timesofindia.indiatimes.com/world/rest-of-world/5-dead-41-missing-after-ferry-catches-fire-off-indonesias-madura-island/articleshow/132804243.cms"
+          },
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2235252/indonesia-ferry-fire-Mutiara-Sentosa-2-Madura-island"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6b806f181c43",
+      "title": "Iran denies reaching compromise deal with US on opening Strait of Hormuz",
+      "description": "Iran denied reports that it had reached a compromise deal with the US on reopening the Strait of Hormuz, with a news agency calling the claims 'false'.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "TASS",
+      "url": "https://tass.com/world/2168119",
+      "image": null,
+      "ts": 1785666898000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2168119"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9c56e04eefa3",
+      "title": "Three killed in explosion at Moscow restaurant",
+      "description": "An explosion at a Moscow restaurant killed three people and wounded 21 others, with Russian authorities saying it was a bombing.",
+      "lat": 56.85,
+      "lng": 37.620000000000005,
+      "severity": 4,
+      "location": "Moscow, Russia",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/explosion-moscow-restaurant-fatalities-injuries/",
+      "image": null,
+      "ts": 1785642059000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/explosion-moscow-restaurant-fatalities-injuries/"
+          }
+        ]
+      }
+    },
     {
       "id": "a8a3bf1f89a2",
       "title": "Spain installs sea barrier on Ceuta's border with Morocco after frontier rush that killed 67",
@@ -1267,11 +1401,11 @@
     },
     {
       "id": "e1ee2d660fd7",
-      "title": "U.S. general warns Pentagon he lacks sufficient forces to protect Israel",
-      "description": "A U.S. general warned the Pentagon that he lacks sufficient forces to defend Israel against Iranian ballistic missile attacks.",
+      "title": "US general warns Pentagon he lacks sufficient forces to protect Israel",
+      "description": "A US general warned the Pentagon that he lacks sufficient forces to protect Israel due to a shortage of Navy destroyers used to defend against Iranian ballistic missile attacks.",
       "lat": 33.17,
       "lng": 36.67519999999999,
-      "severity": 2,
+      "severity": 3,
       "location": "Tel Aviv, Israel",
       "source": "Washington Post World",
       "url": "https://www.washingtonpost.com/national-security/2026/08/01/general-warns-pentagon-he-lacks-sufficient-forces-protect-israel/",
@@ -1280,20 +1414,25 @@
       "coverage": {
         "left": 1,
         "center": 0,
-        "right": 0,
-        "total": 1,
+        "right": 1,
+        "total": 2,
         "buckets": {
           "left": 0,
           "lean_left": 1,
           "center": 0,
           "lean_right": 0,
-          "right": 0
+          "right": 1
         },
         "sources": [
           {
             "n": "Washington Post World",
             "b": "lean_left",
             "u": "https://www.washingtonpost.com/national-security/2026/08/01/general-warns-pentagon-he-lacks-sufficient-forces-protect-israel/"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/policy/defense/4672016/us-general-pentagon-cannot-defend-israel/"
           }
         ]
       }
@@ -7434,140 +7573,6 @@
             "n": "New York Post",
             "b": "lean_right",
             "u": "https://nypost.com/2026/07/28/world-news/iran-hangs-2-men-convicted-of-killing-4-police-officers-in-january-protests/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3105e4ca124e",
-      "title": "Uganda declares end to Ebola outbreak",
-      "description": "Uganda has officially declared the end of its 2026 Ebola Disease outbreak, the Ministry of Health announced on Tuesday.",
-      "lat": 1.42,
-      "lng": 34.48519999999999,
-      "severity": 1,
-      "location": "Kampala, Uganda",
-      "source": "All Africa",
-      "url": "https://allafrica.com/stories/202607280119.html",
-      "image": null,
-      "ts": 1785232822000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "All Africa",
-            "b": "center",
-            "u": "https://allafrica.com/stories/202607280119.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9285d6a171b8",
-      "title": "Oman Proposes Malacca-Style Plan to End Iran's Grip on Hormuz",
-      "description": "Oman has proposed a plan to end Iran's sole control over the Strait of Hormuz, based on the model of the Strait of Malacca.",
-      "lat": 23.61,
-      "lng": 58.54,
-      "severity": 2,
-      "location": "Muscat, Oman",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/oman-presented-regional-mechanism-for-hormuz-to-iran-source-says-11831902#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-07/t6kdtf6o_strait-of-hormuz_625x300_16_July_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "ts": 1785228335000,
-      "coverage": {
-        "left": 1,
-        "center": 4,
-        "right": 0,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 4,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/oman-presented-regional-mechanism-for-hormuz-to-iran-source-says-11831902#publisher=newsstand"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/07/28/us-iran-war-trump-hormuz.html"
-          },
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/07/28/media-oman-propone-a-iran-gestione-congiunta-hormuz-con-tariffe-volontarie_54f2433f-fac8-4cb3-a33a-db48d4120614.html"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxbDlqWVU4MElfVjFKcGx5UnVmY0RjaVlWdE9nbUNoeEF0YlNkTW5RUTY3dWRSbGMzdGxKU05GT3Uta3BJWVc5eVdJMmcwcVVxLUJjMlI3c29pX1BtTGZLbURqRTd2dlphQ2c?oc=5"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-07-27/iran-oman-talks-focused-on-restarting-hormuz-shipping-traffic"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f0ca80363d46",
-      "title": "7.1-Magnitude Earthquake Hits Japan",
-      "description": "A major earthquake has struck Japan's Kyushu region, triggering a tsunami advisory for the Ariake and Yatsushiro seas.",
-      "lat": 32.82,
-      "lng": 130.74,
-      "severity": 4,
-      "location": "Kumamoto, Japan",
-      "source": "NBC News World",
-      "url": "https://www.nbcnews.com/world/japan/earthquake-rocks-japan-tsunami-warnings-rcna589574",
-      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-07/260728-japan-3-rs-46bfb5.jpg",
-      "ts": 1785225271000,
-      "coverage": {
-        "left": 2,
-        "center": 1,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/live/2026/07/28/world/japan-earthquake-kumamoto-tsunami"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/japan-earthquake-tsunami-alert-strong-7-1-magnitude-earthquake-hit-southern-japan-tsunami-alert-issued-11831700#publisher=newsstand"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/major-earthquake-hits-japan-13567677"
-          },
-          {
-            "n": "Daily Star World",
-            "b": "right",
-            "u": "https://www.dailystar.co.uk/news/world-news/71-magnitude-earthquake-hits-japan-37484061"
           }
         ]
       }
