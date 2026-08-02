@@ -1,7 +1,70 @@
 {
   "schema": 1,
-  "updated": "2026-08-02T03:42:43.675638+00:00",
+  "updated": "2026-08-02T06:40:27.740688+00:00",
   "events": [
+    {
+      "id": "a8a3bf1f89a2",
+      "title": "Spain installs sea barrier on Ceuta's border with Morocco after frontier rush that killed 67",
+      "description": "Spain installed a 500-meter-long barrier on Saturday in response to the tens of thousands of migrants who had suddenly rushed en masse to the country's North African territory earlier in the week",
+      "lat": 35.888,
+      "lng": -5.3659999999999854,
+      "severity": 3,
+      "location": "Ceuta, Spain",
+      "source": "Le Monde English",
+      "url": "https://www.lemonde.fr/en/international/article/2026/08/02/spain-installs-sea-barrier-on-ceuta-s-border-with-morocco-after-frontier-rush-that-killed-67_6756077_4.html",
+      "image": "https://img.lemde.fr/2026/08/02/500/0/6000/3000/644/322/60/0/1e5b14a_ftp-1-qu5dcxnsxjrh-2026-08-02t032946z-138855051-rc2vpma8ilfl-rtrmadp-3-migration-europe-spain-ceuta.JPG",
+      "ts": 1785641951000,
+      "coverage": {
+        "left": 4,
+        "center": 2,
+        "right": 1,
+        "total": 7,
+        "buckets": {
+          "left": 0,
+          "lean_left": 4,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/death-toll-spain-morocco-border-crisis-ceuta-reaches-135282467"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/video/why-did-a-wave-of-migrants-cross-from-morocco-into-spains-ceuta-territory/"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/spain-ceuta-morocco-migrants-army-37502961"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/08/02/spain-installs-sea-barrier-on-ceuta-s-border-with-morocco-after-frontier-rush-that-killed-67_6756077_4.html"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/europe/20260801-spain-installs-floating-barrier-in-ceuta-after-migration-influx"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTzdtaDJZaWxwWXdCU2ZFdGktck10WUNJNndTOHhfelE2Z2FxcnlveklNOEJtVlBoVnAta0FKQmY0dHlNM1kyTjItSDRkcGV1dDVLeUwxZ1VrNktPQ2JGbW1MemNMSm5CNmxDZ0pfbklES0lGQ0RDN2pUN1RtVzl0OVZqcnpfaVRqd3ZhTDhBVFIzbXBJNzg5M0huSlJGMDdWcE1fQlZyV1h5WHZkaWhRQVhFeHpqZw?oc=5"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/africa/deadly-rush-to-spains-ceuta-exposes-desperation-of-moroccos-young"
+          }
+        ]
+      }
+    },
     {
       "id": "be6df97ec5ce",
       "title": "Trump cancels Iran attack",
@@ -157,6 +220,54 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/643762-idaho-restaurant-shootout-killed/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "74bbf33402a2",
+      "title": "Three people killed in shooting at In-N-Out Burger in Idaho",
+      "description": "Three people were killed and seven more were injured on Saturday afternoon in a shooting in Twin Falls, Idaho, near an In-N-Out restaurant",
+      "lat": 43.6629,
+      "lng": -114.461,
+      "severity": 4,
+      "location": "Twin Falls, Idaho, USA",
+      "source": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/crime/4672056/people-killed-shooting-in-n-out-twin-falls-idaho/",
+      "image": null,
+      "ts": 1785633403000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 2,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 2
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/us-multiple-dead-in-shooting-at-in-n-out-burger-in-idaho/a-78205684?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYW9uN0pxS05KdmgwSlBrYXdBTjBJTDY2N05QS2FSbUIycnRaR3ZnYTdBVTU5OUxpWnpGZnJUS0tVUWR0dFJIbGNKZGVYZEdxS3RfZjk1bHVnc3h3TTRHN2g1TUFMRU8yZHk3NnE0elkzZXFtUEwxRWNuZjktOTdmcGpCbUxYQW9vM05nZUZ3?oc=5"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/crime/2026/08/01/multiple-people-killed-after-shooter-opens-fire-at-idaho-in-n-out-restaurant-suspect-dead/"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/crime/4672056/people-killed-shooting-in-n-out-twin-falls-idaho/"
           }
         ]
       }
@@ -334,6 +445,39 @@
       }
     },
     {
+      "id": "8e48527aad08",
+      "title": "Israel says it killed several Hezbollah members on key Lebanon hilltop",
+      "description": "The confrontation, over a strategic ridge in southern Lebanon, challenged a fragile cease-fire between Israel and the Iran-backed militant group",
+      "lat": 34.4538,
+      "lng": 35.513300000000015,
+      "severity": 3,
+      "location": "Southern Lebanon",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/08/01/world/middleeast/israel-hezbollah-lebanon-killing.html",
+      "image": "https://static01.nyt.com/images/2026/08/01/multimedia/01int-israel-lebanon-zqwt/01int-israel-lebanon-zqwt-mediumSquareAt3X.jpg",
+      "ts": 1785615248000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/01/world/middleeast/israel-hezbollah-lebanon-killing.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "d7e593423a85",
       "title": "Gaza hospital strike",
       "description": "Israeli strikes on Gaza left a huge crater at a hospital, killing seven people and damaging medical supplies.",
@@ -417,10 +561,10 @@
     {
       "id": "7b9858afbbad",
       "title": "EU to hold urgent meeting of interior ministers on Tuesday over Ceuta crisis",
-      "description": "The EU is to hold an urgent meeting of interior ministers on Tuesday amid continued divisions in the bloc over the influx of migrants into the enclave of Ceuta.",
+      "description": "The EU is to hold an urgent meeting of interior ministers on Tuesday amid continued divisions in the bloc over the mass crossing of migrants into Spanish territory in north Africa",
       "lat": 51.95,
       "lng": 6.255200000000002,
-      "severity": 2,
+      "severity": 3,
       "location": "Brussels, Belgium",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing",
@@ -2385,11 +2529,11 @@
     },
     {
       "id": "566418051710",
-      "title": "UAE’s Etihad stakes its claim in West African skies with Nigeria’s Air Peace",
-      "description": "Etihad Airways has signed interline agreements with Air Peace in Nigeria and Africa World Airlines in Ghana, favouring local alliances to take on Emirates and Qatar Airways.",
+      "title": "UAE's Etihad stakes its claim in West African skies with Nigeria's Air Peace",
+      "description": "Etihad Airways has signed interline agreements with Air Peace in Nigeria and Africa World Airlines in Ghana",
       "lat": 6.45,
       "lng": 3.38,
-      "severity": 2,
+      "severity": 1,
       "location": "Lagos, Nigeria",
       "source": "The Africa Report",
       "url": "https://www.theafricareport.com/426681/uaes-etihad-stakes-its-claim-in-west-african-skies-with-nigerias-air-peace/",
@@ -7424,120 +7568,6 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/emergencies/2166225"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e3bc1c2edf9a",
-      "title": "Iran's Foreign Minister Discusses Security of Strait of Hormuz with Saudi, Omani Counterparts",
-      "description": "Iran's foreign minister discussed issues related to the security of the Strait of Hormuz in separate phone calls with his Saudi and Omani counterparts.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 2,
-      "location": "Strait of Hormuz",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/07/irans-foreign-minister-discusses-security-strait-hormuz-saudi-omani-counterparts",
-      "image": null,
-      "ts": 1785217606000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/video/us-iran-fighting-paused-as-progress-reported-in-talks-to-reopen-strait-of-hormuz/"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/07/28/us-iran-war-trump-hormuz.html"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/07/irans-foreign-minister-discusses-security-strait-hormuz-saudi-omani-counterparts"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2166219"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e8a4338942ea",
-      "title": "China Vows Response to US Sanctions Threat Against AI Firms",
-      "description": "China Vows Response to US Sanctions Threat Against AI Firms",
-      "lat": 41.52,
-      "lng": -3.710000000000008,
-      "severity": 2,
-      "location": "Madrid, Spain",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMW4xS3BqaGhYRTV6M19Vd2NpNWZZTjB1TVk4TkRQZHBha3NRbnY4WmpiVUN2M0hwUHQzaGZhU1Z5TWp0VzNIQk85RW9VU1g2a19hanVsSFh3ZTY3NXBoQ3ZDbzU4Xy1SZkEtU3RoRWRTRkl3eF9TU1VwV0Y3LWNxSTRsRDlBN1FhMXFBT3Z1WEQwSGhNVFVZRHlDclVta1pqcUtlN05tNGFfV3RHUWdv?oc=5",
-      "image": "https://mf.b37mrtl.ru/files/2026.07/thumbnail/6a67805285f54078c8522422.jpg",
-      "ts": 1785211260000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMW4xS3BqaGhYRTV6M19Vd2NpNWZZTjB1TVk4TkRQZHBha3NRbnY4WmpiVUN2M0hwUHQzaGZhU1Z5TWp0VzNIQk85RW9VU1g2a19hanVsSFh3ZTY3NXBoQ3ZDbzU4Xy1SZkEtU3RoRWRTRkl3eF9TU1VwV0Y3LWNxSTRsRDlBN1FhMXFBT3Z1WEQwSGhNVFVZRHlDclVta1pqcUtlN05tNGFfV3RHUWdv?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f22b2add8a16",
-      "title": "France Battles Wildfires",
-      "description": "France is struggling to contain massive wildfires, with over 220,000 people evacuated from the affected areas.",
-      "lat": 44.83,
-      "lng": -0.5699999999999932,
-      "severity": 4,
-      "location": "Bordeaux, France",
-      "source": "Mirror World",
-      "url": "https://www.mirror.co.uk/news/world-news/france-wildfires-live-bordeaux-map-37479425",
-      "image": "https://i2-prod.dailystar.co.uk/incoming/article37480017.ece/ALTERNATES/s615/0_GettyImages-2287122823.jpg",
-      "ts": 1785209145000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/france-wildfires-live-bordeaux-map-37479425"
           }
         ]
       }
