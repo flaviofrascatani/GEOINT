@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-08-02T14:10:20.440517+00:00",
+  "updated": "2026-08-02T15:41:02.635013+00:00",
   "events": [
+    {
+      "id": "cb39af2df6ed",
+      "title": "Satellite lofted for first Arab country",
+      "description": "A Chinese-made communications satellite became the first 'export' of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
+      "lat": 36.77,
+      "lng": 3.06,
+      "severity": 1,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1785685262498,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a0fcd6445818",
+      "title": "Japan, US carried out joint forex intervention Friday for 1st time since 2011",
+      "description": "Japan and the US carried out a joint forex intervention on Friday, the first such move since 2011.",
+      "lat": 36.78,
+      "lng": 139.76,
+      "severity": 2,
+      "location": "Tokyo, Japan",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/markets/currencies/japan-us-carried-out-joint-forex-intervention-friday-for-1st-time-since-2011",
+      "image": null,
+      "ts": 1785685262498,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Nikkei Asia",
+            "b": "center",
+            "u": "https://asia.nikkei.com/business/markets/currencies/japan-us-carried-out-joint-forex-intervention-friday-for-1st-time-since-2011"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4e40fe022e2a",
+      "title": "Greece firefighting helicopters collide in mid-air",
+      "description": "Two helicopters collided and crashed while fighting a wildfire west of Athens, resulting in the death of two people.",
+      "lat": 37.97,
+      "lng": 23.72,
+      "severity": 3,
+      "location": "Athens, Greece",
+      "source": "Mirror World",
+      "url": "https://www.mirror.co.uk/news/world-news/two-helicopters-collide-wildfires-greece-37505494",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37505490.ece/ALTERNATES/s615/0_TOPSHOT-GREECE-ENVIRONMENT-CLIMATE-WEATHER-WILDFIRE.jpg",
+      "ts": 1785679779000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/french-wildfire-bordeaux-contained-1500-firefighters-battle-separate-135302556"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/two-helicopters-collide-wildfires-greece-37505494"
+          }
+        ]
+      }
+    },
     {
       "id": "acc837318bb6",
       "title": "ASEAN promotes dialogue and diplomacy",
@@ -2089,39 +2193,6 @@
             "n": "BBC World",
             "b": "center",
             "u": "https://www.bbc.co.uk/news/articles/cx2j9nj88rro?at_medium=RSS&at_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cb39af2df6ed",
-      "title": "China Launches Satellite for Algeria",
-      "description": "A Chinese-made communications satellite was launched for Algeria, the first such export to an Arab country.",
-      "lat": 36.77,
-      "lng": 3.06,
-      "severity": 2,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1785546553736,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
           }
         ]
       }
@@ -7477,72 +7548,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/07/germany-deports-afghan-without-criminal-record-first-time-taliban-takeover"
-          }
-        ]
-      }
-    },
-    {
-      "id": "85051df24fc1",
-      "title": "Iraqi PM Visits Turkey",
-      "description": "Iraqi Prime Minister Ali al-Zaidi arrived in Ankara for an official visit to discuss strengthening ties with Turkey.",
-      "lat": 41.03,
-      "lng": 34.76519999999999,
-      "severity": 1,
-      "location": "Ankara, Turkey",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/politics/diplomacy/iraqi-pm-arrives-in-turkiye-for-inaugural-visit",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/07/28/453068.jpg",
-      "ts": 1785248460000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/politics/diplomacy/iraqi-pm-arrives-in-turkiye-for-inaugural-visit"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9f8bf02f83d1",
-      "title": "Mali deploys Shahed-136-type drones for first time in conflict",
-      "description": "Malian forces and their Russian auxiliaries have deployed drones in the country's north.",
-      "lat": 17.59,
-      "lng": -4.21,
-      "severity": 3,
-      "location": "Bamako, Mali",
-      "source": "The Africa Report",
-      "url": "https://www.theafricareport.com/426240/mali-deploys-shahed-136-type-drones-for-first-time-in-conflict/",
-      "image": null,
-      "ts": 1785243600000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Africa Report",
-            "b": "center",
-            "u": "https://www.theafricareport.com/426240/mali-deploys-shahed-136-type-drones-for-first-time-in-conflict/"
           }
         ]
       }
