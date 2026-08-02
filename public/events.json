@@ -1,7 +1,78 @@
 {
   "schema": 1,
-  "updated": "2026-08-02T18:32:57.884378+00:00",
+  "updated": "2026-08-02T19:45:57.596926+00:00",
   "events": [
+    {
+      "id": "176c31cbfeb6",
+      "title": "Pakistan: Suicide bomber kills 14 at anti-militancy protest",
+      "description": "A suicide bomber has killed more than a dozen people, including police, in an attack during a demonstration of citizens against militancy.",
+      "lat": 34.82,
+      "lng": 73.05000000000001,
+      "severity": 4,
+      "location": "Islamabad, Pakistan",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/pakistan-suicide-bomber-kills-14-at-anti-militancy-protest/a-78209642?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1785699957456,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/suicide-attack-during-protest-in-northern-pakistan-police/article71298666.ece"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/pakistan-suicide-bomber-kills-14-at-anti-militancy-protest/a-78209642?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2ee149994127",
+      "title": "Moroccans gather at Ceuta border, desperate for news of loved ones",
+      "description": "Dozens of Moroccans gathered on Sunday in the town of Fnideq, desperately seeking news of their loved ones who were among the thousands who swam across the nearby border to the Spanish territory of Ceuta.",
+      "lat": 35.88,
+      "lng": -5.360000000000014,
+      "severity": 3,
+      "location": "Fnideq, Morocco",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/moroccans-gather-ceuta-border-desperate-news-loved-ones",
+      "image": null,
+      "ts": 1785699034000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/moroccans-gather-ceuta-border-desperate-news-loved-ones"
+          }
+        ]
+      }
+    },
     {
       "id": "38d95e3ad1e3",
       "title": "At least 72 dead amid mass migrant rush to storm Spanish enclave of Ceuta",
@@ -168,6 +239,49 @@
             "n": "Nikkei Asia",
             "b": "center",
             "u": "https://asia.nikkei.com/business/markets/currencies/japan-us-carried-out-joint-forex-intervention-friday-for-1st-time-since-2011"
+          }
+        ]
+      }
+    },
+    {
+      "id": "be8c343f93c3",
+      "title": "Tankers 'waiting for permission' to transit through Strait of Hormuz, Iran says",
+      "description": "Iran's semiofficial Fars news agency aired footage of what it said were vessels 'waiting for permission' from Iran to transit through the Strait of Hormuz.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 2,
+      "location": "Strait of Hormuz",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/08/02/tankers-waiting-for-permission-to-transit-through-strait-of-hormuz-iran-says/",
+      "image": "http://images.euronews.com/articles/stories/09/85/94/60/640x360_cmsv2_c48954a8-b9eb-5c75-a0b2-8ab6eaec878f-9859460.jpg?1785677569",
+      "ts": 1785680602000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/middle-east/2026/0802/1586143-iran-us-strait/"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/02/tankers-waiting-for-permission-to-transit-through-strait-of-hormuz-iran-says/"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2168179"
           }
         ]
       }
@@ -1345,6 +1459,39 @@
             "n": "Jerusalem Post",
             "b": "center",
             "u": "https://www.jpost.com/international/article-904177"
+          }
+        ]
+      }
+    },
+    {
+      "id": "af3e2e68265c",
+      "title": "Iceland seizes Paul Watson Foundation's anti-whaling ship and detains its crew",
+      "description": "Iceland has seized an anti-whaling ship and detained its crew after a whaling ship requested assistance, claiming a threat from the protest vessel.",
+      "lat": 64.08,
+      "lng": -21.93,
+      "severity": 3,
+      "location": "Reykjavik, Iceland",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/iceland-seizes-paul-watson-foundations-anti-whaling-ship-135283766",
+      "image": "https://s.abcnews.com/images/International/wirestory_80064e2df900ed79f916608bd3780002_4x3_384.jpg",
+      "ts": 1785594850000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/iceland-seizes-paul-watson-foundations-anti-whaling-ship-135283766"
           }
         ]
       }
@@ -7401,153 +7548,6 @@
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/east-asia/many-feared-trapped-in-quake-hit-japan-mall"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b1d8ce3233f7",
-      "title": "Kuwait Eyes Saudi-Style Defence Pact With Pak",
-      "description": "Kuwait already has a defence cooperation agreement with Pakistan, but now wants a deeper military backing.",
-      "lat": 29.37,
-      "lng": 47.98,
-      "severity": 2,
-      "location": "Kuwait City, Kuwait",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/kuwait-eyes-saudi-style-defence-pact-with-pak-islamabad-rules-out-troops-11835100#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2022-09/66abjdp8_shehbaz-sharif-pakistan-pm-afp_625x300_21_September_22.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1785264909000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/kuwait-eyes-saudi-style-defence-pact-with-pak-islamabad-rules-out-troops-11835100#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e0df3dee8468",
-      "title": "Wildfires in France",
-      "description": "Thousands of tourists have been evacuated from the coast near Bordeaux as wildfires continue to spread in southwestern France.",
-      "lat": 44.84,
-      "lng": -0.5800000000000125,
-      "severity": 3,
-      "location": "Bordeaux, France",
-      "source": "Mirror World",
-      "url": "https://www.mirror.co.uk/news/world-news/wildfires-france-map-bordeaux-evacuation-37479425",
-      "image": "https://i2-prod.dailystar.co.uk/incoming/article37487014.ece/ALTERNATES/s615/0_France-Wildfires-26209557083918.jpg",
-      "ts": 1785262550000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/wildfires-france-map-bordeaux-evacuation-37479425"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0b01e87f2eb0",
-      "title": "China in touch with Yemen's Houthis to allow ships to sail through Red Sea",
-      "description": "China has held direct talks with Yemen's Houthi movement to enable its tankers to sail through the Red Sea.",
-      "lat": 16.45,
-      "lng": 44.19,
-      "severity": 2,
-      "location": "Sanaa, Yemen",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/07/china-touch-yemens-houthis-allow-ships-sail-through-red-sea-sources-say",
-      "image": null,
-      "ts": 1785260801000,
-      "coverage": {
-        "left": 2,
-        "center": 1,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 1,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/houthis-fire-saudi-oil-installations-on-the-red-seacoast_n_6a64bcc5e4b089c33066a05c"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/iran/us-forgoes-strikes-iran-conflict-escalates-red-sea-rcna589285"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/07/china-touch-yemens-houthis-allow-ships-sail-through-red-sea-sources-say"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1f703e9d6252",
-      "title": "Oman presents Iran with Gulf-backed plan for voluntary fees to use Hormuz",
-      "description": "Oman has presented Iran with a Gulf-backed plan for voluntary fees to use the Strait of Hormuz.",
-      "lat": 24.71,
-      "lng": 58.53999999999999,
-      "severity": 2,
-      "location": "Muscat, Oman",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/oman-presents-iran-with-gulf-backed-plan-for-voluntary-fees-to-use-hormuz/article71278494.ece",
-      "image": "https://th-i.thgim.com/public/incoming/vghf8i/article71278519.ece/alternates/LANDSCAPE_1200/2026-07-28T150947Z_1042020574_RC2REMAJIE46_RTRMADP_3_IRAN-CRISIS-HORMUZ-SHIPPING.JPG",
-      "ts": 1785260569000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/oman-presents-iran-with-gulf-backed-plan-for-voluntary-fees-to-use-hormuz/article71278494.ece"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeWdMSVB3OUxtSmtXNWtjQW9EWHRKb0hKaUFkeXd4ek45MHpkUUhFWnNBNHpIUnJpM2RXYkU5MHJOaHN2c1BJeDdXZ0ZpZDdkVUNfbHczcmt2MExCQ082MUZWbnFxYXd4U0ZidUI4bUhWb3NMMjdNVjFyLXh1c3E2ZEVDY1dHSEpoSGFFVE0xWHRheGhRdXkybnBuTnVZSC0yaTl5U3QtdEJQenhEMThhSGVtQkZVcmRMakdN?oc=5"
           }
         ]
       }
