@@ -1,7 +1,219 @@
 {
   "schema": 1,
-  "updated": "2026-08-02T00:04:41.911519+00:00",
+  "updated": "2026-08-02T03:42:43.675638+00:00",
   "events": [
+    {
+      "id": "be6df97ec5ce",
+      "title": "Trump cancels Iran attack",
+      "description": "US President Donald Trump announced that he will cancel a pending attack on Iran after a rough framework of a peace deal had been reached.",
+      "lat": 16.89,
+      "lng": 42.63,
+      "severity": 2,
+      "location": "Jizan, Saudi Arabia",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-kuwait-jordan-air-base/",
+      "image": "https://www.rte.ie/images/0024be61-800.jpg",
+      "ts": 1785641227000,
+      "coverage": {
+        "left": 3,
+        "center": 7,
+        "right": 3,
+        "total": 13,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 7,
+          "lean_right": 2,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-kuwait-jordan-air-base/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/trump-to-hold-off-new-strikes-on-iran-says-for-future-benefit-of-world-11854541#publisher=newsstand"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/liveblog/2026/8/2/iran-war-live-tehran-warns-of-decisive-response-to-any-us-aggression?traffic_source=rss"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/08/02/trump-iran-attack-cancelled"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/china-sent-iran-shoulder-fired-missiles-land-after-xi-denied-it-trump-3805981"
+          },
+          {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/homenews/sunday-talk-shows/6003978-blanche-attorney-general-nomination-hurdles-sunday-preview/"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/iran-news/article-904286"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd0FsRGVyTmhKN1lFZHVkMkdsREEzZkVqTWJHMDVkOE9mbXdmNklBQjFXUllKU2t5anpDbGhQdVdRRU9rWWxzSmhvV2ZoS09GRFc4Znk1QXlSMkYzbHFfd0VRb0Vuang0MTUwOE5BUGszb1gwTTVrNnZmVU1KWmxBNjZxZEpkSW9pU0ZRWllOc1pHcm5lOWJmYWIyc1JqT2tsYkdjcW1PTnhDbENlUktjWXJ4eEpnUEVZQTd4SXVR?oc=5"
+          },
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/08/02/world/trump-cancels-iran-attacks/"
+          },
+          {
+            "n": "New York Post",
+            "b": "lean_right",
+            "u": "https://nypost.com/2026/08/01/us-news/trump-says-iran-agreed-to-perimeters-of-a-peace-deal-cancels-planned-us-attack/"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2168065"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/trump-retaliates-after-iran-attack-expert-warns-regime-growing-more-dangerous"
+          }
+        ]
+      }
+    },
+    {
+      "id": "48724f558fe2",
+      "title": "Israel kills several in Gaza",
+      "description": "Israeli airstrikes continued in Gaza for a second straight day, killing at least four Palestinians.",
+      "lat": 31.51,
+      "lng": 34.46000000000001,
+      "severity": 4,
+      "location": "Gaza, Palestine",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/2/israel-kills-five-in-gaza-despite-trumps-hamas-disarmament-plan?traffic_source=rss",
+      "image": null,
+      "ts": 1785639531000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/2/israel-kills-five-in-gaza-despite-trumps-hamas-disarmament-plan?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e1309a487972",
+      "title": "Shooting in Idaho",
+      "description": "A gunman opened fire near an In-N-Out restaurant in Idaho, killing at least three people and injuring two others.",
+      "lat": 42.56,
+      "lng": -114.46,
+      "severity": 4,
+      "location": "Twin Falls, Idaho, USA",
+      "source": "RT News",
+      "url": "https://www.rt.com/news/643762-idaho-restaurant-shootout-killed/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.08/thumbnail/6a6eabd985f54061244ce8bd.png",
+      "ts": 1785638069000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/643762-idaho-restaurant-shootout-killed/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d2f50792682a",
+      "title": "Explosion in Moscow restaurant",
+      "description": "A homemade bomb carried by a woman killed three people and injured at least 21 in an explosion near an upscale restaurant in central Moscow.",
+      "lat": 55.75,
+      "lng": 39.525199999999984,
+      "severity": 4,
+      "location": "Moscow, Russia",
+      "source": "AGI Estero",
+      "url": "https://www.agi.it/estero/news/2026-08-01/russia-esplosione-mosca-ristorante-38342825/",
+      "image": "https://images.agi.it/pictures/agi/agi/2026/08/01/201412632-953a52a8-fa94-4ebd-882e-04925367303b.jpg",
+      "ts": 1785621225000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 1,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/russia-bomb-explosion-3-dead-as-bomb-carried-by-woman-explodes-in-moscow-restaurant-11854454#publisher=newsstand"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/moscow-explosion-restaurant-bomb-russia-37504264"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/world/2026/0802/1586141-russia-bomb-world/"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ0NvY2FSNF91RXB2Y0ZtS0pINjJwNHRCZ2FlRGVIWkxGZTZPcXNkbGxzR3k3R1lNcGJPTngySnQ4cGlYbElyMTJOV1hnN0lzc080WU1qY3RFVjZGb1paOTNnZFhIbWwtV3JWcUc2TGR2Z3hRcHNvdVNydGc2bkN4LTNndTJxVjhGakFzNDdvd3E0cUV1UGF6NNIBngFBVV95cUxPbzFfUlFiWWFPallxRE1EWEJrWVBmTjNnaXNXT3U2b3VxclVMSXFONHlZNV84VG5KNnA4MFlxTHVLNFNIb2l6TTUxYVFWUW5JZ2wwblZPSVJVR3FUSTRqbTlTaDJPYlMyY0p6MjhvVVlLOTRGM0tsdktwOWZfeE9OWXlaQVNCamg5bDBfVHI5d0ZPaGtxUnA4YTVmUDdZQQ?oc=5"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/explosion-restaurant-central-moscow-leaves-three-dead-dozen-injured"
+          }
+        ]
+      }
+    },
     {
       "id": "52caac0245f7",
       "title": "Explosion at Moscow restaurant kills three and injures 21",
@@ -1189,6 +1401,44 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/europe/spain-erects-floating-barrier-in-ceuta-after-deadly-border-rush"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0322231518ac",
+      "title": "Russia hits Ukrainian capital",
+      "description": "Russia launched a barrage of ballistic missiles and drones into Kyiv, killing at least nine people and injuring 22.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 4,
+      "location": "Kyiv, Ukraine",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/russia-hits-ukrainian-capital-ballistic-missiles-drones-killing-135279886",
+      "image": "https://s.abcnews.com/images/International/wirestory_eb62397d10bca2d6db4269a3bcfc9dc6_4x3_384.jpg",
+      "ts": 1785567432000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/russia-hits-ukrainian-capital-ballistic-missiles-drones-killing-135279886"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-01/russia-hits-kyiv-with-horrific-missile-barrage-killing-nine"
           }
         ]
       }
@@ -5132,49 +5382,6 @@
       }
     },
     {
-      "id": "be6df97ec5ce",
-      "title": "Trump threatens to hit Iran ‘hard’ following missile attack on U.S. assets",
-      "description": "The US President has threatened to hit Iran hard after a missile attack on US assets.",
-      "lat": 16.89,
-      "lng": 42.63,
-      "severity": 4,
-      "location": "Jizan, Saudi Arabia",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/national-security/2026/07/28/us-says-it-shot-down-iranian-missiles-targeting-troops-middle-east/",
-      "image": "https://www.rte.ie/images/0024be61-800.jpg",
-      "ts": 1785354961000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 2,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 2
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/national-security/2026/07/28/us-says-it-shot-down-iranian-missiles-targeting-troops-middle-east/"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/trump-retaliates-after-iran-attack-expert-warns-regime-growing-more-dangerous"
-          },
-          {
-            "n": "Daily Mail World",
-            "b": "right",
-            "u": "https://www.dailymail.com/news/article-16015265/US-launches-fresh-round-intensive-airstrikes-Iran.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-          }
-        ]
-      }
-    },
-    {
       "id": "105d40e53b96",
       "title": "5 Cops Killed, Dozens Injured In Terrorist Attack In Pakistan",
       "description": "Militants attacked a police post in northwestern Pakistan, triggering a gunbattle that killed five police officers and wounded about two dozen others.",
@@ -7331,148 +7538,6 @@
             "n": "Mirror World",
             "b": "lean_left",
             "u": "https://www.mirror.co.uk/news/world-news/france-wildfires-live-bordeaux-map-37479425"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3298e5603a60",
-      "title": "China and Japan Differ on Foreign Ministers' Meeting",
-      "description": "China and Japan have given conflicting accounts of whether their foreign ministers met at the ASEAN summit.",
-      "lat": 39.91,
-      "lng": 116.38999999999999,
-      "severity": 3,
-      "location": "Beijing, China",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/china-japan-differ-foreign-ministers-spoke-week-asean-135113362",
-      "image": "https://s.abcnews.com/images/International/wirestory_6c20754abd5462e59ec15cdfa1b249d1_4x3_384.jpg",
-      "ts": 1785201717000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/china-japan-differ-foreign-ministers-spoke-week-asean-135113362"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b5794e89a81a",
-      "title": "U.S. Senate backs Clayton's nomination as top spy in procedural vote",
-      "description": "The U.S. Senate has voted to proceed with the nomination of Jay Clayton as the top spy, despite some opposition.",
-      "lat": 38.89,
-      "lng": -77.01,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "TASS",
-      "url": "https://tass.com/world/2166187",
-      "image": null,
-      "ts": 1785197400000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2166187"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0304098752e1",
-      "title": "Zelenskyy visits Britain as new PM signals more support for Kyiv",
-      "description": "Ukrainian President Zelenskyy traveled to the UK to meet with the new Prime Minister, who pledged unwavering support for Ukraine.",
-      "lat": 52.6,
-      "lng": 1.7752000000000123,
-      "severity": 1,
-      "location": "London, United Kingdom",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/zelenskyy-visits-britain-as-new-pm-signals-more-support-for-kyiv/article71274647.ece",
-      "image": "https://th-i.thgim.com/public/incoming/jptqf4/article71274648.ece/alternates/LANDSCAPE_1200/Russia_Ukraine_War__4534.jpg",
-      "ts": 1785194903000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/zelenskyy-visit-britain-visit-foreign-leader-burnham-office-135111156"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/zelenskyy-visits-britain-as-new-pm-signals-more-support-for-kyiv/article71274647.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ec09c284d19f",
-      "title": "Wildfires in France Force Evacuation of Over 220,000 People",
-      "description": "Wildfires in southwestern France have forced the evacuation of over 220,000 people, with the situation being described as the country's 'most difficult' since World War II.",
-      "lat": 44.84,
-      "lng": 0.5800000000000125,
-      "severity": 4,
-      "location": "Bordeaux, France",
-      "source": "Mirror World",
-      "url": "https://www.mirror.co.uk/news/world-news/france-wildfires-live-bordeaux-map-37479425",
-      "image": null,
-      "ts": 1785192246000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 1,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/quarter-million-people-flee-their-homes-in-france-and-spain-as-wildfires-burn_n_6a64a899e4b089c330669d5c"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/macron-holds-crisis-meeting-as-monster-wildfires-drive-250-000-from-their-homes-11827855#publisher=newsstand"
           }
         ]
       }
