@@ -1,7 +1,88 @@
 {
   "schema": 1,
-  "updated": "2026-08-02T19:45:57.596926+00:00",
+  "updated": "2026-08-02T21:03:48.996229+00:00",
   "events": [
+    {
+      "id": "852368e4aa14",
+      "title": "Two crew killed as firefighting helicopters collide in midair in Greece",
+      "description": "Two crew members were killed on Sunday when two helicopters battling a wildfire collided in midair in the Psatha area, on the boundary between Attica and Boeotia northwest of Athens.",
+      "lat": 39.19,
+      "lng": 23.379999999999995,
+      "severity": 4,
+      "location": "Psatha, Greece",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/08/02/two-crew-killed-as-firefighting-helicopters-collide-in-midair-in-greece?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": "https://en.mercopress.com/data/cache/noticias/110997/100x80/images.jpg",
+      "ts": 1785703380000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/europe-wildfire-crisis-helicopter-collision-greece-athens/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/video-2-helicopters-collide-mid-air-while-battling-greek-wildfires-11856535#publisher=newsstand"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/europe/20260802-fire-toll-mounts-in-greece-as-blazes-spread-amid-strong-winds"
+          },
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/08/02/two-crew-killed-as-firefighting-helicopters-collide-in-midair-in-greece?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "50e5a55cc475",
+      "title": "Top Saudi, Iranian diplomats discuss de-escalation efforts in region",
+      "description": "Prince Faisal bin Farhan Al-Saud stressed that Riyadh is committed to continuing to play its regional role in ensuring security and stability.",
+      "lat": 24.71,
+      "lng": 48.585199999999986,
+      "severity": 2,
+      "location": "Riyadh, Saudi Arabia",
+      "source": "TASS",
+      "url": "https://tass.com/world/2168205",
+      "image": null,
+      "ts": 1785703263000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2168205"
+          }
+        ]
+      }
+    },
     {
       "id": "176c31cbfeb6",
       "title": "Pakistan: Suicide bomber kills 14 at anti-militancy protest",
@@ -74,6 +155,64 @@
       }
     },
     {
+      "id": "6b806f181c43",
+      "title": "Iran and Oman close to deal on managing shipping through Hormuz",
+      "description": "Negotiations on an agreement seen as critical to preventing the US-Iran war from escalating are said to be in the final stages.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 1,
+      "location": "Tehran, Iran",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/c9bd508c-2915-4b34-a5a5-553bff9548a5?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1785697224000,
+      "coverage": {
+        "left": 1,
+        "center": 4,
+        "right": 1,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 4,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/us-iran-war-respects-sovereignty-of-both-iran-says-close-to-hormuz-deal-with-oman-11856925#publisher=newsstand"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/middle-east/2026/0802/1586143-iran-us-strait/"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/c9bd508c-2915-4b34-a5a5-553bff9548a5?syn-25a6b1a6=1"
+          },
+          {
+            "n": "AGI Estero",
+            "b": "center",
+            "u": "https://www.agi.it/estero/news/2026-08-02/iran-hormuz-negoziati-38352662/"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/iran-says-close-hormuz-deal-oman-after-us-suspends-attack-plan"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2168179"
+          }
+        ]
+      }
+    },
+    {
       "id": "38d95e3ad1e3",
       "title": "At least 72 dead amid mass migrant rush to storm Spanish enclave of Ceuta",
       "description": "At least 72 migrants are dead as Spain searches for more victims and a deadly border crossing sparks renewed political tensions across Europe.",
@@ -102,6 +241,49 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/least-72-dead-mass-migrant-rush-storm-spanish-enclave-ceuta-sparking-border-crisis"
+          }
+        ]
+      }
+    },
+    {
+      "id": "df92331ce155",
+      "title": "Brazil's Lula launches reelection bid",
+      "description": "Brazil’s President Luiz Inácio Lula da Silva has confirmed his candidacy for what is likely his last reelection bid.",
+      "lat": -15.79,
+      "lng": -47.92,
+      "severity": 2,
+      "location": "Brasília, Brazil",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/brazils-lula-launches-reelection-bid-concerns-rise-foreign-135308231",
+      "image": "https://s.abcnews.com/images/International/wirestory_22cccc3135b09e2186898dd3cb394ed4_4x3_384.jpg",
+      "ts": 1785689294000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/brazils-lula-launches-reelection-bid-concerns-rise-foreign-135308231"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/americas/article/3362729/brazils-president-lula-80-says-great-shape-he-launches-bid-fourth-term?utm_source=rss_feed"
+          },
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/08/02/lula-pledges-defense-spending-so-no-one-invades-brazil-as-he-confirms-his-candidacy?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
           }
         ]
       }
@@ -421,39 +603,6 @@
             "n": "Daily Express World",
             "b": "right",
             "u": "https://www.express.co.uk/news/world/2235252/indonesia-ferry-fire-Mutiara-Sentosa-2-Madura-island"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6b806f181c43",
-      "title": "Iran denies reaching compromise deal with US on opening Strait of Hormuz",
-      "description": "Iran denied reports that it had reached a compromise deal with the US on reopening the Strait of Hormuz, with a news agency calling the claims 'false'.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "TASS",
-      "url": "https://tass.com/world/2168119",
-      "image": null,
-      "ts": 1785666898000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2168119"
           }
         ]
       }
@@ -7449,105 +7598,6 @@
             "n": "Washington Examiner",
             "b": "right",
             "u": "https://www.washingtonexaminer.com/news/world/4666347/iran-struck-14-middle-eastern-nations-where-things-stand-ally-or-neutral-military/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "adee34126771",
-      "title": "Japan earthquake kills at least 2",
-      "description": "A 7.1-magnitude earthquake struck Japan's Kyushu island, causing building collapses, fires, and widespread damage.",
-      "lat": 32.82,
-      "lng": 130.74,
-      "severity": 4,
-      "location": "Kumamoto, Japan",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/live/2026/07/28/world/japan-earthquake-kumamoto-tsunami",
-      "image": "https://static01.nyt.com/images/2026/07/28/multimedia/28japan-earthquake-kumamoto-wkhb/28japan-earthquake-kumamoto-wkhb-mediumSquareAt3X.jpg",
-      "ts": 1785274997000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/7/28/japan-kumamoto-earthquake-what-happened-damage-victims-latest-updates?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "bcec83796d76",
-      "title": "China, Russia exercises highlight holes in Japan's Pacific defenses",
-      "description": "China and Russia have conducted joint military exercises, exposing weaknesses in Japan's defense capabilities.",
-      "lat": 35.68,
-      "lng": 139.76,
-      "severity": 2,
-      "location": "Tokyo, Japan",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/defense/china-russia-exercises-highlight-holes-in-japan-s-pacific-defenses",
-      "image": null,
-      "ts": 1785273425125,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Nikkei Asia",
-            "b": "center",
-            "u": "https://asia.nikkei.com/politics/defense/china-russia-exercises-highlight-holes-in-japan-s-pacific-defenses"
-          }
-        ]
-      }
-    },
-    {
-      "id": "73051084df55",
-      "title": "Many feared trapped in quake-hit Japan mall",
-      "description": "Ten people were thought to be unaccounted for in the mall as night fell after the afternoon quake.",
-      "lat": 32.78,
-      "lng": 132.6452,
-      "severity": 4,
-      "location": "Kumamoto, Japan",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/east-asia/many-feared-trapped-in-quake-hit-japan-mall",
-      "image": null,
-      "ts": 1785266318000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/east-asia/many-feared-trapped-in-quake-hit-japan-mall"
           }
         ]
       }
