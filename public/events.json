@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-08-02T06:40:27.740688+00:00",
+  "updated": "2026-08-02T09:15:48.319557+00:00",
   "events": [
     {
       "id": "a8a3bf1f89a2",
@@ -273,6 +273,39 @@
       }
     },
     {
+      "id": "3fe0471f847d",
+      "title": "France makes major progress in wildfire fight, but danger still lurks",
+      "description": "Even though France's biggest wildfire crisis since 1949 has been contained, many of the blazes are still burning.",
+      "lat": 44.94,
+      "lng": 2.3925999999999874,
+      "severity": 3,
+      "location": "Paris, France",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/video/france-makes-major-progress-in-wildfire-fight-but-danger-still-lurks/",
+      "image": null,
+      "ts": 1785632631000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/video/france-makes-major-progress-in-wildfire-fight-but-danger-still-lurks/"
+          }
+        ]
+      }
+    },
+    {
       "id": "d2f50792682a",
       "title": "Explosion in Moscow restaurant",
       "description": "A homemade bomb carried by a woman killed three people and injured at least 21 in an explosion near an upscale restaurant in central Moscow.",
@@ -473,6 +506,49 @@
             "n": "New York Times World",
             "b": "lean_left",
             "u": "https://www.nytimes.com/2026/08/01/world/middleeast/israel-hezbollah-lebanon-killing.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7265e9545eb1",
+      "title": "Tourist plane crash in Peru kills all 13 people on board",
+      "description": "A tourist plane has crashed in Peru, killing all 13 people on board, according to local authorities.",
+      "lat": -16.53,
+      "lng": -69.07,
+      "severity": 4,
+      "location": "Nazca, Peru",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/tourist-plane-crash-leaves-13-dead-in-peru-13569102",
+      "image": "https://e3.365dm.com/26/08/1920x1080/skynews-peru-plane_7312114.jpg?20260802094609",
+      "ts": 1785613800000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/aug/01/at-least-13-dead-as-tourist-plane-crashes-during-flight-over-perus-nazca-lines"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c70g132erlko?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/tourist-plane-crash-leaves-13-dead-in-peru-13569102"
           }
         ]
       }
@@ -2366,6 +2442,39 @@
       }
     },
     {
+      "id": "d1a99b2e0d48",
+      "title": "At least 57 people die as tens of thousands cross to Spanish enclave of Ceuta from Morocco",
+      "description": "At least 57 people have died trying to reach the Spanish enclave of Ceuta after as many as 60,000 migrants surged into the territory from Morocco.",
+      "lat": 35.89,
+      "lng": -5.310000000000002,
+      "severity": 4,
+      "location": "Ceuta, Spain",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/world/2026/jul/31/ceuta-spain-morocco-border-deaths",
+      "image": null,
+      "ts": 1785520331000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/jul/31/ceuta-spain-morocco-border-deaths"
+          }
+        ]
+      }
+    },
+    {
       "id": "bf06eede7523",
       "title": "Italy Suspends Schengen Agreement with Spain",
       "description": "Italy has suspended its Schengen agreement with Spain due to the migrant crisis in Ceuta.",
@@ -2817,39 +2926,6 @@
             "n": "Mirror World",
             "b": "lean_left",
             "u": "https://www.mirror.co.uk/news/poland-scrambles-fighter-jet-nato-37500006"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d1a99b2e0d48",
-      "title": "60,000 migrants cross into Spanish territory of Ceuta",
-      "description": "At least 34 people died after a border breach, with security forces clashing with migrants on the Moroccan side of the border.",
-      "lat": 35.89,
-      "lng": -5.310000000000002,
-      "severity": 3,
-      "location": "Ceuta, Spain",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/migration-spain-ceuta-morocco_n_6a6c8e34e4b0ea7db0fc2baf",
-      "image": null,
-      "ts": 1785499654000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 1,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/migration-spain-ceuta-morocco_n_6a6c8e34e4b0ea7db0fc2baf"
           }
         ]
       }
@@ -7492,82 +7568,6 @@
             "n": "Daily Star World",
             "b": "right",
             "u": "https://www.dailystar.co.uk/news/world-news/71-magnitude-earthquake-hits-japan-37484061"
-          }
-        ]
-      }
-    },
-    {
-      "id": "41469dc93629",
-      "title": "France, Spain race to contain wildfires as heatwave looms",
-      "description": "France has evacuated 4,000 more people in the face of a giant wildfire as it braced for worsening conditions.",
-      "lat": 44.84,
-      "lng": 0.5800000000000125,
-      "severity": 3,
-      "location": "Bordeaux, France",
-      "source": "RTE News",
-      "url": "https://www.rte.ie/news/europe/2026/0728/1585381-france-spain-wildfires-heatwave/",
-      "image": "https://www.rte.ie/images/0024c580-800.jpg",
-      "ts": 1785219844000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/europe/2026/0728/1585381-france-spain-wildfires-heatwave/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5cd4d60f812c",
-      "title": "Ukraine Attacks Russia's Moscow Region with 390 Drones",
-      "description": "Defenses downed a few dozen drones elsewhere in the region, including in Podolsk, Domodedovo, and Kolomna, Vorobyov said.",
-      "lat": 56.85,
-      "lng": 37.620000000000005,
-      "severity": 4,
-      "location": "Moscow, Russia",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/390-drones-in-one-night-ukraine-attacks-russias-moscow-region-11830934#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2023-05/e8ioeupg_russia-drone-attack-ndtv-650_650x400_03_May_23.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1785217894000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/390-drones-in-one-night-ukraine-attacks-russias-moscow-region-11830934#publisher=newsstand"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/ukraine-strike-iranian-ship-us-investigates-russia-attacks-cia-sites-3805758"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/emergencies/2166225"
           }
         ]
       }
