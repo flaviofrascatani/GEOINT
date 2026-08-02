@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-02T11:03:03.924566+00:00",
+  "updated": "2026-08-02T12:11:05.932976+00:00",
   "events": [
+    {
+      "id": "acc837318bb6",
+      "title": "ASEAN promotes dialogue and diplomacy",
+      "description": "The Association of Southeast Asian Nations (ASEAN) is one of the few places where serious diplomacy still happens, with powers choosing dialogue over conflict.",
+      "lat": 14.58,
+      "lng": 100.99,
+      "severity": 1,
+      "location": "Bangkok, Thailand",
+      "source": "RT News",
+      "url": "https://www.rt.com/news/643671-asean-diplomacy-still-happens/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.07/thumbnail/6a6b667c20302762cc5441d5.jpg",
+      "ts": 1785671258000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/643671-asean-diplomacy-still-happens/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
     {
       "id": "18be42409dd6",
       "title": "Five dead, 41 missing in Indonesia ferry fire",
@@ -3103,6 +3136,39 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/07/31/residents-of-spanish-enclave-of-ceuta-angered-by-mass-influx-of-migrants/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a9649d503f20",
+      "title": "60,000 migrants cross into Spanish territory of Ceuta",
+      "description": "At least 34 people died after a border breach in the Spanish territory of Ceuta in North Africa, with security forces clashing with migrants on the Moroccan side of the border.",
+      "lat": 35.88,
+      "lng": -5.310000000000002,
+      "severity": 3,
+      "location": "Ceuta, Spain",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/migration-spain-ceuta-morocco_n_6a6c8e34e4b0ea7db0fc2baf",
+      "image": null,
+      "ts": 1785499654000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/migration-spain-ceuta-morocco_n_6a6c8e34e4b0ea7db0fc2baf"
           }
         ]
       }
@@ -7492,87 +7558,6 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/japan-strong-earthquake-hits-kumamoto-many-deaths-feared/a-78143660?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5660997b45ca",
-      "title": "Powerful Earthquake Strikes Southern Japan",
-      "description": "A 7.1-magnitude earthquake has struck southern Japan, causing destruction and injuring at least 50 people, with reports of collapsed buildings and damaged roads.",
-      "lat": 33.88,
-      "lng": 132.6452,
-      "severity": 4,
-      "location": "Kumamoto, Japan",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/07/28/powerful-earthquake-strikes-southern-japan-causing-destruction/",
-      "image": null,
-      "ts": 1785239132000,
-      "coverage": {
-        "left": 3,
-        "center": 0,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 1,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/major-earthquake-hits-japan_n_6a6867c3e4b02c67a5adc7af"
-          },
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/07/28/powerful-earthquake-strikes-southern-japan-causing-destruction/"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/video/dozens-injured-buildings-damaged-after-powerful-earthquake-strikes-japan/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "539627313d4e",
-      "title": "Iran Hangs Two Men Convicted of Killing Police Officers",
-      "description": "Iran has hanged two men convicted of killing four police officers during January protests, state media reported.",
-      "lat": 32.65,
-      "lng": 51.67,
-      "severity": 4,
-      "location": "Isfahan, Iran",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/middle-east/iran-news/article-903874",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_3540,w_5310/704684",
-      "ts": 1785235278000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/iran-hangs-two-men-over-anti-government-protest-violence-11831299#publisher=newsstand"
-          },
-          {
-            "n": "New York Post",
-            "b": "lean_right",
-            "u": "https://nypost.com/2026/07/28/world-news/iran-hangs-2-men-convicted-of-killing-4-police-officers-in-january-protests/"
           }
         ]
       }
