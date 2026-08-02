@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-08-02T22:03:36.478935+00:00",
+  "updated": "2026-08-02T23:02:40.455134+00:00",
   "events": [
     {
       "id": "ce4d59b69aa0",
@@ -112,6 +112,49 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/world/2168205"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4d6fbe5a9229",
+      "title": "Two crew killed after firefighting helicopters collide in Greece",
+      "description": "One Danish and one Greek national died in the incident, while a British pilot and another Greek crew member survived.",
+      "lat": 40.17,
+      "lng": 21.819999999999993,
+      "severity": 4,
+      "location": "Greece",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/04be/live/be742720-8ea4-11f1-a7ab-8b30adf0800a.jpg",
+      "ts": 1785702997000,
+      "coverage": {
+        "left": 0,
+        "center": 3,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/europe/20260802-fire-toll-mounts-in-greece-as-blazes-spread-amid-strong-winds"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/europe/article/3362725/greece-firefighting-helicopters-collide-battle-contain-wildfires-continues?utm_source=rss_feed"
           }
         ]
       }
@@ -7525,49 +7568,6 @@
             "n": "Le Monde English",
             "b": "lean_left",
             "u": "https://www.lemonde.fr/en/environment/article/2026/07/29/france-s-gros-bessillon-wildfire-is-under-control-leaving-firefighters-exhausted-it-s-been-nonstop-for-eight-days_6755940_114.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b6b6a635cfd5",
-      "title": "US military says intercepted missiles launched by Iran",
-      "description": "The US military said it thwarted an attempted surprise attack by Iran that came after a days-long lull in fighting.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/world/us-military-says-intercepted-missiles-launched-iran-6284471",
-      "image": null,
-      "ts": 1785281100000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/iran-war-us-military-says-it-intercepted-missiles-launched-by-iran-11835466#publisher=newsstand"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/iran-war-us-says-iranian-missiles-intercepted/live-78152241?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/world/us-military-says-intercepted-missiles-launched-iran-6284471"
           }
         ]
       }
