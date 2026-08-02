@@ -1,7 +1,45 @@
 {
   "schema": 1,
-  "updated": "2026-08-02T15:41:02.635013+00:00",
+  "updated": "2026-08-02T17:09:49.062933+00:00",
   "events": [
+    {
+      "id": "64bdaa9e54e2",
+      "title": "Suicide bomber kills 14 outside police station in Pakistan",
+      "description": "A suicide bomber targeted protesters at an anti-militant rally in northwestern Pakistan, killing at least 14 people, including police officers, and wounding more than two dozen others.",
+      "lat": 35.12,
+      "lng": 71.57999999999998,
+      "severity": 4,
+      "location": "Peshawar, Pakistan",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/2/suicide-bomber-kills-14-outside-police-station-in-pakistans-swat?traffic_source=rss",
+      "image": null,
+      "ts": 1785688844000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/suicide-bomber-strikes-anti-militant-rally-northwestern-pakistan-135307697"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/asia/south-asia/article/3362726/least-14-dead-suicide-bomb-attack-anti-militant-rally-pakistan?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
     {
       "id": "cb39af2df6ed",
       "title": "Satellite lofted for first Arab country",
@@ -1076,6 +1114,39 @@
             "n": "IBTimes",
             "b": "center",
             "u": "https://www.ibtimes.com/china-sent-iran-shoulder-fired-missiles-land-after-xi-denied-it-trump-3805981"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2dd0fd3c15d5",
+      "title": "Over 50,000 migrants breach border in Ceuta, Spain",
+      "description": "The crisis in Ceuta, on the African coast, instantly became a touchstone in the global migrant debate as suspicions swirled that the viral incident was orchestrated.",
+      "lat": 35.88,
+      "lng": -5.310000000000002,
+      "severity": 3,
+      "location": "Ceuta, Spain",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/08/01/spain-pushes-migrants-back-morocco-fallout-deepens-over-mass-border-breach/",
+      "image": null,
+      "ts": 1785607017000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/08/01/spain-pushes-migrants-back-morocco-fallout-deepens-over-mass-border-breach/"
           }
         ]
       }
@@ -7482,72 +7553,6 @@
             "n": "South China Morning Post",
             "b": "center",
             "u": "https://www.scmp.com/news/world/europe/article/3362177/france-spain-make-headway-against-wildfires-new-heatwave-looms?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "530a84997ea3",
-      "title": "UK to Resume Military Training in Kenya",
-      "description": "Kenya and Britain have agreed to resume military training in Kenya after delays in signing a new defense cooperation agreement.",
-      "lat": -0.09,
-      "lng": 34.75,
-      "severity": 2,
-      "location": "Nairobi, Kenya",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/uk-resume-military-training-kenya-after-delays-human-135157418",
-      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
-      "ts": 1785254173000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/uk-resume-military-training-kenya-after-delays-human-135157418"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f7822b113494",
-      "title": "Germany Deports Afghan Without Criminal Record for First Time Since Taliban Takeover",
-      "description": "Germany has deported an Afghan national without a criminal record for the first time since the Taliban returned to power, sparking controversy and debate over asylum policies.",
-      "lat": 52.52,
-      "lng": 13.409999999999997,
-      "severity": 3,
-      "location": "Berlin, Germany",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/07/germany-deports-afghan-without-criminal-record-first-time-taliban-takeover",
-      "image": null,
-      "ts": 1785250029000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/07/germany-deports-afghan-without-criminal-record-first-time-taliban-takeover"
           }
         ]
       }
