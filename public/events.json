@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-08-03T03:47:32.724048+00:00",
+  "updated": "2026-08-03T07:36:51.641949+00:00",
   "events": [
+    {
+      "id": "9a6846fe689d",
+      "title": "Morocco blames Ceuta chaos on misinformation and human trafficking",
+      "description": "Morocco’s government said factors such as misinformation and human trafficking lured tens of thousands of migrants into illegally crossing into the Spanish-governed northern African enclave of Ceuta.",
+      "lat": 35.88,
+      "lng": -5.310000000000002,
+      "severity": 3,
+      "location": "Ceuta, Spain",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-03/morocco-blames-ceuta-chaos-on-misinformation-human-trafficking",
+      "image": null,
+      "ts": 1785739478000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-03/morocco-blames-ceuta-chaos-on-misinformation-human-trafficking"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d84494f50371",
+      "title": "Earthquake hits Egypt, triggering emergency response",
+      "description": "A magnitude 5.5 earthquake struck near the Egyptian city of Suez, shaking buildings across Cairo and prompting authorities to activate emergency response plans.",
+      "lat": 30.08,
+      "lng": 34.45519999999999,
+      "severity": 3,
+      "location": "Suez, Egypt",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/08/03/magnitude-55-quake-jolts-egypt-triggering-emergency-response/",
+      "image": "http://images.euronews.com/articles/stories/09/85/97/06/640x360_cmsv2_ae6a624d-339b-5686-8ac3-1db03c7e33a2-9859706.jpg?1785731989",
+      "ts": 1785738825000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/03/magnitude-55-quake-jolts-egypt-triggering-emergency-response/"
+          }
+        ]
+      }
+    },
     {
       "id": "d09dd40ba539",
       "title": "US and Japan jointly intervene to prop up yen in rare move",
@@ -1195,6 +1261,39 @@
             "n": "Nikkei Asia",
             "b": "center",
             "u": "https://asia.nikkei.com/business/markets/currencies/japan-won-t-hesitate-to-act-again-after-joint-yen-intervention-with-us-katayama"
+          }
+        ]
+      }
+    },
+    {
+      "id": "63962c0c93a4",
+      "title": "US and Japan intervene to lift yen",
+      "description": "The US and Japan’s first joint action on the yen in 15 years has underscored their determination to defend the Asian currency.",
+      "lat": 35.68,
+      "lng": 141.66520000000003,
+      "severity": 2,
+      "location": "Tokyo, Japan",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-02/katayama-to-say-japan-us-acted-together-on-yen-reuters-reports",
+      "image": null,
+      "ts": 1785638026000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-02/katayama-to-say-japan-us-acted-together-on-yen-reuters-reports"
           }
         ]
       }
@@ -7419,105 +7518,6 @@
             "n": "Mirror World",
             "b": "lean_left",
             "u": "https://www.mirror.co.uk/news/world-news/france-wildfires-bordeaux-weather-heatwave-37489052"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a1dfa767b387",
-      "title": "Egypt and Cyprus Discuss Energy Cooperation",
-      "description": "Egypt and Cyprus have discussed strengthening energy cooperation, including joint natural gas projects.",
-      "lat": 31.16,
-      "lng": 33.14519999999999,
-      "severity": 2,
-      "location": "Cairo, Egypt",
-      "source": "Egypt Independent",
-      "url": "https://www.egyptindependent.com/egypt-cyprus-discuss-strengthening-energy-cooperation/",
-      "image": null,
-      "ts": 1785317200000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/egypt-cyprus-discuss-strengthening-energy-cooperation/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3a9321e45578",
-      "title": "Equatorial Guinea and Gabon resolve 50-year dispute over Gulf of Guinea islands",
-      "description": "Gabon and Equatorial Guinea resolved a 50-year dispute on Tuesday, signing an agreement over three tiny islands in the Gulf of Guinea.",
-      "lat": 1.65,
-      "lng": 10.25,
-      "severity": 1,
-      "location": "Gulf of Guinea, Equatorial Guinea",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/07/29/equatorial-guinea-and-gabon-resolve-50-year-dispute-over-gulf-of-guinea-islands/",
-      "image": "http://images.euronews.com/articles/stories/09/85/43/20/640x360_cmsv2_ed01bed3-c50b-56ca-977c-b317a523f08c-9854320.jpg?1785300760",
-      "ts": 1785307807000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/07/29/equatorial-guinea-and-gabon-resolve-50-year-dispute-over-gulf-of-guinea-islands/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "36ba2ac949d8",
-      "title": "Japan Earthquake",
-      "description": "A 7.1-magnitude earthquake struck southwestern Japan, killing at least 18 people and leaving many missing.",
-      "lat": 33.02,
-      "lng": 133.7,
-      "severity": 4,
-      "location": "Kumamoto, Japan",
-      "source": "NBC News World",
-      "url": "https://www.nbcnews.com/world/asia/least-13-killed-japan-earthquake-others-trapped-rubble-rcna589771",
-      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-07/260728-japan-quake-vsb-2313-bb6f43.jpg",
-      "ts": 1785303738000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/asia/least-13-killed-japan-earthquake-others-trapped-rubble-rcna589771"
           }
         ]
       }
