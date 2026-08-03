@@ -1,7 +1,55 @@
 {
   "schema": 1,
-  "updated": "2026-08-02T23:02:40.455134+00:00",
+  "updated": "2026-08-03T00:06:03.234974+00:00",
   "events": [
+    {
+      "id": "d8b391587d4f",
+      "title": "14 killed in suspected suicide bombing in Pakistan",
+      "description": "At least 14 people were killed in a suspected suicide bombing outside a police station in northwestern Pakistan",
+      "lat": 34.02,
+      "lng": 72.36000000000001,
+      "severity": 4,
+      "location": "Peshawar, Pakistan",
+      "source": "RTE News",
+      "url": "https://www.rte.ie/news/2026/0803/1586235-pakistan-suicide-bombing/",
+      "image": "https://www.rte.ie/images/0024ca94-800.jpg",
+      "ts": 1785713789000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/02/world/asia/pakistan-police-station-bombing.html"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/2026/0803/1586235-pakistan-suicide-bombing/"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/deadly-suicide-bombing-targeting-anti-militant-protesters-in-pakistan-13569275"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/suspected-suicide-bombing-at-police-station-kills-at-least-14-in-pakistan-officials-say"
+          }
+        ]
+      }
+    },
     {
       "id": "ce4d59b69aa0",
       "title": "Local volunteers help rebuild destroyed Christian monastery in Lebanon",
@@ -1043,6 +1091,44 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/643762-idaho-restaurant-shootout-killed/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f9af39de9a16",
+      "title": "Japan Confirms First Joint Yen Intervention With US in 15 Years",
+      "description": "Japan confirmed its first joint intervention with the US in currency markets in 15 years and warned that it was ready to act again",
+      "lat": 35.68,
+      "lng": 139.76,
+      "severity": 3,
+      "location": "Tokyo, Japan",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-02/katayama-to-say-japan-us-acted-together-on-yen-reuters-reports",
+      "image": null,
+      "ts": 1785638026000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-02/katayama-to-say-japan-us-acted-together-on-yen-reuters-reports"
+          },
+          {
+            "n": "Nikkei Asia",
+            "b": "center",
+            "u": "https://asia.nikkei.com/business/markets/currencies/japan-won-t-hesitate-to-act-again-after-joint-yen-intervention-with-us-katayama"
           }
         ]
       }
@@ -7502,72 +7588,6 @@
             "n": "Breitbart",
             "b": "right",
             "u": "https://www.breitbart.com/middle-east/2026/07/28/saudi-arabia-says-iran-proxies-in-iraq-are-launching-drones-at-its-oil-facilities/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5795ed0eea92",
-      "title": "Japan earthquake: 13 dead, dozens missing",
-      "description": "A 7.1-magnitude earthquake struck Japan, causing widespread damage and triggering a gas explosion at a mall.",
-      "lat": 32.82,
-      "lng": 130.76999999999998,
-      "severity": 4,
-      "location": "Kumamoto, Japan",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/5-dead-after-7-1-magnitude-earthquake-hits-japan-11835520#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-07/b7cas48c_japan-earthquake_625x300_28_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1785287671000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/5-dead-after-7-1-magnitude-earthquake-hits-japan-11835520#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d5ef3eeaf4d9",
-      "title": "France wildfires: Firefighters exhausted as blaze is brought under control",
-      "description": "A massive wildfire in southeastern France has been brought under control, leaving firefighters exhausted.",
-      "lat": 43.2,
-      "lng": 6.23,
-      "severity": 3,
-      "location": "Correns, France",
-      "source": "Le Monde English",
-      "url": "https://www.lemonde.fr/en/environment/article/2026/07/29/france-s-gros-bessillon-wildfire-is-under-control-leaving-firefighters-exhausted-it-s-been-nonstop-for-eight-days_6755940_114.html",
-      "image": "https://img.lemde.fr/2026/07/24/875/0/5292/2646/644/322/60/0/6e95666_ftp-1-l6yyoyqm7cup-5697134-01-06.jpg",
-      "ts": 1785287277000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/environment/article/2026/07/29/france-s-gros-bessillon-wildfire-is-under-control-leaving-firefighters-exhausted-it-s-been-nonstop-for-eight-days_6755940_114.html"
           }
         ]
       }
