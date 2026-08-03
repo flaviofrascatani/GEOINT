@@ -1,7 +1,149 @@
 {
   "schema": 1,
-  "updated": "2026-08-03T13:45:37.526625+00:00",
+  "updated": "2026-08-03T16:31:48.015442+00:00",
   "events": [
+    {
+      "id": "56c4a75b00dd",
+      "title": "US and Japan intervene to prop up yen",
+      "description": "The US and Japan have intervened in the currency market to prop up the yen, amid concerns about its decline.",
+      "lat": 35.68,
+      "lng": 139.76,
+      "severity": 2,
+      "location": "Tokyo, Japan",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/markets/currencies/japan-us-yen-intervention-seen-just-buying-time-against-tokyo-s-loose-stance",
+      "image": null,
+      "ts": 1785774707878,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Nikkei Asia",
+            "b": "center",
+            "u": "https://asia.nikkei.com/business/markets/currencies/japan-us-yen-intervention-seen-just-buying-time-against-tokyo-s-loose-stance"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0b27bb537884",
+      "title": "EU calls for united action on migration",
+      "description": "The European Commission has called for united action from EU member states to address the migration crisis, following a surge of migrants into Ceuta.",
+      "lat": 50.85,
+      "lng": 6.255200000000002,
+      "severity": 2,
+      "location": "Brussels, Belgium",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/ceuta-eu-calls-borders-a-shared-european-responsibility/a-78220701?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1785774707877,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/ceuta-eu-calls-borders-a-shared-european-responsibility/a-78220701?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "945cb8fd3bc2",
+      "title": "Ukrainian drone attack on Russian beach",
+      "description": "A Ukrainian drone attack on a Russian beach near Putin's palace has killed six people, including three children.",
+      "lat": 44.42,
+      "lng": 37.83,
+      "severity": 4,
+      "location": "Gelendzhik, Russia",
+      "source": "Daily Mail World",
+      "url": "https://www.dailymail.com/news/article-16024243/Putins-hell-Ukraine-unleashes-intense-bombardment-war-igniting-fires-Russia-destroying-drone-factory.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "image": "https://i.dailymail.com/1s/2026/08/03/12/110409661-0-image-m-54_1785757855460.jpg",
+      "ts": 1785774198000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/news/article-16024243/Putins-hell-Ukraine-unleashes-intense-bombardment-war-igniting-fires-Russia-destroying-drone-factory.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e7cc73a952d7",
+      "title": "Boris Nadezhdin flees Russia for France",
+      "description": "Russian opposition figure Boris Nadezhdin has fled to France, after being detained and barred from running for parliament.",
+      "lat": 48.86,
+      "lng": 2.289999999999992,
+      "severity": 3,
+      "location": "Paris, France",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/08/03/boris-nadezhdin-anti-war-candidate-russia-flees-france/",
+      "image": null,
+      "ts": 1785763335000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/08/03/boris-nadezhdin-anti-war-candidate-russia-flees-france/"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/08/03/putin-critic-boris-nadezhdin-flees-russia-for-france_6756114_4.html"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/europe/20260803-anti-war-politician-and-kremlin-critic-boris-nadezhdin-flees-russia-for-france"
+          }
+        ]
+      }
+    },
     {
       "id": "09dc0a211c81",
       "title": "Detained Myanmar Leader Suu Kyi Has First Foreign Visitor in Five Years",
@@ -7521,143 +7663,6 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/07/29/iran-war-paralyses-neighbouring-iraqs-crucial-umm-qasr-port/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "49ce44f31166",
-      "title": "IMF chief visits Argentina's Vaca Muerta shale field",
-      "description": "IMF chief Kristalina Georgieva tours Loma Campana field, operated by YPF in Neuquén, during visit to Argentina.",
-      "lat": -38.97,
-      "lng": -68.13,
-      "severity": 2,
-      "location": "Neuquen, Argentina",
-      "source": "Buenos Aires Times",
-      "url": "https://www.batimes.com.ar/news/economy/imf-chief-visits-argentinas-vaca-muerta-shale-field.phtml",
-      "image": "https://fotos.perfil.com/2026/07/29/trim/540/304/imf-managing-director-kristalina-georgieva-vaca-muerta-2293261.jpg",
-      "ts": 1785335889000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Buenos Aires Times",
-            "b": "center",
-            "u": "https://www.batimes.com.ar/news/economy/imf-chief-visits-argentinas-vaca-muerta-shale-field.phtml"
-          }
-        ]
-      }
-    },
-    {
-      "id": "935ce29834b5",
-      "title": "Lee heads to Chile following summit with Lula in Brazil",
-      "description": "President Lee Jae Myung departed Brazil on Wednesday after a summit with Brazilian President Luiz Inacio Lula da Silva.",
-      "lat": -22.45,
-      "lng": -46.629999999999995,
-      "severity": 1,
-      "location": "Sao Paulo, Brazil",
-      "source": "Yonhap News",
-      "url": "https://en.yna.co.kr/view/AEN20260729003300315",
-      "image": "https://img.yna.co.kr/etc/inner/EN/2026/07/29/AEN20260729003300315_01_i_P2.jpg",
-      "ts": 1785335515000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20260729003300315"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f8f56c4c75cd",
-      "title": "Iran has not sought talks with US",
-      "description": "Iran has not sought talks with US over past two weeks, official says",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "Egypt Independent",
-      "url": "https://www.egyptindependent.com/iran-has-not-sought-talks-with-us-over-past-two-weeks-official-says/",
-      "image": null,
-      "ts": 1785328998000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/iran-has-not-sought-talks-with-us-over-past-two-weeks-official-says/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e8a4be4ea57d",
-      "title": "Ukraine-Russia Conflict",
-      "description": "Ukraine claimed to have hit two of Russia's major oil refineries in its latest long-range strikes.",
-      "lat": 51.55,
-      "lng": 30.52000000000001,
-      "severity": 4,
-      "location": "Kyiv, Ukraine",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/ukraine-hit-major-russian-oil-refinery-hours-after-135181989",
-      "image": "https://s.abcnews.com/images/International/wirestory_4275c2280107aedba37df8704f226ce6_4x3_384.jpg",
-      "ts": 1785328927000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/07/28/russia-squashes-dissent-ahead-election-public-anger-grows-over-war/"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/ukraine-hit-major-russian-oil-refinery-hours-after-135181989"
           }
         ]
       }
