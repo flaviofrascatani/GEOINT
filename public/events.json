@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-03T00:06:03.234974+00:00",
+  "updated": "2026-08-03T03:47:32.724048+00:00",
   "events": [
+    {
+      "id": "d09dd40ba539",
+      "title": "US and Japan jointly intervene to prop up yen in rare move",
+      "description": "Both countries have said that they will not hesitate to conduct joint interventions in the future.",
+      "lat": 36.78,
+      "lng": 141.66520000000003,
+      "severity": 2,
+      "location": "Tokyo, Japan",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cglj1pr0wjwo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/717b/live/62dcb0b0-8ed3-11f1-b2f6-e1f7eea93d58.jpg",
+      "ts": 1785724986000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC Business",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cglj1pr0wjwo?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "d8b391587d4f",
       "title": "14 killed in suspected suicide bombing in Pakistan",
@@ -46,6 +79,39 @@
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/suspected-suicide-bombing-at-police-station-kills-at-least-14-in-pakistan-officials-say"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a75225c5042a",
+      "title": "Ukraine seeks more US Patriot interceptors as bomb shelter probe deepens",
+      "description": "A former Ukrainian official describes 'scandalous situations' in bomb shelters as Volodymyr Zelenskyy pushes partners for 300 Patriot interceptors.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 3,
+      "location": "Kyiv, Ukraine",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/ukraine-seeks-more-us-patriot-interceptors-bomb-shelter-probe-deepens",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/07/931/523/gettyimages-2165218523.jpg?ve=1&tl=1",
+      "ts": 1785712855000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/ukraine-seeks-more-us-patriot-interceptors-bomb-shelter-probe-deepens"
           }
         ]
       }
@@ -7452,142 +7518,6 @@
             "n": "NBC News World",
             "b": "lean_left",
             "u": "https://www.nbcnews.com/world/asia/least-13-killed-japan-earthquake-others-trapped-rubble-rcna589771"
-          }
-        ]
-      }
-    },
-    {
-      "id": "32fffb42c6cc",
-      "title": "Japan earthquake: Rescuers race to find people trapped in mall as death toll rises",
-      "description": "The 7.1-magnitude quake struck southwestern Japan on Tuesday afternoon, killing at least 13 people, seriously injuring seven and leaving tens of thousands of homes without power amid widespread damage.",
-      "lat": 32.82,
-      "lng": 130.74,
-      "severity": 4,
-      "location": "Kumamoto, Japan",
-      "source": "Le Monde English",
-      "url": "https://www.lemonde.fr/en/international/article/2026/07/29/rescuers-search-for-survivors-after-powerful-japan-quake-kills-at-least-13_6755944_4.html",
-      "image": "https://img.lemde.fr/2026/07/29/416/0/5000/2500/644/322/60/0/22021fa_ftp-1-jc40ho6eizps-2026-07-29t024756z-559589482-rc2enmas51du-rtrmadp-3-japan-quake.JPG",
-      "ts": 1785295068000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/07/29/rescuers-search-for-survivors-after-powerful-japan-quake-kills-at-least-13_6755944_4.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1ec9a0438e79",
-      "title": "US and Saudi Arabia launch strikes on Iran-backed groups in Iraq",
-      "description": "The US and Saudi militaries announced airstrikes on Iranian-backed groups in Iraq, after Iran and its proxies allegedly targeted American forces.",
-      "lat": 15.0,
-      "lng": 42.0,
-      "severity": 4,
-      "location": "Hodeidah, Yemen",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/middle-east/20260729-live-us-and-saudi-arabia-launch-strikes-on-iraq-target-iran-allies",
-      "image": "https://c.ndtvimg.com/2026-01/cqsefuk4_yemen_625x300_03_January_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1785293509000,
-      "coverage": {
-        "left": 4,
-        "center": 8,
-        "right": 3,
-        "total": 15,
-        "buckets": {
-          "left": 1,
-          "lean_left": 3,
-          "center": 8,
-          "lean_right": 2,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/ap-ml-iran-us-houthis-saudi-arabia_n_6a651d0ce4b021af4925b01c"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/us-saudi-arabia-strike-iran-proxies-iraq-after-attacks-on-american-forces/"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/7/29/saudi-arabia-us-carry-out-strikes-on-iran-backed-groups-in-iraq?traffic_source=rss"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/iran-israel-us-war-july-29-2026-latest-updates-strait-of-hormuz-donald-trump-oil-prices-today/article71279588.ece"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/middle-east/2026/0729/1585551-us-saudis-launch-strikes-on-iran-backed-groups-in-iraq/"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/middle-east/20260729-live-us-and-saudi-arabia-launch-strikes-on-iraq-target-iran-allies"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/iran-war-us-saudi-arabia-strike-iran-backed-iraqi-militias/live-78152241?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/iran-news/article-903953"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0yaWJHcU9OMnhZRjcxRXVKVEdIX0FwdHEySzFmNWN0RUw5b0hoNU5RNGkzaUUzWHJMTS13bFNWQ3czV0J5YUN2UVdjQzVHNU9WTVNwaEV1WGkwQlU5YU1PZXBxNzVndjhMRlo0V1pQOA?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/07/us-saudis-attack-iran-backed-groups-iraq-threatening-intensify-conflict"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/irans-top-diplomat-calls-counterparts-in-oman-and-saudi-arabia/"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/saudi-arabia-says-it-intercepted-drones-launched-from-iraq-targeting-oil-facilities"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2166611"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/643573-drone-strike-saudi-oil-hub/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/middle-east/2026/07/28/saudi-arabia-says-iran-proxies-in-iraq-are-launching-drones-at-its-oil-facilities/"
           }
         ]
       }
