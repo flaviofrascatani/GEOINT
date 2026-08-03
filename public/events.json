@@ -1,7 +1,80 @@
 {
   "schema": 1,
-  "updated": "2026-08-03T10:56:31.125164+00:00",
+  "updated": "2026-08-03T13:45:37.526625+00:00",
   "events": [
+    {
+      "id": "09dc0a211c81",
+      "title": "Detained Myanmar Leader Suu Kyi Has First Foreign Visitor in Five Years",
+      "description": "Aung San Suu Kyi has met a Red Cross representative in her first confirmed contact with a foreign official since 2021.",
+      "lat": 17.9,
+      "lng": 96.14999999999998,
+      "severity": 1,
+      "location": "Naypyidaw, Myanmar",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/3/detained-myanmar-leader-suu-kyi-has-first-foreign-visitor-in-five-years?traffic_source=rss",
+      "image": null,
+      "ts": 1785761803000,
+      "coverage": {
+        "left": 3,
+        "center": 6,
+        "right": 0,
+        "total": 9,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 6,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/red-cross-meets-myanmars-detained-former-leader-aung-135316758"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/3/detained-myanmar-leader-suu-kyi-has-first-foreign-visitor-in-five-years?traffic_source=rss"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/myanmars-aung-san-suu-kyi-meets-red-cross-official-government-says/article71299861.ece"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/son-of-myanmars-detained-former-leader-aung-san-suu-kyigives-update-13569395"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/myanmar-aung-san-suu-kyi-meets-red-cross-official-junta-says/a-78211532?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSlctT0dBVG9VVlhKZ284bjkxZlJVUFJDMFg0eGdHNkp2X1pQa2pPV0VZN3JZWFlRQ25zWHVCTkIzampNaWRqYjZ4VFdiQjk2WGZaS0didzJnaGc4M2JYV0dYdFU5dy1pTUZnRmFwcmpsb01iRzRBUFRQcUlKZWFhdzV1M1JfdV8yNlA1UzBiRUNVRUR5dVlqQUJ0QmNpS2pxMGVFVw?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-03/myanmar-shows-nobel-winner-suu-kyi-meeting-red-cross-amid-fear-for-her-health"
+          },
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/aung-san-suu-kyi-meets-red-cross-official-military-backed-government-says-after-proof-of-life-campaign/"
+          },
+          {
+            "n": "Nikkei Asia",
+            "b": "center",
+            "u": "https://asia.nikkei.com/spotlight/myanmar-crisis/myanmar-grants-access-to-suu-kyi-ahead-of-thailand-visit"
+          }
+        ]
+      }
+    },
     {
       "id": "32204fd7e028",
       "title": "Iran denies Trump claim that new talks will start Monday",
@@ -1871,11 +1944,11 @@
     },
     {
       "id": "7b9858afbbad",
-      "title": "EU to hold urgent meeting on Ceuta crisis",
-      "description": "The EU will hold an urgent meeting of interior ministers on Tuesday to discuss the Ceuta crisis.",
+      "title": "EU to Hold Urgent Meeting of Interior Ministers on Tuesday Over Ceuta Crisis",
+      "description": "The EU is to hold an urgent meeting of interior ministers on Tuesday amid continued divisions in the bloc over the mass crossing of migrants into Spanish territory in north Africa.",
       "lat": 51.95,
       "lng": 6.255200000000002,
-      "severity": 2,
+      "severity": 3,
       "location": "Brussels, Belgium",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing",
@@ -1883,13 +1956,13 @@
       "ts": 1785611019000,
       "coverage": {
         "left": 1,
-        "center": 0,
+        "center": 1,
         "right": 0,
-        "total": 1,
+        "total": 2,
         "buckets": {
           "left": 0,
           "lean_left": 1,
-          "center": 0,
+          "center": 1,
           "lean_right": 0,
           "right": 0
         },
@@ -1898,6 +1971,11 @@
             "n": "The Guardian World",
             "b": "lean_left",
             "u": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing"
+          },
+          {
+            "n": "All Africa",
+            "b": "center",
+            "u": "https://allafrica.com/stories/202608030661.html"
           }
         ]
       }
@@ -7580,39 +7658,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/ukraine-hit-major-russian-oil-refinery-hours-after-135181989"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4bd506e91400",
-      "title": "France Wildfires",
-      "description": "A massive wildfire is burning in southwestern France, forcing evacuations and threatening a nuclear power plant.",
-      "lat": 44.83,
-      "lng": 0.5800000000000125,
-      "severity": 2,
-      "location": "Bordeaux, France",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/europe-wildfires-france-battles-wildfire-4-times-the-size-of-paris-amid-record-heatwave-11838386#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-07/c4d4cg8g_europe-wildfire-_625x300_27_July_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1785328291000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/europe-wildfires-france-battles-wildfire-4-times-the-size-of-paris-amid-record-heatwave-11838386#publisher=newsstand"
           }
         ]
       }
