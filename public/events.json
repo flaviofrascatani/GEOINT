@@ -1,7 +1,90 @@
 {
   "schema": 1,
-  "updated": "2026-08-03T07:36:51.641949+00:00",
+  "updated": "2026-08-03T10:56:31.125164+00:00",
   "events": [
+    {
+      "id": "32204fd7e028",
+      "title": "Iran denies Trump claim that new talks will start Monday",
+      "description": "Iran denies that talks with the US are taking place, despite President Trump's claim that new talks will start on Monday.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/world/iran/trump-iran-talks-attacks-canceled-hormuz-nuclear-rcna590535",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-08/260803-trump-rs-59b259.jpg",
+      "ts": 1785740748000,
+      "coverage": {
+        "left": 2,
+        "center": 7,
+        "right": 2,
+        "total": 11,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 7,
+          "lean_right": 1,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/iran/trump-iran-talks-attacks-canceled-hormuz-nuclear-rcna590535"
+          },
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/08/03/us-iran-war-talks-on-off-fighting-pause-history-timeline/"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c23579jzv08o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/trump-said-hes-halting-attacks-resuming-talks-iran-oil-prices-are-plunging-3805999"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/2026/0803/1586239-trump-talks/"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/c9bd508c-2915-4b34-a5a5-553bff9548a5?syn-25a6b1a6=1"
+          },
+          {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/homenews/administration/6004829-trump-iran-deal-negotiations/"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPS3ZjYTd1Q0RkVzV0UkRYRDNfQ1F4N1I5ZkZ6eUZZUm1aN1Bxb1ExcmZyeEZsa0l5aFo2WHhLV3RNcDdDQW1WVzc4WE8yeWlOaVZHWTNySk1HOEl1NGJpMWxzN3EzanNYUGVrYTRFT2x5eC1VdmVmd2xOMlZuWk5WaFlDejd2WWVxbmh4YXlDQlJ3QnZqaXRtbWtn?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-03/iran-says-hormuz-talks-underway-after-trump-calls-off-strikes"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/643786-trump-iran-truth-social/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          },
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/news/article-16024513/Iran-denies-Trumps-claim-peace-talks-says-NO-negotiations-US.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+          }
+        ]
+      }
+    },
     {
       "id": "9a6846fe689d",
       "title": "Morocco blames Ceuta chaos on misinformation and human trafficking",
@@ -64,6 +147,84 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/08/03/magnitude-55-quake-jolts-egypt-triggering-emergency-response/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c15b8e531e5d",
+      "title": "Myanmar allows glimpse of ousted leader Suu Kyi",
+      "description": "Myanmar's military-backed government has released photographs of Aung San Suu Kyi meeting a representative of the International Committee of the Red Cross.",
+      "lat": 16.86,
+      "lng": 96.15,
+      "severity": 2,
+      "location": "Naypyidaw, Myanmar",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-03/myanmar-shows-nobel-winner-suu-kyi-meeting-red-cross-amid-fear-for-her-health",
+      "image": null,
+      "ts": 1785735845000,
+      "coverage": {
+        "left": 3,
+        "center": 7,
+        "right": 0,
+        "total": 10,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 7,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/myanmars-detained-former-leader-aung-san-suu-kyi-135316759"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/3/08-03-2026-aung-san-suu-kyi-pictures-sv?traffic_source=rss"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/myanmars-aung-san-suu-kyi-meets-red-cross-official-government-says/article71299861.ece"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c1e1d5j6660o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/myanmar-aung-san-suu-kyi-meets-red-cross-official-junta-says/a-78211532?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/asia/2026/08/03/myanmar-suu-kyi-incontra-un-rappresentante-della-croce-rossa_bafaedb4-11bb-4d7c-b832-c1f286bae244.html"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeWlQc1R5UUVnUGx3REtuRjN1aTYzYVJQVkllU1hxdFRxNjlPU1ZCdU9OUzBsUXZfRFJYX0dnSFoyMnlmaDlVdTd2bHIwSXFkVW94c2l6RDYxM3dqdk5RdUlGdTBCMzlmS05zN3REZWgwUDlDMEVQYTQ2MC1TSWVkM1Q4R0taazJNaDNPdkNaNzlIMXQzcWVuTlpkbFJIVWMwb1R1QV9R?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-03/myanmar-shows-nobel-winner-suu-kyi-meeting-red-cross-amid-fear-for-her-health"
+          },
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/aung-san-suu-kyi-meets-red-cross-official-military-backed-government-says-after-proof-of-life-campaign/"
+          },
+          {
+            "n": "Nikkei Asia",
+            "b": "center",
+            "u": "https://asia.nikkei.com/spotlight/myanmar-crisis/myanmar-grants-access-to-suu-kyi-ahead-of-thailand-visit"
           }
         ]
       }
@@ -1710,11 +1871,11 @@
     },
     {
       "id": "7b9858afbbad",
-      "title": "EU to hold urgent meeting of interior ministers on Tuesday over Ceuta crisis",
-      "description": "The EU is to hold an urgent meeting of interior ministers on Tuesday amid continued divisions in the bloc over the mass crossing of migrants into Spanish territory in north Africa",
+      "title": "EU to hold urgent meeting on Ceuta crisis",
+      "description": "The EU will hold an urgent meeting of interior ministers on Tuesday to discuss the Ceuta crisis.",
       "lat": 51.95,
       "lng": 6.255200000000002,
-      "severity": 3,
+      "severity": 2,
       "location": "Brussels, Belgium",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing",
@@ -1812,6 +1973,39 @@
       "title": "Over 50,000 migrants breach border in Ceuta, Spain",
       "description": "The crisis in Ceuta, on the African coast, instantly became a touchstone in the global migrant debate as suspicions swirled that the viral incident was orchestrated.",
       "lat": 35.88,
+      "lng": -5.310000000000002,
+      "severity": 3,
+      "location": "Ceuta, Spain",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/08/01/spain-pushes-migrants-back-morocco-fallout-deepens-over-mass-border-breach/",
+      "image": null,
+      "ts": 1785607017000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/08/01/spain-pushes-migrants-back-morocco-fallout-deepens-over-mass-border-breach/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d832cbea5518",
+      "title": "Spain pushes migrants back to Morocco",
+      "description": "Spain has pushed back migrants to Morocco as suspicions swirl over a mass border breach in Ceuta.",
+      "lat": 35.89,
       "lng": -5.310000000000002,
       "severity": 3,
       "location": "Ceuta, Spain",
@@ -7419,105 +7613,6 @@
             "n": "NDTV World",
             "b": "lean_left",
             "u": "https://www.ndtv.com/world-news/europe-wildfires-france-battles-wildfire-4-times-the-size-of-paris-amid-record-heatwave-11838386#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "bb5ce90c39e2",
-      "title": "Cyprus Peace Talks",
-      "description": "The United Nations announced plans to convene formal talks to break years of diplomatic paralysis over the divided island of Cyprus.",
-      "lat": 35.17,
-      "lng": 33.37,
-      "severity": 1,
-      "location": "Nicosia, Cyprus",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-29/cyprus-leaders-accept-un-plan-for-new-talks-over-divided-island",
-      "image": null,
-      "ts": 1785321760000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-07-29/cyprus-leaders-accept-un-plan-for-new-talks-over-divided-island"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5c3d0bf7150a",
-      "title": "US-Iran conflict escalates",
-      "description": "Major Gulf fighting restarts as US and Saudi strike Iran's allies in Iraq",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/gulf-fighting-restarts_n_6a69d4ede4b098352c300f02",
-      "image": null,
-      "ts": 1785321195000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 1,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/gulf-fighting-restarts_n_6a69d4ede4b098352c300f02"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8d75d3e4d57a",
-      "title": "France Wildfires",
-      "description": "Wildfires in southwestern France have forced the evacuation of thousands of people and burned thousands of hectares of land.",
-      "lat": 46.31,
-      "lng": -0.2974000000000103,
-      "severity": 3,
-      "location": "Cap Ferret, France",
-      "source": "Mirror World",
-      "url": "https://www.mirror.co.uk/news/world-news/france-wildfires-bordeaux-weather-heatwave-37489052",
-      "image": null,
-      "ts": 1785319780000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/france-wildfires-bordeaux-weather-heatwave-37489052"
           }
         ]
       }
