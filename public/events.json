@@ -1,7 +1,93 @@
 {
   "schema": 1,
-  "updated": "2026-08-04T16:59:58.865457+00:00",
+  "updated": "2026-08-04T18:43:30.839385+00:00",
   "events": [
+    {
+      "id": "5a77af0bf017",
+      "title": "Lebanon and Israel hold new round of direct talks in Rome",
+      "description": "Lebanon and Israel held a fresh round of US-sponsored talks in Rome, with Beirut seeking Israel's phased withdrawal from the country's south.",
+      "lat": 33.89,
+      "lng": 35.5,
+      "severity": 2,
+      "location": "Beirut, Lebanon",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/lebanon-and-israel-hold-new-round-direct-talks-rome",
+      "image": "https://s.france24.com/media/display/33ca89d4-9011-11f1-bbd5-005056bfb2b6/w:1024/p:16x9/AP26216348535497.jpg",
+      "ts": 1785868239000,
+      "coverage": {
+        "left": 0,
+        "center": 3,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/hezbollah-rejects-fresh-round-of-talks-between-lebanon-and-israel"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-904586"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/lebanon-and-israel-hold-new-round-direct-talks-rome"
+          }
+        ]
+      }
+    },
+    {
+      "id": "522b15096fd3",
+      "title": "India-flagged vessel comes under attack in Red Sea",
+      "description": "An Indian-flagged vessel was attacked in the Red Sea, and all 13 Indian nationals on board have been rescued.",
+      "lat": 15.5,
+      "lng": 42.0,
+      "severity": 4,
+      "location": "Red Sea",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/indian-flagged-vessel-comes-under-attack-in-red-sea/article71306885.ece",
+      "image": "https://th-i.thgim.com/public/incoming/1ieh5e/article71306896.ece/alternates/LANDSCAPE_1200/2026-07-23T181801Z_1910885437_RC2TJMA9472R_RTRMADP_3_YEMEN-SHIPPING-ADEN.JPG",
+      "ts": 1785866082000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/india-flagged-ship-sinks-after-attack-in-red-sea-13-indian-sailors-rescued-11866075#publisher=newsstand"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/indian-flagged-vessel-comes-under-attack-in-red-sea/article71306885.ece"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2169003"
+          }
+        ]
+      }
+    },
     {
       "id": "862f9cf1387b",
       "title": "Gaza Holds Mass Funeral for Extended Family Recovered from Wartime Rubble",
@@ -31,6 +117,39 @@
             "n": "CBS News World",
             "b": "lean_left",
             "u": "https://www.cbsnews.com/news/gaza-war-mass-funeral-extended-family/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2225e93aefdc",
+      "title": "Spain and fellow EU nations bury the hatchet after Ceuta migration discord",
+      "description": "Spain and fellow EU nations have put aside their differences after the Ceuta migrant crisis, with the EU commending Spain's swift response to the crisis.",
+      "lat": 41.52,
+      "lng": -3.6999999999999886,
+      "severity": 1,
+      "location": "Madrid, Spain",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/europe/20260804-spain-and-fellow-eu-nations-bury-the-hatchet-after-ceuta-migration-discord",
+      "image": null,
+      "ts": 1785855608000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/europe/20260804-spain-and-fellow-eu-nations-bury-the-hatchet-after-ceuta-migration-discord"
           }
         ]
       }
@@ -69,49 +188,34 @@
       }
     },
     {
-      "id": "5a77af0bf017",
-      "title": "Hezbollah rejects fresh round of talks between Lebanon and Israel",
-      "description": "Hezbollah has rejected a fresh round of talks between Lebanon and Israel, under US sponsorship, citing the lack of progress on key issues.",
-      "lat": 33.89,
-      "lng": 35.5,
+      "id": "e30fd9bdd843",
+      "title": "Ceuta migrant surge exposes Spain-Morocco tensions",
+      "description": "The Ceuta migrant crisis has deepened, with Spain reporting 72 deaths as the crisis triggers a political crisis in Spain and criticism from the EU.",
+      "lat": 35.89,
+      "lng": -5.310000000000002,
       "severity": 3,
-      "location": "Beirut, Lebanon",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/hezbollah-rejects-fresh-round-of-talks-between-lebanon-and-israel",
-      "image": "https://s.france24.com/media/display/33ca89d4-9011-11f1-bbd5-005056bfb2b6/w:1024/p:16x9/AP26216348535497.jpg",
-      "ts": 1785854030000,
+      "location": "Ceuta, Spain",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/ceuta-migrant-surge-exposes-spain-morocco-tensions-islamist-groups-reportedly-seek-exploit-border-crisis",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/08/931/523/morocco-cueta-migrants-riot-1.jpg?ve=1&tl=1",
+      "ts": 1785854654000,
       "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 0,
-        "total": 4,
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
         "buckets": {
           "left": 0,
-          "lean_left": 1,
-          "center": 3,
+          "lean_left": 0,
+          "center": 0,
           "lean_right": 0,
-          "right": 0
+          "right": 1
         },
         "sources": [
           {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/4/seventh-round-of-israel-lebanon-talks-begins-whats-on-the-agenda?traffic_source=rss"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/hezbollah-rejects-fresh-round-of-talks-between-lebanon-and-israel"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/middle-east-hezbollah-condemns-latest-israel-lebanon-talks/live-78235099?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/what-know-about-lebanon-israel-7th-round-talks-held-rome"
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/ceuta-migrant-surge-exposes-spain-morocco-tensions-islamist-groups-reportedly-seek-exploit-border-crisis"
           }
         ]
       }
@@ -7594,105 +7698,6 @@
             "n": "New York Times World",
             "b": "lean_left",
             "u": "https://www.nytimes.com/2026/07/30/world/europe/pope-leo-visit-us-american.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "010b13f1ef13",
-      "title": "Brazil Federal Debt Tops US$1.8 Trillion in June",
-      "description": "Brazil's federal debt reached R$9.268 trillion (~US$1.82 trillion) in June 2026, a 2.61% monthly increase.",
-      "lat": -15.78,
-      "lng": -46.0248,
-      "severity": 3,
-      "location": "Brasília, Brazil",
-      "source": "Rio Times",
-      "url": "https://www.riotimesonline.com/brazil-federal-debt-tops-us1-8-trillion-in-june/",
-      "image": null,
-      "ts": 1785407021000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Rio Times",
-            "b": "center",
-            "u": "https://www.riotimesonline.com/brazil-federal-debt-tops-us1-8-trillion-in-june/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "276bc3eb3b87",
-      "title": "Iran vows to ‘punish the aggressor today’ after U.S. unleashes ‘heavy wave’ of strikes",
-      "description": "The conflict appeared to draw in new countries, as Egypt confirmed that a drone hit two natural gas vessels at one of its ports.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "NBC News World",
-      "url": "https://www.nbcnews.com/world/iran/us-heavy-wave-strikes-iran-war-attack-trump-saudi-egypt-drone-oil-rcna589967",
-      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-07/260730-centcom-2-rs-e91c6f.jpg",
-      "ts": 1785405652000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/iran/us-heavy-wave-strikes-iran-war-attack-trump-saudi-egypt-drone-oil-rcna589967"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7f2454d38338",
-      "title": "Brazil El Niño Plan Injects US$262M to Stockpile Corn, Rice",
-      "description": "Brazil's government has announced a plan to stockpile corn and rice to mitigate the effects of El Niño.",
-      "lat": -14.69,
-      "lng": -46.0248,
-      "severity": 2,
-      "location": "Brasília, Brazil",
-      "source": "Rio Times",
-      "url": "https://www.riotimesonline.com/brazil-el-nino-plan-injects-us262m-to-stockpile-corn-rice/",
-      "image": null,
-      "ts": 1785405575000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Rio Times",
-            "b": "center",
-            "u": "https://www.riotimesonline.com/brazil-el-nino-plan-injects-us262m-to-stockpile-corn-rice/"
           }
         ]
       }
