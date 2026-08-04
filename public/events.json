@@ -1,29 +1,128 @@
 {
   "schema": 1,
-  "updated": "2026-08-03T23:12:17.034144+00:00",
+  "updated": "2026-08-04T01:02:09.801889+00:00",
   "events": [
     {
+      "id": "e1175b6aa4e1",
+      "title": "Venezuela Earthquake Death Toll",
+      "description": "The death toll from the recent earthquakes in Venezuela has risen to over 6,000.",
+      "lat": 10.48,
+      "lng": -66.89,
+      "severity": 4,
+      "location": "Caracas, Venezuela",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/more-than-6-000-killed-in-june-earthquakes-in-venezuela-11861867#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-08/sm0mcems_venezuela-earthquake_625x300_04_August_26.jpeg",
+      "ts": 1785799715000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/more-than-6-000-killed-in-june-earthquakes-in-venezuela-11861867#publisher=newsstand"
+          }
+        ]
+      }
+    },
+    {
+      "id": "efd746dd47a2",
+      "title": "US-Iran Tensions",
+      "description": "President Trump warned Iran that it has a 'last chance' to secure a deal and avoid escalation.",
+      "lat": 36.79,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20260803-trump-says-us-iran-talks-continue-warns-tehran-faces-last-chance",
+      "image": "https://s.france24.com/media/display/f40e3e8a-8f7f-11f1-8ccc-005056a90284/w:1024/p:16x9/2026-08-03T185319Z-684638-RC22RMA599HN-RTRMADP-3-USA-TRUMP.jpg",
+      "ts": 1785797853000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20260803-trump-says-us-iran-talks-continue-warns-tehran-faces-last-chance"
+          }
+        ]
+      }
+    },
+    {
+      "id": "153ed2aae140",
+      "title": "US to Close Consulates",
+      "description": "The US State Department plans to close five foreign missions, including consulates in Canada, Japan, and Indonesia.",
+      "lat": 38.89,
+      "lng": -77.01,
+      "severity": 2,
+      "location": "Washington D.C., USA",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/us-to-close-consulates-in-canada-japan-indonesia-report-11861846#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-08/obc0ocec_us-state-department_625x300_04_August_26.jpeg",
+      "ts": 1785797615000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/us-to-close-consulates-in-canada-japan-indonesia-report-11861846#publisher=newsstand"
+          }
+        ]
+      }
+    },
+    {
       "id": "5250a1ff2d2d",
-      "title": "25 U.S. States Sue Trump Administration Over New Tariffs",
-      "description": "25 U.S. states sued the Trump administration over new tariffs, arguing that they are unlawful and replace duties already struck down by courts.",
+      "title": "25 US States Sue Trump Administration",
+      "description": "Twenty-five US states are suing the Trump administration over its latest global tariffs.",
       "lat": 38.9,
       "lng": -77.02,
-      "severity": 3,
+      "severity": 2,
       "location": "Washington D.C., USA",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/08/03/trump-tariffs-25-states-lawsuit-supreme-court.html",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/business/economy/25-us-states-sue-trump-administration-over-latest-global-tariffs",
       "image": null,
-      "ts": 1785790622000,
+      "ts": 1785793680000,
       "coverage": {
         "left": 1,
         "center": 2,
-        "right": 0,
-        "total": 3,
+        "right": 1,
+        "total": 4,
         "buckets": {
           "left": 0,
           "lean_left": 1,
           "center": 2,
-          "lean_right": 0,
+          "lean_right": 1,
           "right": 0
         },
         "sources": [
@@ -41,6 +140,11 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-08-03/trump-s-latest-tariffs-hit-with-new-lawsuit-by-group-of-states"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/business/economy/25-us-states-sue-trump-administration-over-latest-global-tariffs"
           }
         ]
       }
@@ -7529,130 +7633,6 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/07/29/united-nations-extends-sanctions-against-armed-groups-in-central-african-republic/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "105d40e53b96",
-      "title": "5 Cops Killed, Dozens Injured In Terrorist Attack In Pakistan",
-      "description": "Militants attacked a police post in northwestern Pakistan, triggering a gunbattle that killed five police officers and wounded about two dozen others.",
-      "lat": 34.82,
-      "lng": 74.9452,
-      "severity": 4,
-      "location": "Islamabad, Pakistan",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/5-cops-killed-dozens-injured-in-terrorist-attack-in-pakistan-11840409#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-05/bq5ph75_pakistan-attack-afp_625x300_12_May_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1785353890000,
-      "coverage": {
-        "left": 3,
-        "center": 0,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 1,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/berlin-pride-suspect-killed_n_6a66a575e4b006a1a83680ce"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/militants-attack-pakistani-police-post-kill-5-officers-135201196"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/5-cops-killed-dozens-injured-in-terrorist-attack-in-pakistan-11840409#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7afa082566fd",
-      "title": "Fed Holds Interest Rates Steady",
-      "description": "US Federal Reserve leaves interest rates unchanged in a 9-3 decision.",
-      "lat": 38.9,
-      "lng": -75.1148,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cy07wgqjv08o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa1f/live/9a5f9640-8b56-11f1-8322-5bf52455cf04.jpg",
-      "ts": 1785353440000,
-      "coverage": {
-        "left": 0,
-        "center": 3,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 3,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/fed-kept-interest-rates-steady-it-was-not-unanimous-decision-3805875"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/videos/2026-07-29/fed-holds-rates-steady-three-dissenters-wanted-a-hike-video"
-          },
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20260730000351315"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/economy/2026/07/29/fed-rates-decision/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "bd0cb457d1c2",
-      "title": "US interest rates held for fifth time in a row",
-      "description": "The Federal Reserve's decision means rates remain between the 3.5% and 3.75%.",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 1,
-      "location": "Washington D.C., USA",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cy07wgqjv08o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa1f/live/9a5f9640-8b56-11f1-8322-5bf52455cf04.jpg",
-      "ts": 1785353440000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC Business",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cy07wgqjv08o?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
