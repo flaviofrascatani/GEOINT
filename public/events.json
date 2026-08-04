@@ -1,7 +1,174 @@
 {
   "schema": 1,
-  "updated": "2026-08-04T07:16:58.017551+00:00",
+  "updated": "2026-08-04T10:13:47.399458+00:00",
   "events": [
+    {
+      "id": "4ea7a55130e4",
+      "title": "Trump Threatens Iran with Decapitation",
+      "description": "US President Donald Trump has threatened Iran with 'decapitation' after a cargo ship was hit in the Strait of Hormuz.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-us-denies-negotiations-begin-strikes-called-off/",
+      "image": null,
+      "ts": 1785838279000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-us-denies-negotiations-begin-strikes-called-off/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/us-iran-war-last-chance-before-decapitation-president-donald-trump-warns-iran-as-talks-continue-11862071#publisher=newsstand"
+          },
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/trump-warns-iran-of-last-chance-before-decapitation-in-2026-war/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "982bb64ff54c",
+      "title": "Lebanon and UN Launch EU-Funded Programme for Conflict-Affected Farmers",
+      "description": "The government of Lebanon and the UN have launched an EU-funded programme to support conflict-affected farmers.",
+      "lat": 33.89,
+      "lng": 37.71000000000001,
+      "severity": 1,
+      "location": "Beirut, Lebanon",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE56WFYxVTJOaDJOU3BQWHJrSHZONWN1bGh6aEVPZ2FEaDlVeV9OR2lXLWxXT2F4SDV6RWpLckVHbGxEWHE4NjFGYkQtb3F5dmhMUEdyTWpDc2Y4N1NhYmp1S1d1LS0tVWUzZVRLVEllMWY2YTZ3?oc=5",
+      "image": null,
+      "ts": 1785836233000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMidEFVX3lxTE56WFYxVTJOaDJOU3BQWHJrSHZONWN1bGh6aEVPZ2FEaDlVeV9OR2lXLWxXT2F4SDV6RWpLckVHbGxEWHE4NjFGYkQtb3F5dmhMUEdyTWpDc2Y4N1NhYmp1S1d1LS0tVWUzZVRLVEllMWY2YTZ3?oc=5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1704273d1c0b",
+      "title": "South Korea and Bangladesh Reach Agreement in Principle on CEPA",
+      "description": "South Korea and Bangladesh have reached an agreement in principle on a Comprehensive Economic Partnership Agreement (CEPA).",
+      "lat": 37.56,
+      "lng": 126.97,
+      "severity": 1,
+      "location": "Seoul, South Korea",
+      "source": "Yonhap News",
+      "url": "https://en.yna.co.kr/view/AEN20260804008700320",
+      "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/04/AEN20260804008700320_02_i_P2.jpg",
+      "ts": 1785836214000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20260804008700320"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4757571df448",
+      "title": "Ukraine Drone Strike Kills Five Near Moscow",
+      "description": "A Ukrainian drone strike has killed five people near Moscow, according to Russian officials.",
+      "lat": 55.75,
+      "lng": 37.620000000000005,
+      "severity": 4,
+      "location": "Moscow, Russia",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/ukrainian-drone-strike-russia-warehouses-moscow-region-5-dead/",
+      "image": null,
+      "ts": 1785835826000,
+      "coverage": {
+        "left": 0,
+        "center": 5,
+        "right": 1,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 5,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c151pkww79zo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/2026/0804/1586333-five-dead-drone/"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/ukraine-strikes-inside-russia-as-moscow-accused-of-increasingly-brutal-attacks"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/ukraine-drone-strikes-kill-five-near-moscow-russia-says/live-78227405?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-04/five-die-in-ukraine-drone-strike-in-moscow-region-governor-says"
+          },
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/news/article-16026689/Ukraine-strikes-Moscow-industrial-zone-fresh-drone-onslaught-killing-multiple-people-Kyiv-continues-bring-war-Putins-doorstep.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+          }
+        ]
+      }
+    },
     {
       "id": "d3e317e4dbdb",
       "title": "India’s Gen Z movement of 'Cockroaches' dented Modi's political image",
@@ -41,6 +208,39 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/opinion/op-ed/indias-gen-z-revolt-is-modis-toughest-political-test"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6e81b0ef7db9",
+      "title": "Japan Says Combat Drones Key to Adapting to New Warfare",
+      "description": "The Japanese government has emphasized the importance of combat drones in adapting to new methods of warfare.",
+      "lat": 35.69,
+      "lng": 139.76,
+      "severity": 2,
+      "location": "Tokyo, Japan",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/japan-combat-drones-key-adapting-new-warfare-tension-135342788",
+      "image": "https://s.abcnews.com/images/International/wirestory_5a6c6223b22deec4619af31cf69fdc34_4x3_384.jpg",
+      "ts": 1785816596000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/japan-combat-drones-key-adapting-new-warfare-tension-135342788"
           }
         ]
       }
@@ -7423,196 +7623,6 @@
             "n": "Mirror World",
             "b": "lean_left",
             "u": "https://www.mirror.co.uk/news/world-news/france-wildfires-bordeaux-weather-heatwave-37489052"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f2f4b95abd59",
-      "title": "IMF chief arrives in Montevideo for talks with Orsi and the economic team",
-      "description": "International Monetary Fund Managing Director Kristalina Georgieva arrived in Montevideo for talks on Thursday with President Yamandú Orsi and the country's senior economic officials.",
-      "lat": -34.9,
-      "lng": -56.17,
-      "severity": 1,
-      "location": "Montevideo, Uruguay",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/07/29/imf-chief-arrives-in-montevideo-for-talks-with-orsi-and-the-economic-team?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/110961/100x80/kri.jpg",
-      "ts": 1785366180000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/07/29/imf-chief-arrives-in-montevideo-for-talks-with-orsi-and-the-economic-team?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "54f29477d34f",
-      "title": "15 elephants die from cyanide poisoning in Kenya",
-      "description": "Fifteen elephants in southern Kenya are suspected to have been poisoned by cyanide-contaminated tomatoes.",
-      "lat": -2.65,
-      "lng": 37.95,
-      "severity": 3,
-      "location": "Amboseli National Park, Kenya",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/kenya-15-elephants-died-cyanide-poisoning-after-eating-135206914",
-      "image": "https://s.abcnews.com/images/International/wirestory_16472f80a3b345db6d476fc3bf4ef57b_4x3_384.jpg",
-      "ts": 1785362623000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/kenya-15-elephants-died-cyanide-poisoning-after-eating-135206914"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/kenya-elephants-cyanide-poisoned-tomatoes/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8daffe008ab1",
-      "title": "Zelensky warns of possible major Russian strike",
-      "description": "Zelensky warns of possible major Russian strike overnight",
-      "lat": 51.55,
-      "lng": 32.42519999999999,
-      "severity": 2,
-      "location": "Kyiv, Ukraine",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/europe/20260729-zelensky-warns-of-possible-major-russian-strike-overnight",
-      "image": "https://s.france24.com/media/display/a04dc3d6-8784-11f1-bcd2-005056a90284/w:1024/p:16x9/AP26205465075778.jpg",
-      "ts": 1785361795000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/europe/20260729-zelensky-warns-of-possible-major-russian-strike-overnight"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2167646f5e67",
-      "title": "Saudi Arabia seeks international coalition to protect Red Sea shipping",
-      "description": "Saudi Arabia is seeking to build an international coalition to protect shipping in the Red Sea from Houthi attacks.",
-      "lat": 25.81,
-      "lng": 48.585199999999986,
-      "severity": 2,
-      "location": "Riyadh, Saudi Arabia",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/07/saudi-arabia-seeks-international-coalition-protect-red-sea-shipping-houthis",
-      "image": null,
-      "ts": 1785361602000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 2,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 1,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/7/29/saudi-arabia-seeks-international-coalition-against-houthis-in-red-sea?traffic_source=rss"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUk5DNlFtUFNDdkhMSkVpNDNIeGFZLUI5Q3NscTk3NC1kY09KWC1lblMwNlc1N0ZhdEQ1VUhjUFJ1Qk9oVFpEWWpHUkRkS2wtazVjU0ZwSGFydk81aXQycWw1NVpBWmdMdGlOQTlhWDBQbi1lS0stajVZZDlPazJLZkF6NzVpTGlCLXV0aWt0ejNsTEdRMmZsYU5OM1huZy05ekhZR05Qek0wRm5UWGNF0gG0AUFVX3lxTFA2Y3VkOTJ4TmktdFJjSXIwNUhmWkMtS0pTTFNna0pGMTR2aU9FcEtvN3EwSTVsVl9YVkN6cFFyUVYzTDVuWFNKVGc4UUZGV1NTS09QX0hHa2NPd1NWOTN4T2xMcUxrUkRzdkNTdm1HSjdfSk9NY3p3cU1vY0xRYWxaeXllbGNEZUs1dEIxOW50cXZ4MGR6ajdGbEVrYUp4dTRXMkRGd29CS1FIQTVNV2ZOd2syUA?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/07/saudi-arabia-seeks-international-coalition-protect-red-sea-shipping-houthis"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/mid-east/saudi-arabia-seeks-coalition-to-safeguard-red-sea-shipping-sources"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/world/4668290/joint-operation-us-saudi-arabia-reform-barrage-iran-third-largest-arms-importer/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7203e4d5548f",
-      "title": "Italy's highest court strengthens citizenship claims by descendants of Italian emigrants",
-      "description": "Italy's highest court has ruled that children born with both Italian and another citizenship do not automatically lose their Italian citizenship if a parent naturalizes abroad.",
-      "lat": 41.87,
-      "lng": 12.5,
-      "severity": 1,
-      "location": "Rome, Italy",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/italys-highest-court-strengthens-citizenship-claims-descendants-italian-135205893",
-      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
-      "ts": 1785361356000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/italys-highest-court-strengthens-citizenship-claims-descendants-italian-135205893"
           }
         ]
       }
