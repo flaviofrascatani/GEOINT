@@ -1,7 +1,93 @@
 {
   "schema": 1,
-  "updated": "2026-08-04T18:43:30.839385+00:00",
+  "updated": "2026-08-04T20:38:31.453098+00:00",
   "events": [
+    {
+      "id": "86b9a8d801a7",
+      "title": "Evacuations ordered as Guatemala volcano erupts",
+      "description": "Guatemala’s Fuego volcano erupted Monday, triggering an orange alert and evacuations near the deadly 2018 eruption site.",
+      "lat": 14.47,
+      "lng": -90.88,
+      "severity": 3,
+      "location": "Guatemala",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/4/evacuations-ordered-as-guatemala-volcano-erupts?traffic_source=rss",
+      "image": null,
+      "ts": 1785872477000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/4/evacuations-ordered-as-guatemala-volcano-erupts?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c0e64a4d4a74",
+      "title": "Video shows Russian drone attacking vegetable seller in Ukraine",
+      "description": "Footage released by Ukrainian police shows the drone pursuing an unidentified man around a van being used as a street stand before exploding after he dives for cover behind the vehicle.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 4,
+      "location": "Kyiv, Ukraine",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/russia-ukraine-war-war-crime-video-shows-russian-drone-attacking-vegetable-seller-in-ukraine-11866469#publisher=newsstand",
+      "image": null,
+      "ts": 1785870373000,
+      "coverage": {
+        "left": 2,
+        "center": 3,
+        "right": 0,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/europe/russia-ukraine-war-drone-black-sea-resort-beach-holiday-goers-killed-rcna590723"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/russia-ukraine-war-war-crime-video-shows-russian-drone-attacking-vegetable-seller-in-ukraine-11866469#publisher=newsstand"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cn4n03xg981o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/russia-central-asia/article/3362978/ukraine-slams-russian-drone-safari-after-video-shows-vegetable-seller-being-chased-down?utm_source=rss_feed"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/world/ukraine-russia-drone-video-chasing-street-vendor-6298881"
+          }
+        ]
+      }
+    },
     {
       "id": "5a77af0bf017",
       "title": "Lebanon and Israel hold new round of direct talks in Rome",
@@ -7602,102 +7688,6 @@
             "n": "New York Times World",
             "b": "lean_left",
             "u": "https://www.nytimes.com/2026/07/30/world/americas/cuba-deputy-foreign-minister-interview-trump.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c0e64a4d4a74",
-      "title": "NATO member scrambles fighter jets as Russian attack on Ukraine kills 8",
-      "description": "Poland scrambled fighter jets after a suspected Russian Kh-101 missile entered its airspace during a massive barrage of over 70 missiles and 280 drones.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 3,
-      "location": "Kyiv, Ukraine",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/nato-member-scrambles-fighter-jets-russian-attack-ukraine-kills-8",
-      "image": null,
-      "ts": 1785411670000,
-      "coverage": {
-        "left": 5,
-        "center": 1,
-        "right": 1,
-        "total": 7,
-        "buckets": {
-          "left": 0,
-          "lean_left": 5,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/07/30/world/europe/ukraine-poland-russia-missile.html"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/russian-attacks-on-ukraine-kill-several-prompt-fresh-zelenskyy-call-for-more-air-defense-missiles-from-allies/"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/russian-strike-zelenskys-home-region-37495811"
-          },
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/07/30/russia-ukraine-attack-drones-missiles-defense-death-toll/"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/russian-strikes-across-ukraine-kill-9-and-nato-scrambles-jets-after-a-missile-falls-in-poland/article71287476.ece"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/video/20260730-ukraine-pounded-in-russian-attack-polish-airspace-violated-1"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/nato-member-scrambles-fighter-jets-russian-attack-ukraine-kills-8"
-          }
-        ]
-      }
-    },
-    {
-      "id": "93229a4636dd",
-      "title": "Pope Leo Says He Hopes to Visit U.S. Within ‘Next Couple of Years’",
-      "description": "Pope Leo XIV said that he had been looking at the calendar for the 'next couple of years' to plan a visit to the United States.",
-      "lat": 41.87,
-      "lng": -87.62,
-      "severity": 1,
-      "location": "Vatican City, Rome",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/07/30/world/europe/pope-leo-visit-us-american.html",
-      "image": "https://static01.nyt.com/images/2026/07/30/multimedia/30int-POPE-VATICAN-mjbf/30int-POPE-VATICAN-mjbf-mediumSquareAt3X.jpg",
-      "ts": 1785407498000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/07/30/world/europe/pope-leo-visit-us-american.html"
           }
         ]
       }
