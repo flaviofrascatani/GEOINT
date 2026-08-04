@@ -1,7 +1,50 @@
 {
   "schema": 1,
-  "updated": "2026-08-04T04:19:04.619845+00:00",
+  "updated": "2026-08-04T07:16:58.017551+00:00",
   "events": [
+    {
+      "id": "d3e317e4dbdb",
+      "title": "India’s Gen Z movement of 'Cockroaches' dented Modi's political image",
+      "description": "A movement of young protesters in India, known as the 'Cockroaches', has achieved a rare political victory by forcing the resignation of the education minister.",
+      "lat": 30.26,
+      "lng": 78.18259999999998,
+      "severity": 1,
+      "location": "New Delhi, India",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/indias-gen-movement-cockroaches-dented-modis-political-image-135344771",
+      "image": "https://s.abcnews.com/images/International/wirestory_4358744e9d890b92ffdd2477bbd99e8a_4x3_384.jpg",
+      "ts": 1785822879000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/indias-gen-movement-cockroaches-dented-modis-political-image-135344771"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/can-pm-modi-reconnect-with-india-s-gen-z/a-78216627?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/opinion/op-ed/indias-gen-z-revolt-is-modis-toughest-political-test"
+          }
+        ]
+      }
+    },
     {
       "id": "50a5f382507f",
       "title": "India to raise up to $3.3 billion by selling stake in country's largest life insurer",
@@ -613,25 +656,25 @@
     },
     {
       "id": "e7cc73a952d7",
-      "title": "Boris Nadezhdin flees Russia for France",
-      "description": "Russian opposition figure Boris Nadezhdin has fled to France, after being detained and barred from running for parliament.",
+      "title": "Boris Nadezhdin, anti-war candidate in Russia, flees to France",
+      "description": "Russian anti-war candidate Boris Nadezhdin has fled to France after being prohibited from running in parliamentary elections.",
       "lat": 48.86,
       "lng": 2.289999999999992,
-      "severity": 3,
+      "severity": 2,
       "location": "Paris, France",
       "source": "Washington Post World",
       "url": "https://www.washingtonpost.com/world/2026/08/03/boris-nadezhdin-anti-war-candidate-russia-flees-france/",
       "image": null,
       "ts": 1785763335000,
       "coverage": {
-        "left": 2,
-        "center": 1,
+        "left": 1,
+        "center": 0,
         "right": 0,
-        "total": 3,
+        "total": 1,
         "buckets": {
           "left": 0,
-          "lean_left": 2,
-          "center": 1,
+          "lean_left": 1,
+          "center": 0,
           "lean_right": 0,
           "right": 0
         },
@@ -640,16 +683,6 @@
             "n": "Washington Post World",
             "b": "lean_left",
             "u": "https://www.washingtonpost.com/world/2026/08/03/boris-nadezhdin-anti-war-candidate-russia-flees-france/"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/08/03/putin-critic-boris-nadezhdin-flees-russia-for-france_6756114_4.html"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/europe/20260803-anti-war-politician-and-kremlin-critic-boris-nadezhdin-flees-russia-for-france"
           }
         ]
       }
@@ -708,6 +741,44 @@
             "n": "Egypt Independent",
             "b": "center",
             "u": "https://www.egyptindependent.com/aung-san-suu-kyi-meets-red-cross-official-military-backed-government-says-after-proof-of-life-campaign/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fe225b0b037c",
+      "title": "Spain's Ceuta Overwhelmed As Thousands Remain After Migrant Border Rush",
+      "description": "The Spanish territory of Ceuta is struggling to cope with the thousands of migrants who remain after a massive border rush last week.",
+      "lat": 35.89,
+      "lng": -5.310000000000002,
+      "severity": 3,
+      "location": "Ceuta, Spain",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/ceuta-migrant-border-rush_n_6a708089e4b03026f4f05c78",
+      "image": null,
+      "ts": 1785758038000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/ceuta-migrant-border-rush_n_6a708089e4b03026f4f05c78"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/thousands-of-migrants-remain-in-ceuta-after-deadly-mass-rush-from-morocco-13569427"
           }
         ]
       }
@@ -7542,82 +7613,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/italys-highest-court-strengthens-citizenship-claims-descendants-italian-135205893"
-          }
-        ]
-      }
-    },
-    {
-      "id": "16c1c427487c",
-      "title": "Helicopter crash in Argentina",
-      "description": "Seven people died when a firefighting helicopter crashed in Argentina's western San Juan province",
-      "lat": -31.54,
-      "lng": -68.53,
-      "severity": 4,
-      "location": "San Juan, Argentina",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/7-killed-in-helicopter-crash-in-argentina-officials-11840494#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2023-03/hjs849g8_helicopter-generic_625x300_16_March_23.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1785359418000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/7-killed-in-helicopter-crash-in-argentina-officials-11840494#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "36fd42d16ed3",
-      "title": "Drone hits storage tanker at Egyptian port",
-      "description": "A drone hit a U.S.-owned gas storage tanker at Egypt's Mediterranean port of Damietta",
-      "lat": 32.62,
-      "lng": 31.72,
-      "severity": 4,
-      "location": "Damietta, Egypt",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/drone-hits-storage-tanker-at-egyptian-port-in-major-middle-east-escalation-security-firm-says",
-      "image": "https://s.france24.com/media/display/768147f8-8b8f-11f1-9a46-005056bf30b7/w:1024/p:16x9/EN-20260729-210111-210319-CS.jpg",
-      "ts": 1785358544000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/drone-strikes-us-owned-gas-tanker-at-egypts-damietta-port-11840299#publisher=newsstand"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/drone-hits-storage-tanker-at-egyptian-port-in-major-middle-east-escalation-security-firm-says"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/article-904026"
           }
         ]
       }
