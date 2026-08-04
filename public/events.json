@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-04T15:04:52.395540+00:00",
+  "updated": "2026-08-04T16:59:58.865457+00:00",
   "events": [
+    {
+      "id": "862f9cf1387b",
+      "title": "Gaza Holds Mass Funeral for Extended Family Recovered from Wartime Rubble",
+      "description": "Gaza has held a mass funeral for dozens of people, including women and children, recently recovered from wartime rubble.",
+      "lat": 31.51,
+      "lng": 34.46000000000001,
+      "severity": 4,
+      "location": "Gaza City, Gaza",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/gaza-war-mass-funeral-extended-family/",
+      "image": null,
+      "ts": 1785856482000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/gaza-war-mass-funeral-extended-family/"
+          }
+        ]
+      }
+    },
     {
       "id": "7c61c17a0ecf",
       "title": "Spain and Morocco tensions rise after Ceuta migrant crisis",
@@ -7660,39 +7693,6 @@
             "n": "Rio Times",
             "b": "center",
             "u": "https://www.riotimesonline.com/brazil-el-nino-plan-injects-us262m-to-stockpile-corn-rice/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ce1cb1348c80",
-      "title": "Pakistani police post attacked",
-      "description": "A militant attack on a police post in northwestern Pakistan left 11 officers and 15 attackers dead.",
-      "lat": 34.02,
-      "lng": 71.58,
-      "severity": 4,
-      "location": "Peshawar, Pakistan",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/deadly-overnight-raid-pakistani-police-post-leaves-11-135216651",
-      "image": "https://s.abcnews.com/images/International/wirestory_a747a0f15041ad7622785d47fb5cb96b_4x3_384.jpg",
-      "ts": 1785401892000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/deadly-overnight-raid-pakistani-police-post-leaves-11-135216651"
           }
         ]
       }
