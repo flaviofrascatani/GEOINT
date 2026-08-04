@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-04T01:02:09.801889+00:00",
+  "updated": "2026-08-04T04:19:04.619845+00:00",
   "events": [
+    {
+      "id": "50a5f382507f",
+      "title": "India to raise up to $3.3 billion by selling stake in country's largest life insurer",
+      "description": "The Indian government plans to raise up to $3.3 billion by selling its stake in the country's top life insurance company.",
+      "lat": 28.61,
+      "lng": 77.23,
+      "severity": 2,
+      "location": "New Delhi, India",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/08/04/india-lic-stake-sale-discount.html",
+      "image": null,
+      "ts": 1785812401000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/08/04/india-lic-stake-sale-discount.html"
+          }
+        ]
+      }
+    },
     {
       "id": "e1175b6aa4e1",
       "title": "Venezuela Earthquake Death Toll",
@@ -102,12 +135,45 @@
       }
     },
     {
+      "id": "caf05587d9ca",
+      "title": "Morocco's role in Ceuta migrant crisis raises questions",
+      "description": "The sudden arrival of 50,000 people in Ceuta raises questions about Morocco's role in this migration crisis.",
+      "lat": 35.88,
+      "lng": -5.310000000000002,
+      "severity": 3,
+      "location": "Ceuta, Spain",
+      "source": "Le Monde English",
+      "url": "https://www.lemonde.fr/en/le-monde-africa/article/2026/08/04/how-morocco-is-pressuring-the-spanish-enclaves-of-ceuta-and-melilla_6756128_124.html",
+      "image": "https://img.lemde.fr/2026/08/02/315/0/5369/2684/644/322/60/0/ec43092_ftp-1-sdk3xiulno5m-5759908-01-06.jpg",
+      "ts": 1785795269000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/le-monde-africa/article/2026/08/04/how-morocco-is-pressuring-the-spanish-enclaves-of-ceuta-and-melilla_6756128_124.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "5250a1ff2d2d",
-      "title": "25 US States Sue Trump Administration",
-      "description": "Twenty-five US states are suing the Trump administration over its latest global tariffs.",
+      "title": "25 US states sue Trump administration over new tariffs",
+      "description": "Twenty-five US states sued the Trump administration over its latest wide-ranging tariffs imposed on dozens of countries.",
       "lat": 38.9,
       "lng": -77.02,
-      "severity": 2,
+      "severity": 3,
       "location": "Washington D.C., USA",
       "source": "Daily Sabah",
       "url": "https://www.dailysabah.com/business/economy/25-us-states-sue-trump-administration-over-latest-global-tariffs",
@@ -115,13 +181,13 @@
       "ts": 1785793680000,
       "coverage": {
         "left": 1,
-        "center": 2,
+        "center": 1,
         "right": 1,
-        "total": 4,
+        "total": 3,
         "buckets": {
           "left": 0,
           "lean_left": 1,
-          "center": 2,
+          "center": 1,
           "lean_right": 1,
           "right": 0
         },
@@ -137,14 +203,47 @@
             "u": "https://www.cnbc.com/2026/08/03/trump-tariffs-25-states-lawsuit-supreme-court.html"
           },
           {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-03/trump-s-latest-tariffs-hit-with-new-lawsuit-by-group-of-states"
-          },
-          {
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/business/economy/25-us-states-sue-trump-administration-over-latest-global-tariffs"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e192080ec52e",
+      "title": "EU calls for stronger borders after Ceuta migrant crossings",
+      "description": "European Commission president Ursula von der Leyen has called for action to strengthen Europe’s borders after a migrant crisis in the Spanish enclave of Ceuta.",
+      "lat": 53.17,
+      "lng": 4.300000000000011,
+      "severity": 3,
+      "location": "The Hague, Netherlands",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cyvl84zmgyro?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7271/live/db06f1c0-8f7f-11f1-b08e-77185111f813.jpg",
+      "ts": 1785793390000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/aug/03/stronger-eu-borders-physical-barriers-ceuta-von-der-leyen"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cyvl84zmgyro?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
@@ -557,43 +656,48 @@
     },
     {
       "id": "09dc0a211c81",
-      "title": "Detained Myanmar Leader Suu Kyi Has First Foreign Visitor in Five Years",
-      "description": "Aung San Suu Kyi has met a Red Cross representative in her first confirmed contact with a foreign official since 2021.",
+      "title": "Red Cross meets with Myanmar's detained former leader Aung San Suu Kyi",
+      "description": "The Red Cross met with Myanmar's detained former leader Aung San Suu Kyi, in her first known contact with the outside world since the 2021 coup.",
       "lat": 17.9,
       "lng": 96.14999999999998,
-      "severity": 1,
+      "severity": 3,
       "location": "Naypyidaw, Myanmar",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/3/detained-myanmar-leader-suu-kyi-has-first-foreign-visitor-in-five-years?traffic_source=rss",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/red-cross-meets-myanmars-detained-former-leader-aung-135316758",
       "image": null,
       "ts": 1785761803000,
       "coverage": {
         "left": 3,
-        "center": 6,
+        "center": 3,
         "right": 0,
-        "total": 9,
+        "total": 6,
         "buckets": {
           "left": 0,
           "lean_left": 3,
-          "center": 6,
+          "center": 3,
           "lean_right": 0,
           "right": 0
         },
         "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/03/world/asia/myanmar-aung-san-suu-kyi-photos-icrc.html"
+          },
           {
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/red-cross-meets-myanmars-detained-former-leader-aung-135316758"
           },
           {
-            "n": "Al Jazeera",
+            "n": "NDTV World",
             "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/3/detained-myanmar-leader-suu-kyi-has-first-foreign-visitor-in-five-years?traffic_source=rss"
+            "u": "https://www.ndtv.com/world-news/aung-san-suu-kyi-meets-red-cross-official-in-myanmar-in-rare-contact-since-2021-coup-11861974#publisher=newsstand"
           },
           {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/myanmars-aung-san-suu-kyi-meets-red-cross-official-government-says/article71299861.ece"
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c1e1d5j6660o?at_medium=RSS&at_campaign=rss"
           },
           {
             "n": "Sky News World",
@@ -601,29 +705,9 @@
             "u": "https://news.sky.com/story/son-of-myanmars-detained-former-leader-aung-san-suu-kyigives-update-13569395"
           },
           {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/myanmar-aung-san-suu-kyi-meets-red-cross-official-junta-says/a-78211532?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSlctT0dBVG9VVlhKZ284bjkxZlJVUFJDMFg0eGdHNkp2X1pQa2pPV0VZN3JZWFlRQ25zWHVCTkIzampNaWRqYjZ4VFdiQjk2WGZaS0didzJnaGc4M2JYV0dYdFU5dy1pTUZnRmFwcmpsb01iRzRBUFRQcUlKZWFhdzV1M1JfdV8yNlA1UzBiRUNVRUR5dVlqQUJ0QmNpS2pxMGVFVw?oc=5"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-03/myanmar-shows-nobel-winner-suu-kyi-meeting-red-cross-amid-fear-for-her-health"
-          },
-          {
             "n": "Egypt Independent",
             "b": "center",
             "u": "https://www.egyptindependent.com/aung-san-suu-kyi-meets-red-cross-official-military-backed-government-says-after-proof-of-life-campaign/"
-          },
-          {
-            "n": "Nikkei Asia",
-            "b": "center",
-            "u": "https://asia.nikkei.com/spotlight/myanmar-crisis/myanmar-grants-access-to-suu-kyi-ahead-of-thailand-visit"
           }
         ]
       }
@@ -7534,105 +7618,6 @@
             "n": "Jerusalem Post",
             "b": "center",
             "u": "https://www.jpost.com/middle-east/article-904026"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2d683d4b5028",
-      "title": "Algeria elects first-ever woman speaker of parliament",
-      "description": "Khalida Boufedeche of the National Liberation Front has become the first-ever woman speaker of Algeria’s parliament.",
-      "lat": 37.87,
-      "lng": 3.0600000000000023,
-      "severity": 1,
-      "location": "Algiers, Algeria",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/algeria-elects-first-ever-woman-speaker-of-parliament?traffic_source=rss",
-      "image": null,
-      "ts": 1785355766000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/7/29/algeria-elects-first-ever-woman-speaker-of-parliament?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7214651f3a7e",
-      "title": "Hundreds of migrants swim from Morocco to the Spanish territory of Ceuta",
-      "description": "Hundreds of migrants are swimming from Morocco to the Spanish territory of Ceuta, overwhelming border security.",
-      "lat": 35.88,
-      "lng": -5.31,
-      "severity": 3,
-      "location": "Ceuta, Spain",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/hundreds-migrants-swimming-morocco-spanish-territory-ceuta-135201715",
-      "image": "https://s.abcnews.com/images/International/wirestory_da8f6c6b2a8318fb03df5d6289a7d731_4x3_384.jpg",
-      "ts": 1785355492000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/hundreds-migrants-swimming-morocco-spanish-territory-ceuta-135201715"
-          }
-        ]
-      }
-    },
-    {
-      "id": "29b7f388b372",
-      "title": "UN extends sanctions against armed groups in Central African Republic",
-      "description": "The measures include asset freezes, travel bans, and restrictions on supplying weapons and military equipment to them",
-      "lat": 4.37,
-      "lng": 18.56,
-      "severity": 3,
-      "location": "Bangui, Central African Republic",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/07/29/united-nations-extends-sanctions-against-armed-groups-in-central-african-republic/",
-      "image": "http://images.euronews.com/articles/stories/09/85/55/57/640x360_cmsv2_9e97acb0-1456-5685-85b8-d02ced50abd2-9855557.jpg?1785348899",
-      "ts": 1785355417000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/07/29/united-nations-extends-sanctions-against-armed-groups-in-central-african-republic/"
           }
         ]
       }
