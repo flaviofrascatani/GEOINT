@@ -1,7 +1,159 @@
 {
   "schema": 1,
-  "updated": "2026-08-04T12:27:22.897534+00:00",
+  "updated": "2026-08-04T15:04:52.395540+00:00",
   "events": [
+    {
+      "id": "7c61c17a0ecf",
+      "title": "Spain and Morocco tensions rise after Ceuta migrant crisis",
+      "description": "Spain demands EU solidarity after a mass influx of migrants into the North African enclave of Ceuta, which has led to a diplomatic crisis between Spain and Morocco.",
+      "lat": 35.88,
+      "lng": -5.360000000000014,
+      "severity": 3,
+      "location": "Ceuta, Spain",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/europe/20260804-spain-and-fellow-eu-nations-bury-the-hatchet-after-ceuta-migration-discord",
+      "image": "https://s.france24.com/media/display/64915856-900f-11f1-8096-005056a97e36/w:1024/p:16x9/000-C3T764T.jpg",
+      "ts": 1785854938000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/ceuta-migrant-surge-exposes-spain-morocco-tensions-islamist-groups-reportedly-seek-exploit-border-crisis"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5a77af0bf017",
+      "title": "Hezbollah rejects fresh round of talks between Lebanon and Israel",
+      "description": "Hezbollah has rejected a fresh round of talks between Lebanon and Israel, under US sponsorship, citing the lack of progress on key issues.",
+      "lat": 33.89,
+      "lng": 35.5,
+      "severity": 3,
+      "location": "Beirut, Lebanon",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/hezbollah-rejects-fresh-round-of-talks-between-lebanon-and-israel",
+      "image": "https://s.france24.com/media/display/33ca89d4-9011-11f1-bbd5-005056bfb2b6/w:1024/p:16x9/AP26216348535497.jpg",
+      "ts": 1785854030000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/4/seventh-round-of-israel-lebanon-talks-begins-whats-on-the-agenda?traffic_source=rss"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/hezbollah-rejects-fresh-round-of-talks-between-lebanon-and-israel"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/middle-east-hezbollah-condemns-latest-israel-lebanon-talks/live-78235099?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/what-know-about-lebanon-israel-7th-round-talks-held-rome"
+          }
+        ]
+      }
+    },
+    {
+      "id": "10f3122d1067",
+      "title": "France and UK rescue 157 migrants after boat engine fire in the Channel",
+      "description": "French and British teams have rescued 157 migrants trying to cross the Channel after their boat's engine caught fire.",
+      "lat": 52.6,
+      "lng": 2.8126000000000033,
+      "severity": 3,
+      "location": "English Channel",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/french-british-teams-rescue-157-migrants-after-boat-135348952",
+      "image": "https://s.abcnews.com/images/International/wirestory_24e0fcc2d9123875a8e86ad4fb887adc_4x3_384.jpg",
+      "ts": 1785850207000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/french-british-teams-rescue-157-migrants-after-boat-135348952"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c4gkpeppjyqo?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "68ebbc80371d",
+      "title": "India invites Bangladesh PM to attend BRICS summit",
+      "description": "India has invited Bangladesh Prime Minister Sheikh Hasina to attend the BRICS summit, in a bid to strengthen ties between the two countries.",
+      "lat": 20.59,
+      "lng": 77.05,
+      "severity": 1,
+      "location": "New Delhi, India",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/national/india-invites-bangladesh-pm-rahman-to-attend-brics-summit/article71305448.ece",
+      "image": "https://th-i.thgim.com/public/incoming/qasq4o/article71305514.ece/alternates/LANDSCAPE_1200/2026-06-26T040122Z_816699962_RC2E1MAKR377_RTRMADP_3_CHINA-BANGLADESH.JPG",
+      "ts": 1785849060000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/national/india-invites-bangladesh-pm-rahman-to-attend-brics-summit/article71305448.ece"
+          }
+        ]
+      }
+    },
     {
       "id": "29ef2922e540",
       "title": "Trump threatens Iran with 'decapitation'",
@@ -555,6 +707,39 @@
             "n": "NDTV World",
             "b": "lean_left",
             "u": "https://www.ndtv.com/world-news/us-to-close-consulates-in-canada-japan-indonesia-report-11861846#publisher=newsstand"
+          }
+        ]
+      }
+    },
+    {
+      "id": "98df7f2ab7ae",
+      "title": "EU adopts 21st sanctions package against Russia",
+      "description": "The EU has adopted its 21st sanctions package against Russia, in response to the ongoing conflict in Ukraine.",
+      "lat": 55.75,
+      "lng": 37.620000000000005,
+      "severity": 3,
+      "location": "Moscow, Russia",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQkFsWlg1c3pGcDRjSll5Ums1U2NnVHhpMk9fTTdSdTM4Z1F1aUNHUDVBMFJFRVd6dThrVEhFeHFUcG1tbzVCNEtWQ3A3LWZOUG5FcDRMS1RnS1R3N3BPSXc3TGRJRjV4V25majJqNHJIa3ZNN3pTeW9BZWpISEIxWFNB?oc=5",
+      "image": null,
+      "ts": 1785795725000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQkFsWlg1c3pGcDRjSll5Ums1U2NnVHhpMk9fTTdSdTM4Z1F1aUNHUDVBMFJFRVd6dThrVEhFeHFUcG1tbzVCNEtWQ3A3LWZOUG5FcDRMS1RnS1R3N3BPSXc3TGRJRjV4V25majJqNHJIa3ZNN3pTeW9BZWpISEIxWFNB?oc=5"
           }
         ]
       }
@@ -5244,11 +5429,11 @@
     },
     {
       "id": "0d4e984b58b4",
-      "title": "Hackers targeted municipal water systems in 7 states this week, FBI says",
-      "description": "Cyberattacks targeting municipal water systems have been reported in at least seven states this week.",
+      "title": "Cyberattacks target municipal water systems in 7 US states",
+      "description": "The FBI has warned utilities nationwide that hackers have targeted municipal water systems in at least seven states, prompting concerns over the security of critical infrastructure.",
       "lat": 38.9,
       "lng": -77.02,
-      "severity": 3,
+      "severity": 2,
       "location": "Washington D.C., USA",
       "source": "NBC News World",
       "url": "https://www.nbcnews.com/tech/security/hackers-targeted-municipal-water-systems-7-states-week-fbi-says-rcna590210",
@@ -7508,171 +7693,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/deadly-overnight-raid-pakistani-police-post-leaves-11-135216651"
-          }
-        ]
-      }
-    },
-    {
-      "id": "66ceb2034555",
-      "title": "US launches strikes on Iranian targets",
-      "description": "The US military says it has completed what it describes as a heavy wave of strikes against Iran conducted in response to an earlier Iranian missile attack on a US base in Jordan.",
-      "lat": 31.95,
-      "lng": 35.93000000000001,
-      "severity": 4,
-      "location": "Amman, Jordan",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/us-iran-strikes_n_6a6ab6b5e4b0fddbd71302f9",
-      "image": null,
-      "ts": 1785392520000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 1,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/us-iran-strikes_n_6a6ab6b5e4b0fddbd71302f9"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ff40681e76c9",
-      "title": "Nepal's tiger population more than triples in 16 years",
-      "description": "The population of tigers in Nepal has increased from 121 in 2010 to 429, according to the WWF.",
-      "lat": 28.8,
-      "lng": 85.30000000000001,
-      "severity": 1,
-      "location": "Kathmandu, Nepal",
-      "source": "AGI Estero",
-      "url": "https://www.agi.it/estero/news/2026-07-30/nepal-tigri-38288418/",
-      "image": "https://images.agi.it/pictures/agi/agi/2026/07/29/121548598-0f944dfd-38cb-4474-8036-8ca58c395cf7.jpg",
-      "ts": 1785380400000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-07-30/nepal-tigri-38288418/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c0ee9e8cb704",
-      "title": "China threatens retaliation against US humanoid robot ban",
-      "description": "China's Commerce Ministry said the US Federal Communications Commission has repeatedly ignored Beijing's restrained stance, and the ban 'severely damages' relations.",
-      "lat": 41.0,
-      "lng": 116.39999999999998,
-      "severity": 2,
-      "location": "Beijing, China",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/07/30/china-us-robot-humanoid-ban-trump-visit.html",
-      "image": null,
-      "ts": 1785379950000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/07/30/china-us-robot-humanoid-ban-trump-visit.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "41f00bf03716",
-      "title": "US launches fresh airstrikes in Iran",
-      "description": "The US military conducted a heavy wave of airstrikes in Iran on Wednesday evening, targeting its Islamic Revolutionary Guard Corps in response to attacks on American military bases in the Middle East.",
-      "lat": 32.43,
-      "lng": 53.68,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/07/29/us-airstrikes-iran-trump-resume",
-      "image": "https://images.axios.com/-pFa2pQChAVgLMtfGHlQIR-4Y1o=/0x100:5015x2921/1366x768/2026/07/29/1785367921837.jpeg",
-      "ts": 1785379551000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-07-30/us-launches-fresh-strikes-against-iran-as-war-escalates-again"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f7bf2b72005c",
-      "title": "Russia launches ballistic missile attack on Kyiv",
-      "description": "Multiple explosions rocked Kyiv after Russia launched ballistic missiles, hours after Volodymyr Zelenskyy warned of a massive overnight assault.",
-      "lat": 50.45,
-      "lng": 32.42519999999999,
-      "severity": 4,
-      "location": "Kyiv, Ukraine",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/russia-launches-ballistic-missile-attack-kyiv-hours-after-zelenskyy-warns-major-strike",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/07/931/523/Kyiv-Attack-July-1.jpg?ve=1&tl=1",
-      "ts": 1785374058000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/russia-launches-ballistic-missile-attack-kyiv-hours-after-zelenskyy-warns-major-strike"
           }
         ]
       }
