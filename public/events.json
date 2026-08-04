@@ -1,7 +1,78 @@
 {
   "schema": 1,
-  "updated": "2026-08-04T20:38:31.453098+00:00",
+  "updated": "2026-08-04T22:19:25.874328+00:00",
   "events": [
+    {
+      "id": "965ac913d770",
+      "title": "North Korea Warns of 'Additional Military Options'",
+      "description": "North Korea warned it will consider 'additional military options' in response to Japan's expanding defense buildup.",
+      "lat": 39.03,
+      "lng": 125.75,
+      "severity": 2,
+      "location": "Pyongyang, North Korea",
+      "source": "Yonhap News",
+      "url": "https://en.yna.co.kr/view/AEN20260805000400315",
+      "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/05/AEN20260805000400315_01_i_P2.jpg",
+      "ts": 1785881706000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20260805000400315"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0deffba0c90d",
+      "title": "US Used Most of Its Tactical Ballistic Missiles in War on Iran",
+      "description": "The US has spent almost its entire stock of surface-to-surface tactical missiles in the attack on Iran, according to Reuters.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 4,
+      "location": "Tehran, Iran",
+      "source": "RT News",
+      "url": "https://www.rt.com/news/643860-us-missile-stock-depleted/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.08/thumbnail/6a7257352030276d77434348.png",
+      "ts": 1785878385000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/us-used-virtually-all-of-its-long-range-missiles-during-iran-war-report-11866431#publisher=newsstand"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/643860-us-missile-stock-depleted/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
     {
       "id": "86b9a8d801a7",
       "title": "Evacuations ordered as Guatemala volcano erupts",
@@ -89,6 +160,44 @@
       }
     },
     {
+      "id": "0ae0e690837e",
+      "title": "Israel Refuses to Withdraw from Gaza",
+      "description": "Israeli Prime Minister Netanyahu stated that Israel will not withdraw from Gaza until Hamas is completely disarmed.",
+      "lat": 31.51,
+      "lng": 34.46000000000001,
+      "severity": 3,
+      "location": "Gaza, Palestine",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/benjamin-netanyahu-refuses-withdraw-israel-gaza-hamas-disarms_n_6a723411e4b02974827b7ea0",
+      "image": null,
+      "ts": 1785870102000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 1,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/benjamin-netanyahu-refuses-withdraw-israel-gaza-hamas-disarms_n_6a723411e4b02974827b7ea0"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/israel-wont-leave-gaza-until-hamas-is-completely-disarmed-benjamin-netanyahu-11866566#publisher=newsstand"
+          }
+        ]
+      }
+    },
+    {
       "id": "5a77af0bf017",
       "title": "Lebanon and Israel hold new round of direct talks in Rome",
       "description": "Lebanon and Israel held a fresh round of US-sponsored talks in Rome, with Beirut seeking Israel's phased withdrawal from the country's south.",
@@ -170,6 +279,39 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/world/2169003"
+          }
+        ]
+      }
+    },
+    {
+      "id": "76006667aa30",
+      "title": "Uruguay Reaches Preliminary Deal to Reduce Working Hours",
+      "description": "Uruguay's construction workers' union and employer chambers reached a preliminary agreement to reduce the working week from 44 to 40 hours.",
+      "lat": -31.43,
+      "lng": -55.75999999999999,
+      "severity": 1,
+      "location": "Montevideo, Uruguay",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/08/04/uruguay-preliminary-deal-signed-in-construction-to-cut-working-hours?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": "https://en.mercopress.com/data/cache/noticias/111023/100x80/sunca.jpg",
+      "ts": 1785857340000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/08/04/uruguay-preliminary-deal-signed-in-construction-to-cut-working-hours?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
           }
         ]
       }
@@ -7521,173 +7663,6 @@
             "n": "NBC News World",
             "b": "lean_left",
             "u": "https://www.nbcnews.com/world/iran/us-heavy-wave-strikes-iran-war-attack-trump-saudi-egypt-drone-oil-rcna589967"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6c432010d1a6",
-      "title": "Bank of England keeps key rate at 3.75% for the fifth time this year",
-      "description": "The Bank of England has kept its key interest rate on hold for the fifth time this year after a bigger-than-expected drop in the inflation rate last month gave policymakers breathing space to assess the future of the economy.",
-      "lat": 51.51,
-      "lng": 1.8251999999999953,
-      "severity": 2,
-      "location": "London, United Kingdom",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/bank-england-key-rate-375-time-year-135219562",
-      "image": "https://s.abcnews.com/images/International/wirestory_4c1858032eb701ae776d286db674d994_4x3_384.jpg",
-      "ts": 1785415805000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/bank-england-key-rate-375-time-year-135219562"
-          }
-        ]
-      }
-    },
-    {
-      "id": "51c44bfb4bdf",
-      "title": "Malaysia begins screening refugees for return to Myanmar",
-      "description": "Malaysia has started documenting and screening detained Myanmar nationals as part of a repatriation program.",
-      "lat": 3.14,
-      "lng": 101.71,
-      "severity": 2,
-      "location": "Kuala Lumpur, Malaysia",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/malaysia-begins-screening-5000-refugees-planned-return-myanmar-135220818",
-      "image": "https://s.abcnews.com/images/International/wirestory_c6a16250857248f31eb46dca5cc09d2b_4x3_384.jpg",
-      "ts": 1785413406000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/malaysia-begins-screening-5000-refugees-planned-return-myanmar-135220818"
-          }
-        ]
-      }
-    },
-    {
-      "id": "016c25add998",
-      "title": "Poland says Russian ballistic missile violated airspace",
-      "description": "Polish authorities have said that a Russian ballistic missile crashed within its borders during Moscow's overnight attacks on Ukraine.",
-      "lat": 52.13,
-      "lng": 21.02,
-      "severity": 4,
-      "location": "Warsaw, Poland",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/poland-says-russian-ballistic-missile-violated-airspace/a-78172288?maca=en-rss-en-all-1573-rdf",
-      "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2234384_1.jpg",
-      "ts": 1785412655654,
-      "coverage": {
-        "left": 2,
-        "center": 4,
-        "right": 2,
-        "total": 8,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 4,
-          "lean_right": 1,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/russian-attacks-on-ukraine-kill-several-prompt-fresh-zelenskyy-call-for-more-air-defense-missiles-from-allies/"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/7/30/30-07-sv-lublin-air-sirens-pl?traffic_source=rss"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cwymkgenv2ro?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/world/2026/0730/1585730-russia-ukraine-strike/"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/poland-says-russian-ballistic-missile-violated-airspace/a-78172288?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-07-30/poland-likely-hit-by-russian-missile-premier-says"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2167243"
-          },
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2234384/poland-nato-russia-missile"
-          }
-        ]
-      }
-    },
-    {
-      "id": "99e40cf5d416",
-      "title": "Cuba to Trump: We’re Open for Business",
-      "description": "A top Cuban official says the island won’t negotiate its politics, but it is willing to talk investment, including from President Trump.",
-      "lat": 23.13,
-      "lng": -82.38,
-      "severity": 2,
-      "location": "Havana, Cuba",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/07/30/world/americas/cuba-deputy-foreign-minister-interview-trump.html",
-      "image": "https://static01.nyt.com/images/2026/07/23/multimedia/00int-cuba-interview-bvpq/00int-cuba-interview-bvpq-mediumSquareAt3X.jpg",
-      "ts": 1785411950000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/07/30/world/americas/cuba-deputy-foreign-minister-interview-trump.html"
           }
         ]
       }
