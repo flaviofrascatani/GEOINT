@@ -1,7 +1,151 @@
 {
   "schema": 1,
-  "updated": "2026-08-04T10:13:47.399458+00:00",
+  "updated": "2026-08-04T12:27:22.897534+00:00",
   "events": [
+    {
+      "id": "29ef2922e540",
+      "title": "Trump threatens Iran with 'decapitation'",
+      "description": "Trump threatened Tehran with 'decapitation' Monday, before Yemen's Iran-backed Houthis claimed to have struck a Saudi airport.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-us-denies-negotiations-begin-strikes-called-off/",
+      "image": null,
+      "ts": 1785845422000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-us-denies-negotiations-begin-strikes-called-off/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "815fd7c8aa0b",
+      "title": "Qatar Signals Progress Toward Short-Term Deal Between US, Iran",
+      "description": "A potential agreement to revive talks between the US and Iran has been drafted, Qatar announced.",
+      "lat": 25.28,
+      "lng": 51.53,
+      "severity": 2,
+      "location": "Doha, Qatar",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-04/qatar-signals-progress-toward-short-term-deal-between-us-iran",
+      "image": null,
+      "ts": 1785843367000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/03/world/middleeast/iran-talks-us-oman-strait-hormuz-trump.html"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-04/qatar-signals-progress-toward-short-term-deal-between-us-iran"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2168851"
+          }
+        ]
+      }
+    },
+    {
+      "id": "41ea6152250f",
+      "title": "Nine killed in escalating long-range strikes between Russia and Ukraine",
+      "description": "Missile and drone strikes far beyond the front lines are causing a mounting civilian death toll in both countries.",
+      "lat": 51.55,
+      "lng": 32.42519999999999,
+      "severity": 4,
+      "location": "Kyiv, Ukraine",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/4/nine-killed-in-escalating-long-range-strikes-between-russia-and-ukraine?traffic_source=rss",
+      "image": null,
+      "ts": 1785842788000,
+      "coverage": {
+        "left": 4,
+        "center": 3,
+        "right": 0,
+        "total": 7,
+        "buckets": {
+          "left": 0,
+          "lean_left": 4,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/04/world/europe/ukraine-gas-stations-russia.html"
+          },
+          {
+            "n": "Business Insider",
+            "b": "lean_left",
+            "u": "https://www.businessinsider.com/ukraine-drones-target-lock-strike-even-when-pilot-link-lost-2026-8"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/ukraine-zelensky-trump-kremlin-putin-37511631"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/4/nine-killed-in-escalating-long-range-strikes-between-russia-and-ukraine?traffic_source=rss"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/ukraine-drone-strikes-kill-five-near-moscow-russia-says/live-78227405?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-03/russia-weighs-aid-to-sellers-after-ukraine-hits-e-commerce-giant"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/turkey-calls-russia-ukraine-ensure-black-sea-safety-after-drone-attack"
+          }
+        ]
+      }
+    },
     {
       "id": "4ea7a55130e4",
       "title": "Trump Threatens Iran with Decapitation",
@@ -165,6 +309,44 @@
             "n": "Daily Mail World",
             "b": "right",
             "u": "https://www.dailymail.com/news/article-16026689/Ukraine-strikes-Moscow-industrial-zone-fresh-drone-onslaught-killing-multiple-people-Kyiv-continues-bring-war-Putins-doorstep.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+          }
+        ]
+      }
+    },
+    {
+      "id": "846984cbcba0",
+      "title": "Spanish PM Sanchez fends off blistering criticism within the EU over Ceuta crisis",
+      "description": "Spanish Prime Minister Pedro Sanchez's migration policies are facing criticism from EU leaders after a surge of migrants arrived in Ceuta.",
+      "lat": 35.88,
+      "lng": -5.349999999999994,
+      "severity": 3,
+      "location": "Ceuta, Spain",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/spanish-prime-minister-sanchez-fends-off-blistering-criticism-135344770",
+      "image": "https://s.abcnews.com/images/International/wirestory_ea9bf6713d1ab342370f28eec1cd888d_4x3_384.jpg",
+      "ts": 1785828605000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/spanish-prime-minister-sanchez-fends-off-blistering-criticism-135344770"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/eu-meet-pedro-sanchez-ceuta-crisis/article71304173.ece"
           }
         ]
       }
@@ -5062,11 +5244,11 @@
     },
     {
       "id": "0d4e984b58b4",
-      "title": "Hackers target municipal water systems in 7 US states",
-      "description": "Hackers have targeted municipal water systems in at least 7 US states.",
+      "title": "Hackers targeted municipal water systems in 7 states this week, FBI says",
+      "description": "Cyberattacks targeting municipal water systems have been reported in at least seven states this week.",
       "lat": 38.9,
       "lng": -77.02,
-      "severity": 4,
+      "severity": 3,
       "location": "Washington D.C., USA",
       "source": "NBC News World",
       "url": "https://www.nbcnews.com/tech/security/hackers-targeted-municipal-water-systems-7-states-week-fbi-says-rcna590210",
@@ -7491,138 +7673,6 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/russia-launches-ballistic-missile-attack-kyiv-hours-after-zelenskyy-warns-major-strike"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0352cf0af12e",
-      "title": "Samsung Electronics profit hits all-time high on device and memory sales",
-      "description": "Samsung Electronics has reported an all-time high profit due to strong sales of devices and memory chips.",
-      "lat": 38.67,
-      "lng": 126.99000000000001,
-      "severity": 1,
-      "location": "Seoul, South Korea",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/companies/samsung-electronics-profit-hits-all-time-high-on-device-and-memory-sales",
-      "image": null,
-      "ts": 1785373027360,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Nikkei Asia",
-            "b": "center",
-            "u": "https://asia.nikkei.com/business/companies/samsung-electronics-profit-hits-all-time-high-on-device-and-memory-sales"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cf81cf9b3a79",
-      "title": "US launches new strikes on Iran",
-      "description": "The US military launched a new wave of strikes against Iranian targets after President Donald Trump threatened to retaliate forcibly for a recent attack.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-30/us-launches-fresh-strikes-against-iran-as-war-escalates-again",
-      "image": null,
-      "ts": 1785371360000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-07-30/us-launches-fresh-strikes-against-iran-as-war-escalates-again"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9f74392f49b0",
-      "title": "Microsoft signs $130bn in data centre leases as it races to meet AI demand",
-      "description": "Microsoft has signed $130bn in data centre leases to meet growing demand for artificial intelligence services.",
-      "lat": 49.29,
-      "lng": -121.1774,
-      "severity": 1,
-      "location": "Redmond, USA",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/da7c4472-cb30-4b82-b321-d82c1859419e?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1785369909000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/da7c4472-cb30-4b82-b321-d82c1859419e?syn-25a6b1a6=1"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1e9ccd110cec",
-      "title": "France wildfires",
-      "description": "Three firefighters dead after scorching heatwave threatens nuclear plant",
-      "lat": 44.53,
-      "lng": 0.8499999999999943,
-      "severity": 4,
-      "location": "Golfech, France",
-      "source": "Mirror World",
-      "url": "https://www.mirror.co.uk/news/world-news/france-wildfires-bordeaux-weather-heatwave-37489052",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37488625.ece/ALTERNATES/s615/0_Brit-family-stuck-in-France-due-to-wildfires-were-left-sleeping-on-cardboard-boxes.jpg",
-      "ts": 1785366311000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/france-wildfires-bordeaux-weather-heatwave-37489052"
           }
         ]
       }
