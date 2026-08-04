@@ -1,7 +1,126 @@
 {
   "schema": 1,
-  "updated": "2026-08-04T22:19:25.874328+00:00",
+  "updated": "2026-08-04T23:35:35.341562+00:00",
   "events": [
+    {
+      "id": "d6074b0b7e93",
+      "title": "US revokes Brazilian ambassador's visa over delay in accepting its envoy",
+      "description": "The United States has revoked the visa of Brazil's ambassador in Washington, Maria Luiza Ribeiro Viotti, in response to the Brazilian government's delay in granting diplomatic approval to the US ambassador.",
+      "lat": 38.9,
+      "lng": -75.1148,
+      "severity": 3,
+      "location": "Washington, USA",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/white-house-revokes-visa-of-brazil-s-ambassador-to-us-reports/a-78238439?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1785886535164,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/08/04/us-revokes-brazilian-ambassador-s-visa-over-delay-in-accepting-its-envoy?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5a77af0bf017",
+      "title": "Lebanon and Israel Hold New Round Of Direct Talks In Rome",
+      "description": "Lebanon and Israel held a fresh round of US-sponsored talks in Rome, with Beirut seeking Israel's phased withdrawal from the country's south.",
+      "lat": 33.89,
+      "lng": 35.5,
+      "severity": 1,
+      "location": "Beirut, Lebanon",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/lebanon-israel-hold-new-round-of-direct-talks-in-rome-11866775#publisher=newsstand",
+      "image": "https://s.france24.com/media/display/33ca89d4-9011-11f1-bbd5-005056bfb2b6/w:1024/p:16x9/AP26216348535497.jpg",
+      "ts": 1785885472000,
+      "coverage": {
+        "left": 2,
+        "center": 3,
+        "right": 0,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/lebanon-israel-hold-new-round-of-direct-talks-in-rome-11866775#publisher=newsstand"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/lebanon-and-israel-hold-new-round-of-direct-talks-in-rome/article71307182.ece"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/hezbollah-rejects-fresh-round-of-talks-between-lebanon-and-israel"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-904586"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/us-facilitated-israel-lebanon-talks-have-begun-says-state-department"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9196c825d976",
+      "title": "Pentagon signs deal to expand missile interceptor systems production",
+      "description": "The Pentagon has signed a deal to expand the production of missile interceptor systems.",
+      "lat": 38.9,
+      "lng": -77.02,
+      "severity": 2,
+      "location": "Washington, USA",
+      "source": "The Hill",
+      "url": "https://thehill.com/homenews/6009369-pentagon-signs-deal-to-expand-missile-interceptor-systems-production/",
+      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/07/6a50ef513932c9.75590812-e1785191918884.jpeg?w=900",
+      "ts": 1785884688000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/homenews/6009369-pentagon-signs-deal-to-expand-missile-interceptor-systems-production/"
+          }
+        ]
+      }
+    },
     {
       "id": "965ac913d770",
       "title": "North Korea Warns of 'Additional Military Options'",
@@ -69,6 +188,72 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/643860-us-missile-stock-depleted/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4eb4e6703b09",
+      "title": "Israel launches incursions into southern Syria",
+      "description": "Israeli forces carried out separate incursions into Syria's southern provinces of Daraa and Quneitra.",
+      "lat": 32.62,
+      "lng": 38.30000000000001,
+      "severity": 3,
+      "location": "Daraa, Syria",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/world/mid-east/israel-launches-incursions-into-southern-syria",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/08/04/454218.jpg",
+      "ts": 1785877560000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/israel-launches-incursions-into-southern-syria"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4e3af8963747",
+      "title": "Oil spill from grounded tanker off Oman expands sharply, satellite images show",
+      "description": "An oil spill from a sanctioned tanker off Oman is expanding dramatically, reaching shorelines and spreading far out to sea.",
+      "lat": 27.67,
+      "lng": 56.25,
+      "severity": 4,
+      "location": "Strait of Hormuz",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/oil-spill-grounded-tanker-off-oman-expands-sharply-135364138",
+      "image": "https://s.abcnews.com/images/International/wirestory_b163bc0540786085f5a6e5986c3f4936_4x3_384.jpg",
+      "ts": 1785873053000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/oil-spill-grounded-tanker-off-oman-expands-sharply-135364138"
           }
         ]
       }
@@ -198,44 +383,34 @@
       }
     },
     {
-      "id": "5a77af0bf017",
-      "title": "Lebanon and Israel hold new round of direct talks in Rome",
-      "description": "Lebanon and Israel held a fresh round of US-sponsored talks in Rome, with Beirut seeking Israel's phased withdrawal from the country's south.",
-      "lat": 33.89,
-      "lng": 35.5,
-      "severity": 2,
-      "location": "Beirut, Lebanon",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/08/lebanon-and-israel-hold-new-round-direct-talks-rome",
-      "image": "https://s.france24.com/media/display/33ca89d4-9011-11f1-bbd5-005056bfb2b6/w:1024/p:16x9/AP26216348535497.jpg",
-      "ts": 1785868239000,
+      "id": "7b80e37b1856",
+      "title": "Five Amazon countries arrest hundreds in major crackdown on environmental crime",
+      "description": "Authorities from five Amazon countries have arrested hundreds in a major crackdown on environmental crime.",
+      "lat": -2.5,
+      "lng": -54.72,
+      "severity": 1,
+      "location": "Amazon Rainforest",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/amazon-countries-arrest-hundreds-major-crackdown-environmental-crime-135363222",
+      "image": "https://s.abcnews.com/images/International/wirestory_e2687c95a1f9281d0fe1b94b02a6177b_4x3_384.jpg",
+      "ts": 1785867084000,
       "coverage": {
-        "left": 0,
-        "center": 3,
+        "left": 1,
+        "center": 0,
         "right": 0,
-        "total": 3,
+        "total": 1,
         "buckets": {
           "left": 0,
-          "lean_left": 0,
-          "center": 3,
+          "lean_left": 1,
+          "center": 0,
           "lean_right": 0,
           "right": 0
         },
         "sources": [
           {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/hezbollah-rejects-fresh-round-of-talks-between-lebanon-and-israel"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/article-904586"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/lebanon-and-israel-hold-new-round-direct-talks-rome"
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/amazon-countries-arrest-hundreds-major-crackdown-environmental-crime-135363222"
           }
         ]
       }
@@ -7498,171 +7673,6 @@
             "n": "Sky News World",
             "b": "center",
             "u": "https://news.sky.com/story/uefa-agree-to-boycott-world-cup-if-fifa-approves-tournament-sell-off-plan-as-concacaf-reject-proposals-13568508"
-          }
-        ]
-      }
-    },
-    {
-      "id": "443fbc2af4d7",
-      "title": "Egyptian fencing team defeats Israel to claim World Championship team bronze",
-      "description": "The Egyptian national sabre fencing team secured the bronze medal after defeating Israel with a score of 39–38 at the World Fencing Championships.",
-      "lat": 30.05,
-      "lng": 31.25,
-      "severity": 1,
-      "location": "Cairo, Egypt",
-      "source": "Egypt Independent",
-      "url": "https://www.egyptindependent.com/egyptian-fencing-team-defeats-israel-to-claim-world-championship-team-bronze/",
-      "image": null,
-      "ts": 1785421499000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/egyptian-fencing-team-defeats-israel-to-claim-world-championship-team-bronze/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0c6b9c9de552",
-      "title": "Pakistan ‘doing its utmost’ to bring U.S., Iran back to negotiating table",
-      "description": "Pakistan's Foreign Office said the country is 'doing its utmost' to bring the US and Iran back to the negotiating table.",
-      "lat": 33.72,
-      "lng": 73.04,
-      "severity": 2,
-      "location": "Islamabad, Pakistan",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/pakistan-doing-its-utmost-to-bring-us-iran-back-to-negotiating-table-foreign-office/article71286172.ece",
-      "image": "https://th-i.thgim.com/public/incoming/c5y6bf/article71286262.ece/alternates/LANDSCAPE_1200/2026-07-30T125336Z_1212819768_RC2COMANOX7E_RTRMADP_3_IRAN-CRISIS-AHVAZ-SMOKE.JPG",
-      "ts": 1785419922000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/pakistan-doing-its-utmost-to-bring-us-iran-back-to-negotiating-table-foreign-office/article71286172.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b81d91c8e47c",
-      "title": "Negotiators working on final roadmap for Gaza’s future, Hamas disarmament",
-      "description": "Negotiators are working on a final roadmap for Gaza's future, including the disarmament of Hamas.",
-      "lat": 31.51,
-      "lng": 34.46,
-      "severity": 2,
-      "location": "Gaza City, Gaza Strip",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/middle-east/article-904113",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_2771,w_4376/728237",
-      "ts": 1785417067000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/article-904113"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6aa607b9a68e",
-      "title": "Death toll tops 1,500 in fastest-growing Ebola outbreak",
-      "description": "The outbreak declared on May 15 is unlike most previous Ebola outbreaks because the Bundibugyo virus responsible for it has no approved vaccines or treatments.",
-      "lat": -4.32,
-      "lng": 15.240000000000009,
-      "severity": 4,
-      "location": "Kinshasa, Democratic Republic of the Congo",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/ebola-congo-outbreak-death-toll-official-data/article71285616.ece",
-      "image": "https://th-i.thgim.com/public/incoming/8ya0kk/article71285670.ece/alternates/LANDSCAPE_1200/2026-07-28T071131Z_858402546_RC2PAMAJ2ELD_RTRMADP_3_HEALTH-EBOLA-CONGO-SURVEILLANCE.JPG",
-      "ts": 1785416894000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/ebola-congo-outbreak-death-toll-official-data/article71285616.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "292bd59dd078",
-      "title": "Iran vows to punish the aggressor after US strikes",
-      "description": "Iran has vowed to punish the aggressor after the US unleashed a heavy wave of strikes, with the conflict drawing in new countries.",
-      "lat": 36.79,
-      "lng": 53.295199999999994,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "NBC News World",
-      "url": "https://www.nbcnews.com/world/iran/us-heavy-wave-strikes-iran-war-attack-trump-saudi-egypt-drone-oil-rcna589967",
-      "image": null,
-      "ts": 1785416852000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/iran/us-heavy-wave-strikes-iran-war-attack-trump-saudi-egypt-drone-oil-rcna589967"
           }
         ]
       }
