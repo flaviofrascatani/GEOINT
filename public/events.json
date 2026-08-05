@@ -1,7 +1,78 @@
 {
   "schema": 1,
-  "updated": "2026-08-05T21:52:10.001111+00:00",
+  "updated": "2026-08-05T23:10:22.062611+00:00",
   "events": [
+    {
+      "id": "e20dc498ff2f",
+      "title": "China Launches Global Tax Hunt",
+      "description": "China launches a global tax hunt, with the government seeking to crack down on tax evasion and avoidance.",
+      "lat": 39.91,
+      "lng": 116.38999999999999,
+      "severity": 3,
+      "location": "Beijing, China",
+      "source": "RTE News",
+      "url": "https://www.rte.ie/news/ireland/2026/0806/1586659-brenda-fricker-funeral/",
+      "image": "https://www.rte.ie/images/0024b653-800.jpg",
+      "ts": 1785970860000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/ireland/2026/0806/1586659-brenda-fricker-funeral/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "986c367cdbca",
+      "title": "Brazil Ties Ambassador's Return To End Of Insults",
+      "description": "Brazil ties its ambassador's return to an end to Milei's insults, with the Brazilian Foreign Minister saying the downgrading of diplomatic relations will remain in place.",
+      "lat": -15.79,
+      "lng": -46.01480000000001,
+      "severity": 3,
+      "location": "Brasilia, Brazil",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/cancun-medical-nearshoring-270m-lezama-2026/",
+      "image": null,
+      "ts": 1785966935000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/08/05/brazil-ties-its-ambassador-s-return-to-an-end-to-milei-s-insults?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/latin-america/2026/08/05/state-department-revokes-brazil-ambassadors-visa/"
+          }
+        ]
+      }
+    },
     {
       "id": "cdfcdc39db34",
       "title": "Argentina, China extend currency swap deal",
@@ -7787,92 +7858,6 @@
             "n": "Channel News Asia",
             "b": "center",
             "u": "https://www.channelnewsasia.com/sport/fifa-investment-plan-asian-football-confederation-opposition-uefa-concacaf-6290796"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ca88b3088b4a",
-      "title": "Spain deploys military after thousands of migrants overwhelm border enclave",
-      "description": "At least 15 people have drowned as migrants try to swim to Spanish territory amid scenes of chaos at the border.",
-      "lat": 35.88,
-      "lng": -5.349999999999994,
-      "severity": 4,
-      "location": "Ceuta, Spain",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a0fd/live/af9c6590-8c2f-11f1-b8ee-9b3c26ad07bb.jpg",
-      "ts": 1785465669000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cg4drwzkrkxo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/thousands-of-migrants-from-morocco-enter-spanish-enclave-of-ceuta-as-locals-demand-army-restore-border-13568466"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/spain-deploys-military-after-thousands-migrants-overwhelm-border-enclave-least-9-dead"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5b14fc643854",
-      "title": "Thousands of migrants surge into Spanish territory of Ceuta from Morocco",
-      "description": "Thousands of migrants have surged into the Spanish territory of Ceuta from Morocco, prompting local officials to call on Spain to declare a national emergency.",
-      "lat": 36.98,
-      "lng": -5.310000000000002,
-      "severity": 3,
-      "location": "Ceuta, Spain",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/absolute-chaos-thousands-breach-morocco-border-with-spanish-territory-11844879#publisher=newsstand",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/07/30/453492.jpg",
-      "ts": 1785461085000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/spanish-authorities-9-people-died-reach-ceuta-morocco-135240068"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/absolute-chaos-thousands-breach-morocco-border-with-spanish-territory-11844879#publisher=newsstand"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/white-house-blasts-spanish-government-thousands-migrants-surge-from-morocco-emergency-request-denied"
           }
         ]
       }
