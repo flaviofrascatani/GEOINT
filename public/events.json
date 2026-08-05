@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-04T23:35:35.341562+00:00",
+  "updated": "2026-08-05T00:58:36.951121+00:00",
   "events": [
+    {
+      "id": "cb39af2df6ed",
+      "title": "Satellite lofted for first Arab country",
+      "description": "A Chinese-made communications satellite became the first 'export' of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
+      "lat": 36.77,
+      "lng": 3.06,
+      "severity": 2,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1785891516784,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
     {
       "id": "d6074b0b7e93",
       "title": "US revokes Brazilian ambassador's visa over delay in accepting its envoy",
@@ -2726,39 +2759,6 @@
             "n": "NDTV World",
             "b": "lean_left",
             "u": "https://www.ndtv.com/world-news/7-killed-in-suicide-blast-during-peace-rally-in-pakistan-khyber-pakhtunkhwa-11856435#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cb39af2df6ed",
-      "title": "Satellite lofted for first Arab country",
-      "description": "A Chinese-made communications satellite became the first 'export' of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
-      "lat": 36.77,
-      "lng": 3.06,
-      "severity": 1,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1785685262498,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
           }
         ]
       }
@@ -5969,11 +5969,11 @@
     },
     {
       "id": "0d4e984b58b4",
-      "title": "Cyberattacks target municipal water systems in 7 US states",
-      "description": "The FBI has warned utilities nationwide that hackers have targeted municipal water systems in at least seven states, prompting concerns over the security of critical infrastructure.",
+      "title": "Hackers targeted municipal water systems in 7 states this week, FBI says",
+      "description": "Cyberattacks targeting municipal water systems have been reported in at least seven states this week, prompting the FBI and the Environmental Protection Agency to warn utilities nationwide that hackers are targeting their systems.",
       "lat": 38.9,
       "lng": -77.02,
-      "severity": 2,
+      "severity": 3,
       "location": "Washington D.C., USA",
       "source": "NBC News World",
       "url": "https://www.nbcnews.com/tech/security/hackers-targeted-municipal-water-systems-7-states-week-fbi-says-rcna590210",
