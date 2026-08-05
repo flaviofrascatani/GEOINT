@@ -1,7 +1,151 @@
 {
   "schema": 1,
-  "updated": "2026-08-05T14:58:00.218271+00:00",
+  "updated": "2026-08-05T16:47:15.436817+00:00",
   "events": [
+    {
+      "id": "35d8aa12b381",
+      "title": "Pope Leo to visit Peru, Argentina and Uruguay in November",
+      "description": "Pope Leo XIV will make a return visit to Peru in November, a country where he served as a missionary and bishop for nearly two decades.",
+      "lat": -12.05,
+      "lng": -77.05,
+      "severity": 1,
+      "location": "Lima, Peru",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/5/pope-leo-xiv-to-visit-peru-argentina-and-uruguay-in-november?traffic_source=rss",
+      "image": null,
+      "ts": 1785945958000,
+      "coverage": {
+        "left": 3,
+        "center": 1,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/05/world/americas/pope-leo-peru-uruguay-argentina.html"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/pope-leo-xiv-visit-uruguay-argentina-peru-latin-135382238"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/5/pope-leo-xiv-to-visit-peru-argentina-and-uruguay-in-november?traffic_source=rss"
+          },
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/pope-leo-to-visit-peru-in-november/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4d541f961cbb",
+      "title": "Iran and Oman agree on coordinates of new route via Strait of Hormuz",
+      "description": "Iran and Oman have agreed on the coordinates of a new route for shipping through the Strait of Hormuz, a critical waterway for energy supplies.",
+      "lat": 27.67,
+      "lng": 58.15520000000001,
+      "severity": 2,
+      "location": "Strait of Hormuz, Oman",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-05/iran-says-agreement-on-hormuz-shipping-route-reached-with-oman",
+      "image": null,
+      "ts": 1785943814000,
+      "coverage": {
+        "left": 2,
+        "center": 4,
+        "right": 1,
+        "total": 7,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 4,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/iran-usa-hormuz-deal-war-37514714"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/west-asia-war-tehran-washington-talks-iran-oman-diplomatic-engagement-strait-of-hormuz-live-updates-august-5-2026/article71307954.ece"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/08/05/iran-raggiunto-laccordo-con-loman-sullo-stretto-di-hormuz_5880d7a5-ad2b-4b8e-8b02-36a450b2a022.html"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-05/iran-says-agreement-on-hormuz-shipping-route-reached-with-oman"
+          },
+          {
+            "n": "AGI Estero",
+            "b": "center",
+            "u": "https://www.agi.it/estero/news/2026-08-05/trump-hormuz-minaccia-iran-38391232/"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2169385"
+          }
+        ]
+      }
+    },
+    {
+      "id": "97a3aa8aab81",
+      "title": "US removes sanctions from entities tied to Iran's IRGC",
+      "description": "The US has removed sanctions from entities tied to Iran's Islamic Revolutionary Guard Corps (IRGC), according to a new report.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "IBTimes",
+      "url": "https://www.ibtimes.com/trump-touting-progress-iran-negotiations-treasury-has-now-removed-sanctions-entities-tied-3806105",
+      "image": null,
+      "ts": 1785943745000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/trump-touting-progress-iran-negotiations-treasury-has-now-removed-sanctions-entities-tied-3806105"
+          }
+        ]
+      }
+    },
     {
       "id": "8a327ad87757",
       "title": "Abdul El-Sayed wins Michigan Senate primary",
@@ -130,11 +274,11 @@
     },
     {
       "id": "2025f80ba01f",
-      "title": "China hits US with sanctions, drone export curbs",
-      "description": "China has announced a swath of measures against the US and its firms in what it described as retaliation against recent moves by Washington targeting Chinese companies.",
+      "title": "China hits US with sanctions, drone export curbs ahead of Xi visit",
+      "description": "Beijing has announced a swath of measures against the United States and its firms, in what it described as retaliation against recent moves by Washington targeting Chinese companies.",
       "lat": 39.91,
       "lng": 118.29520000000002,
-      "severity": 2,
+      "severity": 3,
       "location": "Beijing, China",
       "source": "Egypt Independent",
       "url": "https://www.egyptindependent.com/china-hits-us-with-sanctions-drone-export-curbs-ahead-of-xi-visit/",
@@ -7694,105 +7838,6 @@
             "n": "South China Morning Post",
             "b": "center",
             "u": "https://www.scmp.com/news/world/europe/article/3362442/thousands-migrants-breach-moroccos-border-spains-ceuta?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "68c302783a2e",
-      "title": "Saudi Arabia announces 14-nation naval coalition",
-      "description": "Saudi Arabia announced the creation of a naval coalition intended to keep the Bab el-Mandeb Strait open after the Houthis began harassing shipping.",
-      "lat": 23.07,
-      "lng": 40.102599999999995,
-      "severity": 2,
-      "location": "Riyadh, Saudi Arabia",
-      "source": "Washington Examiner",
-      "url": "https://www.washingtonexaminer.com/news/world/4669748/saudi-arabia-naval-coalition-bab-el-mandeb-strait/",
-      "image": null,
-      "ts": 1785444041000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/world/4669748/saudi-arabia-naval-coalition-bab-el-mandeb-strait/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "bd3fea61dd7d",
-      "title": "Iranian Hackers Suspected In Cyberattack On US' Minnesota Water Systems",
-      "description": "Cyberattacks on several local water systems in the US state of Minnesota carry telltale signs of a hacker group affiliated with Iran.",
-      "lat": 44.98,
-      "lng": -93.26,
-      "severity": 3,
-      "location": "St. Paul, Minnesota, USA",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/iranian-hackers-suspected-in-cyberattack-on-minnesota-water-systems-11845735#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-06/usqap108_cyberattack_625x300_16_June_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1785441804000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/iranian-hackers-suspected-in-cyberattack-on-minnesota-water-systems-11845735#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b7bc7f725029",
-      "title": "Mastercard Foundation Commits $500 Million to Transform Higher Education",
-      "description": "The Mastercard Foundation is making one of the largest investments in African education, committing $500 million to transform higher education.",
-      "lat": 5.56,
-      "lng": -0.22,
-      "severity": 1,
-      "location": "Accra, Ghana",
-      "source": "All Africa",
-      "url": "https://allafrica.com/stories/202607300588.html",
-      "image": null,
-      "ts": 1785441740000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "All Africa",
-            "b": "center",
-            "u": "https://allafrica.com/stories/202607300588.html"
           }
         ]
       }
