@@ -1,7 +1,103 @@
 {
   "schema": 1,
-  "updated": "2026-08-06T07:19:48.747554+00:00",
+  "updated": "2026-08-06T10:12:47.770434+00:00",
   "events": [
+    {
+      "id": "242148f76d0c",
+      "title": "North Korea fires ballistic missile",
+      "description": "North Korea fired at least one short-range ballistic missile toward the East Sea.",
+      "lat": 38.66,
+      "lng": 126.97000000000003,
+      "severity": 4,
+      "location": "Seoul, South Korea",
+      "source": "Yonhap News",
+      "url": "https://en.yna.co.kr/view/AEN20250710005752315",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2025/01/07/PYH2025010700680004200_P2.jpg",
+      "ts": 1786009395000,
+      "coverage": {
+        "left": 2,
+        "center": 4,
+        "right": 1,
+        "total": 7,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 4,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/north-korea-launches-short-range-ballistic-missile-sea-135413600"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/north-korea-fires-ballistic-missile-south-korea-military/article71312985.ece"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-06/north-korea-fires-unidentified-projectile-south-korea-says"
+          },
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/08/06/asia-pacific/north-korea-projectile/"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/asia/east-asia/article/3363166/north-korea-fires-unidentified-projectile-south-korea-says?utm_source=rss_feed"
+          },
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20250710005752315"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2169611"
+          }
+        ]
+      }
+    },
+    {
+      "id": "76db5b889869",
+      "title": "China issues retaliatory sanctions against US entities",
+      "description": "China issued retaliatory sanctions against 7 US entities.",
+      "lat": 39.91,
+      "lng": 116.39999999999998,
+      "severity": 2,
+      "location": "Beijing, China",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSTZ3ZVhuMk40UXB3b2JsUTZENUdKUUVqM0hwbk13VEktWXA3VERETGJORUk2Y0gxLVZlVWRQcWo5RUNUbWFZdmxXY2F0ZDhrUGJJMGNjNjZMZWRyeDUzS2Z3T3hGT243VEttSkxyZmlMOW41WXNzeXFlSHptbmtqcFRwc2FyZTlCd28xc2llY9IBlAFBVV95cUxNR2VWX2V2OFNWTm54b1hsel9KQ2VNV2dwczh5SEFMaTJFYlphaWJNeFoyMVdnTlI5UnZ0cURGRGpqV3BHNVRLRVBKRXpGOXlrdGIwajhkOFhIUXNlZVoybW96TUtCdWhmOE5XaVE1US1SRjBuSktFc2lUUjRRVXN4bjFIclJoN1M1WnY3MWdDTUE4OE9I?oc=5",
+      "image": null,
+      "ts": 1786007261000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSTZ3ZVhuMk40UXB3b2JsUTZENUdKUUVqM0hwbk13VEktWXA3VERETGJORUk2Y0gxLVZlVWRQcWo5RUNUbWFZdmxXY2F0ZDhrUGJJMGNjNjZMZWRyeDUzS2Z3T3hGT243VEttSkxyZmlMOW41WXNzeXFlSHptbmtqcFRwc2FyZTlCd28xc2llY9IBlAFBVV95cUxNR2VWX2V2OFNWTm54b1hsel9KQ2VNV2dwczh5SEFMaTJFYlphaWJNeFoyMVdnTlI5UnZ0cURGRGpqV3BHNVRLRVBKRXpGOXlrdGIwajhkOFhIUXNlZVoybW96TUtCdWhmOE5XaVE1US1SRjBuSktFc2lUUjRRVXN4bjFIclJoN1M1WnY3MWdDTUE4OE9I?oc=5"
+          }
+        ]
+      }
+    },
     {
       "id": "6fc5d8fd9db0",
       "title": "Trump denies US running low on munitions",
@@ -7807,72 +7903,6 @@
             "n": "HuffPost World",
             "b": "left",
             "u": "https://www.huffpost.com/entry/migration-spain-ceuta-morocco_n_6a6c8e34e4b0ea7db0fc2baf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0ab1c5545a96",
-      "title": "China Signals Buildout of Nuclear Missile Silos",
-      "description": "China has given a rare acknowledgement that it has built more nuclear missile silos in recent years.",
-      "lat": 39.9,
-      "lng": 116.38999999999999,
-      "severity": 3,
-      "location": "Beijing, China",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/china/military/article/3362573/china-signals-buildout-nuclear-missile-silos-strategic-trump-cards?utm_source=rss_feed",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/07/31/5de7b44e-0913-4b0d-adfc-14e41554a454_e708f9bb.jpg?itok=LKDAupI0&v=1785496180",
-      "ts": 1785499207000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/china/military/article/3362573/china-signals-buildout-nuclear-missile-silos-strategic-trump-cards?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "044145f8bede",
-      "title": "Archbishop of Canterbury vows support for communities affected by enslavement",
-      "description": "The Archbishop of Canterbury expressed regret and vowed to support a £100m pledge to help communities affected by enslavement.",
-      "lat": 6.66,
-      "lng": -0.21000000000000796,
-      "severity": 1,
-      "location": "Accra, Ghana",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/news/2026/jul/31/archbishop-of-canterbury-support-pledge-helping-communities-enslavement",
-      "image": null,
-      "ts": 1785497926000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/news/2026/jul/31/archbishop-of-canterbury-support-pledge-helping-communities-enslavement"
           }
         ]
       }
