@@ -1,7 +1,78 @@
 {
   "schema": 1,
-  "updated": "2026-08-06T00:55:10.548914+00:00",
+  "updated": "2026-08-06T04:20:27.194005+00:00",
   "events": [
+    {
+      "id": "010220062494",
+      "title": "Trump administration refunds $100bn in tariffs",
+      "description": "The Trump administration has refunded $100 billion in tariffs, following a Supreme Court ruling.",
+      "lat": 38.9,
+      "lng": -77.02,
+      "severity": 1,
+      "location": "Washington D.C., USA",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/us-has-refunded-about-100bn-in-trump-tariffs-11872322#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-08/hj1va73c_donald-trump_625x300_06_August_26.jpeg",
+      "ts": 1785987573000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/us-has-refunded-about-100-billion-in-trump-tariffs-after-court-ruling-11872091#publisher=newsstand"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/economy/2026/8/6/trump-administration-refunds-100bn-in-tariffs-struck-down-by-supreme-court?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fb5f4cf12055",
+      "title": "Nigeria rescues over 300 kidnapping victims",
+      "description": "Nigerian authorities have rescued over 300 people abducted by armed groups.",
+      "lat": 10.17,
+      "lng": 8.689999999999998,
+      "severity": 1,
+      "location": "Abuja, Nigeria",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/africa/20260806-nigeria-rescues-more-than-300-kidnapping-victims-in-major-operation",
+      "image": "https://s.france24.com/media/display/a2b3a652-9122-11f1-89ff-005056bf30b7/w:1024/p:16x9/AP26057565857069.jpg",
+      "ts": 1785983519000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/africa/20260806-nigeria-rescues-more-than-300-kidnapping-victims-in-major-operation"
+          }
+        ]
+      }
+    },
     {
       "id": "45cac760aea8",
       "title": "Abdul El-Sayed wins contentious Michigan Senate primary",
@@ -119,39 +190,6 @@
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/east-asia/hiroshima-urges-leaders-to-abolish-nuclear-weapons-on-81st-a-bomb-anniversary"
-          }
-        ]
-      }
-    },
-    {
-      "id": "010220062494",
-      "title": "US Has Refunded About $100 Billion In Trump Tariffs After Court Ruling",
-      "description": "The US has refunded about $100 billion in tariffs since the Supreme Court struck down a wave of Trump's duties",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/us-has-refunded-about-100-billion-in-trump-tariffs-after-court-ruling-11872091#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-08/hj1va73c_donald-trump_625x300_06_August_26.jpeg",
-      "ts": 1785973417000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/us-has-refunded-about-100-billion-in-trump-tariffs-after-court-ruling-11872091#publisher=newsstand"
           }
         ]
       }
@@ -821,10 +859,10 @@
     {
       "id": "2025f80ba01f",
       "title": "China hits US with sanctions, drone export curbs",
-      "description": "Beijing announced a swath of measures against the US and its firms in retaliation against recent moves by Washington targeting Chinese companies",
+      "description": "China has announced sanctions against the US and curbs on drone exports, in retaliation against recent US moves.",
       "lat": 39.91,
       "lng": 118.29520000000002,
-      "severity": 2,
+      "severity": 3,
       "location": "Beijing, China",
       "source": "Egypt Independent",
       "url": "https://www.egyptindependent.com/china-hits-us-with-sanctions-drone-export-curbs-ahead-of-xi-visit/",
@@ -844,9 +882,9 @@
         },
         "sources": [
           {
-            "n": "Egypt Independent",
+            "n": "GNews Geopolitics",
             "b": "center",
-            "u": "https://www.egyptindependent.com/china-hits-us-with-sanctions-drone-export-curbs-ahead-of-xi-visit/"
+            "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE5QRFQxVnhfaTM5U3lKRXBnQkdKT2VGamxCaWR6clhjZXltdTBQYVFwN2ZHWm1QWUJtT29TckVmTFlNc05JaXFSUUExdkJyQ3d1NjhQMFRtbFRqaDdxXzdOQXJqYnhIZFlqQkhRWFFZS2x0Zw?oc=5"
           }
         ]
       }
@@ -7870,39 +7908,6 @@
             "n": "Breitbart",
             "b": "right",
             "u": "https://www.breitbart.com/europe/2026/07/31/ceuta-crisis-italy-threatens-to-enforce-european-border-controls-on-spain/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c56988d5f433",
-      "title": "Ukraine strikes Lukoil's Volgograd oil refinery",
-      "description": "Ukraine has struck one of Russia's largest oil refineries, threatening to disrupt fuel supplies again as strikes on the country's energy infrastructure resumed.",
-      "lat": 48.72,
-      "lng": 39.29,
-      "severity": 4,
-      "location": "Volgograd, Russia",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-31/ukraine-says-it-attacked-lukoil-s-volgograd-oil-refinery",
-      "image": null,
-      "ts": 1785487034000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-07-31/ukraine-says-it-attacked-lukoil-s-volgograd-oil-refinery"
           }
         ]
       }
