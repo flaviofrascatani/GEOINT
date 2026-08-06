@@ -1,32 +1,133 @@
 {
   "schema": 1,
-  "updated": "2026-08-06T10:12:47.770434+00:00",
+  "updated": "2026-08-06T12:28:26.139692+00:00",
   "events": [
     {
-      "id": "242148f76d0c",
-      "title": "North Korea fires ballistic missile",
-      "description": "North Korea fired at least one short-range ballistic missile toward the East Sea.",
-      "lat": 38.66,
-      "lng": 126.97000000000003,
-      "severity": 4,
-      "location": "Seoul, South Korea",
-      "source": "Yonhap News",
-      "url": "https://en.yna.co.kr/view/AEN20250710005752315",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2025/01/07/PYH2025010700680004200_P2.jpg",
-      "ts": 1786009395000,
+      "id": "6119c6fc9beb",
+      "title": "Iran and Oman close to Hormuz plan",
+      "description": "Iran and Oman are close to agreeing on new arrangements for the Strait of Hormuz, but not for a full reopening of the vital waterway.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 2,
+      "location": "Strait of Hormuz, Oman",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-deal/",
+      "image": null,
+      "ts": 1786015852000,
       "coverage": {
-        "left": 2,
+        "left": 3,
         "center": 4,
-        "right": 1,
+        "right": 0,
         "total": 7,
         "buckets": {
           "left": 0,
-          "lean_left": 2,
+          "lean_left": 3,
           "center": 4,
-          "lean_right": 1,
+          "lean_right": 0,
           "right": 0
         },
         "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-deal/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/iran-and-oman-agree-on-strait-of-hormuz-transit-route-11872971#publisher=newsstand"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/videos/watch-iran-oman-reach-understanding-on-shipping-route-through-strait-of-hormuz/article71312594.ece"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/world/2026/0806/1586694-iran-us/"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-06/iran-says-deal-with-oman-on-strait-of-hormuz-agreed-in-principle"
+          },
+          {
+            "n": "AGI Estero",
+            "b": "center",
+            "u": "https://www.agi.it/estero/news/2026-08-05/trump-hormuz-minaccia-iran-38391232/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "777b4750f2da",
+      "title": "Iran threatens to hit Gulf states if US launches new strikes",
+      "description": "Iran has threatened to hit Gulf states if the US launches new strikes, in an effort to raise pressure without full-scale war.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/iran-threatens-to-hit-gulf-states-if-us-launches-new-strikes-west-asia-war/article71312656.ece",
+      "image": "https://th-i.thgim.com/public/incoming/ed9r71/article71312960.ece/alternates/LANDSCAPE_1200/Iran_War_Strait_of_Hormuz_33565.jpg",
+      "ts": 1786015461000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/iran-threatens-to-hit-gulf-states-if-us-launches-new-strikes-west-asia-war/article71312656.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "242148f76d0c",
+      "title": "North Korea conducts ballistic missile test",
+      "description": "North Korea conducted a ballistic missile test from its eastern coastal Wonsan area.",
+      "lat": 38.66,
+      "lng": 126.97000000000003,
+      "severity": 2,
+      "location": "Seoul, South Korea",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/north-korea-ballistic-missile-test_n_6a7462d8e4b0a79b03a6f52a",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2025/01/07/PYH2025010700680004200_P2.jpg",
+      "ts": 1786012594000,
+      "coverage": {
+        "left": 3,
+        "center": 2,
+        "right": 0,
+        "total": 5,
+        "buckets": {
+          "left": 1,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/north-korea-ballistic-missile-test_n_6a7462d8e4b0a79b03a6f52a"
+          },
           {
             "n": "ABC News International",
             "b": "lean_left",
@@ -46,21 +147,6 @@
             "n": "Japan Times",
             "b": "center",
             "u": "https://www.japantimes.co.jp/news/2026/08/06/asia-pacific/north-korea-projectile/"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/asia/east-asia/article/3363166/north-korea-fires-unidentified-projectile-south-korea-says?utm_source=rss_feed"
-          },
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20250710005752315"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2169611"
           }
         ]
       }
@@ -7832,77 +7918,6 @@
             "n": "Mirror World",
             "b": "lean_left",
             "u": "https://www.mirror.co.uk/news/poland-scrambles-fighter-jet-nato-37500006"
-          }
-        ]
-      }
-    },
-    {
-      "id": "02d4ff7dd52b",
-      "title": "Migrant crisis in Ceuta",
-      "description": "At least 57 people died trying to enter the Spanish enclave of Ceuta from Morocco, with tens of thousands crossing the border.",
-      "lat": 35.89,
-      "lng": -5.310000000000002,
-      "severity": 4,
-      "location": "Ceuta, Spain",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/migration-spain-ceuta-morocco_n_6a6c8e34e4b0ea7db0fc2baf",
-      "image": null,
-      "ts": 1785499654000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/01/world/europe/spain-ceuta-migrants-morocco-border.html"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/07/31/residents-of-spanish-enclave-of-ceuta-angered-by-mass-influx-of-migrants/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a9649d503f20",
-      "title": "60,000 migrants cross into Spanish territory of Ceuta",
-      "description": "At least 34 people died after a border breach in the Spanish territory of Ceuta in North Africa, with security forces clashing with migrants on the Moroccan side of the border.",
-      "lat": 35.88,
-      "lng": -5.310000000000002,
-      "severity": 3,
-      "location": "Ceuta, Spain",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/migration-spain-ceuta-morocco_n_6a6c8e34e4b0ea7db0fc2baf",
-      "image": null,
-      "ts": 1785499654000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 1,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/migration-spain-ceuta-morocco_n_6a6c8e34e4b0ea7db0fc2baf"
           }
         ]
       }
