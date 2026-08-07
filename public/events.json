@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-07T12:11:59.128107+00:00",
+  "updated": "2026-08-07T13:52:34.551564+00:00",
   "events": [
+    {
+      "id": "d26be5abf36f",
+      "title": "Pope to meet clergy abuse victims in France",
+      "description": "Pope Leo XIV will meet with victims of sexual abuse within the Catholic Church during his planned trip to France.",
+      "lat": 45.76,
+      "lng": 4.83,
+      "severity": 1,
+      "location": "Lyon, France",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/france/20260807-pope-leo-meet-clergy-abuse-victims-during-upcoming-france-visit",
+      "image": "https://s.france24.com/media/display/b239f5d4-9250-11f1-aafc-005056a97e36/w:1024/p:16x9/508d27068ab8555115da0f9715155fcdcb759989.jpg",
+      "ts": 1786107014000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/france/20260807-pope-leo-meet-clergy-abuse-victims-during-upcoming-france-visit"
+          }
+        ]
+      }
+    },
     {
       "id": "e63e7fc121f7",
       "title": "Haitians face arrest and deportation after US removes TPS protections",
@@ -687,6 +720,64 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/americas/trump-signs-orders-to-limit-birthright-citizenship-curb-birth-tourism"
+          }
+        ]
+      }
+    },
+    {
+      "id": "476bf02f2d6c",
+      "title": "Iran and Oman discuss Hormuz traffic management",
+      "description": "Iran and Oman are discussing the management of traffic through the Strait of Hormuz, a critical waterway for oil exports.",
+      "lat": 25.42,
+      "lng": 57.2226,
+      "severity": 2,
+      "location": "Muscat, Oman",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/08/06/iran-says-hormuz-deal-with-oman-wont-fully-reopen-strait/",
+      "image": null,
+      "ts": 1786052268000,
+      "coverage": {
+        "left": 3,
+        "center": 3,
+        "right": 0,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/08/06/iran-says-hormuz-deal-with-oman-wont-fully-reopen-strait/"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-deal/"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/west-asia-conflict-iran-us-war-iran-oman-talks-tehran-washington-peace-deal-houthis-saudi-arabia-live-updates-august-7-2026/article71316113.ece"
+          },
+          {
+            "n": "BBC Business",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSHhFb2tmTW1CZ2s3dnYxa1hnY3RqdHdxeFVCaUxUWGlkMXptaWkzVzZlWGwyN0pfREZzU1NFdmZ1dmNlVWNGcVpiajg4SlhYYnJ2d0RwYU95d1NkNzJ2TlFqVXZ4ZlM1UHpCbFJLMk90VVVoQy0ySFpQN3dtOTJNa09jS0I4MmRCUENxSmRNMWEyQVA4OHR0Q1E0N2xzUVdnQWlVRkd1a2M?oc=5"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/vessel-traffic-through-hormuz-dwindles-week-markets-watch-iran-oman-talks"
           }
         ]
       }
@@ -7917,97 +8008,6 @@
             "n": "Google News Top",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORXV2dkxDX25CSFZ4RVpvYVdYWXIzOTJmNnBNVlNteTV4dTd3akFzLTUzek9Hdm5FSDdYRjNnSDM3eTFnSDNaX2oyMFdGRTgzZnZ5XzRVVzBKbGNaQkVxOHZPUFZSNFVoVmphdkVYeEtGTTFKME51dlRsRUJ4YkZJbXVKU1d5bFoyUng3WHNGMHVYVXdFdkHSAZsBQVVfeXFMUDZ0SF9oTDlZaHdWci1Ya0M1d04yelNJZ2U2NXlEaVVpSXF4TDRVU0JRTUFHVUNFS2syRENvQWdfWXdJckdPNEFpNmx6R2dSWUN2QjltLTViVllnMWNPQVAzbGRTZmhMY2xBNmpJa0U0NmJXSkY3M01ZdnFMYkhvWnhzNTFsaHRCRVpRZmR3YzZyV0JJTkxBbTNRSW8?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4b174f6d5ea2",
-      "title": "US Drops Charges Against Olympian",
-      "description": "The US Department of Justice dropped its case against Olympian David Hearn, who was accused of damaging the Lincoln Memorial Reflecting Pool.",
-      "lat": 38.89,
-      "lng": -77.01,
-      "severity": 2,
-      "location": "Washington, D.C., USA",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/us-drops-charges-against-olympian-for-damage-to-reflecting-pool?traffic_source=rss",
-      "image": null,
-      "ts": 1785558970000,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 1,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/1/us-drops-charges-against-olympian-for-damage-to-reflecting-pool?traffic_source=rss"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/us/2026/0801/1586089-washington-reflecting-pool/"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/live-news/20260801-us-drops-reflecting-pool-case-admits-damage-due-to-botched-renovation"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcGtYSUliRHQ4R0dpaktGWFp3LTMxRDNXeVVUcUlfbThQdm1YdmU3ZDUwb0tvUFNYT1JNQ05qTG5PNkdRQ3liT2pvbTJiVkRmT2dJMzIxMzM0dnVuUUZmUHdJeG96MU9vNzVxVFpZRG1XRnZJOFA0M2xYb2p2ODlrMTIwbmxLQWQtWUgzdFBvVi1fNi1hS0xGYWgxb2RzbXZRV1ctNW5BTndDR0syamUwRUFSWDlhZ9IBuwFBVV95cUxOcmhvZmdHLTFvOWY5TVpqdmdLd2RVbE56T2xFMEVtMXVEYld0aHhRYWFQUHJsSG9tS2Z6Q0lEN2lMb2JoOHBDQ2ZBUkJucEtIOXItRWxIVGVkcGllY20xb2Nma3NZUjF4QWRUVG9id1A2UFliTFQ3dy1jdmEyay16aDBFNVhvRGdHbHNXMmZldUhWeE0zYmR3OUxldXg2OHNGUEZyWGd2UnE2cW1pQ28zczdIV2tqOVRxcHln?oc=5"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/justice/4671639/pirro-dismisses-reflecting-pool-vandalism-charge/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0f350fd496c1",
-      "title": "Peru's Ex-President Released",
-      "description": "Peru's ex-president Ollanta Humala was released after his conviction was overturned.",
-      "lat": -10.95,
-      "lng": -77.05,
-      "severity": 2,
-      "location": "Lima, Peru",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/peru-ex-president-ollanta-humala-walks-free-after-conviction-quashed/article71293420.ece",
-      "image": "https://th-i.thgim.com/public/incoming/b4a0z2/article71293421.ece/alternates/LANDSCAPE_1200/2026-08-01T022111Z_246013989_RC2CPMANN6EO_RTRMADP_3_PERU-POLITICS-HUMALA.JPG",
-      "ts": 1785552769000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/1/perus-ex-president-humala-released-after-conviction-overturned?traffic_source=rss"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cx2j9nj88rro?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
