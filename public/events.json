@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-08-07T09:35:24.853227+00:00",
+  "updated": "2026-08-07T10:28:51.708839+00:00",
   "events": [
     {
       "id": "45e1e2a51410",
@@ -130,6 +130,44 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-08-07/uganda-s-lawmakers-approve-deployment-of-nation-s-troops-to-gaza"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7f422847f4b1",
+      "title": "China Reports Exports and Imports Slowed Slightly in July",
+      "description": "China's exports and imports slowed slightly in July from the month before, while its trade surplus narrowed.",
+      "lat": 39.91,
+      "lng": 116.39999999999998,
+      "severity": 1,
+      "location": "Beijing, China",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/china-reports-exports-imports-slowed-slightly-july-month-135447347",
+      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
+      "ts": 1786081430000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/china-reports-exports-imports-slowed-slightly-july-month-135447347"
+          },
+          {
+            "n": "Nikkei Asia",
+            "b": "center",
+            "u": "https://asia.nikkei.com/economy/trade/ai-boom-softens-blow-from-china-s-july-trade-slowdown"
           }
         ]
       }
@@ -388,6 +426,54 @@
             "n": "Nikkei Asia",
             "b": "center",
             "u": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/us-imposes-15-tariff-on-polysilicon-in-pushback-against-china"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4e4877787f5e",
+      "title": "Trump Signs Executive Orders Targeting Birthright Citizenship and ‘Birth Tourism’",
+      "description": "The executive orders ban birth tourism and expand the existing definition of people whose children are not eligible for US birthright citizenship.",
+      "lat": 38.9,
+      "lng": -77.02,
+      "severity": 2,
+      "location": "Washington D.C., USA",
+      "source": "Breitbart",
+      "url": "https://www.breitbart.com/politics/2026/08/06/trump-signs-orders-that-end-birth-tourism-expand-who-classifies-as-ineligible-for-birthright-citizenship/",
+      "image": null,
+      "ts": 1786060497000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/08/07/trump-executive-orders-birth-tourism-birthright-citizenship/"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cj63966j95yo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTVJTMjUzcjk1Y2lZb1EtZmxnSWpBck1hZHY0MmRVT3ZQa3JJLVJEOWN0Q2d5a3Q0cHJBbkF6Vm9yV0xCVXliY3dxbXRFTkpST2JSSFBZMkNCdTJaWTdId0ZrZ0FISkhCYVY5SlYwTDA4YVNQaVlZUTVnbE40MVVwVlFZTlJ2WEJQVlEyUE5aenU4QQ?oc=5"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/politics/2026/08/06/trump-signs-orders-that-end-birth-tourism-expand-who-classifies-as-ineligible-for-birthright-citizenship/"
           }
         ]
       }
@@ -7932,82 +8018,6 @@
             "n": "South China Morning Post",
             "b": "center",
             "u": "https://www.scmp.com/news/world/united-states-canada/article/3362615/chinese-buyers-acquire-us-soybeans-october-november-traders-say?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6dfc1d28ff20",
-      "title": "Iran warns of retaliation against US",
-      "description": "Iran has warned that the global economy will pay the price if the US attacks again.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "Daily Express World",
-      "url": "https://www.express.co.uk/news/world/2235031/iran-warns-trump-global-economy",
-      "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2235031_1.jpg",
-      "ts": 1785535080000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2235031/iran-warns-trump-global-economy"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6857b046cd7e",
-      "title": "US and Israel plan strikes on Iran",
-      "description": "The US and Israel are planning a potential bombing campaign targeting Iran's energy infrastructure.",
-      "lat": 33.16,
-      "lng": 34.77000000000001,
-      "severity": 2,
-      "location": "Tel Aviv, Israel",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/world/mid-east/us-israel-plan-weekend-strikes-on-iran-energy-infrastructure",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/07/31/453698.JPG",
-      "ts": 1785532800000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/video/us-israel-planning-harshest-attacks-yet-energy-related-sites-iran-sources-say/"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTExVbGpfeGpwRzZoYzd1SlBvaWhnZVJoUXc3ekdDWWZ6alQ2ckh2dzhSV3B5VWVJLWZlSkp4bDltM3pQaXN1MHJBUWQ2NnV1UnFQeG05SWQ3akZJczRxd0lmaDVvd2R4R2VXQWZ2T2pLWXQydGowVDMtUWhYUTBNMzd0emxJUldOcHJ3SVF6UjcxUU5Tdm9SdDNkUQ?oc=5"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/mid-east/us-israel-plan-weekend-strikes-on-iran-energy-infrastructure"
           }
         ]
       }
