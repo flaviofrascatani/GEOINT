@@ -1,7 +1,121 @@
 {
   "schema": 1,
-  "updated": "2026-08-06T14:56:50.712032+00:00",
+  "updated": "2026-08-07T00:27:16.414283+00:00",
   "events": [
+    {
+      "id": "7e7c1e49a9a9",
+      "title": "US imposes 15% tariff on polysilicon imports from China",
+      "description": "The US has imposed a 15% tariff on polysilicon imports from China, citing concerns over China's trade practices.",
+      "lat": 38.54,
+      "lng": 118.1626,
+      "severity": 2,
+      "location": "Beijing, China",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/us-imposes-15-tariff-on-polysilicon-in-pushback-against-china",
+      "image": null,
+      "ts": 1786062436231,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Nikkei Asia",
+            "b": "center",
+            "u": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/us-imposes-15-tariff-on-polysilicon-in-pushback-against-china"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2b108023d5cc",
+      "title": "Trump signs executive orders to limit birthright citizenship",
+      "description": "US President Donald Trump has signed executive orders aimed at limiting birthright citizenship and curbing 'birth tourism'.",
+      "lat": 38.9,
+      "lng": -77.02,
+      "severity": 2,
+      "location": "Washington D.C., USA",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/donald-trump-signs-order-to-curb-birthright-citizenship-tourism-11876893#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-08/qnhp94eg_donald-trump_625x300_07_August_26.jpeg",
+      "ts": 1786057578000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/6/trump-signs-executive-orders-banning-so-called-birth?traffic_source=rss"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/americas/trump-signs-orders-to-limit-birthright-citizenship-curb-birth-tourism"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f56c56d84bfe",
+      "title": "Houthis carry out deadly attack in Yemen and hit Saudi territory",
+      "description": "The Houthis have conducted a large-scale attack against forces from Yemen's Saudi-backed government, and struck the southwestern Saudi region of Najran.",
+      "lat": 15.35,
+      "lng": 44.19,
+      "severity": 4,
+      "location": "Sanaa, Yemen",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-06/houthis-attack-saudi-backed-forces-in-yemen-escalating-tensions",
+      "image": null,
+      "ts": 1786031471000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/11-injured-in-yemen-led-houthi-strikes-in-saudi-arabia-11877028#publisher=newsstand"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-904832"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-06/houthis-attack-saudi-backed-forces-in-yemen-escalating-tensions"
+          }
+        ]
+      }
+    },
     {
       "id": "4acb53538d23",
       "title": "US Senate committee votes to hold Fauci in contempt over Covid hearing",
@@ -132,39 +246,82 @@
       }
     },
     {
+      "id": "7c75b1883e82",
+      "title": "Nigerian security forces free over 300 hostages",
+      "description": "Nigerian security forces have rescued more than 300 people held captive in the country's north-central region.",
+      "lat": 9.08,
+      "lng": 7.53,
+      "severity": 1,
+      "location": "Abuja, Nigeria",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/world/2026/aug/06/nigerian-security-forces-free-hostages-abducted-by-militants",
+      "image": null,
+      "ts": 1786020032000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/aug/06/nigerian-security-forces-free-hostages-abducted-by-militants"
+          }
+        ]
+      }
+    },
+    {
       "id": "242148f76d0c",
-      "title": "North Korea fires ballistic missile in anger at US drills",
-      "description": "North Korea has launched a short-range ballistic missile into the sea, resuming weapons tests just days before the US and South Korea kick off their annual joint military exercises.",
+      "title": "North Korea Conducts Ballistic Missile Test",
+      "description": "North Korea has conducted a ballistic missile test from its eastern coastal Wonsan area, just days before the US and South Korea begin joint drills.",
       "lat": 38.66,
       "lng": 126.97000000000003,
-      "severity": 3,
+      "severity": 2,
       "location": "Seoul, South Korea",
-      "source": "Daily Star World",
-      "url": "https://www.dailystar.co.uk/news/world-news/north-korea-fires-ballistic-missile-37521449",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/north-korea-ballistic-missile-test_n_6a7462d8e4b0a79b03a6f52a",
       "image": "https://img.yna.co.kr/photo/yna/YH/2025/01/07/PYH2025010700680004200_P2.jpg",
       "ts": 1786019784000,
       "coverage": {
         "left": 1,
-        "center": 1,
-        "right": 1,
-        "total": 3,
+        "center": 2,
+        "right": 2,
+        "total": 5,
         "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
+          "left": 1,
+          "lean_left": 0,
+          "center": 2,
           "lean_right": 0,
-          "right": 1
+          "right": 2
         },
         "sources": [
           {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/north-korea-fires-ballistic-missile-south-korea-military/article71312985.ece"
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/north-korea-ballistic-missile-test_n_6a7462d8e4b0a79b03a6f52a"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-06/pacific-missed-chance-to-condemn-china-missile-test-nz-s-foreign-minister-says"
           },
           {
             "n": "Japan Times",
             "b": "center",
             "u": "https://www.japantimes.co.jp/news/2026/08/06/asia-pacific/north-korea-projectile/"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/us-north-korea-missile-launch-poses-no-immediate-threat-consulting-closely-allies"
           },
           {
             "n": "Daily Star World",
@@ -7791,168 +7948,6 @@
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/former-sri-lankan-defence-official-ex-police-chief-sentenced-to-death-over-2019-easter-bombings"
-          }
-        ]
-      }
-    },
-    {
-      "id": "566418051710",
-      "title": "UAE's Etihad stakes its claim in West African skies with Nigeria's Air Peace",
-      "description": "Etihad Airways has signed interline agreements with Air Peace in Nigeria and Africa World Airlines in Ghana",
-      "lat": 6.45,
-      "lng": 3.38,
-      "severity": 1,
-      "location": "Lagos, Nigeria",
-      "source": "The Africa Report",
-      "url": "https://www.theafricareport.com/426681/uaes-etihad-stakes-its-claim-in-west-african-skies-with-nigerias-air-peace/",
-      "image": null,
-      "ts": 1785510000000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Africa Report",
-            "b": "center",
-            "u": "https://www.theafricareport.com/426681/uaes-etihad-stakes-its-claim-in-west-african-skies-with-nigerias-air-peace/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b1938029e989",
-      "title": "US Lawmaker Submits Bill Aimed at Countering N.K. IT Worker Schemes",
-      "description": "A U.S. lawmaker has introduced a bill aimed at countering North Korean IT worker schemes.",
-      "lat": 40.0,
-      "lng": -75.1148,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "Yonhap News",
-      "url": "https://en.yna.co.kr/view/AEN20260731012100315",
-      "image": "https://img.yna.co.kr/etc/inner/EN/2026/07/31/AEN20260731012100315_01_i_P2.jpg",
-      "ts": 1785507827000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20260731012100315"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0d4e984b58b4",
-      "title": "Hackers targeted municipal water systems in 7 states this week, FBI says",
-      "description": "Cyberattacks targeting municipal water systems have been reported in at least seven states this week, prompting the FBI and the Environmental Protection Agency to warn utilities nationwide that hackers are targeting their systems.",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "NBC News World",
-      "url": "https://www.nbcnews.com/tech/security/hackers-targeted-municipal-water-systems-7-states-week-fbi-says-rcna590210",
-      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-07/260731-minnesota-water-mn-0905-878e3e.jpg",
-      "ts": 1785506074000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/tech/security/hackers-targeted-municipal-water-systems-7-states-week-fbi-says-rcna590210"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0ae7f66cb0b1",
-      "title": "Hamas Agrees to Disarm, Israel to Leave Gaza",
-      "description": "US President Donald Trump announced a deal for Hamas to disarm and Israel to withdraw its forces from Gaza.",
-      "lat": 31.51,
-      "lng": 34.46000000000001,
-      "severity": 1,
-      "location": "Gaza, Palestine",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/read-full-text-deal-hamas-disarm-israel-leave-135256751",
-      "image": null,
-      "ts": 1785504897000,
-      "coverage": {
-        "left": 4,
-        "center": 1,
-        "right": 2,
-        "total": 7,
-        "buckets": {
-          "left": 0,
-          "lean_left": 4,
-          "center": 1,
-          "lean_right": 1,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/07/31/world/middleeast/trump-gaza-hamas-deal-disarm.html"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/read-full-text-deal-hamas-disarm-israel-leave-135256751"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/trump-peace-deal-hamas-israel-37498742"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/1/israel-launches-attacks-across-gaza-one-day-after-hamas-agrees-to-disarm?traffic_source=rss"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/analysis-and-comment/2026/0731/1586051-hamas-disarmament-gaza/"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/643725-israel-strikes-gaza-trump/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          },
-          {
-            "n": "Daily Mail World",
-            "b": "right",
-            "u": "https://www.dailymail.com/news/article-16018319/Donald-Trump-disarm-hamas-gaza-israel.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
           }
         ]
       }
