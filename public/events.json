@@ -1,7 +1,116 @@
 {
   "schema": 1,
-  "updated": "2026-08-07T17:54:32.891229+00:00",
+  "updated": "2026-08-07T19:08:09.438358+00:00",
   "events": [
+    {
+      "id": "a43874f96bac",
+      "title": "Hezbollah’s attempts to wreck Beirut-Jerusalem talks failing",
+      "description": "Beirut and Jerusalem held talks in Rome last week, with some sessions ending early in response to Israeli strikes on Hezbollah infrastructure in Lebanon",
+      "lat": 33.89,
+      "lng": 35.5,
+      "severity": 3,
+      "location": "Beirut, Lebanon",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/article-904870",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_3668,w_5500/732666",
+      "ts": 1786135351000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-904870"
+          }
+        ]
+      }
+    },
+    {
+      "id": "92054aeeebb5",
+      "title": "Yemen's Houthis escalate deadly attacks on Saudi-backed troops",
+      "description": "Yemen's Houthi rebels launched fresh attacks on Saudi-backed government troops",
+      "lat": 16.45,
+      "lng": 44.19,
+      "severity": 3,
+      "location": "Sanaa, Yemen",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/",
+      "image": null,
+      "ts": 1786128162000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/middle-east/2026/0807/1586873-middle-east/"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2170355"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8c4dc5d6b186",
+      "title": "US Senate confirms FEMA leader",
+      "description": "The Senate has confirmed President Trump’s pick to lead the Federal Emergency Management Agency (FEMA)",
+      "lat": 38.89,
+      "lng": -77.01,
+      "severity": 1,
+      "location": "Washington, D.C., USA",
+      "source": "The Hill",
+      "url": "https://thehill.com/policy/energy-environment/6017458-fema-administrator-cameron-hamilton/",
+      "image": "https://thehill.com/wp-content/uploads/sites/2/2025/05/AP25127708994382-e1746728188637.jpg?w=900",
+      "ts": 1786127021000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/policy/energy-environment/6017458-fema-administrator-cameron-hamilton/"
+          }
+        ]
+      }
+    },
     {
       "id": "1364971d5ff2",
       "title": "Africa: A Landmark for African Finance - Europe's First African Sovereign Bond ETF Opens a New Chapter",
@@ -733,6 +842,44 @@
       }
     },
     {
+      "id": "900678c4d26f",
+      "title": "Thai teenager kills seven in rampage at home and school",
+      "description": "A Thai teenager killed at least five people and himself at a school outside Bangkok after fatally shooting his grandparents",
+      "lat": 13.75,
+      "lng": 100.48000000000002,
+      "severity": 4,
+      "location": "Bangkok, Thailand",
+      "source": "RTE News",
+      "url": "https://www.rte.ie/news/asia/2026/0807/1586874-thailand-school-shooting/",
+      "image": "https://www.rte.ie/images/0024d008-800.jpg",
+      "ts": 1786077075000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/asia/two-dead-gunman-school-shooting-thailand-officials-say-rcna591309"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/asia/2026/0807/1586874-thailand-school-shooting/"
+          }
+        ]
+      }
+    },
+    {
       "id": "e3765aadf994",
       "title": "Thailand school shooting leaves teacher dead",
       "description": "A student has killed a teacher before taking his own life at a school northwest of Bangkok.",
@@ -799,79 +946,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/mexican-avocado-exports-us-stopped-135438180"
-          }
-        ]
-      }
-    },
-    {
-      "id": "92054aeeebb5",
-      "title": "Houthi missile attacks kill 58 Saudi-backed Yemeni government forces",
-      "description": "Yemen's Iran-backed Houthis killed at least 58 government troops in missile and drone attacks.",
-      "lat": 16.45,
-      "lng": 44.19,
-      "severity": 4,
-      "location": "Sanaa, Yemen",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/west-asia-conflict-iran-us-war-iran-oman-talks-tehran-washington-peace-deal-houthis-saudi-arabia-live-updates-august-7-2026/article71316113.ece",
-      "image": null,
-      "ts": 1786073177000,
-      "coverage": {
-        "left": 3,
-        "center": 5,
-        "right": 1,
-        "total": 9,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 5,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/06/world/middleeast/houthi-yemen-strikes.html"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/11-injured-in-yemen-led-houthi-strikes-in-saudi-arabia-11877028#publisher=newsstand"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/west-asia-conflict-iran-us-war-iran-oman-talks-tehran-washington-peace-deal-houthis-saudi-arabia-live-updates-august-7-2026/article71316113.ece"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/middle-east/20260806-houthi-rebels-kill-dozens-of-saudi-backed-yemeni-government-forces"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/international/article-904833"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZlNlTi0tMTdEYTJ4Zy1xU1JmQ0w3TFRtOW80d3ZuU2dtc0FwUE5pUmJwN19EQWlIdzVQTHpOVmR3RlJMSzRHNnE2Tm5KaDg3eGNjUzF0R1RtT2Q2c3Fsd0pHRWtoN2NaRXZyMGMwZmdBX1dTMUNjempFdm5XNTBxTGt1XzNsd3E0Rk5HRlB2WnNTWUF6ei12eWhYY3UyZw?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/houthi-missile-attacks-kill-58-saudi-backed-yemeni-govt-forces-source"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/middle-east/article/3363241/houthi-attacks-kill-dozens-troops-yemen-wound-civilians-saudi-arabia?utm_source=rss_feed"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2169923"
           }
         ]
       }
@@ -7899,110 +7973,6 @@
             "n": "RTE News",
             "b": "center",
             "u": "https://www.rte.ie/news/2026/0801/1586086-russian-strikes/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e1ee2d660fd7",
-      "title": "US general warns Pentagon he lacks sufficient forces to protect Israel",
-      "description": "A US general warned the Pentagon that he lacks sufficient forces to protect Israel due to a shortage of Navy destroyers used to defend against Iranian ballistic missile attacks.",
-      "lat": 33.17,
-      "lng": 36.67519999999999,
-      "severity": 3,
-      "location": "Tel Aviv, Israel",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/national-security/2026/08/01/general-warns-pentagon-he-lacks-sufficient-forces-protect-israel/",
-      "image": null,
-      "ts": 1785582000000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/national-security/2026/08/01/general-warns-pentagon-he-lacks-sufficient-forces-protect-israel/"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/policy/defense/4672016/us-general-pentagon-cannot-defend-israel/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "255db6a977ce",
-      "title": "Tankers near Oman come under fire as Iran threatens to choke off shipping routes",
-      "description": "Tankers near Oman were attacked as Iran threatened to disrupt shipping routes.",
-      "lat": 23.92,
-      "lng": 57.5326,
-      "severity": 3,
-      "location": "Oman",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/08/01/tankers-near-oman-come-under-fire.html",
-      "image": null,
-      "ts": 1785581771000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/01/tankers-near-oman-come-under-fire.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2f34dcce093a",
-      "title": "UEFA Welcomes FIFA's Decision to Scrap Stake Sale",
-      "description": "UEFA has welcomed FIFA's decision to scrap its plans to sell a stake in the World Cup, a proposal that had been met with widespread opposition from European football's governing body.",
-      "lat": 48.86,
-      "lng": 4.1952,
-      "severity": 2,
-      "location": "Paris, France",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/sport/uefa-welcomes-fifas-decision-scrap-stake-sale-6292726",
-      "image": null,
-      "ts": 1785578745000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/sport/uefa-welcomes-fifas-decision-scrap-stake-sale-6292726"
           }
         ]
       }
