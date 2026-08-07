@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-08-07T05:17:00.260322+00:00",
+  "updated": "2026-08-07T06:50:23.942559+00:00",
   "events": [
+    {
+      "id": "a5d560580ba7",
+      "title": "Thai school shooting",
+      "description": "At least 6 people dead, 15 injured in shooting at Thai high school",
+      "lat": 13.86,
+      "lng": 100.51999999999998,
+      "severity": 4,
+      "location": "Nonthaburi, Thailand",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/thailand-high-school-shooting-dead-injured-nonthaburi/",
+      "image": null,
+      "ts": 1786084286000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/thailand-school-shooting-bang-kruai-district-nonthaburi-province-live-updates-august-7-2026/article71316225.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0b5513a3001f",
+      "title": "Uganda troops to Gaza",
+      "description": "Ugandan lawmakers approve deployment of nation's troops to Gaza",
+      "lat": 0.32,
+      "lng": 32.58,
+      "severity": 3,
+      "location": "Kampala, Uganda",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-07/uganda-s-lawmakers-approve-deployment-of-nation-s-troops-to-gaza",
+      "image": null,
+      "ts": 1786082391000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-07/uganda-s-lawmakers-approve-deployment-of-nation-s-troops-to-gaza"
+          }
+        ]
+      }
+    },
     {
       "id": "e3765aadf994",
       "title": "Thailand school shooting leaves teacher dead",
@@ -36,6 +102,39 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/news/2026/8/7/one-killed-four-injured-in-thailand-school-shooting-officials-say?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1c4fb6677ae",
+      "title": "Mexico avocado exports halted",
+      "description": "US suspends avocado inspections due to threat, Mexico sends troops to secure avocado region",
+      "lat": 19.43,
+      "lng": -102.05,
+      "severity": 3,
+      "location": "Michoacan, Mexico",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/mexican-avocado-exports-us-stopped-135438180",
+      "image": "https://s.abcnews.com/images/US/wirestory_689d89d4934a405882785205cc0f8c22_4x3_384.jpg",
+      "ts": 1786074398000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/mexican-avocado-exports-us-stopped-135438180"
           }
         ]
       }
@@ -223,6 +322,39 @@
             "n": "Nikkei Asia",
             "b": "center",
             "u": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/us-imposes-15-tariff-on-polysilicon-in-pushback-against-china"
+          }
+        ]
+      }
+    },
+    {
+      "id": "65062b02866d",
+      "title": "Trump orders leak probe",
+      "description": "Trump orders probe after media coverage of munitions stockpile",
+      "lat": 40.0,
+      "lng": -75.1148,
+      "severity": 2,
+      "location": "Washington D.C., USA",
+      "source": "Google News Top",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPS200d1UtaHFSNlJYdjVReHViMUFJQ042S2YweUJERjZTaDhCN1pFNzFVbmhlQVMyOEJlMGYxWWM1YTdpdHpQUUIyUkp3anBSbWxuTnhCZXJiQlRKZV8ycnZtRUVxX01YanRidlFLMENHX0liczFxUlRmbG9PTkFrVFB0WlI1cFJ5bk5qZDhXZ1NreTJDS3R3QUpVbVNqREdTTUlrMU1IRjFlYXltNzgxdzVKc013czl1OFIwQnJwUUlJTjRsZkpmaVMtaWxid3otSTNv?oc=5",
+      "image": null,
+      "ts": 1786059000000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPS200d1UtaHFSNlJYdjVReHViMUFJQ042S2YweUJERjZTaDhCN1pFNzFVbmhlQVMyOEJlMGYxWWM1YTdpdHpQUUIyUkp3anBSbWxuTnhCZXJiQlRKZV8ycnZtRUVxX01YanRidlFLMENHX0liczFxUlRmbG9PTkFrVFB0WlI1cFJ5bk5qZDhXZ1NreTJDS3R3QUpVbVNqREdTTUlrMU1IRjFlYXltNzgxdzVKc013czl1OFIwQnJwUUlJTjRsZkpmaVMtaWxid3otSTNv?oc=5"
           }
         ]
       }
@@ -510,11 +642,11 @@
     },
     {
       "id": "242148f76d0c",
-      "title": "North Korea Conducts Ballistic Missile Test",
-      "description": "North Korea has conducted a ballistic missile test from its eastern coastal Wonsan area, just days before the US and South Korea begin joint drills.",
+      "title": "North Korea ballistic missile test",
+      "description": "North Korea conducts ballistic missile test days before US and South Korea begin drills",
       "lat": 38.66,
       "lng": 126.97000000000003,
-      "severity": 2,
+      "severity": 3,
       "location": "Seoul, South Korea",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/north-korea-ballistic-missile-test_n_6a7462d8e4b0a79b03a6f52a",
@@ -522,13 +654,13 @@
       "ts": 1786019784000,
       "coverage": {
         "left": 1,
-        "center": 2,
+        "center": 0,
         "right": 2,
-        "total": 5,
+        "total": 3,
         "buckets": {
           "left": 1,
           "lean_left": 0,
-          "center": 2,
+          "center": 0,
           "lean_right": 0,
           "right": 2
         },
@@ -537,16 +669,6 @@
             "n": "HuffPost World",
             "b": "left",
             "u": "https://www.huffpost.com/entry/north-korea-ballistic-missile-test_n_6a7462d8e4b0a79b03a6f52a"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-06/pacific-missed-chance-to-condemn-china-missile-test-nz-s-foreign-minister-says"
-          },
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/08/06/asia-pacific/north-korea-projectile/"
           },
           {
             "n": "Fox News World",
@@ -7856,138 +7978,6 @@
             "n": "Yonhap News",
             "b": "center",
             "u": "https://en.yna.co.kr/view/AEN20260801000252315"
-          }
-        ]
-      }
-    },
-    {
-      "id": "797ea830b0a0",
-      "title": "US and Iran Conflict Escalates, With No End in Sight",
-      "description": "The conflict between the US and Iran continues to escalate, with both sides exchanging blows and no end to the violence in sight.",
-      "lat": 35.69,
-      "lng": 53.295199999999994,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "IBTimes",
-      "url": "https://www.ibtimes.com/clashes-between-us-iran-continue-without-progress-trump-says-hes-losing-faith-tehran-3805960",
-      "image": null,
-      "ts": 1785526081000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/clashes-between-us-iran-continue-without-progress-trump-says-hes-losing-faith-tehran-3805960"
-          }
-        ]
-      }
-    },
-    {
-      "id": "54126fac7658",
-      "title": "India-Bangladesh-US diplomatic meeting",
-      "description": "India's High Commissioner to Bangladesh met with the US Ambassador to India in Dhaka, marking a first for such a meeting in a foreign location.",
-      "lat": 24.91,
-      "lng": 90.42000000000002,
-      "severity": 2,
-      "location": "Dhaka, Bangladesh",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/national/in-a-first-indias-high-commissioner-to-bangladesh-meets-us-ambassador-to-india-in-dhaka/article71291620.ece",
-      "image": "https://th-i.thgim.com/public/incoming/bm35vj/article71292068.ece/alternates/LANDSCAPE_1200/HLqjHbFXUAAKpFO.jpg",
-      "ts": 1785520697000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/national/in-a-first-indias-high-commissioner-to-bangladesh-meets-us-ambassador-to-india-in-dhaka/article71291620.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c67dfef6d665",
-      "title": "Two-Week Ceasefire Intended to Allow Hamas Disarmament, Launch Peace Deal",
-      "description": "There is currently a two-week ceasefire to finalize the details of the process. However, if Hamas does not begin the process, this will be considered a violation of and an end to the ceasefire.",
-      "lat": 31.78,
-      "lng": 37.12520000000001,
-      "severity": 1,
-      "location": "Jerusalem, Israel",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/israel-news/defense-news/article-904233",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_1066,w_1600/698406",
-      "ts": 1785520533000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/israel-news/defense-news/article-904233"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7dcdb3464a9e",
-      "title": "Two-Week Ceasefire in Gaza",
-      "description": "A two-week ceasefire is in place to allow Hamas to disarm and launch a peace deal.",
-      "lat": 30.5574,
-      "lng": 36.110000000000014,
-      "severity": 1,
-      "location": "Gaza, Palestine",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/israel-news/defense-news/article-904233",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_1066,w_1600/698406",
-      "ts": 1785520533000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/israel-news/defense-news/article-904233"
           }
         ]
       }
