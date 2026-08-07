@@ -1,7 +1,45 @@
 {
   "schema": 1,
-  "updated": "2026-08-07T03:32:13.588741+00:00",
+  "updated": "2026-08-07T05:17:00.260322+00:00",
   "events": [
+    {
+      "id": "e3765aadf994",
+      "title": "Thailand school shooting leaves teacher dead",
+      "description": "A student has killed a teacher before taking his own life at a school northwest of Bangkok.",
+      "lat": 13.45,
+      "lng": 101.48259999999999,
+      "severity": 4,
+      "location": "Nonthaburi, Thailand",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/shooting-at-a-school-in-thailand-august-7-2026/article71316169.ece",
+      "image": "https://th-i.thgim.com/public/incoming/s3gfu6/article71316245.ece/alternates/LANDSCAPE_1200/2026-08-07T035753Z_1696045259_RC2ETMA60TPJ_RTRMADP_3_THAILAND-SHOOTING.JPG",
+      "ts": 1786076594000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/thailand-school-shooting-teachers-dead-37523569"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/7/one-killed-four-injured-in-thailand-school-shooting-officials-say?traffic_source=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "92054aeeebb5",
       "title": "Houthi missile attacks kill 58 Saudi-backed Yemeni government forces",
@@ -119,6 +157,39 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/gen-keane-questions-whether-pakistan-saudi-arabia-qatar-trusted-iran-talks"
+          }
+        ]
+      }
+    },
+    {
+      "id": "33123da74414",
+      "title": "Iran's chief negotiator accuses Trump of 'theater diplomacy'",
+      "description": "Iran's chief negotiator has accused US President Donald Trump of 'theater diplomacy' amid tensions over the Strait of Hormuz.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/08/07/us-iran-war-trump-hormuz-diplomacy-oil-.html",
+      "image": null,
+      "ts": 1786068522000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/08/07/us-iran-war-trump-hormuz-diplomacy-oil-.html"
           }
         ]
       }
@@ -7917,72 +7988,6 @@
             "n": "Jerusalem Post",
             "b": "center",
             "u": "https://www.jpost.com/israel-news/defense-news/article-904233"
-          }
-        ]
-      }
-    },
-    {
-      "id": "22fc9d007f9f",
-      "title": "Migrant Crisis in Ceuta",
-      "description": "Around 60,000 migrants crossed into the Spanish territory of Ceuta from Morocco, sparking a crisis in Europe.",
-      "lat": 35.89,
-      "lng": -5.310000000000002,
-      "severity": 3,
-      "location": "Ceuta, Spain",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/migration-spain-ceuta-morocco_n_6a6c8e34e4b0ea7db0fc2baf",
-      "image": null,
-      "ts": 1785520331000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/europe/2026/0801/1586091-ceuta-crisis/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d1a99b2e0d48",
-      "title": "At least 57 people die as tens of thousands cross to Spanish enclave of Ceuta from Morocco",
-      "description": "At least 57 people have died trying to reach the Spanish enclave of Ceuta after as many as 60,000 migrants surged into the territory from Morocco.",
-      "lat": 35.89,
-      "lng": -5.310000000000002,
-      "severity": 4,
-      "location": "Ceuta, Spain",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/world/2026/jul/31/ceuta-spain-morocco-border-deaths",
-      "image": null,
-      "ts": 1785520331000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/world/2026/jul/31/ceuta-spain-morocco-border-deaths"
           }
         ]
       }
