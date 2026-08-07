@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-07T08:19:08.642751+00:00",
+  "updated": "2026-08-07T09:35:24.853227+00:00",
   "events": [
+    {
+      "id": "45e1e2a51410",
+      "title": "Colombia President De la Espriella Takes Office",
+      "description": "Colombia's new president, De la Espriella, has taken office, marking a shift to the right in the country's politics.",
+      "lat": 4.61,
+      "lng": -74.08,
+      "severity": 2,
+      "location": "Bogota, Colombia",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-07/colombia-president-de-la-espriella-takes-office-as-latin-america-shifts-right",
+      "image": null,
+      "ts": 1786093200000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-07/colombia-president-de-la-espriella-takes-office-as-latin-america-shifts-right"
+          }
+        ]
+      }
+    },
     {
       "id": "c8535e32b47f",
       "title": "India and China discuss LAC situation and border management",
@@ -7975,39 +8008,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/mid-east/us-israel-plan-weekend-strikes-on-iran-energy-infrastructure"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7f6acb9f027c",
-      "title": "Naples earthquake",
-      "description": "A 4.7 magnitude earthquake struck Naples, causing damage and panic.",
-      "lat": 40.85,
-      "lng": 14.27,
-      "severity": 3,
-      "location": "Naples, Italy",
-      "source": "Mirror World",
-      "url": "https://www.mirror.co.uk/news/world-news/naples-earthquake-italy-landslide-magnitude-37501905",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37502107.ece/ALTERNATES/s615/0_Screenshot-2026-07-31-at-205717JPG.jpg",
-      "ts": 1785531852000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/naples-earthquake-italy-landslide-magnitude-37501905"
           }
         ]
       }
