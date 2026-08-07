@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-08-07T20:09:06.404976+00:00",
+  "updated": "2026-08-07T21:18:19.645754+00:00",
   "events": [
     {
       "id": "5a77af0bf017",
@@ -46,6 +46,39 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/08/us-official-we-expect-deal-soon-between-iran-and-oman-strait-hormuz"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cb39af2df6ed",
+      "title": "China launches satellite for Algeria",
+      "description": "A Chinese-made communications satellite became the first 'export' of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
+      "lat": 36.77,
+      "lng": 3.06,
+      "severity": 2,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1786137499526,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
           }
         ]
       }
@@ -119,25 +152,25 @@
     {
       "id": "92054aeeebb5",
       "title": "Yemen's Houthis escalate deadly attacks on Saudi-backed troops",
-      "description": "Yemen's Houthi rebels launched fresh attacks on Saudi-backed government troops",
+      "description": "Yemen's Houthi rebels launch fresh attacks on Saudi-backed government troops, says Yemeni state media.",
       "lat": 16.45,
       "lng": 44.19,
-      "severity": 3,
+      "severity": 4,
       "location": "Sanaa, Yemen",
       "source": "CBS News World",
       "url": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/",
       "image": null,
-      "ts": 1786128162000,
+      "ts": 1786131278000,
       "coverage": {
         "left": 1,
-        "center": 1,
-        "right": 1,
-        "total": 3,
+        "center": 0,
+        "right": 0,
+        "total": 1,
         "buckets": {
           "left": 0,
           "lean_left": 1,
-          "center": 1,
-          "lean_right": 1,
+          "center": 0,
+          "lean_right": 0,
           "right": 0
         },
         "sources": [
@@ -145,16 +178,6 @@
             "n": "CBS News World",
             "b": "lean_left",
             "u": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/middle-east/2026/0807/1586873-middle-east/"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2170355"
           }
         ]
       }
@@ -454,6 +477,49 @@
       }
     },
     {
+      "id": "7555f17ffec9",
+      "title": "Ukraine's Zelenskyy to visit Russia-friendly Serbia",
+      "description": "Ukrainian President Volodymyr Zelenskyy plans to visit Serbia on Saturday for the first time.",
+      "lat": 45.92,
+      "lng": 20.460000000000008,
+      "severity": 2,
+      "location": "Belgrade, Serbia",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/ukraines-zelenskyy-make-visit-russia-friendly-serbia-135451984",
+      "image": "https://s.abcnews.com/images/International/wirestory_525abc93c80c868ec5f1705dca4168d0_4x3_384.jpg",
+      "ts": 1786106050000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/ukraines-zelenskyy-make-visit-russia-friendly-serbia-135451984"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/ukraine-s-zelenskyy-makes-first-visit-to-russia-friendly-serbia/a-78285302?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/russia-central-asia/article/3363366/ukraines-zelensky-makes-first-visit-russia-friendly-serbia?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
+    {
       "id": "7d8b2690638d",
       "title": "Spain and Italy row over border controls",
       "description": "Spain has threatened to retaliate against Italy after Rome imposed border controls on Spanish visitors via air and sea",
@@ -493,11 +559,11 @@
     },
     {
       "id": "f645f54e9d21",
-      "title": "Spain announces new border controls with Italy",
-      "description": "Spain is to impose new border controls for flights and ships from Italy due to a row over the influx of migrants into Ceuta.",
+      "title": "Spain imposes border checks on Italy",
+      "description": "Spain is to impose new border controls for flights and ships from Italy as the two countries' row over the influx of migrants into Ceuta intensifies.",
       "lat": 37.63,
       "lng": -6.27000000000001,
-      "severity": 2,
+      "severity": 3,
       "location": "Ceuta, Spain",
       "source": "Sky News World",
       "url": "https://news.sky.com/story/spain-threatens-to-retaliate-after-italy-imposes-border-controls-following-ceuta-migrant-influx-13570668",
@@ -3284,39 +3350,6 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-08-05/china-hits-back-at-us-with-tighter-drone-export-curbs-sanctions"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cb39af2df6ed",
-      "title": "China Launches Satellite for Algeria",
-      "description": "China has launched a communications satellite for Algeria, marking the first time a Chinese-made satellite has been exported to an Arab country.",
-      "lat": 36.77,
-      "lng": 3.06,
-      "severity": 1,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1785914283734,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
           }
         ]
       }
@@ -7905,39 +7938,6 @@
             "n": "The Guardian World",
             "b": "lean_left",
             "u": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing"
-          }
-        ]
-      }
-    },
-    {
-      "id": "97a8fae89ef3",
-      "title": "Iran warns neighbors against being US 'defensive shield'",
-      "description": "Iran warned its neighbors against helping the US, as Washington considers possible new strikes.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/iran-warns-neighbors-against-being-us-defensive-shield/live-78201442?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1785586068555,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/iran-warns-neighbors-against-being-us-defensive-shield/live-78201442?maca=en-rss-en-all-1573-rdf"
           }
         ]
       }
