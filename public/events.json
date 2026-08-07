@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-07T11:25:03.046317+00:00",
+  "updated": "2026-08-07T12:11:59.128107+00:00",
   "events": [
+    {
+      "id": "e63e7fc121f7",
+      "title": "Haitians face arrest and deportation after US removes TPS protections",
+      "description": "DHS secretary Markwayne Mullin says ‘We’re going after them right now’ despite threat of violence in home country",
+      "lat": 38.9,
+      "lng": -77.02,
+      "severity": 3,
+      "location": "Washington D.C., USA",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/us-news/2026/aug/07/haitians-us-deportation-tps-immigration",
+      "image": null,
+      "ts": 1786100416000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/us-news/2026/aug/07/haitians-us-deportation-tps-immigration"
+          }
+        ]
+      }
+    },
     {
       "id": "661f5dfbfe8e",
       "title": "China plans to increase mine output in world’s largest rare earth deposit",
@@ -31,6 +64,49 @@
             "n": "South China Morning Post",
             "b": "center",
             "u": "https://www.scmp.com/news/china/science/article/3363230/china-plans-increase-mine-output-worlds-largest-rare-earth-deposit-50?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d24f3009801e",
+      "title": "Student kills multiple people at Thai school",
+      "description": "A student opened fire at a high school in Thailand on Friday, ending the lives of at least six individuals and injuring others, police said.",
+      "lat": 13.75,
+      "lng": 102.68,
+      "severity": 4,
+      "location": "Bangkok, Thailand",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/student-perpetrates-deadly-shooting-thailand-high-school-authorities-say",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/08/931/523/3ce66f7b-emergency-responders-school-shooting-thailand-august-2026.jpg?ve=1&tl=1",
+      "ts": 1786097576000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/asia/two-dead-gunman-school-shooting-thailand-officials-say-rcna591309"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/7/several-killed-after-student-opens-fire-inside-thailand-school?traffic_source=rss"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/student-perpetrates-deadly-shooting-thailand-high-school-authorities-say"
           }
         ]
       }
@@ -898,27 +974,27 @@
     },
     {
       "id": "242148f76d0c",
-      "title": "North Korea ballistic missile test",
-      "description": "North Korea conducts ballistic missile test days before US and South Korea begin drills",
+      "title": "North Korea Conducts Ballistic Missile Test",
+      "description": "The launch from North Korea’s eastern coastal Wonsan area was detected around 5 p.m., South Korea’s Joint Chiefs of Staff said.",
       "lat": 38.66,
       "lng": 126.97000000000003,
-      "severity": 3,
+      "severity": 2,
       "location": "Seoul, South Korea",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/north-korea-ballistic-missile-test_n_6a7462d8e4b0a79b03a6f52a",
       "image": "https://img.yna.co.kr/photo/yna/YH/2025/01/07/PYH2025010700680004200_P2.jpg",
       "ts": 1786019784000,
       "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 2,
-        "total": 3,
+        "left": 2,
+        "center": 1,
+        "right": 1,
+        "total": 4,
         "buckets": {
           "left": 1,
-          "lean_left": 0,
-          "center": 0,
+          "lean_left": 1,
+          "center": 1,
           "lean_right": 0,
-          "right": 2
+          "right": 1
         },
         "sources": [
           {
@@ -927,14 +1003,19 @@
             "u": "https://www.huffpost.com/entry/north-korea-ballistic-missile-test_n_6a7462d8e4b0a79b03a6f52a"
           },
           {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/north-korea-launches-short-range-ballistic-missile-sea-135413600"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeXdyNEpHMFNGcXNVdVJ6UHotbDZQQnJ6N0htSmJwSS0tN2dsMDYtaThpLTcyUi05bi1paHVvVUE4cGgwclB6RkdaaVNlZDFUdW9PVE9NNjhLQzFfWGkxSzBYRkVtZkpyekZjaUZGZDY3dTI4d2hjaF93alg4SE9oZGlCTndQdlRGSzR6VG5DV1FwS0ozenp4Zzl0UUJIMi14YUdCM3ZzcTU3bE1xV3lWV0YzQ1hZUUhiM3dmdUhMTQ?oc=5"
+          },
+          {
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/us-north-korea-missile-launch-poses-no-immediate-threat-consulting-closely-allies"
-          },
-          {
-            "n": "Daily Star World",
-            "b": "right",
-            "u": "https://www.dailystar.co.uk/news/world-news/north-korea-fires-ballistic-missile-37521449"
           }
         ]
       }
@@ -7927,97 +8008,6 @@
             "n": "BBC World",
             "b": "center",
             "u": "https://www.bbc.co.uk/news/articles/cx2j9nj88rro?at_medium=RSS&at_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ca6cf5928af2",
-      "title": "FIFA Scraps Private Investment Plan",
-      "description": "FIFA has dropped its plan to sell a stake in the World Cup to private investors after opposition from football officials.",
-      "lat": 47.32,
-      "lng": 8.045199999999994,
-      "severity": 2,
-      "location": "Zurich, Switzerland",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/sport/fifa-scraps-private-investment-plan-after-backlash-infantino-6292276",
-      "image": null,
-      "ts": 1785545213000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/sports/2026/7/31/fifa-forced-to-scrap-world-cup-private-investment-plan-after-backlash?traffic_source=rss"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/sport/fifa-scraps-private-investment-plan-after-backlash-infantino-6292276"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/sports/2167879"
-          }
-        ]
-      }
-    },
-    {
-      "id": "46321b219d80",
-      "title": "Trump doubles down on Iran threat",
-      "description": "US President Donald Trump has reiterated his threat to hit Iran 'very hard', raising the possibility of new strikes.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/3350e4d1-1568-494d-8567-0363d6ef427b?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1785540034000,
-      "coverage": {
-        "left": 2,
-        "center": 1,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/middle-east/us-thwarts-iranian-missile-attack-launches-strikes-saudi-arabia-rcna589773"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-kuwait-jordan-air-base/"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/3350e4d1-1568-494d-8567-0363d6ef427b?syn-25a6b1a6=1"
-          },
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2235027/donald-trump-launch-new-strike"
           }
         ]
       }
