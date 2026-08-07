@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-07T06:50:23.942559+00:00",
+  "updated": "2026-08-07T08:19:08.642751+00:00",
   "events": [
+    {
+      "id": "c8535e32b47f",
+      "title": "India and China discuss LAC situation and border management",
+      "description": "The two countries held diplomatic talks to discuss issues related to boundary delimitation and border management.",
+      "lat": 29.8,
+      "lng": 77.10000000000002,
+      "severity": 1,
+      "location": "New Delhi, India",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/national/india-china-discuss-lac-situation-and-border-management-during-diplomatic-talks-mea/article71316535.ece",
+      "image": "https://th-i.thgim.com/public/incoming/mbzzc8/article71316573.ece/alternates/LANDSCAPE_1200/iStock-2233033287.jpg",
+      "ts": 1786088491000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/national/india-china-discuss-lac-situation-and-border-management-during-diplomatic-talks-mea/article71316535.ece"
+          }
+        ]
+      }
+    },
     {
       "id": "a5d560580ba7",
       "title": "Thai school shooting",
@@ -436,6 +469,44 @@
       }
     },
     {
+      "id": "785ce407ff72",
+      "title": "Iran seeks to bar US and Israeli ships from Hormuz",
+      "description": "Iran aims to ban US and Israeli ships from crossing the Strait of Hormuz, according to Iranian media reports.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 2,
+      "location": "Strait of Hormuz",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcTFXYVB3UEVQVVIwMW5kX0s4V1dfdVZNd2hiRXlBSUVHREhwUTJwejdfeV9ueVBodXdPQ1dabVdZdms5QXFtNWFLZFpocjNCZzBYb2ZzM3lBQ29jeURGaDNUREl3NXk0Vk5OZW42RUl6MHEtS1h4SmhNYmhmWEozZzBhS3NvUFVIS0VXS0ZYUjhOdy03ajRMYg?oc=5",
+      "image": null,
+      "ts": 1786035337000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQV8zdjVQNEctTWh2cW83azhtc0w1NENNN0dTUjRkMnNwQ2J6TzdBZVJ3NFJwQTJHLTU0YU1lM2EtZTVZUmwzNFBCSzJBYXpkMlVzdnNUVmFQZWJtTUJfalVtMG5wTkFzeWhpMThDOFZ1QkVaSDFVeU00RVJHcmFnTS1YMA?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/videos/2026-08-07/daybreak-europe-8-7-2026-video"
+          }
+        ]
+      }
+    },
+    {
       "id": "f56c56d84bfe",
       "title": "Houthis carry out deadly attack in Yemen and hit Saudi territory",
       "description": "The Houthis have conducted a large-scale attack against forces from Yemen's Saudi-backed government, and struck the southwestern Saudi region of Najran.",
@@ -823,6 +894,64 @@
             "n": "The Hindu International",
             "b": "lean_left",
             "u": "https://www.thehindu.com/news/international/iran-threatens-to-hit-gulf-states-if-us-launches-new-strikes-west-asia-war/article71312656.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dfb57ea059cb",
+      "title": "Thailand school shooting",
+      "description": "A student killed his grandparents before opening fire at a school in Thailand, killing at least 6 people and injuring 15 others.",
+      "lat": 13.86,
+      "lng": 100.50999999999999,
+      "severity": 4,
+      "location": "Nonthaburi, Thailand",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/north-korea-ballistic-missile-test_n_6a7462d8e4b0a79b03a6f52a",
+      "image": null,
+      "ts": 1786012594000,
+      "coverage": {
+        "left": 4,
+        "center": 1,
+        "right": 1,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 4,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/07/world/asia/thailand-school-shooting.html"
+          },
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/asia/two-dead-gunman-school-shooting-thailand-officials-say-rcna591309"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/7/one-killed-four-injured-in-thailand-school-shooting-officials-say?traffic_source=rss"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/08/07/eight-dead-in-thailand-school-shooting-including-teen-suspect-s-grandparents_6756247_4.html"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/asia/2026/0807/1586874-thailand-school-shooting/"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/asia-pacific/6-killed-as-student-opens-fire-at-thai-high-school-reports"
           }
         ]
       }
@@ -7879,105 +8008,6 @@
             "n": "Mirror World",
             "b": "lean_left",
             "u": "https://www.mirror.co.uk/news/world-news/naples-earthquake-italy-landslide-magnitude-37501905"
-          }
-        ]
-      }
-    },
-    {
-      "id": "60e5c99f2885",
-      "title": "Spain migrant crisis",
-      "description": "Tens of thousands of migrants crossed into Spain's North African territory, with dozens killed and many returned to Morocco.",
-      "lat": 35.89,
-      "lng": -5.360000000000014,
-      "severity": 4,
-      "location": "Ceuta, Spain",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/live/2026/07/31/world/spain-ceuta-migrants-morocco",
-      "image": "https://static01.nyt.com/images/2026/07/31/multimedia/31eurpope-migrants-promo-330-hgkj/31eurpope-migrants-promo-330-hgkj-mediumSquareAt3X.jpg",
-      "ts": 1785531466000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/live/2026/07/31/world/spain-ceuta-migrants-morocco"
-          }
-        ]
-      }
-    },
-    {
-      "id": "763db4411da6",
-      "title": "Morocco's King Mohammed VI marks 27th anniversary",
-      "description": "Morocco's King Mohammed VI has marked the 27th anniversary of his accession to the throne, receiving congratulatory messages from world leaders.",
-      "lat": 33.99,
-      "lng": -6.85,
-      "severity": 1,
-      "location": "Rabat, Morocco",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/07/31/moroccos-king-mohammed-vi-marks-27th-anniversary-of-accession-to-throne/",
-      "image": "http://images.euronews.com/articles/stories/09/85/82/54/640x360_cmsv2_0bbd6262-afdf-50fb-baef-c791db525d69-9858254.jpg?1785517093",
-      "ts": 1785527434000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/07/31/moroccos-king-mohammed-vi-marks-27th-anniversary-of-accession-to-throne/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a985ef2abc0f",
-      "title": "South Korea and Argentina Agree to Enhance Cooperation on Critical Minerals",
-      "description": "South Korea and Argentina have agreed to enhance cooperation on critical minerals, in a bid to strengthen their economic ties.",
-      "lat": -33.5,
-      "lng": -56.4748,
-      "severity": 1,
-      "location": "Buenos Aires, Argentina",
-      "source": "Yonhap News",
-      "url": "https://en.yna.co.kr/view/AEN20260801000252315",
-      "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/01/AEN20260801000252315_03_i_P2.jpg",
-      "ts": 1785526084000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20260801000252315"
           }
         ]
       }
