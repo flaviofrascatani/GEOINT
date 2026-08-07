@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-08-07T22:08:42.460866+00:00",
+  "updated": "2026-08-07T23:08:52.358313+00:00",
   "events": [
     {
       "id": "5a77af0bf017",
@@ -79,6 +79,44 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/iceland-s-eu-vote-a-nation-divided-over-europe/a-78285133?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7d8b2690638d",
+      "title": "Spain to introduce temporary border checks on visitors from Italy",
+      "description": "Spain will introduce temporary border checks on visitors from Italy in response to Rome imposing similar measures after a mass migration rush to Ceuta.",
+      "lat": 40.42,
+      "lng": 3.7,
+      "severity": 3,
+      "location": "Madrid, Spain",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy",
+      "image": "https://e3.365dm.com/26/08/1920x1080/skynews-ceuta-spain-morocco_7316056.jpg?20260807130943",
+      "ts": 1786139078000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/in-tit-for-tat-move-spain-imposes-border-controls-for-italy-over-ceuta-crisis-11881614#publisher=newsstand"
           }
         ]
       }
@@ -581,44 +619,6 @@
             "n": "South China Morning Post",
             "b": "center",
             "u": "https://www.scmp.com/news/world/russia-central-asia/article/3363366/ukraines-zelensky-makes-first-visit-russia-friendly-serbia?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7d8b2690638d",
-      "title": "Spain and Italy row over border controls",
-      "description": "Spain has threatened to retaliate against Italy after Rome imposed border controls on Spanish visitors via air and sea",
-      "lat": 40.42,
-      "lng": 3.7,
-      "severity": 2,
-      "location": "Madrid, Spain",
-      "source": "Sky News World",
-      "url": "https://news.sky.com/story/spain-threatens-to-retaliate-after-italy-imposes-border-controls-following-ceuta-migrant-influx-13570668",
-      "image": "https://e3.365dm.com/26/08/1920x1080/skynews-ceuta-spain-morocco_7316056.jpg?20260807130943",
-      "ts": 1786103580000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/spain-threatens-to-retaliate-after-italy-imposes-border-controls-following-ceuta-migrant-influx-13570668"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/ceuta-spain-warns-italy-it-will-reciprocate-entry-checks/a-78282840?maca=en-rss-en-all-1573-rdf"
           }
         ]
       }
