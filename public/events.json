@@ -1,7 +1,55 @@
 {
   "schema": 1,
-  "updated": "2026-08-07T19:08:09.438358+00:00",
+  "updated": "2026-08-07T20:09:06.404976+00:00",
   "events": [
+    {
+      "id": "5a77af0bf017",
+      "title": "US expects deal to open Strait of Hormuz soon",
+      "description": "A US official has confirmed that progress is being made in talks to open the Strait of Hormuz, with a deal expected soon.",
+      "lat": 33.89,
+      "lng": 35.5,
+      "severity": 1,
+      "location": "Beirut, Lebanon",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-904874",
+      "image": "https://s.france24.com/media/display/33ca89d4-9011-11f1-bbd5-005056bfb2b6/w:1024/p:16x9/AP26216348535497.jpg",
+      "ts": 1786140952000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-deal/"
+          },
+          {
+            "n": "BBC Business",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/iran-news/article-904874"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/us-official-we-expect-deal-soon-between-iran-and-oman-strait-hormuz"
+          }
+        ]
+      }
+    },
     {
       "id": "a43874f96bac",
       "title": "Hezbollah’s attempts to wreck Beirut-Jerusalem talks failing",
@@ -31,6 +79,39 @@
             "n": "Jerusalem Post",
             "b": "center",
             "u": "https://www.jpost.com/middle-east/article-904870"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1a40ebcab287",
+      "title": "Colombia protests against De la Espriella's inauguration",
+      "description": "Protests have erupted in Colombia against the inauguration of De la Espriella, with sit-ins taking place in several cities.",
+      "lat": 3.42,
+      "lng": -76.52,
+      "severity": 3,
+      "location": "Cali, Colombia",
+      "source": "ANSA Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/07/colombia-proteste-dellopposizione-contro-linsediamento-di-de-la-espriella_1040048d-6a3d-4683-8ada-a0246a02df50.html",
+      "image": null,
+      "ts": 1786131856000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/07/colombia-proteste-dellopposizione-contro-linsediamento-di-de-la-espriella_1040048d-6a3d-4683-8ada-a0246a02df50.html"
           }
         ]
       }
@@ -274,6 +355,39 @@
       }
     },
     {
+      "id": "cc9e2f0a6ab6",
+      "title": "Spanish-led police raid smashes smuggling network",
+      "description": "A Spanish-led police operation has dismantled a major smuggling network involved in trafficking migrants, drugs, and weapons across the Western Mediterranean.",
+      "lat": 39.46,
+      "lng": 0.35,
+      "severity": 2,
+      "location": "Valencia, Spain",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/spanish-led-police-raid-smashes-vast-mediterranean-smuggling-135453661",
+      "image": "https://s.abcnews.com/images/International/wirestory_36adc86a30c6d07392345783656b430f_4x3_384.jpg",
+      "ts": 1786107945000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/spanish-led-police-raid-smashes-vast-mediterranean-smuggling-135453661"
+          }
+        ]
+      }
+    },
+    {
       "id": "5573381636e3",
       "title": "Trilateral Highway Project Gets Boost After Myanmar-Thailand Bilateral Talks",
       "description": "First conceptualised in 2002, the highway project is rooted in India's Act East policy to boost regional trade, tourism, and further economic activity through connectivity and integration with ASEAN.",
@@ -373,6 +487,44 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/ceuta-spain-warns-italy-it-will-reciprocate-entry-checks/a-78282840?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f645f54e9d21",
+      "title": "Spain announces new border controls with Italy",
+      "description": "Spain is to impose new border controls for flights and ships from Italy due to a row over the influx of migrants into Ceuta.",
+      "lat": 37.63,
+      "lng": -6.27000000000001,
+      "severity": 2,
+      "location": "Ceuta, Spain",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/spain-threatens-to-retaliate-after-italy-imposes-border-controls-following-ceuta-migrant-influx-13570668",
+      "image": "https://e3.365dm.com/26/08/1920x1080/skynews-ceuta-spain-morocco_7316056.jpg?20260807130943",
+      "ts": 1786103580000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/spain-threatens-to-retaliate-after-italy-imposes-border-controls-following-ceuta-migrant-influx-13570668"
           }
         ]
       }
@@ -3271,79 +3423,6 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/world/2169385"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5a77af0bf017",
-      "title": "Iran and US Hold Talks on Strait of Hormuz",
-      "description": "Iran and the US are holding talks on the Strait of Hormuz, with Iran saying it is in discussions with Oman over a temporary safe route through the strait.",
-      "lat": 33.89,
-      "lng": 35.5,
-      "severity": 2,
-      "location": "Beirut, Lebanon",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss",
-      "image": "https://s.france24.com/media/display/33ca89d4-9011-11f1-bbd5-005056bfb2b6/w:1024/p:16x9/AP26216348535497.jpg",
-      "ts": 1785901470000,
-      "coverage": {
-        "left": 6,
-        "center": 3,
-        "right": 0,
-        "total": 9,
-        "buckets": {
-          "left": 0,
-          "lean_left": 6,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/03/world/middleeast/iran-talks-us-oman-strait-hormuz-trump.html"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/iran/trump-iran-talks-attacks-canceled-hormuz-nuclear-rcna590535"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-us-denies-negotiations-begin-strikes-called-off/"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/lebanon-israel-hold-new-round-of-direct-talks-in-rome-11866775#publisher=newsstand"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/iran-usa-hormuz-deal-war-37514714"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/economy/2026/8/5/us-stock-market-hits-record-high-amid-hopes-for-strait-of-hormuz-reopening?traffic_source=rss"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/05/us-iran-war-trump-hormuz-bessent-iran-deal-close.html"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-04/qatar-signals-progress-toward-short-term-deal-between-us-iran"
           }
         ]
       }
@@ -7859,120 +7938,6 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/iran-warns-neighbors-against-being-us-defensive-shield/live-78201442?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f32967146dda",
-      "title": "Fighting erupts in Ethiopia's Tigray",
-      "description": "Clashes occurred between Tigray's TPLF and the Ethiopian federal army in a contested area of the northern region.",
-      "lat": 14.17,
-      "lng": 38.72,
-      "severity": 3,
-      "location": "Tigray, Ethiopia",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/africa-fighting-erupts-in-ethiopia-s-tigray",
-      "image": "https://s.france24.com/media/display/649d525a-8d9e-11f1-a18b-005056bfb2b6/w:1024/p:16x9/EN-20260801-132255-132718-CS.jpg",
-      "ts": 1785585121000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/africa-fighting-erupts-in-ethiopia-s-tigray"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c7231b01ed1f",
-      "title": "Gor calls on Bangladesh to join Pax Silica initiative",
-      "description": "Sergio Gor invited Bangladesh to join the global economic security alliance focused on critical minerals, energy, semiconductors, and artificial intelligence.",
-      "lat": 24.89,
-      "lng": 92.3152,
-      "severity": 2,
-      "location": "Dhaka, Bangladesh",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/gor-calls-on-bangladesh-to-join-pax-silica-initiative/article71294308.ece",
-      "image": "https://th-i.thgim.com/public/incoming/huhh6o/article71294376.ece/alternates/LANDSCAPE_1200/20260529107L.jpg",
-      "ts": 1785584066000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/gor-calls-on-bangladesh-to-join-pax-silica-initiative/article71294308.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ced7ea6c26b1",
-      "title": "Russian Missiles Kill 9 in Kyiv After Trump Backs Off Air-Defense Pledge",
-      "description": "Russian missiles killed 9 people in Kyiv after President Trump backed away from his promise to let Ukraine produce Patriot missile interceptors.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 4,
-      "location": "Kyiv, Ukraine",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/08/01/world/europe/ukraine-russia-attack-missiles-patriot.html",
-      "image": "https://static01.nyt.com/images/2026/08/01/multimedia/01int-ukraine-attack-ljbp/01int-ukraine-attack-ljbp-mediumSquareAt3X.jpg",
-      "ts": 1785583445000,
-      "coverage": {
-        "left": 2,
-        "center": 2,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/01/world/europe/ukraine-russia-attack-missiles-patriot.html"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/08/01/russian-strikes-on-kyiv-kill-four-wound-more-than-a-dozen_6756054_4.html"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/2026/0801/1586086-russian-strikes/"
           }
         ]
       }
