@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-08-07T13:52:34.551564+00:00",
+  "updated": "2026-08-07T15:02:02.040129+00:00",
   "events": [
+    {
+      "id": "5d18adc624ff",
+      "title": "US economy unexpectedly sheds 23,000 jobs in July",
+      "description": "Lacklustre figure prompts traders to scale back bets on Fed rate rises",
+      "lat": 38.9,
+      "lng": -77.02,
+      "severity": 4,
+      "location": "Washington D.C., USA",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/54adfc90-f555-44d3-8a81-4f39a07b5473?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1786109925000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/54adfc90-f555-44d3-8a81-4f39a07b5473?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5573381636e3",
+      "title": "Trilateral Highway Project Gets Boost After Myanmar-Thailand Bilateral Talks",
+      "description": "First conceptualised in 2002, the highway project is rooted in India's Act East policy to boost regional trade, tourism, and further economic activity through connectivity and integration with ASEAN.",
+      "lat": 17.88,
+      "lng": 98.05520000000001,
+      "severity": 1,
+      "location": "Naypyidaw, Myanmar",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/india-myanmar-thailand-highway-project-gains-momentum-after-bilateral-talks-11879835#publisher=newsstand",
+      "image": "https://i.ndtvimg.com/i/2016-05/india-myanmar-thailand-highway_650x400_61464005237.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1786107729000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/india-myanmar-thailand-highway-project-gains-momentum-after-bilateral-talks-11879835#publisher=newsstand"
+          }
+        ]
+      }
+    },
     {
       "id": "d26be5abf36f",
       "title": "Pope to meet clergy abuse victims in France",
@@ -31,6 +97,44 @@
             "n": "France 24",
             "b": "center",
             "u": "https://www.france24.com/en/france/20260807-pope-leo-meet-clergy-abuse-victims-during-upcoming-france-visit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7d8b2690638d",
+      "title": "Spain and Italy row over border controls following Morocco migrant influx",
+      "description": "Spain has threatened to retaliate against Italy after Rome imposed border controls ​on Spanish visitors via air and sea following last week's influx of migrants ​into the ⁠North African ⁠enclave of Ceuta.",
+      "lat": 40.42,
+      "lng": 3.7,
+      "severity": 3,
+      "location": "Madrid, Spain",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/spain-threatens-to-retaliate-after-italy-imposes-border-controls-following-ceuta-migrant-influx-13570668",
+      "image": "https://e3.365dm.com/26/08/1920x1080/skynews-ceuta-spain-morocco_7316056.jpg?20260807130943",
+      "ts": 1786103580000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/spain-threatens-to-retaliate-after-italy-imposes-border-controls-following-ceuta-migrant-influx-13570668"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-07/spain-threatens-to-retaliate-against-italy-over-migration-curbs"
           }
         ]
       }
@@ -7879,135 +7983,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/europe/spain-erects-floating-barrier-in-ceuta-after-deadly-border-rush"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0322231518ac",
-      "title": "Russia hits Ukrainian capital",
-      "description": "Russia launched a barrage of ballistic missiles and drones into Kyiv, killing at least nine people and injuring 22.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 4,
-      "location": "Kyiv, Ukraine",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/russia-hits-ukrainian-capital-ballistic-missiles-drones-killing-135279886",
-      "image": "https://s.abcnews.com/images/International/wirestory_eb62397d10bca2d6db4269a3bcfc9dc6_4x3_384.jpg",
-      "ts": 1785567432000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/russia-hits-ukrainian-capital-ballistic-missiles-drones-killing-135279886"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-01/russia-hits-kyiv-with-horrific-missile-barrage-killing-nine"
-          }
-        ]
-      }
-    },
-    {
-      "id": "958fe71858e1",
-      "title": "Humanitarian aid delivered to Venezuela",
-      "description": "A Russian company has delivered humanitarian aid to Venezuela's La Guaira state.",
-      "lat": 10.23,
-      "lng": -67.93,
-      "severity": 1,
-      "location": "La Guaira, Venezuela",
-      "source": "TASS",
-      "url": "https://tass.com/society/2167907",
-      "image": null,
-      "ts": 1785559690000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/society/2167907"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3aa90702e6ff",
-      "title": "Russian strikes on Kyiv",
-      "description": "Russian strikes on Ukraine's capital killed at least nine people and wounded more than two dozen others.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 4,
-      "location": "Kyiv, Ukraine",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/russian-strikes-kyiv-ukraine-fatalities-injuries/",
-      "image": null,
-      "ts": 1785559541000,
-      "coverage": {
-        "left": 3,
-        "center": 3,
-        "right": 0,
-        "total": 6,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/russian-strikes-kyiv-ukraine-fatalities-injuries/"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/1/russian-missile-attack-kills-three-in-ukraines-kyiv?traffic_source=rss"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/08/01/russian-strikes-on-kyiv-kill-four-wound-more-than-a-dozen_6756054_4.html"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/2026/0801/1586086-russian-strikes/"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/ukraine-russia-hits-kyiv-with-deadly-missile-strikes/a-78198568?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORXV2dkxDX25CSFZ4RVpvYVdYWXIzOTJmNnBNVlNteTV4dTd3akFzLTUzek9Hdm5FSDdYRjNnSDM3eTFnSDNaX2oyMFdGRTgzZnZ5XzRVVzBKbGNaQkVxOHZPUFZSNFVoVmphdkVYeEtGTTFKME51dlRsRUJ4YkZJbXVKU1d5bFoyUng3WHNGMHVYVXdFdkHSAZsBQVVfeXFMUDZ0SF9oTDlZaHdWci1Ya0M1d04yelNJZ2U2NXlEaVVpSXF4TDRVU0JRTUFHVUNFS2syRENvQWdfWXdJckdPNEFpNmx6R2dSWUN2QjltLTViVllnMWNPQVAzbGRTZmhMY2xBNmpJa0U0NmJXSkY3M01ZdnFMYkhvWnhzNTFsaHRCRVpRZmR3YzZyV0JJTkxBbTNRSW8?oc=5"
           }
         ]
       }
