@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-08-08T03:52:15.449807+00:00",
+  "updated": "2026-08-08T05:06:40.688911+00:00",
   "events": [
+    {
+      "id": "86f925563e65",
+      "title": "Crisis-hit Cuba opens pharmacies, gas stations to private firms",
+      "description": "Prime Minister Manuel Marrero said the first foreign investment project for the importation, distribution and marketing of fuel has been approved.",
+      "lat": 24.23,
+      "lng": -82.38,
+      "severity": 1,
+      "location": "Havana, Cuba",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/crisis-hit-cuba-opens-pharmacies-gas-stations-to-private-firms/article71287621.ece",
+      "image": "https://th-i.thgim.com/public/incoming/fgzs24/article71287635.ece/alternates/LANDSCAPE_1200/Cuba_Daily_Life_12713.jpg",
+      "ts": 1786163918000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/crisis-hit-cuba-opens-pharmacies-gas-stations-to-private-firms/article71287621.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e8e077357185",
+      "title": "Child among three killed in Russian missile attacks near Kyiv",
+      "description": "Russia continued its overnight attacks after President Volodymyr Zelensky warned of Ukraine's dwindling supplies of missile interceptors.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 4,
+      "location": "Kyiv, Ukraine",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f243/live/91487a70-92dd-11f1-87f4-4f87722fb492.jpg",
+      "ts": 1786163013000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "b4a3bc27d06a",
       "title": "EU aims for seven AI gigafactories with €10 billion plan",
@@ -261,6 +327,44 @@
             "n": "Times of India World",
             "b": "center",
             "u": "https://timesofindia.indiatimes.com/world/europe/sanchez-vs-meloni-spain-imposes-italy-border-checks-as-ceuta-migrant-row-escalates/articleshow/133045024.cms"
+          }
+        ]
+      }
+    },
+    {
+      "id": "866ccffe9562",
+      "title": "Spain to introduce temporary border checks on visitors from Italy",
+      "description": "The move comes in response to Rome imposing similar measures after a mass migration rush to Ceuta.",
+      "lat": 40.42,
+      "lng": -3.71,
+      "severity": 3,
+      "location": "Madrid, Spain",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy",
+      "image": null,
+      "ts": 1786139078000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/in-tit-for-tat-move-spain-imposes-border-controls-for-italy-over-ceuta-crisis-11881614#publisher=newsstand"
           }
         ]
       }
@@ -7829,105 +7933,6 @@
             "n": "New York Times World",
             "b": "lean_left",
             "u": "https://www.nytimes.com/2026/08/01/world/middleeast/iran-proxies-war-oil.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5e32c384edd7",
-      "title": "EU to hold emergency interior ministers’ videoconference on Ceuta",
-      "description": "The EU will hold an emergency interior ministers’ videoconference on Ceuta on August 4, after the mass crossing of migrants into the Spanish enclave.",
-      "lat": 51.95,
-      "lng": 4.349999999999994,
-      "severity": 3,
-      "location": "Brussels, Belgium",
-      "source": "TASS",
-      "url": "https://tass.com/world/2168009",
-      "image": null,
-      "ts": 1785601455000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2168009"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ce9d405e6d7e",
-      "title": "Israel and Serbia deepen defense ties",
-      "description": "Serbia becomes one of Israel's closest allies in Europe as defense ties deepen",
-      "lat": 44.82,
-      "lng": 20.46,
-      "severity": 2,
-      "location": "Belgrade, Serbia",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/international/article-904177",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_448,w_632/732186",
-      "ts": 1785597981000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/international/article-904177"
-          }
-        ]
-      }
-    },
-    {
-      "id": "af3e2e68265c",
-      "title": "Iceland seizes Paul Watson Foundation's anti-whaling ship and detains its crew",
-      "description": "Iceland has seized an anti-whaling ship and detained its crew after a whaling ship requested assistance, claiming a threat from the protest vessel.",
-      "lat": 64.08,
-      "lng": -21.93,
-      "severity": 3,
-      "location": "Reykjavik, Iceland",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/iceland-seizes-paul-watson-foundations-anti-whaling-ship-135283766",
-      "image": "https://s.abcnews.com/images/International/wirestory_80064e2df900ed79f916608bd3780002_4x3_384.jpg",
-      "ts": 1785594850000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/iceland-seizes-paul-watson-foundations-anti-whaling-ship-135283766"
           }
         ]
       }
