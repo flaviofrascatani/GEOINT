@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-08-08T08:53:06.684982+00:00",
+  "updated": "2026-08-08T09:47:55.271458+00:00",
   "events": [
+    {
+      "id": "348bb3df987a",
+      "title": "Spain reinstates border controls on Italy",
+      "description": "Spain has reinstated border controls on Italy due to rising tensions over migrants, widening the rift between the two countries.",
+      "lat": 41.56,
+      "lng": 3.4799999999999898,
+      "severity": 3,
+      "location": "Madrid, Spain",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/f3050d94-6b78-4cf2-8b07-cf8903aacc7f?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1786182312000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/f3050d94-6b78-4cf2-8b07-cf8903aacc7f?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a0fa0a9d15ee",
+      "title": "India’s High Commissioner to Bangladesh meets U.S. Ambassador to India in Dhaka",
+      "description": "In a first, India’s High Commissioner to Bangladesh has met the U.S. Ambassador to India in Dhaka, marking a significant diplomatic development.",
+      "lat": 24.91,
+      "lng": 90.42000000000002,
+      "severity": 1,
+      "location": "Dhaka, Bangladesh",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/national/in-a-first-indias-high-commissioner-to-bangladesh-meets-us-ambassador-to-india-in-dhaka/article71291620.ece",
+      "image": "https://th-i.thgim.com/public/incoming/9c7dpk/article71292068.ece/alternates/LANDSCAPE_1200/HLqjHbFXUAAKpFO.jpg",
+      "ts": 1786180715000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/national/in-a-first-indias-high-commissioner-to-bangladesh-meets-us-ambassador-to-india-in-dhaka/article71291620.ece"
+          }
+        ]
+      }
+    },
     {
       "id": "58ce9d0cc86f",
       "title": "At least 34 killed in Pakistan coal mine blast",
@@ -7882,92 +7948,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/08/gaza-officials-say-israeli-strikes-kill-seven-day-after-deal"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1d48a482a586",
-      "title": "Gaza officials say Israeli strikes kill seven",
-      "description": "Gaza authorities said that seven people were killed in Israeli strikes that also damaged a hospital's medical supplies, a day after Hamas said it agreed to the latest stage of a deal to end the conflict.",
-      "lat": 31.51,
-      "lng": 34.46000000000001,
-      "severity": 4,
-      "location": "Gaza, Palestine",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/08/gaza-officials-say-israeli-strikes-kill-seven-day-after-deal",
-      "image": null,
-      "ts": 1785612636000,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/israeli-strikes-in-gaza-medical-supply-warehouses-hit/article71295680.ece"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/middle-east/2026/0801/1586125-gaza-israel-strikes/"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/gaza-officials-say-israeli-strikes-kill-seven-day-after-deal"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/israeli-strike-leaves-huge-crater-at-gaza-hospital-amid-uncertainty-over-trump-plan/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7b9858afbbad",
-      "title": "EU to Hold Urgent Meeting of Interior Ministers on Tuesday Over Ceuta Crisis",
-      "description": "The EU is to hold an urgent meeting of interior ministers on Tuesday amid continued divisions in the bloc over the mass crossing of migrants into Spanish territory in north Africa.",
-      "lat": 51.95,
-      "lng": 6.255200000000002,
-      "severity": 3,
-      "location": "Brussels, Belgium",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing",
-      "image": null,
-      "ts": 1785611019000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing"
-          },
-          {
-            "n": "All Africa",
-            "b": "center",
-            "u": "https://allafrica.com/stories/202608030661.html"
           }
         ]
       }
