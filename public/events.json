@@ -1,7 +1,45 @@
 {
   "schema": 1,
-  "updated": "2026-08-08T20:40:26.801136+00:00",
+  "updated": "2026-08-08T21:38:43.803794+00:00",
   "events": [
+    {
+      "id": "173a76a24124",
+      "title": "China Accused of Using 'Dubious' Pretexts to Press Territorial Claims",
+      "description": "The US accused China of using 'dubious' pretexts to press its disputed territorial claims in the South China Sea",
+      "lat": 22.28,
+      "lng": 114.17,
+      "severity": 2,
+      "location": "Beijing, China",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-08/us-says-china-s-scarborough-shoal-claim-destabilizing-region",
+      "image": null,
+      "ts": 1786217968000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-08/us-says-china-s-scarborough-shoal-claim-destabilizing-region"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/dubious-pretexts-us-slams-chinese-actions-in-south-china-sea"
+          }
+        ]
+      }
+    },
     {
       "id": "f377880fc4d2",
       "title": "One year on, US-brokered peace between Armenia and Azerbaijan cements US foothold in the Caucasus",
@@ -431,6 +469,39 @@
             "n": "New York Times World",
             "b": "lean_left",
             "u": "https://www.nytimes.com/2026/08/08/world/middleeast/yemen-houthis-regional-stability.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "81f3442e840a",
+      "title": "Nigeria's Largest Rescue Operation Frees 308 Hostages",
+      "description": "Nigerian authorities freed 308 hostages held by militants in Kwara State",
+      "lat": 8.52,
+      "lng": 4.53,
+      "severity": 4,
+      "location": "Kwara State, Nigeria",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/nigerias-largest-rescue-operation-frees-308-hostages-held-militants-kwara-state",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/08/931/523/Hauwa_Saliu.jpg?ve=1&tl=1",
+      "ts": 1786199618000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/nigerias-largest-rescue-operation-frees-308-hostages-held-militants-kwara-state"
           }
         ]
       }
@@ -2293,11 +2364,11 @@
     },
     {
       "id": "6392d716168e",
-      "title": "Uganda Soccer Star Killed In Attack Near His Home",
-      "description": "Uganda international and SC Villa captain David Owori died after being attacked near his home in the capital city of Kampala.",
+      "title": "Ugandan Footballer Killed in Attack",
+      "description": "Ugandan footballer David Owori was killed by robbers armed with paving stones",
       "lat": 1.41,
       "lng": 32.56999999999999,
-      "severity": 4,
+      "severity": 3,
       "location": "Kampala, Uganda",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/uganda-soccer-star-killed_n_6a75a954e4b04fcbf74e52a7",
@@ -7862,77 +7933,6 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/world/2168179"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4e40fe022e2a",
-      "title": "Greece firefighting helicopters collide in mid-air",
-      "description": "Two helicopters collided and crashed while fighting a wildfire west of Athens, resulting in the death of two people.",
-      "lat": 37.97,
-      "lng": 23.72,
-      "severity": 3,
-      "location": "Athens, Greece",
-      "source": "Mirror World",
-      "url": "https://www.mirror.co.uk/news/world-news/two-helicopters-collide-wildfires-greece-37505494",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37505490.ece/ALTERNATES/s615/0_TOPSHOT-GREECE-ENVIRONMENT-CLIMATE-WEATHER-WILDFIRE.jpg",
-      "ts": 1785679779000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/french-wildfire-bordeaux-contained-1500-firefighters-battle-separate-135302556"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/two-helicopters-collide-wildfires-greece-37505494"
-          }
-        ]
-      }
-    },
-    {
-      "id": "acc837318bb6",
-      "title": "ASEAN promotes dialogue and diplomacy",
-      "description": "The Association of Southeast Asian Nations (ASEAN) is one of the few places where serious diplomacy still happens, with powers choosing dialogue over conflict.",
-      "lat": 14.58,
-      "lng": 100.99,
-      "severity": 1,
-      "location": "Bangkok, Thailand",
-      "source": "RT News",
-      "url": "https://www.rt.com/news/643671-asean-diplomacy-still-happens/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.07/thumbnail/6a6b667c20302762cc5441d5.jpg",
-      "ts": 1785671258000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/643671-asean-diplomacy-still-happens/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
           }
         ]
       }
