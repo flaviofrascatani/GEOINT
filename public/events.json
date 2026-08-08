@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-08-08T16:44:30.972193+00:00",
+  "updated": "2026-08-08T17:38:54.148787+00:00",
   "events": [
+    {
+      "id": "0ddc8d841d75",
+      "title": "Thousands attend Prague Pride parade",
+      "description": "Thousands of people attended the Prague Pride parade, which was accompanied by enhanced security measures.",
+      "lat": 50.08,
+      "lng": 14.42,
+      "severity": 1,
+      "location": "Prague, Czech Republic",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/thousands-attend-prague-pride-parade/a-78290467?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1786210733994,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/thousands-attend-prague-pride-parade/a-78290467?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "15aed7c31123",
+      "title": "Iran says strait won't open until the U.S. 'corrects' behavior",
+      "description": "Iran's Supreme National Security Council said the Strait of Hormuz will not open until the United States 'corrects its behavior'.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 2,
+      "location": "Strait of Hormuz, Iran",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/",
+      "image": null,
+      "ts": 1786209560000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/iran-israel-middle-east-houthis-yemen-what-will-it-take-to-open-strait-of-hormuz-iran-issues-list-of-demands-11884369#publisher=newsstand"
+          }
+        ]
+      }
+    },
     {
       "id": "7232f08b5593",
       "title": "Drone explodes between Bulgaria and Romania",
@@ -46,6 +112,44 @@
             "n": "AGI Estero",
             "b": "center",
             "u": "https://www.agi.it/estero/news/2026-08-08/drone-bulgaria-38451676/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d32bc4a6afb0",
+      "title": "Pakistan invites Iranian FM Araghchi for talks amid renewed U.S.-Iran tensions",
+      "description": "Pakistan has invited Iranian Foreign Minister Hossein Amirabdollahian for talks amid renewed U.S.-Iran tensions.",
+      "lat": 34.82,
+      "lng": 74.95519999999999,
+      "severity": 2,
+      "location": "Islamabad, Pakistan",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/pakistan-invites-iranian-fm-araghchi-for-talks-amid-renewed-us-iran-tensions/article71304954.ece",
+      "image": "https://th-i.thgim.com/public/incoming/yij6rw/article71305034.ece/alternates/LANDSCAPE_1200/PTI05_15_2026_000155B.jpg",
+      "ts": 1786206341000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/pakistan-invites-iranian-fm-araghchi-for-talks-amid-renewed-us-iran-tensions/article71304954.ece"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/gen-keane-questions-whether-pakistan-saudi-arabia-qatar-trusted-iran-talks"
           }
         ]
       }
@@ -2090,11 +2194,11 @@
     },
     {
       "id": "6392d716168e",
-      "title": "Ugandan footballer killed by robbers",
-      "description": "Ugandan international and SC Villa captain David Owori died after being attacked near his home in the capital city of Kampala",
+      "title": "Uganda Soccer Star Killed In Attack Near His Home",
+      "description": "Uganda international and SC Villa captain David Owori died after being attacked near his home in the capital city of Kampala.",
       "lat": 1.41,
       "lng": 32.56999999999999,
-      "severity": 3,
+      "severity": 4,
       "location": "Kampala, Uganda",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/uganda-soccer-star-killed_n_6a75a954e4b04fcbf74e52a7",
@@ -7864,205 +7968,6 @@
             "n": "CBS News World",
             "b": "lean_left",
             "u": "https://www.cbsnews.com/news/explosion-moscow-restaurant-fatalities-injuries/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a8a3bf1f89a2",
-      "title": "Spain installs sea barrier on Ceuta's border with Morocco after frontier rush that killed 67",
-      "description": "Spain installed a 500-meter-long barrier on Saturday in response to the tens of thousands of migrants who had suddenly rushed en masse to the country's North African territory earlier in the week",
-      "lat": 35.888,
-      "lng": -5.3659999999999854,
-      "severity": 3,
-      "location": "Ceuta, Spain",
-      "source": "Le Monde English",
-      "url": "https://www.lemonde.fr/en/international/article/2026/08/02/spain-installs-sea-barrier-on-ceuta-s-border-with-morocco-after-frontier-rush-that-killed-67_6756077_4.html",
-      "image": "https://img.lemde.fr/2026/08/02/500/0/6000/3000/644/322/60/0/1e5b14a_ftp-1-qu5dcxnsxjrh-2026-08-02t032946z-138855051-rc2vpma8ilfl-rtrmadp-3-migration-europe-spain-ceuta.JPG",
-      "ts": 1785641951000,
-      "coverage": {
-        "left": 4,
-        "center": 2,
-        "right": 1,
-        "total": 7,
-        "buckets": {
-          "left": 0,
-          "lean_left": 4,
-          "center": 2,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/death-toll-spain-morocco-border-crisis-ceuta-reaches-135282467"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/video/why-did-a-wave-of-migrants-cross-from-morocco-into-spains-ceuta-territory/"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/spain-ceuta-morocco-migrants-army-37502961"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/08/02/spain-installs-sea-barrier-on-ceuta-s-border-with-morocco-after-frontier-rush-that-killed-67_6756077_4.html"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/europe/20260801-spain-installs-floating-barrier-in-ceuta-after-migration-influx"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTzdtaDJZaWxwWXdCU2ZFdGktck10WUNJNndTOHhfelE2Z2FxcnlveklNOEJtVlBoVnAta0FKQmY0dHlNM1kyTjItSDRkcGV1dDVLeUwxZ1VrNktPQ2JGbW1MemNMSm5CNmxDZ0pfbklES0lGQ0RDN2pUN1RtVzl0OVZqcnpfaVRqd3ZhTDhBVFIzbXBJNzg5M0huSlJGMDdWcE1fQlZyV1h5WHZkaWhRQVhFeHpqZw?oc=5"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/africa/deadly-rush-to-spains-ceuta-exposes-desperation-of-moroccos-young"
-          }
-        ]
-      }
-    },
-    {
-      "id": "408d2d368e46",
-      "title": "OPEC+ boosts September production by 188,000 barrels/day",
-      "description": "Saudi Arabia, Russia and five other key members of OPEC+ agreed to boost oil production by 188,000 barrels a day from September.",
-      "lat": 24.71,
-      "lng": 46.67,
-      "severity": 2,
-      "location": "Riyadh, Saudi Arabia",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/08/opec-boosts-september-production-188000-barrelsday",
-      "image": null,
-      "ts": 1785641439000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 2,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 2,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/opec-boosts-september-production-188000-barrelsday"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/emergencies/2168137"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/business/energy/opec-boosts-september-oil-output-future-pause-foreseen"
-          }
-        ]
-      }
-    },
-    {
-      "id": "be6df97ec5ce",
-      "title": "Trump cancels Iran attack",
-      "description": "US President Donald Trump announced that he will cancel a pending attack on Iran after a rough framework of a peace deal had been reached.",
-      "lat": 16.89,
-      "lng": 42.63,
-      "severity": 2,
-      "location": "Jizan, Saudi Arabia",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-kuwait-jordan-air-base/",
-      "image": "https://www.rte.ie/images/0024be61-800.jpg",
-      "ts": 1785641227000,
-      "coverage": {
-        "left": 3,
-        "center": 7,
-        "right": 3,
-        "total": 13,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 7,
-          "lean_right": 2,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-kuwait-jordan-air-base/"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/trump-to-hold-off-new-strikes-on-iran-says-for-future-benefit-of-world-11854541#publisher=newsstand"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/liveblog/2026/8/2/iran-war-live-tehran-warns-of-decisive-response-to-any-us-aggression?traffic_source=rss"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/08/02/trump-iran-attack-cancelled"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/china-sent-iran-shoulder-fired-missiles-land-after-xi-denied-it-trump-3805981"
-          },
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/homenews/sunday-talk-shows/6003978-blanche-attorney-general-nomination-hurdles-sunday-preview/"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/iran-news/article-904286"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd0FsRGVyTmhKN1lFZHVkMkdsREEzZkVqTWJHMDVkOE9mbXdmNklBQjFXUllKU2t5anpDbGhQdVdRRU9rWWxzSmhvV2ZoS09GRFc4Znk1QXlSMkYzbHFfd0VRb0Vuang0MTUwOE5BUGszb1gwTTVrNnZmVU1KWmxBNjZxZEpkSW9pU0ZRWllOc1pHcm5lOWJmYWIyc1JqT2tsYkdjcW1PTnhDbENlUktjWXJ4eEpnUEVZQTd4SXVR?oc=5"
-          },
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/08/02/world/trump-cancels-iran-attacks/"
-          },
-          {
-            "n": "New York Post",
-            "b": "lean_right",
-            "u": "https://nypost.com/2026/08/01/us-news/trump-says-iran-agreed-to-perimeters-of-a-peace-deal-cancels-planned-us-attack/"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2168065"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/trump-retaliates-after-iran-attack-expert-warns-regime-growing-more-dangerous"
           }
         ]
       }
