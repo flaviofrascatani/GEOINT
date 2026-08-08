@@ -1,7 +1,50 @@
 {
   "schema": 1,
-  "updated": "2026-08-08T05:52:32.009966+00:00",
+  "updated": "2026-08-08T07:06:13.332445+00:00",
   "events": [
+    {
+      "id": "de7a5aa5675d",
+      "title": "Typhoon Dolphin hits Japan",
+      "description": "A typhoon is lashing Japan's south, causing injuries and blackouts, and is now headed for China, where ports have been closed in preparation.",
+      "lat": 35.68,
+      "lng": 139.76,
+      "severity": 3,
+      "location": "Tokyo, Japan",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/typhoon-dolphin-hits-japan-as-china-braces-for-coming-storm/a-78286728?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1786172773227,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/airport-closes-okinawa-typhoon-dolphin-hits-parts-southern-135447346"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/typhoon-dolphin-hits-japan-as-china-braces-for-coming-storm/a-78286728?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/east-asia/typhoon-dolphin-hits-japans-okinawa-china-shuts-ports-ahead-of-landfall"
+          }
+        ]
+      }
+    },
     {
       "id": "86f925563e65",
       "title": "Crisis-hit Cuba opens pharmacies, gas stations to private firms",
@@ -7900,39 +7943,6 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/news/2026/8/1/turkiye-and-iraq-sign-one-year-oil-pipeline-deal-amid-global-shift?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "51a629cca87f",
-      "title": "Iran plotted wider war with help of its proxies",
-      "description": "During a fleeting truce, Iranians covertly devised a plan to raise the war’s costs for President Trump if U.S. forces attacked anew.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/08/01/world/middleeast/iran-proxies-war-oil.html",
-      "image": "https://static01.nyt.com/images/2026/08/02/multimedia/02int-Iran-Proxies-wkpm/02int-Iran-Proxies-wkpm-mediumSquareAt3X.jpg",
-      "ts": 1785602554000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/01/world/middleeast/iran-proxies-war-oil.html"
           }
         ]
       }
