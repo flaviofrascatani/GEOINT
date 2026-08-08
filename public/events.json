@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-08-08T21:38:43.803794+00:00",
+  "updated": "2026-08-08T22:38:13.829339+00:00",
   "events": [
+    {
+      "id": "15aed7c31123",
+      "title": "Iran says strait won't open until US 'corrects' behavior",
+      "description": "Iran has said that the Strait of Hormuz will not be reopened until the US 'corrects' its behavior, amid ongoing tensions between the two countries.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 3,
+      "location": "Strait of Hormuz, Iran",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/",
+      "image": null,
+      "ts": 1786228479000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "06885a536898",
+      "title": "Iran issues list of demands to US",
+      "description": "Iran has issued a list of demands to the US, including compensation and the lifting of sanctions, in order to reopen the Strait of Hormuz.",
+      "lat": 35.6892,
+      "lng": 51.38900000000001,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/08/08/iran-says-deal-with-oman-is-close-its-demands-leave-hormuz-opening-uncertain/",
+      "image": null,
+      "ts": 1786223860000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/08/08/iran-says-deal-with-oman-is-close-its-demands-leave-hormuz-opening-uncertain/"
+          }
+        ]
+      }
+    },
     {
       "id": "173a76a24124",
       "title": "China Accused of Using 'Dubious' Pretexts to Press Territorial Claims",
@@ -102,39 +168,6 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/thousands-attend-prague-pride-parade/a-78290467?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "15aed7c31123",
-      "title": "Iran says strait won't open until the U.S. 'corrects' behavior",
-      "description": "Iran's Supreme National Security Council said the Strait of Hormuz will not open until the United States 'corrects its behavior'.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 2,
-      "location": "Strait of Hormuz, Iran",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/",
-      "image": null,
-      "ts": 1786209560000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/iran-israel-middle-east-houthis-yemen-what-will-it-take-to-open-strait-of-hormuz-iran-issues-list-of-demands-11884369#publisher=newsstand"
           }
         ]
       }
@@ -1144,6 +1177,39 @@
       }
     },
     {
+      "id": "26b3690a351c",
+      "title": "Abelardo de la Espriella sworn in as President of Colombia",
+      "description": "Abelardo de la Espriella has been sworn in as the President of Colombia, marking a new era for the country.",
+      "lat": 5.71,
+      "lng": -74.08,
+      "severity": 1,
+      "location": "Bogota, Colombia",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/08/08/de-la-espriella-sworn-in-before-congress-in-cali-delivers-first-speech-to-the-military?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": null,
+      "ts": 1786175520000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/08/08/de-la-espriella-sworn-in-before-congress-in-cali-delivers-first-speech-to-the-military?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
       "id": "de7a5aa5675d",
       "title": "Typhoon Dolphin hits Japan",
       "description": "A typhoon is lashing Japan's south, causing injuries and blackouts, and is now headed for China, where ports have been closed in preparation.",
@@ -1524,39 +1590,6 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/iceland-s-eu-vote-a-nation-divided-over-europe/a-78285133?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "26b3690a351c",
-      "title": "Colombia’s De la Espriella Takes Power, Vows Crime Crackdown",
-      "description": "Abelardo de la Espriella was sworn in as Colombia’s president, marking the start of a conservative government.",
-      "lat": 5.71,
-      "lng": -74.08,
-      "severity": 2,
-      "location": "Bogota, Colombia",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-07/outsider-de-la-espriella-takes-power-in-divided-colombia",
-      "image": null,
-      "ts": 1786140461000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-07/outsider-de-la-espriella-takes-power-in-divided-colombia"
           }
         ]
       }
@@ -2364,11 +2397,11 @@
     },
     {
       "id": "6392d716168e",
-      "title": "Ugandan Footballer Killed in Attack",
-      "description": "Ugandan footballer David Owori was killed by robbers armed with paving stones",
+      "title": "Ugandan footballer killed by robbers",
+      "description": "Ugandan footballer David Owori was killed by robbers armed with paving stones near his home in Kampala.",
       "lat": 1.41,
       "lng": 32.56999999999999,
-      "severity": 3,
+      "severity": 4,
       "location": "Kampala, Uganda",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/uganda-soccer-star-killed_n_6a75a954e4b04fcbf74e52a7",
@@ -7890,49 +7923,6 @@
             "n": "RTE News",
             "b": "center",
             "u": "https://www.rte.ie/news/2026/0802/1586194-firefighter-helicopters-greece/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "be8c343f93c3",
-      "title": "Tankers 'waiting for permission' to transit through Strait of Hormuz, Iran says",
-      "description": "Iran's semiofficial Fars news agency aired footage of what it said were vessels 'waiting for permission' from Iran to transit through the Strait of Hormuz.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 2,
-      "location": "Strait of Hormuz",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/08/02/tankers-waiting-for-permission-to-transit-through-strait-of-hormuz-iran-says/",
-      "image": "http://images.euronews.com/articles/stories/09/85/94/60/640x360_cmsv2_c48954a8-b9eb-5c75-a0b2-8ab6eaec878f-9859460.jpg?1785677569",
-      "ts": 1785680602000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/middle-east/2026/0802/1586143-iran-us-strait/"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/02/tankers-waiting-for-permission-to-transit-through-strait-of-hormuz-iran-says/"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2168179"
           }
         ]
       }
