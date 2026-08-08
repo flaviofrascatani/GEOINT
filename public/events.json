@@ -1,7 +1,121 @@
 {
   "schema": 1,
-  "updated": "2026-08-08T16:01:09.240771+00:00",
+  "updated": "2026-08-08T16:44:30.972193+00:00",
   "events": [
+    {
+      "id": "7232f08b5593",
+      "title": "Drone explodes between Bulgaria and Romania",
+      "description": "A drone entered Bulgaria from Romania and exploded near the Transbalcanico gas pipeline",
+      "lat": 43.82,
+      "lng": 25.96,
+      "severity": 3,
+      "location": "Bulgaria-Romania border",
+      "source": "AGI Estero",
+      "url": "https://www.agi.it/estero/news/2026-08-08/drone-bulgaria-38451676/",
+      "image": null,
+      "ts": 1786206997000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/08/08/drone-enters-bulgaria-explodes-near-pipeline-at-romanian-border_6756290_4.html"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/bulgaria-unknown-drone-explodes-near-romanian-border/a-78288825?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-08/bulgaria-says-drone-crashes-near-gas-pipeline-after-entering-from-romania"
+          },
+          {
+            "n": "AGI Estero",
+            "b": "center",
+            "u": "https://www.agi.it/estero/news/2026-08-08/drone-bulgaria-38451676/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6fd32e047a67",
+      "title": "Tehran says US must ‘rectify its behaviour’ before Iran reopens strait",
+      "description": "Senior security official wants Washington to pay compensation for war damage",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/9a1ab09b-82d7-43c2-b44a-ebb41d352dab?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1786206014000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/9a1ab09b-82d7-43c2-b44a-ebb41d352dab?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "03e6f84c6e94",
+      "title": "Israel troops infiltrate Lebanese army-held village",
+      "description": "Israeli forces built a roadblock near the town square of a Lebanese village held by the country's army",
+      "lat": 33.86,
+      "lng": 35.860000000000014,
+      "severity": 3,
+      "location": "Beirut, Lebanon",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20260808-israeli-troops-infiltrate-lebanese-army-held-village-and-build-roadblock-mayor-says",
+      "image": "https://s.france24.com/media/display/47a2dfd2-9337-11f1-af5a-005056a97e36/w:1024/p:16x9/000-C3DG6T3.jpg",
+      "ts": 1786205127000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20260808-israeli-troops-infiltrate-lebanese-army-held-village-and-build-roadblock-mayor-says"
+          }
+        ]
+      }
+    },
     {
       "id": "412d1290dd80",
       "title": "Iran Issues List of Demands, Dampening Hopes of Reopening Strait of Hormuz",
@@ -371,6 +485,74 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/world/2170495"
+          }
+        ]
+      }
+    },
+    {
+      "id": "476bf02f2d6c",
+      "title": "UAE says Iran attacked ADNOC vessel with missile in Strait of Hormuz",
+      "description": "The United Arab Emirates on Saturday condemned what it said was an Iranian attack on a carrier linked to its state oil company as it passed through the Strait of Hormuz",
+      "lat": 25.42,
+      "lng": 57.2226,
+      "severity": 4,
+      "location": "Muscat, Oman",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/uae-says-iran-attacked-adnoc-vessel-missile-strait-hormuz",
+      "image": null,
+      "ts": 1786193192000,
+      "coverage": {
+        "left": 5,
+        "center": 3,
+        "right": 0,
+        "total": 8,
+        "buckets": {
+          "left": 0,
+          "lean_left": 5,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/08/06/iran-says-hormuz-deal-with-oman-wont-fully-reopen-strait/"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/video/saudi-arabia-pakistan-and-turkey-sign-defense-pact-as-iran-repeats-that-hormuz-deal-is-close/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/iran-israel-middle-east-houthis-yemen-what-will-it-take-to-open-strait-of-hormuz-iran-issues-list-of-demands-11884369#publisher=newsstand"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2?traffic_source=rss"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/uae-says-iran-targeted-tanker-as-oman-cites-progress-in-hormuz-talks/article71322549.ece"
+          },
+          {
+            "n": "BBC Business",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/uae-says-iran-attacked-adnoc-vessel-missile-strait-hormuz"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/middle-east/article/3363411/iran-targeted-tanker-says-uae-tehran-says-hormuz-deal-oman-close?utm_source=rss_feed"
           }
         ]
       }
@@ -2566,64 +2748,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/americas/trump-signs-orders-to-limit-birthright-citizenship-curb-birth-tourism"
-          }
-        ]
-      }
-    },
-    {
-      "id": "476bf02f2d6c",
-      "title": "Iran and Oman discuss Hormuz traffic management",
-      "description": "Iran and Oman are discussing the management of traffic through the Strait of Hormuz, a critical waterway for oil exports.",
-      "lat": 25.42,
-      "lng": 57.2226,
-      "severity": 2,
-      "location": "Muscat, Oman",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/06/iran-says-hormuz-deal-with-oman-wont-fully-reopen-strait/",
-      "image": null,
-      "ts": 1786052268000,
-      "coverage": {
-        "left": 3,
-        "center": 3,
-        "right": 0,
-        "total": 6,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/06/iran-says-hormuz-deal-with-oman-wont-fully-reopen-strait/"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-deal/"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/west-asia-conflict-iran-us-war-iran-oman-talks-tehran-washington-peace-deal-houthis-saudi-arabia-live-updates-august-7-2026/article71316113.ece"
-          },
-          {
-            "n": "BBC Business",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSHhFb2tmTW1CZ2s3dnYxa1hnY3RqdHdxeFVCaUxUWGlkMXptaWkzVzZlWGwyN0pfREZzU1NFdmZ1dmNlVWNGcVpiajg4SlhYYnJ2d0RwYU95d1NkNzJ2TlFqVXZ4ZlM1UHpCbFJLMk90VVVoQy0ySFpQN3dtOTJNa09jS0I4MmRCUENxSmRNMWEyQVA4OHR0Q1E0N2xzUVdnQWlVRkd1a2M?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/vessel-traffic-through-hormuz-dwindles-week-markets-watch-iran-oman-talks"
           }
         ]
       }
@@ -7939,110 +8063,6 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/trump-retaliates-after-iran-attack-expert-warns-regime-growing-more-dangerous"
-          }
-        ]
-      }
-    },
-    {
-      "id": "48724f558fe2",
-      "title": "Israel kills several in Gaza",
-      "description": "Israeli airstrikes continued in Gaza for a second straight day, killing at least four Palestinians.",
-      "lat": 31.51,
-      "lng": 34.46000000000001,
-      "severity": 4,
-      "location": "Gaza, Palestine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/2/israel-kills-five-in-gaza-despite-trumps-hamas-disarmament-plan?traffic_source=rss",
-      "image": null,
-      "ts": 1785639531000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/2/israel-kills-five-in-gaza-despite-trumps-hamas-disarmament-plan?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e1309a487972",
-      "title": "Shooting in Idaho",
-      "description": "A gunman opened fire near an In-N-Out restaurant in Idaho, killing at least three people and injuring two others.",
-      "lat": 42.56,
-      "lng": -114.46,
-      "severity": 4,
-      "location": "Twin Falls, Idaho, USA",
-      "source": "RT News",
-      "url": "https://www.rt.com/news/643762-idaho-restaurant-shootout-killed/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.08/thumbnail/6a6eabd985f54061244ce8bd.png",
-      "ts": 1785638069000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/643762-idaho-restaurant-shootout-killed/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f9af39de9a16",
-      "title": "Japan Confirms First Joint Yen Intervention With US in 15 Years",
-      "description": "Japan confirmed its first joint intervention with the US in currency markets in 15 years and warned that it was ready to act again",
-      "lat": 35.68,
-      "lng": 139.76,
-      "severity": 3,
-      "location": "Tokyo, Japan",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-02/katayama-to-say-japan-us-acted-together-on-yen-reuters-reports",
-      "image": null,
-      "ts": 1785638026000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-02/katayama-to-say-japan-us-acted-together-on-yen-reuters-reports"
-          },
-          {
-            "n": "Nikkei Asia",
-            "b": "center",
-            "u": "https://asia.nikkei.com/business/markets/currencies/japan-won-t-hesitate-to-act-again-after-joint-yen-intervention-with-us-katayama"
           }
         ]
       }
