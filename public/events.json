@@ -1,7 +1,78 @@
 {
   "schema": 1,
-  "updated": "2026-08-08T11:59:07.692134+00:00",
+  "updated": "2026-08-08T13:05:01.625715+00:00",
   "events": [
+    {
+      "id": "5ebfc927e69a",
+      "title": "Turkey limits ship traffic in the Black Sea",
+      "description": "Turkey is limiting the traffic of commercial ships in the Black Sea due to increasing concerns over Russian and Ukrainian attacks on vessels.",
+      "lat": 45.82,
+      "lng": 37.78,
+      "severity": 2,
+      "location": "Novorossiysk, Russia",
+      "source": "AGI Estero",
+      "url": "https://www.agi.it/estero/news/2026-08-08/turchia-navi-mar-nero-38448508/",
+      "image": null,
+      "ts": 1786193493000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-08/turkey-restricts-black-sea-ship-traffic-after-surge-in-attacks"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2170495"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2d9e798117e6",
+      "title": "IS-linked group kills at least 13 in Congo village",
+      "description": "Militants affiliated with the Islamic State group have attacked a village in Congo near the Uganda border, killing at least 13 people.",
+      "lat": -0.55,
+      "lng": 25.45,
+      "severity": 4,
+      "location": "Congo",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/linked-group-kills-13-congo-village-135478971",
+      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
+      "ts": 1786189912000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/linked-group-kills-13-congo-village-135478971"
+          }
+        ]
+      }
+    },
     {
       "id": "990ed8c469f8",
       "title": "Norwegian soldiers say they're training Ukrainian soldiers with a 'Viking mentality' built for harsh conditions",
@@ -287,6 +358,44 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/08/08/more-than-300-children-have-died-from-ebola-since-start-of-drc-outbreak/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "049f7c68b4b3",
+      "title": "Abelardo de la Espriella sworn in as Colombia's new president",
+      "description": "Abelardo de la Espriella took office as Colombia's new president, vowing to rebuild U.S. ties and address the country's soaring violence.",
+      "lat": 4.52,
+      "lng": -76.52,
+      "severity": 1,
+      "location": "Cali, Colombia",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/08/08/de-la-espriella-sworn-in-before-congress-in-cali-delivers-first-speech-to-the-military?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": "https://en.mercopress.com/data/cache/noticias/111078/100x80/17184403.jpg",
+      "ts": 1786175520000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 2,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 2
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/trump-ally-el-tigre-sworn-colombias-new-president-amid-continents-rightward-shift"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/latin-america/2026/08/07/conservative-abelardo-de-la-espriella-inaugurated-president-colombia/"
           }
         ]
       }
@@ -612,25 +721,25 @@
     },
     {
       "id": "5a77af0bf017",
-      "title": "Iran says Hormuz deal with Oman won’t fully reopen strait",
-      "description": "Oil prices jumped after the comments by senior Iranian officials on the talks to manage traffic through the waterway",
+      "title": "US expects a deal soon between Iran and Oman on Strait of Hormuz",
+      "description": "Progress is being made between Iran and Oman on the Strait of Hormuz and a deal is expected soon.",
       "lat": 33.89,
       "lng": 35.5,
-      "severity": 2,
+      "severity": 1,
       "location": "Beirut, Lebanon",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/06/iran-says-hormuz-deal-with-oman-wont-fully-reopen-strait/",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/us-official-we-expect-deal-soon-between-iran-and-oman-strait-hormuz",
       "image": "https://s.france24.com/media/display/33ca89d4-9011-11f1-bbd5-005056bfb2b6/w:1024/p:16x9/AP26216348535497.jpg",
       "ts": 1786140952000,
       "coverage": {
-        "left": 2,
-        "center": 2,
+        "left": 3,
+        "center": 3,
         "right": 0,
-        "total": 4,
+        "total": 6,
         "buckets": {
           "left": 0,
-          "lean_left": 2,
-          "center": 2,
+          "lean_left": 3,
+          "center": 3,
           "lean_right": 0,
           "right": 0
         },
@@ -641,9 +750,14 @@
             "u": "https://www.washingtonpost.com/world/2026/08/06/iran-says-hormuz-deal-with-oman-wont-fully-reopen-strait/"
           },
           {
-            "n": "Al Jazeera",
+            "n": "CBS News World",
             "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/liveblog/2026/8/8/iran-war-live-trilateral-mecca-defence-pact-signed-as-hormuz-deal-looms?traffic_source=rss"
+            "u": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/west-asia-war-us-iran-deal-strait-of-hormuz-yemen-houthis-saudi-arabia-live-updates-august-8-2026/article71320445.ece"
           },
           {
             "n": "BBC Business",
@@ -654,6 +768,11 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/08/us-official-we-expect-deal-soon-between-iran-and-oman-strait-hormuz"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/uae-says-iran-attacked-adnoc-vessel-with-missile-in-strait-of-hormuz"
           }
         ]
       }
@@ -3920,39 +4039,6 @@
             "n": "Egypt Independent",
             "b": "center",
             "u": "https://www.egyptindependent.com/iran-backs-any-measure-taken-by-palestinian-leaders-in-gaza-talks-president-says/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5ebfc927e69a",
-      "title": "Turkish cargo ship catches fire after Black Sea drone attack",
-      "description": "A Turkish cargo ship caught fire after a drone attack near Russia's Black Sea port of Novorossiysk.",
-      "lat": 45.82,
-      "lng": 37.78,
-      "severity": 3,
-      "location": "Novorossiysk, Russia",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/5/08-05-2026-drone-attacks-turkish-ship-sv?traffic_source=rss",
-      "image": null,
-      "ts": 1785930565000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/5/08-05-2026-drone-attacks-turkish-ship-sv?traffic_source=rss"
           }
         ]
       }
@@ -7867,87 +7953,6 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/explosion-restaurant-central-moscow-leaves-three-dead-dozen-injured"
-          }
-        ]
-      }
-    },
-    {
-      "id": "023e2b34d3da",
-      "title": "Tourist plane crashes in Peru",
-      "description": "A small plane carrying tourists crashed in a field outside the city of Nazca, killing 13 people.",
-      "lat": -14.83,
-      "lng": -74.95,
-      "severity": 4,
-      "location": "Nazca, Peru",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/tourist-plane-crashes-peru-killing-13-nazca-lines-135294691",
-      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
-      "ts": 1785617431000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/tourist-plane-crashes-peru-killing-13-nazca-lines-135294691"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c70g132erlko?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/13-dead-after-small-tourist-plane-crashes-in-peru/a-78204342?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e9a583350a03",
-      "title": "State Department urges Americans to consider leaving Middle East as regional conflict escalates",
-      "description": "The State Department on Saturday urged Americans across the Middle East to consider leaving the region or be prepared to depart on short notice.",
-      "lat": 38.9,
-      "lng": 77.0,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "NBC News World",
-      "url": "https://www.nbcnews.com/world/middle-east/state-department-urges-americans-consider-leaving-middle-east-region-rcna590396",
-      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2025-04/190816-department-of-state-seal-ew-1255p-bac8cc.jpg",
-      "ts": 1785616674000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/middle-east/state-department-urges-americans-consider-leaving-middle-east-region-rcna590396"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd0FsRGVyTmhKN1lFZHVkMkdsREEzZkVqTWJHMDVkOE9mbXdmNklBQjFXUllKU2t5anpDbGhQdVdRRU9rWWxzSmhvV2ZoS09GRFc4Znk1QXlSMkYzbHFfd0VRb0Vuang0MTUwOE5BUGszb1gwTTVrNnZmVU1KWmxBNjZxZEpkSW9pU0ZRWllOc1pHcm5lOWJmYWIyc1JqT2tsYkdjcW1PTnhDbENlUktjWXJ4eEpnUEVZQTd4SXVR?oc=5"
           }
         ]
       }
