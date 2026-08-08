@@ -1,41 +1,46 @@
 {
   "schema": 1,
-  "updated": "2026-08-08T14:39:34.774722+00:00",
+  "updated": "2026-08-08T15:37:44.414210+00:00",
   "events": [
     {
-      "id": "5a77af0bf017",
-      "title": "Iran targets ship in Strait of Hormuz",
-      "description": "Iran targeted a ship in the Strait of Hormuz, even as it says a deal is close.",
-      "lat": 33.89,
-      "lng": 35.5,
-      "severity": 4,
-      "location": "Beirut, Lebanon",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/",
-      "image": "https://s.france24.com/media/display/33ca89d4-9011-11f1-bbd5-005056bfb2b6/w:1024/p:16x9/AP26216348535497.jpg",
-      "ts": 1786199612000,
+      "id": "412d1290dd80",
+      "title": "Iran Issues List of Demands, Dampening Hopes of Reopening Strait of Hormuz",
+      "description": "Iran has issued a list of demands that must be met by the United States before the Strait of Hormuz can be reopened, dampening hopes of a swift resolution to the crisis.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/08/08/world/middleeast/iran-us-oman-strait-of-hormuz.html",
+      "image": "https://static01.nyt.com/images/2026/08/08/multimedia/08int-iran-mwcl/08int-iran-mwcl-mediumSquareAt3X.jpg",
+      "ts": 1786202767000,
       "coverage": {
-        "left": 2,
-        "center": 4,
+        "left": 3,
+        "center": 3,
         "right": 0,
         "total": 6,
         "buckets": {
           "left": 0,
-          "lean_left": 2,
-          "center": 4,
+          "lean_left": 3,
+          "center": 3,
           "lean_right": 0,
           "right": 0
         },
         "sources": [
           {
-            "n": "Washington Post World",
+            "n": "New York Times World",
             "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/06/iran-says-hormuz-deal-with-oman-wont-fully-reopen-strait/"
+            "u": "https://www.nytimes.com/2026/08/08/world/middleeast/iran-us-oman-strait-of-hormuz.html"
           },
           {
             "n": "CBS News World",
             "b": "lean_left",
             "u": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2?traffic_source=rss"
           },
           {
             "n": "BBC Business",
@@ -45,7 +50,133 @@
           {
             "n": "Google News Top",
             "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOHdLUWp2NDlHVUNRNUxzazJIX3lzdzlVR0tMZEJacTVUa0N1bGZocG9jV01IT2MzNU5fdmJsUTNPQV9RN0tRT3FUclpuMWFUb0RpVmpNekVSZDBlcUxsVXplQzZjYW8xeGVXVEhKTnBZOGdkOF9mNkpBUWhpWUxDV2RBQUlSOFlrVGNFY25xckY1a19XTW9zdHhqXzRMNFZsOFZuTUJn?oc=5"
+            "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX3lCSkcxU1lGMG5WLWZnQ3BPMzVqREVjajhDeUVndVBndkNPSklSaWV2RVM2a3FKcWhBMEwtcVRfbUgwNXZGMDNJUy1PU1NCVWszOG03N1RySFdMZlBrMTJ0SHo3bmc0MUt1V3pMb052UmxRSFg3cDhkY2VGR2hyMlRyMjBIYVBRajFwWkJOa05sMFhkUEZ1M3NuNjFRTURGS2pDSzBjOWNRSVlidXBPNnVWNlJ2U1VRMWxpQ2E1WWhzdw?oc=5"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/us-official-we-expect-deal-soon-between-iran-and-oman-strait-hormuz"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3dcffccb3080",
+      "title": "UAE says Iran targeted ADNOC tanker in Strait of Hormuz, no casualties",
+      "description": "The UAE has stated that Iran targeted an ADNOC tanker in the Strait of Hormuz, but there were no casualties reported.",
+      "lat": 24.47,
+      "lng": 54.37,
+      "severity": 3,
+      "location": "Muscat, Oman",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2?traffic_source=rss",
+      "image": null,
+      "ts": 1786201289000,
+      "coverage": {
+        "left": 3,
+        "center": 3,
+        "right": 0,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/08/world/middleeast/iran-us-oman-strait-of-hormuz.html"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2?traffic_source=rss"
+          },
+          {
+            "n": "BBC Business",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX3lCSkcxU1lGMG5WLWZnQ3BPMzVqREVjajhDeUVndVBndkNPSklSaWV2RVM2a3FKcWhBMEwtcVRfbUgwNXZGMDNJUy1PU1NCVWszOG03N1RySFdMZlBrMTJ0SHo3bmc0MUt1V3pMb052UmxRSFg3cDhkY2VGR2hyMlRyMjBIYVBRajFwWkJOa05sMFhkUEZ1M3NuNjFRTURGS2pDSzBjOWNRSVlidXBPNnVWNlJ2U1VRMWxpQ2E1WWhzdw?oc=5"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/us-official-we-expect-deal-soon-between-iran-and-oman-strait-hormuz"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5a77af0bf017",
+      "title": "US official: We expect a deal soon between Iran and Oman on Strait of Hormuz",
+      "description": "A US official has stated that progress is being made between Iran and Oman on the Strait of Hormuz, and a deal is expected soon.",
+      "lat": 33.89,
+      "lng": 35.5,
+      "severity": 1,
+      "location": "Beirut, Lebanon",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/us-official-we-expect-deal-soon-between-iran-and-oman-strait-hormuz",
+      "image": "https://s.france24.com/media/display/33ca89d4-9011-11f1-bbd5-005056bfb2b6/w:1024/p:16x9/AP26216348535497.jpg",
+      "ts": 1786199612000,
+      "coverage": {
+        "left": 4,
+        "center": 5,
+        "right": 0,
+        "total": 9,
+        "buckets": {
+          "left": 0,
+          "lean_left": 4,
+          "center": 5,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/08/world/middleeast/iran-us-oman-strait-of-hormuz.html"
+          },
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/08/06/iran-says-hormuz-deal-with-oman-wont-fully-reopen-strait/"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/video/saudi-arabia-pakistan-and-turkey-sign-defense-pact-as-iran-repeats-that-hormuz-deal-is-close/"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2?traffic_source=rss"
+          },
+          {
+            "n": "BBC Business",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX3lCSkcxU1lGMG5WLWZnQ3BPMzVqREVjajhDeUVndVBndkNPSklSaWV2RVM2a3FKcWhBMEwtcVRfbUgwNXZGMDNJUy1PU1NCVWszOG03N1RySFdMZlBrMTJ0SHo3bmc0MUt1V3pMb052UmxRSFg3cDhkY2VGR2hyMlRyMjBIYVBRajFwWkJOa05sMFhkUEZ1M3NuNjFRTURGS2pDSzBjOWNRSVlidXBPNnVWNlJ2U1VRMWxpQ2E1WWhzdw?oc=5"
+          },
+          {
+            "n": "AGI Estero",
+            "b": "center",
+            "u": "https://www.agi.it/estero/news/2026-08-08/iran-oman-stretto-hormuz-38448940/"
           },
           {
             "n": "Al-Monitor",
@@ -53,9 +184,102 @@
             "u": "https://www.al-monitor.com/originals/2026/08/us-official-we-expect-deal-soon-between-iran-and-oman-strait-hormuz"
           },
           {
-            "n": "Straits Times Asia",
+            "n": "South China Morning Post",
             "b": "center",
-            "u": "https://www.straitstimes.com/asia/uae-says-iran-attacked-adnoc-vessel-with-missile-in-strait-of-hormuz"
+            "u": "https://www.scmp.com/news/world/middle-east/article/3363411/iran-targeted-tanker-says-uae-tehran-says-hormuz-deal-oman-close?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "463387e36ea5",
+      "title": "US Senate confirms Todd Blanche as US attorney-general",
+      "description": "The US Senate has narrowly confirmed Todd Blanche, a former defense lawyer of President Donald Trump, as the new US attorney-general, following a tense fight that exposed bipartisan concerns.",
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "severity": 2,
+      "location": "Washington, D.C., USA",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/4f1f4150-3e5b-4015-ad44-5f596e0287a5?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1786199088000,
+      "coverage": {
+        "left": 2,
+        "center": 8,
+        "right": 3,
+        "total": 13,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 8,
+          "lean_right": 1,
+          "right": 2
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/todd-blanche-narrowly-confirmed-as-us-attorney-general-in-a-boost-to-donald-trump-11882980#publisher=newsstand"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/08/08/us-senate-confirms-trump-lawyer-todd-blanche-as-attorney-general_6756284_4.html"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/08/08/senate-republicans-narrowly-confirm-todd-blanche-as-attorney-general.html"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/08/08/todd-blanche-trump-attorney-general-confirmed"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/4f1f4150-3e5b-4015-ad44-5f596e0287a5?syn-25a6b1a6=1"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/senate-confirms-todd-blanche-trump-s-former-lawyer-as-attorney-general"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/us-senate-confirms-trump-loyalist-todd-blanche-as-new-ag/a-78289397?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/homenews/administration/6018352-live-updates-senate-august-recess-blanche-spending-bill-iran-war/"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-08/blanche-clears-senate-hurdle-on-path-to-confirmation-to-lead-doj"
+          },
+          {
+            "n": "Times of India World",
+            "b": "center",
+            "u": "https://timesofindia.indiatimes.com/world/us/senate-confirms-trumps-ex-lawyer-todd-blanche-as-us-attorney-general/articleshow/133050212.cms"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/americas/us-senate-narrowly-backs-trumps-ally-blanche-despite-opposition"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/todd-blanche-confirmed-as-u-s-ag/"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/senate/4680065/senate-confirms-todd-blanche-attorney-general-august-break/"
           }
         ]
       }
@@ -393,54 +617,6 @@
       }
     },
     {
-      "id": "463387e36ea5",
-      "title": "Todd Blanche Confirmed by Senate as Trump’s Attorney General",
-      "description": "The US Senate confirmed Todd Blanche as attorney general, elevating President Donald Trump’s one-time personal defense lawyer to lead the nation’s top federal law enforcement agency.",
-      "lat": 38.8977,
-      "lng": -77.0365,
-      "severity": 3,
-      "location": "Washington, D.C., USA",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-08/blanche-clears-senate-hurdle-on-path-to-confirmation-to-lead-doj",
-      "image": null,
-      "ts": 1786177286000,
-      "coverage": {
-        "left": 2,
-        "center": 1,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 1,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/08/07/blanche-confirmation-attorney-general-republicans-murkowski-revolt-trump-pick/"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/08/08/us-senate-confirms-trump-lawyer-todd-blanche-as-attorney-general_6756284_4.html"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-08/blanche-clears-senate-hurdle-on-path-to-confirmation-to-lead-doj"
-          },
-          {
-            "n": "New York Post",
-            "b": "lean_right",
-            "u": "https://nypost.com/2026/08/08/us-news/todd-blanche-confirmed-by-senate-as-trumps-attorney-general-in-50-49-vote/"
-          }
-        ]
-      }
-    },
-    {
       "id": "037b38fb6165",
       "title": "More than 300 children have died from Ebola since start of DRC outbreak",
       "description": "More than 300 children have died from Ebola since the outbreak began in the Democratic Republic of Congo.",
@@ -758,6 +934,39 @@
             "n": "The Hindu International",
             "b": "lean_left",
             "u": "https://www.thehindu.com/news/international/eu-aims-for-seven-ai-gigafactories-with-10-billion-plan-in-race-with-us-china/article71285920.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "710c38e4b98a",
+      "title": "US Says Ukraine to Avoid Targeting Tankers, Oil Site",
+      "description": "Ukraine has agreed not to target some non-Russian oil tankers and Black Sea infrastructure critical for exporting Kazakhstan’s crude, following strikes on vessels last month that halted loadings.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 2,
+      "location": "Kyiv, Ukraine",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-08/us-says-ukraine-to-avoid-targeting-tankers-black-sea-oil-site",
+      "image": null,
+      "ts": 1786148727000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-08/us-says-ukraine-to-avoid-targeting-tankers-black-sea-oil-site"
           }
         ]
       }
@@ -7834,120 +8043,6 @@
             "n": "Nikkei Asia",
             "b": "center",
             "u": "https://asia.nikkei.com/business/markets/currencies/japan-won-t-hesitate-to-act-again-after-joint-yen-intervention-with-us-katayama"
-          }
-        ]
-      }
-    },
-    {
-      "id": "63962c0c93a4",
-      "title": "US and Japan intervene to lift yen",
-      "description": "The US and Japan’s first joint action on the yen in 15 years has underscored their determination to defend the Asian currency.",
-      "lat": 35.68,
-      "lng": 141.66520000000003,
-      "severity": 2,
-      "location": "Tokyo, Japan",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-02/katayama-to-say-japan-us-acted-together-on-yen-reuters-reports",
-      "image": null,
-      "ts": 1785638026000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-02/katayama-to-say-japan-us-acted-together-on-yen-reuters-reports"
-          }
-        ]
-      }
-    },
-    {
-      "id": "74bbf33402a2",
-      "title": "Three people killed in shooting at In-N-Out Burger in Idaho",
-      "description": "Three people were killed and seven more were injured on Saturday afternoon in a shooting in Twin Falls, Idaho, near an In-N-Out restaurant",
-      "lat": 43.6629,
-      "lng": -114.461,
-      "severity": 4,
-      "location": "Twin Falls, Idaho, USA",
-      "source": "Washington Examiner",
-      "url": "https://www.washingtonexaminer.com/news/crime/4672056/people-killed-shooting-in-n-out-twin-falls-idaho/",
-      "image": null,
-      "ts": 1785633403000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 2,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 2
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/us-multiple-dead-in-shooting-at-in-n-out-burger-in-idaho/a-78205684?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYW9uN0pxS05KdmgwSlBrYXdBTjBJTDY2N05QS2FSbUIycnRaR3ZnYTdBVTU5OUxpWnpGZnJUS0tVUWR0dFJIbGNKZGVYZEdxS3RfZjk1bHVnc3h3TTRHN2g1TUFMRU8yZHk3NnE0elkzZXFtUEwxRWNuZjktOTdmcGpCbUxYQW9vM05nZUZ3?oc=5"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/crime/2026/08/01/multiple-people-killed-after-shooter-opens-fire-at-idaho-in-n-out-restaurant-suspect-dead/"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/crime/4672056/people-killed-shooting-in-n-out-twin-falls-idaho/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3fe0471f847d",
-      "title": "France makes major progress in wildfire fight, but danger still lurks",
-      "description": "Even though France's biggest wildfire crisis since 1949 has been contained, many of the blazes are still burning.",
-      "lat": 44.94,
-      "lng": 2.3925999999999874,
-      "severity": 3,
-      "location": "Paris, France",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/video/france-makes-major-progress-in-wildfire-fight-but-danger-still-lurks/",
-      "image": null,
-      "ts": 1785632631000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/video/france-makes-major-progress-in-wildfire-fight-but-danger-still-lurks/"
           }
         ]
       }
