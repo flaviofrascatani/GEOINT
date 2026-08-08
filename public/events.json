@@ -1,7 +1,121 @@
 {
   "schema": 1,
-  "updated": "2026-08-08T07:55:42.942806+00:00",
+  "updated": "2026-08-08T08:53:06.684982+00:00",
   "events": [
+    {
+      "id": "58ce9d0cc86f",
+      "title": "At least 34 killed in Pakistan coal mine blast",
+      "description": "The incident occurred in the Sorange coalfield near Quetta on July 30 when a methane gas explosion struck a coal mine during a shift change.",
+      "lat": 30.1833,
+      "lng": 67.0167,
+      "severity": 4,
+      "location": "Quetta, Pakistan",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/coal-mine-blast-in-pakistan-kills-many-miners-traps-people/article71288808.ece",
+      "image": "https://th-i.thgim.com/public/incoming/bac85b/article71291040.ece/alternates/LANDSCAPE_1200/AP07_31_2026_000314B.jpg",
+      "ts": 1786178151000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/coal-mine-blast-in-pakistan-kills-many-miners-traps-people/article71288808.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "463387e36ea5",
+      "title": "Todd Blanche Confirmed by Senate as Trump’s Attorney General",
+      "description": "The US Senate confirmed Todd Blanche as attorney general, elevating President Donald Trump’s one-time personal defense lawyer to lead the nation’s top federal law enforcement agency.",
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "severity": 3,
+      "location": "Washington, D.C., USA",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-08/blanche-clears-senate-hurdle-on-path-to-confirmation-to-lead-doj",
+      "image": null,
+      "ts": 1786177286000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/08/07/blanche-confirmation-attorney-general-republicans-murkowski-revolt-trump-pick/"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/08/08/us-senate-confirms-trump-lawyer-todd-blanche-as-attorney-general_6756284_4.html"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-08/blanche-clears-senate-hurdle-on-path-to-confirmation-to-lead-doj"
+          },
+          {
+            "n": "New York Post",
+            "b": "lean_right",
+            "u": "https://nypost.com/2026/08/08/us-news/todd-blanche-confirmed-by-senate-as-trumps-attorney-general-in-50-49-vote/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "037b38fb6165",
+      "title": "More than 300 children have died from Ebola since start of DRC outbreak",
+      "description": "More than 300 children have died from Ebola since the outbreak began in the Democratic Republic of Congo.",
+      "lat": -4.3278,
+      "lng": 15.3058,
+      "severity": 4,
+      "location": "Kinshasa, Democratic Republic of the Congo",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/08/08/more-than-300-children-have-died-from-ebola-since-start-of-drc-outbreak/",
+      "image": "http://images.euronews.com/articles/stories/09/86/70/27/640x360_cmsv2_9b236cd8-5362-504d-8bfe-f301bc175c4a-9867027.jpg?1786166585",
+      "ts": 1786175882000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/08/more-than-300-children-have-died-from-ebola-since-start-of-drc-outbreak/"
+          }
+        ]
+      }
+    },
     {
       "id": "de7a5aa5675d",
       "title": "Typhoon Dolphin hits Japan",
@@ -41,6 +155,44 @@
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/east-asia/typhoon-dolphin-hits-japans-okinawa-china-shuts-ports-ahead-of-landfall"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8f054b222dc3",
+      "title": "At least 5 killed and more than 20 injured in Thailand school shooting",
+      "description": "Five school staff members died in the shooting, and 10 people were in critical condition.",
+      "lat": 13.7362,
+      "lng": 100.5238,
+      "severity": 4,
+      "location": "Bangkok, Thailand",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/thailand-school-shooting-bangkok/",
+      "image": null,
+      "ts": 1786172183000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/08/07/7-killed-more-than-30-injured-thailand-school-shooting/"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/thailand-school-shooting-bangkok/"
           }
         ]
       }
@@ -7816,138 +7968,6 @@
             "n": "All Africa",
             "b": "center",
             "u": "https://allafrica.com/stories/202608030661.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8ecbbcb8022e",
-      "title": "Explosion in Moscow cafe",
-      "description": "3 people died and 15 were injured in an explosion in a Moscow cafe",
-      "lat": 55.75,
-      "lng": 37.62,
-      "severity": 4,
-      "location": "Moscow, Russia",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/08/01/esplosione-in-un-caffe-a-mosca-3-morti-e-15-feriti_d1af2053-890c-469d-8410-d4514b475e6c.html",
-      "image": null,
-      "ts": 1785608017000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/europa/2026/08/01/esplosione-in-un-caffe-a-mosca-3-morti-e-15-feriti_d1af2053-890c-469d-8410-d4514b475e6c.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4e4e22ccbb4f",
-      "title": "China sent Iran shoulder-fired missiles",
-      "description": "China arranged delivery of up to 400 shoulder-fired air-defense missiles to Iran through a Pakistan land corridor, contradicting Xi Jinping's personal assurance to Trump.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "IBTimes",
-      "url": "https://www.ibtimes.com/china-sent-iran-shoulder-fired-missiles-land-after-xi-denied-it-trump-3805981",
-      "image": null,
-      "ts": 1785607643000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/china-sent-iran-shoulder-fired-missiles-land-after-xi-denied-it-trump-3805981"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2dd0fd3c15d5",
-      "title": "Over 50,000 migrants breach border in Ceuta, Spain",
-      "description": "The crisis in Ceuta, on the African coast, instantly became a touchstone in the global migrant debate as suspicions swirled that the viral incident was orchestrated.",
-      "lat": 35.88,
-      "lng": -5.310000000000002,
-      "severity": 3,
-      "location": "Ceuta, Spain",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/01/spain-pushes-migrants-back-morocco-fallout-deepens-over-mass-border-breach/",
-      "image": null,
-      "ts": 1785607017000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/01/spain-pushes-migrants-back-morocco-fallout-deepens-over-mass-border-breach/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d832cbea5518",
-      "title": "Spain pushes migrants back to Morocco",
-      "description": "Spain has pushed back migrants to Morocco as suspicions swirl over a mass border breach in Ceuta.",
-      "lat": 35.89,
-      "lng": -5.310000000000002,
-      "severity": 3,
-      "location": "Ceuta, Spain",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/01/spain-pushes-migrants-back-morocco-fallout-deepens-over-mass-border-breach/",
-      "image": null,
-      "ts": 1785607017000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/01/spain-pushes-migrants-back-morocco-fallout-deepens-over-mass-border-breach/"
           }
         ]
       }
