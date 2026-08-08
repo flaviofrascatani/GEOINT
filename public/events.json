@@ -1,7 +1,118 @@
 {
   "schema": 1,
-  "updated": "2026-08-08T13:53:04.759436+00:00",
+  "updated": "2026-08-08T14:39:34.774722+00:00",
   "events": [
+    {
+      "id": "5a77af0bf017",
+      "title": "Iran targets ship in Strait of Hormuz",
+      "description": "Iran targeted a ship in the Strait of Hormuz, even as it says a deal is close.",
+      "lat": 33.89,
+      "lng": 35.5,
+      "severity": 4,
+      "location": "Beirut, Lebanon",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/",
+      "image": "https://s.france24.com/media/display/33ca89d4-9011-11f1-bbd5-005056bfb2b6/w:1024/p:16x9/AP26216348535497.jpg",
+      "ts": 1786199612000,
+      "coverage": {
+        "left": 2,
+        "center": 4,
+        "right": 0,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 4,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/08/06/iran-says-hormuz-deal-with-oman-wont-fully-reopen-strait/"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/"
+          },
+          {
+            "n": "BBC Business",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOHdLUWp2NDlHVUNRNUxzazJIX3lzdzlVR0tMZEJacTVUa0N1bGZocG9jV01IT2MzNU5fdmJsUTNPQV9RN0tRT3FUclpuMWFUb0RpVmpNekVSZDBlcUxsVXplQzZjYW8xeGVXVEhKTnBZOGdkOF9mNkpBUWhpWUxDV2RBQUlSOFlrVGNFY25xckY1a19XTW9zdHhqXzRMNFZsOFZuTUJn?oc=5"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/us-official-we-expect-deal-soon-between-iran-and-oman-strait-hormuz"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/uae-says-iran-attacked-adnoc-vessel-with-missile-in-strait-of-hormuz"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9caae26e8796",
+      "title": "Iran and Oman agree on Hormuz security framework",
+      "description": "Iran and Oman have agreed on a security framework for the Strait of Hormuz.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 1,
+      "location": "Strait of Hormuz, Oman",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/war-on-iran-phase-ii-day-28?traffic_source=rss",
+      "image": null,
+      "ts": 1786198142000,
+      "coverage": {
+        "left": 2,
+        "center": 3,
+        "right": 0,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/08/06/iran-says-hormuz-deal-with-oman-wont-fully-reopen-strait/"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/8/war-on-iran-phase-ii-day-28?traffic_source=rss"
+          },
+          {
+            "n": "BBC Business",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "AGI Estero",
+            "b": "center",
+            "u": "https://www.agi.it/estero/news/2026-08-08/iran-oman-stretto-hormuz-38448940/"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/us-official-we-expect-deal-soon-between-iran-and-oman-strait-hormuz"
+          }
+        ]
+      }
+    },
     {
       "id": "5ebfc927e69a",
       "title": "Turkey limits ship traffic in the Black Sea",
@@ -720,64 +831,6 @@
       }
     },
     {
-      "id": "5a77af0bf017",
-      "title": "US expects a deal soon between Iran and Oman on Strait of Hormuz",
-      "description": "Progress is being made between Iran and Oman on the Strait of Hormuz and a deal is expected soon.",
-      "lat": 33.89,
-      "lng": 35.5,
-      "severity": 1,
-      "location": "Beirut, Lebanon",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/08/us-official-we-expect-deal-soon-between-iran-and-oman-strait-hormuz",
-      "image": "https://s.france24.com/media/display/33ca89d4-9011-11f1-bbd5-005056bfb2b6/w:1024/p:16x9/AP26216348535497.jpg",
-      "ts": 1786140952000,
-      "coverage": {
-        "left": 3,
-        "center": 3,
-        "right": 0,
-        "total": 6,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/06/iran-says-hormuz-deal-with-oman-wont-fully-reopen-strait/"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/west-asia-war-us-iran-deal-strait-of-hormuz-yemen-houthis-saudi-arabia-live-updates-august-8-2026/article71320445.ece"
-          },
-          {
-            "n": "BBC Business",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/us-official-we-expect-deal-soon-between-iran-and-oman-strait-hormuz"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/uae-says-iran-attacked-adnoc-vessel-with-missile-in-strait-of-hormuz"
-          }
-        ]
-      }
-    },
-    {
       "id": "dd0c40124e22",
       "title": "Iceland debates joining the European Union",
       "description": "Iceland is debating whether to restart talks on joining the European Union, with security concerns, control over fishing rights, and rising living costs shaping the debate.",
@@ -1252,6 +1305,39 @@
             "n": "Washington Examiner",
             "b": "right",
             "u": "https://www.washingtonexaminer.com/news/washington-secrets/4678925/white-house-report-card-americans-not-proud-trump/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "10a7068ae95e",
+      "title": "School shooting in Thailand",
+      "description": "A school shooting in Thailand has resulted in at least 9 deaths and 23 wounded.",
+      "lat": 13.76,
+      "lng": 100.52999999999997,
+      "severity": 4,
+      "location": "Bangkok, Thailand",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/08/07/7-killed-more-than-30-injured-thailand-school-shooting/",
+      "image": null,
+      "ts": 1786117992000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/08/07/7-killed-more-than-30-injured-thailand-school-shooting/"
           }
         ]
       }
@@ -7862,97 +7948,6 @@
             "n": "CBS News World",
             "b": "lean_left",
             "u": "https://www.cbsnews.com/video/france-makes-major-progress-in-wildfire-fight-but-danger-still-lurks/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d2f50792682a",
-      "title": "Explosion in Moscow restaurant",
-      "description": "A homemade bomb carried by a woman killed three people and injured at least 21 in an explosion near an upscale restaurant in central Moscow.",
-      "lat": 55.75,
-      "lng": 39.525199999999984,
-      "severity": 4,
-      "location": "Moscow, Russia",
-      "source": "AGI Estero",
-      "url": "https://www.agi.it/estero/news/2026-08-01/russia-esplosione-mosca-ristorante-38342825/",
-      "image": "https://images.agi.it/pictures/agi/agi/2026/08/01/201412632-953a52a8-fa94-4ebd-882e-04925367303b.jpg",
-      "ts": 1785621225000,
-      "coverage": {
-        "left": 2,
-        "center": 2,
-        "right": 1,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 2,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/russia-bomb-explosion-3-dead-as-bomb-carried-by-woman-explodes-in-moscow-restaurant-11854454#publisher=newsstand"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/moscow-explosion-restaurant-bomb-russia-37504264"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/world/2026/0802/1586141-russia-bomb-world/"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ0NvY2FSNF91RXB2Y0ZtS0pINjJwNHRCZ2FlRGVIWkxGZTZPcXNkbGxzR3k3R1lNcGJPTngySnQ4cGlYbElyMTJOV1hnN0lzc080WU1qY3RFVjZGb1paOTNnZFhIbWwtV3JWcUc2TGR2Z3hRcHNvdVNydGc2bkN4LTNndTJxVjhGakFzNDdvd3E0cUV1UGF6NNIBngFBVV95cUxPbzFfUlFiWWFPallxRE1EWEJrWVBmTjNnaXNXT3U2b3VxclVMSXFONHlZNV84VG5KNnA4MFlxTHVLNFNIb2l6TTUxYVFWUW5JZ2wwblZPSVJVR3FUSTRqbTlTaDJPYlMyY0p6MjhvVVlLOTRGM0tsdktwOWZfeE9OWXlaQVNCamg5bDBfVHI5d0ZPaGtxUnA4YTVmUDdZQQ?oc=5"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/explosion-restaurant-central-moscow-leaves-three-dead-dozen-injured"
-          }
-        ]
-      }
-    },
-    {
-      "id": "52caac0245f7",
-      "title": "Explosion at Moscow restaurant kills three and injures 21",
-      "description": "An improvised explosive device detonated at a restaurant Saturday in central Moscow, according to Russian state media.",
-      "lat": 56.85,
-      "lng": 39.525199999999984,
-      "severity": 4,
-      "location": "Moscow, Russia",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/explosion-moscow-restaurant-fatalities-injuries/",
-      "image": null,
-      "ts": 1785619424000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/explosion-moscow-restaurant-fatalities-injuries/"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/explosion-restaurant-central-moscow-leaves-three-dead-dozen-injured"
           }
         ]
       }
