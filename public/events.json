@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-08T17:38:54.148787+00:00",
+  "updated": "2026-08-08T18:50:57.599308+00:00",
   "events": [
+    {
+      "id": "f377880fc4d2",
+      "title": "One year on, US-brokered peace between Armenia and Azerbaijan cements US foothold in the Caucasus",
+      "description": "The United States has cemented its lasting influence in the South Caucasus after brokering a peace agreement between Armenia and Azerbaijan.",
+      "lat": 40.18,
+      "lng": 44.51,
+      "severity": 1,
+      "location": "Yerevan, Armenia",
+      "source": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/world/4680168/one-year-us-peace-armenia-azerbaijan/",
+      "image": null,
+      "ts": 1786212782000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4680168/one-year-us-peace-armenia-azerbaijan/"
+          }
+        ]
+      }
+    },
     {
       "id": "0ddc8d841d75",
       "title": "Thousands attend Prague Pride parade",
@@ -64,6 +97,39 @@
             "n": "NDTV World",
             "b": "lean_left",
             "u": "https://www.ndtv.com/world-news/iran-israel-middle-east-houthis-yemen-what-will-it-take-to-open-strait-of-hormuz-iran-issues-list-of-demands-11884369#publisher=newsstand"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8286d0a7d3fe",
+      "title": "Spain imposes border checks on Italian travellers amid migrant dispute",
+      "description": "Spain introduced temporary border checks on travellers arriving from Italy, escalating a dispute between the EU partners over migration.",
+      "lat": 42.06,
+      "lng": 4.652600000000007,
+      "severity": 3,
+      "location": "Madrid, Spain",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/europe/20260808-spain-imposes-border-checks-on-italian-travellers-amid-migrant-dispute",
+      "image": "https://s.france24.com/media/display/16f0298a-934b-11f1-8829-005056bfb2b6/w:1024/p:16x9/2026-08-08T113635Z-2311392-RC2BUMA2SQ7A-RTRMADP-3-MIGRATION-EUROPE-SPAIN-CEUTA-ROME.jpg",
+      "ts": 1786208827000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/europe/20260808-spain-imposes-border-checks-on-italian-travellers-amid-migrant-dispute"
           }
         ]
       }
@@ -7902,72 +7968,6 @@
             "n": "Daily Express World",
             "b": "right",
             "u": "https://www.express.co.uk/news/world/2235252/indonesia-ferry-fire-Mutiara-Sentosa-2-Madura-island"
-          }
-        ]
-      }
-    },
-    {
-      "id": "159c5390abe9",
-      "title": "Morocco says Trump highway naming is mark of 'deep appreciation'",
-      "description": "Moroccan King Mohammed VI said his decision to give US President Donald Trump's name to a $1 billion highway that crosses into the disputed Western Sahara expresses his 'deep appreciation' of the American leader.",
-      "lat": 31.63,
-      "lng": -8.0,
-      "severity": 2,
-      "location": "Rabat, Morocco",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-02/morocco-says-trump-highway-naming-is-mark-of-deep-appreciation",
-      "image": null,
-      "ts": 1785658584000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-02/morocco-says-trump-highway-naming-is-mark-of-deep-appreciation"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9c56e04eefa3",
-      "title": "Three killed in explosion at Moscow restaurant",
-      "description": "An explosion at a Moscow restaurant killed three people and wounded 21 others, with Russian authorities saying it was a bombing.",
-      "lat": 56.85,
-      "lng": 37.620000000000005,
-      "severity": 4,
-      "location": "Moscow, Russia",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/explosion-moscow-restaurant-fatalities-injuries/",
-      "image": null,
-      "ts": 1785642059000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/explosion-moscow-restaurant-fatalities-injuries/"
           }
         ]
       }
