@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-08-08T00:02:18.008932+00:00",
+  "updated": "2026-08-08T02:09:27.977269+00:00",
   "events": [
     {
       "id": "b6c16d609571",
@@ -72,33 +72,43 @@
     },
     {
       "id": "5a77af0bf017",
-      "title": "US expects deal to open Strait of Hormuz soon",
-      "description": "The US expects a deal to open the Strait of Hormuz soon, according to a US official.",
+      "title": "US official expects deal soon between Iran and Oman on Strait of Hormuz",
+      "description": "Progress is being made between Iran and Oman on the Strait of Hormuz and a deal is expected soon",
       "lat": 33.89,
       "lng": 35.5,
-      "severity": 2,
+      "severity": 1,
       "location": "Beirut, Lebanon",
       "source": "Al-Monitor",
       "url": "https://www.al-monitor.com/originals/2026/08/us-official-we-expect-deal-soon-between-iran-and-oman-strait-hormuz",
       "image": "https://s.france24.com/media/display/33ca89d4-9011-11f1-bbd5-005056bfb2b6/w:1024/p:16x9/AP26216348535497.jpg",
       "ts": 1786140952000,
       "coverage": {
-        "left": 1,
+        "left": 3,
         "center": 3,
         "right": 0,
-        "total": 4,
+        "total": 6,
         "buckets": {
           "left": 0,
-          "lean_left": 1,
+          "lean_left": 3,
           "center": 3,
           "lean_right": 0,
           "right": 0
         },
         "sources": [
           {
-            "n": "CBS News World",
+            "n": "Washington Post World",
             "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-deal/"
+            "u": "https://www.washingtonpost.com/world/2026/08/06/iran-says-hormuz-deal-with-oman-wont-fully-reopen-strait/"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/liveblog/2026/8/8/iran-war-live-trilateral-mecca-defence-pact-signed-as-hormuz-deal-looms?traffic_source=rss"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/west-asia-conflict-iran-us-war-iran-oman-talks-tehran-washington-peace-deal-houthis-saudi-arabia-live-updates-august-7-2026/article71316113.ece"
           },
           {
             "n": "BBC Business",
@@ -186,11 +196,11 @@
     },
     {
       "id": "7d8b2690638d",
-      "title": "Spain to introduce temporary border checks on visitors from Italy",
-      "description": "Spain will introduce temporary border checks on visitors from Italy in response to Rome imposing similar measures after a mass migration rush to Ceuta.",
+      "title": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
+      "description": "Spain will introduce temporary border checks on visitors from Italy in response to Rome imposing similar measures after a mass migration rush to Ceuta",
       "lat": 40.42,
       "lng": 3.7,
-      "severity": 3,
+      "severity": 2,
       "location": "Madrid, Spain",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy",
@@ -198,13 +208,13 @@
       "ts": 1786139078000,
       "coverage": {
         "left": 2,
-        "center": 0,
+        "center": 2,
         "right": 0,
-        "total": 2,
+        "total": 4,
         "buckets": {
           "left": 0,
           "lean_left": 2,
-          "center": 0,
+          "center": 2,
           "lean_right": 0,
           "right": 0
         },
@@ -218,6 +228,16 @@
             "n": "NDTV World",
             "b": "lean_left",
             "u": "https://www.ndtv.com/world-news/in-tit-for-tat-move-spain-imposes-border-controls-for-italy-over-ceuta-crisis-11881614#publisher=newsstand"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSUpuN0xZSk5xZHlObmVhbURvLVVnSEpTNG5ReU9tVkxaNTYwbG1MVzF3TnRHbjE1Y1VVa21XZHJDMEY4T243b05NQnBNcTNmek5vMzlBYjVWRXpVUFRBSHpyMzJYaXJTcEtWcG9zRlJTTDZPUzA4V2psbEE3cGdHT3B2QVdGOTdJaVV3bkxYOWdldEtEMWpuWk9RY3lidThiV2g5dnVMUEFmR0pfdlA2OUl2SVXSAboBQVVfeXFMTjBfT0NTWWxycjUydUlaeDA0TWVTNzhhR2lEcVBmX1BHM2ZQS0NadzRWQmlsYVNwWmRMYzNFb2RVYi1nbVNPOVdrMGtnQkJyUXFwZzVsZTlkY2NGMXAzRS1oV0hqNEVjSjIydHRGczlQRXNaQU5iN0tua3YycU9teU1qWDVRZ0hqR1RyZkFjSG5UVE9yck5NWmkzNElGYmlMSEFXc1lTckJnS3RUOHFtaFFHV3pNM0NvYVN3?oc=5"
           }
         ]
       }
@@ -251,6 +271,39 @@
             "n": "China Daily World",
             "b": "right",
             "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ee11e490f477",
+      "title": "Venezuelan government and opposition open US-backed talks",
+      "description": "Delegations from the Venezuelan government and one sector of the opposition met on Thursday in Caracas to open negotiations backed by the United States",
+      "lat": 11.58,
+      "lng": -66.89,
+      "severity": 1,
+      "location": "Caracas, Venezuela",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/08/07/venezuelan-government-and-opposition-open-us-backed-talks?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": "https://en.mercopress.com/data/cache/noticias/111065/100x80/pec7rq9os-2000x1500-1.jpg",
+      "ts": 1786137420000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/08/07/venezuelan-government-and-opposition-open-us-backed-talks?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
           }
         ]
       }
@@ -683,25 +736,25 @@
     },
     {
       "id": "7555f17ffec9",
-      "title": "Ukraine's Zelenskyy to visit Russia-friendly Serbia",
-      "description": "Ukrainian President Volodymyr Zelenskyy plans to visit Serbia on Saturday for the first time.",
+      "title": "Ukraine's Zelenskyy to make first visit to Russia-friendly Serbia",
+      "description": "Ukrainian President Volodymyr Zelenskyy plans to visit Serbia on Saturday for the first time",
       "lat": 45.92,
       "lng": 20.460000000000008,
-      "severity": 2,
+      "severity": 1,
       "location": "Belgrade, Serbia",
       "source": "ABC News International",
       "url": "https://abcnews.com/International/wireStory/ukraines-zelenskyy-make-visit-russia-friendly-serbia-135451984",
       "image": "https://s.abcnews.com/images/International/wirestory_525abc93c80c868ec5f1705dca4168d0_4x3_384.jpg",
       "ts": 1786106050000,
       "coverage": {
-        "left": 1,
-        "center": 2,
+        "left": 2,
+        "center": 1,
         "right": 0,
         "total": 3,
         "buckets": {
           "left": 0,
-          "lean_left": 1,
-          "center": 2,
+          "lean_left": 2,
+          "center": 1,
           "lean_right": 0,
           "right": 0
         },
@@ -712,14 +765,14 @@
             "u": "https://abcnews.com/International/wireStory/ukraines-zelenskyy-make-visit-russia-friendly-serbia-135451984"
           },
           {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/08/07/zelensky-makes-landmark-visit-to-russia-ally-serbia_6756275_4.html"
+          },
+          {
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/ukraine-s-zelenskyy-makes-first-visit-to-russia-friendly-serbia/a-78285302?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/russia-central-asia/article/3363366/ukraines-zelensky-makes-first-visit-russia-friendly-serbia?utm_source=rss_feed"
           }
         ]
       }
@@ -7885,44 +7938,6 @@
             "n": "Washington Post World",
             "b": "lean_left",
             "u": "https://www.washingtonpost.com/world/2026/08/01/russia-hits-kyiv-with-second-ballistic-missile-assault-week/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cc5e261f934d",
-      "title": "China holds military drills near disputed South China Sea shoal",
-      "description": "The drills occur as territorial tensions with the Philippines intensify",
-      "lat": 11.73,
-      "lng": 114.28,
-      "severity": 2,
-      "location": "South China Sea",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/china-holds-military-drills-disputed-shoal-south-china-135284501",
-      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
-      "ts": 1785592437000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/china-holds-military-drills-disputed-shoal-south-china-135284501"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/amid-row-with-philippines-china-issues-new-rules-to-assert-control-over-south-china-sea-shoal/article71295672.ece"
           }
         ]
       }
