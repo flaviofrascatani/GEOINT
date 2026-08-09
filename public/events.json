@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-08-09T07:36:45.214525+00:00",
+  "updated": "2026-08-09T08:20:38.468781+00:00",
   "events": [
+    {
+      "id": "911b06be5204",
+      "title": "Attacchi russi in Ucraina: due morti a Kharkiv",
+      "description": "Russian missile attacks in Ukraine resulted in at least two deaths in Kharkiv",
+      "lat": 49.99,
+      "lng": 36.23,
+      "severity": 4,
+      "location": "Kharkiv, Ukraine",
+      "source": "AGI Estero",
+      "url": "https://www.agi.it/estero/news/2026-08-09/ucraina-russia-droni-attacchi-38457433/",
+      "image": "https://images.agi.it/pictures/agi/agi/2026/08/09/073656941-9948bb4d-b0ca-4400-a997-3c90f8981f77.jpg",
+      "ts": 1786262217000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "AGI Estero",
+            "b": "center",
+            "u": "https://www.agi.it/estero/news/2026-08-09/ucraina-russia-droni-attacchi-38457433/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "55b004d360b1",
+      "title": "Myanmar Says Asean’s Call for Suu Kyi Release Is Interference",
+      "description": "Myanmar’s military-backed government rejected the call by the Association of Southeast Asian Nations for the unconditional release of ousted leader Aung San Suu Kyi",
+      "lat": 16.8,
+      "lng": 98.05520000000001,
+      "severity": 3,
+      "location": "Naypyidaw, Myanmar",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-09/myanmar-says-asean-s-call-for-suu-kyi-release-is-interference",
+      "image": null,
+      "ts": 1786261656000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-09/myanmar-says-asean-s-call-for-suu-kyi-release-is-interference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e2aa0bfa8f28",
+      "title": "Nigeria: Mass wedding sees 1,500 couples tie the knot",
+      "description": "A state-sponsored mass wedding took place in Kano State, Nigeria, with 1,500 couples tying the knot",
+      "lat": 11.99,
+      "lng": 8.52,
+      "severity": 1,
+      "location": "Kano, Nigeria",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/08/09/nigeria-mass-wedding-sees-1500-couples-tie-the-knot-in-kano-state/",
+      "image": "http://images.euronews.com/articles/stories/09/86/75/33/640x360_cmsv2_92e6c8b5-2054-5710-bd7e-4b21aee160d8-9867533.jpg?1786253292",
+      "ts": 1786261247000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/09/nigeria-mass-wedding-sees-1500-couples-tie-the-knot-in-kano-state/"
+          }
+        ]
+      }
+    },
     {
       "id": "cb39af2df6ed",
       "title": "China launches satellite for Algeria",
@@ -31,6 +130,39 @@
             "n": "China Daily World",
             "b": "right",
             "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c9becdc7f702",
+      "title": "Car-bomb attack targets southwest Colombia",
+      "description": "A car-bomb attack occurred in southwest Colombia, allegedly carried out by dissident groups of the now-defunct Revolutionary Armed Forces of Colombia",
+      "lat": 3.43,
+      "lng": -76.52,
+      "severity": 4,
+      "location": "Cali, Colombia",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/car-bomb-attack-targets-southwest-colombia-day-after-conservative-president-takes-office/article71324033.ece",
+      "image": "https://th-i.thgim.com/public/incoming/n2iinz/article71324037.ece/alternates/LANDSCAPE_1200/Colombia_Inauguration_726_9.jpg",
+      "ts": 1786260296000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/car-bomb-attack-targets-southwest-colombia-day-after-conservative-president-takes-office/article71324033.ece"
           }
         ]
       }
@@ -7786,153 +7918,6 @@
             "n": "BBC Business",
             "b": "center",
             "u": "https://www.bbc.co.uk/news/articles/cglj1pr0wjwo?at_medium=RSS&at_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d8b391587d4f",
-      "title": "14 killed in suspected suicide bombing in Pakistan",
-      "description": "At least 14 people were killed in a suspected suicide bombing outside a police station in northwestern Pakistan",
-      "lat": 34.02,
-      "lng": 72.36000000000001,
-      "severity": 4,
-      "location": "Peshawar, Pakistan",
-      "source": "RTE News",
-      "url": "https://www.rte.ie/news/2026/0803/1586235-pakistan-suicide-bombing/",
-      "image": "https://www.rte.ie/images/0024ca94-800.jpg",
-      "ts": 1785713789000,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/02/world/asia/pakistan-police-station-bombing.html"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/2026/0803/1586235-pakistan-suicide-bombing/"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/deadly-suicide-bombing-targeting-anti-militant-protesters-in-pakistan-13569275"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/suspected-suicide-bombing-at-police-station-kills-at-least-14-in-pakistan-officials-say"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a75225c5042a",
-      "title": "Ukraine seeks more US Patriot interceptors as bomb shelter probe deepens",
-      "description": "A former Ukrainian official describes 'scandalous situations' in bomb shelters as Volodymyr Zelenskyy pushes partners for 300 Patriot interceptors.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 3,
-      "location": "Kyiv, Ukraine",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/ukraine-seeks-more-us-patriot-interceptors-bomb-shelter-probe-deepens",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/07/931/523/gettyimages-2165218523.jpg?ve=1&tl=1",
-      "ts": 1785712855000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/ukraine-seeks-more-us-patriot-interceptors-bomb-shelter-probe-deepens"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a20b5f84551f",
-      "title": "Ukraine seeks more US Patriot interceptors",
-      "description": "Ukraine is seeking additional US Patriot interceptors as it faces ongoing conflict with Russian-backed separatists.",
-      "lat": 51.55,
-      "lng": 30.52000000000001,
-      "severity": 3,
-      "location": "Kyiv, Ukraine",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/ukraine-seeks-more-us-patriot-interceptors-bomb-shelter-probe-deepens",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/07/931/523/gettyimages-2165218523.jpg?ve=1&tl=1",
-      "ts": 1785712855000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/ukraine-seeks-more-us-patriot-interceptors-bomb-shelter-probe-deepens"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ce4d59b69aa0",
-      "title": "Local volunteers help rebuild destroyed Christian monastery in Lebanon",
-      "description": "Interfaith volunteers rebuild war-damaged Catholic monastery in Lebanon’s Zawtar al-Gharbiyeh.",
-      "lat": 35.51,
-      "lng": 36.8126,
-      "severity": 1,
-      "location": "Beirut, Lebanon",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/2/local-volunteers-help-rebuild-destroyed-christian-monastery-in-lebanon?traffic_source=rss",
-      "image": null,
-      "ts": 1785705483000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/2/local-volunteers-help-rebuild-destroyed-christian-monastery-in-lebanon?traffic_source=rss"
           }
         ]
       }
