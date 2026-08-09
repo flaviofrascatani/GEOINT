@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-08-09T17:39:43.104661+00:00",
+  "updated": "2026-08-09T18:53:43.900299+00:00",
   "events": [
+    {
+      "id": "cb39af2df6ed",
+      "title": "China Launches Satellite for Algeria",
+      "description": "A Chinese-made communications satellite was launched for Algeria, the first such export to an Arab country.",
+      "lat": 36.77,
+      "lng": 3.06,
+      "severity": 2,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1786301623776,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "70ef8963a88d",
+      "title": "Syria and Russia Agree on Future of Military Bases",
+      "description": "Syria will take over management of two Russian bases that were used to support ousted leader Bashar Assad during the Syrian civil war.",
+      "lat": 33.52,
+      "lng": 36.27000000000001,
+      "severity": 1,
+      "location": "Damascus, Syria",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/syria-says-deal-agreed-with-russia-on-future-of-military-bases/a-78297584?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1786301623775,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/syria-says-deal-agreed-with-russia-on-future-of-military-bases/a-78297584?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0cda85bc0a16",
+      "title": "Trump Says US is 'Low-Keying It' with Iran",
+      "description": "US President Donald Trump signaled that he is prepared to let economic pressure mount against Iran.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3363467/trump-says-us-low-keying-it-iran-stresses-economic-pain?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/10/fc9c052d-59e0-4fb4-b8ce-d0e5e905e93a_2d55a24f.jpg?itok=SJCSxyMa&v=1786301091",
+      "ts": 1786301157000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/iran-us-war-donald-trump-were-low-keying-it-trump-on-us-iran-negotiations-11887507#publisher=newsstand"
+          }
+        ]
+      }
+    },
     {
       "id": "522b15096fd3",
       "title": "Houthis attack shipping in Red Sea",
@@ -238,6 +337,124 @@
             "n": "Channel News Asia",
             "b": "center",
             "u": "https://www.channelnewsasia.com/world/israel-netanyahu-rejects-us-gaza-plan-hamas-trump-6308466"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e09cde0c8a5e",
+      "title": "Netanyahu Rejects Trump's 15-Point Peace Plan for Gaza",
+      "description": "Israeli Prime Minister Benjamin Netanyahu rejected a proposal by US-backed mediators for disarming Hamas.",
+      "lat": 30.8274,
+      "lng": 36.860000000000014,
+      "severity": 3,
+      "location": "Jerusalem, Israel",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/08/09/netanyahu-rejects-trump-backed-plan-hamas-disarm-israel-leave-gaza/",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-08/260809-netanyahu-nd-42565f.jpg",
+      "ts": 1786288581000,
+      "coverage": {
+        "left": 6,
+        "center": 10,
+        "right": 2,
+        "total": 18,
+        "buckets": {
+          "left": 0,
+          "lean_left": 6,
+          "center": 10,
+          "lean_right": 0,
+          "right": 2
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/09/world/middleeast/israel-netanyahu-trump-15-point-plan-hamas-peace-gaza.html"
+          },
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/08/09/netanyahu-rejects-trump-backed-plan-hamas-disarm-israel-leave-gaza/"
+          },
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/israel/israel-rejects-trumps-15-point-plan-gaza-pm-benjamin-netanyahu-says-rcna591555"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/israel-netanyahu-gaza-peace-plan-37530209"
+          },
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/08/09/netanyahu-says-israel-to-reject-trumps-plan-for-gaza/"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/08/09/netanyahu-rejects-us-plan-for-gaza-accepted-by-hamas-in-new-break-from-trump_6756316_4.html"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/netanyahu-snubs-gaza-peace-plan-bibi-risks-fury-trump-shore-voter-base-israeli-polls-3806222"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/2026/0809/1587148-israel-gaza/"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/e4650e97-be1f-479d-8959-c892785abf49?syn-25a6b1a6=1"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/israeli-prime-minister-benjamin-netanyahu-rejects-trumps-board-of-peace-plan-for-gaza-13571334"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/middle-east-netanyahu-says-israel-rejects-trump-s-gaza-plan/live-78289364?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSHJIQ1JLMkZjdHl3bWRsWlFvV0JHdWt2S2xvYU40dV90MDNpRHBqUWY1LS1uVGRKRnJsTko4TFhZOEJ3NHNlTzljSzQ4Mm9YN2JaQnA5R2dSak1sUDctRDd4T1dlUjZFMF9UelkyOFh1RllaMENfM2ZOcTg2bnlRZWszZ2JzeVRXLXYxVkxucHBFODlFU3BuSUFZei1LQndaY2RMZGl3ZFc5ZThCQVpvRUlVUk9idw?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-09/netanyahu-rejects-us-backed-proposal-for-hamas-disarmament"
+          },
+          {
+            "n": "AGI Estero",
+            "b": "center",
+            "u": "https://www.agi.it/estero/news/2026-08-09/gaza-israele-roadmap-netanyahu-38459950/"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/world/israel-netanyahu-rejects-us-gaza-plan-hamas-trump-6308466"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/netanyahu-rejects-board-peace-gaza-plan-no-withdrawal-until-hamas-genuinely-disarmed"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/politics/2026/08/09/azerbaijans-pres-aliyev-marks-one-year-of-trump-brokered-armenia-peace-says-u-s-ties-at-highest-point-in-34-years/"
           }
         ]
       }
@@ -481,94 +698,6 @@
             "n": "Google News Top",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4zRllVTFNibWllNDg4ajFiUW1ZTnBzOGpnbXF2TURHY0Qwckl0bnhtZ250eGxZbVdQWk11N25XQkhITGtqZzh4X0VDaXJsdHo3dUIzZHhRaHItNHVjYi1sTlg4VHZpanBpcVZrSXpzY3A?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e09cde0c8a5e",
-      "title": "Israel rejects Trump's 15-point plan for Gaza",
-      "description": "Israeli Prime Minister Benjamin Netanyahu announced Israel's rejection of US President Donald Trump's 15-point plan for Gaza.",
-      "lat": 30.8274,
-      "lng": 36.860000000000014,
-      "severity": 2,
-      "location": "Jerusalem, Israel",
-      "source": "Sky News World",
-      "url": "https://news.sky.com/story/israeli-prime-minister-benjamin-netanyahu-rejects-trumps-board-of-peace-plan-for-gaza-13571334",
-      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-08/260809-netanyahu-nd-42565f.jpg",
-      "ts": 1786274769000,
-      "coverage": {
-        "left": 5,
-        "center": 6,
-        "right": 1,
-        "total": 12,
-        "buckets": {
-          "left": 0,
-          "lean_left": 5,
-          "center": 6,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/09/netanyahu-rejects-trump-backed-plan-hamas-disarm-israel-leave-gaza/"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/israel/israel-rejects-trumps-15-point-plan-gaza-pm-benjamin-netanyahu-says-rcna591555"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/israel-rejects-trumps-15-point-gaza-peace-plan-11886291#publisher=newsstand"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/israel-netanyahu-gaza-peace-plan-37530209"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/9/netanyahu-rejects-trumps-board-of-peace-plan-for-gaza?traffic_source=rss"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/2026/0809/1587148-israel-gaza/"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/israeli-prime-minister-benjamin-netanyahu-rejects-trumps-board-of-peace-plan-for-gaza-13571334"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/middle-east-netanyahu-says-israel-rejects-trump-s-gaza-plan/live-78289364?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8ybUZORk1xZU9zSVFCaVRFXzRfcl9Kd1VHNWRsTHhqS2RzNEQtMjgyUUlNS08yVHBXZEdtYWlFcnZhTzNDNEp2WXBHUzJycE9rVC12eEh6dXIzZw?oc=5"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/israel-rejects-trumps-gaza-peace-plan-saying-no-withdrawal-until-hamas-disarms/"
-          },
-          {
-            "n": "New York Post",
-            "b": "lean_right",
-            "u": "https://nypost.com/2026/08/09/us-news/israel-rejects-trumps-15-point-peace-plan-for-gaza-netanyahu-says/"
           }
         ]
       }
@@ -893,39 +1022,6 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/08/09/nigeria-mass-wedding-sees-1500-couples-tie-the-knot-in-kano-state/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cb39af2df6ed",
-      "title": "China launches satellite for Algeria",
-      "description": "A Chinese-made communications satellite became the first 'export' of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
-      "lat": 36.77,
-      "lng": 3.06,
-      "severity": 1,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1786261005094,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
           }
         ]
       }
@@ -7932,72 +8028,6 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/643807-spain-ceuta-migrants-crisis/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0b27bb537884",
-      "title": "EU calls for united action on border security after Ceuta crisis",
-      "description": "The European Commission has called for united action from EU member states on border security following the Ceuta migrant crisis.",
-      "lat": 50.85,
-      "lng": 6.255200000000002,
-      "severity": 3,
-      "location": "Brussels, Belgium",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/ceuta-eu-calls-borders-a-shared-european-responsibility/a-78220701?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1785781124695,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/ceuta-eu-calls-borders-a-shared-european-responsibility/a-78220701?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4c2a62b65567",
-      "title": "Iran says it is in talks with Oman, not the US",
-      "description": "Iran confirmed it is in talks with Oman, but denied negotiating with the US, contradicting President Trump's claims.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c23579jzv08o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e8c/live/a2cd4400-8f46-11f1-bea5-516364e5690e.jpg",
-      "ts": 1785778887000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c23579jzv08o?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
