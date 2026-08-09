@@ -1,7 +1,55 @@
 {
   "schema": 1,
-  "updated": "2026-08-09T14:09:50.018989+00:00",
+  "updated": "2026-08-09T15:04:14.613049+00:00",
   "events": [
+    {
+      "id": "b6cf60b8ed4d",
+      "title": "Iran sets tough terms to reopen Strait of Hormuz",
+      "description": "Iran's national security chief has outlined a list of demands for the US to meet before Tehran reopens the Strait of Hormuz",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/iran-sets-tough-terms-to-reopen-strait-of-hormuz",
+      "image": "https://s.france24.com/media/display/12be1ea8-93ff-11f1-8bb7-005056a97e36/w:1024/p:16x9/EN-20260809-160144-160717-CS.jpg",
+      "ts": 1786287540000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/iran-issues-trump-surrender-document-37529507"
+          },
+          {
+            "n": "BBC Business",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/iran-sets-tough-terms-to-reopen-strait-of-hormuz"
+          },
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/how-both-iran-and-oman-have-economic-claims-to-the-strait-of-hormuz/"
+          }
+        ]
+      }
+    },
     {
       "id": "2260358acfa2",
       "title": "Mexico deploys 1,700 marines against violence in Mazatlán",
@@ -286,6 +334,64 @@
       }
     },
     {
+      "id": "92054aeeebb5",
+      "title": "Saudi Aramco extinguishes fire at refinery as Houthis claim responsibility",
+      "description": "A fire broke out at a Saudi Aramco refinery, with Yemen's Houthi rebels claiming responsibility for the attack",
+      "lat": 16.45,
+      "lng": 44.19,
+      "severity": 4,
+      "location": "Sanaa, Yemen",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/08/09/saudi-aramco-extinguishes-refinery-fire-houthis-claim-attack.html",
+      "image": null,
+      "ts": 1786274580000,
+      "coverage": {
+        "left": 3,
+        "center": 3,
+        "right": 0,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/yemens-houthis-claim-attack-aramco-oil-facility-saudi-135496001"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/yemens-houthis-claim-attack-on-aramco-refinery-on-red-sea-coast-11885963#publisher=newsstand"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/fire-extinguished-at-aramco-facility-in-jizan-says-saudi-arabia/article71324246.ece"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/08/09/saudi-aramco-extinguishes-refinery-fire-houthis-claim-attack.html"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPV2psZVVzWDFLUWxaM0N2dTlwTXpyQUhLVXRUNzFMZ1hoWVpQQk1iUXlZQWNFRTJKeFRZSFdfOWZCU0VxenBzOExCUXJDZm9DM3FCMmpOYXc5Y1dkSHpPOUdUTDFYN09mc0d0NmV4ZEtDWEhuVDdMcjN3QWdpcmlXUy1KcGRXd1NuSmt6ZTNMX0hTanNQZF9DelRIMFQxUHJ3UUJEb3FhM3QzMFRrNnZ5ZW9n?oc=5"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/yemens-houthis-attack-saudi-refinery-after-kingdom-signs-defence-pact"
+          }
+        ]
+      }
+    },
+    {
       "id": "ad0279f08c0c",
       "title": "Typhoon Dolphin hits China’s east coast, over 1 million evacuated",
       "description": "Typhoon Dolphin hits China’s east coast, over 1 million evacuated",
@@ -448,64 +554,6 @@
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/east-asia/taiwans-2027-defence-spending-to-rise-16-official-media-reports"
-          }
-        ]
-      }
-    },
-    {
-      "id": "92054aeeebb5",
-      "title": "Yemen's Houthis say they attacked Saudi Aramco Jazan refinery, fire extinguished",
-      "description": "Yemen's Iran-aligned Houthis said they had attacked Saudi Aramco's Jazan refinery on Sunday, two days after the kingdom signed a defence pact with Turkey and Pakistan.",
-      "lat": 16.45,
-      "lng": 44.19,
-      "severity": 3,
-      "location": "Sanaa, Yemen",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/08/yemens-houthis-say-they-attacked-saudi-aramco-jazan-refinery-fire-extinguished",
-      "image": null,
-      "ts": 1786265194000,
-      "coverage": {
-        "left": 1,
-        "center": 4,
-        "right": 1,
-        "total": 6,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 4,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/yemens-houthis-claim-attack-aramco-oil-facility-saudi-135496001"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/article-904944"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-09/saudi-says-fire-at-aramco-refinery-in-jazan-was-extinguished-msl61cku"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/yemens-houthis-say-they-attacked-saudi-aramco-jazan-refinery-fire-extinguished"
-          },
-          {
-            "n": "Times of India World",
-            "b": "center",
-            "u": "https://timesofindia.indiatimes.com/world/middle-east/houthi-attack-suspected-at-saudi-gas-facility-in-jubail-aramco-jazan-fire-extinguished/articleshow/133063118.cms"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2170647"
           }
         ]
       }
@@ -7880,39 +7928,6 @@
             "n": "The Guardian World",
             "b": "lean_left",
             "u": "https://www.theguardian.com/world/2026/aug/03/ceuta-leader-border-crossing-morocco-spain"
-          }
-        ]
-      }
-    },
-    {
-      "id": "260fa0066729",
-      "title": "Morocco Blames Ceuta Border Surge on Misleading Info Spread Online",
-      "description": "Morocco blamed the surge of migrants into Ceuta on the spread of misleading information online and 'malicious exploitation of digital platforms'.",
-      "lat": 35.88,
-      "lng": -5.310000000000002,
-      "severity": 3,
-      "location": "Ceuta, Spain",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/morocco-ceuta-border-surge-social-media-misleading-info/",
-      "image": null,
-      "ts": 1785765360000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/morocco-ceuta-border-surge-social-media-misleading-info/"
           }
         ]
       }
