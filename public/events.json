@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-09T04:01:40.491530+00:00",
+  "updated": "2026-08-09T05:13:11.613288+00:00",
   "events": [
+    {
+      "id": "9187f0df6474",
+      "title": "Car bomb hits Colombia highway",
+      "description": "A car bomb destroyed a toll booth on a highway in Colombia a day after President Abelardo de la Espriella was sworn in.",
+      "lat": 3.42,
+      "lng": -76.52,
+      "severity": 3,
+      "location": "Cali, Colombia",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/08-09-2026-colombia-car-bomb-sv-mp4?traffic_source=rss",
+      "image": null,
+      "ts": 1786249952000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/9/08-09-2026-colombia-car-bomb-sv-mp4?traffic_source=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "5a77af0bf017",
       "title": "Iran Issues Demands for Reopening Strait of Hormuz",
@@ -76,6 +109,39 @@
             "n": "Washington Examiner",
             "b": "right",
             "u": "https://www.washingtonexaminer.com/news/world/4680225/iran-hormuz-deal-list-demand-us/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1d93aba29f06",
+      "title": "Iran says strait won't open until the U.S. 'corrects' behavior",
+      "description": "The United Arab Emirates' Abu Dhabi National Oil Company said one of its ships was targeted while transiting the strait.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 2,
+      "location": "Strait of Hormuz",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/",
+      "image": null,
+      "ts": 1786247791000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/"
           }
         ]
       }
@@ -187,39 +253,6 @@
       "lng": 56.25,
       "severity": 3,
       "location": "Strait of Hormuz, Iran",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/",
-      "image": null,
-      "ts": 1786228479000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1d93aba29f06",
-      "title": "Iran says strait won't open until the US 'corrects' behavior",
-      "description": "The United Arab Emirates' Abu Dhabi National Oil Company said one of its ships was targeted while transiting the strait on Saturday.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 3,
-      "location": "Strait of Hormuz",
       "source": "CBS News World",
       "url": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/",
       "image": null,
@@ -2778,6 +2811,39 @@
             "n": "HuffPost World",
             "b": "left",
             "u": "https://www.huffpost.com/entry/uganda-soccer-star-killed_n_6a75a954e4b04fcbf74e52a7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d276562f0dfc",
+      "title": "Ugandan footballer killed by robbers",
+      "description": "David Owori, who played for the national team, died in hospital after he tried to stop robbers taking his phone.",
+      "lat": 1.42,
+      "lng": 34.48519999999999,
+      "severity": 3,
+      "location": "Kampala, Uganda",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/uganda-soccer-star-killed_n_6a75a954e4b04fcbf74e52a7",
+      "image": null,
+      "ts": 1786096426000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/football/2026/aug/06/top-uganda-footballer-killed-robbery-kampala"
           }
         ]
       }
@@ -7887,77 +7953,6 @@
             "n": "South China Morning Post",
             "b": "center",
             "u": "https://www.scmp.com/news/world/europe/article/3362725/greece-firefighting-helicopters-collide-battle-contain-wildfires-continues?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "176c31cbfeb6",
-      "title": "Pakistan: Suicide bomber kills 14 at anti-militancy protest",
-      "description": "A suicide bomber has killed more than a dozen people, including police, in an attack during a demonstration of citizens against militancy.",
-      "lat": 34.82,
-      "lng": 73.05000000000001,
-      "severity": 4,
-      "location": "Islamabad, Pakistan",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/pakistan-suicide-bomber-kills-14-at-anti-militancy-protest/a-78209642?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1785699957456,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/suicide-attack-during-protest-in-northern-pakistan-police/article71298666.ece"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/pakistan-suicide-bomber-kills-14-at-anti-militancy-protest/a-78209642?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2ee149994127",
-      "title": "Moroccans gather at Ceuta border, desperate for news of loved ones",
-      "description": "Dozens of Moroccans gathered on Sunday in the town of Fnideq, desperately seeking news of their loved ones who were among the thousands who swam across the nearby border to the Spanish territory of Ceuta.",
-      "lat": 35.88,
-      "lng": -5.360000000000014,
-      "severity": 3,
-      "location": "Fnideq, Morocco",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/08/moroccans-gather-ceuta-border-desperate-news-loved-ones",
-      "image": null,
-      "ts": 1785699034000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/moroccans-gather-ceuta-border-desperate-news-loved-ones"
           }
         ]
       }
