@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-08-08T23:59:48.782844+00:00",
+  "updated": "2026-08-09T02:21:06.645492+00:00",
   "events": [
     {
       "id": "820bfb82466a",
@@ -198,6 +198,44 @@
       }
     },
     {
+      "id": "83fb556b340b",
+      "title": "20,000 flee wildfires as British Columbia declares state of emergency",
+      "description": "Over 20,000 people have fled wildfires in British Columbia, as the province declares a state of emergency.",
+      "lat": 49.28,
+      "lng": -123.12,
+      "severity": 4,
+      "location": "Victoria, British Columbia, Canada",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/fast-moving-wildfire-forces-20000-people-evacuate-western-135483600",
+      "image": "https://s.abcnews.com/images/International/wirestory_61002c95f641a4060b78195b016fbea3_4x3_384.jpg",
+      "ts": 1786225841000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/fast-moving-wildfire-forces-20000-people-evacuate-western-135483600"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/world/2026/0809/1587115-canada-fires-world/"
+          }
+        ]
+      }
+    },
+    {
       "id": "06885a536898",
       "title": "Iran issues list of demands to US",
       "description": "Iran has issued a list of demands to the US, including compensation and the lifting of sanctions, in order to reopen the Strait of Hormuz.",
@@ -232,26 +270,26 @@
     },
     {
       "id": "503873e07831",
-      "title": "Ukraine braces for winter power crisis after Russian strikes",
-      "description": "Ukrainian President Volodymyr Zelensky warned that Ukraine faces a winter with virtually no working thermal power plants.",
+      "title": "At least 17 people killed in Russian strikes on Ukraine",
+      "description": "At least 17 people have been killed in overnight Russian strikes on Kyiv and the surrounding region.",
       "lat": 48.38,
       "lng": 31.16,
-      "severity": 2,
+      "severity": 4,
       "location": "Kyiv, Ukraine",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/europe/20260808-ukraine-braces-for-winter-power-crisis-after-russian-strikes-zelensky-says",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/video/at-least-17-people-killed-after-fatal-overnight-russian-strikes-267799621872",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4e4c/live/d37c5f10-9184-11f1-9587-294e25c71c14.png",
       "ts": 1786218501000,
       "coverage": {
-        "left": 1,
+        "left": 3,
         "center": 2,
-        "right": 0,
-        "total": 3,
+        "right": 1,
+        "total": 6,
         "buckets": {
           "left": 0,
-          "lean_left": 1,
+          "lean_left": 3,
           "center": 2,
-          "lean_right": 0,
+          "lean_right": 1,
           "right": 0
         },
         "sources": [
@@ -259,6 +297,16 @@
             "n": "NBC News World",
             "b": "lean_left",
             "u": "https://www.nbcnews.com/video/at-least-17-people-killed-after-fatal-overnight-russian-strikes-267799621872"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/as-russia-ukraine-trade-missiles-zelensky-lands-in-moscow-friendly-serbia-11884208#publisher=newsstand"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/russia-strikes-attack-on-ukraine-updates-toll-august-8-2026/article71320452.ece"
           },
           {
             "n": "RTE News",
@@ -269,6 +317,11 @@
             "n": "France 24",
             "b": "center",
             "u": "https://www.france24.com/en/europe/20260808-ukraine-braces-for-winter-power-crisis-after-russian-strikes-zelensky-says"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/europe/russian-attacks-kill-4-as-kyiv-intensifies-strikes-on-oil-facilities"
           }
         ]
       }
@@ -2603,10 +2656,10 @@
     {
       "id": "6392d716168e",
       "title": "Ugandan footballer killed by robbers",
-      "description": "Ugandan footballer David Owori was killed by robbers armed with paving stones near his home in Kampala.",
+      "description": "Ugandan footballer David Owori has been killed by robbers in Kampala.",
       "lat": 1.41,
       "lng": 32.56999999999999,
-      "severity": 4,
+      "severity": 3,
       "location": "Kampala, Uganda",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/uganda-soccer-star-killed_n_6a75a954e4b04fcbf74e52a7",
@@ -7900,49 +7953,6 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/least-72-dead-mass-migrant-rush-storm-spanish-enclave-ceuta-sparking-border-crisis"
-          }
-        ]
-      }
-    },
-    {
-      "id": "df92331ce155",
-      "title": "Brazil's Lula launches reelection bid",
-      "description": "Brazil’s President Luiz Inácio Lula da Silva has confirmed his candidacy for what is likely his last reelection bid.",
-      "lat": -15.79,
-      "lng": -47.92,
-      "severity": 2,
-      "location": "Brasília, Brazil",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/brazils-lula-launches-reelection-bid-concerns-rise-foreign-135308231",
-      "image": "https://s.abcnews.com/images/International/wirestory_22cccc3135b09e2186898dd3cb394ed4_4x3_384.jpg",
-      "ts": 1785689294000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/brazils-lula-launches-reelection-bid-concerns-rise-foreign-135308231"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/americas/article/3362729/brazils-president-lula-80-says-great-shape-he-launches-bid-fourth-term?utm_source=rss_feed"
-          },
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/08/02/lula-pledges-defense-spending-so-no-one-invades-brazil-as-he-confirms-his-candidacy?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
           }
         ]
       }
