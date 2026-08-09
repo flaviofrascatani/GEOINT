@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-08-09T10:07:31.173121+00:00",
+  "updated": "2026-08-09T10:48:24.051472+00:00",
   "events": [
+    {
+      "id": "03389ae659ba",
+      "title": "Russia attacks Ukraine's Odesa port",
+      "description": "Ukraine's Odesa seaport sustained damage from an overnight Russian attack",
+      "lat": 46.48,
+      "lng": 30.73,
+      "severity": 4,
+      "location": "Odesa, Ukraine",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/ukraines-odesa-port-sustains-damage-russian-attack-zelenskiy-says",
+      "image": null,
+      "ts": 1786272393000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/ukraines-odesa-port-sustains-damage-russian-attack-zelenskiy-says"
+          }
+        ]
+      }
+    },
+    {
+      "id": "15aed7c31123",
+      "title": "Iran says strait won't open until the U.S. 'corrects' behavior",
+      "description": "Iran says the Strait of Hormuz will not open until the United States 'corrects' its behavior",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 2,
+      "location": "Strait of Hormuz, Iran",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/",
+      "image": null,
+      "ts": 1786271137000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/iran-us-war-live-updates-uae-attacks-strait-of-hormuz-lebanon-infiltration-donald-trump-irgc-netanyahu/article71323971.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fb6aa14ff723",
+      "title": "Taiwan's 2027 defense spending to rise 16%",
+      "description": "Taiwan's Cabinet will propose a budget for 2027 that will for the first time exceed 1 trillion new Taiwan dollars",
+      "lat": 26.13,
+      "lng": 121.56,
+      "severity": 2,
+      "location": "Taipei, Taiwan",
+      "source": "Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/08/09/asia-pacific/taiwan-2027-defense-spending-rise/",
+      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/08/09/556343.JPG",
+      "ts": 1786266420000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/08/09/asia-pacific/taiwan-2027-defense-spending-rise/"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/east-asia/taiwans-2027-defence-spending-to-rise-16-official-media-reports"
+          }
+        ]
+      }
+    },
     {
       "id": "92054aeeebb5",
       "title": "Yemen's Houthis say they attacked Saudi Aramco Jazan refinery, fire extinguished",
@@ -535,39 +639,6 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-08-08/pentagon-asks-defense-firms-to-boost-production-of-key-systems"
-          }
-        ]
-      }
-    },
-    {
-      "id": "15aed7c31123",
-      "title": "Iran says strait won't open until US 'corrects' behavior",
-      "description": "Iran has said that the Strait of Hormuz will not be reopened until the US 'corrects' its behavior, amid ongoing tensions between the two countries.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 3,
-      "location": "Strait of Hormuz, Iran",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/",
-      "image": null,
-      "ts": 1786228479000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/"
           }
         ]
       }
@@ -7837,117 +7908,6 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-08-03/morocco-blames-ceuta-chaos-on-misinformation-human-trafficking"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d84494f50371",
-      "title": "Earthquake hits Egypt, triggering emergency response",
-      "description": "A magnitude 5.5 earthquake struck near the Egyptian city of Suez, shaking buildings across Cairo and prompting authorities to activate emergency response plans.",
-      "lat": 30.08,
-      "lng": 34.45519999999999,
-      "severity": 3,
-      "location": "Suez, Egypt",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/08/03/magnitude-55-quake-jolts-egypt-triggering-emergency-response/",
-      "image": "http://images.euronews.com/articles/stories/09/85/97/06/640x360_cmsv2_ae6a624d-339b-5686-8ac3-1db03c7e33a2-9859706.jpg?1785731989",
-      "ts": 1785738825000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/03/magnitude-55-quake-jolts-egypt-triggering-emergency-response/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c15b8e531e5d",
-      "title": "Myanmar allows glimpse of ousted leader Suu Kyi",
-      "description": "Myanmar's military-backed government has released photographs of Aung San Suu Kyi meeting a representative of the International Committee of the Red Cross.",
-      "lat": 16.86,
-      "lng": 96.15,
-      "severity": 2,
-      "location": "Naypyidaw, Myanmar",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-03/myanmar-shows-nobel-winner-suu-kyi-meeting-red-cross-amid-fear-for-her-health",
-      "image": null,
-      "ts": 1785735845000,
-      "coverage": {
-        "left": 3,
-        "center": 7,
-        "right": 0,
-        "total": 10,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 7,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/myanmars-detained-former-leader-aung-san-suu-kyi-135316759"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/3/08-03-2026-aung-san-suu-kyi-pictures-sv?traffic_source=rss"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/myanmars-aung-san-suu-kyi-meets-red-cross-official-government-says/article71299861.ece"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c1e1d5j6660o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/myanmar-aung-san-suu-kyi-meets-red-cross-official-junta-says/a-78211532?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/asia/2026/08/03/myanmar-suu-kyi-incontra-un-rappresentante-della-croce-rossa_bafaedb4-11bb-4d7c-b832-c1f286bae244.html"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeWlQc1R5UUVnUGx3REtuRjN1aTYzYVJQVkllU1hxdFRxNjlPU1ZCdU9OUzBsUXZfRFJYX0dnSFoyMnlmaDlVdTd2bHIwSXFkVW94c2l6RDYxM3dqdk5RdUlGdTBCMzlmS05zN3REZWgwUDlDMEVQYTQ2MC1TSWVkM1Q4R0taazJNaDNPdkNaNzlIMXQzcWVuTlpkbFJIVWMwb1R1QV9R?oc=5"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-03/myanmar-shows-nobel-winner-suu-kyi-meeting-red-cross-amid-fear-for-her-health"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/aung-san-suu-kyi-meets-red-cross-official-military-backed-government-says-after-proof-of-life-campaign/"
-          },
-          {
-            "n": "Nikkei Asia",
-            "b": "center",
-            "u": "https://asia.nikkei.com/spotlight/myanmar-crisis/myanmar-grants-access-to-suu-kyi-ahead-of-thailand-visit"
           }
         ]
       }
