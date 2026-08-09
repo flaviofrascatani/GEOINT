@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-09T19:41:18.313414+00:00",
+  "updated": "2026-08-09T20:43:01.040595+00:00",
   "events": [
+    {
+      "id": "7c32a781788e",
+      "title": "Israel's new $634M German-built 'doomsday' sub gives major boost to Iran deterrence",
+      "description": "The INS Drakon is the largest submarine built in Germany since World War II, carrying a $634 million price tag as Israel bolsters naval power.",
+      "lat": 32.06,
+      "lng": 34.77000000000001,
+      "severity": 2,
+      "location": "Tel Aviv, Israel",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/israel-receives-634-million-submarine-germany-major-boost-naval-deterrence",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/08/931/523/israeli-submarine.jpg?ve=1&tl=1",
+      "ts": 1786304049000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/israel-receives-634-million-submarine-germany-major-boost-naval-deterrence"
+          }
+        ]
+      }
+    },
     {
       "id": "cb39af2df6ed",
       "title": "China Launches Satellite for Algeria",
@@ -97,6 +130,64 @@
             "n": "NDTV World",
             "b": "lean_left",
             "u": "https://www.ndtv.com/world-news/iran-us-war-donald-trump-were-low-keying-it-trump-on-us-iran-negotiations-11887507#publisher=newsstand"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1b4e22ce5a55",
+      "title": "Iran denies any direct talks with U.S. on opening Strait of Hormuz",
+      "description": "Iran's foreign minister reportedly said his country is not engaging in talks with the U.S., but added: 'Messages are being exchanged through intermediaries.'",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/08/09/saudi-aramco-extinguishes-refinery-fire-houthis-claim-attack.html",
+      "image": null,
+      "ts": 1786299357000,
+      "coverage": {
+        "left": 1,
+        "center": 5,
+        "right": 0,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 5,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/iran-issues-trump-surrender-document-37529507"
+          },
+          {
+            "n": "BBC Business",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/08/09/saudi-aramco-extinguishes-refinery-fire-houthis-claim-attack.html"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/iran-sets-tough-terms-to-reopen-strait-of-hormuz"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLVlSazBucFNIOGZ3aG91cDZhcTFfMWI4NWMycVczNWtmVHRKTU54WlJud1JqVUxCOW84U1p0OU5aSjdBNnJHS2xmLVVIaVdGZUpNemJKaTA5aV9TU1NHaHlZMEo1X1VjX2wxTExReTl0Tk5SYkRsMWsxWUo3UWw3UE1iV0N2UmJydWZFeHZpX01Ba1NISVdtei01OXRnMUtpem80dW5wa1FKNnhNQzZOMGlJMG8?oc=5"
+          },
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/how-both-iran-and-oman-have-economic-claims-to-the-strait-of-hormuz/"
           }
         ]
       }
@@ -3165,10 +3256,10 @@
     {
       "id": "866ccffe9562",
       "title": "Spain to introduce temporary border checks on visitors from Italy",
-      "description": "Spain will introduce temporary border checks on visitors from Italy in response to Rome imposing similar measures.",
+      "description": "Spain has announced it will introduce temporary border checks on visitors from Italy in response to Rome imposing similar measures.",
       "lat": 40.42,
       "lng": -3.71,
-      "severity": 2,
+      "severity": 3,
       "location": "Madrid, Spain",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy",
@@ -3176,13 +3267,13 @@
       "ts": 1786139078000,
       "coverage": {
         "left": 1,
-        "center": 1,
+        "center": 0,
         "right": 0,
-        "total": 2,
+        "total": 1,
         "buckets": {
           "left": 0,
           "lean_left": 1,
-          "center": 1,
+          "center": 0,
           "lean_right": 0,
           "right": 0
         },
@@ -3191,11 +3282,6 @@
             "n": "The Guardian World",
             "b": "lean_left",
             "u": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/09/spain-imposes-temporary-retaliatory-border-checks-for-italians/"
           }
         ]
       }
@@ -7962,72 +8048,6 @@
             "n": "Le Monde English",
             "b": "lean_left",
             "u": "https://www.lemonde.fr/en/international/article/2026/08/03/ukrainian-firefighters-join-battle-against-france-fire-in-an-unprecedented-mobilization_6756126_4.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c8caa5d5bfc6",
-      "title": "Egypt and Saudi Arabia call for immediate end to regional escalation",
-      "description": "Egypt and Saudi Arabia have called for an immediate end to regional escalation and for diplomacy to defuse mounting tensions.",
-      "lat": 31.15,
-      "lng": 33.15520000000001,
-      "severity": 2,
-      "location": "Cairo, Egypt",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/world/mid-east/egypt-saudi-arabia-call-for-immediate-end-to-regional-escalation",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/08/03/454032.jpg",
-      "ts": 1785786240000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/mid-east/egypt-saudi-arabia-call-for-immediate-end-to-regional-escalation"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d4ef629c96b6",
-      "title": "Ceuta migrant surge deepens political divide in Spain",
-      "description": "A mass migrant surge into the Spanish enclave of Ceuta has deepened the political divide in Spain.",
-      "lat": 35.89,
-      "lng": -5.310000000000002,
-      "severity": 3,
-      "location": "Ceuta, Spain",
-      "source": "RT News",
-      "url": "https://www.rt.com/news/643807-spain-ceuta-migrants-crisis/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.08/thumbnail/6a70d60a2030276d32313d9c.jpg",
-      "ts": 1785782263000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/643807-spain-ceuta-migrants-crisis/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
           }
         ]
       }
