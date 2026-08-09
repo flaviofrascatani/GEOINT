@@ -1,7 +1,65 @@
 {
   "schema": 1,
-  "updated": "2026-08-09T08:20:38.468781+00:00",
+  "updated": "2026-08-09T09:20:29.856349+00:00",
   "events": [
+    {
+      "id": "92054aeeebb5",
+      "title": "Yemen's Houthis say they attacked Saudi Aramco Jazan refinery, fire extinguished",
+      "description": "Yemen's Iran-aligned Houthis said they had attacked Saudi Aramco's Jazan refinery on Sunday, two days after the kingdom signed a defence pact with Turkey and Pakistan.",
+      "lat": 16.45,
+      "lng": 44.19,
+      "severity": 3,
+      "location": "Sanaa, Yemen",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/yemens-houthis-say-they-attacked-saudi-aramco-jazan-refinery-fire-extinguished",
+      "image": null,
+      "ts": 1786265194000,
+      "coverage": {
+        "left": 1,
+        "center": 4,
+        "right": 1,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 4,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/yemens-houthis-claim-attack-aramco-oil-facility-saudi-135496001"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-904944"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-09/saudi-says-fire-at-aramco-refinery-in-jazan-was-extinguished-msl61cku"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/yemens-houthis-say-they-attacked-saudi-aramco-jazan-refinery-fire-extinguished"
+          },
+          {
+            "n": "Times of India World",
+            "b": "center",
+            "u": "https://timesofindia.indiatimes.com/world/middle-east/houthi-attack-suspected-at-saudi-gas-facility-in-jubail-aramco-jazan-fire-extinguished/articleshow/133063118.cms"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2170647"
+          }
+        ]
+      }
+    },
     {
       "id": "911b06be5204",
       "title": "Attacchi russi in Ucraina: due morti a Kharkiv",
@@ -373,6 +431,44 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-08-09/saudi-says-fire-at-aramco-refinery-in-jazan-was-extinguished-msl61cku"
+          }
+        ]
+      }
+    },
+    {
+      "id": "610224e0fc70",
+      "title": "Israel accused of weaponising archaeology at ancient West Bank sites",
+      "description": "Israel is planning large-scale land expropriations in historic, Palestinian areas of the West Bank.",
+      "lat": 31.95,
+      "lng": 37.115200000000016,
+      "severity": 3,
+      "location": "West Bank",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c20d8qre98do?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/52b5/live/810aa740-917b-11f1-b8ee-9b3c26ad07bb.jpg",
+      "ts": 1786232624000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/9/israel-announces-tender-for-627-settler-units-in-occupied-west-bank?traffic_source=rss"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c20d8qre98do?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
@@ -2431,39 +2527,6 @@
             "n": "ANSA Mondo",
             "b": "center",
             "u": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/07/colombia-proteste-dellopposizione-contro-linsediamento-di-de-la-espriella_1040048d-6a3d-4683-8ada-a0246a02df50.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "92054aeeebb5",
-      "title": "Yemen's Houthis escalate deadly attacks on Saudi-backed troops",
-      "description": "Yemen's Houthi rebels launch fresh attacks on Saudi-backed government troops, says Yemeni state media.",
-      "lat": 16.45,
-      "lng": 44.19,
-      "severity": 4,
-      "location": "Sanaa, Yemen",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/",
-      "image": null,
-      "ts": 1786131278000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/"
           }
         ]
       }
@@ -7885,39 +7948,6 @@
             "n": "Nikkei Asia",
             "b": "center",
             "u": "https://asia.nikkei.com/spotlight/myanmar-crisis/myanmar-grants-access-to-suu-kyi-ahead-of-thailand-visit"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d09dd40ba539",
-      "title": "US and Japan jointly intervene to prop up yen in rare move",
-      "description": "Both countries have said that they will not hesitate to conduct joint interventions in the future.",
-      "lat": 36.78,
-      "lng": 141.66520000000003,
-      "severity": 2,
-      "location": "Tokyo, Japan",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cglj1pr0wjwo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/717b/live/62dcb0b0-8ed3-11f1-b2f6-e1f7eea93d58.jpg",
-      "ts": 1785724986000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC Business",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cglj1pr0wjwo?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
