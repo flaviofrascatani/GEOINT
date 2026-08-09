@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-09T06:11:32.844380+00:00",
+  "updated": "2026-08-09T07:36:45.214525+00:00",
   "events": [
+    {
+      "id": "cb39af2df6ed",
+      "title": "China launches satellite for Algeria",
+      "description": "A Chinese-made communications satellite became the first 'export' of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
+      "lat": 36.77,
+      "lng": 3.06,
+      "severity": 1,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1786261005094,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
     {
       "id": "9187f0df6474",
       "title": "Car bomb hits Colombia highway",
@@ -2134,39 +2167,6 @@
             "n": "NDTV World",
             "b": "lean_left",
             "u": "https://www.ndtv.com/world-news/in-tit-for-tat-move-spain-imposes-border-controls-for-italy-over-ceuta-crisis-11881614#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cb39af2df6ed",
-      "title": "China launches satellite for Algeria",
-      "description": "A Chinese-made communications satellite became the first 'export' of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
-      "lat": 36.77,
-      "lng": 3.06,
-      "severity": 2,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1786137499526,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
           }
         ]
       }
