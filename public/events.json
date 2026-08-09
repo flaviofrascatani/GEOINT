@@ -1,7 +1,126 @@
 {
   "schema": 1,
-  "updated": "2026-08-09T13:07:23.926669+00:00",
+  "updated": "2026-08-09T14:09:50.018989+00:00",
   "events": [
+    {
+      "id": "2260358acfa2",
+      "title": "Mexico deploys 1,700 marines against violence in Mazatlán",
+      "description": "Mexico has deployed 1,700 marines to combat violence in Mazatlán.",
+      "lat": 23.22,
+      "lng": -106.42,
+      "severity": 3,
+      "location": "Mazatlán, Mexico",
+      "source": "ANSA Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/09/messico-1.700-uomini-della-marina-contro-la-violenza-a-mazatlan_e8429e71-36b6-4ba3-8f2f-539e5b1711e7.html",
+      "image": null,
+      "ts": 1786283303000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/09/messico-1.700-uomini-della-marina-contro-la-violenza-a-mazatlan_e8429e71-36b6-4ba3-8f2f-539e5b1711e7.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5d82f1265efd",
+      "title": "No Ebola cases found on quarantined river boat",
+      "description": "Congo authorities say no Ebola cases were found on a quarantined river boat.",
+      "lat": -3.23,
+      "lng": 15.310000000000002,
+      "severity": 1,
+      "location": "Kinshasa, Democratic Republic of the Congo",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/no-ebola-cases-found-on-quarantined-river-boat-congo-authorities-say/article71324985.ece",
+      "image": "https://th-i.thgim.com/public/incoming/csqrr0/article71325014.ece/alternates/LANDSCAPE_1200/2026-08-06T224803Z_2000576380_RC24TMA0DDRJ_RTRMADP_3_HEALTH-EBOLA-BOAT.JPG",
+      "ts": 1786282497000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/no-ebola-cases-found-on-quarantined-river-boat-congo-authorities-say/article71324985.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "41ea6152250f",
+      "title": "Russia and Ukraine exchange deadly overnight strikes",
+      "description": "Russia and Ukraine exchanged another round of overnight strikes, killing civilians and injuring many others on both sides.",
+      "lat": 51.55,
+      "lng": 32.42519999999999,
+      "severity": 3,
+      "location": "Kyiv, Ukraine",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/russia-and-ukraine-exchange-deadly-overnight-strikes",
+      "image": null,
+      "ts": 1786281744000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 1,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/russia-ukraine-exchange-overnight-strikes-7-killed-many-injured-11886564#publisher=newsstand"
+          },
+          {
+            "n": "Business Insider",
+            "b": "lean_left",
+            "u": "https://www.businessinsider.com/taiwan-testing-mid-attack-drones-littoral-drill-han-kuang-ukraine-2026-8"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/russia-and-ukraine-exchange-deadly-overnight-strikes"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/ukraine-and-russia-exchange-attacks-as-kyiv-buys-new-atacms/a-78294589?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "New York Post",
+            "b": "lean_right",
+            "u": "https://nypost.com/2026/08/09/world-news/russia-ukraine-kill-7-after-overnight-strikes/"
+          }
+        ]
+      }
+    },
     {
       "id": "ff09f68c80b7",
       "title": "Nigeria mass weddings ease financial burden for couples",
@@ -36,34 +155,87 @@
       }
     },
     {
+      "id": "060f6006b1f0",
+      "title": "Organised crime suspect Daniel Kinahan extradited from Dubai",
+      "description": "Daniel Kinahan, an alleged drug trafficker, has been extradited from Dubai to Dublin to face charges.",
+      "lat": 53.35,
+      "lng": -6.26,
+      "severity": 3,
+      "location": "Dublin, Ireland",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/a6a000a4-3578-41d0-a898-aeef5f1dbaa0",
+      "image": null,
+      "ts": 1786276908000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/daniel-kinahan-flown-to-ireland-bulletproof-vans-snipers-await-alleged-crime-boss-11886486#publisher=newsstand"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/a6a000a4-3578-41d0-a898-aeef5f1dbaa0"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4zRllVTFNibWllNDg4ajFiUW1ZTnBzOGpnbXF2TURHY0Qwckl0bnhtZ250eGxZbVdQWk11N25XQkhITGtqZzh4X0VDaXJsdHo3dUIzZHhRaHItNHVjYi1sTlg4VHZpanBpcVZrSXpzY3A?oc=5"
+          }
+        ]
+      }
+    },
+    {
       "id": "e09cde0c8a5e",
-      "title": "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
-      "description": "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
+      "title": "Israel rejects Trump's 15-point plan for Gaza",
+      "description": "Israeli Prime Minister Benjamin Netanyahu announced Israel's rejection of US President Donald Trump's 15-point plan for Gaza.",
       "lat": 30.8274,
       "lng": 36.860000000000014,
-      "severity": 3,
+      "severity": 2,
       "location": "Jerusalem, Israel",
-      "source": "NBC News World",
-      "url": "https://www.nbcnews.com/world/israel/israel-rejects-trumps-15-point-plan-gaza-pm-benjamin-netanyahu-says-rcna591555",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/israeli-prime-minister-benjamin-netanyahu-rejects-trumps-board-of-peace-plan-for-gaza-13571334",
       "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-08/260809-netanyahu-nd-42565f.jpg",
       "ts": 1786274769000,
       "coverage": {
-        "left": 3,
-        "center": 9,
+        "left": 5,
+        "center": 6,
         "right": 1,
-        "total": 13,
+        "total": 12,
         "buckets": {
           "left": 0,
-          "lean_left": 3,
-          "center": 9,
+          "lean_left": 5,
+          "center": 6,
           "lean_right": 1,
           "right": 0
         },
         "sources": [
           {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/08/09/netanyahu-rejects-trump-backed-plan-hamas-disarm-israel-leave-gaza/"
+          },
+          {
             "n": "NBC News World",
             "b": "lean_left",
             "u": "https://www.nbcnews.com/world/israel/israel-rejects-trumps-15-point-plan-gaza-pm-benjamin-netanyahu-says-rcna591555"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/israel-rejects-trumps-15-point-gaza-peace-plan-11886291#publisher=newsstand"
           },
           {
             "n": "Mirror World",
@@ -73,7 +245,7 @@
           {
             "n": "Al Jazeera",
             "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/9/israel-rejects-trumps-15-point-plan-for-gaza?traffic_source=rss"
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/9/netanyahu-rejects-trumps-board-of-peace-plan-for-gaza?traffic_source=rss"
           },
           {
             "n": "BBC World",
@@ -96,19 +268,9 @@
             "u": "https://www.dw.com/en/middle-east-netanyahu-says-israel-rejects-trump-s-gaza-plan/live-78289364?maca=en-rss-en-all-1573-rdf"
           },
           {
-            "n": "Jerusalem Post",
+            "n": "Google News Top",
             "b": "center",
-            "u": "https://www.jpost.com/israel-news/article-904969"
-          },
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-08-09/gaza-israele-roadmap-netanyahu-38459950/"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/israel-rejects-trumps-15-point-plan-gaza-pm-netanyahu-says"
+            "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8ybUZORk1xZU9zSVFCaVRFXzRfcl9Kd1VHNWRsTHhqS2RzNEQtMjgyUUlNS08yVHBXZEdtYWlFcnZhTzNDNEp2WXBHUzJycE9rVC12eEh6dXIzZw?oc=5"
           },
           {
             "n": "Egypt Independent",
@@ -116,14 +278,9 @@
             "u": "https://www.egyptindependent.com/israel-rejects-trumps-gaza-peace-plan-saying-no-withdrawal-until-hamas-disarms/"
           },
           {
-            "n": "Times of India World",
-            "b": "center",
-            "u": "https://timesofindia.indiatimes.com/world/middle-east/we-know-how-to-stand-up-to-american-ideas-israeli-pm-netanyahu-rejects-trumps-15-point-gaza-plan/articleshow/133066764.cms"
-          },
-          {
-            "n": "TASS",
+            "n": "New York Post",
             "b": "lean_right",
-            "u": "https://tass.com/world/2170691"
+            "u": "https://nypost.com/2026/08/09/us-news/israel-rejects-trumps-15-point-peace-plan-for-gaza-netanyahu-says/"
           }
         ]
       }
@@ -2624,24 +2781,24 @@
     {
       "id": "866ccffe9562",
       "title": "Spain to introduce temporary border checks on visitors from Italy",
-      "description": "The move comes in response to Rome imposing similar measures after a mass migration rush to Ceuta.",
+      "description": "Spain will introduce temporary border checks on visitors from Italy in response to Rome imposing similar measures.",
       "lat": 40.42,
       "lng": -3.71,
-      "severity": 3,
+      "severity": 2,
       "location": "Madrid, Spain",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy",
       "image": null,
       "ts": 1786139078000,
       "coverage": {
-        "left": 2,
-        "center": 0,
+        "left": 1,
+        "center": 1,
         "right": 0,
         "total": 2,
         "buckets": {
           "left": 0,
-          "lean_left": 2,
-          "center": 0,
+          "lean_left": 1,
+          "center": 1,
           "lean_right": 0,
           "right": 0
         },
@@ -2652,9 +2809,9 @@
             "u": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
           },
           {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/in-tit-for-tat-move-spain-imposes-border-controls-for-italy-over-ceuta-crisis-11881614#publisher=newsstand"
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/09/spain-imposes-temporary-retaliatory-border-checks-for-italians/"
           }
         ]
       }
@@ -6805,69 +6962,6 @@
       }
     },
     {
-      "id": "41ea6152250f",
-      "title": "Nine killed in escalating long-range strikes between Russia and Ukraine",
-      "description": "Missile and drone strikes far beyond the front lines are causing a mounting civilian death toll in both countries.",
-      "lat": 51.55,
-      "lng": 32.42519999999999,
-      "severity": 4,
-      "location": "Kyiv, Ukraine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/4/nine-killed-in-escalating-long-range-strikes-between-russia-and-ukraine?traffic_source=rss",
-      "image": null,
-      "ts": 1785842788000,
-      "coverage": {
-        "left": 4,
-        "center": 3,
-        "right": 0,
-        "total": 7,
-        "buckets": {
-          "left": 0,
-          "lean_left": 4,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/04/world/europe/ukraine-gas-stations-russia.html"
-          },
-          {
-            "n": "Business Insider",
-            "b": "lean_left",
-            "u": "https://www.businessinsider.com/ukraine-drones-target-lock-strike-even-when-pilot-link-lost-2026-8"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/ukraine-zelensky-trump-kremlin-putin-37511631"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/4/nine-killed-in-escalating-long-range-strikes-between-russia-and-ukraine?traffic_source=rss"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/ukraine-drone-strikes-kill-five-near-moscow-russia-says/live-78227405?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-03/russia-weighs-aid-to-sellers-after-ukraine-hits-e-commerce-giant"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/turkey-calls-russia-ukraine-ensure-black-sea-safety-after-drone-attack"
-          }
-        ]
-      }
-    },
-    {
       "id": "4ea7a55130e4",
       "title": "Trump Threatens Iran with Decapitation",
       "description": "US President Donald Trump has threatened Iran with 'decapitation' after a cargo ship was hit in the Strait of Hormuz.",
@@ -7819,135 +7913,6 @@
             "n": "CBS News World",
             "b": "lean_left",
             "u": "https://www.cbsnews.com/news/morocco-ceuta-border-surge-social-media-misleading-info/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e7cc73a952d7",
-      "title": "Boris Nadezhdin, anti-war candidate in Russia, flees to France",
-      "description": "Russian anti-war candidate Boris Nadezhdin has fled to France after being prohibited from running in parliamentary elections.",
-      "lat": 48.86,
-      "lng": 2.289999999999992,
-      "severity": 2,
-      "location": "Paris, France",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/03/boris-nadezhdin-anti-war-candidate-russia-flees-france/",
-      "image": null,
-      "ts": 1785763335000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/03/boris-nadezhdin-anti-war-candidate-russia-flees-france/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "09dc0a211c81",
-      "title": "Red Cross meets with Myanmar's detained former leader Aung San Suu Kyi",
-      "description": "The Red Cross met with Myanmar's detained former leader Aung San Suu Kyi, in her first known contact with the outside world since the 2021 coup.",
-      "lat": 17.9,
-      "lng": 96.14999999999998,
-      "severity": 3,
-      "location": "Naypyidaw, Myanmar",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/red-cross-meets-myanmars-detained-former-leader-aung-135316758",
-      "image": null,
-      "ts": 1785761803000,
-      "coverage": {
-        "left": 3,
-        "center": 3,
-        "right": 0,
-        "total": 6,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/03/world/asia/myanmar-aung-san-suu-kyi-photos-icrc.html"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/red-cross-meets-myanmars-detained-former-leader-aung-135316758"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/aung-san-suu-kyi-meets-red-cross-official-in-myanmar-in-rare-contact-since-2021-coup-11861974#publisher=newsstand"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c1e1d5j6660o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/son-of-myanmars-detained-former-leader-aung-san-suu-kyigives-update-13569395"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/aung-san-suu-kyi-meets-red-cross-official-military-backed-government-says-after-proof-of-life-campaign/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "fe225b0b037c",
-      "title": "Spain's Ceuta Overwhelmed As Thousands Remain After Migrant Border Rush",
-      "description": "The Spanish territory of Ceuta is struggling to cope with the thousands of migrants who remain after a massive border rush last week.",
-      "lat": 35.89,
-      "lng": -5.310000000000002,
-      "severity": 3,
-      "location": "Ceuta, Spain",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/ceuta-migrant-border-rush_n_6a708089e4b03026f4f05c78",
-      "image": null,
-      "ts": 1785758038000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 1,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/ceuta-migrant-border-rush_n_6a708089e4b03026f4f05c78"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/thousands-of-migrants-remain-in-ceuta-after-deadly-mass-rush-from-morocco-13569427"
           }
         ]
       }
