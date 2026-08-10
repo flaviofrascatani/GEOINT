@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-10T11:15:23.727905+00:00",
+  "updated": "2026-08-10T12:11:32.741939+00:00",
   "events": [
+    {
+      "id": "fe1012f477c4",
+      "title": "México toma medidas para abordar preocupaciones de incendios y deforestación",
+      "description": "La presidenta Claudia Sheinbaum: 'Esfuerzo nacional, plantaremos 6,6 millones de árboles'.",
+      "lat": 19.43,
+      "lng": -99.14,
+      "severity": 1,
+      "location": "Mexico City, Mexico",
+      "source": "ANSA Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/10/ambiente-mexico-toma-medidas-para-abordar-preocupaciones-de-incendios-y-deforestacion_86f64a57-90b4-4579-b95e-fe1aba4947d0.html",
+      "image": null,
+      "ts": 1786362915000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/10/ambiente-mexico-toma-medidas-para-abordar-preocupaciones-de-incendios-y-deforestacion_86f64a57-90b4-4579-b95e-fe1aba4947d0.html"
+          }
+        ]
+      }
+    },
     {
       "id": "5b5952aca6b5",
       "title": "China halts drone shows across the country as airspace controls tighten",
@@ -4089,11 +4122,11 @@
     },
     {
       "id": "866ccffe9562",
-      "title": "Spain introduces temporary border checks on visitors from Italy",
-      "description": "Spain will introduce temporary border checks on visitors from Italy in response to similar measures by Italy.",
+      "title": "Spain to introduce temporary border checks on visitors from Italy",
+      "description": "Spain will introduce temporary border checks on visitors from Italy in response to Rome imposing similar measures after a mass migration rush to Ceuta.",
       "lat": 40.42,
       "lng": -3.71,
-      "severity": 3,
+      "severity": 2,
       "location": "Madrid, Spain",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy",
@@ -4101,13 +4134,13 @@
       "ts": 1786139078000,
       "coverage": {
         "left": 1,
-        "center": 1,
+        "center": 0,
         "right": 0,
-        "total": 2,
+        "total": 1,
         "buckets": {
           "left": 0,
           "lean_left": 1,
-          "center": 1,
+          "center": 0,
           "lean_right": 0,
           "right": 0
         },
@@ -4116,11 +4149,6 @@
             "n": "The Guardian World",
             "b": "lean_left",
             "u": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/09/spain-imposes-temporary-retaliatory-border-checks-for-italians/"
           }
         ]
       }
@@ -7983,39 +8011,6 @@
       "url": "https://www.france24.com/en/europe/20260804-spain-and-fellow-eu-nations-bury-the-hatchet-after-ceuta-migration-discord",
       "image": "https://s.france24.com/media/display/64915856-900f-11f1-8096-005056a97e36/w:1024/p:16x9/000-C3T764T.jpg",
       "ts": 1785854938000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/ceuta-migrant-surge-exposes-spain-morocco-tensions-islamist-groups-reportedly-seek-exploit-border-crisis"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e30fd9bdd843",
-      "title": "Ceuta migrant surge exposes Spain-Morocco tensions",
-      "description": "The Ceuta migrant crisis has deepened, with Spain reporting 72 deaths as the crisis triggers a political crisis in Spain and criticism from the EU.",
-      "lat": 35.89,
-      "lng": -5.310000000000002,
-      "severity": 3,
-      "location": "Ceuta, Spain",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/ceuta-migrant-surge-exposes-spain-morocco-tensions-islamist-groups-reportedly-seek-exploit-border-crisis",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/08/931/523/morocco-cueta-migrants-riot-1.jpg?ve=1&tl=1",
-      "ts": 1785854654000,
       "coverage": {
         "left": 0,
         "center": 0,
