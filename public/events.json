@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-10T12:11:32.741939+00:00",
+  "updated": "2026-08-10T13:58:59.569095+00:00",
   "events": [
+    {
+      "id": "63ee6225e79e",
+      "title": "Algeria hands over four Russian-made helicopters to Niger",
+      "description": "Algeria decided to transfer the helicopters to Niger free of charge to strengthen the fraternal and historical ties between the two countries.",
+      "lat": 13.52,
+      "lng": 2.11,
+      "severity": 2,
+      "location": "Niamey, Niger",
+      "source": "TASS",
+      "url": "https://tass.com/world/2170991",
+      "image": null,
+      "ts": 1786368899000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2170991"
+          }
+        ]
+      }
+    },
     {
       "id": "fe1012f477c4",
       "title": "México toma medidas para abordar preocupaciones de incendios y deforestación",
@@ -380,6 +413,49 @@
       }
     },
     {
+      "id": "92054aeeebb5",
+      "title": "Yemen's Houthis Attack Saudi Refinery After Kingdom Signs Defense Pact",
+      "description": "Yemen's Houthis have attacked Saudi Aramco's Jazan refinery, two days after the kingdom signed a defense pact with Turkey and Pakistan.",
+      "lat": 16.45,
+      "lng": 44.19,
+      "severity": 3,
+      "location": "Sanaa, Yemen",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/yemens-houthis-aittack-saud-refinery-after-kingdom-signs-defense-pact_n_6a79505de4b01ec88690acda",
+      "image": null,
+      "ts": 1786335661000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 1,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/yemens-houthis-aittack-saud-refinery-after-kingdom-signs-defense-pact_n_6a79505de4b01ec88690acda"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/yemens-houthis-claim-attack-aramco-oil-facility-saudi-135496001"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/ukraine-targets-another-russian-refinery-part-its-deadliest-attack-years-3806240"
+          }
+        ]
+      }
+    },
+    {
       "id": "d9e7a25993e6",
       "title": "Sony and TSMC to invest in advanced image sensor plant",
       "description": "Sony and TSMC will invest $6.3 billion in an advanced image sensor plant in Kumamoto, Japan.",
@@ -408,6 +484,44 @@
             "n": "Nikkei Asia",
             "b": "center",
             "u": "https://asia.nikkei.com/business/tech/semiconductors/sony-tsmc-to-invest-6.3bn-in-advanced-image-sensor-plant-in-kumamoto"
+          }
+        ]
+      }
+    },
+    {
+      "id": "32230b7fe8ac",
+      "title": "Iran Ties Hormuz Reopening To U.S. Concessions On Several Demands",
+      "description": "The United States and Israel launched air strikes on Iran more than five months ago.",
+      "lat": 29.57,
+      "lng": 52.53,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/iran-hormuz-reopening-us-concessions-several-demands_n_6a794e2de4b01ec88690ac02",
+      "image": null,
+      "ts": 1786335022000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 1,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/iran-hormuz-reopening-us-concessions-several-demands_n_6a794e2de4b01ec88690ac02"
+          },
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/10/world/middleeast/iran-strait-of-hormuz-us-oman-talks.html"
           }
         ]
       }
@@ -1686,64 +1800,6 @@
             "n": "Google News Top",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4zRllVTFNibWllNDg4ajFiUW1ZTnBzOGpnbXF2TURHY0Qwckl0bnhtZ250eGxZbVdQWk11N25XQkhITGtqZzh4X0VDaXJsdHo3dUIzZHhRaHItNHVjYi1sTlg4VHZpanBpcVZrSXpzY3A?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "92054aeeebb5",
-      "title": "Saudi Aramco extinguishes fire at refinery as Houthis claim responsibility",
-      "description": "A fire broke out at a Saudi Aramco refinery, with Yemen's Houthi rebels claiming responsibility for the attack",
-      "lat": 16.45,
-      "lng": 44.19,
-      "severity": 4,
-      "location": "Sanaa, Yemen",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/08/09/saudi-aramco-extinguishes-refinery-fire-houthis-claim-attack.html",
-      "image": null,
-      "ts": 1786274580000,
-      "coverage": {
-        "left": 3,
-        "center": 3,
-        "right": 0,
-        "total": 6,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/yemens-houthis-claim-attack-aramco-oil-facility-saudi-135496001"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/yemens-houthis-claim-attack-on-aramco-refinery-on-red-sea-coast-11885963#publisher=newsstand"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/fire-extinguished-at-aramco-facility-in-jizan-says-saudi-arabia/article71324246.ece"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/09/saudi-aramco-extinguishes-refinery-fire-houthis-claim-attack.html"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPV2psZVVzWDFLUWxaM0N2dTlwTXpyQUhLVXRUNzFMZ1hoWVpQQk1iUXlZQWNFRTJKeFRZSFdfOWZCU0VxenBzOExCUXJDZm9DM3FCMmpOYXc5Y1dkSHpPOUdUTDFYN09mc0d0NmV4ZEtDWEhuVDdMcjN3QWdpcmlXUy1KcGRXd1NuSmt6ZTNMX0hTanNQZF9DelRIMFQxUHJ3UUJEb3FhM3QzMFRrNnZ5ZW9n?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/yemens-houthis-attack-saudi-refinery-after-kingdom-signs-defence-pact"
           }
         ]
       }
@@ -7962,72 +8018,6 @@
             "n": "CBS News World",
             "b": "lean_left",
             "u": "https://www.cbsnews.com/news/gaza-war-mass-funeral-extended-family/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2225e93aefdc",
-      "title": "Spain and fellow EU nations bury the hatchet after Ceuta migration discord",
-      "description": "Spain and fellow EU nations have put aside their differences after the Ceuta migrant crisis, with the EU commending Spain's swift response to the crisis.",
-      "lat": 41.52,
-      "lng": -3.6999999999999886,
-      "severity": 1,
-      "location": "Madrid, Spain",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/europe/20260804-spain-and-fellow-eu-nations-bury-the-hatchet-after-ceuta-migration-discord",
-      "image": null,
-      "ts": 1785855608000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/europe/20260804-spain-and-fellow-eu-nations-bury-the-hatchet-after-ceuta-migration-discord"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7c61c17a0ecf",
-      "title": "Spain and Morocco tensions rise after Ceuta migrant crisis",
-      "description": "Spain demands EU solidarity after a mass influx of migrants into the North African enclave of Ceuta, which has led to a diplomatic crisis between Spain and Morocco.",
-      "lat": 35.88,
-      "lng": -5.360000000000014,
-      "severity": 3,
-      "location": "Ceuta, Spain",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/europe/20260804-spain-and-fellow-eu-nations-bury-the-hatchet-after-ceuta-migration-discord",
-      "image": "https://s.france24.com/media/display/64915856-900f-11f1-8096-005056a97e36/w:1024/p:16x9/000-C3T764T.jpg",
-      "ts": 1785854938000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/ceuta-migrant-surge-exposes-spain-morocco-tensions-islamist-groups-reportedly-seek-exploit-border-crisis"
           }
         ]
       }
