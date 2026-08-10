@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-10T20:10:43.536122+00:00",
+  "updated": "2026-08-10T21:21:50.992743+00:00",
   "events": [
+    {
+      "id": "cb39af2df6ed",
+      "title": "China Launches Satellite for Algeria",
+      "description": "China launched a communications satellite for Algeria, the first such export to an Arab country.",
+      "lat": 36.77,
+      "lng": 3.06,
+      "severity": 1,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1786396910864,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
     {
       "id": "37816d3f6bcb",
       "title": "Turkey passes landmark law to advance PKK peace process",
@@ -817,24 +850,24 @@
     },
     {
       "id": "92054aeeebb5",
-      "title": "US and Turkey sign defense pact",
-      "description": "The kingdom of Saudi Arabia signed a defense pact with Turkey and Pakistan, two days before Yemen's Houthis attacked a Saudi refinery.",
+      "title": "Yemen's Houthis Attack Saudi Refinery",
+      "description": "Yemen's Houthis attacked Saudi Aramco's Jazan refinery after the kingdom signed a defense pact with Turkey and Pakistan.",
       "lat": 16.45,
       "lng": 44.19,
-      "severity": 2,
+      "severity": 3,
       "location": "Sanaa, Yemen",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/yemens-houthis-aittack-saud-refinery-after-kingdom-signs-defense-pact_n_6a79505de4b01ec88690acda",
       "image": null,
       "ts": 1786335661000,
       "coverage": {
-        "left": 1,
+        "left": 2,
         "center": 0,
         "right": 0,
-        "total": 1,
+        "total": 2,
         "buckets": {
           "left": 1,
-          "lean_left": 0,
+          "lean_left": 1,
           "center": 0,
           "lean_right": 0,
           "right": 0
@@ -844,6 +877,11 @@
             "n": "HuffPost World",
             "b": "left",
             "u": "https://www.huffpost.com/entry/yemens-houthis-aittack-saud-refinery-after-kingdom-signs-defense-pact_n_6a79505de4b01ec88690acda"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/yemens-houthis-claim-attack-aramco-oil-facility-saudi-135496001"
           }
         ]
       }
@@ -1535,39 +1573,6 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/israel-receives-634-million-submarine-germany-major-boost-naval-deterrence"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cb39af2df6ed",
-      "title": "China Launches Satellite for Algeria",
-      "description": "A Chinese-made communications satellite was launched for Algeria, the first such export to an Arab country.",
-      "lat": 36.77,
-      "lng": 3.06,
-      "severity": 2,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1786301623776,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
           }
         ]
       }
