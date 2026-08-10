@@ -1,7 +1,131 @@
 {
   "schema": 1,
-  "updated": "2026-08-10T05:57:38.552095+00:00",
+  "updated": "2026-08-10T07:57:03.328344+00:00",
   "events": [
+    {
+      "id": "0bb5ffa090cc",
+      "title": "South Korea, US to begin exercises next week to bolster readiness against North's threats",
+      "description": "South Korean and U.S. militaries say they will begin their annual large exercises next week to beef up readiness against North Korean threats",
+      "lat": 38.66,
+      "lng": 128.8752,
+      "severity": 2,
+      "location": "Seoul, South Korea",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/south-korea-us-begin-exercises-week-bolster-readiness-135509770",
+      "image": "https://s.abcnews.com/images/International/wirestory_caaf065af4ddb7ffc276a744be652a5c_4x3_384.jpg",
+      "ts": 1786348438000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/south-korea-us-begin-exercises-week-bolster-readiness-135509770"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/east-asia/south-korea-us-to-conduct-military-drills-amid-evolving-north-korea-threats"
+          }
+        ]
+      }
+    },
+    {
+      "id": "41ea6152250f",
+      "title": "Ukraine drone strike kills 12 in central Russia",
+      "description": "A Ukrainian drone strike on the central Russian region of Tatarstan killed at least 12 people in one of Kyiv's most deadly single attacks of the more than four-year war.",
+      "lat": 51.55,
+      "lng": 32.42519999999999,
+      "severity": 4,
+      "location": "Kyiv, Ukraine",
+      "source": "RTE News",
+      "url": "https://www.rte.ie/news/2026/0810/1587221-ukraine-russia/",
+      "image": null,
+      "ts": 1786346472000,
+      "coverage": {
+        "left": 3,
+        "center": 1,
+        "right": 1,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/russia-ukraine-exchange-overnight-strikes-leave-7-dead-135496212"
+          },
+          {
+            "n": "Business Insider",
+            "b": "lean_left",
+            "u": "https://www.businessinsider.com/taiwan-testing-mid-attack-drones-littoral-drill-han-kuang-ukraine-2026-8"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/ukraine-drone-strike-nizhnekamsk-refinery-37531910"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/2026/0810/1587221-ukraine-russia/"
+          },
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2237586/russia-ukraine-drone-attack-Nizhnekamsk"
+          }
+        ]
+      }
+    },
+    {
+      "id": "299ceebe6cd3",
+      "title": "Pope Leo XIV calls for humanitarian corridor in Sudan",
+      "description": "Pope Leo called for peace in Sudan on Sunday during an address at the Vatican. Leo singled out El-Obeid, the beseiged capital of North Kordofan state.",
+      "lat": 12.85,
+      "lng": 30.22,
+      "severity": 1,
+      "location": "Khartoum, Sudan",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/08/10/pope-leo-xiv-calls-for-humanitarian-corridor-in-sudan/",
+      "image": "http://images.euronews.com/articles/stories/09/86/81/44/640x360_cmsv2_55d6c117-3f6f-5646-91eb-32ad85e6a3a9-9868144.jpg?1786338691",
+      "ts": 1786345163000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/10/pope-leo-xiv-calls-for-humanitarian-corridor-in-sudan/"
+          }
+        ]
+      }
+    },
     {
       "id": "d9e7a25993e6",
       "title": "Sony and TSMC to invest in advanced image sensor plant",
@@ -486,6 +610,39 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/644045-netanyahu-nixes-trumps-gaza-plan/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ebb894f3100f",
+      "title": "Keiko Fujimori starts her term in Peru with 60% approval",
+      "description": "Peruvian President Keiko Fujimori has begun her five-year term with a 60% approval rating, against 24% disapproval and 16% who gave no opinion, according to a Datum Internacional survey published on Sunday.",
+      "lat": -10.95,
+      "lng": -77.03,
+      "severity": 1,
+      "location": "Lima, Peru",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/08/09/keiko-fujimori-starts-her-term-in-peru-with-60-approval-datum-poll-finds?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": "https://en.mercopress.com/data/cache/noticias/111084/100x80/keik.jpg",
+      "ts": 1786309080000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/08/09/keiko-fujimori-starts-her-term-in-peru-with-60-approval-datum-poll-finds?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
           }
         ]
       }
@@ -1200,59 +1357,6 @@
             "n": "The Hindu International",
             "b": "lean_left",
             "u": "https://www.thehindu.com/news/international/no-ebola-cases-found-on-quarantined-river-boat-congo-authorities-say/article71324985.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "41ea6152250f",
-      "title": "Russia and Ukraine exchange deadly overnight strikes",
-      "description": "Russia and Ukraine exchanged another round of overnight strikes, killing civilians and injuring many others on both sides.",
-      "lat": 51.55,
-      "lng": 32.42519999999999,
-      "severity": 3,
-      "location": "Kyiv, Ukraine",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/russia-and-ukraine-exchange-deadly-overnight-strikes",
-      "image": null,
-      "ts": 1786281744000,
-      "coverage": {
-        "left": 2,
-        "center": 2,
-        "right": 1,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 2,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/russia-ukraine-exchange-overnight-strikes-7-killed-many-injured-11886564#publisher=newsstand"
-          },
-          {
-            "n": "Business Insider",
-            "b": "lean_left",
-            "u": "https://www.businessinsider.com/taiwan-testing-mid-attack-drones-littoral-drill-han-kuang-ukraine-2026-8"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/russia-and-ukraine-exchange-deadly-overnight-strikes"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/ukraine-and-russia-exchange-attacks-as-kyiv-buys-new-atacms/a-78294589?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "New York Post",
-            "b": "lean_right",
-            "u": "https://nypost.com/2026/08/09/world-news/russia-ukraine-kill-7-after-overnight-strikes/"
           }
         ]
       }
@@ -3260,6 +3364,39 @@
             "n": "MercoPress",
             "b": "center",
             "u": "https://en.mercopress.com/2026/08/08/de-la-espriella-sworn-in-before-congress-in-cali-delivers-first-speech-to-the-military?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c4ab782c47dd",
+      "title": "Armed group warns tourists to stay away from Corsica and issues threat to anyone thinking of buying a second home on the island",
+      "description": "The Corsican National Liberation Front-Union of Combatants (FLNC-UC) released a video on Thursday, in which around twelve hooded members stand with submachine-guns and rifles.",
+      "lat": 43.25,
+      "lng": 9.069999999999993,
+      "severity": 2,
+      "location": "Ajaccio, Corsica",
+      "source": "Daily Mail World",
+      "url": "https://www.dailymail.com/news/article-16035715/Armed-group-tourists-away-Corsica-threat-buying-home.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "image": "https://i.dailymail.com/1s/2026/08/07/09/110493819-0-image-m-24_1786090170384.jpg",
+      "ts": 1786173400000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/news/article-16035715/Armed-group-tourists-away-Corsica-threat-buying-home.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
           }
         ]
       }
@@ -7871,163 +8008,6 @@
             "n": "Rio Times",
             "b": "center",
             "u": "https://www.riotimesonline.com/trump-warns-iran-of-last-chance-before-decapitation-in-2026-war/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "982bb64ff54c",
-      "title": "Lebanon and UN Launch EU-Funded Programme for Conflict-Affected Farmers",
-      "description": "The government of Lebanon and the UN have launched an EU-funded programme to support conflict-affected farmers.",
-      "lat": 33.89,
-      "lng": 37.71000000000001,
-      "severity": 1,
-      "location": "Beirut, Lebanon",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE56WFYxVTJOaDJOU3BQWHJrSHZONWN1bGh6aEVPZ2FEaDlVeV9OR2lXLWxXT2F4SDV6RWpLckVHbGxEWHE4NjFGYkQtb3F5dmhMUEdyTWpDc2Y4N1NhYmp1S1d1LS0tVWUzZVRLVEllMWY2YTZ3?oc=5",
-      "image": null,
-      "ts": 1785836233000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMidEFVX3lxTE56WFYxVTJOaDJOU3BQWHJrSHZONWN1bGh6aEVPZ2FEaDlVeV9OR2lXLWxXT2F4SDV6RWpLckVHbGxEWHE4NjFGYkQtb3F5dmhMUEdyTWpDc2Y4N1NhYmp1S1d1LS0tVWUzZVRLVEllMWY2YTZ3?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1704273d1c0b",
-      "title": "South Korea and Bangladesh Reach Agreement in Principle on CEPA",
-      "description": "South Korea and Bangladesh have reached an agreement in principle on a Comprehensive Economic Partnership Agreement (CEPA).",
-      "lat": 37.56,
-      "lng": 126.97,
-      "severity": 1,
-      "location": "Seoul, South Korea",
-      "source": "Yonhap News",
-      "url": "https://en.yna.co.kr/view/AEN20260804008700320",
-      "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/04/AEN20260804008700320_02_i_P2.jpg",
-      "ts": 1785836214000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20260804008700320"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4757571df448",
-      "title": "Ukraine Drone Strike Kills Five Near Moscow",
-      "description": "A Ukrainian drone strike has killed five people near Moscow, according to Russian officials.",
-      "lat": 55.75,
-      "lng": 37.620000000000005,
-      "severity": 4,
-      "location": "Moscow, Russia",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/ukrainian-drone-strike-russia-warehouses-moscow-region-5-dead/",
-      "image": null,
-      "ts": 1785835826000,
-      "coverage": {
-        "left": 0,
-        "center": 5,
-        "right": 1,
-        "total": 6,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 5,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c151pkww79zo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/2026/0804/1586333-five-dead-drone/"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/ukraine-strikes-inside-russia-as-moscow-accused-of-increasingly-brutal-attacks"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/ukraine-drone-strikes-kill-five-near-moscow-russia-says/live-78227405?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-04/five-die-in-ukraine-drone-strike-in-moscow-region-governor-says"
-          },
-          {
-            "n": "Daily Mail World",
-            "b": "right",
-            "u": "https://www.dailymail.com/news/article-16026689/Ukraine-strikes-Moscow-industrial-zone-fresh-drone-onslaught-killing-multiple-people-Kyiv-continues-bring-war-Putins-doorstep.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-          }
-        ]
-      }
-    },
-    {
-      "id": "99d22872d1da",
-      "title": "Trump Keeps Making Threats, But The World Has Stopped Flinching",
-      "description": "The world has stopped reacting to Trump's threats, according to reports.",
-      "lat": 40.0,
-      "lng": -77.02,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/04/trump-keeps-making-threats-washington-world-have-stopped-flinching/",
-      "image": null,
-      "ts": 1785834000000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/04/trump-keeps-making-threats-washington-world-have-stopped-flinching/"
           }
         ]
       }
