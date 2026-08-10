@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-08-10T02:26:04.556680+00:00",
+  "updated": "2026-08-10T04:15:39.020390+00:00",
   "events": [
+    {
+      "id": "d9e7a25993e6",
+      "title": "Sony and TSMC to invest in advanced image sensor plant",
+      "description": "Sony and TSMC will invest $6.3 billion in an advanced image sensor plant in Kumamoto, Japan.",
+      "lat": 33.88,
+      "lng": 130.71000000000004,
+      "severity": 1,
+      "location": "Kumamoto, Japan",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/tech/semiconductors/sony-tsmc-to-invest-6.3bn-in-advanced-image-sensor-plant-in-kumamoto",
+      "image": null,
+      "ts": 1786335338867,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Nikkei Asia",
+            "b": "center",
+            "u": "https://asia.nikkei.com/business/tech/semiconductors/sony-tsmc-to-invest-6.3bn-in-advanced-image-sensor-plant-in-kumamoto"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eb8843c4be28",
+      "title": "China releases powerful DNA-screening AI tool",
+      "description": "China released a free AI tool for DNA screening to help fight rare diseases.",
+      "lat": 39.9,
+      "lng": 116.38999999999999,
+      "severity": 1,
+      "location": "Beijing, China",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/china/science/article/3363246/china-releases-powerful-dna-screening-ai-tool-free-help-fight-rare-diseases?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/07/4b1f0d5f-e4ab-46fe-8a9e-be777bafee6b_cdf61c53.jpg?itok=k3wo5JWj&v=1786073916",
+      "ts": 1786334417000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/china/science/article/3363246/china-releases-powerful-dna-screening-ai-tool-free-help-fight-rare-diseases?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
     {
       "id": "f56c56d84bfe",
       "title": "Houthis launch fresh ballistic missile and drone attacks",
@@ -41,6 +107,59 @@
       }
     },
     {
+      "id": "cf4de5ab7b82",
+      "title": "Syria reaches deal with Moscow on Russian bases",
+      "description": "Syria announced a deal with Russia regarding the fate of Russian bases in the country.",
+      "lat": 33.51,
+      "lng": 36.28999999999999,
+      "severity": 2,
+      "location": "Damascus, Syria",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/syria-says-reached-deal-moscow-fate-russian-bases",
+      "image": null,
+      "ts": 1786325421000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 1,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/syria-says-reached-deal-with-moscow-on-2-russian-bases-11887197#publisher=newsstand"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/08/09/syria-says-deal-with-moscow-reached-on-fate-of-russian-bases_6756317_4.html"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/df62a69e-aa53-4cde-8a02-4d2cd465a370?syn-25a6b1a6=1"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/syria-says-reached-deal-moscow-fate-russian-bases"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/syria-russia-seal-deal-on-future-of-moscows-mediterranean-bases"
+          }
+        ]
+      }
+    },
+    {
       "id": "6f2d50aab27a",
       "title": "Taiwan plans record defense budget to counter China",
       "description": "Taiwan plans to spend a record NT$1.1 trillion ($34.1 billion) on its military in 2027.",
@@ -69,6 +188,44 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-08-10/taiwan-plans-record-defense-budget-to-counter-china-report-says"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ef3c756dc1dc",
+      "title": "Taiwan practices war games amid Chinese aggression concerns",
+      "description": "Taiwan conducted war games to prepare for a potential invasion by China.",
+      "lat": 25.03,
+      "lng": 123.45519999999999,
+      "severity": 3,
+      "location": "Taipei, Taiwan",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/video/taiwan-practices-war-games-fears-increasing-chinese-aggression-questions-trumps-support/",
+      "image": null,
+      "ts": 1786323361000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/video/taiwan-practices-war-games-fears-increasing-chinese-aggression-questions-trumps-support/"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/east-asia/taiwan-bets-on-drone-hellscape-to-deter-possible-chinese-invasion"
           }
         ]
       }
@@ -183,12 +340,50 @@
       }
     },
     {
+      "id": "931014a95847",
+      "title": "Iran replaces top security official",
+      "description": "Iran replaced its top security official, Mohsen Rezaei, who will head the Supreme National Security Council.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/ce343513-5514-4519-95c8-19832ed46d16?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1786314201000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/09/world/middleeast/iran-security-council-guards-commander.html"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/ce343513-5514-4519-95c8-19832ed46d16?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
+    {
       "id": "e09cde0c8a5e",
-      "title": "Netanyahu rejects Trump's 15-point peace plan for Gaza",
-      "description": "Israeli Prime Minister Benjamin Netanyahu rejected a 15-point plan for Gaza proposed by the US Board of Peace, citing the need for Hamas to be disarmed first.",
+      "title": "Netanyahu rejects Trump-backed Gaza plan",
+      "description": "Israeli Prime Minister Benjamin Netanyahu rejected a US-backed plan for Gaza, citing the need for Hamas to disarm first.",
       "lat": 30.8274,
       "lng": 36.860000000000014,
-      "severity": 2,
+      "severity": 3,
       "location": "Jerusalem, Israel",
       "source": "Washington Post World",
       "url": "https://www.washingtonpost.com/world/2026/08/09/netanyahu-rejects-trump-backed-plan-hamas-disarm-israel-leave-gaza/",
@@ -196,15 +391,15 @@
       "ts": 1786313260000,
       "coverage": {
         "left": 5,
-        "center": 8,
-        "right": 2,
-        "total": 15,
+        "center": 11,
+        "right": 1,
+        "total": 17,
         "buckets": {
           "left": 0,
           "lean_left": 5,
-          "center": 8,
+          "center": 11,
           "lean_right": 1,
-          "right": 1
+          "right": 0
         },
         "sources": [
           {
@@ -268,6 +463,21 @@
             "u": "https://www.dw.com/en/netanyahu-rejects-trump-backed-gaza-peace-plan/a-78298282?maca=en-rss-en-all-1573-rdf"
           },
           {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/international/article-905025"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSHJIQ1JLMkZjdHl3bWRsWlFvV0JHdWt2S2xvYU40dV90MDNpRHBqUWY1LS1uVGRKRnJsTko4TFhZOEJ3NHNlTzljSzQ4Mm9YN2JaQnA5R2dSak1sUDctRDd4T1dlUjZFMF9UelkyOFh1RllaMENfM2ZOcTg2bnlRZWszZ2JzeVRXLXYxVkxucHBFODlFU3BuSUFZei1LQndaY2RMZGl3ZFc5ZThCQVpvRUlVUk9idw?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-09/netanyahu-rejects-us-backed-proposal-for-hamas-disarmament"
+          },
+          {
             "n": "AGI Estero",
             "b": "center",
             "u": "https://www.agi.it/estero/news/2026-08-09/gaza-israele-roadmap-netanyahu-38459950/"
@@ -276,11 +486,6 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/644045-netanyahu-nixes-trumps-gaza-plan/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/netanyahu-rejects-board-peace-gaza-plan-no-withdrawal-until-hamas-genuinely-disarmed"
           }
         ]
       }
@@ -3461,11 +3666,11 @@
     },
     {
       "id": "866ccffe9562",
-      "title": "Spain to introduce temporary border checks on visitors from Italy",
-      "description": "Spain will introduce temporary border checks on visitors from Italy in response to Rome imposing similar measures after a mass migration rush to Ceuta.",
+      "title": "Spain introduces temporary border checks on visitors from Italy",
+      "description": "Spain will introduce temporary border checks on visitors from Italy in response to similar measures by Italy.",
       "lat": 40.42,
       "lng": -3.71,
-      "severity": 2,
+      "severity": 3,
       "location": "Madrid, Spain",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy",
@@ -3473,13 +3678,13 @@
       "ts": 1786139078000,
       "coverage": {
         "left": 1,
-        "center": 0,
+        "center": 1,
         "right": 0,
-        "total": 1,
+        "total": 2,
         "buckets": {
           "left": 0,
           "lean_left": 1,
-          "center": 0,
+          "center": 1,
           "lean_right": 0,
           "right": 0
         },
@@ -3488,6 +3693,11 @@
             "n": "The Guardian World",
             "b": "lean_left",
             "u": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/09/spain-imposes-temporary-retaliatory-border-checks-for-italians/"
           }
         ]
       }
@@ -7833,171 +8043,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/opinion/op-ed/indias-gen-z-revolt-is-modis-toughest-political-test"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6e81b0ef7db9",
-      "title": "Japan Says Combat Drones Key to Adapting to New Warfare",
-      "description": "The Japanese government has emphasized the importance of combat drones in adapting to new methods of warfare.",
-      "lat": 35.69,
-      "lng": 139.76,
-      "severity": 2,
-      "location": "Tokyo, Japan",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/japan-combat-drones-key-adapting-new-warfare-tension-135342788",
-      "image": "https://s.abcnews.com/images/International/wirestory_5a6c6223b22deec4619af31cf69fdc34_4x3_384.jpg",
-      "ts": 1785816596000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/japan-combat-drones-key-adapting-new-warfare-tension-135342788"
-          }
-        ]
-      }
-    },
-    {
-      "id": "50a5f382507f",
-      "title": "India to raise up to $3.3 billion by selling stake in country's largest life insurer",
-      "description": "The Indian government plans to raise up to $3.3 billion by selling its stake in the country's top life insurance company.",
-      "lat": 28.61,
-      "lng": 77.23,
-      "severity": 2,
-      "location": "New Delhi, India",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/08/04/india-lic-stake-sale-discount.html",
-      "image": null,
-      "ts": 1785812401000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/04/india-lic-stake-sale-discount.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e1175b6aa4e1",
-      "title": "Venezuela Earthquake Death Toll",
-      "description": "The death toll from the recent earthquakes in Venezuela has risen to over 6,000.",
-      "lat": 10.48,
-      "lng": -66.89,
-      "severity": 4,
-      "location": "Caracas, Venezuela",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/more-than-6-000-killed-in-june-earthquakes-in-venezuela-11861867#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-08/sm0mcems_venezuela-earthquake_625x300_04_August_26.jpeg",
-      "ts": 1785799715000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/more-than-6-000-killed-in-june-earthquakes-in-venezuela-11861867#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "efd746dd47a2",
-      "title": "US-Iran Tensions",
-      "description": "President Trump warned Iran that it has a 'last chance' to secure a deal and avoid escalation.",
-      "lat": 36.79,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/middle-east/20260803-trump-says-us-iran-talks-continue-warns-tehran-faces-last-chance",
-      "image": "https://s.france24.com/media/display/f40e3e8a-8f7f-11f1-8ccc-005056a90284/w:1024/p:16x9/2026-08-03T185319Z-684638-RC22RMA599HN-RTRMADP-3-USA-TRUMP.jpg",
-      "ts": 1785797853000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/middle-east/20260803-trump-says-us-iran-talks-continue-warns-tehran-faces-last-chance"
-          }
-        ]
-      }
-    },
-    {
-      "id": "153ed2aae140",
-      "title": "US to Close Consulates",
-      "description": "The US State Department plans to close five foreign missions, including consulates in Canada, Japan, and Indonesia.",
-      "lat": 38.89,
-      "lng": -77.01,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/us-to-close-consulates-in-canada-japan-indonesia-report-11861846#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-08/obc0ocec_us-state-department_625x300_04_August_26.jpeg",
-      "ts": 1785797615000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/us-to-close-consulates-in-canada-japan-indonesia-report-11861846#publisher=newsstand"
           }
         ]
       }
