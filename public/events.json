@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-10T19:08:16.279913+00:00",
+  "updated": "2026-08-10T20:10:43.536122+00:00",
   "events": [
+    {
+      "id": "37816d3f6bcb",
+      "title": "Turkey passes landmark law to advance PKK peace process",
+      "description": "Turkey's parliament passed a law establishing a legal framework for the disbandment of the outlawed Kurdistan Workers Party (PKK), a major step toward ending a decades-long conflict.",
+      "lat": 39.93,
+      "lng": 32.86,
+      "severity": 1,
+      "location": "Ankara, Turkey",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/turkish-parliament-passes-landmark-law-advance-pkk-peace-process",
+      "image": null,
+      "ts": 1786391196000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/turkish-parliament-passes-landmark-law-advance-pkk-peace-process"
+          }
+        ]
+      }
+    },
     {
       "id": "f11e01632cb3",
       "title": "Colombia recognizes Golan Heights as Israeli territory",
@@ -784,11 +817,11 @@
     },
     {
       "id": "92054aeeebb5",
-      "title": "Yemen's Houthis Attack Saudi Refinery",
-      "description": "Yemen's Houthis have attacked Saudi Aramco's Jazan refinery, two days after the kingdom signed a defense pact with Turkey and Pakistan.",
+      "title": "US and Turkey sign defense pact",
+      "description": "The kingdom of Saudi Arabia signed a defense pact with Turkey and Pakistan, two days before Yemen's Houthis attacked a Saudi refinery.",
       "lat": 16.45,
       "lng": 44.19,
-      "severity": 3,
+      "severity": 2,
       "location": "Sanaa, Yemen",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/yemens-houthis-aittack-saud-refinery-after-kingdom-signs-defense-pact_n_6a79505de4b01ec88690acda",
@@ -796,13 +829,13 @@
       "ts": 1786335661000,
       "coverage": {
         "left": 1,
-        "center": 1,
+        "center": 0,
         "right": 0,
-        "total": 2,
+        "total": 1,
         "buckets": {
           "left": 1,
           "lean_left": 0,
-          "center": 1,
+          "center": 0,
           "lean_right": 0,
           "right": 0
         },
@@ -811,11 +844,6 @@
             "n": "HuffPost World",
             "b": "left",
             "u": "https://www.huffpost.com/entry/yemens-houthis-aittack-saud-refinery-after-kingdom-signs-defense-pact_n_6a79505de4b01ec88690acda"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/ukraine-targets-another-russian-refinery-part-its-deadliest-attack-years-3806240"
           }
         ]
       }
@@ -7985,39 +8013,6 @@
             "n": "MercoPress",
             "b": "center",
             "u": "https://en.mercopress.com/2026/08/04/us-revokes-brazilian-ambassador-s-visa-over-delay-in-accepting-its-envoy?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9196c825d976",
-      "title": "Pentagon signs deal to expand missile interceptor systems production",
-      "description": "The Pentagon has signed a deal to expand the production of missile interceptor systems.",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 2,
-      "location": "Washington, USA",
-      "source": "The Hill",
-      "url": "https://thehill.com/homenews/6009369-pentagon-signs-deal-to-expand-missile-interceptor-systems-production/",
-      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/07/6a50ef513932c9.75590812-e1785191918884.jpeg?w=900",
-      "ts": 1785884688000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/homenews/6009369-pentagon-signs-deal-to-expand-missile-interceptor-systems-production/"
           }
         ]
       }
