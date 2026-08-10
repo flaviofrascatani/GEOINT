@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-08-10T15:07:33.097560+00:00",
+  "updated": "2026-08-10T16:07:48.023980+00:00",
   "events": [
     {
       "id": "e83fc7354261",
@@ -74,6 +74,39 @@
       }
     },
     {
+      "id": "1d2209976435",
+      "title": "Oman says grounded tanker oil spill covers 400 square km",
+      "description": "A leaking crude oil tanker off the coast of Oman has created a slick covering almost 400 square kilometers.",
+      "lat": 23.62,
+      "lng": 58.59,
+      "severity": 3,
+      "location": "Oman",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/oman-says-grounded-tanker-oil-spill-covers-400-square-km",
+      "image": null,
+      "ts": 1786369601000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/oman-says-grounded-tanker-oil-spill-covers-400-square-km"
+          }
+        ]
+      }
+    },
+    {
       "id": "63ee6225e79e",
       "title": "Algeria hands over four Russian-made helicopters to Niger",
       "description": "Algeria decided to transfer the helicopters to Niger free of charge to strengthen the fraternal and historical ties between the two countries.",
@@ -102,6 +135,69 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/world/2170991"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f2958a3fbcb7",
+      "title": "Iran toughens its demands over the vital Strait of Hormuz",
+      "description": "Iran has toughened its demands over the Strait of Hormuz, despite ongoing negotiations.",
+      "lat": 29.58,
+      "lng": 50.85,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "Egypt Independent",
+      "url": "https://www.egyptindependent.com/rather-than-capitulating-to-the-us-iran-toughens-its-demands-over-the-vital-strait-of-hormuz/",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2266235528.jpg?c=original&amp;q=w_860,c_fill",
+      "ts": 1786365176000,
+      "coverage": {
+        "left": 4,
+        "center": 3,
+        "right": 0,
+        "total": 7,
+        "buckets": {
+          "left": 0,
+          "lean_left": 4,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/10/world/middleeast/iran-strait-of-hormuz-us-oman-talks.html"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/video/iran-sets-new-terms-for-reopening-the-strait-of-hormuz/"
+          },
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/08/10/iran-us-strait-of-hormuz-conditions-trump-negotiations/"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/iran-us-war-live-updates-august-10-2026-hormuz-strait-reopen-us-iran-talks/article71326809.ece"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeVR5TzZOblVGaldmaERTUlk2Sk5XSEhfYWNiTWMyRVhwNXdZamp5LVhBX2JKMTdxSlFlZHQ4WFc3Vk1OakI0VFlNMThrS3ZPdzB6LUxCSThSSmtvbW5ISkJYSWN3WUNDaTFUTXl1QnFoXzlCV3UtdW9CNjJodTc2VGhWTG0?oc=5"
+          },
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/rather-than-capitulating-to-the-us-iran-toughens-its-demands-over-the-vital-strait-of-hormuz/"
           }
         ]
       }
@@ -485,11 +581,11 @@
     },
     {
       "id": "92054aeeebb5",
-      "title": "Yemen's Houthis Attack Saudi Refinery After Kingdom Signs Defense Pact",
+      "title": "Yemen's Houthis Attack Saudi Refinery",
       "description": "Yemen's Houthis have attacked Saudi Aramco's Jazan refinery, two days after the kingdom signed a defense pact with Turkey and Pakistan.",
       "lat": 16.45,
       "lng": 44.19,
-      "severity": 3,
+      "severity": 4,
       "location": "Sanaa, Yemen",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/yemens-houthis-aittack-saud-refinery-after-kingdom-signs-defense-pact_n_6a79505de4b01ec88690acda",
@@ -7947,77 +8043,6 @@
             "n": "Channel News Asia",
             "b": "center",
             "u": "https://www.channelnewsasia.com/world/ukraine-russia-drone-video-chasing-street-vendor-6298881"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0ae0e690837e",
-      "title": "Israel Refuses to Withdraw from Gaza",
-      "description": "Israeli Prime Minister Netanyahu stated that Israel will not withdraw from Gaza until Hamas is completely disarmed.",
-      "lat": 31.51,
-      "lng": 34.46000000000001,
-      "severity": 3,
-      "location": "Gaza, Palestine",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/benjamin-netanyahu-refuses-withdraw-israel-gaza-hamas-disarms_n_6a723411e4b02974827b7ea0",
-      "image": null,
-      "ts": 1785870102000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 1,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/benjamin-netanyahu-refuses-withdraw-israel-gaza-hamas-disarms_n_6a723411e4b02974827b7ea0"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/israel-wont-leave-gaza-until-hamas-is-completely-disarmed-benjamin-netanyahu-11866566#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7b80e37b1856",
-      "title": "Five Amazon countries arrest hundreds in major crackdown on environmental crime",
-      "description": "Authorities from five Amazon countries have arrested hundreds in a major crackdown on environmental crime.",
-      "lat": -2.5,
-      "lng": -54.72,
-      "severity": 1,
-      "location": "Amazon Rainforest",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/amazon-countries-arrest-hundreds-major-crackdown-environmental-crime-135363222",
-      "image": "https://s.abcnews.com/images/International/wirestory_e2687c95a1f9281d0fe1b94b02a6177b_4x3_384.jpg",
-      "ts": 1785867084000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/amazon-countries-arrest-hundreds-major-crackdown-environmental-crime-135363222"
           }
         ]
       }
