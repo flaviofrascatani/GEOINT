@@ -1,19 +1,19 @@
 {
   "schema": 1,
-  "updated": "2026-08-10T22:10:16.306391+00:00",
+  "updated": "2026-08-10T23:08:52.877232+00:00",
   "events": [
     {
       "id": "cb39af2df6ed",
-      "title": "China Launches Satellite for Algeria",
-      "description": "China launched a communications satellite for Algeria, the first such export to an Arab country.",
+      "title": "China launches satellite for Algeria",
+      "description": "China has launched a communications satellite for Algeria, marking the first such export to an Arab country.",
       "lat": 36.77,
       "lng": 3.06,
-      "severity": 1,
+      "severity": 2,
       "location": "Algiers, Algeria",
       "source": "China Daily World",
       "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
       "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1786396910864,
+      "ts": 1786403332791,
       "coverage": {
         "left": 0,
         "center": 0,
@@ -31,6 +31,72 @@
             "n": "China Daily World",
             "b": "right",
             "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "081de21b444a",
+      "title": "Turkey reintegrating PKK militants",
+      "description": "Turkey's parliament has passed a law to reintegrate PKK militants, aiming to end four decades of conflict.",
+      "lat": 41.03,
+      "lng": 32.860000000000014,
+      "severity": 1,
+      "location": "Ankara, Turkey",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/turkey-mps-back-historic-law-on-reintegrating-pkk-militants/a-78313397?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1786403332790,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/turkey-mps-back-historic-law-on-reintegrating-pkk-militants/a-78313397?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5164dd5fbc8f",
+      "title": "Nvidia $500bn AI financing deal",
+      "description": "Nvidia has secured $500 billion in financing from major banks to develop AI data centers.",
+      "lat": 37.42,
+      "lng": -122.08,
+      "severity": 2,
+      "location": "Santa Clara, USA",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/c78gr0jv0mdo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13ae/live/d1192590-9504-11f1-bf69-07da70b136c8.jpg",
+      "ts": 1786401102000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC Business",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c78gr0jv0mdo?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
@@ -850,11 +916,11 @@
     },
     {
       "id": "92054aeeebb5",
-      "title": "Yemen's Houthis Attack Saudi Refinery",
-      "description": "Yemen's Houthis attacked Saudi Aramco's Jazan refinery after the kingdom signed a defense pact with Turkey and Pakistan.",
+      "title": "Yemen's Houthis attack Saudi refinery",
+      "description": "Yemen's Houthis have attacked a Saudi Aramco refinery in Jazan, following the kingdom's signing of a defense pact with Turkey and Pakistan.",
       "lat": 16.45,
       "lng": 44.19,
-      "severity": 3,
+      "severity": 4,
       "location": "Sanaa, Yemen",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/yemens-houthis-aittack-saud-refinery-after-kingdom-signs-defense-pact_n_6a79505de4b01ec88690acda",
@@ -4571,11 +4637,11 @@
     },
     {
       "id": "866ccffe9562",
-      "title": "Spain introduces temporary border checks on visitors from Italy",
-      "description": "Spain will introduce temporary border checks on visitors from Italy in response to Rome imposing similar measures.",
+      "title": "Spain introduces temporary border checks",
+      "description": "Spain has introduced temporary border checks on visitors from Italy, in response to Rome's similar measures after a mass migration rush to Ceuta.",
       "lat": 40.42,
       "lng": -3.71,
-      "severity": 2,
+      "severity": 3,
       "location": "Madrid, Spain",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy",
@@ -7947,77 +8013,6 @@
             "n": "Channel News Asia",
             "b": "center",
             "u": "https://www.channelnewsasia.com/east-asia/north-korea-warns-japan-military-options-rearmament-6299791"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c68dbcbc9097",
-      "title": "Trump administration cancels Brazilian ambassador's visa",
-      "description": "The Trump administration has canceled the visa of the Brazilian ambassador to the US in a tit-for-tat move.",
-      "lat": -14.69,
-      "lng": -46.0248,
-      "severity": 3,
-      "location": "Brasilia, Brazil",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/national-security/2026/08/04/trump-administration-cancels-brazilian-ambassadors-visa-tit-for-tat/",
-      "image": null,
-      "ts": 1785891697000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/national-security/2026/08/04/trump-administration-cancels-brazilian-ambassadors-visa-tit-for-tat/"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/brazil/trump-administration-revokes-brazilian-ambassadors-visa-diplomatic-dis-rcna590888"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d6074b0b7e93",
-      "title": "US revokes Brazilian ambassador's visa over delay in accepting its envoy",
-      "description": "The United States has revoked the visa of Brazil's ambassador in Washington, Maria Luiza Ribeiro Viotti, in response to the Brazilian government's delay in granting diplomatic approval to the US ambassador.",
-      "lat": 38.9,
-      "lng": -75.1148,
-      "severity": 3,
-      "location": "Washington, USA",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/white-house-revokes-visa-of-brazil-s-ambassador-to-us-reports/a-78238439?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1785886535164,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/08/04/us-revokes-brazilian-ambassador-s-visa-over-delay-in-accepting-its-envoy?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
           }
         ]
       }
