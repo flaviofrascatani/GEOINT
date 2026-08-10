@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-08-10T16:07:48.023980+00:00",
+  "updated": "2026-08-10T17:05:03.170197+00:00",
   "events": [
+    {
+      "id": "f11e01632cb3",
+      "title": "Colombia recognizes Golan Heights as Israeli territory",
+      "description": "Colombia has become the second nation to recognize the Golan Heights as Israeli territory, following the US.",
+      "lat": 4.61,
+      "lng": -72.1748,
+      "severity": 2,
+      "location": "Bogota, Colombia",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/article-905102",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/557954",
+      "ts": 1786389764000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/israel-news/article-905102"
+          }
+        ]
+      }
+    },
+    {
+      "id": "27041efd409e",
+      "title": "Wall Street giants partner with Nvidia on $500bn AI financing deal",
+      "description": "Apollo, Blackstone, and Goldman Sachs are among groups working with Nvidia to raise capital for a data centre boom.",
+      "lat": 40.71,
+      "lng": -74.01,
+      "severity": 1,
+      "location": "New York City, USA",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/98a8fd17-15b6-4f67-9cb4-825722b11348?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1786380068000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/98a8fd17-15b6-4f67-9cb4-825722b11348?syn-25a6b1a6=1"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/business/wall-street-giants-partner-nvidia-500-billion-ai-financing-deal-ft-reports-6310321"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c31028f3c38e",
+      "title": "Trump administration revokes over 175,000 visas",
+      "description": "The Trump administration has revoked more than 175,000 visas from foreign nationals, claiming violations of the terms of the documents related to criminal activity.",
+      "lat": 40.0,
+      "lng": -77.02,
+      "severity": 3,
+      "location": "Washington D.C., USA",
+      "source": "The Hill",
+      "url": "https://thehill.com/homenews/administration/6020599-trump-administration-visa-revocation/",
+      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/08/trumpdonald_rubiomarco_080726nk01_w.jpg?w=900",
+      "ts": 1786379793000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/homenews/administration/6020599-trump-administration-visa-revocation/"
+          }
+        ]
+      }
+    },
     {
       "id": "e83fc7354261",
       "title": "Colombia earthquake",
@@ -585,20 +689,20 @@
       "description": "Yemen's Houthis have attacked Saudi Aramco's Jazan refinery, two days after the kingdom signed a defense pact with Turkey and Pakistan.",
       "lat": 16.45,
       "lng": 44.19,
-      "severity": 4,
+      "severity": 3,
       "location": "Sanaa, Yemen",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/yemens-houthis-aittack-saud-refinery-after-kingdom-signs-defense-pact_n_6a79505de4b01ec88690acda",
       "image": null,
       "ts": 1786335661000,
       "coverage": {
-        "left": 2,
+        "left": 1,
         "center": 1,
         "right": 0,
-        "total": 3,
+        "total": 2,
         "buckets": {
           "left": 1,
-          "lean_left": 1,
+          "lean_left": 0,
           "center": 1,
           "lean_right": 0,
           "right": 0
@@ -608,11 +712,6 @@
             "n": "HuffPost World",
             "b": "left",
             "u": "https://www.huffpost.com/entry/yemens-houthis-aittack-saud-refinery-after-kingdom-signs-defense-pact_n_6a79505de4b01ec88690acda"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/yemens-houthis-claim-attack-aramco-oil-facility-saudi-135496001"
           },
           {
             "n": "IBTimes",
@@ -4340,11 +4439,11 @@
     },
     {
       "id": "866ccffe9562",
-      "title": "Spain to introduce temporary border checks on visitors from Italy",
+      "title": "Spain introduces temporary border checks on visitors from Italy",
       "description": "Spain will introduce temporary border checks on visitors from Italy in response to Rome imposing similar measures after a mass migration rush to Ceuta.",
       "lat": 40.42,
       "lng": -3.71,
-      "severity": 2,
+      "severity": 3,
       "location": "Madrid, Spain",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy",
@@ -7924,125 +8023,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/mid-east/israel-launches-incursions-into-southern-syria"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4e3af8963747",
-      "title": "Oil spill from grounded tanker off Oman expands sharply, satellite images show",
-      "description": "An oil spill from a sanctioned tanker off Oman is expanding dramatically, reaching shorelines and spreading far out to sea.",
-      "lat": 27.67,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/oil-spill-grounded-tanker-off-oman-expands-sharply-135364138",
-      "image": "https://s.abcnews.com/images/International/wirestory_b163bc0540786085f5a6e5986c3f4936_4x3_384.jpg",
-      "ts": 1785873053000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/oil-spill-grounded-tanker-off-oman-expands-sharply-135364138"
-          }
-        ]
-      }
-    },
-    {
-      "id": "86b9a8d801a7",
-      "title": "Evacuations ordered as Guatemala volcano erupts",
-      "description": "Guatemala’s Fuego volcano erupted Monday, triggering an orange alert and evacuations near the deadly 2018 eruption site.",
-      "lat": 14.47,
-      "lng": -90.88,
-      "severity": 3,
-      "location": "Guatemala",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/4/evacuations-ordered-as-guatemala-volcano-erupts?traffic_source=rss",
-      "image": null,
-      "ts": 1785872477000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/4/evacuations-ordered-as-guatemala-volcano-erupts?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c0e64a4d4a74",
-      "title": "Video shows Russian drone attacking vegetable seller in Ukraine",
-      "description": "Footage released by Ukrainian police shows the drone pursuing an unidentified man around a van being used as a street stand before exploding after he dives for cover behind the vehicle.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 4,
-      "location": "Kyiv, Ukraine",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/russia-ukraine-war-war-crime-video-shows-russian-drone-attacking-vegetable-seller-in-ukraine-11866469#publisher=newsstand",
-      "image": null,
-      "ts": 1785870373000,
-      "coverage": {
-        "left": 2,
-        "center": 3,
-        "right": 0,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/europe/russia-ukraine-war-drone-black-sea-resort-beach-holiday-goers-killed-rcna590723"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/russia-ukraine-war-war-crime-video-shows-russian-drone-attacking-vegetable-seller-in-ukraine-11866469#publisher=newsstand"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cn4n03xg981o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/russia-central-asia/article/3362978/ukraine-slams-russian-drone-safari-after-video-shows-vegetable-seller-being-chased-down?utm_source=rss_feed"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/world/ukraine-russia-drone-video-chasing-street-vendor-6298881"
           }
         ]
       }
