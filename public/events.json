@@ -1,7 +1,78 @@
 {
   "schema": 1,
-  "updated": "2026-08-10T13:58:59.569095+00:00",
+  "updated": "2026-08-10T15:07:33.097560+00:00",
   "events": [
+    {
+      "id": "e83fc7354261",
+      "title": "Colombia earthquake",
+      "description": "A 7.4-magnitude earthquake struck western Colombia, causing damage and killing at least 20 people.",
+      "lat": 5.63,
+      "lng": -75.3774,
+      "severity": 4,
+      "location": "San José del Palmar, Colombia",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/colombia-earthquake-western-region-evacuations/",
+      "image": null,
+      "ts": 1786373768000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/powerful-earthquake-shakes-colombia-ecuador-prompting-people-evacuate-135515580"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/colombia-earthquake-bogota-san-jose-37534402"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5d2267afa6a1",
+      "title": "US Pledges $1 Billion Security Aid to Colombia",
+      "description": "The US plans to provide $1 billion in security aid to Colombia as part of a major reset in relations.",
+      "lat": 5.71,
+      "lng": -72.1748,
+      "severity": 2,
+      "location": "Bogotá, Colombia",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/colusaid/",
+      "image": null,
+      "ts": 1786371385000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/colusaid/"
+          }
+        ]
+      }
+    },
     {
       "id": "63ee6225e79e",
       "title": "Algeria hands over four Russian-made helicopters to Niger",
@@ -490,24 +561,24 @@
     },
     {
       "id": "32230b7fe8ac",
-      "title": "Iran Ties Hormuz Reopening To U.S. Concessions On Several Demands",
-      "description": "The United States and Israel launched air strikes on Iran more than five months ago.",
+      "title": "Iran Ties Hormuz Reopening to US Concessions",
+      "description": "Iran has tied the reopening of the Strait of Hormuz to US concessions on several demands.",
       "lat": 29.57,
       "lng": 52.53,
-      "severity": 3,
+      "severity": 2,
       "location": "Tehran, Iran",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/iran-hormuz-reopening-us-concessions-several-demands_n_6a794e2de4b01ec88690ac02",
       "image": null,
       "ts": 1786335022000,
       "coverage": {
-        "left": 2,
+        "left": 1,
         "center": 0,
         "right": 0,
-        "total": 2,
+        "total": 1,
         "buckets": {
           "left": 1,
-          "lean_left": 1,
+          "lean_left": 0,
           "center": 0,
           "lean_right": 0,
           "right": 0
@@ -517,11 +588,6 @@
             "n": "HuffPost World",
             "b": "left",
             "u": "https://www.huffpost.com/entry/iran-hormuz-reopening-us-concessions-several-demands_n_6a794e2de4b01ec88690ac02"
-          },
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/10/world/middleeast/iran-strait-of-hormuz-us-oman-talks.html"
           }
         ]
       }
@@ -7952,72 +8018,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/amazon-countries-arrest-hundreds-major-crackdown-environmental-crime-135363222"
-          }
-        ]
-      }
-    },
-    {
-      "id": "76006667aa30",
-      "title": "Uruguay Reaches Preliminary Deal to Reduce Working Hours",
-      "description": "Uruguay's construction workers' union and employer chambers reached a preliminary agreement to reduce the working week from 44 to 40 hours.",
-      "lat": -31.43,
-      "lng": -55.75999999999999,
-      "severity": 1,
-      "location": "Montevideo, Uruguay",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/08/04/uruguay-preliminary-deal-signed-in-construction-to-cut-working-hours?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111023/100x80/sunca.jpg",
-      "ts": 1785857340000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/08/04/uruguay-preliminary-deal-signed-in-construction-to-cut-working-hours?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "862f9cf1387b",
-      "title": "Gaza Holds Mass Funeral for Extended Family Recovered from Wartime Rubble",
-      "description": "Gaza has held a mass funeral for dozens of people, including women and children, recently recovered from wartime rubble.",
-      "lat": 31.51,
-      "lng": 34.46000000000001,
-      "severity": 4,
-      "location": "Gaza City, Gaza",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/gaza-war-mass-funeral-extended-family/",
-      "image": null,
-      "ts": 1785856482000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/gaza-war-mass-funeral-extended-family/"
           }
         ]
       }
