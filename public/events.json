@@ -1,7 +1,154 @@
 {
   "schema": 1,
-  "updated": "2026-08-09T23:39:50.401663+00:00",
+  "updated": "2026-08-10T02:26:04.556680+00:00",
   "events": [
+    {
+      "id": "f56c56d84bfe",
+      "title": "Houthis launch fresh ballistic missile and drone attacks",
+      "description": "Yemen's Iran-aligned Houthis have resumed attacks on the Red Sea port city of Mocha.",
+      "lat": 15.35,
+      "lng": 44.19,
+      "severity": 4,
+      "location": "Sanaa, Yemen",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/houthis-launch-fresh-ballistic-missile-and-drone-attacks-on-al-makha-port?traffic_source=rss",
+      "image": null,
+      "ts": 1786325666000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/10/houthis-launch-fresh-ballistic-missile-and-drone-attacks-on-al-makha-port?traffic_source=rss"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/houthis-resume-attacks-yemens-mocha-port-city-yemeni-military-spokesperson-says"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6f2d50aab27a",
+      "title": "Taiwan plans record defense budget to counter China",
+      "description": "Taiwan plans to spend a record NT$1.1 trillion ($34.1 billion) on its military in 2027.",
+      "lat": 26.13,
+      "lng": 123.45519999999999,
+      "severity": 2,
+      "location": "Taipei, Taiwan",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-10/taiwan-plans-record-defense-budget-to-counter-china-report-says",
+      "image": null,
+      "ts": 1786325372000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-10/taiwan-plans-record-defense-budget-to-counter-china-report-says"
+          }
+        ]
+      }
+    },
+    {
+      "id": "83fb556b340b",
+      "title": "Wildfires in western Canada force more than 20,000 people to evacuate",
+      "description": "British Columbia declared a state of emergency after a fast-moving wildfire destroyed homes and forced more than 20,000 people to flee their communities.",
+      "lat": 49.28,
+      "lng": -123.12,
+      "severity": 4,
+      "location": "Victoria, British Columbia, Canada",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/bald-range-wildfire-canada-british-columbia/",
+      "image": "https://s.abcnews.com/images/International/wirestory_61002c95f641a4060b78195b016fbea3_4x3_384.jpg",
+      "ts": 1786322860000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/bald-range-wildfire-canada-british-columbia/"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/thousands-evacuated-as-huge-wildfire-spreads-in-canada-13571032"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3e084f35be53",
+      "title": "Iran ties Hormuz reopening to US concessions",
+      "description": "Iran said it was nearing a final pact with Oman defining new shipping lanes between them through the Strait of Hormuz.",
+      "lat": 33.53,
+      "lng": 53.06,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/iran-ties-hormuz-reopening-us-concessions-several-demands",
+      "image": null,
+      "ts": 1786319191000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/middle-east/2026/0810/1587195-iran-us-world/"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/iran-ties-hormuz-reopening-us-concessions-several-demands"
+          }
+        ]
+      }
+    },
     {
       "id": "54b34d041f18",
       "title": "Cuba thanks China for donation of 5,000 solar panels",
@@ -167,44 +314,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/08/israeli-military-closes-palestinian-christian-village-taybeh-citing-settler"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f56c56d84bfe",
-      "title": "Houthis resume attacks on Yemen's Mocha port city",
-      "description": "Yemen's Iran-aligned Houthis have resumed attacks on the Red Sea port city of Mocha, according to a Yemeni military spokesperson.",
-      "lat": 15.35,
-      "lng": 44.19,
-      "severity": 3,
-      "location": "Sanaa, Yemen",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/08/houthis-resume-attacks-yemens-mocha-port-city-yemeni-military-spokesperson-says",
-      "image": null,
-      "ts": 1786308399000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/houthis-resume-attacks-yemens-mocha-port-city-yemeni-military-spokesperson-says"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/middle-east/article/3363465/yemens-houthis-attack-saudi-refinery-after-kingdom-signs-defence-pact?utm_source=rss_feed"
           }
         ]
       }
@@ -1683,69 +1792,6 @@
             "n": "Japan Times",
             "b": "center",
             "u": "https://www.japantimes.co.jp/news/2026/08/09/world/iran-oman-hormuz-deal/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "83fb556b340b",
-      "title": "British Columbia Declares State of Emergency Due to Wildfires",
-      "description": "More than 20,000 people flee wildfires as British Columbia declares state of emergency",
-      "lat": 49.28,
-      "lng": -123.12,
-      "severity": 3,
-      "location": "Victoria, British Columbia, Canada",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/fast-moving-wildfire-forces-20000-people-evacuate-western-135483600",
-      "image": "https://s.abcnews.com/images/International/wirestory_61002c95f641a4060b78195b016fbea3_4x3_384.jpg",
-      "ts": 1786225841000,
-      "coverage": {
-        "left": 4,
-        "center": 3,
-        "right": 0,
-        "total": 7,
-        "buckets": {
-          "left": 0,
-          "lean_left": 4,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/article/canada-wildfires-2026.html"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/fast-moving-wildfire-forces-20000-people-evacuate-western-135483600"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/bald-range-wildfire-canada-british-columbia/"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/canada-wildfire-british-columbia-declares-state-of-emergency-20-000-evacuated-amid-wildfire-11884824#publisher=newsstand"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/world/2026/0809/1587115-canada-fires-world/"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/canada-british-columbia-declares-emergency-as-fires-spread/a-78291841?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/environment/2026/08/09/british-columbia-emergency-wildfires/"
           }
         ]
       }
@@ -4098,10 +4144,10 @@
     {
       "id": "6392d716168e",
       "title": "Ugandan footballer killed by robbers",
-      "description": "Ugandan footballer David Owori has been killed by robbers in Kampala.",
+      "description": "David Owori, a Ugandan footballer, was killed by robbers near his home in Kampala.",
       "lat": 1.41,
       "lng": 32.56999999999999,
-      "severity": 3,
+      "severity": 4,
       "location": "Kampala, Uganda",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/uganda-soccer-star-killed_n_6a75a954e4b04fcbf74e52a7",
@@ -7952,72 +7998,6 @@
             "n": "NDTV World",
             "b": "lean_left",
             "u": "https://www.ndtv.com/world-news/us-to-close-consulates-in-canada-japan-indonesia-report-11861846#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "98df7f2ab7ae",
-      "title": "EU adopts 21st sanctions package against Russia",
-      "description": "The EU has adopted its 21st sanctions package against Russia, in response to the ongoing conflict in Ukraine.",
-      "lat": 55.75,
-      "lng": 37.620000000000005,
-      "severity": 3,
-      "location": "Moscow, Russia",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQkFsWlg1c3pGcDRjSll5Ums1U2NnVHhpMk9fTTdSdTM4Z1F1aUNHUDVBMFJFRVd6dThrVEhFeHFUcG1tbzVCNEtWQ3A3LWZOUG5FcDRMS1RnS1R3N3BPSXc3TGRJRjV4V25majJqNHJIa3ZNN3pTeW9BZWpISEIxWFNB?oc=5",
-      "image": null,
-      "ts": 1785795725000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQkFsWlg1c3pGcDRjSll5Ums1U2NnVHhpMk9fTTdSdTM4Z1F1aUNHUDVBMFJFRVd6dThrVEhFeHFUcG1tbzVCNEtWQ3A3LWZOUG5FcDRMS1RnS1R3N3BPSXc3TGRJRjV4V25majJqNHJIa3ZNN3pTeW9BZWpISEIxWFNB?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "caf05587d9ca",
-      "title": "Morocco's role in Ceuta migrant crisis raises questions",
-      "description": "The sudden arrival of 50,000 people in Ceuta raises questions about Morocco's role in this migration crisis.",
-      "lat": 35.88,
-      "lng": -5.310000000000002,
-      "severity": 3,
-      "location": "Ceuta, Spain",
-      "source": "Le Monde English",
-      "url": "https://www.lemonde.fr/en/le-monde-africa/article/2026/08/04/how-morocco-is-pressuring-the-spanish-enclaves-of-ceuta-and-melilla_6756128_124.html",
-      "image": "https://img.lemde.fr/2026/08/02/315/0/5369/2684/644/322/60/0/ec43092_ftp-1-sdk3xiulno5m-5759908-01-06.jpg",
-      "ts": 1785795269000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/le-monde-africa/article/2026/08/04/how-morocco-is-pressuring-the-spanish-enclaves-of-ceuta-and-melilla_6756128_124.html"
           }
         ]
       }
