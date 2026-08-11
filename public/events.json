@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-08-11T20:56:23.177276+00:00",
+  "updated": "2026-08-11T21:57:51.145464+00:00",
   "events": [
+    {
+      "id": "24d8339f8b11",
+      "title": "Severe malnutrition in Somalia is surging after US cuts, aid groups say",
+      "description": "What we are seeing is shocking and far beyond the threshold of an extremely critical emergency.",
+      "lat": 2.04,
+      "lng": 45.35,
+      "severity": 4,
+      "location": "Mogadishu, Somalia",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/08/11/severe-malnutrition-somalia-is-surging-after-us-cuts-aid-groups-say/",
+      "image": null,
+      "ts": 1786484436000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/08/11/severe-malnutrition-somalia-is-surging-after-us-cuts-aid-groups-say/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "41ea6152250f",
+      "title": "NATO Country Believes Russia Will Stage a False Flag Attack Against Critical Infrastructure",
+      "description": "Lithuania, a NATO country, said it is taking measures to protect critical infrastructure against a false flag attack from Russia.",
+      "lat": 51.55,
+      "lng": 32.42519999999999,
+      "severity": 2,
+      "location": "Kyiv, Ukraine",
+      "source": "IBTimes",
+      "url": "https://www.ibtimes.com/nato-country-believes-russia-will-stage-false-flag-attack-against-critical-infrastructure-3806312",
+      "image": null,
+      "ts": 1786479789000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/nato-country-believes-russia-will-stage-false-flag-attack-against-critical-infrastructure-3806312"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2f2758f88114",
+      "title": "At least 18 killed in Egypt truck crash, many children",
+      "description": "At least 18 people, many of them children aged 13 to 14, were killed on Tuesday in northern Egypt when two pick-up trucks carrying agricultural day labourers crashed.",
+      "lat": 31.16,
+      "lng": 31.25,
+      "severity": 4,
+      "location": "Cairo, Egypt",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/08/11/at-least-18-killed-in-egypt-truck-crash-many-children/",
+      "image": "http://images.euronews.com/articles/stories/09/87/08/74/640x360_cmsv2_4e29b8eb-b28f-5fff-aaef-702efa87a9ca-9870874.jpg?1786471990",
+      "ts": 1786476090000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/11/truck-crash-in-egypt-kills-18-many-of-them-child-labourers?traffic_source=rss"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/11/at-least-18-killed-in-egypt-truck-crash-many-children/"
+          }
+        ]
+      }
+    },
     {
       "id": "2de093373d36",
       "title": "Israel, Venezuela open consular relations",
@@ -31,6 +135,39 @@
             "n": "Jerusalem Post",
             "b": "center",
             "u": "https://www.jpost.com/israel-news/article-905225"
+          }
+        ]
+      }
+    },
+    {
+      "id": "21ab1f33a337",
+      "title": "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
+      "description": "Colombia experienced a number of aftershocks, as efforts continued to free survivors trapped in rubble and buildings.",
+      "lat": 3.42,
+      "lng": -76.52,
+      "severity": 4,
+      "location": "Bogotá, Colombia",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/69cb/live/7fca1ff0-95b8-11f1-b16a-9d1bd99de52e.jpg",
+      "ts": 1786475392000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
@@ -2103,54 +2240,6 @@
             "n": "Mirror World",
             "b": "lean_left",
             "u": "https://www.mirror.co.uk/news/world-news/colombia-earthquake-news-death-toll-37535787"
-          }
-        ]
-      }
-    },
-    {
-      "id": "41ea6152250f",
-      "title": "Ukraine Drone Attack on Russia",
-      "description": "A Ukrainian drone attack on an industrial city in Russia has killed at least 13 people.",
-      "lat": 51.55,
-      "lng": 32.42519999999999,
-      "severity": 4,
-      "location": "Kyiv, Ukraine",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/08/10/world/europe/ukraine-drone-attack-russia.html",
-      "image": null,
-      "ts": 1786375061000,
-      "coverage": {
-        "left": 3,
-        "center": 0,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/10/world/europe/ukraine-drone-attack-russia.html"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/5-killed-20-injured-in-russian-attack-on-ukraines-zaporizhzhia-11892422#publisher=newsstand"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/ukraine-drone-strike-nizhnekamsk-refinery-37531910"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/europe/ukraine-strikes-russias-tatarstan-oil-hub-killing-13-injuring-78"
           }
         ]
       }
@@ -7699,125 +7788,6 @@
             "n": "Nikkei Asia",
             "b": "center",
             "u": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/us-imposes-15-tariff-on-polysilicon-in-pushback-against-china"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4e4877787f5e",
-      "title": "Trump Signs Executive Orders Targeting Birthright Citizenship and ‘Birth Tourism’",
-      "description": "The executive orders ban birth tourism and expand the existing definition of people whose children are not eligible for US birthright citizenship.",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "Breitbart",
-      "url": "https://www.breitbart.com/politics/2026/08/06/trump-signs-orders-that-end-birth-tourism-expand-who-classifies-as-ineligible-for-birthright-citizenship/",
-      "image": null,
-      "ts": 1786060497000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/08/07/trump-executive-orders-birth-tourism-birthright-citizenship/"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cj63966j95yo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTVJTMjUzcjk1Y2lZb1EtZmxnSWpBck1hZHY0MmRVT3ZQa3JJLVJEOWN0Q2d5a3Q0cHJBbkF6Vm9yV0xCVXliY3dxbXRFTkpST2JSSFBZMkNCdTJaWTdId0ZrZ0FISkhCYVY5SlYwTDA4YVNQaVlZUTVnbE40MVVwVlFZTlJ2WEJQVlEyUE5aenU4QQ?oc=5"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/politics/2026/08/06/trump-signs-orders-that-end-birth-tourism-expand-who-classifies-as-ineligible-for-birthright-citizenship/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "65062b02866d",
-      "title": "Trump orders leak probe",
-      "description": "Trump orders probe after media coverage of munitions stockpile",
-      "lat": 40.0,
-      "lng": -75.1148,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "Google News Top",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPS200d1UtaHFSNlJYdjVReHViMUFJQ042S2YweUJERjZTaDhCN1pFNzFVbmhlQVMyOEJlMGYxWWM1YTdpdHpQUUIyUkp3anBSbWxuTnhCZXJiQlRKZV8ycnZtRUVxX01YanRidlFLMENHX0liczFxUlRmbG9PTkFrVFB0WlI1cFJ5bk5qZDhXZ1NreTJDS3R3QUpVbVNqREdTTUlrMU1IRjFlYXltNzgxdzVKc013czl1OFIwQnJwUUlJTjRsZkpmaVMtaWxid3otSTNv?oc=5",
-      "image": null,
-      "ts": 1786059000000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPS200d1UtaHFSNlJYdjVReHViMUFJQ042S2YweUJERjZTaDhCN1pFNzFVbmhlQVMyOEJlMGYxWWM1YTdpdHpQUUIyUkp3anBSbWxuTnhCZXJiQlRKZV8ycnZtRUVxX01YanRidlFLMENHX0liczFxUlRmbG9PTkFrVFB0WlI1cFJ5bk5qZDhXZ1NreTJDS3R3QUpVbVNqREdTTUlrMU1IRjFlYXltNzgxdzVKc013czl1OFIwQnJwUUlJTjRsZkpmaVMtaWxid3otSTNv?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2b108023d5cc",
-      "title": "Trump signs executive orders to limit birthright citizenship",
-      "description": "US President Donald Trump has signed executive orders aimed at limiting birthright citizenship and curbing 'birth tourism'.",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/donald-trump-signs-order-to-curb-birthright-citizenship-tourism-11876893#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-08/qnhp94eg_donald-trump_625x300_07_August_26.jpeg",
-      "ts": 1786057578000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/6/trump-signs-executive-orders-banning-so-called-birth?traffic_source=rss"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/americas/trump-signs-orders-to-limit-birthright-citizenship-curb-birth-tourism"
           }
         ]
       }
