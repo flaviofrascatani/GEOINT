@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-08-11T19:38:46.266424+00:00",
+  "updated": "2026-08-11T20:56:23.177276+00:00",
   "events": [
     {
       "id": "2de093373d36",
@@ -315,6 +315,54 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/mid-east/yemen-coastguard-says-six-killed-in-houthi-strike-on-ship-in-red-sea"
+          }
+        ]
+      }
+    },
+    {
+      "id": "951e25d2b5c7",
+      "title": "US fires missiles to disable ship violating Iran blockade",
+      "description": "A US helicopter fired missiles into the engine room of a Panama-flagged cargo ship that attempted to break the American blockade of Iran's ports.",
+      "lat": 26.57,
+      "lng": 58.44999999999999,
+      "severity": 4,
+      "location": "Gulf of Oman",
+      "source": "RTE News",
+      "url": "https://www.rte.ie/news/2026/0811/1587478-trump-iran/",
+      "image": "https://www.rte.ie/images/0024d411-800.jpg",
+      "ts": 1786465703000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/11/us-military-fires-on-cargo-vessel-it-said-sought-to-break-iran-blockade?traffic_source=rss"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cvg8lyyyjedo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/2026/0811/1587478-trump-iran/"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/middle-east/article/3363706/us-military-says-it-has-fired-ship-gulf-oman-enforce-blockade-iranian-ports?utm_source=rss_feed"
           }
         ]
       }
@@ -692,6 +740,44 @@
             "n": "France 24",
             "b": "center",
             "u": "https://www.france24.com/en/middle-east/20260811-lebanon-becomes-first-middle-eastern-country-to-abolish-death-penalty"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7ddb3e443aa3",
+      "title": "Ukraine expands air war against Russia",
+      "description": "Ukraine has increased its air strikes against Russia, resulting in growing civilian deaths and discontent among Russians.",
+      "lat": 50.45,
+      "lng": 32.42519999999999,
+      "severity": 3,
+      "location": "Ukraine",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/08/11/world/europe/russia-ukraine-civilian-casualties.html",
+      "image": "https://static01.nyt.com/images/2026/08/11/multimedia/11int-russia-deaths-01-hwpz/11int-russia-deaths-01-hwpz-mediumSquareAt3X.jpg",
+      "ts": 1786448598000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/11/world/europe/russia-ukraine-civilian-casualties.html"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c151dpzwnvxo?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
@@ -7732,82 +7818,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/americas/trump-signs-orders-to-limit-birthright-citizenship-curb-birth-tourism"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3e879ae2c69e",
-      "title": "Explosive drone found near jet in Leipzig, Germany",
-      "description": "An explosive drone was found near a jet in Leipzig, Germany, in what authorities describe as a 'serious attack'.",
-      "lat": 52.44,
-      "lng": 12.379999999999995,
-      "severity": 3,
-      "location": "Leipzig, Germany",
-      "source": "Sky News World",
-      "url": "https://news.sky.com/story/leipzig-explosive-drone-serious-attack-on-germany-as-reports-claim-ukraine-jet-was-carrying-ammunition-13570500",
-      "image": "https://e3.365dm.com/26/08/1920x1080/skynews-leipzig-airport-drone_7314553.jpg?20260805155142",
-      "ts": 1786043100000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/leipzig-explosive-drone-serious-attack-on-germany-as-reports-claim-ukraine-jet-was-carrying-ammunition-13570500"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/germany-leipzig-airport-drone-attack-sets-off-alarm-bells/a-78265397?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "785ce407ff72",
-      "title": "Iran seeks to bar US and Israeli ships from Hormuz",
-      "description": "Iran aims to ban US and Israeli ships from crossing the Strait of Hormuz, according to Iranian media reports.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 2,
-      "location": "Strait of Hormuz",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcTFXYVB3UEVQVVIwMW5kX0s4V1dfdVZNd2hiRXlBSUVHREhwUTJwejdfeV9ueVBodXdPQ1dabVdZdms5QXFtNWFLZFpocjNCZzBYb2ZzM3lBQ29jeURGaDNUREl3NXk0Vk5OZW42RUl6MHEtS1h4SmhNYmhmWEozZzBhS3NvUFVIS0VXS0ZYUjhOdy03ajRMYg?oc=5",
-      "image": null,
-      "ts": 1786035337000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQV8zdjVQNEctTWh2cW83azhtc0w1NENNN0dTUjRkMnNwQ2J6TzdBZVJ3NFJwQTJHLTU0YU1lM2EtZTVZUmwzNFBCSzJBYXpkMlVzdnNUVmFQZWJtTUJfalVtMG5wTkFzeWhpMThDOFZ1QkVaSDFVeU00RVJHcmFnTS1YMA?oc=5"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/videos/2026-08-07/daybreak-europe-8-7-2026-video"
           }
         ]
       }
