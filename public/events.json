@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-08-11T10:27:21.126071+00:00",
+  "updated": "2026-08-11T11:24:24.388652+00:00",
   "events": [
     {
       "id": "f45c09488fc1",
@@ -51,6 +51,39 @@
       }
     },
     {
+      "id": "714489471e3a",
+      "title": "US and Iran trade reparation demands",
+      "description": "The US and Iran have traded reparation demands, with hopes of a Hormuz deal fading.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/08/11/us-iran-war-trump-hormuz-control-reparation-talks-.html",
+      "image": null,
+      "ts": 1786443513000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/08/11/us-iran-war-trump-hormuz-control-reparation-talks-.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "c43ed7cb5ac0",
       "title": "US judge dismisses graft case against India's billionaire Adani",
       "description": "A U.S. judge dismissed on Monday a case against Indian billionaire industrialist Gautam Adani after the Trump administration decided to drop the fraud and bribery allegations against him.",
@@ -79,6 +112,39 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/business/economy/us-judge-dismisses-graft-case-against-indias-billionaire-adani"
+          }
+        ]
+      }
+    },
+    {
+      "id": "24ab47a2e349",
+      "title": "Taiwan opposition leader says talking to China is the island's best defense",
+      "description": "Taiwan's opposition leader has said that talking to China is the island's best defense, in a bid to preserve peace across the Taiwan Strait.",
+      "lat": 25.03,
+      "lng": 121.55000000000001,
+      "severity": 2,
+      "location": "Taipei, Taiwan",
+      "source": "Time",
+      "url": "https://time.com/article/2026/08/11/taiwan-opposition-leader-kmt-cheng-li-wun-china/",
+      "image": "https://static.time.com/v3/assets/bltea6093859af6183b/bltac59a6bb1cf269e1/6a7a0e92c99c563098892e14/cheng-li-wun-06.jpg?branch=production",
+      "ts": 1786442404000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/08/11/taiwan-opposition-leader-kmt-cheng-li-wun-china/"
           }
         ]
       }
@@ -167,6 +233,72 @@
             "n": "Daily Mail World",
             "b": "right",
             "u": "https://www.dailymail.com/news/article-16043797/Syrias-former-ruler-Bashar-al-Assad-sentenced-death.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+          }
+        ]
+      }
+    },
+    {
+      "id": "23d544c0efd5",
+      "title": "Egypt and US discuss investment opportunities",
+      "description": "Egypt and the US have discussed investment opportunities and cooperation in housing, urban development, and infrastructure.",
+      "lat": 30.05,
+      "lng": 31.25,
+      "severity": 1,
+      "location": "Cairo, Egypt",
+      "source": "Egypt Independent",
+      "url": "https://www.egyptindependent.com/egypt-us-discuss-investment-opportunities-desalination-cooperation/",
+      "image": null,
+      "ts": 1786441063000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/egypt-us-discuss-investment-opportunities-desalination-cooperation/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5edfbe6906b4",
+      "title": "NASA invites India to partner on Moon base mission",
+      "description": "NASA has invited India to partner on its Moon base mission, as India emerges as a major lunar power.",
+      "lat": 28.7,
+      "lng": 77.1,
+      "severity": 1,
+      "location": "New Delhi, India",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/nasa-invites-india-to-partner-on-its-moon-base-mission-11894342#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-08/nfgp3tsg_moon_625x300_04_August_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1786440882000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/nasa-invites-india-to-partner-on-its-moon-base-mission-11894342#publisher=newsstand"
           }
         ]
       }
@@ -281,6 +413,142 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/business/energy/brent-oil-tops-90-as-hopes-for-iran-us-deal-diminish"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b634c5c23b81",
+      "title": "Trump used secret flight to leave Turkey amid Iran threat",
+      "description": "Trump used a secret flight to leave Turkey amid an Iran threat, contradicting public statements.",
+      "lat": 39.93,
+      "lng": 32.860000000000014,
+      "severity": 2,
+      "location": "Ankara, Turkey",
+      "source": "Google News Top",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaWEwRVJMUWthdlFuSTV5N2ZqaDA2TXViaUlic1NJSlgtbXNKYzY5Qnh2d0QtMGRGYTg1QU5uUFNaY2xXOEpPenR1TEZrWGJIT2NxTFFtUE9yZFlUdUlKNFNfRUJ0MV9wT3NjdkhXYWVKN1NTeUh5c1JlTzNiMUM0ZzNyZXBmX0dkdkxWTHktRG9HeWpQMEE?oc=5",
+      "image": null,
+      "ts": 1786437840000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/trump-secretly-switched-plane-turkey-air-force-one-iran-war-threat/"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/middle-east-trump-took-secret-flight-out-of-turkey-over-iran-threat/live-78313883?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaWEwRVJMUWthdlFuSTV5N2ZqaDA2TXViaUlic1NJSlgtbXNKYzY5Qnh2d0QtMGRGYTg1QU5uUFNaY2xXOEpPenR1TEZrWGJIT2NxTFFtUE9yZFlUdUlKNFNfRUJ0MV9wT3NjdkhXYWVKN1NTeUh5c1JlTzNiMUM0ZzNyZXBmX0dkdkxWTHktRG9HeWpQMEE?oc=5"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/trump-boarded-secret-turkey-flight-catering-truck-due-iran-threat-media"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f24df1b8753f",
+      "title": "Bashar al-Assad sentenced to death",
+      "description": "A Syrian court has sentenced former President Bashar al-Assad to death in absentia for war crimes and crimes against humanity.",
+      "lat": 33.51,
+      "lng": 36.28999999999999,
+      "severity": 3,
+      "location": "Damascus, Syria",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/bashar-al-assad-sentenced-to-death-in-absentia-by-syrian-court-for-war-crimes-13571874",
+      "image": "https://e3.365dm.com/25/03/1920x1080/skynews-syria-isis_6855227.jpg?20250313161414",
+      "ts": 1786437720000,
+      "coverage": {
+        "left": 3,
+        "center": 8,
+        "right": 1,
+        "total": 12,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 8,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/former-syrian-president-assad-sentenced-death-absentia-135538421"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/syria-ex-president-bashar-al-assad-sentenced-to-death-for-crimes-against-humanity-11894097#publisher=newsstand"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/bashar-al-ashad-sentenced-death-37536358"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/ce34dkpnyg7o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/world/2026/0811/1587396-bashar-al-assad/"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/bashar-al-assad-sentenced-to-death-in-absentia-by-syrian-court-for-war-crimes-13571874"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/syria-sentences-bashar-assad-to-death-in-absentia/a-78316245?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-905172"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/syrian-court-sentences-bashar-al-assad-brother-death-war-crimes"
+          },
+          {
+            "n": "Times of India World",
+            "b": "center",
+            "u": "https://timesofindia.indiatimes.com/world/middle-east/syrias-ousted-leader-bashar-al-assad-sentenced-to-death-for-crimes-against-humanity/articleshow/133148343.cms"
+          },
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/08/11/syrian-court-sentences-bashar-al-assad-to-death-in-absentia-for-crimes-against-humanity?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+          },
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/news/article-16043797/Syrias-former-ruler-Bashar-al-Assad-sentenced-death.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
           }
         ]
       }
@@ -7650,264 +7918,6 @@
             "n": "Breitbart",
             "b": "right",
             "u": "https://www.breitbart.com/politics/2026/08/05/gop-senate-candidate-mike-rogers-democrat-opponent-abdul-el-sayed-is-an-extremist-who-wants-to-empty-prisons-support-muslim-brotherhood/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "fabfe6959233",
-      "title": "Hiroshima urges leaders to abolish nuclear weapons on 81st A-bomb anniversary",
-      "description": "A moment of silence was observed at the exact time when the uranium bomb was dropped on August 6, 1945",
-      "lat": 34.39,
-      "lng": 132.46,
-      "severity": 1,
-      "location": "Hiroshima, Japan",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/east-asia/hiroshima-urges-leaders-to-abolish-nuclear-weapons-on-81st-a-bomb-anniversary",
-      "image": null,
-      "ts": 1785977100000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/east-asia/hiroshima-urges-leaders-to-abolish-nuclear-weapons-on-81st-a-bomb-anniversary"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e20dc498ff2f",
-      "title": "China Launches Global Tax Hunt",
-      "description": "China launches a global tax hunt, with the government seeking to crack down on tax evasion and avoidance.",
-      "lat": 39.91,
-      "lng": 116.38999999999999,
-      "severity": 3,
-      "location": "Beijing, China",
-      "source": "RTE News",
-      "url": "https://www.rte.ie/news/ireland/2026/0806/1586659-brenda-fricker-funeral/",
-      "image": "https://www.rte.ie/images/0024b653-800.jpg",
-      "ts": 1785970860000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/ireland/2026/0806/1586659-brenda-fricker-funeral/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "780bc015d825",
-      "title": "Top Russian general killed in Moscow bomb blast",
-      "description": "A secret burial has been held for one of Russian President Vladimir Putin's top commanders",
-      "lat": 55.75,
-      "lng": 37.620000000000005,
-      "severity": 3,
-      "location": "Moscow, Russia",
-      "source": "Daily Express World",
-      "url": "https://www.express.co.uk/news/world/2236451/vladimir-putin-top-commander-killed",
-      "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2236451_1.jpg",
-      "ts": 1785967620000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/russia-commander-bomb-restaurant-killed-37519201"
-          },
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2236451/vladimir-putin-top-commander-killed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "986c367cdbca",
-      "title": "Brazil Ties Ambassador's Return To End Of Insults",
-      "description": "Brazil ties its ambassador's return to an end to Milei's insults, with the Brazilian Foreign Minister saying the downgrading of diplomatic relations will remain in place.",
-      "lat": -15.79,
-      "lng": -46.01480000000001,
-      "severity": 3,
-      "location": "Brasilia, Brazil",
-      "source": "Rio Times",
-      "url": "https://www.riotimesonline.com/cancun-medical-nearshoring-270m-lezama-2026/",
-      "image": null,
-      "ts": 1785966935000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/08/05/brazil-ties-its-ambassador-s-return-to-an-end-to-milei-s-insults?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/latin-america/2026/08/05/state-department-revokes-brazil-ambassadors-visa/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cdfcdc39db34",
-      "title": "Argentina, China extend currency swap deal",
-      "description": "Argentina and China have renewed a $19 billion currency swap deal.",
-      "lat": -33.5,
-      "lng": -58.379999999999995,
-      "severity": 2,
-      "location": "Buenos Aires, Argentina",
-      "source": "Buenos Aires Times",
-      "url": "https://www.batimes.com.ar/news/economy/argentina-china-extend-currency-swap-deal.phtml",
-      "image": "https://fotos.perfil.com/2025/10/08/trim/540/304/central-bank-of-argentina-stock-2114767.jpg",
-      "ts": 1785965413000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Buenos Aires Times",
-            "b": "center",
-            "u": "https://www.batimes.com.ar/news/economy/argentina-china-extend-currency-swap-deal.phtml"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4d541f961cbb",
-      "title": "Iran says deal with Oman on Hormuz shipping reached",
-      "description": "Iran said it had reached an agreement with Oman on a proposed route for shipping through the Strait of Hormuz",
-      "lat": 27.67,
-      "lng": 58.15520000000001,
-      "severity": 2,
-      "location": "Strait of Hormuz, Oman",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-05/iran-says-agreement-on-hormuz-shipping-route-reached-with-oman",
-      "image": null,
-      "ts": 1785964911000,
-      "coverage": {
-        "left": 3,
-        "center": 8,
-        "right": 0,
-        "total": 11,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 8,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/us-iran-war-new-strait-of-hormuz-route-agreed-with-oman-says-iran-11871532#publisher=newsstand"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/liveblog/2026/8/6/iran-war-live-tehran-oman-close-in-on-hormuz-deal-houthis-attack-tankers?traffic_source=rss"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/west-asia-war-tehran-washington-talks-iran-oman-diplomatic-engagement-strait-of-hormuz-live-updates-august-5-2026/article71307954.ece"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/05/us-iran-war-trump-hormuz-bessent-iran-deal-close.html"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/e0b10cad-3e46-4a6d-9227-eba6fe11c676?syn-25a6b1a6=1"
-          },
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/08/05/accordo-tra-iran-e-oman-sulle-nuove-rotte-di-hormuz-lipotesi-di-una_594e2920-4cc5-42ab-bff8-24241c6b3b0d.html"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-05/iran-says-agreement-on-hormuz-shipping-route-reached-with-oman"
-          },
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-08-05/trump-hormuz-minaccia-iran-38391232/"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/iran-oman-deal-spurs-hormuz-hopes-red-sea-threats-evolve"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/middle-east/article/3363094/iran-and-oman-agree-new-hormuz-route-tehran-says?utm_source=rss_feed"
           }
         ]
       }
