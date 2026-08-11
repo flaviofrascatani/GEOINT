@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-08-11T13:59:05.877273+00:00",
+  "updated": "2026-08-11T15:07:30.759009+00:00",
   "events": [
+    {
+      "id": "ab98e968cbc9",
+      "title": "US Strikes Panamanian Vessel",
+      "description": "US forces struck a Panamanian vessel in the Gulf of Oman over an alleged breach of a blockade on Iran.",
+      "lat": 27.03,
+      "lng": 57.40260000000001,
+      "severity": 3,
+      "location": "Gulf of Oman",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-905200",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_1000,w_1500/689981",
+      "ts": 1786465636000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/iran-news/article-905200"
+          }
+        ]
+      }
+    },
+    {
+      "id": "90c690e86d25",
+      "title": "Myanmar Escalates Airstrikes",
+      "description": "Myanmar's military has escalated airstrikes against civilians, using low-cost aircraft like motorized paragliders and gyrocopters.",
+      "lat": 16.86,
+      "lng": 96.07,
+      "severity": 3,
+      "location": "Naypyidaw, Myanmar",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/investigators-myanmars-military-escalated-airstrikes-civilians-135547268",
+      "image": "https://s.abcnews.com/images/International/wirestory_cf48f831f4f67dc422d01d08d12587d0_4x3_384.jpg",
+      "ts": 1786460328000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/investigators-myanmars-military-escalated-airstrikes-civilians-135547268"
+          }
+        ]
+      }
+    },
     {
       "id": "27b2f9dc3d2c",
       "title": "U.S. and Iran close to 'peace arrangement or a deal'",
@@ -31,6 +97,79 @@
             "n": "CBS News World",
             "b": "lean_left",
             "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-compensation-negotiation/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f24df1b8753f",
+      "title": "Assad Sentenced to Death",
+      "description": "Former Syrian dictator Bashar al-Assad was sentenced to death in absentia for crimes against humanity and war crimes during the country's years-long civil war.",
+      "lat": 33.51,
+      "lng": 36.28999999999999,
+      "severity": 4,
+      "location": "Damascus, Syria",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/08/11/former-syrian-dictator-bashar-al-assad-is-sentenced-death-absentia/",
+      "image": "https://e3.365dm.com/25/03/1920x1080/skynews-syria-isis_6855227.jpg?20250313161414",
+      "ts": 1786455565000,
+      "coverage": {
+        "left": 4,
+        "center": 4,
+        "right": 1,
+        "total": 9,
+        "buckets": {
+          "left": 0,
+          "lean_left": 4,
+          "center": 4,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/11/world/middleeast/syria-bashar-al-assad-death-sentence.html"
+          },
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/08/11/former-syrian-dictator-bashar-al-assad-is-sentenced-death-absentia/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/who-is-bashar-al-assad-ex-syrian-president-sentenced-to-death-in-absentia-11894514#publisher=newsstand"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/bashar-al-ashad-sentenced-death-37536358"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/ce34dkpnyg7o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/bashar-al-assad-sentenced-to-death-in-absentia-by-syrian-court-for-war-crimes-13571874"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTm1JYW4tcU5CT3hsWHZucjRPUEtZRzBoanVkVW5vazJCQW40UFZUS0RyMldRZGZNOEFkU2pPQjhqcGl5cGw2REhkMHhiQ0ZtSTZDRzhNT2FuS1NIbVhKZUx4SGM1U2pqdkhVR05iRmdmd2RWZ0lSbHNlT0s4bHU3Q0lmZV9DRER1NlBqLTBXZTRMMEdLUnRVcg?oc=5"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/11/former-syrian-leader-bashar-al-assad-sentenced-to-death-in-absentia/"
+          },
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/news/article-16043797/Syrias-former-ruler-Bashar-al-Assad-sentenced-death.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
           }
         ]
       }
@@ -79,6 +218,44 @@
             "n": "Wall Street Journal World",
             "b": "lean_right",
             "u": "https://www.wsj.com/articles/shippers-wary-of-red-sea-routes-despite-houthi-pledge-to-end-targeting-4dde35c2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ebf9357e87d4",
+      "title": "Iran Prepares for Confrontation",
+      "description": "Iran's new supreme leader, Mojtaba Khamenei, has made a series of appointments that have strengthened his authority, preparing the military for a prolonged confrontation with the US and Israel.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "Le Monde English",
+      "url": "https://www.lemonde.fr/en/international/article/2026/08/11/iran-s-new-supreme-leader-prepares-military-for-prolonged-confrontation-with-us-and-israel_6756385_4.html",
+      "image": "https://img.lemde.fr/2026/08/10/792/0/9504/4752/644/322/60/0/631c9ec_upload-1-ojytyn0skk6e-000-b9dt4nr-1.jpg",
+      "ts": 1786454802000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/08/11/iran-s-new-supreme-leader-prepares-military-for-prolonged-confrontation-with-us-and-israel_6756385_4.html"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/iran-installs-new-war-chiefs-tehran-signals-prolonged-confrontation-expert-warns"
           }
         ]
       }
@@ -641,94 +818,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/08/trump-boarded-secret-turkey-flight-catering-truck-due-iran-threat-media"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f24df1b8753f",
-      "title": "Bashar al-Assad sentenced to death",
-      "description": "A Syrian court has sentenced former President Bashar al-Assad to death in absentia for war crimes and crimes against humanity.",
-      "lat": 33.51,
-      "lng": 36.28999999999999,
-      "severity": 3,
-      "location": "Damascus, Syria",
-      "source": "Sky News World",
-      "url": "https://news.sky.com/story/bashar-al-assad-sentenced-to-death-in-absentia-by-syrian-court-for-war-crimes-13571874",
-      "image": "https://e3.365dm.com/25/03/1920x1080/skynews-syria-isis_6855227.jpg?20250313161414",
-      "ts": 1786437720000,
-      "coverage": {
-        "left": 3,
-        "center": 8,
-        "right": 1,
-        "total": 12,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 8,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/former-syrian-president-assad-sentenced-death-absentia-135538421"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/syria-ex-president-bashar-al-assad-sentenced-to-death-for-crimes-against-humanity-11894097#publisher=newsstand"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/bashar-al-ashad-sentenced-death-37536358"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/ce34dkpnyg7o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/world/2026/0811/1587396-bashar-al-assad/"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/bashar-al-assad-sentenced-to-death-in-absentia-by-syrian-court-for-war-crimes-13571874"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/syria-sentences-bashar-assad-to-death-in-absentia/a-78316245?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/article-905172"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/syrian-court-sentences-bashar-al-assad-brother-death-war-crimes"
-          },
-          {
-            "n": "Times of India World",
-            "b": "center",
-            "u": "https://timesofindia.indiatimes.com/world/middle-east/syrias-ousted-leader-bashar-al-assad-sentenced-to-death-for-crimes-against-humanity/articleshow/133148343.cms"
-          },
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/08/11/syrian-court-sentences-bashar-al-assad-to-death-in-absentia-for-crimes-against-humanity?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          },
-          {
-            "n": "Daily Mail World",
-            "b": "right",
-            "u": "https://www.dailymail.com/news/article-16043797/Syrias-former-ruler-Bashar-al-Assad-sentenced-death.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
           }
         ]
       }
@@ -5867,11 +5956,11 @@
     },
     {
       "id": "866ccffe9562",
-      "title": "Spain introduces temporary border checks on visitors from Italy",
-      "description": "Spain introduces temporary border checks on visitors from Italy, in response to Rome imposing similar measures",
+      "title": "Spain Introduces Border Checks",
+      "description": "Spain will introduce temporary border checks on visitors from Italy in response to Rome imposing similar measures after a mass migration rush to Ceuta.",
       "lat": 40.42,
       "lng": -3.71,
-      "severity": 2,
+      "severity": 3,
       "location": "Madrid, Spain",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy",
@@ -7784,105 +7873,6 @@
             "n": "Washington Post World",
             "b": "lean_left",
             "u": "https://www.washingtonpost.com/politics/2026/08/06/early-brief-us-canada-relations-go-up-smoke/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "76db5b889869",
-      "title": "China issues retaliatory sanctions against US entities",
-      "description": "China issued retaliatory sanctions against 7 US entities.",
-      "lat": 39.91,
-      "lng": 116.39999999999998,
-      "severity": 2,
-      "location": "Beijing, China",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSTZ3ZVhuMk40UXB3b2JsUTZENUdKUUVqM0hwbk13VEktWXA3VERETGJORUk2Y0gxLVZlVWRQcWo5RUNUbWFZdmxXY2F0ZDhrUGJJMGNjNjZMZWRyeDUzS2Z3T3hGT243VEttSkxyZmlMOW41WXNzeXFlSHptbmtqcFRwc2FyZTlCd28xc2llY9IBlAFBVV95cUxNR2VWX2V2OFNWTm54b1hsel9KQ2VNV2dwczh5SEFMaTJFYlphaWJNeFoyMVdnTlI5UnZ0cURGRGpqV3BHNVRLRVBKRXpGOXlrdGIwajhkOFhIUXNlZVoybW96TUtCdWhmOE5XaVE1US1SRjBuSktFc2lUUjRRVXN4bjFIclJoN1M1WnY3MWdDTUE4OE9I?oc=5",
-      "image": null,
-      "ts": 1786007261000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSTZ3ZVhuMk40UXB3b2JsUTZENUdKUUVqM0hwbk13VEktWXA3VERETGJORUk2Y0gxLVZlVWRQcWo5RUNUbWFZdmxXY2F0ZDhrUGJJMGNjNjZMZWRyeDUzS2Z3T3hGT243VEttSkxyZmlMOW41WXNzeXFlSHptbmtqcFRwc2FyZTlCd28xc2llY9IBlAFBVV95cUxNR2VWX2V2OFNWTm54b1hsel9KQ2VNV2dwczh5SEFMaTJFYlphaWJNeFoyMVdnTlI5UnZ0cURGRGpqV3BHNVRLRVBKRXpGOXlrdGIwajhkOFhIUXNlZVoybW96TUtCdWhmOE5XaVE1US1SRjBuSktFc2lUUjRRVXN4bjFIclJoN1M1WnY3MWdDTUE4OE9I?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6fc5d8fd9db0",
-      "title": "Trump denies US running low on munitions",
-      "description": "President Trump denied the US was running low on munitions, saying the country has 'massive amounts' of them, while warning of punishment for those who say there’s a shortage.",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/trump-us-munitions-shortages-iran-war/",
-      "image": null,
-      "ts": 1785999120000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-06/trump-denies-us-munitions-shortage-warns-leakers-of-jail-time"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a2542cc38fbf",
-      "title": "Israel reports its first troop deaths in Lebanon",
-      "description": "Israel has reported its first troop deaths in Lebanon, with two Israeli soldiers killed and four seriously injured in southern Lebanon, as violence flares in the region.",
-      "lat": 33.85,
-      "lng": 35.5,
-      "severity": 4,
-      "location": "Southern Lebanon",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/israel-news/defense-news/article-904717",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_537,w_822/732896",
-      "ts": 1785997249000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/west-asia-conflict-iran-us-war-oil-prices-iran-oman-talks-tehran-washington-peace-deal-live-updates-august-6-2026/article71311934.ece"
           }
         ]
       }
