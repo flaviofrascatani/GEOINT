@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-08-11T02:19:50.111555+00:00",
+  "updated": "2026-08-11T04:03:57.150809+00:00",
   "events": [
+    {
+      "id": "ffb828ab15ac",
+      "title": "Pentagon official asks Asian allies to invest more in defense to deter aggression",
+      "description": "A Pentagon official has urged Asian allies to invest more in their defense to deter regional aggression.",
+      "lat": 38.89,
+      "lng": 77.01,
+      "severity": 2,
+      "location": "Washington D.C., USA",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/pentagon-official-asks-asian-allies-invest-defense-deter-135521741",
+      "image": "https://s.abcnews.com/images/US/wirestory_6de1e9cb4ffea1665d5d199a68dc0b78_4x3_384.jpg",
+      "ts": 1786416925000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/pentagon-official-asks-asian-allies-invest-defense-deter-135521741"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1fbce4ca4003",
+      "title": "Australia, Vietnam Deepen Defense as Supply Chain Risks Grow",
+      "description": "Australia and Vietnam agreed to deepen military cooperation and support the free flow of essential trade as the two nations' leaders met in Canberra.",
+      "lat": -34.18,
+      "lng": 149.13,
+      "severity": 2,
+      "location": "Canberra, Australia",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-11/vietnam-australia-to-deepen-defense-critical-minerals-links",
+      "image": null,
+      "ts": 1786414916000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-11/vietnam-australia-to-deepen-defense-critical-minerals-links"
+          }
+        ]
+      }
+    },
     {
       "id": "19291db3526b",
       "title": "New Zealand PM Calls Urgent Meeting Over Leadership",
@@ -1091,24 +1157,24 @@
     },
     {
       "id": "32230b7fe8ac",
-      "title": "Iran Ties Hormuz Reopening to US Concessions",
-      "description": "Iran has tied the reopening of the Strait of Hormuz to US concessions on several demands.",
+      "title": "Iran Ties Hormuz Reopening To U.S. Concessions On Several Demands",
+      "description": "The United States and Israel launched air strikes on Iran more than five months ago, and now Iran is tying the reopening of the Strait of Hormuz to US concessions on several demands.",
       "lat": 29.57,
       "lng": 52.53,
-      "severity": 2,
+      "severity": 3,
       "location": "Tehran, Iran",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/iran-hormuz-reopening-us-concessions-several-demands_n_6a794e2de4b01ec88690ac02",
       "image": null,
       "ts": 1786335022000,
       "coverage": {
-        "left": 1,
+        "left": 3,
         "center": 0,
         "right": 0,
-        "total": 1,
+        "total": 3,
         "buckets": {
           "left": 1,
-          "lean_left": 0,
+          "lean_left": 2,
           "center": 0,
           "lean_right": 0,
           "right": 0
@@ -1118,6 +1184,16 @@
             "n": "HuffPost World",
             "b": "left",
             "u": "https://www.huffpost.com/entry/iran-hormuz-reopening-us-concessions-several-demands_n_6a794e2de4b01ec88690ac02"
+          },
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/10/world/middleeast/iran-strait-of-hormuz-us-oman-talks.html"
+          },
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/08/10/iran-us-strait-of-hormuz-conditions-trump-negotiations/"
           }
         ]
       }
@@ -7847,77 +7923,6 @@
             "n": "Washington Post World",
             "b": "lean_left",
             "u": "https://www.washingtonpost.com/world/2026/08/05/ukraine-fails-stop-russian-missile-barrage-after-zelensky-says-interceptors-gone/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f279f3ba69dc",
-      "title": "Brazil downgrades ties with Argentina to chargé d'affaires level",
-      "description": "Brazil decided to downgrade its diplomatic relations with Argentina to the level of chargé d'affaires.",
-      "lat": -14.69,
-      "lng": -47.920000000000016,
-      "severity": 3,
-      "location": "Brasília, Brazil",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/08/05/brazil-downgrades-ties-with-argentina-to-charge-d-affaires-level-over-milei-s-remarks?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111033/100x80/mil.jpg",
-      "ts": 1785919080000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/08/05/brazil-downgrades-ties-with-argentina-to-charge-d-affaires-level-over-milei-s-remarks?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c0605d4573a2",
-      "title": "China targets US with tighter drone export curbs, sanctions",
-      "description": "China tightened its exports controls on drones to the US and sanctioned multiple American companies.",
-      "lat": 41.01,
-      "lng": 116.38999999999999,
-      "severity": 3,
-      "location": "Beijing, China",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-05/china-hits-back-at-us-with-tighter-drone-export-curbs-sanctions",
-      "image": null,
-      "ts": 1785918460000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbG40M0xORmg3VG1SUU5PaGNiSkU4enZfU2Rva3NzVkJ1ZTBZLUhGamJpUVFubWdjaXpjaVpBRHA3OUd1UkxjWGtQc1NWQkh0TDRFbEprWEtJMWtYTVBzSlZNWlZnMHE5YkdsMXJBNi01UnBVYzBRSVJjTTlMUE8yUXFJamlVZDBacE1rZ2FURDNsRlNLWFFZcHJBUTFpdk02Qkh0NXZMdTI5VUROeE5mODBVWjc?oc=5"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-05/china-hits-back-at-us-with-tighter-drone-export-curbs-sanctions"
           }
         ]
       }
