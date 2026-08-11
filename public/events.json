@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-08-11T04:03:57.150809+00:00",
+  "updated": "2026-08-11T05:16:46.297846+00:00",
   "events": [
     {
       "id": "ffb828ab15ac",
@@ -102,6 +102,44 @@
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/new-zealands-luxon-calls-meeting-of-lawmakers-to-address-leadership-speculation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bfbd886e5281",
+      "title": "Trump signs order to limit childhood vaccines",
+      "description": "Trump signed an executive order to decrease the number of immunizations recommended for children by federal agencies.",
+      "lat": 39.99,
+      "lng": 77.00999999999999,
+      "severity": 3,
+      "location": "Washington D.C., USA",
+      "source": "Breitbart",
+      "url": "https://www.breitbart.com/health/2026/08/10/trump-executive-order-decreases-number-childhood-vaccine-recommendations/",
+      "image": null,
+      "ts": 1786412877000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 2,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/americas/trump-signs-order-to-limit-recommended-childhood-vaccines-to-11"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/health/2026/08/10/trump-executive-order-decreases-number-childhood-vaccine-recommendations/"
           }
         ]
       }
@@ -1086,24 +1124,24 @@
     },
     {
       "id": "92054aeeebb5",
-      "title": "Yemen's Houthis Attack Saudi Refinery",
-      "description": "Yemen's Houthis have attacked Saudi Aramco's Jazan refinery, two days after the kingdom signed a defense pact with Turkey and Pakistan.",
+      "title": "Yemen's Houthis attack Saudi refinery",
+      "description": "Yemen's Houthis attacked Saudi Aramco's Jazan refinery after the kingdom signed a defense pact with Turkey and Pakistan.",
       "lat": 16.45,
       "lng": 44.19,
-      "severity": 3,
+      "severity": 4,
       "location": "Sanaa, Yemen",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/yemens-houthis-aittack-saud-refinery-after-kingdom-signs-defense-pact_n_6a79505de4b01ec88690acda",
       "image": null,
       "ts": 1786335661000,
       "coverage": {
-        "left": 2,
+        "left": 1,
         "center": 0,
         "right": 0,
-        "total": 2,
+        "total": 1,
         "buckets": {
           "left": 1,
-          "lean_left": 1,
+          "lean_left": 0,
           "center": 0,
           "lean_right": 0,
           "right": 0
@@ -1113,11 +1151,6 @@
             "n": "HuffPost World",
             "b": "left",
             "u": "https://www.huffpost.com/entry/yemens-houthis-aittack-saud-refinery-after-kingdom-signs-defense-pact_n_6a79505de4b01ec88690acda"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/yemens-houthis-claim-attack-aramco-oil-facility-saudi-135496001"
           }
         ]
       }
@@ -7890,39 +7923,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/europe/explosive-drone-near-ukrainian-plane-briefly-shuts-leipzig-airport"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7c431b7b08b2",
-      "title": "Ukraine fails to stop any missiles overnight",
-      "description": "Ukraine relies on U.S.-manufactured systems as its only means to shoot down Russian ballistic missiles.",
-      "lat": 50.45,
-      "lng": 32.42519999999999,
-      "severity": 4,
-      "location": "Kyiv, Ukraine",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/05/ukraine-fails-stop-russian-missile-barrage-after-zelensky-says-interceptors-gone/",
-      "image": null,
-      "ts": 1785922715000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/05/ukraine-fails-stop-russian-missile-barrage-after-zelensky-says-interceptors-gone/"
           }
         ]
       }
