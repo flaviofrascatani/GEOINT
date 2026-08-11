@@ -1,7 +1,121 @@
 {
   "schema": 1,
-  "updated": "2026-08-11T16:09:04.706456+00:00",
+  "updated": "2026-08-11T17:31:28.958990+00:00",
   "events": [
+    {
+      "id": "2de093373d36",
+      "title": "Israel and Venezuela establish consular relations",
+      "description": "Israel and Venezuela have established consular relations for the first time in 17 years.",
+      "lat": 10.48,
+      "lng": -66.88,
+      "severity": 1,
+      "location": "Caracas, Venezuela",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/article-905225",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_4336,w_6500/732785",
+      "ts": 1786475861000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/israel-news/article-905225"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d5c4f0062650",
+      "title": "2.4 million Afghan girls banned from secondary school",
+      "description": "Around 2.4 million Afghan girls remain excluded from secondary education five years after the Taliban takeover.",
+      "lat": 34.52,
+      "lng": 69.17,
+      "severity": 3,
+      "location": "Kabul, Afghanistan",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/24-million-afghan-girls-shut-secondary-school-5-135551092",
+      "image": "https://s.abcnews.com/images/International/wirestory_618c7f5c7659d43ede2a3f71a7cf845f_4x3_384.jpg",
+      "ts": 1786468841000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/24-million-afghan-girls-shut-secondary-school-5-135551092"
+          }
+        ]
+      }
+    },
+    {
+      "id": "36a7a4c562e3",
+      "title": "Houthi strike on vessel in Red Sea",
+      "description": "A Houthi strike on a vessel in the Red Sea has killed at least six people.",
+      "lat": 15.5,
+      "lng": 42.0,
+      "severity": 4,
+      "location": "Red Sea",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/world/mid-east/yemen-coastguard-says-six-killed-in-houthi-strike-on-ship-in-red-sea",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/08/11/455330.jpg",
+      "ts": 1786466760000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 2,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 2,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/11/world/middleeast/deadly-houthi-strike-red-sea.html"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20260811-three-killed-in-suspected-houthi-attack-on-egyptian-ship-in-the-red-sea"
+          },
+          {
+            "n": "Wall Street Journal World",
+            "b": "lean_right",
+            "u": "https://www.wsj.com/articles/shippers-wary-of-red-sea-routes-despite-houthi-pledge-to-end-targeting-4dde35c2"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/yemen-coastguard-says-six-killed-in-houthi-strike-on-ship-in-red-sea"
+          }
+        ]
+      }
+    },
     {
       "id": "ab98e968cbc9",
       "title": "US Strikes Panamanian Vessel",
@@ -6042,11 +6156,11 @@
     },
     {
       "id": "866ccffe9562",
-      "title": "Spain to introduce temporary border checks on visitors from Italy",
-      "description": "Spain has announced it will introduce temporary border checks on visitors from Italy in response to Rome imposing similar measures after mass migration rush to Ceuta",
+      "title": "Spain introduces temporary border checks on visitors from Italy",
+      "description": "Spain has introduced temporary border checks on visitors from Italy in response to Rome imposing similar measures.",
       "lat": 40.42,
       "lng": -3.71,
-      "severity": 2,
+      "severity": 3,
       "location": "Madrid, Spain",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy",
@@ -7734,160 +7848,6 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/us-north-korea-missile-launch-poses-no-immediate-threat-consulting-closely-allies"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6119c6fc9beb",
-      "title": "Iran and Oman close to Hormuz plan",
-      "description": "Iran and Oman are close to agreeing on new arrangements for the Strait of Hormuz, but not for a full reopening of the vital waterway.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 2,
-      "location": "Strait of Hormuz, Oman",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-deal/",
-      "image": null,
-      "ts": 1786015852000,
-      "coverage": {
-        "left": 3,
-        "center": 4,
-        "right": 0,
-        "total": 7,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 4,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-deal/"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/iran-and-oman-agree-on-strait-of-hormuz-transit-route-11872971#publisher=newsstand"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/videos/watch-iran-oman-reach-understanding-on-shipping-route-through-strait-of-hormuz/article71312594.ece"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/world/2026/0806/1586694-iran-us/"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-06/iran-says-deal-with-oman-on-strait-of-hormuz-agreed-in-principle"
-          },
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-08-05/trump-hormuz-minaccia-iran-38391232/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "777b4750f2da",
-      "title": "Iran threatens to hit Gulf states if US launches new strikes",
-      "description": "Iran has threatened to hit Gulf states if the US launches new strikes, in an effort to raise pressure without full-scale war.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/iran-threatens-to-hit-gulf-states-if-us-launches-new-strikes-west-asia-war/article71312656.ece",
-      "image": "https://th-i.thgim.com/public/incoming/ed9r71/article71312960.ece/alternates/LANDSCAPE_1200/Iran_War_Strait_of_Hormuz_33565.jpg",
-      "ts": 1786015461000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/iran-threatens-to-hit-gulf-states-if-us-launches-new-strikes-west-asia-war/article71312656.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "dfb57ea059cb",
-      "title": "Thailand school shooting",
-      "description": "A student killed his grandparents before opening fire at a school in Thailand, killing at least 6 people and injuring 15 others.",
-      "lat": 13.86,
-      "lng": 100.50999999999999,
-      "severity": 4,
-      "location": "Nonthaburi, Thailand",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/north-korea-ballistic-missile-test_n_6a7462d8e4b0a79b03a6f52a",
-      "image": null,
-      "ts": 1786012594000,
-      "coverage": {
-        "left": 4,
-        "center": 1,
-        "right": 1,
-        "total": 6,
-        "buckets": {
-          "left": 0,
-          "lean_left": 4,
-          "center": 1,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/07/world/asia/thailand-school-shooting.html"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/asia/two-dead-gunman-school-shooting-thailand-officials-say-rcna591309"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/7/one-killed-four-injured-in-thailand-school-shooting-officials-say?traffic_source=rss"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/08/07/eight-dead-in-thailand-school-shooting-including-teen-suspect-s-grandparents_6756247_4.html"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/asia/2026/0807/1586874-thailand-school-shooting/"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/asia-pacific/6-killed-as-student-opens-fire-at-thai-high-school-reports"
           }
         ]
       }
