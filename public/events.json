@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-08-11T15:07:30.759009+00:00",
+  "updated": "2026-08-11T16:09:04.706456+00:00",
   "events": [
     {
       "id": "ab98e968cbc9",
@@ -31,6 +31,77 @@
             "n": "Jerusalem Post",
             "b": "center",
             "u": "https://www.jpost.com/middle-east/iran-news/article-905200"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8fa0946aaf9b",
+      "title": "Lebanon abolishes death penalty in first for region",
+      "description": "Lebanon's parliament on Tuesday abolished the death penalty and replaced all existing death sentences with life imprisonment",
+      "lat": 33.89,
+      "lng": 35.50999999999999,
+      "severity": 1,
+      "location": "Beirut, Lebanon",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/lebanon-abolishes-death-penalty-first-region",
+      "image": null,
+      "ts": 1786463199000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/11/lebanons-parliament-votes-to-end-death-penalty-first-in-middle-east-to-so?traffic_source=rss"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/lebanon-abolishes-death-penalty-first-region"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6dc349fa461b",
+      "title": "Rescuers search for Colombia quake survivors as death toll passes 200",
+      "description": "Dogs and drones have been deployed to search for those trapped under collapsed buildings, with local authorities reporting at least 150 deaths from the nation's strongest earthquake in a decade",
+      "lat": 3.42,
+      "lng": -76.52,
+      "severity": 4,
+      "location": "Cali, Colombia",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/08/11/colombia-rescuers-scramble-find-survivors-earthquake-death-toll-rises/",
+      "image": null,
+      "ts": 1786462115000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/08/11/colombia-rescuers-scramble-find-survivors-earthquake-death-toll-rises/"
           }
         ]
       }
@@ -103,25 +174,25 @@
     },
     {
       "id": "f24df1b8753f",
-      "title": "Assad Sentenced to Death",
-      "description": "Former Syrian dictator Bashar al-Assad was sentenced to death in absentia for crimes against humanity and war crimes during the country's years-long civil war.",
+      "title": "Bashar al Assad sentenced to death by Syrian court",
+      "description": "Former Syrian president Bashar al Assad has been sentenced to death in absentia for crimes against humanity and war crimes, following a ruling by a court in the country",
       "lat": 33.51,
       "lng": 36.28999999999999,
-      "severity": 4,
+      "severity": 3,
       "location": "Damascus, Syria",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/11/former-syrian-dictator-bashar-al-assad-is-sentenced-death-absentia/",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/bashar-al-assad-sentenced-to-death-in-absentia-by-syrian-court-for-war-crimes-13571874",
       "image": "https://e3.365dm.com/25/03/1920x1080/skynews-syria-isis_6855227.jpg?20250313161414",
       "ts": 1786455565000,
       "coverage": {
         "left": 4,
-        "center": 4,
+        "center": 7,
         "right": 1,
-        "total": 9,
+        "total": 12,
         "buckets": {
           "left": 0,
           "lean_left": 4,
-          "center": 4,
+          "center": 7,
           "lean_right": 0,
           "right": 1
         },
@@ -152,19 +223,34 @@
             "u": "https://www.bbc.co.uk/news/articles/ce34dkpnyg7o?at_medium=RSS&at_campaign=rss"
           },
           {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/14b208d4-1866-4cf2-a09e-424ffd2d9695?syn-25a6b1a6=1"
+          },
+          {
             "n": "Sky News World",
             "b": "center",
             "u": "https://news.sky.com/story/bashar-al-assad-sentenced-to-death-in-absentia-by-syrian-court-for-war-crimes-13571874"
           },
           {
-            "n": "Google News Top",
+            "n": "DW News",
             "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTm1JYW4tcU5CT3hsWHZucjRPUEtZRzBoanVkVW5vazJCQW40UFZUS0RyMldRZGZNOEFkU2pPQjhqcGl5cGw2REhkMHhiQ0ZtSTZDRzhNT2FuS1NIbVhKZUx4SGM1U2pqdkhVR05iRmdmd2RWZ0lSbHNlT0s4bHU3Q0lmZV9DRER1NlBqLTBXZTRMMEdLUnRVcg?oc=5"
+            "u": "https://www.dw.com/en/syria-sentences-bashar-assad-to-death-in-absentia/a-78316245?maca=en-rss-en-all-1573-rdf"
           },
           {
-            "n": "Africanews",
+            "n": "Google News Top",
             "b": "center",
-            "u": "http://www.africanews.com/2026/08/11/former-syrian-leader-bashar-al-assad-sentenced-to-death-in-absentia/"
+            "u": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbFZ5cVRQTjZBaDZEOFZuSi1ZUXFwd0J6SnNBeGVleVBqdExEY3VweDY5a3ZnUnNpal83SS03QWVGUlN4TExhNDU4VmxKd1FlTDRUaExBbDY2MjU3ZWVqRGptSllyTjRFS2Mzd1JHdlFFaVE5NkY2WjdYREdjYWxqUnJreWZwemR6SVJN?oc=5"
+          },
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/former-syrian-president-assad-sentenced-to-death-in-absentia/"
+          },
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/08/11/syrian-court-sentences-bashar-al-assad-to-death-in-absentia-for-crimes-against-humanity?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
           },
           {
             "n": "Daily Mail World",
@@ -5956,11 +6042,11 @@
     },
     {
       "id": "866ccffe9562",
-      "title": "Spain Introduces Border Checks",
-      "description": "Spain will introduce temporary border checks on visitors from Italy in response to Rome imposing similar measures after a mass migration rush to Ceuta.",
+      "title": "Spain to introduce temporary border checks on visitors from Italy",
+      "description": "Spain has announced it will introduce temporary border checks on visitors from Italy in response to Rome imposing similar measures after mass migration rush to Ceuta",
       "lat": 40.42,
       "lng": -3.71,
-      "severity": 3,
+      "severity": 2,
       "location": "Madrid, Spain",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy",
@@ -7802,77 +7888,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/asia-pacific/6-killed-as-student-opens-fire-at-thai-high-school-reports"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5a6051c1166d",
-      "title": "Australia grants citizenship to 2 Iranian women's soccer players",
-      "description": "Two Iranian women soccer players who sought asylum in Australia have been granted citizenship.",
-      "lat": -35.28,
-      "lng": 149.13,
-      "severity": 1,
-      "location": "Canberra, Australia",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/australia-grants-citizenship-2-iranian-womens-soccer-players-135414351",
-      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
-      "ts": 1786009450000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/australia-grants-citizenship-2-iranian-womens-soccer-players-135414351"
-          },
-          {
-            "n": "Times of India World",
-            "b": "center",
-            "u": "https://timesofindia.indiatimes.com/world/rest-of-world/australian-citizenship-for-2-iranian-women-soccer-players-who-sought-asylum/articleshow/133018960.cms"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2ff242607b8a",
-      "title": "US and Canada relations strained over wildfire smoke",
-      "description": "The US and Canada are at odds over the issue of wildfire smoke, with the US frustrated over Canada's inability to keep it on its side of the border.",
-      "lat": 45.42,
-      "lng": -75.69,
-      "severity": 3,
-      "location": "Ottawa, Canada",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/politics/2026/08/06/early-brief-us-canada-relations-go-up-smoke/",
-      "image": null,
-      "ts": 1786008971000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/politics/2026/08/06/early-brief-us-canada-relations-go-up-smoke/"
           }
         ]
       }
