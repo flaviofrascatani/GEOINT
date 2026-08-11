@@ -1,7 +1,121 @@
 {
   "schema": 1,
-  "updated": "2026-08-11T12:25:15.920564+00:00",
+  "updated": "2026-08-11T13:59:05.877273+00:00",
   "events": [
+    {
+      "id": "27b2f9dc3d2c",
+      "title": "U.S. and Iran close to 'peace arrangement or a deal'",
+      "description": "The U.S. and Iran are close to agreeing on 'some sort of arrangement', Pakistan's defense minister told Bloomberg on Tuesday",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-compensation-negotiation/",
+      "image": null,
+      "ts": 1786455608000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-compensation-negotiation/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "522b15096fd3",
+      "title": "Three killed in suspected Houthi attack on Egyptian ship in the Red Sea",
+      "description": "Three crew members were killed in a suspected Houthi attack on an Egyptian-owned cargo vessel in the Bab el-Mandeb strait on Tuesday",
+      "lat": 15.5,
+      "lng": 42.0,
+      "severity": 3,
+      "location": "Red Sea",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20260811-three-killed-in-suspected-houthi-attack-on-egyptian-ship-in-the-red-sea",
+      "image": "https://th-i.thgim.com/public/incoming/1ieh5e/article71306896.ece/alternates/LANDSCAPE_1200/2026-07-23T181801Z_1910885437_RC2TJMA9472R_RTRMADP_3_YEMEN-SHIPPING-ADEN.JPG",
+      "ts": 1786455298000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/3-killed-as-yemens-houthis-attack-cargo-ship-in-red-sea-report-11894979#publisher=newsstand"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/three-killed-strike-bab-el-mandeb-iran-backed-houthis-are-suspected-conducting-it-3806281"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20260811-three-killed-in-suspected-houthi-attack-on-egyptian-ship-in-the-red-sea"
+          },
+          {
+            "n": "Wall Street Journal World",
+            "b": "lean_right",
+            "u": "https://www.wsj.com/articles/shippers-wary-of-red-sea-routes-despite-houthi-pledge-to-end-targeting-4dde35c2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9c090261dfa6",
+      "title": "Lebanon becomes first Arab nation to abolish death penalty",
+      "description": "In a landmark change to Lebanon’s penal system, the country’s parliament on Tuesday approved legislation abolishing the death penalty, replacing it with life imprisonment with aggravated hard labour",
+      "lat": 33.89,
+      "lng": 35.50999999999999,
+      "severity": 1,
+      "location": "Beirut, Lebanon",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3363687/lebanon-becomes-first-arab-nation-abolish-death-penalty?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/11/125d4bd1-9ee9-403e-8a1f-cf6ecba4b3e8_980d85fb.jpg?itok=yIynN0xS&v=1786454599",
+      "ts": 1786454609000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/middle-east/article/3363687/lebanon-becomes-first-arab-nation-abolish-death-penalty?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
     {
       "id": "38945ba51d0f",
       "title": "Lebanon abolishes death penalty",
@@ -1401,6 +1515,49 @@
             "n": "The Hill",
             "b": "center",
             "u": "https://thehill.com/homenews/administration/6020599-trump-administration-visa-revocation/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c2ef86e476c0",
+      "title": "Powerful 7.4-Magnitude Earthquake Kills More Than 110 In Western Colombia",
+      "description": "The quake trapped residents under debris, leaving more injured and forcing people to evacuate their homes as far as the capital of Bogotá",
+      "lat": 3.42,
+      "lng": -76.52,
+      "severity": 4,
+      "location": "Pereira, Colombia",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/western-colombia-ecuador-earthquake_n_6a79eae5e4b0a6d70bb28826",
+      "image": null,
+      "ts": 1786375631000,
+      "coverage": {
+        "left": 3,
+        "center": 0,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 1,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/western-colombia-ecuador-earthquake_n_6a79eae5e4b0a6d70bb28826"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/video-colombia-earthquake-people-flee-collapsing-building-as-earthquake-kills-132-in-colombia-11892624#publisher=newsstand"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/colombia-earthquake-news-death-toll-37535787"
           }
         ]
       }
@@ -2935,39 +3092,6 @@
             "n": "Egypt Independent",
             "b": "center",
             "u": "https://www.egyptindependent.com/how-both-iran-and-oman-have-economic-claims-to-the-strait-of-hormuz/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "522b15096fd3",
-      "title": "Houthis attack shipping in Red Sea",
-      "description": "The Houthi rebels have attacked a city on the Red Sea, resulting in deaths and injuries",
-      "lat": 15.5,
-      "lng": 42.0,
-      "severity": 4,
-      "location": "Red Sea",
-      "source": "AGI Estero",
-      "url": "https://www.agi.it/estero/news/2026-08-09/mar-rosso-mocha-houthi-38462186/",
-      "image": "https://th-i.thgim.com/public/incoming/1ieh5e/article71306896.ece/alternates/LANDSCAPE_1200/2026-07-23T181801Z_1910885437_RC2TJMA9472R_RTRMADP_3_YEMEN-SHIPPING-ADEN.JPG",
-      "ts": 1786294816000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-08-09/mar-rosso-mocha-houthi-38462186/"
           }
         ]
       }
@@ -7759,110 +7883,6 @@
             "n": "The Hindu International",
             "b": "lean_left",
             "u": "https://www.thehindu.com/news/international/west-asia-conflict-iran-us-war-oil-prices-iran-oman-talks-tehran-washington-peace-deal-live-updates-august-6-2026/article71311934.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "67bef28805ab",
-      "title": "Thailand welcomes Myanmar leader in push to end isolation",
-      "description": "Thai Prime Minister Anutin Charnvirakul has welcomed Myanmar’s former junta chief Min Aung Hlaing on his first visit to Thailand since becoming a civilian leader, underscoring Bangkok’s push to rebuild Myanmar ties.",
-      "lat": 14.85,
-      "lng": 102.42520000000002,
-      "severity": 2,
-      "location": "Bangkok, Thailand",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-06/thailand-welcomes-myanmar-leader-in-push-to-end-isolation",
-      "image": null,
-      "ts": 1785996478000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-06/thailand-welcomes-myanmar-leader-in-push-to-end-isolation"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e319ad280205",
-      "title": "Taiwan kicks off annual military drills",
-      "description": "Taiwan has kicked off annual military exercises aimed at simulating a response to a potential Chinese invasion of the self-governed island Beijing claims as its own.",
-      "lat": 25.03,
-      "lng": 121.55,
-      "severity": 3,
-      "location": "Taipei, Taiwan",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/taiwan-kicks-off-annual-military-drills-counter-potential-135378473",
-      "image": "https://s.abcnews.com/images/International/wirestory_d68aeb21dc7394a6e6fc9c6dc7364e3c_4x3_384.jpg",
-      "ts": 1785994202000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/taiwan-kicks-off-annual-military-drills-counter-potential-135378473"
-          }
-        ]
-      }
-    },
-    {
-      "id": "010220062494",
-      "title": "Trump administration refunds $100bn in tariffs",
-      "description": "The Trump administration has refunded $100 billion in tariffs, following a Supreme Court ruling.",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 1,
-      "location": "Washington D.C., USA",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/us-has-refunded-about-100bn-in-trump-tariffs-11872322#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-08/hj1va73c_donald-trump_625x300_06_August_26.jpeg",
-      "ts": 1785987573000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/us-has-refunded-about-100-billion-in-trump-tariffs-after-court-ruling-11872091#publisher=newsstand"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/economy/2026/8/6/trump-administration-refunds-100bn-in-tariffs-struck-down-by-supreme-court?traffic_source=rss"
           }
         ]
       }
