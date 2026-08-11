@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-08-11T18:27:58.561425+00:00",
+  "updated": "2026-08-11T19:38:46.266424+00:00",
   "events": [
     {
       "id": "2de093373d36",
@@ -36,12 +36,78 @@
       }
     },
     {
+      "id": "d230ba05ccb4",
+      "title": "Venezuela and Israel restore consular ties as relations warm",
+      "description": "Despite cutting diplomatic ties with Israel in 2009, Caracas has shifted alignment in wake of Maduro abduction.",
+      "lat": 11.58,
+      "lng": -64.9748,
+      "severity": 2,
+      "location": "Caracas, Venezuela",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/11/venezuela-and-israel-restore-consular-ties-as-relations-warm?traffic_source=rss",
+      "image": null,
+      "ts": 1786474713000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/11/venezuela-and-israel-restore-consular-ties-as-relations-warm?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1811d72f492e",
+      "title": "Fire breaks out after attack on major Libya gasoline tank",
+      "description": "A major gasoline reservoir in Libya's Zawiya, west of Tripoli, caught fire and collapsed on Monday after what authorities said was an attack by unknown perpetrators.",
+      "lat": 34.4,
+      "lng": 13.682600000000008,
+      "severity": 4,
+      "location": "Zawiya, Libya",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/08/11/fire-breaks-out-after-attack-on-major-libya-gasoline-tank/",
+      "image": "http://images.euronews.com/articles/stories/09/87/07/62/640x360_cmsv2_202a2577-7d5b-5002-9c24-5093eeee9345-9870762.jpg?1786464371",
+      "ts": 1786473483000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/11/fire-breaks-out-after-attack-on-major-libya-gasoline-tank/"
+          }
+        ]
+      }
+    },
+    {
       "id": "7241626ee6e5",
-      "title": "China, Indonesia navies to hold drills in sensitive waters",
-      "description": "The exercise will focus on communication drills and at-sea replenishment, aiming to enhance the joint operational capabilities of the two navies.",
+      "title": "China, Indonesia navies to hold drills in sensitive waters to east of Taiwan",
+      "description": "The exercise will focus on communication drills and at-sea replenishment, aiming to enhance the joint operational capabilities of the two navies, deepen practical cooperation, and jointly safeguard",
       "lat": 1.2903,
       "lng": 103.8501,
-      "severity": 3,
+      "severity": 2,
       "location": "Singapore",
       "source": "The Hindu International",
       "url": "https://www.thehindu.com/news/international/china-indonesia-navies-to-hold-drills-in-sensitive-waters-to-east-of-taiwan/article71333879.ece",
@@ -7742,102 +7808,6 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/videos/2026-08-07/daybreak-europe-8-7-2026-video"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4acb53538d23",
-      "title": "US Senate committee votes to hold Fauci in contempt over Covid hearing",
-      "description": "The committee will now refer him for possible prosecution for refusing to answer questions about his handling of the Covid-19 pandemic.",
-      "lat": 38.89,
-      "lng": -77.01,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c1m18158my9o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0e7a/live/d958d7c0-919c-11f1-9c53-0382b914b78c.jpg",
-      "ts": 1786027665000,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 3,
-        "total": 7,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 0,
-          "right": 3
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/6/senate-panel-votes-to-hold-former-official-fauci-in-contempt-of-congress?traffic_source=rss"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c1m18158my9o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/world/2026/0806/1586797-fauci-us-senate/"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/united-states-canada/article/3363210/us-senate-panel-votes-hold-fauci-contempt-congress?utm_source=rss_feed"
-          },
-          {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/newsroom/senate-committee-votes-to-hold-fauci-in-contempt-of-congress/"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/politics/2026/08/06/watch-live-senate-debates-holding-anthony-fauci-in-contempt-of-congress/"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/policy/healthcare/4677236/senate-vote-holding-anthony-fauci-contempt-state-investigations-bubble/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "01de1226f90e",
-      "title": "Syria says wheat output meets domestic demand after 15 years",
-      "description": "Syria has achieved self-sufficiency in wheat production for the first time since the outbreak of its civil war in 2011.",
-      "lat": 33.51,
-      "lng": 36.28999999999999,
-      "severity": 1,
-      "location": "Damascus, Syria",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/business/economy/syria-says-wheat-output-meets-domestic-demand-after-15-years",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/08/06/454583.JPG",
-      "ts": 1786026120000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/business/economy/syria-says-wheat-output-meets-domestic-demand-after-15-years"
           }
         ]
       }
