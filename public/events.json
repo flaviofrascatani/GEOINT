@@ -1,7 +1,93 @@
 {
   "schema": 1,
-  "updated": "2026-08-11T21:57:51.145464+00:00",
+  "updated": "2026-08-11T22:53:35.547470+00:00",
   "events": [
+    {
+      "id": "67c9f4f9f453",
+      "title": "Trump's mail-in voting restrictions blocked nationwide by federal judge",
+      "description": "A federal judge in Boston on Tuesday temporarily blocked the U.S. Postal Service nationwide from implementing part of President Trump's executive order for mail-in voting restrictions.",
+      "lat": 42.36,
+      "lng": -71.06,
+      "severity": 1,
+      "location": "Boston, USA",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/08/11/trump-mail-in-voting-executive-order-us-postal-service",
+      "image": "https://images.axios.com/LwNNZyZQa_ByhGmBjtt7ckrT5oE=/0x46:6000x3421/1366x768/2026/08/11/1786484402808.jpeg",
+      "ts": 1786486911000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/08/11/trump-mail-in-voting-executive-order-us-postal-service"
+          }
+        ]
+      }
+    },
+    {
+      "id": "832ac2bc4426",
+      "title": "North Korea launches a suspected ballistic missile",
+      "description": "Japan's Defense Ministry says North Korea has launched a possible ballistic missile toward the sea",
+      "lat": 39.02,
+      "lng": 125.75,
+      "severity": 2,
+      "location": "Pyongyang, North Korea",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/north-korea-launches-suspected-ballistic-missile-japans-135558919",
+      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
+      "ts": 1786486383000,
+      "coverage": {
+        "left": 2,
+        "center": 3,
+        "right": 0,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/north-korea-launches-suspected-ballistic-missile-japans-135558919"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/japan-says-north-korea-has-launched-suspected-ballistic-missile-11897286#publisher=newsstand"
+          },
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/08/12/asia-pacific/north-korea-missile-firing/"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/east-asia/north-korea-fires-ballistic-missile-south-6313116"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/north-korea-fired-a-ballistic-missile-south-korean-military-says"
+          }
+        ]
+      }
+    },
     {
       "id": "24d8339f8b11",
       "title": "Severe malnutrition in Somalia is surging after US cuts, aid groups say",
@@ -7722,72 +7808,6 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/gen-keane-questions-whether-pakistan-saudi-arabia-qatar-trusted-iran-talks"
-          }
-        ]
-      }
-    },
-    {
-      "id": "33123da74414",
-      "title": "Iran's chief negotiator accuses Trump of 'theater diplomacy'",
-      "description": "Iran's chief negotiator has accused US President Donald Trump of 'theater diplomacy' amid tensions over the Strait of Hormuz.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/08/07/us-iran-war-trump-hormuz-diplomacy-oil-.html",
-      "image": null,
-      "ts": 1786068522000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/07/us-iran-war-trump-hormuz-diplomacy-oil-.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7e7c1e49a9a9",
-      "title": "US imposes 15% tariff on polysilicon imports from China",
-      "description": "The US has imposed a 15% tariff on polysilicon imports from China, citing concerns over China's trade practices.",
-      "lat": 38.54,
-      "lng": 118.1626,
-      "severity": 2,
-      "location": "Beijing, China",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/us-imposes-15-tariff-on-polysilicon-in-pushback-against-china",
-      "image": null,
-      "ts": 1786062436231,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Nikkei Asia",
-            "b": "center",
-            "u": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/us-imposes-15-tariff-on-polysilicon-in-pushback-against-china"
           }
         ]
       }
