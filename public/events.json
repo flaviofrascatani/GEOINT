@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-10T23:08:52.877232+00:00",
+  "updated": "2026-08-11T00:03:23.497076+00:00",
   "events": [
+    {
+      "id": "aa7632f9407c",
+      "title": "Turkey MPs Back Historic Law on Reintegrating PKK Militants",
+      "description": "Turkey's parliament has taken a major step toward ending four decades of conflict with the PKK, passing a law that sets out how some militants can return to civilian life.",
+      "lat": 41.03,
+      "lng": 34.76519999999999,
+      "severity": 1,
+      "location": "Ankara, Turkey",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/turkey-mps-back-historic-law-on-reintegrating-pkk-militants/a-78313397?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1786406603325,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/turkey-mps-back-historic-law-on-reintegrating-pkk-militants/a-78313397?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
     {
       "id": "cb39af2df6ed",
       "title": "China launches satellite for Algeria",
@@ -371,6 +404,59 @@
             "n": "Mirror World",
             "b": "lean_left",
             "u": "https://www.mirror.co.uk/news/world-news/colombia-earthquake-bogota-san-jose-37534402"
+          }
+        ]
+      }
+    },
+    {
+      "id": "41ea6152250f",
+      "title": "Ukrainian Drone Strike Kills 13 in Russia",
+      "description": "A Ukrainian drone strike has killed at least 13 people in Russia, with another 75 injured, in one of the deadliest Ukrainian drone attacks since Moscow's full-scale invasion.",
+      "lat": 51.55,
+      "lng": 32.42519999999999,
+      "severity": 3,
+      "location": "Kyiv, Ukraine",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
+      "image": null,
+      "ts": 1786372465000,
+      "coverage": {
+        "left": 2,
+        "center": 3,
+        "right": 0,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/10/world/europe/ukraine-drone-attack-russia.html"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/ukraine-russia-war-drone-attack-tatarstan-oil/"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/ukrainian-drone-attack-kills-at-least-13-in-central-russia/a-78300485?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUUNmLWxickRLU05ySXVrTTR6U2Q4aTVSZExPY3ZaZnhCR01UcUtUMzhMU1c5Q0YwNFFCc0ZRVWpLYWo0RWZHWkhRc3Y2d1lLdDhwbTFNSmRZcXJ0SHV1VUtVWmdxQUZOei1iS1dwNEk3dkhyVTJvSWZiSjl6MXU1X01nQTZjenBZWkdUYmU4eG4tdUk?oc=5"
           }
         ]
       }
@@ -771,59 +857,6 @@
       }
     },
     {
-      "id": "41ea6152250f",
-      "title": "Ukraine drone strike kills 12 in central Russia",
-      "description": "A Ukrainian drone strike on the central Russian region of Tatarstan killed at least 12 people in one of Kyiv's most deadly single attacks of the more than four-year war.",
-      "lat": 51.55,
-      "lng": 32.42519999999999,
-      "severity": 4,
-      "location": "Kyiv, Ukraine",
-      "source": "RTE News",
-      "url": "https://www.rte.ie/news/2026/0810/1587221-ukraine-russia/",
-      "image": null,
-      "ts": 1786346472000,
-      "coverage": {
-        "left": 3,
-        "center": 1,
-        "right": 1,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/russia-ukraine-exchange-overnight-strikes-leave-7-dead-135496212"
-          },
-          {
-            "n": "Business Insider",
-            "b": "lean_left",
-            "u": "https://www.businessinsider.com/taiwan-testing-mid-attack-drones-littoral-drill-han-kuang-ukraine-2026-8"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/ukraine-drone-strike-nizhnekamsk-refinery-37531910"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/2026/0810/1587221-ukraine-russia/"
-          },
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2237586/russia-ukraine-drone-attack-Nizhnekamsk"
-          }
-        ]
-      }
-    },
-    {
       "id": "299ceebe6cd3",
       "title": "Pope Leo XIV calls for humanitarian corridor in Sudan",
       "description": "Pope Leo called for peace in Sudan on Sunday during an address at the Vatican. Leo singled out El-Obeid, the beseiged capital of North Kordofan state.",
@@ -916,11 +949,11 @@
     },
     {
       "id": "92054aeeebb5",
-      "title": "Yemen's Houthis attack Saudi refinery",
-      "description": "Yemen's Houthis have attacked a Saudi Aramco refinery in Jazan, following the kingdom's signing of a defense pact with Turkey and Pakistan.",
+      "title": "Yemen's Houthis Attack Saudi Refinery",
+      "description": "Yemen's Houthis have attacked Saudi Aramco's Jazan refinery, two days after the kingdom signed a defense pact with Turkey and Pakistan.",
       "lat": 16.45,
       "lng": 44.19,
-      "severity": 4,
+      "severity": 3,
       "location": "Sanaa, Yemen",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/yemens-houthis-aittack-saud-refinery-after-kingdom-signs-defense-pact_n_6a79505de4b01ec88690acda",
@@ -4637,11 +4670,11 @@
     },
     {
       "id": "866ccffe9562",
-      "title": "Spain introduces temporary border checks",
-      "description": "Spain has introduced temporary border checks on visitors from Italy, in response to Rome's similar measures after a mass migration rush to Ceuta.",
+      "title": "Spain to Introduce Temporary Border Checks on Visitors from Italy",
+      "description": "Spain will introduce temporary border checks on visitors from Italy in response to Rome imposing similar measures after a mass migration rush to Ceuta.",
       "lat": 40.42,
       "lng": -3.71,
-      "severity": 3,
+      "severity": 2,
       "location": "Madrid, Spain",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy",
@@ -7970,49 +8003,6 @@
             "n": "Daily Express World",
             "b": "right",
             "u": "https://www.express.co.uk/news/world/2236100/trump-deal-iran-hormuz-strait"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a832b09ec925",
-      "title": "North Korea Warns of Military Options Over Japan Rearmament",
-      "description": "North Korea has warned of 'military options' in response to Japan's rearmament, with the sister of North Korean leader Kim Jong Un accusing Japan of moving beyond a defensive posture.",
-      "lat": 40.13,
-      "lng": 125.75,
-      "severity": 2,
-      "location": "Pyongyang, North Korea",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/east-asia/north-korea-warns-japan-military-options-rearmament-6299791",
-      "image": null,
-      "ts": 1785900240000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/5/north-koreas-kim-yo-jong-issues-military-threat-over-japan-missile-test?traffic_source=rss"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-05/north-korea-warns-of-more-military-steps-over-japan-s-rearmament"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/east-asia/north-korea-warns-japan-military-options-rearmament-6299791"
           }
         ]
       }
