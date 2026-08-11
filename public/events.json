@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-11T05:16:46.297846+00:00",
+  "updated": "2026-08-11T06:30:20.795505+00:00",
   "events": [
+    {
+      "id": "bfa56bb7fad1",
+      "title": "Vietnam’s VinSpace signs deal with SpaceX to launch its first satellites in 2027",
+      "description": "The Vietnamese aerospace company VinSpace has signed a contract with SpaceX to launch its first satellites in 2027.",
+      "lat": 10.78,
+      "lng": 106.66,
+      "severity": 1,
+      "location": "Ho Chi Minh City, Vietnam",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/vietnams-vinspace-signs-deal-elon-musks-spacex-launch-135536822",
+      "image": "https://s.abcnews.com/images/International/wirestory_100b2afad4ad42fdffdca3a6c7cbfa7a_4x3_384.jpg",
+      "ts": 1786427029000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/vietnams-vinspace-signs-deal-elon-musks-spacex-launch-135536822"
+          }
+        ]
+      }
+    },
     {
       "id": "ffb828ab15ac",
       "title": "Pentagon official asks Asian allies to invest more in defense to deter aggression",
@@ -1124,11 +1157,11 @@
     },
     {
       "id": "92054aeeebb5",
-      "title": "Yemen's Houthis attack Saudi refinery",
-      "description": "Yemen's Houthis attacked Saudi Aramco's Jazan refinery after the kingdom signed a defense pact with Turkey and Pakistan.",
+      "title": "Yemen's Houthis Attack Saudi Refinery After Kingdom Signs Defense Pact",
+      "description": "Yemen's Houthis have attacked Saudi Aramco's Jazan refinery, two days after the kingdom signed a defense pact with Turkey and Pakistan.",
       "lat": 16.45,
       "lng": 44.19,
-      "severity": 4,
+      "severity": 3,
       "location": "Sanaa, Yemen",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/yemens-houthis-aittack-saud-refinery-after-kingdom-signs-defense-pact_n_6a79505de4b01ec88690acda",
@@ -1191,10 +1224,10 @@
     {
       "id": "32230b7fe8ac",
       "title": "Iran Ties Hormuz Reopening To U.S. Concessions On Several Demands",
-      "description": "The United States and Israel launched air strikes on Iran more than five months ago, and now Iran is tying the reopening of the Strait of Hormuz to US concessions on several demands.",
+      "description": "Iran has tied the reopening of the Strait of Hormuz to US concessions on several demands.",
       "lat": 29.57,
       "lng": 52.53,
-      "severity": 3,
+      "severity": 2,
       "location": "Tehran, Iran",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/iran-hormuz-reopening-us-concessions-several-demands_n_6a794e2de4b01ec88690ac02",
@@ -4888,11 +4921,11 @@
     },
     {
       "id": "866ccffe9562",
-      "title": "Spain to Introduce Temporary Border Checks on Visitors from Italy",
-      "description": "Spain will introduce temporary border checks on visitors from Italy in response to Rome imposing similar measures after a mass migration rush to Ceuta.",
+      "title": "Spain to introduce temporary border checks on visitors from Italy",
+      "description": "Spain will introduce temporary border checks on visitors from Italy in response to Rome imposing similar measures.",
       "lat": 40.42,
       "lng": -3.71,
-      "severity": 2,
+      "severity": 3,
       "location": "Madrid, Spain",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy",
@@ -7875,54 +7908,6 @@
             "n": "Egypt Independent",
             "b": "center",
             "u": "https://www.egyptindependent.com/iran-backs-any-measure-taken-by-palestinian-leaders-in-gaza-talks-president-says/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c433199d5afd",
-      "title": "Explosive drone found near plane at German airport",
-      "description": "An explosives-laden drone was found near a Ukrainian cargo plane at a German airport.",
-      "lat": 51.42,
-      "lng": 12.23,
-      "severity": 3,
-      "location": "Leipzig, Germany",
-      "source": "RTE News",
-      "url": "https://www.rte.ie/news/2026/0805/1586583-leipzig-halle-airport-alarm/",
-      "image": "https://www.rte.ie/images/0024cd9b-800.jpg",
-      "ts": 1785929870000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/08/05/german-airport-on-alert-after-explosive-drone-found-near-ukrainian-plane-and-mid-air-collision_6756188_4.html"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cyvlg4q48l3o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/2026/0805/1586583-leipzig-halle-airport-alarm/"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/europe/explosive-drone-near-ukrainian-plane-briefly-shuts-leipzig-airport"
           }
         ]
       }
