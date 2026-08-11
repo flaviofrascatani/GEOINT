@@ -1,7 +1,164 @@
 {
   "schema": 1,
-  "updated": "2026-08-11T06:30:20.795505+00:00",
+  "updated": "2026-08-11T07:48:19.015720+00:00",
   "events": [
+    {
+      "id": "cb39af2df6ed",
+      "title": "China launches satellite for Algeria",
+      "description": "A Chinese-made communications satellite became the first 'export' of such a spacecraft to an Arab country when it was launched by China for Algeria.",
+      "lat": 36.77,
+      "lng": 3.06,
+      "severity": 1,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1786434498840,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8fb3ff486799",
+      "title": "Indonesia Pitches a Mercosur Trade Deal",
+      "description": "Indonesia has proposed a narrow Indonesia-Mercosur trade deal and asked Brazil to broker consensus after broader CEPA talks stalled.",
+      "lat": -5.11,
+      "lng": 106.86000000000001,
+      "severity": 2,
+      "location": "Jakarta, Indonesia",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/indonesia-mercosur-trade-deal-2026/",
+      "image": null,
+      "ts": 1786433662000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/indonesia-mercosur-trade-deal-2026/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "56f0e38cf15c",
+      "title": "Russian attacks kill six in Ukraine’s Zaporizhzhia",
+      "description": "Russian attacks have killed six people in Ukraine’s Zaporizhzhia, according to Ukraine's state emergency service.",
+      "lat": 47.83,
+      "lng": 35.13,
+      "severity": 3,
+      "location": "Zaporizhzhia, Ukraine",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/11/russian-attacks-kill-six-in-ukraines-zaporizhzhia?traffic_source=rss",
+      "image": null,
+      "ts": 1786432071000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/5-killed-20-injured-in-russian-attack-on-ukraines-zaporizhzhia-11892422#publisher=newsstand"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/11/russian-attacks-kill-six-in-ukraines-zaporizhzhia?traffic_source=rss"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/ukraine/2026/0811/1587353-ukraine-russia/"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/europe/20260810-live-russian-missiles-strike-kyiv-triggering-fires-in-city-centre"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a43337111875",
+      "title": "Nvidia, Wall Street giants seek to raise $500B in fresh AI push",
+      "description": "Nvidia and major Wall Street financial institutions announced a plan to mobilize at least $500 billion in capital to invest in artificial intelligence infrastructure.",
+      "lat": 38.49,
+      "lng": -121.95,
+      "severity": 1,
+      "location": "Santa Clara, USA",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/business/tech/nvidia-wall-street-giants-seek-to-raise-500b-in-fresh-ai-push",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/08/11/455162.JPG",
+      "ts": 1786431420000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c78gr0jv0mdo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "ANSA Economia",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/economia/2026/08/11/nvidia-con-big-di-wall-street-maxi-piattaforma-da-500-miliardi-per_dce06aca-9167-40e4-8752-6a54c620ea68.html"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/business/tech/nvidia-wall-street-giants-seek-to-raise-500b-in-fresh-ai-push"
+          }
+        ]
+      }
+    },
     {
       "id": "bfa56bb7fad1",
       "title": "Vietnam’s VinSpace signs deal with SpaceX to launch its first satellites in 2027",
@@ -31,6 +188,39 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/vietnams-vinspace-signs-deal-elon-musks-spacex-launch-135536822"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fc0e91de3617",
+      "title": "Colombia declares emergency after devastating earthquake",
+      "description": "A magnitude-7.4 earthquake killed at least 138 people and injured 570 in Colombia.",
+      "lat": 3.42,
+      "lng": -76.52,
+      "severity": 4,
+      "location": "Cali, Colombia",
+      "source": "RT News",
+      "url": "https://www.rt.com/news/644093-colombia-earthquake-curfew-emergency/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.08/thumbnail/6a7aa49685f54063d7501945.jpg",
+      "ts": 1786422650000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/644093-colombia-earthquake-curfew-emergency/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
           }
         ]
       }
@@ -244,39 +434,6 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/turkey-mps-back-historic-law-on-reintegrating-pkk-militants/a-78313397?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cb39af2df6ed",
-      "title": "China launches satellite for Algeria",
-      "description": "China has launched a communications satellite for Algeria, marking the first such export to an Arab country.",
-      "lat": 36.77,
-      "lng": 3.06,
-      "severity": 2,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1786403332791,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
           }
         ]
       }
@@ -7716,198 +7873,6 @@
             "n": "IBTimes",
             "b": "center",
             "u": "https://www.ibtimes.com/trump-touting-progress-iran-negotiations-treasury-has-now-removed-sanctions-entities-tied-3806105"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8a327ad87757",
-      "title": "Abdul El-Sayed wins Michigan Senate primary",
-      "description": "Abdul El-Sayed has won Michigan's Democratic U.S. Senate primary, defeating Rep. Haley Stevens in a major victory for progressives.",
-      "lat": 42.33,
-      "lng": -83.05,
-      "severity": 1,
-      "location": "Detroit, USA",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/world/americas/michigan-progressive-el-sayed-wins-democratic-senate-primary",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/08/05/454385.jpg",
-      "ts": 1785938220000,
-      "coverage": {
-        "left": 3,
-        "center": 7,
-        "right": 2,
-        "total": 12,
-        "buckets": {
-          "left": 1,
-          "lean_left": 2,
-          "center": 7,
-          "lean_right": 1,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "The Intercept",
-            "b": "left",
-            "u": "https://theintercept.com/2026/08/05/michigan-primary-results-el-sayed-stevens-aipac/"
-          },
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/08/05/abdul-el-sayed-haley-stevens-michigan-democratic-senate-primary-election-result/"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/08/05/progressive-abdul-el-sayed-s-wins-michigan-primary-confirming-momentum-of-democrats-left-wing_6756186_4.html"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/04/abdul-el-sayed-haley-stevens-michigan-primary.html"
-          },
-          {
-            "n": "Politico",
-            "b": "center",
-            "u": "https://www.politico.com/news/2026/08/05/el-sayed-wins-michigan-senate-primary-stevens-01025170"
-          },
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/video-clips/6010415-watch-live-abdul-el-sayed-victory-speech-michigan-senate-race/"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/american-politics/article-904629"
-          },
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/08/05/cnn-abdul-el-sayed-ha-vinto-la-candidatura-dem-in-michigan_57642e85-befa-4c85-9ddf-d9d6ff2f84eb.html"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWkMzeXN5RWNSU3JyUGxpZXJZNngwc3RaOVZjR1JKb2tkRU9zN3ZRVUZ2MDlOVzdZNVRmQVdBUEgxbHF3VWtLbG9Fci1PS19NR1dPX3h4QnkzZDdnQ09Fd3kxbzQtUW1lcmplUTlJQ0xYOWE3RS1lXzJ6SjZock5FOC1R?oc=5"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-05/el-sayed-wins-michigan-democratic-senate-primary-nbc-projects"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/americas/michigan-progressive-el-sayed-wins-democratic-senate-primary"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/campaigns/congressional/4673520/michigan-senate-democratic-primary-results-2026/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2025f80ba01f",
-      "title": "China hits US with sanctions, drone export curbs",
-      "description": "China has announced sanctions against the US and curbs on drone exports, in retaliation against recent US moves.",
-      "lat": 39.91,
-      "lng": 118.29520000000002,
-      "severity": 3,
-      "location": "Beijing, China",
-      "source": "Egypt Independent",
-      "url": "https://www.egyptindependent.com/china-hits-us-with-sanctions-drone-export-curbs-ahead-of-xi-visit/",
-      "image": null,
-      "ts": 1785934015000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE5QRFQxVnhfaTM5U3lKRXBnQkdKT2VGamxCaWR6clhjZXltdTBQYVFwN2ZHWm1QWUJtT29TckVmTFlNc05JaXFSUUExdkJyQ3d1NjhQMFRtbFRqaDdxXzdOQXJqYnhIZFlqQkhRWFFZS2x0Zw?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6457134799a0",
-      "title": "China hits back at US sanctions",
-      "description": "China has introduced countermeasures, including sanctions and drone curbs, in response to US sanctions.",
-      "lat": 41.01,
-      "lng": 118.29520000000002,
-      "severity": 3,
-      "location": "Beijing, China",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/china-hits-back-at-us-fcc-bans-with-sanctions-and-drone-curbs",
-      "image": null,
-      "ts": 1785932705051,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdUhNdV9Iek9BMjhhX1NYbFVJMGVLY015NkUweGl6dExSdDBaNFNFc1duN1JPT3gzOG9yd2dVZ3FPM3RsTVFpYUR0U2tnWl9Pbnp5VlUyLUtiUmtLMU1mS3gxTTV0eUUtTGF3aGV2bm11a1FCRnAxRE52RGxEVFpWTWI5UG53Zw?oc=5"
-          },
-          {
-            "n": "Nikkei Asia",
-            "b": "center",
-            "u": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/china-hits-back-at-us-fcc-bans-with-sanctions-and-drone-curbs"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2236e4b69d38",
-      "title": "Iran backs Palestinian leaders in Gaza talks",
-      "description": "Iranian President Masoud Pezeshkian has pledged support for Palestinian leaders in Gaza talks, amid efforts to reach a lasting peace deal.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "Egypt Independent",
-      "url": "https://www.egyptindependent.com/iran-backs-any-measure-taken-by-palestinian-leaders-in-gaza-talks-president-says/",
-      "image": null,
-      "ts": 1785931654000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/iran-backs-any-measure-taken-by-palestinian-leaders-in-gaza-talks-president-says/"
           }
         ]
       }
