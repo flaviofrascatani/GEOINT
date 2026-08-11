@@ -1,7 +1,83 @@
 {
   "schema": 1,
-  "updated": "2026-08-11T00:03:23.497076+00:00",
+  "updated": "2026-08-11T02:19:50.111555+00:00",
   "events": [
+    {
+      "id": "19291db3526b",
+      "title": "New Zealand PM Calls Urgent Meeting Over Leadership",
+      "description": "New Zealand Prime Minister Christopher Luxon has called an urgent meeting of National Party lawmakers amid questions over his leadership.",
+      "lat": -41.28,
+      "lng": 174.77,
+      "severity": 2,
+      "location": "Wellington, New Zealand",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/new-zealands-luxon-calls-meeting-of-lawmakers-to-address-leadership-speculation",
+      "image": null,
+      "ts": 1786414162000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-10/nz-national-party-to-meet-as-leadership-pressure-mounts-on-luxon"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/new-zealands-luxon-calls-meeting-of-lawmakers-to-address-leadership-speculation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3276a611b61d",
+      "title": "Turkey Passes Law for PKK Amnesty",
+      "description": "Turkey's parliament has passed a law that sets terms for thousands of PKK members to rejoin society if the group fully disarms.",
+      "lat": 39.93,
+      "lng": 34.76519999999999,
+      "severity": 1,
+      "location": "Ankara, Turkey",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/08-11-2026-turkiye-pkk-bill-sv-mp4?traffic_source=rss",
+      "image": null,
+      "ts": 1786409709000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/11/08-11-2026-turkiye-pkk-bill-sv-mp4?traffic_source=rss"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-10/turkey-passes-law-to-achieve-peace-with-kurdish-separatists"
+          }
+        ]
+      }
+    },
     {
       "id": "aa7632f9407c",
       "title": "Turkey MPs Back Historic Law on Reintegrating PKK Militants",
@@ -371,6 +447,54 @@
       }
     },
     {
+      "id": "41ea6152250f",
+      "title": "Ukraine Drone Attack on Russia",
+      "description": "A Ukrainian drone attack on an industrial city in Russia has killed at least 13 people.",
+      "lat": 51.55,
+      "lng": 32.42519999999999,
+      "severity": 4,
+      "location": "Kyiv, Ukraine",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/08/10/world/europe/ukraine-drone-attack-russia.html",
+      "image": null,
+      "ts": 1786375061000,
+      "coverage": {
+        "left": 3,
+        "center": 0,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/10/world/europe/ukraine-drone-attack-russia.html"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/5-killed-20-injured-in-russian-attack-on-ukraines-zaporizhzhia-11892422#publisher=newsstand"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/ukraine-drone-strike-nizhnekamsk-refinery-37531910"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/europe/ukraine-strikes-russias-tatarstan-oil-hub-killing-13-injuring-78"
+          }
+        ]
+      }
+    },
+    {
       "id": "e83fc7354261",
       "title": "Colombia earthquake",
       "description": "A 7.4-magnitude earthquake struck western Colombia, causing damage and killing at least 20 people.",
@@ -404,59 +528,6 @@
             "n": "Mirror World",
             "b": "lean_left",
             "u": "https://www.mirror.co.uk/news/world-news/colombia-earthquake-bogota-san-jose-37534402"
-          }
-        ]
-      }
-    },
-    {
-      "id": "41ea6152250f",
-      "title": "Ukrainian Drone Strike Kills 13 in Russia",
-      "description": "A Ukrainian drone strike has killed at least 13 people in Russia, with another 75 injured, in one of the deadliest Ukrainian drone attacks since Moscow's full-scale invasion.",
-      "lat": 51.55,
-      "lng": 32.42519999999999,
-      "severity": 3,
-      "location": "Kyiv, Ukraine",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
-      "image": null,
-      "ts": 1786372465000,
-      "coverage": {
-        "left": 2,
-        "center": 3,
-        "right": 0,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/10/world/europe/ukraine-drone-attack-russia.html"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/ukraine-russia-war-drone-attack-tatarstan-oil/"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/ukrainian-drone-attack-kills-at-least-13-in-central-russia/a-78300485?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUUNmLWxickRLU05ySXVrTTR6U2Q4aTVSZExPY3ZaZnhCR01UcUtUMzhMU1c5Q0YwNFFCc0ZRVWpLYWo0RWZHWkhRc3Y2d1lLdDhwbTFNSmRZcXJ0SHV1VUtVWmdxQUZOei1iS1dwNEk3dkhyVTJvSWZiSjl6MXU1X01nQTZjenBZWkdUYmU4eG4tdUk?oc=5"
           }
         ]
       }
@@ -1502,6 +1573,44 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/644045-netanyahu-nixes-trumps-gaza-plan/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cf4e6f1eb469",
+      "title": "Israel Rejects Trump's Gaza Plan",
+      "description": "Israel's Prime Minister has rejected President Trump's 15-point plan for Gaza, saying Israeli forces won't withdraw from the Palestinian territory until Hamas disarms.",
+      "lat": 31.78,
+      "lng": 35.22,
+      "severity": 3,
+      "location": "Jerusalem, Israel",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/08/09/netanyahu-rejects-trump-backed-plan-hamas-disarm-israel-leave-gaza/",
+      "image": null,
+      "ts": 1786313260000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 1,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/israel-reject-trump-gaza-plan-strait-hormuz_n_6a791713e4b0a81f52ff18b9"
+          },
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/israel/israel-rejects-trumps-15-point-plan-gaza-pm-benjamin-netanyahu-says-rcna591555"
           }
         ]
       }
@@ -7809,200 +7918,6 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-08-05/china-hits-back-at-us-with-tighter-drone-export-curbs-sanctions"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2fbfffb34d25",
-      "title": "Nigeria Raises Military Salaries by Up to 80%",
-      "description": "Nigerian President Bola Tinubu has approved salary increases of up to 80% for members of the armed forces to boost troop morale.",
-      "lat": 9.08,
-      "lng": 8.92,
-      "severity": 2,
-      "location": "Abuja, Nigeria",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/08/05/nigerias-tinubu-approves-up-to-80-pay-rise-for-soldiers/",
-      "image": "http://images.euronews.com/articles/stories/09/86/26/77/640x360_cmsv2_c9bf111c-fd9b-5009-9998-4e32fdeb50c9-9862677.jpg?1785906018",
-      "ts": 1785912018000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/05/nigerias-tinubu-approves-up-to-80-pay-rise-for-soldiers/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a41c5dd50f67",
-      "title": "Iran and Oman agree on new Hormuz route",
-      "description": "Iran and Oman have agreed a route for ships transiting the Strait of Hormuz and are putting the final touches on arrangements for jointly managing the passage.",
-      "lat": 26.57,
-      "lng": 58.15520000000001,
-      "severity": 2,
-      "location": "Strait of Hormuz, Oman",
-      "source": "RTE News",
-      "url": "https://www.rte.ie/news/middle-east/2026/0805/1586514-iran-us-trump/",
-      "image": "https://www.rte.ie/images/0024cb0b-800.jpg",
-      "ts": 1785907753000,
-      "coverage": {
-        "left": 1,
-        "center": 7,
-        "right": 1,
-        "total": 9,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 7,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/west-asia-war-tehran-washington-talks-iran-oman-diplomatic-engagement-strait-of-hormuz-live-updates-august-5-2026/article71307954.ece"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/middle-east/2026/0805/1586514-iran-us-trump/"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/e0b10cad-3e46-4a6d-9227-eba6fe11c676?syn-25a6b1a6=1"
-          },
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/08/05/iran-raggiunto-laccordo-con-loman-sullo-stretto-di-hormuz_5880d7a5-ad2b-4b8e-8b02-36a450b2a022.html"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-05/iran-says-agreement-on-hormuz-shipping-route-reached-with-oman"
-          },
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-08-05/trump-hormuz-minaccia-iran-38391232/"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/iran-oman-deal-spurs-hormuz-hopes-red-sea-threats-evolve"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/middle-east/article/3363094/iran-and-oman-agree-new-hormuz-route-tehran-says?utm_source=rss_feed"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2169385"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6df5c9b4f4b5",
-      "title": "Trump Says Iran Will Be 'Hit Very Hard' If Hormuz Strait Not Open Soon",
-      "description": "US President Donald Trump has warned Iran that it will be 'hit very hard' if the Strait of Hormuz is not reopened soon.",
-      "lat": 36.79,
-      "lng": 53.295199999999994,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1518/live/b0431a30-907f-11f1-a7ab-8b30adf0800a.jpg",
-      "ts": 1785901470000,
-      "coverage": {
-        "left": 4,
-        "center": 6,
-        "right": 2,
-        "total": 12,
-        "buckets": {
-          "left": 0,
-          "lean_left": 4,
-          "center": 6,
-          "lean_right": 1,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/03/world/middleeast/iran-talks-us-oman-strait-hormuz-trump.html"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/us-says-southern-route-through-strait-of-hormuz-remains-free-and-open-11866881#publisher=newsstand"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/iran-usa-hormuz-deal-war-37514714"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/west-asia-war-tehran-washington-talks-iran-oman-diplomatic-engagement-strait-of-hormuz-live-updates-august-5-2026/article71307954.ece"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/05/us-iran-war-trump-hormuz-bessent-iran-deal-close.html"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/iran-news/article-904617"
-          },
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/08/05/trump-stretto-di-hormuz-si-aprira-molto-presto-altrimenti-colpi-durissimi-alliran_66867f6e-090a-4780-ad12-b85b8fb13415.html"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-04/qatar-signals-progress-toward-short-term-deal-between-us-iran"
-          },
-          {
-            "n": "Times of India World",
-            "b": "center",
-            "u": "https://timesofindia.indiatimes.com/world/middle-east/well-know-in-48-hours-trump-warns-iran-to-open-hormuz-or-get-hit-very-hard/articleshow/132895176.cms"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2169067"
-          },
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2236100/trump-deal-iran-hormuz-strait"
           }
         ]
       }
