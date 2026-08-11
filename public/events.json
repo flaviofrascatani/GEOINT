@@ -1,14 +1,14 @@
 {
   "schema": 1,
-  "updated": "2026-08-11T17:31:28.958990+00:00",
+  "updated": "2026-08-11T18:27:58.561425+00:00",
   "events": [
     {
       "id": "2de093373d36",
-      "title": "Israel and Venezuela establish consular relations",
-      "description": "Israel and Venezuela have established consular relations for the first time in 17 years.",
+      "title": "Israel, Venezuela open consular relations",
+      "description": "Israel and Venezuela have opened consular relations for the first time in 17 years, creating an official channel of coordination between the two countries.",
       "lat": 10.48,
       "lng": -66.88,
-      "severity": 1,
+      "severity": 2,
       "location": "Caracas, Venezuela",
       "source": "Jerusalem Post",
       "url": "https://www.jpost.com/israel-news/article-905225",
@@ -31,6 +31,105 @@
             "n": "Jerusalem Post",
             "b": "center",
             "u": "https://www.jpost.com/israel-news/article-905225"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7241626ee6e5",
+      "title": "China, Indonesia navies to hold drills in sensitive waters",
+      "description": "The exercise will focus on communication drills and at-sea replenishment, aiming to enhance the joint operational capabilities of the two navies.",
+      "lat": 1.2903,
+      "lng": 103.8501,
+      "severity": 3,
+      "location": "Singapore",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/china-indonesia-navies-to-hold-drills-in-sensitive-waters-to-east-of-taiwan/article71333879.ece",
+      "image": null,
+      "ts": 1786471943000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/china-indonesia-navies-to-hold-drills-in-sensitive-waters-to-east-of-taiwan/article71333879.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ceb944c2cc6c",
+      "title": "Colombia earthquake death toll passes 200",
+      "description": "Rescuers are searching for survivors after a powerful earthquake struck Colombia, killing at least 240 people and injuring over 1,000.",
+      "lat": 3.4214,
+      "lng": -76.5244,
+      "severity": 4,
+      "location": "Cali, Colombia",
+      "source": "AGI Estero",
+      "url": "https://www.agi.it/estero/news/2026-08-11/terremoto-colombia-morti-dispersi-38490027/",
+      "image": "https://images.agi.it/pictures/agi/agi/2026/08/11/180943493-058c688a-80cc-4c3b-9d0b-227880357ae4.jpg",
+      "ts": 1786471858000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/colombia-earthquake-rescue-survivors/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "27b2f9dc3d2c",
+      "title": "U.S. and Iran close to peace arrangement",
+      "description": "The U.S. and Iran are close to agreeing on some sort of arrangement, Pakistan's defense minister told Bloomberg.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 1,
+      "location": "Tehran, Iran",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-compensation-negotiation/",
+      "image": null,
+      "ts": 1786471499000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-compensation-negotiation/"
           }
         ]
       }
@@ -64,6 +163,44 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/24-million-afghan-girls-shut-secondary-school-5-135551092"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d41227349cbc",
+      "title": "Trump accuses Iran of being devious negotiators",
+      "description": "U.S. President Donald Trump accused Iran of being 'devious negotiators' and described some of his current options in the war as 'hit them really hard'.",
+      "lat": 35.6892,
+      "lng": 51.38900000000001,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/trump-says-iran-options-are-let-tehran-fail-economically-or-hit-them-really-hard",
+      "image": null,
+      "ts": 1786466795000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/2026/0811/1587478-trump-iran/"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/trump-says-iran-options-are-let-tehran-fail-economically-or-hit-them-really-hard"
           }
         ]
       }
@@ -249,39 +386,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/investigators-myanmars-military-escalated-airstrikes-civilians-135547268"
-          }
-        ]
-      }
-    },
-    {
-      "id": "27b2f9dc3d2c",
-      "title": "U.S. and Iran close to 'peace arrangement or a deal'",
-      "description": "The U.S. and Iran are close to agreeing on 'some sort of arrangement', Pakistan's defense minister told Bloomberg on Tuesday",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-compensation-negotiation/",
-      "image": null,
-      "ts": 1786455608000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-compensation-negotiation/"
           }
         ]
       }
@@ -7734,120 +7838,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/business/economy/syria-says-wheat-output-meets-domestic-demand-after-15-years"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6e33c790f5f6",
-      "title": "Nigerian security forces free more than 300 hostages abducted by militants",
-      "description": "President hails ‘successful’ rescue as country battles endemic kidnapping for ransom and insecurity worsens.",
-      "lat": 10.18,
-      "lng": 10.585199999999986,
-      "severity": 1,
-      "location": "Abuja, Nigeria",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/world/2026/aug/06/nigerian-security-forces-free-hostages-abducted-by-militants",
-      "image": null,
-      "ts": 1786020032000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/world/2026/aug/06/nigerian-security-forces-free-hostages-abducted-by-militants"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7c75b1883e82",
-      "title": "Nigerian security forces free over 300 hostages",
-      "description": "Nigerian security forces have rescued more than 300 people held captive in the country's north-central region.",
-      "lat": 9.08,
-      "lng": 7.53,
-      "severity": 1,
-      "location": "Abuja, Nigeria",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/world/2026/aug/06/nigerian-security-forces-free-hostages-abducted-by-militants",
-      "image": null,
-      "ts": 1786020032000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/world/2026/aug/06/nigerian-security-forces-free-hostages-abducted-by-militants"
-          }
-        ]
-      }
-    },
-    {
-      "id": "242148f76d0c",
-      "title": "North Korea Conducts Ballistic Missile Test",
-      "description": "The launch from North Korea’s eastern coastal Wonsan area was detected around 5 p.m., South Korea’s Joint Chiefs of Staff said.",
-      "lat": 38.66,
-      "lng": 126.97000000000003,
-      "severity": 2,
-      "location": "Seoul, South Korea",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/north-korea-ballistic-missile-test_n_6a7462d8e4b0a79b03a6f52a",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2025/01/07/PYH2025010700680004200_P2.jpg",
-      "ts": 1786019784000,
-      "coverage": {
-        "left": 2,
-        "center": 1,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 1,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/north-korea-ballistic-missile-test_n_6a7462d8e4b0a79b03a6f52a"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/north-korea-launches-short-range-ballistic-missile-sea-135413600"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeXdyNEpHMFNGcXNVdVJ6UHotbDZQQnJ6N0htSmJwSS0tN2dsMDYtaThpLTcyUi05bi1paHVvVUE4cGgwclB6RkdaaVNlZDFUdW9PVE9NNjhLQzFfWGkxSzBYRkVtZkpyekZjaUZGZDY3dTI4d2hjaF93alg4SE9oZGlCTndQdlRGSzR6VG5DV1FwS0ozenp4Zzl0UUJIMi14YUdCM3ZzcTU3bE1xV3lWV0YzQ1hZUUhiM3dmdUhMTQ?oc=5"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/us-north-korea-missile-launch-poses-no-immediate-threat-consulting-closely-allies"
           }
         ]
       }
