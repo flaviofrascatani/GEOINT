@@ -1,7 +1,93 @@
 {
   "schema": 1,
-  "updated": "2026-08-12T07:44:04.933996+00:00",
+  "updated": "2026-08-12T09:19:20.072698+00:00",
   "events": [
+    {
+      "id": "ba266ac6ca26",
+      "title": "US primary elections",
+      "description": "Moderate Democrat David Crowley won the Wisconsin primary for governor, defeating democratic socialist Francesca Hong.",
+      "lat": 43.04,
+      "lng": -89.39,
+      "severity": 1,
+      "location": "Madison, Wisconsin, USA",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/08/12/wisconsin-democratic-governor-primary-hong-crowley",
+      "image": "https://images.axios.com/q-aipb6BvoDE2mvGCCO13N0e0i8=/0x302:4000x2552/1366x768/2026/08/12/1786526024188.jpeg",
+      "ts": 1786526096000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/08/12/wisconsin-democratic-gubernatorial-primary-result-hong-crowley/"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/american-politics/article-905274"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-12/crowley-wins-wisconsin-dem-governor-primary-ddhq-projects"
+          },
+          {
+            "n": "New York Post",
+            "b": "lean_right",
+            "u": "https://nypost.com/2026/08/12/us-news/francesca-hong-loses-tight-race-to-moderate-david-crowley-in-wisconsin-gubernatorial-primary/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b38d5889319b",
+      "title": "Drone strike in western Libya",
+      "description": "A drone strike ignited a fire at a power plant in western Libya, knocking the facility out of service.",
+      "lat": 32.76,
+      "lng": 14.625200000000007,
+      "severity": 4,
+      "location": "Zawiya, Libya",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/drone-strike-western-libya-torches-power-substation-triggering-135569481",
+      "image": null,
+      "ts": 1786525083000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/drone-strike-western-libya-torches-power-substation-triggering-135569481"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/drone-attack-hits-libya-s-largest-oil-refinery/a-78328962?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
     {
       "id": "27b2f9dc3d2c",
       "title": "US and Iran Close to Peace Deal",
@@ -175,34 +261,39 @@
       }
     },
     {
-      "id": "b38d5889319b",
-      "title": "Libya Drone Attack",
-      "description": "A drone attack hit Libya's largest oil refinery, causing fires to break out at the Zawiya oil complex.",
-      "lat": 32.76,
-      "lng": 14.625200000000007,
+      "id": "e86d0c0fb949",
+      "title": "Trump confirms secret plane switch",
+      "description": "Donald Trump confirmed he secretly switched planes due to a threat to his life.",
+      "lat": 41.81,
+      "lng": -74.01,
       "severity": 2,
-      "location": "Zawiya, Libya",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/drone-attack-hits-libya-s-largest-oil-refinery/a-78328962?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1786502027656,
+      "location": "New York City, USA",
+      "source": "RTE News",
+      "url": "https://www.rte.ie/news/us/2026/0812/1587521-donald-trump-plane/",
+      "image": "https://www.rte.ie/images/0024d43f-800.jpg",
+      "ts": 1786504258000,
       "coverage": {
         "left": 0,
-        "center": 1,
+        "center": 2,
         "right": 0,
-        "total": 1,
+        "total": 2,
         "buckets": {
           "left": 0,
           "lean_left": 0,
-          "center": 1,
+          "center": 2,
           "lean_right": 0,
           "right": 0
         },
         "sources": [
           {
-            "n": "DW News",
+            "n": "RTE News",
             "b": "center",
-            "u": "https://www.dw.com/en/drone-attack-hits-libya-s-largest-oil-refinery/a-78328962?maca=en-rss-en-all-1573-rdf"
+            "u": "https://www.rte.ie/news/us/2026/0812/1587521-donald-trump-plane/"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/donald-trump-secretly-left-nato-summit-on-military-plane-over-iran-threat-13571831"
           }
         ]
       }
@@ -3312,11 +3403,11 @@
     },
     {
       "id": "92054aeeebb5",
-      "title": "Yemen Houthis Attack Saudi Refinery",
-      "description": "Yemen's Houthis attacked Saudi Aramco's Jazan refinery, two days after the kingdom signed a defense pact with Turkey and Pakistan.",
+      "title": "Houthis attack Saudi refinery",
+      "description": "Yemen's Houthis attacked Saudi Aramco's Jazan refinery after the kingdom signed a defense pact with Turkey and Pakistan.",
       "lat": 16.45,
       "lng": 44.19,
-      "severity": 2,
+      "severity": 4,
       "location": "Sanaa, Yemen",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/yemens-houthis-aittack-saud-refinery-after-kingdom-signs-defense-pact_n_6a79505de4b01ec88690acda",
@@ -7729,72 +7820,6 @@
       "description": "David Owori, a Ugandan footballer, was killed by robbers near his home in Kampala.",
       "lat": 1.41,
       "lng": 32.56999999999999,
-      "severity": 4,
-      "location": "Kampala, Uganda",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/uganda-soccer-star-killed_n_6a75a954e4b04fcbf74e52a7",
-      "image": null,
-      "ts": 1786096426000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 1,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/uganda-soccer-star-killed_n_6a75a954e4b04fcbf74e52a7"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d276562f0dfc",
-      "title": "Ugandan footballer killed by robbers",
-      "description": "David Owori, who played for the national team, died in hospital after he tried to stop robbers taking his phone.",
-      "lat": 1.42,
-      "lng": 34.48519999999999,
-      "severity": 3,
-      "location": "Kampala, Uganda",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/uganda-soccer-star-killed_n_6a75a954e4b04fcbf74e52a7",
-      "image": null,
-      "ts": 1786096426000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/football/2026/aug/06/top-uganda-footballer-killed-robbery-kampala"
-          }
-        ]
-      }
-    },
-    {
-      "id": "24e1dcc3d0ca",
-      "title": "Uganda Soccer Star Killed In Attack Near His Home",
-      "description": "Uganda international and SC Villa captain David Owori died after being attacked near his home in the capital city of Kampala.",
-      "lat": 0.31,
-      "lng": 34.48519999999999,
       "severity": 4,
       "location": "Kampala, Uganda",
       "source": "HuffPost World",
