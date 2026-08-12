@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-08-12T18:02:38.120268+00:00",
+  "updated": "2026-08-12T19:13:18.235066+00:00",
   "events": [
+    {
+      "id": "cb39af2df6ed",
+      "title": "Satellite lofted for first Arab country",
+      "description": "A Chinese-made communications satellite has been launched for Algeria, the first 'export' of such a spacecraft to an Arab country.",
+      "lat": 36.77,
+      "lng": 3.06,
+      "severity": 2,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1786561998093,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ae8711c64868",
+      "title": "Tunisia: Sidi Bou Said residents welcome UNESCO inscription",
+      "description": "Tunisia's Sidi Bou Said was inscribed on the UNESCO world heritage list, much to the delight of residents.",
+      "lat": 36.97,
+      "lng": 10.34,
+      "severity": 1,
+      "location": "Sidi Bou Said, Tunisia",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/08/12/tunisia-sidi-bou-said-residents-welcome-unesco-inscription/",
+      "image": "http://images.euronews.com/articles/stories/09/87/20/45/640x360_cmsv2_ba05d0e2-87b2-5742-a64b-aa247bbf6034-9872045.jpg?1786548218",
+      "ts": 1786559758000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/12/tunisia-sidi-bou-said-residents-welcome-unesco-inscription/"
+          }
+        ]
+      }
+    },
     {
       "id": "fe1f0f15443c",
       "title": "25 years North Macedonian peace: reconciliation in sight?",
@@ -31,6 +97,39 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/25-years-north-macedonian-peace-reconciliation-in-sight/a-78340239?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4d640c3b4193",
+      "title": "Türkiye vows to strengthen dialogue across Libya under '1 Libya' policy",
+      "description": "Türkiye will continue working to bridge Libya's political and regional divides, Foreign Minister Hakan Fidan said after concluding wide-ranging talks in Tripoli.",
+      "lat": 33.98,
+      "lng": 15.075199999999995,
+      "severity": 2,
+      "location": "Tripoli, Libya",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/politics/diplomacy/turkiye-vows-to-strengthen-dialogue-across-libya-under-1-libya-policy",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/08/12/455512.jpg",
+      "ts": 1786557600000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/politics/diplomacy/turkiye-vows-to-strengthen-dialogue-across-libya-under-1-libya-policy"
           }
         ]
       }
@@ -130,6 +229,44 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/video/newsfeed/2026/8/12/drought-exposes-nazi-era-warship-wrecks-beneath-the-danube?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cc0d5e03e532",
+      "title": "Ukraine pounds Black Sea Fleet’s ‘last major stronghold’",
+      "description": "Ukraine has pounded the Black Sea Fleet's last major stronghold while Putin flexes naval power in the Pacific.",
+      "lat": 47.58,
+      "lng": 32.6352,
+      "severity": 4,
+      "location": "Odessa, Ukraine",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/ukraine-pounds-black-sea-fleets-last-major-stronghold-while-putin-flexes-naval-power-pacific",
+      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/russian-military.gif",
+      "ts": 1786551358000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/ukraine-pounds-black-sea-fleets-last-major-stronghold-while-putin-flexes-naval-power-pacific"
           }
         ]
       }
@@ -3088,39 +3225,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/08/trump-boarded-secret-turkey-flight-catering-truck-due-iran-threat-media"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cb39af2df6ed",
-      "title": "China launches satellite for Algeria",
-      "description": "A Chinese-made communications satellite became the first 'export' of such a spacecraft to an Arab country when it was launched by China for Algeria.",
-      "lat": 36.77,
-      "lng": 3.06,
-      "severity": 1,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1786434498840,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
           }
         ]
       }
@@ -7719,110 +7823,6 @@
             "n": "CBS News World",
             "b": "lean_left",
             "u": "https://www.cbsnews.com/news/thailand-school-shooting-bangkok/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cc9e2f0a6ab6",
-      "title": "Police dismantle major Mediterranean trafficking network",
-      "description": "An international police operation led by Spanish authorities dismantled a major criminal network involved in trafficking migrants, drugs and weapons.",
-      "lat": 39.46,
-      "lng": 0.35,
-      "severity": 3,
-      "location": "Valencia, Spain",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/08/08/police-dismantle-major-mediterranean-trafficking-network-europol-says/",
-      "image": "https://s.abcnews.com/images/International/wirestory_36adc86a30c6d07392345783656b430f_4x3_384.jpg",
-      "ts": 1786170759000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/spanish-led-police-raid-smashes-vast-mediterranean-smuggling-135453661"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/08/police-dismantle-major-mediterranean-trafficking-network-europol-says/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e3501b8d77a2",
-      "title": "Europe Gets Its Starlink Rival, Expands IRIS Satellite Constellation",
-      "description": "IRIS2, a response to Starlink and other satellite internet services, is being developed as a secure and reliable connectivity network for European governments, defence and security forces.",
-      "lat": 51.95,
-      "lng": 4.349999999999994,
-      "severity": 1,
-      "location": "Brussels, Belgium",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/europe-gets-its-starlink-rival-expands-iris-satellite-constellation-11882249#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2025-03/ousuep0g_starlink-_650x400_11_March_25.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1786168231000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/europe-gets-its-starlink-rival-expands-iris-satellite-constellation-11882249#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "86f925563e65",
-      "title": "Crisis-hit Cuba opens pharmacies, gas stations to private firms",
-      "description": "Prime Minister Manuel Marrero said the first foreign investment project for the importation, distribution and marketing of fuel has been approved.",
-      "lat": 24.23,
-      "lng": -82.38,
-      "severity": 1,
-      "location": "Havana, Cuba",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/crisis-hit-cuba-opens-pharmacies-gas-stations-to-private-firms/article71287621.ece",
-      "image": "https://th-i.thgim.com/public/incoming/fgzs24/article71287635.ece/alternates/LANDSCAPE_1200/Cuba_Daily_Life_12713.jpg",
-      "ts": 1786163918000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/crisis-hit-cuba-opens-pharmacies-gas-stations-to-private-firms/article71287621.ece"
           }
         ]
       }
