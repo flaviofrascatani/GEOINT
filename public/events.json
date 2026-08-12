@@ -1,7 +1,113 @@
 {
   "schema": 1,
-  "updated": "2026-08-12T02:33:47.830182+00:00",
+  "updated": "2026-08-12T04:24:43.500951+00:00",
   "events": [
+    {
+      "id": "832ac2bc4426",
+      "title": "North Korea tests missile ahead of US-South Korea drills",
+      "description": "North Korea launched a suspected ballistic missile towards Japan, likely falling just outside of its special economic zone",
+      "lat": 39.02,
+      "lng": 125.75,
+      "severity": 3,
+      "location": "Pyongyang, North Korea",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/north-korea-tests-missile-ahead-of-us-south-korea-drills/a-78329244?maca=en-rss-en-all-1573-rdf",
+      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
+      "ts": 1786508683347,
+      "coverage": {
+        "left": 3,
+        "center": 4,
+        "right": 2,
+        "total": 9,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 4,
+          "lean_right": 1,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/north-korea-launches-suspected-ballistic-missile-japans-135558919"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/japan-says-north-korea-has-launched-suspected-ballistic-missile-11897286#publisher=newsstand"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/08/12/north-korea-fires-ballistic-missile-towards-sea-of-japan-according-to-seoul-ahead-of-us-south-drills_6756402_4.html"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/north-korea-tests-missile-ahead-of-us-south-korea-drills/a-78329244?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-11/north-korea-fires-ballistic-missile-ahead-of-us-military-drills"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/east-asia/north-korea-fired-a-ballistic-missile-south-korean-military-says"
+          },
+          {
+            "n": "Times of India World",
+            "b": "center",
+            "u": "https://timesofindia.indiatimes.com/defence/international/north-korea-fires-second-ballistic-missile-in-a-week-ahead-of-us-south-korea-war-drills/articleshow/133168025.cms"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2171619"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/north-korea-launches-ballistic-missile-us-south-korea-prepare-military-drills"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b827444d1614",
+      "title": "China-linked hackers hit Taiwan in AI cyber attack",
+      "description": "AI agents ran simultaneous reconnaissance and break-ins in a display of new phase of cyberwarfare",
+      "lat": 25.03,
+      "lng": 121.55000000000001,
+      "severity": 3,
+      "location": "Taipei, Taiwan",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1786507872000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
     {
       "id": "b38d5889319b",
       "title": "Libya Drone Attack",
@@ -69,6 +175,72 @@
             "n": "Time",
             "b": "lean_left",
             "u": "https://time.com/article/2026/08/11/trump-secret-plane-swap-Turkey-UK-Secret-Service-Air-Force-One/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "57131f24eedf",
+      "title": "US disables Panama-flagged container ship off Pakistan",
+      "description": "US forces struck a Panama-flagged container ship in the Gulf of Oman, leaving it unable to steer, after it attempted to head for an Iranian port",
+      "lat": 25.38,
+      "lng": 58.44999999999999,
+      "severity": 3,
+      "location": "Gulf of Oman",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/08/12/us-disables-a-panama-flagged-container-ship-off-the-coast-of-pakistan?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": "https://en.mercopress.com/data/cache/noticias/111115/100x80/barcos.jpeg",
+      "ts": 1786493760000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/08/12/us-disables-a-panama-flagged-container-ship-off-the-coast-of-pakistan?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c3d0b59145c7",
+      "title": "Colombia earthquake death toll tops 200",
+      "description": "At least 220 people were reported dead in Colombia's strongest earthquake in a decade",
+      "lat": 4.57,
+      "lng": -74.29,
+      "severity": 4,
+      "location": "Bogotá, Colombia",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/08/11/colombia-rescuers-scramble-find-survivors-earthquake-death-toll-rises/",
+      "image": null,
+      "ts": 1786493185000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/08/11/colombia-rescuers-scramble-find-survivors-earthquake-death-toll-rises/"
           }
         ]
       }
@@ -201,59 +373,6 @@
             "n": "Axios",
             "b": "center",
             "u": "https://www.axios.com/2026/08/11/trump-mail-in-voting-executive-order-us-postal-service"
-          }
-        ]
-      }
-    },
-    {
-      "id": "832ac2bc4426",
-      "title": "North Korea launches a suspected ballistic missile",
-      "description": "Japan's Defense Ministry says North Korea has launched a possible ballistic missile toward the sea",
-      "lat": 39.02,
-      "lng": 125.75,
-      "severity": 2,
-      "location": "Pyongyang, North Korea",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/north-korea-launches-suspected-ballistic-missile-japans-135558919",
-      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
-      "ts": 1786486383000,
-      "coverage": {
-        "left": 2,
-        "center": 3,
-        "right": 0,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/north-korea-launches-suspected-ballistic-missile-japans-135558919"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/japan-says-north-korea-has-launched-suspected-ballistic-missile-11897286#publisher=newsstand"
-          },
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/08/12/asia-pacific/north-korea-missile-firing/"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/east-asia/north-korea-fires-ballistic-missile-south-6313116"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/north-korea-fired-a-ballistic-missile-south-korean-military-says"
           }
         ]
       }
@@ -6758,10 +6877,10 @@
     {
       "id": "866ccffe9562",
       "title": "Spain introduces temporary border checks on visitors from Italy",
-      "description": "Spain has introduced temporary border checks on visitors from Italy in response to Rome imposing similar measures.",
+      "description": "Spain will introduce temporary border checks on visitors from Italy in response to Rome imposing similar measures",
       "lat": 40.42,
       "lng": -3.71,
-      "severity": 3,
+      "severity": 2,
       "location": "Madrid, Spain",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy",
@@ -7664,125 +7783,6 @@
             "n": "The Hindu International",
             "b": "lean_left",
             "u": "https://www.thehindu.com/news/national/india-china-discuss-lac-situation-and-border-management-during-diplomatic-talks-mea/article71316535.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8f2c7731f875",
-      "title": "Thai Teen Kills 8 In Rampage At Home And School",
-      "description": "A 14-year-old student killed his grandparents and five teachers before taking his own life in a rampage at a school in Thailand.",
-      "lat": 13.75,
-      "lng": 100.51999999999998,
-      "severity": 4,
-      "location": "Nonthaburi, Thailand",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/thailand-school-shooting_n_6a757ad6e4b0e33593d2b587",
-      "image": null,
-      "ts": 1786084738000,
-      "coverage": {
-        "left": 2,
-        "center": 2,
-        "right": 1,
-        "total": 5,
-        "buckets": {
-          "left": 1,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/thailand-school-shooting_n_6a757ad6e4b0e33593d2b587"
-          },
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/07/7-killed-more-than-30-injured-thailand-school-shooting/"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c980j3j578do?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/asia/2026/0807/1586874-thailand-school-shooting/"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/asia/2026/08/07/thailand-14-year-old-kills-a-least-six-in-school-shooting-including-grandparents/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a5d560580ba7",
-      "title": "Thai school shooting",
-      "description": "At least 6 people dead, 15 injured in shooting at Thai high school",
-      "lat": 13.86,
-      "lng": 100.51999999999998,
-      "severity": 4,
-      "location": "Nonthaburi, Thailand",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/thailand-high-school-shooting-dead-injured-nonthaburi/",
-      "image": null,
-      "ts": 1786084286000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/thailand-school-shooting-bang-kruai-district-nonthaburi-province-live-updates-august-7-2026/article71316225.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0b5513a3001f",
-      "title": "Uganda troops to Gaza",
-      "description": "Ugandan lawmakers approve deployment of nation's troops to Gaza",
-      "lat": 0.32,
-      "lng": 32.58,
-      "severity": 3,
-      "location": "Kampala, Uganda",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-07/uganda-s-lawmakers-approve-deployment-of-nation-s-troops-to-gaza",
-      "image": null,
-      "ts": 1786082391000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-07/uganda-s-lawmakers-approve-deployment-of-nation-s-troops-to-gaza"
           }
         ]
       }
