@@ -1,7 +1,149 @@
 {
   "schema": 1,
-  "updated": "2026-08-12T11:54:13.820976+00:00",
+  "updated": "2026-08-12T13:28:23.982661+00:00",
   "events": [
+    {
+      "id": "1d1b900d2caf",
+      "title": "Iran says no progress on reviving interim peace deal with US",
+      "description": "Iran and the US remain at loggerheads over efforts to agree a permanent end to the war in the Gulf.",
+      "lat": 35.69,
+      "lng": 53.295199999999994,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/iran-says-no-progress-on-reviving-interim-peace-deal-with-us",
+      "image": null,
+      "ts": 1786541089000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/iran-says-no-progress-on-reviving-interim-peace-deal-with-us"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7d17c87c7bb4",
+      "title": "Putin warns of retaliation for Western seizures of Russian commercial ships",
+      "description": "Russian President Vladimir Putin has threatened retaliation for Western seizures of its commercial vessels.",
+      "lat": 55.75,
+      "lng": 39.525199999999984,
+      "severity": 2,
+      "location": "Moscow, Russia",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3363816/putin-warns-retaliation-western-seizures-russian-commercial-ships?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/12/299d50f6-835d-4c1e-b57f-bb670ec0f0ca_6da5e45d.jpg?itok=O-5SiqN2&v=1786540560",
+      "ts": 1786540575000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/putin-threatens-retaliation-western-seizures-russian-commercial-vessels-135570787"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/putin-threatens-retaliate-against-western-countries-over-seizure-commercial-vessels-3806319"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/russia-central-asia/article/3363816/putin-warns-retaliation-western-seizures-russian-commercial-ships?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c2064645f580",
+      "title": "NATO fighter jet crashes in Turkey",
+      "description": "A Turkish military fighter jet has crashed during a training exercise in Yalova, Turkey.",
+      "lat": 40.66,
+      "lng": 29.31,
+      "severity": 3,
+      "location": "Yalova, Turkey",
+      "source": "Mirror World",
+      "url": "https://www.mirror.co.uk/news/world-news/nato-f16-plane-crash-turkey-37543772",
+      "image": "https://i2-prod.dailystar.co.uk/incoming/article37543773.ece/ALTERNATES/s615/2_Screenshot-2026-08-12-140510.png",
+      "ts": 1786540087000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/nato-f16-plane-crash-turkey-37543772"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1647c0286708",
+      "title": "Germany to beef up intelligence services",
+      "description": "Germany's government plans to give its intelligence services broader powers in response to a rising threat from foreign powers.",
+      "lat": 53.62,
+      "lng": 13.409999999999997,
+      "severity": 2,
+      "location": "Berlin, Germany",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/germany-beefs-intelligence-services-threat-foreign-powers-rises-135573897",
+      "image": "https://s.abcnews.com/images/International/wirestory_9df4f0b15e682c1fbf6ce9c1b4dbbaa8_4x3_384.jpg",
+      "ts": 1786539008000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/germany-beefs-intelligence-services-threat-foreign-powers-rises-135573897"
+          }
+        ]
+      }
+    },
     {
       "id": "5573381636e3",
       "title": "Thailand Reaffirms US Military Cooperation Amid Trade Talks",
@@ -127,6 +269,69 @@
             "n": "Channel News Asia",
             "b": "center",
             "u": "https://www.channelnewsasia.com/east-asia/former-chinese-premier-zhu-rongji-dies-6314656"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7ee585f963b3",
+      "title": "Zhu Rongji, former China Premier, dies at 97",
+      "description": "Zhu Rongji, who negotiated China's entry into the World Trade Organization, has died at 97.",
+      "lat": 39.91,
+      "lng": 116.38999999999999,
+      "severity": 2,
+      "location": "Beijing, China",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/obituaries/2026/08/12/zhu-rongji-former-china-premier-dies-97/",
+      "image": null,
+      "ts": 1786531457000,
+      "coverage": {
+        "left": 3,
+        "center": 4,
+        "right": 0,
+        "total": 7,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 4,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/obituaries/2026/08/12/zhu-rongji-former-china-premier-dies-97/"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/chinese-premier-zhu-rongji-architect-growth-dies-illness-135570888"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/former-chinese-premier-zhu-rongji-dies-of-illness-at-98/article71336220.ece"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c75g9777wwxo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-12/zhu-rongji-chinese-premier-who-overhauled-economy-dies-at-97"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/east-asia/chinas-reformist-ex-premier-zhu-rongji-dies"
+          },
+          {
+            "n": "Times of India World",
+            "b": "center",
+            "u": "https://timesofindia.indiatimes.com/world/china/zhu-rongji-former-premier-who-changed-chinas-economic-fate-passes-away-at-97/articleshow/133183305.cms"
           }
         ]
       }
@@ -7613,201 +7818,6 @@
             "n": "All Africa",
             "b": "center",
             "u": "https://allafrica.com/stories/202608070650.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c711c0585e27",
-      "title": "US appeals court halts construction of Trump’s $400 million White House ballroom project",
-      "description": "A federal appeals court ordered the US President Donald Trump’s administration to stop construction of its $400 million ballroom on the site of the White House's demolished East Wing.",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/americas/20260807-us-appeals-court-halts-construction-of-trump-400-million-white-house-ballroom-project",
-      "image": "https://s.france24.com/media/display/dae90eaa-9275-11f1-a479-005056bfb2b6/w:1024/p:16x9/AP26217654920197.jpg",
-      "ts": 1786118815000,
-      "coverage": {
-        "left": 1,
-        "center": 4,
-        "right": 2,
-        "total": 7,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 4,
-          "lean_right": 0,
-          "right": 2
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/us-appeals-court-blocks-trumps-400-million-white-house-ballroom-project/article71318624.ece"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/americas/20260807-us-appeals-court-halts-construction-of-trump-400-million-white-house-ballroom-project"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOa1NXcXZiSmg2RnFIZGdUYkNXUENhUi1EODJvS29HalBFdkNaT05XOHZDbTIwOUktY2ZvRExYdUJKdTB0aWVWdXlQSFJ3OVk1YWxEc0tTX0x6NjFBVVhPT0Q2QmVOTHVNZER2SUxGZUo3c2dDMjhmMXRCYlc0eXpjTFdoZ9IBiAFBVV95cUxNVm5fR3BteWxXZFJNektFcjJNRlExYlFod0prT3hiODhJeGg2c0JOOHdVLVllLXFXMUYtWFVKTzBGaEpmS1lodjJmTUdCQ2I4SDhTM3MyXzAwanIxcmdrUmtUaElPdlpjUWlyNU11eWJfalVFcnlWc2FqWnQ1OTJDajI4QkFkTTd2?oc=5"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/united-states-canada/article/3363361/us-court-blocks-trumps-us400-million-white-house-ballroom-project?utm_source=rss_feed"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/world/donald-trump-ballroom-white-house-6306526"
-          },
-          {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/newsroom/peoples-house-vs-executive-residence-federal-appeals-court-blocks-construction-of-trumps-wh-ballroom/"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/washington-secrets/4678925/white-house-report-card-americans-not-proud-trump/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "10a7068ae95e",
-      "title": "School shooting in Thailand",
-      "description": "A school shooting in Thailand has resulted in at least 9 deaths and 23 wounded.",
-      "lat": 13.76,
-      "lng": 100.52999999999997,
-      "severity": 4,
-      "location": "Bangkok, Thailand",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/07/7-killed-more-than-30-injured-thailand-school-shooting/",
-      "image": null,
-      "ts": 1786117992000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/07/7-killed-more-than-30-injured-thailand-school-shooting/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f525c480e36a",
-      "title": "Cubans forced to adapt to life without electricity as oil blockade drags on",
-      "description": "Cubans are facing prolonged blackouts due to an oil blockade imposed by the US, which has led to a shortage of electricity.",
-      "lat": 23.13,
-      "lng": -82.38,
-      "severity": 3,
-      "location": "Havana, Cuba",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/08/07/cubans-forced-to-adapt-to-life-without-electricity-as-oil-blockade-drags-on/",
-      "image": "http://images.euronews.com/articles/stories/09/86/65/34/640x360_cmsv2_406a9f26-b538-56de-8ef2-ad0b81d6b3af-9866534.jpg?1786107958",
-      "ts": 1786115128000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/07/cubans-forced-to-adapt-to-life-without-electricity-as-oil-blockade-drags-on/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5d18adc624ff",
-      "title": "US economy unexpectedly sheds 23,000 jobs in July",
-      "description": "Lacklustre figure prompts traders to scale back bets on Fed rate rises",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 4,
-      "location": "Washington D.C., USA",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/54adfc90-f555-44d3-8a81-4f39a07b5473?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1786109925000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/54adfc90-f555-44d3-8a81-4f39a07b5473?syn-25a6b1a6=1"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d26be5abf36f",
-      "title": "Pope to meet clergy abuse victims in France",
-      "description": "Pope Leo XIV will meet with victims of sexual abuse within the Catholic Church during his planned trip to France.",
-      "lat": 45.76,
-      "lng": 4.83,
-      "severity": 1,
-      "location": "Lyon, France",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/france/20260807-pope-leo-meet-clergy-abuse-victims-during-upcoming-france-visit",
-      "image": "https://s.france24.com/media/display/b239f5d4-9250-11f1-aafc-005056a97e36/w:1024/p:16x9/508d27068ab8555115da0f9715155fcdcb759989.jpg",
-      "ts": 1786107014000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/france/20260807-pope-leo-meet-clergy-abuse-victims-during-upcoming-france-visit"
           }
         ]
       }
