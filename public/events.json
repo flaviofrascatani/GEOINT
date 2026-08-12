@@ -1,14 +1,85 @@
 {
   "schema": 1,
-  "updated": "2026-08-12T05:59:57.662626+00:00",
+  "updated": "2026-08-12T07:44:04.933996+00:00",
   "events": [
+    {
+      "id": "27b2f9dc3d2c",
+      "title": "US and Iran Close to Peace Deal",
+      "description": "The US and Iran are reportedly close to agreeing on a peace arrangement, according to Pakistan's defense minister.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 1,
+      "location": "Tehran, Iran",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-compensation-negotiation/",
+      "image": null,
+      "ts": 1786519608000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-compensation-negotiation/"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/stocks-fall-again-us-iran-deal-remains-elusive-brent-closes-90-3806309"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6e21d161ad24",
+      "title": "US Senate Extends AGOA Trade Programme",
+      "description": "The US Senate approved a two-year extension of the African Growth and Opportunity Act, maintaining duty-free access on more than 1,800 products from eligible countries.",
+      "lat": 39.99,
+      "lng": -75.1048,
+      "severity": 1,
+      "location": "Washington D.C., USA",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/08/12/us-senate-votes-to-extend-agoa-trade-programme-for-32-african-nations/",
+      "image": "http://images.euronews.com/articles/stories/09/87/06/01/640x360_cmsv2_6b3fe844-2e31-5c07-9b12-a31eedaafb26-9870601.jpg?1786460171",
+      "ts": 1786514253000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/12/us-senate-votes-to-extend-agoa-trade-programme-for-32-african-nations/"
+          }
+        ]
+      }
+    },
     {
       "id": "832ac2bc4426",
       "title": "North Korea Launches Ballistic Missile",
-      "description": "North Korea launched another ballistic missile as the U.S. and South Korea prepare for military drills.",
+      "description": "North Korea launched another ballistic missile as the US and South Korea prepare for military drills.",
       "lat": 39.02,
       "lng": 125.75,
-      "severity": 4,
+      "severity": 2,
       "location": "Pyongyang, North Korea",
       "source": "Fox News World",
       "url": "https://www.foxnews.com/world/north-korea-launches-ballistic-missile-us-south-korea-prepare-military-drills",
@@ -16,13 +87,13 @@
       "ts": 1786508683347,
       "coverage": {
         "left": 3,
-        "center": 4,
+        "center": 3,
         "right": 2,
-        "total": 9,
+        "total": 8,
         "buckets": {
           "left": 0,
           "lean_left": 3,
-          "center": 4,
+          "center": 3,
           "lean_right": 1,
           "right": 1
         },
@@ -46,11 +117,6 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/north-korea-tests-missile-ahead-of-us-south-korea-drills/a-78329244?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-11/north-korea-fires-ballistic-missile-ahead-of-us-military-drills"
           },
           {
             "n": "Straits Times Asia",
@@ -142,39 +208,6 @@
       }
     },
     {
-      "id": "27b2f9dc3d2c",
-      "title": "US and Iran close to peace arrangement",
-      "description": "The U.S. and Iran are close to agreeing on some sort of arrangement, Pakistan's defense minister told Bloomberg.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-compensation-negotiation/",
-      "image": null,
-      "ts": 1786500697000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-compensation-negotiation/"
-          }
-        ]
-      }
-    },
-    {
       "id": "a0379fe104c3",
       "title": "Trump Secret Plane Swap",
       "description": "Trump secretly switched planes amid an Iranian threat, flying back from Turkey on a smaller C-32A aircraft.",
@@ -208,6 +241,44 @@
             "n": "Time",
             "b": "lean_left",
             "u": "https://time.com/article/2026/08/11/trump-secret-plane-swap-Turkey-UK-Secret-Service-Air-Force-One/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "805ce581ea73",
+      "title": "Trump Secretly Switches Planes Due to Iran Threat",
+      "description": "Trump secretly switched planes in Turkey due to a threat from Iran, according to reports.",
+      "lat": 39.93,
+      "lng": 32.860000000000014,
+      "severity": 2,
+      "location": "Ankara, Turkey",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/trump-secretly-switched-plane-turkey-air-force-one-iran-war-threat/",
+      "image": null,
+      "ts": 1786498900000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/trump-secretly-switched-plane-turkey-air-force-one-iran-war-threat/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/trump-switched-planes-in-turkey-over-iran-threat-but-left-aides-marco-rubio-and-pete-hegseth-journalists-behind-on-air-force-one-11898347#publisher=newsstand"
           }
         ]
       }
@@ -373,6 +444,64 @@
             "n": "France 24",
             "b": "center",
             "u": "https://www.france24.com/en/africa/20260811-libyan-military-intelligence-chief-assassinated-in-car-bombing"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a29c9b25743a",
+      "title": "Ferry Capsizes in Zimbabwe",
+      "description": "A ferry capsized on Lake Kariba in Zimbabwe, leaving at least 15 people dead and 27 missing.",
+      "lat": -17.77,
+      "lng": 27.23,
+      "severity": 4,
+      "location": "Lake Kariba, Zimbabwe",
+      "source": "Mirror World",
+      "url": "https://www.mirror.co.uk/news/world-news/lake-kariba-ferry-capsize-zimbabwe-37540950",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37540970.ece/ALTERNATES/s615/1_boat3.jpg",
+      "ts": 1786489069000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 3,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 1,
+          "right": 2
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/ferry-capsizes-zimbabwes-lake-kariba-leaving-15-people-135557504"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/12/at-least-15-dead-dozens-missing-as-ferry-capsizes-in-zimbabwe?traffic_source=rss"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/boat-carrying-more-than-90-capsizes-in-zimbabwe-13572036"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/africa/15-dead-27-missing-as-ferry-capsizes-in-zimbabwes-lake-kariba"
+          },
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2238279/zimbabwe-ferry-lake-capsize-missing"
+          },
+          {
+            "n": "Daily Star World",
+            "b": "right",
+            "u": "https://www.dailystar.co.uk/news/world-news/least-15-dead-27-missing-37541259"
           }
         ]
       }
@@ -7689,105 +7818,6 @@
             "n": "HuffPost World",
             "b": "left",
             "u": "https://www.huffpost.com/entry/uganda-soccer-star-killed_n_6a75a954e4b04fcbf74e52a7"
-          }
-        ]
-      }
-    },
-    {
-      "id": "47635b016766",
-      "title": "Masked gunmen warn tourists to stay away from Corsica",
-      "description": "A paramilitary group has warned tourists to stay away from the Mediterranean island of Corsica, calling them 'invaders'.",
-      "lat": 42.15,
-      "lng": 8.74,
-      "severity": 3,
-      "location": "Corsica, France",
-      "source": "Mirror World",
-      "url": "https://www.mirror.co.uk/news/world-news/gunmen-warn-tourists-stay-away-37524103",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37524434.ece/ALTERNATES/s615/0_CORSICA_2025-02-04-1204-copy.jpg",
-      "ts": 1786093356000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/gunmen-warn-tourists-stay-away-37524103"
-          }
-        ]
-      }
-    },
-    {
-      "id": "45e1e2a51410",
-      "title": "Colombia President De la Espriella Takes Office",
-      "description": "Colombia's new president, De la Espriella, has taken office, marking a shift to the right in the country's politics.",
-      "lat": 4.61,
-      "lng": -74.08,
-      "severity": 2,
-      "location": "Bogota, Colombia",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-07/colombia-president-de-la-espriella-takes-office-as-latin-america-shifts-right",
-      "image": null,
-      "ts": 1786093200000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-07/colombia-president-de-la-espriella-takes-office-as-latin-america-shifts-right"
-          }
-        ]
-      }
-    },
-    {
-      "id": "86a534b1ffea",
-      "title": "Young activists in the Maldives confront climate threats to their island nation",
-      "description": "A new wave of young activists in the Maldives is tackling issues like coastal erosion and plastic pollution in the Indian Ocean island nation.",
-      "lat": 4.17,
-      "lng": 73.51,
-      "severity": 1,
-      "location": "Malé, Maldives",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/young-activists-maldives-confront-climate-threats-island-nation-135444248",
-      "image": "https://s.abcnews.com/images/International/wirestory_8b3927beaaa60164b1e79dbb77857437_4x3_384.jpg",
-      "ts": 1786090365000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/young-activists-maldives-confront-climate-threats-island-nation-135444248"
           }
         ]
       }
