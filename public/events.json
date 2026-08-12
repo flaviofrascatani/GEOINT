@@ -1,7 +1,116 @@
 {
   "schema": 1,
-  "updated": "2026-08-12T13:28:23.982661+00:00",
+  "updated": "2026-08-12T14:39:03.833456+00:00",
   "events": [
+    {
+      "id": "670e05dbc479",
+      "title": "Israel's defense chiefs rethink Gaza, Iran, Lebanon strategy three years into war",
+      "description": "Top Israeli defense officials believe the country must maintain some kind of security zone in Gaza, Lebanon, and Syria for years to come.",
+      "lat": 31.78,
+      "lng": 35.21000000000001,
+      "severity": 2,
+      "location": "Jerusalem, Israel",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-905317",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_1707,w_2560/709107",
+      "ts": 1786555427000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/israel-news/defense-news/article-905317"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1c2d54b2e2ab",
+      "title": "Gulf states scramble for Strait of Hormuz alternative",
+      "description": "Saudi Arabia has redirected oil exports away from the Strait of Hormuz, but most Gulf producers still lack a reliable backup option to the world's most important energy choke point.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 3,
+      "location": "Strait of Hormuz",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/gulf-states-scramble-for-strait-of-hormuz-alternative/a-78336679?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1786545543659,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/data-graphics/strait-of-hormuz-ports-traffic-trump-us-iran-war-rcna331507"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/gulf-states-scramble-for-strait-of-hormuz-alternative/a-78336679?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "476bf02f2d6c",
+      "title": "Strait of Hormuz traffic falls to new low as Iran-backed group kills 6 in Red Sea",
+      "description": "The conflict between the U.S. and Iran has spread to the Red Sea, with an Iran-backed group killing 6 people, and traffic in the Strait of Hormuz has fallen to a new low.",
+      "lat": 25.42,
+      "lng": 57.2226,
+      "severity": 4,
+      "location": "Muscat, Oman",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-donald-trump-strait-hormuz-traffic-falls-houthis-kill-red-sea/",
+      "image": null,
+      "ts": 1786545326000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-donald-trump-strait-hormuz-traffic-falls-houthis-kill-red-sea/"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5"
+          }
+        ]
+      }
+    },
     {
       "id": "1d1b900d2caf",
       "title": "Iran says no progress on reviving interim peace deal with US",
@@ -140,6 +249,39 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/germany-beefs-intelligence-services-threat-foreign-powers-rises-135573897"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1426d327c9f7",
+      "title": "Yemen’s Huthis: More on the group who reportedly struck a vessel in the Red Sea",
+      "description": "The Iran-backed Huthi militia has reportedly struck a vessel in the Red Sea, killing three Pakistani nationals.",
+      "lat": 15.35,
+      "lng": 44.19999999999999,
+      "severity": 4,
+      "location": "Sanaa, Yemen",
+      "source": "Egypt Independent",
+      "url": "https://www.egyptindependent.com/yemens-huthis-more-on-the-group-who-reportedly-struck-a-vessel-in-the-red-sea/",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/02-2024-12-18t122823z-779480104-rc2jrba9cbvx-rtrmadp-3-israel-palestinians-yemen-houthis.JPG?c=original&amp;q=w_1280,c_fill",
+      "ts": 1786538209000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/yemens-huthis-more-on-the-group-who-reportedly-struck-a-vessel-in-the-red-sea/"
           }
         ]
       }
@@ -418,6 +560,44 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/mid-east/us-iran-reportedly-agree-to-extend-cease-fire-under-islamabad-accord"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e8e8762414bf",
+      "title": "Key Russian Port Halts Grain Exports After Ukrainian Attack",
+      "description": "Three of Russia's largest grain terminals in the Black Sea port of Novorossiysk have halted operations after being damaged in a massive overnight drone attack by Ukraine.",
+      "lat": 44.72,
+      "lng": 37.78,
+      "severity": 3,
+      "location": "Novorossiysk, Russia",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-12/ukraine-strikes-grain-terminals-at-russia-s-key-black-sea-port",
+      "image": null,
+      "ts": 1786526642000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/tatyana-kim-russias-richest-womans-empire-goes-up-in-flames-after-ukrainian-drone-attack-11898874#publisher=newsstand"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-12/ukraine-strikes-grain-terminals-at-russia-s-key-black-sea-port"
           }
         ]
       }
@@ -6672,44 +6852,6 @@
       }
     },
     {
-      "id": "476bf02f2d6c",
-      "title": "Strait of Hormuz Traffic Falls to New Low",
-      "description": "Traffic through the Strait of Hormuz has fallen to a new low amid the conflict between the US and Iran, sending oil prices soaring.",
-      "lat": 25.42,
-      "lng": 57.2226,
-      "severity": 3,
-      "location": "Muscat, Oman",
-      "source": "NBC News World",
-      "url": "https://www.nbcnews.com/data-graphics/strait-of-hormuz-ports-traffic-trump-us-iran-war-rcna331507",
-      "image": null,
-      "ts": 1786193192000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/data-graphics/strait-of-hormuz-ports-traffic-trump-us-iran-war-rcna331507"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-donald-trump-strait-hormuz-traffic-falls-houthis-kill-red-sea/"
-          }
-        ]
-      }
-    },
-    {
       "id": "22c10b9c3744",
       "title": "Government jet arrives in Dubai for Kinahan extradition",
       "description": "The new Government jet has arrived in Dubai after departing Ireland, as the operation to extradite Daniel Kinahan to Ireland continues.",
@@ -7686,138 +7828,6 @@
             "n": "France 24",
             "b": "center",
             "u": "https://www.france24.com/en/middle-east/20260807-houthi-attacks-kill-at-least-10-in-yemen-as-iran-backed-rebels-target-marib"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a43874f96bac",
-      "title": "Hezbollah’s attempts to wreck Beirut-Jerusalem talks failing",
-      "description": "Beirut and Jerusalem held talks in Rome last week, with some sessions ending early in response to Israeli strikes on Hezbollah infrastructure in Lebanon",
-      "lat": 33.89,
-      "lng": 35.5,
-      "severity": 3,
-      "location": "Beirut, Lebanon",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/middle-east/article-904870",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_3668,w_5500/732666",
-      "ts": 1786135351000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/article-904870"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1a40ebcab287",
-      "title": "Colombia protests against De la Espriella's inauguration",
-      "description": "Protests have erupted in Colombia against the inauguration of De la Espriella, with sit-ins taking place in several cities.",
-      "lat": 3.42,
-      "lng": -76.52,
-      "severity": 3,
-      "location": "Cali, Colombia",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/07/colombia-proteste-dellopposizione-contro-linsediamento-di-de-la-espriella_1040048d-6a3d-4683-8ada-a0246a02df50.html",
-      "image": null,
-      "ts": 1786131856000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/07/colombia-proteste-dellopposizione-contro-linsediamento-di-de-la-espriella_1040048d-6a3d-4683-8ada-a0246a02df50.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8c4dc5d6b186",
-      "title": "US Senate confirms FEMA leader",
-      "description": "The Senate has confirmed President Trump’s pick to lead the Federal Emergency Management Agency (FEMA)",
-      "lat": 38.89,
-      "lng": -77.01,
-      "severity": 1,
-      "location": "Washington, D.C., USA",
-      "source": "The Hill",
-      "url": "https://thehill.com/policy/energy-environment/6017458-fema-administrator-cameron-hamilton/",
-      "image": "https://thehill.com/wp-content/uploads/sites/2/2025/05/AP25127708994382-e1746728188637.jpg?w=900",
-      "ts": 1786127021000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/policy/energy-environment/6017458-fema-administrator-cameron-hamilton/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1364971d5ff2",
-      "title": "Africa: A Landmark for African Finance - Europe's First African Sovereign Bond ETF Opens a New Chapter",
-      "description": "Europe's first African sovereign bond ETF has opened a new chapter for African finance, providing a new investment opportunity for investors.",
-      "lat": 49.96,
-      "lng": 2.289999999999992,
-      "severity": 1,
-      "location": "Paris, France",
-      "source": "All Africa",
-      "url": "https://allafrica.com/stories/202608070650.html",
-      "image": null,
-      "ts": 1786121723000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "All Africa",
-            "b": "center",
-            "u": "https://allafrica.com/stories/202608070650.html"
           }
         ]
       }
