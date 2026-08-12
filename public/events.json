@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-12T20:11:34.643071+00:00",
+  "updated": "2026-08-12T21:24:10.870828+00:00",
   "events": [
+    {
+      "id": "1dd4af6f27ed",
+      "title": "DRC: World Health Organisation Chief sounds alarm on ebola outbreak",
+      "description": "The world health organisation chief is sounding the alarm on the ebola outbreak in the Democratic Republic of Congo",
+      "lat": -3.22,
+      "lng": 17.21520000000001,
+      "severity": 4,
+      "location": "Kinshasa, Democratic Republic of the Congo",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/08/12/drc-world-health-organisation-chief-sounds-alarm-on-ebola-outbreak/",
+      "image": "http://images.euronews.com/articles/stories/09/87/23/08/640x360_cmsv2_214485f0-3079-5183-b4a0-03b4fa130ca6-9872308.jpg?1786560305",
+      "ts": 1786565538000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/12/drc-world-health-organisation-chief-sounds-alarm-on-ebola-outbreak/"
+          }
+        ]
+      }
+    },
     {
       "id": "bff0736608d3",
       "title": "Total solar eclipse darkens skies across Northern Hemisphere",
@@ -371,6 +404,44 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/video/newsfeed/2026/8/12/drought-exposes-nazi-era-warship-wrecks-beneath-the-danube?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5a77af0bf017",
+      "title": "Strait of Hormuz ship traffic near three-month low as U.S.-Iran deal in doubt",
+      "description": "Traffic is about 90% lower than the daily average of 130 ships that transited Hormuz before the U.S. and Israel attacked Iran on Feb. 28",
+      "lat": 33.89,
+      "lng": 35.5,
+      "severity": 3,
+      "location": "Beirut, Lebanon",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/08/12/strait-hormuz-ship-traffic-iran-war-deal.html",
+      "image": "https://s.france24.com/media/display/33ca89d4-9011-11f1-bbd5-005056bfb2b6/w:1024/p:16x9/AP26216348535497.jpg",
+      "ts": 1786552415000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/israel-reject-trump-gaza-plan-strait-hormuz_n_6a791713e4b0a81f52ff18b9"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/08/12/strait-hormuz-ship-traffic-iran-war-deal.html"
           }
         ]
       }
@@ -6383,84 +6454,6 @@
       }
     },
     {
-      "id": "5a77af0bf017",
-      "title": "Iran Issues Demands for Reopening Strait of Hormuz",
-      "description": "Iran says deal on Strait of Hormuz is close but not enough to open the waterway, presents six conditions to the US",
-      "lat": 33.89,
-      "lng": 35.5,
-      "severity": 2,
-      "location": "Beirut, Lebanon",
-      "source": "RT News",
-      "url": "https://www.rt.com/news/644023-iran-makeshormuz-demands/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://s.france24.com/media/display/33ca89d4-9011-11f1-bbd5-005056bfb2b6/w:1024/p:16x9/AP26216348535497.jpg",
-      "ts": 1786247907000,
-      "coverage": {
-        "left": 4,
-        "center": 5,
-        "right": 1,
-        "total": 10,
-        "buckets": {
-          "left": 0,
-          "lean_left": 4,
-          "center": 5,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/08/iran-says-deal-with-oman-is-close-its-demands-leave-hormuz-opening-uncertain/"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/video/saudi-arabia-pakistan-and-turkey-sign-defense-pact-as-iran-repeats-that-hormuz-deal-is-close/"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/iran-israel-middle-east-houthis-yemen-what-will-it-take-to-open-strait-of-hormuz-iran-issues-list-of-demands-11884369#publisher=newsstand"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/iran-issues-trump-surrender-document-37529507"
-          },
-          {
-            "n": "BBC Business",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/policy/international/6018858-iran-demands-us-hormuz-negotiations/"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX3lCSkcxU1lGMG5WLWZnQ3BPMzVqREVjajhDeUVndVBndkNPSklSaWV2RVM2a3FKcWhBMEwtcVRfbUgwNXZGMDNJUy1PU1NCVWszOG03N1RySFdMZlBrMTJ0SHo3bmc0MUt1V3pMb052UmxRSFg3cDhkY2VGR2hyMlRyMjBIYVBRajFwWkJOa05sMFhkUEZ1M3NuNjFRTURGS2pDSzBjOWNRSVlidXBPNnVWNlJ2U1VRMWxpQ2E1WWhzdw?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/uae-says-iran-attacked-adnoc-vessel-missile-strait-hormuz"
-          },
-          {
-            "n": "Times of India World",
-            "b": "center",
-            "u": "https://timesofindia.indiatimes.com/world/middle-east/strait-of-hormuz-standoff-what-iran-us-want-and-what-it-takes-to-reopen-waterway/articleshow/133061432.cms"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/world/4680225/iran-hormuz-deal-list-demand-us/"
-          }
-        ]
-      }
-    },
-    {
       "id": "1d93aba29f06",
       "title": "Iran says strait won't open until the U.S. 'corrects' behavior",
       "description": "The United Arab Emirates' Abu Dhabi National Oil Company said one of its ships was targeted while transiting the strait.",
@@ -7780,44 +7773,6 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/08/08/more-than-300-children-have-died-from-ebola-since-start-of-drc-outbreak/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "049f7c68b4b3",
-      "title": "Abelardo de la Espriella sworn in as Colombia's new president",
-      "description": "Abelardo de la Espriella took office as Colombia's new president, vowing to rebuild U.S. ties and address the country's soaring violence.",
-      "lat": 4.52,
-      "lng": -76.52,
-      "severity": 1,
-      "location": "Cali, Colombia",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/08/08/de-la-espriella-sworn-in-before-congress-in-cali-delivers-first-speech-to-the-military?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111078/100x80/17184403.jpg",
-      "ts": 1786175520000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 2,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 2
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/trump-ally-el-tigre-sworn-colombias-new-president-amid-continents-rightward-shift"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/latin-america/2026/08/07/conservative-abelardo-de-la-espriella-inaugurated-president-colombia/"
           }
         ]
       }
