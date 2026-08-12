@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-08-11T23:51:56.075921+00:00",
+  "updated": "2026-08-12T02:33:47.830182+00:00",
   "events": [
+    {
+      "id": "b38d5889319b",
+      "title": "Libya Drone Attack",
+      "description": "A drone attack hit Libya's largest oil refinery, causing fires to break out at the Zawiya oil complex.",
+      "lat": 32.76,
+      "lng": 14.625200000000007,
+      "severity": 2,
+      "location": "Zawiya, Libya",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/drone-attack-hits-libya-s-largest-oil-refinery/a-78328962?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1786502027656,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/drone-attack-hits-libya-s-largest-oil-refinery/a-78328962?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a0379fe104c3",
+      "title": "Trump Secret Plane Swap",
+      "description": "Trump secretly switched planes amid an Iranian threat, flying back from Turkey on a smaller C-32A aircraft.",
+      "lat": 39.93,
+      "lng": 32.860000000000014,
+      "severity": 2,
+      "location": "Ankara, Turkey",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/trump-secretly-switched-plane-turkey-air-force-one-iran-war-threat/",
+      "image": null,
+      "ts": 1786498900000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Business Insider",
+            "b": "lean_left",
+            "u": "https://www.businessinsider.com/presidents-planes-vehicles-air-force-one-marine-one-photos"
+          },
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/08/11/trump-secret-plane-swap-Turkey-UK-Secret-Service-Air-Force-One/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bfd38bf94c25",
+      "title": "Colombia Requests International Aid",
+      "description": "Colombia's government requested international aid in the form of supplies for those affected by the recent earthquake.",
+      "lat": 4.61,
+      "lng": -74.08,
+      "severity": 1,
+      "location": "Bogotá, Colombia",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/08/12/colombia-asks-for-supplies-but-not-foreign-rescue-personnel-after-the-earthquake?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": "https://en.mercopress.com/data/cache/noticias/111113/100x80/esperie.jpg",
+      "ts": 1786493100000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/08/12/colombia-asks-for-supplies-but-not-foreign-rescue-personnel-after-the-earthquake?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "be9f83acf0ea",
       "title": "Colombia scrambles to find survivors after deadly earthquake",
@@ -2922,11 +3026,11 @@
     },
     {
       "id": "92054aeeebb5",
-      "title": "Yemen's Houthis Attack Saudi Refinery After Kingdom Signs Defense Pact",
-      "description": "Yemen's Houthis have attacked Saudi Aramco's Jazan refinery, two days after the kingdom signed a defense pact with Turkey and Pakistan.",
+      "title": "Yemen Houthis Attack Saudi Refinery",
+      "description": "Yemen's Houthis attacked Saudi Aramco's Jazan refinery, two days after the kingdom signed a defense pact with Turkey and Pakistan.",
       "lat": 16.45,
       "lng": 44.19,
-      "severity": 3,
+      "severity": 2,
       "location": "Sanaa, Yemen",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/yemens-houthis-aittack-saud-refinery-after-kingdom-signs-defense-pact_n_6a79505de4b01ec88690acda",
@@ -7679,120 +7783,6 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-08-07/uganda-s-lawmakers-approve-deployment-of-nation-s-troops-to-gaza"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7f422847f4b1",
-      "title": "China Reports Exports and Imports Slowed Slightly in July",
-      "description": "China's exports and imports slowed slightly in July from the month before, while its trade surplus narrowed.",
-      "lat": 39.91,
-      "lng": 116.39999999999998,
-      "severity": 1,
-      "location": "Beijing, China",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/china-reports-exports-imports-slowed-slightly-july-month-135447347",
-      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
-      "ts": 1786081430000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/china-reports-exports-imports-slowed-slightly-july-month-135447347"
-          },
-          {
-            "n": "Nikkei Asia",
-            "b": "center",
-            "u": "https://asia.nikkei.com/economy/trade/ai-boom-softens-blow-from-china-s-july-trade-slowdown"
-          }
-        ]
-      }
-    },
-    {
-      "id": "900678c4d26f",
-      "title": "Thai teenager kills seven in rampage at home and school",
-      "description": "A Thai teenager killed at least five people and himself at a school outside Bangkok after fatally shooting his grandparents",
-      "lat": 13.75,
-      "lng": 100.48000000000002,
-      "severity": 4,
-      "location": "Bangkok, Thailand",
-      "source": "RTE News",
-      "url": "https://www.rte.ie/news/asia/2026/0807/1586874-thailand-school-shooting/",
-      "image": "https://www.rte.ie/images/0024d008-800.jpg",
-      "ts": 1786077075000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/asia/two-dead-gunman-school-shooting-thailand-officials-say-rcna591309"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/asia/2026/0807/1586874-thailand-school-shooting/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e3765aadf994",
-      "title": "Thailand school shooting leaves teacher dead",
-      "description": "A student has killed a teacher before taking his own life at a school northwest of Bangkok.",
-      "lat": 13.45,
-      "lng": 101.48259999999999,
-      "severity": 4,
-      "location": "Nonthaburi, Thailand",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/shooting-at-a-school-in-thailand-august-7-2026/article71316169.ece",
-      "image": "https://th-i.thgim.com/public/incoming/s3gfu6/article71316245.ece/alternates/LANDSCAPE_1200/2026-08-07T035753Z_1696045259_RC2ETMA60TPJ_RTRMADP_3_THAILAND-SHOOTING.JPG",
-      "ts": 1786076594000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/thailand-school-shooting-teachers-dead-37523569"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/7/one-killed-four-injured-in-thailand-school-shooting-officials-say?traffic_source=rss"
           }
         ]
       }
