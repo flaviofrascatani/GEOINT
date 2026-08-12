@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "updated": "2026-08-12T04:24:43.500951+00:00",
+  "updated": "2026-08-12T05:59:57.662626+00:00",
   "events": [
     {
       "id": "832ac2bc4426",
-      "title": "North Korea tests missile ahead of US-South Korea drills",
-      "description": "North Korea launched a suspected ballistic missile towards Japan, likely falling just outside of its special economic zone",
+      "title": "North Korea Launches Ballistic Missile",
+      "description": "North Korea launched another ballistic missile as the U.S. and South Korea prepare for military drills.",
       "lat": 39.02,
       "lng": 125.75,
-      "severity": 3,
+      "severity": 4,
       "location": "Pyongyang, North Korea",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/north-korea-tests-missile-ahead-of-us-south-korea-drills/a-78329244?maca=en-rss-en-all-1573-rdf",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/north-korea-launches-ballistic-missile-us-south-korea-prepare-military-drills",
       "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
       "ts": 1786508683347,
       "coverage": {
@@ -33,14 +33,14 @@
             "u": "https://abcnews.com/International/wireStory/north-korea-launches-suspected-ballistic-missile-japans-135558919"
           },
           {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/japan-says-north-korea-has-launched-suspected-ballistic-missile-11897286#publisher=newsstand"
-          },
-          {
             "n": "Le Monde English",
             "b": "lean_left",
             "u": "https://www.lemonde.fr/en/international/article/2026/08/12/north-korea-fires-ballistic-missile-towards-sea-of-japan-according-to-seoul-ahead-of-us-south-drills_6756402_4.html"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/north-korea-launches-another-missile-towards-sea-ahead-of-us-south-korean-military-drills/article71335042.ece"
           },
           {
             "n": "DW News",
@@ -65,7 +65,7 @@
           {
             "n": "TASS",
             "b": "lean_right",
-            "u": "https://tass.com/world/2171619"
+            "u": "https://tass.com/world/2171637"
           },
           {
             "n": "Fox News World",
@@ -142,6 +142,39 @@
       }
     },
     {
+      "id": "27b2f9dc3d2c",
+      "title": "US and Iran close to peace arrangement",
+      "description": "The U.S. and Iran are close to agreeing on some sort of arrangement, Pakistan's defense minister told Bloomberg.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-compensation-negotiation/",
+      "image": null,
+      "ts": 1786500697000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-compensation-negotiation/"
+          }
+        ]
+      }
+    },
+    {
       "id": "a0379fe104c3",
       "title": "Trump Secret Plane Swap",
       "description": "Trump secretly switched planes amid an Iranian threat, flying back from Turkey on a smaller C-32A aircraft.",
@@ -181,11 +214,11 @@
     },
     {
       "id": "57131f24eedf",
-      "title": "US disables Panama-flagged container ship off Pakistan",
-      "description": "US forces struck a Panama-flagged container ship in the Gulf of Oman, leaving it unable to steer, after it attempted to head for an Iranian port",
+      "title": "US Disables Panama-Flagged Container Ship",
+      "description": "US forces struck a Panama-flagged container ship in the Gulf of Oman, leaving it unable to steer, after it attempted to head for an Iranian port in violation of the naval blockade.",
       "lat": 25.38,
       "lng": 58.44999999999999,
-      "severity": 3,
+      "severity": 4,
       "location": "Gulf of Oman",
       "source": "MercoPress",
       "url": "https://en.mercopress.com/2026/08/12/us-disables-a-panama-flagged-container-ship-off-the-coast-of-pakistan?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
@@ -680,39 +713,6 @@
       }
     },
     {
-      "id": "27b2f9dc3d2c",
-      "title": "U.S. and Iran close to peace arrangement",
-      "description": "The U.S. and Iran are close to agreeing on some sort of arrangement, Pakistan's defense minister told Bloomberg.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 1,
-      "location": "Tehran, Iran",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-compensation-negotiation/",
-      "image": null,
-      "ts": 1786471499000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-compensation-negotiation/"
-          }
-        ]
-      }
-    },
-    {
       "id": "d5c4f0062650",
       "title": "2.4 million Afghan girls banned from secondary school",
       "description": "Around 2.4 million Afghan girls remain excluded from secondary education five years after the Taliban takeover.",
@@ -908,6 +908,44 @@
             "n": "Jerusalem Post",
             "b": "center",
             "u": "https://www.jpost.com/middle-east/iran-news/article-905200"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d2b1bbf46e19",
+      "title": "Former Marine Released from Russian Jail",
+      "description": "Former U.S. Marine Robert Gilman was released from a Russian jail after being held for more than four years.",
+      "lat": 56.85,
+      "lng": 37.620000000000005,
+      "severity": 1,
+      "location": "Moscow, Russia",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/world/europe/former-us-marine-robert-gilman-held-russia-released-rcna591952",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-08/250811-robert-gilman-mb-1812-b8279c.jpg",
+      "ts": 1786465423000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/europe/former-us-marine-robert-gilman-held-russia-released-rcna591952"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/fmr-u-s-marine-released-from-russian-prison/"
           }
         ]
       }
@@ -6876,11 +6914,11 @@
     },
     {
       "id": "866ccffe9562",
-      "title": "Spain introduces temporary border checks on visitors from Italy",
-      "description": "Spain will introduce temporary border checks on visitors from Italy in response to Rome imposing similar measures",
+      "title": "Spain Introduces Temporary Border Checks",
+      "description": "Spain will introduce temporary border checks on visitors from Italy in response to Rome imposing similar measures after a mass migration rush to Ceuta.",
       "lat": 40.42,
       "lng": -3.71,
-      "severity": 2,
+      "severity": 3,
       "location": "Madrid, Spain",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/aug/07/spain-to-introduce-temporary-border-checks-on-visitors-from-italy",
@@ -7750,39 +7788,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/young-activists-maldives-confront-climate-threats-island-nation-135444248"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c8535e32b47f",
-      "title": "India and China discuss LAC situation and border management",
-      "description": "The two countries held diplomatic talks to discuss issues related to boundary delimitation and border management.",
-      "lat": 29.8,
-      "lng": 77.10000000000002,
-      "severity": 1,
-      "location": "New Delhi, India",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/national/india-china-discuss-lac-situation-and-border-management-during-diplomatic-talks-mea/article71316535.ece",
-      "image": "https://th-i.thgim.com/public/incoming/mbzzc8/article71316573.ece/alternates/LANDSCAPE_1200/iStock-2233033287.jpg",
-      "ts": 1786088491000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/national/india-china-discuss-lac-situation-and-border-management-during-diplomatic-talks-mea/article71316535.ece"
           }
         ]
       }
