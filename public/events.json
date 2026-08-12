@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-12T19:13:18.235066+00:00",
+  "updated": "2026-08-12T20:11:34.643071+00:00",
   "events": [
+    {
+      "id": "bff0736608d3",
+      "title": "Total solar eclipse darkens skies across Northern Hemisphere",
+      "description": "A total solar eclipse has crossed the Northern Hemisphere, with a path of totality across parts of Greenland, Iceland, and northern Spain",
+      "lat": 65.287,
+      "lng": -16.7153,
+      "severity": 1,
+      "location": "Reykjavik, Iceland",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/total-solar-eclipse-august-12-2026/",
+      "image": null,
+      "ts": 1786564876000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/total-solar-eclipse-august-12-2026/"
+          }
+        ]
+      }
+    },
     {
       "id": "cb39af2df6ed",
       "title": "Satellite lofted for first Arab country",
@@ -36,6 +69,72 @@
       }
     },
     {
+      "id": "5e71513ece7c",
+      "title": "Colombia earthquake deaths climb to 239",
+      "description": "At least 239 people have been killed in a powerful earthquake that struck Colombia, with hundreds more missing",
+      "lat": 3.4216,
+      "lng": -74.6192,
+      "severity": 4,
+      "location": "Cali, Colombia",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/08/12/colombia-earthquake-deaths-climb-239-hundreds-remain-missing/",
+      "image": null,
+      "ts": 1786561910000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/08/12/colombia-earthquake-deaths-climb-239-hundreds-remain-missing/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "698f48033763",
+      "title": "Pakistan says troops killed 10 militants, car bomb killed 3 civilians",
+      "description": "Pakistani security forces have clashed with militants in the country's insurgency-hit southwestern province of Balochistan, killing 10 insurgents",
+      "lat": 30.4804,
+      "lng": 68.49459999999999,
+      "severity": 3,
+      "location": "Quetta, Pakistan",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/pakistan-troops-killed-10-militants-car-bomb-killed-135584824",
+      "image": "https://s.abcnews.com/images/International/wirestory_349268a260f5af26cd9c693868566668_4x3_384.jpg",
+      "ts": 1786561664000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/pakistan-troops-killed-10-militants-car-bomb-killed-135584824"
+          }
+        ]
+      }
+    },
+    {
       "id": "ae8711c64868",
       "title": "Tunisia: Sidi Bou Said residents welcome UNESCO inscription",
       "description": "Tunisia's Sidi Bou Said was inscribed on the UNESCO world heritage list, much to the delight of residents.",
@@ -64,6 +163,49 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/08/12/tunisia-sidi-bou-said-residents-welcome-unesco-inscription/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "861318c4c1e6",
+      "title": "Eurovision to bar countries at war from hosting",
+      "description": "Eurovision Song Contest organizers have announced that they will exclude any country in an armed conflict from hosting the competition",
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "severity": 2,
+      "location": "Paris, France",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/eurovision-bar-countries-war-hosting",
+      "image": null,
+      "ts": 1786559426000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/culture/article/2026/08/12/eurovision-to-exclude-countries-at-war-from-hosting-contest_6756434_30.html"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/eurovision-bar-countries-war-hosting"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/arts/music/eurovision-bars-countries-in-armed-conflict-from-hosting-contest"
           }
         ]
       }
@@ -7676,153 +7818,6 @@
             "n": "Breitbart",
             "b": "right",
             "u": "https://www.breitbart.com/latin-america/2026/08/07/conservative-abelardo-de-la-espriella-inaugurated-president-colombia/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "26b3690a351c",
-      "title": "Abelardo de la Espriella sworn in as President of Colombia",
-      "description": "Abelardo de la Espriella has been sworn in as the President of Colombia, marking a new era for the country.",
-      "lat": 5.71,
-      "lng": -74.08,
-      "severity": 1,
-      "location": "Bogota, Colombia",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/08/08/de-la-espriella-sworn-in-before-congress-in-cali-delivers-first-speech-to-the-military?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": null,
-      "ts": 1786175520000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/08/08/de-la-espriella-sworn-in-before-congress-in-cali-delivers-first-speech-to-the-military?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c4ab782c47dd",
-      "title": "Armed group warns tourists to stay away from Corsica and issues threat to anyone thinking of buying a second home on the island",
-      "description": "The Corsican National Liberation Front-Union of Combatants (FLNC-UC) released a video on Thursday, in which around twelve hooded members stand with submachine-guns and rifles.",
-      "lat": 43.25,
-      "lng": 9.069999999999993,
-      "severity": 2,
-      "location": "Ajaccio, Corsica",
-      "source": "Daily Mail World",
-      "url": "https://www.dailymail.com/news/article-16035715/Armed-group-tourists-away-Corsica-threat-buying-home.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-      "image": "https://i.dailymail.com/1s/2026/08/07/09/110493819-0-image-m-24_1786090170384.jpg",
-      "ts": 1786173400000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Daily Mail World",
-            "b": "right",
-            "u": "https://www.dailymail.com/news/article-16035715/Armed-group-tourists-away-Corsica-threat-buying-home.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de7a5aa5675d",
-      "title": "Typhoon Dolphin hits Japan",
-      "description": "A typhoon is lashing Japan's south, causing injuries and blackouts, and is now headed for China, where ports have been closed in preparation.",
-      "lat": 35.68,
-      "lng": 139.76,
-      "severity": 3,
-      "location": "Tokyo, Japan",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/typhoon-dolphin-hits-japan-as-china-braces-for-coming-storm/a-78286728?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1786172773227,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/airport-closes-okinawa-typhoon-dolphin-hits-parts-southern-135447346"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/typhoon-dolphin-hits-japan-as-china-braces-for-coming-storm/a-78286728?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/east-asia/typhoon-dolphin-hits-japans-okinawa-china-shuts-ports-ahead-of-landfall"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8f054b222dc3",
-      "title": "At least 5 killed and more than 20 injured in Thailand school shooting",
-      "description": "Five school staff members died in the shooting, and 10 people were in critical condition.",
-      "lat": 13.7362,
-      "lng": 100.5238,
-      "severity": 4,
-      "location": "Bangkok, Thailand",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/thailand-school-shooting-bangkok/",
-      "image": null,
-      "ts": 1786172183000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/07/7-killed-more-than-30-injured-thailand-school-shooting/"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/thailand-school-shooting-bangkok/"
           }
         ]
       }
