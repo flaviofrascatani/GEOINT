@@ -1,7 +1,151 @@
 {
   "schema": 1,
-  "updated": "2026-08-13T08:38:08.389604+00:00",
+  "updated": "2026-08-13T10:17:18.834809+00:00",
   "events": [
+    {
+      "id": "cb39af2df6ed",
+      "title": "Satellite lofted for first Arab country",
+      "description": "A Chinese-made communications satellite became the first 'export' of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
+      "lat": 36.77,
+      "lng": 3.06,
+      "severity": 1,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1786616238680,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7a00aa0dd54c",
+      "title": "Ukraine attacks Russian grain export terminals in Black Sea",
+      "description": "Ukraine has launched a heavy drone assault on warships and major Russian grain export terminals in the Black Sea port city of Novorossiysk.",
+      "lat": 45.82,
+      "lng": 37.77000000000001,
+      "severity": 4,
+      "location": "Novorossiysk, Russia",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/08/13/ukraine-russia-novorossiysk-grain.html",
+      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/russian-military.gif",
+      "ts": 1786615300000,
+      "coverage": {
+        "left": 0,
+        "center": 5,
+        "right": 1,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 5,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/08/13/ukraine-russia-novorossiysk-grain.html"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/f2f2a881-1d4d-47db-a7d9-c6c50ee29a6a?syn-25a6b1a6=1"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yMkhxMGxURF9FNDF6a1QtU1hsU01vdWN5bjBZYTFZd1k1SlU4Y2pqdkRMSGtxVF81Nm1naW01WnNlUWJ1WUJfbWgzVnRBZzdoQmN1V3RnNzdsZw?oc=5"
+          },
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/08/13/world/ukraine-russia-black-sea-harvest/"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/ukraine-pounds-black-sea-fleets-last-major-stronghold-while-putin-flexes-naval-power-pacific"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9c2f5ea2a9a5",
+      "title": "Iran Says Strait of Hormuz Is Under Its Control",
+      "description": "The remarks came a day after US President Donald Trump wrote on his Truth Social platform that the US had 'total control' of the strategic waterway.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 2,
+      "location": "Strait of Hormuz",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/iran-says-strait-of-hormuz-is-under-its-control-report-11904177#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-08/llon05f_oil-hormuz-pexels_625x300_13_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1786610113000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 1,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/iran-says-strait-of-hormuz-is-under-its-control-report-11904177#publisher=newsstand"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/iran-us-war-west-asia-live-updates-donald-trump-august-13-2026/article71339299.ece"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-905395"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/iran-says-strait-hormuz-under-its-control-fars-news-reports"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/iran-dismisses-us-claims-to-reiterate-control-over-strait-of-hormuz"
+          }
+        ]
+      }
+    },
     {
       "id": "571c9ab0c102",
       "title": "Putin sparks Japan fury with 'absolutely unacceptable' move",
@@ -74,6 +218,39 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/defense/2172235"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a65bd2417a20",
+      "title": "Taurus Won a US$7.3 Million Philippine Army Rifle Contract",
+      "description": "The Brazilian gunmaker Taurus won a roughly US$7.3 million contract to supply 12,412 T4 5.56mm rifles to the Philippine Army.",
+      "lat": 14.58,
+      "lng": 121.0,
+      "severity": 2,
+      "location": "Manila, Philippines",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/how-taurus-won-a-us7-3-million-philippine-army-rifle-contract/",
+      "image": null,
+      "ts": 1786608938000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/how-taurus-won-a-us7-3-million-philippine-army-rifle-contract/"
           }
         ]
       }
@@ -738,39 +915,6 @@
       }
     },
     {
-      "id": "cb39af2df6ed",
-      "title": "Satellite lofted for first Arab country",
-      "description": "A Chinese-made communications satellite has been launched for Algeria, the first 'export' of such a spacecraft to an Arab country.",
-      "lat": 36.77,
-      "lng": 3.06,
-      "severity": 2,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1786561998093,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
-          }
-        ]
-      }
-    },
-    {
       "id": "5e71513ece7c",
       "title": "Colombia earthquake deaths climb to 239",
       "description": "At least 239 people have been killed in a powerful earthquake that struck Colombia, with hundreds more missing",
@@ -1210,54 +1354,6 @@
             "n": "BBC World",
             "b": "center",
             "u": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/ukraine-pounds-black-sea-fleets-last-major-stronghold-while-putin-flexes-naval-power-pacific"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7a00aa0dd54c",
-      "title": "Ukraine pounds Black Sea Fleet’s 'last major stronghold'",
-      "description": "Putin threatened to seize European vessels from the Russian Black Sea to the Pacific after Ukraine's drone attack crippled Novorossiysk grain terminals.",
-      "lat": 45.82,
-      "lng": 37.77000000000001,
-      "severity": 2,
-      "location": "Novorossiysk, Russia",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/ukraine-pounds-black-sea-fleets-last-major-stronghold-while-putin-flexes-naval-power-pacific",
-      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/russian-military.gif",
-      "ts": 1786551358000,
-      "coverage": {
-        "left": 0,
-        "center": 3,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 3,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/13/ukraine-russia-novorossiysk-grain.html"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yMkhxMGxURF9FNDF6a1QtU1hsU01vdWN5bjBZYTFZd1k1SlU4Y2pqdkRMSGtxVF81Nm1naW01WnNlUWJ1WUJfbWgzVnRBZzdoQmN1V3RnNzdsZw?oc=5"
           },
           {
             "n": "Fox News World",
@@ -7607,102 +7703,6 @@
             "n": "Washington Post World",
             "b": "lean_left",
             "u": "https://www.washingtonpost.com/world/2026/08/08/iran-says-deal-with-oman-is-close-its-demands-leave-hormuz-opening-uncertain/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "503873e07831",
-      "title": "At least 17 people killed in Russian strikes on Ukraine",
-      "description": "At least 17 people have been killed in overnight Russian strikes on Kyiv and the surrounding region.",
-      "lat": 48.38,
-      "lng": 31.16,
-      "severity": 4,
-      "location": "Kyiv, Ukraine",
-      "source": "NBC News World",
-      "url": "https://www.nbcnews.com/video/at-least-17-people-killed-after-fatal-overnight-russian-strikes-267799621872",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4e4c/live/d37c5f10-9184-11f1-9587-294e25c71c14.png",
-      "ts": 1786218501000,
-      "coverage": {
-        "left": 3,
-        "center": 2,
-        "right": 1,
-        "total": 6,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 2,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/video/at-least-17-people-killed-after-fatal-overnight-russian-strikes-267799621872"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/as-russia-ukraine-trade-missiles-zelensky-lands-in-moscow-friendly-serbia-11884208#publisher=newsstand"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/russia-strikes-attack-on-ukraine-updates-toll-august-8-2026/article71320452.ece"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/analysis-and-comment/2026/0808/1586994-wildberries-russia-ukraine/"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/europe/20260808-ukraine-braces-for-winter-power-crisis-after-russian-strikes-zelensky-says"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/europe/russian-attacks-kill-4-as-kyiv-intensifies-strikes-on-oil-facilities"
-          }
-        ]
-      }
-    },
-    {
-      "id": "173a76a24124",
-      "title": "China Accused of Using 'Dubious' Pretexts to Press Territorial Claims",
-      "description": "The US accused China of using 'dubious' pretexts to press its disputed territorial claims in the South China Sea",
-      "lat": 22.28,
-      "lng": 114.17,
-      "severity": 2,
-      "location": "Beijing, China",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-08/us-says-china-s-scarborough-shoal-claim-destabilizing-region",
-      "image": null,
-      "ts": 1786217968000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-08/us-says-china-s-scarborough-shoal-claim-destabilizing-region"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/dubious-pretexts-us-slams-chinese-actions-in-south-china-sea"
           }
         ]
       }
