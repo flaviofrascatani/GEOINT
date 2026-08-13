@@ -1,7 +1,88 @@
 {
   "schema": 1,
-  "updated": "2026-08-12T23:19:15.304499+00:00",
+  "updated": "2026-08-13T00:10:12.177504+00:00",
   "events": [
+    {
+      "id": "05c06bf82a8a",
+      "title": "Brazil orders Discord to halt livestreaming after teen death",
+      "description": "Brazil has ordered Discord to suspend livestreaming as authorities scrutinize how the platform protects young users",
+      "lat": -15.79,
+      "lng": -47.92,
+      "severity": 3,
+      "location": "Brasilia, Brazil",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/brazil-orders-discord-to-halt-livestreaming-after-teen-death/a-78343328?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1786579812003,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/brazil-orders-discord-to-halt-livestreaming-after-teen-death/a-78343328?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "633630571d8b",
+      "title": "Trump administration arrests Southern Poverty Law Center expert for fraud",
+      "description": "Heidi Beirich, an expert on far-right groups, has been charged over alleged misuse of donor funds to pay informants",
+      "lat": 32.36,
+      "lng": -86.29,
+      "severity": 3,
+      "location": "Montgomery, USA",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/12/trump-administration-arrests-southern-poverty-law-center-expert-for-fraud?traffic_source=rss",
+      "image": null,
+      "ts": 1786576994000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 2,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 2
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/12/trump-administration-arrests-southern-poverty-law-center-expert-for-fraud?traffic_source=rss"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaVB4VzZLa29BMnZpdXpmd1dKZHFJZmZNa2l0TlUySGlkU19yVE5VZU1XZFVXTWNqYVJjd3RiRWJfbnRuRG82M0ZMOGo2Vm5hWGs4aHk1aTlPbVRBWUFFekNDWnFZZzJIbmljR0xKaC1vMFRrUzF2RHVsaUlZYVRjX3VfUEVRSnZ6d3NVYmJjdF9YTWZFYzNlWDh6WmtBVUNuZ2ZJMWtFSEY0emJBREN2QzNNNlVWTkZoM2t4aDNIT0FMZ0tjZTUxdVRmSlRtUQ?oc=5"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/politics/2026/08/12/cnn-former-southern-poverty-law-center-executive-heidi-beirich-arrested-on-fraud-charges/"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/justice/4684895/doj-first-arrest-southern-poverty-law-center-fraud-case/"
+          }
+        ]
+      }
+    },
     {
       "id": "006454ed9bdf",
       "title": "Trump says ceasefire in Lebanon is working",
@@ -104,10 +185,10 @@
     {
       "id": "1dd4af6f27ed",
       "title": "DRC: World Health Organisation Chief sounds alarm on ebola outbreak",
-      "description": "The world health organisation chief is sounding the alarm on the ebola outbreak in the Democratic Republic of Congo",
+      "description": "The World Health Organisation Chief is sounding the alarm on the ebola outbreak in the Democratic Republic of Congo",
       "lat": -3.22,
       "lng": 17.21520000000001,
-      "severity": 4,
+      "severity": 3,
       "location": "Kinshasa, Democratic Republic of the Congo",
       "source": "Africanews",
       "url": "http://www.africanews.com/2026/08/12/drc-world-health-organisation-chief-sounds-alarm-on-ebola-outbreak/",
@@ -1165,11 +1246,11 @@
     },
     {
       "id": "1426d327c9f7",
-      "title": "Yemen’s Huthis: More on the group who reportedly struck a vessel in the Red Sea",
-      "description": "The Iran-backed Huthi militia has reportedly struck a vessel in the Red Sea, killing three Pakistani nationals.",
+      "title": "Yemen's Huthis reportedly struck a vessel in the Red Sea",
+      "description": "Pakistan's foreign minister has said three of its nationals were killed in an attack by the Iran-backed Huthi militia on a commercial vessel in the Red Sea",
       "lat": 15.35,
       "lng": 44.19999999999999,
-      "severity": 4,
+      "severity": 3,
       "location": "Sanaa, Yemen",
       "source": "Egypt Independent",
       "url": "https://www.egyptindependent.com/yemens-huthis-more-on-the-group-who-reportedly-struck-a-vessel-in-the-red-sea/",
@@ -1177,21 +1258,31 @@
       "ts": 1786538209000,
       "coverage": {
         "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
+        "center": 2,
+        "right": 1,
+        "total": 3,
         "buckets": {
           "left": 0,
           "lean_left": 0,
-          "center": 1,
+          "center": 2,
           "lean_right": 0,
-          "right": 0
+          "right": 1
         },
         "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/08/12/saudi-arabia-iran-oil-red-sea-houthi-suez-canal-strait-hormuz.html"
+          },
           {
             "n": "Egypt Independent",
             "b": "center",
             "u": "https://www.egyptindependent.com/yemens-huthis-more-on-the-group-who-reportedly-struck-a-vessel-in-the-red-sea/"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/middle-east/2026/08/12/iran-backed-houthi-terrorists-launch-missile-and-drone-attacks-in-red-sea/"
           }
         ]
       }
@@ -7697,82 +7788,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/linked-group-kills-13-congo-village-135478971"
-          }
-        ]
-      }
-    },
-    {
-      "id": "990ed8c469f8",
-      "title": "Norwegian soldiers say they're training Ukrainian soldiers with a 'Viking mentality' built for harsh conditions",
-      "description": "Norwegian troops are bringing battlefield skills and a Viking-inspired warrior mentality to training Ukrainian soldiers on NATO soil.",
-      "lat": 59.91,
-      "lng": 10.75,
-      "severity": 2,
-      "location": "Oslo, Norway",
-      "source": "Business Insider",
-      "url": "https://www.businessinsider.com/norway-soldiers-training-ukraine-troops-viking-mentality-2026-8",
-      "image": "https://i.insider.com/6a75db268fcc2e955f7de3ef?format=jpeg",
-      "ts": 1786188001000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Business Insider",
-            "b": "lean_left",
-            "u": "https://www.businessinsider.com/norway-soldiers-training-ukraine-troops-viking-mentality-2026-8"
-          }
-        ]
-      }
-    },
-    {
-      "id": "fb856b8e46b9",
-      "title": "US Senate passes sweeping sanctions targeting Russian energy revenues",
-      "description": "US Senators have passed a punishing sanctions package against Russia targeting the country’s energy revenues that are helping to fuel its war against Ukraine.",
-      "lat": 55.75,
-      "lng": 37.620000000000005,
-      "severity": 3,
-      "location": "Moscow, Russia",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/08/08/us-senate-passes-sweeping-sanctions-targeting-russian-energy-revenues/",
-      "image": "http://images.euronews.com/articles/stories/09/86/71/55/640x360_cmsv2_3ece2622-7b75-5332-b881-72df13cf0c2f-9867155.jpg?1786180537",
-      "ts": 1786184486000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQejFLNGRudlRPUklQQ3BwTW1FUVliX0tOUHc3ZU5lLTVYU3E0c0dmMDVDTDdCVHQ0RndHZGhpQ3dFeEVWWW91NnZfLTUtV29pZndZcHRFQV9ZSGhpUTFqSkN0bHpWQXpmb1V6VGNLNWc1RHRNQzNZRDgtRklRdzJkV096emRTTm80dENLcUZod1BtQzlEUVM4bnJNb1VRLVF3aC1XWHdMWGwyQmdfUDFqY1lNS3Nzd9IBuwFBVV95cUxOb3FlQm5JODAtZlkxaFdOSHJLU1ppUmRFOEhsRThtaEpaV1pwVWtzZG1BbGRfSDJyTWZXX2QtTk1uRnBTOE03VUtYRk1IblU4U0V6ZGdkWlVxWmJOZFMySnZTd1Q0NXBiNG94VVpzeHVHaG9vdk9zWlkwQVpHYi1ZeHI3LXotRzIxY2xEVTBMSWtJekRnZmZtRy1CYnBXZmFfd3NNdUZ0VUIwTkxFYkx6R3hqOEdLQXJIa1pv?oc=5"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/08/us-senate-passes-sweeping-sanctions-targeting-russian-energy-revenues/"
-          },
-          {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/newsroom/senate-approves-russian-sanctions-package-in-honor-of-the-late-sen-lindsey-graham/"
           }
         ]
       }
