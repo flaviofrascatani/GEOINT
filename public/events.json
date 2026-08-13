@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-13T11:23:17.606087+00:00",
+  "updated": "2026-08-13T12:26:39.486654+00:00",
   "events": [
+    {
+      "id": "cb39af2df6ed",
+      "title": "Satellite lofted for first Arab country",
+      "description": "A Chinese-made communications satellite became the first 'export' of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria",
+      "lat": 36.77,
+      "lng": 3.06,
+      "severity": 2,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1786623999351,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
     {
       "id": "9d6ed9ffc72b",
       "title": "Tehran says Strait of Hormuz 'under Iran's control'",
@@ -94,34 +127,34 @@
       }
     },
     {
-      "id": "cb39af2df6ed",
-      "title": "Satellite lofted for first Arab country",
-      "description": "A Chinese-made communications satellite became the first 'export' of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
-      "lat": 36.77,
-      "lng": 3.06,
-      "severity": 1,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1786616238680,
+      "id": "3dc1194d6cf0",
+      "title": "Putin watches Russian navy drills off Russia's Sakhalin Island",
+      "description": "Russia's President Vladimir Putin observed naval exercises off Sakhalin Island on Thursday before travelling to the disputed Kuril Islands",
+      "lat": 47.02,
+      "lng": 143.02,
+      "severity": 3,
+      "location": "Sakhalin Island, Russia",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/08/13/putin-watches-russian-navy-drills-off-russias-sakhalin-island/",
+      "image": "http://images.euronews.com/articles/stories/09/87/29/45/640x360_cmsv2_f1891523-36e5-5660-95f0-55989523814a-9872945.jpg?1786616493",
+      "ts": 1786618865000,
       "coverage": {
         "left": 0,
-        "center": 0,
-        "right": 1,
+        "center": 1,
+        "right": 0,
         "total": 1,
         "buckets": {
           "left": 0,
           "lean_left": 0,
-          "center": 0,
+          "center": 1,
           "lean_right": 0,
-          "right": 1
+          "right": 0
         },
         "sources": [
           {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/13/putin-watches-russian-navy-drills-off-russias-sakhalin-island/"
           }
         ]
       }
@@ -7675,39 +7708,6 @@
             "n": "BBC World",
             "b": "center",
             "u": "https://www.bbc.co.uk/news/articles/c20d8qre98do?at_medium=RSS&at_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "820bfb82466a",
-      "title": "Nigeria marries 1,500 couples in mass wedding",
-      "description": "The government describes the program as a way to support low-income families and promote social stability.",
-      "lat": 9.08,
-      "lng": 10.835199999999986,
-      "severity": 1,
-      "location": "Abuja, Nigeria",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/nigeria-marries-1-500-couples-in-mass-wedding/a-78291396?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1786232240431,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/nigeria-marries-1-500-couples-in-mass-wedding/a-78291396?maca=en-rss-en-all-1573-rdf"
           }
         ]
       }
