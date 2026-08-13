@@ -1,7 +1,83 @@
 {
   "schema": 1,
-  "updated": "2026-08-13T00:10:12.177504+00:00",
+  "updated": "2026-08-13T03:11:07.872715+00:00",
   "events": [
+    {
+      "id": "92bba99bf559",
+      "title": "Ebola outbreak on track to be deadliest ever",
+      "description": "The outbreak, declared on 15 May, has caused more than 2,000 deaths, with thousands more reported cases.",
+      "lat": -0.79,
+      "lng": 34.74,
+      "severity": 4,
+      "location": "Kampala, Uganda",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/45e0/live/2fd6c2d0-96a5-11f1-b2ab-0dd01740f9f6.jpg",
+      "ts": 1786584681000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6816746fd4c5",
+      "title": "Zambia heads to polls with President Hichilema expected to win second term",
+      "description": "Zambians vote in a general election widely expected to give President Hakainde Hichilema a second term.",
+      "lat": -15.42,
+      "lng": 28.28,
+      "severity": 2,
+      "location": "Lusaka, Zambia",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/africa/20260813-zambia-heads-to-polls-with-president-hichilema-expected-to-win-second-term",
+      "image": "https://s.france24.com/media/display/7da626c4-96a8-11f1-8a20-005056bf30b7/w:1024/p:16x9/AP26223850902100.jpg",
+      "ts": 1786581226000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/12/world/africa/zambia-presidential-election-hichilema.html"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/africa/20260813-zambia-heads-to-polls-with-president-hichilema-expected-to-win-second-term"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/12/zambia-hakainde-hichilema-expected-to-win-upcoming-vote/"
+          }
+        ]
+      }
+    },
     {
       "id": "05c06bf82a8a",
       "title": "Brazil orders Discord to halt livestreaming after teen death",
@@ -79,6 +155,44 @@
             "n": "Washington Examiner",
             "b": "right",
             "u": "https://www.washingtonexaminer.com/news/justice/4684895/doj-first-arrest-southern-poverty-law-center-fraud-case/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2a5b8ab3148c",
+      "title": "Total solar eclipse sweeps across Europe",
+      "description": "A rare total solar eclipse briefly turned day into twilight as crowds from Iceland to Spain looked up in awe at the rare celestial spectacle.",
+      "lat": 40.41,
+      "lng": -3.7,
+      "severity": 1,
+      "location": "Madrid, Spain",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/nightly-news/video/once-in-a-lifetime-total-solar-eclipse-sweeps-across-europe-268218949778",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/mpx/2704722219/2026_08/1786576412584_nn_schwartz_eclipse_260812_S3_1920x1080-tapcxg.jpg",
+      "ts": 1786576417000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/nightly-news/video/once-in-a-lifetime-total-solar-eclipse-sweeps-across-europe-268218949778"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/science/article/2026/08/13/solar-eclipse-photos-capture-the-rare-spectacle-that-amazed-millions-across-the-globe_6756442_10.html"
           }
         ]
       }
@@ -376,6 +490,39 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/pakistan-troops-killed-10-militants-car-bomb-killed-135584824"
+          }
+        ]
+      }
+    },
+    {
+      "id": "03e72f848b8a",
+      "title": "US to pull out of Iraq by September 30",
+      "description": "The US military is on track to pull all its forces out of Iraq by the end of September, marking the end of a presence that started in 2003.",
+      "lat": 33.32,
+      "lng": 44.42,
+      "severity": 2,
+      "location": "Baghdad, Iraq",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/officials-us-forces-track-complete-iraq-pullout-sept-135584899",
+      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
+      "ts": 1786561637000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/officials-us-forces-track-complete-iraq-pullout-sept-135584899"
           }
         ]
       }
@@ -7626,168 +7773,6 @@
             "n": "Washington Examiner",
             "b": "right",
             "u": "https://www.washingtonexaminer.com/news/senate/4680065/senate-confirms-todd-blanche-attorney-general-august-break/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9caae26e8796",
-      "title": "Iran and Oman agree on Hormuz security framework",
-      "description": "Iran and Oman have agreed on a security framework for the Strait of Hormuz.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 1,
-      "location": "Strait of Hormuz, Oman",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/war-on-iran-phase-ii-day-28?traffic_source=rss",
-      "image": null,
-      "ts": 1786198142000,
-      "coverage": {
-        "left": 2,
-        "center": 3,
-        "right": 0,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/06/iran-says-hormuz-deal-with-oman-wont-fully-reopen-strait/"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/8/war-on-iran-phase-ii-day-28?traffic_source=rss"
-          },
-          {
-            "n": "BBC Business",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-08-08/iran-oman-stretto-hormuz-38448940/"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/us-official-we-expect-deal-soon-between-iran-and-oman-strait-hormuz"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5ebfc927e69a",
-      "title": "Turkey limits ship traffic in the Black Sea",
-      "description": "Turkey is limiting the traffic of commercial ships in the Black Sea due to increasing concerns over Russian and Ukrainian attacks on vessels.",
-      "lat": 45.82,
-      "lng": 37.78,
-      "severity": 2,
-      "location": "Novorossiysk, Russia",
-      "source": "AGI Estero",
-      "url": "https://www.agi.it/estero/news/2026-08-08/turchia-navi-mar-nero-38448508/",
-      "image": null,
-      "ts": 1786193493000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-08/turkey-restricts-black-sea-ship-traffic-after-surge-in-attacks"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2170495"
-          }
-        ]
-      }
-    },
-    {
-      "id": "22c10b9c3744",
-      "title": "Government jet arrives in Dubai for Kinahan extradition",
-      "description": "The new Government jet has arrived in Dubai after departing Ireland, as the operation to extradite Daniel Kinahan to Ireland continues.",
-      "lat": 24.3174,
-      "lng": 56.97999999999999,
-      "severity": 3,
-      "location": "Dubai, UAE",
-      "source": "RTE News",
-      "url": "https://www.rte.ie/news/2026/0808/1587061-daniel-kinahan/",
-      "image": "https://www.rte.ie/images/00243d5b-800.jpg",
-      "ts": 1786191757000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/2026/0808/1587061-daniel-kinahan/"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/irish-government-jet-en-route-to-dubai-to-fetch-alleged-crime-boss-daniel-kinahan-13570966"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2d9e798117e6",
-      "title": "IS-linked group kills at least 13 in Congo village",
-      "description": "Militants affiliated with the Islamic State group have attacked a village in Congo near the Uganda border, killing at least 13 people.",
-      "lat": -0.55,
-      "lng": 25.45,
-      "severity": 4,
-      "location": "Congo",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/linked-group-kills-13-congo-village-135478971",
-      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
-      "ts": 1786189912000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/linked-group-kills-13-congo-village-135478971"
           }
         ]
       }
