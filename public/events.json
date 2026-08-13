@@ -1,7 +1,98 @@
 {
   "schema": 1,
-  "updated": "2026-08-13T10:17:18.834809+00:00",
+  "updated": "2026-08-13T11:23:17.606087+00:00",
   "events": [
+    {
+      "id": "9d6ed9ffc72b",
+      "title": "Tehran says Strait of Hormuz 'under Iran's control'",
+      "description": "Tehran has asserted that the Strait of Hormuz is 'under Iran's control and management' after President Trump said the U.S. might 'keep it'.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 2,
+      "location": "Strait of Hormuz",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-donald-trump-tehran-control-threatens-keep-it/",
+      "image": null,
+      "ts": 1786619273000,
+      "coverage": {
+        "left": 3,
+        "center": 2,
+        "right": 1,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-donald-trump-tehran-control-threatens-keep-it/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/iran-says-strait-of-hormuz-is-under-its-control-report-11904177#publisher=newsstand"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/iran-us-war-west-asia-live-updates-donald-trump-august-13-2026/article71339299.ece"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-905395"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/iran-says-strait-hormuz-under-its-control-fars-news-reports"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/iran-dismisses-us-claims-to-reiterate-control-over-strait-of-hormuz"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7a408c38427b",
+      "title": "Lebanon abolishes death penalty",
+      "description": "Lebanon has abolished the death penalty, reflecting a broader global shift away from capital punishment.",
+      "lat": 35.54,
+      "lng": 36.8126,
+      "severity": 1,
+      "location": "Beirut, Lebanon",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/death-penalty-where-does-capital-punishment-still-exist/article71340397.ece",
+      "image": "https://th-i.thgim.com/public/incoming/1gtk5k/article71340471.ece/alternates/LANDSCAPE_1200/image%20-%202026-08-13T152526.350.jpg",
+      "ts": 1786619181000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/death-penalty-where-does-capital-punishment-still-exist/article71340397.ece"
+          }
+        ]
+      }
+    },
     {
       "id": "cb39af2df6ed",
       "title": "Satellite lofted for first Arab country",
@@ -89,6 +180,39 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/ukraine-pounds-black-sea-fleets-last-major-stronghold-while-putin-flexes-naval-power-pacific"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5e77dd24d025",
+      "title": "SK Hynix invests $720 billion in AI-fueled buildout",
+      "description": "SK Hynix is pouring $720 billion into memory factories to meet AI demand, marking a significant investment in the industry.",
+      "lat": 37.56,
+      "lng": 126.97,
+      "severity": 2,
+      "location": "Seoul, South Korea",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/08/13/inside-sk-hynixs-720-billion-bet-to-build-enough-memory-for-ai.html",
+      "image": null,
+      "ts": 1786611601000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/08/13/inside-sk-hynixs-720-billion-bet-to-build-enough-memory-for-ai.html"
           }
         ]
       }
@@ -1328,10 +1452,10 @@
     {
       "id": "cc0d5e03e532",
       "title": "Ukraine pounds Black Sea Fleet’s ‘last major stronghold’",
-      "description": "Ukraine has pounded the Black Sea Fleet's last major stronghold while Putin flexes naval power in the Pacific.",
+      "description": "Ukraine has pounded the Black Sea Fleet’s ‘last major stronghold’ while Putin flexes naval power in the Pacific.",
       "lat": 47.58,
       "lng": 32.6352,
-      "severity": 4,
+      "severity": 3,
       "location": "Odessa, Ukraine",
       "source": "Fox News World",
       "url": "https://www.foxnews.com/world/ukraine-pounds-black-sea-fleets-last-major-stronghold-while-putin-flexes-naval-power-pacific",
@@ -1339,21 +1463,31 @@
       "ts": 1786551358000,
       "coverage": {
         "left": 0,
-        "center": 1,
+        "center": 3,
         "right": 1,
-        "total": 2,
+        "total": 4,
         "buckets": {
           "left": 0,
           "lean_left": 0,
-          "center": 1,
+          "center": 3,
           "lean_right": 0,
           "right": 1
         },
         "sources": [
           {
-            "n": "BBC World",
+            "n": "CNBC World",
             "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss"
+            "u": "https://www.cnbc.com/2026/08/13/ukraine-russia-novorossiysk-grain.html"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yMkhxMGxURF9FNDF6a1QtU1hsU01vdWN5bjBZYTFZd1k1SlU4Y2pqdkRMSGtxVF81Nm1naW01WnNlUWJ1WUJfbWgzVnRBZzdoQmN1V3RnNzdsZw?oc=5"
+          },
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/08/13/world/ukraine-russia-black-sea-harvest/"
           },
           {
             "n": "Fox News World",
@@ -7574,135 +7708,6 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/nigeria-marries-1-500-couples-in-mass-wedding/a-78291396?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "72c35a287576",
-      "title": "Pentagon asks defense firms to boost production of key systems",
-      "description": "The Pentagon’s No. 2 official asked major US defense companies to accelerate efforts to produce and deliver key weapons systems.",
-      "lat": 38.89,
-      "lng": -77.01,
-      "severity": 3,
-      "location": "Washington, USA",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-08/pentagon-asks-defense-firms-to-boost-production-of-key-systems",
-      "image": null,
-      "ts": 1786230663000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-08/pentagon-asks-defense-firms-to-boost-production-of-key-systems"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e489dc035275",
-      "title": "Iran issues list of demands for US to reopen Strait of Hormuz",
-      "description": "Iran's Supreme National Security Council said the Strait of Hormuz will not open until the United States 'corrects its behavior'.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "The Hill",
-      "url": "https://thehill.com/policy/international/6018858-iran-demands-us-hormuz-negotiations/",
-      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/08/AP26210528348934-e1785843638590.jpg?w=900",
-      "ts": 1786228308000,
-      "coverage": {
-        "left": 2,
-        "center": 5,
-        "right": 0,
-        "total": 7,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 5,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/iran-israel-middle-east-houthis-yemen-what-will-it-take-to-open-strait-of-hormuz-iran-issues-list-of-demands-11884369#publisher=newsstand"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/iran-issues-trump-surrender-document-37529507"
-          },
-          {
-            "n": "BBC Business",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/policy/international/6018858-iran-demands-us-hormuz-negotiations/"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX3lCSkcxU1lGMG5WLWZnQ3BPMzVqREVjajhDeUVndVBndkNPSklSaWV2RVM2a3FKcWhBMEwtcVRfbUgwNXZGMDNJUy1PU1NCVWszOG03N1RySFdMZlBrMTJ0SHo3bmc0MUt1V3pMb052UmxRSFg3cDhkY2VGR2hyMlRyMjBIYVBRajFwWkJOa05sMFhkUEZ1M3NuNjFRTURGS2pDSzBjOWNRSVlidXBPNnVWNlJ2U1VRMWxpQ2E1WWhzdw?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/uae-says-iran-attacked-adnoc-vessel-missile-strait-hormuz"
-          },
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/08/09/world/iran-oman-hormuz-deal/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "06885a536898",
-      "title": "Iran issues list of demands to US",
-      "description": "Iran has issued a list of demands to the US, including compensation and the lifting of sanctions, in order to reopen the Strait of Hormuz.",
-      "lat": 35.6892,
-      "lng": 51.38900000000001,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/08/iran-says-deal-with-oman-is-close-its-demands-leave-hormuz-opening-uncertain/",
-      "image": null,
-      "ts": 1786223860000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/08/iran-says-deal-with-oman-is-close-its-demands-leave-hormuz-opening-uncertain/"
           }
         ]
       }
