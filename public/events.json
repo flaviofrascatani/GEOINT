@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-08-13T03:11:07.872715+00:00",
+  "updated": "2026-08-13T05:19:41.066213+00:00",
   "events": [
+    {
+      "id": "db9c4abc7dc2",
+      "title": "Three Palestinian families besieged in their homes by Israeli settlers",
+      "description": "Three Palestinian families in Qusra, occupied West Bank, are being besieged inside their homes.",
+      "lat": 32.32,
+      "lng": 35.28999999999999,
+      "severity": 3,
+      "location": "Qusra, West Bank",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/13/three-palestinian-families-besieged-in-their-homes-by-israeli-settlers?traffic_source=rss",
+      "image": null,
+      "ts": 1786595686000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/13/three-palestinian-families-besieged-in-their-homes-by-israeli-settlers?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e3150001edea",
+      "title": "Zambia elections haunted by ghost of incumbent president’s arch-rival",
+      "description": "Hakainde Hichilema is bidding for second term, but feud between him and family of Edgar Lungu, who died in 2025, continues.",
+      "lat": -14.3,
+      "lng": 28.28,
+      "severity": 2,
+      "location": "Lusaka, Zambia",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/world/2026/aug/13/zambia-elections-hakainde-hichilema-haunted-ghost-incumbent-president-arch-rival-edgar-lungu",
+      "image": null,
+      "ts": 1786593649000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/aug/13/zambia-elections-hakainde-hichilema-haunted-ghost-incumbent-president-arch-rival-edgar-lungu"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2a4548f9418c",
+      "title": "Venezuela talks end with agreement on judicial reform and frozen funds",
+      "description": "Venezuela's interim government and opposition ended their first round of talks with agreements to reform the Supreme Tribunal of Justice and seek access to the country's frozen reserves.",
+      "lat": 11.58,
+      "lng": -66.88,
+      "severity": 1,
+      "location": "Caracas, Venezuela",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/americas/20260813-venezuela-talks-end-with-agreement-on-judicial-reform-and-frozen-funds",
+      "image": "https://s.france24.com/media/display/99537dd4-96be-11f1-9f8a-005056bfb2b6/w:1024/p:16x9/2026-08-13T013607Z-245192221-RC2BXMAV5KHG-RTRMADP-3-VENEZUELA-POLITICS.jpg",
+      "ts": 1786590461000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/americas/20260813-venezuela-talks-end-with-agreement-on-judicial-reform-and-frozen-funds"
+          }
+        ]
+      }
+    },
     {
       "id": "92bba99bf559",
       "title": "Ebola outbreak on track to be deadliest ever",
@@ -203,7 +302,7 @@
       "description": "Israeli forces continue to occupy buffer zone in effort to dismantle Hezbollah’s infrastructure, with restrictions drawing parallels to those in the West Bank.",
       "lat": 33.89,
       "lng": 35.50999999999999,
-      "severity": 2,
+      "severity": 3,
       "location": "Beirut, Lebanon",
       "source": "Washington Post World",
       "url": "https://www.washingtonpost.com/world/2026/08/12/trump-says-ceasefire-lebanon-is-working-residents-its-prison/",
@@ -436,6 +535,39 @@
       "lng": -74.6192,
       "severity": 4,
       "location": "Cali, Colombia",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/08/12/colombia-earthquake-deaths-climb-239-hundreds-remain-missing/",
+      "image": null,
+      "ts": 1786561910000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/08/12/colombia-earthquake-deaths-climb-239-hundreds-remain-missing/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "329da703e703",
+      "title": "Colombia earthquake deaths climb to 239",
+      "description": "Scores of buildings collapsed in the strongest temblor to strike the South American country in at least a decade.",
+      "lat": 4.52,
+      "lng": -76.52,
+      "severity": 4,
+      "location": "Bogotá, Colombia",
       "source": "Washington Post World",
       "url": "https://www.washingtonpost.com/world/2026/08/12/colombia-earthquake-deaths-climb-239-hundreds-remain-missing/",
       "image": null,
@@ -7556,223 +7688,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/08/us-official-we-expect-deal-soon-between-iran-and-oman-strait-hormuz"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3dcffccb3080",
-      "title": "UAE says Iran targeted ADNOC tanker in Strait of Hormuz, no casualties",
-      "description": "The UAE has stated that Iran targeted an ADNOC tanker in the Strait of Hormuz, but there were no casualties reported.",
-      "lat": 24.47,
-      "lng": 54.37,
-      "severity": 3,
-      "location": "Muscat, Oman",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2?traffic_source=rss",
-      "image": null,
-      "ts": 1786201289000,
-      "coverage": {
-        "left": 3,
-        "center": 3,
-        "right": 0,
-        "total": 6,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/08/world/middleeast/iran-us-oman-strait-of-hormuz.html"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2?traffic_source=rss"
-          },
-          {
-            "n": "BBC Business",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX3lCSkcxU1lGMG5WLWZnQ3BPMzVqREVjajhDeUVndVBndkNPSklSaWV2RVM2a3FKcWhBMEwtcVRfbUgwNXZGMDNJUy1PU1NCVWszOG03N1RySFdMZlBrMTJ0SHo3bmc0MUt1V3pMb052UmxRSFg3cDhkY2VGR2hyMlRyMjBIYVBRajFwWkJOa05sMFhkUEZ1M3NuNjFRTURGS2pDSzBjOWNRSVlidXBPNnVWNlJ2U1VRMWxpQ2E1WWhzdw?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/us-official-we-expect-deal-soon-between-iran-and-oman-strait-hormuz"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5280998a7025",
-      "title": "Yemen Teeters on Civil War as Regional Stability Hangs in the Balance",
-      "description": "The Yemeni government’s conflict with Iran-backed Houthi rebels escalated overnight.",
-      "lat": 15.35,
-      "lng": 46.095200000000006,
-      "severity": 4,
-      "location": "Sanaa, Yemen",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/08/08/world/middleeast/yemen-houthis-regional-stability.html",
-      "image": "https://static01.nyt.com/images/2026/08/08/multimedia/08int-yemen-retaliation-qwvh/08int-yemen-retaliation-qwvh-mediumSquareAt3X.jpg",
-      "ts": 1786201044000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/08/world/middleeast/yemen-houthis-regional-stability.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "81f3442e840a",
-      "title": "Nigeria's Largest Rescue Operation Frees 308 Hostages",
-      "description": "Nigerian authorities freed 308 hostages held by militants in Kwara State",
-      "lat": 8.52,
-      "lng": 4.53,
-      "severity": 4,
-      "location": "Kwara State, Nigeria",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/nigerias-largest-rescue-operation-frees-308-hostages-held-militants-kwara-state",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/08/931/523/Hauwa_Saliu.jpg?ve=1&tl=1",
-      "ts": 1786199618000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/nigerias-largest-rescue-operation-frees-308-hostages-held-militants-kwara-state"
-          }
-        ]
-      }
-    },
-    {
-      "id": "463387e36ea5",
-      "title": "US Senate confirms Todd Blanche as US attorney-general",
-      "description": "The US Senate has narrowly confirmed Todd Blanche, a former defense lawyer of President Donald Trump, as the new US attorney-general, following a tense fight that exposed bipartisan concerns.",
-      "lat": 38.8977,
-      "lng": -77.0365,
-      "severity": 2,
-      "location": "Washington, D.C., USA",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/4f1f4150-3e5b-4015-ad44-5f596e0287a5?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1786199088000,
-      "coverage": {
-        "left": 2,
-        "center": 8,
-        "right": 3,
-        "total": 13,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 8,
-          "lean_right": 1,
-          "right": 2
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/todd-blanche-narrowly-confirmed-as-us-attorney-general-in-a-boost-to-donald-trump-11882980#publisher=newsstand"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/08/08/us-senate-confirms-trump-lawyer-todd-blanche-as-attorney-general_6756284_4.html"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/08/senate-republicans-narrowly-confirm-todd-blanche-as-attorney-general.html"
-          },
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/08/08/todd-blanche-trump-attorney-general-confirmed"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/4f1f4150-3e5b-4015-ad44-5f596e0287a5?syn-25a6b1a6=1"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/senate-confirms-todd-blanche-trump-s-former-lawyer-as-attorney-general"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/us-senate-confirms-trump-loyalist-todd-blanche-as-new-ag/a-78289397?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/homenews/administration/6018352-live-updates-senate-august-recess-blanche-spending-bill-iran-war/"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-08/blanche-clears-senate-hurdle-on-path-to-confirmation-to-lead-doj"
-          },
-          {
-            "n": "Times of India World",
-            "b": "center",
-            "u": "https://timesofindia.indiatimes.com/world/us/senate-confirms-trumps-ex-lawyer-todd-blanche-as-us-attorney-general/articleshow/133050212.cms"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/americas/us-senate-narrowly-backs-trumps-ally-blanche-despite-opposition"
-          },
-          {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/newsroom/todd-blanche-confirmed-as-u-s-ag/"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/senate/4680065/senate-confirms-todd-blanche-attorney-general-august-break/"
           }
         ]
       }
