@@ -1,7 +1,141 @@
 {
   "schema": 1,
-  "updated": "2026-08-13T05:19:41.066213+00:00",
+  "updated": "2026-08-13T06:59:38.183328+00:00",
   "events": [
+    {
+      "id": "0c7074f4ac44",
+      "title": "Russia's Putin visits Kuril Islands",
+      "description": "Russian President Vladimir Putin made his first visit to territory disputed with Japan",
+      "lat": 46.53,
+      "lng": 151.62,
+      "severity": 3,
+      "location": "Kuril Islands, Russia",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/russia-s-putin-angers-japan-with-1st-visit-to-kuril-islands/a-78345291?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1786604378035,
+      "coverage": {
+        "left": 0,
+        "center": 6,
+        "right": 1,
+        "total": 7,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 6,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cqx7ple0nxxo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/asia-pacific/20260813-putin-visits-kuril-islands-claimed-by-japan"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/russia-s-putin-angers-japan-with-1st-visit-to-kuril-islands/a-78345291?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-13/putin-makes-first-visit-to-island-disputed-with-japan-tass-says"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/russia-central-asia/article/3363864/russias-putin-makes-first-visit-kuril-islands-claimed-japan?utm_source=rss_feed"
+          },
+          {
+            "n": "Times of India World",
+            "b": "center",
+            "u": "https://timesofindia.indiatimes.com/world/rest-of-world/why-putins-first-kuril-islands-visit-matters-as-russia-japan-ties-hit-new-low/articleshow/133198569.cms"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2172199"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ffd5f738f56d",
+      "title": "Nigel Farage faces off against Count Binface",
+      "description": "A special election is taking place Thursday in the seaside town of Clacton, just east of London",
+      "lat": 51.78,
+      "lng": 1.14,
+      "severity": 2,
+      "location": "Clacton, UK",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/nigel-farage-faces-off-count-binface-special-election-135600658",
+      "image": "https://s.abcnews.com/images/International/wirestory_2e5ea570961a48feeb777bb7ed862fcc_4x3_384.jpg",
+      "ts": 1786600325000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/12/world/europe/count-binface-nigel-farage-clacton.html"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/nigel-farage-faces-off-count-binface-special-election-135600658"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e816a1622d65",
+      "title": "Zambia elections",
+      "description": "Zambians cast ballots in a presidential election that tests incumbent's economic reforms",
+      "lat": -14.32,
+      "lng": 30.18520000000001,
+      "severity": 2,
+      "location": "Lusaka, Zambia",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/zambians-cast-ballots-presidential-election-tests-incumbents-economic-135601301",
+      "image": "https://s.abcnews.com/images/International/wirestory_c2e3a627284296099089e03d2454e3b7_4x3_384.jpg",
+      "ts": 1786600181000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/zambians-cast-ballots-presidential-election-tests-incumbents-economic-135601301"
+          }
+        ]
+      }
+    },
     {
       "id": "db9c4abc7dc2",
       "title": "Three Palestinian families besieged in their homes by Israeli settlers",
@@ -7564,130 +7698,6 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/gen-keane-questions-whether-pakistan-saudi-arabia-qatar-trusted-iran-talks"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6fd32e047a67",
-      "title": "Tehran says US must ‘rectify its behaviour’ before Iran reopens strait",
-      "description": "Senior security official wants Washington to pay compensation for war damage",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 3,
-      "location": "Tehran, Iran",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/9a1ab09b-82d7-43c2-b44a-ebb41d352dab?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1786206014000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/9a1ab09b-82d7-43c2-b44a-ebb41d352dab?syn-25a6b1a6=1"
-          }
-        ]
-      }
-    },
-    {
-      "id": "03e6f84c6e94",
-      "title": "Israel troops infiltrate Lebanese army-held village",
-      "description": "Israeli forces built a roadblock near the town square of a Lebanese village held by the country's army",
-      "lat": 33.86,
-      "lng": 35.860000000000014,
-      "severity": 3,
-      "location": "Beirut, Lebanon",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/middle-east/20260808-israeli-troops-infiltrate-lebanese-army-held-village-and-build-roadblock-mayor-says",
-      "image": "https://s.france24.com/media/display/47a2dfd2-9337-11f1-af5a-005056a97e36/w:1024/p:16x9/000-C3DG6T3.jpg",
-      "ts": 1786205127000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/middle-east/20260808-israeli-troops-infiltrate-lebanese-army-held-village-and-build-roadblock-mayor-says"
-          }
-        ]
-      }
-    },
-    {
-      "id": "412d1290dd80",
-      "title": "Iran Issues List of Demands, Dampening Hopes of Reopening Strait of Hormuz",
-      "description": "Iran has issued a list of demands that must be met by the United States before the Strait of Hormuz can be reopened, dampening hopes of a swift resolution to the crisis.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 3,
-      "location": "Tehran, Iran",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/08/08/world/middleeast/iran-us-oman-strait-of-hormuz.html",
-      "image": "https://static01.nyt.com/images/2026/08/08/multimedia/08int-iran-mwcl/08int-iran-mwcl-mediumSquareAt3X.jpg",
-      "ts": 1786202767000,
-      "coverage": {
-        "left": 3,
-        "center": 3,
-        "right": 0,
-        "total": 6,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/08/world/middleeast/iran-us-oman-strait-of-hormuz.html"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-yemen-saudi-arabia-houthis-donald-trump-deadly-attacks/"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2?traffic_source=rss"
-          },
-          {
-            "n": "BBC Business",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX3lCSkcxU1lGMG5WLWZnQ3BPMzVqREVjajhDeUVndVBndkNPSklSaWV2RVM2a3FKcWhBMEwtcVRfbUgwNXZGMDNJUy1PU1NCVWszOG03N1RySFdMZlBrMTJ0SHo3bmc0MUt1V3pMb052UmxRSFg3cDhkY2VGR2hyMlRyMjBIYVBRajFwWkJOa05sMFhkUEZ1M3NuNjFRTURGS2pDSzBjOWNRSVlidXBPNnVWNlJ2U1VRMWxpQ2E1WWhzdw?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/us-official-we-expect-deal-soon-between-iran-and-oman-strait-hormuz"
           }
         ]
       }
