@@ -1,7 +1,121 @@
 {
   "schema": 1,
-  "updated": "2026-08-13T20:56:56.702205+00:00",
+  "updated": "2026-08-13T21:55:53.012944+00:00",
   "events": [
+    {
+      "id": "fcd74f58cd69",
+      "title": "Romania shuts nuclear plant, Hungary dams dry Danube River",
+      "description": "Romania has shut down its only nuclear plant in a rare move prompted by the lack of cooling water from the Danube River",
+      "lat": 47.5,
+      "lng": 19.05,
+      "severity": 3,
+      "location": "Budapest, Hungary",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/romania-shuts-nuclear-plant-hungary-dams-dry-danube-river/a-78359581?maca=en-rss-en-all-1573-rdf",
+      "image": "https://s.abcnews.com/images/International/wirestory_b77673cd90df9cd7435726fc9c5f2c9e_4x3_384.jpg",
+      "ts": 1786658152891,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/romania-begins-shutdown-nuclear-plants-2nd-reactor-amid-135604695"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cqlxpq5q799o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/romania-shuts-nuclear-plant-hungary-dams-dry-danube-river/a-78359581?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/europe/record-low-danube-forces-romania-to-shut-its-only-nuclear-plant"
+          }
+        ]
+      }
+    },
+    {
+      "id": "153a5874dd54",
+      "title": "US sells 30-year bonds at highest borrowing costs since 2001",
+      "description": "Yields have jumped amid concerns over mounting public debt and persistently high inflation",
+      "lat": 38.9,
+      "lng": -77.02,
+      "severity": 4,
+      "location": "Washington, USA",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/9c9c948f-dc8b-4385-a9b9-4b98dc1eadd9?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1786656092000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/9c9c948f-dc8b-4385-a9b9-4b98dc1eadd9?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e816a1622d65",
+      "title": "Vote counting underway in Zambia after presidential election",
+      "description": "Vote counting is underway after Zambians cast ballots in a presidential election testing incumbent Hakainde Hichilema’s economic record",
+      "lat": -14.32,
+      "lng": 30.18520000000001,
+      "severity": 1,
+      "location": "Lusaka, Zambia",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/08/13/vote-counting-underway-in-zambia-after-presidential-election/",
+      "image": "https://s.abcnews.com/images/International/wirestory_c2e3a627284296099089e03d2454e3b7_4x3_384.jpg",
+      "ts": 1786653763000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/13/vote-counting-underway-in-zambia-after-presidential-election/"
+          }
+        ]
+      }
+    },
     {
       "id": "c50f79944bba",
       "title": "Israel kills Gaza police chief",
@@ -31,6 +145,39 @@
             "n": "AGI Estero",
             "b": "center",
             "u": "https://www.agi.it/estero/news/2026-08-13/israele-uccide-capo-polizia-gaza-38526253/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1c9e7f6b55d6",
+      "title": "Colombia’s new president asks Trump to bring militarized antidrug campaign to the country",
+      "description": "The South American nation is the world’s largest producer of cocaine",
+      "lat": 4.61,
+      "lng": -74.08,
+      "severity": 3,
+      "location": "Bogota, Colombia",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/08/14/new-president-asks-trump-bring-deadly-antidrug-campaign-colombia/",
+      "image": null,
+      "ts": 1786653268000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/08/14/new-president-asks-trump-bring-deadly-antidrug-campaign-colombia/"
           }
         ]
       }
@@ -1424,39 +1571,6 @@
       }
     },
     {
-      "id": "e816a1622d65",
-      "title": "Zambia elections",
-      "description": "Zambians cast ballots in a presidential election that tests incumbent's economic reforms",
-      "lat": -14.32,
-      "lng": 30.18520000000001,
-      "severity": 2,
-      "location": "Lusaka, Zambia",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/zambians-cast-ballots-presidential-election-tests-incumbents-economic-135601301",
-      "image": "https://s.abcnews.com/images/International/wirestory_c2e3a627284296099089e03d2454e3b7_4x3_384.jpg",
-      "ts": 1786600181000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/zambians-cast-ballots-presidential-election-tests-incumbents-economic-135601301"
-          }
-        ]
-      }
-    },
-    {
       "id": "db9c4abc7dc2",
       "title": "Three Palestinian families besieged in their homes by Israeli settlers",
       "description": "Three Palestinian families in Qusra, occupied West Bank, are being besieged inside their homes.",
@@ -2762,39 +2876,6 @@
             "n": "GNews Geopolitics",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "fcd74f58cd69",
-      "title": "Hungary's government plans interventions on Danube River to keep nuclear plant running",
-      "description": "Hungary's government plans to raise the Danube River's level to keep its only nuclear power plant running.",
-      "lat": 47.5,
-      "lng": 19.05,
-      "severity": 2,
-      "location": "Budapest, Hungary",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/hungarys-government-plans-interventions-danube-river-nuclear-plant-135578854",
-      "image": "https://s.abcnews.com/images/International/wirestory_b77673cd90df9cd7435726fc9c5f2c9e_4x3_384.jpg",
-      "ts": 1786544592000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/hungarys-government-plans-interventions-danube-river-nuclear-plant-135578854"
           }
         ]
       }
@@ -7577,72 +7658,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/nigerian-army-rescues-33-people-abducted-gunmen-northwest-135500305"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0cda85bc0a16",
-      "title": "Trump Says US is 'Low-Keying It' with Iran",
-      "description": "US President Donald Trump signaled that he is prepared to let economic pressure mount against Iran.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3363467/trump-says-us-low-keying-it-iran-stresses-economic-pain?utm_source=rss_feed",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/10/fc9c052d-59e0-4fb4-b8ce-d0e5e905e93a_2d55a24f.jpg?itok=SJCSxyMa&v=1786301091",
-      "ts": 1786301157000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/iran-us-war-donald-trump-were-low-keying-it-trump-on-us-iran-negotiations-11887507#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9faeb5373c2c",
-      "title": "Canadian government steps in as wildfires force thousands to flee",
-      "description": "The Canadian government announced it will provide urgent assistance to British Columbia as 'out of control' wildfires force thousands to flee.",
-      "lat": 50.38,
-      "lng": -123.12,
-      "severity": 3,
-      "location": "British Columbia, Canada",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/world/2026/aug/09/canada-british-columbia-government-wildfires",
-      "image": null,
-      "ts": 1786299625000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/world/2026/aug/09/canada-british-columbia-government-wildfires"
           }
         ]
       }
