@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-08-13T15:05:52.560802+00:00",
+  "updated": "2026-08-13T16:06:09.584952+00:00",
   "events": [
+    {
+      "id": "6816746fd4c5",
+      "title": "Zambian president Hichilema votes as he seeks second term",
+      "description": "Zambian president Hakainde Hichilema cast his vote in the capital Lusaka as he bids for a second term.",
+      "lat": -15.42,
+      "lng": 28.28,
+      "severity": 1,
+      "location": "Lusaka, Zambia",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/13/zambian-president-hichilema-votes-as-he-seeks-second-term?traffic_source=rss",
+      "image": "https://s.france24.com/media/display/7da626c4-96a8-11f1-8a20-005056bf30b7/w:1024/p:16x9/AP26223850902100.jpg",
+      "ts": 1786636312000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/13/zambian-president-hichilema-votes-as-he-seeks-second-term?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6510cd14a538",
+      "title": "Iran war depletes US Reaper drone arsenal",
+      "description": "The US military has lost roughly 25% of its Reaper drones as the Iran war depletes its arsenal, with the aircraft seeing heavy use around the Strait of Hormuz.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 4,
+      "location": "Strait of Hormuz, Iran",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/national-security/2026/08/13/us-military-has-lost-roughly-25-its-reaper-drones-iran-war-depletes-arsenal/",
+      "image": null,
+      "ts": 1786635583000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/national-security/2026/08/13/us-military-has-lost-roughly-25-its-reaper-drones-iran-war-depletes-arsenal/"
+          }
+        ]
+      }
+    },
     {
       "id": "44c3bd1b1b0d",
       "title": "IDF strikes Hamas terror cell, resuming preemptive strikes despite Trump's Gaza deal",
@@ -36,6 +102,39 @@
       }
     },
     {
+      "id": "9c7d4bee8db0",
+      "title": "Gaza's beekeepers rebuild livelihoods amid war ruins",
+      "description": "Beekeepers in Gaza are rebuilding their livelihoods, handling swarms and collecting honey from colonies that survived the war.",
+      "lat": 31.51,
+      "lng": 34.44999999999999,
+      "severity": 1,
+      "location": "Gaza, Palestine",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/video/20260813-gaza-s-beekeepers-are-rebuilding-their-livelihoods-amid-the-ruins-of-war",
+      "image": "https://s.france24.com/media/display/58f6e89e-9708-11f1-b310-005056bf30b7/w:1024/p:16x9/AP26220325628514.jpg",
+      "ts": 1786634282000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/video/20260813-gaza-s-beekeepers-are-rebuilding-their-livelihoods-amid-the-ruins-of-war"
+          }
+        ]
+      }
+    },
+    {
       "id": "734ab2861000",
       "title": "Ukraine's monthly civilian casualties highest since 2022",
       "description": "UN monitors say civilian casualties in Ukraine hit their highest monthly level since the start of Russia's full-scale war.",
@@ -64,6 +163,64 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/ukraine-s-monthly-civilian-casualties-highest-since-2022/live-78351269?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7a00aa0dd54c",
+      "title": "Ukraine drone attacks challenge Russian ships",
+      "description": "Ukraine's drone attacks have forced Russian ships to use 'Mad Max' style nets and cages to shield themselves from Ukrainian drones.",
+      "lat": 45.82,
+      "lng": 37.77000000000001,
+      "severity": 3,
+      "location": "Novorossiysk, Russia",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/ukraine-drone-terror-makes-russian-ships-use-mad-max-style-nets-cages-11906257#publisher=newsstand",
+      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/russian-military.gif",
+      "ts": 1786633227000,
+      "coverage": {
+        "left": 3,
+        "center": 2,
+        "right": 1,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 2,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/ukraines-drones-hit-major-russian-refinery-800-miles-135605504"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/ukraine-drone-terror-makes-russian-ships-use-mad-max-style-nets-cages-11906257#publisher=newsstand"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/13/13-08-sv-ukraine-russia-grain-attack-ur?traffic_source=rss"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/08/13/ukraine-russia-novorossiysk-grain.html"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/video/20260813-russian-strike-on-ukraine-passenger-train-kills-2"
+          },
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/news/article-15870211/Inside-Russian-resistance-looking-bring-Putin-Exclusive-footage-shows-pro-Ukraine-Black-Spark-rebels-carrying-bomb-attacks-strategic-targets.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
           }
         ]
       }
@@ -358,64 +515,6 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/08/13/putin-watches-russian-navy-drills-off-russias-sakhalin-island/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7a00aa0dd54c",
-      "title": "Ukraine attacks Russian grain export terminals in Black Sea",
-      "description": "Ukraine has launched a heavy drone assault on warships and major Russian grain export terminals in the Black Sea port city of Novorossiysk.",
-      "lat": 45.82,
-      "lng": 37.77000000000001,
-      "severity": 4,
-      "location": "Novorossiysk, Russia",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/08/13/ukraine-russia-novorossiysk-grain.html",
-      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/russian-military.gif",
-      "ts": 1786615300000,
-      "coverage": {
-        "left": 0,
-        "center": 5,
-        "right": 1,
-        "total": 6,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 5,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/13/ukraine-russia-novorossiysk-grain.html"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/f2f2a881-1d4d-47db-a7d9-c6c50ee29a6a?syn-25a6b1a6=1"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yMkhxMGxURF9FNDF6a1QtU1hsU01vdWN5bjBZYTFZd1k1SlU4Y2pqdkRMSGtxVF81Nm1naW01WnNlUWJ1WUJfbWgzVnRBZzdoQmN1V3RnNzdsZw?oc=5"
-          },
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/08/13/world/ukraine-russia-black-sea-harvest/"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/ukraine-pounds-black-sea-fleets-last-major-stronghold-while-putin-flexes-naval-power-pacific"
           }
         ]
       }
@@ -915,49 +1014,6 @@
       }
     },
     {
-      "id": "6816746fd4c5",
-      "title": "Zambia heads to polls with President Hichilema expected to win second term",
-      "description": "Zambians vote in a general election widely expected to give President Hakainde Hichilema a second term.",
-      "lat": -15.42,
-      "lng": 28.28,
-      "severity": 2,
-      "location": "Lusaka, Zambia",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/africa/20260813-zambia-heads-to-polls-with-president-hichilema-expected-to-win-second-term",
-      "image": "https://s.france24.com/media/display/7da626c4-96a8-11f1-8a20-005056bf30b7/w:1024/p:16x9/AP26223850902100.jpg",
-      "ts": 1786581226000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/12/world/africa/zambia-presidential-election-hichilema.html"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/africa/20260813-zambia-heads-to-polls-with-president-hichilema-expected-to-win-second-term"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/12/zambia-hakainde-hichilema-expected-to-win-upcoming-vote/"
-          }
-        ]
-      }
-    },
-    {
       "id": "05c06bf82a8a",
       "title": "Brazil orders Discord to halt livestreaming after teen death",
       "description": "Brazil has ordered Discord to suspend livestreaming as authorities scrutinize how the platform protects young users",
@@ -1171,6 +1227,69 @@
             "n": "ANSA Mondo",
             "b": "center",
             "u": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/12/cuba-salgono-a-1.327-i-prigionieri-politici-coinvolto-anche-un-bambino-di-13-anni_492f29c8-6ae4-4333-93e3-03f4e40db2a1.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "57e9bbe43a30",
+      "title": "Israel-Palestine conflict escalates in West Bank",
+      "description": "The conflict between Israel and Palestine has escalated in the West Bank, with Israeli settlers besieging Palestinian homes and the US ambassador condemning the actions.",
+      "lat": 32.13,
+      "lng": 37.17519999999999,
+      "severity": 3,
+      "location": "West Bank, Palestine",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/unprecedented-level-settler-violence-breaking-point-west-bank-u_n_6a7cca69e4b08accea253dbc",
+      "image": null,
+      "ts": 1786567039000,
+      "coverage": {
+        "left": 1,
+        "center": 5,
+        "right": 1,
+        "total": 7,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 5,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/08/13/west-bank-us-ambassador-to-israel-denounces-siege-of-palestinian-homes-as-horrific-act-of-terror_6756455_4.html"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/siege-of-palestinian-homes-in-west-bank-a-horrific-act-of-terror-says-us-ambassador-13572508"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/video/20260813-west-bank-what-we-see-is-an-escalation-in-methods"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/israeli-military-moves-as-settlers-besiege-3-west-bank-homes/a-78355266?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/israel-news/article-905373"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZjg4cjNRa214Zmg2OEk1S1ltSkZnd2RLcmlReHNZaDJZeTlfZVU3VjZtb1o5WjVTVV9WRnNmRTgtRnRvS3I5TWR1bUtjWExlV2t2NllOb1lTUV9kNEJodFdqdDFSOEJxWXVJRHR1SWxzN1UzTVJhTFM5TkE5SUZkdGxZMllaRzkzM2twRjJmTW9BcUVwaWNyV2FVYlFITHZqUjhFRWNGMC16b2g3dlh0ZWN6Q1dVd3FXM01RRA?oc=5"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4685922/mike-huckabee-denounce-israel-settler/"
           }
         ]
       }
@@ -7609,105 +7728,6 @@
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/east-asia/taiwans-2027-defence-spending-to-rise-16-official-media-reports"
-          }
-        ]
-      }
-    },
-    {
-      "id": "911b06be5204",
-      "title": "Attacchi russi in Ucraina: due morti a Kharkiv",
-      "description": "Russian missile attacks in Ukraine resulted in at least two deaths in Kharkiv",
-      "lat": 49.99,
-      "lng": 36.23,
-      "severity": 4,
-      "location": "Kharkiv, Ukraine",
-      "source": "AGI Estero",
-      "url": "https://www.agi.it/estero/news/2026-08-09/ucraina-russia-droni-attacchi-38457433/",
-      "image": "https://images.agi.it/pictures/agi/agi/2026/08/09/073656941-9948bb4d-b0ca-4400-a997-3c90f8981f77.jpg",
-      "ts": 1786262217000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-08-09/ucraina-russia-droni-attacchi-38457433/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "55b004d360b1",
-      "title": "Myanmar Says Asean’s Call for Suu Kyi Release Is Interference",
-      "description": "Myanmar’s military-backed government rejected the call by the Association of Southeast Asian Nations for the unconditional release of ousted leader Aung San Suu Kyi",
-      "lat": 16.8,
-      "lng": 98.05520000000001,
-      "severity": 3,
-      "location": "Naypyidaw, Myanmar",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-09/myanmar-says-asean-s-call-for-suu-kyi-release-is-interference",
-      "image": null,
-      "ts": 1786261656000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-09/myanmar-says-asean-s-call-for-suu-kyi-release-is-interference"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e2aa0bfa8f28",
-      "title": "Nigeria: Mass wedding sees 1,500 couples tie the knot",
-      "description": "A state-sponsored mass wedding took place in Kano State, Nigeria, with 1,500 couples tying the knot",
-      "lat": 11.99,
-      "lng": 8.52,
-      "severity": 1,
-      "location": "Kano, Nigeria",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/08/09/nigeria-mass-wedding-sees-1500-couples-tie-the-knot-in-kano-state/",
-      "image": "http://images.euronews.com/articles/stories/09/86/75/33/640x360_cmsv2_92e6c8b5-2054-5710-bd7e-4b21aee160d8-9867533.jpg?1786253292",
-      "ts": 1786261247000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/09/nigeria-mass-wedding-sees-1500-couples-tie-the-knot-in-kano-state/"
           }
         ]
       }
