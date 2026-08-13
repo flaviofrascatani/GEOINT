@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-13T20:06:32.225592+00:00",
+  "updated": "2026-08-13T20:56:56.702205+00:00",
   "events": [
+    {
+      "id": "c50f79944bba",
+      "title": "Israel kills Gaza police chief",
+      "description": "Israel has killed the police chief of Gaza in an attack on Gaza City, the interior ministry of the Gaza Strip announced",
+      "lat": 31.51,
+      "lng": 34.46000000000001,
+      "severity": 4,
+      "location": "Gaza City, Gaza Strip",
+      "source": "AGI Estero",
+      "url": "https://www.agi.it/estero/news/2026-08-13/israele-uccide-capo-polizia-gaza-38526253/",
+      "image": "https://images.agi.it/pictures/agi/agi/2026/08/13/204541619-aa283257-d22d-4435-a511-ea12d8c1d9f7.jpg",
+      "ts": 1786653579000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "AGI Estero",
+            "b": "center",
+            "u": "https://www.agi.it/estero/news/2026-08-13/israele-uccide-capo-polizia-gaza-38526253/"
+          }
+        ]
+      }
+    },
     {
       "id": "2f41ab961e7e",
       "title": "Authorities in Vietnam discover more than a ton of concealed ivory illegally shipped from Africa",
@@ -649,6 +682,44 @@
             "n": "France 24",
             "b": "center",
             "u": "https://www.france24.com/en/video/20260813-gaza-s-beekeepers-are-rebuilding-their-livelihoods-amid-the-ruins-of-war"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8d1dc5483f53",
+      "title": "DRC’s fast-growing Ebola outbreak spreads to sixth province",
+      "description": "The Ebola outbreak in the Democratic Republic of the Congo has spread to a sixth province, with a man dying in Bas-Uele after travelling from Haut-Uele",
+      "lat": 3.02,
+      "lng": 26.98,
+      "severity": 4,
+      "location": "Bas-Uele, Democratic Republic of the Congo",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province",
+      "image": null,
+      "ts": 1786634233000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/dr-congos-fastest-growing-ebola-outbreak-reaches-sixth-province-13572638"
           }
         ]
       }
@@ -7572,97 +7643,6 @@
             "n": "The Guardian World",
             "b": "lean_left",
             "u": "https://www.theguardian.com/world/2026/aug/09/canada-british-columbia-government-wildfires"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1b4e22ce5a55",
-      "title": "Iran denies any direct talks with U.S. on opening Strait of Hormuz",
-      "description": "Iran's foreign minister reportedly said his country is not engaging in talks with the U.S., but added: 'Messages are being exchanged through intermediaries.'",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/08/09/saudi-aramco-extinguishes-refinery-fire-houthis-claim-attack.html",
-      "image": null,
-      "ts": 1786299357000,
-      "coverage": {
-        "left": 1,
-        "center": 5,
-        "right": 0,
-        "total": 6,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 5,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/iran-issues-trump-surrender-document-37529507"
-          },
-          {
-            "n": "BBC Business",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/09/saudi-aramco-extinguishes-refinery-fire-houthis-claim-attack.html"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/iran-sets-tough-terms-to-reopen-strait-of-hormuz"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLVlSazBucFNIOGZ3aG91cDZhcTFfMWI4NWMycVczNWtmVHRKTU54WlJud1JqVUxCOW84U1p0OU5aSjdBNnJHS2xmLVVIaVdGZUpNemJKaTA5aV9TU1NHaHlZMEo1X1VjX2wxTExReTl0Tk5SYkRsMWsxWUo3UWw3UE1iV0N2UmJydWZFeHZpX01Ba1NISVdtei01OXRnMUtpem80dW5wa1FKNnhNQzZOMGlJMG8?oc=5"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/how-both-iran-and-oman-have-economic-claims-to-the-strait-of-hormuz/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "27c630fe7e02",
-      "title": "Iran Guards say won't reopen Hormuz without U.S. meeting Tehran's demands",
-      "description": "Iran's security chief Mohammad Bagher Zolghadr had laid out a list of conditions for reopening the strait",
-      "lat": 32.0,
-      "lng": 53.0,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/iran-guards-say-wont-reopen-hormuz-without-us-meeting-tehrans-demands/article71325696.ece",
-      "image": "https://th-i.thgim.com/public/incoming/kpx6gz/article71325708.ece/alternates/LANDSCAPE_1200/Proposed-HormuzG8DGBVR33.3.jpg.jpg",
-      "ts": 1786292088000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/iran-guards-say-wont-reopen-hormuz-without-us-meeting-tehrans-demands/article71325696.ece"
           }
         ]
       }
