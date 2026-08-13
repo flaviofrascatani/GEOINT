@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-13T21:55:53.012944+00:00",
+  "updated": "2026-08-13T22:53:31.404409+00:00",
   "events": [
+    {
+      "id": "5b8a5159d9f0",
+      "title": "Fireworks light skies over Pakistan’s capital as crowds celebrate Independence Day",
+      "description": "Fireworks lit up Pakistan’s capital as crowds celebrated the 79th anniversary of independence.",
+      "lat": 34.82,
+      "lng": 73.06,
+      "severity": 1,
+      "location": "Islamabad, Pakistan",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/fireworks-light-skies-pakistans-capital-crowds-celebrate-independence-135625730",
+      "image": "https://s.abcnews.com/images/International/wirestory_f0fc216ae6a502ac330ca31cf343ba5f_4x3_384.jpg",
+      "ts": 1786659101000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/fireworks-light-skies-pakistans-capital-crowds-celebrate-independence-135625730"
+          }
+        ]
+      }
+    },
     {
       "id": "fcd74f58cd69",
       "title": "Romania shuts nuclear plant, Hungary dams dry Danube River",
@@ -51,6 +84,74 @@
       }
     },
     {
+      "id": "5a77af0bf017",
+      "title": "UAE Says 2 Oil Vessels Hit By Iran In Strait Of Hormuz",
+      "description": "Two oil vessels were attacked while transiting the Strait of Hormuz, with no injuries reported, as the United Arab Emirates accused Iran of the attack.",
+      "lat": 33.89,
+      "lng": 35.5,
+      "severity": 4,
+      "location": "Beirut, Lebanon",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/uae-says-2-oil-vessels-hit-by-iran-in-strait-of-hormuz-11907520#publisher=newsstand",
+      "image": "https://s.france24.com/media/display/33ca89d4-9011-11f1-bbd5-005056bfb2b6/w:1024/p:16x9/AP26216348535497.jpg",
+      "ts": 1786656948000,
+      "coverage": {
+        "left": 4,
+        "center": 3,
+        "right": 1,
+        "total": 8,
+        "buckets": {
+          "left": 0,
+          "lean_left": 4,
+          "center": 3,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/data-graphics/strait-of-hormuz-ports-traffic-trump-us-iran-war-rcna331507"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-donald-trump-tehran-control-threatens-keep-it/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/uae-says-2-oil-vessels-hit-by-iran-in-strait-of-hormuz-11907520#publisher=newsstand"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/iran-us-war-west-asia-live-updates-donald-trump-august-13-2026/article71339299.ece"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/us-iran-stalemate-over-strait-hormuz-continues-oil-prices-are-edging-down-anyway-3806384"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/13/iran-says-strait-of-hormuz-will-stay-blocked-despite-trumps-claim-of-total-control/"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/commentary/strait-hormuz-not-closed-oil-prices-iran-war-6317166"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2172617"
+          }
+        ]
+      }
+    },
+    {
       "id": "153a5874dd54",
       "title": "US sells 30-year bonds at highest borrowing costs since 2001",
       "description": "Yields have jumped amid concerns over mounting public debt and persistently high inflation",
@@ -86,10 +187,10 @@
     {
       "id": "e816a1622d65",
       "title": "Vote counting underway in Zambia after presidential election",
-      "description": "Vote counting is underway after Zambians cast ballots in a presidential election testing incumbent Hakainde Hichilema’s economic record",
+      "description": "Vote counting is underway after Zambians cast ballots in a presidential election testing incumbent Hakainde Hichilema’s economic record.",
       "lat": -14.32,
       "lng": 30.18520000000001,
-      "severity": 1,
+      "severity": 2,
       "location": "Lusaka, Zambia",
       "source": "Africanews",
       "url": "http://www.africanews.com/2026/08/13/vote-counting-underway-in-zambia-after-presidential-election/",
@@ -2451,44 +2552,6 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/video/newsfeed/2026/8/12/drought-exposes-nazi-era-warship-wrecks-beneath-the-danube?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5a77af0bf017",
-      "title": "Strait of Hormuz ship traffic near three-month low as U.S.-Iran deal in doubt",
-      "description": "Traffic is about 90% lower than the daily average of 130 ships that transited Hormuz before the U.S. and Israel attacked Iran on Feb. 28",
-      "lat": 33.89,
-      "lng": 35.5,
-      "severity": 3,
-      "location": "Beirut, Lebanon",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/08/12/strait-hormuz-ship-traffic-iran-war-deal.html",
-      "image": "https://s.france24.com/media/display/33ca89d4-9011-11f1-bbd5-005056bfb2b6/w:1024/p:16x9/AP26216348535497.jpg",
-      "ts": 1786552415000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 1,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/israel-reject-trump-gaza-plan-strait-hormuz_n_6a791713e4b0a81f52ff18b9"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/12/strait-hormuz-ship-traffic-iran-war-deal.html"
           }
         ]
       }
@@ -7625,39 +7688,6 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/syria-says-deal-agreed-with-russia-on-future-of-military-bases/a-78297584?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b297250c6d0c",
-      "title": "Nigerian army rescues 33 people abducted by gunmen",
-      "description": "The Zamfara region has seen a surge in killings and abductions in recent months.",
-      "lat": 11.51,
-      "lng": 7.03,
-      "severity": 3,
-      "location": "Zamfara, Nigeria",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/nigerian-army-rescues-33-people-abducted-gunmen-northwest-135500305",
-      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
-      "ts": 1786301407000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/nigerian-army-rescues-33-people-abducted-gunmen-northwest-135500305"
           }
         ]
       }
