@@ -1,7 +1,45 @@
 {
   "schema": 1,
-  "updated": "2026-08-14T15:58:45.984454+00:00",
+  "updated": "2026-08-14T17:01:55.279133+00:00",
   "events": [
+    {
+      "id": "bfcca0476d73",
+      "title": "Zimbabwe Lake Kariba ferry death toll hits 46",
+      "description": "Grieving families gathered at a mortuary in Kariba on Thursday as the death toll from Tuesday’s ferry disaster on Lake Kariba rose to 46",
+      "lat": -15.9,
+      "lng": 29.905200000000008,
+      "severity": 4,
+      "location": "Lake Kariba, Zimbabwe",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/08/14/survivors-recount-horror-as-zimbabwe-lake-kariba-ferry-death-toll-hits-46/",
+      "image": "http://images.euronews.com/articles/stories/09/87/49/09/640x360_cmsv2_50ce824d-d7ef-5163-8841-769b4f67f1dd-9874909.jpg?1786718287",
+      "ts": 1786725002000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/aug/12/zimbabwe-lake-kariba-ferry-capsize"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/14/survivors-recount-horror-as-zimbabwe-lake-kariba-ferry-death-toll-hits-46/"
+          }
+        ]
+      }
+    },
     {
       "id": "5a77af0bf017",
       "title": "UAE Accuses Iran of Hormuz Attacks",
@@ -7400,39 +7438,6 @@
             "n": "Channel News Asia",
             "b": "center",
             "u": "https://www.channelnewsasia.com/business/wall-street-giants-partner-nvidia-500-billion-ai-financing-deal-ft-reports-6310321"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c31028f3c38e",
-      "title": "Trump administration revokes over 175,000 visas",
-      "description": "The Trump administration has revoked more than 175,000 visas from foreign nationals, claiming violations of the terms of the documents related to criminal activity.",
-      "lat": 40.0,
-      "lng": -77.02,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "The Hill",
-      "url": "https://thehill.com/homenews/administration/6020599-trump-administration-visa-revocation/",
-      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/08/trumpdonald_rubiomarco_080726nk01_w.jpg?w=900",
-      "ts": 1786379793000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/homenews/administration/6020599-trump-administration-visa-revocation/"
           }
         ]
       }
