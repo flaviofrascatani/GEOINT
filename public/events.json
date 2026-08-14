@@ -1,46 +1,112 @@
 {
   "schema": 1,
-  "updated": "2026-08-14T09:14:47.038923+00:00",
+  "updated": "2026-08-14T10:35:07.800571+00:00",
   "events": [
     {
       "id": "2ffa9d80eef3",
-      "title": "American missionary kidnapped in Niger in October freed",
-      "description": "An American missionary who was kidnapped in Niger in October has been released, his organization says, adding that Kevin Rideout 'is in good health in the care of U.S. officials.'",
+      "title": "Kevin Rideout, American Missionary Kidnapped in Niger, Is Released",
+      "description": "Kevin Rideout, a pilot, had been abducted from his home in the country’s capital, Niamey, last fall. His mission organization said he was in “good health” after his release.",
       "lat": 14.62,
       "lng": 2.1100000000000136,
-      "severity": 1,
+      "severity": 2,
       "location": "Niamey, Niger",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/kevin-rideout-american-missionary-kidnapped-niger-october-released/",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/08/14/world/africa/american-missionary-niger-rideout-released.html",
       "image": null,
-      "ts": 1786698328000,
+      "ts": 1786703325000,
       "coverage": {
-        "left": 1,
+        "left": 2,
         "center": 1,
-        "right": 1,
+        "right": 0,
         "total": 3,
         "buckets": {
           "left": 0,
-          "lean_left": 1,
+          "lean_left": 2,
           "center": 1,
-          "lean_right": 1,
+          "lean_right": 0,
           "right": 0
         },
         "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/14/world/africa/american-missionary-niger-rideout-released.html"
+          },
           {
             "n": "CBS News World",
             "b": "lean_left",
             "u": "https://www.cbsnews.com/news/kevin-rideout-american-missionary-kidnapped-niger-october-released/"
           },
           {
-            "n": "Jerusalem Post",
+            "n": "BBC World",
             "b": "center",
-            "u": "https://www.jpost.com/international/article-905522"
-          },
+            "u": "https://www.bbc.co.uk/news/articles/ckg40jvvkp7o?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4280e46a9ee9",
+      "title": "Russia Campaigned to Derail Moldova’s Pro-Western Government",
+      "description": "In Moldova, Moscow paid Orthodox priests, conducted a vote-buying scheme and set up training camps on election interference — all in an effort to derail the Western-leaning government.",
+      "lat": 47.01,
+      "lng": 28.86,
+      "severity": 3,
+      "location": "Chisinau, Moldova",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/08/14/world/europe/russia-moldova-putin.html",
+      "image": "https://static01.nyt.com/images/2026/07/22/multimedia/22Moldova-Russia-Interference-06-hpzc/22Moldova-Russia-Interference-06-hpzc-mediumSquareAt3X.jpg",
+      "ts": 1786702193000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
           {
-            "n": "New York Post",
-            "b": "lean_right",
-            "u": "https://nypost.com/2026/08/14/world-news/american-missionary-kidnapped-in-niger-said-to-be-released-nyt-reports/"
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/14/world/europe/russia-moldova-putin.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "341ddc4914fa",
+      "title": "Nigeria’s Muslim and Christian leaders sign new peace accord",
+      "description": "More than 50 Muslim and Christian leaders have signed a new peace accord in Nigeria, aiming to ease religious tensions and promote harmony.",
+      "lat": 9.08,
+      "lng": 8.93,
+      "severity": 1,
+      "location": "Abuja, Nigeria",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/08/14/nigerias-muslim-and-christian-leaders-sign-new-peace-accord/",
+      "image": "http://images.euronews.com/articles/stories/09/87/40/95/640x360_cmsv2_cdabf092-1633-5783-bb49-bca0b96f067d-9874095.jpg?1786690352",
+      "ts": 1786698650000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/14/nigerias-muslim-and-christian-leaders-sign-new-peace-accord/"
           }
         ]
       }
@@ -211,6 +277,49 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/iran-backed-houthis-clash-yemeni-forces-mideast-developments-135605001"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2197f747a8e0",
+      "title": "Five dead in Japan after record-breaking rainfall causes severe flooding",
+      "description": "Five people have died after heavy rain and flooding in Japan, with thousands more left stranded.",
+      "lat": 36.78,
+      "lng": 139.76,
+      "severity": 4,
+      "location": "Tokyo, Japan",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/four-dead-near-tokyo-after-heavy-rains-and-floods-with-thousands-stranded-at-railway-station-13572823",
+      "image": "https://e3.365dm.com/26/08/1920x1080/skynews-japan-floods-chiba_7321213.jpg?20260814073528",
+      "ts": 1786687260000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/14/world/asia/chiba-tokyo-flood-rain-deaths.html"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/world/2026/0814/1587827-japan-weather/"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/four-dead-near-tokyo-after-heavy-rains-and-floods-with-thousands-stranded-at-railway-station-13572823"
           }
         ]
       }
@@ -7429,135 +7538,6 @@
             "n": "The Hindu International",
             "b": "lean_left",
             "u": "https://www.thehindu.com/news/international/former-thai-mp-accused-of-shooting-local-official-and-driver-police/article71327647.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0bb5ffa090cc",
-      "title": "South Korea, US to begin exercises next week to bolster readiness against North's threats",
-      "description": "South Korean and U.S. militaries say they will begin their annual large exercises next week to beef up readiness against North Korean threats",
-      "lat": 38.66,
-      "lng": 128.8752,
-      "severity": 2,
-      "location": "Seoul, South Korea",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/south-korea-us-begin-exercises-week-bolster-readiness-135509770",
-      "image": "https://s.abcnews.com/images/International/wirestory_caaf065af4ddb7ffc276a744be652a5c_4x3_384.jpg",
-      "ts": 1786348438000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/south-korea-us-begin-exercises-week-bolster-readiness-135509770"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/east-asia/south-korea-us-to-conduct-military-drills-amid-evolving-north-korea-threats"
-          }
-        ]
-      }
-    },
-    {
-      "id": "299ceebe6cd3",
-      "title": "Pope Leo XIV calls for humanitarian corridor in Sudan",
-      "description": "Pope Leo called for peace in Sudan on Sunday during an address at the Vatican. Leo singled out El-Obeid, the beseiged capital of North Kordofan state.",
-      "lat": 12.85,
-      "lng": 30.22,
-      "severity": 1,
-      "location": "Khartoum, Sudan",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/08/10/pope-leo-xiv-calls-for-humanitarian-corridor-in-sudan/",
-      "image": "http://images.euronews.com/articles/stories/09/86/81/44/640x360_cmsv2_55d6c117-3f6f-5646-91eb-32ad85e6a3a9-9868144.jpg?1786338691",
-      "ts": 1786345163000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/10/pope-leo-xiv-calls-for-humanitarian-corridor-in-sudan/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ced726846c7b",
-      "title": "China evacuates one million people from homes as Typhoon Dolphin makes landfall",
-      "description": "The storm moved over a 6,000km before making landfall, where winds of 150km/h (94mph) battered parts of the country and authorities evacuated more than one million people",
-      "lat": 30.52,
-      "lng": 114.31,
-      "severity": 4,
-      "location": "Wuhan, China",
-      "source": "Mirror World",
-      "url": "https://www.mirror.co.uk/news/world-news/china-typhoon-dolphin-evacuations-storm-37531588",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37531594.ece/ALTERNATES/s615/0_gettyimages-2289234126-612x612.jpg",
-      "ts": 1786341517000,
-      "coverage": {
-        "left": 4,
-        "center": 2,
-        "right": 0,
-        "total": 6,
-        "buckets": {
-          "left": 0,
-          "lean_left": 4,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/10/world/asia/typhoon-dolphin-china-evacuations.html"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/over-1-million-evacuated-as-typhoon-dolphin-disrupts-flights-across-eastern-china-shanghai-11889482#publisher=newsstand"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/china-typhoon-dolphin-evacuations-storm-37531588"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/gallery/2026/8/10/powerful-typhoon-dolphin-hits-china-prompting-flood-and-landslide-warnings?traffic_source=rss"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/china-typhoon-dolphin-prompts-mass-evacuation-canceled-flights/a-78299416?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPS2NWQWxrNU1kT0d5eXVVd00yYmNyTVJKcDhsaXJ4bGZuak90UXgxOEY0VGpudEUwWi1pWC0yU0lkVlF1d3pESTF5NVdLcFByR05pQ3FETkpjN2Z1V2tpaWhMdUpJS3FBTjVNb2t6MnhlOWttRWUyQXhheS1fbl9WSGVRQXVtV2s2TWxlbQ?oc=5"
           }
         ]
       }
