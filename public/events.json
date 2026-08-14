@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-08-14T22:53:38.114541+00:00",
+  "updated": "2026-08-14T23:29:27.583051+00:00",
   "events": [
+    {
+      "id": "da915442a784",
+      "title": "Lebanon’s PM urges timetable for Israeli withdrawal as Hezbollah slams deal",
+      "description": "Lebanon's PM has urged a timetable for Israeli withdrawal, while Hezbollah has slammed the deal",
+      "lat": 33.89,
+      "lng": 35.5,
+      "severity": 2,
+      "location": "Beirut, Lebanon",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/14/lebanons-pm-urges-timetable-for-israeli-withdrawal-as-hezbollah-slams-deal?traffic_source=rss",
+      "image": null,
+      "ts": 1786748575000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/14/lebanons-pm-urges-timetable-for-israeli-withdrawal-as-hezbollah-slams-deal?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "54c56245fce1",
+      "title": "7.7 Magnitude Earthquake Hits Indonesia, Tsunami Warning Issued",
+      "description": "A strong 7.7-magnitude earthquake struck off Flores island in eastern Indonesia, prompting a tsunami warning",
+      "lat": -8.3,
+      "lng": 121.7,
+      "severity": 4,
+      "location": "Flores Island, Indonesia",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/7-7-magnitude-earthquake-hits-indonesia-tsunami-warning-issued-11912286#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2025-03/9p4mj938_earthquake-generic_625x300_18_March_25.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1786747890000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/7-7-magnitude-earthquake-hits-indonesia-tsunami-warning-issued-11912286#publisher=newsstand"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/asia/indonesia-earthquake-tsunami-warning-6320771"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3292ee130647",
+      "title": "UAE's ADNOC says one of its vessels came under attack while transiting Hormuz",
+      "description": "One of ADNOC's vessels was attacked while transiting the Strait of Hormuz",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 3,
+      "location": "Strait of Hormuz, Oman",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/uaes-adnoc-says-one-its-vessels-came-under-attack-while-transiting-hormuz",
+      "image": null,
+      "ts": 1786747591000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/uae-says-one-of-its-oil-vessels-came-under-attack-while-transiting-strait-of-hormuz-11912250#publisher=newsstand"
+          }
+        ]
+      }
+    },
     {
       "id": "521e7065fd36",
       "title": "Trump admin escalates fight against transgender care",
@@ -292,6 +396,39 @@
             "n": "The Hill",
             "b": "center",
             "u": "https://thehill.com/homenews/administration/6030357-donald-trump-white-house-tariffs-foreign-drones-national-security-risks/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9040eaf71c60",
+      "title": "Tiananmen Square massacre: Le Monde reveals unseen footage of the Chinese regime's violent repression",
+      "description": "Unseen footage of the Tiananmen Square protests has been shared, shedding new light on the Chinese regime's violent repression",
+      "lat": 39.9,
+      "lng": 116.38999999999999,
+      "severity": 3,
+      "location": "Tiananmen Square, Beijing, China",
+      "source": "Le Monde English",
+      "url": "https://www.lemonde.fr/en/international/video/2026/08/14/tiananmen-square-massacre-le-monde-reveals-unseen-footage-of-the-chinese-regime-s-violent-repression_6756518_4.html",
+      "image": "https://img.lemde.fr/2026/07/17/60/0/1920/960/644/322/60/0/54276df_upload-1-liy4uyss5hel-tiananmen-sirius.png",
+      "ts": 1786730400000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/video/2026/08/14/tiananmen-square-massacre-le-monde-reveals-unseen-footage-of-the-chinese-regime-s-violent-repression_6756518_4.html"
           }
         ]
       }
@@ -7326,143 +7463,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/vietnams-vinspace-signs-deal-elon-musks-spacex-launch-135536822"
-          }
-        ]
-      }
-    },
-    {
-      "id": "fc0e91de3617",
-      "title": "Colombia declares emergency after devastating earthquake",
-      "description": "A magnitude-7.4 earthquake killed at least 138 people and injured 570 in Colombia.",
-      "lat": 3.42,
-      "lng": -76.52,
-      "severity": 4,
-      "location": "Cali, Colombia",
-      "source": "RT News",
-      "url": "https://www.rt.com/news/644093-colombia-earthquake-curfew-emergency/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.08/thumbnail/6a7aa49685f54063d7501945.jpg",
-      "ts": 1786422650000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/644093-colombia-earthquake-curfew-emergency/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ffb828ab15ac",
-      "title": "Pentagon official asks Asian allies to invest more in defense to deter aggression",
-      "description": "A Pentagon official has urged Asian allies to invest more in their defense to deter regional aggression.",
-      "lat": 38.89,
-      "lng": 77.01,
-      "severity": 2,
-      "location": "Washington D.C., USA",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/pentagon-official-asks-asian-allies-invest-defense-deter-135521741",
-      "image": "https://s.abcnews.com/images/US/wirestory_6de1e9cb4ffea1665d5d199a68dc0b78_4x3_384.jpg",
-      "ts": 1786416925000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/pentagon-official-asks-asian-allies-invest-defense-deter-135521741"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1fbce4ca4003",
-      "title": "Australia, Vietnam Deepen Defense as Supply Chain Risks Grow",
-      "description": "Australia and Vietnam agreed to deepen military cooperation and support the free flow of essential trade as the two nations' leaders met in Canberra.",
-      "lat": -34.18,
-      "lng": 149.13,
-      "severity": 2,
-      "location": "Canberra, Australia",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/vietnam-australia-to-deepen-defense-critical-minerals-links",
-      "image": null,
-      "ts": 1786414916000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-11/vietnam-australia-to-deepen-defense-critical-minerals-links"
-          }
-        ]
-      }
-    },
-    {
-      "id": "19291db3526b",
-      "title": "New Zealand PM Calls Urgent Meeting Over Leadership",
-      "description": "New Zealand Prime Minister Christopher Luxon has called an urgent meeting of National Party lawmakers amid questions over his leadership.",
-      "lat": -41.28,
-      "lng": 174.77,
-      "severity": 2,
-      "location": "Wellington, New Zealand",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/new-zealands-luxon-calls-meeting-of-lawmakers-to-address-leadership-speculation",
-      "image": null,
-      "ts": 1786414162000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-10/nz-national-party-to-meet-as-leadership-pressure-mounts-on-luxon"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/new-zealands-luxon-calls-meeting-of-lawmakers-to-address-leadership-speculation"
           }
         ]
       }
