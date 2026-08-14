@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-14T21:53:11.561917+00:00",
+  "updated": "2026-08-14T22:32:13.758625+00:00",
   "events": [
+    {
+      "id": "521e7065fd36",
+      "title": "Trump admin escalates fight against transgender care",
+      "description": "The Trump administration this week scaled up its fight against transgender care",
+      "lat": 38.9,
+      "lng": -77.02,
+      "severity": 3,
+      "location": "Washington D.C., USA",
+      "source": "The Hill",
+      "url": "https://thehill.com/newsletters/healthcare/6030921-trump-hhs-transgender-care/",
+      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/03/hhs_041625gn04_w.jpg?w=900",
+      "ts": 1786744804000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/newsletters/healthcare/6030921-trump-hhs-transgender-care/"
+          }
+        ]
+      }
+    },
     {
       "id": "4b2b9525cc32",
       "title": "Trump says he’ll soon declare Strait of Hormuz to be US territory",
@@ -61,6 +94,39 @@
             "n": "Washington Examiner",
             "b": "right",
             "u": "https://www.washingtonexaminer.com/policy/infrastructure/4688168/trump-says-soon-would-declare-strait-of-hormuz-united-states-territory-prices/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f2dc407bba17",
+      "title": "US to use economic tactics on Iran",
+      "description": "The Trump administration is ratcheting up rhetorical pressure on Iran as the military conflict in Iran appears mired in a strategic stalemate",
+      "lat": 36.79,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/08/14/us-iran-war-trump-hormuz-carrier-abraham-lincoln-george-washington.html",
+      "image": null,
+      "ts": 1786740461000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/08/14/us-iran-war-trump-hormuz-carrier-abraham-lincoln-george-washington.html"
           }
         ]
       }
@@ -7397,82 +7463,6 @@
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/new-zealands-luxon-calls-meeting-of-lawmakers-to-address-leadership-speculation"
-          }
-        ]
-      }
-    },
-    {
-      "id": "bfbd886e5281",
-      "title": "Trump signs order to limit childhood vaccines",
-      "description": "Trump signed an executive order to decrease the number of immunizations recommended for children by federal agencies.",
-      "lat": 39.99,
-      "lng": 77.00999999999999,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "Breitbart",
-      "url": "https://www.breitbart.com/health/2026/08/10/trump-executive-order-decreases-number-childhood-vaccine-recommendations/",
-      "image": null,
-      "ts": 1786412877000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 2,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/americas/trump-signs-order-to-limit-recommended-childhood-vaccines-to-11"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/health/2026/08/10/trump-executive-order-decreases-number-childhood-vaccine-recommendations/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3276a611b61d",
-      "title": "Turkey Passes Law for PKK Amnesty",
-      "description": "Turkey's parliament has passed a law that sets terms for thousands of PKK members to rejoin society if the group fully disarms.",
-      "lat": 39.93,
-      "lng": 34.76519999999999,
-      "severity": 1,
-      "location": "Ankara, Turkey",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/08-11-2026-turkiye-pkk-bill-sv-mp4?traffic_source=rss",
-      "image": null,
-      "ts": 1786409709000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/11/08-11-2026-turkiye-pkk-bill-sv-mp4?traffic_source=rss"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-10/turkey-passes-law-to-achieve-peace-with-kurdish-separatists"
           }
         ]
       }
