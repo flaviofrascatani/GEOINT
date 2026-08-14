@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-08-14T13:57:09.457170+00:00",
+  "updated": "2026-08-14T15:00:30.764930+00:00",
   "events": [
     {
       "id": "67baaf0df59f",
@@ -69,6 +69,39 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/video/newsfeed/2026/8/14/14-08-clip-pakistan-warns-india-over-indus-pk?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9bb7f8ae9d78",
+      "title": "NATO Jets Shoot Down Drone Over Latvia",
+      "description": "The military alliance has launched an investigation, a NATO spokesperson said, as concerns grow in Europe over unauthorised drone activity as Russia's war in Ukraine grinds on.",
+      "lat": 58.05,
+      "lng": 24.099999999999994,
+      "severity": 2,
+      "location": "Riga, Latvia",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/nato-jets-shoot-down-drone-over-latvia-2nd-time-in-3-months-11910248#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2025-09/8btgu5ls_latvia_625x300_30_September_25.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1786710185000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/nato-jets-shoot-down-drone-over-latvia-2nd-time-in-3-months-11910248#publisher=newsstand"
           }
         ]
       }
@@ -7410,39 +7443,6 @@
             "n": "Rio Times",
             "b": "center",
             "u": "https://www.riotimesonline.com/colusaid/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1d2209976435",
-      "title": "Oman says grounded tanker oil spill covers 400 square km",
-      "description": "A leaking crude oil tanker off the coast of Oman has created a slick covering almost 400 square kilometers.",
-      "lat": 23.62,
-      "lng": 58.59,
-      "severity": 3,
-      "location": "Oman",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/08/oman-says-grounded-tanker-oil-spill-covers-400-square-km",
-      "image": null,
-      "ts": 1786369601000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/oman-says-grounded-tanker-oil-spill-covers-400-square-km"
           }
         ]
       }
