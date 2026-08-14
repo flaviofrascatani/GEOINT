@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-14T19:04:55.818644+00:00",
+  "updated": "2026-08-14T19:51:55.712570+00:00",
   "events": [
+    {
+      "id": "f982f45ae6f5",
+      "title": "Oil spill off Oman after grounded tanker leaks sanctioned Russian oil",
+      "description": "A potential environmental disaster is unfolding off Oman, where a grounded tanker is leaking sanctioned Russian oil",
+      "lat": 23.63,
+      "lng": 58.59,
+      "severity": 3,
+      "location": "Oman",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/14/new-aerial-video-reveals-huge-scale-of-oil-spill-off-oman?traffic_source=rss",
+      "image": null,
+      "ts": 1786736205000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/14/new-aerial-video-reveals-huge-scale-of-oil-spill-off-oman?traffic_source=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "6d1a331ae0db",
       "title": "US accuses over 40 countries of helping China avoid tariffs",
@@ -7405,39 +7438,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/08/turkish-parliament-passes-landmark-law-advance-pkk-peace-process"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f11e01632cb3",
-      "title": "Colombia recognizes Golan Heights as Israeli territory",
-      "description": "Colombia has become the second nation to recognize the Golan Heights as Israeli territory, following the US.",
-      "lat": 4.61,
-      "lng": -72.1748,
-      "severity": 2,
-      "location": "Bogota, Colombia",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/israel-news/article-905102",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/557954",
-      "ts": 1786389764000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/israel-news/article-905102"
           }
         ]
       }
