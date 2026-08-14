@@ -1,7 +1,78 @@
 {
   "schema": 1,
-  "updated": "2026-08-14T12:12:07.468707+00:00",
+  "updated": "2026-08-14T13:57:09.457170+00:00",
   "events": [
+    {
+      "id": "67baaf0df59f",
+      "title": "USS Washington aircraft carrier heads to Middle East",
+      "description": "The USS George Washington aircraft carrier departed Vietnam last week and is headed to the Middle East to replace the USS Abraham Lincoln",
+      "lat": 11.88,
+      "lng": 106.62,
+      "severity": 2,
+      "location": "Ho Chi Minh City, Vietnam",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/aircraft-carrier-uss-george-washington-uss-lincoln-iran-middle-east/",
+      "image": null,
+      "ts": 1786715122000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/aircraft-carrier-uss-george-washington-uss-lincoln-iran-middle-east/"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/uss-george-washington-to-relieve-uss-abraham-lincoln-in-middle-east/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5bf9ed5e5c62",
+      "title": "Pakistan PM’s ‘red line’ warning to India over water treaty",
+      "description": "Pakistan Prime Minister Shehbaz Sharif accused India of illegally suspending the Indus Waters Treaty",
+      "lat": 34.82,
+      "lng": 74.9452,
+      "severity": 2,
+      "location": "Islamabad, Pakistan",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/14/14-08-clip-pakistan-warns-india-over-indus-pk?traffic_source=rss",
+      "image": null,
+      "ts": 1786712839000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/14/14-08-clip-pakistan-warns-india-over-indus-pk?traffic_source=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "78de1c7cf57f",
       "title": "US team sent to Taiwan to train coastguards amid surge in mainland Chinese activity",
@@ -37,11 +108,11 @@
     },
     {
       "id": "e51d7b98e894",
-      "title": "Poland says it thwarted Russian assassination attempt on U.S. citizen in Warsaw",
-      "description": "Poland thwarted a Russian assassination attempt on a U.S. citizen in Warsaw, the first time Russia attempted to assassinate a U.S. citizen on NATO territory.",
+      "title": "Poland says it thwarted Russian assassination attempt on U.S. citizen",
+      "description": "Prime Minister Donald Tusk said it was the first time Russia attempted to assassinate a U.S. citizen on the territory of another NATO member",
       "lat": 53.33,
       "lng": 22.9152,
-      "severity": 4,
+      "severity": 3,
       "location": "Warsaw, Poland",
       "source": "Washington Post World",
       "url": "https://www.washingtonpost.com/world/2026/08/14/poland-says-it-thwarted-russian-assassination-attempt-us-citizen-warsaw/",
@@ -50,25 +121,20 @@
       "coverage": {
         "left": 1,
         "center": 0,
-        "right": 1,
-        "total": 2,
+        "right": 0,
+        "total": 1,
         "buckets": {
           "left": 0,
           "lean_left": 1,
           "center": 0,
           "lean_right": 0,
-          "right": 1
+          "right": 0
         },
         "sources": [
           {
             "n": "Washington Post World",
             "b": "lean_left",
             "u": "https://www.washingtonpost.com/world/2026/08/14/poland-says-it-thwarted-russian-assassination-attempt-us-citizen-warsaw/"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/world/4687219/poland-russia-assassination-plot-us-citizen/"
           }
         ]
       }
@@ -434,6 +500,39 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/08/14/unprecedented-rainfall-in-japan-leaves-at-least-four-dead-in-chiba-prefecture/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bdc75871d274",
+      "title": "Iran continues US talks through intermediaries",
+      "description": "Iran continues US talks through intermediaries, ambassador says",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "TASS",
+      "url": "https://tass.com/world/2172693",
+      "image": null,
+      "ts": 1786692255000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2172693"
           }
         ]
       }
@@ -7344,135 +7443,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/08/oman-says-grounded-tanker-oil-spill-covers-400-square-km"
-          }
-        ]
-      }
-    },
-    {
-      "id": "63ee6225e79e",
-      "title": "Algeria hands over four Russian-made helicopters to Niger",
-      "description": "Algeria decided to transfer the helicopters to Niger free of charge to strengthen the fraternal and historical ties between the two countries.",
-      "lat": 13.52,
-      "lng": 2.11,
-      "severity": 2,
-      "location": "Niamey, Niger",
-      "source": "TASS",
-      "url": "https://tass.com/world/2170991",
-      "image": null,
-      "ts": 1786368899000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2170991"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f2958a3fbcb7",
-      "title": "Iran toughens its demands over the vital Strait of Hormuz",
-      "description": "Iran has toughened its demands over the Strait of Hormuz, despite ongoing negotiations.",
-      "lat": 29.58,
-      "lng": 50.85,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "Egypt Independent",
-      "url": "https://www.egyptindependent.com/rather-than-capitulating-to-the-us-iran-toughens-its-demands-over-the-vital-strait-of-hormuz/",
-      "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2266235528.jpg?c=original&amp;q=w_860,c_fill",
-      "ts": 1786365176000,
-      "coverage": {
-        "left": 4,
-        "center": 3,
-        "right": 0,
-        "total": 7,
-        "buckets": {
-          "left": 0,
-          "lean_left": 4,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/10/world/middleeast/iran-strait-of-hormuz-us-oman-talks.html"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/video/iran-sets-new-terms-for-reopening-the-strait-of-hormuz/"
-          },
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/08/10/iran-us-strait-of-hormuz-conditions-trump-negotiations/"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/iran-us-war-live-updates-august-10-2026-hormuz-strait-reopen-us-iran-talks/article71326809.ece"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeVR5TzZOblVGaldmaERTUlk2Sk5XSEhfYWNiTWMyRVhwNXdZamp5LVhBX2JKMTdxSlFlZHQ4WFc3Vk1OakI0VFlNMThrS3ZPdzB6LUxCSThSSmtvbW5ISkJYSWN3WUNDaTFUTXl1QnFoXzlCV3UtdW9CNjJodTc2VGhWTG0?oc=5"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/rather-than-capitulating-to-the-us-iran-toughens-its-demands-over-the-vital-strait-of-hormuz/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "fe1012f477c4",
-      "title": "México toma medidas para abordar preocupaciones de incendios y deforestación",
-      "description": "La presidenta Claudia Sheinbaum: 'Esfuerzo nacional, plantaremos 6,6 millones de árboles'.",
-      "lat": 19.43,
-      "lng": -99.14,
-      "severity": 1,
-      "location": "Mexico City, Mexico",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/10/ambiente-mexico-toma-medidas-para-abordar-preocupaciones-de-incendios-y-deforestacion_86f64a57-90b4-4579-b95e-fe1aba4947d0.html",
-      "image": null,
-      "ts": 1786362915000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/10/ambiente-mexico-toma-medidas-para-abordar-preocupaciones-de-incendios-y-deforestacion_86f64a57-90b4-4579-b95e-fe1aba4947d0.html"
           }
         ]
       }
