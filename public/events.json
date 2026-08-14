@@ -1,7 +1,144 @@
 {
   "schema": 1,
-  "updated": "2026-08-13T23:51:55.333574+00:00",
+  "updated": "2026-08-14T02:34:06.854105+00:00",
   "events": [
+    {
+      "id": "b624cf217e24",
+      "title": "US to apply economic measures 'never seen before' on Iran",
+      "description": "The US will apply economic measures 'never seen before' on Iran, according to US Treasury Secretary Bessent.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-905500",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_3582,w_5373/723049",
+      "ts": 1786675168000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/iran-news/article-905500"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8c60cb8d6ba4",
+      "title": "US disputes reports of poor conditions on carrier in Gulf",
+      "description": "The US has disputed reports of poor conditions and mental health strain aboard the USS Abraham Lincoln aircraft carrier in the Middle East.",
+      "lat": 25.98,
+      "lng": 56.25,
+      "severity": 3,
+      "location": "Strait of Hormuz",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/us-disputes-reports-of-trying-conditions-on-carrier-in-gulf/a-78359084?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1786674846714,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/new-aircraft-carrier-heads-to-middle-east-amid-reports-of-uss-abraham-lincoln-issue-11907755#publisher=newsstand"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/us-disputes-reports-of-trying-conditions-on-carrier-in-gulf/a-78359084?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c03671eadb8e",
+      "title": "Venezuela government holds talks with opposition",
+      "description": "The government of Venezuela has held talks with part of the opposition, marking a new chapter for the country.",
+      "lat": 10.48,
+      "lng": -64.9848,
+      "severity": 1,
+      "location": "Caracas, Venezuela",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/longform/2026/8/14/talks-between-government-and-opposition-mark-a-new-chapter-for-venezuela?traffic_source=rss",
+      "image": null,
+      "ts": 1786673223000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/longform/2026/8/14/talks-between-government-and-opposition-mark-a-new-chapter-for-venezuela?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3f3d5d839cf4",
+      "title": "Russia's Belgorod Region records over 72,000 Ukrainian attacks since 2022",
+      "description": "The Belgorod Region in Russia has recorded over 72,000 Ukrainian attacks since 2022, according to the region's governor.",
+      "lat": 51.55,
+      "lng": 30.52000000000001,
+      "severity": 3,
+      "location": "Kyiv, Ukraine",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2172633",
+      "image": "https://s.abcnews.com/images/International/wirestory_7aff38d17dd195e63b7c55fc5a008c22_4x3_384.jpg",
+      "ts": 1786670701000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2172633"
+          }
+        ]
+      }
+    },
     {
       "id": "5b8a5159d9f0",
       "title": "Fireworks light skies over Pakistan’s capital as crowds celebrate Independence Day",
@@ -590,6 +727,39 @@
             "n": "OAN",
             "b": "right",
             "u": "https://www.oann.com/newsroom/officials-confirm-complete-withdrawal-of-u-s-troops-from-iraq-by-sept-30th/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ee1ea11a7727",
+      "title": "Nero's Bridge emerges from Tiber River as Rome faces water crisis",
+      "description": "Rome's ancient Nero's Bridge has reemerged from the Tiber River as exceptionally low water levels expose parts of the historic structure.",
+      "lat": 41.9,
+      "lng": 12.46,
+      "severity": 3,
+      "location": "Rome, Italy",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/neros-bridge-emerges-tiber-river-rome-faces-water-135619391",
+      "image": "https://s.abcnews.com/images/Weird/wirestory_d42fbed89b54530bd5c381aa53a1884b_4x3_384.jpg",
+      "ts": 1786641763000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/neros-bridge-emerges-tiber-river-rome-faces-water-135619391"
           }
         ]
       }
@@ -5406,54 +5576,6 @@
       }
     },
     {
-      "id": "3f3d5d839cf4",
-      "title": "Russia has bombarded Ukrainian cities with missiles, drones, and bombs, killing at least nine civilians",
-      "description": "Russian aerial attacks kill 9 in Ukraine as Zelenskyy warns Moscow is getting help",
-      "lat": 51.55,
-      "lng": 30.52000000000001,
-      "severity": 2,
-      "location": "Kyiv, Ukraine",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/russian-aerial-attacks-kill-9-ukraine-zelenskyy-warns-135538419",
-      "image": "https://s.abcnews.com/images/International/wirestory_7aff38d17dd195e63b7c55fc5a008c22_4x3_384.jpg",
-      "ts": 1786440608000,
-      "coverage": {
-        "left": 2,
-        "center": 1,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 1,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/russian-aerial-attacks-kill-9-ukraine-zelenskyy-warns-135538419"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/ukraine-russia-war-drone-attack-tatarstan-oil/"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/ukrainian-drone-strike-kills-13-inside-russia-authorities-say-in-deadliest-attack-in-two-years/"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/politics/2171289"
-          }
-        ]
-      }
-    },
-    {
       "id": "35eb2ca1a17a",
       "title": "China detains Japanese executives in dual-use technology export probe",
       "description": "China has detained several Japanese nationals for allegedly violating export restrictions on dual-use goods.",
@@ -7551,143 +7673,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/08/israeli-military-closes-palestinian-christian-village-taybeh-citing-settler"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ee7f4943adc9",
-      "title": "Bolivia records its first same-sex civil marriage",
-      "description": "Bolivia recorded its first civil marriage between two people of the same sex, held on Friday, August 7, in Santa Cruz.",
-      "lat": -17.78,
-      "lng": -63.18,
-      "severity": 1,
-      "location": "Santa Cruz, Bolivia",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/08/09/bolivia-records-its-first-same-sex-civil-marriage-after-a-court-ruling?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111082/100x80/colla.jpeg",
-      "ts": 1786308240000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/08/09/bolivia-records-its-first-same-sex-civil-marriage-after-a-court-ruling?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a0082d48ff09",
-      "title": "Germany warns of 'daily hybrid warfare' after explosive-laden drone found",
-      "description": "Germany's interior minister warned of the threat of 'daily hybrid warfare' after an explosive-laden drone was discovered in the country.",
-      "lat": 52.52,
-      "lng": 13.41,
-      "severity": 3,
-      "location": "Berlin, Germany",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/9/germany-warns-of-daily-hybrid-warfare-following-suspected-drone-attack?traffic_source=rss",
-      "image": null,
-      "ts": 1786308025000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/9/germany-warns-of-daily-hybrid-warfare-following-suspected-drone-attack?traffic_source=rss"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/09/german-minister-warns-of-hybrid-warfare-after-suspected-drone-attack.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7c32a781788e",
-      "title": "Israel's new $634M German-built 'doomsday' sub gives major boost to Iran deterrence",
-      "description": "The INS Drakon is the largest submarine built in Germany since World War II, carrying a $634 million price tag as Israel bolsters naval power.",
-      "lat": 32.06,
-      "lng": 34.77000000000001,
-      "severity": 2,
-      "location": "Tel Aviv, Israel",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/israel-receives-634-million-submarine-germany-major-boost-naval-deterrence",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/08/931/523/israeli-submarine.jpg?ve=1&tl=1",
-      "ts": 1786304049000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/israel-receives-634-million-submarine-germany-major-boost-naval-deterrence"
-          }
-        ]
-      }
-    },
-    {
-      "id": "70ef8963a88d",
-      "title": "Syria and Russia Agree on Future of Military Bases",
-      "description": "Syria will take over management of two Russian bases that were used to support ousted leader Bashar Assad during the Syrian civil war.",
-      "lat": 33.52,
-      "lng": 36.27000000000001,
-      "severity": 1,
-      "location": "Damascus, Syria",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/syria-says-deal-agreed-with-russia-on-future-of-military-bases/a-78297584?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1786301623775,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/syria-says-deal-agreed-with-russia-on-future-of-military-bases/a-78297584?maca=en-rss-en-all-1573-rdf"
           }
         ]
       }
