@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-08-14T17:57:57.657642+00:00",
+  "updated": "2026-08-14T19:04:55.818644+00:00",
   "events": [
+    {
+      "id": "6d1a331ae0db",
+      "title": "US accuses over 40 countries of helping China avoid tariffs",
+      "description": "The White House says Canada, Japan, EU and others are enabling evasion of levies for $60bn in trade via ‘transshipment scam’",
+      "lat": 40.0,
+      "lng": -77.02,
+      "severity": 2,
+      "location": "Washington, D.C., USA",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/5d5ed2dd-8326-4cad-aac3-5816448ceccf?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1786733694000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/5d5ed2dd-8326-4cad-aac3-5816448ceccf?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d36e57b977ba",
+      "title": "Brazil triggers reciprocity process against US tariffs",
+      "description": "Brazilian President Luiz Inácio Lula da Silva says his government has triggered an economic reciprocity law against US tariffs",
+      "lat": -14.69,
+      "lng": -46.0248,
+      "severity": 2,
+      "location": "Brasília, Brazil",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/brazils-lula-triggers-reciprocity-process-us-tariffs-effort-135652169",
+      "image": "https://s.abcnews.com/images/US/wirestory_1d00c49488ea803e05c17980f10a250d_4x3_384.jpg",
+      "ts": 1786732322000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/brazils-lula-triggers-reciprocity-process-us-tariffs-effort-135652169"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9649a33b7675",
+      "title": "Trump administration unveils tariffs on drone imports",
+      "description": "President Trump announced new tariffs on drone imports in an effort to curb US reliance on foreign supply chains amid possible national security threats",
+      "lat": 38.9,
+      "lng": -77.02,
+      "severity": 2,
+      "location": "Washington, D.C., USA",
+      "source": "The Hill",
+      "url": "https://thehill.com/homenews/administration/6030357-donald-trump-white-house-tariffs-foreign-drones-national-security-risks/",
+      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/08/AP24213427707275-e1786730288731.jpg?w=900",
+      "ts": 1786732033000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/homenews/administration/6030357-donald-trump-white-house-tariffs-foreign-drones-national-security-risks/"
+          }
+        ]
+      }
+    },
     {
       "id": "5a77af0bf017",
       "title": "UAE accuses Iran of Hormuz attacks",
@@ -251,10 +350,10 @@
     {
       "id": "1115e51dc46d",
       "title": "American missionary kidnapped in Niger released after 9 months",
-      "description": "Kevin Rideout was taken from outside his home in Niger’s capital in October, and U.S. officials scrambled to bring him home.",
+      "description": "Kevin Rideout was taken from outside his home in Niger’s capital in October, and US officials scrambled to bring him home",
       "lat": 14.61,
       "lng": 4.015199999999993,
-      "severity": 2,
+      "severity": 1,
       "location": "Niamey, Niger",
       "source": "Washington Post World",
       "url": "https://www.washingtonpost.com/world/2026/08/14/american-kevin-rideout-released-after-niger-kidnapping-missionary-group-says/",
@@ -7339,105 +7438,6 @@
             "n": "Jerusalem Post",
             "b": "center",
             "u": "https://www.jpost.com/israel-news/article-905102"
-          }
-        ]
-      }
-    },
-    {
-      "id": "90830b0421ce",
-      "title": "Libya's central bank governor resigns",
-      "description": "The governor of Libya's central bank, Naji Issa, has resigned without giving a reason.",
-      "lat": 32.88,
-      "lng": 13.18,
-      "severity": 3,
-      "location": "Tripoli, Libya",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/08/10/libyas-central-bank-governor-resigns-without-explanation/",
-      "image": "http://images.euronews.com/articles/stories/09/86/90/71/640x360_cmsv2_4ad20890-7d09-5ea3-b34d-0348f1953356-9869071.jpg?1786370346",
-      "ts": 1786385689000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/10/libyas-central-bank-governor-resigns-without-explanation/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "95860421d557",
-      "title": "Glencore-backed group to rescue cobalt refiner",
-      "description": "A new consortium is aiming to rescue North America's only cobalt refinery, Sherritt, with the backing of Glencore.",
-      "lat": 43.65,
-      "lng": -79.38,
-      "severity": 1,
-      "location": "Toronto, Canada",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/ba95957a-e4fa-4caf-8ddb-ad0e203eef29?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1786384224000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/ba95957a-e4fa-4caf-8ddb-ad0e203eef29?syn-25a6b1a6=1"
-          }
-        ]
-      }
-    },
-    {
-      "id": "500656132248",
-      "title": "Iran-US tensions",
-      "description": "US President Donald Trump demands that Iran pay compensation for those it has killed and wounded, in response to Iran seeking compensation for damages.",
-      "lat": 36.79,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "The Hill",
-      "url": "https://thehill.com/homenews/6020786-trump-demands-iran-compensation/",
-      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/08/trumpdonald_081125gn19_w.jpg?w=900",
-      "ts": 1786383111000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/trump-says-iran-must-pay-compensation-those-it-has-killed-and-wounded"
           }
         ]
       }
