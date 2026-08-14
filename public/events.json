@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-14T05:59:49.516965+00:00",
+  "updated": "2026-08-14T07:43:16.378326+00:00",
   "events": [
+    {
+      "id": "8ee8efce961e",
+      "title": "Tunnel collapses at an Indian hydropower project, killing at least 7",
+      "description": "An under-construction tunnel has collapsed at a hydropower project in India’s northern hill state of Uttarakhand, leaving at least seven workers dead.",
+      "lat": 29.37,
+      "lng": 79.43,
+      "severity": 4,
+      "location": "Uttarakhand, India",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/tunnel-collapses-indian-hydropower-project-killing-7-135633384",
+      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
+      "ts": 1786690174000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/tunnel-collapses-indian-hydropower-project-killing-7-135633384"
+          }
+        ]
+      }
+    },
     {
       "id": "10e8863d53d2",
       "title": "Nubank posts $1.061 billion in net income in Q2 2026",
@@ -145,6 +178,39 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/north-korea-launches-ballistic-missile-us-south-korea-prepare-military-drills"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6e430dcf14c1",
+      "title": "US to apply unprecedented economic isolation on Iran",
+      "description": "The US will soon announce unprecedented economic measures against Iran, Treasury Secretary Scott Bessent said, intensifying the Trump administration’s effort to force Tehran’s capitulation after almost two years of failed negotiations.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-14/us-to-roll-out-economic-isolation-plan-for-iran-next-week",
+      "image": null,
+      "ts": 1786675858000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-14/us-to-roll-out-economic-isolation-plan-for-iran-next-week"
           }
         ]
       }
@@ -325,6 +391,39 @@
       }
     },
     {
+      "id": "3a8c11239818",
+      "title": "Trump announces tariffs of up to 100% on imported drones",
+      "description": "A White House statement said the tariffs will 'encourage increased domestic production' of drones and their components, and reduce reliance on foreign supply chains.",
+      "lat": 38.9,
+      "lng": -75.1148,
+      "severity": 2,
+      "location": "Washington D.C., USA",
+      "source": "Le Monde English",
+      "url": "https://www.lemonde.fr/en/international/article/2026/08/14/trump-announces-tariffs-of-up-to-100-on-imported-drones_6756487_4.html",
+      "image": "https://img.lemde.fr/2026/08/14/250/0/3000/1500/644/322/60/0/fd3fa99_upload-1-7rticxjmc2ry-ef9d9a7-e864d0b2a901407aba0ea276c49c30a2-e864d0b2a901407aba0ea276c49c30a2-0.jpg",
+      "ts": 1786670784000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/08/14/trump-announces-tariffs-of-up-to-100-on-imported-drones_6756487_4.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "3f3d5d839cf4",
       "title": "Russia's Belgorod Region records over 72,000 Ukrainian attacks since 2022",
       "description": "The Belgorod Region in Russia has recorded over 72,000 Ukrainian attacks since 2022, according to the region's governor.",
@@ -353,6 +452,59 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/politics/2172633"
+          }
+        ]
+      }
+    },
+    {
+      "id": "44ed7184df14",
+      "title": "Israeli settlers besiege Palestinian homes in West Bank village",
+      "description": "Dozens of Israeli settlers have trapped two Palestinian families in their West Bank homes for days, cutting off food, water and electricity.",
+      "lat": 32.13,
+      "lng": 35.28999999999999,
+      "severity": 3,
+      "location": "Qusra, West Bank",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/video/u-s-ambassador-condemns-israeli-terrorists-for-siege-of-west-bank-homes-268286021795",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/mpx/2704722219/2026_08/1786663714273_now_hallie_mbr_west_bank_flareup_260813_S3_1920x1080-pr6o5d.jpg",
+      "ts": 1786663721000,
+      "coverage": {
+        "left": 2,
+        "center": 3,
+        "right": 0,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/13/world/middleeast/west-bank-siege-israeli-settlers.html"
+          },
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/video/u-s-ambassador-condemns-israeli-terrorists-for-siege-of-west-bank-homes-268286021795"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/siege-of-palestinian-homes-in-west-bank-a-horrific-act-of-terror-says-us-ambassador-13572508"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/israeli-military-moves-as-settlers-besiege-3-west-bank-homes/a-78355266?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMEFzSDFqLXh2dEhOckNuLU5yeDBTdHlFb1RlS1lBUF9Fa0JxQ09zQnE2THhVY2hFY3BJcHp6TC1zcm5xa0Nya1ZxRXJuc0hsY2xrU1NsbVZ2Q19DbkxBTHdFNXk1N1ZodjZxRDgxeTNFV0hVdjM4MnMtNzl3UDlIUzJHdTVkTzEyS05yM2FQMG50YUU1MWVlakZKUUhXSkhCTjl2YnIzYVF3MGpJMWt0UXFqalY5T3c?oc=5"
           }
         ]
       }
@@ -7406,168 +7558,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/08/houthis-resume-attacks-yemens-mocha-port-city-yemeni-military-spokesperson-says"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cf4de5ab7b82",
-      "title": "Syria reaches deal with Moscow on Russian bases",
-      "description": "Syria announced a deal with Russia regarding the fate of Russian bases in the country.",
-      "lat": 33.51,
-      "lng": 36.28999999999999,
-      "severity": 2,
-      "location": "Damascus, Syria",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/08/syria-says-reached-deal-moscow-fate-russian-bases",
-      "image": null,
-      "ts": 1786325421000,
-      "coverage": {
-        "left": 2,
-        "center": 2,
-        "right": 1,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 2,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/syria-says-reached-deal-with-moscow-on-2-russian-bases-11887197#publisher=newsstand"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/08/09/syria-says-deal-with-moscow-reached-on-fate-of-russian-bases_6756317_4.html"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/df62a69e-aa53-4cde-8a02-4d2cd465a370?syn-25a6b1a6=1"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/syria-says-reached-deal-moscow-fate-russian-bases"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/mid-east/syria-russia-seal-deal-on-future-of-moscows-mediterranean-bases"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6f2d50aab27a",
-      "title": "Taiwan plans record defense budget to counter China",
-      "description": "Taiwan plans to spend a record NT$1.1 trillion ($34.1 billion) on its military in 2027.",
-      "lat": 26.13,
-      "lng": 123.45519999999999,
-      "severity": 2,
-      "location": "Taipei, Taiwan",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-10/taiwan-plans-record-defense-budget-to-counter-china-report-says",
-      "image": null,
-      "ts": 1786325372000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-10/taiwan-plans-record-defense-budget-to-counter-china-report-says"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ef3c756dc1dc",
-      "title": "Taiwan practices war games amid Chinese aggression concerns",
-      "description": "Taiwan conducted war games to prepare for a potential invasion by China.",
-      "lat": 25.03,
-      "lng": 123.45519999999999,
-      "severity": 3,
-      "location": "Taipei, Taiwan",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/video/taiwan-practices-war-games-fears-increasing-chinese-aggression-questions-trumps-support/",
-      "image": null,
-      "ts": 1786323361000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/video/taiwan-practices-war-games-fears-increasing-chinese-aggression-questions-trumps-support/"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/east-asia/taiwan-bets-on-drone-hellscape-to-deter-possible-chinese-invasion"
-          }
-        ]
-      }
-    },
-    {
-      "id": "83fb556b340b",
-      "title": "Wildfires in western Canada force more than 20,000 people to evacuate",
-      "description": "British Columbia declared a state of emergency after a fast-moving wildfire destroyed homes and forced more than 20,000 people to flee their communities.",
-      "lat": 49.28,
-      "lng": -123.12,
-      "severity": 4,
-      "location": "Victoria, British Columbia, Canada",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/bald-range-wildfire-canada-british-columbia/",
-      "image": "https://s.abcnews.com/images/International/wirestory_61002c95f641a4060b78195b016fbea3_4x3_384.jpg",
-      "ts": 1786322860000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/bald-range-wildfire-canada-british-columbia/"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/thousands-evacuated-as-huge-wildfire-spreads-in-canada-13571032"
           }
         ]
       }
