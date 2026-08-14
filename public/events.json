@@ -1,7 +1,121 @@
 {
   "schema": 1,
-  "updated": "2026-08-14T02:34:06.854105+00:00",
+  "updated": "2026-08-14T04:24:52.493110+00:00",
   "events": [
+    {
+      "id": "cb39af2df6ed",
+      "title": "China launches satellite for Algeria, first for an Arab country",
+      "description": "A Chinese-made communications satellite became the first 'export' of such a spacecraft to an Arab country when it was launched by China for Algeria.",
+      "lat": 36.77,
+      "lng": 3.06,
+      "severity": 1,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1786681492318,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "33f36b836522",
+      "title": "Brazil explores retaliatory options to new US tariffs",
+      "description": "Brazil has not yet decided whether it will proceed with retaliatory measures, but commits to defending its position.",
+      "lat": -14.68,
+      "lng": -47.93000000000001,
+      "severity": 2,
+      "location": "Brasilia, Brazil",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/14/brazil-begins-exploring-retaliatory-options-to-new-us-tariffs?traffic_source=rss",
+      "image": null,
+      "ts": 1786680020000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/14/brazil-begins-exploring-retaliatory-options-to-new-us-tariffs?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6eab79a0a563",
+      "title": "North Korea warns of new 'deterrent' ahead of US-South Korea drills",
+      "description": "Pyongyang describes the 11-day annual exercises due to begin as rehearsals for an invasion, warning of a new 'deterrent'.",
+      "lat": 40.13,
+      "lng": 125.75,
+      "severity": 2,
+      "location": "Pyongyang, North Korea",
+      "source": "Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/08/14/asia-pacific/politics/north-korea-deterrent-us-drills/",
+      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/08/14/557251.jpg",
+      "ts": 1786678740000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/north-korea-slams-us-south-korea-military-drills-threatens-to-exercise-self-defence/article71343931.ece"
+          },
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/08/14/asia-pacific/politics/north-korea-deterrent-us-drills/"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/east-asia/north-korea-denounces-us-south-korea-drills-kcna-says"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/north-korea-launches-ballistic-missile-us-south-korea-prepare-military-drills"
+          }
+        ]
+      }
+    },
     {
       "id": "b624cf217e24",
       "title": "US to apply economic measures 'never seen before' on Iran",
@@ -74,6 +188,77 @@
       }
     },
     {
+      "id": "50ff848cd54b",
+      "title": "US threatens Iran with economic isolation",
+      "description": "US Treasury Secretary Scott Bessent threatened to subject Iran to economic isolation 'like the world has never seen before', adding that new measures are expected next week.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20260814-middle-east-live-us-threatens-iran-with-economic-isolation-like-never-seen-before",
+      "image": "https://s.france24.com/media/display/cf10c646-9783-11f1-b889-005056a97e36/w:1024/p:16x9/AP26211764838482.jpg",
+      "ts": 1786674715000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20260814-middle-east-live-us-threatens-iran-with-economic-isolation-like-never-seen-before"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/iran-news/article-905500"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c4ac839b240e",
+      "title": "Poland foils Russian assassination plot against US citizen in Warsaw",
+      "description": "Polish forces thwarted a Russian assassination plot against a US citizen in Warsaw, in what has been deemed an unprecedented attack from Moscow.",
+      "lat": 53.33,
+      "lng": 21.00999999999999,
+      "severity": 3,
+      "location": "Warsaw, Poland",
+      "source": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/world/4687219/poland-russia-assassination-plot-us-citizen/",
+      "image": null,
+      "ts": 1786673979000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4687219/poland-russia-assassination-plot-us-citizen/"
+          }
+        ]
+      }
+    },
+    {
       "id": "c03671eadb8e",
       "title": "Venezuela government holds talks with opposition",
       "description": "The government of Venezuela has held talks with part of the opposition, marking a new chapter for the country.",
@@ -135,6 +320,49 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/politics/2172633"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b72edc92c36f",
+      "title": "Argentina's largest investment project aims to export Vaca Muerta gas",
+      "description": "Argentina's majority state-owned oil company YPF confirmed that it has filed an application for the Argentina LNG project to join the Large Investment Incentive Regime (RIGI).",
+      "lat": -33.5,
+      "lng": -58.370000000000005,
+      "severity": 1,
+      "location": "Buenos Aires, Argentina",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/08/13/argentina-s-largest-investment-project-aims-to-export-vaca-muerta-gas?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": "https://en.mercopress.com/data/cache/noticias/111137/100x80/ypf.jpg",
+      "ts": 1786661160000,
+      "coverage": {
+        "left": 0,
+        "center": 3,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/14/argentina-ypf-eni-e-xrg-51-miliardi-per-esportare-gnl-da-vaca-muerta_69b571fd-4e67-4a6a-b565-1210ed84b96d.html"
+          },
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/08/13/argentina-s-largest-investment-project-aims-to-export-vaca-muerta-gas?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+          },
+          {
+            "n": "Buenos Aires Times",
+            "b": "center",
+            "u": "https://www.batimes.com.ar/news/economy/us-ambassador-warns-argentina-over-chinese-firms-in-vaca-muerta.phtml"
           }
         ]
       }
@@ -284,6 +512,39 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/world/2172617"
+          }
+        ]
+      }
+    },
+    {
+      "id": "da31cdbffb44",
+      "title": "Saudi crown prince, CENTCOM chief discuss regional tensions",
+      "description": "Saudi Crown Prince Mohammed bin Salman held talks with US Central Command chief Adm. Brad Cooper on Thursday, focusing on efforts to ease regional tensions and strengthen defense.",
+      "lat": 24.71,
+      "lng": 46.68,
+      "severity": 2,
+      "location": "Riyadh, Saudi Arabia",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/world/mid-east/saudi-crown-prince-centcom-chief-discuss-regional-tensions",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/08/13/455729.jpg",
+      "ts": 1786656720000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/saudi-crown-prince-centcom-chief-discuss-regional-tensions"
           }
         ]
       }
@@ -1338,39 +1599,6 @@
       }
     },
     {
-      "id": "cb39af2df6ed",
-      "title": "Satellite lofted for first Arab country",
-      "description": "A Chinese-made communications satellite became the first 'export' of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria",
-      "lat": 36.77,
-      "lng": 3.06,
-      "severity": 2,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1786623999351,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
-          }
-        ]
-      }
-    },
-    {
       "id": "9adf00f1037f",
       "title": "One person killed and six injured after explosion at Dutch port",
       "description": "A blast at a petroleum storage facility in the port of Rotterdam has killed one person and wounded six others, Dutch officials said.",
@@ -1513,6 +1741,39 @@
       }
     },
     {
+      "id": "95f7a136565b",
+      "title": "Russia blockades Ukrainian ports, threatens global grain supplies",
+      "description": "The Russian blockade of major Ukrainian ports threatens global grain supplies, with deadly strikes part of a long-running maritime battle with Ukraine.",
+      "lat": 46.48,
+      "lng": 32.6352,
+      "severity": 3,
+      "location": "Odessa, Ukraine",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/08/13/world/europe/russia-ukraine-ports-odesa-cargo-ship-attacks.html",
+      "image": "https://static01.nyt.com/images/2026/08/12/multimedia/12int-ukraine-ports-01-lvhk/12int-ukraine-ports-01-lvhk-mediumSquareAt3X-v2.jpg",
+      "ts": 1786616538000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/13/world/europe/russia-ukraine-ports-odesa-cargo-ship-attacks.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "5e77dd24d025",
       "title": "SK Hynix invests $720 billion in AI-fueled buildout",
       "description": "SK Hynix is pouring $720 billion into memory factories to meet AI demand, marking a significant investment in the industry.",
@@ -1627,49 +1888,6 @@
             "n": "Daily Express World",
             "b": "right",
             "u": "https://www.express.co.uk/news/world/2238727/kuril-islands-putin-sparks-japan"
-          }
-        ]
-      }
-    },
-    {
-      "id": "95f7a136565b",
-      "title": "Russian Blockade of Major Ukrainian Ports Threatens Global Grain Supplies",
-      "description": "The deadly strikes are part of a long-running maritime battle with Ukraine and echo battles over other key shipping routes around the world.",
-      "lat": 46.48,
-      "lng": 32.6352,
-      "severity": 2,
-      "location": "Odessa, Ukraine",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/08/13/world/europe/russia-ukraine-ports-odesa-cargo-ship-attacks.html",
-      "image": "https://static01.nyt.com/images/2026/08/12/multimedia/12int-ukraine-ports-01-lvhk/12int-ukraine-ports-01-lvhk-mediumSquareAt3X-v2.jpg",
-      "ts": 1786609086000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/13/world/europe/russia-ukraine-ports-odesa-cargo-ship-attacks.html"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yMkhxMGxURF9FNDF6a1QtU1hsU01vdWN5bjBZYTFZd1k1SlU4Y2pqdkRMSGtxVF81Nm1naW01WnNlUWJ1WUJfbWgzVnRBZzdoQmN1V3RnNzdsZw?oc=5"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/defense/2172235"
           }
         ]
       }
@@ -7385,294 +7603,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/08/iran-ties-hormuz-reopening-us-concessions-several-demands"
-          }
-        ]
-      }
-    },
-    {
-      "id": "54b34d041f18",
-      "title": "Cuba thanks China for donation of 5,000 solar panels",
-      "description": "Cuba expressed gratitude to China for a donation of 5,000 solar panels, which will help the island nation address its energy crisis.",
-      "lat": 24.23,
-      "lng": -80.4748,
-      "severity": 1,
-      "location": "Havana, Cuba",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/10/cuba-ringrazia-la-cina-per-una-nuova-donazione-di-5.000-impianti-fotovoltaici_8d9357df-000c-47c9-800c-bd319450db85.html",
-      "image": null,
-      "ts": 1786314771000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/10/cuba-ringrazia-la-cina-per-una-nuova-donazione-di-5.000-impianti-fotovoltaici_8d9357df-000c-47c9-800c-bd319450db85.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "931014a95847",
-      "title": "Iran replaces top security official",
-      "description": "Iran replaced its top security official, Mohsen Rezaei, who will head the Supreme National Security Council.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/ce343513-5514-4519-95c8-19832ed46d16?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1786314201000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/09/world/middleeast/iran-security-council-guards-commander.html"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/ce343513-5514-4519-95c8-19832ed46d16?syn-25a6b1a6=1"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e09cde0c8a5e",
-      "title": "Netanyahu rejects Trump-backed Gaza plan",
-      "description": "Israeli Prime Minister Benjamin Netanyahu rejected a US-backed plan for Gaza, citing the need for Hamas to disarm first.",
-      "lat": 30.8274,
-      "lng": 36.860000000000014,
-      "severity": 3,
-      "location": "Jerusalem, Israel",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/09/netanyahu-rejects-trump-backed-plan-hamas-disarm-israel-leave-gaza/",
-      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-08/260809-netanyahu-nd-42565f.jpg",
-      "ts": 1786313260000,
-      "coverage": {
-        "left": 5,
-        "center": 11,
-        "right": 1,
-        "total": 17,
-        "buckets": {
-          "left": 0,
-          "lean_left": 5,
-          "center": 11,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/09/netanyahu-rejects-trump-backed-plan-hamas-disarm-israel-leave-gaza/"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/israel/israel-rejects-trumps-15-point-plan-gaza-pm-benjamin-netanyahu-says-rcna591555"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/israel-netanyahu-gaza-peace-plan-37530209"
-          },
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/08/09/netanyahu-says-israel-to-reject-trumps-plan-for-gaza/"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/08/09/netanyahu-rejects-us-plan-for-gaza-accepted-by-hamas-in-new-break-from-trump_6756316_4.html"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/09/israel-rejects-trumps-15-point-plan-for-gaza-netanyahu-says.html"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/netanyahu-snubs-gaza-peace-plan-bibi-risks-fury-trump-shore-voter-base-israeli-polls-3806222"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/2026/0809/1587148-israel-gaza/"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/e4650e97-be1f-479d-8959-c892785abf49?syn-25a6b1a6=1"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/israeli-prime-minister-benjamin-netanyahu-rejects-trumps-board-of-peace-plan-for-gaza-13571334"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/netanyahu-rejects-trump-backed-gaza-peace-plan/a-78298282?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/international/article-905025"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSHJIQ1JLMkZjdHl3bWRsWlFvV0JHdWt2S2xvYU40dV90MDNpRHBqUWY1LS1uVGRKRnJsTko4TFhZOEJ3NHNlTzljSzQ4Mm9YN2JaQnA5R2dSak1sUDctRDd4T1dlUjZFMF9UelkyOFh1RllaMENfM2ZOcTg2bnlRZWszZ2JzeVRXLXYxVkxucHBFODlFU3BuSUFZei1LQndaY2RMZGl3ZFc5ZThCQVpvRUlVUk9idw?oc=5"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-09/netanyahu-rejects-us-backed-proposal-for-hamas-disarmament"
-          },
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-08-09/gaza-israele-roadmap-netanyahu-38459950/"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/644045-netanyahu-nixes-trumps-gaza-plan/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cf4e6f1eb469",
-      "title": "Israel Rejects Trump's Gaza Plan",
-      "description": "Israel's Prime Minister has rejected President Trump's 15-point plan for Gaza, saying Israeli forces won't withdraw from the Palestinian territory until Hamas disarms.",
-      "lat": 31.78,
-      "lng": 35.22,
-      "severity": 3,
-      "location": "Jerusalem, Israel",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/09/netanyahu-rejects-trump-backed-plan-hamas-disarm-israel-leave-gaza/",
-      "image": null,
-      "ts": 1786313260000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 1,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/israel-reject-trump-gaza-plan-strait-hormuz_n_6a791713e4b0a81f52ff18b9"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/israel/israel-rejects-trumps-15-point-plan-gaza-pm-benjamin-netanyahu-says-rcna591555"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ebb894f3100f",
-      "title": "Keiko Fujimori starts her term in Peru with 60% approval",
-      "description": "Peruvian President Keiko Fujimori has begun her five-year term with a 60% approval rating, against 24% disapproval and 16% who gave no opinion, according to a Datum Internacional survey published on Sunday.",
-      "lat": -10.95,
-      "lng": -77.03,
-      "severity": 1,
-      "location": "Lima, Peru",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/08/09/keiko-fujimori-starts-her-term-in-peru-with-60-approval-datum-poll-finds?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111084/100x80/keik.jpg",
-      "ts": 1786309080000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/08/09/keiko-fujimori-starts-her-term-in-peru-with-60-approval-datum-poll-finds?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f87f5407f7b3",
-      "title": "Israel closes Palestinian Christian village Taybeh",
-      "description": "The Israeli military closed the West Bank village of Taybeh to non-residents, citing the need to prevent attacks on Palestinians by Israeli settlers.",
-      "lat": 31.96,
-      "lng": 35.30000000000001,
-      "severity": 3,
-      "location": "Taybeh, West Bank",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/08/israeli-military-closes-palestinian-christian-village-taybeh-citing-settler",
-      "image": null,
-      "ts": 1786308399000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/israeli-military-closes-palestinian-christian-village-taybeh-citing-settler"
           }
         ]
       }
