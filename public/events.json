@@ -1,7 +1,78 @@
 {
   "schema": 1,
-  "updated": "2026-08-14T15:00:30.764930+00:00",
+  "updated": "2026-08-14T15:58:45.984454+00:00",
   "events": [
+    {
+      "id": "5a77af0bf017",
+      "title": "UAE Accuses Iran of Hormuz Attacks",
+      "description": "The UAE accuses Iran of attacking two vessels in the Strait of Hormuz.",
+      "lat": 33.89,
+      "lng": 35.5,
+      "severity": 2,
+      "location": "Beirut, Lebanon",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/",
+      "image": "https://s.france24.com/media/display/33ca89d4-9011-11f1-bbd5-005056bfb2b6/w:1024/p:16x9/AP26216348535497.jpg",
+      "ts": 1786721862000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/uae-says-iran-attacked-two-ships-hormuz-strait-oil-edging-3806419"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ed6c32e8e95d",
+      "title": "France Wildfire Forces 520 to Evacuate",
+      "description": "A raging wildfire in France's southwestern Landes region has burned through more than 1,000 hectares, forcing 520 residents to evacuate.",
+      "lat": 44.23,
+      "lng": -0.63,
+      "severity": 3,
+      "location": "Landes, France",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/france-wildfire-forces-520-to-evacuate",
+      "image": "https://s.france24.com/media/display/9a59d8c2-97f4-11f1-9f89-005056a97e36/w:1024/p:16x9/EN-20260814-171153-171355-CS.jpg",
+      "ts": 1786721335000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/france-wildfire-forces-520-to-evacuate"
+          }
+        ]
+      }
+    },
     {
       "id": "67baaf0df59f",
       "title": "USS Washington aircraft carrier heads to Middle East",
@@ -36,6 +107,39 @@
             "n": "OAN",
             "b": "right",
             "u": "https://www.oann.com/newsroom/uss-george-washington-to-relieve-uss-abraham-lincoln-in-middle-east/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9ac7fb58f394",
+      "title": "France Approves Assisted-Dying Law",
+      "description": "The Constitutional Council approved France's assisted-dying law, granting adults suffering from an incurable condition the right to assisted dying.",
+      "lat": 49.96,
+      "lng": 2.289999999999992,
+      "severity": 1,
+      "location": "Paris, France",
+      "source": "Le Monde English",
+      "url": "https://www.lemonde.fr/en/france/article/2026/08/14/constitutional-council-approves-france-s-assisted-dying-law_6756508_7.html",
+      "image": "https://img.lemde.fr/2025/08/07/0/0/5271/2635/644/322/60/0/b568b1a_ftp-import-images-1-ewttvogmvpsb-2025-08-07t160305z-1591006970-rc2f2gatf32g-rtrmadp-3-france-agriculture-law.JPG",
+      "ts": 1786714976000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/france/article/2026/08/14/constitutional-council-approves-france-s-assisted-dying-law_6756508_7.html"
           }
         ]
       }
@@ -206,39 +310,6 @@
             "n": "IBTimes",
             "b": "center",
             "u": "https://www.ibtimes.com/us-focus-applying-economic-pressure-iran-war-drags-never-been-seen-3806402"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5a77af0bf017",
-      "title": "UAE accuses Iran of Hormuz attacks",
-      "description": "The UAE accuses Iran of attacking two vessels in the Strait of Hormuz.",
-      "lat": 33.89,
-      "lng": 35.5,
-      "severity": 3,
-      "location": "Beirut, Lebanon",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/",
-      "image": "https://s.france24.com/media/display/33ca89d4-9011-11f1-bbd5-005056bfb2b6/w:1024/p:16x9/AP26216348535497.jpg",
-      "ts": 1786707224000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/"
           }
         ]
       }
@@ -1851,6 +1922,39 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/video/newsfeed/2026/8/13/china-and-indonesias-joint-naval-drills-anger-taiwan?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b32132871382",
+      "title": "Explosion Strikes Ammunition Plant Near Rome",
+      "description": "An explosion occurred at an ammunition manufacturing plant near Rome, with no injuries reported.",
+      "lat": 43.0,
+      "lng": 12.509999999999991,
+      "severity": 3,
+      "location": "Rome, Italy",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/explosion-strikes-ammunition-plant-rome-injuries-reported-135617345",
+      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
+      "ts": 1786638462000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/explosion-strikes-ammunition-plant-rome-injuries-reported-135617345"
           }
         ]
       }
@@ -7329,120 +7433,6 @@
             "n": "The Hill",
             "b": "center",
             "u": "https://thehill.com/homenews/administration/6020599-trump-administration-visa-revocation/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c2ef86e476c0",
-      "title": "Powerful 7.4-Magnitude Earthquake Kills More Than 110 In Western Colombia",
-      "description": "The quake trapped residents under debris, leaving more injured and forcing people to evacuate their homes as far as the capital of Bogotá",
-      "lat": 3.42,
-      "lng": -76.52,
-      "severity": 4,
-      "location": "Pereira, Colombia",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/western-colombia-ecuador-earthquake_n_6a79eae5e4b0a6d70bb28826",
-      "image": null,
-      "ts": 1786375631000,
-      "coverage": {
-        "left": 3,
-        "center": 0,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 1,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/western-colombia-ecuador-earthquake_n_6a79eae5e4b0a6d70bb28826"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/video-colombia-earthquake-people-flee-collapsing-building-as-earthquake-kills-132-in-colombia-11892624#publisher=newsstand"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/colombia-earthquake-news-death-toll-37535787"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e83fc7354261",
-      "title": "Colombia earthquake",
-      "description": "A 7.4-magnitude earthquake struck western Colombia, causing damage and killing at least 20 people.",
-      "lat": 5.63,
-      "lng": -75.3774,
-      "severity": 4,
-      "location": "San José del Palmar, Colombia",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/colombia-earthquake-western-region-evacuations/",
-      "image": null,
-      "ts": 1786373768000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/powerful-earthquake-shakes-colombia-ecuador-prompting-people-evacuate-135515580"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/colombia-earthquake-bogota-san-jose-37534402"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5d2267afa6a1",
-      "title": "US Pledges $1 Billion Security Aid to Colombia",
-      "description": "The US plans to provide $1 billion in security aid to Colombia as part of a major reset in relations.",
-      "lat": 5.71,
-      "lng": -72.1748,
-      "severity": 2,
-      "location": "Bogotá, Colombia",
-      "source": "Rio Times",
-      "url": "https://www.riotimesonline.com/colusaid/",
-      "image": null,
-      "ts": 1786371385000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Rio Times",
-            "b": "center",
-            "u": "https://www.riotimesonline.com/colusaid/"
           }
         ]
       }
