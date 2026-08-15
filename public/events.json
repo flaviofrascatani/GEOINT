@@ -1,7 +1,83 @@
 {
   "schema": 1,
-  "updated": "2026-08-15T15:49:42.462467+00:00",
+  "updated": "2026-08-15T16:34:07.221868+00:00",
   "events": [
+    {
+      "id": "0c8876de7787",
+      "title": "India celebrates 80th Independence Day, receives greetings from world leaders",
+      "description": "India celebrated its 80th Independence Day, with world leaders including French President Emmanuel Macron and Russian President Vladimir Putin extending greetings.",
+      "lat": 28.7,
+      "lng": 77.10000000000002,
+      "severity": 1,
+      "location": "New Delhi, India",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/national/leading-countries-extend-greetings-to-india-on-80th-independence-day/article71350060.ece",
+      "image": "https://th-i.thgim.com/public/incoming/ur82f9/article71350366.ece/alternates/LANDSCAPE_1200/PTI08_15_2026_000853B.jpg",
+      "ts": 1786809457000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/national/leading-countries-extend-greetings-to-india-on-80th-independence-day/article71350060.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2c3d2352c707",
+      "title": "South Korea proposes talks with Pyongyang to formally end Korean War",
+      "description": "South Korean President Lee Jae-myung proposed dialogue to formally end the Korean War, which has technically been ongoing for over 70 years.",
+      "lat": 38.66,
+      "lng": 128.8752,
+      "severity": 1,
+      "location": "Seoul, South Korea",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/asia-pacific/20260815-south-korea-president-proposes-talks-with-pyongyang-to-formally-end-korean-war",
+      "image": "https://static.toiimg.com/photo/msid-133255858,imgsize-682679.cms",
+      "ts": 1786808377000,
+      "coverage": {
+        "left": 0,
+        "center": 3,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c8en2z9jp2xo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/asia-pacific/20260815-south-korea-president-proposes-talks-with-pyongyang-to-formally-end-korean-war"
+          },
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20260815001452315"
+          }
+        ]
+      }
+    },
     {
       "id": "069ed7694771",
       "title": "Zambian President Hichilema takes early lead in reelection bid",
@@ -64,6 +140,49 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/08/15/senegal-hikes-fuel-prices-amid-surge-in-global-oil-markets/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0de88f7cfefe",
+      "title": "Powerful magnitude 7.7 earthquake kills at least 47 in Indonesia",
+      "description": "A search and rescue operation is underway to find survivors in Flores, an island in eastern Indonesia, after a powerful earthquake.",
+      "lat": -6.92,
+      "lng": 122.6626,
+      "severity": 4,
+      "location": "Flores, Indonesia",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c5y0zz63gero?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cbf0/live/97cf9550-9877-11f1-a7ab-8b30adf0800a.jpg",
+      "ts": 1786800957000,
+      "coverage": {
+        "left": 0,
+        "center": 3,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c5y0zz63gero?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/world/2026/0815/1587978-indonesia-earthquake-death/"
+          },
+          {
+            "n": "Nikkei Asia",
+            "b": "center",
+            "u": "https://asia.nikkei.com/economy/natural-disasters/at-least-47-dead-in-eastern-indonesia-earthquake-of-magnitude-7.7"
           }
         ]
       }
@@ -621,6 +740,69 @@
       }
     },
     {
+      "id": "1a59e02ccf62",
+      "title": "Iran rejects US claim on Strait of Hormuz",
+      "description": "Iran rejected US claims on the Strait of Hormuz, calling them 'delusions'.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "Google News Top",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU2ZvbVItbFVkSEtKRWtqa1h3eUFsWTlscFhLMzJNenJXZTJXX2FINGl4R01BdTdlMWtqWkFFTXNMUE9OZkx2TVMxdER6TnZHLVV4SmhGNU1lNV9Ja1RHZWZWajVXQ3pMWFk3Y1NDNUE0ME01Y1J3M2xyUUI1VkRTY3FoeTBwRXlXejFiZVlUYVAwY1JKaG9fd0dmTzFocHhYX1RZ?oc=5",
+      "image": null,
+      "ts": 1786790834000,
+      "coverage": {
+        "left": 2,
+        "center": 3,
+        "right": 2,
+        "total": 7,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 3,
+          "lean_right": 0,
+          "right": 2
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/101-east/2026/8/15/is-china-seeking-to-copy-irans-strait-of-hormuz-blockade-around-taiwan?traffic_source=rss"
+          },
+          {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/homenews/administration/6031242-live-updates-iran-responds-to-trumps-strait-of-hormuz-comments-katie-millers-podcast-continues-to-grow/"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/international/article-905560"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU2ZvbVItbFVkSEtKRWtqa1h3eUFsWTlscFhLMzJNenJXZTJXX2FINGl4R01BdTdlMWtqWkFFTXNMUE9OZkx2TVMxdER6TnZHLVV4SmhGNU1lNV9Ja1RHZWZWajVXQ3pMWFk3Y1NDNUE0ME01Y1J3M2xyUUI1VkRTY3FoeTBwRXlXejFiZVlUYVAwY1JKaG9fd0dmTzFocHhYX1RZ?oc=5"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/trump-after-we-finish-defeating-iran-ill-be-declaring-the-hormuz-strait-a-territory-of-the-u-s/"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/white-house/4688580/iran-rebukes-trumps-strait-of-hormuz-territory-comment/"
+          }
+        ]
+      }
+    },
+    {
       "id": "32ad17436dfb",
       "title": "Israel launches raid on Lebanon, killing 11",
       "description": "An Israeli attack on southern Lebanon has killed 11 people, including three children, in the deadliest raids since June.",
@@ -1075,54 +1257,6 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-08-15/uk-steps-up-scrutiny-of-defense-supply-chain-after-china-scare"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2c3d2352c707",
-      "title": "South Korea calls for talks with North Korea",
-      "description": "South Korean President Lee Jae Myung seeks peace talks to formally end the Korean War and discuss North Korea's nuclear capabilities.",
-      "lat": 38.66,
-      "lng": 128.8752,
-      "severity": 2,
-      "location": "Seoul, South Korea",
-      "source": "Times of India World",
-      "url": "https://timesofindia.indiatimes.com/world/rest-of-world/begin-discussions-south-koreas-lee-jae-myung-calls-for-talks-with-north-korea/articleshow/133255725.cms",
-      "image": "https://static.toiimg.com/photo/msid-133255858,imgsize-682679.cms",
-      "ts": 1786768386000,
-      "coverage": {
-        "left": 0,
-        "center": 4,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 4,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/asia/east-asia/article/3364131/south-koreas-president-proposes-formal-end-korean-war-talks-north?utm_source=rss_feed"
-          },
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20260815001400315"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/east-asia/south-korea-propose-talks-north-end-korean-war-6321036"
-          },
-          {
-            "n": "Times of India World",
-            "b": "center",
-            "u": "https://timesofindia.indiatimes.com/world/rest-of-world/begin-discussions-south-koreas-lee-jae-myung-calls-for-talks-with-north-korea/articleshow/133255725.cms"
           }
         ]
       }
@@ -7269,105 +7403,6 @@
             "n": "MercoPress",
             "b": "center",
             "u": "https://en.mercopress.com/2026/08/12/us-disables-a-panama-flagged-container-ship-off-the-coast-of-pakistan?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c3d0b59145c7",
-      "title": "Colombia earthquake death toll tops 200",
-      "description": "At least 220 people were reported dead in Colombia's strongest earthquake in a decade",
-      "lat": 4.57,
-      "lng": -74.29,
-      "severity": 4,
-      "location": "Bogotá, Colombia",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/11/colombia-rescuers-scramble-find-survivors-earthquake-death-toll-rises/",
-      "image": null,
-      "ts": 1786493185000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/11/colombia-rescuers-scramble-find-survivors-earthquake-death-toll-rises/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e22d5145940b",
-      "title": "Colombia earthquake",
-      "description": "Rescuers search collapsed hospitals for patients trapped by Colombia quake, at least 220 people reported dead",
-      "lat": 3.42,
-      "lng": -76.52,
-      "severity": 4,
-      "location": "Cali, Colombia",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/11/colombia-rescuers-scramble-find-survivors-earthquake-death-toll-rises/",
-      "image": null,
-      "ts": 1786493185000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/11/colombia-rescuers-scramble-find-survivors-earthquake-death-toll-rises/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "bfd38bf94c25",
-      "title": "Colombia Requests International Aid",
-      "description": "Colombia's government requested international aid in the form of supplies for those affected by the recent earthquake.",
-      "lat": 4.61,
-      "lng": -74.08,
-      "severity": 1,
-      "location": "Bogotá, Colombia",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/08/12/colombia-asks-for-supplies-but-not-foreign-rescue-personnel-after-the-earthquake?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111113/100x80/esperie.jpg",
-      "ts": 1786493100000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/08/12/colombia-asks-for-supplies-but-not-foreign-rescue-personnel-after-the-earthquake?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
           }
         ]
       }
