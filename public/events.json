@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-15T01:42:54.345265+00:00",
+  "updated": "2026-08-15T02:59:49.144236+00:00",
   "events": [
+    {
+      "id": "523d9cba7945",
+      "title": "Taliban rule in Afghanistan",
+      "description": "The Taliban is celebrating its five years of ruling Afghanistan, with bright white flags of the Islamic Emirate of Afghanistan installed across the capital Kabul.",
+      "lat": 35.62,
+      "lng": 71.0752,
+      "severity": 3,
+      "location": "Kabul, Afghanistan",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/5-years-of-taliban-rule-in-afghanistan-what-has-changed-11912555#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-08/undthvbs_taliban-government-5-years-celebration_625x300_15_August_26.jpeg",
+      "ts": 1786760114000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/5-years-of-taliban-rule-in-afghanistan-what-has-changed-11912555#publisher=newsstand"
+          }
+        ]
+      }
+    },
     {
       "id": "239a52389420",
       "title": "Iran defiant on strait",
@@ -31,6 +64,39 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/08/iran-defiant-strait-trump-tells-americans-accept-high-gas-prices"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2bff606ee93a",
+      "title": "Venezuela: opposition celebrates releases and demands full freedom for all",
+      "description": "The representative of the opposition celebrated the releases and demanded the liberation of all, saying 'every political prisoner deserves full freedom'.",
+      "lat": 10.48,
+      "lng": -66.88,
+      "severity": 1,
+      "location": "Caracas, Venezuela",
+      "source": "ANSA Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/15/venezuela-figuera-celebra-le-scarcerazioni-e-chiede-la-liberazione-di-tutti_954d5c6d-2e83-4c31-a7e6-3a053b9387f2.html",
+      "image": null,
+      "ts": 1786754279000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/15/venezuela-figuera-celebra-le-scarcerazioni-e-chiede-la-liberazione-di-tutti_954d5c6d-2e83-4c31-a7e6-3a053b9387f2.html"
           }
         ]
       }
@@ -7342,87 +7408,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/business/energy/brent-oil-tops-90-as-hopes-for-iran-us-deal-diminish"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b634c5c23b81",
-      "title": "Trump used secret flight to leave Turkey amid Iran threat",
-      "description": "Trump used a secret flight to leave Turkey amid an Iran threat, contradicting public statements.",
-      "lat": 39.93,
-      "lng": 32.860000000000014,
-      "severity": 2,
-      "location": "Ankara, Turkey",
-      "source": "Google News Top",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaWEwRVJMUWthdlFuSTV5N2ZqaDA2TXViaUlic1NJSlgtbXNKYzY5Qnh2d0QtMGRGYTg1QU5uUFNaY2xXOEpPenR1TEZrWGJIT2NxTFFtUE9yZFlUdUlKNFNfRUJ0MV9wT3NjdkhXYWVKN1NTeUh5c1JlTzNiMUM0ZzNyZXBmX0dkdkxWTHktRG9HeWpQMEE?oc=5",
-      "image": null,
-      "ts": 1786437840000,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/trump-secretly-switched-plane-turkey-air-force-one-iran-war-threat/"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/middle-east-trump-took-secret-flight-out-of-turkey-over-iran-threat/live-78313883?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaWEwRVJMUWthdlFuSTV5N2ZqaDA2TXViaUlic1NJSlgtbXNKYzY5Qnh2d0QtMGRGYTg1QU5uUFNaY2xXOEpPenR1TEZrWGJIT2NxTFFtUE9yZFlUdUlKNFNfRUJ0MV9wT3NjdkhXYWVKN1NTeUh5c1JlTzNiMUM0ZzNyZXBmX0dkdkxWTHktRG9HeWpQMEE?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/trump-boarded-secret-turkey-flight-catering-truck-due-iran-threat-media"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8fb3ff486799",
-      "title": "Indonesia Pitches a Mercosur Trade Deal",
-      "description": "Indonesia has proposed a narrow Indonesia-Mercosur trade deal and asked Brazil to broker consensus after broader CEPA talks stalled.",
-      "lat": -5.11,
-      "lng": 106.86000000000001,
-      "severity": 2,
-      "location": "Jakarta, Indonesia",
-      "source": "Rio Times",
-      "url": "https://www.riotimesonline.com/indonesia-mercosur-trade-deal-2026/",
-      "image": null,
-      "ts": 1786433662000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Rio Times",
-            "b": "center",
-            "u": "https://www.riotimesonline.com/indonesia-mercosur-trade-deal-2026/"
           }
         ]
       }
