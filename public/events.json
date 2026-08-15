@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-08-15T13:56:09.492645+00:00",
+  "updated": "2026-08-15T14:31:03.232916+00:00",
   "events": [
     {
       "id": "56f7b00ec970",
@@ -8,6 +8,39 @@
       "description": "China has launched a new Arctic route that reduces travel time to Europe by 20 days, but comes with significant risks",
       "lat": 41.0,
       "lng": 116.39999999999998,
+      "severity": 2,
+      "location": "Beijing, China",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/chinas-new-arctic-route-is-a-20-day-voyage-to-europe-but-theres-a-catch-11914723#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-08/qjgo6un4_xi-jinping-putin-afp_625x300_15_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1786799537000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/chinas-new-arctic-route-is-a-20-day-voyage-to-europe-but-theres-a-catch-11914723#publisher=newsstand"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1802bfa60658",
+      "title": "China's New Arctic Route Is A 20-Day Voyage To Europe",
+      "description": "China's new Arctic route is a 20-day voyage to Europe, offering an alternative to traditional trade routes.",
+      "lat": 39.9,
+      "lng": 116.38999999999999,
       "severity": 2,
       "location": "Beijing, China",
       "source": "NDTV World",
@@ -102,6 +135,44 @@
       }
     },
     {
+      "id": "f9ad498df08a",
+      "title": "Taliban authorities mark five years ruling Afghanistan",
+      "description": "Afghanistan's Taliban rulers marked five years since sweeping back to power.",
+      "lat": 34.52,
+      "lng": 69.17000000000002,
+      "severity": 2,
+      "location": "Kabul, Afghanistan",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/08/15/taliban-authorities-mark-five-years-ruling-afghanistan/",
+      "image": "http://images.euronews.com/articles/stories/09/87/54/54/640x360_cmsv2_20c1004b-deb6-5c1b-bc24-d56492500e84-9875454.jpg?1786781232",
+      "ts": 1786798247000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/15/afghans-mark-five-years-of-taliban-rule?traffic_source=rss"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/15/taliban-authorities-mark-five-years-ruling-afghanistan/"
+          }
+        ]
+      }
+    },
+    {
       "id": "5eff68dfc986",
       "title": "Iran Strikes Another Ship in Strait of Hormuz",
       "description": "Iran has struck another ship in the Strait of Hormuz, as tensions between Iran and the US continue to escalate.",
@@ -165,6 +236,39 @@
             "n": "Breitbart",
             "b": "right",
             "u": "https://www.breitbart.com/politics/2026/08/14/trump-declare-strait-hormuz-u-s-territory-finish-defeating-iran/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b35ff516b9c2",
+      "title": "Hamas disarmament deal offers historic opening",
+      "description": "Hamas agreed to put disarmament on the table for the first time in its 39-year history, offering a historic opening, but Israel stands in the way.",
+      "lat": 31.78,
+      "lng": 35.22,
+      "severity": 1,
+      "location": "Jerusalem, Israel",
+      "source": "Le Monde English",
+      "url": "https://www.lemonde.fr/en/international/article/2026/08/15/hamas-disarmament-deal-offers-historic-opening-but-israel-stands-in-the-way_6756539_4.html",
+      "image": "https://img.lemde.fr/2025/01/30/457/0/5477/2738/644/322/60/0/bde66b6_ftp-import-images-1-l4n86s6e8cth-5890773-01-06.jpg",
+      "ts": 1786798187000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/08/15/hamas-disarmament-deal-offers-historic-opening-but-israel-stands-in-the-way_6756539_4.html"
           }
         ]
       }
@@ -3707,14 +3811,14 @@
     },
     {
       "id": "385fb6f41247",
-      "title": "DR Congo Ebola outbreak spreads to a sixth province",
-      "description": "The Ebola outbreak in the Democratic Republic of the Congo has spread to a sixth province, with 2,128 people killed out of around 4,566 recorded cases.",
+      "title": "DRC's fast-growing Ebola outbreak spreads to sixth province",
+      "description": "The Ebola outbreak in the Democratic Republic of the Congo has spread to a sixth province.",
       "lat": 4.32,
       "lng": 15.31,
-      "severity": 4,
+      "severity": 3,
       "location": "Bas-Uele, DRC",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/13/dr-congo-ebola-outbreak-spreads-to-a-sixth-province?traffic_source=rss",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province",
       "image": null,
       "ts": 1786641481000,
       "coverage": {
@@ -3731,9 +3835,9 @@
         },
         "sources": [
           {
-            "n": "Al Jazeera",
+            "n": "The Guardian World",
             "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/13/dr-congo-ebola-outbreak-spreads-to-a-sixth-province?traffic_source=rss"
+            "u": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province"
           }
         ]
       }
@@ -7264,110 +7368,6 @@
             "n": "Axios",
             "b": "center",
             "u": "https://www.axios.com/2026/08/11/trump-mail-in-voting-executive-order-us-postal-service"
-          }
-        ]
-      }
-    },
-    {
-      "id": "24d8339f8b11",
-      "title": "Severe malnutrition in Somalia is surging after US cuts, aid groups say",
-      "description": "What we are seeing is shocking and far beyond the threshold of an extremely critical emergency.",
-      "lat": 2.04,
-      "lng": 45.35,
-      "severity": 4,
-      "location": "Mogadishu, Somalia",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/11/severe-malnutrition-somalia-is-surging-after-us-cuts-aid-groups-say/",
-      "image": null,
-      "ts": 1786484436000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/11/severe-malnutrition-somalia-is-surging-after-us-cuts-aid-groups-say/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "41ea6152250f",
-      "title": "NATO Country Believes Russia Will Stage a False Flag Attack Against Critical Infrastructure",
-      "description": "Lithuania, a NATO country, said it is taking measures to protect critical infrastructure against a false flag attack from Russia.",
-      "lat": 51.55,
-      "lng": 32.42519999999999,
-      "severity": 2,
-      "location": "Kyiv, Ukraine",
-      "source": "IBTimes",
-      "url": "https://www.ibtimes.com/nato-country-believes-russia-will-stage-false-flag-attack-against-critical-infrastructure-3806312",
-      "image": null,
-      "ts": 1786479789000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/nato-country-believes-russia-will-stage-false-flag-attack-against-critical-infrastructure-3806312"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2f2758f88114",
-      "title": "At least 18 killed in Egypt truck crash, many children",
-      "description": "At least 18 people, many of them children aged 13 to 14, were killed on Tuesday in northern Egypt when two pick-up trucks carrying agricultural day labourers crashed.",
-      "lat": 31.16,
-      "lng": 31.25,
-      "severity": 4,
-      "location": "Cairo, Egypt",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/08/11/at-least-18-killed-in-egypt-truck-crash-many-children/",
-      "image": "http://images.euronews.com/articles/stories/09/87/08/74/640x360_cmsv2_4e29b8eb-b28f-5fff-aaef-702efa87a9ca-9870874.jpg?1786471990",
-      "ts": 1786476090000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/11/truck-crash-in-egypt-kills-18-many-of-them-child-labourers?traffic_source=rss"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/11/at-least-18-killed-in-egypt-truck-crash-many-children/"
           }
         ]
       }
