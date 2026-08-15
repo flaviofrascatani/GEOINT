@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-08-15T12:52:45.411488+00:00",
+  "updated": "2026-08-15T13:37:13.488843+00:00",
   "events": [
+    {
+      "id": "56f7b00ec970",
+      "title": "China's new Arctic route",
+      "description": "China has launched a new Arctic route that reduces travel time to Europe by 20 days, but comes with significant risks",
+      "lat": 41.0,
+      "lng": 116.39999999999998,
+      "severity": 2,
+      "location": "Beijing, China",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/chinas-new-arctic-route-is-a-20-day-voyage-to-europe-but-theres-a-catch-11914723#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-08/qjgo6un4_xi-jinping-putin-afp_625x300_15_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1786799537000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/chinas-new-arctic-route-is-a-20-day-voyage-to-europe-but-theres-a-catch-11914723#publisher=newsstand"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5c7ed3b644dd",
+      "title": "Chad bans sand extraction",
+      "description": "Chad has banned sand extraction along the Chari River, sparking controversy",
+      "lat": 12.1,
+      "lng": 15.0,
+      "severity": 2,
+      "location": "N'Djamena, Chad",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/chad-bans-sand-extraction-along-chari-river-sparking-controversy",
+      "image": "https://s.france24.com/media/display/1a0265c8-98a7-11f1-898c-005056a90284/w:1024/p:16x9/EN-20260814-215311-215524-CS.jpg",
+      "ts": 1786798712000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/chad-bans-sand-extraction-along-chari-river-sparking-controversy"
+          }
+        ]
+      }
+    },
     {
       "id": "cb39af2df6ed",
       "title": "China Launches Satellite for Algeria",
@@ -195,6 +261,49 @@
             "n": "Egypt Independent",
             "b": "center",
             "u": "https://www.egyptindependent.com/nine-killed-in-israeli-strikes-on-lebanon-as-huthi-attacks-continue-in-yemen-catch-up-here/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "558d77e55a7a",
+      "title": "Ukraine attacks Russia's Samara industrial site",
+      "description": "Ukraine has launched a large-scale attack on industrial infrastructure in Russia's southwestern Samara region",
+      "lat": 53.2,
+      "lng": 50.1,
+      "severity": 4,
+      "location": "Samara, Russia",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/ukraine-attacks-russias-samara-industrial-site-kyiv-ramps-135669121",
+      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
+      "ts": 1786795664000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/ukraine-attacks-russias-samara-industrial-site-kyiv-ramps-135669121"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/europe/20260815-ukraine-attacks-russian-air-base-and-rocket-plant-in-samara-region"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-15/zelenskyy-says-ukraine-strikes-russian-space-facility-in-samara"
           }
         ]
       }
@@ -404,33 +513,76 @@
     },
     {
       "id": "8da33cdc1cdf",
-      "title": "Hormuz ship attacks mount",
-      "description": "More ships have come under attack in the Strait of Hormuz as talks to end the war in the Middle East remain stalled.",
+      "title": "Strait of Hormuz ship attacks",
+      "description": "More ships have come under attack in the Strait of Hormuz as talks to end the war in the Middle East remain stalled",
       "lat": 27.67,
       "lng": 56.25,
-      "severity": 3,
+      "severity": 4,
       "location": "Strait of Hormuz",
       "source": "Bloomberg Politics",
       "url": "https://www.bloomberg.com/news/articles/2026-08-15/hormuz-ship-attacks-mount-as-us-vows-to-cripple-iran-s-economy",
       "image": null,
       "ts": 1786785183000,
       "coverage": {
-        "left": 0,
+        "left": 2,
         "center": 1,
         "right": 0,
-        "total": 1,
+        "total": 3,
         "buckets": {
           "left": 0,
-          "lean_left": 0,
+          "lean_left": 2,
           "center": 1,
           "lean_right": 0,
           "right": 0
         },
         "sources": [
           {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/uae-state-oil-company-says-vessel-attacked-in-hormuz-strait/article71348404.ece"
+          },
+          {
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-08-15/hormuz-ship-attacks-mount-as-us-vows-to-cripple-iran-s-economy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "81a6dc9c5478",
+      "title": "Iran ramps up propaganda war",
+      "description": "Iran has intensified its anti-US messaging with violent billboards following the death of Supreme Leader Ayatollah Ali Khamenei",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/world/iran/revenge-inevitable-iran-ramps-propaganda-war-violent-billboards-rcna591867",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-08/260811-tehran-mb-1232-2f8c36.jpg",
+      "ts": 1786784440000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/iran/revenge-inevitable-iran-ramps-propaganda-war-violent-billboards-rcna591867"
           }
         ]
       }
@@ -7216,138 +7368,6 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/08/11/at-least-18-killed-in-egypt-truck-crash-many-children/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2de093373d36",
-      "title": "Israel, Venezuela open consular relations",
-      "description": "Israel and Venezuela have opened consular relations for the first time in 17 years, creating an official channel of coordination between the two countries.",
-      "lat": 10.48,
-      "lng": -66.88,
-      "severity": 2,
-      "location": "Caracas, Venezuela",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/israel-news/article-905225",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_4336,w_6500/732785",
-      "ts": 1786475861000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/israel-news/article-905225"
-          }
-        ]
-      }
-    },
-    {
-      "id": "21ab1f33a337",
-      "title": "Rescuers scramble for survivors with 180 dead in Colombia earthquake",
-      "description": "Colombia experienced a number of aftershocks, as efforts continued to free survivors trapped in rubble and buildings.",
-      "lat": 3.42,
-      "lng": -76.52,
-      "severity": 4,
-      "location": "Bogotá, Colombia",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/69cb/live/7fca1ff0-95b8-11f1-b16a-9d1bd99de52e.jpg",
-      "ts": 1786475392000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c20dqd9qwq4o?at_medium=RSS&at_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d230ba05ccb4",
-      "title": "Venezuela and Israel restore consular ties as relations warm",
-      "description": "Despite cutting diplomatic ties with Israel in 2009, Caracas has shifted alignment in wake of Maduro abduction.",
-      "lat": 11.58,
-      "lng": -64.9748,
-      "severity": 2,
-      "location": "Caracas, Venezuela",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/11/venezuela-and-israel-restore-consular-ties-as-relations-warm?traffic_source=rss",
-      "image": null,
-      "ts": 1786474713000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/11/venezuela-and-israel-restore-consular-ties-as-relations-warm?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1811d72f492e",
-      "title": "Fire breaks out after attack on major Libya gasoline tank",
-      "description": "A major gasoline reservoir in Libya's Zawiya, west of Tripoli, caught fire and collapsed on Monday after what authorities said was an attack by unknown perpetrators.",
-      "lat": 34.4,
-      "lng": 13.682600000000008,
-      "severity": 4,
-      "location": "Zawiya, Libya",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/08/11/fire-breaks-out-after-attack-on-major-libya-gasoline-tank/",
-      "image": "http://images.euronews.com/articles/stories/09/87/07/62/640x360_cmsv2_202a2577-7d5b-5002-9c24-5093eeee9345-9870762.jpg?1786464371",
-      "ts": 1786473483000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/11/fire-breaks-out-after-attack-on-major-libya-gasoline-tank/"
           }
         ]
       }
