@@ -1,7 +1,45 @@
 {
   "schema": 1,
-  "updated": "2026-08-15T03:47:09.477483+00:00",
+  "updated": "2026-08-15T04:40:03.260096+00:00",
   "events": [
+    {
+      "id": "6cbebe0afbd3",
+      "title": "India Independence Day greetings from Marco Rubio",
+      "description": "Marco Rubio praises US-India relationship citing defence, energy, and AI cooperation on Independence Day",
+      "lat": 28.61,
+      "lng": 77.21,
+      "severity": 1,
+      "location": "New Delhi, India",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/marco-rubio-extends-greetings-to-india-on-independence-day-congratulations-11912470#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-07/aq73b6rs_marco-rubio_625x300_23_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+      "ts": 1786764746000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/marco-rubio-extends-greetings-to-india-on-independence-day-congratulations-11912470#publisher=newsstand"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/15/india-marks-80th-independence-day-with-military-display?traffic_source=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "956197ee22d4",
       "title": "Sanctions alone cannot topple Iran’s regime",
@@ -153,6 +191,39 @@
       "id": "2bff606ee93a",
       "title": "Venezuela opposition celebrates prisoner releases",
       "description": "The representative of the opposition, Figuera, celebrates the releases and demands the liberation of all political prisoners.",
+      "lat": 10.48,
+      "lng": -66.88,
+      "severity": 2,
+      "location": "Caracas, Venezuela",
+      "source": "ANSA Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/15/venezuela-figuera-celebra-le-scarcerazioni-e-chiede-la-liberazione-di-tutti_954d5c6d-2e83-4c31-a7e6-3a053b9387f2.html",
+      "image": null,
+      "ts": 1786754279000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/15/venezuela-figuera-celebra-le-scarcerazioni-e-chiede-la-liberazione-di-tutti_954d5c6d-2e83-4c31-a7e6-3a053b9387f2.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c0a60cf70f0b",
+      "title": "Venezuela opposition celebrates releases and demands full freedom for all",
+      "description": "La rappresentante dell'opposizione, 'ogni prigioniero politico merita la libertà piena'",
       "lat": 10.48,
       "lng": -66.88,
       "severity": 2,
@@ -7312,127 +7383,6 @@
             "n": "Time",
             "b": "lean_left",
             "u": "https://time.com/article/2026/08/11/taiwan-opposition-leader-kmt-cheng-li-wun-china/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3a853ad7d479",
-      "title": "Syria sentences absent Bashar al-Assad to death over killings, torture",
-      "description": "A Syrian court sentenced ousted leader Bashar al-Assad to death on Tuesday after a trial in absentia, convicting him of crimes including killings, torture, and arbitrary arrest.",
-      "lat": 33.51,
-      "lng": 38.1952,
-      "severity": 3,
-      "location": "Damascus, Syria",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/08/syria-sentences-absent-bashar-al-assad-death-over-killings-torture",
-      "image": null,
-      "ts": 1786441595000,
-      "coverage": {
-        "left": 4,
-        "center": 6,
-        "right": 2,
-        "total": 12,
-        "buckets": {
-          "left": 0,
-          "lean_left": 4,
-          "center": 6,
-          "lean_right": 0,
-          "right": 2
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/syria-ex-president-bashar-al-assad-sentenced-to-death-for-crimes-against-humanity-11894097#publisher=newsstand"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/bashar-al-ashad-sentenced-death-37536358"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/11/bashar-al-assad-atef-najib-sentenced-to-death-in-landmark-syria-trial?traffic_source=rss"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/syria-sentences-former-president-bashar-al-assad-to-death-over-killings-torture/article71331876.ece"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/world/2026/0811/1587396-bashar-al-assad/"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/syria-sentences-bashar-assad-to-death-in-absentia/a-78316245?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/article-905172"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/syria-sentences-absent-bashar-al-assad-death-over-killings-torture"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/middle-east/article/3363672/syrian-court-sentences-ousted-leader-bashar-al-assad-death-absentia?utm_source=rss_feed"
-          },
-          {
-            "n": "Times of India World",
-            "b": "center",
-            "u": "https://timesofindia.indiatimes.com/world/middle-east/syrias-ousted-leader-bashar-al-assad-sentenced-to-death-for-crimes-against-humanity/articleshow/133148343.cms"
-          },
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2237973/syria-bashar-al-assad-sentenced-death"
-          },
-          {
-            "n": "Daily Mail World",
-            "b": "right",
-            "u": "https://www.dailymail.com/news/article-16043797/Syrias-former-ruler-Bashar-al-Assad-sentenced-death.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-          }
-        ]
-      }
-    },
-    {
-      "id": "23d544c0efd5",
-      "title": "Egypt and US discuss investment opportunities",
-      "description": "Egypt and the US have discussed investment opportunities and cooperation in housing, urban development, and infrastructure.",
-      "lat": 30.05,
-      "lng": 31.25,
-      "severity": 1,
-      "location": "Cairo, Egypt",
-      "source": "Egypt Independent",
-      "url": "https://www.egyptindependent.com/egypt-us-discuss-investment-opportunities-desalination-cooperation/",
-      "image": null,
-      "ts": 1786441063000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/egypt-us-discuss-investment-opportunities-desalination-cooperation/"
           }
         ]
       }
