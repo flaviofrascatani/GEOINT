@@ -1,7 +1,204 @@
 {
   "schema": 1,
-  "updated": "2026-08-15T11:49:30.674667+00:00",
+  "updated": "2026-08-15T12:52:45.411488+00:00",
   "events": [
+    {
+      "id": "cb39af2df6ed",
+      "title": "China Launches Satellite for Algeria",
+      "description": "China has launched a communications satellite for Algeria, marking the first time a Chinese-made satellite has been exported to an Arab country.",
+      "lat": 36.77,
+      "lng": 3.06,
+      "severity": 1,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1786798365223,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5eff68dfc986",
+      "title": "Iran Strikes Another Ship in Strait of Hormuz",
+      "description": "Iran has struck another ship in the Strait of Hormuz, as tensions between Iran and the US continue to escalate.",
+      "lat": 27.67,
+      "lng": 58.15520000000001,
+      "severity": 4,
+      "location": "Strait of Hormuz",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/",
+      "image": null,
+      "ts": 1786798235000,
+      "coverage": {
+        "left": 2,
+        "center": 3,
+        "right": 3,
+        "total": 8,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 3,
+          "lean_right": 1,
+          "right": 2
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/101-east/2026/8/15/is-china-seeking-to-copy-irans-strait-of-hormuz-blockade-around-taiwan?traffic_source=rss"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/there-no-end-us-iran-war-sight-just-two-ships-made-it-through-hormuz-strait-friday-3806438"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/international/article-905560"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-15/hormuz-ship-attacks-mount-as-us-vows-to-cripple-iran-s-economy"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/iran-tells-us-to-accept-defeat-amid-strait-of-hormuz-blockade"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/trump-after-we-finish-defeating-iran-ill-be-declaring-the-hormuz-strait-a-territory-of-the-u-s/"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/politics/2026/08/14/trump-declare-strait-hormuz-u-s-territory-finish-defeating-iran/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ef544846fcce",
+      "title": "Ukraine Offers Black Sea Shipping Truce",
+      "description": "Ukraine has offered a truce on Black Sea shipping, but Russia has yet to respond.",
+      "lat": 46.48,
+      "lng": 30.52,
+      "severity": 2,
+      "location": "Odessa, Ukraine",
+      "source": "Times of India World",
+      "url": "https://timesofindia.indiatimes.com/world/europe/ukraine-offers-black-sea-shipping-truce-russia-yet-to-respond-report/articleshow/133262655.cms",
+      "image": "https://static.toiimg.com/photo/msid-133262655,imgsize-54860.cms",
+      "ts": 1786797082000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Times of India World",
+            "b": "center",
+            "u": "https://timesofindia.indiatimes.com/world/europe/ukraine-offers-black-sea-shipping-truce-russia-yet-to-respond-report/articleshow/133262655.cms"
+          }
+        ]
+      }
+    },
+    {
+      "id": "82858c8e3b04",
+      "title": "Lebanon Says 9 Dead in Israeli Strikes",
+      "description": "Lebanon has reported that 9 people, including 3 children, were killed in Israeli strikes on the south of the country.",
+      "lat": 34.45,
+      "lng": 37.4152,
+      "severity": 4,
+      "location": "South Lebanon",
+      "source": "AGI Estero",
+      "url": "https://www.agi.it/estero/news/2026-08-15/libano-israele-hezbollah-negoziati-38548969/",
+      "image": "https://images.agi.it/pictures/agi/agi/2026/08/15/104116248-74660abf-dffc-455c-8433-a62525ef2f24.jpg",
+      "ts": 1786796305000,
+      "coverage": {
+        "left": 4,
+        "center": 3,
+        "right": 0,
+        "total": 7,
+        "buckets": {
+          "left": 0,
+          "lean_left": 4,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/15/world/middleeast/israel-strikes-lebanon-ansar.html"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/15/at-scene-of-deadly-israeli-strike-on-lebanon-home?traffic_source=rss"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/08/15/lebanon-nine-killed-by-israeli-airstrikes-in-south-of-country_6756538_4.html"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/iran-us-war-west-asia-conflict-donald-trump-strait-of-hormuz-rising-oil-prices-live-updates-august-15-2026/article71348347.ece"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/israeli-airstrikes-in-lebanon-kill-nine-people-including-three-children-health-ministry-says-13573242"
+          },
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/nine-killed-in-israeli-strikes-on-lebanon-as-huthi-attacks-continue-in-yemen-catch-up-here/"
+          }
+        ]
+      }
+    },
     {
       "id": "38f410c62e84",
       "title": "Taliban marks 5 years in power",
@@ -31,6 +228,39 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/taliban-leaders-mark-5-years-power-afghanistan-official-135668682"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7650bafc58f",
+      "title": "Taliban Leaders Mark 5 Years in Power",
+      "description": "Taliban leaders have marked 5 years in power in Afghanistan, as the country continues to face humanitarian and economic challenges.",
+      "lat": 34.52,
+      "lng": 69.17000000000002,
+      "severity": 3,
+      "location": "Kabul, Afghanistan",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/taliban-leaders-mark-5-years-power-afghanistan-official-135668682",
+      "image": "https://s.abcnews.com/images/International/wirestory_86a28152904a402836daf5d68328f22c_4x3_384.jpg",
+      "ts": 1786792624000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/15/world/asia/entrenched-embattled-and-defiant-the-taliban-celebrate-5-years-in-power.html"
           }
         ]
       }
@@ -102,39 +332,6 @@
             "n": "Egypt Independent",
             "b": "center",
             "u": "https://www.egyptindependent.com/egyptian-cypriot-fms-praise-growing-momentum-in-bilateral-relations/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cb39af2df6ed",
-      "title": "China launches satellite for Algeria",
-      "description": "A Chinese-made communications satellite has been launched for Algeria, marking the first export of such a spacecraft to an Arab country.",
-      "lat": 36.77,
-      "lng": 3.06,
-      "severity": 2,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1786786427600,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
           }
         ]
       }
@@ -949,6 +1146,39 @@
             "n": "The Hill",
             "b": "center",
             "u": "https://thehill.com/newsletters/healthcare/6030921-trump-hhs-transgender-care/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5eb3dc051c0",
+      "title": "Nvidia Discloses $21 Billion Stake in SpaceX",
+      "description": "Nvidia has disclosed a $21 billion stake in SpaceX, highlighting the growing ties between the tech and space industries.",
+      "lat": 37.42,
+      "lng": -122.08,
+      "severity": 1,
+      "location": "Palo Alto, USA",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/08/14/nvidia-discloses-21-billion-stake-in-spacex-at-end-of-second-quarter.html",
+      "image": null,
+      "ts": 1786743919000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/08/14/nvidia-discloses-21-billion-stake-in-spacex-at-end-of-second-quarter.html"
           }
         ]
       }
@@ -7118,191 +7348,6 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/08/11/fire-breaks-out-after-attack-on-major-libya-gasoline-tank/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7241626ee6e5",
-      "title": "China, Indonesia navies to hold drills in sensitive waters to east of Taiwan",
-      "description": "The exercise will focus on communication drills and at-sea replenishment, aiming to enhance the joint operational capabilities of the two navies, deepen practical cooperation, and jointly safeguard",
-      "lat": 1.2903,
-      "lng": 103.8501,
-      "severity": 2,
-      "location": "Singapore",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/china-indonesia-navies-to-hold-drills-in-sensitive-waters-to-east-of-taiwan/article71333879.ece",
-      "image": null,
-      "ts": 1786471943000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/china-indonesia-navies-to-hold-drills-in-sensitive-waters-to-east-of-taiwan/article71333879.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ceb944c2cc6c",
-      "title": "Colombia earthquake death toll passes 200",
-      "description": "Rescuers are searching for survivors after a powerful earthquake struck Colombia, killing at least 240 people and injuring over 1,000.",
-      "lat": 3.4214,
-      "lng": -76.5244,
-      "severity": 4,
-      "location": "Cali, Colombia",
-      "source": "AGI Estero",
-      "url": "https://www.agi.it/estero/news/2026-08-11/terremoto-colombia-morti-dispersi-38490027/",
-      "image": "https://images.agi.it/pictures/agi/agi/2026/08/11/180943493-058c688a-80cc-4c3b-9d0b-227880357ae4.jpg",
-      "ts": 1786471858000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/colombia-earthquake-rescue-survivors/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d5c4f0062650",
-      "title": "2.4 million Afghan girls banned from secondary school",
-      "description": "Around 2.4 million Afghan girls remain excluded from secondary education five years after the Taliban takeover.",
-      "lat": 34.52,
-      "lng": 69.17,
-      "severity": 3,
-      "location": "Kabul, Afghanistan",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/24-million-afghan-girls-shut-secondary-school-5-135551092",
-      "image": "https://s.abcnews.com/images/International/wirestory_618c7f5c7659d43ede2a3f71a7cf845f_4x3_384.jpg",
-      "ts": 1786468841000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/24-million-afghan-girls-shut-secondary-school-5-135551092"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d41227349cbc",
-      "title": "Trump accuses Iran of being devious negotiators",
-      "description": "U.S. President Donald Trump accused Iran of being 'devious negotiators' and described some of his current options in the war as 'hit them really hard'.",
-      "lat": 35.6892,
-      "lng": 51.38900000000001,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/08/trump-says-iran-options-are-let-tehran-fail-economically-or-hit-them-really-hard",
-      "image": null,
-      "ts": 1786466795000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/2026/0811/1587478-trump-iran/"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/trump-says-iran-options-are-let-tehran-fail-economically-or-hit-them-really-hard"
-          }
-        ]
-      }
-    },
-    {
-      "id": "36a7a4c562e3",
-      "title": "Houthi strike on vessel in Red Sea",
-      "description": "A Houthi strike on a vessel in the Red Sea has killed at least six people.",
-      "lat": 15.5,
-      "lng": 42.0,
-      "severity": 4,
-      "location": "Red Sea",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/world/mid-east/yemen-coastguard-says-six-killed-in-houthi-strike-on-ship-in-red-sea",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/08/11/455330.jpg",
-      "ts": 1786466760000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 2,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 2,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/11/world/middleeast/deadly-houthi-strike-red-sea.html"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/middle-east/20260811-three-killed-in-suspected-houthi-attack-on-egyptian-ship-in-the-red-sea"
-          },
-          {
-            "n": "Wall Street Journal World",
-            "b": "lean_right",
-            "u": "https://www.wsj.com/articles/shippers-wary-of-red-sea-routes-despite-houthi-pledge-to-end-targeting-4dde35c2"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/mid-east/yemen-coastguard-says-six-killed-in-houthi-strike-on-ship-in-red-sea"
           }
         ]
       }
