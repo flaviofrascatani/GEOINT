@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-15T22:51:58.779624+00:00",
+  "updated": "2026-08-15T23:28:02.870045+00:00",
   "events": [
+    {
+      "id": "539cb865b4f8",
+      "title": "US Democrats finalise major shakeup to 2028 presidential primary calendar",
+      "description": "South Carolina will again take centre stage as the first nominating contest, pushing Iowa from its top spot",
+      "lat": 33.83,
+      "lng": -81.16,
+      "severity": 2,
+      "location": "Columbia, South Carolina",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/15/us-democrats-finalise-major-shakeup-to-2028-presidential-primary-calendar?traffic_source=rss",
+      "image": null,
+      "ts": 1786832566000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/15/us-democrats-finalise-major-shakeup-to-2028-presidential-primary-calendar?traffic_source=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "9c2296ef82d1",
       "title": "Nvidia eyes investing $3 billion in SoftBank's SB Energy",
@@ -36,6 +69,44 @@
             "n": "Channel News Asia",
             "b": "center",
             "u": "https://www.channelnewsasia.com/business/nvidia-eyes-investing-3-billion-in-sb-energy-under-openai-data-center-deal-information-says-6321736"
+          }
+        ]
+      }
+    },
+    {
+      "id": "70b61462935d",
+      "title": "Storm Lala: Hawaii braces for potential first direct hit by a hurricane in 34 years",
+      "description": "Hawaii is bracing for a potential direct hit by a hurricane in 34 years as Storm Lala approaches the Big Island",
+      "lat": 19.74,
+      "lng": -155.08,
+      "severity": 3,
+      "location": "Hilo, Hawaii",
+      "source": "Google News Top",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zWUl0eG5HZHlmUkVzc2hmelJyT0tTUFduWldWNHJSaGdFZm90TXBIeGFUYzZIWE9QOHZGZW95TXlQOGlhV0RBN1o1TnlPay1sZnZBMFJPNjBiQQ?oc=5",
+      "image": null,
+      "ts": 1786825710000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zWUl0eG5HZHlmUkVzc2hmelJyT0tTUFduWldWNHJSaGdFZm90TXBIeGFUYzZIWE9QOHZGZW95TXlQOGlhV0RBN1o1TnlPay1sZnZBMFJPNjBiQQ?oc=5"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/lala-upgrades-to-hurricane-as-it-approaches-hawaiis-big-island/"
           }
         ]
       }
@@ -117,6 +188,39 @@
       "description": "New mediators have emerged to help end the Middle East impasse, with the US holding talks with Austria and Greece",
       "lat": 48.21,
       "lng": 16.37,
+      "severity": 2,
+      "location": "Vienna, Austria",
+      "source": "IBTimes",
+      "url": "https://www.ibtimes.com/new-mediators-prop-end-middle-east-impasse-iran-listening-us-musings-3806458",
+      "image": null,
+      "ts": 1786811357000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/new-mediators-prop-end-middle-east-impasse-iran-listening-us-musings-3806458"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6ebfb285e71e",
+      "title": "New Mediators Prop Up To End Middle East Impasse",
+      "description": "New mediators are attempting to end the Middle East impasse as Secretary of State Marco Rubio met foreign minister of Austria and held a call with the foreign minister of Greece",
+      "lat": 49.31,
+      "lng": 16.370000000000005,
       "severity": 2,
       "location": "Vienna, Austria",
       "source": "IBTimes",
@@ -7294,110 +7398,6 @@
             "n": "MercoPress",
             "b": "center",
             "u": "https://en.mercopress.com/2026/08/12/ypf-divests-its-stake-in-gas-distribution-for-780-million-dollars?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6e21d161ad24",
-      "title": "US Senate Extends AGOA Trade Programme",
-      "description": "The US Senate approved a two-year extension of the African Growth and Opportunity Act, maintaining duty-free access on more than 1,800 products from eligible countries.",
-      "lat": 39.99,
-      "lng": -75.1048,
-      "severity": 1,
-      "location": "Washington D.C., USA",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/08/12/us-senate-votes-to-extend-agoa-trade-programme-for-32-african-nations/",
-      "image": "http://images.euronews.com/articles/stories/09/87/06/01/640x360_cmsv2_6b3fe844-2e31-5c07-9b12-a31eedaafb26-9870601.jpg?1786460171",
-      "ts": 1786514253000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/12/us-senate-votes-to-extend-agoa-trade-programme-for-32-african-nations/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "832ac2bc4426",
-      "title": "North Korea Launches Another Ballistic Missile",
-      "description": "North Korea has launched another ballistic missile, its second in less than a week, as the US and South Korea prepare for military drills.",
-      "lat": 39.02,
-      "lng": 125.75,
-      "severity": 3,
-      "location": "Pyongyang, North Korea",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/north-korea-launches-ballistic-missile-us-south-korea-prepare-military-drills",
-      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
-      "ts": 1786508683347,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/north-korea-tests-missile-ahead-of-us-south-korea-drills/a-78329244?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/north-korea-launches-ballistic-missile-us-south-korea-prepare-military-drills"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b827444d1614",
-      "title": "China-linked hackers hit Taiwan in AI cyber attack",
-      "description": "AI agents ran simultaneous reconnaissance and break-ins in a display of new phase of cyberwarfare",
-      "lat": 25.03,
-      "lng": 121.55000000000001,
-      "severity": 3,
-      "location": "Taipei, Taiwan",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1786507872000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795?syn-25a6b1a6=1"
           }
         ]
       }
