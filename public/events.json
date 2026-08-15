@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-15T17:50:25.500149+00:00",
+  "updated": "2026-08-15T18:40:43.216463+00:00",
   "events": [
+    {
+      "id": "7ea20b7d0cc0",
+      "title": "Moroccan police arrest migrants",
+      "description": "Moroccan police arrest more than 100 people attempting to enter Ceuta, a Spanish enclave in North Africa.",
+      "lat": 36.98,
+      "lng": -5.310000000000002,
+      "severity": 3,
+      "location": "Ceuta, Morocco",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta",
+      "image": null,
+      "ts": 1786817301000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta"
+          }
+        ]
+      }
+    },
     {
       "id": "cb466dc106a0",
       "title": "Yemen's Mocha port halts operations after Houthi attacks",
@@ -118,11 +151,11 @@
     },
     {
       "id": "069ed7694771",
-      "title": "Zambian President Hichilema takes early lead in reelection bid",
-      "description": "Zambia's president has taken an early lead in elections, seeking to extend his rule of the copper-rich southern African nation.",
+      "title": "Zambian President takes early lead in election",
+      "description": "Zambian President Hichilema takes an early lead in his reelection bid.",
       "lat": -15.42,
       "lng": 28.28,
-      "severity": 1,
+      "severity": 2,
       "location": "Lusaka, Zambia",
       "source": "Bloomberg Politics",
       "url": "https://www.bloomberg.com/news/articles/2026-08-15/zambian-president-hichilema-takes-early-lead-in-reelection-bid",
@@ -7370,44 +7403,6 @@
             "n": "Time",
             "b": "lean_left",
             "u": "https://time.com/article/2026/08/11/trump-secret-plane-swap-Turkey-UK-Secret-Service-Air-Force-One/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "805ce581ea73",
-      "title": "Trump Secretly Switches Planes Due to Iran Threat",
-      "description": "Trump secretly switched planes in Turkey due to a threat from Iran, according to reports.",
-      "lat": 39.93,
-      "lng": 32.860000000000014,
-      "severity": 2,
-      "location": "Ankara, Turkey",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/trump-secretly-switched-plane-turkey-air-force-one-iran-war-threat/",
-      "image": null,
-      "ts": 1786498900000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/trump-secretly-switched-plane-turkey-air-force-one-iran-war-threat/"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/trump-switched-planes-in-turkey-over-iran-threat-but-left-aides-marco-rubio-and-pete-hegseth-journalists-behind-on-air-force-one-11898347#publisher=newsstand"
           }
         ]
       }
