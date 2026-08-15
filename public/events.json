@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-15T09:53:19.682290+00:00",
+  "updated": "2026-08-15T10:30:59.210837+00:00",
   "events": [
+    {
+      "id": "da915442a784",
+      "title": "Lebanon escalation",
+      "description": "Overnight Israeli strikes in southern Lebanon killed at least seven people, in the deadliest escalation since the lull in fighting began two months ago.",
+      "lat": 33.89,
+      "lng": 35.5,
+      "severity": 3,
+      "location": "Beirut, Lebanon",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/we-re-seeing-an-important-escalation-in-southern-lebanon-despite-the-so-called-truce",
+      "image": null,
+      "ts": 1786787962000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/we-re-seeing-an-important-escalation-in-southern-lebanon-despite-the-so-called-truce"
+          }
+        ]
+      }
+    },
     {
       "id": "cb39af2df6ed",
       "title": "China launches satellite for Algeria",
@@ -102,6 +135,39 @@
       }
     },
     {
+      "id": "495c19c8f92d",
+      "title": "Nigeria clashes",
+      "description": "At least 20 people were killed in clashes between Kambari and Fulani in central Nigeria.",
+      "lat": 10.18,
+      "lng": 8.680000000000007,
+      "severity": 4,
+      "location": "Abuja, Nigeria",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/several-killed-in-clashes-between-kambari-fulani-in-central-nigeria-updates/article71349011.ece",
+      "image": "https://th-i.thgim.com/public/news/national/6ogc5/article71349018.ece/alternates/LANDSCAPE_1200/iStock-682702770.jpg",
+      "ts": 1786782915000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/several-killed-in-clashes-between-kambari-fulani-in-central-nigeria-updates/article71349011.ece"
+          }
+        ]
+      }
+    },
+    {
       "id": "f56de93e529f",
       "title": "Iran-US tensions",
       "description": "Iran calls on US to accept defeat over Strait of Hormuz",
@@ -163,39 +229,6 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/08/15/morocco-and-spain-boost-security-in-ceuta-as-another-call-for-border-rush-seen-online/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "da915442a784",
-      "title": "Lebanon Israeli strike",
-      "description": "An Israeli strike in southern Lebanon killed seven people, the worst toll since deals in June saw a lull in hostilities between Israel and Hezbollah.",
-      "lat": 33.89,
-      "lng": 35.5,
-      "severity": 4,
-      "location": "Beirut, Lebanon",
-      "source": "RTE News",
-      "url": "https://www.rte.ie/news/2026/0815/1587980-lebanon-israel-strikes/",
-      "image": null,
-      "ts": 1786775706000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/2026/0815/1587980-lebanon-israel-strikes/"
           }
         ]
       }
@@ -528,6 +561,54 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/indonesia-strong-earthquake-hits-off-coast-of-flores-island/a-78377990?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "69f943ea2211",
+      "title": "Japan Defense Minister visits Yasukuni shrine",
+      "description": "Japan's defense minister visited a shrine seen by Japan's neighbors as a symbol of its wartime militarism, drawing condemnation from China.",
+      "lat": 36.79,
+      "lng": 141.60519999999997,
+      "severity": 3,
+      "location": "Tokyo, Japan",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-15/japan-defense-minister-visits-yasukuni-as-china-tensions-simmer",
+      "image": null,
+      "ts": 1786754842000,
+      "coverage": {
+        "left": 0,
+        "center": 4,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 4,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-15/japan-defense-minister-visits-yasukuni-as-china-tensions-simmer"
+          },
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/08/15/japan/politics/japan-takaichi-koizumi-yasukuni/"
+          },
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20260815001151315"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/japan-defence-minister-visits-contentious-yasukuni-shrine-to-war-dead"
           }
         ]
       }
@@ -7237,77 +7318,6 @@
             "n": "OAN",
             "b": "right",
             "u": "https://www.oann.com/newsroom/fmr-u-s-marine-released-from-russian-prison/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8fa0946aaf9b",
-      "title": "Lebanon abolishes death penalty in first for region",
-      "description": "Lebanon's parliament on Tuesday abolished the death penalty and replaced all existing death sentences with life imprisonment",
-      "lat": 33.89,
-      "lng": 35.50999999999999,
-      "severity": 1,
-      "location": "Beirut, Lebanon",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/08/lebanon-abolishes-death-penalty-first-region",
-      "image": null,
-      "ts": 1786463199000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/11/lebanons-parliament-votes-to-end-death-penalty-first-in-middle-east-to-so?traffic_source=rss"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/lebanon-abolishes-death-penalty-first-region"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6dc349fa461b",
-      "title": "Rescuers search for Colombia quake survivors as death toll passes 200",
-      "description": "Dogs and drones have been deployed to search for those trapped under collapsed buildings, with local authorities reporting at least 150 deaths from the nation's strongest earthquake in a decade",
-      "lat": 3.42,
-      "lng": -76.52,
-      "severity": 4,
-      "location": "Cali, Colombia",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/11/colombia-rescuers-scramble-find-survivors-earthquake-death-toll-rises/",
-      "image": null,
-      "ts": 1786462115000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/11/colombia-rescuers-scramble-find-survivors-earthquake-death-toll-rises/"
           }
         ]
       }
