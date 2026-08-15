@@ -1,19 +1,90 @@
 {
   "schema": 1,
-  "updated": "2026-08-15T10:51:23.449819+00:00",
+  "updated": "2026-08-15T11:28:25.118030+00:00",
   "events": [
     {
+      "id": "38f410c62e84",
+      "title": "Taliban marks 5 years in power",
+      "description": "Taliban leaders marked the fifth anniversary of their return to power in Afghanistan as a UN official warned of a crisis.",
+      "lat": 34.52,
+      "lng": 71.0752,
+      "severity": 3,
+      "location": "Kabul, Afghanistan",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/taliban-leaders-mark-5-years-power-afghanistan-official-135668682",
+      "image": "https://s.abcnews.com/images/International/wirestory_86a28152904a402836daf5d68328f22c_4x3_384.jpg",
+      "ts": 1786792624000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/taliban-leaders-mark-5-years-power-afghanistan-official-135668682"
+          }
+        ]
+      }
+    },
+    {
       "id": "da915442a784",
-      "title": "Lebanon escalation",
-      "description": "Overnight Israeli strikes in southern Lebanon killed at least seven people, in the deadliest escalation since the lull in fighting began two months ago.",
+      "title": "Israel strikes southern Lebanon",
+      "description": "Israeli airstrikes in southern Lebanon killed at least seven people, in the deadliest escalation since a lull in fighting began two months ago.",
       "lat": 33.89,
       "lng": 35.5,
-      "severity": 3,
+      "severity": 4,
       "location": "Beirut, Lebanon",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/we-re-seeing-an-important-escalation-in-southern-lebanon-despite-the-so-called-truce",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/iran-us-war-west-asia-conflict-donald-trump-strait-of-hormuz-rising-oil-prices-live-updates-august-15-2026/article71348347.ece",
       "image": null,
-      "ts": 1786787962000,
+      "ts": 1786791888000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/we-re-seeing-an-important-escalation-in-southern-lebanon-despite-the-so-called-truce"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/lebanon-says-9-dead-strikes-israel-says-targeted-hezbollah"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0ff90e2cdc5b",
+      "title": "Egyptian, Cypriot FMs praise growing relations",
+      "description": "Egyptian and Cypriot foreign ministers praised the growing momentum in bilateral relations during a phone call.",
+      "lat": 30.05,
+      "lng": 31.25,
+      "severity": 1,
+      "location": "Cairo, Egypt",
+      "source": "Egypt Independent",
+      "url": "https://www.egyptindependent.com/egyptian-cypriot-fms-praise-growing-momentum-in-bilateral-relations/",
+      "image": null,
+      "ts": 1786789722000,
       "coverage": {
         "left": 0,
         "center": 1,
@@ -28,9 +99,9 @@
         },
         "sources": [
           {
-            "n": "France 24",
+            "n": "Egypt Independent",
             "b": "center",
-            "u": "https://www.france24.com/en/we-re-seeing-an-important-escalation-in-southern-lebanon-despite-the-so-called-truce"
+            "u": "https://www.egyptindependent.com/egyptian-cypriot-fms-praise-growing-momentum-in-bilateral-relations/"
           }
         ]
       }
@@ -130,6 +201,39 @@
             "n": "Daily Express World",
             "b": "right",
             "u": "https://www.express.co.uk/news/world/2239402/granada-earthquake-live-spain-terremoto-today-Alhendin-hotels"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8da33cdc1cdf",
+      "title": "Hormuz ship attacks mount",
+      "description": "More ships have come under attack in the Strait of Hormuz as talks to end the war in the Middle East remain stalled.",
+      "lat": 27.67,
+      "lng": 56.25,
+      "severity": 3,
+      "location": "Strait of Hormuz",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-15/hormuz-ship-attacks-mount-as-us-vows-to-cripple-iran-s-economy",
+      "image": null,
+      "ts": 1786785183000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-15/hormuz-ship-attacks-mount-as-us-vows-to-cripple-iran-s-economy"
           }
         ]
       }
@@ -7199,125 +7303,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/mid-east/yemen-coastguard-says-six-killed-in-houthi-strike-on-ship-in-red-sea"
-          }
-        ]
-      }
-    },
-    {
-      "id": "951e25d2b5c7",
-      "title": "US fires missiles to disable ship violating Iran blockade",
-      "description": "A US helicopter fired missiles into the engine room of a Panama-flagged cargo ship that attempted to break the American blockade of Iran's ports.",
-      "lat": 26.57,
-      "lng": 58.44999999999999,
-      "severity": 4,
-      "location": "Gulf of Oman",
-      "source": "RTE News",
-      "url": "https://www.rte.ie/news/2026/0811/1587478-trump-iran/",
-      "image": "https://www.rte.ie/images/0024d411-800.jpg",
-      "ts": 1786465703000,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/11/us-military-fires-on-cargo-vessel-it-said-sought-to-break-iran-blockade?traffic_source=rss"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cvg8lyyyjedo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/2026/0811/1587478-trump-iran/"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/middle-east/article/3363706/us-military-says-it-has-fired-ship-gulf-oman-enforce-blockade-iranian-ports?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ab98e968cbc9",
-      "title": "US Strikes Panamanian Vessel",
-      "description": "US forces struck a Panamanian vessel in the Gulf of Oman over an alleged breach of a blockade on Iran.",
-      "lat": 27.03,
-      "lng": 57.40260000000001,
-      "severity": 3,
-      "location": "Gulf of Oman",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/middle-east/iran-news/article-905200",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_1000,w_1500/689981",
-      "ts": 1786465636000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/iran-news/article-905200"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d2b1bbf46e19",
-      "title": "Former Marine Released from Russian Jail",
-      "description": "Former U.S. Marine Robert Gilman was released from a Russian jail after being held for more than four years.",
-      "lat": 56.85,
-      "lng": 37.620000000000005,
-      "severity": 1,
-      "location": "Moscow, Russia",
-      "source": "NBC News World",
-      "url": "https://www.nbcnews.com/world/europe/former-us-marine-robert-gilman-held-russia-released-rcna591952",
-      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-08/250811-robert-gilman-mb-1812-b8279c.jpg",
-      "ts": 1786465423000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/europe/former-us-marine-robert-gilman-held-russia-released-rcna591952"
-          },
-          {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/newsroom/fmr-u-s-marine-released-from-russian-prison/"
           }
         ]
       }
