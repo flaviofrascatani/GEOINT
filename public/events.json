@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-14T23:51:46.044094+00:00",
+  "updated": "2026-08-15T01:42:54.345265+00:00",
   "events": [
+    {
+      "id": "239a52389420",
+      "title": "Iran defiant on strait",
+      "description": "Iran called on the US to accept defeat while President Donald Trump blasted Iran as 'evil' and urged Americans to accept high gas prices.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/iran-defiant-strait-trump-tells-americans-accept-high-gas-prices",
+      "image": null,
+      "ts": 1786754790000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/iran-defiant-strait-trump-tells-americans-accept-high-gas-prices"
+          }
+        ]
+      }
+    },
     {
       "id": "da915442a784",
       "title": "Lebanon’s PM urges timetable for Israeli withdrawal as Hezbollah slams deal",
@@ -107,6 +140,39 @@
       }
     },
     {
+      "id": "378ccf872da1",
+      "title": "Apache helicopter training halted",
+      "description": "The US Army temporarily halted all Apache helicopter training missions after a fatal crash in Texas earlier this week.",
+      "lat": 29.76,
+      "lng": -95.36,
+      "severity": 3,
+      "location": "Texas, USA",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/army-temporarily-halts-apache-helicopter-training-missions-after-texas-crash-11912278#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-08/qen0n1og_us-apache-helicopter_625x300_13_August_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1786747166000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/army-temporarily-halts-apache-helicopter-training-missions-after-texas-crash-11912278#publisher=newsstand"
+          }
+        ]
+      }
+    },
+    {
       "id": "521e7065fd36",
       "title": "Trump admin escalates fight against transgender care",
       "description": "The Trump administration this week scaled up its fight against transgender care",
@@ -135,6 +201,39 @@
             "n": "The Hill",
             "b": "center",
             "u": "https://thehill.com/newsletters/healthcare/6030921-trump-hhs-transgender-care/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4053129f773b",
+      "title": "Ebola outbreak in DR Congo",
+      "description": "The Ebola outbreak in the Democratic Republic of Congo is killing one person every 30 minutes, according to the UN.",
+      "lat": -4.32,
+      "lng": 15.3,
+      "severity": 4,
+      "location": "Kinshasa, DR Congo",
+      "source": "Le Monde English",
+      "url": "https://www.lemonde.fr/en/international/article/2026/08/14/ebola-outbreak-in-dr-congo-killing-one-person-every-30-minutes-un-says_6756522_4.html",
+      "image": "https://img.lemde.fr/2026/08/13/500/0/6000/3000/644/322/60/0/c8b1e01_ftp-1-pv9bep0g6txy-a0cbe002e7d845d8b9d877b98e347d90-4-d8adc46602d84848ac6552d7bc16b4ae.jpg",
+      "ts": 1786742336000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/08/14/ebola-outbreak-in-dr-congo-killing-one-person-every-30-minutes-un-says_6756522_4.html"
           }
         ]
       }
@@ -571,6 +670,39 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/08/14/survivors-recount-horror-as-zimbabwe-lake-kariba-ferry-death-toll-hits-46/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "48220045a7ba",
+      "title": "Zambia elections",
+      "description": "Zambia has resumed vote counting after a nationwide suspension over election-related violence, with the Electoral Commission saying security threats have been contained.",
+      "lat": -15.4,
+      "lng": 28.28,
+      "severity": 3,
+      "location": "Lusaka, Zambia",
+      "source": "All Africa",
+      "url": "https://allafrica.com/stories/202608140407.html",
+      "image": null,
+      "ts": 1786723258000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/14/zambia-resumes-counting-after-violence-disrupts-election-process/"
           }
         ]
       }
@@ -7291,178 +7423,6 @@
             "n": "Rio Times",
             "b": "center",
             "u": "https://www.riotimesonline.com/indonesia-mercosur-trade-deal-2026/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "56f0e38cf15c",
-      "title": "Russian attacks kill six in Ukraine’s Zaporizhzhia",
-      "description": "Russian attacks have killed six people in Ukraine’s Zaporizhzhia, according to Ukraine's state emergency service.",
-      "lat": 47.83,
-      "lng": 35.13,
-      "severity": 3,
-      "location": "Zaporizhzhia, Ukraine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/11/russian-attacks-kill-six-in-ukraines-zaporizhzhia?traffic_source=rss",
-      "image": null,
-      "ts": 1786432071000,
-      "coverage": {
-        "left": 2,
-        "center": 2,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/5-killed-20-injured-in-russian-attack-on-ukraines-zaporizhzhia-11892422#publisher=newsstand"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/11/russian-attacks-kill-six-in-ukraines-zaporizhzhia?traffic_source=rss"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/ukraine/2026/0811/1587353-ukraine-russia/"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/europe/20260810-live-russian-missiles-strike-kyiv-triggering-fires-in-city-centre"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a43337111875",
-      "title": "Nvidia, Wall Street giants seek to raise $500B in fresh AI push",
-      "description": "Nvidia and major Wall Street financial institutions announced a plan to mobilize at least $500 billion in capital to invest in artificial intelligence infrastructure.",
-      "lat": 38.49,
-      "lng": -121.95,
-      "severity": 1,
-      "location": "Santa Clara, USA",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/business/tech/nvidia-wall-street-giants-seek-to-raise-500b-in-fresh-ai-push",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/08/11/455162.JPG",
-      "ts": 1786431420000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c78gr0jv0mdo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "ANSA Economia",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/economia/2026/08/11/nvidia-con-big-di-wall-street-maxi-piattaforma-da-500-miliardi-per_dce06aca-9167-40e4-8752-6a54c620ea68.html"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/business/tech/nvidia-wall-street-giants-seek-to-raise-500b-in-fresh-ai-push"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8ee272025d2c",
-      "title": "Trump pivots back to sanctions for Iran as other strategies to end his war fizzle",
-      "description": "Trump pivots back to sanctions for Iran as other strategies to end his war fizzle.",
-      "lat": 36.79,
-      "lng": 53.295199999999994,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5KcjJmak9tOGJ1UE5KSmZBMnozakgyUXV1eV9lZmJlYmE3WVA1Nll6c2lyYkRsWHgtZTQtYzkwS2tCUDVDczRwbU9zOERhT1hIQzF4YXU3bVVxNVgyTnpHRllaTXM?oc=5",
-      "image": null,
-      "ts": 1786427307000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/trump-pivots-back-to-sanctions-for-iran-as-other-strategies-to-end-his-war-fizzle/article71331380.ece"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5KcjJmak9tOGJ1UE5KSmZBMnozakgyUXV1eV9lZmJlYmE3WVA1Nll6c2lyYkRsWHgtZTQtYzkwS2tCUDVDczRwbU9zOERhT1hIQzF4YXU3bVVxNVgyTnpHRllaTXM?oc=5"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZm1US05CR2dscjFVYXVxckszQzlrZUJMQ2N5TUJCb1Vka21vclZwRGdweDlDWE52UWtaWkhsMnlvX2lBVkdoWnhDS2oxeVdRdmtsUFZjdEZwYy01bVpxeFNOU2R6MGFsd1RxdFFxbkUyNlBxMU44eGh0ZUFGWGxUcTg2U0hjSkk?oc=5"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/trump-bets-economic-pressure-can-squeeze-iran-regimes-own-failures-deepen-pain"
-          }
-        ]
-      }
-    },
-    {
-      "id": "bfa56bb7fad1",
-      "title": "Vietnam’s VinSpace signs deal with SpaceX to launch its first satellites in 2027",
-      "description": "The Vietnamese aerospace company VinSpace has signed a contract with SpaceX to launch its first satellites in 2027.",
-      "lat": 10.78,
-      "lng": 106.66,
-      "severity": 1,
-      "location": "Ho Chi Minh City, Vietnam",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/vietnams-vinspace-signs-deal-elon-musks-spacex-launch-135536822",
-      "image": "https://s.abcnews.com/images/International/wirestory_100b2afad4ad42fdffdca3a6c7cbfa7a_4x3_384.jpg",
-      "ts": 1786427029000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/vietnams-vinspace-signs-deal-elon-musks-spacex-launch-135536822"
           }
         ]
       }
