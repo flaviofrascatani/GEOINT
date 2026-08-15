@@ -1,7 +1,45 @@
 {
   "schema": 1,
-  "updated": "2026-08-15T16:54:05.686924+00:00",
+  "updated": "2026-08-15T17:27:39.036536+00:00",
   "events": [
+    {
+      "id": "cb466dc106a0",
+      "title": "Yemen's Mocha port halts operations after Houthi attacks",
+      "description": "Yemen's Mocha port has suspended commercial and maritime operations after being hit by more than 25 missiles in Houthi attacks",
+      "lat": 13.32,
+      "lng": 43.25,
+      "severity": 3,
+      "location": "Mocha, Yemen",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/yemens-mocha-port-halts-operations-after-houthi-attacks-port-director-says",
+      "image": null,
+      "ts": 1786812396000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/yemen-government-says-houthi-missiles-kill-at-least-four-civilians-in-port-city/article71350552.ece"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/yemens-mocha-port-halts-operations-after-houthi-attacks-port-director-says"
+          }
+        ]
+      }
+    },
     {
       "id": "0c8876de7787",
       "title": "India celebrates 80th Independence Day, receives greetings from world leaders",
@@ -7370,39 +7408,6 @@
             "n": "NDTV World",
             "b": "lean_left",
             "u": "https://www.ndtv.com/world-news/trump-switched-planes-in-turkey-over-iran-threat-but-left-aides-marco-rubio-and-pete-hegseth-journalists-behind-on-air-force-one-11898347#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "57131f24eedf",
-      "title": "US Disables Panama-Flagged Container Ship",
-      "description": "US forces struck a Panama-flagged container ship in the Gulf of Oman, leaving it unable to steer, after it attempted to head for an Iranian port in violation of the naval blockade.",
-      "lat": 25.38,
-      "lng": 58.44999999999999,
-      "severity": 4,
-      "location": "Gulf of Oman",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/08/12/us-disables-a-panama-flagged-container-ship-off-the-coast-of-pakistan?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111115/100x80/barcos.jpeg",
-      "ts": 1786493760000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/08/12/us-disables-a-panama-flagged-container-ship-off-the-coast-of-pakistan?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
           }
         ]
       }
