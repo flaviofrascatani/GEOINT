@@ -1,7 +1,45 @@
 {
   "schema": 1,
-  "updated": "2026-08-15T20:51:20.434298+00:00",
+  "updated": "2026-08-15T21:29:10.837825+00:00",
   "events": [
+    {
+      "id": "9c2296ef82d1",
+      "title": "Nvidia eyes investing $3 billion in SoftBank's SB Energy",
+      "description": "Nvidia is considering investing $3 billion in SoftBank's SB Energy under an OpenAI data center deal",
+      "lat": 38.87,
+      "lng": -122.42,
+      "severity": 2,
+      "location": "Santa Clara, USA",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/08/15/nvidia-mulls-3b-investment-in-sb-energy-in-openai-data-center-deal-report.html",
+      "image": null,
+      "ts": 1786825924000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/08/15/nvidia-mulls-3b-investment-in-sb-energy-in-openai-data-center-deal-report.html"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/business/nvidia-eyes-investing-3-billion-in-sb-energy-under-openai-data-center-deal-information-says-6321736"
+          }
+        ]
+      }
+    },
     {
       "id": "7ea20b7d0cc0",
       "title": "Moroccan police arrest migrants",
@@ -69,6 +107,39 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/08/yemens-mocha-port-halts-operations-after-houthi-attacks-port-director-says"
+          }
+        ]
+      }
+    },
+    {
+      "id": "011612a2a9e4",
+      "title": "New mediators emerge to end Middle East impasse",
+      "description": "New mediators have emerged to help end the Middle East impasse, with the US holding talks with Austria and Greece",
+      "lat": 48.21,
+      "lng": 16.37,
+      "severity": 2,
+      "location": "Vienna, Austria",
+      "source": "IBTimes",
+      "url": "https://www.ibtimes.com/new-mediators-prop-end-middle-east-impasse-iran-listening-us-musings-3806458",
+      "image": null,
+      "ts": 1786811357000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/new-mediators-prop-end-middle-east-impasse-iran-listening-us-musings-3806458"
           }
         ]
       }
@@ -7327,82 +7398,6 @@
             "n": "Financial Times World",
             "b": "center",
             "u": "https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795?syn-25a6b1a6=1"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e86d0c0fb949",
-      "title": "Trump confirms secret plane switch",
-      "description": "Donald Trump confirmed he secretly switched planes due to a threat to his life.",
-      "lat": 41.81,
-      "lng": -74.01,
-      "severity": 2,
-      "location": "New York City, USA",
-      "source": "RTE News",
-      "url": "https://www.rte.ie/news/us/2026/0812/1587521-donald-trump-plane/",
-      "image": "https://www.rte.ie/images/0024d43f-800.jpg",
-      "ts": 1786504258000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/us/2026/0812/1587521-donald-trump-plane/"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/donald-trump-secretly-left-nato-summit-on-military-plane-over-iran-threat-13571831"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a0379fe104c3",
-      "title": "Trump Secret Plane Swap",
-      "description": "Trump secretly switched planes amid an Iranian threat, flying back from Turkey on a smaller C-32A aircraft.",
-      "lat": 39.93,
-      "lng": 32.860000000000014,
-      "severity": 2,
-      "location": "Ankara, Turkey",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/trump-secretly-switched-plane-turkey-air-force-one-iran-war-threat/",
-      "image": null,
-      "ts": 1786498900000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Business Insider",
-            "b": "lean_left",
-            "u": "https://www.businessinsider.com/presidents-planes-vehicles-air-force-one-marine-one-photos"
-          },
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/08/11/trump-secret-plane-swap-Turkey-UK-Secret-Service-Air-Force-One/"
           }
         ]
       }
