@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-08-16T03:08:28.374239+00:00",
+  "updated": "2026-08-16T04:10:30.007120+00:00",
   "events": [
+    {
+      "id": "f85cb80f1640",
+      "title": "Russian Attacks Kill One in Ukraine",
+      "description": "Allarme antiaereo a Kiev, attacchi russi uccidono una persona in Ucraina",
+      "lat": 51.55,
+      "lng": 32.42519999999999,
+      "severity": 4,
+      "location": "Kiev, Ukraine",
+      "source": "ANSA Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/08/16/attacchi-russi-uccidono-una-persona-in-ucraina-oltre-130-droni-lanciati_915b85a9-3168-4d31-bbee-38bfc441406d.html",
+      "image": null,
+      "ts": 1786852126000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/europa/2026/08/16/attacchi-russi-uccidono-una-persona-in-ucraina-oltre-130-droni-lanciati_915b85a9-3168-4d31-bbee-38bfc441406d.html"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-15/zelenskyy-says-ukraine-strikes-russian-space-facility-in-samara"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2b91c2cd755d",
+      "title": "Indonesia Earthquake Kills 47",
+      "description": "Rescue teams are searching through rubble and landslide debris, a day after a magnitude 7.7 earthquake struck off Flores island in eastern Indonesia",
+      "lat": -8.29,
+      "lng": 122.93520000000001,
+      "severity": 4,
+      "location": "Flores Island, Indonesia",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/rescuers-dig-rubble-landslides-after-indonesia-quake-kills-135682965",
+      "image": "https://s.abcnews.com/images/International/wirestory_bf1d024bdec7727094f8dc73d7dd5e34_4x3_384.jpg",
+      "ts": 1786849955000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/rescuers-dig-rubble-landslides-after-indonesia-quake-kills-135682965"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c6604d7536d9",
+      "title": "Iran President Extends Independence Day Wishes to India",
+      "description": "Iranian President Pezeshkian extends Independence Day wishes to India and highlights deep historic ties",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 1,
+      "location": "Tehran, Iran",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/fired-defense-minister-mykhailo-fedorov-ukraine-technological-war-russia/",
+      "image": null,
+      "ts": 1786846680000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/iranian-president-extends-independence-day-wishes-to-india-seeks-deeper-ties-11915358#publisher=newsstand"
+          }
+        ]
+      }
+    },
     {
       "id": "ceed76aeec04",
       "title": "North Korea's Kim, Russia's Putin reaffirm ties on Korean Liberation Day",
@@ -41,6 +145,39 @@
             "n": "Wall Street Journal World",
             "b": "lean_right",
             "u": "https://www.wsj.com/articles/kim-jong-un-is-doing-everything-he-can-to-keep-north-koreas-youth-in-line-0866a1de"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3a92cbf14f49",
+      "title": "Yemenis Worry About Return to All-Out War",
+      "description": "Yemen's years-long civil conflict killed tens of thousands of people, uprooted millions and drove the country to the brink of famine before a 2022 truce restored relative calm",
+      "lat": 16.45,
+      "lng": 44.19,
+      "severity": 3,
+      "location": "Sanaa, Yemen",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/everyone-lives-fear-yemenis-worry-about-return-all-out-war",
+      "image": null,
+      "ts": 1786843821000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/everyone-lives-fear-yemenis-worry-about-return-all-out-war"
           }
         ]
       }
@@ -1440,11 +1577,11 @@
     },
     {
       "id": "81a6dc9c5478",
-      "title": "Iran ramps up propaganda war",
-      "description": "Iran has intensified its anti-US messaging with violent billboards following the death of Supreme Leader Ayatollah Ali Khamenei",
+      "title": "Iran Ramps Up Propaganda War with Violent Billboards",
+      "description": "Anti-U.S. messaging has intensified since the death of Supreme Leader Ayatollah Ali Khamenei, with artificial intelligence playing a major role",
       "lat": 35.69,
       "lng": 51.389999999999986,
-      "severity": 2,
+      "severity": 3,
       "location": "Tehran, Iran",
       "source": "NBC News World",
       "url": "https://www.nbcnews.com/world/iran/revenge-inevitable-iran-ramps-propaganda-war-violent-billboards-rcna591867",
@@ -7246,178 +7383,6 @@
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/east-asia/chinas-reformist-ex-premier-zhu-rongji-dies"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ebb7f8e3e237",
-      "title": "Zhu Rongji, Chinese leader, dies at 97",
-      "description": "Zhu Rongji, Chinese leader who oversaw WTO debut, dies at 97",
-      "lat": 41.01,
-      "lng": 118.29520000000002,
-      "severity": 1,
-      "location": "Beijing, China",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/life-arts/obituaries/zhu-rongji-chinese-leader-who-oversaw-wto-debut-dies-at-97",
-      "image": null,
-      "ts": 1786531100383,
-      "coverage": {
-        "left": 1,
-        "center": 4,
-        "right": 0,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 4,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/chinese-premier-zhu-rongji-architect-growth-dies-illness-135570888"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/62198cc0-044a-42a0-91c5-3e5159f29465?syn-25a6b1a6=1"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-12/zhu-rongji-chinese-premier-who-overhauled-economy-dies-at-98"
-          },
-          {
-            "n": "Nikkei Asia",
-            "b": "center",
-            "u": "https://asia.nikkei.com/life-arts/obituaries/zhu-rongji-chinese-leader-who-oversaw-wto-debut-dies-at-97"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/east-asia/former-chinese-premier-zhu-rongji-dies-6314656"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d808bc959dbe",
-      "title": "US, Iran agree to extend cease-fire",
-      "description": "The United States and Iran have agreed in principle to extend a 60-day temporary cease-fire set to expire on Aug. 17 under the diplomatic framework of the Islamabad Accord",
-      "lat": 33.69,
-      "lng": 73.05,
-      "severity": 1,
-      "location": "Islamabad, Pakistan",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/world/mid-east/us-iran-reportedly-agree-to-extend-cease-fire-under-islamabad-accord",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/08/12/455392.jpg",
-      "ts": 1786529340000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/mid-east/us-iran-reportedly-agree-to-extend-cease-fire-under-islamabad-accord"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e8e8762414bf",
-      "title": "Key Russian Port Halts Grain Exports After Ukrainian Attack",
-      "description": "Three of Russia's largest grain terminals in the Black Sea port of Novorossiysk have halted operations after being damaged in a massive overnight drone attack by Ukraine.",
-      "lat": 44.72,
-      "lng": 37.78,
-      "severity": 3,
-      "location": "Novorossiysk, Russia",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-12/ukraine-strikes-grain-terminals-at-russia-s-key-black-sea-port",
-      "image": null,
-      "ts": 1786526642000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/tatyana-kim-russias-richest-womans-empire-goes-up-in-flames-after-ukrainian-drone-attack-11898874#publisher=newsstand"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-12/ukraine-strikes-grain-terminals-at-russia-s-key-black-sea-port"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ba266ac6ca26",
-      "title": "US primary elections",
-      "description": "Moderate Democrat David Crowley won the Wisconsin primary for governor, defeating democratic socialist Francesca Hong.",
-      "lat": 43.04,
-      "lng": -89.39,
-      "severity": 1,
-      "location": "Madison, Wisconsin, USA",
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/08/12/wisconsin-democratic-governor-primary-hong-crowley",
-      "image": "https://images.axios.com/q-aipb6BvoDE2mvGCCO13N0e0i8=/0x302:4000x2552/1366x768/2026/08/12/1786526024188.jpeg",
-      "ts": 1786526096000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/08/12/wisconsin-democratic-gubernatorial-primary-result-hong-crowley/"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/american-politics/article-905274"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-12/crowley-wins-wisconsin-dem-governor-primary-ddhq-projects"
-          },
-          {
-            "n": "New York Post",
-            "b": "lean_right",
-            "u": "https://nypost.com/2026/08/12/us-news/francesca-hong-loses-tight-race-to-moderate-david-crowley-in-wisconsin-gubernatorial-primary/"
           }
         ]
       }
