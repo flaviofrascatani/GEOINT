@@ -1,7 +1,50 @@
 {
   "schema": 1,
-  "updated": "2026-08-16T01:50:58.689384+00:00",
+  "updated": "2026-08-16T03:08:28.374239+00:00",
   "events": [
+    {
+      "id": "ceed76aeec04",
+      "title": "North Korea's Kim, Russia's Putin reaffirm ties on Korean Liberation Day",
+      "description": "North Korean leader Kim Jong Un reaffirmed the deepening of ties with Russia in a message to President Vladimir Putin as Pyongyang marked the anniversary of independence from Japan's colonial rule.",
+      "lat": 37.56,
+      "lng": 128.8752,
+      "severity": 2,
+      "location": "Pyongyang, North Korea",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/north-koreas-kim-russias-putin-reaffirm-ties-on-korean-liberation-day",
+      "image": null,
+      "ts": 1786846255000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/north-koreas-kim-russias-putin-reaffirm-ties-on-korean-liberation-day"
+          },
+          {
+            "n": "Times of India World",
+            "b": "center",
+            "u": "https://timesofindia.indiatimes.com/world/rest-of-world/always-proud-kim-jong-un-hails-north-korea-russia-ties-in-message-to-putin/articleshow/133269142.cms"
+          },
+          {
+            "n": "Wall Street Journal World",
+            "b": "lean_right",
+            "u": "https://www.wsj.com/articles/kim-jong-un-is-doing-everything-he-can-to-keep-north-koreas-youth-in-line-0866a1de"
+          }
+        ]
+      }
+    },
     {
       "id": "18cab2f97fb1",
       "title": "Syrian army helicopters drop roses on crowds in Damascus",
@@ -70,34 +113,29 @@
     },
     {
       "id": "32ad17436dfb",
-      "title": "Iran war live: Talks on Hormuz Strait continue; Israel kills 11 in Lebanon",
-      "description": "Israel kills 11 in deadliest attacks on Lebanon since June truce as Iran and Oman continue talks on Hormuz.",
+      "title": "UAE condemns Iran for attacking oil tanker in Strait of Hormuz",
+      "description": "The United Arab Emirates (UAE) has accused Iran of attacking another vessel belonging to its state oil company, the Abu Dhabi National Oil Company (ADNOC), as it attempted to travel through the Strait of Hormuz.",
       "lat": 33.35,
       "lng": 37.5352,
-      "severity": 4,
+      "severity": 3,
       "location": "Southern Lebanon",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/8/16/iran-war-live-talks-on-hormuz-strait-continue-israel-kills-11-in-lebanon?traffic_source=rss",
+      "source": "OAN",
+      "url": "https://www.oann.com/newsroom/uae-condemns-iran-for-attacking-3rd-state-owned-oil-tanker-in-strait-of-hormuz-in-1-week/",
       "image": null,
       "ts": 1786838445000,
       "coverage": {
-        "left": 3,
-        "center": 3,
-        "right": 2,
-        "total": 8,
+        "left": 2,
+        "center": 5,
+        "right": 3,
+        "total": 10,
         "buckets": {
-          "left": 1,
+          "left": 0,
           "lean_left": 2,
-          "center": 3,
-          "lean_right": 0,
+          "center": 5,
+          "lean_right": 1,
           "right": 2
         },
         "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/trump-tells-americans-to-accept-high-gas-prices-as-iran-remains-defiant-on-strait-of-hormuz_n_6a8099aee4b05886dff51fac"
-          },
           {
             "n": "CBS News World",
             "b": "lean_left",
@@ -109,9 +147,19 @@
             "u": "https://www.aljazeera.com/news/liveblog/2026/8/16/iran-war-live-talks-on-hormuz-strait-continue-israel-kills-11-in-lebanon?traffic_source=rss"
           },
           {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/policy/international/6031505-uae-accuses-iran-strait-hormuz/"
+          },
+          {
             "n": "GNews Geopolitics",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54c0ZsdG9YaHJmMkxlQl9pdW5fR0RnM3BWc0ExaVFBNkxxU2daSGZjRk12QXhaV3ctRDRYRlF3SjMtOE5LelVzMUZ0cFYyNXJKWncySnhBdGpLd0tNY2tTUHYyVEMxdGw2d2RqOFJEeTFMdUVDQjhkZEtjQjdoTlk?oc=5"
           },
           {
             "n": "Bloomberg Politics",
@@ -122,6 +170,11 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/08/uae-says-iran-attacked-adnoc-vessel-hormuz-urges-waterways-reopening"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2173787"
           },
           {
             "n": "OAN",
@@ -383,6 +436,39 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/08/yemens-mocha-port-halts-operations-after-houthi-attacks-port-director-says"
+          }
+        ]
+      }
+    },
+    {
+      "id": "51cc028420dc",
+      "title": "Powerful Indonesia earthquake kills 47",
+      "description": "The earthquake took place around 5 a.m. and was centered off the coast of Flores Island in the quake-prone archipelago.",
+      "lat": -7.19,
+      "lng": 121.02999999999997,
+      "severity": 4,
+      "location": "Flores Island, Indonesia",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/08/15/77-magnitude-earthquake-off-flores-island-indonesia-kills-least-38/",
+      "image": null,
+      "ts": 1786812120000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/08/15/77-magnitude-earthquake-off-flores-island-indonesia-kills-least-38/"
           }
         ]
       }
@@ -7332,77 +7418,6 @@
             "n": "New York Post",
             "b": "lean_right",
             "u": "https://nypost.com/2026/08/12/us-news/francesca-hong-loses-tight-race-to-moderate-david-crowley-in-wisconsin-gubernatorial-primary/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b38d5889319b",
-      "title": "Drone strike in western Libya",
-      "description": "A drone strike ignited a fire at a power plant in western Libya, knocking the facility out of service.",
-      "lat": 32.76,
-      "lng": 14.625200000000007,
-      "severity": 4,
-      "location": "Zawiya, Libya",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/drone-strike-western-libya-torches-power-substation-triggering-135569481",
-      "image": null,
-      "ts": 1786525083000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/drone-strike-western-libya-torches-power-substation-triggering-135569481"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/drone-attack-hits-libya-s-largest-oil-refinery/a-78328962?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8e99eb54f5ce",
-      "title": "Taiwan Rethinks Nuclear Energy Amid Middle East Conflict",
-      "description": "Taiwan is rethinking its nuclear energy policy amid the ongoing conflict in the Middle East, which has highlighted the island's energy insecurity.",
-      "lat": 25.03,
-      "lng": 121.55000000000001,
-      "severity": 2,
-      "location": "Taipei, Taiwan",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcFY1ZXltOXA0Rm5pdy1qYjRSTUI5SGd3QzlGOHk5cUtKQ3RZNFdpZWNJRzUycVVWOHRxYmpXTHJLLUFWbVJhcEF5RmFwOEM5a2dheWxFS2lQaUlhRW9rWEFUQm9renhXdjB3MlZxb3VldFY2VnZBUmRfVDFVUGRVVlBxLTRVWFFySjFGb3VjSFV1SWlkaTFwQXFJejZicUpmbG4xV191azczUzdjbHlHRVY0RXNJaTA1bVFnY244VmdDSjhzRFZJ?oc=5",
-      "image": null,
-      "ts": 1786524397000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcFY1ZXltOXA0Rm5pdy1qYjRSTUI5SGd3QzlGOHk5cUtKQ3RZNFdpZWNJRzUycVVWOHRxYmpXTHJLLUFWbVJhcEF5RmFwOEM5a2dheWxFS2lQaUlhRW9rWEFUQm9renhXdjB3MlZxb3VldFY2VnZBUmRfVDFVUGRVVlBxLTRVWFFySjFGb3VjSFV1SWlkaTFwQXFJejZicUpmbG4xV191azczUzdjbHlHRVY0RXNJaTA1bVFnY244VmdDSjhzRFZJ?oc=5"
           }
         ]
       }
