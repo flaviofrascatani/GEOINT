@@ -1,7 +1,95 @@
 {
   "schema": 1,
-  "updated": "2026-08-16T22:51:17.667473+00:00",
+  "updated": "2026-08-16T23:28:06.382464+00:00",
   "events": [
+    {
+      "id": "8c5e20c5c240",
+      "title": "Trump orders military to reduce joint exercises with South Korea",
+      "description": "President Donald Trump said he has directed the Pentagon to scale down joint military exercises with South Korea, citing the country's refusal to join the war in Iran and his 'very good' relationship with North Korea's leader.",
+      "lat": 37.56,
+      "lng": 126.97000000000003,
+      "severity": 2,
+      "location": "Seoul, South Korea",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/politics/trump-administration/trump-orders-military-substantially-reduce-joint-exercises-south-korea-rcna592832",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-08/210810-south-korea-military-mc-916-1aacff.jpg",
+      "ts": 1786922191000,
+      "coverage": {
+        "left": 2,
+        "center": 9,
+        "right": 1,
+        "total": 12,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 9,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/politics/trump-administration/trump-orders-military-substantially-reduce-joint-exercises-south-korea-rcna592832"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/trump-orders-pentagon-to-scale-back-joint-exercises-with-south-korea/article71354064.ece"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/08/16/trump-us-south-korea-military-drills-cut"
+          },
+          {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/policy/defense/6032392-trump-scales-back-us-south-korea-drills/"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/international/article-905716"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb3RPcGlIdXQ3RU5USnlMN0tyQUxyT2c4NW1zekhhV0xubm9tTmhHLWE0c2RxTFdNWXJueVF4TXA5ODJDNFRhQTdCQllnaU51cTlCc0pqaHZNbmxIbnhxR01MNVZEOWdtaU90cWZjUU9RYlBITDBhMWdiNllIcGFoMHJXQWdlN0lQdWZ5dVVNT00wR0px?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-16/trump-says-he-s-curtailing-military-drills-with-south-korea"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/trump-instructs-pentagon-reduce-military-exercises-south-korea"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/united-states-canada/article/3364222/trump-orders-pentagon-scale-back-joint-military-exercises-south-korea?utm_source=rss_feed"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/world/trump-us-south-korea-scaling-back-military-drills-6322776"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/644311-trump-south-korea-scale-back-drill/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
     {
       "id": "eed75b8bdedc",
       "title": "Ebola outbreak in DR Congo now deadliest in country's history",
@@ -7355,39 +7443,6 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/world/2172199"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ddedae807f50",
-      "title": "Russia expands direct flights to Alexandria and El Alamein",
-      "description": "Russian travelers will soon have direct air access to Egypt’s Mediterranean coast, following a decision by Russia’s Federal Air Transport Agency to authorize direct routes to Borg El Arab and El Alamein airports.",
-      "lat": 31.2,
-      "lng": 29.95,
-      "severity": 2,
-      "location": "Alexandria, Egypt",
-      "source": "All Africa",
-      "url": "https://allafrica.com/stories/202608130001.html",
-      "image": null,
-      "ts": 1786603941000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/russia-expands-direct-flights-to-alexandria-and-el-alamein/"
           }
         ]
       }
