@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-08-16T07:38:57.997057+00:00",
+  "updated": "2026-08-16T08:39:09.580595+00:00",
   "events": [
+    {
+      "id": "9b7a681ed36e",
+      "title": "Australia to begin gun buyback scheme in response to Bondi shooting",
+      "description": "Australia will begin buying back guns in November, almost a year after a shooting at Sydney's Bondi killed 15 people.",
+      "lat": -33.86,
+      "lng": 151.21,
+      "severity": 2,
+      "location": "Sydney, Australia",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/australia-to-begin-gun-buyback-scheme-in-response-to-bondi-shooting?traffic_source=rss",
+      "image": null,
+      "ts": 1786867907000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/16/australia-to-begin-gun-buyback-scheme-in-response-to-bondi-shooting?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6766b856be2c",
+      "title": "Polish bus crash in Hungary leaves 12 dead, 10 injured",
+      "description": "A Polish bus has overturned on a Hungarian highway, killing 12 people and leaving at least 10 with serious injuries.",
+      "lat": 47.63,
+      "lng": 21.73,
+      "severity": 4,
+      "location": "Mezokovesd, Hungary",
+      "source": "RTE News",
+      "url": "https://www.rte.ie/news/2026/0816/1588064-polish-bus-crash-hungary/",
+      "image": "https://www.rte.ie/images/0024d951-800.jpg",
+      "ts": 1786863696000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/2026/0816/1588064-polish-bus-crash-hungary/"
+          }
+        ]
+      }
+    },
     {
       "id": "6783ae514860",
       "title": "Troops from North Korea to boost Russia's Ukraine forces",
@@ -67,11 +133,11 @@
     },
     {
       "id": "9ad9e4c2437c",
-      "title": "NATO fighter jet shoots down drone in Romania near border with Ukraine",
+      "title": "NATO fighter jet shoots down drone in Romania",
       "description": "A NATO fighter jet has shot down a drone in Romania near the border with Ukraine.",
       "lat": 45.76,
       "lng": 25.35,
-      "severity": 3,
+      "severity": 4,
       "location": "Bucharest, Romania",
       "source": "CBS News World",
       "url": "https://www.cbsnews.com/news/nato-fighter-jet-shoots-down-drone-romania-ukraine/",
@@ -7287,82 +7353,6 @@
             "n": "Mirror World",
             "b": "lean_left",
             "u": "https://www.mirror.co.uk/news/world-news/iran-strait-hormuz-trump-us-37544310"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1c2d54b2e2ab",
-      "title": "Gulf states scramble for Strait of Hormuz alternative",
-      "description": "Saudi Arabia has redirected oil exports away from the Strait of Hormuz, but most Gulf producers still lack a reliable backup option to the world's most important energy choke point.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 3,
-      "location": "Strait of Hormuz",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/gulf-states-scramble-for-strait-of-hormuz-alternative/a-78336679?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1786545543659,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/data-graphics/strait-of-hormuz-ports-traffic-trump-us-iran-war-rcna331507"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/gulf-states-scramble-for-strait-of-hormuz-alternative/a-78336679?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "476bf02f2d6c",
-      "title": "Strait of Hormuz traffic falls to new low as Iran-backed group kills 6 in Red Sea",
-      "description": "The conflict between the U.S. and Iran has spread to the Red Sea, with an Iran-backed group killing 6 people, and traffic in the Strait of Hormuz has fallen to a new low.",
-      "lat": 25.42,
-      "lng": 57.2226,
-      "severity": 4,
-      "location": "Muscat, Oman",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-us-donald-trump-strait-hormuz-traffic-falls-houthis-kill-red-sea/",
-      "image": null,
-      "ts": 1786545326000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-donald-trump-strait-hormuz-traffic-falls-houthis-kill-red-sea/"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5"
           }
         ]
       }
