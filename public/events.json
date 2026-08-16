@@ -1,7 +1,50 @@
 {
   "schema": 1,
-  "updated": "2026-08-16T17:27:16.908540+00:00",
+  "updated": "2026-08-16T17:49:19.867634+00:00",
   "events": [
+    {
+      "id": "6719187d3a27",
+      "title": "UAE, Saudi Arabia, others condemn Israel's rejection of Trump Gaza plan",
+      "description": "The statement came as US envoy Jared Kushner and Gaza peace envoy Nickolay Mladenov held ceasefire and implementation talks with regional mediators in Egypt.",
+      "lat": 30.05,
+      "lng": 31.25,
+      "severity": 2,
+      "location": "Cairo, Egypt",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/uae-saudi-arabia-others-condemn-israel-s-rejection-of-trump-gaza-plan/a-78389399?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1786902559796,
+      "coverage": {
+        "left": 0,
+        "center": 3,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/uae-saudi-arabia-others-condemn-israel-s-rejection-of-trump-gaza-plan/a-78389399?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-905697"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/trumps-envoys-meet-mediators-israel-strikes-gaza"
+          }
+        ]
+      }
+    },
     {
       "id": "460698e59ca4",
       "title": "At least seven killed in largest Ukrainian attack of 2026",
@@ -104,6 +147,39 @@
             "n": "Breitbart",
             "b": "right",
             "u": "https://www.breitbart.com/europe/2026/08/16/ukraine-launches-one-of-its-largest-aerial-attacks-of-war-killing-at-least-six-in-russia/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6d9fc73f3928",
+      "title": "Nigeria: Accord's Ademola Adeleke Winner of Governorship Election",
+      "description": "The incumbent governor defeated his closest challenger, Bola Oyebamiji of the APC, by 66,252 votes after polling 511,067 votes across the state.",
+      "lat": 9.18,
+      "lng": 5.502600000000001,
+      "severity": 1,
+      "location": "Osun State, Nigeria",
+      "source": "All Africa",
+      "url": "https://allafrica.com/stories/202608160009.html",
+      "image": null,
+      "ts": 1786895326000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "All Africa",
+            "b": "center",
+            "u": "https://allafrica.com/stories/202608160009.html"
           }
         ]
       }
@@ -7262,72 +7338,6 @@
             "n": "Le Monde English",
             "b": "lean_left",
             "u": "https://www.lemonde.fr/en/science/article/2026/08/13/solar-eclipse-photos-capture-the-rare-spectacle-that-amazed-millions-across-the-globe_6756442_10.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "006454ed9bdf",
-      "title": "Trump says ceasefire in Lebanon is working",
-      "description": "Israeli forces continue to occupy buffer zone in effort to dismantle Hezbollah’s infrastructure, with restrictions drawing parallels to those in the West Bank.",
-      "lat": 33.89,
-      "lng": 35.50999999999999,
-      "severity": 3,
-      "location": "Beirut, Lebanon",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/12/trump-says-ceasefire-lebanon-is-working-residents-its-prison/",
-      "image": null,
-      "ts": 1786573112000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/12/trump-says-ceasefire-lebanon-is-working-residents-its-prison/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b76cb60bd6e3",
-      "title": "US strikes in Yemen killed 153 civilians in 2025",
-      "description": "The unclassified Pentagon review sheds new light on civilian harm from the US campaign against Yemen’s Houthis.",
-      "lat": 16.45,
-      "lng": 46.095200000000006,
-      "severity": 4,
-      "location": "Sanaa, Yemen",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/12/us-strikes-in-yemen-killed-153-civilians-in-2025-says-pentagon-review?traffic_source=rss",
-      "image": null,
-      "ts": 1786571597000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/12/us-strikes-in-yemen-killed-153-civilians-in-2025-says-pentagon-review?traffic_source=rss"
           }
         ]
       }
