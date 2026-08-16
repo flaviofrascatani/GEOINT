@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-08-16T09:55:17.793069+00:00",
+  "updated": "2026-08-16T10:31:35.739499+00:00",
   "events": [
+    {
+      "id": "e61742adc89c",
+      "title": "Six Egyptian universities rank among world’s top 1,000",
+      "description": "Six Egyptian universities have been included among the world’s top 1,000 universities.",
+      "lat": 31.15,
+      "lng": 33.15520000000001,
+      "severity": 1,
+      "location": "Cairo, Egypt",
+      "source": "Egypt Independent",
+      "url": "https://www.egyptindependent.com/6-egyptian-universities-rank-among-worlds-top-1000-in-2026-shanghai-ranking/",
+      "image": null,
+      "ts": 1786873132000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/6-egyptian-universities-rank-among-worlds-top-1000-in-2026-shanghai-ranking/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a8cc97ba3e3b",
+      "title": "Chad opposition figure calls for reconciliation after his release",
+      "description": "Succes Masra, one of the president's fiercest critics, was sentenced to 20 years in prison a year ago.",
+      "lat": 13.21,
+      "lng": 15.039999999999992,
+      "severity": 2,
+      "location": "N'Djamena, Chad",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/08/16/chad-opposition-figure-succes-masra-calls-for-reconciliation-after-his-release/",
+      "image": "http://images.euronews.com/articles/stories/09/87/59/89/640x360_cmsv2_fac716ba-313c-5125-9731-a86eef22f135-9875989.jpg?1786866592",
+      "ts": 1786872779000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/16/chad-opposition-figure-succes-masra-calls-for-reconciliation-after-his-release/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0fe5c3c523bc",
+      "title": "Firefighters battle massive Belgian wildfire",
+      "description": "Firefighters are battling a massive wildfire in eastern Belgium.",
+      "lat": 50.85,
+      "lng": 5.93,
+      "severity": 3,
+      "location": "Eastern Belgium",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/firefighters-battle-massive-belgian-wildfire-forcing-hundreds-evacuate-135684266",
+      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
+      "ts": 1786872684000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/firefighters-battle-massive-belgian-wildfire-forcing-hundreds-evacuate-135684266"
+          }
+        ]
+      }
+    },
     {
       "id": "c5f151eaf8c8",
       "title": "Installation of 5th reactor containment tier starts at El Dabaa nuclear plant",
@@ -1103,6 +1202,49 @@
             "n": "The Guardian World",
             "b": "lean_left",
             "u": "https://www.theguardian.com/world/2026/aug/15/more-bodies-recovered-after-zimbabwe-boat-accident"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6e3d1c3f3a7c",
+      "title": "Zimbabwe boat accident death toll hits 68",
+      "description": "A ferry capsized on Lake Kariba, killing 68 people, including 18 children.",
+      "lat": -16.75,
+      "lng": 27.28,
+      "severity": 4,
+      "location": "Lake Kariba, Zimbabwe",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/world/2026/aug/15/more-bodies-recovered-after-zimbabwe-boat-accident",
+      "image": null,
+      "ts": 1786822747000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/aug/15/more-bodies-recovered-after-zimbabwe-boat-accident"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/22-bodies-recovered-zimbabwe-ferry-disaster-bringing-death-135676352"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/16/zimbabwe-ferry-death-toll-rises-to-68-after-lake-kariba-capsizing/"
           }
         ]
       }
@@ -7141,183 +7283,6 @@
             "n": "The Hindu International",
             "b": "lean_left",
             "u": "https://www.thehindu.com/business/india-southern-african-customs-bloc-revive-trade-pact-talks/article71338194.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "670e05dbc479",
-      "title": "Israel's defense chiefs rethink Gaza, Iran, Lebanon strategy three years into war",
-      "description": "Top Israeli defense officials believe the country must maintain some kind of security zone in Gaza, Lebanon, and Syria for years to come.",
-      "lat": 31.78,
-      "lng": 35.21000000000001,
-      "severity": 2,
-      "location": "Jerusalem, Israel",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/israel-news/defense-news/article-905317",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_1707,w_2560/709107",
-      "ts": 1786555427000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/israel-news/defense-news/article-905317"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ded614cb0621",
-      "title": "Drought exposes Nazi-era warship wrecks beneath the Danube",
-      "description": "Record-low water levels on the Danube have exposed the wrecks of dozens of Nazi-era vessels.",
-      "lat": 44.95,
-      "lng": 21.62,
-      "severity": 1,
-      "location": "Prahovo, Serbia",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/drought-exposes-nazi-era-warship-wrecks-beneath-the-danube?traffic_source=rss",
-      "image": null,
-      "ts": 1786553896000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/12/drought-exposes-nazi-era-warship-wrecks-beneath-the-danube?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cc0d5e03e532",
-      "title": "Ukraine pounds Black Sea Fleet’s ‘last major stronghold’",
-      "description": "Ukraine has pounded the Black Sea Fleet’s ‘last major stronghold’ while Putin flexes naval power in the Pacific.",
-      "lat": 47.58,
-      "lng": 32.6352,
-      "severity": 3,
-      "location": "Odessa, Ukraine",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/ukraine-pounds-black-sea-fleets-last-major-stronghold-while-putin-flexes-naval-power-pacific",
-      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/russian-military.gif",
-      "ts": 1786551358000,
-      "coverage": {
-        "left": 0,
-        "center": 3,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 3,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/13/ukraine-russia-novorossiysk-grain.html"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yMkhxMGxURF9FNDF6a1QtU1hsU01vdWN5bjBZYTFZd1k1SlU4Y2pqdkRMSGtxVF81Nm1naW01WnNlUWJ1WUJfbWgzVnRBZzdoQmN1V3RnNzdsZw?oc=5"
-          },
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/08/13/world/ukraine-russia-black-sea-harvest/"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/ukraine-pounds-black-sea-fleets-last-major-stronghold-while-putin-flexes-naval-power-pacific"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2dc2441aecf9",
-      "title": "Bob Iger and Josh Kushner to buy Lakers for $12.5B",
-      "description": "Bob Iger and Josh Kushner are the new owners of the LA Lakers in a $12.5 billion valuation",
-      "lat": 34.05,
-      "lng": -118.24,
-      "severity": 1,
-      "location": "Los Angeles, USA",
-      "source": "IBTimes",
-      "url": "https://www.ibtimes.com/joshua-kushner-bob-iger-are-new-owners-la-lakers-125-billion-deal-3806338",
-      "image": null,
-      "ts": 1786549861000,
-      "coverage": {
-        "left": 1,
-        "center": 5,
-        "right": 1,
-        "total": 7,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 5,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Business Insider",
-            "b": "lean_left",
-            "u": "https://www.businessinsider.com/bob-iger-josh-kushner-to-buy-lakers-nba-team-2026-8"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/12/bob-iger-joshua-kushner-buy-los-angeles-lakers-from-mark-walter.html"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/joshua-kushner-bob-iger-are-new-owners-la-lakers-125-billion-deal-3806338"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/22534413-a23e-4ecb-b68f-c9f1105c8953?syn-25a6b1a6=1"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZXk1c2Z0QWNZcjJMVnoxSW1Da0RRQnhET2JEaEdpV3hZVk5MZGNEcFc5NXRvcVBDcFhmSmtkZ3hmejRLODFlSmdsVnBfX0V0ZE5mM1ppX0lTYTNYSTE0dEVpX0l2Q1d3WEJvbzQycVNSRTVreExtZVBPVG1QZmRHS2ZhOUdORVNi?oc=5"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/sport/los-angeles-lakers-sale-josh-kushner-bob-iger-6315321"
-          },
-          {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/sports/a-blockbuster-12-5b-deal-as-josh-kushner-and-bob-iger-buy-the-los-angeles-lakers-ap-source-says/"
           }
         ]
       }
