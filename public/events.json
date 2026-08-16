@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-08-16T13:38:17.747408+00:00",
+  "updated": "2026-08-16T13:56:44.787736+00:00",
   "events": [
     {
       "id": "4ff95f9f74c3",
@@ -36,6 +36,125 @@
       }
     },
     {
+      "id": "40a8fd2f50c8",
+      "title": "Hamas, Hezbollah coordinating attacks with Iran as IDF warns of rebuilt ‘axis of evil’",
+      "description": "IDF says Hamas, Hezbollah coordinating with Iran to rebuild terror axis amid increased friction on Gaza, Lebanon fronts.",
+      "lat": 31.78,
+      "lng": 35.22,
+      "severity": 3,
+      "location": "Jerusalem, Israel",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-905657",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_2433,w_3600/733357",
+      "ts": 1786886469000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/israel-news/defense-news/article-905657"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f370efd694e9",
+      "title": "Bangladesh Lists 2 Riders For PM Rahman's India Visit",
+      "description": "According to a statement from the Bangladeshi foreign ministry, officials from both countries have been in contact for several weeks about the possibility of a bilateral visit by Tarique Rahman to New Delhi.",
+      "lat": 29.71,
+      "lng": 77.23000000000002,
+      "severity": 1,
+      "location": "New Delhi, India",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/sheikh-hasina-tarique-rahman-before-bangladesh-pm-tarique-rahman-visits-india-dhaka-wants-sheikh-hasina-back-11917165#publisher=newsstand",
+      "image": "https://th-i.thgim.com/public/incoming/v7p9aa/article71342678.ece/alternates/LANDSCAPE_1200/TH10-Kallol-BanGGPGCHPKI.3.jpg.jpg",
+      "ts": 1786884022000,
+      "coverage": {
+        "left": 2,
+        "center": 3,
+        "right": 0,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/sheikh-hasina-tarique-rahman-before-bangladesh-pm-tarique-rahman-visits-india-dhaka-wants-sheikh-hasina-back-11917165#publisher=newsstand"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/national/bangladesh-says-pm-tarique-rahman-will-not-visit-india-until-sheikh-hasinas-extradition/article71352525.ece"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/asia/bangladesh-prime-minister-india-visit-hasina-extradited-6322326"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/bangladesh-says-better-environment-needed-for-india-visit-amid-rift-over-ousted-leader"
+          },
+          {
+            "n": "Times of India World",
+            "b": "center",
+            "u": "https://timesofindia.indiatimes.com/world/south-asia/bangladesh-pms-proposed-india-visit-conditional-on-hasina-extradition-officials-say/articleshow/133273734.cms"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9ad9e4c2437c",
+      "title": "Spanish fighter jet shoots down Russian drone over Romania",
+      "description": "A Spanish fighter jet shot down a Russian drone over Romania, near the border with Ukraine and Moldova.",
+      "lat": 45.76,
+      "lng": 25.35,
+      "severity": 3,
+      "location": "Bucharest, Romania",
+      "source": "AGI Estero",
+      "url": "https://www.agi.it/estero/news/2026-08-16/drone-romania-russo-nato-38561817/",
+      "image": null,
+      "ts": 1786880355000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/nato-fighter-jet-shoots-down-drone-romania-ukraine/"
+          }
+        ]
+      }
+    },
+    {
       "id": "8e10cf805170",
       "title": "Belgium battles massive wildfire at German border",
       "description": "A rapidly spreading wildfire has scorched about 2,700 hectares in the High Fens nature reserve near Belgium's border with Germany, forcing hundreds to evacuate.",
@@ -64,54 +183,6 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/hundreds-flee-as-belgium-battles-wildfire-at-german-border/a-78386242?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f370efd694e9",
-      "title": "Bangladesh says PM Tarique Rahman will not visit India until Hasina’s extradition",
-      "description": "Bangladesh has stated that Prime Minister Tarique Rahman will not visit India until the extradition of Sheikh Hasina, in a sign of diplomatic tension between the two countries.",
-      "lat": 29.71,
-      "lng": 77.23000000000002,
-      "severity": 2,
-      "location": "New Delhi, India",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/national/bangladesh-says-pm-tarique-rahman-will-not-visit-india-until-sheikh-hasinas-extradition/article71352525.ece",
-      "image": "https://th-i.thgim.com/public/incoming/v7p9aa/article71342678.ece/alternates/LANDSCAPE_1200/TH10-Kallol-BanGGPGCHPKI.3.jpg.jpg",
-      "ts": 1786877343000,
-      "coverage": {
-        "left": 2,
-        "center": 2,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/sheikh-hasina-tarique-rahman-before-bangladesh-pm-tarique-rahman-visits-india-dhaka-wants-sheikh-hasina-back-11917165#publisher=newsstand"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/national/bangladesh-says-pm-tarique-rahman-will-not-visit-india-until-sheikh-hasinas-extradition/article71352525.ece"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/south-asia/bangladesh-says-pm-will-not-visit-india-until-hasina-extradited"
-          },
-          {
-            "n": "Times of India World",
-            "b": "center",
-            "u": "https://timesofindia.indiatimes.com/world/south-asia/bangladesh-pms-proposed-india-visit-conditional-on-hasina-extradition-officials-say/articleshow/133273734.cms"
           }
         ]
       }
@@ -586,39 +657,6 @@
             "n": "Channel News Asia",
             "b": "center",
             "u": "https://www.channelnewsasia.com/asia/north-koreas-kim-russias-putin-reaffirm-ties-korean-liberation-day-6321956"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9ad9e4c2437c",
-      "title": "NATO fighter jet shoots down drone in Romania",
-      "description": "A NATO fighter jet has shot down a drone in Romania near the border with Ukraine.",
-      "lat": 45.76,
-      "lng": 25.35,
-      "severity": 4,
-      "location": "Bucharest, Romania",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/nato-fighter-jet-shoots-down-drone-romania-ukraine/",
-      "image": null,
-      "ts": 1786861423000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/nato-fighter-jet-shoots-down-drone-romania-ukraine/"
           }
         ]
       }
@@ -7250,39 +7288,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/pakistan-troops-killed-10-militants-car-bomb-killed-135584824"
-          }
-        ]
-      }
-    },
-    {
-      "id": "03e72f848b8a",
-      "title": "US to pull out of Iraq by September 30",
-      "description": "The US military is on track to pull all its forces out of Iraq by the end of September, marking the end of a presence that started in 2003.",
-      "lat": 33.32,
-      "lng": 44.42,
-      "severity": 2,
-      "location": "Baghdad, Iraq",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/officials-us-forces-track-complete-iraq-pullout-sept-135584899",
-      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
-      "ts": 1786561637000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/officials-us-forces-track-complete-iraq-pullout-sept-135584899"
           }
         ]
       }
