@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-08-16T14:31:44.185519+00:00",
+  "updated": "2026-08-16T14:52:16.736457+00:00",
   "events": [
+    {
+      "id": "f0ff91203b62",
+      "title": "Trump's envoys in Middle East to push for Gaza peace plan",
+      "description": "Donald Trump's envoys are meeting with Egyptian, Qatari, and Turkish mediators in Cairo to advance the US president's Gaza peace plan.",
+      "lat": 30.05,
+      "lng": 33.15520000000001,
+      "severity": 2,
+      "location": "Cairo, Egypt",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/trumps-envoys-middle-east-push-gaza-peace-plan",
+      "image": null,
+      "ts": 1786891594000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/trumps-envoys-middle-east-push-gaza-peace-plan"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c020dede5883",
+      "title": "Ben-Gvir calls for nightly killings of Palestinians in Gaza",
+      "description": "Israel's far-right national security minister Itamar Ben-Gvir has called for nightly killings in Gaza.",
+      "lat": 31.5,
+      "lng": 34.75,
+      "severity": 2,
+      "location": "Gaza, Palestine",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/ben-gvir-calls-for-nightly-killings-of-palestinians-in-gaza?traffic_source=rss",
+      "image": null,
+      "ts": 1786890915000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/16/ben-gvir-calls-for-nightly-killings-of-palestinians-in-gaza?traffic_source=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "4ff95f9f74c3",
       "title": "Iranian Army Chief announces $30,000 reward for killed or captured US soldiers",
@@ -64,6 +130,39 @@
             "n": "Jerusalem Post",
             "b": "center",
             "u": "https://www.jpost.com/israel-news/defense-news/article-905657"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3fbd3c64fd4a",
+      "title": "Egyptian government announces new system for issuing work permits to foreigners",
+      "description": "The Egyptian government has announced a new system for issuing work permits to foreigners through a fully integrated digital platform and dedicated service center.",
+      "lat": 30.05,
+      "lng": 31.25,
+      "severity": 1,
+      "location": "Cairo, Egypt",
+      "source": "Egypt Independent",
+      "url": "https://www.egyptindependent.com/egyptian-government-announces-new-system-for-issuing-work-permits-to-foreigners/",
+      "image": null,
+      "ts": 1786885535000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/egyptian-government-announces-new-system-for-issuing-work-permits-to-foreigners/"
           }
         ]
       }
@@ -7189,105 +7288,6 @@
             "n": "CBS News World",
             "b": "lean_left",
             "u": "https://www.cbsnews.com/news/total-solar-eclipse-august-12-2026/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5e71513ece7c",
-      "title": "Colombia earthquake deaths climb to 239",
-      "description": "At least 239 people have been killed in a powerful earthquake that struck Colombia, with hundreds more missing",
-      "lat": 3.4216,
-      "lng": -74.6192,
-      "severity": 4,
-      "location": "Cali, Colombia",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/12/colombia-earthquake-deaths-climb-239-hundreds-remain-missing/",
-      "image": null,
-      "ts": 1786561910000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/12/colombia-earthquake-deaths-climb-239-hundreds-remain-missing/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "329da703e703",
-      "title": "Colombia earthquake deaths climb to 239",
-      "description": "Scores of buildings collapsed in the strongest temblor to strike the South American country in at least a decade.",
-      "lat": 4.52,
-      "lng": -76.52,
-      "severity": 4,
-      "location": "Bogotá, Colombia",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/12/colombia-earthquake-deaths-climb-239-hundreds-remain-missing/",
-      "image": null,
-      "ts": 1786561910000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/12/colombia-earthquake-deaths-climb-239-hundreds-remain-missing/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "698f48033763",
-      "title": "Pakistan says troops killed 10 militants, car bomb killed 3 civilians",
-      "description": "Pakistani security forces have clashed with militants in the country's insurgency-hit southwestern province of Balochistan, killing 10 insurgents",
-      "lat": 30.4804,
-      "lng": 68.49459999999999,
-      "severity": 3,
-      "location": "Quetta, Pakistan",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/pakistan-troops-killed-10-militants-car-bomb-killed-135584824",
-      "image": "https://s.abcnews.com/images/International/wirestory_349268a260f5af26cd9c693868566668_4x3_384.jpg",
-      "ts": 1786561664000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/pakistan-troops-killed-10-militants-car-bomb-killed-135584824"
           }
         ]
       }
