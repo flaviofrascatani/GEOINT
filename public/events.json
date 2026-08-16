@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-16T16:34:54.545452+00:00",
+  "updated": "2026-08-16T16:54:48.253708+00:00",
   "events": [
+    {
+      "id": "460698e59ca4",
+      "title": "At least seven killed in largest Ukrainian attack of 2026",
+      "description": "Russia says at least seven people were killed in the largest Ukrainian attack of 2026, with Moscow launching deadly strikes against Ukraine",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 4,
+      "location": "Kyiv, Ukraine",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2f78/live/bd896330-997f-11f1-a7ab-8b30adf0800a.jpg",
+      "ts": 1786895412000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "f85cb80f1640",
       "title": "Ukraine Attacks Wildberries, Russia's Biggest Online Market",
@@ -71,6 +104,59 @@
             "n": "Breitbart",
             "b": "right",
             "u": "https://www.breitbart.com/europe/2026/08/16/ukraine-launches-one-of-its-largest-aerial-attacks-of-war-killing-at-least-six-in-russia/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2129078ae00e",
+      "title": "Kushner meets Hamas leaders to push Gaza demilitarization",
+      "description": "Jared Kushner met Hamas leaders in Egypt to press them to carry out their commitment to disarm",
+      "lat": 30.05,
+      "lng": 31.25,
+      "severity": 2,
+      "location": "Cairo, Egypt",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/08/16/kushner-hamas-gaza-disarmament-egypt-israel",
+      "image": "https://images.axios.com/57vUwLnBJrqo46-zJF7cgk2A9ck=/0x300:5688x3499/1366x768/2026/08/16/1786893656065.jpeg",
+      "ts": 1786895089000,
+      "coverage": {
+        "left": 0,
+        "center": 4,
+        "right": 1,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 4,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/08/16/kushner-hamas-gaza-disarmament-egypt-israel"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20260816-hamas-begins-crucial-talks-with-egypt-on-trump-s-gaza-peace-plan"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-905611"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/hamas-expects-meeting-kushner-us-pushes-gaza-plan"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/hamas-likely-to-meet-with-kushner-amid-us-gaza-plan-push"
           }
         ]
       }
@@ -370,6 +456,39 @@
             "n": "CBS News World",
             "b": "lean_left",
             "u": "https://www.cbsnews.com/news/nato-fighter-jet-shoots-down-drone-romania-ukraine/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e9e7bb4865ec",
+      "title": "Trump wants more economic pressure on Iran",
+      "description": "Trump wants to increase economic pressure on Iran, with various options available",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcF9Wa1NYT2dtVW52UTI3RWVFeS1MbVdwY0RvZC1kWDJYd1BEdlUzanc4Z09Gbmd6cG9NMHhWTVJxYVM1N0pqMHZCOUhHdHdRZUdBeWhzZVVhN3VBYnlOZjY5NmJmWE41UWVHeXljWUlkMFloZnh2VUxCajE0dlFTTjFOTk9ZRVVMSVJXd0thR05XbktGWlBPYmJ1S0U0bDdkQlZLWlBxb2VIUlZO?oc=5",
+      "image": null,
+      "ts": 1786880097000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcF9Wa1NYT2dtVW52UTI3RWVFeS1MbVdwY0RvZC1kWDJYd1BEdlUzanc4Z09Gbmd6cG9NMHhWTVJxYVM1N0pqMHZCOUhHdHdRZUdBeWhzZVVhN3VBYnlOZjY5NmJmWE41UWVHeXljWUlkMFloZnh2VUxCajE0dlFTTjFOTk9ZRVVMSVJXd0thR05XbktGWlBPYmJ1S0U0bDdkQlZLWlBxb2VIUlZO?oc=5"
           }
         ]
       }
@@ -748,6 +867,39 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/video/newsfeed/2026/8/16/australia-to-begin-gun-buyback-scheme-in-response-to-bondi-shooting?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3e1f10e21273",
+      "title": "Kushner, Blair, BoP head Mladenov meet Hamas delegation in Cairo",
+      "description": "Kushner, Blair, and BoP head Mladenov met with a Hamas delegation in Cairo to discuss disarmament and Gaza's reconstruction",
+      "lat": 30.05,
+      "lng": 31.25,
+      "severity": 2,
+      "location": "Cairo, Egypt",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/article-905611",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_3700,w_5550/707392",
+      "ts": 1786867892000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-905611"
           }
         ]
       }
@@ -7176,168 +7328,6 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/news/2026/8/12/us-strikes-in-yemen-killed-153-civilians-in-2025-says-pentagon-review?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9b23496423d4",
-      "title": "Cuba: 1,327 political prisoners, including a 13-year-old child",
-      "description": "Rapporto Ong Prisoners Defenders, 'a luglio 36 nuovi arresti e crescente ricorso a esilio'",
-      "lat": 23.13,
-      "lng": -82.38,
-      "severity": 3,
-      "location": "Havana, Cuba",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/12/cuba-salgono-a-1.327-i-prigionieri-politici-coinvolto-anche-un-bambino-di-13-anni_492f29c8-6ae4-4333-93e3-03f4e40db2a1.html",
-      "image": null,
-      "ts": 1786568925000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/12/cuba-salgono-a-1.327-i-prigionieri-politici-coinvolto-anche-un-bambino-di-13-anni_492f29c8-6ae4-4333-93e3-03f4e40db2a1.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "57e9bbe43a30",
-      "title": "Israel-Palestine conflict escalates in West Bank",
-      "description": "The conflict between Israel and Palestine has escalated in the West Bank, with Israeli settlers besieging Palestinian homes and the US ambassador condemning the actions.",
-      "lat": 32.13,
-      "lng": 37.17519999999999,
-      "severity": 3,
-      "location": "West Bank, Palestine",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/unprecedented-level-settler-violence-breaking-point-west-bank-u_n_6a7cca69e4b08accea253dbc",
-      "image": null,
-      "ts": 1786567039000,
-      "coverage": {
-        "left": 1,
-        "center": 5,
-        "right": 1,
-        "total": 7,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 5,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/08/13/west-bank-us-ambassador-to-israel-denounces-siege-of-palestinian-homes-as-horrific-act-of-terror_6756455_4.html"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/siege-of-palestinian-homes-in-west-bank-a-horrific-act-of-terror-says-us-ambassador-13572508"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/video/20260813-west-bank-what-we-see-is-an-escalation-in-methods"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/israeli-military-moves-as-settlers-besiege-3-west-bank-homes/a-78355266?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/israel-news/article-905373"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZjg4cjNRa214Zmg2OEk1S1ltSkZnd2RLcmlReHNZaDJZeTlfZVU3VjZtb1o5WjVTVV9WRnNmRTgtRnRvS3I5TWR1bUtjWExlV2t2NllOb1lTUV9kNEJodFdqdDFSOEJxWXVJRHR1SWxzN1UzTVJhTFM5TkE5SUZkdGxZMllaRzkzM2twRjJmTW9BcUVwaWNyV2FVYlFITHZqUjhFRWNGMC16b2g3dlh0ZWN6Q1dVd3FXM01RRA?oc=5"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/world/4685922/mike-huckabee-denounce-israel-settler/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1dd4af6f27ed",
-      "title": "DRC: World Health Organisation Chief sounds alarm on ebola outbreak",
-      "description": "The World Health Organisation Chief is sounding the alarm on the ebola outbreak in the Democratic Republic of Congo",
-      "lat": -3.22,
-      "lng": 17.21520000000001,
-      "severity": 3,
-      "location": "Kinshasa, Democratic Republic of the Congo",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/08/12/drc-world-health-organisation-chief-sounds-alarm-on-ebola-outbreak/",
-      "image": "http://images.euronews.com/articles/stories/09/87/23/08/640x360_cmsv2_214485f0-3079-5183-b4a0-03b4fa130ca6-9872308.jpg?1786560305",
-      "ts": 1786565538000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/12/drc-world-health-organisation-chief-sounds-alarm-on-ebola-outbreak/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "feada1c9acc8",
-      "title": "Colombia Invites US Help on Drug Fight",
-      "description": "Colombia’s new conservative government is partnering with Washington to fight drug gangs in its territory.",
-      "lat": 5.71,
-      "lng": -74.08,
-      "severity": 2,
-      "location": "Bogota, Colombia",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-12/hegseth-says-colombia-approves-joint-military-operations-with-us",
-      "image": null,
-      "ts": 1786564936000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-12/hegseth-says-colombia-approves-joint-military-operations-with-us"
           }
         ]
       }
