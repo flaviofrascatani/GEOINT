@@ -1,7 +1,133 @@
 {
   "schema": 1,
-  "updated": "2026-08-16T19:48:43.851925+00:00",
+  "updated": "2026-08-16T20:32:07.704014+00:00",
   "events": [
+    {
+      "id": "57f34e441be2",
+      "title": "Senegal’s Saint-Louis Regatta Keeps Centuries of Tradition Alive",
+      "description": "Thousands gathered in Saint-Louis, Senegal, for the annual regatta.",
+      "lat": 15.95,
+      "lng": -16.52,
+      "severity": 1,
+      "location": "Saint-Louis, Senegal",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/16-08-sv-senegal-boat-tradition-sn?traffic_source=rss",
+      "image": null,
+      "ts": 1786910691000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/16/16-08-sv-senegal-boat-tradition-sn?traffic_source=rss"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/senegal-saint-louis-centuries-old-pirogue-racing-tradition"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f85cb80f1640",
+      "title": "Drone and Missile Strikes Kill 19 in Russia and Ukraine",
+      "description": "At least 19 people were killed Sunday in drone and missile strikes in Russia and Ukraine which destroyed a book market in Kyiv while Moscow faced one of the most massive attacks since the start of the war.",
+      "lat": 51.55,
+      "lng": 32.42519999999999,
+      "severity": 4,
+      "location": "Kiev, Ukraine",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/europe/20260816-drone-and-missile-strikes-kill-19-in-russia-and-ukraine",
+      "image": null,
+      "ts": 1786907551000,
+      "coverage": {
+        "left": 5,
+        "center": 5,
+        "right": 2,
+        "total": 12,
+        "buckets": {
+          "left": 0,
+          "lean_left": 5,
+          "center": 5,
+          "lean_right": 1,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/ukraine-launches-largest-aerial-attacks-war-killing-6-135684169"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/ukraine-moscow-russia-drone-attack-largest-wildberries/"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/moscow-wildberries-ukraine-drone-atack-37556786"
+          },
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/08/16/ukraine-launches-one-of-the-wars-largest-drone-attacks-killing-6/"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/08/16/mass-drone-attack-hits-moscow-as-russia-launches-deadly-strikes-in-ukraine_6756558_4.html"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/08/16/suspected-russian-drone-shot-down-in-romanian-airspace.html"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/ukraine-pounds-russia-vice-versa-kyivs-blitz-signals-strategic-shift-3806464"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/2026/0816/1588059-ukraine-russia-war/"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/europe/20260816-drone-and-missile-strikes-kill-19-in-russia-and-ukraine"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/ukraine-attacks-wildberries-russia-s-biggest-online-market/a-78384605?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/europe/ukraine-russia-exchange-overnight-strikes-claiming-12-more-lives"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/russia-amazon-deep-strike-ukraine-blitz-wiping-billions-putin-linked-ceo"
+          }
+        ]
+      }
+    },
     {
       "id": "6719187d3a27",
       "title": "UAE, Saudi Arabia, others condemn Israel's rejection of Trump Gaza plan",
@@ -74,79 +200,6 @@
             "n": "BBC World",
             "b": "center",
             "u": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f85cb80f1640",
-      "title": "Ukraine Attacks Wildberries, Russia's Biggest Online Market",
-      "description": "Ukraine has been targeting warehouses of Russia's largest online retailer Wildberries, disrupting front-line shipments and sparking a response from Russia.",
-      "lat": 51.55,
-      "lng": 32.42519999999999,
-      "severity": 3,
-      "location": "Kiev, Ukraine",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/ukraine-attacks-wildberries-russia-s-biggest-online-market/a-78384605?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1786895395775,
-      "coverage": {
-        "left": 5,
-        "center": 2,
-        "right": 2,
-        "total": 9,
-        "buckets": {
-          "left": 0,
-          "lean_left": 5,
-          "center": 2,
-          "lean_right": 1,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/ukraine-launches-largest-aerial-attacks-war-killing-6-135684169"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/ukraine-moscow-russia-drone-attack-largest-wildberries/"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/moscow-wildberries-ukraine-drone-atack-37556786"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/08/16/mass-drone-attack-hits-moscow-as-russia-launches-deadly-strikes-in-ukraine_6756558_4.html"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/ukraine-massive-drone-strike-on-russia-several-killed-latest-update/article71352381.ece"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/16/suspected-russian-drone-shot-down-in-romanian-airspace.html"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/ukraine-attacks-wildberries-russia-s-biggest-online-market/a-78384605?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/europe/ukraine-russia-exchange-overnight-strikes-claiming-12-more-lives"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/europe/2026/08/16/ukraine-launches-one-of-its-largest-aerial-attacks-of-war-killing-at-least-six-in-russia/"
           }
         ]
       }
@@ -446,6 +499,39 @@
             "n": "Daily Mail World",
             "b": "right",
             "u": "https://www.dailymail.com/news/article-16052155/NATO-jets-shoot-kamikaze-drone-Latvia.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f4ad607b2dcf",
+      "title": "Houthis Launch New Attacks on Al-Makha and Marib as Yemen Conflict Escalates",
+      "description": "Houthis launch new attacks on al-Makha and Marib as Yemen conflict escalates.",
+      "lat": 16.53,
+      "lng": 46.12520000000001,
+      "severity": 3,
+      "location": "Sanaa, Yemen",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMFVmdTNFTTZ2T0t0emhQQzdIX0tVOEpMNUF6VU5WZjhqaTc0OW1EV1dpc0FkTXJQWWdYOVNOaHRNZmdqUExGLVZ0MHNmVDN0SkNMLU1CV296MXpsSDJOeXFJVDYyRy1FanVtaUdWZWNBTl9yZk9MdlRRTXRISm01RzBHNVpqNmJGS3ppMFBOSWgtSFBkdHNjV1Vuc1RVZXRUVEpEVTdQejByb3NEaEFzMnI3RE53b2lV0gG-AUFVX3lxTE5qVUxGeVg2MVhEdFBGN3I0ald6NGx5MUcwZkRPQm1RWEJaeElQNnVBRURNOUg2ZDVwXzQwajZaSHFHcnY5a3AybnQtWlZYblZmclZiS0NkcUE1akJzT2doRTR0TFZRbGJKTHpoc0I1M1lKcVR6V3RFaDlVRndaemZndWZ2WmUyX2xyTWt3YXhFZ0szR2RXYkVQUVk0SWZQLW1CUVFoMW02ckFSM0dpLXJ0ajI0SzdsMjNERkFXR2c?oc=5",
+      "image": null,
+      "ts": 1786887045000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMFVmdTNFTTZ2T0t0emhQQzdIX0tVOEpMNUF6VU5WZjhqaTc0OW1EV1dpc0FkTXJQWWdYOVNOaHRNZmdqUExGLVZ0MHNmVDN0SkNMLU1CV296MXpsSDJOeXFJVDYyRy1FanVtaUdWZWNBTl9yZk9MdlRRTXRISm01RzBHNVpqNmJGS3ppMFBOSWgtSFBkdHNjV1Vuc1RVZXRUVEpEVTdQejByb3NEaEFzMnI3RE53b2lV0gG-AUFVX3lxTE5qVUxGeVg2MVhEdFBGN3I0ald6NGx5MUcwZkRPQm1RWEJaeElQNnVBRURNOUg2ZDVwXzQwajZaSHFHcnY5a3AybnQtWlZYblZmclZiS0NkcUE1akJzT2doRTR0TFZRbGJKTHpoc0I1M1lKcVR6V3RFaDlVRndaemZndWZ2WmUyX2xyTWt3YXhFZ0szR2RXYkVQUVk0SWZQLW1CUVFoMW02ckFSM0dpLXJ0ajI0SzdsMjNERkFXR2c?oc=5"
           }
         ]
       }
@@ -7242,72 +7328,6 @@
             "n": "France 24",
             "b": "center",
             "u": "https://www.france24.com/en/americas/20260813-venezuela-talks-end-with-agreement-on-judicial-reform-and-frozen-funds"
-          }
-        ]
-      }
-    },
-    {
-      "id": "92bba99bf559",
-      "title": "Ebola outbreak on track to be deadliest ever",
-      "description": "The outbreak, declared on 15 May, has caused more than 2,000 deaths, with thousands more reported cases.",
-      "lat": -0.79,
-      "lng": 34.74,
-      "severity": 4,
-      "location": "Kampala, Uganda",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/45e0/live/2fd6c2d0-96a5-11f1-b2ab-0dd01740f9f6.jpg",
-      "ts": 1786584681000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cgk4pex4mn8o?at_medium=RSS&at_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "05c06bf82a8a",
-      "title": "Brazil orders Discord to halt livestreaming after teen death",
-      "description": "Brazil has ordered Discord to suspend livestreaming as authorities scrutinize how the platform protects young users",
-      "lat": -15.79,
-      "lng": -47.92,
-      "severity": 3,
-      "location": "Brasilia, Brazil",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/brazil-orders-discord-to-halt-livestreaming-after-teen-death/a-78343328?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1786579812003,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/brazil-orders-discord-to-halt-livestreaming-after-teen-death/a-78343328?maca=en-rss-en-all-1573-rdf"
           }
         ]
       }
