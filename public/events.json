@@ -1,7 +1,121 @@
 {
   "schema": 1,
-  "updated": "2026-08-16T10:52:10.789393+00:00",
+  "updated": "2026-08-16T11:27:55.735391+00:00",
   "events": [
+    {
+      "id": "4ff95f9f74c3",
+      "title": "Iranian Army Chief announces $30,000 reward for killed or captured US soldiers",
+      "description": "Iranian Army Chief Amir Hatami has announced a $30,000 reward for any Iranian soldier who kills or captures a US soldier.",
+      "lat": 35.69,
+      "lng": 53.295199999999994,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/article-905660",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_800,w_1200/712568",
+      "ts": 1786889128000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-905660"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8e10cf805170",
+      "title": "Belgium battles massive wildfire at German border",
+      "description": "A rapidly spreading wildfire has scorched about 2,700 hectares in the High Fens nature reserve near Belgium's border with Germany, forcing hundreds to evacuate.",
+      "lat": 51.9,
+      "lng": 7.072599999999994,
+      "severity": 3,
+      "location": "Monschau, Belgium",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/hundreds-flee-as-belgium-battles-wildfire-at-german-border/a-78386242?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1786879675638,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/hundreds-flee-as-belgium-battles-wildfire-at-german-border/a-78386242?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f370efd694e9",
+      "title": "Bangladesh says PM Tarique Rahman will not visit India until Hasina’s extradition",
+      "description": "Bangladesh has stated that Prime Minister Tarique Rahman will not visit India until the extradition of Sheikh Hasina, in a sign of diplomatic tension between the two countries.",
+      "lat": 29.71,
+      "lng": 77.23000000000002,
+      "severity": 2,
+      "location": "New Delhi, India",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/national/bangladesh-says-pm-tarique-rahman-will-not-visit-india-until-sheikh-hasinas-extradition/article71352525.ece",
+      "image": "https://th-i.thgim.com/public/incoming/v7p9aa/article71342678.ece/alternates/LANDSCAPE_1200/TH10-Kallol-BanGGPGCHPKI.3.jpg.jpg",
+      "ts": 1786877343000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/sheikh-hasina-tarique-rahman-before-bangladesh-pm-tarique-rahman-visits-india-dhaka-wants-sheikh-hasina-back-11917165#publisher=newsstand"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/national/bangladesh-says-pm-tarique-rahman-will-not-visit-india-until-sheikh-hasinas-extradition/article71352525.ece"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/south-asia/bangladesh-says-pm-will-not-visit-india-until-hasina-extradited"
+          },
+          {
+            "n": "Times of India World",
+            "b": "center",
+            "u": "https://timesofindia.indiatimes.com/world/south-asia/bangladesh-pms-proposed-india-visit-conditional-on-hasina-extradition-officials-say/articleshow/133273734.cms"
+          }
+        ]
+      }
+    },
     {
       "id": "e61742adc89c",
       "title": "Six Egyptian universities rank among world’s top 1,000",
@@ -295,6 +409,39 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/video/newsfeed/2026/8/16/australia-to-begin-gun-buyback-scheme-in-response-to-bondi-shooting?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ce164cf93c30",
+      "title": "Twelve killed as tourist bus crashes in Hungary",
+      "description": "Twelve people have been killed after a Polish tourist bus crashed in Hungary.",
+      "lat": 48.82,
+      "lng": 19.20259999999999,
+      "severity": 4,
+      "location": "Budapest, Hungary",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/twelve-killed-as-tourist-bus-crashes-in-hungary-13573631",
+      "image": "https://e3.365dm.com/26/08/1920x1080/skynews-hungary-poland_7323025.jpg?20260816092209",
+      "ts": 1786867440000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/twelve-killed-as-tourist-bus-crashes-in-hungary-13573631"
           }
         ]
       }
@@ -5285,39 +5432,6 @@
       }
     },
     {
-      "id": "f370efd694e9",
-      "title": "India, Bangladesh in talks for an early bilateral visit by PM Rahman to New Delhi",
-      "description": "Diplomatic sources expressed cautious optimism, saying that 'positive developments' can take place quickly in the coming few days.",
-      "lat": 29.71,
-      "lng": 77.23000000000002,
-      "severity": 1,
-      "location": "New Delhi, India",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/national/india-bangladesh-in-talks-for-an-early-bilateral-visit-by-pm-rahman-to-new-delhi/article71342255.ece",
-      "image": "https://th-i.thgim.com/public/incoming/v7p9aa/article71342678.ece/alternates/LANDSCAPE_1200/TH10-Kallol-BanGGPGCHPKI.3.jpg.jpg",
-      "ts": 1786645420000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/national/india-bangladesh-in-talks-for-an-early-bilateral-visit-by-pm-rahman-to-new-delhi/article71342255.ece"
-          }
-        ]
-      }
-    },
-    {
       "id": "3c6c136464d4",
       "title": "Yemen at highest risk of major conflict since 2022 truce, UN warns",
       "description": "Yemen faces its most serious threat of a return to large-scale war since a U.N.-brokered truce in 2022, U.N. envoy Hans Grundberg warned.",
@@ -7184,105 +7298,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/arts/music/eurovision-bars-countries-in-armed-conflict-from-hosting-contest"
-          }
-        ]
-      }
-    },
-    {
-      "id": "fe1f0f15443c",
-      "title": "25 years North Macedonian peace: reconciliation in sight?",
-      "description": "A quarter of a century after the Ohrid Framework Agreement ended North Macedonia's 2001 conflict, analysts warn that peace between ethnic communities remains fragile",
-      "lat": 42.0,
-      "lng": 21.43,
-      "severity": 1,
-      "location": "Skopje, North Macedonia",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/25-years-north-macedonian-peace-reconciliation-in-sight/a-78340239?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1786557758024,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/25-years-north-macedonian-peace-reconciliation-in-sight/a-78340239?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4d640c3b4193",
-      "title": "Türkiye vows to strengthen dialogue across Libya under '1 Libya' policy",
-      "description": "Türkiye will continue working to bridge Libya's political and regional divides, Foreign Minister Hakan Fidan said after concluding wide-ranging talks in Tripoli.",
-      "lat": 33.98,
-      "lng": 15.075199999999995,
-      "severity": 2,
-      "location": "Tripoli, Libya",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/politics/diplomacy/turkiye-vows-to-strengthen-dialogue-across-libya-under-1-libya-policy",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/08/12/455512.jpg",
-      "ts": 1786557600000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/politics/diplomacy/turkiye-vows-to-strengthen-dialogue-across-libya-under-1-libya-policy"
-          }
-        ]
-      }
-    },
-    {
-      "id": "884e6d97dede",
-      "title": "India, Southern African customs bloc revive trade pact talks",
-      "description": "India and the Southern African Customs Union (SACU) have revived talks on a trade pact after five rounds of negotiations between 2002 and 2010 ended without a deal",
-      "lat": 20.0,
-      "lng": 77.0,
-      "severity": 2,
-      "location": "New Delhi, India",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/business/india-southern-african-customs-bloc-revive-trade-pact-talks/article71338194.ece",
-      "image": null,
-      "ts": 1786556902000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/business/india-southern-african-customs-bloc-revive-trade-pact-talks/article71338194.ece"
           }
         ]
       }
