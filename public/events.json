@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-08-17T04:21:36.053756+00:00",
+  "updated": "2026-08-17T05:11:54.872978+00:00",
   "events": [
     {
       "id": "1b90236cb55e",
@@ -64,6 +64,39 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/news/2026/8/17/zambia-incumbent-takes-early-election-lead-as-opposition-alleges-armed-raid?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "296892996923",
+      "title": "Japan second-quarter GDP grows 1.1% on an annualized basis",
+      "description": "On an annualized basis, Japan saw growth of 1.1%, against estimates of 2%",
+      "lat": 35.68,
+      "lng": 141.66520000000003,
+      "severity": 2,
+      "location": "Tokyo, Japan",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/08/17/japan-gdp-misses-estimates-trade-exports-yen-nikkei.html",
+      "image": null,
+      "ts": 1786933262000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/08/17/japan-gdp-misses-estimates-trade-exports-yen-nikkei.html"
           }
         ]
       }
@@ -7440,39 +7473,6 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/08/13/putin-watches-russian-navy-drills-off-russias-sakhalin-island/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "95f7a136565b",
-      "title": "Russia blockades Ukrainian ports, threatens global grain supplies",
-      "description": "The Russian blockade of major Ukrainian ports threatens global grain supplies, with deadly strikes part of a long-running maritime battle with Ukraine.",
-      "lat": 46.48,
-      "lng": 32.6352,
-      "severity": 3,
-      "location": "Odessa, Ukraine",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/08/13/world/europe/russia-ukraine-ports-odesa-cargo-ship-attacks.html",
-      "image": "https://static01.nyt.com/images/2026/08/12/multimedia/12int-ukraine-ports-01-lvhk/12int-ukraine-ports-01-lvhk-mediumSquareAt3X-v2.jpg",
-      "ts": 1786616538000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/13/world/europe/russia-ukraine-ports-odesa-cargo-ship-attacks.html"
           }
         ]
       }
