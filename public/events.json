@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-17T01:48:47.577814+00:00",
+  "updated": "2026-08-17T03:08:00.093652+00:00",
   "events": [
+    {
+      "id": "95f45a78a01e",
+      "title": "Zambia incumbent takes early election lead as opposition alleges armed raid",
+      "description": "President Hakainde Hichilema appears on course for outright win as observers cite violence and a tilted campaign field.",
+      "lat": -14.32,
+      "lng": 28.28,
+      "severity": 3,
+      "location": "Lusaka, Zambia",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/17/zambia-incumbent-takes-early-election-lead-as-opposition-alleges-armed-raid?traffic_source=rss",
+      "image": null,
+      "ts": 1786933659000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/17/zambia-incumbent-takes-early-election-lead-as-opposition-alleges-armed-raid?traffic_source=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "8c5e20c5c240",
       "title": "Trump orders military to reduce joint exercises with South Korea",
@@ -7460,39 +7493,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/mid-east/iran-dismisses-us-claims-to-reiterate-control-over-strait-of-hormuz"
-          }
-        ]
-      }
-    },
-    {
-      "id": "571c9ab0c102",
-      "title": "Putin sparks Japan fury with 'absolutely unacceptable' move",
-      "description": "Russia has boosted its military presence on the disputed Kuril Islands in recent years.",
-      "lat": 47.63,
-      "lng": 151.85000000000002,
-      "severity": 3,
-      "location": "Kuril Islands, Russia",
-      "source": "Daily Express World",
-      "url": "https://www.express.co.uk/news/world/2238727/kuril-islands-putin-sparks-japan",
-      "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2238727_1.jpg",
-      "ts": 1786609560000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2238727/kuril-islands-putin-sparks-japan"
           }
         ]
       }
