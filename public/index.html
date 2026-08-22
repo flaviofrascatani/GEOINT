@@ -1898,35 +1898,61 @@ async function loadTopoFor(id){
       `style="color:var(--accent);text-decoration:none;letter-spacing:1px">OPEN ↗</a></div>`;
     return;
   }
-  // Pre-generated static topo map (tools/generate_topo.py -> public/topo/<id>.svg).
-  // Loads instantly with real Open-Meteo DEM data, no runtime fetching needed.
-  try{
-    const sr=await fetch('topo/'+id+'.svg');
-    if(sr.ok){
-      const svgTxt=await sr.text();
-      if(svgTxt.indexOf('<svg')>-1){
-        const still=document.getElementById('topo-host-'+id);
-        if(still){still.style.padding='0';still.innerHTML=svgTxt}
-        return;
-      }
-    }
-  }catch(e){/* fall back to runtime generator below */}
   if(!window.GEOINT_TOPO){
     host.innerHTML='<div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--red);font-size:11px;letter-spacing:.2px;font-family:var(--sans)">Topo module not loaded</div>';
     return;
   }
-  // Show informative loader
-  host.innerHTML='<div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;color:var(--text-dim);font-size:11px;letter-spacing:.2px;gap:6px;font-family:var(--sans)"><div>Fetching DEM data…</div><div style="font-size:9px;opacity:.6">First load ~15-25s, then cached</div></div>';
+  // Loader iniziale. Il motore topografico legge prima i file DEM archiviati
+  // nel repo (public/topo/**): se ci sono, la mappa compare all'istante e
+  // Open-Meteo non viene nemmeno contattata.
+  host.innerHTML='<div id="topo-status-'+id+'" style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;color:var(--text-dim);font-size:11px;letter-spacing:.2px;gap:6px;font-family:var(--sans)"><div>Lettura archivio DEM…</div><div style="font-size:9px;opacity:.6">dati precaricati da GitHub</div></div>';
+
+  // Barra di stato sotto la mappa: mostra la fonte dei dati e, quando si sta
+  // aspettando fra una raffica e l'altra, il conto alla rovescia.
+  let countdown=null;
+  const paint=(svg,label,accent)=>{
+    const h=document.getElementById('topo-host-'+id);
+    if(!h)return;
+    h.style.padding='0';
+    h.innerHTML=(svg||'')+
+      `<div id="topo-bar-${id}" style="display:flex;justify-content:space-between;align-items:center;gap:8px;padding:5px 9px;background:rgba(10,17,13,.6);border-top:1px solid var(--border);font-family:var(--mono);font-size:8.5px;letter-spacing:.7px;color:${accent||'var(--text-dim)'}">${label||''}</div>`;
+  };
+  const bar=(txt)=>{
+    const b=document.getElementById('topo-bar-'+id);
+    if(b)b.innerHTML=txt;
+  };
+
   try{
-    const svg=await window.GEOINT_TOPO.generate(id,400,260);
-    if(svg){
-      const stillThere=document.getElementById('topo-host-'+id);
-      if(stillThere)stillThere.innerHTML=svg;
-    } else {
-      host.innerHTML='<div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--text-dim);font-size:11px;letter-spacing:.2px;font-family:var(--sans)">No topo data available</div>';
-    }
+    await window.GEOINT_TOPO.generate(id,400,260,(p)=>{
+      if(countdown){clearInterval(countdown);countdown=null}
+      const pct=Math.round((p.have/p.total)*100);
+      if(p.phase==='static'){
+        paint(p.svg,'<span>DEM ARCHIVIATO · GITHUB</span><span style="opacity:.6">100%</span>');
+      } else if(p.phase==='done'){
+        const src=(p.source==='bundle')?'ARCHIVIO TOPOGRAFICO · LOCALE':'DEM COMPLETO · '+p.total+'/'+p.total+' SETTORI';
+        paint(p.svg,'<span>'+src+'</span><span style="opacity:.6">100%</span>');
+      } else if(p.phase==='waiting'){
+        // pausa fra le raffiche: countdown vivo, cosi' si capisce che il
+        // sistema sta rispettando il limite e non si e' bloccato
+        const until=Date.now()+p.waitMs;
+        const why=p.reason==='429'?'LIMITE OPEN-METEO':'PAUSA RAFFICA';
+        const tick=()=>{
+          const s=Math.max(0,Math.round((until-Date.now())/1000));
+          bar(`<span style="color:#b89a4a">${why} · RIPRESA FRA ${Math.floor(s/60)}:${String(s%60).padStart(2,'0')}</span><span style="opacity:.6">${pct}%</span>`);
+          if(s<=0&&countdown){clearInterval(countdown);countdown=null}
+        };
+        tick();
+        countdown=setInterval(tick,1000);
+      } else if(p.phase==='stalled'){
+        paint(p.svg,`<span style="color:#b89a4a">PARZIALE · ${p.have}/${p.total} SETTORI — RIPRESA AL PROSSIMO ACCESSO</span><span style="opacity:.6">${pct}%</span>`);
+      } else {
+        paint(p.svg,`<span>ACQUISIZIONE · ${p.have}/${p.total} SETTORI</span><span style="opacity:.6">${pct}%</span>`);
+      }
+    });
   }catch(e){
-    host.innerHTML='<div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--red);font-size:11px;letter-spacing:.2px;text-align:center;padding:10px;font-family:var(--sans)">Topo fetch failed<br><span style="font-size:9px;opacity:.7;color:var(--text-dim)">'+(e.message||'unknown')+' — try again in a minute</span></div>';
+    if(countdown)clearInterval(countdown);
+    const h=document.getElementById('topo-host-'+id);
+    if(h)h.innerHTML='<div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--red);font-size:11px;letter-spacing:.2px;text-align:center;padding:10px;font-family:var(--sans)">Topo non disponibile<br><span style="font-size:9px;opacity:.7;color:var(--text-dim)">'+(e.message||'errore')+'</span></div>';
     console.warn('topo error',e);
   }
 }
