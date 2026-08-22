@@ -34,6 +34,9 @@ from geoint_agent import (  # noqa: E402
     parse_rss,
     strip_html,
     call_llm,
+    groq_body,
+    extract_content,
+    resolve_model,
     compute_coverage,
     sample_for_llm,
     _is_hypothetical,
@@ -440,8 +443,8 @@ Headlines:
 # LLM call with 429 handling.
 #
 # Groq's free tier enforces per-model tokens-per-minute quotas. When the daily
-# GitHub-Actions agent runs it drains the llama-3.3-70b bucket, so the browser
-# on-demand report frequently lands on a 429 if it uses the same model.
+# GitHub-Actions agent runs it drains the bucket of the model it uses, so the
+# browser on-demand report lands on a 429 if it picks the same one.
 #
 # Strategy: cascade through a chain of models. Each model has its own separate
 # TPM bucket on Groq, so if 70b is exhausted 8b-instant is almost always free.
@@ -453,18 +456,31 @@ _RETRY_STATUS = (429, 500, 502, 503, 504)
 # Model fallback chain — each has an INDEPENDENT free-tier TPM bucket on Groq,
 # so we can usually get through even when one is drained. Override with the
 # COUNTRY_REPORT_MODELS env var (comma-separated).
+#
+# AGGIORNATO 08/2026: i tre Llama/Gemma di prima sono stati tutti spenti da
+# Groq (llama-3.1-8b-instant e llama-3.3-70b-versatile il 16/08/2026,
+# gemma2-9b-it gia' nel 2025). Questi sono i rimpiazzi ufficiali, ancora su
+# bucket TPM separati.
 _DEFAULT_MODEL_CHAIN = [
-    "llama-3.1-8b-instant",       # ~30k TPM free — primary for on-demand
-    "llama-3.3-70b-versatile",    # higher quality, ~12k TPM
-    "gemma2-9b-it",               # ~15k TPM
+    "openai/gpt-oss-20b",     # il piu' rapido — primo tentativo per l'on-demand
+    "openai/gpt-oss-120b",    # qualita' superiore, bucket separato
+    "qwen/qwen3.6-27b",       # terzo bucket, ultima spiaggia
 ]
 
 
 def _model_chain():
     override = os.environ.get("COUNTRY_REPORT_MODELS", "").strip()
     if override:
-        return [m.strip() for m in override.split(",") if m.strip()]
-    return list(_DEFAULT_MODEL_CHAIN)
+        chain = [resolve_model(m.strip()) for m in override.split(",") if m.strip()]
+    else:
+        chain = list(_DEFAULT_MODEL_CHAIN)
+    # niente doppioni se la rimappatura fa convergere due ID sullo stesso modello
+    seen, out = set(), []
+    for m in chain:
+        if m not in seen:
+            seen.add(m)
+            out.append(m)
+    return out
 
 
 def _call_groq_model(prompt: str, system: str, model: str) -> str:
@@ -474,15 +490,9 @@ def _call_groq_model(prompt: str, system: str, model: str) -> str:
     api_key = os.environ.get("GROQ_API_KEY")
     if not api_key:
         raise RuntimeError("GROQ_API_KEY not set")
-    body = json.dumps({
-        "model": model,
-        "temperature": 0.1,
-        "response_format": {"type": "json_object"},
-        "messages": [
-            {"role": "system", "content": system},
-            {"role": "user", "content": prompt},
-        ],
-    }).encode("utf-8")
+    # groq_body adatta i parametri alla famiglia del modello: GPT-OSS e Qwen
+    # vogliono chiavi diverse per il ragionamento e scambiarle da' un 400.
+    body = json.dumps(groq_body(model, prompt, system)).encode("utf-8")
     req = _ur.Request(
         "https://api.groq.com/openai/v1/chat/completions",
         data=body,
@@ -493,9 +503,9 @@ def _call_groq_model(prompt: str, system: str, model: str) -> str:
             "Accept": "application/json",
         },
     )
-    with _ur.urlopen(req, timeout=45) as r:
+    with _ur.urlopen(req, timeout=60) as r:
         data = json.loads(r.read())
-    return data["choices"][0]["message"]["content"]
+    return extract_content(data)
 
 
 def _call_llm_with_backoff(prompt, system):
@@ -605,10 +615,12 @@ def _is_filler(title: str, description: str) -> bool:
 
 def analyse_country(headlines, country_name, hours, max_keep=10):
     # Cap the pool sent to the LLM so we stay inside Groq's free-tier
-    # tokens-per-minute limit. The primary model is llama-3.1-8b-instant
-    # (30k TPM free), the fallbacks are 70b (12k) and gemma2-9b (15k), so
-    # 50 headlines × 120-char descriptions ≈ 6k input tokens leaves headroom
-    # for output tokens even on the tightest bucket.
+    # tokens-per-minute limit. The chain is gpt-oss-20b -> gpt-oss-120b ->
+    # qwen3.6-27b, each on its own bucket, so 50 headlines × 120-char
+    # descriptions ≈ 6k input tokens leaves headroom for output tokens even
+    # on the tightest one. Note these are reasoning models: reasoning tokens
+    # count towards the output budget, which is why GROQ_MAX_TOKENS is
+    # generous and reasoning_effort is kept low.
     # sample_for_llm round-robins across sources so every outlet stays
     # represented rather than one loud feed dominating.
     llm_cap = int(os.environ.get("COUNTRY_REPORT_LLM_HEADLINES", "50"))
@@ -728,7 +740,8 @@ class handler(BaseHTTPRequestHandler):
             "env": {
                 "GROQ_API_KEY_set": has_groq,
                 "ANTHROPIC_API_KEY_set": has_anthropic,
-                "GROQ_MODEL": os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile"),
+                "GROQ_MODEL": resolve_model(os.environ.get("GROQ_MODEL", "")),
+                "model_chain": _model_chain(),
             },
             "hint": ("Send POST with {code,name,hours,keep} to run a report."
                      if (has_groq or has_anthropic)
