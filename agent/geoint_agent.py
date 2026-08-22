@@ -544,19 +544,125 @@ def sample_for_llm(headlines: list, cap: int) -> list:
 
 # ---- LLM clients ----------------------------------------------------------
 
-def call_groq(prompt: str, system: str) -> str:
-    api_key = os.environ.get("GROQ_API_KEY")
-    if not api_key:
-        raise RuntimeError("GROQ_API_KEY not set")
-    body = json.dumps({
-        "model": os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile"),
-        "temperature": 0.1,
-        "response_format": {"type": "json_object"},
+# Groq dismette i modelli con regolarita'. I Llama 3.x sono stati spenti il
+# 16 agosto 2026: le richieste a quegli ID tornano errore e l'agente smette di
+# produrre notizie. Qui c'e' la mappa di rimpiazzo: se una variabile d'ambiente
+# punta ancora a un modello morto, viene rimappata da sola con un avviso,
+# invece di far fallire tutta la corsa.
+DEAD_MODELS = {
+    "llama-3.3-70b-versatile": "openai/gpt-oss-120b",
+    "llama-3.1-8b-instant": "openai/gpt-oss-20b",
+    "llama3-70b-8192": "openai/gpt-oss-120b",
+    "llama3-8b-8192": "openai/gpt-oss-20b",
+    "gemma2-9b-it": "openai/gpt-oss-20b",
+    "qwen/qwen3-32b": "openai/gpt-oss-120b",
+    "meta-llama/llama-4-scout-17b-16e-instruct": "openai/gpt-oss-120b",
+    "meta-llama/llama-4-maverick-17b-128e-instruct": "openai/gpt-oss-120b",
+    "moonshotai/kimi-k2-instruct": "openai/gpt-oss-120b",
+    "moonshotai/kimi-k2-instruct-0905": "openai/gpt-oss-120b",
+    "mixtral-8x7b-32768": "openai/gpt-oss-120b",
+    "deepseek-r1-distill-llama-70b": "openai/gpt-oss-120b",
+}
+
+DEFAULT_GROQ_MODEL = "openai/gpt-oss-120b"
+
+
+def resolve_model(name: str) -> str:
+    """Sostituisce gli ID dismessi con il rimpiazzo consigliato da Groq."""
+    if not name:
+        return DEFAULT_GROQ_MODEL
+    name = name.strip()
+    repl = DEAD_MODELS.get(name)
+    if repl:
+        print(f"[llm] '{name}' e' stato dismesso da Groq: uso '{repl}'",
+              file=sys.stderr)
+        return repl
+    return name
+
+
+def groq_body(model: str, prompt: str, system: str, json_mode: bool = True) -> dict:
+    """Corpo della richiesta, adattato alla famiglia del modello.
+
+    I sostituti dei Llama sono modelli di ragionamento e vogliono parametri
+    diversi fra loro:
+      - GPT-OSS non accetta 'reasoning_format'; il ragionamento finisce nel
+        campo 'reasoning' e si esclude con 'include_reasoning'. Accetta
+        reasoning_effort low/medium/high.
+      - Qwen 3.6 accetta 'reasoning_format', ma con JSON mode il valore 'raw'
+        provoca un 400: si usa 'hidden'. Il suo reasoning_effort ammette solo
+        none/default.
+    Scambiarli genera errori 400, quindi si distingue sul prefisso dell'ID.
+    """
+    body = {
+        "model": model,
+        "temperature": float(os.environ.get("GROQ_TEMPERATURE", "0.2")),
+        "max_completion_tokens": int(os.environ.get("GROQ_MAX_TOKENS", "8192")),
         "messages": [
             {"role": "system", "content": system},
             {"role": "user", "content": prompt},
         ],
-    }).encode("utf-8")
+    }
+    if json_mode:
+        body["response_format"] = {"type": "json_object"}
+
+    if model.startswith("openai/gpt-oss"):
+        body["include_reasoning"] = False
+        body["reasoning_effort"] = os.environ.get("GROQ_REASONING_EFFORT", "low")
+    elif model.startswith("qwen/"):
+        body["reasoning_format"] = "hidden"
+        body["reasoning_effort"] = "none"
+    return body
+
+
+_THINK_RE = re.compile(r"<think>.*?</think>", re.S | re.I)
+
+
+def extract_content(data: dict) -> str:
+    """Testo utile della risposta, a prova di modello di ragionamento.
+
+    Se il modello ha speso tutti i token nel ragionamento, 'content' puo'
+    arrivare vuoto: in quel caso si ripiega sul campo 'reasoning' e si cerca
+    il primo oggetto JSON bilanciato al suo interno.
+    """
+    msg = (data.get("choices") or [{}])[0].get("message") or {}
+    text = (msg.get("content") or "").strip()
+    if not text:
+        text = (msg.get("reasoning") or "").strip()
+    text = _THINK_RE.sub("", text).strip()
+    if text.startswith("```"):
+        text = re.sub(r"^```[a-zA-Z]*\s*", "", text)
+        text = re.sub(r"\s*```$", "", text).strip()
+    if text and not text.lstrip().startswith(("{", "[")):
+        start = text.find("{")
+        if start >= 0:
+            depth, in_str, esc = 0, False, False
+            for i in range(start, len(text)):
+                ch = text[i]
+                if in_str:
+                    if esc:
+                        esc = False
+                    elif ch == "\\":
+                        esc = True
+                    elif ch == '"':
+                        in_str = False
+                    continue
+                if ch == '"':
+                    in_str = True
+                elif ch == "{":
+                    depth += 1
+                elif ch == "}":
+                    depth -= 1
+                    if depth == 0:
+                        return text[start:i + 1]
+    return text
+
+
+def call_groq(prompt: str, system: str) -> str:
+    api_key = os.environ.get("GROQ_API_KEY")
+    if not api_key:
+        raise RuntimeError("GROQ_API_KEY not set")
+    model = resolve_model(os.environ.get("GROQ_MODEL", DEFAULT_GROQ_MODEL))
+    body = json.dumps(groq_body(model, prompt, system)).encode("utf-8")
     req = urllib.request.Request(
         "https://api.groq.com/openai/v1/chat/completions",
         data=body,
@@ -567,9 +673,9 @@ def call_groq(prompt: str, system: str) -> str:
             "Accept": "application/json",
         },
     )
-    with urllib.request.urlopen(req, timeout=90) as r:
+    with urllib.request.urlopen(req, timeout=120) as r:
         data = json.loads(r.read())
-    return data["choices"][0]["message"]["content"]
+    return extract_content(data)
 
 
 def call_anthropic(prompt: str, system: str) -> str:
