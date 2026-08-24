@@ -127,8 +127,8 @@ body{background:var(--bg);color:var(--text);font-family:var(--sans);
   overflow:hidden;position:relative}
 
 /* --- sfondo: rilievo + veli --- */
-#relief{position:fixed;top:-4vh;left:-4vw;z-index:0;pointer-events:none;
-  will-change:transform;transition:opacity 1.1s ease;opacity:0}
+#relief{position:fixed;top:0;left:0;z-index:0;pointer-events:none;
+  transition:opacity 1.1s ease;opacity:0}
 #relief.on{opacity:1}
 .veil{position:fixed;inset:0;z-index:1;pointer-events:none}
 .veil.grid{background-image:
@@ -225,7 +225,6 @@ button[disabled]{opacity:.6;cursor:progress}
   'use strict';
   var cv=document.getElementById('relief');
   if(!cv||!cv.getContext)return;
-  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   // ---------- rumore di Perlin 2D (gradienti, tabella di permutazione) -----
   function rnd(seed){return function(){seed|=0;seed=seed+0x6D2B79F5|0;
@@ -258,24 +257,37 @@ button[disabled]{opacity:.6;cursor:progress}
     return base*0.72+(ridge-0.55)*Math.max(0,base+0.35)*1.05;
   }
 
-  var C={contours:[],GW:0,GH:0,cw:0,ch:0};
+  // origine del rumore: scelta una sola volta, cosi' il rilievo resta lo
+  // stesso se la finestra cambia dimensione (cambia solo l'inquadratura)
+  var OX=R()*120, OY=R()*120;
 
   function draw(){
-    var W=Math.round(window.innerWidth*1.08), H=Math.round(window.innerHeight*1.08);
-    var dpr=Math.min(window.devicePixelRatio||1,2);
+    // L'immagine e' FERMA, quindi si puo' spendere tutto in risoluzione:
+    // si lavora in pixel del dispositivo (non CSS) e la finezza della
+    // griglia si adatta allo schermo, con un tetto al numero di celle per
+    // non bloccare i portatili sui monitor 4K/5K.
+    var W=window.innerWidth, H=window.innerHeight;
+    var dpr=Math.min(window.devicePixelRatio||1,3);
     cv.style.width=W+'px'; cv.style.height=H+'px';
     cv.width=Math.round(W*dpr); cv.height=Math.round(H*dpr);
     var ctx=cv.getContext('2d');
-    ctx.setTransform(dpr,0,0,dpr,0,0);
+    ctx.setTransform(dpr,0,0,dpr,0,0);   // si continua a disegnare in px CSS
 
-    // --- campo di quote su griglia grossolana (una cella ~ 5 px) ---
-    var STEP=5;
-    var GW=Math.ceil(W/STEP)+1, GH=Math.ceil(H/STEP)+1;
+    var devW=cv.width, devH=cv.height;
+    // L'ombreggiatura e' sfumata per natura: calcolarla a pixel pieno
+    // costerebbe secondi senza guadagno visibile, perche' l'ingrandimento
+    // finale e' bilineare di alta qualita'. La NITIDEZZA vera la danno le
+    // curve di livello, che sono vettoriali e restano a piena risoluzione.
+    var MAX_CELLS=620000;
+    var STEP=Math.max(2,Math.ceil(Math.sqrt(devW*devH/MAX_CELLS)));  // px dispositivo per cella
+    var GW=Math.ceil(devW/STEP)+1, GH=Math.ceil(devH/STEP)+1;
     var hgt=new Float32Array(GW*GH);
-    var sc=0.0031, ox=R()*120, oy=R()*120;
+    // sc resta la scala del rumore per pixel CSS: cosi' le montagne hanno la
+    // stessa dimensione apparente a qualsiasi risoluzione
+    var sc=0.0031, unit=STEP*sc/dpr, ox=OX, oy=OY;
     var min=1e9,max=-1e9,i,j;
     for(j=0;j<GH;j++)for(i=0;i<GW;i++){
-      var v=terrain(i*STEP*sc+ox,j*STEP*sc+oy);
+      var v=terrain(i*unit+ox,j*unit+oy);
       hgt[j*GW+i]=v; if(v<min)min=v; if(v>max)max=v;
     }
     // normalizza in metri: da -600 (fondale) a 3000 (vetta)
@@ -286,11 +298,14 @@ button[disabled]{opacity:.6;cursor:progress}
     var off=document.createElement('canvas'); off.width=GW; off.height=GH;
     var octx=off.getContext('2d'), img=octx.createImageData(GW,GH), d=img.data;
     var LX=-0.62, LY=-0.66, LZ=0.42;  // luce da nord-ovest, radente
+    var nDiv=24*(STEP/dpr);
     for(j=0;j<GH;j++)for(i=0;i<GW;i++){
       var k=j*GW+i, h=hgt[k];
       var hl=hgt[j*GW+(i>0?i-1:i)], hr=hgt[j*GW+(i<GW-1?i+1:i)];
       var hu=hgt[(j>0?j-1:j)*GW+i], hd=hgt[(j<GH-1?j+1:j)*GW+i];
-      var nx=(hl-hr)/120, ny=(hu-hd)/120, nz=1;
+      // il divisore segue la spaziatura reale fra le celle, altrimenti
+      // una griglia piu' fitta appiattirebbe l'ombreggiatura
+      var nx=(hl-hr)/nDiv, ny=(hu-hd)/nDiv, nz=1;
       var len=Math.sqrt(nx*nx+ny*ny+1);
       var sh=(nx*LX+ny*LY+nz*LZ)/len;
       sh=0.44+0.80*Math.max(0,Math.min(1,sh*0.5+0.5));
@@ -312,40 +327,81 @@ button[disabled]{opacity:.6;cursor:progress}
     ctx.imageSmoothingQuality='high';
     ctx.drawImage(off,0,0,GW,GH,0,0,W,H);
 
-    // --- curve di livello (marching squares sullo stesso campo) ---
+    // --- curve di livello --------------------------------------------------
+    // Il marching squares costa (celle x livelli). Sulla griglia piena
+    // sarebbero centinaia di milioni di iterazioni, quindi si lavora su un
+    // sottocampionamento: le curve restano vettoriali e quindi nitide a
+    // qualsiasi risoluzione, senza far inginocchiare il browser.
+    var CTARGET=140000;
+    var cs=Math.max(1,Math.round(Math.sqrt((GW*GH)/CTARGET)));
+    var CW=Math.floor((GW-1)/cs)+1, CH=Math.floor((GH-1)/cs)+1;
+    var cg=hgt;
+    if(cs>1){
+      cg=new Float32Array(CW*CH);
+      for(j=0;j<CH;j++)for(i=0;i<CW;i++)cg[j*CW+i]=hgt[(j*cs)*GW+(i*cs)];
+    }
     var INTERVAL=40, levels=[], L;
     for(L=-560;L<3000;L+=INTERVAL)levels.push(L);
-    var cw=W/(GW-1), ch=H/(GH-1);
+    var cw=W/(CW-1), ch=H/(CH-1);
+    var NL=levels.length, base=levels[0];
+
+    // Un solo passaggio sulle celle. Per ogni cella si guarda quali livelli
+    // cadono davvero fra la quota minima e massima dei suoi quattro vertici:
+    // di norma uno o due, non tutti e 89. Cosi' il lavoro crolla da ~12
+    // milioni di iterazioni a poche centinaia di migliaia, a parita' di
+    // risultato sullo schermo.
+    var segs=new Array(NL), k;
+    for(k=0;k<NL;k++)segs[k]=[];
+
+    for(j=0;j<CH-1;j++){
+      var row=j*CW, row2=(j+1)*CW;
+      for(i=0;i<CW-1;i++){
+        var tl=cg[row+i], tr=cg[row+i+1], br=cg[row2+i+1], bl=cg[row2+i];
+        var lo=tl,hi=tl;
+        if(tr<lo)lo=tr; else if(tr>hi)hi=tr;
+        if(br<lo)lo=br; else if(br>hi)hi=br;
+        if(bl<lo)lo=bl; else if(bl>hi)hi=bl;
+        var k0=Math.ceil((lo-base)/INTERVAL), k1=Math.floor((hi-base)/INTERVAL);
+        if(k0<0)k0=0;
+        if(k1>NL-1)k1=NL-1;
+        for(k=k0;k<=k1;k++){
+          var lv=levels[k];
+          var code=(tl>lv?8:0)|(tr>lv?4:0)|(br>lv?2:0)|(bl>lv?1:0);
+          if(code===0||code===15)continue;
+          var Tx=(i+(tr===tl?0.5:(lv-tl)/(tr-tl)))*cw, Ty=j*ch;
+          var Rx=(i+1)*cw, Ry=(j+(br===tr?0.5:(lv-tr)/(br-tr)))*ch;
+          var Bx=(i+(br===bl?0.5:(lv-bl)/(br-bl)))*cw, By=(j+1)*ch;
+          var Lx=i*cw, Ly=(j+(bl===tl?0.5:(lv-tl)/(bl-tl)))*ch;
+          var a=segs[k];
+          switch(code){
+            case 1:case 14:a.push(Lx,Ly,Bx,By);break;
+            case 2:case 13:a.push(Bx,By,Rx,Ry);break;
+            case 3:case 12:a.push(Lx,Ly,Rx,Ry);break;
+            case 4:case 11:a.push(Tx,Ty,Rx,Ry);break;
+            case 6:case 9: a.push(Tx,Ty,Bx,By);break;
+            case 7:case 8: a.push(Lx,Ly,Tx,Ty);break;
+            case 5: a.push(Lx,Ly,Tx,Ty,Bx,By,Rx,Ry);break;
+            case 10:a.push(Tx,Ty,Rx,Ry,Lx,Ly,Bx,By);break;
+          }
+        }
+      }
+    }
+
     ctx.lineCap='round'; ctx.lineJoin='round';
-    for(var li=0;li<levels.length;li++){
-      var lv=levels[li];
-      var isSea=(lv>=-INTERVAL/2&&lv<INTERVAL/2);
-      var isIndex=(Math.round(lv/INTERVAL)%5===0);
+    for(k=0;k<NL;k++){
+      var arr=segs[k];
+      if(!arr.length)continue;
+      var lev=levels[k];
+      var isSea=(lev>=-INTERVAL/2&&lev<INTERVAL/2);
+      var isIndex=(Math.round(lev/INTERVAL)%5===0);
       if(isSea){ctx.strokeStyle='rgba(150,196,186,.42)';ctx.lineWidth=1.15}
-      else if(lv<0){ctx.strokeStyle='rgba(120,170,168,.13)';ctx.lineWidth=.6}
+      else if(lev<0){ctx.strokeStyle='rgba(120,170,168,.13)';ctx.lineWidth=.6}
       else if(isIndex){ctx.strokeStyle='rgba(206,228,200,.30)';ctx.lineWidth=1.05}
       else{ctx.strokeStyle='rgba(206,228,200,.145)';ctx.lineWidth=.62}
       ctx.beginPath();
-      for(j=0;j<GH-1;j++)for(i=0;i<GW-1;i++){
-        var tl=hgt[j*GW+i], tr=hgt[j*GW+i+1],
-            br=hgt[(j+1)*GW+i+1], bl=hgt[(j+1)*GW+i];
-        var code=(tl>lv?8:0)|(tr>lv?4:0)|(br>lv?2:0)|(bl>lv?1:0);
-        if(code===0||code===15)continue;
-        var ip=function(a,b){return b===a?.5:(lv-a)/(b-a)};
-        var T=[(i+ip(tl,tr))*cw,j*ch], Rr=[(i+1)*cw,(j+ip(tr,br))*ch],
-            B=[(i+ip(bl,br))*cw,(j+1)*ch], Lf=[i*cw,(j+ip(tl,bl))*ch];
-        var seg=null;
-        if(code===1||code===14)seg=[Lf,B];
-        else if(code===2||code===13)seg=[B,Rr];
-        else if(code===3||code===12)seg=[Lf,Rr];
-        else if(code===4||code===11)seg=[T,Rr];
-        else if(code===6||code===9)seg=[T,B];
-        else if(code===7||code===8)seg=[Lf,T];
-        else if(code===5){ctx.moveTo(Lf[0],Lf[1]);ctx.lineTo(T[0],T[1]);
-          ctx.moveTo(B[0],B[1]);ctx.lineTo(Rr[0],Rr[1])}
-        else if(code===10){ctx.moveTo(T[0],T[1]);ctx.lineTo(Rr[0],Rr[1]);
-          ctx.moveTo(Lf[0],Lf[1]);ctx.lineTo(B[0],B[1])}
-        if(seg){ctx.moveTo(seg[0][0],seg[0][1]);ctx.lineTo(seg[1][0],seg[1][1])}
+      for(var q=0;q<arr.length;q+=4){
+        ctx.moveTo(arr[q],arr[q+1]);
+        ctx.lineTo(arr[q+2],arr[q+3]);
       }
       ctx.stroke();
     }
@@ -353,24 +409,24 @@ button[disabled]{opacity:.6;cursor:progress}
     cv.classList.add('on');
   }
 
-  // deriva lentissima: il canvas e' piu' grande della finestra, quindi si
-  // sposta senza scoprire i bordi e senza ricalcolare il rilievo
-  function drift(){
-    if(reduce)return;
-    var t0=Date.now();
-    (function loop(){
-      var t=(Date.now()-t0)/1000;
-      cv.style.transform='translate3d('+(Math.sin(t/41)*17).toFixed(2)+'px,'+
-        (Math.cos(t/57)*13).toFixed(2)+'px,0) scale(1.015)';
-      requestAnimationFrame(loop);
-    })();
+  // Immagine FERMA: nessuna animazione, cosi' tutto il budget di calcolo va
+  // nella risoluzione e non c'e' nulla che distragga durante il login.
+  // Il calcolo e' rinviato a dopo il primo disegno della pagina: ad alta
+  // risoluzione impiega qualche decimo di secondo e, se fosse sincrono,
+  // terrebbe lo schermo bianco e il modulo non cliccabile per tutto quel
+  // tempo. Cosi' la scheda compare subito e il rilievo sfuma dietro.
+  function paintRelief(){
+    requestAnimationFrame(function(){
+      setTimeout(function(){
+        try{draw()}catch(e){cv.style.display='none'}
+      },0);
+    });
   }
-
-  try{draw();drift()}catch(e){cv.style.display='none'}
+  paintRelief();
   var rt;
   window.addEventListener('resize',function(){
     clearTimeout(rt);
-    rt=setTimeout(function(){try{draw()}catch(e){}},260);
+    rt=setTimeout(paintRelief,260);
   });
 
   // --- rifiniture del modulo ---
