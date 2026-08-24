@@ -1,7 +1,202 @@
 {
   "schema": 1,
-  "updated": "2026-08-24T19:59:23.747444+00:00",
+  "updated": "2026-08-24T20:09:33.767839+00:00",
   "events": [
+    {
+      "id": "cb39af2df6ed",
+      "title": "China launches first communications satellite for an Arab country",
+      "description": "A Chinese‑made communications satellite was placed into orbit for Algeria, marking the first such export to an Arab nation.",
+      "lat": 36.77,
+      "lng": 3.06,
+      "severity": 2,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1787602173628,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cced6917603c",
+      "title": "US removes Syria from state sponsor of terrorism list",
+      "description": "The United States delisted Syria as a state sponsor of terrorism, easing diplomatic and economic restrictions.",
+      "lat": 33.511,
+      "lng": 36.282,
+      "severity": 1,
+      "location": "Damascus, Syria",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3365113/us-removes-syria-state-sponsor-terrorism-list?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/25/584577e3-ad6a-4669-aa96-0243140a1b91_849165b5.jpg?itok=f8OrfMiB&v=1787598826",
+      "ts": 1787601056000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/united-states-canada/article/3365113/us-removes-syria-state-sponsor-terrorism-list?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "50087a2cf276",
+      "title": "Netanyahu says Iran tried to kill one of his sons",
+      "description": "Israeli Prime Minister Benjamin Netanyahu claimed Iran had plotted an assassination attempt on his son, heightening regional tensions.",
+      "lat": 35.6895,
+      "lng": 51.389,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/israels-netanyahu-says-iran-tried-kill-one-his-sons",
+      "image": null,
+      "ts": 1787600793000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/israels-netanyahu-says-iran-tried-kill-one-his-sons"
+          }
+        ]
+      }
+    },
+    {
+      "id": "527cdba734a4",
+      "title": "Bessent unveils sanctions designed to cripple Iran",
+      "description": "U.S. Treasury Secretary Scott Bessent announced a new round of secondary sanctions targeting entities that do business with Iran.",
+      "lat": 36.7895,
+      "lng": 51.38900000000001,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/08/24/bessent-dday-iran-secondary-sanctions",
+      "image": "https://images.axios.com/6A-D9atuB24ZOTnGc4bDBSiTlEs=/0x0:4000x2250/1366x768/2026/08/24/1787587497385.jpeg",
+      "ts": 1787594902000,
+      "coverage": {
+        "left": 1,
+        "center": 5,
+        "right": 1,
+        "total": 7,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 5,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/business/economy/bessent-iran-sanctions-d-day-rcna594103"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/08/24/bessent-dday-iran-secondary-sanctions"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/67c74e64-5c37-4a5d-ae6c-d3c002f99628?syn-25a6b1a6=1"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZlROSkFsYjg2RjA1RzJfY1VYTWNZZFhPcDVqSDJrRzFWR1pXQ29uS2NvaEhkVWo1d3dHeXF2QnlWTnNJY2RyVlJJWVQwcG15V0wtbEtwdUU0R05YWVhhbHpyZnZvT0tuMXM1RlJ3YVBxSlc4SGpHazJzSndyRkNqbXF6YVF5U1hqT2t0RmpCUnM3SDNXSkxtS2t6T3RnNGMtMnNiT1Q3X0VXNjg?oc=5"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xYzV1OHFrN0pNdGo3V1VSMExkc2pvc1NhbHpJdE1HdzFsQ3h1M2lMU1JzeGotX212N1VRTVNHcVJibEVmbDJvbjNjdGdLdnZFbnNjSEhRUEt0Z2U1cWp1WGlUYTZkSWVZclM1SzhXZlFjSW1r?oc=5"
+          },
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20260825000400315"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/bessent-unveils-operation-economic-outcast-rolling-out-new-sanctions-to-cripple-iran/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "16adb345c8de",
+      "title": "U.S. withdraws from military exercises with South Korea",
+      "description": "The United States announced it will pull out of scheduled joint drills with South Korea, citing resource strains from the war in Iran.",
+      "lat": 37.5665,
+      "lng": 126.978,
+      "severity": 3,
+      "location": "Seoul, South Korea",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/08/24/us-withdraws-military-exercises-with-south-korea-set-next-month/",
+      "image": null,
+      "ts": 1787593495000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/08/24/us-withdraws-military-exercises-with-south-korea-set-next-month/"
+          }
+        ]
+      }
+    },
     {
       "id": "7bc34798c69a",
       "title": "Taiwan to increase defense spending to record $35.2 billion in 2027",
@@ -3316,39 +3511,6 @@
             "n": "Egypt Independent",
             "b": "center",
             "u": "https://www.egyptindependent.com/strait-of-hormuz-traffic-remains-at-a-fraction-of-pre-war-levels/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cb39af2df6ed",
-      "title": "China Launches Satellite for Algeria",
-      "description": "China has launched a communications satellite for Algeria, marking the first time a Chinese-made satellite has been exported to an Arab country.",
-      "lat": 36.77,
-      "lng": 3.06,
-      "severity": 1,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1786798365223,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
           }
         ]
       }
@@ -7321,148 +7483,6 @@
             "n": "Sky News World",
             "b": "center",
             "u": "https://news.sky.com/story/dr-congos-fastest-growing-ebola-outbreak-reaches-sixth-province-13572638"
-          }
-        ]
-      }
-    },
-    {
-      "id": "734ab2861000",
-      "title": "Ukraine's monthly civilian casualties highest since 2022",
-      "description": "UN monitors say civilian casualties in Ukraine hit their highest monthly level since the start of Russia's full-scale war.",
-      "lat": 50.45,
-      "lng": 30.52,
-      "severity": 4,
-      "location": "Kyiv, Ukraine",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/ukraine-s-monthly-civilian-casualties-highest-since-2022/live-78351269?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1786633552422,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/ukraine-s-monthly-civilian-casualties-highest-since-2022/live-78351269?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "64c7c96022d8",
-      "title": "Congo’s Fastest-Growing Ebola Outbreak Reaches A New Province",
-      "description": "A death has been recorded in Bas-Uele, bringing the number of Congo’s affected provinces to six.",
-      "lat": 2.26,
-      "lng": 25.69,
-      "severity": 4,
-      "location": "Bas-Uele, Democratic Republic of the Congo",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/congo-ebola-reaches-sixth-province_n_6a7dd442e4b0c90843ffdc38",
-      "image": null,
-      "ts": 1786631742000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 1,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/congo-ebola-reaches-sixth-province_n_6a7dd442e4b0c90843ffdc38"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/dr-congos-fastest-growing-ebola-outbreak-reaches-sixth-province-13572638"
-          }
-        ]
-      }
-    },
-    {
-      "id": "092013a19a42",
-      "title": "Bill Gates in S. Korea to discuss cooperation in next-generation nuclear reactors",
-      "description": "American billionaire and founder of TerraPower Bill Gates is in Seoul to discuss cooperation in next-generation nuclear reactors",
-      "lat": 38.66,
-      "lng": 126.97000000000003,
-      "severity": 1,
-      "location": "Seoul, South Korea",
-      "source": "Yonhap News",
-      "url": "https://en.yna.co.kr/view/AEN20260813011600315",
-      "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/13/AEN20260813011600315_01_i_P2.jpg",
-      "ts": 1786629216000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20260813011600315"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2acb79d8078e",
-      "title": "Iran's state media mock Trump over airplane switch",
-      "description": "Iran's state media mock Trump over airplane switch, meme shows him hiding in a catering truck",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "Google News Top",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPV1FIaHZjdWh5bnZXZU04TlJVazN6cWVJdFRnYnFpOTk3N285VjlpdGJmdjc1MkNkdVIwQmFFWGY1U1V4X2Q1ZU04SmptOUFhS09FNDBtQVVuTVJBUUptZGp0NHZRVlBQWmpXa0xSNVlUdnlqUXVoNnplNUJYbWVhdUFwdGRWM1VKUm5aaWE0akNtY3l1SGdwQTREQ3VNNFNvU0FNN0hFTVRqOFZLVFVxSWx4cDk1VEVwUV8xMzlZSjlibGpaUTlfQUZmMTVKcC02VktHN1dR?oc=5",
-      "image": null,
-      "ts": 1786625428000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPV1FIaHZjdWh5bnZXZU04TlJVazN6cWVJdFRnYnFpOTk3N285VjlpdGJmdjc1MkNkdVIwQmFFWGY1U1V4X2Q1ZU04SmptOUFhS09FNDBtQVVuTVJBUUptZGp0NHZRVlBQWmpXa0xSNVlUdnlqUXVoNnplNUJYbWVhdUFwdGRWM1VKUm5aaWE0akNtY3l1SGdwQTREQ3VNNFNvU0FNN0hFTVRqOFZLVFVxSWx4cDk1VEVwUV8xMzlZSjlibGpaUTlfQUZmMTVKcC02VktHN1dR?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/irans-state-media-mock-trump-over-airplane-switch-meme-shows-him-hiding-catering"
           }
         ]
       }
