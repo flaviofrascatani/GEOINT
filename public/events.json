@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-24T21:39:49.224980+00:00",
+  "updated": "2026-08-24T22:39:38.442249+00:00",
   "events": [
+    {
+      "id": "2ef66bc474bc",
+      "title": "US ready to help facilitate Russia-Ukraine talks — deputy envoy to UN",
+      "description": "U.S. deputy envoy Dan Negrea called on Russia and Ukraine to return to the negotiating table, offering U.S. facilitation for peace talks.",
+      "lat": 55.75,
+      "lng": 37.62,
+      "severity": 1,
+      "location": "Moscow, Russia",
+      "source": "TASS",
+      "url": "https://tass.com/world/2177217",
+      "image": null,
+      "ts": 1787610000000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2177217"
+          }
+        ]
+      }
+    },
     {
       "id": "5cf921540dc8",
       "title": "Seoul says South Korea and US vow close cooperation on North Korea",
@@ -394,6 +427,79 @@
             "n": "BBC World",
             "b": "center",
             "u": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "05292c8f2df0",
+      "title": "Trump says U.S. will hike Canada auto tariffs to 50% as trade war escalates",
+      "description": "President Donald Trump announced a 50% tariff on Canadian automobiles, trucks and parts effective Jan. 1 2027.",
+      "lat": 45.42,
+      "lng": -75.7,
+      "severity": 2,
+      "location": "Ottawa, Canada",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/08/24/trump-canada-auto-tariffs-trade-war.html",
+      "image": null,
+      "ts": 1787598536000,
+      "coverage": {
+        "left": 5,
+        "center": 3,
+        "right": 1,
+        "total": 9,
+        "buckets": {
+          "left": 1,
+          "lean_left": 4,
+          "center": 3,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/trump-carney-trade-war-tariffs_n_6a8c4edce4b07583705ac198"
+          },
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/business/2026/08/23/us-canada-breakdown-shows-limits-trumps-aggressive-trade-strategy/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/wont-get-a-grain-of-sand-ontario-premier-slams-trump-tariffs-on-canada-11953315#publisher=newsstand"
+          },
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/08/24/-we-don-t-need-canada-trump-escalates-trade-war-with-threat-of-50-auto-tariffs/"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/08/24/canada-s-united-front-against-trump-returns-after-trade-talks-collapse_6756803_4.html"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/08/24/trump-canada-auto-tariffs-trade-war.html"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/trump-says-canada-to-face-50-auto-steel-tariffs-from-2027/a-78487268?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZE5jV3dUNWhXajlyc1J1cnhRNzZEQWR3cnV3dWNLTEdWZVlWYTZyakpWR1lPVzdUZE0tMWhMd1Z4c0J5OHpBbHh0cjhFNU1aTnlucERJSVlXMlR0Xzl1UW1zNlhVRzY0RFBaRVAwYzFkV2tBbk5ORUl2cTJnVHpjaE4xbFBtMlF5aFRITE1PVQ?oc=5"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/644600-trump-canada-auto-tariffs/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
           }
         ]
       }
@@ -7347,72 +7453,6 @@
             "n": "The Guardian World",
             "b": "lean_left",
             "u": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6bb4d4d26eb1",
-      "title": "Mali frees 82 soldiers held by militants, pardons French embassy official",
-      "description": "Mali says 82 soldiers held captive since deadly attacks in April have been freed by armed groups, in a rare breakthrough as the country battles jihadist and rebel insurgencies.",
-      "lat": 12.65,
-      "lng": -8.0,
-      "severity": 1,
-      "location": "Bamako, Mali",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/08/13/mali-frees-82-soldiers-held-by-militants-pardons-french-embassy-official/",
-      "image": "http://images.euronews.com/articles/stories/09/87/35/60/640x360_cmsv2_3de35025-6680-591a-a5eb-5264b9204fc7-9873560.jpg?1786634314",
-      "ts": 1786641149000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/13/mali-frees-82-soldiers-held-by-militants-pardons-french-embassy-official/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "90e213679184",
-      "title": "China and Indonesia’s joint naval drills anger Taiwan",
-      "description": "Chinese state media have released footage of a joint naval drill with Indonesia in waters east of Taiwan.",
-      "lat": 23.58,
-      "lng": 121.48,
-      "severity": 2,
-      "location": "Taiwan Strait, Taiwan",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/13/china-and-indonesias-joint-naval-drills-anger-taiwan?traffic_source=rss",
-      "image": null,
-      "ts": 1786639467000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/13/china-and-indonesias-joint-naval-drills-anger-taiwan?traffic_source=rss"
           }
         ]
       }
