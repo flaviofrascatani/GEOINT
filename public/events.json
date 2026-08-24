@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-08-24T20:09:33.767839+00:00",
+  "updated": "2026-08-24T20:44:31.242306+00:00",
   "events": [
+    {
+      "id": "f85cb80f1640",
+      "title": "UK gives missile blueprints to Ukraine as relations with Russia collapse",
+      "description": "Britain provides Ukraine with detailed designs for advanced missile systems to bolster its defence.",
+      "lat": 51.55,
+      "lng": 32.42519999999999,
+      "severity": 2,
+      "location": "Kiev, Ukraine",
+      "source": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/world/4698439/uk-gift-storm-shadow-missile-blueprints-ukraine-relations-with-russia-collapse/",
+      "image": null,
+      "ts": 1787603957000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4698439/uk-gift-storm-shadow-missile-blueprints-ukraine-relations-with-russia-collapse/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7a7bd22acb46",
+      "title": "Russian planes drops almost 800 tons of water of wildfire hotspots in Serbia in four days",
+      "description": "Russian aircraft delivered water drops to combat wildfires in Serbia, aiding firefighting efforts.",
+      "lat": 44.81,
+      "lng": 20.46,
+      "severity": 1,
+      "location": "Belgrade, Serbia",
+      "source": "TASS",
+      "url": "https://tass.com/emergencies/2177189",
+      "image": null,
+      "ts": 1787603091000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/emergencies/2177189"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9591573ad1e4",
+      "title": "Violence flares in Haiti as gang attack kills 30 people",
+      "description": "Gang violence in Haiti escalates, resulting in 30 deaths as the country prepares for long‑delayed elections.",
+      "lat": 18.54,
+      "lng": -72.34,
+      "severity": 4,
+      "location": "Port‑au‑Prince, Haiti",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/24/violence-flares-in-haiti-as-gang-attack-kills-30-people?traffic_source=rss",
+      "image": null,
+      "ts": 1787603019000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/24/violence-flares-in-haiti-as-gang-attack-kills-30-people?traffic_source=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "cb39af2df6ed",
       "title": "China launches first communications satellite for an Arab country",
@@ -102,6 +201,72 @@
       }
     },
     {
+      "id": "8821a127380c",
+      "title": "U.S. Treasury chief vows to cut every ‘economic lifeline’ of Iran",
+      "description": "U.S. Treasury official announces a comprehensive effort to sever all financial links with Iran.",
+      "lat": 36.79,
+      "lng": 53.295199999999994,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/us-treasury-chief-vows-to-cut-every-economic-lifeline-of-iran/article71386161.ece",
+      "image": "https://th-i.thgim.com/public/incoming/k24fdh/article71386159.ece/alternates/LANDSCAPE_1200/2291864969.jpg",
+      "ts": 1787599941000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/us-treasury-chief-vows-to-cut-every-economic-lifeline-of-iran/article71386161.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c9f7d38f2cae",
+      "title": "Iran faces 'greatest financial offensive ever', says US treasury secretary",
+      "description": "US Treasury Secretary declares an unprecedented financial campaign to isolate Iran and punish its partners.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de12/live/09a94a20-9fe6-11f1-8ed1-41aaf1fca4f2.jpg",
+      "ts": 1787598755000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
       "id": "527cdba734a4",
       "title": "Bessent unveils sanctions designed to cripple Iran",
       "description": "U.S. Treasury Secretary Scott Bessent announced a new round of secondary sanctions targeting entities that do business with Iran.",
@@ -160,6 +325,39 @@
             "n": "OAN",
             "b": "right",
             "u": "https://www.oann.com/newsroom/bessent-unveils-operation-economic-outcast-rolling-out-new-sanctions-to-cripple-iran/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f905e8b74789",
+      "title": "Gli Stati Uniti hanno annunciato le nuove sanzioni secondarie per fermare il flusso di fondi verso l'Iran",
+      "description": "Gli Stati Uniti hanno introdotto nuove sanzioni secondarie mirate a bloccare i trasferimenti di denaro verso l'Iran.",
+      "lat": 35.69,
+      "lng": 53.295199999999994,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "AGI Estero",
+      "url": "https://www.agi.it/estero/news/2026-08-24/usa-sanzioni-iran-38682250/",
+      "image": "https://images.agi.it/pictures/agi/agi/2026/08/24/175220590-9fa59292-7bf1-47d2-a5a3-c8a8380d3547.jpg",
+      "ts": 1787593641000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "AGI Estero",
+            "b": "center",
+            "u": "https://www.agi.it/estero/news/2026-08-24/usa-sanzioni-iran-38682250/"
           }
         ]
       }
@@ -924,94 +1122,6 @@
             "n": "France 24",
             "b": "center",
             "u": "https://www.france24.com/en/senegal-saint-louis-centuries-old-pirogue-racing-tradition"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f85cb80f1640",
-      "title": "Drone and Missile Strikes Kill 19 in Russia and Ukraine",
-      "description": "At least 19 people were killed Sunday in drone and missile strikes in Russia and Ukraine which destroyed a book market in Kyiv while Moscow faced one of the most massive attacks since the start of the war.",
-      "lat": 51.55,
-      "lng": 32.42519999999999,
-      "severity": 4,
-      "location": "Kiev, Ukraine",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/europe/20260816-drone-and-missile-strikes-kill-19-in-russia-and-ukraine",
-      "image": null,
-      "ts": 1786907551000,
-      "coverage": {
-        "left": 5,
-        "center": 5,
-        "right": 2,
-        "total": 12,
-        "buckets": {
-          "left": 0,
-          "lean_left": 5,
-          "center": 5,
-          "lean_right": 1,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/ukraine-launches-largest-aerial-attacks-war-killing-6-135684169"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/ukraine-moscow-russia-drone-attack-largest-wildberries/"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/moscow-wildberries-ukraine-drone-atack-37556786"
-          },
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/08/16/ukraine-launches-one-of-the-wars-largest-drone-attacks-killing-6/"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/08/16/mass-drone-attack-hits-moscow-as-russia-launches-deadly-strikes-in-ukraine_6756558_4.html"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/16/suspected-russian-drone-shot-down-in-romanian-airspace.html"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/ukraine-pounds-russia-vice-versa-kyivs-blitz-signals-strategic-shift-3806464"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/2026/0816/1588059-ukraine-russia-war/"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/europe/20260816-drone-and-missile-strikes-kill-19-in-russia-and-ukraine"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/ukraine-attacks-wildberries-russia-s-biggest-online-market/a-78384605?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/europe/ukraine-russia-exchange-overnight-strikes-claiming-12-more-lives"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/russia-amazon-deep-strike-ukraine-blitz-wiping-billions-putin-linked-ceo"
           }
         ]
       }
@@ -7313,176 +7423,6 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/video/newsfeed/2026/8/13/zambian-president-hichilema-votes-as-he-seeks-second-term?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6510cd14a538",
-      "title": "Iran war depletes US Reaper drone arsenal",
-      "description": "The US military has lost roughly 25% of its Reaper drones as the Iran war depletes its arsenal, with the aircraft seeing heavy use around the Strait of Hormuz.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz, Iran",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/national-security/2026/08/13/us-military-has-lost-roughly-25-its-reaper-drones-iran-war-depletes-arsenal/",
-      "image": null,
-      "ts": 1786635583000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/national-security/2026/08/13/us-military-has-lost-roughly-25-its-reaper-drones-iran-war-depletes-arsenal/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "44c3bd1b1b0d",
-      "title": "IDF strikes Hamas terror cell, resuming preemptive strikes despite Trump's Gaza deal",
-      "description": "After curbing its operations in line with US instructions since the July deal took effect, the IDF is confident on removing ongoing threats in Gaza, military sources said.",
-      "lat": 31.5,
-      "lng": 34.44999999999999,
-      "severity": 3,
-      "location": "Gaza Strip",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/israel-news/defense-news/article-905444",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_3534,w_5301/733828",
-      "ts": 1786635123000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/israel-news/defense-news/article-905444"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de3bca7139b8",
-      "title": "U.S. Sending Fresh Aircraft Carrier to Middle East Amid Iran War Strain",
-      "description": "The U.S. is sending a fresh aircraft carrier to the Middle East amid the Iran war strain.",
-      "lat": 25.03,
-      "lng": 55.38,
-      "severity": 3,
-      "location": "Persian Gulf, United Arab Emirates",
-      "source": "Google News Top",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSHZlYUkzWG1OQmhuZEF6ZzExVTJPN3NFUWIwTjJDRDg0OFRMTlMyQUYtZ2s4MzNnbDBhX1BQVGI1TDdIbVpiQmVVWlNwdFhsckZ4Uk11X2FYNnd1SDlpd3F4Mk85WEZrN3A0RFh4S2ZCX1lFTVcyRURocVRxTTFWSm5TZ0tJQTJ3RGhreFcycmNNSGRRaFFGWHA0WDVEVnFVaFBEWjBfZThSMVlQZ3ZfcmFZWXhnN1ZabzZMTm1DU296U0lQ?oc=5",
-      "image": null,
-      "ts": 1786634820000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSHZlYUkzWG1OQmhuZEF6ZzExVTJPN3NFUWIwTjJDRDg0OFRMTlMyQUYtZ2s4MzNnbDBhX1BQVGI1TDdIbVpiQmVVWlNwdFhsckZ4Uk11X2FYNnd1SDlpd3F4Mk85WEZrN3A0RFh4S2ZCX1lFTVcyRURocVRxTTFWSm5TZ0tJQTJ3RGhreFcycmNNSGRRaFFGWHA0WDVEVnFVaFBEWjBfZThSMVlQZ3ZfcmFZWXhnN1ZabzZMTm1DU296U0lQ?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9c7d4bee8db0",
-      "title": "Gaza's beekeepers rebuild livelihoods amid war ruins",
-      "description": "Beekeepers in Gaza are rebuilding their livelihoods, handling swarms and collecting honey from colonies that survived the war.",
-      "lat": 31.51,
-      "lng": 34.44999999999999,
-      "severity": 1,
-      "location": "Gaza, Palestine",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/video/20260813-gaza-s-beekeepers-are-rebuilding-their-livelihoods-amid-the-ruins-of-war",
-      "image": "https://s.france24.com/media/display/58f6e89e-9708-11f1-b310-005056bf30b7/w:1024/p:16x9/AP26220325628514.jpg",
-      "ts": 1786634282000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/video/20260813-gaza-s-beekeepers-are-rebuilding-their-livelihoods-amid-the-ruins-of-war"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8d1dc5483f53",
-      "title": "DRC’s fast-growing Ebola outbreak spreads to sixth province",
-      "description": "The Ebola outbreak in the Democratic Republic of the Congo has spread to a sixth province, with a man dying in Bas-Uele after travelling from Haut-Uele",
-      "lat": 3.02,
-      "lng": 26.98,
-      "severity": 4,
-      "location": "Bas-Uele, Democratic Republic of the Congo",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province",
-      "image": null,
-      "ts": 1786634233000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/dr-congos-fastest-growing-ebola-outbreak-reaches-sixth-province-13572638"
           }
         ]
       }
