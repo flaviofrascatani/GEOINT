@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-08-24T20:44:31.242306+00:00",
+  "updated": "2026-08-24T21:39:49.224980+00:00",
   "events": [
+    {
+      "id": "5cf921540dc8",
+      "title": "Seoul says South Korea and US vow close cooperation on North Korea",
+      "description": "South Korean Foreign Minister Cho Hyun and US Secretary of State Marco Rubio pledged tighter coordination on North Korea during a phone call.",
+      "lat": 38.66,
+      "lng": 126.98000000000002,
+      "severity": 2,
+      "location": "Seoul, South Korea",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/east-asia/seoul-says-south-korea-and-us-vow-close-cooperation-on-north-korea",
+      "image": null,
+      "ts": 1787607131000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/east-asia/seoul-says-south-korea-and-us-vow-close-cooperation-on-north-korea"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7f7f4efc67f4",
+      "title": "European countries arm Ukraine, encourage rejection of Minsk accords",
+      "description": "Russian UN envoy Vasily Nebenzya said European states are supplying weapons to Ukraine and urging it to abandon the Minsk peace framework.",
+      "lat": 48.45,
+      "lng": 30.52,
+      "severity": 3,
+      "location": "Kyiv, Ukraine",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2177209",
+      "image": null,
+      "ts": 1787606496000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2177209"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c3b7f544ca96",
+      "title": "US removes Syria’s state sponsor of terrorism designation",
+      "description": "Washington ended a five‑decade listing of Syria as a state sponsor of terrorism, signaling a shift toward improved relations.",
+      "lat": 34.61,
+      "lng": 36.28,
+      "severity": 1,
+      "location": "Damascus, Syria",
+      "source": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/policy/foreign-policy/4698697/us-syria-state-sponsor-of-terrorism-designation-since-1979-blocked-persons-lifted/",
+      "image": null,
+      "ts": 1787606178000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/policy/foreign-policy/4698697/us-syria-state-sponsor-of-terrorism-designation-since-1979-blocked-persons-lifted/"
+          }
+        ]
+      }
+    },
     {
       "id": "f85cb80f1640",
       "title": "UK gives missile blueprints to Ukraine as relations with Russia collapse",
@@ -130,6 +229,39 @@
             "n": "China Daily World",
             "b": "right",
             "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fb3234ae6dad",
+      "title": "Taiwan charges 9 over AI server exports to China, including Nvidia, Super Micro staff",
+      "description": "Taiwanese prosecutors indicted nine individuals for illegally shipping high‑end AI servers to mainland China.",
+      "lat": 25.03,
+      "lng": 121.56,
+      "severity": 3,
+      "location": "Taipei, Taiwan",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/taiwan-charges-9-illegal-ai-server-exports-china-135914730",
+      "image": "https://s.abcnews.com/images/International/wirestory_511e9ae69d517c49f19512d45b1a8b0c_4x3_384.jpg",
+      "ts": 1787601564000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/taiwan-charges-9-illegal-ai-server-exports-china-135914730"
           }
         ]
       }
@@ -7281,148 +7413,6 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/video/newsfeed/2026/8/13/china-and-indonesias-joint-naval-drills-anger-taiwan?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b32132871382",
-      "title": "Explosion Strikes Ammunition Plant Near Rome",
-      "description": "An explosion occurred at an ammunition manufacturing plant near Rome, with no injuries reported.",
-      "lat": 43.0,
-      "lng": 12.509999999999991,
-      "severity": 3,
-      "location": "Rome, Italy",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/explosion-strikes-ammunition-plant-rome-injuries-reported-135617345",
-      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
-      "ts": 1786638462000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/explosion-strikes-ammunition-plant-rome-injuries-reported-135617345"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3e24c1c5730d",
-      "title": "Displaced families and hospitals struggle as Sudan's war ravages El-Obeid",
-      "description": "The war, which began in April 2023, has killed at least 59,000 people, displaced around 13 million, and pushed large parts of Sudan into famine.",
-      "lat": 14.28,
-      "lng": 30.22,
-      "severity": 4,
-      "location": "El-Obeid, Sudan",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/08/13/displaced-families-and-hospitals-struggle-as-sudans-war-ravages-el-obeid/",
-      "image": "http://images.euronews.com/articles/stories/09/87/34/58/640x360_cmsv2_58d64a48-1134-5232-ab9b-d3366a99e322-9873458.jpg?1786629732",
-      "ts": 1786637289000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/13/displaced-families-and-hospitals-struggle-as-sudans-war-ravages-el-obeid/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "604e2589e584",
-      "title": "Turkey set to sign charter for Saudi-led Red Sea coalition on Friday",
-      "description": "Ankara pledged support for the proposed multinational alliance last month, but Friday’s expected signing will mark its formal entry into the Saudi-led grouping.",
-      "lat": 39.93,
-      "lng": 32.860000000000014,
-      "severity": 2,
-      "location": "Ankara, Turkey",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/08/turkey-set-sign-charter-saudi-led-red-sea-coalition-friday",
-      "image": null,
-      "ts": 1786637252000,
-      "coverage": {
-        "left": 0,
-        "center": 3,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/saudi-arabia-scrambles-avoid-red-sea-attacks-oil-flows-through-egypt-soar-3806360"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/article-905414"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/turkey-set-sign-charter-saudi-led-red-sea-coalition-friday"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6816746fd4c5",
-      "title": "Zambian president Hichilema votes as he seeks second term",
-      "description": "Zambian president Hakainde Hichilema cast his vote in the capital Lusaka as he bids for a second term.",
-      "lat": -15.42,
-      "lng": 28.28,
-      "severity": 1,
-      "location": "Lusaka, Zambia",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/13/zambian-president-hichilema-votes-as-he-seeks-second-term?traffic_source=rss",
-      "image": "https://s.france24.com/media/display/7da626c4-96a8-11f1-8a20-005056bf30b7/w:1024/p:16x9/AP26223850902100.jpg",
-      "ts": 1786636312000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/13/zambian-president-hichilema-votes-as-he-seeks-second-term?traffic_source=rss"
           }
         ]
       }
