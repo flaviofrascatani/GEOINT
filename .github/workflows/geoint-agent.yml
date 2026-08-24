@@ -37,6 +37,12 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Diagnosi del collegamento LLM
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python agent/geoint_agent.py --selftest
+
       - name: Run agent
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
@@ -49,6 +55,7 @@ jobs:
         run: python agent/geoint_agent.py
 
       - name: Commit updated events.json
+        if: always()
         run: |
           git config user.name  "geoint-agent[bot]"
           git config user.email "geoint-agent@users.noreply.github.com"
