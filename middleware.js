@@ -110,15 +110,16 @@ function loginPage({ error = '', next = '/', notice = '' } = {}) {
 <meta name="color-scheme" content="dark">
 <title>GEOINT // Accesso riservato</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
-  --bg:#0a120e;--surface:rgba(17,27,22,.82);--border:rgba(190,207,184,.14);
+  --bg:#0a120e;--surface:rgba(15,25,20,.89);--border:rgba(190,207,184,.14);
   --accent:#8aad84;--green:#6b9e6f;--red:#c27066;--amber:#b89a4a;
   --text:#9aaa97;--dim:#5a6d5e;--bright:#e8ebe5;
-  --mono:'JetBrains Mono',ui-monospace,SFMono-Regular,monospace;
-  --sans:'EB Garamond',Garamond,Georgia,serif;
+  --mono:'IBM Plex Mono',ui-monospace,SFMono-Regular,monospace;
+  --sans:'EB Garamond','Cormorant Garamond',Garamond,Georgia,serif;
+  --display:'Cormorant Garamond','EB Garamond',Garamond,Georgia,serif;
 }
 html,body{height:100%}
 body{background:var(--bg);color:var(--text);font-family:var(--sans);
@@ -135,21 +136,12 @@ body{background:var(--bg);color:var(--text);font-family:var(--sans);
   linear-gradient(90deg,rgba(190,207,184,.028) 1px,transparent 1px);
   background-size:44px 44px}
 .veil.vign{background:
-  radial-gradient(ellipse 70% 60% at 50% 45%,transparent 0%,rgba(6,11,9,.55) 70%,rgba(5,9,7,.9) 100%)}
-
-/* --- cartiglio d'angolo --- */
-.corner{position:fixed;z-index:2;font-family:var(--mono);font-size:8.5px;
-  letter-spacing:1.4px;color:rgba(122,145,120,.5);text-transform:uppercase;
-  line-height:1.9;pointer-events:none}
-.corner.tl{top:18px;left:20px}
-.corner.br{bottom:18px;right:20px;text-align:right}
-.corner b{color:rgba(138,173,132,.7);font-weight:400}
-@media(max-width:680px){.corner{display:none}}
+  radial-gradient(ellipse 78% 68% at 50% 45%,transparent 0%,rgba(6,11,9,.34) 68%,rgba(5,9,7,.74) 100%)}
 
 /* --- scheda --- */
-.card{position:relative;z-index:3;width:100%;max-width:392px;
-  background:var(--surface);border:1px solid var(--border);border-radius:9px;
-  backdrop-filter:blur(16px) saturate(1.1);-webkit-backdrop-filter:blur(16px) saturate(1.1);
+.card{position:relative;z-index:3;width:100%;max-width:340px;
+  background:var(--surface);border:1px solid var(--border);border-radius:8px;
+  backdrop-filter:blur(22px) saturate(1.15);-webkit-backdrop-filter:blur(22px) saturate(1.15);
   box-shadow:0 30px 90px rgba(0,0,0,.62),0 0 0 1px rgba(0,0,0,.35),
     inset 0 1px 0 rgba(232,235,229,.05);
   animation:rise .7s cubic-bezier(.2,.7,.3,1) both}
@@ -163,47 +155,41 @@ body{background:var(--bg);color:var(--text);font-family:var(--sans);
 .card::before{top:-1px;left:-1px;border-right:0;border-bottom:0;border-radius:9px 0 0 0}
 .card::after{bottom:-1px;right:-1px;border-left:0;border-top:0;border-radius:0 0 9px 0}
 
-.head{padding:22px 26px 17px;border-bottom:1px solid var(--border);position:relative}
-.head::after{content:'';position:absolute;left:26px;right:26px;bottom:-1px;height:1px;
+.head{padding:17px 24px 14px;border-bottom:1px solid var(--border);position:relative}
+.head::after{content:'';position:absolute;left:24px;right:24px;bottom:-1px;height:1px;
   background:linear-gradient(90deg,rgba(138,173,132,.5),transparent 65%)}
-.logo{display:flex;align-items:center;gap:9px;font-size:15px;font-weight:600;
-  letter-spacing:1.8px;color:var(--accent)}
-.dot{width:6px;height:6px;border-radius:50%;background:var(--green);
-  box-shadow:0 0 8px var(--green);animation:blink 2.6s infinite}
-@keyframes blink{0%,100%{opacity:1}50%{opacity:.22}}
-.sub{margin-top:7px;font-family:var(--mono);font-size:9px;letter-spacing:1.3px;
-  text-transform:uppercase;color:var(--dim)}
-form{padding:21px 26px 24px}
+.logo{display:block;font-family:var(--display);
+  font-size:19px;font-weight:600;letter-spacing:3.4px;line-height:1;
+  color:var(--accent);text-transform:uppercase;
+  font-feature-settings:'liga' 1,'kern' 1}
+form{padding:18px 24px 21px}
 label{display:flex;justify-content:space-between;align-items:baseline;
-  font-family:var(--mono);font-size:9px;letter-spacing:1.1px;text-transform:uppercase;
-  color:var(--dim);margin-bottom:6px}
-.field{position:relative;margin-bottom:15px}
-input{width:100%;padding:11px 12px;background:rgba(0,0,0,.22);
+  font-family:var(--sans);font-size:10.5px;font-weight:500;letter-spacing:1.5px;
+  text-transform:uppercase;color:var(--dim);margin-bottom:5px}
+.field{position:relative;margin-bottom:13px}
+input{width:100%;padding:10px 12px;background:rgba(0,0,0,.22);
   border:1px solid var(--border);border-radius:5px;color:var(--bright);
-  font-family:var(--mono);font-size:13px;outline:none;
+  font-family:var(--mono);font-weight:400;font-size:12px;letter-spacing:.3px;outline:none;
   transition:border-color .18s,background .18s,box-shadow .18s}
 input::placeholder{color:rgba(90,109,94,.55)}
 input:focus{border-color:rgba(138,173,132,.65);background:rgba(138,173,132,.06);
   box-shadow:0 0 0 3px rgba(138,173,132,.09)}
-.caps{font-family:var(--mono);font-size:8px;letter-spacing:.9px;color:var(--amber);
+.caps{font-family:var(--mono);font-size:7.5px;font-weight:400;letter-spacing:.7px;color:var(--amber);
   opacity:0;transition:opacity .2s}
 .caps.on{opacity:1}
-button{width:100%;padding:12px;margin-top:3px;background:rgba(138,173,132,.14);
+button{width:100%;padding:11px;margin-top:4px;background:rgba(138,173,132,.14);
   border:1px solid rgba(138,173,132,.42);border-radius:5px;color:var(--accent);
-  font-family:var(--sans);font-size:14px;font-weight:600;letter-spacing:.7px;
-  cursor:pointer;transition:background .18s,color .18s,border-color .18s}
+  font-family:var(--display);font-size:15px;font-weight:600;letter-spacing:2.6px;
+  text-transform:uppercase;cursor:pointer;
+  transition:background .18s,color .18s,border-color .18s}
 button:hover{background:rgba(138,173,132,.26);color:var(--bright);
   border-color:rgba(138,173,132,.65)}
 button:active{transform:translateY(1px)}
 button[disabled]{opacity:.6;cursor:progress}
-.msg{padding:9px 11px;margin-bottom:15px;border-radius:5px;font-family:var(--mono);
-  font-size:10px;line-height:1.65;letter-spacing:.3px}
+.msg{padding:10px 12px;margin-bottom:15px;border-radius:5px;font-family:var(--sans);
+  font-size:12px;line-height:1.5;letter-spacing:.2px}
 .err{background:rgba(194,112,102,.1);border:1px solid rgba(194,112,102,.35);color:var(--red)}
 .note{background:rgba(184,154,74,.09);border:1px solid rgba(184,154,74,.32);color:var(--amber)}
-.foot{padding:0 26px 20px;font-family:var(--mono);font-size:8px;letter-spacing:1px;
-  color:var(--dim);text-align:center;text-transform:uppercase;
-  display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
-.foot span{opacity:.75}
 @media(prefers-reduced-motion:reduce){
   *{animation:none!important;transition:none!important}
 }
@@ -214,19 +200,9 @@ button[disabled]{opacity:.6;cursor:progress}
 <div class="veil grid"></div>
 <div class="veil vign"></div>
 
-<div class="corner tl">
-  <div><b>GEOINT</b> · STRATEGIC GLOBE</div>
-  <div>CARTA DI RILIEVO · GENERATA LOCALMENTE</div>
-</div>
-<div class="corner br">
-  <div>DATUM WGS 84 · PROIEZIONE ORTOGONALE</div>
-  <div>EQUIDISTANZA <b id="ci">40</b> M · TERRENO SINTETICO</div>
-</div>
-
 <div class="card" id="card">
   <div class="head">
-    <div class="logo"><span class="dot"></span>GEOINT</div>
-    <div class="sub">Accesso riservato · autenticazione richiesta</div>
+    <div class="logo">GEOINT</div>
   </div>
   <form method="POST" action="/login" autocomplete="on" id="f">
     <input type="hidden" name="next" value="${safeNext.replace(/"/g, '&quot;')}">
@@ -242,7 +218,6 @@ button[disabled]{opacity:.6;cursor:progress}
     </div>
     <button type="submit" id="go">Accedi</button>
   </form>
-  <div class="foot"><span>Strategic Globe</span><span>·</span><span>Sessione protetta</span></div>
 </div>
 
 <script>
@@ -318,14 +293,14 @@ button[disabled]{opacity:.6;cursor:progress}
       var nx=(hl-hr)/120, ny=(hu-hd)/120, nz=1;
       var len=Math.sqrt(nx*nx+ny*ny+1);
       var sh=(nx*LX+ny*LY+nz*LZ)/len;
-      sh=0.50+0.62*Math.max(0,Math.min(1,sh*0.5+0.5));
+      sh=0.44+0.80*Math.max(0,Math.min(1,sh*0.5+0.5));
       var r,g,b;
       if(h<0){                       // acqua: piu' fredda e piu' scura col fondale
         var t=Math.max(0,Math.min(1,(h+600)/600));
-        r=4+3*t; g=9+6*t; b=10+7*t; sh=0.86+0.14*t;
+        r=5+5*t; g=12+9*t; b=13+10*t; sh=0.86+0.14*t;
       } else {                       // terra: verde che schiarisce con la quota
         var e=Math.max(0,Math.min(1,h/3000));
-        r=7+17*e; g=14+27*e; b=11+18*e;
+        r=10+26*e; g=19+40*e; b=15+27*e;
       }
       var o=k*4;
       d[o]=Math.min(255,r*sh); d[o+1]=Math.min(255,g*sh);
@@ -346,10 +321,10 @@ button[disabled]{opacity:.6;cursor:progress}
       var lv=levels[li];
       var isSea=(lv>=-INTERVAL/2&&lv<INTERVAL/2);
       var isIndex=(Math.round(lv/INTERVAL)%5===0);
-      if(isSea){ctx.strokeStyle='rgba(150,196,186,.34)';ctx.lineWidth=1.15}
+      if(isSea){ctx.strokeStyle='rgba(150,196,186,.42)';ctx.lineWidth=1.15}
       else if(lv<0){ctx.strokeStyle='rgba(120,170,168,.13)';ctx.lineWidth=.6}
-      else if(isIndex){ctx.strokeStyle='rgba(206,228,200,.25)';ctx.lineWidth=1.05}
-      else{ctx.strokeStyle='rgba(206,228,200,.115)';ctx.lineWidth=.62}
+      else if(isIndex){ctx.strokeStyle='rgba(206,228,200,.30)';ctx.lineWidth=1.05}
+      else{ctx.strokeStyle='rgba(206,228,200,.145)';ctx.lineWidth=.62}
       ctx.beginPath();
       for(j=0;j<GH-1;j++)for(i=0;i<GW-1;i++){
         var tl=hgt[j*GW+i], tr=hgt[j*GW+i+1],
@@ -375,31 +350,6 @@ button[disabled]{opacity:.6;cursor:progress}
       ctx.stroke();
     }
 
-    // --- quote puntuali sulle vette, come su una carta vera ---
-    ctx.font='9px ui-monospace,monospace';
-    ctx.fillStyle='rgba(196,220,192,.34)';
-    var placed=[];
-    for(j=6;j<GH-6;j+=3)for(i=6;i<GW-6;i+=3){
-      var hh=hgt[j*GW+i];
-      if(hh<1500)continue;
-      var top=true;
-      for(var dj=-3;dj<=3&&top;dj++)for(var di=-3;di<=3;di++){
-        if(hgt[(j+dj)*GW+(i+di)]>hh){top=false;break}
-      }
-      if(!top)continue;
-      var px=i*cw, py=j*ch, far=true;
-      for(var q=0;q<placed.length;q++){
-        if(Math.abs(placed[q][0]-px)<170&&Math.abs(placed[q][1]-py)<110){far=false;break}
-      }
-      if(!far||placed.length>=7)continue;
-      placed.push([px,py]);
-      ctx.beginPath();
-      ctx.moveTo(px,py-3.4);ctx.lineTo(px+3,py+2.2);ctx.lineTo(px-3,py+2.2);
-      ctx.closePath();ctx.fill();
-      ctx.fillText(String(Math.round(hh/5)*5),px+7,py+3.5);
-    }
-
-    document.getElementById('ci').textContent=String(INTERVAL);
     cv.classList.add('on');
   }
 
