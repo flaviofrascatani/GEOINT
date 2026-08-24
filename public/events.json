@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-08-24T22:39:38.442249+00:00",
+  "updated": "2026-08-24T23:31:37.622797+00:00",
   "events": [
+    {
+      "id": "b3f6a887d770",
+      "title": "German foreign minister cites funding shortfall for Ukraine military aid",
+      "description": "Foreign Minister Johann Wadephul warned that Germany faces a budget gap in delivering promised military assistance to Kyiv.",
+      "lat": 52.52,
+      "lng": 13.4,
+      "severity": 3,
+      "location": "Berlin, Germany",
+      "source": "TASS",
+      "url": "https://tass.com/world/2177219",
+      "image": null,
+      "ts": 1787611800000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2177219"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aa0f7f103b24",
+      "title": "New US sanctions hit Iran’s aviation, tech and shipping sectors",
+      "description": "Washington imposed fresh sanctions on Iran, targeting airlines, high‑tech equipment and maritime activities, tightening economic pressure.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/8/24/how-us-sanctions-on-iran-ripple-through-global-markets-and-consumers?traffic_source=rss",
+      "image": null,
+      "ts": 1787611562000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/economy/2026/8/24/how-us-sanctions-on-iran-ripple-through-global-markets-and-consumers?traffic_source=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "2ef66bc474bc",
       "title": "US ready to help facilitate Russia-Ukraine talks — deputy envoy to UN",
@@ -601,6 +667,39 @@
       }
     },
     {
+      "id": "6bee4fe80e3d",
+      "title": "US announces new secondary sanctions to choke Iran’s fund flow",
+      "description": "The United States unveiled a fresh round of secondary sanctions aimed at cutting off financial channels to Tehran across five key sectors.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "AGI Estero",
+      "url": "https://www.agi.it/estero/news/2026-08-24/usa-sanzioni-iran-38682250/",
+      "image": "https://images.agi.it/pictures/agi/agi/2026/08/24/175220590-9fa59292-7bf1-47d2-a5a3-c8a8380d3547.jpg",
+      "ts": 1787593641000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "AGI Estero",
+            "b": "center",
+            "u": "https://www.agi.it/estero/news/2026-08-24/usa-sanzioni-iran-38682250/"
+          }
+        ]
+      }
+    },
+    {
       "id": "16adb345c8de",
       "title": "U.S. withdraws from military exercises with South Korea",
       "description": "The United States announced it will pull out of scheduled joint drills with South Korea, citing resource strains from the war in Iran.",
@@ -629,6 +728,59 @@
             "n": "Washington Post World",
             "b": "lean_left",
             "u": "https://www.washingtonpost.com/world/2026/08/24/us-withdraws-military-exercises-with-south-korea-set-next-month/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d4cd825cf8c9",
+      "title": "Canadian politician threatens to cut off electricity to the US after Trump tariffs",
+      "description": "A Canadian lawmaker warned of cutting electricity and mineral supplies to the United States in response to President Trump's 50% tariff threat.",
+      "lat": 38.9,
+      "lng": -77.04,
+      "severity": 2,
+      "location": "Washington, D.C., USA",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/canadian-politician-threatens-to-cut-off-electricity-to-the-us-in-response-to-donald-trumps-50-tariffs-13576665",
+      "image": "https://e3.365dm.com/25/10/1920x1080/skynews-trump-tariffs-canada_7060975.jpg?20251024211416",
+      "ts": 1787579940000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 1,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/economy/article/2026/08/24/trump-threatens-new-tariffs-on-canadian-vehicles_6756804_19.html"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/trump-threatens-50-tariff-on-canadian-automobiles-car-parts-steel-starting-january-1/article71385281.ece"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/52978bad-2b91-41e3-be94-7fb6776fbb91?syn-25a6b1a6=1"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/canadian-politician-threatens-to-cut-off-electricity-to-the-us-in-response-to-donald-trumps-50-tariffs-13576665"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/644600-trump-canada-auto-tariffs/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
           }
         ]
       }
@@ -7316,143 +7468,6 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/poland-arrests-russian-allegedly-hired-kill-ukrainian-american-inconvenient-putin-regime"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3c6c136464d4",
-      "title": "Yemen at highest risk of major conflict since 2022 truce, UN warns",
-      "description": "Yemen faces its most serious threat of a return to large-scale war since a U.N.-brokered truce in 2022, U.N. envoy Hans Grundberg warned.",
-      "lat": 15.35,
-      "lng": 46.095200000000006,
-      "severity": 2,
-      "location": "Sanaa, Yemen",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/08/yemen-highest-risk-major-conflict-2022-truce-un-warns",
-      "image": null,
-      "ts": 1786643196000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMC1Hb3ZMdDRzNVlfc1NxaWstRk16Vk44emxyaU4tcmtzOEExQ0pyUlQzS2ZsTkhlVWFkTlp5SUswUmlIcGZJWGE0X2FNRXh0cnJvQWpZV25OQ0xpUk1wU0VfeDhWdlRQQUpWZ3RqV2RULTN4Ty1nNnctTXZlU3U3TU1WSW01cG1vWWIxNkR4M1JPNzVtT1ZVSGQxUlZsV3Y1U2tIcktxTE1oTnluc2Z1TXdsVQ?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/yemen-highest-risk-major-conflict-2022-truce-un-warns"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ca09cd5d2235",
-      "title": "Complete withdrawal of U.S. troops from Iraq by Sept. 30th",
-      "description": "The United States will complete a full withdrawal of all troops from Iraq by September 30th, Iraq's Prime Minister Ali al-Zaidi announced following a meeting with U.S. Central Command (CENTCOM) commander.",
-      "lat": 34.42,
-      "lng": 44.389999999999986,
-      "severity": 1,
-      "location": "Baghdad, Iraq",
-      "source": "OAN",
-      "url": "https://www.oann.com/newsroom/officials-confirm-complete-withdrawal-of-u-s-troops-from-iraq-by-sept-30th/",
-      "image": null,
-      "ts": 1786642978000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/newsroom/officials-confirm-complete-withdrawal-of-u-s-troops-from-iraq-by-sept-30th/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ee1ea11a7727",
-      "title": "Nero's Bridge emerges from Tiber River as Rome faces water crisis",
-      "description": "Rome's ancient Nero's Bridge has reemerged from the Tiber River as exceptionally low water levels expose parts of the historic structure.",
-      "lat": 41.9,
-      "lng": 12.46,
-      "severity": 3,
-      "location": "Rome, Italy",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/neros-bridge-emerges-tiber-river-rome-faces-water-135619391",
-      "image": "https://s.abcnews.com/images/Weird/wirestory_d42fbed89b54530bd5c381aa53a1884b_4x3_384.jpg",
-      "ts": 1786641763000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/neros-bridge-emerges-tiber-river-rome-faces-water-135619391"
-          }
-        ]
-      }
-    },
-    {
-      "id": "385fb6f41247",
-      "title": "DRC's fast-growing Ebola outbreak spreads to sixth province",
-      "description": "The Ebola outbreak in the Democratic Republic of the Congo has spread to a sixth province.",
-      "lat": 4.32,
-      "lng": 15.31,
-      "severity": 3,
-      "location": "Bas-Uele, DRC",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province",
-      "image": null,
-      "ts": 1786641481000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province"
           }
         ]
       }
