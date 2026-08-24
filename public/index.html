@@ -1882,21 +1882,42 @@ const COUNTRY_3D_MAPS={
 async function loadTopoFor(id){
   const host=document.getElementById('topo-host-'+id);
   if(!host)return;
-  // If this country has a dedicated 3D map, embed it as an iframe
+  // If this country has a dedicated 3D map, embed it as an iframe.
+  // Si controlla PRIMA che il file esista davvero: se non e' stato caricato
+  // sul repository l'iframe resterebbe un rettangolo vuoto senza spiegazioni.
   if(COUNTRY_3D_MAPS[id]){
     const src=COUNTRY_3D_MAPS[id];
-    host.style.padding='0';
-    host.style.minHeight='320px';
-    host.innerHTML=
-      `<iframe src="${src}" style="width:100%;height:320px;border:0;display:block;background:#131a17" `+
-      `allow="fullscreen" allowfullscreen loading="lazy"></iframe>`+
-      `<div style="display:flex;justify-content:space-between;align-items:center;padding:6px 10px;`+
-      `background:rgba(10,17,13,.6);border-top:1px solid var(--border);`+
-      `font-family:var(--mono);font-size:9px;color:var(--text-dim);letter-spacing:.6px">`+
-      `<span>3D DEM · drag to rotate · wheel to zoom</span>`+
-      `<a href="${src}" target="_blank" rel="noopener" `+
-      `style="color:var(--accent);text-decoration:none;letter-spacing:1px">OPEN ↗</a></div>`;
-    return;
+    let ok=false,status='';
+    try{
+      const probe=await fetch(src,{method:'HEAD'});
+      ok=probe.ok;status=probe.status;
+      // una risposta HTML e' attesa: se torna JSON o altro, il percorso e' sbagliato
+      const ct=probe.headers&&probe.headers.get?(probe.headers.get('content-type')||''):'';
+      if(ok&&ct&&ct.indexOf('html')<0&&ct.indexOf('text')<0){ok=false;status=ct}
+    }catch(err){ok=false;status=err.message||'rete'}
+    if(ok){
+      host.style.padding='0';
+      host.style.minHeight='320px';
+      host.innerHTML=
+        `<iframe src="${src}" style="width:100%;height:320px;border:0;display:block;background:#131a17" `+
+        `allow="fullscreen" allowfullscreen loading="lazy"></iframe>`+
+        `<div style="display:flex;justify-content:space-between;align-items:center;padding:6px 10px;`+
+        `background:rgba(10,17,13,.6);border-top:1px solid var(--border);`+
+        `font-family:var(--mono);font-size:9px;color:var(--text-dim);letter-spacing:.6px">`+
+        `<span>3D DEM · drag to rotate · wheel to zoom</span>`+
+        `<a href="${src}" target="_blank" rel="noopener" `+
+        `style="color:var(--accent);text-decoration:none;letter-spacing:1px">OPEN ↗</a></div>`;
+      return;
+    }
+    // File assente: lo si dice a chiare lettere e si prosegue con la mappa DEM,
+    // cosi' la sezione non resta comunque vuota.
+    console.warn('[topo3d] '+src+' non raggiungibile ('+status+') — uso la mappa DEM');
+    host.innerHTML='<div style="position:absolute;inset:0;display:flex;flex-direction:column;'+
+      'align-items:center;justify-content:center;gap:4px;color:var(--text-dim);font-size:10px;'+
+      'font-family:var(--mono);letter-spacing:.5px;text-align:center;padding:8px">'+
+      '<div style="color:#b89a4a">MAPPA 3D NON TROVATA ('+status+')</div>'+
+      '<div style="opacity:.65">'+src+'</div>'+
+      '<div style="opacity:.5">passo alla mappa a curve di livello…</div></div>';
   }
   if(!window.GEOINT_TOPO){
     host.innerHTML='<div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--red);font-size:11px;letter-spacing:.2px;font-family:var(--sans)">Topo module not loaded</div>';
