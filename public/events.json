@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-25T10:46:09.883588+00:00",
+  "updated": "2026-08-25T11:38:14.763367+00:00",
   "events": [
+    {
+      "id": "a29cca45b8b9",
+      "title": "Sudanese Opposition rejects Burhan’s national dialogue — A major gathering of Sudanese political forces and civil society groups opposed to the war has ended in Addis Ababa, Ethiopia.",
+      "description": "Opposition groups in Sudan rejected the national dialogue proposed by General Burhan, meeting in Addis Ababa to voice their dissent.",
+      "lat": 9.03,
+      "lng": 38.74,
+      "severity": 3,
+      "location": "Addis Ababa, Ethiopia",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/08/25/sudanese-opposition-rejects-burhans-national-dialogue/",
+      "image": "http://images.euronews.com/articles/stories/09/88/77/44/640x360_cmsv2_a949b6e0-44ac-5a91-936d-30f6a8657c92-9887744.jpg?1787649477",
+      "ts": 1787655522000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/25/sudanese-opposition-rejects-burhans-national-dialogue/"
+          }
+        ]
+      }
+    },
     {
       "id": "d5fb413f4f47",
       "title": "Putin issues decree opening door to state control of key sites after drone strikes",
@@ -31,6 +64,39 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/putin-issues-decree-opening-door-state-control-key-135928331"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e92e3841bbf1",
+      "title": "Israel systematically levels 'entire neighborhoods' in S. Lebanon — U.N. peacekeepers continue to report 'extensive destruction' of civilian infrastructure across southern Lebanon, as the region faces",
+      "description": "Israeli forces have carried out large‑scale bombardments that destroyed multiple neighborhoods in southern Lebanon.",
+      "lat": 33.27,
+      "lng": 35.2,
+      "severity": 3,
+      "location": "Tyre, Lebanon",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/world/mid-east/israel-systematically-levels-entire-neighborhoods-in-s-lebanon",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/08/25/457525.jpg",
+      "ts": 1787653200000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/israel-systematically-levels-entire-neighborhoods-in-s-lebanon"
           }
         ]
       }
@@ -763,6 +829,49 @@
             "n": "Breitbart",
             "b": "right",
             "u": "https://www.breitbart.com/politics/2026/08/24/exclusive-north-macedonia-prime-minister-hristijan-mickoski-we-strongly-support-president-trump-united-states/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d0bb3af6d132",
+      "title": "Canada Will Announce Retaliatory Tariffs Against The United States On Tuesday: AP — Canada will announce retaliatory tariffs against the United States on Tuesday, an official familiar with the plans t",
+      "description": "Canada announced it will impose retaliatory tariffs on U.S. goods in response to American trade measures.",
+      "lat": 40.0,
+      "lng": -75.1348,
+      "severity": 3,
+      "location": "Washington, DC, United States",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/canada-retailatory-tariffs-report_n_6a8cca28e4b004726c0a0874",
+      "image": null,
+      "ts": 1787612388000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 1,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/canada-retailatory-tariffs-report_n_6a8cca28e4b004726c0a0874"
+          },
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/08/24/-we-don-t-need-canada-trump-escalates-trade-war-with-threat-of-50-auto-tariffs/"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/us-escalated-trade-war-canada-unveiled-more-sanctions-against-iran-stocks-were-mixed-3806745"
           }
         ]
       }
@@ -1717,11 +1826,11 @@
     },
     {
       "id": "b22980f354ec",
-      "title": "Japanese lawmakers travel to Beijing, seeking to mend ties after fallout",
-      "description": "A delegation of Japanese parliamentarians visited Beijing to restore relations after diplomatic friction over Taiwan remarks.",
+      "title": "Japanese lawmakers travel to Beijing, seeking to mend ties after fallout — Lawmakers from Japan have traveled to Beijing to meet with Chinese officials in the first visit since tensions rose after Pri",
+      "description": "A delegation of Japanese parliamentarians visited Beijing for talks aimed at normalising bilateral relations.",
       "lat": 39.91,
       "lng": 116.4,
-      "severity": 2,
+      "severity": 1,
       "location": "Beijing, China",
       "source": "ABC News International",
       "url": "https://abcnews.com/International/wireStory/japanese-lawmakers-travel-beijing-seeking-mend-ties-after-135894865",
@@ -1730,20 +1839,25 @@
       "coverage": {
         "left": 1,
         "center": 0,
-        "right": 0,
-        "total": 1,
+        "right": 1,
+        "total": 2,
         "buckets": {
           "left": 0,
           "lean_left": 1,
           "center": 0,
           "lean_right": 0,
-          "right": 0
+          "right": 1
         },
         "sources": [
           {
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/japanese-lawmakers-travel-beijing-seeking-mend-ties-after-135894865"
+          },
+          {
+            "n": "Global Times",
+            "b": "right",
+            "u": "https://www.globaltimes.cn/page/202606/1363326.shtml"
           }
         ]
       }
@@ -7339,105 +7453,6 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/08/14/unprecedented-rainfall-in-japan-leaves-at-least-four-dead-in-chiba-prefecture/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "bdc75871d274",
-      "title": "Iran continues US talks through intermediaries",
-      "description": "Iran continues US talks through intermediaries, ambassador says",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "TASS",
-      "url": "https://tass.com/world/2172693",
-      "image": null,
-      "ts": 1786692255000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2172693"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8ee8efce961e",
-      "title": "Tunnel collapses at an Indian hydropower project, killing at least 7",
-      "description": "An under-construction tunnel has collapsed at a hydropower project in India’s northern hill state of Uttarakhand, leaving at least seven workers dead.",
-      "lat": 29.37,
-      "lng": 79.43,
-      "severity": 4,
-      "location": "Uttarakhand, India",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/tunnel-collapses-indian-hydropower-project-killing-7-135633384",
-      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
-      "ts": 1786690174000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/tunnel-collapses-indian-hydropower-project-killing-7-135633384"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c8225fc394cc",
-      "title": "Iran-backed Houthis clash with Yemeni forces",
-      "description": "Clashes between Iran-backed Houthi rebels and government forces in Yemen raged overnight",
-      "lat": 15.35,
-      "lng": 44.19,
-      "severity": 3,
-      "location": "Sanaa, Yemen",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/iran-backed-houthis-clash-yemeni-forces-mideast-developments-135605001",
-      "image": "https://s.abcnews.com/images/International/wirestory_42eb6af678a8f16d3a2cb14bd7918a12_4x3_384.jpg",
-      "ts": 1786689219000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/iran-backed-houthis-clash-yemeni-forces-mideast-developments-135605001"
           }
         ]
       }
