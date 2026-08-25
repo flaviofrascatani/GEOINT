@@ -1,7 +1,126 @@
 {
   "schema": 1,
-  "updated": "2026-08-25T23:34:12.023320+00:00",
+  "updated": "2026-08-25T23:56:40.343451+00:00",
   "events": [
+    {
+      "id": "bd3551c85690",
+      "title": "CIA Director John Ratcliffe on secret trip in Russia – US C‑17 lands in Moscow",
+      "description": "A U.S. Air Force C‑17 Globemaster III touched down at Vnukovo airport in Moscow, accompanied by a diplomatic motorcade, marking an unusual U.S. presence in Russia.",
+      "lat": 54.6374,
+      "lng": 37.829999999999984,
+      "severity": 3,
+      "location": "Moscow, Russia",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/cia-director-john-ratcliffe-russia-secret-trip/",
+      "image": null,
+      "ts": 1787701524000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 1,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 3,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/cia-director-john-ratcliffe-russia-secret-trip/"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/cia-director-ratcliffe-unexpectedly-traveled-moscow-meetings-report-3806773"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/international/article-906551"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdnd5N1Bjd1VhMVRidmJudVNJNXJHSFZrb1RtejBKY04yRU9jN1ZqSnRfVGVpbzhYdXZzVU50M211TkxyMGJoMHJOaklmTXI3ZGhwaXVvdmROTE9ka2U1RWI2RDN4aW5abVZIXy1yM19vQVZ6dElCdlhYY1JIWURSNTd3?oc=5"
+          },
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/sciencetech/article-16078329/us-air-force-jet-moscow-landing.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+          }
+        ]
+      }
+    },
+    {
+      "id": "561fca936404",
+      "title": "US begins returning staff to Middle East diplomatic missions",
+      "description": "The United States started sending personnel back to several embassies in the region that were evacuated during heightened tensions with Iran.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3365259/us-starts-returning-staff-middle-east-missions-after-iran-war-evacuations-sources-say?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/26/1d6349de-eb59-43a5-9e2c-ad02ddc81264_75072f7a.jpg?itok=OHJ0GpHq&v=1787699806",
+      "ts": 1787699917000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/middle-east/article/3365259/us-starts-returning-staff-middle-east-missions-after-iran-war-evacuations-sources-say?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "59ed4c377594",
+      "title": "Saudi Arabia to fund $7 billion Dragon Ball Z theme park in France",
+      "description": "The Saudi Public Investment Fund-backed Qiddiya will finance a massive entertainment complex in France based on the Dragon Ball franchise.",
+      "lat": 48.86,
+      "lng": 2.35,
+      "severity": 2,
+      "location": "Paris, France",
+      "source": "IBTimes",
+      "url": "https://www.ibtimes.com/saudi-arabia-goes-big-dragon-ball-z-7-billion-theme-park-deal-wil-built-france-3806775",
+      "image": null,
+      "ts": 1787698381000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/saudi-arabia-goes-big-dragon-ball-z-7-billion-theme-park-deal-wil-built-france-3806775"
+          }
+        ]
+      }
+    },
     {
       "id": "e6873885b51b",
       "title": "Israel removes Netherlands representatives from Gaza center following settlement goods ban",
@@ -147,6 +266,44 @@
             "n": "Financial Times World",
             "b": "center",
             "u": "https://www.ft.com/content/0909f58d-ccfd-4da6-add2-d8b9f420b4c7?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f42ca1d8f7b4",
+      "title": "Rubio says U.S. shifting from strikes to sanctions on Iran",
+      "description": "Senator Marco Rubio told allies that Washington is moving away from military action toward expanded economic sanctions against Tehran.",
+      "lat": 38.9,
+      "lng": -77.04,
+      "severity": 2,
+      "location": "Washington, DC, USA",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ncnpsVHhadTQwc3Z0ZGlDX0RIZ0dOY3U2WWtyYU93TDcycXY2eW9POHFCcEpna0h2Y1MyZlM2MnNkVVpBelB3QVFuUDF6U3NiRlNXNG1NT0d6ZVFpYm95QnBLNnREWDFjYVE?oc=5",
+      "image": null,
+      "ts": 1787693540000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/08/25/rubio-iran-war-hormuz-oil"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ncnpsVHhadTQwc3Z0ZGlDX0RIZ0dOY3U2WWtyYU93TDcycXY2eW9POHFCcEpna0h2Y1MyZlM2MnNkVVpBelB3QVFuUDF6U3NiRlNXNG1NT0d6ZVFpYm95QnBLNnREWDFjYVE?oc=5"
           }
         ]
       }
@@ -504,6 +661,39 @@
             "n": "OAN",
             "b": "right",
             "u": "https://www.oann.com/newsroom/trump-strait-of-hormuz-clear-of-mines-warns-iran-of-zero-tolerance-policy-for-placement-of-more-explosives/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7091acd88037",
+      "title": "Israel seizes UN facility in East Jerusalem and vows to close it",
+      "description": "Israeli authorities took control of a United Nations building in East Jerusalem, announcing plans to shut it down permanently.",
+      "lat": 31.78,
+      "lng": 35.22,
+      "severity": 3,
+      "location": "East Jerusalem, Israel/Palestine",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/israel-seizes-un-facility-in-east-jerusalem-and-vows-to-close-it-down-13577053",
+      "image": "https://e3.365dm.com/26/08/1920x1080/skynews-qalandia-refugee-camp_7331088.jpg?20260825180806",
+      "ts": 1787680620000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/israel-seizes-un-facility-in-east-jerusalem-and-vows-to-close-it-down-13577053"
           }
         ]
       }
@@ -7343,201 +7533,6 @@
             "n": "NDTV World",
             "b": "lean_left",
             "u": "https://www.ndtv.com/world-news/5-years-of-taliban-rule-in-afghanistan-what-has-changed-11912555#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2292a03f1e46",
-      "title": "Indonesia earthquake",
-      "description": "A powerful 7.7-magnitude earthquake has struck Indonesia, with buildings and homes collapsing, and at least two people have died.",
-      "lat": 8.3,
-      "lng": 121.7,
-      "severity": 4,
-      "location": "Flores island, Indonesia",
-      "source": "Sky News World",
-      "url": "https://news.sky.com/story/indonesia-powerful-77-magnitude-earthquake-damage-13573197",
-      "image": "https://e3.365dm.com/26/08/1920x1080/skynews-indonesia-earthquake_7322112.jpg?20260815031232",
-      "ts": 1786758840000,
-      "coverage": {
-        "left": 2,
-        "center": 2,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/magnitude-77-earthquake-strikes-off-coast-indonesia-usgs-135659935"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/15/08-15-2026-indonesia-quake-sv-mp4?traffic_source=rss"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/indonesia-powerful-77-magnitude-earthquake-damage-13573197"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/indonesia-strong-earthquake-hits-off-coast-of-flores-island/a-78377990?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "69f943ea2211",
-      "title": "Japan Defense Minister visits Yasukuni shrine",
-      "description": "Japan's defense minister visited a shrine seen by Japan's neighbors as a symbol of its wartime militarism, drawing condemnation from China.",
-      "lat": 36.79,
-      "lng": 141.60519999999997,
-      "severity": 3,
-      "location": "Tokyo, Japan",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-15/japan-defense-minister-visits-yasukuni-as-china-tensions-simmer",
-      "image": null,
-      "ts": 1786754842000,
-      "coverage": {
-        "left": 0,
-        "center": 4,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 4,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-15/japan-defense-minister-visits-yasukuni-as-china-tensions-simmer"
-          },
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/08/15/japan/politics/japan-takaichi-koizumi-yasukuni/"
-          },
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20260815001151315"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/japan-defence-minister-visits-contentious-yasukuni-shrine-to-war-dead"
-          }
-        ]
-      }
-    },
-    {
-      "id": "239a52389420",
-      "title": "Iran defiant on strait",
-      "description": "Iran called on the US to accept defeat while President Donald Trump blasted Iran as 'evil' and urged Americans to accept high gas prices.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/08/iran-defiant-strait-trump-tells-americans-accept-high-gas-prices",
-      "image": null,
-      "ts": 1786754790000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/iran-defiant-strait-trump-tells-americans-accept-high-gas-prices"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2bff606ee93a",
-      "title": "Venezuela opposition celebrates prisoner releases",
-      "description": "The representative of the opposition, Figuera, celebrates the releases and demands the liberation of all political prisoners.",
-      "lat": 10.48,
-      "lng": -66.88,
-      "severity": 2,
-      "location": "Caracas, Venezuela",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/15/venezuela-figuera-celebra-le-scarcerazioni-e-chiede-la-liberazione-di-tutti_954d5c6d-2e83-4c31-a7e6-3a053b9387f2.html",
-      "image": null,
-      "ts": 1786754279000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/15/venezuela-figuera-celebra-le-scarcerazioni-e-chiede-la-liberazione-di-tutti_954d5c6d-2e83-4c31-a7e6-3a053b9387f2.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c0a60cf70f0b",
-      "title": "Venezuela opposition celebrates releases and demands full freedom for all",
-      "description": "La rappresentante dell'opposizione, 'ogni prigioniero politico merita la libertà piena'",
-      "lat": 10.48,
-      "lng": -66.88,
-      "severity": 2,
-      "location": "Caracas, Venezuela",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/15/venezuela-figuera-celebra-le-scarcerazioni-e-chiede-la-liberazione-di-tutti_954d5c6d-2e83-4c31-a7e6-3a053b9387f2.html",
-      "image": null,
-      "ts": 1786754279000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/15/venezuela-figuera-celebra-le-scarcerazioni-e-chiede-la-liberazione-di-tutti_954d5c6d-2e83-4c31-a7e6-3a053b9387f2.html"
           }
         ]
       }
