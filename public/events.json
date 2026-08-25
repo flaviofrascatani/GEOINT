@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-25T18:54:08.372107+00:00",
+  "updated": "2026-08-25T19:41:21.530183+00:00",
   "events": [
+    {
+      "id": "729f1d26316d",
+      "title": "Syrian Kurdish leader announces SDF dissolution after integration into army",
+      "description": "Mazloum Abdi declared the Syrian Democratic Forces will be dissolved and its fighters merged into the Syrian army.",
+      "lat": 33.51,
+      "lng": 36.28,
+      "severity": 3,
+      "location": "Damascus, Syria",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20260825-syrian-kurdish-leader-dissolves-force-that-spearheaded-jihadist-fight",
+      "image": "https://s.france24.com/media/display/4fd5df24-9cd8-11f1-b755-005056a90284/w:1024/p:16x9/1bcd16013745a91828d87da7a5826951d0aaf12a.jpg",
+      "ts": 1787683749000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20260825-syrian-kurdish-leader-dissolves-force-that-spearheaded-jihadist-fight"
+          }
+        ]
+      }
+    },
     {
       "id": "ea977f622d2f",
       "title": "Syria’s economy poised for improvement after US sanctions removal",
@@ -31,6 +64,39 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/news/2026/8/25/syrias-economy-poised-for-improvement-after-us-sanctions-removal?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6e27c09ef289",
+      "title": "Iran says it's ready for new U.S. sanctions, has 2-year plan",
+      "description": "Iran's economy minister said Tehran has prepared a two‑year strategy to counter the latest U.S. sanctions, calling them the \"greatest financial offensive\".",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-sanctions-strait-of-hormuz/",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c1b2/live/2001ff40-a047-11f1-a291-b542ee92de7c.jpg",
+      "ts": 1787681441000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-sanctions-strait-of-hormuz/"
           }
         ]
       }
@@ -613,6 +679,39 @@
             "n": "Washington Examiner",
             "b": "right",
             "u": "https://www.washingtonexaminer.com/news/world/4699324/canada-retaliates-trump-tariffs/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6430ca67e8c7",
+      "title": "China, India hold border talks, agree to continue search for boundary settlement",
+      "description": "The two nuclear powers met to discuss their disputed Himalayan border and pledged to keep working toward a settlement.",
+      "lat": 27.7,
+      "lng": 85.33,
+      "severity": 2,
+      "location": "Kathmandu, Nepal",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/china-india-hold-border-talks-agree-to-continue-search-for-boundary-settlement",
+      "image": null,
+      "ts": 1787672929000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/china-india-hold-border-talks-agree-to-continue-search-for-boundary-settlement"
           }
         ]
       }
@@ -1330,39 +1429,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/mid-east/pakistan-claims-making-significant-progress-in-talks-on-iran-war"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6e27c09ef289",
-      "title": "Iran says it is fully prepared to counter widened US economic sanctions",
-      "description": "Iran’s economy minister says Tehran has a two‑year plan to counter the new U.S. sanctions described as an “economic D‑Day”.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 3,
-      "location": "Tehran, Iran",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c1b2/live/2001ff40-a047-11f1-a291-b542ee92de7c.jpg",
-      "ts": 1787645306000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC Business",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
@@ -7452,72 +7518,6 @@
             "n": "Washington Examiner",
             "b": "right",
             "u": "https://www.washingtonexaminer.com/policy/infrastructure/4688168/trump-says-soon-would-declare-strait-of-hormuz-united-states-territory-prices/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f2dc407bba17",
-      "title": "US to use economic tactics on Iran",
-      "description": "The Trump administration is ratcheting up rhetorical pressure on Iran as the military conflict in Iran appears mired in a strategic stalemate",
-      "lat": 36.79,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/08/14/us-iran-war-trump-hormuz-carrier-abraham-lincoln-george-washington.html",
-      "image": null,
-      "ts": 1786740461000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/14/us-iran-war-trump-hormuz-carrier-abraham-lincoln-george-washington.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0fd0dd18288b",
-      "title": "Central African Republic: Muslims return as Sibut rebuilds",
-      "description": "Years after civil war drove many Muslims from Sibut, the call to prayer is echoing again from the town’s rebuilt central mosque.",
-      "lat": 5.74,
-      "lng": 19.07,
-      "severity": 1,
-      "location": "Sibut, Central African Republic",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/08/14/central-african-republic-muslims-return-as-sibut-rebuilds/",
-      "image": "http://images.euronews.com/articles/stories/09/87/51/52/640x360_cmsv2_65b3563d-d689-5c9e-a330-25cb5c11cd47-9875152.jpg?1786732504",
-      "ts": 1786739026000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/14/central-african-republic-muslims-return-as-sibut-rebuilds/"
           }
         ]
       }
