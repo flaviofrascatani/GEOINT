@@ -1,19 +1,85 @@
 {
   "schema": 1,
-  "updated": "2026-08-25T15:55:24.323286+00:00",
+  "updated": "2026-08-25T16:51:47.830261+00:00",
   "events": [
     {
-      "id": "d0bb3af6d132",
-      "title": "Canada announces retaliatory tariffs as US trade war escalates",
-      "description": "Canada unveiled tariffs of up to 50 % on a range of US goods in response to new American duties, heightening the trade dispute.",
-      "lat": 40.0,
-      "lng": -75.1348,
-      "severity": 2,
-      "location": "Washington, DC, United States",
+      "id": "bab6cced1ea0",
+      "title": "Western partners support Ukraine with new aid and peace plan",
+      "description": "Western allies pledged additional military aid and a joint peace plan for Ukraine on its independence day.",
+      "lat": 50.45,
+      "lng": 30.52,
+      "severity": 1,
+      "location": "Kyiv, Ukraine",
       "source": "Die Welt",
-      "url": "https://www.welt.de/politik/ausland/article6a8db711511d4fd3bc4e39ff/handelsstreit-kanada-gibt-vergeltungszoelle-von-bis-zu-50-prozent-auf-us-waren-bekannt.html",
+      "url": "https://www.welt.de/politik/ausland/video6a8d9111e998204a5d80b8c5/krieg-gegen-russland-westliche-partner-unterstuetzen-ukraine-mit-neuen-hilfen-und-friedensplan.html",
+      "image": "https://images.welt.de/6a8d9111e998204a5d80b8c5/8f8464370c56dc078b1d44fc993053ab-master/ci16x9-w1200/dpa-com-260825-935-1564848-jpg",
+      "ts": 1787676028000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Die Welt",
+            "b": "lean_right",
+            "u": "https://www.welt.de/politik/ausland/video6a8d9111e998204a5d80b8c5/krieg-gegen-russland-westliche-partner-unterstuetzen-ukraine-mit-neuen-hilfen-und-friedensplan.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f36bafd79457",
+      "title": "Türkiye seeks peace, justice across region, Erdoğan says",
+      "description": "President Recep Tayyip Erdoğan declared that Turkey is working to establish peace, justice and security throughout the region.",
+      "lat": 41.03,
+      "lng": 32.860000000000014,
+      "severity": 1,
+      "location": "Ankara, Turkey",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/politics/turkiye-seeks-peace-justice-across-region-erdogan-says/news",
       "image": null,
-      "ts": 1787673007000,
+      "ts": 1787675700000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/politics/turkiye-seeks-peace-justice-across-region-erdogan-says/news"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6c3db3c42687",
+      "title": "Madrid declares Ceuta a “national security interest”",
+      "description": "Spain has declared the enclave of Ceuta a national security interest amid tens of thousands of illegal crossings from Morocco.",
+      "lat": 35.89,
+      "lng": -5.32,
+      "severity": 3,
+      "location": "Ceuta, Spain",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/08/25/madrid-declares-ceuta-a-national-security-interest/",
+      "image": "http://images.euronews.com/articles/stories/09/88/83/98/640x360_cmsv2_86e5d913-4eb7-543b-89ab-9a3f13923ad4-9888398.jpg?1787669692",
+      "ts": 1787675004000,
       "coverage": {
         "left": 0,
         "center": 1,
@@ -28,9 +94,188 @@
         },
         "sources": [
           {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/25/madrid-declares-ceuta-a-national-security-interest/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "089cde7bbb54",
+      "title": "Monsignor Gallagher asks Russia to end war in Ukraine",
+      "description": "Il segretario vaticano per i Rapporti con gli Stati e le Organizzazioni internazionali, monsignor Paul Richard Gallagher, ha chiesto alla Russia di porre fine alla guerra in Ucraina.",
+      "lat": 55.75,
+      "lng": 37.620000000000005,
+      "severity": 1,
+      "location": "Moscow, Russia",
+      "source": "AGI Estero",
+      "url": "https://www.agi.it/estero/news/2026-08-25/gallagher-a-lavrov-mosca-fermi-guerra-38698019/",
+      "image": "https://images.agi.it/pictures/agi/agi/2026/08/25/160922585-1c0158bc-359e-4901-9d07-07ca43cc183f.jpg",
+      "ts": 1787674877000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "AGI Estero",
+            "b": "center",
+            "u": "https://www.agi.it/estero/news/2026-08-25/gallagher-a-lavrov-mosca-fermi-guerra-38698019/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d0bb3af6d132",
+      "title": "Canada matches Trump tariffs with 50% tax on US steel, furniture, dairy",
+      "description": "Prime Minister Mark Carney announced retaliatory tariffs of up to 50% on a range of US goods in response to President Trump’s trade measures.",
+      "lat": 40.0,
+      "lng": -75.1348,
+      "severity": 4,
+      "location": "Washington, DC, United States",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-25/canada-s-carney-matches-trump-tariffs-with-50-tax-on-us-steel-furniture-dairy",
+      "image": null,
+      "ts": 1787673007000,
+      "coverage": {
+        "left": 4,
+        "center": 5,
+        "right": 2,
+        "total": 11,
+        "buckets": {
+          "left": 1,
+          "lean_left": 3,
+          "center": 5,
+          "lean_right": 0,
+          "right": 2
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/trump-carney-trade-war-tariffs_n_6a8c4edce4b07583705ac198"
+          },
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/08/24/trumps-trade-war-with-canada-has-carney-facing-his-biggest-test-yet/"
+          },
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/business/consumer/canada-retaliates-against-trump-tariffs-rcna594280"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/trump-wants-to-rename-lake-ontario-lake-america-amid-trade-war-with-canada-11957871#publisher=newsstand"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/08/25/trump-french-language-canada-lake-ontario"
+          },
+          {
             "n": "Financial Times World",
             "b": "center",
-            "u": "https://www.ft.com/content/7ced71c2-03b8-4569-a68d-14624a7e83f2?syn-25a6b1a6=1"
+            "u": "https://www.ft.com/content/3b7ac1fe-4761-4b4a-8fff-95c8c28566b9?syn-25a6b1a6=1"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/americas/20260825-canada-strikes-back-trump-with-retaliatory-tariffs-us-trade-war-escalates"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNakZzdURoeWVCRFVRUVotX3NidXdfX1h3YUU1WVF2RUlIRy02dzRsQ1V5ZTRTUW5tekR5Q1Y5LXVKNWRZMmVoLWxYTzNEUGRjeFlZY2s2NFR4aVVrSElJLW5Wd2QzUGRoOTd6RE5tMlZfWi1Ba2Zvbkw0ZmU3elZfLURSbl82Y29sUU9zSUluY0pVM1I4VWRN?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-25/canada-s-carney-matches-trump-tariffs-with-50-tax-on-us-steel-furniture-dairy"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/trump-teases-renaming-lake-ontario-to-lake-america-amid-u-s-canada-trade-war/"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4699324/canada-retaliates-trump-tariffs/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "abe1972d357b",
+      "title": "Trump says Strait of Hormuz has been demined",
+      "description": "U.S. President Donald Trump announced that all mines have been removed from the international waters of the Strait of Hormuz.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 2,
+      "location": "Strait of Hormuz",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/trump-says-strait-hormuz-has-been-demined-warns-iran-not-plant-more",
+      "image": null,
+      "ts": 1787672800000,
+      "coverage": {
+        "left": 0,
+        "center": 4,
+        "right": 3,
+        "total": 7,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 4,
+          "lean_right": 2,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/08/25/hormuz-mines-remove-oil-iran-trump"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20260825-mideast-live-oil-tanker-struck-by-projectile-in-strait-of-hormuz-off-oman"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/trump-says-strait-hormuz-has-been-demined-warns-iran-not-plant-more"
+          },
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20260826000200315"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2177551"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/americas/trump-says-all-mines-cleared-from-strait-of-hormuz-waters"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4699306/strait-of-hormuz-cleared-of-all-iranian-mines-trump-new-one-destroyed-space-force/"
           }
         ]
       }
@@ -391,6 +636,59 @@
       }
     },
     {
+      "id": "d24dc03d0633",
+      "title": "China hits out at ‘illegal’ new US sanctions on Iran and trading partners",
+      "description": "Beijing criticises the United States for imposing sanctions on Iran and countries that continue to trade with Tehran.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss",
+      "image": null,
+      "ts": 1787658816000,
+      "coverage": {
+        "left": 1,
+        "center": 4,
+        "right": 0,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 4,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/iran-war-us-sanctions-china/"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ZRzVaNkNpTzdlV2Y2TE5LOTEwbXVlOXd2LXdKejI1OGp2eXlGM3JOZlNaQjk5U1RlSXFKc0dETVk3Uy16MDV0LWIwdmpUdTZla09FdS1NRjR3TlFEOWZ0eXVuV0lRa0FSbDhvaWtLYlYxSnlrSGpEUkd1SzVsdw?oc=5"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CVnVRWFBpZ0Q3QVhFRjVhTkl5cC1jUldYUnVvdW96NnEzcGhrT0o1M2Vhd1RBd1lucUN6dmltSDZjdVdxd1BuMUVWRnVNMno3VThkd3ktanpkQQ?oc=5"
+          },
+          {
+            "n": "Times of India World",
+            "b": "center",
+            "u": "https://timesofindia.indiatimes.com/world/china/china-warns-us-of-retaliation-if-trumps-economic-d-day-sanctions-hit-their-iran-oil-trade/articleshow/133518296.cms"
+          }
+        ]
+      }
+    },
+    {
       "id": "56e8061370c7",
       "title": "S. Korea, Kuwait discuss cooperation on energy, infrastructure — SEOUL, Aug. 25 (Yonhap) -- Foreign Minister Cho Hyun and his Kuwaiti counterpart...",
       "description": "South Korean and Kuwaiti foreign ministers met in Seoul to explore joint projects in energy and infrastructure.",
@@ -643,16 +941,16 @@
     },
     {
       "id": "6e27c09ef289",
-      "title": "Iran says it is 'fully prepared' to counter widened US economic sanctions",
-      "description": "Tehran announced it has a two‑year plan to withstand the United States’ expanded sanctions regime.",
+      "title": "Iran says it is fully prepared to counter widened US economic sanctions",
+      "description": "Iran’s economy minister says Tehran has a two‑year plan to counter the new U.S. sanctions described as an “economic D‑Day”.",
       "lat": 35.69,
       "lng": 51.389999999999986,
-      "severity": 2,
+      "severity": 3,
       "location": "Tehran, Iran",
-      "source": "BBC World",
+      "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c1b2/live/2001ff40-a047-11f1-a291-b542ee92de7c.jpg",
-      "ts": 1787640886000,
+      "ts": 1787645306000,
       "coverage": {
         "left": 0,
         "center": 1,
@@ -667,7 +965,7 @@
         },
         "sources": [
           {
-            "n": "BBC World",
+            "n": "BBC Business",
             "b": "center",
             "u": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss"
           }
@@ -1966,64 +2264,6 @@
             "n": "The Hindu International",
             "b": "lean_left",
             "u": "https://www.thehindu.com/news/international/us-treasury-chief-vows-to-cut-every-economic-lifeline-of-iran/article71386161.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d24dc03d0633",
-      "title": "Trump admin unveils anti‑Iran global sanctions plan, signals China not exempt",
-      "description": "The administration announced a plan to isolate Iran’s economy with secondary sanctions, including measures against Chinese entities.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/08/24/trump-iran-economy-sanctions-china-bessent.html",
-      "image": null,
-      "ts": 1787596356000,
-      "coverage": {
-        "left": 2,
-        "center": 3,
-        "right": 1,
-        "total": 6,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 3,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/business/economy/bessent-iran-sanctions-d-day-rcna594103"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/fully-prepared-iran-threatens-retaliation-after-us-widens-sanctions-11954342#publisher=newsstand"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/24/trump-iran-economy-sanctions-china-bessent.html"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTzhCNHl5dWJ2ODQyMjBRX2V1RUUtQnlQY0xrVmtEOFRwTEk0VlMwNmFyUkI5NFlvd2pFdEpORFQ4Qi1xckNXeG1uME5JTk1tdktsSDBDNHo4ZXRTVENSY29JRWNMdkxzQzdnRm0weGFzcERCV0l2Y3pQTVkzaXZjdFBUWVQ4UdIBiwFBVV95cUxNajJTNU1wcExfNXpiUDliTFVycGlFbk9TT2tFdWdZbFdZdThxRmZob1ZsVVRycnFObFFqTHRZenVlcXdYWGlOZzVyLWZoZF8waGRYUFVVeGxvck5yS1k4WlFfRzRsZEZEMlZkSi1QYnJGd2FUa2RlcV9qSFpkN0JGQmpObFpPQmpFWTJn?oc=5"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/trump-is-trying-to-tighten-the-screws-on-an-iran-numb-to-economic-pain/"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/white-house/4698623/trump-holds-off-toughest-iran-sanctions-economic-d-day/"
           }
         ]
       }
@@ -7233,176 +7473,6 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/08/14/survivors-recount-horror-as-zimbabwe-lake-kariba-ferry-death-toll-hits-46/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "48220045a7ba",
-      "title": "Zambia elections",
-      "description": "Zambia has resumed vote counting after a nationwide suspension over election-related violence, with the Electoral Commission saying security threats have been contained.",
-      "lat": -15.4,
-      "lng": 28.28,
-      "severity": 3,
-      "location": "Lusaka, Zambia",
-      "source": "All Africa",
-      "url": "https://allafrica.com/stories/202608140407.html",
-      "image": null,
-      "ts": 1786723258000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/14/zambia-resumes-counting-after-violence-disrupts-election-process/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "74c058ecd1d2",
-      "title": "Zambia election",
-      "description": "Zambia Opposition Leader Claims Election Victory Amid Reports of Violence",
-      "lat": -15.42,
-      "lng": 28.28,
-      "severity": 3,
-      "location": "Lusaka, Zambia",
-      "source": "All Africa",
-      "url": "https://allafrica.com/stories/202608140407.html",
-      "image": null,
-      "ts": 1786723258000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "All Africa",
-            "b": "center",
-            "u": "https://allafrica.com/stories/202608140407.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "06261ff5e961",
-      "title": "Release of US missionary seized in Niger follows re-engagement with Sahel juntas",
-      "description": "With US-Sahel joint intelligence services closing in, Kevin Rideout’s abductors were looking for a way out",
-      "lat": 13.51,
-      "lng": 2.11,
-      "severity": 1,
-      "location": "Niamey, Niger",
-      "source": "The Africa Report",
-      "url": "https://www.theafricareport.com/427746/release-of-us-missionary-seized-in-niger-follows-re-engagement-with-sahel-juntas/",
-      "image": null,
-      "ts": 1786722466000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Africa Report",
-            "b": "center",
-            "u": "https://www.theafricareport.com/427746/release-of-us-missionary-seized-in-niger-follows-re-engagement-with-sahel-juntas/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ed6c32e8e95d",
-      "title": "France Wildfire Forces 520 to Evacuate",
-      "description": "A raging wildfire in France's southwestern Landes region has burned through more than 1,000 hectares, forcing 520 residents to evacuate.",
-      "lat": 44.23,
-      "lng": -0.63,
-      "severity": 3,
-      "location": "Landes, France",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/france-wildfire-forces-520-to-evacuate",
-      "image": "https://s.france24.com/media/display/9a59d8c2-97f4-11f1-9f89-005056a97e36/w:1024/p:16x9/EN-20260814-171153-171355-CS.jpg",
-      "ts": 1786721335000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/france-wildfire-forces-520-to-evacuate"
-          }
-        ]
-      }
-    },
-    {
-      "id": "67baaf0df59f",
-      "title": "USS Washington aircraft carrier heads to Middle East",
-      "description": "The USS George Washington aircraft carrier departed Vietnam last week and is headed to the Middle East to replace the USS Abraham Lincoln",
-      "lat": 11.88,
-      "lng": 106.62,
-      "severity": 2,
-      "location": "Ho Chi Minh City, Vietnam",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/aircraft-carrier-uss-george-washington-uss-lincoln-iran-middle-east/",
-      "image": null,
-      "ts": 1786715122000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/aircraft-carrier-uss-george-washington-uss-lincoln-iran-middle-east/"
-          },
-          {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/newsroom/uss-george-washington-to-relieve-uss-abraham-lincoln-in-middle-east/"
           }
         ]
       }
