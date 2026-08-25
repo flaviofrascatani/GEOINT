@@ -1,7 +1,50 @@
 {
   "schema": 1,
-  "updated": "2026-08-25T07:55:25.263365+00:00",
+  "updated": "2026-08-25T08:55:20.616709+00:00",
   "events": [
+    {
+      "id": "589aaf646978",
+      "title": "Middle East: Pakistan sees progress in US‑Iran mediation",
+      "description": "Pakistani mediators reported productive talks in Tehran aimed at de‑escalating the US‑Iran confrontation.",
+      "lat": 33.68,
+      "lng": 73.05,
+      "severity": 2,
+      "location": "Islamabad, Pakistan",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/middle-east-pakistan-sees-progress-in-us-iran-mediation/live-78492098?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1787648120534,
+      "coverage": {
+        "left": 0,
+        "center": 3,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20260825-mideast-live-oil-tanker-struck-by-projectile-in-strait-of-hormuz-off-oman"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/middle-east-pakistan-sees-progress-in-us-iran-mediation/live-78492098?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/pakistan-and-iran-made-significant-progress-talks-conflict-minister-says"
+          }
+        ]
+      }
+    },
     {
       "id": "6e27c09ef289",
       "title": "Iran says it is 'fully prepared' to counter widened US economic sanctions",
@@ -272,44 +315,6 @@
       }
     },
     {
-      "id": "589aaf646978",
-      "title": "Pakistan and Iran made 'significant progress' in talks on conflict, minister says",
-      "description": "Pakistani officials reported substantial advances in negotiations with Iran aimed at de‑escalating regional tensions.",
-      "lat": 33.68,
-      "lng": 73.05,
-      "severity": 1,
-      "location": "Islamabad, Pakistan",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/08/pakistan-and-iran-made-significant-progress-talks-conflict-minister-says",
-      "image": null,
-      "ts": 1787629588000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/iran-news/article-906482"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/pakistan-and-iran-made-significant-progress-talks-conflict-minister-says"
-          }
-        ]
-      }
-    },
-    {
       "id": "b1d401bd3fb2",
       "title": "USS Abraham Lincoln headed for port in Thailand after 250 days at sea",
       "description": "The aircraft carrier USS Abraham Lincoln arrived in Thailand for a port call after a long deployment in the Middle East.",
@@ -377,11 +382,11 @@
     },
     {
       "id": "05292c8f2df0",
-      "title": "Trump’s trade ‘war’ with Canada has Carney facing his biggest test yet",
-      "description": "Canada’s prime minister says his government will match U.S. tariffs dollar‑for‑dollar, escalating a trade dispute between the two neighbours.",
+      "title": "Trump’s trade ‘war’ with Canada has Carney facing his biggest test yet — The Canadian prime minister has said his government will match U.S. tariffs \"dollar for dollar.\"",
+      "description": "Canada’s government announced it will retaliate with equal tariffs against the United States, escalating the trade dispute.",
       "lat": 45.42,
       "lng": -75.7,
-      "severity": 3,
+      "severity": 2,
       "location": "Ottawa, Canada",
       "source": "Washington Post World",
       "url": "https://www.washingtonpost.com/world/2026/08/24/trumps-trade-war-with-canada-has-carney-facing-his-biggest-test-yet/",
@@ -389,14 +394,14 @@
       "ts": 1787620128000,
       "coverage": {
         "left": 5,
-        "center": 6,
-        "right": 1,
-        "total": 12,
+        "center": 7,
+        "right": 2,
+        "total": 14,
         "buckets": {
           "left": 1,
           "lean_left": 4,
-          "center": 6,
-          "lean_right": 0,
+          "center": 7,
+          "lean_right": 1,
           "right": 1
         },
         "sources": [
@@ -441,6 +446,11 @@
             "u": "https://www.rte.ie/news/world/2026/0825/1589083-us-canada/"
           },
           {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/canadian-politician-threatens-to-cut-off-electricity-to-the-us-in-response-to-donald-trumps-50-tariffs-13576665"
+          },
+          {
             "n": "France 24",
             "b": "center",
             "u": "https://www.france24.com/en/americas/20260825-what-to-know-about-trump-s-tariffs-on-canadian-goods-as-neigbours-spiral-into-trade-war"
@@ -454,6 +464,11 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-08-25/trump-laments-lack-of-us-aluminum-amid-trade-row-with-canada"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/644600-trump-canada-auto-tariffs/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
           },
           {
             "n": "Washington Examiner",
