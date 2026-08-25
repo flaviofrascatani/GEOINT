@@ -1,7 +1,205 @@
 {
   "schema": 1,
-  "updated": "2026-08-25T14:02:43.587430+00:00",
+  "updated": "2026-08-25T14:59:21.268906+00:00",
   "events": [
+    {
+      "id": "8c680791313e",
+      "title": "Venezuela's oil production reaches 1.2 million barrels per day",
+      "description": "Venezuela reports its highest oil output since 2019, marking a significant rise amid ongoing sanctions.",
+      "lat": 10.48,
+      "lng": -66.9,
+      "severity": 2,
+      "location": "Caracas, Venezuela",
+      "source": "ANSA Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/25/la-produzione-di-petrolio-in-venezuela-raggiunge-12-milioni-di-barili_e0ea5661-a5d5-444d-b105-178643ba6ca6.html",
+      "image": null,
+      "ts": 1787669598000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/25/la-produzione-di-petrolio-in-venezuela-raggiunge-12-milioni-di-barili_e0ea5661-a5d5-444d-b105-178643ba6ca6.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5eae244f9b6",
+      "title": "US spy chief visits Russia for meetings",
+      "description": "CIA Director John Ratcliffe travels to Moscow for discussions with Russian officials, marking the first such visit since taking office.",
+      "lat": 56.85,
+      "lng": 39.525199999999984,
+      "severity": 3,
+      "location": "Moscow, Russia",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/us-spy-chief-visits-russia-meetings-media-reports",
+      "image": null,
+      "ts": 1787669196000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/us-spy-chief-visits-russia-meetings-media-reports"
+          }
+        ]
+      }
+    },
+    {
+      "id": "550549917385",
+      "title": "Iran threatens economic retaliation against expanded US sanctions",
+      "description": "Iran vows to respond economically to the United States' broadened sanctions, warning of countermeasures.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "AGI Estero",
+      "url": "https://www.agi.it/estero/news/2026-08-25/iran-sanzioni-usa-38684287/",
+      "image": "https://images.agi.it/pictures/agi/agi/2026/08/25/050158118-3d5ca56e-95ba-493c-af45-3a8b4b6391f3.jpg",
+      "ts": 1787669179000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "AGI Estero",
+            "b": "center",
+            "u": "https://www.agi.it/estero/news/2026-08-25/iran-sanzioni-usa-38684287/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "35a0179e6e17",
+      "title": "Former Armenian President Robert Kocharyan detained in corruption investigation",
+      "description": "Armenian authorities detain former President Kocharyan and his son after raids on businesses linked to the family.",
+      "lat": 40.18,
+      "lng": 44.51,
+      "severity": 3,
+      "location": "Yerevan, Armenia",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/former-armenian-president-detained-corruption-investigation-135935790",
+      "image": "https://s.abcnews.com/images/International/wirestory_39fa75bbc3e781bce897c05a243f3168_4x3_384.jpg",
+      "ts": 1787668865000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/former-armenian-president-detained-corruption-investigation-135935790"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4c08667d731a",
+      "title": "UNRWA urges action after Israeli raid on Jerusalem training center",
+      "description": "The UN agency for Palestinian refugees calls for immediate international response following an Israeli raid on the Qalandia training center north of Jerusalem.",
+      "lat": 31.8,
+      "lng": 35.2,
+      "severity": 4,
+      "location": "Qalandia, West Bank",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/world/mid-east/unrwa-urges-action-after-israeli-raid-on-jerusalem-training-center",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/08/25/457670.jpg",
+      "ts": 1787668440000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/unrwa-urges-action-after-israeli-raid-on-jerusalem-training-center"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ac4e729d5b71",
+      "title": "WHO updates Ebola recommendations for Democratic Republic of Congo",
+      "description": "The World Health Organization issues updated temporary recommendations to member states as the Ebola outbreak continues to spread in the DRC.",
+      "lat": -2.79,
+      "lng": 16.2226,
+      "severity": 1,
+      "location": "Kinshasa, Democratic Republic of Congo",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/08/25/drc-who-updates-ebola-recommendations-for-member-states/",
+      "image": "http://static.euronews.com/articles/stories/09/46/31/48/640x360_cmsv2_506ebef1-cc65-5367-bd47-3f3263616510-9463148.jpg?1787661324",
+      "ts": 1787668078000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/25/drc-who-updates-ebola-recommendations-for-member-states/"
+          }
+        ]
+      }
+    },
     {
       "id": "7e6f10c661ab",
       "title": "Bangladesh Plans to Buy Chinese Fighters in Military Overhaul",
@@ -7215,229 +7413,6 @@
             "n": "Le Monde English",
             "b": "lean_left",
             "u": "https://www.lemonde.fr/en/france/article/2026/08/14/constitutional-council-approves-france-s-assisted-dying-law_6756508_7.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5bf9ed5e5c62",
-      "title": "Pakistan PM’s ‘red line’ warning to India over water treaty",
-      "description": "Pakistan Prime Minister Shehbaz Sharif accused India of illegally suspending the Indus Waters Treaty",
-      "lat": 34.82,
-      "lng": 74.9452,
-      "severity": 2,
-      "location": "Islamabad, Pakistan",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/14/14-08-clip-pakistan-warns-india-over-indus-pk?traffic_source=rss",
-      "image": null,
-      "ts": 1786712839000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/14/14-08-clip-pakistan-warns-india-over-indus-pk?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1115e51dc46d",
-      "title": "American missionary kidnapped in Niger released after 9 months",
-      "description": "Kevin Rideout was taken from outside his home in Niger’s capital in October, and US officials scrambled to bring him home",
-      "lat": 14.61,
-      "lng": 4.015199999999993,
-      "severity": 1,
-      "location": "Niamey, Niger",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/14/american-kevin-rideout-released-after-niger-kidnapping-missionary-group-says/",
-      "image": "https://static01.nyt.com/images/2026/08/14/multimedia/14int-niger-rideout-pfqg/14int-niger-rideout-pfqg-mediumSquareAt3X.jpg",
-      "ts": 1786712400000,
-      "coverage": {
-        "left": 4,
-        "center": 0,
-        "right": 1,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 4,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/14/world/africa/american-missionary-niger-rideout-released.html"
-          },
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/14/american-kevin-rideout-released-after-niger-kidnapping-missionary-group-says/"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/us-missionary-kidnapped-niger-released-after-9-months-135634711"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/kevin-rideout-american-missionary-kidnapped-niger-october-released/"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/crime/4687509/american-missionary-kidnapped-in-niger-free-after-military-pressure/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "78de1c7cf57f",
-      "title": "US team sent to Taiwan to train coastguards amid surge in mainland Chinese activity",
-      "description": "The United States has sent a team of coastguards to train their Taiwanese counterparts amid a surge in mainland Chinese activity.",
-      "lat": 26.13,
-      "lng": 121.55000000000001,
-      "severity": 2,
-      "location": "Taipei, Taiwan",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/china/military/article/3364096/us-team-sent-taiwan-train-coastguards-amid-surge-mainland-chinese-activity?utm_source=rss_feed",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/14/4031f163-d6d7-417e-bd52-1846ac3c37fe_b69f395a.jpg?itok=H_LZ1X0t&v=1786709302",
-      "ts": 1786709340000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/china/military/article/3364096/us-team-sent-taiwan-train-coastguards-amid-surge-mainland-chinese-activity?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e51d7b98e894",
-      "title": "Poland says it thwarted Russian assassination attempt on U.S. citizen",
-      "description": "Prime Minister Donald Tusk said it was the first time Russia attempted to assassinate a U.S. citizen on the territory of another NATO member",
-      "lat": 53.33,
-      "lng": 22.9152,
-      "severity": 3,
-      "location": "Warsaw, Poland",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/14/poland-says-it-thwarted-russian-assassination-attempt-us-citizen-warsaw/",
-      "image": null,
-      "ts": 1786708800000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/14/poland-says-it-thwarted-russian-assassination-attempt-us-citizen-warsaw/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "045f02dcfd2e",
-      "title": "U.S. to use economic tactics on Iran 'that have never been seen'",
-      "description": "The U.S. will use economic tactics on Iran that have never been seen before, including economic isolation and a continued blockade in the Strait of Hormuz.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/08/14/us-iran-war-trump-hormuz-carrier-abraham-lincoln-george-washington.html",
-      "image": null,
-      "ts": 1786708240000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/14/us-iran-war-trump-hormuz-carrier-abraham-lincoln-george-washington.html"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/us-focus-applying-economic-pressure-iran-war-drags-never-been-seen-3806402"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7a00aa0dd54c",
-      "title": "Russian drones kill a woman and 9-year-old son at home in Ukraine",
-      "description": "Russian jet-powered drones struck a home in northern Ukraine, killing a 29-year-old woman and her 9-year-old son.",
-      "lat": 45.82,
-      "lng": 37.77000000000001,
-      "severity": 4,
-      "location": "Novorossiysk, Russia",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/russian-drones-kill-woman-9-year-son-home-135634942",
-      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/russian-military.gif",
-      "ts": 1786703524000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/russian-drones-kill-woman-9-year-son-home-135634942"
           }
         ]
       }
