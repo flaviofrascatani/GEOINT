@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-08-25T21:39:03.512388+00:00",
+  "updated": "2026-08-25T22:39:55.335177+00:00",
   "events": [
     {
       "id": "e6873885b51b",
@@ -41,6 +41,39 @@
       }
     },
     {
+      "id": "c11c4613f68c",
+      "title": "Syria’s Kurds dissolve military force and integrate fighters with Damascus",
+      "description": "The Kurdish militia announced its dissolution and the integration of its fighters into the Syrian army, a step toward national unity.",
+      "lat": 33.51,
+      "lng": 36.28999999999999,
+      "severity": 1,
+      "location": "Damascus, Syria",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/0909f58d-ccfd-4da6-add2-d8b9f420b4c7?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1787694196000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/0909f58d-ccfd-4da6-add2-d8b9f420b4c7?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
+    {
       "id": "ccb25bb4f390",
       "title": "US hails YPG dissolution as 'united Syria' takes shape",
       "description": "U.S. Special Envoy for Syria welcomed the YPG's decision to dissolve, calling it a step toward a unified Syria.",
@@ -69,6 +102,39 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/mid-east/us-hails-ypg-dissolution-as-united-syria-takes-shape"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6e27c09ef289",
+      "title": "Iran says it's ready for new U.S. sanctions, has 2-year plan",
+      "description": "Iran's economy minister announced a two‑year preparation plan for anticipated U.S. sanctions, signalling readiness to withstand financial pressure.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-sanctions-strait-of-hormuz/",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c1b2/live/2001ff40-a047-11f1-a291-b542ee92de7c.jpg",
+      "ts": 1787691614000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-sanctions-strait-of-hormuz/"
           }
         ]
       }
@@ -216,34 +282,44 @@
       }
     },
     {
-      "id": "6e27c09ef289",
-      "title": "Iran says it's ready for new U.S. sanctions, has 2-year plan",
-      "description": "Iran's economy minister said Tehran has prepared a two‑year strategy to counter the latest U.S. sanctions, calling them the \"greatest financial offensive\".",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-sanctions-strait-of-hormuz/",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c1b2/live/2001ff40-a047-11f1-a291-b542ee92de7c.jpg",
-      "ts": 1787681441000,
+      "id": "86305979ac1f",
+      "title": "Trump's CIA chief John Ratcliffe makes surprise trip to Moscow for secret meeting amid grim fears for Poland",
+      "description": "A U.S. Air Force transport landed at Vnukovo Airport in Moscow for an unexpected meeting, raising diplomatic tensions.",
+      "lat": 55.75,
+      "lng": 39.525199999999984,
+      "severity": 3,
+      "location": "Moscow, Russia",
+      "source": "Daily Mail World",
+      "url": "https://www.dailymail.com/sciencetech/article-16078329/us-air-force-jet-moscow-landing.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "image": "https://images.axios.com/0TIc7BBB38SHiroe8pPxRbEPre0=/0x0:6959x3914/1366x768/2026/08/25/1787668921118.jpeg",
+      "ts": 1787681795000,
       "coverage": {
         "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
+        "center": 1,
+        "right": 1,
+        "total": 3,
         "buckets": {
           "left": 0,
           "lean_left": 1,
-          "center": 0,
+          "center": 1,
           "lean_right": 0,
-          "right": 0
+          "right": 1
         },
         "sources": [
           {
             "n": "CBS News World",
             "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-sanctions-strait-of-hormuz/"
+            "u": "https://www.cbsnews.com/news/cia-director-john-ratcliffe-russia-secret-trip/"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/cia-director-ratcliffe-unexpectedly-traveled-moscow-meetings-report-3806773"
+          },
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/sciencetech/article-16078329/us-air-force-jet-moscow-landing.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
           }
         ]
       }
@@ -950,59 +1026,6 @@
             "n": "ANSA Mondo",
             "b": "center",
             "u": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/25/la-produzione-di-petrolio-in-venezuela-raggiunge-12-milioni-di-barili_e0ea5661-a5d5-444d-b105-178643ba6ca6.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "86305979ac1f",
-      "title": "CIA Director John Ratcliffe visits Moscow for surprise meetings",
-      "description": "U.S. CIA chief made a rare trip to Moscow for talks with Russian officials, signaling a potential shift in intelligence cooperation.",
-      "lat": 55.75,
-      "lng": 39.525199999999984,
-      "severity": 2,
-      "location": "Moscow, Russia",
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/08/25/cia-director-ratcliffe-visits-moscow",
-      "image": "https://images.axios.com/0TIc7BBB38SHiroe8pPxRbEPre0=/0x0:6959x3914/1366x768/2026/08/25/1787668921118.jpeg",
-      "ts": 1787669297000,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 1,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/cia-director-john-ratcliffe-russia-secret-trip/"
-          },
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/08/25/cia-director-ratcliffe-visits-moscow"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/international/article-906551"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-25/cia-chief-ratcliffe-in-russia-for-surprise-meetings-cbs-reports"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/americas/cia-chief-ratcliffe-makes-rare-moscow-visit-for-high-level-talks"
           }
         ]
       }
@@ -7465,39 +7488,6 @@
             "n": "NDTV World",
             "b": "lean_left",
             "u": "https://www.ndtv.com/world-news/uae-says-one-of-its-oil-vessels-came-under-attack-while-transiting-strait-of-hormuz-11912250#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "378ccf872da1",
-      "title": "Apache helicopter training halted",
-      "description": "The US Army temporarily halted all Apache helicopter training missions after a fatal crash in Texas earlier this week.",
-      "lat": 29.76,
-      "lng": -95.36,
-      "severity": 3,
-      "location": "Texas, USA",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/army-temporarily-halts-apache-helicopter-training-missions-after-texas-crash-11912278#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-08/qen0n1og_us-apache-helicopter_625x300_13_August_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1786747166000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/army-temporarily-halts-apache-helicopter-training-missions-after-texas-crash-11912278#publisher=newsstand"
           }
         ]
       }
