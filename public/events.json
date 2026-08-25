@@ -1,46 +1,122 @@
 {
   "schema": 1,
-  "updated": "2026-08-25T09:48:19.426070+00:00",
+  "updated": "2026-08-25T10:46:09.883588+00:00",
   "events": [
     {
-      "id": "589aaf646978",
-      "title": "Middle East: Pakistan sees progress in US‑Iran mediation",
-      "description": "Pakistani mediators reported productive talks in Tehran aimed at de‑escalating the US‑Iran confrontation.",
-      "lat": 33.68,
-      "lng": 73.05,
-      "severity": 2,
-      "location": "Islamabad, Pakistan",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/middle-east-pakistan-sees-progress-in-us-iran-mediation/live-78492098?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1787648120534,
+      "id": "d5fb413f4f47",
+      "title": "Putin issues decree opening door to state control of key sites after drone strikes",
+      "description": "President Vladimir Putin signed a decree permitting the Russian state to temporarily take over critical infrastructure that private owners cannot protect from Ukrainian drone attacks.",
+      "lat": 56.85,
+      "lng": 37.620000000000005,
+      "severity": 3,
+      "location": "Moscow, Russia",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/putin-issues-decree-opening-door-state-control-key-135928331",
+      "image": "https://s.abcnews.com/images/International/wirestory_f2ef0ded42dfab093bd9b08a8157b931_4x3_384.jpg",
+      "ts": 1787653438000,
       "coverage": {
-        "left": 0,
-        "center": 3,
+        "left": 1,
+        "center": 0,
         "right": 0,
-        "total": 3,
+        "total": 1,
         "buckets": {
           "left": 0,
-          "lean_left": 0,
-          "center": 3,
+          "lean_left": 1,
+          "center": 0,
           "lean_right": 0,
           "right": 0
         },
         "sources": [
           {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/middle-east/20260825-mideast-live-oil-tanker-struck-by-projectile-in-strait-of-hormuz-off-oman"
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/putin-issues-decree-opening-door-state-control-key-135928331"
+          }
+        ]
+      }
+    },
+    {
+      "id": "558d77e55a7a",
+      "title": "Russia threatens to attack British factories in 'semi‑military' response to UK support for Ukraine",
+      "description": "A senior Russian adviser warned of a more aggressive, semi‑military retaliation against the United Kingdom for its backing of Ukraine.",
+      "lat": 53.2,
+      "lng": 50.1,
+      "severity": 2,
+      "location": "Samara, Russia",
+      "source": "Daily Mail World",
+      "url": "https://www.dailymail.com/news/article-16077693/Russia-threatens-attack-British-factories-semi-military-response-UK-support-Ukraine-Putin-warns-Pandoras-box-opened.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
+      "ts": 1787653188000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/russia-kills-16-absolutely-cynical-despicable-double-tap-attack-ukraine-mall_n_6a89efb4e4b0832f43174eb3"
           },
           {
-            "n": "DW News",
+            "n": "CNBC World",
             "b": "center",
-            "u": "https://www.dw.com/en/middle-east-pakistan-sees-progress-in-us-iran-mediation/live-78492098?maca=en-rss-en-all-1573-rdf"
+            "u": "https://www.cnbc.com/2026/08/25/ukraine-war-russia-ozon-wildberries-economy.html"
+          },
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/news/article-16077693/Russia-threatens-attack-British-factories-semi-military-response-UK-support-Ukraine-Putin-warns-Pandoras-box-opened.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+          }
+        ]
+      }
+    },
+    {
+      "id": "589aaf646978",
+      "title": "Pakistan claims making 'significant progress' in talks on Iran war",
+      "description": "Pakistan’s interior minister said Islamabad and Tehran have achieved significant progress in discussions aimed at de‑escalating the Iran‑Israel conflict.",
+      "lat": 33.68,
+      "lng": 73.05,
+      "severity": 1,
+      "location": "Islamabad, Pakistan",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/world/mid-east/pakistan-claims-making-significant-progress-in-talks-on-iran-war",
+      "image": null,
+      "ts": 1787648120534,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/25/can-pakistans-asim-munir-convince-iran-military-chiefs-to-return-to-talks?traffic_source=rss"
           },
           {
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/08/pakistan-and-iran-made-significant-progress-talks-conflict-minister-says"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/pakistan-claims-making-significant-progress-in-talks-on-iran-war"
           }
         ]
       }
@@ -5075,49 +5151,6 @@
       }
     },
     {
-      "id": "558d77e55a7a",
-      "title": "Ukraine attacks Russia's Samara industrial site",
-      "description": "Ukraine has launched a large-scale attack on industrial infrastructure in Russia's southwestern Samara region",
-      "lat": 53.2,
-      "lng": 50.1,
-      "severity": 4,
-      "location": "Samara, Russia",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/ukraine-attacks-russias-samara-industrial-site-kyiv-ramps-135669121",
-      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
-      "ts": 1786795664000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/ukraine-attacks-russias-samara-industrial-site-kyiv-ramps-135669121"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/europe/20260815-ukraine-attacks-russian-air-base-and-rocket-plant-in-samara-region"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-15/zelenskyy-says-ukraine-strikes-russian-space-facility-in-samara"
-          }
-        ]
-      }
-    },
-    {
       "id": "38f410c62e84",
       "title": "Taliban marks 5 years in power",
       "description": "Taliban leaders marked the fifth anniversary of their return to power in Afghanistan as a UN official warned of a crisis.",
@@ -7405,49 +7438,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/iran-backed-houthis-clash-yemeni-forces-mideast-developments-135605001"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2197f747a8e0",
-      "title": "Five dead in Japan after record-breaking rainfall causes severe flooding",
-      "description": "Five people have died after heavy rain and flooding in Japan, with thousands more left stranded.",
-      "lat": 36.78,
-      "lng": 139.76,
-      "severity": 4,
-      "location": "Tokyo, Japan",
-      "source": "Sky News World",
-      "url": "https://news.sky.com/story/four-dead-near-tokyo-after-heavy-rains-and-floods-with-thousands-stranded-at-railway-station-13572823",
-      "image": "https://e3.365dm.com/26/08/1920x1080/skynews-japan-floods-chiba_7321213.jpg?20260814073528",
-      "ts": 1786687260000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/14/world/asia/chiba-tokyo-flood-rain-deaths.html"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/world/2026/0814/1587827-japan-weather/"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/four-dead-near-tokyo-after-heavy-rains-and-floods-with-thousands-stranded-at-railway-station-13572823"
           }
         ]
       }
