@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-08-25T16:51:47.830261+00:00",
+  "updated": "2026-08-25T17:41:27.851891+00:00",
   "events": [
+    {
+      "id": "1301fb6ad6ca",
+      "title": "Satellite lofted for first Arab country",
+      "description": "La Cina ha lanciato il suo primo satellite di comunicazione destinato all’Algeria, segnando un nuovo passo nella cooperazione spaziale arabo‑cinese.",
+      "lat": 37.83,
+      "lng": 3.0900000000000034,
+      "severity": 1,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1787679687767,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b107256e915c",
+      "title": "Canada announces $20bn retaliatory tariffs as US trade war escalates",
+      "description": "Il governo canadese ha imposto dazi per 20 miliardi di dollari su prodotti statunitensi in risposta alle nuove tariffe americane.",
+      "lat": 46.52,
+      "lng": -73.7948,
+      "severity": 3,
+      "location": "Ottawa, Canada",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/7ced71c2-03b8-4569-a68d-14624a7e83f2?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1787678568000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/7ced71c2-03b8-4569-a68d-14624a7e83f2?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5399ea0a0276",
+      "title": "Israele espelle rappresentanti olandesi da base Board of Peace a Kiryat Gat — Sa'ar: 'per le iniziative anti-israeliane del governo dell'Aja'",
+      "description": "Israele ha cacciato i diplomatici olandesi dalla base militare di Board of Peace a Kiryat Gat, accusandoli di iniziative anti‑israeliane.",
+      "lat": 31.61,
+      "lng": 36.68520000000001,
+      "severity": 3,
+      "location": "Kiryat Gat, Israel",
+      "source": "ANSA Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/08/25/israele-espelle-rappresentanti-olandesi-da-base-board-of-peace-a-kiryat-gat_c9d48974-bec6-4b99-a383-43c432c8e004.html",
+      "image": null,
+      "ts": 1787678120000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/08/25/israele-espelle-rappresentanti-olandesi-da-base-board-of-peace-a-kiryat-gat_c9d48974-bec6-4b99-a383-43c432c8e004.html"
+          }
+        ]
+      }
+    },
     {
       "id": "bab6cced1ea0",
       "title": "Western partners support Ukraine with new aid and peace plan",
@@ -74,6 +173,39 @@
       "description": "Spain has declared the enclave of Ceuta a national security interest amid tens of thousands of illegal crossings from Morocco.",
       "lat": 35.89,
       "lng": -5.32,
+      "severity": 3,
+      "location": "Ceuta, Spain",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/08/25/madrid-declares-ceuta-a-national-security-interest/",
+      "image": "http://images.euronews.com/articles/stories/09/88/83/98/640x360_cmsv2_86e5d913-4eb7-543b-89ab-9a3f13923ad4-9888398.jpg?1787669692",
+      "ts": 1787675004000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/25/madrid-declares-ceuta-a-national-security-interest/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3adefbcad1c5",
+      "title": "Madrid declares Ceuta a “national security interest” — Nearly a month on, the situation in Ceuta remains tense. Around 80,000 people crossed illegally from Morocco into the Spanish enclave.",
+      "description": "Il governo spagnolo ha dichiarato l’enclave di Ceuta un interesse di sicurezza nazionale a causa dell’afflusso massiccio di migranti dal Marocco.",
+      "lat": 36.99,
+      "lng": -5.319999999999993,
       "severity": 3,
       "location": "Ceuta, Spain",
       "source": "Africanews",
@@ -637,11 +769,11 @@
     },
     {
       "id": "d24dc03d0633",
-      "title": "China hits out at ‘illegal’ new US sanctions on Iran and trading partners",
-      "description": "Beijing criticises the United States for imposing sanctions on Iran and countries that continue to trade with Tehran.",
+      "title": "China hits out at 'illegal' new US sanctions on Iran and trading partners",
+      "description": "Pei Jinping ha criticato le nuove sanzioni USA contro l’Iran, definendole illegali e minacciose per la Cina.",
       "lat": 35.69,
       "lng": 51.389999999999986,
-      "severity": 3,
+      "severity": 2,
       "location": "Tehran, Iran",
       "source": "BBC World",
       "url": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss",
@@ -649,13 +781,13 @@
       "ts": 1787658816000,
       "coverage": {
         "left": 1,
-        "center": 4,
+        "center": 3,
         "right": 0,
-        "total": 5,
+        "total": 4,
         "buckets": {
           "left": 0,
           "lean_left": 1,
-          "center": 4,
+          "center": 3,
           "lean_right": 0,
           "right": 0
         },
@@ -674,11 +806,6 @@
             "n": "GNews Geopolitics",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ZRzVaNkNpTzdlV2Y2TE5LOTEwbXVlOXd2LXdKejI1OGp2eXlGM3JOZlNaQjk5U1RlSXFKc0dETVk3Uy16MDV0LWIwdmpUdTZla09FdS1NRjR3TlFEOWZ0eXVuV0lRa0FSbDhvaWtLYlYxSnlrSGpEUkd1SzVsdw?oc=5"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CVnVRWFBpZ0Q3QVhFRjVhTkl5cC1jUldYUnVvdW96NnEzcGhrT0o1M2Vhd1RBd1lucUN6dmltSDZjdVdxd1BuMUVWRnVNMno3VThkd3ktanpkQQ?oc=5"
           },
           {
             "n": "Times of India World",
@@ -7331,148 +7458,6 @@
             "n": "Le Monde English",
             "b": "lean_left",
             "u": "https://www.lemonde.fr/en/international/video/2026/08/14/tiananmen-square-massacre-le-monde-reveals-unseen-footage-of-the-chinese-regime-s-violent-repression_6756518_4.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5a77af0bf017",
-      "title": "UAE accuses Iran of Hormuz attacks",
-      "description": "The United Arab Emirates blamed Iran for attacks on two vessels linked to its state-owned oil company as they passed through the Strait of Hormuz.",
-      "lat": 33.89,
-      "lng": 35.5,
-      "severity": 4,
-      "location": "Beirut, Lebanon",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/",
-      "image": "https://s.france24.com/media/display/33ca89d4-9011-11f1-bbd5-005056bfb2b6/w:1024/p:16x9/AP26216348535497.jpg",
-      "ts": 1786729989000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/there-no-end-us-iran-war-sight-just-two-ships-made-it-through-hormuz-strait-friday-3806438"
-          }
-        ]
-      }
-    },
-    {
-      "id": "97af413d9fd4",
-      "title": "India reaffirms ‘longstanding ties’ with Afghanistan",
-      "description": "In the last few months and over a year now, we have had several engagements and several ministerial visits from Afghanistan, says Randhir Jaiswal",
-      "lat": 35.62,
-      "lng": 69.17000000000002,
-      "severity": 1,
-      "location": "Kabul, Afghanistan",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/national/india-reaffirms-longstanding-ties-with-afghanistan/article71346776.ece",
-      "image": "https://th-i.thgim.com/public/news/national/9oz8jl/article71347116.ece/alternates/LANDSCAPE_1200/iStock-668739640.jpg",
-      "ts": 1786728954000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/national/india-reaffirms-longstanding-ties-with-afghanistan/article71346776.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a44abe9fb4b6",
-      "title": "A man and an infant are killed and nearly 100 wounded by celebratory gunfire as Pakistanis mark independence from Britain",
-      "description": "The gunfire erupted across the capital Karachi on the eve of the country's independence anniversary on Thursday, leaving at least 94 people injured despite official bans on the dangerous practice.",
-      "lat": 24.86,
-      "lng": 67.01,
-      "severity": 4,
-      "location": "Karachi, Pakistan",
-      "source": "Daily Mail World",
-      "url": "https://www.dailymail.com/news/article-16052529/man-infant-killed-celebratory-gunfire-Pakistanis-independence-Britain.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-      "image": "https://i.dailymail.com/1s/2026/08/14/12/110637409-0-image-a-32_1786706667069.jpg",
-      "ts": 1786727913000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Daily Mail World",
-            "b": "right",
-            "u": "https://www.dailymail.com/news/article-16052529/man-infant-killed-celebratory-gunfire-Pakistanis-independence-Britain.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-          }
-        ]
-      }
-    },
-    {
-      "id": "bfcca0476d73",
-      "title": "Zimbabwe Lake Kariba ferry death toll hits 46",
-      "description": "Grieving families gathered at a mortuary in Kariba on Thursday as the death toll from Tuesday’s ferry disaster on Lake Kariba rose to 46",
-      "lat": -15.9,
-      "lng": 29.905200000000008,
-      "severity": 4,
-      "location": "Lake Kariba, Zimbabwe",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/08/14/survivors-recount-horror-as-zimbabwe-lake-kariba-ferry-death-toll-hits-46/",
-      "image": "http://images.euronews.com/articles/stories/09/87/49/09/640x360_cmsv2_50ce824d-d7ef-5163-8841-769b4f67f1dd-9874909.jpg?1786718287",
-      "ts": 1786725002000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/world/2026/aug/12/zimbabwe-lake-kariba-ferry-capsize"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/14/survivors-recount-horror-as-zimbabwe-lake-kariba-ferry-death-toll-hits-46/"
           }
         ]
       }
