@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-08-24T23:54:09.665932+00:00",
+  "updated": "2026-08-25T01:48:28.653966+00:00",
   "events": [
+    {
+      "id": "9043acada8e6",
+      "title": "US plans to revoke business, tourism visas of 200,000 asylum seekers",
+      "description": "The United States announces a mass revocation of visas for 200,000 asylum seekers, the largest such action in its history.",
+      "lat": 40.0,
+      "lng": -77.04,
+      "severity": 2,
+      "location": "Washington, D.C., United States",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/25/us-plans-to-revoke-business-tourism-visas-of-200000-asylum-seekers?traffic_source=rss",
+      "image": null,
+      "ts": 1787619704000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/25/us-plans-to-revoke-business-tourism-visas-of-200000-asylum-seekers?traffic_source=rss"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQ0FQU2lNNmJpYkg3Z3hpVUdkQ3lWUXp0WFBtTUpFWmhmcWpoa2V1WmFpRXlTWEJod01kZUNtSUpLLUIteTh4WGpFN2pxV0hGcmFRSDNYZUNWSjhCRUhHcXl0OFZXNTI0Z2MtSlUzRTVyV051RHFGX180VGlvMl9LaGtOVnpWSEN1Tk9MUg?oc=5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0f8f8d2703b5",
+      "title": "US extends Cuba trade embargo for one year",
+      "description": "The United States prolongs its trade embargo against Cuba until September 2027, maintaining strict economic restrictions.",
+      "lat": 23.12,
+      "lng": -82.38,
+      "severity": 3,
+      "location": "Havana, Cuba",
+      "source": "TASS",
+      "url": "https://tass.com/economy/2177229",
+      "image": null,
+      "ts": 1787619181000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/economy/2177229"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6cc11ae54521",
+      "title": "Iran faces 'greatest financial offensive ever', says US treasury secretary",
+      "description": "Il Segretario del Tesoro USA avverte che gli Stati Uniti taglieranno tutti i legami economici con l'Iran e isoleranno chi collabora con il regime.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de12/live/09a94a20-9fe6-11f1-8ed1-41aaf1fca4f2.jpg",
+      "ts": 1787615305000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "b3f6a887d770",
       "title": "German foreign minister cites funding shortfall for Ukraine military aid",
@@ -522,6 +626,54 @@
           "right": 1
         },
         "sources": [
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/news/article-16075009/Andy-Burnham-Kyiv-secret-Storm-Shadow-missile-Zelensky-Ukraine.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a031ae5e623e",
+      "title": "Putin's threat to Britain as Burnham gives Storm Shadow missile tech to Ukraine",
+      "description": "Il Cremlino accusa il Regno Unito di partecipare alla guerra dopo che il ministro Andy Burnham ha consegnato la tecnologia dei missili Storm Shadow all'Ucraina.",
+      "lat": 52.61,
+      "lng": -0.12999999999999545,
+      "severity": 2,
+      "location": "London, United Kingdom",
+      "source": "Daily Mail World",
+      "url": "https://www.dailymail.com/news/article-16075009/Andy-Burnham-Kyiv-secret-Storm-Shadow-missile-Zelensky-Ukraine.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "image": "https://i.dailymail.com/1s/2026/08/24/19/110824129-0-image-m-20_1787594421786.jpg",
+      "ts": 1787600227000,
+      "coverage": {
+        "left": 0,
+        "center": 3,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 3,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/international/internationalrussia-ukraine-war/article-906475"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-24/burnham-plans-us-trip-next-month-to-lobby-trump-on-ukraine-needs"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/europe/article/3365119/uks-burnham-plans-us-trip-september-lobby-trump-ukraine-needs?utm_source=rss_feed"
+          },
           {
             "n": "Daily Mail World",
             "b": "right",
@@ -7291,143 +7443,6 @@
             "n": "Financial Times World",
             "b": "center",
             "u": "https://www.ft.com/content/9c9c948f-dc8b-4385-a9b9-4b98dc1eadd9?syn-25a6b1a6=1"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7ddb3e443aa3",
-      "title": "Russia's 'Amazon' in deep-strike Ukraine blitz, wiping billions from Putin-linked CEO",
-      "description": "Ukraine's drone strikes have knocked out 27% of Wildberries warehouse capacity, with losses estimated up to $8.5 billion as Russia's logistics reels.",
-      "lat": 50.45,
-      "lng": 32.42519999999999,
-      "severity": 4,
-      "location": "Ukraine",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/russia-amazon-deep-strike-ukraine-blitz-wiping-billions-putin-linked-ceo",
-      "image": "https://static01.nyt.com/images/2026/08/11/multimedia/11int-russia-deaths-01-hwpz/11int-russia-deaths-01-hwpz-mediumSquareAt3X.jpg",
-      "ts": 1786656028000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 2,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/business/economy/ukraine-reportedly-offers-russia-black-sea-truce-as-food-supply-fears-grow"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/russia-amazon-deep-strike-ukraine-blitz-wiping-billions-putin-linked-ceo"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e816a1622d65",
-      "title": "Vote counting underway in Zambia after presidential election",
-      "description": "Vote counting is underway after Zambians cast ballots in a presidential election testing incumbent Hakainde Hichilema’s economic record.",
-      "lat": -14.32,
-      "lng": 30.18520000000001,
-      "severity": 2,
-      "location": "Lusaka, Zambia",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/08/13/vote-counting-underway-in-zambia-after-presidential-election/",
-      "image": "https://s.abcnews.com/images/International/wirestory_c2e3a627284296099089e03d2454e3b7_4x3_384.jpg",
-      "ts": 1786653763000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/13/vote-counting-underway-in-zambia-after-presidential-election/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c50f79944bba",
-      "title": "Israel kills Gaza police chief",
-      "description": "Israel has killed the police chief of Gaza in an attack on Gaza City, the interior ministry of the Gaza Strip announced",
-      "lat": 31.51,
-      "lng": 34.46000000000001,
-      "severity": 4,
-      "location": "Gaza City, Gaza Strip",
-      "source": "AGI Estero",
-      "url": "https://www.agi.it/estero/news/2026-08-13/israele-uccide-capo-polizia-gaza-38526253/",
-      "image": "https://images.agi.it/pictures/agi/agi/2026/08/13/204541619-aa283257-d22d-4435-a511-ea12d8c1d9f7.jpg",
-      "ts": 1786653579000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-08-13/israele-uccide-capo-polizia-gaza-38526253/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1c9e7f6b55d6",
-      "title": "Colombia’s new president asks Trump to bring militarized antidrug campaign to the country",
-      "description": "The South American nation is the world’s largest producer of cocaine",
-      "lat": 4.61,
-      "lng": -74.08,
-      "severity": 3,
-      "location": "Bogota, Colombia",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/14/new-president-asks-trump-bring-deadly-antidrug-campaign-colombia/",
-      "image": null,
-      "ts": 1786653268000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/14/new-president-asks-trump-bring-deadly-antidrug-campaign-colombia/"
           }
         ]
       }
