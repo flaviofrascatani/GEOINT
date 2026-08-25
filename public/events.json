@@ -1,7 +1,179 @@
 {
   "schema": 1,
-  "updated": "2026-08-25T17:41:27.851891+00:00",
+  "updated": "2026-08-25T18:54:08.372107+00:00",
   "events": [
+    {
+      "id": "ea977f622d2f",
+      "title": "Syria’s economy poised for improvement after US sanctions removal",
+      "description": "US lifts sanctions on Syria, allowing it to re‑enter the global financial system.",
+      "lat": 33.51,
+      "lng": 36.28,
+      "severity": 1,
+      "location": "Damascus, Syria",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/25/syrias-economy-poised-for-improvement-after-us-sanctions-removal?traffic_source=rss",
+      "image": null,
+      "ts": 1787683422000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/25/syrias-economy-poised-for-improvement-after-us-sanctions-removal?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0e605690b285",
+      "title": "Iran and Oman edge towards deal on Strait of Hormuz",
+      "description": "The two states advance an interim proposal to manage shipping through the strategic waterway.",
+      "lat": 27.67,
+      "lng": 56.25,
+      "severity": 2,
+      "location": "Strait of Hormuz",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/b3e4d264-55f0-485e-8e1a-0ba0cbe006b6?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1787681374000,
+      "coverage": {
+        "left": 1,
+        "center": 4,
+        "right": 2,
+        "total": 7,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 4,
+          "lean_right": 1,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/iran-oman-discuss-temporary-corridor-through-strait-of-hormuz-11958295#publisher=newsstand"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/08/25/iran-oman-strait-hormuz-oil.html"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/b3e4d264-55f0-485e-8e1a-0ba0cbe006b6?syn-25a6b1a6=1"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/trump-says-hormuz-mine-free-iran-oman-agree-clear-them"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/world/iran-oman-say-discussed-temporary-hormuz-corridor-mine-clearing-6340691"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/iran-oman-discuss-temporary-hormuz-corridor-mine-clearing-plan"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/trump-strait-of-hormuz-clear-of-mines-warns-iran-of-zero-tolerance-policy-for-placement-of-more-explosives/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "25a36b51b9f5",
+      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
+      "description": "Canada imposes steep tariffs on a wide range of American goods, escalating the trade dispute.",
+      "lat": 38.9,
+      "lng": -77.04,
+      "severity": 3,
+      "location": "Washington, USA",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e708/live/0a3afb60-a0ad-11f1-a54e-272d756c341e.jpg",
+      "ts": 1787680443000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/canada-retaliatory-tariffs-trump-trade-war_n_6a8daf9fe4b07583705b7fde"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/business/economy/canada-hits-us-goods-with-up-to-50-tariffs-as-trade-war-deepens"
+          }
+        ]
+      }
+    },
+    {
+      "id": "25a9945c5ed6",
+      "title": "US military plane lands in Moscow, with Kremlin claiming it has no information",
+      "description": "A US C‑17 aircraft approaches Vnukovo airport in Moscow, sparking diplomatic tension.",
+      "lat": 54.6274,
+      "lng": 38.93000000000001,
+      "severity": 3,
+      "location": "Moscow, Russia",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/us-military-plane-lands-moscow-kremlin-claiming-no-information-report",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/08/931/523/us-military-flight-russia.jpg?ve=1&tl=1",
+      "ts": 1787680376000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/us-military-plane-lands-moscow-kremlin-claiming-no-information-report"
+          }
+        ]
+      }
+    },
     {
       "id": "1301fb6ad6ca",
       "title": "Satellite lofted for first Arab country",
@@ -102,6 +274,39 @@
       }
     },
     {
+      "id": "9040c14448fa",
+      "title": "Nigeria’s president orders rescue operation after mass kidnapping at mosque",
+      "description": "President Tinubu orders security forces to launch a rescue after a large‑scale kidnapping at a northern mosque.",
+      "lat": 9.61,
+      "lng": 6.55,
+      "severity": 3,
+      "location": "Minna, Nigeria",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/africa/20260825-nigeria-president-orders-rescue-after-mass-kidnapping-during-mosque-attack",
+      "image": "https://s.france24.com/media/display/2e632c3c-52ac-11f1-86c8-005056bfb2b6/w:1024/p:16x9/AP26136284691916.jpg",
+      "ts": 1787677823000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/africa/20260825-nigeria-president-orders-rescue-after-mass-kidnapping-during-mosque-attack"
+          }
+        ]
+      }
+    },
+    {
       "id": "bab6cced1ea0",
       "title": "Western partners support Ukraine with new aid and peace plan",
       "description": "Western allies pledged additional military aid and a joint peace plan for Ukraine on its independence day.",
@@ -163,6 +368,69 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/politics/turkiye-seeks-peace-justice-across-region-erdogan-says/news"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4140cbbe4698",
+      "title": "Trump says Hormuz mine‑free as Iran, Oman agree to clear them",
+      "description": "The US president declares the Strait of Hormuz cleared of mines following an Iran‑Oman agreement.",
+      "lat": 27.67,
+      "lng": 58.15520000000001,
+      "severity": 2,
+      "location": "Strait of Hormuz",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/trump-says-hormuz-mine-free-iran-oman-agree-clear-them",
+      "image": null,
+      "ts": 1787675349000,
+      "coverage": {
+        "left": 1,
+        "center": 4,
+        "right": 2,
+        "total": 7,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 4,
+          "lean_right": 1,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/iran-oman-discuss-temporary-corridor-through-strait-of-hormuz-11958295#publisher=newsstand"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/08/25/iran-oman-strait-hormuz-oil.html"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/b3e4d264-55f0-485e-8e1a-0ba0cbe006b6?syn-25a6b1a6=1"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/trump-says-hormuz-mine-free-iran-oman-agree-clear-them"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/world/iran-oman-say-discussed-temporary-hormuz-corridor-mine-clearing-6340691"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/iran-oman-discuss-temporary-hormuz-corridor-mine-clearing-plan"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/trump-strait-of-hormuz-clear-of-mines-warns-iran-of-zero-tolerance-policy-for-placement-of-more-explosives/"
           }
         ]
       }
@@ -7250,214 +7518,6 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/08/14/central-african-republic-muslims-return-as-sibut-rebuilds/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f982f45ae6f5",
-      "title": "Oil spill off Oman after grounded tanker leaks sanctioned Russian oil",
-      "description": "A potential environmental disaster is unfolding off Oman, where a grounded tanker is leaking sanctioned Russian oil",
-      "lat": 23.63,
-      "lng": 58.59,
-      "severity": 3,
-      "location": "Oman",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/14/new-aerial-video-reveals-huge-scale-of-oil-spill-off-oman?traffic_source=rss",
-      "image": null,
-      "ts": 1786736205000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/14/new-aerial-video-reveals-huge-scale-of-oil-spill-off-oman?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e1ef4b29717f",
-      "title": "Trump dismisses concerns over USS Abraham Lincoln conditions",
-      "description": "President Donald Trump downplayed concerns over conditions for sailors aboard the USS Abraham Lincoln, amid an uproar from service members’ families as its deployment to the Middle East approaches nine months.",
-      "lat": 38.89,
-      "lng": -77.01,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-14/trump-dismisses-concerns-over-conditions-on-uss-lincoln-carrier",
-      "image": null,
-      "ts": 1786734679000,
-      "coverage": {
-        "left": 0,
-        "center": 3,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/08/14/trump-uss-abraham-lincoln-deployment-middle-east"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMXBxREg3bWFsR3pibzJqRFY3VlRyTXRuTUpNNXU3ZzhUaEpfc0R2djhMaVlMaW1NVVlmQ1BCS2IyMldCNkdMdXF1QVl2eUcyci1QN0FUMmlYOEU1Mm1KLXJWUVBKX2w5VmJHVlJHNWhRdEVtYVphU3U2N3ZxdTQ3N282cDlRbEd5aGpBMDZhNFZ2TTBrTVByeHluWnFNeDF5R2JoNVRvMlB6bExLeS1ZNHVlM2RoUW05SUFmSDFMUQ?oc=5"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-14/trump-dismisses-concerns-over-conditions-on-uss-lincoln-carrier"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6d1a331ae0db",
-      "title": "US accuses over 40 countries of helping China avoid tariffs",
-      "description": "The White House says Canada, Japan, EU and others are enabling evasion of levies for $60bn in trade via ‘transshipment scam’",
-      "lat": 40.0,
-      "lng": -77.02,
-      "severity": 2,
-      "location": "Washington, D.C., USA",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/5d5ed2dd-8326-4cad-aac3-5816448ceccf?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1786733694000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/5d5ed2dd-8326-4cad-aac3-5816448ceccf?syn-25a6b1a6=1"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d36e57b977ba",
-      "title": "Brazil triggers reciprocity process against US tariffs",
-      "description": "Brazilian President Luiz Inácio Lula da Silva says his government has triggered an economic reciprocity law against US tariffs",
-      "lat": -14.69,
-      "lng": -46.0248,
-      "severity": 2,
-      "location": "Brasília, Brazil",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/brazils-lula-triggers-reciprocity-process-us-tariffs-effort-135652169",
-      "image": "https://s.abcnews.com/images/US/wirestory_1d00c49488ea803e05c17980f10a250d_4x3_384.jpg",
-      "ts": 1786732322000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/brazils-lula-triggers-reciprocity-process-us-tariffs-effort-135652169"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9649a33b7675",
-      "title": "Trump administration unveils tariffs on drone imports",
-      "description": "President Trump announced new tariffs on drone imports in an effort to curb US reliance on foreign supply chains amid possible national security threats",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 2,
-      "location": "Washington, D.C., USA",
-      "source": "The Hill",
-      "url": "https://thehill.com/homenews/administration/6030357-donald-trump-white-house-tariffs-foreign-drones-national-security-risks/",
-      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/08/AP24213427707275-e1786730288731.jpg?w=900",
-      "ts": 1786732033000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/homenews/administration/6030357-donald-trump-white-house-tariffs-foreign-drones-national-security-risks/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9040eaf71c60",
-      "title": "Tiananmen Square massacre: Le Monde reveals unseen footage of the Chinese regime's violent repression",
-      "description": "Unseen footage of the Tiananmen Square protests has been shared, shedding new light on the Chinese regime's violent repression",
-      "lat": 39.9,
-      "lng": 116.38999999999999,
-      "severity": 3,
-      "location": "Tiananmen Square, Beijing, China",
-      "source": "Le Monde English",
-      "url": "https://www.lemonde.fr/en/international/video/2026/08/14/tiananmen-square-massacre-le-monde-reveals-unseen-footage-of-the-chinese-regime-s-violent-repression_6756518_4.html",
-      "image": "https://img.lemde.fr/2026/07/17/60/0/1920/960/644/322/60/0/54276df_upload-1-liy4uyss5hel-tiananmen-sirius.png",
-      "ts": 1786730400000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/video/2026/08/14/tiananmen-square-massacre-le-monde-reveals-unseen-footage-of-the-chinese-regime-s-violent-repression_6756518_4.html"
           }
         ]
       }
