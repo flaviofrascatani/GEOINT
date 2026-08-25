@@ -1,7 +1,121 @@
 {
   "schema": 1,
-  "updated": "2026-08-25T19:41:21.530183+00:00",
+  "updated": "2026-08-25T20:41:03.504429+00:00",
   "events": [
+    {
+      "id": "e6873885b51b",
+      "title": "Israel removes Netherlands representatives from Gaza center following settlement goods ban",
+      "description": "Israel expelled Dutch officials from a Gaza humanitarian hub after the Netherlands banned settlement‑product imports.",
+      "lat": 30.5474,
+      "lng": 36.11670000000001,
+      "severity": 3,
+      "location": "Gaza City, Palestine",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-906580",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_2798,w_4197/728629",
+      "ts": 1787697804000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/israel-news/defense-news/article-906580"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2177653"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0d0f68bb6dbc",
+      "title": "Halkbank secures $1.1B in fresh funding after US case dismissed",
+      "description": "Turkey's state‑owned Halkbank raised $1.1 billion in international markets following the dismissal of a U.S. criminal case.",
+      "lat": 41.0082,
+      "lng": 28.9784,
+      "severity": 2,
+      "location": "Istanbul, Turkey",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/business/economy/halkbank-secures-11b-in-fresh-funding-after-us-case-dismissed",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/08/25/457683.jpg",
+      "ts": 1787687700000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/business/economy/halkbank-secures-11b-in-fresh-funding-after-us-case-dismissed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "25a36b51b9f5",
+      "title": "Canada announces 'dollar‑for‑dollar' retaliatory tariffs on US as high as 50%",
+      "description": "Canada will impose steep tariffs on a range of American goods in response to U.S. trade measures.",
+      "lat": 38.9,
+      "lng": -77.04,
+      "severity": 2,
+      "location": "Washington, USA",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e708/live/0a3afb60-a0ad-11f1-a54e-272d756c341e.jpg",
+      "ts": 1787687457000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/canada-retaliatory-tariffs-trump-trade-war_n_6a8daf9fe4b07583705b7fde"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/canada-announces-retaliatory-tariffs-as-trade-war-with-us-heats-up-13577017"
+          }
+        ]
+      }
+    },
     {
       "id": "729f1d26316d",
       "title": "Syrian Kurdish leader announces SDF dissolution after integration into army",
@@ -160,49 +274,6 @@
             "n": "OAN",
             "b": "right",
             "u": "https://www.oann.com/newsroom/trump-strait-of-hormuz-clear-of-mines-warns-iran-of-zero-tolerance-policy-for-placement-of-more-explosives/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "25a36b51b9f5",
-      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-      "description": "Canada imposes steep tariffs on a wide range of American goods, escalating the trade dispute.",
-      "lat": 38.9,
-      "lng": -77.04,
-      "severity": 3,
-      "location": "Washington, USA",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e708/live/0a3afb60-a0ad-11f1-a54e-272d756c341e.jpg",
-      "ts": 1787680443000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 1,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/canada-retaliatory-tariffs-trump-trade-war_n_6a8daf9fe4b07583705b7fde"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/business/economy/canada-hits-us-goods-with-up-to-50-tariffs-as-trade-war-deepens"
           }
         ]
       }
@@ -7422,102 +7493,6 @@
             "n": "CNBC World",
             "b": "center",
             "u": "https://www.cnbc.com/2026/08/14/nvidia-discloses-21-billion-stake-in-spacex-at-end-of-second-quarter.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4053129f773b",
-      "title": "Ebola outbreak in DR Congo",
-      "description": "The Ebola outbreak in the Democratic Republic of Congo is killing one person every 30 minutes, according to the UN.",
-      "lat": -4.32,
-      "lng": 15.3,
-      "severity": 4,
-      "location": "Kinshasa, DR Congo",
-      "source": "Le Monde English",
-      "url": "https://www.lemonde.fr/en/international/article/2026/08/14/ebola-outbreak-in-dr-congo-killing-one-person-every-30-minutes-un-says_6756522_4.html",
-      "image": "https://img.lemde.fr/2026/08/13/500/0/6000/3000/644/322/60/0/c8b1e01_ftp-1-pv9bep0g6txy-a0cbe002e7d845d8b9d877b98e347d90-4-d8adc46602d84848ac6552d7bc16b4ae.jpg",
-      "ts": 1786742336000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/08/14/ebola-outbreak-in-dr-congo-killing-one-person-every-30-minutes-un-says_6756522_4.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4b2b9525cc32",
-      "title": "Trump says he’ll soon declare Strait of Hormuz to be US territory",
-      "description": "President Donald Trump on Friday said he would “soon” declare the Strait of Hormuz waterway part of US territory after defeating Iran.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 2,
-      "location": "Strait of Hormuz",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3364120/trump-says-hell-soon-declare-strait-hormuz-be-us-territory?utm_source=rss_feed",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/08/15/dc5b5943-c28d-4903-adaa-ff3f419693ad_699c1901.jpg?itok=lTdxGH71&v=1786741331",
-      "ts": 1786741333000,
-      "coverage": {
-        "left": 0,
-        "center": 5,
-        "right": 2,
-        "total": 7,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 5,
-          "lean_right": 0,
-          "right": 2
-        },
-        "sources": [
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/middle-east/2026/0814/1587823-middle-east/"
-          },
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/homenews/administration/6030671-trump-says-strait-of-hormuz-us-territory/"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVzFraWFiZjd3WFg5eEpZNXRMdDFPZUlvTmpHYkM2QXNBUkQ2TjR5NUctNUJPZ1hKMnFtdWtKOFFNTkFTc0s0R3hYZFdfQ3ZHLWlMTFE3RWRranQ4aExKMkMzZzl4SWt2UGQzYjRJbHo5UVhINWVpX25rUzhKdkV0LW5WTG5nRUtTTmJwUU0wd2IzZnpKM296NtIBngFBVV95cUxQbUI0ZVg5NHQ4T05ScnpPVHptMHY2RFZReVp3NGdlbWtjMGlVMDNSVk8tN0M1N1BpUkU0b2pmcDRKM1ZRSl9XekxfYjExdHNtWVdVTklCMkpyd0RWVmZ6SGdTdUxyV2l0ZTU5ZFM4YWZFZndRaklFdzZkVU82cFB3RjQyOUtBbWs5aDFXRFEwZkpLMFNVbVJSeVlqT3h6Zw?oc=5"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/middle-east/article/3364120/trump-says-hell-soon-declare-strait-hormuz-be-us-territory?utm_source=rss_feed"
-          },
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20260815000351315"
-          },
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2239366/trump-long-island-speech-strait-of-hormuz"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/policy/infrastructure/4688168/trump-says-soon-would-declare-strait-of-hormuz-united-states-territory-prices/"
           }
         ]
       }
