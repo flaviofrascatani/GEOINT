@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-25T14:59:21.268906+00:00",
+  "updated": "2026-08-25T15:55:24.323286+00:00",
   "events": [
+    {
+      "id": "d0bb3af6d132",
+      "title": "Canada announces retaliatory tariffs as US trade war escalates",
+      "description": "Canada unveiled tariffs of up to 50 % on a range of US goods in response to new American duties, heightening the trade dispute.",
+      "lat": 40.0,
+      "lng": -75.1348,
+      "severity": 2,
+      "location": "Washington, DC, United States",
+      "source": "Die Welt",
+      "url": "https://www.welt.de/politik/ausland/article6a8db711511d4fd3bc4e39ff/handelsstreit-kanada-gibt-vergeltungszoelle-von-bis-zu-50-prozent-auf-us-waren-bekannt.html",
+      "image": null,
+      "ts": 1787673007000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/7ced71c2-03b8-4569-a68d-14624a7e83f2?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
     {
       "id": "8c680791313e",
       "title": "Venezuela's oil production reaches 1.2 million barrels per day",
@@ -31,6 +64,59 @@
             "n": "ANSA Mondo",
             "b": "center",
             "u": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/08/25/la-produzione-di-petrolio-in-venezuela-raggiunge-12-milioni-di-barili_e0ea5661-a5d5-444d-b105-178643ba6ca6.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "86305979ac1f",
+      "title": "CIA Director John Ratcliffe visits Moscow for surprise meetings",
+      "description": "U.S. CIA chief made a rare trip to Moscow for talks with Russian officials, signaling a potential shift in intelligence cooperation.",
+      "lat": 55.75,
+      "lng": 39.525199999999984,
+      "severity": 2,
+      "location": "Moscow, Russia",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/08/25/cia-director-ratcliffe-visits-moscow",
+      "image": "https://images.axios.com/0TIc7BBB38SHiroe8pPxRbEPre0=/0x0:6959x3914/1366x768/2026/08/25/1787668921118.jpeg",
+      "ts": 1787669297000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 1,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 3,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/cia-director-john-ratcliffe-russia-secret-trip/"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/08/25/cia-director-ratcliffe-visits-moscow"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/international/article-906551"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-25/cia-chief-ratcliffe-in-russia-for-surprise-meetings-cbs-reports"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/americas/cia-chief-ratcliffe-makes-rare-moscow-visit-for-high-level-talks"
           }
         ]
       }
@@ -892,27 +978,27 @@
     },
     {
       "id": "05292c8f2df0",
-      "title": "Trump’s trade ‘war’ with Canada has Carney facing his biggest test yet — The Canadian prime minister has said his government will match U.S. tariffs \"dollar for dollar.\"",
-      "description": "Canada vows to mirror U.S. tariffs, escalating the trade dispute between the two countries.",
+      "title": "Trump threatens 50 % tariffs on all cars and trucks amid Canada trade spat",
+      "description": "President Trump announced plans to raise tariffs on automobiles and parts to 50 % starting 2027, escalating US‑Canada trade tensions.",
       "lat": 45.42,
       "lng": -75.7,
-      "severity": 3,
+      "severity": 2,
       "location": "Ottawa, Canada",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/24/trumps-trade-war-with-canada-has-carney-facing-his-biggest-test-yet/",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/trump-carney-trade-war-tariffs_n_6a8c4edce4b07583705ac198",
       "image": null,
       "ts": 1787620128000,
       "coverage": {
         "left": 5,
-        "center": 6,
+        "center": 2,
         "right": 2,
-        "total": 13,
+        "total": 9,
         "buckets": {
           "left": 1,
           "lean_left": 4,
-          "center": 6,
-          "lean_right": 1,
-          "right": 1
+          "center": 2,
+          "lean_right": 0,
+          "right": 2
         },
         "sources": [
           {
@@ -926,14 +1012,14 @@
             "u": "https://www.washingtonpost.com/world/2026/08/24/trumps-trade-war-with-canada-has-carney-facing-his-biggest-test-yet/"
           },
           {
-            "n": "Business Insider",
+            "n": "NBC News World",
             "b": "lean_left",
-            "u": "https://www.businessinsider.com/trump-rename-lake-ontario-lake-america-trade-us-canada-2026-8"
+            "u": "https://www.nbcnews.com/business/consumer/canada-retaliates-against-trump-tariffs-rcna594280"
           },
           {
-            "n": "Time",
+            "n": "Al Jazeera",
             "b": "lean_left",
-            "u": "https://time.com/article/2026/08/24/-we-don-t-need-canada-trump-escalates-trade-war-with-threat-of-50-auto-tariffs/"
+            "u": "https://www.aljazeera.com/news/2026/8/25/trump-floats-renaming-lake-ontario-to-lake-america-during-canada-trade-war?traffic_source=rss"
           },
           {
             "n": "Le Monde English",
@@ -943,42 +1029,22 @@
           {
             "n": "Axios",
             "b": "center",
-            "u": "https://www.axios.com/2026/08/24/carney-trump-tariffs-us-canada-liberal-leader-support"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/canadian-politician-threatens-to-cut-off-electricity-to-the-us-in-response-to-donald-trumps-50-tariffs-13576665"
-          },
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/homenews/administration/6048425-donald-trump-mark-carney-us-canada-trade-war-lake-ontario/"
+            "u": "https://www.axios.com/2026/08/25/trump-french-language-canada-lake-ontario"
           },
           {
             "n": "Bloomberg Politics",
             "b": "center",
-            "u": "https://www.bloomberg.com/news/videos/2026-08-25/why-trump-is-picking-new-trade-fight-with-canada-video"
+            "u": "https://www.bloomberg.com/news/articles/2026-08-25/canada-s-carney-matches-trump-tariffs-with-50-tax-on-us-steel-furniture-dairy"
           },
           {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/world/trump-trade-war-canada-lake-ontario-america-tariffs-6339996"
-          },
-          {
-            "n": "Times of India World",
-            "b": "center",
-            "u": "https://timesofindia.indiatimes.com/world/us/lake-america-trump-floats-plan-to-rename-lake-ontario-amid-escalating-us-canada-trade-row/articleshow/133508459.cms"
-          },
-          {
-            "n": "New York Post",
-            "b": "lean_right",
-            "u": "https://nypost.com/2026/08/25/us-news/trump-threatens-to-rename-lake-ontario-as-lake-america-as-canada-trade-war-escalates/"
-          },
-          {
-            "n": "Daily Express World",
+            "n": "OAN",
             "b": "right",
-            "u": "https://www.express.co.uk/news/world/2242280/trump-threatens-rename-lake-ontario"
+            "u": "https://www.oann.com/newsroom/trump-teases-renaming-lake-ontario-to-lake-america-amid-u-s-canada-trade-war/"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4699324/canada-retaliates-trump-tariffs/"
           }
         ]
       }
@@ -1225,49 +1291,6 @@
             "n": "Breitbart",
             "b": "right",
             "u": "https://www.breitbart.com/politics/2026/08/24/exclusive-north-macedonia-prime-minister-hristijan-mickoski-we-strongly-support-president-trump-united-states/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d0bb3af6d132",
-      "title": "Canada Will Announce Retaliatory Tariffs Against The United States On Tuesday: AP — Canada will announce retaliatory tariffs against the United States on Tuesday, an official familiar with the plans t",
-      "description": "Canada announced it will impose retaliatory tariffs on U.S. goods in response to American trade measures.",
-      "lat": 40.0,
-      "lng": -75.1348,
-      "severity": 3,
-      "location": "Washington, DC, United States",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/canada-retailatory-tariffs-report_n_6a8cca28e4b004726c0a0874",
-      "image": null,
-      "ts": 1787612388000,
-      "coverage": {
-        "left": 2,
-        "center": 1,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 1,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/canada-retailatory-tariffs-report_n_6a8cca28e4b004726c0a0874"
-          },
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/08/24/-we-don-t-need-canada-trump-escalates-trade-war-with-threat-of-50-auto-tariffs/"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/us-escalated-trade-war-canada-unveiled-more-sanctions-against-iran-stocks-were-mixed-3806745"
           }
         ]
       }
@@ -7380,39 +7403,6 @@
             "n": "OAN",
             "b": "right",
             "u": "https://www.oann.com/newsroom/uss-george-washington-to-relieve-uss-abraham-lincoln-in-middle-east/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9ac7fb58f394",
-      "title": "France Approves Assisted-Dying Law",
-      "description": "The Constitutional Council approved France's assisted-dying law, granting adults suffering from an incurable condition the right to assisted dying.",
-      "lat": 49.96,
-      "lng": 2.289999999999992,
-      "severity": 1,
-      "location": "Paris, France",
-      "source": "Le Monde English",
-      "url": "https://www.lemonde.fr/en/france/article/2026/08/14/constitutional-council-approves-france-s-assisted-dying-law_6756508_7.html",
-      "image": "https://img.lemde.fr/2025/08/07/0/0/5271/2635/644/322/60/0/b568b1a_ftp-import-images-1-ewttvogmvpsb-2025-08-07t160305z-1591006970-rc2f2gatf32g-rtrmadp-3-france-agriculture-law.JPG",
-      "ts": 1786714976000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/france/article/2026/08/14/constitutional-council-approves-france-s-assisted-dying-law_6756508_7.html"
           }
         ]
       }
