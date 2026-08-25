@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-08-25T20:41:03.504429+00:00",
+  "updated": "2026-08-25T21:39:03.512388+00:00",
   "events": [
     {
       "id": "e6873885b51b",
@@ -36,6 +36,39 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/world/2177653"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ccb25bb4f390",
+      "title": "US hails YPG dissolution as 'united Syria' takes shape",
+      "description": "U.S. Special Envoy for Syria welcomed the YPG's decision to dissolve, calling it a step toward a unified Syria.",
+      "lat": 33.5138,
+      "lng": 36.2765,
+      "severity": 1,
+      "location": "Damascus, Syria",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/world/mid-east/us-hails-ypg-dissolution-as-united-syria-takes-shape",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/08/25/457684.JPG",
+      "ts": 1787692140000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/us-hails-ypg-dissolution-as-united-syria-takes-shape"
           }
         ]
       }
@@ -667,6 +700,44 @@
             "n": "AGI Estero",
             "b": "center",
             "u": "https://www.agi.it/estero/news/2026-08-25/gallagher-a-lavrov-mosca-fermi-guerra-38698019/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "86702606b64d",
+      "title": "China needs U.S. dollars but is building a hedge against Washington’s sanctions",
+      "description": "Beijing is developing alternative payment systems such as CIPS to reduce reliance on the U.S. dollar amid sanction threats.",
+      "lat": 41.0042,
+      "lng": 116.4074,
+      "severity": 3,
+      "location": "Beijing, China",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/08/25/china-iran-us-sanctions-banks-cips.html",
+      "image": null,
+      "ts": 1787673640000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/08/25/china-iran-us-sanctions-banks-cips.html"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1famY5dkNNeXZoLUR5aDdZMlhPYURwNE0wMy1ZSkhDWG9lMUtJX19UbExFS0FYdWhVUkQ2cmFDa3BtR2N1NGJoNjhPRWxlVHI2cDRiSWE5eldnWGcyN09rV0tfUFpKaXVVYUwwT1JoMmtYc21wdDF1NnhJa9IBgAFBVV95cUxNcmRGTmIwWlF4T3N0MDZOR24wMEYwam04UFV1N3BsMmhZM0lHeTdUX1ZsZXFHejlIaWFpeVM1SGkyak5JekZHckZ3X3RwUzcyQW51Ml9lbWN3RFV1cW12Z1FHallHT1pFNTNlUWw4TDNDUVlhMHAwLXhQVWJLQjNocQ?oc=5"
           }
         ]
       }
@@ -7427,72 +7498,6 @@
             "n": "NDTV World",
             "b": "lean_left",
             "u": "https://www.ndtv.com/world-news/army-temporarily-halts-apache-helicopter-training-missions-after-texas-crash-11912278#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "521e7065fd36",
-      "title": "Trump admin escalates fight against transgender care",
-      "description": "The Trump administration this week scaled up its fight against transgender care",
-      "lat": 38.9,
-      "lng": -77.02,
-      "severity": 3,
-      "location": "Washington D.C., USA",
-      "source": "The Hill",
-      "url": "https://thehill.com/newsletters/healthcare/6030921-trump-hhs-transgender-care/",
-      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/03/hhs_041625gn04_w.jpg?w=900",
-      "ts": 1786744804000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/newsletters/healthcare/6030921-trump-hhs-transgender-care/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b5eb3dc051c0",
-      "title": "Nvidia Discloses $21 Billion Stake in SpaceX",
-      "description": "Nvidia has disclosed a $21 billion stake in SpaceX, highlighting the growing ties between the tech and space industries.",
-      "lat": 37.42,
-      "lng": -122.08,
-      "severity": 1,
-      "location": "Palo Alto, USA",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/08/14/nvidia-discloses-21-billion-stake-in-spacex-at-end-of-second-quarter.html",
-      "image": null,
-      "ts": 1786743919000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/14/nvidia-discloses-21-billion-stake-in-spacex-at-end-of-second-quarter.html"
           }
         ]
       }
