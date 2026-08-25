@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-08-25T05:09:19.701129+00:00",
+  "updated": "2026-08-25T06:01:58.431542+00:00",
   "events": [
+    {
+      "id": "9bf36c4d231f",
+      "title": "U.S. sanctions oil trader Wellbred over Iran links",
+      "description": "The U.S. Treasury sanctioned Wellbred for ties to Iranian oil shipping magnate, tightening financial pressure on Iran’s oil trade.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/us-sanctions-oil-trader-wellbred-over-iran-links/article71387286.ece",
+      "image": "https://th-i.thgim.com/public/incoming/spopro/article71387305.ece/alternates/LANDSCAPE_1200/2026-08-24T060006Z_236829531_RC2XKHALBEQY_RTRMADP_3_USA-TRUMP-ASIA.JPG",
+      "ts": 1787635348000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/us-sanctions-oil-trader-wellbred-over-iran-links/article71387286.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1eccb0bdef1",
+      "title": "Two US carrier groups in Middle East strain navy resources",
+      "description": "The deployment of two U.S. carrier strike groups to the Persian Gulf concentrates firepower and stretches naval logistics.",
+      "lat": 26.22,
+      "lng": 50.58,
+      "severity": 3,
+      "location": "Bahrain, Bahrain",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/two-us-carrier-groups-in-middle-east-strain-navy-resources?traffic_source=rss",
+      "image": null,
+      "ts": 1787635164000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/25/two-us-carrier-groups-in-middle-east-strain-navy-resources?traffic_source=rss"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/israeli-defense-minister-puts-nato-power-notice-middle-east-tensions-surge-dangerous-adventures"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8035548e7ca6",
+      "title": "Attacco alla raffineria russa di Krasnodar, due morti",
+      "description": "A Ukrainian‑linked strike hit the Krasnodar oil refinery, killing two people and damaging the plant.",
+      "lat": 45.04,
+      "lng": 38.98,
+      "severity": 3,
+      "location": "Krasnodar, Russia",
+      "source": "ANSA Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/08/25/attacco-alla-raffineria-russa-di-krasnodar-due-morti_d27a5462-c33d-47ad-974f-6fc15d02c5bb.html",
+      "image": null,
+      "ts": 1787634076000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/europa/2026/08/25/attacco-alla-raffineria-russa-di-krasnodar-due-morti_d27a5462-c33d-47ad-974f-6fc15d02c5bb.html"
+          }
+        ]
+      }
+    },
     {
       "id": "415f78521e4b",
       "title": "Syrian president thanks nation for getting off US state terror list",
@@ -239,6 +343,39 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/economy/2177229"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e8c1270beec5",
+      "title": "Syria off US terror blacklist after nearly 50 years",
+      "description": "The United States removed Syria from its state‑sponsors‑of‑terrorism list, opening the door to renewed diplomatic and economic engagement.",
+      "lat": 33.51,
+      "lng": 36.28999999999999,
+      "severity": 1,
+      "location": "Damascus, Syria",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/syria-off-us-terror-blacklist-after-nearly-50-years-trump-admin-clears-investment-hurdle",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/931/523/ahmed-al-sharaa-donald-trump.jpg?ve=1&tl=1",
+      "ts": 1787618094000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/syria-off-us-terror-blacklist-after-nearly-50-years-trump-admin-clears-investment-hurdle"
           }
         ]
       }
@@ -7296,148 +7433,6 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-08-14/us-to-roll-out-economic-isolation-plan-for-iran-next-week"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b624cf217e24",
-      "title": "US to apply economic measures 'never seen before' on Iran",
-      "description": "The US will apply economic measures 'never seen before' on Iran, according to US Treasury Secretary Bessent.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/middle-east/iran-news/article-905500",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_3582,w_5373/723049",
-      "ts": 1786675168000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/iran-news/article-905500"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8c60cb8d6ba4",
-      "title": "US disputes reports of poor conditions on carrier in Gulf",
-      "description": "The US has disputed reports of poor conditions and mental health strain aboard the USS Abraham Lincoln aircraft carrier in the Middle East.",
-      "lat": 25.98,
-      "lng": 56.25,
-      "severity": 3,
-      "location": "Strait of Hormuz",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/us-disputes-reports-of-trying-conditions-on-carrier-in-gulf/a-78359084?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1786674846714,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/new-aircraft-carrier-heads-to-middle-east-amid-reports-of-uss-abraham-lincoln-issue-11907755#publisher=newsstand"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/us-disputes-reports-of-trying-conditions-on-carrier-in-gulf/a-78359084?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "50ff848cd54b",
-      "title": "US threatens Iran with economic isolation",
-      "description": "US Treasury Secretary Scott Bessent threatened to subject Iran to economic isolation 'like the world has never seen before', adding that new measures are expected next week.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/middle-east/20260814-middle-east-live-us-threatens-iran-with-economic-isolation-like-never-seen-before",
-      "image": "https://s.france24.com/media/display/cf10c646-9783-11f1-b889-005056a97e36/w:1024/p:16x9/AP26211764838482.jpg",
-      "ts": 1786674715000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/middle-east/20260814-middle-east-live-us-threatens-iran-with-economic-isolation-like-never-seen-before"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/iran-news/article-905500"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c4ac839b240e",
-      "title": "Poland foils Russian assassination plot against US citizen in Warsaw",
-      "description": "Polish forces thwarted a Russian assassination plot against a US citizen in Warsaw, in what has been deemed an unprecedented attack from Moscow.",
-      "lat": 53.33,
-      "lng": 21.00999999999999,
-      "severity": 3,
-      "location": "Warsaw, Poland",
-      "source": "Washington Examiner",
-      "url": "https://www.washingtonexaminer.com/news/world/4687219/poland-russia-assassination-plot-us-citizen/",
-      "image": null,
-      "ts": 1786673979000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/world/4687219/poland-russia-assassination-plot-us-citizen/"
           }
         ]
       }
