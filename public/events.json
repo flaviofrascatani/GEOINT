@@ -1,7 +1,121 @@
 {
   "schema": 1,
-  "updated": "2026-08-26T03:15:12.141423+00:00",
+  "updated": "2026-08-26T04:20:57.176270+00:00",
   "events": [
+    {
+      "id": "37a2b6511373",
+      "title": "Iran Blacklists Indian, Pakistani Ships Among 45 For Hormuz \"Violations\"",
+      "description": "Tehran added dozens of vessels to a blacklist, threatening confiscation for breaching transit rules in the Strait of Hormuz.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/iran-blacklists-indian-pakistani-ships-among-45-for-hormuz-violations-11959617#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-08/ffg34f94_hormuz_625x300_19_August_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1787716676000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/iran-blacklists-indian-pakistani-ships-among-45-for-hormuz-violations-11959617#publisher=newsstand"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eb41c2992721",
+      "title": "CIA chief arrived in Russia for contacts between special services, Kremlin tells WP",
+      "description": "The head of the US intelligence agency landed in Moscow for undisclosed meetings with Russian counterparts.",
+      "lat": 55.75,
+      "lng": 37.620000000000005,
+      "severity": 3,
+      "location": "Moscow, Russia",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2177705",
+      "image": null,
+      "ts": 1787715600000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2177705"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f8aec73e4ae5",
+      "title": "Trump sends Saudi civil nuclear agreement to Congress for review",
+      "description": "The US administration forwarded a civilian nuclear cooperation pact with Saudi Arabia to Congress for consideration.",
+      "lat": 41.03,
+      "lng": 32.860000000000014,
+      "severity": 2,
+      "location": "Ankara, Turkey",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/americas/20260826-trump-saudi-civil-nuclear-agreement-congress",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/08/16/456118.jpg",
+      "ts": 1787714251000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/trump-submits-civil-nuclear-agreement-with-saudi-arabia-to-congress-for-review/article71391270.ece"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/08/26/trump-saudi-nuclear-agreement-congress-iran-deal-.html"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/americas/20260826-trump-saudi-civil-nuclear-agreement-congress"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-906593"
+          }
+        ]
+      }
+    },
     {
       "id": "0ae7ed006e00",
       "title": "Russia, Ukraine working toward new large POW exchange",
@@ -36,39 +150,34 @@
       }
     },
     {
-      "id": "f8aec73e4ae5",
-      "title": "Trump sends Saudi nuclear deal to Congress but says Riyadh must recognize Israel",
-      "description": "President Trump forwarded a proposed Saudi nuclear cooperation agreement to Congress, linking its approval to Saudi recognition of Israel.",
-      "lat": 41.03,
-      "lng": 32.860000000000014,
-      "severity": 1,
-      "location": "Ankara, Turkey",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/middle-east/article-906593",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/08/16/456118.jpg",
-      "ts": 1787707778000,
+      "id": "662d03490b6a",
+      "title": "At least 47 dead and more kidnapped as armed men storm 'once peaceful community' in Haiti",
+      "description": "Gunmen attacked the town of Kenscoff, killing dozens and abducting many residents.",
+      "lat": 19.55,
+      "lng": -70.3948,
+      "severity": 4,
+      "location": "Kenscoff, Haiti",
+      "source": "Mirror World",
+      "url": "https://www.mirror.co.uk/news/world-news/haiti-kidnapping-47-dead-peaceful-37593203",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37593197.ece/ALTERNATES/s615/0_Haiti-Gang-Violence-26236704099772.jpg",
+      "ts": 1787709822000,
       "coverage": {
-        "left": 0,
-        "center": 2,
+        "left": 1,
+        "center": 0,
         "right": 0,
-        "total": 2,
+        "total": 1,
         "buckets": {
           "left": 0,
-          "lean_left": 0,
-          "center": 2,
+          "lean_left": 1,
+          "center": 0,
           "lean_right": 0,
           "right": 0
         },
         "sources": [
           {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/article-906593"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQ3lMNk41ZjNONEZiVmpqRFVXTmVIeGU0bjIxbHNheWlHLVNqSFNvMEstQ0hGUlpLOW5FQWhlZjU5Sl90TnhPSWhQY3JrdFZkYmR6ZURGOUVNVGRqWFdCVjdINl9vbXg1S1RId3NpdzczMG5Vc1N0ejVCaVZid0ZVamtRZ0xWRVNkNHZfSnNZMkJvdnZIQ19jMFFZMWttcmFGOFFldTM3dXU3dw?oc=5"
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/haiti-kidnapping-47-dead-peaceful-37593203"
           }
         ]
       }
@@ -7424,105 +7533,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/myanmar-300000-rohingya-refugees-verified-repatriation-exodus-enters-135667075"
-          }
-        ]
-      }
-    },
-    {
-      "id": "eb7901471b30",
-      "title": "Rohingya refugee repatriation",
-      "description": "Myanmar says over 300,000 Rohingya refugees verified for repatriation",
-      "lat": 16.86,
-      "lng": 98.05520000000001,
-      "severity": 1,
-      "location": "Naypyidaw, Myanmar",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/myanmar-300000-rohingya-refugees-verified-repatriation-exodus-enters-135667075",
-      "image": "https://s.abcnews.com/images/International/wirestory_89fcdccc35af7126d62ea7331fa8fdbb_4x3_384.jpg",
-      "ts": 1786774752000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/myanmar-300000-rohingya-refugees-verified-repatriation-exodus-enters-135667075"
-          }
-        ]
-      }
-    },
-    {
-      "id": "83d284d8e531",
-      "title": "Gaza farmers rebuilding",
-      "description": "Small-scale projects offer hope for Gaza farmers rebuilding their lives, with greenhouses and rented plots helping them grow crops despite extensive destruction.",
-      "lat": 30.5574,
-      "lng": 36.099999999999994,
-      "severity": 1,
-      "location": "Gaza, Palestine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/8/15/small-scale-projects-offer-hope-for-gaza-farmers-rebuilding-lives?traffic_source=rss",
-      "image": null,
-      "ts": 1786774207000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/economy/2026/8/15/small-scale-projects-offer-hope-for-gaza-farmers-rebuilding-lives?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "20c9a0cad193",
-      "title": "UK defense supply chain scrutiny",
-      "description": "UK steps up scrutiny of defense supply chain after China scare",
-      "lat": 51.5,
-      "lng": -0.13,
-      "severity": 2,
-      "location": "London, UK",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-15/uk-steps-up-scrutiny-of-defense-supply-chain-after-china-scare",
-      "image": null,
-      "ts": 1786773600000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-15/uk-steps-up-scrutiny-of-defense-supply-chain-after-china-scare"
           }
         ]
       }
