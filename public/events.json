@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-08-26T16:04:05.469726+00:00",
+  "updated": "2026-08-26T16:56:45.386343+00:00",
   "events": [
+    {
+      "id": "41b383804ba5",
+      "title": "Kiev is using Europe's military capabilities to attack buses — Russian diplomat",
+      "description": "A Ukrainian strike on a bus traveling between Lisichansk and Stakhanov killed nine people and injured six.",
+      "lat": 48.92,
+      "lng": 38.44,
+      "severity": 3,
+      "location": "Lisichansk, Ukraine",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2178017",
+      "image": null,
+      "ts": 1787763140000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2178017"
+          }
+        ]
+      }
+    },
+    {
+      "id": "045b2007e5db",
+      "title": "Iranian President says new U.S. sanctions will achieve nothing",
+      "description": "Iran’s president dismissed the latest U.S. sanctions as ineffective, warning they will not change Tehran’s policies.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/iranian-president-says-new-us-sanctions-will-achieve-nothing/article71393712.ece",
+      "image": "https://th-i.thgim.com/public/incoming/k2s18i/article71393789.ece/alternates/LANDSCAPE_1200/2026-08-08T190306Z_41190565_RC2IUMAYIM5T_RTRMADP_3_IRAN-CRISIS.JPG",
+      "ts": 1787762329000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/iranian-president-says-new-us-sanctions-will-achieve-nothing/article71393712.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d39e4c0797a4",
+      "title": "Putin and al-Sharaa discuss Russia‑Syria relations, deal on military bases",
+      "description": "Russia and Syria negotiated the future of Russian air bases in Khmeimim and Tartus as part of a broader bilateral agreement.",
+      "lat": 33.51,
+      "lng": 36.28999999999999,
+      "severity": 2,
+      "location": "Damascus, Syria",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/8/26/putin-and-al-sharaa-discuss-russia-syria-relations-deal-on-military-bases?traffic_source=rss",
+      "image": null,
+      "ts": 1787761662000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/8/26/putin-and-al-sharaa-discuss-russia-syria-relations-deal-on-military-bases?traffic_source=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "cd28b6f9345f",
       "title": "Hungary labels Russia a ‘threat’",
@@ -7324,115 +7423,6 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-08-15/zambian-president-hichilema-takes-early-lead-in-reelection-bid"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a643341c9cdb",
-      "title": "Senegal hikes fuel prices",
-      "description": "Senegal has raised fuel prices in a move the government says is necessary because of the sharp rise in global oil costs.",
-      "lat": 14.73,
-      "lng": -17.38,
-      "severity": 3,
-      "location": "Dakar, Senegal",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/08/15/senegal-hikes-fuel-prices-amid-surge-in-global-oil-markets/",
-      "image": "http://images.euronews.com/articles/stories/09/87/56/50/640x360_cmsv2_1f93ae03-7781-5e0e-99f2-fe0705995f3f-9875650.jpg?1786799489",
-      "ts": 1786804900000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/15/senegal-hikes-fuel-prices-amid-surge-in-global-oil-markets/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0de88f7cfefe",
-      "title": "Powerful magnitude 7.7 earthquake kills at least 47 in Indonesia",
-      "description": "A search and rescue operation is underway to find survivors in Flores, an island in eastern Indonesia, after a powerful earthquake.",
-      "lat": -6.92,
-      "lng": 122.6626,
-      "severity": 4,
-      "location": "Flores, Indonesia",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c5y0zz63gero?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cbf0/live/97cf9550-9877-11f1-a7ab-8b30adf0800a.jpg",
-      "ts": 1786800957000,
-      "coverage": {
-        "left": 0,
-        "center": 3,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c5y0zz63gero?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/world/2026/0815/1587978-indonesia-earthquake-death/"
-          },
-          {
-            "n": "Nikkei Asia",
-            "b": "center",
-            "u": "https://asia.nikkei.com/economy/natural-disasters/at-least-47-dead-in-eastern-indonesia-earthquake-of-magnitude-7.7"
-          }
-        ]
-      }
-    },
-    {
-      "id": "56f7b00ec970",
-      "title": "China's new Arctic route",
-      "description": "China has launched a new Arctic route that reduces travel time to Europe by 20 days, but comes with significant risks",
-      "lat": 41.0,
-      "lng": 116.39999999999998,
-      "severity": 2,
-      "location": "Beijing, China",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/chinas-new-arctic-route-is-a-20-day-voyage-to-europe-but-theres-a-catch-11914723#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-08/qjgo6un4_xi-jinping-putin-afp_625x300_15_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1786799537000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/chinas-new-arctic-route-is-a-20-day-voyage-to-europe-but-theres-a-catch-11914723#publisher=newsstand"
           }
         ]
       }
