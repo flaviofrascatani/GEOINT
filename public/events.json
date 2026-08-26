@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-26T01:54:48.896035+00:00",
+  "updated": "2026-08-26T03:15:12.141423+00:00",
   "events": [
+    {
+      "id": "0ae7ed006e00",
+      "title": "Russia, Ukraine working toward new large POW exchange",
+      "description": "Both sides said they are negotiating lists for a large-scale prisoner‑of‑war swap, aiming to release hundreds of detainees.",
+      "lat": 51.55,
+      "lng": 30.52000000000001,
+      "severity": 1,
+      "location": "Kyiv, Ukraine",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2177701",
+      "image": null,
+      "ts": 1787712600000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2177701"
+          }
+        ]
+      }
+    },
     {
       "id": "f8aec73e4ae5",
       "title": "Trump sends Saudi nuclear deal to Congress but says Riyadh must recognize Israel",
@@ -193,6 +226,39 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/world/2177653"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7ff853467696",
+      "title": "Venezuela exchange rate gap fell to 12.3 % as oil output rises",
+      "description": "Acting President Delcy Rodríguez reported a narrowing exchange‑rate gap and record oil production, signaling economic stabilization.",
+      "lat": 11.58,
+      "lng": -66.9,
+      "severity": 3,
+      "location": "Caracas, Venezuela",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/venezuela-exchange-rate-gap-12-3-2026/",
+      "image": null,
+      "ts": 1787696964000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/venezuela-exchange-rate-gap-12-3-2026/"
           }
         ]
       }
@@ -481,24 +547,24 @@
     {
       "id": "25a36b51b9f5",
       "title": "Canada Announces $20 Billion In Retaliatory Tariffs On U.S. Goods",
-      "description": "Ottawa unveiled a massive tariff package targeting a wide range of American imports in response to U.S. trade measures.",
+      "description": "Ottawa unveiled a $20 billion tariff package on a range of American imports in response to U.S. trade measures.",
       "lat": 38.9,
       "lng": -77.04,
-      "severity": 3,
+      "severity": 2,
       "location": "Washington, USA",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/canada-retaliatory-tariffs-trump-trade-war_n_6a8daf9fe4b07583705b7fde",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e708/live/0a3afb60-a0ad-11f1-a54e-272d756c341e.jpg",
       "ts": 1787687457000,
       "coverage": {
-        "left": 2,
-        "center": 1,
+        "left": 1,
+        "center": 2,
         "right": 0,
         "total": 3,
         "buckets": {
           "left": 1,
-          "lean_left": 1,
-          "center": 1,
+          "lean_left": 0,
+          "center": 2,
           "lean_right": 0,
           "right": 0
         },
@@ -509,9 +575,9 @@
             "u": "https://www.huffpost.com/entry/canada-retaliatory-tariffs-trump-trade-war_n_6a8daf9fe4b07583705b7fde"
           },
           {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/canada-to-impose-up-to-50-tariffs-on-700-us-goods-as-trade-war-escalates-11957844#publisher=newsstand"
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNakZzdURoeWVCRFVRUVotX3NidXdfX1h3YUU1WVF2RUlIRy02dzRsQ1V5ZTRTUW5tekR5Q1Y5LXVKNWRZMmVoLWxYTzNEUGRjeFlZY2s2NFR4aVVrSElJLW5Wd2QzUGRoOTd6RE5tMlZfWi1Ba2Zvbkw0ZmU3elZfLURSbl82Y29sUU9zSUluY0pVM1I4VWRN?oc=5"
           },
           {
             "n": "Bloomberg Politics",
@@ -7457,77 +7523,6 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-08-15/uk-steps-up-scrutiny-of-defense-supply-chain-after-china-scare"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6cbebe0afbd3",
-      "title": "India Independence Day greetings from Marco Rubio",
-      "description": "Marco Rubio praises US-India relationship citing defence, energy, and AI cooperation on Independence Day",
-      "lat": 28.61,
-      "lng": 77.21,
-      "severity": 1,
-      "location": "New Delhi, India",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/marco-rubio-extends-greetings-to-india-on-independence-day-congratulations-11912470#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-07/aq73b6rs_marco-rubio_625x300_23_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-      "ts": 1786764746000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/marco-rubio-extends-greetings-to-india-on-independence-day-congratulations-11912470#publisher=newsstand"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/15/india-marks-80th-independence-day-with-military-display?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "956197ee22d4",
-      "title": "Sanctions alone cannot topple Iran’s regime",
-      "description": "A former Treasury official says that sanctions alone cannot topple Iran’s regime, as the US ramps up economic pressure on the country.",
-      "lat": 36.79,
-      "lng": 53.295199999999994,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE43X1EtTjhJeFNrWjA4bmI5MlVZd3lyNXpxVzRmeGVtdElRdTJXMFpGOFF1OVpGM2I2UGtieXJjVThVWEdfVG1xN0gtclhnaVF2S1E?oc=5",
-      "image": null,
-      "ts": 1786761344000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE43X1EtTjhJeFNrWjA4bmI5MlVZd3lyNXpxVzRmeGVtdElRdTJXMFpGOFF1OVpGM2I2UGtieXJjVThVWEdfVG1xN0gtclhnaVF2S1E?oc=5"
           }
         ]
       }
