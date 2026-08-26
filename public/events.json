@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-08-26T07:57:25.875867+00:00",
+  "updated": "2026-08-26T08:57:56.037618+00:00",
   "events": [
+    {
+      "id": "9571d6d460fb",
+      "title": "Indonesia’s forestry ministry processes 42 forest fire cases, sanctions six companies",
+      "description": "Indonesia’s government sanctioned six firms after detecting thousands of fire hotspots, mainly in Kalimantan, to curb illegal burning.",
+      "lat": 0.03,
+      "lng": 109.34,
+      "severity": 2,
+      "location": "Pontianak, Kalimantan, Indonesia",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/asia/indonesia-forest-fires-haze-kalimantan-6342171",
+      "image": null,
+      "ts": 1787734111000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/asia/indonesia-forest-fires-haze-kalimantan-6342171"
+          }
+        ]
+      }
+    },
+    {
+      "id": "32b6529e6c7d",
+      "title": "Chile debates a state of emergency of up to eight months without congressional approval",
+      "description": "President José Antonio Kast’s government is willing to amend a constitutional security reform bill after objections, raising political tension.",
+      "lat": -32.35,
+      "lng": -70.66,
+      "severity": 3,
+      "location": "Santiago, Chile",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/08/26/chile-debates-a-state-of-emergency-of-up-to-eight-months-without-congressional-approval?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": "https://en.mercopress.com/data/cache/noticias/111269/100x80/kast.jpeg",
+      "ts": 1787733720000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/08/26/chile-debates-a-state-of-emergency-of-up-to-eight-months-without-congressional-approval?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "d338c058f7b4",
       "title": "Ahead of National Day celebrations, Malaysia to step up haze mitigation measures with Indonesia",
@@ -218,10 +284,10 @@
     {
       "id": "3def73d881d9",
       "title": "US launches new drug boat strike in the Caribbean, citing narcoterrorism",
-      "description": "U.S. forces carried out a lethal strike on a suspected drug‑smuggling vessel operating in Caribbean waters.",
+      "description": "U.S. forces carried out a lethal strike on an alleged drug‑smuggling vessel traveling through established narco‑trafficking routes in the Caribbean.",
       "lat": 18.22,
       "lng": -66.59,
-      "severity": 3,
+      "severity": 4,
       "location": "Caribbean Sea near Puerto Rico",
       "source": "The Hill",
       "url": "https://thehill.com/policy/defense/6050947-us-military-drug-boat-strike/",
@@ -244,6 +310,44 @@
             "n": "The Hill",
             "b": "center",
             "u": "https://thehill.com/policy/defense/6050947-us-military-drug-boat-strike/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "25a36b51b9f5",
+      "title": "Canada announces retaliatory tariffs on U.S. products as trade war deepens",
+      "description": "Canada imposed tariffs of up to 50 % on hundreds of American goods in response to new U.S. tariffs, escalating the trade dispute.",
+      "lat": 38.9,
+      "lng": -77.04,
+      "severity": 2,
+      "location": "Washington, USA",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/business/2026/08/25/canada-issues-retaliatory-tariffs-up-50-percent-us-imports/",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e708/live/0a3afb60-a0ad-11f1-a54e-272d756c341e.jpg",
+      "ts": 1787712626000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 1,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/canada-retaliatory-tariffs-trump-trade-war_n_6a8daf9fe4b07583705b7fde"
+          },
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/business/2026/08/25/canada-issues-retaliatory-tariffs-up-50-percent-us-imports/"
           }
         ]
       }
@@ -854,49 +958,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/business/economy/halkbank-secures-11b-in-fresh-funding-after-us-case-dismissed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "25a36b51b9f5",
-      "title": "Canada Will Announce Retaliatory Tariffs Against The United States On Tuesday",
-      "description": "Canada plans to impose retaliatory tariffs on U.S. goods in response to trade disputes.",
-      "lat": 38.9,
-      "lng": -77.04,
-      "severity": 3,
-      "location": "Washington, USA",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/canada-retailatory-tariffs-report_n_6a8cca28e4b004726c0a0874",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e708/live/0a3afb60-a0ad-11f1-a54e-272d756c341e.jpg",
-      "ts": 1787687457000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 1,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/canada-retailatory-tariffs-report_n_6a8cca28e4b004726c0a0874"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNakZzdURoeWVCRFVRUVotX3NidXdfX1h3YUU1WVF2RUlIRy02dzRsQ1V5ZTRTUW5tekR5Q1Y5LXVKNWRZMmVoLWxYTzNEUGRjeFlZY2s2NFR4aVVrSElJLW5Wd2QzUGRoOTd6RE5tMlZfWi1Ba2Zvbkw0ZmU3elZfLURSbl82Y29sUU9zSUluY0pVM1I4VWRN?oc=5"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/videos/2026-08-26/us-weighs-more-trade-measures-against-canada-video"
           }
         ]
       }
@@ -7447,82 +7508,6 @@
             "n": "Daily Express World",
             "b": "right",
             "u": "https://www.express.co.uk/news/world/2239402/granada-earthquake-live-spain-terremoto-today-Alhendin-hotels"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8da33cdc1cdf",
-      "title": "Strait of Hormuz ship attacks",
-      "description": "More ships have come under attack in the Strait of Hormuz as talks to end the war in the Middle East remain stalled",
-      "lat": 27.67,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-15/hormuz-ship-attacks-mount-as-us-vows-to-cripple-iran-s-economy",
-      "image": null,
-      "ts": 1786785183000,
-      "coverage": {
-        "left": 2,
-        "center": 1,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/uae-state-oil-company-says-vessel-attacked-in-hormuz-strait/article71348404.ece"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-15/hormuz-ship-attacks-mount-as-us-vows-to-cripple-iran-s-economy"
-          }
-        ]
-      }
-    },
-    {
-      "id": "81a6dc9c5478",
-      "title": "Iran ramps up propaganda war with US",
-      "description": "Anti-US messaging has intensified since the death of Supreme Leader Ayatollah Ali Khamenei, with artificial intelligence playing a major role",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "NBC News World",
-      "url": "https://www.nbcnews.com/world/iran/revenge-inevitable-iran-ramps-propaganda-war-violent-billboards-rcna591867",
-      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-08/260811-tehran-mb-1232-2f8c36.jpg",
-      "ts": 1786784440000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/iran/revenge-inevitable-iran-ramps-propaganda-war-violent-billboards-rcna591867"
           }
         ]
       }
