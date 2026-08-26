@@ -1,7 +1,45 @@
 {
   "schema": 1,
-  "updated": "2026-08-25T23:56:40.343451+00:00",
+  "updated": "2026-08-26T01:54:48.896035+00:00",
   "events": [
+    {
+      "id": "f8aec73e4ae5",
+      "title": "Trump sends Saudi nuclear deal to Congress but says Riyadh must recognize Israel",
+      "description": "President Trump forwarded a proposed Saudi nuclear cooperation agreement to Congress, linking its approval to Saudi recognition of Israel.",
+      "lat": 41.03,
+      "lng": 32.860000000000014,
+      "severity": 1,
+      "location": "Ankara, Turkey",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/article-906593",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/08/16/456118.jpg",
+      "ts": 1787707778000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-906593"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQ3lMNk41ZjNONEZiVmpqRFVXTmVIeGU0bjIxbHNheWlHLVNqSFNvMEstQ0hGUlpLOW5FQWhlZjU5Sl90TnhPSWhQY3JrdFZkYmR6ZURGOUVNVGRqWFdCVjdINl9vbXg1S1RId3NpdzczMG5Vc1N0ejVCaVZid0ZVamtRZ0xWRVNkNHZfSnNZMkJvdnZIQ19jMFFZMWttcmFGOFFldTM3dXU3dw?oc=5"
+          }
+        ]
+      }
+    },
     {
       "id": "bd3551c85690",
       "title": "CIA Director John Ratcliffe on secret trip in Russia – US C‑17 lands in Moscow",
@@ -238,6 +276,39 @@
       }
     },
     {
+      "id": "5463a6a2758f",
+      "title": "US‑led Gaza peace board warns Hamas over kites after Israeli threat",
+      "description": "The board overseeing the Gaza peace plan urged Hamas to stop militant activities, including kite‑based surveillance, following Israeli warnings.",
+      "lat": 30.5674,
+      "lng": 35.00999999999999,
+      "severity": 2,
+      "location": "Gaza City, Palestine",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20260825-us-gaza-peace-board-hamas-kites-israeli-threat",
+      "image": "https://s.france24.com/media/display/71071d0c-a0ca-11f1-bdf3-005056bfb2b6/w:1024/p:16x9/ES-20260825-121107-121253-CS.jpg",
+      "ts": 1787694577000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20260825-us-gaza-peace-board-hamas-kites-israeli-threat"
+          }
+        ]
+      }
+    },
+    {
       "id": "c11c4613f68c",
       "title": "Syria’s Kurds dissolve military force and integrate fighters with Damascus",
       "description": "The Kurdish militia announced its dissolution and the integration of its fighters into the Syrian army, a step toward national unity.",
@@ -409,25 +480,25 @@
     },
     {
       "id": "25a36b51b9f5",
-      "title": "Canada announces 'dollar‑for‑dollar' retaliatory tariffs on US as high as 50%",
-      "description": "Canada will impose steep tariffs on a range of American goods in response to U.S. trade measures.",
+      "title": "Canada Announces $20 Billion In Retaliatory Tariffs On U.S. Goods",
+      "description": "Ottawa unveiled a massive tariff package targeting a wide range of American imports in response to U.S. trade measures.",
       "lat": 38.9,
       "lng": -77.04,
-      "severity": 2,
+      "severity": 3,
       "location": "Washington, USA",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/canada-retaliatory-tariffs-trump-trade-war_n_6a8daf9fe4b07583705b7fde",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e708/live/0a3afb60-a0ad-11f1-a54e-272d756c341e.jpg",
       "ts": 1787687457000,
       "coverage": {
-        "left": 1,
-        "center": 2,
+        "left": 2,
+        "center": 1,
         "right": 0,
         "total": 3,
         "buckets": {
           "left": 1,
-          "lean_left": 0,
-          "center": 2,
+          "lean_left": 1,
+          "center": 1,
           "lean_right": 0,
           "right": 0
         },
@@ -438,14 +509,14 @@
             "u": "https://www.huffpost.com/entry/canada-retaliatory-tariffs-trump-trade-war_n_6a8daf9fe4b07583705b7fde"
           },
           {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&at_campaign=rss"
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/canada-to-impose-up-to-50-tariffs-on-700-us-goods-as-trade-war-escalates-11957844#publisher=newsstand"
           },
           {
-            "n": "Sky News World",
+            "n": "Bloomberg Politics",
             "b": "center",
-            "u": "https://news.sky.com/story/canada-announces-retaliatory-tariffs-as-trade-war-with-us-heats-up-13577017"
+            "u": "https://www.bloomberg.com/news/articles/2026-08-25/doug-ford-seeks-truce-with-trump-as-canada-doubles-steel-aluminum-tariffs-to-50"
           }
         ]
       }
@@ -3806,49 +3877,6 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/644311-trump-south-korea-scale-back-drill/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f8aec73e4ae5",
-      "title": "Trump welcomes defense pact between Saudi Arabia, Turkey, and Pakistan",
-      "description": "President Trump welcomed a fresh security agreement forged by Saudi Arabia, Turkey, and Pakistan, framing the regional trilateral deal as a positive step toward broader stability.",
-      "lat": 41.03,
-      "lng": 32.860000000000014,
-      "severity": 2,
-      "location": "Ankara, Turkey",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/politics/diplomacy/trump-hails-defense-pact-between-turkiye-pakistan-saudi-arabia",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/08/16/456118.jpg",
-      "ts": 1786920720000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/iran-us-west-asia-war-strait-of-hormuz-donald-trump-live-updates-on-august-17-2026/article71354691.ece"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/uae-saudi-arabia-others-condemn-israel-s-rejection-of-trump-gaza-plan/a-78389399?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/politics/diplomacy/trump-hails-defense-pact-between-turkiye-pakistan-saudi-arabia"
           }
         ]
       }
@@ -7500,39 +7528,6 @@
             "n": "GNews Geopolitics",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE43X1EtTjhJeFNrWjA4bmI5MlVZd3lyNXpxVzRmeGVtdElRdTJXMFpGOFF1OVpGM2I2UGtieXJjVThVWEdfVG1xN0gtclhnaVF2S1E?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "523d9cba7945",
-      "title": "Taliban rule in Afghanistan",
-      "description": "The Taliban is celebrating its five years of ruling Afghanistan, with bright white flags of the Islamic Emirate of Afghanistan installed across the capital Kabul.",
-      "lat": 35.62,
-      "lng": 71.0752,
-      "severity": 3,
-      "location": "Kabul, Afghanistan",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/5-years-of-taliban-rule-in-afghanistan-what-has-changed-11912555#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-08/undthvbs_taliban-government-5-years-celebration_625x300_15_August_26.jpeg",
-      "ts": 1786760114000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/5-years-of-taliban-rule-in-afghanistan-what-has-changed-11912555#publisher=newsstand"
           }
         ]
       }
