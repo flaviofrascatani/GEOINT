@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-08-26T09:53:58.732650+00:00",
+  "updated": "2026-08-26T10:48:21.910525+00:00",
   "events": [
+    {
+      "id": "0795f6de8471",
+      "title": "Germany increasingly in the crosshairs of hybrid attacks",
+      "description": "German chancellor warned that perpetrators of hybrid attacks, including an explosive drone found at an airport, will be held accountable.",
+      "lat": 53.62,
+      "lng": 13.409999999999997,
+      "severity": 2,
+      "location": "Berlin, Germany",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/video/20260826-germany-increasingly-in-the-crosshairs-of-hybrid-attacks",
+      "image": "https://s.france24.com/media/display/3f0d88e4-a12a-11f1-8771-005056a90284/w:1024/p:16x9/EN-20260826-100121-100549-CS.jpg",
+      "ts": 1787740145000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/video/20260826-germany-increasingly-in-the-crosshairs-of-hybrid-attacks"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7e7ff5a9e5f9",
+      "title": "Venezuela’s Oil Exports to the US Hit a Seven-Year High",
+      "description": "Venezuela shipped about 786,000 barrels per day to the United States in July 2026, the strongest flow since 2019, signalling a shift in regional energy trade.",
+      "lat": 38.9,
+      "lng": -77.04,
+      "severity": 2,
+      "location": "Washington, DC, USA",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/venezuela-economy-after-maduro-2026/",
+      "image": null,
+      "ts": 1787739000000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/venezuela-economy-after-maduro-2026/"
+          }
+        ]
+      }
+    },
     {
       "id": "495fc5957ad3",
       "title": "Electricity minister discusses Dabaa plant, SMRs with Rosatom in Russia",
@@ -5991,48 +6057,48 @@
     },
     {
       "id": "32ad17436dfb",
-      "title": "UAE condemns Iran for attacking 3rd state-owned oil tanker in Strait of Hormuz in 1 week",
-      "description": "The United Arab Emirates has accused Iran of attacking another vessel belonging to its state oil company, the Abu Dhabi National Oil Company (ADNOC), as it attempted to travel through the Strait of Hormuz.",
+      "title": "Graphic: Tracking ship traffic through the Strait of Hormuz — Traffic through the Strait of Hormuz has been at a near-standstill for weeks amid the Iran war, sending prices of oil and other key goods ",
+      "description": "Shipping through the Strait of Hormuz has virtually stopped as the Iran‑Israel conflict disrupts a key oil route, pushing global energy prices higher.",
       "lat": 33.35,
       "lng": 37.5352,
-      "severity": 3,
+      "severity": 4,
       "location": "Southern Lebanon",
-      "source": "OAN",
-      "url": "https://www.oann.com/newsroom/uae-condemns-iran-for-attacking-3rd-state-owned-oil-tanker-in-strait-of-hormuz-in-1-week/",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/data-graphics/strait-of-hormuz-ports-traffic-trump-us-iran-war-rcna331507",
       "image": null,
       "ts": 1786858020000,
       "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 2,
+        "left": 2,
+        "center": 2,
+        "right": 0,
         "total": 4,
         "buckets": {
           "left": 0,
-          "lean_left": 1,
-          "center": 1,
+          "lean_left": 2,
+          "center": 2,
           "lean_right": 0,
-          "right": 2
+          "right": 0
         },
         "sources": [
           {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/data-graphics/strait-of-hormuz-ports-traffic-trump-us-iran-war-rcna331507"
+          },
+          {
             "n": "CBS News World",
             "b": "lean_left",
-            "u": "https://www.cbsnews.com/video/iran-calls-trumps-plan-to-turn-strait-of-hormuz-into-us-territory-delusions/"
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-sanctions/"
           },
           {
-            "n": "Al-Monitor",
+            "n": "BBC World",
             "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/uae-says-iran-attacked-adnoc-vessel-hormuz-urges-waterways-reopening"
+            "u": "https://www.bbc.co.uk/news/articles/cwyzw836d05o?at_medium=RSS&at_campaign=rss"
           },
           {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/newsroom/uae-condemns-iran-for-attacking-3rd-state-owned-oil-tanker-in-strait-of-hormuz-in-1-week/"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/world/4688854/uae-iran-attacked-vessel-strait-of-hormuz/"
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/videos/2026-08-26/daybreak-europe-8-26-2026-video"
           }
         ]
       }
@@ -7412,102 +7478,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/08/lebanon-says-9-dead-strikes-israel-says-targeted-hezbollah"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1a59e02ccf62",
-      "title": "Iran rejects US claim on Strait of Hormuz",
-      "description": "Iran rejected US claims on the Strait of Hormuz, calling them 'delusions'.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "Google News Top",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU2ZvbVItbFVkSEtKRWtqa1h3eUFsWTlscFhLMzJNenJXZTJXX2FINGl4R01BdTdlMWtqWkFFTXNMUE9OZkx2TVMxdER6TnZHLVV4SmhGNU1lNV9Ja1RHZWZWajVXQ3pMWFk3Y1NDNUE0ME01Y1J3M2xyUUI1VkRTY3FoeTBwRXlXejFiZVlUYVAwY1JKaG9fd0dmTzFocHhYX1RZ?oc=5",
-      "image": null,
-      "ts": 1786790834000,
-      "coverage": {
-        "left": 2,
-        "center": 3,
-        "right": 2,
-        "total": 7,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 3,
-          "lean_right": 0,
-          "right": 2
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/101-east/2026/8/15/is-china-seeking-to-copy-irans-strait-of-hormuz-blockade-around-taiwan?traffic_source=rss"
-          },
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/homenews/administration/6031242-live-updates-iran-responds-to-trumps-strait-of-hormuz-comments-katie-millers-podcast-continues-to-grow/"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/international/article-905560"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU2ZvbVItbFVkSEtKRWtqa1h3eUFsWTlscFhLMzJNenJXZTJXX2FINGl4R01BdTdlMWtqWkFFTXNMUE9OZkx2TVMxdER6TnZHLVV4SmhGNU1lNV9Ja1RHZWZWajVXQ3pMWFk3Y1NDNUE0ME01Y1J3M2xyUUI1VkRTY3FoeTBwRXlXejFiZVlUYVAwY1JKaG9fd0dmTzFocHhYX1RZ?oc=5"
-          },
-          {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/newsroom/trump-after-we-finish-defeating-iran-ill-be-declaring-the-hormuz-strait-a-territory-of-the-u-s/"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/white-house/4688580/iran-rebukes-trumps-strait-of-hormuz-territory-comment/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0ff90e2cdc5b",
-      "title": "Egyptian, Cypriot FMs praise growing relations",
-      "description": "Egyptian and Cypriot foreign ministers praised the growing momentum in bilateral relations during a phone call.",
-      "lat": 30.05,
-      "lng": 31.25,
-      "severity": 1,
-      "location": "Cairo, Egypt",
-      "source": "Egypt Independent",
-      "url": "https://www.egyptindependent.com/egyptian-cypriot-fms-praise-growing-momentum-in-bilateral-relations/",
-      "image": null,
-      "ts": 1786789722000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/egyptian-cypriot-fms-praise-growing-momentum-in-bilateral-relations/"
           }
         ]
       }
