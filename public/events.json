@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-08-26T06:03:59.238618+00:00",
+  "updated": "2026-08-26T07:05:39.469660+00:00",
   "events": [
     {
       "id": "dc538d25b763",
@@ -184,11 +184,11 @@
     },
     {
       "id": "3def73d881d9",
-      "title": "U.S. launches drug‑boat strike in the Caribbean",
-      "description": "U.S. military targeted a suspected narcotics vessel in Caribbean waters, killing four people.",
+      "title": "US launches new drug boat strike in the Caribbean, citing narcoterrorism",
+      "description": "U.S. forces carried out a lethal strike on a suspected drug‑smuggling vessel operating in Caribbean waters.",
       "lat": 18.22,
       "lng": -66.59,
-      "severity": 4,
+      "severity": 3,
       "location": "Caribbean Sea near Puerto Rico",
       "source": "The Hill",
       "url": "https://thehill.com/policy/defense/6050947-us-military-drug-boat-strike/",
@@ -208,9 +208,9 @@
         },
         "sources": [
           {
-            "n": "DW News",
+            "n": "The Hill",
             "b": "center",
-            "u": "https://www.dw.com/en/us-military-kills-4-in-caribbean-boat-strike/a-78502726?maca=en-rss-en-all-1573-rdf"
+            "u": "https://thehill.com/policy/defense/6050947-us-military-drug-boat-strike/"
           }
         ]
       }
@@ -363,6 +363,79 @@
             "n": "South China Morning Post",
             "b": "center",
             "u": "https://www.scmp.com/news/world/middle-east/article/3365259/us-starts-returning-staff-middle-east-missions-after-iran-war-evacuations-sources-say?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d0bb3af6d132",
+      "title": "As U.S.-Canada trade war escalates, Ontario Premier Doug Ford says Trump is \"treating us like we're Communist China\"",
+      "description": "Premier Doug Ford warns that the escalating U.S.-Canada tariff dispute is harming bilateral trade relations.",
+      "lat": 40.0,
+      "lng": -75.1348,
+      "severity": 3,
+      "location": "Washington, DC, United States",
+      "source": "Google News Top",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQalVZV0VlcGdEMTU3Y2NmRXBSVTU0VklJR0N5SjhzTThqcFU3WE1wcHVCZzFpbVhXbDhacldTUklWV2dFblFsQVNINVRGTm9aYUppbEt0Q1RQUjhrTWZoTDVUejhubFF2VF9Nd25ka0MtT1JaM2I5ekhFQjFyMjkyTW13YWpBNk0?oc=5",
+      "image": null,
+      "ts": 1787699408000,
+      "coverage": {
+        "left": 5,
+        "center": 3,
+        "right": 1,
+        "total": 9,
+        "buckets": {
+          "left": 1,
+          "lean_left": 4,
+          "center": 3,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/trump-carney-trade-war-tariffs_n_6a8c4edce4b07583705ac198"
+          },
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/08/25/us-canada-are-trade-war-china-aims-win-it/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/us-says-trump-is-ending-canadas-free-ride-amid-escalating-tariff-dispute-11959114#publisher=newsstand"
+          },
+          {
+            "n": "Business Insider",
+            "b": "lean_left",
+            "u": "https://www.businessinsider.com/trump-canada-tariffs-americas-favorite-cars-toyota-chevy-honda-2026-8"
+          },
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/08/25/trump-lake-america-ontario-name-change-canada/"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/08/25/trump-french-language-canada-lake-ontario"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQalVZV0VlcGdEMTU3Y2NmRXBSVTU0VklJR0N5SjhzTThqcFU3WE1wcHVCZzFpbVhXbDhacldTUklWV2dFblFsQVNINVRGTm9aYUppbEt0Q1RQUjhrTWZoTDVUejhubFF2VF9Nd25ka0MtT1JaM2I5ekhFQjFyMjkyTW13YWpBNk0?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/videos/2026-08-26/trump-prepares-next-move-as-canada-trade-war-spirals-video"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/americas/trump-floats-lake-america-name-for-lake-ontario-amid-canada-row"
           }
         ]
       }
@@ -1470,89 +1543,6 @@
             "n": "GNews Geopolitics",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1famY5dkNNeXZoLUR5aDdZMlhPYURwNE0wMy1ZSkhDWG9lMUtJX19UbExFS0FYdWhVUkQ2cmFDa3BtR2N1NGJoNjhPRWxlVHI2cDRiSWE5eldnWGcyN09rV0tfUFpKaXVVYUwwT1JoMmtYc21wdDF1NnhJa9IBgAFBVV95cUxNcmRGTmIwWlF4T3N0MDZOR24wMEYwam04UFV1N3BsMmhZM0lHeTdUX1ZsZXFHejlIaWFpeVM1SGkyak5JekZHckZ3X3RwUzcyQW51Ml9lbWN3RFV1cW12Z1FHallHT1pFNTNlUWw4TDNDUVlhMHAwLXhQVWJLQjNocQ?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d0bb3af6d132",
-      "title": "Canada matches Trump tariffs with 50% tax on US steel, furniture, dairy",
-      "description": "Prime Minister Mark Carney announced retaliatory tariffs of up to 50% on a range of US goods in response to President Trump’s trade measures.",
-      "lat": 40.0,
-      "lng": -75.1348,
-      "severity": 4,
-      "location": "Washington, DC, United States",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-25/canada-s-carney-matches-trump-tariffs-with-50-tax-on-us-steel-furniture-dairy",
-      "image": null,
-      "ts": 1787673007000,
-      "coverage": {
-        "left": 4,
-        "center": 5,
-        "right": 2,
-        "total": 11,
-        "buckets": {
-          "left": 1,
-          "lean_left": 3,
-          "center": 5,
-          "lean_right": 0,
-          "right": 2
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/trump-carney-trade-war-tariffs_n_6a8c4edce4b07583705ac198"
-          },
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/24/trumps-trade-war-with-canada-has-carney-facing-his-biggest-test-yet/"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/business/consumer/canada-retaliates-against-trump-tariffs-rcna594280"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/trump-wants-to-rename-lake-ontario-lake-america-amid-trade-war-with-canada-11957871#publisher=newsstand"
-          },
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/08/25/trump-french-language-canada-lake-ontario"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/3b7ac1fe-4761-4b4a-8fff-95c8c28566b9?syn-25a6b1a6=1"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/americas/20260825-canada-strikes-back-trump-with-retaliatory-tariffs-us-trade-war-escalates"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNakZzdURoeWVCRFVRUVotX3NidXdfX1h3YUU1WVF2RUlIRy02dzRsQ1V5ZTRTUW5tekR5Q1Y5LXVKNWRZMmVoLWxYTzNEUGRjeFlZY2s2NFR4aVVrSElJLW5Wd2QzUGRoOTd6RE5tMlZfWi1Ba2Zvbkw0ZmU3elZfLURSbl82Y29sUU9zSUluY0pVM1I4VWRN?oc=5"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-25/canada-s-carney-matches-trump-tariffs-with-50-tax-on-us-steel-furniture-dairy"
-          },
-          {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/newsroom/trump-teases-renaming-lake-ontario-to-lake-america-amid-u-s-canada-trade-war/"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/world/4699324/canada-retaliates-trump-tariffs/"
           }
         ]
       }
