@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-08-26T04:20:57.176270+00:00",
+  "updated": "2026-08-26T05:09:05.332643+00:00",
   "events": [
     {
       "id": "37a2b6511373",
@@ -112,6 +112,39 @@
             "n": "Jerusalem Post",
             "b": "center",
             "u": "https://www.jpost.com/middle-east/article-906593"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3def73d881d9",
+      "title": "U.S. launches drug‑boat strike in the Caribbean",
+      "description": "U.S. military targeted a suspected narcotics vessel in Caribbean waters, killing four people.",
+      "lat": 18.22,
+      "lng": -66.59,
+      "severity": 4,
+      "location": "Caribbean Sea near Puerto Rico",
+      "source": "The Hill",
+      "url": "https://thehill.com/policy/defense/6050947-us-military-drug-boat-strike/",
+      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/03/AP26015724280595-e1773748276374.jpg?w=900",
+      "ts": 1787713263000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/us-military-kills-4-in-caribbean-boat-strike/a-78502726?maca=en-rss-en-all-1573-rdf"
           }
         ]
       }
@@ -556,11 +589,11 @@
     },
     {
       "id": "ccb25bb4f390",
-      "title": "US hails YPG dissolution as 'united Syria' takes shape",
-      "description": "U.S. Special Envoy for Syria welcomed the YPG's decision to dissolve, calling it a step toward a unified Syria.",
+      "title": "U.S. hails YPG dissolution as ‘united Syria’ takes shape",
+      "description": "U.S. envoy praised the Kurdish YPG’s decision to disband, viewing it as a step toward a unified Syrian state.",
       "lat": 33.5138,
       "lng": 36.2765,
-      "severity": 1,
+      "severity": 2,
       "location": "Damascus, Syria",
       "source": "Daily Sabah",
       "url": "https://www.dailysabah.com/world/mid-east/us-hails-ypg-dissolution-as-united-syria-takes-shape",
@@ -7500,39 +7533,6 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/08/15/morocco-and-spain-boost-security-in-ceuta-as-another-call-for-border-rush-seen-online/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d19c2948c9cb",
-      "title": "Myanmar Rohingya refugees",
-      "description": "Myanmar's military-backed government says it has verified that more than 300,000 Rohingya refugees living in camps in Bangladesh are former residents of western Rakhine state.",
-      "lat": 17.97,
-      "lng": 96.13,
-      "severity": 2,
-      "location": "Naypyidaw, Myanmar",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/myanmar-300000-rohingya-refugees-verified-repatriation-exodus-enters-135667075",
-      "image": "https://s.abcnews.com/images/International/wirestory_89fcdccc35af7126d62ea7331fa8fdbb_4x3_384.jpg",
-      "ts": 1786774752000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/myanmar-300000-rohingya-refugees-verified-repatriation-exodus-enters-135667075"
           }
         ]
       }
