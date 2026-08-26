@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-08-26T13:12:30.899472+00:00",
+  "updated": "2026-08-26T14:22:43.721582+00:00",
   "events": [
+    {
+      "id": "aac287716f95",
+      "title": "US voices 'significant concerns' over Chinese dissident artist Gao Zhen's prison sentence",
+      "description": "The U.S. State Department expressed strong concern about the imprisonment of Chinese artist Gao Zhen, signalling heightened diplomatic tension between Washington and Beijing.",
+      "lat": 41.0,
+      "lng": 118.30520000000001,
+      "severity": 2,
+      "location": "Beijing, China",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/us-voices-significant-concerns-over-chinese-dissident-artist-gao-zhens-prison-sentence",
+      "image": null,
+      "ts": 1787750341000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/us-voices-significant-concerns-over-chinese-dissident-artist-gao-zhens-prison-sentence"
+          }
+        ]
+      }
+    },
     {
       "id": "25d055f17f2c",
       "title": "Israeli army shoots Palestinian teen during raid on UN-run center (VIDEO)",
@@ -130,6 +163,39 @@
             "n": "Egypt Independent",
             "b": "center",
             "u": "https://www.egyptindependent.com/netanyahu-says-us-economic-measures-tighten-the-siege-on-iran/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "91cd5158549f",
+      "title": "Europe eyes Russia in attacks on weapons and cargo. But Germany treads lightly.",
+      "description": "German security officials reported an explosive drone found at Leipzig/Halle airport, linking it to a pattern of suspected Russian aggression across Europe.",
+      "lat": 52.52,
+      "lng": 12.240000000000009,
+      "severity": 3,
+      "location": "Leipzig/Halle, Germany",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/08/26/europe-eyes-russia-sabotage-attacks-some-germany-urge-tougher-stance/",
+      "image": null,
+      "ts": 1787748344000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/08/26/europe-eyes-russia-sabotage-attacks-some-germany-urge-tougher-stance/"
           }
         ]
       }
@@ -7362,82 +7428,6 @@
             "n": "France 24",
             "b": "center",
             "u": "https://www.france24.com/en/chad-bans-sand-extraction-along-chari-river-sparking-controversy"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d3724cab4f3f",
-      "title": "Strait of Hormuz traffic remains at a fraction of pre-war levels",
-      "description": "Shipping traffic in the Strait of Hormuz is at 17% of pre-conflict average, according to the UKMTO centre.",
-      "lat": 26.57,
-      "lng": 58.15520000000001,
-      "severity": 3,
-      "location": "Strait of Hormuz",
-      "source": "Egypt Independent",
-      "url": "https://www.egyptindependent.com/strait-of-hormuz-traffic-remains-at-a-fraction-of-pre-war-levels/",
-      "image": null,
-      "ts": 1786798490000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-strait-of-hormuz-uae-accuses-attacks-vance-oil-gas/"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/strait-of-hormuz-traffic-remains-at-a-fraction-of-pre-war-levels/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f9ad498df08a",
-      "title": "Taliban authorities mark five years ruling Afghanistan",
-      "description": "Afghanistan's Taliban rulers marked five years since sweeping back to power.",
-      "lat": 34.52,
-      "lng": 69.17000000000002,
-      "severity": 2,
-      "location": "Kabul, Afghanistan",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/08/15/taliban-authorities-mark-five-years-ruling-afghanistan/",
-      "image": "http://images.euronews.com/articles/stories/09/87/54/54/640x360_cmsv2_20c1004b-deb6-5c1b-bc24-d56492500e84-9875454.jpg?1786781232",
-      "ts": 1786798247000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/15/afghans-mark-five-years-of-taliban-rule?traffic_source=rss"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/15/taliban-authorities-mark-five-years-ruling-afghanistan/"
           }
         ]
       }
