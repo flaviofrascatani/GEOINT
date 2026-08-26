@@ -1,7 +1,177 @@
 {
   "schema": 1,
-  "updated": "2026-08-26T19:17:39.309876+00:00",
+  "updated": "2026-08-26T22:28:24.502070+00:00",
   "events": [
+    {
+      "id": "1f6538063b17",
+      "title": "Trump eases tariffs on some ground beef products to lower prices",
+      "description": "El presidente Donald Trump firmó una orden que reduce aranceles a ciertas importaciones de carne molida, buscando bajar los precios al consumidor.",
+      "lat": 38.9,
+      "lng": -77.04,
+      "severity": 2,
+      "location": "Washington, D.C., EE. UU.",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-26/trump-eases-tariffs-on-some-ground-beef-products-to-lower-prices",
+      "image": null,
+      "ts": 1787782187000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-26/trump-eases-tariffs-on-some-ground-beef-products-to-lower-prices"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9345b9d9f26f",
+      "title": "Ukrainian forces shell DPR populated areas 17 times over past day",
+      "description": "Fuerzas ucranianas bombardearon áreas civiles en la República Popular de Donetsk, hiriendo a 11 civiles, incluidos dos niños.",
+      "lat": 49.12,
+      "lng": 39.70519999999999,
+      "severity": 3,
+      "location": "Donetsk, Donetsk People's Republic",
+      "source": "TASS",
+      "url": "https://tass.com/defense/2178091",
+      "image": null,
+      "ts": 1787782025000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/defense/2178091"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d69a4c69dd96",
+      "title": "Qatar PM heads to Tehran amid flurry of regional diplomacy",
+      "description": "El Primer Ministro de Qatar, Sheikh Mohammed al‑Thani, visita Irán en un intento de reforzar la diplomacia regional y aliviar tensiones.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 1,
+      "location": "Teherán, Irán",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/qatar-pm-heads-tehran-amid-flurry-regional-diplomacy",
+      "image": null,
+      "ts": 1787775826000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/qatar-pm-heads-tehran-amid-flurry-regional-diplomacy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d072840a7284",
+      "title": "Australia becomes the world's first country to ban social media for children under 16",
+      "description": "Australia ha implementado una prohibición total de plataformas como TikTok, YouTube e Instagram para menores de 16 años, marcando un precedente global en la regulación de redes sociales para jóvenes.",
+      "lat": -35.28,
+      "lng": 149.13,
+      "severity": 2,
+      "location": "Canberra, Australia",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/from-australia-to-europe-countries-move-to-curb-childrens-social-media-access6",
+      "image": null,
+      "ts": 1787772543000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/from-australia-to-europe-countries-move-to-curb-childrens-social-media-access6"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5deaf24ed0c0",
+      "title": "Flash floods devastate villages on the Nepal‑Tibet border",
+      "description": "Inundaciones repentinas arrasaron pueblos en la zona fronteriza entre Nepal y la región tibetana, causando al menos 160 muertos y cientos de desaparecidos.",
+      "lat": 27.53,
+      "lng": 88.60519999999997,
+      "severity": 4,
+      "location": "Bhotekoshi River area, Nepal‑China border",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/08/26/least-22-dead-hundreds-missing-flash-floods-nepal-china-border/",
+      "image": null,
+      "ts": 1787771671000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/aug/26/major-casualties-feared-after-flash-floods-along-nepal-tibet-border"
+          },
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/08/26/hundreds-feared-dead-including-foreign-tourists-after-flash-floods-in-nepal/"
+          }
+        ]
+      }
+    },
     {
       "id": "f1138c15d7bc",
       "title": "Hundreds missing and many feared dead after massive flash flood hits Nepal‑China border",
@@ -7233,186 +7403,6 @@
             "n": "OAN",
             "b": "right",
             "u": "https://www.oann.com/newsroom/lala-upgrades-to-hurricane-as-it-approaches-hawaiis-big-island/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "660c390f5b78",
-      "title": "Zimbabwe boat accident death toll hits 68 as 22 more bodies recovered",
-      "description": "Twenty-two more bodies have been recovered after a boat accident in Zimbabwe, taking the death toll to 68.",
-      "lat": -17.77,
-      "lng": 27.23,
-      "severity": 4,
-      "location": "Lake Kariba, Zimbabwe",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/world/2026/aug/15/more-bodies-recovered-after-zimbabwe-boat-accident",
-      "image": null,
-      "ts": 1786822747000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/world/2026/aug/15/more-bodies-recovered-after-zimbabwe-boat-accident"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6e3d1c3f3a7c",
-      "title": "Zimbabwe boat accident death toll hits 68",
-      "description": "A ferry capsized on Lake Kariba, killing 68 people, including 18 children.",
-      "lat": -16.75,
-      "lng": 27.28,
-      "severity": 4,
-      "location": "Lake Kariba, Zimbabwe",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/world/2026/aug/15/more-bodies-recovered-after-zimbabwe-boat-accident",
-      "image": null,
-      "ts": 1786822747000,
-      "coverage": {
-        "left": 2,
-        "center": 1,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/world/2026/aug/15/more-bodies-recovered-after-zimbabwe-boat-accident"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/22-bodies-recovered-zimbabwe-ferry-disaster-bringing-death-135676352"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/16/zimbabwe-ferry-death-toll-rises-to-68-after-lake-kariba-capsizing/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7ea20b7d0cc0",
-      "title": "Moroccan police arrest migrants",
-      "description": "Moroccan police arrest more than 100 people attempting to enter Ceuta, a Spanish enclave in North Africa.",
-      "lat": 36.98,
-      "lng": -5.310000000000002,
-      "severity": 3,
-      "location": "Ceuta, Morocco",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta",
-      "image": null,
-      "ts": 1786817301000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/world/2026/aug/15/moroccan-police-arrest-more-than-100-people-as-they-attempt-to-enter-ceuta"
-          }
-        ]
-      }
-    },
-    {
-      "id": "34ff66ff97d9",
-      "title": "Israel seizes vast Iran terror axis arsenal with surprising foreign origins",
-      "description": "Israel has seized a massive arsenal from Hezbollah and Hamas, including Iranian rockets, drones, and Nazi-era guns, with surprising foreign origins.",
-      "lat": 32.06,
-      "lng": 34.77000000000001,
-      "severity": 3,
-      "location": "Central Israel",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/exclusive-israel-seizes-vast-iran-terror-axis-arsenal-surprising-foreign-origins",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/08/931/523/ali-khamenei-mojtaba.jpg?ve=1&tl=1",
-      "ts": 1786816188000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/exclusive-israel-seizes-vast-iran-terror-axis-arsenal-surprising-foreign-origins"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cb466dc106a0",
-      "title": "Yemen's Mocha port halts operations after Houthi attacks",
-      "description": "Yemen's Mocha port has suspended commercial and maritime operations after being hit by more than 25 missiles in Houthi attacks",
-      "lat": 13.32,
-      "lng": 43.25,
-      "severity": 3,
-      "location": "Mocha, Yemen",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/08/yemens-mocha-port-halts-operations-after-houthi-attacks-port-director-says",
-      "image": null,
-      "ts": 1786812396000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/yemen-government-says-houthi-missiles-kill-at-least-four-civilians-in-port-city/article71350552.ece"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/yemens-mocha-port-halts-operations-after-houthi-attacks-port-director-says"
           }
         ]
       }
