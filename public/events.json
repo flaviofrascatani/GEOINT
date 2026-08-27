@@ -1,7 +1,205 @@
 {
   "schema": 1,
-  "updated": "2026-08-26T22:28:24.502070+00:00",
+  "updated": "2026-08-27T03:32:18.644570+00:00",
   "events": [
+    {
+      "id": "1301fb6ad6ca",
+      "title": "Satellite lofted for first Arab country",
+      "description": "La Cina ha lanciato un satellite di comunicazione destinato all'Algeria, il primo veicolo spaziale di questo tipo esportato a un paese arabo.",
+      "lat": 37.83,
+      "lng": 3.0900000000000034,
+      "severity": 2,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1787801538474,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8fd462db066b",
+      "title": "S. Korea to launch homegrown Nuri rocket on Oct. 7",
+      "description": "La Corea del Sud lancerà il razzo Nuri, il suo primo veicolo di lancio spaziale sviluppato internamente, segnando un passo importante per le capacità spaziali nazionali.",
+      "lat": 34.45,
+      "lng": 126.7,
+      "severity": 3,
+      "location": "Centro Spaziale Naro, Goheung, Corea del Sud",
+      "source": "Yonhap News",
+      "url": "https://en.yna.co.kr/view/AEN20260827005051320",
+      "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/27/AEN20260827005051320_01_i_P2.jpg",
+      "ts": 1787801227000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20260827005051320"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1319275bb613",
+      "title": "China industrial profits growth cools to slowest in seven months as economic slowdown deepens",
+      "description": "I profitti industriali cinesi hanno registrato la più lenta crescita degli ultimi sette mesi, segnale di un rallentamento più ampio dell'economia del paese.",
+      "lat": 39.9,
+      "lng": 118.30520000000001,
+      "severity": 3,
+      "location": "Beijing, Cina",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/08/27/china-industrial-profits-july-factory-production-.html",
+      "image": null,
+      "ts": 1787800934000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/08/27/china-industrial-profits-july-factory-production-.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e3fc0a7791ae",
+      "title": "Nvidia has been in talks to acquire Hugging Face for more than $13 billion",
+      "description": "Nvidia sta negoziando l'acquisizione della startup di intelligenza artificiale Hugging Face, un'operazione che rafforzerebbe la sua posizione nel mercato AI.",
+      "lat": 37.39,
+      "lng": -121.97,
+      "severity": 2,
+      "location": "Santa Clara, California, USA",
+      "source": "Business Insider",
+      "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+      "image": "https://i.insider.com/6a8f6db045e6f385a51698b9?format=jpeg",
+      "ts": 1787797145000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Business Insider",
+            "b": "lean_left",
+            "u": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "48383ce0ac4f",
+      "title": "Deputies back Milei’s push to reform Central Bank charter",
+      "description": "I legislatori argentini hanno approvato la proposta di Milei di vietare alla Banca Centrale di stampare moneta per finanziare il Tesoro, spostando la politica monetaria verso il mercato.",
+      "lat": 34.61,
+      "lng": -58.38,
+      "severity": 2,
+      "location": "Buenos Aires, Argentina",
+      "source": "Buenos Aires Times",
+      "url": "https://www.batimes.com.ar/news/argentina/deputies-back-mileis-push-to-reform-central-bank-charter.phtml",
+      "image": "https://fotos.perfil.com/2026/08/27/trim/540/304/deputies-vote-in-favour-2313003.jpg",
+      "ts": 1787796181000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Buenos Aires Times",
+            "b": "center",
+            "u": "https://www.batimes.com.ar/news/argentina/deputies-back-mileis-push-to-reform-central-bank-charter.phtml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3a79badcd8ae",
+      "title": "Siria, le Fds curde depongono le armi. Cosa succede ora",
+      "description": "Le Forze Democratiche Siriane, principale formazione armata curda, hanno annunciato la deposizione delle armi dopo anni di conflitto contro lo Stato islamico e per l'autonomia nel nord‑est della Siria.",
+      "lat": 36.4,
+      "lng": 40.75,
+      "severity": 1,
+      "location": "Al‑Hasakah, Siria",
+      "source": "AGI Estero",
+      "url": "https://www.agi.it/estero/news/2026-08-26/siria-fds-curdi-38712571/",
+      "image": "https://images.agi.it/pictures/agi/agi/2026/08/26/143607088-2caa5c64-e124-491a-979a-be7c2c307fa5.jpg",
+      "ts": 1787786700000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "AGI Estero",
+            "b": "center",
+            "u": "https://www.agi.it/estero/news/2026-08-26/siria-fds-curdi-38712571/"
+          }
+        ]
+      }
+    },
     {
       "id": "1f6538063b17",
       "title": "Trump eases tariffs on some ground beef products to lower prices",
@@ -2183,39 +2381,6 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/us-military-plane-lands-moscow-kremlin-claiming-no-information-report"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1301fb6ad6ca",
-      "title": "Satellite lofted for first Arab country",
-      "description": "La Cina ha lanciato il suo primo satellite di comunicazione destinato all’Algeria, segnando un nuovo passo nella cooperazione spaziale arabo‑cinese.",
-      "lat": 37.83,
-      "lng": 3.0900000000000034,
-      "severity": 1,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1787679687767,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
           }
         ]
       }
@@ -7223,186 +7388,6 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/news/2026/8/16/hamas-leader-heads-to-cairo-for-gaza-talks-ahead-of-kushner-visit?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2c3d2352c707",
-      "title": "South Korea proposes dialogue to end war with North Korea",
-      "description": "South Korean President Lee Jae Myung proposes talks with North Korea to formally end the Korean War.",
-      "lat": 38.66,
-      "lng": 128.8752,
-      "severity": 2,
-      "location": "Seoul, South Korea",
-      "source": "RT News",
-      "url": "https://www.rt.com/news/644294-south-korea-proposes-dialogue-to/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://static.toiimg.com/photo/msid-133255858,imgsize-682679.cms",
-      "ts": 1786838334000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/asia-pacific/20260815-south-korea-president-proposes-talks-with-pyongyang-to-formally-end-korean-war"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/644294-south-korea-proposes-dialogue-to/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "539cb865b4f8",
-      "title": "US Democrats finalise major shakeup to 2028 presidential primary calendar",
-      "description": "South Carolina will again take centre stage as the first nominating contest, pushing Iowa from its top spot",
-      "lat": 33.83,
-      "lng": -81.16,
-      "severity": 2,
-      "location": "Columbia, South Carolina",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/15/us-democrats-finalise-major-shakeup-to-2028-presidential-primary-calendar?traffic_source=rss",
-      "image": null,
-      "ts": 1786832566000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/15/us-democrats-finalise-major-shakeup-to-2028-presidential-primary-calendar?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9c2296ef82d1",
-      "title": "Nvidia eyes investing $3 billion in SoftBank's SB Energy",
-      "description": "Nvidia is considering investing $3 billion in SoftBank's SB Energy under an OpenAI data center deal",
-      "lat": 38.87,
-      "lng": -122.42,
-      "severity": 2,
-      "location": "Santa Clara, USA",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/08/15/nvidia-mulls-3b-investment-in-sb-energy-in-openai-data-center-deal-report.html",
-      "image": null,
-      "ts": 1786825924000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/15/nvidia-mulls-3b-investment-in-sb-energy-in-openai-data-center-deal-report.html"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/business/nvidia-eyes-investing-3-billion-in-sb-energy-under-openai-data-center-deal-information-says-6321736"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cb813fe3b3c1",
-      "title": "Nvidia invests $3 billion in SoftBank's SB Energy",
-      "description": "Nvidia's investment is part of its talks with OpenAI and SB Energy on providing credit support for a planned Ohio data center campus",
-      "lat": 39.03,
-      "lng": -121.0074,
-      "severity": 2,
-      "location": "Santa Clara, USA",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/08/15/nvidia-mulls-3b-investment-in-sb-energy-in-openai-data-center-deal-report.html",
-      "image": null,
-      "ts": 1786825924000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/15/nvidia-mulls-3b-investment-in-sb-energy-in-openai-data-center-deal-report.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "70b61462935d",
-      "title": "Storm Lala: Hawaii braces for potential first direct hit by a hurricane in 34 years",
-      "description": "Hawaii is bracing for a potential direct hit by a hurricane in 34 years as Storm Lala approaches the Big Island",
-      "lat": 19.74,
-      "lng": -155.08,
-      "severity": 3,
-      "location": "Hilo, Hawaii",
-      "source": "Google News Top",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zWUl0eG5HZHlmUkVzc2hmelJyT0tTUFduWldWNHJSaGdFZm90TXBIeGFUYzZIWE9QOHZGZW95TXlQOGlhV0RBN1o1TnlPay1sZnZBMFJPNjBiQQ?oc=5",
-      "image": null,
-      "ts": 1786825710000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zWUl0eG5HZHlmUkVzc2hmelJyT0tTUFduWldWNHJSaGdFZm90TXBIeGFUYzZIWE9QOHZGZW95TXlQOGlhV0RBN1o1TnlPay1sZnZBMFJPNjBiQQ?oc=5"
-          },
-          {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/newsroom/lala-upgrades-to-hurricane-as-it-approaches-hawaiis-big-island/"
           }
         ]
       }
