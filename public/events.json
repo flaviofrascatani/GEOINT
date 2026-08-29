@@ -1,7 +1,78 @@
 {
   "schema": 1,
-  "updated": "2026-08-29T10:24:26.242411+00:00",
+  "updated": "2026-08-29T15:17:52.981169+00:00",
   "events": [
+    {
+      "id": "a30759d23626",
+      "title": "CENTCOM sinks refueling vessel used to aid crime syndicate drug trafficking boats in Pacific Ocean",
+      "description": "U.S. forces intercepted and sank a vessel that was allegedly refueling drug‑smuggling boats in the eastern Pacific.",
+      "lat": 10.0,
+      "lng": -110.0,
+      "severity": 3,
+      "location": "Eastern Pacific Ocean",
+      "source": "OAN",
+      "url": "https://www.oann.com/newsroom/centcom-sinks-refueling-vessel-used-to-aid-crime-syndicate-drug-trafficking-boats-in-pacific-ocean/",
+      "image": null,
+      "ts": 1788015017000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/centcom-sinks-refueling-vessel-used-to-aid-crime-syndicate-drug-trafficking-boats-in-pacific-ocean/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "497c9d0b3dd7",
+      "title": "Iran trade falls as Supreme Leader Khamenei urges less reliance on the U.S. dollar",
+      "description": "Iran’s imports and exports have contracted sharply amid intensified sanctions, while the Supreme Leader calls for reduced dollar dependence.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/08/29/iran-trade-sanctions-dollar-oil-exports.html",
+      "image": null,
+      "ts": 1788005288000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/08/29/iran-trade-sanctions-dollar-oil-exports.html"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObnBScDB0NHZoem1ucncyUTRSQ3B6cjdvanVrUms4R2Z2WGxTZlVoaGFjMzVKblRDQ0piaUNLWDM5eS0yOUlGUTlkU3o0QW1UUmpNUWxGS3V2LW9ZeHNpQ2hLa09jOVR1Mmp0VDlVcEg2YXNIc2Z4Uzk4SWVXTC1xVkV30gGHAUFVX3lxTFA1RTVxa25KSmtyOWp0M0hlM0N0NmRFRHAxcTZJcVFBTU1pcV9hZS1sZVdDaWFJZ2dSTHdndkhTaHNzVk9LdUczWTczbXpHNW45ekdyTjVLMkV3UkdEZGZReFR1MDBmWHFjcDFjUTV3NXdmNzQzMndWVG1Cd1lRMWJ1Vl82Yk9Wdw?oc=5"
+          }
+        ]
+      }
+    },
     {
       "id": "545d978bd847",
       "title": "Russian strike on Ukrainian warehouse kills 27, sparks investigation into ammunition storage",
@@ -74,6 +145,109 @@
             "n": "New York Times World",
             "b": "lean_left",
             "u": "https://www.nytimes.com/2026/08/29/world/asia/nepal-flood-rescue.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9f532d9f647b",
+      "title": "Death Toll At 37 From Russian Strike on Warehouse Near Kyiv",
+      "description": "A Russian drone strike detonated a warehouse in a village west of Kyiv, killing 37 people.",
+      "lat": 50.55,
+      "lng": 30.650000000000006,
+      "severity": 4,
+      "location": "Bucha, Ukraine",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-29/zelenskyy-says-dozens-killed-in-russian-drone-strike-near-kyiv",
+      "image": null,
+      "ts": 1787994525000,
+      "coverage": {
+        "left": 6,
+        "center": 9,
+        "right": 0,
+        "total": 15,
+        "buckets": {
+          "left": 0,
+          "lean_left": 6,
+          "center": 9,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/29/world/europe/russia-ukraine-strike-kyiv-drones.html"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/russian-drones-batter-ukraines-kyiv-region-hitting-apartments-136024871"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/russia-ukraine-war-27-killed-in-russian-strikes-on-ukraines-kyiv-50-residential-buildings-damaged-11974427#publisher=newsstand"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/russian-strike-warehouse-kyiv-deaths-37606450"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/08/29/dozens-dead-after-russian-strike-on-depot-near-kyiv_6756964_4.html"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/russian-strike-on-warehouse-in-ukraines-kyiv-region-causes-detonation-death-toll/article71404172.ece"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/08/29/russian-strike-on-kyiv-area-warehouse-causes-detonation-killing-27.html"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/ukraine/2026/0829/1589653-ukraine-russia-war/"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/40eaeba7-9514-4e6b-9bd3-4a9381618c84"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/warehouse-hit-by-russian-attack-stored-munitions-zelensky-says"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/russian-strike-on-ammunition-depot-near-kyiv-kills-dozens/a-78556008?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-08-29/zelenskyy-says-dozens-killed-in-russian-drone-strike-near-kyiv"
+          },
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/at-least-37-dead-after-russian-drone-attack-triggers-multiple-blasts-and-fire-at-warehouse-near-kyiv/"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/europe/article/3365705/russian-drone-strike-near-kyiv-kills-least-27?utm_source=rss_feed"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/world/russia-strike-ukraine-kyiv-warehouse-detonation-6349491"
           }
         ]
       }
@@ -549,6 +723,39 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/08/us-hits-egyptian-bank-branches-iran-sanctions-war-marks-six-months"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fc4c77f30387",
+      "title": "Africa Business Investment Summit targets $500 m of commitments in Washington",
+      "description": "The inaugural summit in Washington, D.C. gathered African leaders and investors aiming to mobilise half‑billion dollars for development projects.",
+      "lat": 38.9,
+      "lng": -77.04,
+      "severity": 2,
+      "location": "Washington, D.C., United States",
+      "source": "All Africa",
+      "url": "https://allafrica.com/stories/202608280620.html",
+      "image": null,
+      "ts": 1787938169000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "All Africa",
+            "b": "center",
+            "u": "https://allafrica.com/stories/202608280620.html"
           }
         ]
       }
@@ -7351,158 +7558,6 @@
             "n": "Jerusalem Post",
             "b": "center",
             "u": "https://www.jpost.com/israel-news/defense-news/article-905657"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3fbd3c64fd4a",
-      "title": "Egyptian government announces new system for issuing work permits to foreigners",
-      "description": "The Ministry of Labor in Egypt aims to launch a new system for issuing work permits to foreigners through a fully integrated digital platform and dedicated service center.",
-      "lat": 30.05,
-      "lng": 31.25,
-      "severity": 1,
-      "location": "Cairo, Egypt",
-      "source": "Egypt Independent",
-      "url": "https://www.egyptindependent.com/egyptian-government-announces-new-system-for-issuing-work-permits-to-foreigners/",
-      "image": null,
-      "ts": 1786885535000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/egyptian-government-announces-new-system-for-issuing-work-permits-to-foreigners/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f370efd694e9",
-      "title": "Bangladesh Lists 2 Riders For PM Rahman's India Visit",
-      "description": "According to a statement from the Bangladeshi foreign ministry, officials from both countries have been in contact for several weeks about the possibility of a bilateral visit by Tarique Rahman to New Delhi.",
-      "lat": 29.71,
-      "lng": 77.23000000000002,
-      "severity": 1,
-      "location": "New Delhi, India",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/sheikh-hasina-tarique-rahman-before-bangladesh-pm-tarique-rahman-visits-india-dhaka-wants-sheikh-hasina-back-11917165#publisher=newsstand",
-      "image": "https://th-i.thgim.com/public/incoming/v7p9aa/article71342678.ece/alternates/LANDSCAPE_1200/TH10-Kallol-BanGGPGCHPKI.3.jpg.jpg",
-      "ts": 1786884022000,
-      "coverage": {
-        "left": 2,
-        "center": 3,
-        "right": 0,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/sheikh-hasina-tarique-rahman-before-bangladesh-pm-tarique-rahman-visits-india-dhaka-wants-sheikh-hasina-back-11917165#publisher=newsstand"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/national/bangladesh-says-pm-tarique-rahman-will-not-visit-india-until-sheikh-hasinas-extradition/article71352525.ece"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/asia/bangladesh-prime-minister-india-visit-hasina-extradited-6322326"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/bangladesh-says-better-environment-needed-for-india-visit-amid-rift-over-ousted-leader"
-          },
-          {
-            "n": "Times of India World",
-            "b": "center",
-            "u": "https://timesofindia.indiatimes.com/world/south-asia/bangladesh-pms-proposed-india-visit-conditional-on-hasina-extradition-officials-say/articleshow/133273734.cms"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9ad9e4c2437c",
-      "title": "Spanish fighter jet shoots down Russian drone over Romania",
-      "description": "A Spanish fighter jet shot down a Russian drone over Romania, near the border with Ukraine and Moldova.",
-      "lat": 45.76,
-      "lng": 25.35,
-      "severity": 3,
-      "location": "Bucharest, Romania",
-      "source": "AGI Estero",
-      "url": "https://www.agi.it/estero/news/2026-08-16/drone-romania-russo-nato-38561817/",
-      "image": null,
-      "ts": 1786880355000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/nato-fighter-jet-shoots-down-drone-romania-ukraine/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e9e7bb4865ec",
-      "title": "Trump wants more economic pressure on Iran",
-      "description": "Trump wants to increase economic pressure on Iran, with various options available",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcF9Wa1NYT2dtVW52UTI3RWVFeS1MbVdwY0RvZC1kWDJYd1BEdlUzanc4Z09Gbmd6cG9NMHhWTVJxYVM1N0pqMHZCOUhHdHdRZUdBeWhzZVVhN3VBYnlOZjY5NmJmWE41UWVHeXljWUlkMFloZnh2VUxCajE0dlFTTjFOTk9ZRVVMSVJXd0thR05XbktGWlBPYmJ1S0U0bDdkQlZLWlBxb2VIUlZO?oc=5",
-      "image": null,
-      "ts": 1786880097000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcF9Wa1NYT2dtVW52UTI3RWVFeS1MbVdwY0RvZC1kWDJYd1BEdlUzanc4Z09Gbmd6cG9NMHhWTVJxYVM1N0pqMHZCOUhHdHdRZUdBeWhzZVVhN3VBYnlOZjY5NmJmWE41UWVHeXljWUlkMFloZnh2VUxCajE0dlFTTjFOTk9ZRVVMSVJXd0thR05XbktGWlBPYmJ1S0U0bDdkQlZLWlBxb2VIUlZO?oc=5"
           }
         ]
       }
