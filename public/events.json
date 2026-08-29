@@ -1,7 +1,154 @@
 {
   "schema": 1,
-  "updated": "2026-08-29T03:21:55.584335+00:00",
+  "updated": "2026-08-29T10:24:26.242411+00:00",
   "events": [
+    {
+      "id": "545d978bd847",
+      "title": "Russian strike on Ukrainian warehouse kills 27, sparks investigation into ammunition storage",
+      "description": "A Russian missile strike hit a warehouse near Kyiv's western suburbs, killing 27 people and prompting an inquiry into the storage of ammunition.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 4,
+      "location": "Kyiv, Ukraine",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/ukraine-russia-war-warehouse-ammunition-investigation/",
+      "image": null,
+      "ts": 1787998749000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/ukraine-russia-war-warehouse-ammunition-investigation/"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/military-operation-in-ukraine/2179267"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d3e494a1ddc6",
+      "title": "‘Immense’ Devastation as Nepal Continues Search for 2,400 Missing in Floods",
+      "description": "Flash floods in Nepal have killed at least 584 people and left around 2,400 missing, overwhelming rescue capacities.",
+      "lat": 27.71,
+      "lng": 85.31,
+      "severity": 3,
+      "location": "Kathmandu, Nepal",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/08/29/world/asia/nepal-flood-rescue.html",
+      "image": "https://static01.nyt.com/images/2026/08/29/multimedia/29NEPAL-RESCUE-EFFORT-01-cfjv/29NEPAL-RESCUE-EFFORT-01-cfjv-mediumSquareAt3X.jpg",
+      "ts": 1787998343000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 1,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/catastrophic-floods-kill-over-270-in-nepal-and-tibet-more-than-1300-missing_n_6a8fa6f3e4b02b26136eee87"
+          },
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/08/29/world/asia/nepal-flood-rescue.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d970f324d78b",
+      "title": "US campaign to isolate Iran closes in on Dubai",
+      "description": "The United States is intensifying efforts to cut off Iranian financial services by targeting offshore hubs such as Dubai.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/930386eb-b5d4-4a62-a258-f7ab46401655?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1787993744000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/930386eb-b5d4-4a62-a258-f7ab46401655?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "66db7cd40911",
+      "title": "Niger: Gunfire and explosions heard in Niamey",
+      "description": "Multiple gunshots and explosions were reported overnight in several districts of Niger’s capital, including near the military base by the international airport.",
+      "lat": 13.51,
+      "lng": 2.11,
+      "severity": 3,
+      "location": "Niamey, Niger",
+      "source": "The Africa Report",
+      "url": "https://www.theafricareport.com/429180/niger-gunfire-and-explosions-heard-in-niamey/",
+      "image": null,
+      "ts": 1787990233000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/08/29/reports-of-gunfire-near-military-base-in-nigers-capital/"
+          },
+          {
+            "n": "The Africa Report",
+            "b": "center",
+            "u": "https://www.theafricareport.com/429180/niger-gunfire-and-explosions-heard-in-niamey/"
+          }
+        ]
+      }
+    },
     {
       "id": "febd3904f0d5",
       "title": "War weighs on Iran's economy as US intensifies sanctions",
@@ -468,6 +615,39 @@
             "n": "Washington Post World",
             "b": "lean_left",
             "u": "https://www.washingtonpost.com/world/2026/08/28/flood-risks-hamper-efforts-search-hundreds-missing-nepal-china-border/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3e3a97f1a8d6",
+      "title": "Benin: How Benin Is Turning Its Cotton Wealth Into An Industrial Economy",
+      "description": "Benin is leveraging its position as West Africa’s largest cotton producer to develop domestic processing and boost industrial growth.",
+      "lat": 6.49,
+      "lng": 2.62,
+      "severity": 1,
+      "location": "Porto‑Novo, Benin",
+      "source": "All Africa",
+      "url": "https://allafrica.com/stories/202608280246.html",
+      "image": null,
+      "ts": 1787915632000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "All Africa",
+            "b": "center",
+            "u": "https://allafrica.com/stories/202608280246.html"
           }
         ]
       }
@@ -7323,186 +7503,6 @@
             "n": "GNews Geopolitics",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcF9Wa1NYT2dtVW52UTI3RWVFeS1MbVdwY0RvZC1kWDJYd1BEdlUzanc4Z09Gbmd6cG9NMHhWTVJxYVM1N0pqMHZCOUhHdHdRZUdBeWhzZVVhN3VBYnlOZjY5NmJmWE41UWVHeXljWUlkMFloZnh2VUxCajE0dlFTTjFOTk9ZRVVMSVJXd0thR05XbktGWlBPYmJ1S0U0bDdkQlZLWlBxb2VIUlZO?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8e10cf805170",
-      "title": "Belgium battles massive wildfire at German border",
-      "description": "A rapidly spreading wildfire has scorched about 2,700 hectares in the High Fens nature reserve near Belgium's border with Germany, forcing hundreds to evacuate.",
-      "lat": 51.9,
-      "lng": 7.072599999999994,
-      "severity": 3,
-      "location": "Monschau, Belgium",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/hundreds-flee-as-belgium-battles-wildfire-at-german-border/a-78386242?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1786879675638,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/hundreds-flee-as-belgium-battles-wildfire-at-german-border/a-78386242?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b1234f232543",
-      "title": "South Korea fires warning shots after North Korean soldiers crossed DMZ",
-      "description": "South Korea has fired warning shots after North Korean soldiers crossed the Demilitarized Zone (DMZ), in the first reported violation of the military demarcation line by North Korea this year.",
-      "lat": 37.94,
-      "lng": 126.64999999999998,
-      "severity": 3,
-      "location": "DMZ, Korea",
-      "source": "Japan Times",
-      "url": "https://www.japantimes.co.jp/news/2026/08/16/asia-pacific/south-korea-north-korea-warning-shots/",
-      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/08/16/557601.jpg",
-      "ts": 1786877280000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/north-koreas-kim-russias-putin-reaffirm-ties-on-korean-liberation-day/article71351905.ece"
-          },
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/08/16/asia-pacific/south-korea-north-korea-warning-shots/"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/east-asia/south-korea-fired-warning-shots-after-north-korean-soldiers-crossed-demarcation-line-yonhap-says"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/644294-south-korea-proposes-dialogue-to/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e61742adc89c",
-      "title": "Six Egyptian universities rank among world’s top 1,000",
-      "description": "Six Egyptian universities have been included among the world’s top 1,000 universities.",
-      "lat": 31.15,
-      "lng": 33.15520000000001,
-      "severity": 1,
-      "location": "Cairo, Egypt",
-      "source": "Egypt Independent",
-      "url": "https://www.egyptindependent.com/6-egyptian-universities-rank-among-worlds-top-1000-in-2026-shanghai-ranking/",
-      "image": null,
-      "ts": 1786873132000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/6-egyptian-universities-rank-among-worlds-top-1000-in-2026-shanghai-ranking/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a8cc97ba3e3b",
-      "title": "Chad opposition figure calls for reconciliation after his release",
-      "description": "Succes Masra, one of the president's fiercest critics, was sentenced to 20 years in prison a year ago.",
-      "lat": 13.21,
-      "lng": 15.039999999999992,
-      "severity": 2,
-      "location": "N'Djamena, Chad",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/08/16/chad-opposition-figure-succes-masra-calls-for-reconciliation-after-his-release/",
-      "image": "http://images.euronews.com/articles/stories/09/87/59/89/640x360_cmsv2_fac716ba-313c-5125-9731-a86eef22f135-9875989.jpg?1786866592",
-      "ts": 1786872779000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/16/chad-opposition-figure-succes-masra-calls-for-reconciliation-after-his-release/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0fe5c3c523bc",
-      "title": "Firefighters battle massive Belgian wildfire",
-      "description": "Firefighters are battling a massive wildfire in eastern Belgium.",
-      "lat": 50.85,
-      "lng": 5.93,
-      "severity": 3,
-      "location": "Eastern Belgium",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/firefighters-battle-massive-belgian-wildfire-forcing-hundreds-evacuate-135684266",
-      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
-      "ts": 1786872684000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/firefighters-battle-massive-belgian-wildfire-forcing-hundreds-evacuate-135684266"
           }
         ]
       }
