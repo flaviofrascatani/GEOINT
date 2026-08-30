@@ -1,7 +1,83 @@
 {
   "schema": 1,
-  "updated": "2026-08-30T11:49:59.738636+00:00",
+  "updated": "2026-08-30T16:36:55.835980+00:00",
   "events": [
+    {
+      "id": "9638219edf7d",
+      "title": "USS Lincoln sails past Singapore after 9‑month deployment",
+      "description": "The U.S. aircraft carrier USS Lincoln transited the Singapore Strait, signalling continued naval presence in Southeast Asian waters after a lengthy deployment.",
+      "lat": 1.35,
+      "lng": 103.82,
+      "severity": 3,
+      "location": "Singapore, Singapore",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/uss-abraham-lincoln-singapore-middle-east-deplomyment/",
+      "image": "https://s.abcnews.com/images/US/wirestory_79d29834422823c3a5b52f3c01f5d050_4x3_384.jpg",
+      "ts": 1788107406000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/uss-abraham-lincoln-singapore-middle-east-deplomyment/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4fb4abe877e2",
+      "title": "Iceland votes against restarting EU membership talks",
+      "description": "In a referendum, 52.8% of Icelandic voters rejected the government’s proposal to reopen accession negotiations with the European Union, keeping the country outside the bloc.",
+      "lat": 64.13,
+      "lng": -21.9,
+      "severity": 2,
+      "location": "Reykjavik, Iceland",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/91e2/live/fd09c3f0-a484-11f1-bed8-470734b5b662.jpg",
+      "ts": 1788106304000,
+      "coverage": {
+        "left": 0,
+        "center": 3,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/world/2026/0830/1589694-iceland-eu/"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/iceland-rejects-government-proposal-to-resume-eu-membership-talks-13578939"
+          }
+        ]
+      }
+    },
     {
       "id": "9432b12c828c",
       "title": "Russia is slowly grinding through the Donbas as Ukraine braces for a brutal fight",
@@ -168,39 +244,6 @@
             "n": "NBC News World",
             "b": "lean_left",
             "u": "https://www.nbcnews.com/world/asia/fears-flooding-nepal-100-americans-missing-rescue-efforts-step-rcna595093"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9638219edf7d",
-      "title": "USS Abraham Lincoln sails past Singapore on its way home from Middle East",
-      "description": "The U.S. aircraft carrier USS Abraham Lincoln transited the Singapore Strait en route back to the United States after its Middle‑East deployment.",
-      "lat": 1.35,
-      "lng": 103.82,
-      "severity": 2,
-      "location": "Singapore, Singapore",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/uss-abraham-lincoln-sails-past-singapore-home-middle-136066651",
-      "image": "https://s.abcnews.com/images/US/wirestory_79d29834422823c3a5b52f3c01f5d050_4x3_384.jpg",
-      "ts": 1788067404000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/uss-abraham-lincoln-sails-past-singapore-home-middle-136066651"
           }
         ]
       }
@@ -7400,39 +7443,6 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/644311-trump-south-korea-scale-back-drill/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "eed75b8bdedc",
-      "title": "Ebola outbreak in DR Congo now deadliest in country's history",
-      "description": "An Ebola outbreak in the Democratic Republic of the Congo has officially become the deadliest in the country's history, data suggests.",
-      "lat": -3.22,
-      "lng": 15.310000000000002,
-      "severity": 4,
-      "location": "Kinshasa, Democratic Republic of the Congo",
-      "source": "Sky News World",
-      "url": "https://news.sky.com/story/ebola-outbreak-in-dr-congo-now-deadliest-in-countrys-history-13573874",
-      "image": "https://e3.365dm.com/26/08/1920x1080/skynews-breakingnews-uk_7322499.jpg?20260815151146",
-      "ts": 1786917900000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/ebola-outbreak-in-dr-congo-now-deadliest-in-countrys-history-13573874"
           }
         ]
       }
