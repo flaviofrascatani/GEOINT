@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-08-30T00:13:38.599022+00:00",
+  "updated": "2026-08-30T05:45:53.690941+00:00",
   "events": [
+    {
+      "id": "9638219edf7d",
+      "title": "USS Abraham Lincoln sails past Singapore on its way home from Middle East",
+      "description": "The U.S. aircraft carrier USS Abraham Lincoln transited the Singapore Strait en route back to the United States after its Middle‑East deployment.",
+      "lat": 1.35,
+      "lng": 103.82,
+      "severity": 2,
+      "location": "Singapore, Singapore",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/uss-abraham-lincoln-sails-past-singapore-home-middle-136066651",
+      "image": "https://s.abcnews.com/images/US/wirestory_79d29834422823c3a5b52f3c01f5d050_4x3_384.jpg",
+      "ts": 1788067404000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/uss-abraham-lincoln-sails-past-singapore-home-middle-136066651"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c22abbc7f59b",
+      "title": "Nepal flash flood death toll exceeds 700, with around 3,000 still missing",
+      "description": "Heavy rains caused catastrophic flash floods in Nepal, killing over 700 people and leaving thousands missing, overwhelming rescue efforts.",
+      "lat": 27.71,
+      "lng": 85.31,
+      "severity": 4,
+      "location": "Kathmandu, Nepal",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/nepal-flash-flood-death-missing-americans-rescue/",
+      "image": null,
+      "ts": 1788066993000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/nepal-flash-flood-death-missing-americans-rescue/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2df99f984127",
+      "title": "Iran sanctions reach education: Duolingo blocked, TOEFL and GRE in doubt",
+      "description": "New U.S. sanctions target Iran's education sector, blocking language‑learning apps and threatening the operation of international exams.",
+      "lat": 35.68,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9rQ2dxVFZES1Rvcmlwdk1kb1VvT3JIOERSQW5BRGNxUlBjLXBuNkliM3NXLV91OUd2aTRKcE42NE9OdTF2eGVBU3ltRmVOR0FuWVE?oc=5",
+      "image": null,
+      "ts": 1788060690000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9rQ2dxVFZES1Rvcmlwdk1kb1VvT3JIOERSQW5BRGNxUlBjLXBuNkliM3NXLV91OUd2aTRKcE42NE9OdTF2eGVBU3ltRmVOR0FuWVE?oc=5"
+          }
+        ]
+      }
+    },
     {
       "id": "431917ae4d4a",
       "title": "Kiev sotto attacco, droni su Obolonsky",
@@ -163,6 +262,84 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/politics/2179371"
+          }
+        ]
+      }
+    },
+    {
+      "id": "236a96b33ba7",
+      "title": "Israeli settlers stage new attack on home in West Bank's Qusra, witnesses say",
+      "description": "Dozens of masked Israeli settler militants attacked homes in the village of Qusra in the occupied West Bank, marking a major escalation of settler violence.",
+      "lat": 31.85,
+      "lng": 35.150000000000006,
+      "severity": 3,
+      "location": "Qusra, West Bank",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/08/israeli-settlers-stage-new-attack-home-west-banks-qusra-witnesses-say",
+      "image": null,
+      "ts": 1788018395000,
+      "coverage": {
+        "left": 4,
+        "center": 6,
+        "right": 0,
+        "total": 10,
+        "buckets": {
+          "left": 0,
+          "lean_left": 4,
+          "center": 6,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/middle-east/palestinian-nbc-news-team-attacked-masked-israeli-settlers-rcna595024"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/violating-law-netanyahu-slams-settler-attack-on-west-bank-village-11976756#publisher=newsstand"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/08/29/netanyahu-condemns-settler-attack-in-flashpoint-west-bank-village_6756974_4.html"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/killing-of-palestinian-children-and-teens-by-israel-surges-in-west-bank/article71406972.ece"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/world/2026/0829/1589687-west-bank-settler-violence/"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/israeli-settlers-attack-more-palestinian-homes-in-the-west-bank-13578775"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20260829-netanyahu-condemns-criminal-acts-of-violence-by-settlers-in-west-bank-villages"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/israeli-settlers-attack-palestinian-homes-in-west-bank/a-78560116?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMUw1cUExcWtnWGZWQUw0c241d2pVZEpfaVV4eHdpWkVzUVQ2cENsVEo3Um9PMkE2a3hHaWJfVXpYRnpXaGk2ZmJWTFhNSWdVUnozczkzejlmVHlkUHEtYW9fQzFyUWhra2h5UTJ3NFcyc2t0WDdSamQxWnlEbWJfYU5NVVpKQzhXS180V1Z6cExiWklVUWlNdGx4TXViZUtEQ25jSHNuTFZLN1pTV0VYQzJR0gG3AUFVX3lxTFBCekRaVF9QYmtULVVYQjlXblBLa1lSSlZXdVB5bVdOdHQyTk5GMUF3WVMtV2RuSFFsYnE0SzdVYnQ1TFBxLTgzUXJNZFhISU1kVUZkSVJ6ekZOTXZwQ3JXc1JRS1JfWm5BWHlRR2FUU25GR1J3b0plOUg1ZWF2OGktVU0tZUkyRDBMQzVieUUyOG85MW5sY0ZEODlVM3F0Z09GZ0tlZkhGbDREZ0ExZWhqY2RmS09zbw?oc=5"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/israeli-settlers-stage-new-attack-home-west-banks-qusra-witnesses-say"
           }
         ]
       }
@@ -7351,178 +7528,6 @@
             "n": "Google News Top",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "57f34e441be2",
-      "title": "Senegal’s Saint-Louis Regatta Keeps Centuries of Tradition Alive",
-      "description": "Thousands gathered in Saint-Louis, Senegal, for the annual regatta.",
-      "lat": 15.95,
-      "lng": -16.52,
-      "severity": 1,
-      "location": "Saint-Louis, Senegal",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/16-08-sv-senegal-boat-tradition-sn?traffic_source=rss",
-      "image": null,
-      "ts": 1786910691000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/8/16/16-08-sv-senegal-boat-tradition-sn?traffic_source=rss"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/senegal-saint-louis-centuries-old-pirogue-racing-tradition"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6719187d3a27",
-      "title": "Trump Envoy Meets Hamas Leaders Over Gaza Plan",
-      "description": "The talks aim to salvage the new 15-point, US-backed road map for Hamas to disarm in Gaza and Israel to withdraw from the Palestinian territory shattered by war.",
-      "lat": 30.05,
-      "lng": 31.25,
-      "severity": 1,
-      "location": "Cairo, Egypt",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/trump-envoy-meets-hamas-leaders-over-gaza-plan-will-see-netanyahu-next-11918450#publisher=newsstand",
-      "image": null,
-      "ts": 1786904707000,
-      "coverage": {
-        "left": 3,
-        "center": 5,
-        "right": 0,
-        "total": 8,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 5,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/16/world/middleeast/kushner-hamas-talks.html"
-          },
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/16/jared-kushner-meets-hamas-mideast-trip-push-gaza-deal/"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/trump-envoy-meets-hamas-leaders-over-gaza-plan-will-see-netanyahu-next-11918450#publisher=newsstand"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c77gg5vn44yo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/uae-saudi-arabia-others-condemn-israel-s-rejection-of-trump-gaza-plan/a-78389399?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/article-905611"
-          },
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-08-16/kushner-hamas-gaza-netanyahu-38564389/"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/middle-east/article/3364218/us-envoy-kushner-visits-hamas-leader-push-gaza-road-map-netanyahu-meeting?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5d9c471000ca",
-      "title": "US considers new sanctions on Brazilian judge",
-      "description": "US considers new sanctions on Brazilian judge, FT reports",
-      "lat": -15.78,
-      "lng": -47.93,
-      "severity": 3,
-      "location": "Brasilia, Brazil",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOVozRlpuTURmbFhZTEprd083bUZ6X1d4aFpNSUZFNVlxc1RnQ3J5dHpfaTZvbEhldGZtQWQ5RkxHbWpianVFZGJJUjRPOWpiOW4ta1lodHdhY0FEUThZbm9LRWp6WllKb3BTQ2FodVRLN05FLXVxeWwzSWpsRFFib2RnY0xrVXhVNlBCeVF3MzNfMy1yZ3ZEYkx6RkQyeHFlWG1URXlhMA?oc=5",
-      "image": null,
-      "ts": 1786902195000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOVozRlpuTURmbFhZTEprd083bUZ6X1d4aFpNSUZFNVlxc1RnQ3J5dHpfaTZvbEhldGZtQWQ5RkxHbWpianVFZGJJUjRPOWpiOW4ta1lodHdhY0FEUThZbm9LRWp6WllKb3BTQ2FodVRLN05FLXVxeWwzSWpsRFFib2RnY0xrVXhVNlBCeVF3MzNfMy1yZ3ZEYkx6RkQyeHFlWG1URXlhMA?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "460698e59ca4",
-      "title": "At least seven killed in largest Ukrainian attack of 2026",
-      "description": "Russia says at least seven people were killed in the largest Ukrainian attack of 2026, with Moscow launching deadly strikes against Ukraine",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 4,
-      "location": "Kyiv, Ukraine",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2f78/live/bd896330-997f-11f1-a7ab-8b30adf0800a.jpg",
-      "ts": 1786895412000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
