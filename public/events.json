@@ -1,7 +1,139 @@
 {
   "schema": 1,
-  "updated": "2026-08-31T06:04:00.615096+00:00",
+  "updated": "2026-08-31T10:46:27.524903+00:00",
   "events": [
+    {
+      "id": "4c032380b1f0",
+      "title": "Indonesia‑US military exercises include 15 nations, test China ties",
+      "description": "A large joint drill hosted by Indonesia and the United States involved fifteen partner nations, signaling a collective security posture aimed at counterbalancing Chinese influence in the region.",
+      "lat": 6.21,
+      "lng": 106.85,
+      "severity": 2,
+      "location": "Jakarta, Indonesia",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/politics/defense/indonesia-us-military-exercises-include-15-nations-test-china-ties",
+      "image": null,
+      "ts": 1788173187405,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Nikkei Asia",
+            "b": "center",
+            "u": "https://asia.nikkei.com/politics/defense/indonesia-us-military-exercises-include-15-nations-test-china-ties"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cb39af2df6ed",
+      "title": "Satellite lofted for first Arab country — A Chinese‑made communications satellite became the first \"export\" of such a spacecraft to an Arab country when it was launched by China on Monday for Algeria.",
+      "description": "China delivered its first communications satellite to Algeria, deepening bilateral space‑technology cooperation and opening a new trade channel in the Arab world.",
+      "lat": 36.77,
+      "lng": 3.06,
+      "severity": 2,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1788173187404,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4eb6fb33d0b7",
+      "title": "Ukraine's drone war increasingly relies on US tech like Starlink, creating a powerful battlefield edge — and a vulnerability Kyiv can't fully control.",
+      "description": "Ukrainian forces depend heavily on American‑provided Starlink satellite internet for drone operations, raising strategic concerns about control and resilience.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 3,
+      "location": "Kyiv, Ukraine",
+      "source": "Business Insider",
+      "url": "https://www.businessinsider.com/ukraine-drone-war-starlink-us-tech-dependence-2026-8",
+      "image": "https://i.insider.com/6a90f2193f7df8787cff4881?format=jpeg",
+      "ts": 1788172201000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Business Insider",
+            "b": "lean_left",
+            "u": "https://www.businessinsider.com/ukraine-drone-war-starlink-us-tech-dependence-2026-8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c328dc069c3c",
+      "title": "US‑Africa Week Ahead: Garcia visits East Africa, House tackles AGOA",
+      "description": "U.S. Secretary of State Antony Garcia travels to East Africa to strengthen diplomatic ties and discuss the future of the African Growth and Opportunity Act, a key trade framework.",
+      "lat": 0.35,
+      "lng": 32.58,
+      "severity": 2,
+      "location": "Kampala, Uganda",
+      "source": "The Africa Report",
+      "url": "https://www.theafricareport.com/429254/us-africa-week-ahead-garcia-visits-east-africa-house-tackles-agoa/",
+      "image": null,
+      "ts": 1788172200000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Africa Report",
+            "b": "center",
+            "u": "https://www.theafricareport.com/429254/us-africa-week-ahead-garcia-visits-east-africa-house-tackles-agoa/"
+          }
+        ]
+      }
+    },
     {
       "id": "a1d5d0c0c5de",
       "title": "US and Iran exchange fire for the first time in more than a month",
@@ -69,39 +201,6 @@
             "n": "BBC World",
             "b": "center",
             "u": "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cb39af2df6ed",
-      "title": "China launches first communications satellite for an Arab country, Algeria",
-      "description": "A Chinese-made communications satellite was launched, marking the first export of such a spacecraft to an Arab nation.",
-      "lat": 36.77,
-      "lng": 3.06,
-      "severity": 1,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1788136155510,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
           }
         ]
       }
@@ -811,6 +910,39 @@
             "n": "NBC News World",
             "b": "lean_left",
             "u": "https://www.nbcnews.com/world/asia/fears-flooding-nepal-100-americans-missing-rescue-efforts-step-rcna595093"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0250d25ccb1f",
+      "title": "People fleeing Sudan civil war face ‘dire and deteriorating’ conditions in refuge city",
+      "description": "Displaced Sudanese civilians crowd the city of El Obeid and surrounding camps, facing severe humanitarian shortages as the civil war continues.",
+      "lat": 13.18,
+      "lng": 30.22,
+      "severity": 3,
+      "location": "El Obeid, Sudan",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/world/2026/aug/30/humanitarian-crisis-worsening-refuge-civilians-sudan-el-obeid",
+      "image": null,
+      "ts": 1788069648000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/aug/30/humanitarian-crisis-worsening-refuge-civilians-sudan-el-obeid"
           }
         ]
       }
@@ -7276,183 +7408,6 @@
             "n": "Daily Mail World",
             "b": "right",
             "u": "https://www.dailymail.com/news/article-16075009/Andy-Burnham-Kyiv-secret-Storm-Shadow-missile-Zelensky-Ukraine.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a031ae5e623e",
-      "title": "Putin's threat to Britain as Burnham gives Storm Shadow missile tech to Ukraine",
-      "description": "Il Cremlino accusa il Regno Unito di partecipare alla guerra dopo che il ministro Andy Burnham ha consegnato la tecnologia dei missili Storm Shadow all'Ucraina.",
-      "lat": 52.61,
-      "lng": -0.12999999999999545,
-      "severity": 2,
-      "location": "London, United Kingdom",
-      "source": "Daily Mail World",
-      "url": "https://www.dailymail.com/news/article-16075009/Andy-Burnham-Kyiv-secret-Storm-Shadow-missile-Zelensky-Ukraine.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-      "image": "https://i.dailymail.com/1s/2026/08/24/19/110824129-0-image-m-20_1787594421786.jpg",
-      "ts": 1787600227000,
-      "coverage": {
-        "left": 0,
-        "center": 3,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 3,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/international/internationalrussia-ukraine-war/article-906475"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-24/burnham-plans-us-trip-next-month-to-lobby-trump-on-ukraine-needs"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/europe/article/3365119/uks-burnham-plans-us-trip-september-lobby-trump-ukraine-needs?utm_source=rss_feed"
-          },
-          {
-            "n": "Daily Mail World",
-            "b": "right",
-            "u": "https://www.dailymail.com/news/article-16075009/Andy-Burnham-Kyiv-secret-Storm-Shadow-missile-Zelensky-Ukraine.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8821a127380c",
-      "title": "U.S. Treasury chief vows to cut every ‘economic lifeline’ of Iran",
-      "description": "U.S. Treasury official announces a comprehensive effort to sever all financial links with Iran.",
-      "lat": 36.79,
-      "lng": 53.295199999999994,
-      "severity": 3,
-      "location": "Tehran, Iran",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/us-treasury-chief-vows-to-cut-every-economic-lifeline-of-iran/article71386161.ece",
-      "image": "https://th-i.thgim.com/public/incoming/k24fdh/article71386159.ece/alternates/LANDSCAPE_1200/2291864969.jpg",
-      "ts": 1787599941000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/us-treasury-chief-vows-to-cut-every-economic-lifeline-of-iran/article71386161.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "527cdba734a4",
-      "title": "Bessent unveils sanctions designed to cripple Iran",
-      "description": "U.S. Treasury Secretary Scott Bessent announced a new round of secondary sanctions targeting entities that do business with Iran.",
-      "lat": 36.7895,
-      "lng": 51.38900000000001,
-      "severity": 3,
-      "location": "Tehran, Iran",
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/08/24/bessent-dday-iran-secondary-sanctions",
-      "image": "https://images.axios.com/6A-D9atuB24ZOTnGc4bDBSiTlEs=/0x0:4000x2250/1366x768/2026/08/24/1787587497385.jpeg",
-      "ts": 1787594902000,
-      "coverage": {
-        "left": 1,
-        "center": 5,
-        "right": 1,
-        "total": 7,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 5,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/business/economy/bessent-iran-sanctions-d-day-rcna594103"
-          },
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/08/24/bessent-dday-iran-secondary-sanctions"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/67c74e64-5c37-4a5d-ae6c-d3c002f99628?syn-25a6b1a6=1"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZlROSkFsYjg2RjA1RzJfY1VYTWNZZFhPcDVqSDJrRzFWR1pXQ29uS2NvaEhkVWo1d3dHeXF2QnlWTnNJY2RyVlJJWVQwcG15V0wtbEtwdUU0R05YWVhhbHpyZnZvT0tuMXM1RlJ3YVBxSlc4SGpHazJzSndyRkNqbXF6YVF5U1hqT2t0RmpCUnM3SDNXSkxtS2t6T3RnNGMtMnNiT1Q3X0VXNjg?oc=5"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xYzV1OHFrN0pNdGo3V1VSMExkc2pvc1NhbHpJdE1HdzFsQ3h1M2lMU1JzeGotX212N1VRTVNHcVJibEVmbDJvbjNjdGdLdnZFbnNjSEhRUEt0Z2U1cWp1WGlUYTZkSWVZclM1SzhXZlFjSW1r?oc=5"
-          },
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20260825000400315"
-          },
-          {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/newsroom/bessent-unveils-operation-economic-outcast-rolling-out-new-sanctions-to-cripple-iran/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f905e8b74789",
-      "title": "Gli Stati Uniti hanno annunciato le nuove sanzioni secondarie per fermare il flusso di fondi verso l'Iran",
-      "description": "Gli Stati Uniti hanno introdotto nuove sanzioni secondarie mirate a bloccare i trasferimenti di denaro verso l'Iran.",
-      "lat": 35.69,
-      "lng": 53.295199999999994,
-      "severity": 3,
-      "location": "Tehran, Iran",
-      "source": "AGI Estero",
-      "url": "https://www.agi.it/estero/news/2026-08-24/usa-sanzioni-iran-38682250/",
-      "image": "https://images.agi.it/pictures/agi/agi/2026/08/24/175220590-9fa59292-7bf1-47d2-a5a3-c8a8380d3547.jpg",
-      "ts": 1787593641000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-08-24/usa-sanzioni-iran-38682250/"
           }
         ]
       }
