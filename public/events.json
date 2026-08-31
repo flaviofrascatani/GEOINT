@@ -1,30 +1,63 @@
 {
   "schema": 1,
-  "updated": "2026-08-30T22:02:24.967789+00:00",
+  "updated": "2026-08-31T00:29:15.629574+00:00",
   "events": [
     {
+      "id": "cb39af2df6ed",
+      "title": "China launches first communications satellite for an Arab country, Algeria",
+      "description": "A Chinese-made communications satellite was launched, marking the first export of such a spacecraft to an Arab nation.",
+      "lat": 36.77,
+      "lng": 3.06,
+      "severity": 1,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1788136155510,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "727db6937e9c",
-      "title": "US strikes Iran for first time in a month — The US has struck Iran’s Larak Island, killing and wounding soldiers and civilians, the IRGC has said, vowing to “punish the aggressor”",
-      "description": "US forces hit Iranian rocket launchers on Larak Island in the Strait of Hormuz, causing casualties and prompting threats of retaliation.",
+      "title": "US forces strike Iranian launchers on Larak Island",
+      "description": "U.S. military attacked rocket launchers on Iran's Larak Island, killing two and injuring two.",
       "lat": 25.5474,
       "lng": 57.150000000000006,
-      "severity": 4,
+      "severity": 3,
       "location": "Larak Island, Iran",
-      "source": "RT News",
-      "url": "https://www.rt.com/news/644843-us-airstrike-iran-larak-island/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "source": "AGI Estero",
+      "url": "https://www.agi.it/estero/news/2026-08-30/iran-usa-larak-hormuz-38788172/",
       "image": "https://mf.b37mrtl.ru/files/2026.08/thumbnail/6a94a11785f54045146f869a.jpg",
       "ts": 1788126953000,
       "coverage": {
         "left": 2,
-        "center": 5,
+        "center": 6,
         "right": 2,
-        "total": 9,
+        "total": 10,
         "buckets": {
           "left": 0,
           "lean_left": 2,
-          "center": 5,
-          "lean_right": 2,
-          "right": 0
+          "center": 6,
+          "lean_right": 0,
+          "right": 2
         },
         "sources": [
           {
@@ -35,7 +68,7 @@
           {
             "n": "Al Jazeera",
             "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/30/us-strikes-irans-lark-island-in-first-attack-in-weeks?traffic_source=rss"
+            "u": "https://www.aljazeera.com/news/liveblog/2026/8/31/iran-war-live-irgc-attacks-us-bases-in-jordan-after-us-bombs-larak-island?traffic_source=rss"
           },
           {
             "n": "BBC World",
@@ -53,24 +86,29 @@
             "u": "https://www.dw.com/en/iran-war-us-military-strikes-iran-s-larak-island/live-78566992?maca=en-rss-en-all-1573-rdf"
           },
           {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/08/us-forces-strike-two-iranian-launchers-irans-larak-island-us-official-says"
+          },
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/08/31/world/us-iranian-launchers-larak-island/"
+          },
+          {
             "n": "South China Morning Post",
             "b": "center",
             "u": "https://www.scmp.com/news/world/middle-east/article/3365782/us-forces-strike-two-iranian-launchers-irans-larak-island-us-official-says?utm_source=rss_feed"
           },
           {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/world/us-forces-strike-two-iranian-launchers-irans-larak-island-us-official-says-6350801"
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/u-s-forces-strike-iranian-rocket-launchers-first-military-action-in-a-month/"
           },
           {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2179581"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/644843-us-airstrike-iran-larak-island/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4705672/iran-launches-strikes-military-bases-jordan/"
           }
         ]
       }
@@ -190,6 +228,39 @@
             "n": "Financial Times World",
             "b": "center",
             "u": "https://www.ft.com/content/4eb02822-d691-48a4-966f-45c6501bccb2?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7430d46de5a5",
+      "title": "US‑Polish special forces drill focused on drone operations",
+      "description": "Polish special forces participated in a U.S.-led exercise simulating enemy‑line penetration and drone strikes.",
+      "lat": 52.23,
+      "lng": 21.01,
+      "severity": 2,
+      "location": "Warsaw, Poland",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/exclusive-us-coaches-polish-forces-drone-focused-drill-136071164",
+      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
+      "ts": 1788112947000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/exclusive-us-coaches-polish-forces-drone-focused-drill-136071164"
           }
         ]
       }
@@ -6883,39 +6954,6 @@
       }
     },
     {
-      "id": "cb39af2df6ed",
-      "title": "China launches first communications satellite for an Arab country",
-      "description": "A Chinese‑made communications satellite was placed into orbit for Algeria, marking the first such export to an Arab nation.",
-      "lat": 36.77,
-      "lng": 3.06,
-      "severity": 2,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1787602173628,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
-          }
-        ]
-      }
-    },
-    {
       "id": "fb3234ae6dad",
       "title": "Taiwan charges 9 over AI server exports to China, including Nvidia, Super Micro staff",
       "description": "Taiwanese prosecutors indicted nine individuals for illegally shipping high‑end AI servers to mainland China.",
@@ -7410,39 +7448,6 @@
             "n": "ANSA Mondo",
             "b": "center",
             "u": "https://www.ansa.it/sito/notizie/mondo/asia/2026/08/17/leader-taiwan-nel-2027-spesa-per-la-difesa-record-a-352-miliardi_8fcbef09-1ee6-4157-9eb4-ac6f3d64886f.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c13d062e7cf0",
-      "title": "Protests erupt in Ceuta over border security and migration fears",
-      "description": "Tensions are rising at Spain’s North African enclave of Ceuta, where protesters gathered Sunday as Morocco tightened security along the border",
-      "lat": 35.8833,
-      "lng": -3.4114999999999895,
-      "severity": 3,
-      "location": "Ceuta, Spain",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/08/17/protests-erupt-in-ceuta-over-border-security-and-migration-fears/",
-      "image": "http://images.euronews.com/articles/stories/09/87/63/68/640x360_cmsv2_c175c99a-da2e-55fe-a295-5b88d07f5828-9876368.jpg?1786899081",
-      "ts": 1786946561000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/17/protests-erupt-in-ceuta-over-border-security-and-migration-fears/"
           }
         ]
       }
