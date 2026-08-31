@@ -7,17 +7,64 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="theme-color" content="#131a17">
-<title>GEOINT // Strategic Globe v8</title>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+<title>GEOINT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500;600&family=Atkinson+Hyperlegible:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script>
+/* Set the saved typeface before first paint so the UI doesn't flash in the
+   default face and then reflow into the chosen one. */
+(function(){try{
+  var f=JSON.parse(localStorage.getItem('gx_uifont')||'"sans"');
+  if(['sans','readable','system','classic'].indexOf(f)===-1)f='sans';
+  document.documentElement.setAttribute('data-font',f);
+}catch(e){document.documentElement.setAttribute('data-font','sans')}})();
+</script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-:root{--bg:#131a17;--surface:rgba(20,30,26,.93);--border:rgba(190,207,184,.1);--border-h:rgba(190,207,184,.22);--accent:#8aad84;--accent2:#305852;--red:#c27066;--gold:#b89a4a;--green:#6b9e6f;--yellow:#e3c04a;--orange:#e0893a;--crim:#c0392b;--purple:#9b59b6;--rose:#c4a095;--text:#9aaa97;--text-dim:#5a6d5e;--white:#d5d8d2;--bright:#e8ebe5;--mono:'JetBrains Mono',ui-monospace,monospace;--sans:'EB Garamond',Garamond,Georgia,serif;--cond:'EB Garamond',Garamond,Georgia,serif;--serif:'Fraunces',Georgia,serif}
-html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--sans);font-feature-settings:"ss01","cv01","cv11"}
+:root{--bg:#131a17;--surface:rgba(20,30,26,.93);--border:rgba(190,207,184,.1);--border-h:rgba(190,207,184,.22);--accent:#8aad84;--accent2:#305852;--red:#c27066;--gold:#b89a4a;--green:#6b9e6f;--yellow:#e3c04a;--orange:#e0893a;--crim:#c0392b;--purple:#9b59b6;--rose:#c4a095;--text:#9aaa97;--text-dim:#5a6d5e;--white:#d5d8d2;--bright:#e8ebe5;--mono:'Roboto Mono',ui-monospace,SFMono-Regular,Menlo,monospace;--sans:'Roboto',system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;--cond:'Roboto',system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;--serif:'Roboto',system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
+
+/* ---------------------------------------------------------------------------
+   FONT THEMES (Settings ▸ Font)
+   Every rule in this file resolves type through --sans / --cond / --serif /
+   --mono, so swapping these four variables restyles the entire interface.
+   `sans` is the default; `readable` and `system` exist for accessibility;
+   `classic` restores the original Garamond/Fraunces editorial look.
+   --------------------------------------------------------------------------- */
+html[data-font="sans"]{
+  --sans:'Roboto',system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;
+  --cond:'Roboto',system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;
+  --serif:'Roboto',system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;
+  --mono:'Roboto Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+html[data-font="readable"]{
+  --sans:'Atkinson Hyperlegible',Verdana,Tahoma,sans-serif;
+  --cond:'Atkinson Hyperlegible',Verdana,Tahoma,sans-serif;
+  --serif:'Atkinson Hyperlegible',Verdana,Tahoma,sans-serif;
+  --mono:'Atkinson Hyperlegible',Verdana,Tahoma,sans-serif;
+}
+html[data-font="system"]{
+  --sans:system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+  --cond:system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+  --serif:system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+html[data-font="classic"]{
+  --sans:'EB Garamond',Garamond,Georgia,serif;
+  --cond:'EB Garamond',Garamond,Georgia,serif;
+  --serif:'Fraunces',Georgia,serif;
+  --mono:'JetBrains Mono',ui-monospace,monospace;
+}
+/* The "readable" theme also relaxes tracking and thickens body copy, which is
+   what actually moves the needle for low-vision reading — not just the face. */
+html[data-font="readable"] body{letter-spacing:.2px}
+html[data-font="readable"] .sec p,html[data-font="readable"] .sec li,
+html[data-font="readable"] .ev-item .t,html[data-font="readable"] .sat-card .sat-desc,
+html[data-font="readable"] #ev-card .ds{line-height:1.75}
+html,body{width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(--text);font-family:var(--sans);font-feature-settings:normal;-webkit-font-smoothing:antialiased}
 canvas#gl{position:fixed;inset:0;z-index:1;touch-action:none}
 #top{position:fixed;top:0;left:0;right:0;height:40px;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0 20px;background:linear-gradient(180deg,rgba(19,26,23,.97),rgba(19,26,23,.4));border-bottom:1px solid var(--border);backdrop-filter:blur(10px)}
-.logo{font-family:var(--sans);font-weight:600;font-size:13px;letter-spacing:1.5px;color:var(--accent);display:flex;align-items:center;gap:8px}
-.logo .dot{width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 6px var(--green);animation:blink 2.5s infinite}
-@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+.logo{font-family:var(--sans);font-weight:600;font-size:13px;letter-spacing:1.5px;color:var(--accent);display:flex;align-items:center}
 #clock{font-size:10px;color:var(--text-dim);letter-spacing:.8px;font-family:var(--mono)}
 #bot{position:fixed;bottom:0;left:0;right:0;height:32px;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0 20px;background:linear-gradient(0deg,rgba(19,26,23,.97),rgba(19,26,23,.4));border-top:1px solid var(--border);font-size:9px;color:var(--text-dim);letter-spacing:.6px;font-family:var(--mono)}
 #bot .left{display:flex;align-items:center;gap:14px}
@@ -29,6 +76,8 @@ canvas#gl{position:fixed;inset:0;z-index:1;touch-action:none}
 #coords-box .nm:empty{display:none}
 .fs-btn{background:rgba(138,173,132,.06);border:1px solid rgba(138,173,132,.18);border-radius:3px;color:var(--accent);font-family:var(--sans);font-size:11px;font-weight:600;padding:2px 9px;cursor:pointer;line-height:1.4}
 .fs-btn:hover{background:rgba(138,173,132,.15);border-color:var(--accent)}
+.fs-btn.font-opt{padding:6px 4px;font-size:12px;text-align:center}
+.fs-btn.font-opt.on{background:rgba(138,173,132,.2);border-color:var(--accent);color:var(--bright)}
 #fs-val{font-family:var(--mono);font-size:9px;color:var(--bright);min-width:32px;text-align:center}
 #tip{position:fixed;z-index:300;pointer-events:none;opacity:0;transition:opacity .15s;padding:10px 16px;background:var(--surface);border:1px solid var(--border-h);border-radius:4px;backdrop-filter:blur(14px)}
 #tip.on{opacity:1}
@@ -53,6 +102,7 @@ canvas#gl{position:fixed;inset:0;z-index:1;touch-action:none}
 .stat{padding:8px 10px;background:rgba(255,255,255,.015);border:1px solid var(--border);border-radius:4px}
 .stat .sl{font-size:9px;color:var(--text-dim);letter-spacing:.4px;text-transform:uppercase;margin-bottom:2px;font-family:var(--sans)}
 .stat .sv{font-family:var(--sans);font-size:15px;font-weight:600;color:var(--white);letter-spacing:-.2px}
+.stat .sv.ro{cursor:default;user-select:text;border-bottom:none}
 .sec{margin-bottom:14px}
 .sec-t{font-family:var(--sans);font-size:11px;font-weight:600;letter-spacing:.4px;text-transform:uppercase;color:var(--accent);margin-bottom:8px;padding-bottom:5px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center}
 .sec p{font-size:12px;color:var(--text);line-height:1.65;margin-bottom:6px;font-family:var(--sans)}
@@ -136,7 +186,7 @@ canvas#gl{position:fixed;inset:0;z-index:1;touch-action:none}
 #loader.done{opacity:0;pointer-events:none}
 .load-bar{width:200px;height:2px;background:rgba(255,255,255,.05);border-radius:1px;overflow:hidden;margin-top:16px}
 .load-fill{height:100%;background:var(--accent);width:0%;transition:width .3s}
-.load-msg{font-size:11px;color:var(--text-dim);letter-spacing:.3px;font-family:var(--sans);font-weight:500}
+.load-msg{font-size:14px;color:var(--accent);letter-spacing:4px;font-family:var(--sans);font-weight:600}
 .btn-add{width:100%;padding:7px;background:rgba(138,173,132,.08);border:1px solid rgba(138,173,132,.2);border-radius:3px;color:var(--accent);font-family:var(--sans);font-size:11px;cursor:pointer;letter-spacing:.2px;margin-top:4px;font-weight:500}
 .btn-add:hover{background:rgba(138,173,132,.15)}
 #ev-form input,#ev-form select,#ev-form textarea{width:100%;padding:7px 9px;background:rgba(255,255,255,.02);border:1px solid var(--border);border-radius:3px;color:var(--white);font-family:var(--mono);font-size:10px;margin-bottom:5px;outline:none}
@@ -301,7 +351,6 @@ canvas#gl{position:fixed;inset:0;z-index:1;touch-action:none}
   /* Top / bottom bars — tighter */
   #top{height:36px;padding:0 10px;gap:8px}
   #top .logo{font-size:11px;letter-spacing:.8px}
-  #top .logo .dot{width:5px;height:5px}
   #top #search-in{width:120px;font-size:10px;padding:4px 8px}
   #top #search-res{width:calc(100vw - 40px);max-width:240px;right:0}
   #top #btn-hide-news{font-size:9.5px;padding:3px 7px}
@@ -400,9 +449,9 @@ canvas#gl{position:fixed;inset:0;z-index:1;touch-action:none}
 </style>
 </head>
 <body>
-<div id="loader"><div class="load-msg">GEOINT v8 · loading atlas</div><div class="load-bar"><div class="load-fill" id="lf"></div></div></div>
+<div id="loader"><div class="load-msg">GEOINT</div><div class="load-bar"><div class="load-fill" id="lf"></div></div></div>
 <canvas id="gl"></canvas>
-<div id="top"><div class="logo"><span class="dot"></span>GEOINT · Strategic Globe v8</div><div style="display:flex;align-items:center;gap:14px"><div id="search-wrap" style="position:relative"><input id="search-in" placeholder="Search country…" autocomplete="off" style="background:rgba(0,0,0,.25);border:1px solid var(--border);color:var(--white);font-family:var(--sans);font-size:11px;padding:5px 12px;border-radius:3px;width:180px;outline:none"><div id="search-res" style="display:none;position:absolute;top:30px;right:0;width:240px;max-height:280px;overflow-y:auto;background:var(--surface);border:1px solid var(--border-h);border-radius:4px;backdrop-filter:blur(14px);z-index:200"></div></div><button id="btn-hide-news" title="Hide / show all news events" style="background:none;border:1px solid var(--border);color:var(--accent);font-family:var(--sans);font-size:11px;letter-spacing:.3px;padding:4px 10px;border-radius:3px;cursor:pointer;font-weight:500">◉ Hide News</button><div id="clock"></div><a href="/logout" title="Esci dalla sessione" style="background:none;border:1px solid var(--border);color:var(--text-dim);font-family:var(--sans);font-size:11px;letter-spacing:.3px;padding:4px 10px;border-radius:3px;cursor:pointer;font-weight:500;text-decoration:none">Logout</a></div></div>
+<div id="top"><div class="logo">GEOINT</div><div style="display:flex;align-items:center;gap:14px"><div id="search-wrap" style="position:relative"><input id="search-in" placeholder="Search country…" autocomplete="off" style="background:rgba(0,0,0,.25);border:1px solid var(--border);color:var(--white);font-family:var(--sans);font-size:11px;padding:5px 12px;border-radius:3px;width:180px;outline:none"><div id="search-res" style="display:none;position:absolute;top:30px;right:0;width:240px;max-height:280px;overflow-y:auto;background:var(--surface);border:1px solid var(--border-h);border-radius:4px;backdrop-filter:blur(14px);z-index:200"></div></div><button id="btn-hide-news" title="Hide / show all news events" style="background:none;border:1px solid var(--border);color:var(--accent);font-family:var(--sans);font-size:11px;letter-spacing:.3px;padding:4px 10px;border-radius:3px;cursor:pointer;font-weight:500">◉ Hide News</button><div id="clock"></div><a href="/logout" title="Esci dalla sessione" style="background:none;border:1px solid var(--border);color:var(--text-dim);font-family:var(--sans);font-size:11px;letter-spacing:.3px;padding:4px 10px;border-radius:3px;cursor:pointer;font-weight:500;text-decoration:none">Logout</a></div></div>
 <div id="tip"><div class="n" id="tt-n"></div><div class="s" id="tt-s"></div></div>
 <div id="detail">
   <div class="pnl" style="flex:1;overflow:hidden;display:flex;flex-direction:column">
@@ -426,7 +475,7 @@ canvas#gl{position:fixed;inset:0;z-index:1;touch-action:none}
       <button class="tf-btn" data-tf="6">6h</button>
       <button class="tf-btn on" data-tf="24">24h</button>
       <button class="tf-btn" data-tf="168">7d</button>
-      <button class="tf-btn" data-tf="all">All</button>
+      <button class="tf-btn" data-tf="336">14d</button>
     </div>
     <div class="sync-info"><span id="sync-stat">Idle</span> &middot; <span id="sync-time">-</span></div>
     <div class="pnl-b" id="ev-list" style="flex:1"><div style="text-align:center;padding:16px 0;color:var(--text-dim);font-size:10px">No events in window</div></div>
@@ -450,7 +499,6 @@ canvas#gl{position:fixed;inset:0;z-index:1;touch-action:none}
       </div>
       <input type="file" id="ev-img" accept="image/*" style="font-size:9px">
       <button class="btn-add" id="btn-ev">+ Add Event</button>
-      <button class="btn-add" id="btn-ai" title="Pull latest events from feed" style="margin-top:4px">Sync feed now</button>
     </div>
   </div>
   <div class="pnl" style="flex:0 0 auto">
@@ -491,9 +539,24 @@ canvas#gl{position:fixed;inset:0;z-index:1;touch-action:none}
     <span id="fs-val">100%</span>
     <button class="fs-btn" id="fs-plus" title="Larger text">A+</button>
   </div>
+  <div style="border-top:1px solid var(--border);padding-top:10px;margin-bottom:10px">
+    <div style="font-size:11.5px;color:var(--text);margin-bottom:6px">Typeface
+      <span style="display:block;font-size:9.5px;color:var(--text-dim)">Applies to every label in the interface</span>
+    </div>
+    <div id="font-choices" style="display:grid;grid-template-columns:1fr 1fr;gap:5px">
+      <button class="fs-btn font-opt" data-font="sans"     style="font-family:'Roboto',sans-serif">Sans</button>
+      <button class="fs-btn font-opt" data-font="readable" style="font-family:'Atkinson Hyperlegible',Verdana,sans-serif">Readable</button>
+      <button class="fs-btn font-opt" data-font="system"   style="font-family:system-ui,sans-serif">System</button>
+      <button class="fs-btn font-opt" data-font="classic"  style="font-family:'EB Garamond',Georgia,serif">Classic</button>
+    </div>
+  </div>
   <div style="display:flex;align-items:center;gap:7px;border-top:1px solid var(--border);padding-top:10px">
     <span style="flex:1;font-size:11.5px;color:var(--text)">Satellite tracker<br><span style="font-size:9.5px;color:var(--text-dim)">ISS + major constellations</span></span>
     <button class="fs-btn" id="sat-toggle">Off</button>
+  </div>
+  <div style="display:flex;align-items:center;gap:7px;border-top:1px solid var(--border);padding-top:10px;margin-top:10px">
+    <span style="flex:1;font-size:11.5px;color:var(--text)">Cached events<br><span style="font-size:9.5px;color:var(--text-dim)">Clears deleted-event memory too</span></span>
+    <button class="fs-btn" id="ev-reset" title="Forget locally stored events and restore the full feed">Reset</button>
   </div>
 </div>
 <div id="sat-panel">
@@ -585,6 +648,36 @@ function setUserNotes(id,tab,text){const d=LS.get('gx_notes_'+id,{});d[tab]=text
 const countryColors=LS.get('gx_colors',{});
 const savedEvents=LS.get('gx_events',[]);
 function saveColors(){LS.set('gx_colors',countryColors)}
+
+/* ---------------------------------------------------------------------------
+   DISMISSED EVENTS
+   Deleting a feed event used to only splice it out of the in-memory array, so
+   the very next syncFeed() pulled it straight back from events.json and the
+   same story reappeared on the globe forever. We now keep a persistent tombstone
+   list of dismissed ids; mergeEvents() and the boot filter both honour it.
+   Entries expire after DISMISS_TTL so the list can't grow without bound.
+   --------------------------------------------------------------------------- */
+var DISMISS_TTL = 120 * 24 * 3600 * 1000; // 120 days
+var dismissedEvents = (function(){
+  var raw = LS.get('gx_dismissed', {});
+  if (Array.isArray(raw)) { // migrate an older array-shaped value
+    var o = {}; raw.forEach(function(id){ o[id] = Date.now(); }); return o;
+  }
+  return raw && typeof raw === 'object' ? raw : {};
+})();
+function saveDismissed(){
+  var now = Date.now(), out = {};
+  Object.keys(dismissedEvents).forEach(function(id){
+    if (now - (dismissedEvents[id] || 0) < DISMISS_TTL) out[id] = dismissedEvents[id];
+  });
+  dismissedEvents = out;
+  LS.set('gx_dismissed', out);
+}
+function isDismissed(e){ return !!(e && e.id && dismissedEvents[e.id]); }
+function dismissEvent(e){
+  if (e && e.id) { dismissedEvents[e.id] = Date.now(); saveDismissed(); }
+}
+saveDismissed(); // prune expired tombstones on boot
 // Only user-added events are persisted. Agent events are always re-fetched
 // fresh from events.json, so every browser sees exactly the same map instead
 // of a drifting local history.
@@ -958,9 +1051,46 @@ function buildCountryMesh(id,color){
 // Severity: 1 green / 2 yellow / 3 orange / 4 red / 5 purple
 // Kept in sync with agent/geoint_agent.py's GEOINT_MAX_AGE_H default (14 days).
 var MAX_EVENT_AGE_MS = 14 * 24 * 3600 * 1000;
+// An event with no usable timestamp used to be kept forever (`!e.ts` short-circuited
+// the age check), which is how months-old pins survived every prune. We now stamp
+// anything missing a timestamp with "first seen = now", so it ages out normally.
 function pruneOldEvents(list) {
   var now = Date.now();
-  return list.filter(function(e){ return !e.ts || (now - e.ts) <= MAX_EVENT_AGE_MS; });
+  return list.filter(function(e){
+    if (!e) return false;
+    if (isDismissed(e)) return false;
+    var ts = Number(e.ts);
+    if (!isFinite(ts) || ts <= 0) { e.ts = now; return true; }
+    if (ts > now + 36e5) { e.ts = now; return true; } // clock-skewed future stamp
+    return (now - ts) <= MAX_EVENT_AGE_MS;
+  });
+}
+
+/* ---------------------------------------------------------------------------
+   TITLE TIDYING
+   The agent sometimes returns the whole numbered source line as the title, i.e.
+   "Real headline — first 200 chars of the article body", which then overflows the
+   event card. tidyTitle() keeps the headline and drops the glued-on body text,
+   then trims what's left to a readable length on a word boundary.
+   The agent-side fix (agent/geoint_agent.py) stops new events being built this
+   way; this runs client-side so events already in events.json also render clean.
+   --------------------------------------------------------------------------- */
+var MAX_TITLE_CHARS = 95;
+function tidyTitle(raw) {
+  var t = String(raw == null ? '' : raw).replace(/\s+/g, ' ').trim();
+  if (!t) return '';
+  // "Headline — body text": keep the headline when it can stand on its own.
+  var split = t.split(/\s+[—–]\s+/);
+  if (split.length > 1 && split[0].length >= 25) t = split[0].trim();
+  if (t.length <= MAX_TITLE_CHARS) return t;
+  // Otherwise cut at the last sentence end that still leaves a usable title...
+  var stop = t.slice(0, MAX_TITLE_CHARS).lastIndexOf('. ');
+  if (stop >= 40) return t.slice(0, stop + 1).trim();
+  // ...or fall back to the last whole word before the limit.
+  var cut = t.slice(0, MAX_TITLE_CHARS);
+  var sp = cut.lastIndexOf(' ');
+  if (sp >= 40) cut = cut.slice(0, sp);
+  return cut.replace(/[\s,;:—–-]+$/, '') + '…';
 }
 // An event is "user-added" if it lacks the agent-generated id (agent events
 // always carry a 12-char hex id from hashlib.sha1). We use this to decide what
@@ -973,6 +1103,7 @@ function isUserEvent(e){
 // to persist everything to localStorage. From now on the agent feed is the
 // single source of truth and is re-fetched fresh on every page load.
 var events = pruneOldEvents(savedEvents.slice()).filter(isUserEvent);
+events.forEach(function(e){ e.title = tidyTitle(e.title); });
 var newsHidden = false;
 var currentSeverity = 1;
 var timeFilter = 24; // default: last 24h
@@ -1510,12 +1641,49 @@ document.addEventListener('click',function(e){
 });
 
 // Universal inline editor: any element with contenteditable onblur triggers save
+/* ---------------------------------------------------------------------------
+   NUMERIC FIELD PARSING
+   fN() renders 1_400_000_000 as "1.4B". Editing that cell used to run
+   parseFloat("1.4B") -> 1.4, so the suffix silently ate nine orders of
+   magnitude and there was no way to type it back: "1.4B" always collapsed to
+   "1.4". parseHumanNumber understands the same suffixes fN writes, plus
+   thousands separators and currency symbols, so the round-trip is lossless.
+   --------------------------------------------------------------------------- */
+var NUM_SUFFIX={k:1e3,m:1e6,b:1e9,g:1e9,t:1e12};
+function parseHumanNumber(raw){
+  if(raw==null)return NaN;
+  var s=String(raw).trim().replace(/[$€£\s\u00a0]/g,'');
+  if(!s)return NaN;
+  var m=s.match(/^(-?[\d.,]+)\s*([kmbgt])?$/i);
+  if(!m)return NaN;
+  var num=m[1];
+  // "1.234.567" or "1,234,567" are separators; "1.4" / "1,4" are decimals.
+  if(/[.,]\d{3}(?:\D|$)/.test(num)&&(num.match(/[.,]/g)||[]).length>1){
+    num=num.replace(/[.,]/g,'');
+  }else if(num.indexOf(',')>-1&&num.indexOf('.')===-1){
+    num=(/,\d{3}$/.test(num))?num.replace(/,/g,''):num.replace(',','.');
+  }else{
+    num=num.replace(/,/g,'');
+  }
+  var v=parseFloat(num);
+  if(!isFinite(v))return NaN;
+  if(m[2])v*=NUM_SUFFIX[m[2].toLowerCase()];
+  return v;
+}
+
+// Universal inline editor: any element with contenteditable onblur triggers save
 window.editField=function(id,key,numeric){
   return `contenteditable="true" class="editable" onblur="saveField('${id}','${key}',${numeric?'true':'false'},this)" onkeydown="if(event.key==='Enter'){event.preventDefault();this.blur()}"`;
 };
 window.saveField=function(id,key,numeric,el){
   let v=el.textContent.trim();
-  if(numeric){v=parseFloat(v.replace(/[,$\s]/g,''));if(isNaN(v))v=null}
+  if(numeric){
+    const n=parseHumanNumber(v);
+    // An unparseable entry used to wipe the value to null. Keep the old one and
+    // let renderTab put the correct text back in the cell instead.
+    if(isNaN(n)){renderTab(id);return}
+    v=n;
+  }
   if(!COUNTRY_DB[id])COUNTRY_DB[id]={};
   COUNTRY_DB[id][key]=v;
   saveDBOverride(id,key,v);
@@ -1590,11 +1758,13 @@ window.saveValueField=function(id,key,el){
 function rOverview(d,id,nm){
   const flag=countryFlag(id);
   let h=`<div class="c-head"><div class="c-flag">${flag}</div><div><div class="c-name" ${editField(id,'name',false)}>${nm}</div><div class="c-cap">Capital: <span ${editField(id,'capital',false)}>${d.capital||'—'}</span></div></div></div>`;
+  // Read-only by design: these four figures are reference data, not notes.
+  // They stay editable in the Economy tab, where the units are spelled out.
   h+=`<div class="stats">
-    <div class="stat"><div class="sl">Population</div><div class="sv" ${editField(id,'population',true)}>${fN(d.population)}</div></div>
-    <div class="stat"><div class="sl">Area km²</div><div class="sv" ${editField(id,'area',true)}>${fN(d.area)}</div></div>
-    <div class="stat"><div class="sl">GDP (B USD)</div><div class="sv">$<span ${editField(id,'gdp',true)}>${d.gdp||'—'}</span></div></div>
-    <div class="stat"><div class="sl">GDP/Capita</div><div class="sv">$<span ${editField(id,'gdpPC',true)}>${d.gdpPC?fN(d.gdpPC):'—'}</span></div></div>
+    <div class="stat"><div class="sl">Population</div><div class="sv ro">${fN(d.population)}</div></div>
+    <div class="stat"><div class="sl">Area km²</div><div class="sv ro">${fN(d.area)}</div></div>
+    <div class="stat"><div class="sl">GDP (B USD)</div><div class="sv ro">$${d.gdp||'—'}</div></div>
+    <div class="stat"><div class="sl">GDP/Capita</div><div class="sv ro">$${d.gdpPC?fN(d.gdpPC):'—'}</div></div>
   </div>`;
   // Always render Ethnic Composition section, even if empty
   h+=`<div class="sec"><div class="sec-t">Ethnic Composition <button class="add-mini" onclick="addEthnicity('${id}')">+ add</button></div>`;
@@ -1667,7 +1837,7 @@ function rGeo(d,id){
       const bh=Math.max(14,(p.h/mx)*(ch-pad));
       const y=ch-bh+pad;
       h+=`<rect x="${x-18}" y="${y}" width="36" height="${bh}" fill="#7a5a34" rx="2"/>`;
-      h+=`<text x="${x}" y="${y-6}" text-anchor="middle" fill="#e8d8b8" font-size="11" font-family="JetBrains Mono, monospace" font-weight="600">${p.h}m</text>`;
+      h+=`<text x="${x}" y="${y-6}" text-anchor="middle" fill="#e8d8b8" font-size="11" font-family="Roboto Mono, ui-monospace, monospace" font-weight="600">${p.h}m</text>`;
       h+=`<text x="${x}" y="${ch+pad+18}" text-anchor="middle" fill="#9aaa97" font-size="9" font-family="Inter, sans-serif">${p.n}</text>`;
     });
     h+=`<line x1="0" y1="${ch+pad}" x2="${cw}" y2="${ch+pad}" stroke="#3a5a4a" stroke-width="1"/>`;
@@ -2024,7 +2194,8 @@ const evCard=document.getElementById('ev-card');
 const evLeader=document.getElementById('ev-leader');
 const evLeaderLine=document.getElementById('ev-leader-line');
 let evCardAnchor=null; // {lat,lng} or null
-document.getElementById('ev-card-cl').onclick=()=>{evCard.classList.remove('on');evLeader.style.display='none';evCardAnchor=null};
+function hideEventCard(){evCard.classList.remove('on');evLeader.style.display='none';evCardAnchor=null}
+document.getElementById('ev-card-cl').onclick=hideEventCard;
 function fmtDateTime(ts){
   if(!ts)return '';
   var d=new Date(ts);
@@ -2190,7 +2361,13 @@ document.getElementById('btn-ev').addEventListener('click',()=>{
 
 document.getElementById('ev-list').addEventListener('click',e=>{
   const del=e.target.closest('[data-del]');
-  if(del){events.splice(+del.dataset.del,1);saveEvents();rebuildEventMarkers();renderEventList();return}
+  if(del){
+    const gone=events.splice(+del.dataset.del,1)[0];
+    dismissEvent(gone); // remember it, so the next feed sync can't bring it back
+    if(evCardIdx!==null)hideEventCard();
+    saveEvents();rebuildEventMarkers();renderEventList();
+    return;
+  }
   const it=e.target.closest('.ev-item');
   if(it){
     const idx=+it.dataset.i;
@@ -2213,12 +2390,16 @@ function mergeEvents(remote) {
   for (var i = 0; i < remote.length; i++) {
     var e = remote[i];
     if (!e || !e.id) continue;
+    // Never resurrect something the user deleted on purpose.
+    if (dismissedEvents[e.id]) continue;
+    // Nor anything already past the age cutoff — the feed can still carry it.
+    if (e.ts && (Date.now() - e.ts) > MAX_EVENT_AGE_MS) continue;
     if (idIndex[e.id] !== undefined) {
       // Same event id: refresh mutable fields (severity / description / coverage may
       // have been updated by the agent after a meaningful development)
       var loc = events[idIndex[e.id]];
       if (e.ts && e.ts > (loc.ts || 0)) {
-        loc.title = String(e.title || loc.title).slice(0, 200);
+        loc.title = tidyTitle(e.title || loc.title);
         loc.description = String(e.description || loc.description).slice(0, 1000);
         loc.severity = Math.max(1, Math.min(5, parseInt(e.severity) || loc.severity));
         loc.ts = e.ts;
@@ -2233,7 +2414,7 @@ function mergeEvents(remote) {
     if (sev > 5) sev = 5;
     events.push({
       id: e.id,
-      title: String(e.title || '').slice(0, 200),
+      title: tidyTitle(e.title),
       description: String(e.description || '').slice(0, 1000),
       lat: e.lat,
       lng: e.lng,
@@ -2279,7 +2460,11 @@ function syncFeed(silent) {
     });
 }
 
-document.getElementById('btn-ai').addEventListener('click', function() { syncFeed(false); });
+// The manual "Sync feed now" button was removed from the Add Event panel; the
+// feed still refreshes on load and every 5 minutes. This guard keeps the code
+// safe if the button is ever put back.
+var _btnAi = document.getElementById('btn-ai');
+if (_btnAi) _btnAi.addEventListener('click', function() { syncFeed(false); });
 syncFeed(true);
 setInterval(function() { syncFeed(true); }, 5 * 60 * 1000);
 
@@ -2359,6 +2544,40 @@ window.addEventListener('resize',applyUiScale);
 document.getElementById('fs-minus').addEventListener('click',()=>{uiScale=Math.max(.8,Math.round((uiScale-.1)*10)/10);applyUiScale()});
 document.getElementById('fs-plus').addEventListener('click',()=>{uiScale=Math.min(1.6,Math.round((uiScale+.1)*10)/10);applyUiScale()});
 applyUiScale();
+
+// ============ UI TYPEFACE ============
+// The whole stylesheet resolves type through --sans / --cond / --serif / --mono,
+// and html[data-font=…] blocks redefine those four. So switching the attribute
+// restyles every label in the app, including ones drawn from JS strings.
+var FONT_CHOICES=['sans','readable','system','classic'];
+var uiFont=LS.get('gx_uifont','sans');
+if(FONT_CHOICES.indexOf(uiFont)===-1)uiFont='sans';
+function applyUiFont(){
+  document.documentElement.setAttribute('data-font',uiFont);
+  document.querySelectorAll('#font-choices .font-opt').forEach(function(b){
+    b.classList.toggle('on',b.dataset.font===uiFont);
+  });
+  LS.set('gx_uifont',uiFont);
+}
+document.querySelectorAll('#font-choices .font-opt').forEach(function(b){
+  b.addEventListener('click',function(){uiFont=b.dataset.font;applyUiFont()});
+});
+applyUiFont();
+
+// ============ EVENT CACHE RESET ============
+// Escape hatch for a stuck local state: drops stored user events and the
+// dismissed-event tombstones, then pulls the feed again from scratch.
+var _evReset=document.getElementById('ev-reset');
+if(_evReset)_evReset.addEventListener('click',function(){
+  if(!confirm('Forget locally stored events and deleted-event history, then reload the feed?'))return;
+  try{localStorage.removeItem('gx_events');localStorage.removeItem('gx_dismissed')}catch(e){}
+  dismissedEvents={};
+  events=[];
+  hideEventCard();
+  rebuildEventMarkers();
+  renderEventList();
+  syncFeed(false);
+});
 
 // ============ SEARCH ============
 const searchIn=document.getElementById('search-in');
@@ -2892,24 +3111,53 @@ function satAltToR(altKm){
   return R*(1 + Math.min(0.55, 0.09*Math.log10(1+altKm/60)));
 }
 // Fetch a TLE from CelesTrak and convert to a satrec. Returns null on failure.
+// The raw TLE lines are cached in localStorage for TLE_CACHE_TTL so a CelesTrak
+// outage (or a rate-limit, which is what usually happens) degrades to slightly
+// stale elements instead of losing the orbit entirely.
+var TLE_CACHE_TTL = 24 * 3600 * 1000;
+function _tleCacheGet(norad){
+  var c = LS.get('gx_tle_' + norad, null);
+  if (!c || !c.l1 || !c.l2) return null;
+  if (Date.now() - (c.t || 0) > TLE_CACHE_TTL) return c; // stale but still usable
+  return c;
+}
+function _tleToSatrec(l1, l2){
+  if (typeof satellite === 'undefined' || !satellite.twoline2satrec) return null;
+  var rec = satellite.twoline2satrec(l1, l2);
+  if (!rec || rec.error) return null;
+  return rec;
+}
 async function fetchSatrec(norad){
-  try{
-    var r=await fetch('https://celestrak.org/NORAD/elements/gp.php?CATNR='+norad+'&FORMAT=TLE',{cache:'no-store'});
-    if(!r.ok)throw new Error('HTTP '+r.status);
-    var txt=(await r.text()).trim();
-    var lines=txt.split(/\r?\n/).map(function(l){return l.trim()});
-    var l1,l2;
-    if(lines.length>=3){l1=lines[1];l2=lines[2]}
-    else if(lines.length===2){l1=lines[0];l2=lines[1]}
-    else throw new Error('Bad TLE');
-    if(typeof satellite==='undefined'||!satellite.twoline2satrec)throw new Error('satellite.js not loaded');
-    var rec=satellite.twoline2satrec(l1,l2);
-    if(!rec||rec.error)throw new Error('twoline2satrec failed');
-    return rec;
-  }catch(e){
-    console.warn('TLE fetch failed for '+norad+':',e.message||e);
-    return null;
+  var urls = [
+    'https://celestrak.org/NORAD/elements/gp.php?CATNR=' + norad + '&FORMAT=TLE',
+    'https://celestrak.com/NORAD/elements/gp.php?CATNR=' + norad + '&FORMAT=TLE'
+  ];
+  for (var u = 0; u < urls.length; u++) {
+    try {
+      var r = await fetch(urls[u], { cache: 'no-store' });
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      var txt = (await r.text()).trim();
+      if (/^no gp data/i.test(txt)) throw new Error('no GP data');
+      var lines = txt.split(/\r?\n/).map(function(l){ return l.trim(); }).filter(Boolean);
+      var l1, l2;
+      if (lines.length >= 3) { l1 = lines[1]; l2 = lines[2]; }
+      else if (lines.length === 2) { l1 = lines[0]; l2 = lines[1]; }
+      else throw new Error('Bad TLE');
+      var rec = _tleToSatrec(l1, l2);
+      if (!rec) throw new Error('twoline2satrec failed');
+      LS.set('gx_tle_' + norad, { l1: l1, l2: l2, t: Date.now() });
+      return rec;
+    } catch (e) {
+      console.warn('TLE fetch failed for ' + norad + ' via ' + urls[u] + ':', e.message || e);
+    }
   }
+  // Network is down or CelesTrak is refusing us: fall back to the last TLE we saw.
+  var cached = _tleCacheGet(norad);
+  if (cached) {
+    var crec = _tleToSatrec(cached.l1, cached.l2);
+    if (crec) { console.info('Using cached TLE for ' + norad); return crec; }
+  }
+  return null;
 }
 // Convert a satrec + current time to {lat,lng,altKm} using SGP4.
 function satrecLatLng(rec){
@@ -2941,12 +3189,42 @@ function satrecSyntheticLatLng(s){
   return {lat:lat,lng:lng,altKm:s.alt};
 }
 // Kick off TLE loads for all single-sat missions.
-async function loadTLEs(){
-  var single=SAT_DATA.filter(function(s){return s.mode==='single'&&s.norad});
-  await Promise.all(single.map(async function(s){
-    satRecs[s.id]=await fetchSatrec(s.norad);
-  }));
+// The old version did `satRecs[s.id] = await fetchSatrec(...)`, storing null on
+// failure. The retry guard elsewhere was `if(!Object.keys(satRecs).length)`,
+// which counts null-valued keys as present — so one failed CelesTrak call
+// permanently disabled every retry, and with no satrec no orbit line was ever
+// drawn. Failures now go in a separate map with a backoff timestamp.
+var satTleFailed = {};   // id -> ms of last failed attempt
+var satTleLoading = false;
+var TLE_RETRY_MS = 60 * 1000;
+async function loadTLEs(force){
+  if (satTleLoading) return;
+  satTleLoading = true;
+  try {
+    var now = Date.now();
+    var single = SAT_DATA.filter(function(s){
+      if (s.mode !== 'single' || !s.norad) return false;
+      if (satRecs[s.id]) return false;                                   // already have it
+      if (!force && now - (satTleFailed[s.id] || 0) < TLE_RETRY_MS) return false; // backing off
+      return true;
+    });
+    await Promise.all(single.map(async function(s){
+      var rec = await fetchSatrec(s.norad);
+      if (rec) { satRecs[s.id] = rec; delete satTleFailed[s.id]; }
+      else { satTleFailed[s.id] = Date.now(); }
+    }));
+  } finally {
+    satTleLoading = false;
+  }
 }
+// Keep retrying in the background while the tracker is on, and refresh elements
+// every 6 h so long sessions don't drift on stale TLEs.
+setInterval(function(){
+  if (typeof satOn !== 'undefined' && satOn && Object.keys(satTleFailed).length) loadTLEs();
+}, TLE_RETRY_MS);
+setInterval(function(){
+  if (typeof satOn !== 'undefined' && satOn) { satRecs = {}; loadTLEs(true); }
+}, 6 * 3600 * 1000);
 // ---- glTF loader with local-first + CDN fallback + browser cache ----
 // Each mission may list multiple remote sources; the first one that fetches
 // successfully is used. Local files under public/assets/models/ always win.
@@ -3277,15 +3555,46 @@ function buildLiveDots(){
     m.userData.halo=halo;satGrp.add(halo);
   });
 }
+// ---- Synthetic orbit path, used when no TLE is available ----
+// Sweeps satrecSyntheticLatLng over one published period. Less accurate than
+// SGP4, but it means the tracker always shows a trajectory instead of silently
+// drawing nothing whenever CelesTrak is unreachable.
+function computeSyntheticOrbitPath(mission,samples){
+  samples=samples||144;
+  var pts=[];
+  var periodSec=(mission.period||95)*60;
+  var t0=Date.now()/1000;
+  var meanMotion=2*Math.PI/periodSec;
+  var inc=(mission.inc||51.6)*Math.PI/180;
+  for(var i=0;i<=samples;i++){
+    var t=t0+i*periodSec/samples;
+    var theta=(t*meanMotion)%(2*Math.PI);
+    var lat=Math.asin(Math.sin(inc)*Math.sin(theta))*180/Math.PI;
+    var lng=(((t*meanMotion*180/Math.PI)-t*(360/86164))+((mission.norad||0)*11))%360;
+    if(lng>180)lng-=360;if(lng<-180)lng+=360;
+    pts.push(llv(lat,lng,satAltToR(mission.alt)));
+  }
+  return pts;
+}
 function rebuildOrbitLineIfNeeded(s){
   var line=satOrbitLines[s.id];if(!line)return;
-  var rec=satRecs[s.id];if(!rec)return;
+  var rec=satRecs[s.id];
   var last=satOrbitLastBuilt[s.id]||0;
-  if(Date.now()-last<10*60*1000&&line.geometry.attributes.position)return;
-  var pts=computeOrbitPath(s,rec,144);
+  var haveGeom=line.geometry&&line.geometry.attributes&&line.geometry.attributes.position;
+  var real=!!rec;
+  // Rebuild when: nothing drawn yet, the cadence elapsed, or we just upgraded
+  // from a synthetic path to a real TLE one.
+  if(haveGeom&&Date.now()-last<10*60*1000&&line.userData.real===real)return;
+  var pts=real?computeOrbitPath(s,rec,144):[];
+  if(!pts.length){pts=computeSyntheticOrbitPath(s,144);real=false}
   if(!pts.length)return;
   line.geometry.dispose();
   line.geometry=new THREE.BufferGeometry().setFromPoints(pts);
+  line.userData.real=real;
+  // Approximated tracks read as dimmer and thinner, so it's visible at a glance
+  // which lines are propagated from real elements.
+  line.material.opacity=real?.55:.22;
+  line.material.needsUpdate=true;
   satOrbitLastBuilt[s.id]=Date.now();
 }
 // Update live-tracked dot positions using real TLE data (or synthetic fallback)
@@ -3788,7 +4097,10 @@ window.toggleSatPanel=function(on){
 };
 window.toggleSatTracker=function(on){
   satOn=(typeof on==='boolean')?on:!satOn;
-  if(satOn){buildLiveDots();if(!Object.keys(satRecs).length)loadTLEs()}
+  // loadTLEs() self-guards against duplicate work, so just call it: the old
+  // `if(!Object.keys(satRecs).length)` check never fired again once a fetch
+  // had failed, because failures were stored as null-valued keys.
+  if(satOn){buildLiveDots();loadTLEs()}
   if(satGrp)satGrp.visible=satOn;
   if(!satOn){closeSatDetail();hideAllShells()}
   var b=document.getElementById('sat-toggle');
@@ -3821,7 +4133,7 @@ window.openSatDetail=function(id){
     sdLive.innerHTML='<div class="kv"><span class="k">STATUS</span><span class="v">Loading live position…</span></div>';
     document.getElementById('sat-live-badge').classList.add('on');
     buildLiveDots();
-    if(!satRecs[s.id])loadTLEs().then(updateLiveDots);
+    if(!satRecs[s.id])loadTLEs(true).then(updateLiveDots);
     // Focus is only for single-sat missions
     focusOnSingleSat(s);
     // Load the actual NASA glTF model into the in-panel viewer
@@ -3841,7 +4153,7 @@ window.openSatDetail=function(id){
 };
 function renderSatList(){
   var el=document.getElementById('sat-list');if(!el)return;
-  var h='<div style="padding:9px 13px;border-bottom:1px solid var(--border);font-size:10.5px;color:var(--text-dim);line-height:1.55">Single-sat missions use live TLE data via CelesTrak; the orbit line is the real TLE trajectory. Large constellations render only as a shell — turn on Compare to stack multiple shells at once.</div>';
+  var h='<div style="padding:9px 13px;border-bottom:1px solid var(--border);font-size:10.5px;color:var(--text-dim);line-height:1.55">Single-sat missions use live TLE data via CelesTrak; the orbit line is the real TLE trajectory. If CelesTrak is unreachable the track is drawn faint, from published orbital elements. Large constellations render only as a shell — turn on Compare to stack multiple shells at once.</div>';
   SAT_DATA.forEach(function(s){
     var tag=s.mode==='single'?'<span class="sat-tag live">LIVE</span>':'<span class="sat-tag shell">SHELL</span>';
     h+='<div class="sat-card" data-id="'+s.id+'">'+
