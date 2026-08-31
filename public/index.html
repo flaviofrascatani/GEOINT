@@ -359,9 +359,9 @@ canvas#gl{position:fixed;inset:0;z-index:1;touch-action:none}
 .good-bar{flex:1;height:5px;background:rgba(255,255,255,.04);border-radius:2px;overflow:hidden}
 .good-fill{height:100%;background:var(--accent)}
 .good-pct{min-width:30px;text-align:right;font-family:var(--mono);color:var(--text-dim);font-size:9.5px}
-#btn-routes,#btn-alliances,#btn-sources{padding:6px 13px;background:var(--surface);border:1px solid var(--border);border-radius:4px;color:var(--accent);font-family:var(--sans);font-size:11.5px;font-weight:500;cursor:pointer;backdrop-filter:blur(10px);letter-spacing:.1px}
-#btn-routes:hover,#btn-alliances:hover,#btn-sources:hover{background:rgba(138,173,132,.12);border-color:var(--accent)}
-#btn-routes.on,#btn-alliances.on,#btn-sources.on{background:rgba(138,173,132,.15);color:var(--bright)}
+#btn-routes,#btn-alliances,#btn-sources,#btn-satellites{padding:6px 13px;background:var(--surface);border:1px solid var(--border);border-radius:4px;color:var(--accent);font-family:var(--sans);font-size:11.5px;font-weight:500;cursor:pointer;backdrop-filter:blur(10px);letter-spacing:.1px}
+#btn-routes:hover,#btn-alliances:hover,#btn-sources:hover,#btn-satellites:hover{background:rgba(138,173,132,.12);border-color:var(--accent)}
+#btn-routes.on,#btn-alliances.on,#btn-sources.on,#btn-satellites.on{background:rgba(138,173,132,.15);color:var(--bright)}
 
 /* =========================================================================
    RESPONSIVE — phones & small tablets
@@ -550,7 +550,7 @@ canvas#gl{position:fixed;inset:0;z-index:1;touch-action:none}
   </div>
   <div class="pnl-b" id="alliances-list"></div>
 </div>
-<div id="bot"><div class="left"><button class="fs-btn" id="btn-settings" title="Settings">⚙ Settings</button><button class="fs-btn" id="btn-routes">◈ Trade Routes</button><button class="fs-btn" id="btn-alliances">◇ Alliances</button><button class="fs-btn" id="btn-sources">◎ Sources</button></div><div class="right"><div id="coords-box"><span class="nm" id="coords-nm"></span><span class="lbl">Lat/Lng</span><span class="val" id="coords">—</span></div></div></div>
+<div id="bot"><div class="left"><button class="fs-btn" id="btn-settings" title="Settings">⚙ Settings</button><button class="fs-btn" id="btn-routes">◈ Trade Routes</button><button class="fs-btn" id="btn-alliances">◇ Alliances</button><button class="fs-btn" id="btn-sources">◎ Sources</button><button class="fs-btn" id="btn-satellites" title="Satellite tracker — ISS + major constellations">🛰 Satellites</button></div><div class="right"><div id="coords-box"><span class="nm" id="coords-nm"></span><span class="lbl">Lat/Lng</span><span class="val" id="coords">—</span></div></div></div>
 
 <div id="settings-pop" style="display:none;position:fixed;left:10px;bottom:40px;z-index:220;width:256px;background:var(--surface);border:1px solid var(--border-h);border-radius:6px;backdrop-filter:blur(14px);padding:12px 14px">
   <div style="font-family:var(--sans);font-size:12.5px;font-weight:600;color:var(--accent);margin-bottom:10px">⚙ Settings</div>
@@ -570,10 +570,6 @@ canvas#gl{position:fixed;inset:0;z-index:1;touch-action:none}
     </div>
   </div>
   <div style="display:flex;align-items:center;gap:7px;border-top:1px solid var(--border);padding-top:10px">
-    <span style="flex:1;font-size:11.5px;color:var(--text)">Satellite tracker<br><span style="font-size:9.5px;color:var(--text-dim)">ISS + major constellations</span></span>
-    <button class="fs-btn" id="sat-toggle">Off</button>
-  </div>
-  <div style="display:flex;align-items:center;gap:7px;border-top:1px solid var(--border);padding-top:10px;margin-top:10px">
     <span style="flex:1;font-size:11.5px;color:var(--text)">Cached events<br><span style="font-size:9.5px;color:var(--text-dim)">Clears deleted-event memory too</span></span>
     <button class="fs-btn" id="ev-reset" title="Forget locally stored events and restore the full feed">Reset</button>
   </div>
@@ -3120,8 +3116,6 @@ var satGrp=null; // group holding live orbit lines + dots for single-sat mission
 var satDotMeshes={}; // id -> mesh (for single-sat)
 var satOrbitLines={}; // id -> Line (real TLE trajectory)
 var satOrbitLastBuilt={}; // id -> ms timestamp when the orbit line was last rebuilt
-var satGroundLines={};   // id -> {past,next} ground-track lines (Earth-fixed)
-var satGroundLastBuilt={};
 var satShellGrps={}; // id -> Group (constellation shell), supports multiple at once
 var satCompareMode=false;
 var satActiveId=null;
@@ -3624,64 +3618,7 @@ function buildLiveDots(){
       new THREE.MeshBasicMaterial({color:s.color,transparent:true,opacity:.14})
     );
     m.userData.halo=halo;satGrp.add(halo);
-    // Ground track: where the satellite actually passes overhead. Two lines so
-    // the orbit just flown reads differently from the one coming up. Drawn just
-    // above the surface and NOT counter-rotated — a ground track belongs to the
-    // rotating Earth, which is exactly why it shifts west every revolution.
-    var gPast=new THREE.Line(new THREE.BufferGeometry(),
-      new THREE.LineBasicMaterial({color:s.color,transparent:true,opacity:.20}));
-    var gNext=new THREE.Line(new THREE.BufferGeometry(),
-      new THREE.LineBasicMaterial({color:s.color,transparent:true,opacity:.55}));
-    satGrp.add(gPast);satGrp.add(gNext);
-    satGroundLines[s.id]={past:gPast,next:gNext};
   });
-}
-/* ---- Ground track ----
-   Here the per-sample gstime(t) that was wrong for the orbit ring is exactly
-   right: a ground track IS the orbit sampled against a rotating Earth. Points
-   sit at the sub-satellite position, so successive revolutions land ~23.6° of
-   longitude further west, which is what makes the classic sinusoid. */
-function computeGroundTrack(mission,rec,fromMin,toMin,samples){
-  var pts=[];
-  var now=Date.now();
-  var periodMin=mission.period||93;
-  if(rec&&typeof satellite!=='undefined'){
-    try{
-      var pm=(2*Math.PI/rec.no);
-      if(isFinite(pm)&&pm>0)periodMin=pm;
-    }catch(e){}
-  }
-  for(var i=0;i<=samples;i++){
-    var offMin=fromMin+(toMin-fromMin)*i/samples;
-    var t=new Date(now+offMin*periodMin*60000);
-    var ecf=null;
-    if(rec&&typeof satellite!=='undefined'){
-      try{
-        var p=satellite.propagate(rec,t);
-        if(p&&p.position)ecf=eciToEcfVec(p.position,satellite.gstime(t));
-      }catch(e){}
-    }
-    if(!ecf){
-      var ts=t.getTime()/1000;
-      ecf=eciToEcfVec(syntheticEci(mission,ts),syntheticGmst(ts));
-    }
-    var mag=Math.sqrt(ecf.x*ecf.x+ecf.y*ecf.y+ecf.z*ecf.z);
-    if(!isFinite(mag)||mag<=0)continue;
-    var k=R*1.004/mag; // hug the surface
-    pts.push(new THREE.Vector3(ecf.x*k,ecf.z*k,-ecf.y*k));
-  }
-  return pts;
-}
-function rebuildGroundTrack(s){
-  var gl=satGroundLines[s.id];if(!gl)return;
-  var rec=satRecs[s.id];
-  var last=satGroundLastBuilt[s.id]||0;
-  if(gl.next.geometry.attributes.position&&Date.now()-last<2*60*1000)return;
-  var past=computeGroundTrack(s,rec,-1,0,160);
-  var next=computeGroundTrack(s,rec,0,1,160);
-  if(past.length){gl.past.geometry.dispose();gl.past.geometry=new THREE.BufferGeometry().setFromPoints(past)}
-  if(next.length){gl.next.geometry.dispose();gl.next.geometry=new THREE.BufferGeometry().setFromPoints(next)}
-  satGroundLastBuilt[s.id]=Date.now();
 }
 // ---- Synthetic orbit path, used when no TLE is available ----
 // Sweeps satrecSyntheticLatLng over one published period. Less accurate than
@@ -3748,6 +3685,10 @@ function updateOrbitLineFrames(){
     if(!line||line.userData.gmst0===undefined)return;
     var g=line.userData.real&&realGmst!==null?realGmst:syntheticGmst(nowSec);
     line.rotation.y=-(g-line.userData.gmst0);
+    // Selected mission leads; the others recede instead of competing with it.
+    var lead=(!satActiveId||satActiveId===s.id);
+    var base=line.userData.real?.55:.22;
+    line.material.opacity=lead?base:base*0.3;
   });
 }
 /* Elements silently going stale is the failure mode that looks fine but isn't:
@@ -3780,7 +3721,6 @@ function updateLiveDots(){
     if(mesh.userData.halo)mesh.userData.halo.position.copy(v);
     mesh.userData.lastPos=pos;
     rebuildOrbitLineIfNeeded(s);
-    rebuildGroundTrack(s);
   });
   // Live badge for the active single-sat mission
   var badge=document.getElementById('sat-live-badge');
@@ -4276,9 +4216,10 @@ window.toggleSatTracker=function(on){
   if(satOn){buildLiveDots();loadTLEs()}
   if(satGrp)satGrp.visible=satOn;
   if(!satOn){closeSatDetail();hideAllShells()}
-  var b=document.getElementById('sat-toggle');
-  b.textContent=satOn?'On':'Off';
-  b.style.background=satOn?'rgba(138,173,132,.2)':'rgba(138,173,132,.06)';
+  // The toggle now lives in the bottom bar beside Sources, so it carries the
+  // same .on state as the other panel buttons instead of an On/Off label.
+  var b=document.getElementById('btn-satellites');
+  if(b)b.classList.toggle('on',satOn);
   toggleSatPanel(satOn);
 };
 window.closeSatDetail=function(){
@@ -4364,7 +4305,7 @@ function renderSatList(){
     });
   });
 }
-document.getElementById('sat-toggle').addEventListener('click',function(){toggleSatTracker()});
+document.getElementById('btn-satellites').addEventListener('click',function(){toggleSatTracker()});
 // Compare-mode + clear buttons in the shell bar
 var _compareBtn=document.getElementById('sat-compare-toggle');
 if(_compareBtn){
@@ -4428,10 +4369,3 @@ window.addEventListener('resize',()=>{
 })();
 </script>
 </body></html>
-
-
-
-
-
-
-
