@@ -1,7 +1,78 @@
 {
   "schema": 1,
-  "updated": "2026-08-31T00:29:15.629574+00:00",
+  "updated": "2026-08-31T06:04:00.615096+00:00",
   "events": [
+    {
+      "id": "a1d5d0c0c5de",
+      "title": "US and Iran exchange fire for the first time in more than a month",
+      "description": "American forces bombed Larak Island in the Persian Gulf; Iran responded by striking U.S. facilities in Jordan.",
+      "lat": 25.5474,
+      "lng": 56.05000000000001,
+      "severity": 4,
+      "location": "Larak Island, Iran",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/f270814f-e836-44e8-80c2-ec1034f80519?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1788153403000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/f270814f-e836-44e8-80c2-ec1034f80519?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c04dcde306e8",
+      "title": "Eight killed and 18 missing after ferry capsizes off northern Cyprus",
+      "description": "A passenger ferry overturns near Kyrenia, leaving dozens dead and missing.",
+      "lat": 35.34,
+      "lng": 33.33,
+      "severity": 3,
+      "location": "Kyrenia, Northern Cyprus",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b564/live/7bd43000-a492-11f1-a291-b542ee92de7c.jpg",
+      "ts": 1788148575000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/kyrenia-ferry-cyprus-boat-rescue-37608361"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "cb39af2df6ed",
       "title": "China launches first communications satellite for an Arab country, Algeria",
@@ -31,6 +102,59 @@
             "n": "China Daily World",
             "b": "right",
             "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b52f95629bbe",
+      "title": "U.S. Strikes Iranian Launchers Set to Mine Hormuz, IRGC Vows ‘Severe Repercussions’",
+      "description": "U.S. forces hit two Iranian rocket launchers preparing to lay sea mines in the Strait of Hormuz.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 4,
+      "location": "Strait of Hormuz",
+      "source": "Breitbart",
+      "url": "https://www.breitbart.com/politics/2026/08/30/u-s-strikes-iranian-launchers-set-to-mine-hormuz-irgc-vows-severe-repercussions/",
+      "image": null,
+      "ts": 1788129229000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 1,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/us-strikes-irans-larak-island-tehran-vows-response-and-punishment-11979563#publisher=newsstand"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/us-forces-strike-iran-rocket-launcher-donald-trump-updates/article71408837.ece"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20260830-us-forces-strike-iranian-launchers-on-larak-island-in-strait-of-hormuz"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/iran-news/article-907075"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/politics/2026/08/30/u-s-strikes-iranian-launchers-set-to-mine-hormuz-irgc-vows-severe-repercussions/"
           }
         ]
       }
@@ -299,6 +423,39 @@
       }
     },
     {
+      "id": "85ed4a943f9c",
+      "title": "Sen. Blumenthal urges House to pass Russia sanctions bill amid a \"moment of extreme urgency\" in Ukraine",
+      "description": "U.S. Senator pushes for rapid passage of a new sanctions package targeting Russia over its actions in Ukraine.",
+      "lat": 55.75,
+      "lng": 37.620000000000005,
+      "severity": 2,
+      "location": "Moscow, Russia",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQkpFRnhMc0VpNl9mWXlfT2JWczJ5TF80dnNrd3lSY2YxaHBfNU4zcGxKaDZ6dlpYVkNkU3YxZTlqMUdvazZaLVYwb2JwREc0QXBBdkU2b0JlU2NOeGZIQmxpSGdLNE1DckI5TGZwTnlfYkJGbGtjWXAyQnhvdzdRaTEyVm5wRGxZNW03SmhBS2swbl92cEVQenV3aVBuV0U?oc=5",
+      "image": null,
+      "ts": 1788110237000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQkpFRnhMc0VpNl9mWXlfT2JWczJ5TF80dnNrd3lSY2YxaHBfNU4zcGxKaDZ6dlpYVkNkU3YxZTlqMUdvazZaLVYwb2JwREc0QXBBdkU2b0JlU2NOeGZIQmxpSGdLNE1DckI5TGZwTnlfYkJGbGtjWXAyQnhvdzdRaTEyVm5wRGxZNW03SmhBS2swbl92cEVQenV3aVBuV0U?oc=5"
+          }
+        ]
+      }
+    },
+    {
       "id": "9638219edf7d",
       "title": "USS Lincoln sails past Singapore after 9‑month deployment",
       "description": "The U.S. aircraft carrier USS Lincoln transited the Singapore Strait, signalling continued naval presence in Southeast Asian waters after a lengthy deployment.",
@@ -446,6 +603,44 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/08/29/us-due-to-cut-off-uae-branches-of-egypts-banque-misr-over-iran-ties/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "71c50b659ab6",
+      "title": "Iran's Supreme Leader Urges Gulf Rulers In Written Message To Confront 'Real Enemy'",
+      "description": "Ayatollah Khamenei calls on Gulf states to unite against what he describes as a common adversary.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/mojtaba-khamenei-gulf-countries-muslims_n_6a942095e4b05bad0588387f",
+      "image": null,
+      "ts": 1788092867000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/mojtaba-khamenei-gulf-countries-muslims_n_6a942095e4b05bad0588387f"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/politics/2026/08/30/irans-supreme-leader-khamenei-calls-for-gulf-unity-confront-real-enemy-u-s-israel/"
           }
         ]
       }
@@ -7258,196 +7453,6 @@
             "n": "AGI Estero",
             "b": "center",
             "u": "https://www.agi.it/estero/news/2026-08-24/usa-sanzioni-iran-38682250/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6bee4fe80e3d",
-      "title": "US announces new secondary sanctions to choke Iran’s fund flow",
-      "description": "The United States unveiled a fresh round of secondary sanctions aimed at cutting off financial channels to Tehran across five key sectors.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 3,
-      "location": "Tehran, Iran",
-      "source": "AGI Estero",
-      "url": "https://www.agi.it/estero/news/2026-08-24/usa-sanzioni-iran-38682250/",
-      "image": "https://images.agi.it/pictures/agi/agi/2026/08/24/175220590-9fa59292-7bf1-47d2-a5a3-c8a8380d3547.jpg",
-      "ts": 1787593641000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-08-24/usa-sanzioni-iran-38682250/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "16adb345c8de",
-      "title": "U.S. withdraws from military exercises with South Korea",
-      "description": "The United States announced it will pull out of scheduled joint drills with South Korea, citing resource strains from the war in Iran.",
-      "lat": 37.5665,
-      "lng": 126.978,
-      "severity": 3,
-      "location": "Seoul, South Korea",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/24/us-withdraws-military-exercises-with-south-korea-set-next-month/",
-      "image": null,
-      "ts": 1787593495000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/24/us-withdraws-military-exercises-with-south-korea-set-next-month/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d4cd825cf8c9",
-      "title": "Canadian politician threatens to cut off electricity to the US after Trump tariffs",
-      "description": "A Canadian lawmaker warned of cutting electricity and mineral supplies to the United States in response to President Trump's 50% tariff threat.",
-      "lat": 38.9,
-      "lng": -77.04,
-      "severity": 2,
-      "location": "Washington, D.C., USA",
-      "source": "Sky News World",
-      "url": "https://news.sky.com/story/canadian-politician-threatens-to-cut-off-electricity-to-the-us-in-response-to-donald-trumps-50-tariffs-13576665",
-      "image": "https://e3.365dm.com/25/10/1920x1080/skynews-trump-tariffs-canada_7060975.jpg?20251024211416",
-      "ts": 1787579940000,
-      "coverage": {
-        "left": 2,
-        "center": 2,
-        "right": 1,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 2,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/economy/article/2026/08/24/trump-threatens-new-tariffs-on-canadian-vehicles_6756804_19.html"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/trump-threatens-50-tariff-on-canadian-automobiles-car-parts-steel-starting-january-1/article71385281.ece"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/52978bad-2b91-41e3-be94-7fb6776fbb91?syn-25a6b1a6=1"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/canadian-politician-threatens-to-cut-off-electricity-to-the-us-in-response-to-donald-trumps-50-tariffs-13576665"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/644600-trump-canada-auto-tariffs/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b22980f354ec",
-      "title": "Japanese lawmakers travel to Beijing, seeking to mend ties after fallout — Lawmakers from Japan have traveled to Beijing to meet with Chinese officials in the first visit since tensions rose after Pri",
-      "description": "Japanese parliamentarians arrived in Beijing for talks aimed at reducing diplomatic friction with China.",
-      "lat": 39.91,
-      "lng": 116.4,
-      "severity": 2,
-      "location": "Beijing, China",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/japanese-lawmakers-travel-beijing-seeking-mend-ties-after-135894865",
-      "image": "https://s.abcnews.com/images/International/wirestory_f8d51071001799e9499f47f4b6f48e92_4x3_384.jpg",
-      "ts": 1787572458000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/japanese-lawmakers-travel-beijing-seeking-mend-ties-after-135894865"
-          },
-          {
-            "n": "Global Times",
-            "b": "right",
-            "u": "https://www.globaltimes.cn/page/202606/1363326.shtml"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7bc34798c69a",
-      "title": "Taiwan to increase defense spending to record $35.2 billion in 2027",
-      "description": "The budget, which includes both ordinary and special spending, will exceed 3% of Taiwan’s GDP for the first time",
-      "lat": 25.0333,
-      "lng": 121.6333,
-      "severity": 2,
-      "location": "Taipei, Taiwan",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/asia/2026/08/17/leader-taiwan-nel-2027-spesa-per-la-difesa-record-a-352-miliardi_8fcbef09-1ee6-4157-9eb4-ac6f3d64886f.html",
-      "image": null,
-      "ts": 1786950204000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/asia/2026/08/17/leader-taiwan-nel-2027-spesa-per-la-difesa-record-a-352-miliardi_8fcbef09-1ee6-4157-9eb4-ac6f3d64886f.html"
           }
         ]
       }
