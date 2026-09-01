@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-09-01T21:18:03.042637+00:00",
+  "updated": "2026-09-01T23:32:32.179960+00:00",
   "events": [
+    {
+      "id": "1f2254399b59",
+      "title": "UN faces contentious Iran nuclear vote ahead of General Assembly",
+      "description": "The UN Security Council will vote on renewing the mandate of a panel monitoring sanctions on Iran, raising diplomatic tensions.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/09/un-faces-contentious-iran-nuclear-vote-ahead-general-assembly",
+      "image": null,
+      "ts": 1788302790000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/09/un-faces-contentious-iran-nuclear-vote-ahead-general-assembly"
+          }
+        ]
+      }
+    },
     {
       "id": "4db511242090",
       "title": "Satellite lofted for first Arab country – launch for Algeria",
@@ -385,6 +418,39 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/guinea-bissau-voters-back-sweeping-power-shift-boosting-136121231"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f346ee79e31a",
+      "title": "Venezuela's main airport reopens with temporary modules two months after the earthquake",
+      "description": "Simón Bolívar International Airport in Maiquetía resumes domestic and international flights after extensive earthquake damage.",
+      "lat": 10.6,
+      "lng": -66.99,
+      "severity": 1,
+      "location": "Maiquetía, Venezuela",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/09/01/venezuela-s-main-airport-reopens-with-temporary-modules-two-months-after-the-earthquake?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": "https://en.mercopress.com/data/cache/noticias/111340/100x80/aeropuerto-maiquetia-1.jpg",
+      "ts": 1788284220000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/09/01/venezuela-s-main-airport-reopens-with-temporary-modules-two-months-after-the-earthquake?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
           }
         ]
       }
@@ -7512,77 +7578,6 @@
             "n": "Washington Examiner",
             "b": "right",
             "u": "https://www.washingtonexaminer.com/news/world/4699324/canada-retaliates-trump-tariffs/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9043acada8e6",
-      "title": "US plans to revoke business, tourism visas of 200,000 asylum seekers",
-      "description": "The United States announces a mass revocation of visas for 200,000 asylum seekers, the largest such action in its history.",
-      "lat": 40.0,
-      "lng": -77.04,
-      "severity": 2,
-      "location": "Washington, D.C., United States",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/25/us-plans-to-revoke-business-tourism-visas-of-200000-asylum-seekers?traffic_source=rss",
-      "image": null,
-      "ts": 1787619704000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/25/us-plans-to-revoke-business-tourism-visas-of-200000-asylum-seekers?traffic_source=rss"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQ0FQU2lNNmJpYkg3Z3hpVUdkQ3lWUXp0WFBtTUpFWmhmcWpoa2V1WmFpRXlTWEJod01kZUNtSUpLLUIteTh4WGpFN2pxV0hGcmFRSDNYZUNWSjhCRUhHcXl0OFZXNTI0Z2MtSlUzRTVyV051RHFGX180VGlvMl9LaGtOVnpWSEN1Tk9MUg?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0f8f8d2703b5",
-      "title": "US extends Cuba trade embargo for one year",
-      "description": "The United States prolongs its trade embargo against Cuba until September 2027, maintaining strict economic restrictions.",
-      "lat": 23.12,
-      "lng": -82.38,
-      "severity": 3,
-      "location": "Havana, Cuba",
-      "source": "TASS",
-      "url": "https://tass.com/economy/2177229",
-      "image": null,
-      "ts": 1787619181000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/economy/2177229"
           }
         ]
       }
