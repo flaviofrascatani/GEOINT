@@ -1,7 +1,202 @@
 {
   "schema": 1,
-  "updated": "2026-09-01T18:25:54.507398+00:00",
+  "updated": "2026-09-01T21:18:03.042637+00:00",
   "events": [
+    {
+      "id": "4db511242090",
+      "title": "Satellite lofted for first Arab country – launch for Algeria",
+      "description": "China launches a communications satellite that will become the first such export to an Arab nation, Algeria.",
+      "lat": 37.83,
+      "lng": 4.995200000000011,
+      "severity": 2,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1788297482846,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f07424a5f8dc",
+      "title": "U.S. strikes Iran as Tehran retaliates, raising risk of wider war",
+      "description": "U.S. forces conduct additional strikes around the Strait of Hormuz in response to Iranian attacks on shipping and personnel.",
+      "lat": 27.67,
+      "lng": 56.25,
+      "severity": 4,
+      "location": "Strait of Hormuz",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/09/01/us-strikes-iran-after-new-hormuz-strait-shipping-attacks-centcom.html",
+      "image": null,
+      "ts": 1788296210000,
+      "coverage": {
+        "left": 0,
+        "center": 3,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 3,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/09/01/us-strikes-iran-after-new-hormuz-strait-shipping-attacks-centcom.html"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/us-strikes-iran-again-strait-hormuz-tehran-vows-harsh-punishment-3807036"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/09/trump-says-latest-strikes-iran-are-justified-warns-tehran-against-retaliation"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/trump-says-iran-dead-experts-point-real-sign-tehran-nearing-brink"
+          }
+        ]
+      }
+    },
+    {
+      "id": "71e2227f4db6",
+      "title": "Netanyahu says Israel seized Hamas internal security chief in Gaza",
+      "description": "Israel announced the capture of the head of Hamas’s internal security apparatus in Gaza during a targeted operation.",
+      "lat": 31.52,
+      "lng": 34.46000000000001,
+      "severity": 3,
+      "location": "Gaza City, Gaza Strip",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/netanyahu-says-israel-seized-hamas-internal-security-chief-in-gaza/article71417072.ece",
+      "image": "https://th-i.thgim.com/public/incoming/o2s3hm/article71417073.ece/alternates/LANDSCAPE_1200/2026-08-24T184219Z_1225272422_RC2C0NAFZUJR_RTRMADP_3_IRAN-CRISIS-ISRAEL-NETANYAHU.JPG",
+      "ts": 1788291506000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/benjamin-netanyahu-says-israeli-forces-have-captured-hamas-security-chief-in-gaza-11989282#publisher=newsstand"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/netanyahu-says-israel-seized-hamas-internal-security-chief-in-gaza/article71417072.ece"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c1wxex4vg35o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/israel-captures-top-hamas-commander-gaza-strike-defense-minister-says"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c04f2f899b32",
+      "title": "Syria site infrastructure 'consistent with nuclear reactor': IAEA",
+      "description": "The IAEA reports that a Syrian site contains infrastructure consistent with a nuclear reactor, raising proliferation concerns.",
+      "lat": 34.61,
+      "lng": 36.28999999999999,
+      "severity": 3,
+      "location": "Damascus, Syria",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/09/syria-site-infrastructure-consistent-nuclear-reactor-iaea",
+      "image": null,
+      "ts": 1788291029000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/09/syria-site-infrastructure-consistent-nuclear-reactor-iaea"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0190726f99c3",
+      "title": "Senegal and IMF agree new $2.2 billion loan programme",
+      "description": "Senegal reaches a fresh $2.2 billion financing agreement with the International Monetary Fund to support its economy.",
+      "lat": 14.69,
+      "lng": -17.44,
+      "severity": 2,
+      "location": "Dakar, Senegal",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/09/01/senegal-and-imf-agree-new-22-billion-loan-programme/",
+      "image": "http://images.euronews.com/articles/stories/09/89/76/25/640x360_cmsv2_e03cbb43-babf-55ee-b0a3-50d7ed1671bf-9897625.jpg?1788278257",
+      "ts": 1788290489000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/09/01/senegal-and-imf-agree-new-22-billion-loan-programme/"
+          }
+        ]
+      }
+    },
     {
       "id": "22b8bcc17d53",
       "title": "Syria was building nuclear reactor in Deir el‑Zour under Assad, UN report finds",
@@ -41,6 +236,59 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/mid-east/syria-built-nuclear-reactor-under-assad-iaea-confirms"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9bca6c645ffd",
+      "title": "U.S. Confirms Strikes Against Islamic Revolutionary Guard Corps Targets in Iran",
+      "description": "U.S. Central Command confirms air strikes on IRGC facilities in Iran following attempted attacks on U.S. interests.",
+      "lat": 35.69,
+      "lng": 53.295199999999994,
+      "severity": 4,
+      "location": "Tehran, Iran",
+      "source": "Breitbart",
+      "url": "https://www.breitbart.com/middle-east/2026/09/01/u-s-confirms-strikes-against-islamic-revolutionary-guard-corps-targets-in-iran/",
+      "image": null,
+      "ts": 1788286137000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 1,
+        "total": 5,
+        "buckets": {
+          "left": 1,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/us-launches-new-wave-of-strikes-on-iran-as-hostilities-flare-again_n_6a970a14e4b0f5af040f91f5"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/us-begins-strikes-in-iran-after-attacks-on-american-bases-in-middle-east-11988761#publisher=newsstand"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/us-strikes-iran-again-strait-hormuz-tehran-vows-harsh-punishment-3807036"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/videos/2026-09-01/radio-balance-of-power-early-edition-9-1-2026-video"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/middle-east/2026/09/01/u-s-confirms-strikes-against-islamic-revolutionary-guard-corps-targets-in-iran/"
           }
         ]
       }
@@ -170,6 +418,39 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/09/01/flights-resume-after-kenyan-aviation-workers-call-off-strike/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13711e9688c0",
+      "title": "Tanzania: VP Nchimbi’s resignation entrenches Samia’s iron-fist rule",
+      "description": "Vice President Emmanuel Nchimbi resigns and is expelled from the ruling CCM party, facing possible treason charges, consolidating President Samia Suluhu’s power.",
+      "lat": -6.17,
+      "lng": 31.05,
+      "severity": 3,
+      "location": "Dodoma, Tanzania",
+      "source": "The Africa Report",
+      "url": "https://www.theafricareport.com/429492/tanzania-vp-nchimbis-resignation-entrenches-samias-iron-first-rule/",
+      "image": null,
+      "ts": 1788280200000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Africa Report",
+            "b": "center",
+            "u": "https://www.theafricareport.com/429492/tanzania-vp-nchimbis-resignation-entrenches-samias-iron-first-rule/"
           }
         ]
       }
@@ -601,11 +882,11 @@
     },
     {
       "id": "8a8285bc2d5b",
-      "title": "Tanzania: Govt Announces Two-Month Illegal Firearms Amnesty",
-      "description": "Dodoma announced a two‑month amnesty allowing illegal firearm owners to surrender weapons voluntarily.",
+      "title": "Tanzania: Govt Announces Two‑Month Illegal Firearms Amnesty",
+      "description": "The Tanzanian government launches a two‑month amnesty for illegal firearms, allowing owners to surrender weapons without prosecution.",
       "lat": -6.17,
       "lng": 35.74,
-      "severity": 1,
+      "severity": 2,
       "location": "Dodoma, Tanzania",
       "source": "All Africa",
       "url": "https://allafrica.com/stories/202609010242.html",
@@ -7302,247 +7583,6 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/economy/2177229"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e8c1270beec5",
-      "title": "Syria off US terror blacklist after nearly 50 years",
-      "description": "The United States removed Syria from its state‑sponsors‑of‑terrorism list, opening the door to renewed diplomatic and economic engagement.",
-      "lat": 33.51,
-      "lng": 36.28999999999999,
-      "severity": 1,
-      "location": "Damascus, Syria",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/syria-off-us-terror-blacklist-after-nearly-50-years-trump-admin-clears-investment-hurdle",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/931/523/ahmed-al-sharaa-donald-trump.jpg?ve=1&tl=1",
-      "ts": 1787618094000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/syria-off-us-terror-blacklist-after-nearly-50-years-trump-admin-clears-investment-hurdle"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3e9c0508131d",
-      "title": "Syria off US terror blacklist after nearly 50 years as Trump admin clears investment hurdle — The United States formally removed Syria from its state sponsors of terrorism list after Marco Rubio autho",
-      "description": "Syria è stata rimossa dalla lista dei paesi sponsor del terrorismo degli USA, aprendo la porta a investimenti e relazioni diplomatiche.",
-      "lat": 33.51,
-      "lng": 36.28999999999999,
-      "severity": 2,
-      "location": "Damascus, Syria",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/syria-off-us-terror-blacklist-after-nearly-50-years-trump-admin-clears-investment-hurdle",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/931/523/ahmed-al-sharaa-donald-trump.jpg?ve=1&tl=1",
-      "ts": 1787618094000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/syria-off-us-terror-blacklist-after-nearly-50-years-trump-admin-clears-investment-hurdle"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6cc11ae54521",
-      "title": "Iran faces 'greatest financial offensive ever', says US treasury secretary",
-      "description": "Il Segretario del Tesoro USA avverte che gli Stati Uniti taglieranno tutti i legami economici con l'Iran e isoleranno chi collabora con il regime.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de12/live/09a94a20-9fe6-11f1-8ed1-41aaf1fca4f2.jpg",
-      "ts": 1787615305000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c9f7d38f2cae",
-      "title": "Iran faces ‘greatest financial offensive ever’, says US Treasury secretary",
-      "description": "The US Treasury secretary warned of a sweeping financial campaign against Iran, threatening secondary sanctions on partners.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de12/live/09a94a20-9fe6-11f1-8ed1-41aaf1fca4f2.jpg",
-      "ts": 1787615305000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVVlnRnlJRzZOY2ZlQTVmSGpoR0tPbmMwMi1ZRmtIa2c1Y2lVWTN2U3MxdzdsUFFMX0VHWmwxcDhTc0JRS0VvWkdGb0lkTmRYZjV2akt3aWpiai0tRC1FNDgtZlhhQXFNSzhrNWdNWkpoZ181Z085ak1lQlRfZ1c0aFhGSkdVZTNwbHJRV09JTTRLckZCSEU0NmNWNGhOMFNjaUVKMFhHeDU5WWVZcmdUY3BrX1EzVE0?oc=5"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/business/dollar-struggles-traction-markets-weigh-iran-sanctions-treasury-buybacks-6338921"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e66f7c48fca0",
-      "title": "North Macedonia's Prime Minister Hristijan Mickoski: ‘We Strongly Support’ President Trump",
-      "description": "The Macedonian leader publicly affirmed strong support for the United States under President Trump.",
-      "lat": 41.99,
-      "lng": 21.43,
-      "severity": 1,
-      "location": "Skopje, North Macedonia",
-      "source": "Breitbart",
-      "url": "https://www.breitbart.com/politics/2026/08/24/exclusive-north-macedonia-prime-minister-hristijan-mickoski-we-strongly-support-president-trump-united-states/",
-      "image": null,
-      "ts": 1787614168000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 1,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/ap-cn-canada-carney-trump-trade-war_n_6a8b2cf3e4b0a833ba42e663"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/politics/2026/08/24/exclusive-north-macedonia-prime-minister-hristijan-mickoski-we-strongly-support-president-trump-united-states/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b3f6a887d770",
-      "title": "German foreign minister cites funding shortfall for Ukraine military aid",
-      "description": "Foreign Minister Johann Wadephul warned that Germany faces a budget gap in delivering promised military assistance to Kyiv.",
-      "lat": 52.52,
-      "lng": 13.4,
-      "severity": 3,
-      "location": "Berlin, Germany",
-      "source": "TASS",
-      "url": "https://tass.com/world/2177219",
-      "image": null,
-      "ts": 1787611800000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2177219"
-          }
-        ]
-      }
-    },
-    {
-      "id": "aa0f7f103b24",
-      "title": "New US sanctions hit Iran’s aviation, tech and shipping sectors",
-      "description": "Washington imposed fresh sanctions on Iran, targeting airlines, high‑tech equipment and maritime activities, tightening economic pressure.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 3,
-      "location": "Tehran, Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/8/24/how-us-sanctions-on-iran-ripple-through-global-markets-and-consumers?traffic_source=rss",
-      "image": null,
-      "ts": 1787611562000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/economy/2026/8/24/how-us-sanctions-on-iran-ripple-through-global-markets-and-consumers?traffic_source=rss"
           }
         ]
       }
