@@ -494,24 +494,107 @@ function completeRows(dem){
 }
 
 // ============================================================================
+//  Infittimento della griglia
+//  Le curve tracciate direttamente su 30x20 punti mostrano spigoli e piccoli
+//  rombi: sono artefatti del passo troppo largo, non rilievi reali. Si
+//  interpola con Catmull-Rom (piu' morbida della bilineare) prima di
+//  calcolare le isoipse. Non serve nessun dato nuovo.
+// ============================================================================
+const UPSCALE=3;
+
+// Limiti dell'altezza del pannello, in unita' del viewBox (larghezza 400).
+const PANEL_MIN_H=120;
+const PANEL_MAX_H=400;
+
+function catmull(p0,p1,p2,p3,t){
+  return p1+0.5*t*(p2-p0+t*(2*p0-5*p1+4*p2-p3+t*(3*(p1-p2)+p3-p0)));
+}
+
+function upsample(grid,W,H,f){
+  if(f<2||W<2||H<2)return {g:grid,W:W,H:H};
+  const NW=(W-1)*f+1, NH=(H-1)*f+1;
+  const at=(x,y)=>grid[Math.min(H-1,Math.max(0,y))*W+Math.min(W-1,Math.max(0,x))];
+  const out=new Array(NW*NH);
+  const col=[0,0,0,0];
+  for(let j=0;j<NH;j++){
+    const gy=j/f, y0=Math.floor(gy), ty=gy-y0;
+    for(let i=0;i<NW;i++){
+      const gx=i/f, x0=Math.floor(gx), tx=gx-x0;
+      for(let m=-1;m<=2;m++){
+        col[m+1]=catmull(at(x0-1,y0+m),at(x0,y0+m),at(x0+1,y0+m),at(x0+2,y0+m),tx);
+      }
+      out[j*NW+i]=catmull(col[0],col[1],col[2],col[3],ty);
+    }
+  }
+  return {g:out,W:NW,H:NH};
+}
+
+// ============================================================================
+//  Proporzioni geografiche
+//  Senza questo, ogni paese viene spalmato sullo stesso riquadro e le forme
+//  risultano stirate. Su una griglia equirettangolare un grado di longitudine
+//  vale cos(latitudine) gradi di latitudine, quindi si tiene conto anche di
+//  quello. L'area di disegno viene centrata, il resto resta sfondo.
+// ============================================================================
+function geoAspect(bbox){
+  if(!Array.isArray(bbox)||bbox.length!==4)return 1.5;
+  const dLng=Math.abs(bbox[1]-bbox[0]);
+  const dLat=Math.abs(bbox[3]-bbox[2]);
+  if(!(dLng>0)||!(dLat>0))return 1.5;
+  const midLat=((bbox[2]+bbox[3])/2)*Math.PI/180;
+  // Su griglia equirettangolare un grado di longitudine vale cos(lat) gradi
+  // di latitudine: senza questo i paesi nordici risulterebbero larghi il
+  // doppio del vero.
+  const shrink=Math.max(0.12,Math.cos(midLat));
+  return (dLng*shrink)/dLat;
+}
+
+/** Altezza del pannello: segue la forma del paese. Il disegno NON viene mai
+ *  deformato; quando la forma e' cosi' estrema da uscire da questi limiti, il
+ *  pannello si ferma e la mappa resta centrata con margini laterali (paesi
+ *  lunghi e stretti) o sopra e sotto (paesi larghi e bassi).
+ *  Alza PANEL_MAX_H se preferisci pannelli piu' alti per i paesi allungati. */
+function panelHeight(bbox,viewW){
+  const a=geoAspect(bbox);
+  if(!isFinite(a)||a<=0)return Math.round(viewW/1.5);
+  return Math.round(Math.max(PANEL_MIN_H,Math.min(PANEL_MAX_H,viewW/a)));
+}
+
+/** Area effettivamente disegnata dentro il riquadro, a proporzioni esatte. */
+function drawArea(bbox,viewW,viewH){
+  const a=geoAspect(bbox);
+  let w=viewW, h=viewW/a;
+  if(h>viewH){h=viewH;w=viewH*a}
+  return {x:(viewW-w)/2, y:(viewH-h)/2, w:w, h:h};
+}
+
+// ============================================================================
 //  Rendering SVG (supporta il DEM parziale)
 // ============================================================================
-function renderSVG(id,dem,viewW,viewH){
+function renderSVG(id,dem,viewW){
   const rows=dem.complete?GRID_H:completeRows(dem);
-  const cellW=viewW/(GRID_W-1), cellH=viewH/(GRID_H-1);
   const got=dem.have.filter(Boolean).length;
+  const viewH=panelHeight(dem.bbox,viewW);
+  const area=drawArea(dem.bbox,viewW,viewH);
+
   const bg='<defs>'+
     '<linearGradient id="topobg-'+id+'" x1="0" x2="0" y1="0" y2="1">'+
     '<stop offset="0%" stop-color="#0a1813"/><stop offset="100%" stop-color="#050b09"/>'+
     '</linearGradient>'+
     '<pattern id="topohatch-'+id+'" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">'+
     '<line x1="0" y1="0" x2="0" y2="7" stroke="rgba(138,173,132,.13)" stroke-width="1"/>'+
-    '</pattern></defs>'+
+    '</pattern>'+
+    '<clipPath id="topoclip-'+id+'">'+
+    '<rect x="'+area.x.toFixed(1)+'" y="'+area.y.toFixed(1)+'" width="'+area.w.toFixed(1)+
+    '" height="'+area.h.toFixed(1)+'"/></clipPath></defs>'+
     '<rect width="'+viewW+'" height="'+viewH+'" fill="url(#topobg-'+id+')"/>';
 
+  const open='<svg viewBox="0 0 '+viewW+' '+viewH+'" xmlns="http://www.w3.org/2000/svg" style="display:block">';
+
   if(rows<2){
-    return '<svg viewBox="0 0 '+viewW+' '+viewH+'" xmlns="http://www.w3.org/2000/svg" style="display:block">'+
-      bg+'<rect width="'+viewW+'" height="'+viewH+'" fill="url(#topohatch-'+id+')"/>'+
+    return open+bg+
+      '<rect x="'+area.x.toFixed(1)+'" y="'+area.y.toFixed(1)+'" width="'+area.w.toFixed(1)+
+      '" height="'+area.h.toFixed(1)+'" fill="url(#topohatch-'+id+')"/>'+
       '<text x="'+(viewW/2)+'" y="'+(viewH/2)+'" fill="#5a6d5e" font-family="monospace" font-size="10" '+
       'letter-spacing="1.5" text-anchor="middle">ACQUISIZIONE DEM · '+got+'/'+N_CHUNKS+'</text></svg>';
   }
@@ -519,40 +602,59 @@ function renderSVG(id,dem,viewW,viewH){
   const sub=dem.elev.slice(0,rows*GRID_W);
   const levels=pickLevels(sub,TARGET_LINES);
   if(!levels.length){
-    return '<svg viewBox="0 0 '+viewW+' '+viewH+'" xmlns="http://www.w3.org/2000/svg" style="display:block">'+
-      bg+'<text x="'+(viewW/2)+'" y="'+(viewH/2)+'" fill="#5a6d5e" font-family="monospace" font-size="11" '+
+    return open+bg+
+      '<text x="'+(viewW/2)+'" y="'+(viewH/2)+'" fill="#5a6d5e" font-family="monospace" font-size="11" '+
       'text-anchor="middle">FLAT TERRAIN — NO CONTOUR DATA</text></svg>';
   }
 
+  // griglia infittita: curve morbide invece di spigoli e rombi
+  const up=upsample(sub,GRID_W,rows,UPSCALE);
+  const stepX=area.w/(GRID_W-1)/UPSCALE;
+  const stepY=area.h/(GRID_H-1)/UPSCALE;
+  const baseY=area.y+area.h;                 // riga 0 = bordo inferiore
+
   let paths='';
   levels.forEach((lvl,li)=>{
-    const segs=marchingSquares(sub,GRID_W,rows,lvl);
+    const segs=marchingSquares(up.g,up.W,up.H,lvl);
     const opacity=0.35+0.55*(li/levels.length);
     const stroke=0.5+0.7*(li/levels.length);
     segsToPolylines(segs).forEach(line=>{
       if(line.length<3)return;
-      const pts=line.map(p=>[p[0]*cellW,viewH-p[1]*cellH]);
+      const pts=line.map(p=>[area.x+p[0]*stepX, baseY-p[1]*stepY]);
       paths+='<path d="'+smoothPath(pts,0.5)+'" fill="none" stroke="rgba(213,232,210,'+
         opacity.toFixed(2)+')" stroke-width="'+stroke.toFixed(2)+
         '" stroke-linecap="round" stroke-linejoin="round"/>';
     });
   });
+  paths='<g clip-path="url(#topoclip-'+id+')">'+paths+'</g>';
+
+  // cornice discreta dell'area cartografata, cosi' si capisce che i margini
+  // vuoti sono voluti e non un errore di disegno
+  let frame='';
+  if(area.w<viewW-1||area.h<viewH-1){
+    frame='<rect x="'+area.x.toFixed(1)+'" y="'+area.y.toFixed(1)+'" width="'+area.w.toFixed(1)+
+      '" height="'+area.h.toFixed(1)+'" fill="none" stroke="rgba(138,173,132,.16)" stroke-width="1"/>';
+  }
 
   // banda "non ancora acquisita" (a nord, perche' la griglia parte da sud)
   let overlay='';
   if(rows<GRID_H){
-    const bandH=viewH-(rows-1)*cellH;
-    overlay='<rect x="0" y="0" width="'+viewW+'" height="'+bandH.toFixed(1)+
-      '" fill="url(#topohatch-'+id+')"/>'+
-      '<line x1="0" y1="'+bandH.toFixed(1)+'" x2="'+viewW+'" y2="'+bandH.toFixed(1)+
-      '" stroke="rgba(138,173,132,.35)" stroke-width="1" stroke-dasharray="4 3"/>'+
-      '<text x="'+(viewW-8)+'" y="'+Math.max(14,bandH-7).toFixed(1)+
-      '" fill="#6f8a70" font-family="monospace" font-size="8" letter-spacing="1.2" '+
-      'text-anchor="end">SETTORE NORD IN ACQUISIZIONE · '+got+'/'+N_CHUNKS+'</text>';
+    const covered=(rows-1)*(area.h/(GRID_H-1));
+    const bandTop=area.y;
+    const bandH=area.h-covered;
+    if(bandH>1){
+      overlay='<rect x="'+area.x.toFixed(1)+'" y="'+bandTop.toFixed(1)+'" width="'+area.w.toFixed(1)+
+        '" height="'+bandH.toFixed(1)+'" fill="url(#topohatch-'+id+')"/>'+
+        '<line x1="'+area.x.toFixed(1)+'" y1="'+(bandTop+bandH).toFixed(1)+'" x2="'+
+        (area.x+area.w).toFixed(1)+'" y2="'+(bandTop+bandH).toFixed(1)+
+        '" stroke="rgba(138,173,132,.35)" stroke-width="1" stroke-dasharray="4 3"/>'+
+        '<text x="'+(area.x+area.w-6).toFixed(1)+'" y="'+Math.max(area.y+10,bandTop+bandH-6).toFixed(1)+
+        '" fill="#6f8a70" font-family="monospace" font-size="8" letter-spacing="1.2" '+
+        'text-anchor="end">SETTORE NORD IN ACQUISIZIONE · '+got+'/'+N_CHUNKS+'</text>';
+    }
   }
 
-  return '<svg viewBox="0 0 '+viewW+' '+viewH+'" xmlns="http://www.w3.org/2000/svg" style="display:block">'+
-    bg+paths+overlay+'</svg>';
+  return open+bg+paths+frame+overlay+'</svg>';
 }
 
 // ============================================================================
