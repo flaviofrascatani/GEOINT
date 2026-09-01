@@ -1,49 +1,57 @@
 // ============================================================================
-// GEOINT v11 — Topographic Map Engine
+// GEOINT v12 — Topographic Map Engine
 // ----------------------------------------------------------------------------
 // ORDINE DELLE FONTI (dalla piu' economica alla piu' costosa):
 //
-//   1. public/topo/<id>.svg        mappa gia' renderizzata da GitHub Actions
-//   2. public/topo/dem/<id>.json   griglia DEM archiviata nel repo (anche parziale)
-//   3. localStorage                chunk scaricati da questo browser in passato
-//   4. api.open-meteo.com          SOLO per i chunk che nessuno dei tre ha
-//
-// Il manifest (public/topo/index.json) viene letto una volta sola e dice cosa
-// esiste: niente piu' richieste che finiscono in 404.
+//   0. public/topo/topo-bundle.json   archivio unico di TUTTI i paesi
+//   1. public/topo/<id>.svg           mappa gia' renderizzata
+//   2. public/topo/dem/<id>.json      griglia DEM del repo (anche parziale)
+//   3. localStorage                   settori scaricati da questo browser
+//   4. api.open-meteo.com             SOLO cio' che nessuna delle altre ha
 //
 // RATE LIMITING — raffiche da 3
 // Open-Meteo limita per indirizzo IP. Si fanno BURST (3) richieste ravvicinate,
-// poi si aspetta BURST_PAUSE_MS prima della raffica successiva. Ogni 429
-// raddoppia la pausa e la scrive in localStorage, cosi' il limite sopravvive
-// anche a un refresh della pagina.
+// poi si aspetta BURST_PAUSE_MS. Ogni 429 raddoppia la pausa e la scrive in
+// localStorage, cosi' il limite sopravvive anche a un refresh della pagina.
 //
 // RIPRESA — non si chiede due volte lo stesso dato
-// Ogni chunk viene salvato appena arriva. Se Open-Meteo blocca a meta' del
-// Mali, al ricaricamento si riparte dal primo chunk mancante: i chunk gia'
-// posseduti non vengono mai richiesti di nuovo.
+// Ogni settore viene salvato appena arriva. Se Open-Meteo blocca a meta', al
+// ricaricamento si riparte dal primo settore mancante.
+//
+// RIQUADRI — perche' NON si confrontano
+// Il browser legge countries-10m.json, gli script Python leggono
+// countries-50m.json: due risoluzioni dello stesso atlante, con contorni
+// semplificati diversamente. I riquadri calcolati dalle due parti non
+// coincidono mai esattamente, quindi confrontarli scarterebbe l'intero
+// archivio. Ogni sorgente porta con se' il riquadro su cui e' stata
+// campionata e quello si usa; sorgenti con riquadri diversi non vengono
+// mescolate, perche' le celle non corrisponderebbero.
 // ============================================================================
 (function(){
 'use strict';
 
-// --- Geometria: DEVE combaciare con tools/generate_topo.py ------------------
+// --- Geometria: DEVE combaciare con tools/build_topo_bundle.py -------------
 const GRID_W=30, GRID_H=20;
 const CHUNK=100;
-const N_POINTS=GRID_W*GRID_H;          // 600
+const N_POINTS=GRID_W*GRID_H;             // 600
 const N_CHUNKS=Math.ceil(N_POINTS/CHUNK); // 6
 const TARGET_LINES=12;
+const LAT_LIMIT=89.99;                    // oltre +-90 Open-Meteo risponde 400
 
 // --- Rate limiting ----------------------------------------------------------
 const BURST=3;                     // richieste per raffica
-const BURST_PAUSE_MS=90*1000;      // pausa fra raffiche (90s)
+const BURST_PAUSE_MS=90*1000;      // pausa fra raffiche
 const SPACING_MS=1200;             // spazio minimo dentro la raffica
-const MAX_PENALTY=8;               // moltiplicatore massimo della pausa
+const MAX_PENALTY=8;
 const MAX_RETRIES=2;
 
 // --- Storage ----------------------------------------------------------------
 const CACHE_PREFIX='gx_dem_';
-const CACHE_VERSION='v4';
+const CACHE_VERSION='v5';
 const COOLDOWN_KEY='gx_topo_cooldown';
 const PENALTY_KEY='gx_topo_penalty';
+
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 
 // ============================================================================
 //  Coda globale a raffiche
@@ -51,22 +59,24 @@ const PENALTY_KEY='gx_topo_penalty';
 const Q={queue:[],running:false,inBurst:0,last:0,total:0};
 
 function penalty(){
-  const v=parseFloat(localStorage.getItem(PENALTY_KEY)||'1');
-  return (isFinite(v)&&v>=1)?Math.min(v,MAX_PENALTY):1;
+  try{
+    const v=parseFloat(localStorage.getItem(PENALTY_KEY)||'1');
+    return (isFinite(v)&&v>=1)?Math.min(v,MAX_PENALTY):1;
+  }catch(e){return 1}
 }
 function setPenalty(v){
   try{localStorage.setItem(PENALTY_KEY,String(Math.min(Math.max(v,1),MAX_PENALTY)))}catch(e){}
 }
 function cooldownLeft(){
-  const t=parseInt(localStorage.getItem(COOLDOWN_KEY)||'0',10);
-  return isFinite(t)?Math.max(0,t-Date.now()):0;
+  try{
+    const t=parseInt(localStorage.getItem(COOLDOWN_KEY)||'0',10);
+    return isFinite(t)?Math.max(0,t-Date.now()):0;
+  }catch(e){return 0}
 }
 function setCooldown(ms){
   try{localStorage.setItem(COOLDOWN_KEY,String(Date.now()+ms))}catch(e){}
 }
-const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 
-// notifica al chiamante quanto manca alla prossima raffica
 let _waitNotify=null;
 function onWait(fn){_waitNotify=fn}
 
@@ -83,14 +93,14 @@ async function pump(){
   while(Q.queue.length){
     const job=Q.queue.shift();
 
-    // 1) cooldown globale ereditato da un 429 precedente (anche di un'altra sessione)
-    let cd=cooldownLeft();
+    // cooldown ereditato da un 429 precedente, anche di un'altra sessione
+    const cd=cooldownLeft();
     if(cd>0){
       if(_waitNotify)_waitNotify({reason:'cooldown',ms:cd});
       await sleep(cd);
     }
 
-    // 2) ritmo a raffiche: 3 richieste, poi pausa
+    // ritmo a raffiche: 3 richieste, poi pausa
     if(Q.inBurst>=BURST){
       const pause=BURST_PAUSE_MS*penalty();
       if(_waitNotify)_waitNotify({reason:'burst',ms:pause});
@@ -134,24 +144,7 @@ async function pump(){
 }
 
 // ============================================================================
-//  Manifest del repo (una sola lettura per sessione)
-// ============================================================================
-let _manifest=null,_manifestP=null;
-function manifest(){
-  if(_manifest)return Promise.resolve(_manifest);
-  if(_manifestP)return _manifestP;
-  _manifestP=fetch('topo/index.json')
-    .then(r=>r.ok?r.json():null)
-    .catch(()=>null)
-    .then(m=>{_manifest=m||{ready:[],partial:{}};return _manifest});
-  return _manifestP;
-}
-
-// ============================================================================
-//  Bundle unico (public/topo/topo-bundle.json)
-//  Prodotto da tools/build_topo_bundle.py sul computer di chi amministra il
-//  sito. Contiene il DEM di TUTTI i paesi in un solo file: quote come interi
-//  a 16 bit in base64, ~1,6 KB a paese. Si scarica una volta per sessione.
+//  Archivio unico: public/topo/topo-bundle.json
 // ============================================================================
 let _bundle=null,_bundleP=null;
 function bundle(){
@@ -167,7 +160,7 @@ function bundle(){
   return _bundleP;
 }
 
-/** base64 -> quote in metri (little endian, come le scrive Python). */
+/** base64 -> quote in metri (interi a 16 bit little endian, come li scrive Python). */
 function decodeElev(b64){
   const bin=atob(b64);
   const buf=new ArrayBuffer(bin.length);
@@ -179,33 +172,49 @@ function decodeElev(b64){
   return out;
 }
 
-/** Estrae dal bundle il DEM di un paese, nel formato usato internamente. */
-async function bundleDem(id,bbox){
+/** Estrae dal bundle il DEM di un paese, con il riquadro su cui e' stato
+ *  campionato. Nessun confronto con il riquadro calcolato qui: vedi la nota
+ *  in testa al file. */
+async function bundleDem(id,fallbackBbox){
   const b=await bundle();
   if(!b)return null;
   const e=b.countries[String(id)];
   if(!e||!e.e)return null;
-  const elev=decodeElev(e.e);
+  let elev;
+  try{elev=decodeElev(e.e)}catch(err){return null}
   if(elev.length!==N_POINTS)return null;
   const have=Array.isArray(e.h)?e.h.slice(0,N_CHUNKS):new Array(N_CHUNKS).fill(1);
   while(have.length<N_CHUNKS)have.push(0);
-  const dem={v:1,id:String(id),gridW:GRID_W,gridH:GRID_H,chunk:CHUNK,
-             bbox:Array.isArray(e.b)?e.b:bbox,have:have,elev:elev,
-             complete:have.every(Boolean)};
-  // se il bbox del bundle non combacia con quello calcolato qui, i dati
-  // sarebbero riferiti a un'altra area: meglio ignorarli
-  if(bbox&&Array.isArray(dem.bbox)&&dem.bbox.length===4){
-    for(let i=0;i<4;i++)if(Math.abs(dem.bbox[i]-bbox[i])>1e-3)return null;
-  }
-  return dem;
+  const bbox=(Array.isArray(e.b)&&e.b.length===4)?e.b:fallbackBbox;
+  if(!bbox)return null;
+  return {v:1,id:String(id),gridW:GRID_W,gridH:GRID_H,chunk:CHUNK,
+          bbox:bbox,have:have,elev:elev,complete:have.every(Boolean)};
 }
 
 // ============================================================================
-//  Bounding box del paese (invariato)
+//  Manifest del repo (una sola lettura per sessione)
+// ============================================================================
+let _manifest=null,_manifestP=null;
+function manifest(){
+  if(_manifest)return Promise.resolve(_manifest);
+  if(_manifestP)return _manifestP;
+  _manifestP=fetch('topo/index.json')
+    .then(r=>r.ok?r.json():null)
+    .catch(()=>null)
+    .then(m=>{_manifest=m||{ready:[],partial:{}};return _manifest});
+  return _manifestP;
+}
+
+// ============================================================================
+//  Riquadro del paese
+//  Questa funzione deve restare allineata a bbox_of() in
+//  tools/build_topo_bundle.py, anche se i due atlanti hanno risoluzioni
+//  diverse e quindi i numeri non coincideranno mai esattamente.
 // ============================================================================
 function bboxOfCountry(id){
   const cp=window.countryPolys;
   if(!cp||!cp[id])return null;
+
   const unwrap=(ring)=>{
     let prev=null;const out=[];
     ring.forEach(p=>{
@@ -218,12 +227,16 @@ function bboxOfCountry(id){
     });
     return out;
   };
+
   let minLng=Infinity,maxLng=-Infinity,minLat=Infinity,maxLat=-Infinity,ref=null;
   cp[id].forEach(poly=>{
-    const ring=poly[0];if(!ring||!ring.length)return;
+    const ring=poly[0];
+    if(!ring||!ring.length)return;
     let un=unwrap(ring);
-    // riallinea l'anello al primo, altrimenti isole e terraferma finiscono
-    // in giri di longitudine diversi
+    // Ogni anello viene srotolato per conto suo: senza riallinearlo al primo,
+    // le isole finiscono in un giro di longitudine diverso dalla terraferma e
+    // il riquadro diventa piu' largo del pianeta (era il caso di Figi,
+    // Nuova Zelanda, Kiribati, Russia, Stati Uniti).
     let mid=0;un.forEach(p=>{mid+=p[0]});mid/=un.length;
     if(ref===null){ref=mid}
     else{
@@ -238,46 +251,62 @@ function bboxOfCountry(id){
     });
   });
   if(!isFinite(minLng))return null;
+
   const padLng=(maxLng-minLng)*0.04, padLat=(maxLat-minLat)*0.04;
   let lo=minLng-padLng, hi=maxLng+padLng;
   let south=minLat-padLat, north=maxLat+padLat;
-  if(hi-lo>=360){lo=-180;hi=180}      // contorno attorno a un polo
-  south=Math.max(-89.99,south); north=Math.min(89.99,north);
+  // Microstati (Vaticano, Monaco): a bassa risoluzione il contorno puo'
+  // ridursi a una linea. Senza una dimensione minima la griglia sarebbe
+  // degenere e campionerebbe 600 volte lo stesso punto.
+  const MIN_SPAN=0.05;
+  if(hi-lo<MIN_SPAN){const c=(hi+lo)/2;lo=c-MIN_SPAN/2;hi=c+MIN_SPAN/2}
+  if(north-south<MIN_SPAN){const c=(north+south)/2;south=c-MIN_SPAN/2;north=c+MIN_SPAN/2}
+  // Un contorno che circonda un polo (Antartide) copre tutte le longitudini.
+  if(hi-lo>=360){lo=-180;hi=180}
+  south=Math.max(-LAT_LIMIT,south); north=Math.min(LAT_LIMIT,north);
   return [+lo.toFixed(6),+hi.toFixed(6),+south.toFixed(6),+north.toFixed(6)];
 }
 
 // ============================================================================
-//  DEM: struttura, merge, persistenza locale
+//  DEM: struttura, validita', unione, persistenza locale
 // ============================================================================
 function emptyDem(id,bbox){
   return {v:1,id:id,gridW:GRID_W,gridH:GRID_H,chunk:CHUNK,bbox:bbox,
           have:new Array(N_CHUNKS).fill(0),
           elev:new Array(N_POINTS).fill(null),complete:false};
 }
-function validDem(d,bbox){
+
+/** Solo controlli di forma: il riquadro NON si confronta. */
+function validDem(d){
   if(!d||d.gridW!==GRID_W||d.gridH!==GRID_H)return false;
   if(!Array.isArray(d.elev)||d.elev.length!==N_POINTS)return false;
   if(!Array.isArray(d.have)||d.have.length!==N_CHUNKS)return false;
-  if(bbox&&Array.isArray(d.bbox)&&d.bbox.length===4){
-    for(let i=0;i<4;i++)if(Math.abs(d.bbox[i]-bbox[i])>1e-4)return false;
-  }
+  if(!Array.isArray(d.bbox)||d.bbox.length!==4)return false;
   return true;
 }
+
 function localKey(id){return CACHE_PREFIX+CACHE_VERSION+'_'+id}
-function loadLocal(id,bbox){
+function loadLocal(id){
   try{
     const d=JSON.parse(localStorage.getItem(localKey(id))||'null');
-    return validDem(d,bbox)?d:null;
+    return validDem(d)?d:null;
   }catch(e){return null}
 }
 function saveLocal(id,dem){
   try{localStorage.setItem(localKey(id),JSON.stringify(dem))}
-  catch(e){/* quota piena: si perde solo la cache locale, il repo resta */}
+  catch(e){/* quota piena: si perde solo la cache locale */}
 }
-/** Unisce due DEM tenendo, chunk per chunk, quello che esiste. */
+
+/** Unisce due DEM tenendo, settore per settore, quello che esiste.
+ *  Sorgenti campionate su riquadri diversi NON si mescolano. */
 function mergeDem(a,b){
   if(!a)return b;
   if(!b)return a;
+  if(Array.isArray(a.bbox)&&Array.isArray(b.bbox)){
+    for(let i=0;i<4;i++){
+      if(Math.abs(a.bbox[i]-b.bbox[i])>1e-4)return a;   // vince la fonte piu' attendibile
+    }
+  }
   const out=emptyDem(a.id||b.id,a.bbox||b.bbox);
   for(let c=0;c<N_CHUNKS;c++){
     const src=a.have[c]?a:(b.have[c]?b:null);
@@ -289,33 +318,34 @@ function mergeDem(a,b){
   out.complete=out.have.every(Boolean);
   return out;
 }
+
 function missingChunks(dem){
   const m=[];
   for(let c=0;c<N_CHUNKS;c++)if(!dem.have[c])m.push(c);
   return m;
 }
 
-/** Scarica il DEM archiviato nel repo GitHub (puo' essere parziale). */
-async function repoDem(id,bbox){
+/** DEM archiviato nel repo dal workflow di GitHub (puo' essere parziale). */
+async function repoDem(id){
   try{
     const r=await fetch('topo/dem/'+id+'.json');
     if(!r.ok)return null;
     const d=await r.json();
-    return validDem(d,bbox)?d:null;
+    return validDem(d)?d:null;
   }catch(e){return null}
 }
 
 // ============================================================================
-//  Fetch dei soli chunk mancanti
+//  Scarico dei soli settori mancanti
 // ============================================================================
 function gridCoords(bbox){
-  const [minLng,maxLng,minLat,maxLat]=bbox;
+  const minLng=bbox[0],maxLng=bbox[1],minLat=bbox[2],maxLat=bbox[3];
   const lats=[],lngs=[];
   for(let j=0;j<GRID_H;j++){
     const lat=minLat+(maxLat-minLat)*(j/(GRID_H-1));
     for(let i=0;i<GRID_W;i++){
       const lng=minLng+(maxLng-minLng)*(i/(GRID_W-1));
-      lats.push(lat.toFixed(4));
+      lats.push(Math.max(-90,Math.min(90,lat)).toFixed(4));
       lngs.push(((lng+540)%360-180).toFixed(4));
     }
   }
@@ -323,10 +353,12 @@ function gridCoords(bbox){
 }
 
 async function fetchMissing(id,dem,onChunk){
-  const {lats,lngs}=gridCoords(dem.bbox);
+  const c=gridCoords(dem.bbox);
+  const lats=c.lats,lngs=c.lngs;
   const missing=missingChunks(dem);
-  for(const c of missing){
-    const s=c*CHUNK,e=Math.min(s+CHUNK,N_POINTS);
+  for(let n=0;n<missing.length;n++){
+    const idx=missing[n];
+    const s=idx*CHUNK,e=Math.min(s+CHUNK,N_POINTS);
     const url='https://api.open-meteo.com/v1/elevation'
       +'?latitude='+lats.slice(s,e).join(',')
       +'&longitude='+lngs.slice(s,e).join(',');
@@ -334,25 +366,24 @@ async function fetchMissing(id,dem,onChunk){
     try{
       j=await queuedFetch(url);
     }catch(err){
-      // si esce lasciando intatto tutto cio' che e' gia' stato salvato
-      return {dem,stopped:true,error:err};
+      return {dem:dem,stopped:true,error:err};   // si esce lasciando intatto il salvato
     }
     if(!j||!Array.isArray(j.elevation)||j.elevation.length<(e-s))
-      return {dem,stopped:true,error:new Error('risposta incompleta')};
+      return {dem:dem,stopped:true,error:new Error('risposta incompleta')};
     for(let k=0;k<e-s;k++){
       const v=j.elevation[k];
       dem.elev[s+k]=(typeof v==='number')?Math.round(v):0;
     }
-    dem.have[c]=1;
+    dem.have[idx]=1;
     dem.complete=dem.have.every(Boolean);
-    saveLocal(id,dem);                    // persistenza immediata per chunk
+    saveLocal(id,dem);                            // persistenza immediata
     if(onChunk)onChunk(dem);
   }
-  return {dem,stopped:false};
+  return {dem:dem,stopped:false};
 }
 
 // ============================================================================
-//  Marching squares -> polilinee -> path SVG (invariato)
+//  Marching squares -> polilinee -> path SVG
 // ============================================================================
 function marchingSquares(grid,W,H,level){
   const segs=[];
@@ -393,8 +424,8 @@ function segsToPolylines(segs){
     const k1=key(s[0],s[1]),k2=key(s[2],s[3]);
     if(!adj.has(k1))adj.set(k1,[]);
     if(!adj.has(k2))adj.set(k2,[]);
-    adj.get(k1).push({i,other:[s[2],s[3]]});
-    adj.get(k2).push({i,other:[s[0],s[1]]});
+    adj.get(k1).push({i:i,other:[s[2],s[3]]});
+    adj.get(k2).push({i:i,other:[s[0],s[1]]});
   });
   const used=new Array(segs.length).fill(false);
   const polylines=[];
@@ -407,7 +438,7 @@ function segsToPolylines(segs){
     while(true){
       const opts=adj.get(key(cur[0],cur[1]))||[];
       let next=null;
-      for(const o of opts){if(!used[o.i]){next=o;break}}
+      for(let q=0;q<opts.length;q++){if(!used[opts[q].i]){next=opts[q];break}}
       if(!next)break;
       used[next.i]=true;line.push(next.other);cur=next.other;
     }
@@ -415,7 +446,7 @@ function segsToPolylines(segs){
     while(true){
       const opts=adj.get(key(cur[0],cur[1]))||[];
       let next=null;
-      for(const o of opts){if(!used[o.i]){next=o;break}}
+      for(let q=0;q<opts.length;q++){if(!used[opts[q].i]){next=opts[q];break}}
       if(!next)break;
       used[next.i]=true;line.unshift(next.other);cur=next.other;
     }
@@ -427,14 +458,16 @@ function segsToPolylines(segs){
 function smoothPath(points,tension){
   if(points.length<2)return '';
   if(points.length===2)
-    return `M${points[0][0].toFixed(1)} ${points[0][1].toFixed(1)} L${points[1][0].toFixed(1)} ${points[1][1].toFixed(1)}`;
-  let d=`M${points[0][0].toFixed(1)} ${points[0][1].toFixed(1)}`;
+    return 'M'+points[0][0].toFixed(1)+' '+points[0][1].toFixed(1)+
+           ' L'+points[1][0].toFixed(1)+' '+points[1][1].toFixed(1);
+  let d='M'+points[0][0].toFixed(1)+' '+points[0][1].toFixed(1);
   const t=tension||0.5;
   for(let i=0;i<points.length-1;i++){
     const p0=points[i-1]||points[i],p1=points[i],p2=points[i+1],p3=points[i+2]||p2;
     const c1x=p1[0]+(p2[0]-p0[0])/6*t, c1y=p1[1]+(p2[1]-p0[1])/6*t;
     const c2x=p2[0]-(p3[0]-p1[0])/6*t, c2y=p2[1]-(p3[1]-p1[1])/6*t;
-    d+=` C${c1x.toFixed(1)} ${c1y.toFixed(1)}, ${c2x.toFixed(1)} ${c2y.toFixed(1)}, ${p2[0].toFixed(1)} ${p2[1].toFixed(1)}`;
+    d+=' C'+c1x.toFixed(1)+' '+c1y.toFixed(1)+', '+c2x.toFixed(1)+' '+c2y.toFixed(1)+
+       ', '+p2[0].toFixed(1)+' '+p2[1].toFixed(1);
   }
   return d;
 }
@@ -466,29 +499,29 @@ function completeRows(dem){
 function renderSVG(id,dem,viewW,viewH){
   const rows=dem.complete?GRID_H:completeRows(dem);
   const cellW=viewW/(GRID_W-1), cellH=viewH/(GRID_H-1);
-  const bg=`<defs>
-      <linearGradient id="topobg-${id}" x1="0" x2="0" y1="0" y2="1">
-        <stop offset="0%" stop-color="#0a1813"/><stop offset="100%" stop-color="#050b09"/>
-      </linearGradient>
-      <pattern id="topohatch-${id}" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
-        <line x1="0" y1="0" x2="0" y2="7" stroke="rgba(138,173,132,.13)" stroke-width="1"/>
-      </pattern>
-    </defs>
-    <rect width="${viewW}" height="${viewH}" fill="url(#topobg-${id})"/>`;
+  const got=dem.have.filter(Boolean).length;
+  const bg='<defs>'+
+    '<linearGradient id="topobg-'+id+'" x1="0" x2="0" y1="0" y2="1">'+
+    '<stop offset="0%" stop-color="#0a1813"/><stop offset="100%" stop-color="#050b09"/>'+
+    '</linearGradient>'+
+    '<pattern id="topohatch-'+id+'" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">'+
+    '<line x1="0" y1="0" x2="0" y2="7" stroke="rgba(138,173,132,.13)" stroke-width="1"/>'+
+    '</pattern></defs>'+
+    '<rect width="'+viewW+'" height="'+viewH+'" fill="url(#topobg-'+id+')"/>';
 
   if(rows<2){
-    return `<svg viewBox="0 0 ${viewW} ${viewH}" xmlns="http://www.w3.org/2000/svg" style="display:block">
-      ${bg}<rect width="${viewW}" height="${viewH}" fill="url(#topohatch-${id})"/>
-      <text x="${viewW/2}" y="${viewH/2}" fill="#5a6d5e" font-family="monospace" font-size="10"
-        letter-spacing="1.5" text-anchor="middle">ACQUISIZIONE DEM · ${dem.have.filter(Boolean).length}/${N_CHUNKS}</text></svg>`;
+    return '<svg viewBox="0 0 '+viewW+' '+viewH+'" xmlns="http://www.w3.org/2000/svg" style="display:block">'+
+      bg+'<rect width="'+viewW+'" height="'+viewH+'" fill="url(#topohatch-'+id+')"/>'+
+      '<text x="'+(viewW/2)+'" y="'+(viewH/2)+'" fill="#5a6d5e" font-family="monospace" font-size="10" '+
+      'letter-spacing="1.5" text-anchor="middle">ACQUISIZIONE DEM · '+got+'/'+N_CHUNKS+'</text></svg>';
   }
 
   const sub=dem.elev.slice(0,rows*GRID_W);
   const levels=pickLevels(sub,TARGET_LINES);
   if(!levels.length){
-    return `<svg viewBox="0 0 ${viewW} ${viewH}" xmlns="http://www.w3.org/2000/svg" style="display:block">
-      ${bg}<text x="${viewW/2}" y="${viewH/2}" fill="#5a6d5e" font-family="monospace" font-size="11"
-        text-anchor="middle">FLAT TERRAIN — NO CONTOUR DATA</text></svg>`;
+    return '<svg viewBox="0 0 '+viewW+' '+viewH+'" xmlns="http://www.w3.org/2000/svg" style="display:block">'+
+      bg+'<text x="'+(viewW/2)+'" y="'+(viewH/2)+'" fill="#5a6d5e" font-family="monospace" font-size="11" '+
+      'text-anchor="middle">FLAT TERRAIN — NO CONTOUR DATA</text></svg>';
   }
 
   let paths='';
@@ -498,8 +531,10 @@ function renderSVG(id,dem,viewW,viewH){
     const stroke=0.5+0.7*(li/levels.length);
     segsToPolylines(segs).forEach(line=>{
       if(line.length<3)return;
-      const pts=line.map(([gx,gy])=>[gx*cellW,viewH-gy*cellH]);
-      paths+=`<path d="${smoothPath(pts,0.5)}" fill="none" stroke="rgba(213,232,210,${opacity.toFixed(2)})" stroke-width="${stroke.toFixed(2)}" stroke-linecap="round" stroke-linejoin="round"/>`;
+      const pts=line.map(p=>[p[0]*cellW,viewH-p[1]*cellH]);
+      paths+='<path d="'+smoothPath(pts,0.5)+'" fill="none" stroke="rgba(213,232,210,'+
+        opacity.toFixed(2)+')" stroke-width="'+stroke.toFixed(2)+
+        '" stroke-linecap="round" stroke-linejoin="round"/>';
     });
   });
 
@@ -507,58 +542,57 @@ function renderSVG(id,dem,viewW,viewH){
   let overlay='';
   if(rows<GRID_H){
     const bandH=viewH-(rows-1)*cellH;
-    overlay=`<rect x="0" y="0" width="${viewW}" height="${bandH.toFixed(1)}" fill="url(#topohatch-${id})"/>
-      <line x1="0" y1="${bandH.toFixed(1)}" x2="${viewW}" y2="${bandH.toFixed(1)}" stroke="rgba(138,173,132,.35)" stroke-width="1" stroke-dasharray="4 3"/>
-      <text x="${viewW-8}" y="${Math.max(14,bandH-7).toFixed(1)}" fill="#6f8a70" font-family="monospace" font-size="8"
-        letter-spacing="1.2" text-anchor="end">SETTORE NORD IN ACQUISIZIONE · ${dem.have.filter(Boolean).length}/${N_CHUNKS}</text>`;
+    overlay='<rect x="0" y="0" width="'+viewW+'" height="'+bandH.toFixed(1)+
+      '" fill="url(#topohatch-'+id+')"/>'+
+      '<line x1="0" y1="'+bandH.toFixed(1)+'" x2="'+viewW+'" y2="'+bandH.toFixed(1)+
+      '" stroke="rgba(138,173,132,.35)" stroke-width="1" stroke-dasharray="4 3"/>'+
+      '<text x="'+(viewW-8)+'" y="'+Math.max(14,bandH-7).toFixed(1)+
+      '" fill="#6f8a70" font-family="monospace" font-size="8" letter-spacing="1.2" '+
+      'text-anchor="end">SETTORE NORD IN ACQUISIZIONE · '+got+'/'+N_CHUNKS+'</text>';
   }
 
-  return `<svg viewBox="0 0 ${viewW} ${viewH}" xmlns="http://www.w3.org/2000/svg" style="display:block">
-    ${bg}${paths}${overlay}</svg>`;
+  return '<svg viewBox="0 0 '+viewW+' '+viewH+'" xmlns="http://www.w3.org/2000/svg" style="display:block">'+
+    bg+paths+overlay+'</svg>';
 }
 
 // ============================================================================
 //  API principale
 // ============================================================================
-const _inflight=new Map();   // evita le richieste duplicate viste nei log
+const _inflight=new Map();   // evita le richieste duplicate
 
 /**
  * generate(id, viewW, viewH, onProgress)
- * onProgress({phase, svg, have, total, waitMs, source})
+ * onProgress({phase, source, svg, have, total, waitMs})
  *   phase: 'static' | 'repo' | 'local' | 'fetching' | 'waiting' | 'done' | 'stalled'
- * Ritorna l'SVG finale (o quello parziale piu' aggiornato), oppure null.
  */
-async function generateTopoSVG(id,viewW,viewH,onProgress){
+function generateTopoSVG(id,viewW,viewH,onProgress){
   const k=id+'|'+viewW+'x'+viewH;
   if(_inflight.has(k))return _inflight.get(k);
-  const p=_generate(id,viewW,viewH,onProgress).finally(()=>_inflight.delete(k));
+  const p=_generate(id,viewW,viewH,onProgress);
   _inflight.set(k,p);
+  p.then(()=>_inflight.delete(k),()=>_inflight.delete(k));
   return p;
 }
 
 async function _generate(id,viewW,viewH,onProgress){
-  const emit=(o)=>{try{onProgress&&onProgress(o)}catch(e){}};
-  const bbox0=bboxOfCountry(id);
+  const emit=(o)=>{try{if(onProgress)onProgress(o)}catch(e){}};
+  const bboxCalc=bboxOfCountry(id);
 
-  // --- 0) bundle unico: se c'e' ed e' completo, si finisce qui ------------
+  // --- 0) archivio unico: se c'e' ed e' completo, si finisce qui -----------
   let fromBundle=null;
-  if(bbox0){
-    try{fromBundle=await bundleDem(id,bbox0)}catch(e){fromBundle=null}
-    if(fromBundle&&fromBundle.complete){
-      const svgB=renderSVG(id,fromBundle,viewW,viewH);
-      saveLocal(id,fromBundle);
-      emit({phase:'done',source:'bundle',have:N_CHUNKS,total:N_CHUNKS,svg:svgB});
-      return svgB;
-    }
+  try{fromBundle=await bundleDem(id,bboxCalc)}catch(e){fromBundle=null}
+  if(fromBundle&&fromBundle.complete){
+    const svgB=renderSVG(id,fromBundle,viewW,viewH);
+    saveLocal(id,fromBundle);
+    emit({phase:'done',source:'bundle',have:N_CHUNKS,total:N_CHUNKS,svg:svgB});
+    return svgB;
   }
 
   const man=await manifest();
-
-  // --- 1) SVG gia' pronto nel repo -----------------------------------------
-  // Se il manifest e' stato caricato ci si fida: si chiede l'SVG solo se
-  // risulta elencato. Cosi' spariscono i 404 tipo /topo/466.svg.
   const known=!!(man&&man.v);
   const isReady=known&&Array.isArray(man.ready)&&man.ready.indexOf(String(id))>-1;
+
+  // --- 1) SVG gia' renderizzato nel repo -----------------------------------
   if(!known||isReady){
     try{
       const r=await fetch('topo/'+id+'.svg');
@@ -572,33 +606,40 @@ async function _generate(id,viewW,viewH,onProgress){
     }catch(e){}
   }
 
-  const bbox=bbox0;
-  if(!bbox)return null;
-
-  // --- 2) DEM archiviato nel repo + 3) cache locale, uniti -----------------
-  // Anche qui il manifest evita richieste inutili: se dichiara di non avere
-  // nulla per questo paese, si passa direttamente alla cache locale.
+  // --- 2) DEM del repo + 3) cache locale, uniti ----------------------------
   const hasRepoDem=!known||isReady||!!(man.partial&&man.partial[String(id)]);
-  const fromRepo=hasRepoDem?await repoDem(id,bbox):null;
-  const fromLocal=loadLocal(id,bbox);
-  let dem=mergeDem(mergeDem(fromBundle,fromRepo),fromLocal)||emptyDem(id,bbox);
-  dem.id=id;dem.bbox=bbox;
-  if(!dem.have)dem=emptyDem(id,bbox);
+  const fromRepo=hasRepoDem?await repoDem(id):null;
+  const fromLocal=loadLocal(id);
+  let dem=mergeDem(mergeDem(fromBundle,fromRepo),fromLocal);
+
+  if(!dem){
+    if(!bboxCalc)return null;
+    dem=emptyDem(id,bboxCalc);
+  }
+  dem.id=id;
+  // il riquadro arriva sempre dalla sorgente dei dati, non si sovrascrive
+  if(!Array.isArray(dem.bbox)||dem.bbox.length!==4){
+    if(!bboxCalc)return null;
+    dem.bbox=bboxCalc;
+  }
   dem.complete=dem.have.every(Boolean);
 
   let svg=renderSVG(id,dem,viewW,viewH);
   const haveNow=dem.have.filter(Boolean).length;
-  if(haveNow)emit({phase:(fromBundle||fromRepo)?'repo':'local',
-                   source:fromBundle?'bundle':(fromRepo?'repo-dem':'cache'),
-                   have:haveNow,total:N_CHUNKS,svg:svg});
+  if(haveNow){
+    emit({phase:(fromBundle||fromRepo)?'repo':'local',
+          source:fromBundle?'bundle':(fromRepo?'repo-dem':'cache'),
+          have:haveNow,total:N_CHUNKS,svg:svg});
+  }
 
   if(dem.complete){
     saveLocal(id,dem);
-    emit({phase:'done',have:N_CHUNKS,total:N_CHUNKS,svg:svg});
+    emit({phase:'done',source:fromBundle?'bundle':'repo',
+          have:N_CHUNKS,total:N_CHUNKS,svg:svg});
     return svg;
   }
 
-  // --- 4) solo i chunk che ancora mancano ----------------------------------
+  // --- 4) solo i settori che ancora mancano --------------------------------
   emit({phase:'fetching',have:haveNow,total:N_CHUNKS,svg:svg,
         missing:missingChunks(dem).length});
   onWait(w=>emit({phase:'waiting',reason:w.reason,waitMs:w.ms,
@@ -606,7 +647,8 @@ async function _generate(id,viewW,viewH,onProgress){
 
   const res=await fetchMissing(id,dem,(d)=>{
     svg=renderSVG(id,d,viewW,viewH);
-    emit({phase:'fetching',have:d.have.filter(Boolean).length,total:N_CHUNKS,svg:svg});
+    emit({phase:'fetching',have:d.have.filter(Boolean).length,
+          total:N_CHUNKS,svg:svg});
   });
   onWait(null);
 
@@ -618,28 +660,51 @@ async function _generate(id,viewW,viewH,onProgress){
 }
 
 // ============================================================================
-//  Esportazione: utile anche per rigenerare i file del repo a mano
+//  Esportazione
 // ============================================================================
 window.GEOINT_TOPO={
   generate:generateTopoSVG,
   bbox:bboxOfCountry,
   manifest:manifest,
+  bundle:bundle,
   grid:{w:GRID_W,h:GRID_H,chunk:CHUNK,chunks:N_CHUNKS},
-  /** DEM locale in formato identico a public/topo/dem/<id>.json:
-   *  si puo' copiare a mano nel repo per evitare del tutto Open-Meteo. */
+
+  /** Diagnostica: da dove arriverebbero i dati di questo paese. */
+  probe:async function(id){
+    const b=await bundle();
+    const e=b?b.countries[String(id)]:null;
+    return {
+      id:String(id),
+      bundleCaricato:!!b,
+      paesiNelBundle:b?Object.keys(b.countries).length:0,
+      nelBundle:!!e,
+      completoNelBundle:e?!e.h:false,
+      riquadroBundle:e?e.b:null,
+      riquadroCalcolato:bboxOfCountry(id),
+      cacheLocale:!!loadLocal(id),
+      richiesteOpenMeteo:Q.total,
+      cooldownMs:cooldownLeft()
+    };
+  },
+
+  /** DEM locale nel formato dei file del repo. */
   exportDem:function(id){
-    const b=bboxOfCountry(id);
-    const d=loadLocal(id,b);
+    const d=loadLocal(id);
     return d?JSON.stringify(d):null;
   },
+
   status:function(){
     return {requests:Q.total,penalty:penalty(),cooldownMs:cooldownLeft(),
             queued:Q.queue.length};
   },
+
   clearCache:function(){
-    Object.keys(localStorage)
-      .filter(k=>k.startsWith(CACHE_PREFIX)||k===COOLDOWN_KEY||k===PENALTY_KEY)
-      .forEach(k=>localStorage.removeItem(k));
+    try{
+      Object.keys(localStorage)
+        .filter(k=>k.indexOf(CACHE_PREFIX)===0||k===COOLDOWN_KEY||k===PENALTY_KEY)
+        .forEach(k=>localStorage.removeItem(k));
+    }catch(e){}
+    _bundle=null;_bundleP=null;_manifest=null;_manifestP=null;
   }
 };
 })();
