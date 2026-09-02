@@ -61,7 +61,7 @@ const VIEW=520;
 const GEO={accent:'#8aad84', green:'#6b9e6f', gold:'#b89a4a', red:'#c27066',
            white:'#d5d8d2', bright:'#e8ebe5', dim:'#5a6d5e',
            // Colore del confine terra-mare. Cambia solo questo per ritoccarlo.
-           coast:'#2F4F4F'};
+           coast:'#363636'};
 const FONT="'EB Garamond',Garamond,Georgia,serif";
 const MARK={mil:{c:'#b89a4a',l:'Military'},eco:{c:'#7fb37a',l:'Economic'},
             sea:{c:'#6f9fbf',l:'Maritime'},evt:{c:'#c27066',l:'Events'}};
