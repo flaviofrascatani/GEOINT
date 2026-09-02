@@ -1,7 +1,78 @@
 {
   "schema": 1,
-  "updated": "2026-09-02T15:17:02.234879+00:00",
+  "updated": "2026-09-02T16:31:01.080505+00:00",
   "events": [
+    {
+      "id": "e303e755d382",
+      "title": "Morocco in spotlight as Spanish police report sparks Ceuta blame game",
+      "description": "Spanish authorities accuse Moroccan security forces of orchestrating an influx into Ceuta, heightening diplomatic tension between Spain and Morocco.",
+      "lat": 35.89,
+      "lng": -5.32,
+      "severity": 3,
+      "location": "Ceuta, Spain",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/f73d918c-efc4-4cc0-b6d7-be97a2ef3288?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1788365460000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/f73d918c-efc4-4cc0-b6d7-be97a2ef3288?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1435bdf1025f",
+      "title": "Trump, 'Hormuz sotto controllo Usa, lo ribattezziamo Stretto di Trump?'",
+      "description": "President Trump warned that the United States has control over the Strait of Hormuz, implying a possible response to any threats.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 2,
+      "location": "Strait of Hormuz",
+      "source": "ANSA Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/02/trump-hormuz-sotto-controllo-usa-lo-ribattezziamo-stretto-di-trump_1b8cdf40-7408-4a5f-88d4-fcfe98d67b69.html",
+      "image": null,
+      "ts": 1788363265000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/02/trump-hormuz-sotto-controllo-usa-lo-ribattezziamo-stretto-di-trump_1b8cdf40-7408-4a5f-88d4-fcfe98d67b69.html"
+          },
+          {
+            "n": "AGI Estero",
+            "b": "center",
+            "u": "https://www.agi.it/estero/news/2026-09-02/usa-trump-iran-stretto-hormuz-38840521/"
+          }
+        ]
+      }
+    },
     {
       "id": "946fc5608e04",
       "title": "2 Filipino sailors killed in Iran’s attack on vessel, Saudi Arabia says",
@@ -7457,72 +7528,6 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/08/25/sudanese-opposition-rejects-burhans-national-dialogue/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d5fb413f4f47",
-      "title": "Putin issues decree opening door to state control of key sites after drone strikes",
-      "description": "President Vladimir Putin signed a decree permitting the Russian state to temporarily take over critical infrastructure that private owners cannot protect from Ukrainian drone attacks.",
-      "lat": 56.85,
-      "lng": 37.620000000000005,
-      "severity": 3,
-      "location": "Moscow, Russia",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/putin-issues-decree-opening-door-state-control-key-135928331",
-      "image": "https://s.abcnews.com/images/International/wirestory_f2ef0ded42dfab093bd9b08a8157b931_4x3_384.jpg",
-      "ts": 1787653438000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/putin-issues-decree-opening-door-state-control-key-135928331"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e92e3841bbf1",
-      "title": "Israel systematically levels 'entire neighborhoods' in S. Lebanon — U.N. peacekeepers continue to report 'extensive destruction' of civilian infrastructure across southern Lebanon, as the region faces",
-      "description": "Israeli forces have carried out large‑scale bombardments that destroyed multiple neighborhoods in southern Lebanon.",
-      "lat": 33.27,
-      "lng": 35.2,
-      "severity": 3,
-      "location": "Tyre, Lebanon",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/world/mid-east/israel-systematically-levels-entire-neighborhoods-in-s-lebanon",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/08/25/457525.jpg",
-      "ts": 1787653200000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/mid-east/israel-systematically-levels-entire-neighborhoods-in-s-lebanon"
           }
         ]
       }
