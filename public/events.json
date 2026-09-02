@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-09-01T23:32:32.179960+00:00",
+  "updated": "2026-09-02T01:21:47.168807+00:00",
   "events": [
+    {
+      "id": "e4ad9cb167ff",
+      "title": "U.S. strikes Iran tankers under new \"tanker for tanker\" policy",
+      "description": "U.S. forces attacked two Iranian government tankers in the Persian Gulf, marking the first use of the new policy.",
+      "lat": 27.88,
+      "lng": 50.55,
+      "severity": 4,
+      "location": "Kharg Island, Iran",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/09/02/iran-tankers-hormuz-attacks-oil",
+      "image": "https://images.axios.com/DqPGlAYVSb_kkaaUoVouBhhGy4c=/0x0:1920x1080/1366x768/2026/08/17/1786995611264.jpeg",
+      "ts": 1788308562000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/09/02/iran-tankers-hormuz-attacks-oil"
+          }
+        ]
+      }
+    },
     {
       "id": "1f2254399b59",
       "title": "UN faces contentious Iran nuclear vote ahead of General Assembly",
@@ -7505,79 +7538,6 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-08-25/pakistan-army-chief-ends-tehran-visit-us-iran-mediation-push"
-          }
-        ]
-      }
-    },
-    {
-      "id": "05292c8f2df0",
-      "title": "Trump threatens 50 % tariffs on all cars and trucks amid Canada trade spat",
-      "description": "President Trump announced plans to raise tariffs on automobiles and parts to 50 % starting 2027, escalating US‑Canada trade tensions.",
-      "lat": 45.42,
-      "lng": -75.7,
-      "severity": 2,
-      "location": "Ottawa, Canada",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/trump-carney-trade-war-tariffs_n_6a8c4edce4b07583705ac198",
-      "image": null,
-      "ts": 1787620128000,
-      "coverage": {
-        "left": 5,
-        "center": 2,
-        "right": 2,
-        "total": 9,
-        "buckets": {
-          "left": 1,
-          "lean_left": 4,
-          "center": 2,
-          "lean_right": 0,
-          "right": 2
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/trump-carney-trade-war-tariffs_n_6a8c4edce4b07583705ac198"
-          },
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/24/trumps-trade-war-with-canada-has-carney-facing-his-biggest-test-yet/"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/business/consumer/canada-retaliates-against-trump-tariffs-rcna594280"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/25/trump-floats-renaming-lake-ontario-to-lake-america-during-canada-trade-war?traffic_source=rss"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/08/24/canada-s-united-front-against-trump-returns-after-trade-talks-collapse_6756803_4.html"
-          },
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/08/25/trump-french-language-canada-lake-ontario"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-25/canada-s-carney-matches-trump-tariffs-with-50-tax-on-us-steel-furniture-dairy"
-          },
-          {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/newsroom/trump-teases-renaming-lake-ontario-to-lake-america-amid-u-s-canada-trade-war/"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/world/4699324/canada-retaliates-trump-tariffs/"
           }
         ]
       }
