@@ -193,11 +193,12 @@ function collectPoints(){
     (c.bases||[]).forEach(b=>{
       if(typeof b.lat==='number'&&typeof b.lng==='number')
         out.push({lat:b.lat,lng:b.lng,name:b.n,kind:'mil',
-                  note:b.t||'Base militare',foreign:!!b.f});
+                  note:b.t||'Base militare',foreign:!!b.f,country:cid});
     });
     (c.extraction||[]).forEach(e=>{
       if(typeof e.lat==='number'&&typeof e.lng==='number')
-        out.push({lat:e.lat,lng:e.lng,name:e.n,kind:'eco',note:e.r||'Sito estrattivo'});
+        out.push({lat:e.lat,lng:e.lng,name:e.n,kind:'eco',
+                  note:e.r||'Sito estrattivo',country:cid});
     });
   });
   const tr=window.TRADE_ROUTES;
@@ -216,6 +217,38 @@ function collectPoints(){
   });
   return uniq;
 }
+const KIND_LABEL={mil:'Base militare',eco:'Sito estrattivo',sea:'Nodo marittimo'};
+
+/** Coordinate in gradi, primi e secondi: come si citano in ambito operativo. */
+function dms(v,a,b){
+  const h=v>=0?a:b, x=Math.abs(v);
+  let d=Math.floor(x);
+  let m=Math.floor((x-d)*60);
+  let sec=Math.round((((x-d)*60-m)*60)*10)/10;
+  // il riporto va fatto a mano: senza, 69.55 diventa 69° 32' 60.0"
+  if(sec>=60){sec=0;m++}
+  if(m>=60){m=0;d++}
+  return d+'° '+String(m).padStart(2,'0')+"' "+sec.toFixed(1)+'" '+h;
+}
+
+/** Scheda di un sito: che cos'e', dove si trova, in che paese. */
+function describe(p){
+  const parts=[];
+  parts.push(KIND_LABEL[p.kind]||'Sito');
+  if(p.note)parts.push(p.note);
+  if(p.foreign)parts.push('dispiegamento fuori dai confini nazionali');
+  let country='';
+  const db=window.COUNTRY_DB;
+  if(p.country&&db&&db[p.country]){
+    const c=db[p.country];
+    country=((c.flag?c.flag+' ':'')+(c.name||''))||'';
+  }
+  return {kind:KIND_LABEL[p.kind]||'Sito', text:parts.slice(1).join(' · '),
+          country:country,
+          dec:p.lat.toFixed(5)+', '+p.lng.toFixed(5),
+          dms:dms(p.lat,'N','S')+'  '+dms(p.lng,'E','W')};
+}
+
 function pointsIn(bbox,pts){
   return pts.filter(p=>{
     let lng=p.lng;
@@ -332,97 +365,211 @@ const MARK={mil:{c:'#c9a24a',l:'Militare'},eco:{c:'#7fb37a',l:'Economico'},
             sea:{c:'#79a8b8',l:'Marittimo'}};
 
 function buildSVG(bbox,km,elev,pts,centre){
-  const V=VIEW, pad=0;
-  const levels=pickLevels(elev,TARGET_LINES);
-  const head='<svg viewBox="0 0 '+V+' '+V+'" xmlns="http://www.w3.org/2000/svg" '+
+  const V=VIEW;
+
+  // I livelli si calcolano sulla TERRA: includendo il mare (quota 0) tutte le
+  // isoipse si accalcherebbero sulla costa e l'interno resterebbe vuoto.
+  const land=elev.filter(v=>v!=null&&v>0);
+  const levels=pickLevels(land.length>=N_POINTS*0.12?land:elev,TARGET_LINES);
+  const interval=levels.length>1?(levels[1]-levels[0]):0;
+  const hasSea=elev.some(v=>v!=null&&v<=0)&&land.length>0;
+
+  const up=upsample(elev.map(v=>v==null?0:v),GW,GH,UPSCALE);
+  const stepX=V/(GW-1)/UPSCALE, stepY=V/(GH-1)/UPSCALE;
+  const px=gx=>gx*stepX, py=gy=>V-gy*stepY;
+
+  let out='<svg viewBox="0 0 '+V+' '+V+'" xmlns="http://www.w3.org/2000/svg" '+
     'preserveAspectRatio="xMidYMid meet" style="display:block;width:100%;height:100%">'+
     '<defs><linearGradient id="rgbg" x1="0" x2="0" y1="0" y2="1">'+
     '<stop offset="0%" stop-color="#0a1813"/><stop offset="100%" stop-color="#050b09"/>'+
     '</linearGradient></defs>'+
     '<rect width="'+V+'" height="'+V+'" fill="url(#rgbg)"/>';
 
-  let body='';
+  // --- specchio d'acqua: fasce orizzontali dove la quota non supera lo zero -
+  if(hasSea){
+    let d='';
+    for(let j=0;j<up.H;j++){
+      let st=-1;
+      for(let i=0;i<=up.W;i++){
+        const wet=(i<up.W)&&(up.g[j*up.W+i]<=0);
+        if(wet&&st<0)st=i;
+        if(!wet&&st>=0){
+          const x=px(st), w=px(i)-px(st), y=py(j+0.5);
+          d+='M'+x.toFixed(1)+' '+y.toFixed(1)+'h'+w.toFixed(1)+
+             'v'+stepY.toFixed(1)+'h'+(-w).toFixed(1)+'Z';
+          st=-1;
+        }
+      }
+    }
+    if(d)out+='<path d="'+d+'" fill="rgba(84,146,168,.11)"/>';
+  }
+
+  // --- reticolo di riferimento, un quarto di lato ---------------------------
+  for(let i=1;i<4;i++){
+    const q=(V*i/4).toFixed(1);
+    out+='<line x1="'+q+'" y1="0" x2="'+q+'" y2="'+V+'" stroke="rgba(138,173,132,.06)" stroke-width="1"/>'+
+      '<line x1="0" y1="'+q+'" x2="'+V+'" y2="'+q+'" stroke="rgba(138,173,132,.06)" stroke-width="1"/>';
+  }
+
+  // --- isoipse -------------------------------------------------------------
   if(levels.length){
-    const up=upsample(elev.map(v=>v==null?0:v),GW,GH,UPSCALE);
-    const stepX=V/(GW-1)/UPSCALE, stepY=V/(GH-1)/UPSCALE;
     levels.forEach((lv,li)=>{
       const t=li/Math.max(levels.length-1,1);
-      const op=(0.26+0.5*t).toFixed(2), w=(0.6+0.8*t).toFixed(2);
+      const idx=(li%5===4);                       // curva indice ogni cinque
+      const op=(idx?0.52:0.24)+0.34*t;
+      const w=(idx?1.15:0.6)+0.4*t;
       let d='';
       join(marching(up.g,up.W,up.H,lv)).forEach(line=>{
         if(line.length<3)return;
-        d+=polyPath(line.map(p=>[p[0]*stepX, V-p[1]*stepY]),0.4);
+        d+=polyPath(line.map(pt=>[px(pt[0]),py(pt[1])]),0.4);
       });
-      if(d)body+='<path d="'+d+'" fill="none" stroke="rgba(213,232,210,'+op+')" '+
-        'stroke-width="'+w+'" stroke-linecap="round" stroke-linejoin="round"/>';
+      if(d)out+='<path d="'+d+'" fill="none" stroke="rgba(213,232,210,'+op.toFixed(2)+')" '+
+        'stroke-width="'+w.toFixed(2)+'" stroke-linecap="round" stroke-linejoin="round"/>';
     });
   }else{
-    body+='<text x="'+(V/2)+'" y="'+(V/2)+'" fill="#5a6d5e" font-family="monospace" '+
+    out+='<text x="'+(V/2)+'" y="'+(V/2)+'" fill="#5a6d5e" font-family="monospace" '+
       'font-size="12" letter-spacing="1.4" text-anchor="middle">'+
       'RILIEVO ASSENTE · TERRENO PIANEGGIANTE</text>';
   }
 
-  // reticolo leggero, un riferimento di scala ogni quarto di lato
-  let grid='';
-  for(let i=1;i<4;i++){
-    const q=(V*i/4).toFixed(1);
-    grid+='<line x1="'+q+'" y1="0" x2="'+q+'" y2="'+V+'" stroke="rgba(138,173,132,.07)" stroke-width="1"/>'+
-      '<line x1="0" y1="'+q+'" x2="'+V+'" y2="'+q+'" stroke="rgba(138,173,132,.07)" stroke-width="1"/>';
+  // --- linea di costa: la quota zero, in tono freddo e piu' marcata --------
+  if(hasSea){
+    let d='';
+    join(marching(up.g,up.W,up.H,0.5)).forEach(line=>{
+      if(line.length<3)return;
+      d+=polyPath(line.map(pt=>[px(pt[0]),py(pt[1])]),0.35);
+    });
+    if(d)out+='<path d="'+d+'" fill="none" stroke="rgba(148,206,219,.92)" '+
+      'stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>';
   }
 
-  // punti strategici
+  // Il cartiglio va sotto i simboli: se andasse sopra, un sito che cade
+  // nell'angolo verrebbe coperto e non si potrebbe nemmeno cliccare.
+  const zones=[];
+  out+=furniture(V,km,interval,centre,hasSea,zones);
+
+  // --- punti strategici ----------------------------------------------------
   const sx=lng=>((lng-bbox[0])/(bbox[1]-bbox[0]))*V;
   const sy=lat=>V-((lat-bbox[2])/(bbox[3]-bbox[2]))*V;
-  let marks='',placed=[];
-  pts.forEach(p=>{
+  const placed=[];
+  let labels=0;
+  pts.forEach((p,i)=>{
     let L=p.lng;
     while(L<bbox[0]-180)L+=360;
     while(L>bbox[1]+180)L-=360;
     const X=sx(L),Y=sy(p.lat);
-    if(X<-6||X>V+6||Y<-6||Y>V+6)return;
+    if(X<-8||X>V+8||Y<-8||Y>V+8)return;
+    p._x=X;p._y=Y;
     const st=MARK[p.kind]||MARK.eco;
     let shape;
     if(p.kind==='mil')
       shape='<path d="M'+X.toFixed(1)+' '+(Y-6).toFixed(1)+'L'+(X+5.5).toFixed(1)+' '+
         (Y+4).toFixed(1)+'L'+(X-5.5).toFixed(1)+' '+(Y+4).toFixed(1)+'Z"';
     else if(p.kind==='sea')
-      shape='<circle cx="'+X.toFixed(1)+'" cy="'+Y.toFixed(1)+'" r="4.2"';
+      shape='<circle cx="'+X.toFixed(1)+'" cy="'+Y.toFixed(1)+'" r="4.3"';
     else
-      shape='<path d="M'+X.toFixed(1)+' '+(Y-5.2).toFixed(1)+'L'+(X+5.2).toFixed(1)+' '+
-        Y.toFixed(1)+'L'+X.toFixed(1)+' '+(Y+5.2).toFixed(1)+'L'+(X-5.2).toFixed(1)+' '+Y.toFixed(1)+'Z"';
-    marks+=shape+' fill="'+st.c+'" stroke="rgba(5,11,9,.9)" stroke-width="1.8"/>';
-    const tw=p.name.length*5.4;
-    const lx=X+9, ly=Y+3.6;
-    const clash=placed.some(b=>Math.abs(b[0]-lx)<tw+8&&Math.abs(b[1]-ly)<12);
-    if(!clash&&lx+tw<V-2){
-      placed.push([lx,ly]);
-      marks+='<rect x="'+(lx-3).toFixed(1)+'" y="'+(ly-9).toFixed(1)+'" width="'+(tw+6).toFixed(1)+
-        '" height="12.5" rx="2" fill="rgba(5,11,9,.72)"/>'+
-        '<text x="'+lx.toFixed(1)+'" y="'+ly.toFixed(1)+'" fill="'+st.c+
-        '" font-family="ui-monospace,monospace" font-size="9.5">'+esc(p.name)+'</text>';
-    }
+      shape='<path d="M'+X.toFixed(1)+' '+(Y-5.4).toFixed(1)+'L'+(X+5.4).toFixed(1)+' '+
+        Y.toFixed(1)+'L'+X.toFixed(1)+' '+(Y+5.4).toFixed(1)+'L'+(X-5.4).toFixed(1)+' '+Y.toFixed(1)+'Z"';
+    // area di aggancio piu' larga del simbolo, per non dover mirare al pixel
+    out+='<g class="rg-mk" data-rg="'+i+'" style="cursor:pointer">'+
+      '<circle cx="'+X.toFixed(1)+'" cy="'+Y.toFixed(1)+'" r="11" fill="transparent"/>'+
+      shape+' fill="'+st.c+'" stroke="rgba(5,11,9,.9)" stroke-width="1.8"/></g>';
+
+    // etichette solo per i primi otto che non si accavallano: il resto lo
+    // racconta la scheda al passaggio del cursore
+    if(labels>=8)return;
+    const tw=p.name.length*5.2+8;
+    const lx=X+10, ly=Y+3.6;
+    const clash=placed.some(b=>Math.abs(b[0]-lx)<tw&&Math.abs(b[1]-ly)<13);
+    const onPlate=zones.some(z=>lx<z[0]+z[2]&&lx+tw>z[0]&&ly-10<z[1]+z[3]&&ly>z[1]);
+    if(clash||onPlate||lx+tw>V-6)return;
+    placed.push([lx,ly]);labels++;
+    out+='<g class="rg-mk" data-rg="'+i+'" style="cursor:pointer">'+
+      '<rect x="'+(lx-3).toFixed(1)+'" y="'+(ly-9).toFixed(1)+'" width="'+tw.toFixed(1)+
+      '" height="12.5" rx="2" fill="rgba(5,11,9,.7)"/>'+
+      '<text x="'+lx.toFixed(1)+'" y="'+ly.toFixed(1)+'" fill="'+st.c+
+      '" font-family="ui-monospace,monospace" font-size="9.5">'+esc(p.name)+'</text></g>';
   });
 
-  // crocino al centro (il punto che hai cliccato) e scala
-  const cx=V/2;
-  const cross='<g stroke="rgba(232,235,229,.5)" stroke-width="1">'+
-    '<line x1="'+(cx-8)+'" y1="'+cx+'" x2="'+(cx-2)+'" y2="'+cx+'"/>'+
-    '<line x1="'+(cx+2)+'" y1="'+cx+'" x2="'+(cx+8)+'" y2="'+cx+'"/>'+
-    '<line x1="'+cx+'" y1="'+(cx-8)+'" x2="'+cx+'" y2="'+(cx-2)+'"/>'+
-    '<line x1="'+cx+'" y1="'+(cx+2)+'" x2="'+cx+'" y2="'+(cx+8)+'"/></g>';
-  const barLen=V/4, sub=km/4;
-  const scale='<g font-family="ui-monospace,monospace" font-size="9" fill="rgba(160,190,158,.75)">'+
-    '<line x1="14" y1="'+(V-16)+'" x2="'+(14+barLen)+'" y2="'+(V-16)+
-      '" stroke="rgba(160,190,158,.65)" stroke-width="2"/>'+
-    '<line x1="14" y1="'+(V-20)+'" x2="14" y2="'+(V-12)+'" stroke="rgba(160,190,158,.65)" stroke-width="1.4"/>'+
-    '<line x1="'+(14+barLen)+'" y1="'+(V-20)+'" x2="'+(14+barLen)+'" y2="'+(V-12)+
-      '" stroke="rgba(160,190,158,.65)" stroke-width="1.4"/>'+
-    '<text x="'+(14+barLen+6)+'" y="'+(V-13)+'">'+(sub>=1?sub+' km':(sub*1000)+' m')+'</text>'+
-    '<text x="14" y="18">'+esc(fmtLL(centre.lat,'N','S')+'  '+fmtLL(centre.lng,'E','W'))+'</text>'+
-    '<text x="'+(V-14)+'" y="18" text-anchor="end">'+km+' × '+km+' km</text></g>';
+  // --- crocino del punto cliccato -----------------------------------------
+  const c=V/2;
+  out+='<g stroke="rgba(232,235,229,.45)" stroke-width="1">'+
+    '<line x1="'+(c-9)+'" y1="'+c+'" x2="'+(c-3)+'" y2="'+c+'"/>'+
+    '<line x1="'+(c+3)+'" y1="'+c+'" x2="'+(c+9)+'" y2="'+c+'"/>'+
+    '<line x1="'+c+'" y1="'+(c-9)+'" x2="'+c+'" y2="'+(c-3)+'"/>'+
+    '<line x1="'+c+'" y1="'+(c+3)+'" x2="'+c+'" y2="'+(c+9)+'"/></g>';
 
-  return head+grid+body+marks+cross+scale+'</svg>';
+  return out+'</svg>';
 }
+
+// ============================================================================
+//  Cartiglio: scala, coordinate, nord, equidistanza.
+//  Sta su una targa opaca perche' sopra le isoipse una riga sottile sparisce,
+//  ed e' in tono ambrato per non confondersi con le curve, che sono bianche.
+// ============================================================================
+function furniture(V,km,interval,centre,hasSea,zones){
+  zones=zones||[];
+  const INK='#d8c48a', DIM='rgba(216,196,138,.65)';
+
+  // La barra deve rappresentare una distanza TONDA, non una frazione
+  // arbitraria del lato: si sceglie il valore piu' grande che stia entro un
+  // terzo della carta, e la lunghezza in pixel discende da quello.
+  const NICE=[0.1,0.25,0.5,1,2,2.5,5,10,20,25,50,100,200];
+  let d=NICE[0];
+  for(let i=0;i<NICE.length;i++)if(NICE[i]<=km*0.34)d=NICE[i];
+  const barW=(d/km)*V;
+  const seg=barW/4, x0=16, y0=V-18;
+  const fmt=v=>v>=1?(Math.round(v*10)/10)+' km':Math.round(v*1000)+' m';
+
+  zones.push([x0-9,y0-30,barW+92,40]);
+  let g='<g font-family="ui-monospace,monospace">'+
+    '<rect x="'+(x0-9)+'" y="'+(y0-30)+'" width="'+(barW+92).toFixed(1)+'" height="40" rx="3" '+
+    'fill="rgba(6,12,10,.82)" stroke="rgba(216,196,138,.28)" stroke-width="1"/>';
+  for(let i=0;i<4;i++){
+    g+='<rect x="'+(x0+i*seg).toFixed(1)+'" y="'+(y0-9)+'" width="'+seg.toFixed(1)+
+      '" height="5" fill="'+(i%2?'rgba(6,12,10,.9)':INK)+'" '+
+      'stroke="'+INK+'" stroke-width="0.8"/>';
+  }
+  g+='<text x="'+x0+'" y="'+(y0-14)+'" fill="'+DIM+'" font-size="8">0</text>'+
+     '<text x="'+(x0+barW/2).toFixed(1)+'" y="'+(y0-14)+'" fill="'+DIM+
+       '" font-size="8" text-anchor="middle">'+fmt(d/2)+'</text>'+
+     '<text x="'+(x0+barW).toFixed(1)+'" y="'+(y0-14)+'" fill="'+DIM+
+       '" font-size="8" text-anchor="middle">'+fmt(d)+'</text>'+
+     '<text x="'+(x0+barW+10).toFixed(1)+'" y="'+(y0-1)+'" fill="'+INK+'" font-size="8.5">'+
+       (interval>0?'equid. '+Math.round(interval)+' m':'—')+'</text></g>';
+
+  // rosa dei venti
+  const nx=V-30, ny=V-30;
+  zones.push([nx-16,ny-16,32,32]);
+  g+='<g><circle cx="'+nx+'" cy="'+ny+'" r="15" fill="rgba(6,12,10,.82)" '+
+    'stroke="rgba(216,196,138,.28)" stroke-width="1"/>'+
+    '<path d="M'+nx+' '+(ny-10)+'L'+(nx+4.5)+' '+(ny+5)+'L'+nx+' '+(ny+1.5)+
+    'L'+(nx-4.5)+' '+(ny+5)+'Z" fill="'+INK+'"/>'+
+    '<text x="'+nx+'" y="'+(ny+13)+'" fill="'+DIM+
+    '" font-family="ui-monospace,monospace" font-size="7.5" text-anchor="middle">N</text></g>';
+
+  // coordinate del centro e lato del quadrato
+  const cc=fmtLL(centre.lat,'N','S')+'   '+fmtLL(centre.lng,'E','W');
+  zones.push([8,8,cc.length*5.3+14,17]);
+  zones.push([V-96,8,88,hasSea?38:17]);
+  g+='<g font-family="ui-monospace,monospace" font-size="8.5">'+
+    '<rect x="8" y="8" width="'+(cc.length*5.3+14)+'" height="17" rx="3" '+
+      'fill="rgba(6,12,10,.82)" stroke="rgba(216,196,138,.22)" stroke-width="1"/>'+
+    '<text x="15" y="20" fill="'+INK+'">'+esc(cc)+'</text>'+
+    '<rect x="'+(V-96)+'" y="8" width="88" height="17" rx="3" '+
+      'fill="rgba(6,12,10,.82)" stroke="rgba(216,196,138,.22)" stroke-width="1"/>'+
+    '<text x="'+(V-12)+'" y="20" fill="'+INK+'" text-anchor="end">'+km+' × '+km+' km</text>';
+  if(hasSea){
+    g+='<rect x="'+(V-96)+'" y="29" width="88" height="17" rx="3" '+
+      'fill="rgba(6,12,10,.82)" stroke="rgba(148,206,219,.3)" stroke-width="1"/>'+
+      '<line x1="'+(V-88)+'" y1="37.5" x2="'+(V-72)+'" y2="37.5" '+
+      'stroke="rgba(148,206,219,.92)" stroke-width="1.7"/>'+
+      '<text x="'+(V-12)+'" y="41" fill="rgba(148,206,219,.85)" text-anchor="end">costa</text>';
+  }
+  g+='</g>';
+  return g;
+}
+
 function esc(s){
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
@@ -473,8 +620,23 @@ body.rg-pick #gl{cursor:crosshair!important}
   color:var(--text-dim,#5a6d5e);line-height:1.65;margin-top:8px}
 .rg-note b{color:var(--accent,#8aad84);font-weight:400}
 #rg-svg{margin-top:10px;border:1px solid var(--border,rgba(190,207,184,.14));
-  border-radius:5px;overflow:hidden;background:#0a1813;display:none}
+  border-radius:5px;overflow:hidden;background:#0a1813;display:none;position:relative}
 #rg-svg.on{display:block}
+#rg-card{position:absolute;z-index:5;min-width:190px;max-width:280px;padding:8px 10px;
+  background:rgba(8,15,12,.96);border:1px solid rgba(190,207,184,.28);border-radius:5px;
+  box-shadow:0 10px 30px rgba(0,0,0,.55);pointer-events:none;display:none;
+  font-family:var(--mono,monospace);font-size:9.5px;line-height:1.6;color:#9aaa97}
+#rg-card.on{display:block}
+#rg-card .h{display:flex;align-items:baseline;gap:6px;margin-bottom:3px}
+#rg-card .nm{color:#e8ebe5;font-size:11px;font-weight:600;letter-spacing:.2px}
+#rg-card .kd{font-size:8px;letter-spacing:1px;text-transform:uppercase}
+#rg-card .co{color:#8aad84;font-size:9px;margin-bottom:4px}
+#rg-card .tx{color:#9aaa97;margin-bottom:5px}
+#rg-card .ll{color:#7f9480;font-size:9px;border-top:1px solid rgba(190,207,184,.14);
+  padding-top:4px;margin-top:2px}
+#rg-card .ll b{color:#cfe0cb;font-weight:400}
+#rg-card .hint{color:#5a6d5e;font-size:8px;margin-top:3px}
+.rg-mk:hover{filter:brightness(1.35)}
 #rg-bar{height:3px;background:rgba(138,173,132,.14);border-radius:2px;
   overflow:hidden;margin-top:9px;display:none}
 #rg-bar.on{display:block}
@@ -527,10 +689,7 @@ function build(){
      '<div class="rg-note" id="rg-note">Scegli il lato del quadrato, poi clicca un punto sul globo.</div>'+
      '<div id="rg-bar"><i></i></div>'+
      '<div id="rg-svg"></div>'+
-     '<div id="rg-legend">'+
-       '<span style="color:#c9a24a">▲ Militare</span>'+
-       '<span style="color:#7fb37a">◆ Economico</span>'+
-       '<span style="color:#79a8b8">● Marittimo</span></div>'+
+     '<div id="rg-legend"></div>'+
      '<div id="rg-list"></div>'+
    '</div>';
   document.body.appendChild(panel);
@@ -648,26 +807,117 @@ async function run(lat,lng,km){
 
   const pts=pointsIn(bbox,collectPoints());
   const svg=buildSVG(bbox,km,res.elev,pts,{lat,lng});
-  host.innerHTML=svg;
+  host.innerHTML=svg+'<div id="rg-card"></div>';
   host.classList.add('on');
   panel.classList.add('big');
-  panel.querySelector('#rg-legend').classList.add('on');
   lastRun={bbox,km,elev:res.elev,pts,svg,centre:{lat,lng}};
+  attachCards(host,pts);
 
   const valid=res.elev.filter(v=>v!=null);
   const mn=Math.min.apply(null,valid), mx=Math.max.apply(null,valid);
   note.innerHTML='Quadrato di <b>'+km+' × '+km+' km</b> · centro '+
     fmtLL(lat,'N','S')+' '+fmtLL(lng,'E','W')+'<br>'+
     'quote da <b>'+mn+' m</b> a <b>'+mx+' m</b> · griglia '+GW+'×'+GH+
-    ' · '+(res.cached?'dalla cache':'6 richieste')+' · '+pts.length+' punti strategici';
+    ' · '+(res.cached?'dalla cache':'6 richieste');
 
-  const sym={mil:['▲','#c9a24a'],eco:['◆','#7fb37a'],sea:['●','#79a8b8']};
-  panel.querySelector('#rg-list').innerHTML=pts.length?pts.map(p=>{
-    const s=sym[p.kind]||sym.eco;
-    return '<div class="rg-item"><span style="color:'+s[1]+'">'+s[0]+'</span>'+
-      '<span class="n">'+esc(p.name)+'</span><span class="d">'+esc(p.note)+
-      (p.foreign?' · estero':'')+'</span></div>';
-  }).join(''):'';
+  // legenda con i conteggi reali: le voci a zero non compaiono
+  const cnt={mil:0,eco:0,sea:0};
+  pts.forEach(p=>{cnt[p.kind]=(cnt[p.kind]||0)+1});
+  const sym={mil:'▲',eco:'◆',sea:'●'};
+  const leg=panel.querySelector('#rg-legend');
+  const items=Object.keys(cnt).filter(k=>cnt[k]>0).map(k=>
+    '<span style="color:'+MARK[k].c+'">'+sym[k]+' '+MARK[k].l+' <b style="color:#e8ebe5;font-weight:400">'+
+    cnt[k]+'</b></span>');
+  if(hasSeaIn(res.elev))
+    items.push('<span style="color:rgba(148,206,219,.9)">— Linea di costa</span>');
+  leg.innerHTML=items.length?items.join(''):
+    '<span>Nessun sito censito in quest\'area</span>';
+  leg.classList.add('on');
+
+  panel.querySelector('#rg-list').innerHTML=pts.length?
+    '<div class="rg-item" style="color:#5a6d5e;font-size:8.5px;letter-spacing:1px;'+
+    'text-transform:uppercase;padding-bottom:3px">Siti nell\'area — passa sopra i simboli</div>'+
+    pts.map((p,i)=>{
+      const d=describe(p);
+      return '<div class="rg-item" data-rgl="'+i+'" style="cursor:default">'+
+        '<span style="color:'+MARK[p.kind].c+'">'+sym[p.kind]+'</span>'+
+        '<span class="n">'+esc(p.name)+'</span>'+
+        '<span class="d">'+esc(d.dec)+(d.text?' · '+esc(d.text):'')+'</span></div>';
+    }).join(''):'';
+}
+
+function hasSeaIn(elev){
+  let sea=false,land=false;
+  for(let i=0;i<elev.length;i++){
+    if(elev[i]==null)continue;
+    if(elev[i]<=0)sea=true; else land=true;
+    if(sea&&land)return true;
+  }
+  return false;
+}
+
+// ============================================================================
+//  Schede al passaggio del cursore
+//  I dati ci sono gia' tutti nel progetto: qui si tratta solo di mostrarli
+//  bene. Nessuna chiamata esterna, nessuna attesa.
+// ============================================================================
+function attachCards(host,pts){
+  const card=host.querySelector('#rg-card');
+  if(!card)return;
+  const show=(i,ev)=>{
+    const p=pts[i];
+    if(!p)return;
+    const d=describe(p);
+    card.innerHTML=
+      '<div class="h"><span class="nm">'+esc(p.name)+'</span>'+
+      '<span class="kd" style="color:'+MARK[p.kind].c+'">'+esc(d.kind)+'</span></div>'+
+      (d.country?'<div class="co">'+d.country+'</div>':'')+
+      (d.text?'<div class="tx">'+esc(d.text)+'</div>':'')+
+      '<div class="ll"><b>'+esc(d.dms)+'</b><br>'+esc(d.dec)+'</div>'+
+      '<div class="hint">clic per copiare le coordinate</div>';
+    card.classList.add('on');
+    place(ev);
+  };
+  const place=(ev)=>{
+    const r=host.getBoundingClientRect();
+    let x=ev.clientX-r.left+14, y=ev.clientY-r.top+12;
+    const cw=card.offsetWidth||210, ch=card.offsetHeight||96;
+    if(x+cw>r.width-6)x=ev.clientX-r.left-cw-14;
+    if(y+ch>r.height-6)y=ev.clientY-r.top-ch-12;
+    card.style.left=Math.max(4,x)+'px';
+    card.style.top=Math.max(4,y)+'px';
+  };
+  const hit=(e)=>{
+    const g=e.target.closest?e.target.closest('[data-rg]'):null;
+    return g?+g.getAttribute('data-rg'):-1;
+  };
+  host.addEventListener('mousemove',e=>{
+    const i=hit(e);
+    if(i<0){card.classList.remove('on');return}
+    if(card.dataset.i!==String(i)){card.dataset.i=String(i);show(i,e)}
+    else place(e);
+  });
+  host.addEventListener('mouseleave',()=>{card.classList.remove('on');card.dataset.i=''});
+  host.addEventListener('click',e=>{
+    const i=hit(e);
+    if(i<0)return;
+    const p=pts[i];
+    const txt=p.lat.toFixed(5)+', '+p.lng.toFixed(5);
+    if(navigator.clipboard)navigator.clipboard.writeText(txt).then(()=>{
+      const h=card.querySelector('.hint');
+      if(h){h.textContent='coordinate copiate';h.style.color='#8aad84'}
+    },()=>{});
+  });
+  // evidenzia il simbolo passando sulla riga dell'elenco
+  const list=panel.querySelector('#rg-list');
+  if(list)list.addEventListener('mousemove',e=>{
+    const row=e.target.closest?e.target.closest('[data-rgl]'):null;
+    host.querySelectorAll('.rg-mk').forEach(g=>g.style.filter='');
+    if(!row)return;
+    const i=row.getAttribute('data-rgl');
+    host.querySelectorAll('[data-rg="'+i+'"]').forEach(g=>
+      g.style.filter='brightness(1.6) drop-shadow(0 0 4px currentColor)');
+  });
 }
 
 function toggleFull(){
@@ -736,6 +986,7 @@ window.GEOINT_REGION={
     try{Object.keys(localStorage).filter(k=>k.indexOf(CACHE_KEY)===0)
       .forEach(k=>localStorage.removeItem(k))}catch(e){}
   },
-  _internal:{box:squareBox,coords:coordsFor,svg:buildSVG,inBox:pointsIn}
+  _internal:{box:squareBox,coords:coordsFor,svg:buildSVG,inBox:pointsIn,
+             describe:describe,dms:dms}
 };
 })();
