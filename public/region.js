@@ -558,6 +558,18 @@ let _down={x:0,y:0};
 
 function arm(i){
   build();
+  if(typeof window.screenToLatLng!=='function'){
+    // Il codice del globo gira dentro (async()=>{...})(), quindi le sue
+    // funzioni non finiscono su window da sole: serve la riga di export in
+    // index.html. Meglio dirlo che restare muti.
+    panel.querySelector('#rg-note').innerHTML=
+      '<b style="color:#c27066">Manca l\'aggancio al globo.</b><br>'+
+      'In index.html, subito dopo la funzione screenToLatLng, aggiungi:<br>'+
+      '<span style="color:#e8ebe5">window.screenToLatLng=screenToLatLng;</span><br>'+
+      'Nel frattempo puoi usare la console: '+
+      '<span style="color:#e8ebe5">GEOINT_REGION.at(lat, lng, 50)</span>';
+    return;
+  }
   armed=SIZES[i];
   document.body.classList.add('rg-pick');
   panel.querySelectorAll('.rg-size').forEach(b=>
@@ -581,7 +593,6 @@ function onGlobeClick(e){
   if(!cv||e.target!==cv)return;          // solo i clic sul globo
   // se stavi ruotando il globo non e' una selezione
   if(Math.abs(e.clientX-_down.x)>5||Math.abs(e.clientY-_down.y)>5)return;
-  if(typeof window.screenToLatLng!=='function')return;
   const ll=window.screenToLatLng(e.clientX,e.clientY);
   if(!ll){
     hint.innerHTML='Fuori dal globo — clicca sulla superficie';
