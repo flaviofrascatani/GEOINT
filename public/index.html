@@ -932,6 +932,9 @@ function screenToLatLng(mx,my){
   const x2=cy*x1+sy*z1, y2=y1, z2=-sy*x1+cy*z1;
   return vToLatLng({x:x2,y:y2,z:z2});
 }
+// Esposta a window: tutto questo file gira dentro (async()=>{...})(), quindi
+// senza questa riga i moduli esterni (region.js) non la vedrebbero.
+window.screenToLatLng=screenToLatLng;
 function fN(n){if(!n&&n!==0)return'—';if(n>=1e9)return(n/1e9).toFixed(1)+'B';if(n>=1e6)return(n/1e6).toFixed(1)+'M';if(n>=1e3)return(n/1e3).toFixed(1)+'K';return''+n}
 
 function redrawCountry(id){
