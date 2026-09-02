@@ -1,48 +1,61 @@
 // ============================================================================
 // GEOINT — Region DEM
 // ----------------------------------------------------------------------------
-// Selezione di un'area del mondo, download del rilievo da Open-Meteo e
-// sovrapposizione dei punti strategici gia' presenti nel progetto:
+// Si sceglie una dimensione (10, 50 o 200 km di lato), si clicca un punto sul
+// globo e si scarica il rilievo di quel quadrato da Open-Meteo. Il risultato
+// e' una carta a curve di livello nello stesso stile di quella sotto Geography,
+// con i punti strategici gia' presenti nel progetto sovrapposti:
 //
-//   COUNTRY_DB[*].bases[]       basi militari      (n, lat, lng, t, f)
-//   COUNTRY_DB[*].extraction[]  siti estrattivi    (n, lat, lng, r)
-//   TRADE_ROUTES[*].points[]    porti e stretti    (lat, lng, label)
+//   COUNTRY_DB[*].bases[]       basi militari    (n, lat, lng, t, f)
+//   COUNTRY_DB[*].extraction[]  siti estrattivi  (n, lat, lng, r)
+//   TRADE_ROUTES[*].points[]    porti e stretti  (lat, lng, label)
 //
-// MODULO AUTONOMO: non dipende da topo.js ne' dal globo. Si aggancia da solo
-// alla barra in basso. In index.html basta una riga:
+// BANDA
+// Sempre 6 richieste da 100 coordinate (griglia 25x24 = 600 punti), a raffiche
+// di 3 con 30 secondi di pausa in mezzo: una sola pausa per area, circa 40
+// secondi in tutto. Ogni settore viene salvato appena arriva, quindi una
+// interruzione non fa perdere nulla e la stessa area richiesta due volte esce
+// dalla cache all'istante.
 //
+// INSTALLAZIONE: una riga in index.html, dopo topo.js
 //     <script src="region.js"></script>
-//
-// LIMITE DI BANDA
-// Open-Meteo conta le richieste per indirizzo IP. Qui si scarica su richiesta
-// dell'utente, quindi si usa lo stesso schema del resto del progetto: raffiche
-// di 3 richieste e poi una pausa, con la pausa che raddoppia a ogni 429. Una
-// regione costa al massimo 12 richieste, cioe' meno di due minuti.
+// Il pulsante si inserisce da solo accanto a "Satellites".
 // ============================================================================
 (function(){
 'use strict';
 
-// --- Parametri --------------------------------------------------------------
-const MAX_SPAN_LNG = 30;      // ampiezza massima dell'area, in gradi
-const MAX_SPAN_LAT = 25;
-const MIN_SPAN     = 0.4;
-const MAX_POINTS   = 1200;    // 12 richieste da 100 coordinate
-const CHUNK        = 100;
-const BURST        = 3;
-const PAUSE_MS     = 20000;   // pausa fra raffiche
-const SPACING_MS   = 1200;
-const MAX_PENALTY  = 8;
-const CACHE_KEY    = 'gx_region_v1_';
-const COOLDOWN_KEY = 'gx_topo_cooldown';   // condiviso con topo.js
-const PENALTY_KEY  = 'gx_topo_penalty';
+// --- Griglia: 25 x 24 = 600 punti = esattamente 6 richieste da 100 ---------
+const GW=25, GH=24;
+const N_POINTS=GW*GH;
+const CHUNK=100;
+const N_CHUNKS=Math.ceil(N_POINTS/CHUNK);      // 6
 
-const sleep = ms => new Promise(r => setTimeout(r, ms));
-const clamp = (v,a,b) => Math.max(a, Math.min(b, v));
+// --- Ritmo delle richieste --------------------------------------------------
+const BURST=3;                 // richieste per raffica
+const PAUSE_MS=30000;          // pausa dopo ogni raffica
+const SPACING_MS=1200;
+const MAX_PENALTY=8;
+const COOLDOWN_KEY='gx_topo_cooldown';   // condivisi con topo.js: i due
+const PENALTY_KEY='gx_topo_penalty';     // meccanismi si rispettano a vicenda
+const CACHE_KEY='gx_region_v2_';
+
+// --- Dimensioni selezionabili ----------------------------------------------
+const SIZES=[
+  {km:10,  label:'10 km',  desc:'dettaglio locale · celle da ~400 m'},
+  {km:50,  label:'50 km',  desc:'area operativa · celle da ~2 km'},
+  {km:200, label:'200 km', desc:'scala regionale · celle da ~8 km'}
+];
+const KM_PER_DEG=111.32;
+const TARGET_LINES=14;
+const UPSCALE=3;
+
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
 
 // ============================================================================
-//  Limitatore a raffiche (stesso comportamento di topo.js)
+//  Coda a raffiche
 // ============================================================================
-const Q = {queue:[], running:false, inBurst:0, last:0, total:0};
+const Q={queue:[],running:false,inBurst:0,last:0,total:0};
 
 function penalty(){
   try{const v=parseFloat(localStorage.getItem(PENALTY_KEY)||'1');
@@ -88,11 +101,9 @@ async function pump(){
           const p=Math.min(penalty()*2,MAX_PENALTY);
           setPenalty(p);
           const w=PAUSE_MS*p;
-          setCooldown(w);
-          Q.inBurst=0;
+          setCooldown(w);Q.inBurst=0;
           if(waitCb)waitCb('429',w);
-          await sleep(w);
-          tries++;continue;
+          await sleep(w);tries++;continue;
         }
         if(!r.ok)throw new Error('HTTP '+r.status);
         const j=await r.json();
@@ -110,115 +121,46 @@ async function pump(){
 }
 
 // ============================================================================
-//  Punti strategici gia' presenti nel progetto
+//  Geometria del quadrato
 // ============================================================================
-function collectPoints(){
-  const out=[];
-  const db=window.COUNTRY_DB;
-  if(db){
-    Object.keys(db).forEach(cid=>{
-      const c=db[cid];if(!c)return;
-      (c.bases||[]).forEach(b=>{
-        if(typeof b.lat!=='number'||typeof b.lng!=='number')return;
-        out.push({lat:b.lat,lng:b.lng,name:b.n,kind:'mil',
-                  note:b.t||'Base militare',foreign:!!b.f,country:cid});
-      });
-      (c.extraction||[]).forEach(e=>{
-        if(typeof e.lat!=='number'||typeof e.lng!=='number')return;
-        out.push({lat:e.lat,lng:e.lng,name:e.n,kind:'eco',
-                  note:e.r||'Sito estrattivo',country:cid});
-      });
-    });
-  }
-  const tr=window.TRADE_ROUTES;
-  if(Array.isArray(tr)){
-    tr.forEach(route=>{
-      const scan=(pts)=>{
-        (pts||[]).forEach(p=>{
-          if(!p.label||typeof p.lat!=='number')return;
-          out.push({lat:p.lat,lng:p.lng,name:p.label,kind:'sea',
-                    note:route.name||'Rotta commerciale'});
-        });
-      };
-      scan(route.points);
-      (route.branches||[]).forEach(b=>scan(b.points||b));
-    });
-  }
-  // stessa localita' ripetuta su piu' rotte: si tiene una sola volta
-  const seen={},uniq=[];
-  out.forEach(p=>{
-    const k=p.kind+'|'+p.name+'|'+p.lat.toFixed(2)+'|'+p.lng.toFixed(2);
-    if(seen[k])return;
-    seen[k]=1;uniq.push(p);
-  });
-  return uniq;
+function squareBox(lat,lng,km){
+  const half=km/2;
+  const dLat=half/KM_PER_DEG;
+  const dLng=half/(KM_PER_DEG*Math.max(0.02,Math.cos(lat*Math.PI/180)));
+  return [lng-dLng, lng+dLng, clamp(lat-dLat,-89.9,89.9), clamp(lat+dLat,-89.9,89.9)];
 }
-
-function pointsIn(bbox,pts){
-  const [w,e,s,n]=bbox;
-  return pts.filter(p=>{
-    let lng=p.lng;
-    while(lng<w-180)lng+=360;
-    while(lng>e+180)lng-=360;
-    return lng>=w&&lng<=e&&p.lat>=s&&p.lat<=n;
-  });
-}
-
-// ============================================================================
-//  Download del rilievo
-// ============================================================================
-function gridFor(bbox){
-  const dLng=bbox[1]-bbox[0], dLat=bbox[3]-bbox[2];
-  const midLat=((bbox[2]+bbox[3])/2)*Math.PI/180;
-  const aspect=(dLng*Math.max(0.15,Math.cos(midLat)))/dLat;
-  // celle quadrate a terra, entro il tetto di punti
-  let h=Math.round(Math.sqrt(MAX_POINTS/Math.max(aspect,0.05)));
-  let w=Math.round(h*aspect);
-  w=clamp(w,8,80); h=clamp(h,8,80);
-  while(w*h>MAX_POINTS){ if(w>h)w--; else h--; }
-  return {w:w,h:h};
-}
-
-function coordsFor(bbox,g){
+function coordsFor(bbox){
   const lats=[],lngs=[];
-  for(let j=0;j<g.h;j++){
-    const lat=bbox[2]+(bbox[3]-bbox[2])*(j/(g.h-1));
-    for(let i=0;i<g.w;i++){
-      const lng=bbox[0]+(bbox[1]-bbox[0])*(i/(g.w-1));
+  for(let j=0;j<GH;j++){
+    const lat=bbox[2]+(bbox[3]-bbox[2])*(j/(GH-1));
+    for(let i=0;i<GW;i++){
+      const lng=bbox[0]+(bbox[1]-bbox[0])*(i/(GW-1));
       lats.push(clamp(lat,-90,90).toFixed(4));
       lngs.push(((lng+540)%360-180).toFixed(4));
     }
   }
   return {lats,lngs};
 }
-
-function cacheKey(bbox,g){
-  return CACHE_KEY+bbox.map(v=>v.toFixed(3)).join('_')+'_'+g.w+'x'+g.h;
-}
-function loadCache(k){
-  try{const d=JSON.parse(localStorage.getItem(k)||'null');
-    return (d&&Array.isArray(d.elev))?d:null}catch(e){return null}
-}
-function saveCache(k,d){
-  try{localStorage.setItem(k,JSON.stringify(d))}catch(e){}
+function cacheKey(bbox,km){
+  return CACHE_KEY+km+'_'+bbox.map(v=>v.toFixed(4)).join('_');
 }
 
-async function fetchRegion(bbox,g,onProgress){
-  const key=cacheKey(bbox,g);
-  const cached=loadCache(key);
-  const N=g.w*g.h;
-  const chunks=Math.ceil(N/CHUNK);
-  const elev=cached?cached.elev.slice():new Array(N).fill(null);
-  const have=cached?cached.have.slice():new Array(chunks).fill(0);
+async function fetchSquare(bbox,km,onProgress){
+  const key=cacheKey(bbox,km);
+  let elev=new Array(N_POINTS).fill(null), have=new Array(N_CHUNKS).fill(0);
+  try{
+    const c=JSON.parse(localStorage.getItem(key)||'null');
+    if(c&&Array.isArray(c.elev)&&c.elev.length===N_POINTS){elev=c.elev;have=c.have}
+  }catch(e){}
   if(have.every(Boolean))return {elev,have,cached:true};
 
-  const c=coordsFor(bbox,g);
+  const c=coordsFor(bbox);
   waitCb=(reason,ms)=>onProgress({phase:'wait',reason,ms,
-                                  have:have.filter(Boolean).length,total:chunks});
-  for(let k=0;k<chunks;k++){
+    have:have.filter(Boolean).length,total:N_CHUNKS});
+  for(let k=0;k<N_CHUNKS;k++){
     if(have[k])continue;
-    const s=k*CHUNK,e=Math.min(s+CHUNK,N);
-    onProgress({phase:'fetch',have:have.filter(Boolean).length,total:chunks});
+    const s=k*CHUNK,e=Math.min(s+CHUNK,N_POINTS);
+    onProgress({phase:'fetch',have:have.filter(Boolean).length,total:N_CHUNKS});
     const url='https://api.open-meteo.com/v1/elevation'
       +'?latitude='+c.lats.slice(s,e).join(',')
       +'&longitude='+c.lngs.slice(s,e).join(',');
@@ -233,15 +175,58 @@ async function fetchRegion(bbox,g,onProgress){
       elev[s+i]=(typeof v==='number')?Math.round(v):0;
     }
     have[k]=1;
-    saveCache(key,{elev,have,bbox,g});   // salvataggio a ogni settore
-    onProgress({phase:'fetch',have:have.filter(Boolean).length,total:chunks});
+    try{localStorage.setItem(key,JSON.stringify({elev,have,bbox,km}))}catch(e){}
+    onProgress({phase:'fetch',have:have.filter(Boolean).length,total:N_CHUNKS});
   }
   waitCb=null;
   return {elev,have};
 }
 
 // ============================================================================
-//  Isoipse (marching squares + interpolazione)
+//  Punti strategici gia' presenti nel progetto
+// ============================================================================
+function collectPoints(){
+  const out=[];
+  const db=window.COUNTRY_DB;
+  if(db)Object.keys(db).forEach(cid=>{
+    const c=db[cid];if(!c)return;
+    (c.bases||[]).forEach(b=>{
+      if(typeof b.lat==='number'&&typeof b.lng==='number')
+        out.push({lat:b.lat,lng:b.lng,name:b.n,kind:'mil',
+                  note:b.t||'Base militare',foreign:!!b.f});
+    });
+    (c.extraction||[]).forEach(e=>{
+      if(typeof e.lat==='number'&&typeof e.lng==='number')
+        out.push({lat:e.lat,lng:e.lng,name:e.n,kind:'eco',note:e.r||'Sito estrattivo'});
+    });
+  });
+  const tr=window.TRADE_ROUTES;
+  if(Array.isArray(tr))tr.forEach(r=>{
+    const scan=pts=>(pts||[]).forEach(p=>{
+      if(p&&p.label&&typeof p.lat==='number')
+        out.push({lat:p.lat,lng:p.lng,name:p.label,kind:'sea',note:r.name||'Rotta commerciale'});
+    });
+    scan(r.points);
+    (r.branches||[]).forEach(b=>scan(b.points||b));
+  });
+  const seen={},uniq=[];
+  out.forEach(p=>{
+    const k=p.kind+'|'+p.name+'|'+p.lat.toFixed(2)+'|'+p.lng.toFixed(2);
+    if(!seen[k]){seen[k]=1;uniq.push(p)}
+  });
+  return uniq;
+}
+function pointsIn(bbox,pts){
+  return pts.filter(p=>{
+    let lng=p.lng;
+    while(lng<bbox[0]-180)lng+=360;
+    while(lng>bbox[1]+180)lng-=360;
+    return lng>=bbox[0]&&lng<=bbox[1]&&p.lat>=bbox[2]&&p.lat<=bbox[3];
+  });
+}
+
+// ============================================================================
+//  Isoipse
 // ============================================================================
 function catmull(p0,p1,p2,p3,t){
   return p1+0.5*t*(p2-p0+t*(2*p0-5*p1+4*p2-p3+t*(3*(p1-p2)+p3-p0)));
@@ -314,270 +299,202 @@ function join(segs){
   }
   return lines;
 }
-function levelsOf(values,n){
-  const v=values.filter(x=>x!=null&&isFinite(x)).sort((a,b)=>a-b);
+function pickLevels(values,n){
+  const v=values.filter(x=>x!=null&&isFinite(x)).slice().sort((a,b)=>a-b);
   if(!v.length)return [];
-  const lo=v[Math.floor(v.length*0.04)],hi=v[Math.min(Math.floor(v.length*0.96),v.length-1)];
-  if(hi-lo<5)return [];
+  const lo=v[Math.floor(v.length*0.04)];
+  const hi=v[Math.min(Math.floor(v.length*0.96),v.length-1)];
+  if(hi-lo<2)return [];
   const out=[];
   for(let i=1;i<=n;i++)out.push(lo+(hi-lo)*(i/(n+1)));
   return out;
 }
+function polyPath(pts,tol){
+  if(pts.length<2)return '';
+  const t=tol||0.4;
+  let d='M'+pts[0][0].toFixed(1)+' '+pts[0][1].toFixed(1),last=pts[0];
+  for(let i=1;i<pts.length-1;i++){
+    const p=pts[i];
+    if(Math.abs(p[0]-last[0])<t&&Math.abs(p[1]-last[1])<t)continue;
+    d+='L'+p[0].toFixed(1)+' '+p[1].toFixed(1);last=p;
+  }
+  const e=pts[pts.length-1];
+  return d+'L'+e[0].toFixed(1)+' '+e[1].toFixed(1);
+}
 
 // ============================================================================
-//  Disegno della mappa regionale
+//  Carta SVG — stessa impaginazione della mappa sotto Geography.
+//  Il quadrato e' quadrato anche a video, quindi viewBox quadrato: in
+//  pieno schermo l'SVG scala senza deformarsi.
 // ============================================================================
-function drawRegion(canvas,bbox,g,elev,pts,opts){
-  const dpr=Math.min(window.devicePixelRatio||1,2);
-  const W=canvas.clientWidth||760, H=canvas.clientHeight||520;
-  canvas.width=Math.round(W*dpr); canvas.height=Math.round(H*dpr);
-  const ctx=canvas.getContext('2d');
-  ctx.setTransform(dpr,0,0,dpr,0,0);
-  ctx.clearRect(0,0,W,H);
+const VIEW=520;
+const MARK={mil:{c:'#c9a24a',l:'Militare'},eco:{c:'#7fb37a',l:'Economico'},
+            sea:{c:'#79a8b8',l:'Marittimo'}};
 
-  // area di disegno a proporzioni geografiche
-  const dLng=bbox[1]-bbox[0], dLat=bbox[3]-bbox[2];
-  const midLat=((bbox[2]+bbox[3])/2)*Math.PI/180;
-  const aspect=(dLng*Math.max(0.15,Math.cos(midLat)))/dLat;
-  let aw=W, ah=W/aspect;
-  if(ah>H){ah=H;aw=H*aspect}
-  const ax=(W-aw)/2, ay=(H-ah)/2;
+function buildSVG(bbox,km,elev,pts,centre){
+  const V=VIEW, pad=0;
+  const levels=pickLevels(elev,TARGET_LINES);
+  const head='<svg viewBox="0 0 '+V+' '+V+'" xmlns="http://www.w3.org/2000/svg" '+
+    'preserveAspectRatio="xMidYMid meet" style="display:block;width:100%;height:100%">'+
+    '<defs><linearGradient id="rgbg" x1="0" x2="0" y1="0" y2="1">'+
+    '<stop offset="0%" stop-color="#0a1813"/><stop offset="100%" stop-color="#050b09"/>'+
+    '</linearGradient></defs>'+
+    '<rect width="'+V+'" height="'+V+'" fill="url(#rgbg)"/>';
 
-  const grad=ctx.createLinearGradient(0,ay,0,ay+ah);
-  grad.addColorStop(0,'#0a1813'); grad.addColorStop(1,'#050b09');
-  ctx.fillStyle=grad; ctx.fillRect(ax,ay,aw,ah);
-
-  const sx=lng=>ax+((lng-bbox[0])/dLng)*aw;
-  const sy=lat=>ay+ah-((lat-bbox[2])/dLat)*ah;
-
-  // tutto il disegno resta dentro la cornice
-  ctx.save();
-  ctx.beginPath(); ctx.rect(ax,ay,aw,ah); ctx.clip();
-
-  // --- isoipse ---
-  const land=elev.filter(v=>v!=null&&v>0);
-  const src=(land.length>=g.w*g.h*0.12)?land:elev;
-  const levels=levelsOf(src,opts&&opts.lines||14);
-  const F=(g.w*g.h<=700)?3:2;
-  const up=upsample(elev.map(v=>v==null?0:v),g.w,g.h,F);
-  const stepX=aw/(g.w-1)/F, stepY=ah/(g.h-1)/F;
-  ctx.lineCap='round'; ctx.lineJoin='round';
-  levels.forEach((lv,li)=>{
-    const t=li/Math.max(levels.length-1,1);
-    ctx.strokeStyle='rgba(213,232,210,'+(0.20+0.45*t).toFixed(2)+')';
-    ctx.lineWidth=0.5+0.7*t;
-    ctx.beginPath();
-    join(marching(up.g,up.W,up.H,lv)).forEach(line=>{
-      if(line.length<3)return;
-      let last=null;
-      line.forEach((p,i)=>{
-        const X=ax+p[0]*stepX, Y=ay+ah-p[1]*stepY;
-        if(last&&Math.abs(X-last[0])<0.5&&Math.abs(Y-last[1])<0.5&&i<line.length-1)return;
-        if(i===0)ctx.moveTo(X,Y); else ctx.lineTo(X,Y);
-        last=[X,Y];
+  let body='';
+  if(levels.length){
+    const up=upsample(elev.map(v=>v==null?0:v),GW,GH,UPSCALE);
+    const stepX=V/(GW-1)/UPSCALE, stepY=V/(GH-1)/UPSCALE;
+    levels.forEach((lv,li)=>{
+      const t=li/Math.max(levels.length-1,1);
+      const op=(0.26+0.5*t).toFixed(2), w=(0.6+0.8*t).toFixed(2);
+      let d='';
+      join(marching(up.g,up.W,up.H,lv)).forEach(line=>{
+        if(line.length<3)return;
+        d+=polyPath(line.map(p=>[p[0]*stepX, V-p[1]*stepY]),0.4);
       });
+      if(d)body+='<path d="'+d+'" fill="none" stroke="rgba(213,232,210,'+op+')" '+
+        'stroke-width="'+w+'" stroke-linecap="round" stroke-linejoin="round"/>';
     });
-    ctx.stroke();
-  });
-
-  // --- confini dei paesi, se disponibili ---
-  const cp=window.countryPolys;
-  if(cp&&(!opts||opts.borders!==false)){
-    ctx.strokeStyle='rgba(138,173,132,.28)'; ctx.lineWidth=0.8;
-    ctx.beginPath();
-    Object.keys(cp).forEach(id=>{
-      cp[id].forEach(poly=>{
-        const ring=poly&&poly[0];
-        if(!ring||ring.length<4)return;
-        let prev=null,started=false,drew=0;
-        for(let i=0;i<ring.length;i+=1){
-          let lng=ring[i][0],lat=ring[i][1];
-          if(prev!==null){
-            while(lng-prev>180)lng-=360;
-            while(lng-prev<-180)lng+=360;
-          }
-          prev=lng;
-          let L=lng;
-          while(L<bbox[0]-180)L+=360;
-          while(L>bbox[1]+180)L-=360;
-          if(L<bbox[0]-dLng||L>bbox[1]+dLng||lat<bbox[2]-dLat||lat>bbox[3]+dLat){
-            started=false;continue;
-          }
-          const X=sx(L),Y=sy(lat);
-          if(!started){ctx.moveTo(X,Y);started=true}else{ctx.lineTo(X,Y);drew++}
-          if(drew>4000)break;
-        }
-      });
-    });
-    ctx.stroke();
+  }else{
+    body+='<text x="'+(V/2)+'" y="'+(V/2)+'" fill="#5a6d5e" font-family="monospace" '+
+      'font-size="12" letter-spacing="1.4" text-anchor="middle">'+
+      'RILIEVO ASSENTE · TERRENO PIANEGGIANTE</text>';
   }
 
-  // --- punti strategici ---
-  const style={
-    mil:{c:'#c9a24a',label:'Militare'},
-    eco:{c:'#7fb37a',label:'Economico'},
-    sea:{c:'#79a8b8',label:'Marittimo'}
-  };
-  const placed=[];
-  ctx.font='10px ui-monospace, monospace';
+  // reticolo leggero, un riferimento di scala ogni quarto di lato
+  let grid='';
+  for(let i=1;i<4;i++){
+    const q=(V*i/4).toFixed(1);
+    grid+='<line x1="'+q+'" y1="0" x2="'+q+'" y2="'+V+'" stroke="rgba(138,173,132,.07)" stroke-width="1"/>'+
+      '<line x1="0" y1="'+q+'" x2="'+V+'" y2="'+q+'" stroke="rgba(138,173,132,.07)" stroke-width="1"/>';
+  }
+
+  // punti strategici
+  const sx=lng=>((lng-bbox[0])/(bbox[1]-bbox[0]))*V;
+  const sy=lat=>V-((lat-bbox[2])/(bbox[3]-bbox[2]))*V;
+  let marks='',placed=[];
   pts.forEach(p=>{
     let L=p.lng;
     while(L<bbox[0]-180)L+=360;
     while(L>bbox[1]+180)L-=360;
     const X=sx(L),Y=sy(p.lat);
-    if(X<ax-4||X>ax+aw+4||Y<ay-4||Y>ay+ah+4)return;
-    const st=style[p.kind]||style.eco;
-    ctx.fillStyle=st.c; ctx.strokeStyle='rgba(5,11,9,.85)'; ctx.lineWidth=2;
-    ctx.beginPath();
-    if(p.kind==='mil'){                       // triangolo
-      ctx.moveTo(X,Y-5);ctx.lineTo(X+4.5,Y+3.5);ctx.lineTo(X-4.5,Y+3.5);ctx.closePath();
-    }else if(p.kind==='sea'){                 // cerchio
-      ctx.arc(X,Y,3.6,0,Math.PI*2);
-    }else{                                    // rombo
-      ctx.moveTo(X,Y-4.5);ctx.lineTo(X+4.5,Y);ctx.lineTo(X,Y+4.5);ctx.lineTo(X-4.5,Y);ctx.closePath();
-    }
-    ctx.stroke(); ctx.fill();
-    p._x=X; p._y=Y;
-    // etichetta solo se non si accavalla
-    const tw=ctx.measureText(p.name).width;
-    let lx=X+8, ly=Y+3.5;
-    const box=[lx,ly-9,tw,12];
-    const hit=placed.some(b=>!(box[0]>b[0]+b[2]+3||box[0]+box[2]+3<b[0]||
-                               box[1]>b[1]+b[3]+2||box[1]+box[3]+2<b[1]));
-    if(!hit&&lx+tw<ax+aw){
-      placed.push(box);
-      ctx.fillStyle='rgba(5,11,9,.72)';
-      ctx.fillRect(lx-2,ly-9,tw+4,12);
-      ctx.fillStyle=st.c;
-      ctx.fillText(p.name,lx,ly);
+    if(X<-6||X>V+6||Y<-6||Y>V+6)return;
+    const st=MARK[p.kind]||MARK.eco;
+    let shape;
+    if(p.kind==='mil')
+      shape='<path d="M'+X.toFixed(1)+' '+(Y-6).toFixed(1)+'L'+(X+5.5).toFixed(1)+' '+
+        (Y+4).toFixed(1)+'L'+(X-5.5).toFixed(1)+' '+(Y+4).toFixed(1)+'Z"';
+    else if(p.kind==='sea')
+      shape='<circle cx="'+X.toFixed(1)+'" cy="'+Y.toFixed(1)+'" r="4.2"';
+    else
+      shape='<path d="M'+X.toFixed(1)+' '+(Y-5.2).toFixed(1)+'L'+(X+5.2).toFixed(1)+' '+
+        Y.toFixed(1)+'L'+X.toFixed(1)+' '+(Y+5.2).toFixed(1)+'L'+(X-5.2).toFixed(1)+' '+Y.toFixed(1)+'Z"';
+    marks+=shape+' fill="'+st.c+'" stroke="rgba(5,11,9,.9)" stroke-width="1.8"/>';
+    const tw=p.name.length*5.4;
+    const lx=X+9, ly=Y+3.6;
+    const clash=placed.some(b=>Math.abs(b[0]-lx)<tw+8&&Math.abs(b[1]-ly)<12);
+    if(!clash&&lx+tw<V-2){
+      placed.push([lx,ly]);
+      marks+='<rect x="'+(lx-3).toFixed(1)+'" y="'+(ly-9).toFixed(1)+'" width="'+(tw+6).toFixed(1)+
+        '" height="12.5" rx="2" fill="rgba(5,11,9,.72)"/>'+
+        '<text x="'+lx.toFixed(1)+'" y="'+ly.toFixed(1)+'" fill="'+st.c+
+        '" font-family="ui-monospace,monospace" font-size="9.5">'+esc(p.name)+'</text>';
     }
   });
 
-  ctx.restore();
+  // crocino al centro (il punto che hai cliccato) e scala
+  const cx=V/2;
+  const cross='<g stroke="rgba(232,235,229,.5)" stroke-width="1">'+
+    '<line x1="'+(cx-8)+'" y1="'+cx+'" x2="'+(cx-2)+'" y2="'+cx+'"/>'+
+    '<line x1="'+(cx+2)+'" y1="'+cx+'" x2="'+(cx+8)+'" y2="'+cx+'"/>'+
+    '<line x1="'+cx+'" y1="'+(cx-8)+'" x2="'+cx+'" y2="'+(cx-2)+'"/>'+
+    '<line x1="'+cx+'" y1="'+(cx+2)+'" x2="'+cx+'" y2="'+(cx+8)+'"/></g>';
+  const barLen=V/4, sub=km/4;
+  const scale='<g font-family="ui-monospace,monospace" font-size="9" fill="rgba(160,190,158,.75)">'+
+    '<line x1="14" y1="'+(V-16)+'" x2="'+(14+barLen)+'" y2="'+(V-16)+
+      '" stroke="rgba(160,190,158,.65)" stroke-width="2"/>'+
+    '<line x1="14" y1="'+(V-20)+'" x2="14" y2="'+(V-12)+'" stroke="rgba(160,190,158,.65)" stroke-width="1.4"/>'+
+    '<line x1="'+(14+barLen)+'" y1="'+(V-20)+'" x2="'+(14+barLen)+'" y2="'+(V-12)+
+      '" stroke="rgba(160,190,158,.65)" stroke-width="1.4"/>'+
+    '<text x="'+(14+barLen+6)+'" y="'+(V-13)+'">'+(sub>=1?sub+' km':(sub*1000)+' m')+'</text>'+
+    '<text x="14" y="18">'+esc(fmtLL(centre.lat,'N','S')+'  '+fmtLL(centre.lng,'E','W'))+'</text>'+
+    '<text x="'+(V-14)+'" y="18" text-anchor="end">'+km+' × '+km+' km</text></g>';
 
-  // cornice + coordinate
-  ctx.strokeStyle='rgba(138,173,132,.35)'; ctx.lineWidth=1;
-  ctx.strokeRect(ax+.5,ay+.5,aw-1,ah-1);
-  ctx.fillStyle='rgba(122,145,120,.75)';
-  ctx.font='9px ui-monospace, monospace';
-  const f=(v,a,b)=>Math.abs(v).toFixed(2)+'°'+(v>=0?a:b);
-  ctx.fillText(f(bbox[2],'N','S')+'  '+f(bbox[0],'E','W'),ax+4,ay+ah-5);
-  const t2=f(bbox[3],'N','S')+'  '+f(bbox[1],'E','W');
-  ctx.fillText(t2,ax+aw-ctx.measureText(t2).width-4,ay+11);
-  return {ax,ay,aw,ah};
+  return head+grid+body+marks+cross+scale+'</svg>';
 }
-
-// ============================================================================
-//  Mappa del mondo per la selezione
-// ============================================================================
-let worldCache=null;
-function drawWorld(cv,sel){
-  const dpr=Math.min(window.devicePixelRatio||1,2);
-  const W=cv.clientWidth||760,H=Math.round((cv.clientWidth||760)/2);
-  cv.height=Math.round(H*dpr); cv.width=Math.round(W*dpr);
-  cv.style.height=H+'px';
-  const ctx=cv.getContext('2d');
-  ctx.setTransform(dpr,0,0,dpr,0,0);
-  ctx.fillStyle='#070f0c'; ctx.fillRect(0,0,W,H);
-  const X=lng=>((lng+180)/360)*W, Y=lat=>((90-lat)/180)*H;
-
-  // reticolato
-  ctx.strokeStyle='rgba(138,173,132,.10)'; ctx.lineWidth=1;
-  ctx.beginPath();
-  for(let l=-150;l<180;l+=30){ctx.moveTo(X(l),0);ctx.lineTo(X(l),H)}
-  for(let l=-60;l<90;l+=30){ctx.moveTo(0,Y(l));ctx.lineTo(W,Y(l))}
-  ctx.stroke();
-
-  const cp=window.countryPolys;
-  if(cp){
-    if(!worldCache){
-      worldCache=[];
-      Object.keys(cp).forEach(id=>{
-        cp[id].forEach(poly=>{
-          const ring=poly&&poly[0];
-          if(!ring||ring.length<4)return;
-          const out=[];let last=null;
-          for(let i=0;i<ring.length;i++){
-            const p=ring[i];
-            if(last&&Math.abs(p[0]-last[0])<0.55&&Math.abs(p[1]-last[1])<0.55)continue;
-            out.push(p);last=p;
-          }
-          if(out.length>=3)worldCache.push(out);
-        });
-      });
-    }
-    ctx.strokeStyle='rgba(150,186,146,.55)'; ctx.lineWidth=0.7;
-    ctx.beginPath();
-    worldCache.forEach(r=>{
-      for(let i=0;i<r.length;i++){
-        const x=X(r[i][0]),y=Y(r[i][1]);
-        if(i===0)ctx.moveTo(x,y); else ctx.lineTo(x,y);
-      }
-    });
-    ctx.stroke();
-  }
-
-  if(sel){
-    const x1=X(Math.min(sel[0],sel[1])),x2=X(Math.max(sel[0],sel[1]));
-    const y1=Y(Math.max(sel[2],sel[3])),y2=Y(Math.min(sel[2],sel[3]));
-    ctx.fillStyle='rgba(138,173,132,.16)';
-    ctx.fillRect(x1,y1,x2-x1,y2-y1);
-    ctx.strokeStyle='#8aad84'; ctx.lineWidth=1.4;
-    ctx.strokeRect(x1,y1,x2-x1,y2-y1);
-  }
-  return {W,H};
+function esc(s){
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+function fmtLL(v,a,b){
+  return Math.abs(v).toFixed(4)+'°'+(v>=0?a:b);
 }
 
 // ============================================================================
 //  Interfaccia
 // ============================================================================
 const CSS=`
-#rg-ov{position:fixed;inset:0;z-index:4000;background:rgba(4,8,7,.86);
-  backdrop-filter:blur(6px);display:none;align-items:center;justify-content:center;padding:18px}
-#rg-ov.on{display:flex}
-#rg-win{width:min(1080px,96vw);max-height:94vh;background:var(--surface,rgba(17,27,22,.96));
-  border:1px solid var(--border,rgba(190,207,184,.14));border-radius:8px;
-  display:flex;flex-direction:column;overflow:hidden;
-  box-shadow:0 30px 90px rgba(0,0,0,.6)}
-#rg-hd{display:flex;align-items:center;justify-content:space-between;gap:10px;
-  padding:11px 15px;border-bottom:1px solid var(--border,rgba(190,207,184,.14))}
-#rg-hd h3{margin:0;font-family:var(--sans,serif);font-size:14px;font-weight:600;
-  letter-spacing:.6px;color:var(--accent,#8aad84)}
-#rg-hd .sub{font-family:var(--mono,monospace);font-size:9px;letter-spacing:1px;
-  color:var(--text-dim,#5a6d5e);text-transform:uppercase}
-#rg-x{background:none;border:1px solid var(--border,rgba(190,207,184,.14));
-  color:var(--text-dim,#5a6d5e);border-radius:4px;cursor:pointer;padding:3px 9px;font-size:13px}
-#rg-x:hover{color:#e8ebe5;border-color:var(--accent,#8aad84)}
-#rg-bd{padding:14px 15px;overflow-y:auto}
-#rg-world{width:100%;display:block;border:1px solid var(--border,rgba(190,207,184,.14));
-  border-radius:5px;cursor:crosshair;background:#070f0c}
-#rg-map{width:100%;height:min(56vh,520px);display:block;border:1px solid var(--border,rgba(190,207,184,.14));
-  border-radius:5px;background:#050b09}
-.rg-row{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:11px}
-.rg-info{font-family:var(--mono,monospace);font-size:10px;letter-spacing:.4px;
-  color:var(--text-dim,#5a6d5e);flex:1;min-width:200px;line-height:1.6}
-.rg-btn{padding:8px 15px;background:rgba(138,173,132,.14);
-  border:1px solid rgba(138,173,132,.42);border-radius:5px;color:var(--accent,#8aad84);
-  font-family:var(--sans,serif);font-size:12.5px;font-weight:600;cursor:pointer}
-.rg-btn:hover{background:rgba(138,173,132,.26);color:#e8ebe5}
-.rg-btn[disabled]{opacity:.45;cursor:not-allowed}
-.rg-btn.ghost{background:none;color:var(--text-dim,#5a6d5e)}
-#rg-bar{height:3px;background:rgba(138,173,132,.14);border-radius:2px;overflow:hidden;
-  margin-top:10px;display:none}
+body.rg-pick #gl{cursor:crosshair!important}
+#rg-hint{position:fixed;left:50%;top:56px;transform:translateX(-50%);z-index:2500;
+  padding:7px 15px;background:rgba(17,27,22,.94);border:1px solid rgba(138,173,132,.45);
+  border-radius:5px;color:var(--accent,#8aad84);font-family:var(--sans,serif);
+  font-size:12.5px;letter-spacing:.3px;display:none;pointer-events:none;
+  box-shadow:0 8px 30px rgba(0,0,0,.5)}
+#rg-hint.on{display:block}
+#rg-hint b{color:#e8ebe5;font-weight:600}
+#rg-panel{position:fixed;bottom:44px;left:10px;width:340px;
+  max-height:calc(100vh - 120px);z-index:120;
+  background:var(--surface,rgba(17,27,22,.92));border:1px solid var(--border,rgba(190,207,184,.14));
+  border-radius:6px;backdrop-filter:blur(14px);display:none;flex-direction:column;overflow:hidden}
+#rg-panel.on{display:flex}
+#rg-panel.big{width:min(860px,94vw)}
+#rg-panel:fullscreen{width:100vw;max-height:100vh;height:100vh;bottom:0;left:0;
+  border-radius:0;background:#070f0c}
+#rg-panel:fullscreen #rg-svg{max-height:none}
+#rg-hd{display:flex;align-items:center;justify-content:space-between;gap:8px;
+  padding:9px 12px;border-bottom:1px solid var(--border,rgba(190,207,184,.14));flex:none}
+#rg-hd .ttl{font-family:var(--sans,serif);font-size:12.5px;font-weight:600;
+  letter-spacing:.5px;color:var(--accent,#8aad84)}
+#rg-hd .sub{font-family:var(--mono,monospace);font-size:8px;letter-spacing:1px;
+  color:var(--text-dim,#5a6d5e);text-transform:uppercase;margin-top:2px}
+.rg-ic{background:none;border:1px solid var(--border,rgba(190,207,184,.14));
+  color:var(--text-dim,#5a6d5e);border-radius:4px;cursor:pointer;padding:3px 8px;
+  font-size:12px;line-height:1.2}
+.rg-ic:hover{color:#e8ebe5;border-color:var(--accent,#8aad84)}
+#rg-bd{padding:11px 12px;overflow-y:auto;flex:1;min-height:0}
+.rg-sizes{display:flex;gap:6px}
+.rg-size{flex:1;padding:7px 4px;background:rgba(0,0,0,.2);
+  border:1px solid var(--border,rgba(190,207,184,.14));border-radius:5px;
+  color:var(--text,#9aaa97);font-family:var(--sans,serif);font-size:12.5px;
+  font-weight:600;cursor:pointer;text-align:center}
+.rg-size:hover{border-color:rgba(138,173,132,.5);color:#e8ebe5}
+.rg-size.on{background:rgba(138,173,132,.18);border-color:rgba(138,173,132,.6);color:#e8ebe5}
+.rg-note{font-family:var(--mono,monospace);font-size:9px;letter-spacing:.4px;
+  color:var(--text-dim,#5a6d5e);line-height:1.65;margin-top:8px}
+.rg-note b{color:var(--accent,#8aad84);font-weight:400}
+#rg-svg{margin-top:10px;border:1px solid var(--border,rgba(190,207,184,.14));
+  border-radius:5px;overflow:hidden;background:#0a1813;display:none}
+#rg-svg.on{display:block}
+#rg-bar{height:3px;background:rgba(138,173,132,.14);border-radius:2px;
+  overflow:hidden;margin-top:9px;display:none}
 #rg-bar.on{display:block}
-#rg-bar i{display:block;height:100%;width:0;background:var(--accent,#8aad84);
-  transition:width .35s}
-#rg-legend{display:flex;gap:14px;flex-wrap:wrap;margin-top:10px;
-  font-family:var(--mono,monospace);font-size:9px;letter-spacing:.8px;color:var(--text-dim,#5a6d5e)}
-#rg-legend b{font-weight:400}
-#rg-list{margin-top:11px;max-height:190px;overflow-y:auto;
-  border-top:1px solid var(--border,rgba(190,207,184,.14));padding-top:9px}
-.rg-item{display:flex;gap:9px;align-items:baseline;padding:3px 0;
-  font-family:var(--mono,monospace);font-size:10px;color:#9aaa97}
-.rg-item .t{width:9px;flex:none}
+#rg-bar i{display:block;height:100%;width:0;background:var(--accent,#8aad84);transition:width .3s}
+#rg-legend{display:none;gap:12px;flex-wrap:wrap;margin-top:8px;
+  font-family:var(--mono,monospace);font-size:8.5px;letter-spacing:.8px;
+  color:var(--text-dim,#5a6d5e)}
+#rg-legend.on{display:flex}
+#rg-list{margin-top:8px}
+.rg-item{display:flex;gap:8px;align-items:baseline;padding:2px 0;
+  font-family:var(--mono,monospace);font-size:9.5px;color:#9aaa97}
 .rg-item .n{color:#e8ebe5}
-.rg-item .d{color:var(--text-dim,#5a6d5e);font-size:9px}
+.rg-item .d{color:var(--text-dim,#5a6d5e);font-size:8.5px}
+@media(max-width:760px){
+  #rg-panel{width:calc(100vw - 20px);bottom:48px}
+  #rg-panel.big{width:calc(100vw - 20px)}
+}
 `;
+
+let panel=null, hint=null, armed=null, lastRun=null, busy=false;
 
 function el(tag,attrs,html){
   const e=document.createElement(tag);
@@ -586,189 +503,210 @@ function el(tag,attrs,html){
   return e;
 }
 
-let ui=null, sel=null, lastResult=null;
-
 function build(){
-  if(ui)return ui;
+  if(panel)return;
   document.head.appendChild(el('style',null,CSS));
-  const ov=el('div',{id:'rg-ov'});
-  ov.innerHTML=
-   '<div id="rg-win">'+
-    '<div id="rg-hd"><div><h3>RILIEVO REGIONALE</h3>'+
-      '<div class="sub">Seleziona un\'area · DEM da Open-Meteo · punti strategici</div></div>'+
-      '<button id="rg-x">✕</button></div>'+
-    '<div id="rg-bd">'+
-      '<div id="rg-stage1">'+
-        '<canvas id="rg-world"></canvas>'+
-        '<div class="rg-row"><div class="rg-info" id="rg-sel">'+
-          'Trascina sul planisfero per delimitare l\'area. Massimo '+MAX_SPAN_LNG+'° × '+MAX_SPAN_LAT+'°.'+
-        '</div>'+
-        '<button class="rg-btn ghost" id="rg-clear">Azzera</button>'+
-        '<button class="rg-btn" id="rg-go" disabled>Scarica il rilievo</button></div>'+
-        '<div id="rg-bar"><i></i></div>'+
-      '</div>'+
-      '<div id="rg-stage2" style="display:none">'+
-        '<canvas id="rg-map"></canvas>'+
-        '<div id="rg-legend">'+
-          '<b style="color:#c9a24a">▲ Militare</b>'+
-          '<b style="color:#7fb37a">◆ Economico</b>'+
-          '<b style="color:#79a8b8">● Marittimo</b>'+
-          '<b id="rg-stat"></b></div>'+
-        '<div class="rg-row">'+
-          '<div class="rg-info" id="rg-info2"></div>'+
-          '<button class="rg-btn ghost" id="rg-back">Nuova area</button>'+
-          '<button class="rg-btn" id="rg-png">Salva PNG</button></div>'+
-        '<div id="rg-list"></div>'+
-      '</div>'+
-    '</div>'+
+
+  hint=el('div',{id:'rg-hint'});
+  document.body.appendChild(hint);
+
+  panel=el('div',{id:'rg-panel'});
+  panel.innerHTML=
+   '<div id="rg-hd">'+
+     '<div><div class="ttl">RILIEVO REGIONALE</div>'+
+     '<div class="sub">DEM Open-Meteo · curve di livello</div></div>'+
+     '<div style="display:flex;gap:5px">'+
+       '<button class="rg-ic" id="rg-full" title="Schermo intero">⛶</button>'+
+       '<button class="rg-ic" id="rg-save" title="Salva SVG">⤓</button>'+
+       '<button class="rg-ic" id="rg-close" title="Chiudi">✕</button>'+
+     '</div></div>'+
+   '<div id="rg-bd">'+
+     '<div class="rg-sizes">'+
+       SIZES.map((s,i)=>'<button class="rg-size" data-i="'+i+'">'+s.label+'</button>').join('')+
+     '</div>'+
+     '<div class="rg-note" id="rg-note">Scegli il lato del quadrato, poi clicca un punto sul globo.</div>'+
+     '<div id="rg-bar"><i></i></div>'+
+     '<div id="rg-svg"></div>'+
+     '<div id="rg-legend">'+
+       '<span style="color:#c9a24a">▲ Militare</span>'+
+       '<span style="color:#7fb37a">◆ Economico</span>'+
+       '<span style="color:#79a8b8">● Marittimo</span></div>'+
+     '<div id="rg-list"></div>'+
    '</div>';
-  document.body.appendChild(ov);
+  document.body.appendChild(panel);
 
-  const world=ov.querySelector('#rg-world');
-  const info=ov.querySelector('#rg-sel');
-  const go=ov.querySelector('#rg-go');
+  panel.querySelectorAll('.rg-size').forEach(b=>{
+    b.addEventListener('click',()=>arm(+b.dataset.i));
+  });
+  panel.querySelector('#rg-close').addEventListener('click',closePanel);
+  panel.querySelector('#rg-full').addEventListener('click',toggleFull);
+  panel.querySelector('#rg-save').addEventListener('click',saveSVG);
 
-  let drag=null;
-  const toGeo=(ev)=>{
-    const r=world.getBoundingClientRect();
-    const x=clamp(ev.clientX-r.left,0,r.width), y=clamp(ev.clientY-r.top,0,r.height);
-    return [ (x/r.width)*360-180, 90-(y/r.height)*180 ];
-  };
-  const update=()=>{
-    drawWorld(world,sel);
-    if(!sel){info.textContent='Trascina sul planisfero per delimitare l\'area. Massimo '
-      +MAX_SPAN_LNG+'° × '+MAX_SPAN_LAT+'°.';go.disabled=true;return}
-    const dLng=Math.abs(sel[1]-sel[0]),dLat=Math.abs(sel[3]-sel[2]);
-    const bbox=normSel();
-    if(dLng>MAX_SPAN_LNG||dLat>MAX_SPAN_LAT){
-      info.innerHTML='<span style="color:#c27066">Area troppo grande: '+dLng.toFixed(1)+'° × '
-        +dLat.toFixed(1)+'°. Il massimo e\' '+MAX_SPAN_LNG+'° × '+MAX_SPAN_LAT+'°, '+
-        'oltre il quale la griglia diventerebbe troppo rada per un rilievo utile.</span>';
-      go.disabled=true;return;
-    }
-    if(dLng<MIN_SPAN||dLat<MIN_SPAN){
-      info.textContent='Area troppo piccola.';go.disabled=true;return;
-    }
-    const g=gridFor(bbox);
-    const ch=Math.ceil(g.w*g.h/CHUNK);
-    const secs=Math.round((Math.ceil(ch/BURST)-1)*PAUSE_MS/1000+ch*1.4);
-    const np=pointsIn(bbox,collectPoints()).length;
-    info.innerHTML='Area '+dLng.toFixed(1)+'° × '+dLat.toFixed(1)+'° · griglia '+g.w+'×'+g.h+
-      ' ('+(g.w*g.h)+' punti, '+ch+' richieste)<br>Tempo stimato circa '+
-      (secs<60?secs+' secondi':Math.round(secs/60)+' minuti')+
-      ' · '+np+' punti strategici in quest\'area';
-    go.disabled=false;
-  };
-  const normSel=()=>[Math.min(sel[0],sel[1]),Math.max(sel[0],sel[1]),
-                     Math.min(sel[2],sel[3]),Math.max(sel[2],sel[3])];
-
-  world.addEventListener('pointerdown',ev=>{
-    const g=toGeo(ev);drag=g;sel=[g[0],g[0],g[1],g[1]];
-    world.setPointerCapture(ev.pointerId);update();
-  });
-  world.addEventListener('pointermove',ev=>{
-    if(!drag)return;
-    const g=toGeo(ev);sel=[drag[0],g[0],drag[1],g[1]];update();
-  });
-  world.addEventListener('pointerup',()=>{drag=null;update()});
-  ov.querySelector('#rg-clear').addEventListener('click',()=>{sel=null;update()});
-  ov.querySelector('#rg-x').addEventListener('click',close);
-  ov.addEventListener('click',e=>{if(e.target===ov)close()});
-  ov.querySelector('#rg-back').addEventListener('click',()=>{
-    ov.querySelector('#rg-stage2').style.display='none';
-    ov.querySelector('#rg-stage1').style.display='';
-    setTimeout(update,0);
-  });
-  ov.querySelector('#rg-png').addEventListener('click',()=>{
-    const c=ov.querySelector('#rg-map');
-    const a=document.createElement('a');
-    a.download='geoint-region.png';
-    a.href=c.toDataURL('image/png');
-    a.click();
-  });
-
-  go.addEventListener('click',async()=>{
-    const bbox=normSel(), g=gridFor(bbox);
-    const bar=ov.querySelector('#rg-bar'), fill=bar.querySelector('i');
-    bar.classList.add('on'); go.disabled=true;
-    const t0=Date.now();
-    const res=await fetchRegion(bbox,g,(p)=>{
-      const pct=Math.round((p.have/p.total)*100);
-      fill.style.width=pct+'%';
-      if(p.phase==='wait'){
-        const until=Date.now()+p.ms;
-        const tick=()=>{
-          const s=Math.max(0,Math.round((until-Date.now())/1000));
-          info.innerHTML='<span style="color:#b89a4a">'+
-            (p.reason==='429'?'Limite di Open-Meteo raggiunto':'Pausa fra le raffiche')+
-            ' · ripresa fra '+s+'s</span> — '+p.have+'/'+p.total+' settori';
-          if(s>0&&ov.classList.contains('on'))setTimeout(tick,1000);
-        };
-        tick();
-      }else{
-        info.textContent='Scaricamento… '+p.have+'/'+p.total+' settori';
-      }
-    });
-    bar.classList.remove('on'); go.disabled=false;
-    if(res.error&&!res.have.every(Boolean)){
-      info.innerHTML='<span style="color:#c27066">Interrotto: '+
-        (res.error.message||'errore')+'. I settori gia\' scaricati restano '+
-        'in memoria, ripremi il pulsante per continuare.</span>';
-      return;
-    }
-    const pts=pointsIn(bbox,collectPoints());
-    lastResult={bbox,g,elev:res.elev,pts};
-    ov.querySelector('#rg-stage1').style.display='none';
-    ov.querySelector('#rg-stage2').style.display='';
-    setTimeout(()=>{
-      drawRegion(ov.querySelector('#rg-map'),bbox,g,res.elev,pts);
-      const valid=res.elev.filter(v=>v!=null);
-      const mx=Math.max.apply(null,valid),mn=Math.min.apply(null,valid);
-      ov.querySelector('#rg-stat').textContent=
-        'quote '+mn+'–'+mx+' m · griglia '+g.w+'×'+g.h;
-      ov.querySelector('#rg-info2').textContent=
-        (res.cached?'Dalla cache locale':'Scaricato in '+Math.round((Date.now()-t0)/1000)+'s')+
-        ' · '+pts.length+' punti strategici';
-      const list=ov.querySelector('#rg-list');
-      const sym={mil:['▲','#c9a24a'],eco:['◆','#7fb37a'],sea:['●','#79a8b8']};
-      list.innerHTML=pts.length?pts.map(p=>{
-        const s=sym[p.kind]||sym.eco;
-        return '<div class="rg-item"><span class="t" style="color:'+s[1]+'">'+s[0]+'</span>'+
-          '<span class="n">'+p.name+'</span><span class="d">'+p.note+
-          (p.foreign?' · dispiegamento estero':'')+'</span></div>';
-      }).join(''):'<div class="rg-item"><span class="d">Nessun punto strategico censito in quest\'area.</span></div>';
-    },30);
-  });
-
-  ui={ov,update};
-  return ui;
+  // Intercetta il clic PRIMA del gestore che seleziona il paese.
+  // Nota: un listener in cattura sullo STESSO elemento non precederebbe quello
+  // gia' registrato sul canvas (nella fase "at target" conta solo l'ordine di
+  // registrazione). Si cattura quindi su document, che nella fase di discesa
+  // viene percorso prima di arrivare al canvas.
+  document.addEventListener('pointerdown',e=>{
+    _down={x:e.clientX,y:e.clientY};
+  },true);
+  document.addEventListener('click',onGlobeClick,true);
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')disarm()});
 }
 
-function open(){
-  const u=build();
-  u.ov.classList.add('on');
-  setTimeout(u.update,20);
+let _down={x:0,y:0};
+
+function arm(i){
+  build();
+  armed=SIZES[i];
+  document.body.classList.add('rg-pick');
+  panel.querySelectorAll('.rg-size').forEach(b=>
+    b.classList.toggle('on',+b.dataset.i===i));
+  panel.querySelector('#rg-note').innerHTML=
+    'Quadrato di <b>'+armed.km+' × '+armed.km+' km</b> — '+armed.desc+'.<br>'+
+    'Clicca il centro sul globo. Esc per annullare.';
+  hint.innerHTML='Clicca un punto sul globo — quadrato di <b>'+armed.km+' × '+armed.km+' km</b>';
+  hint.classList.add('on');
 }
-function close(){ if(ui)ui.ov.classList.remove('on'); }
+function disarm(){
+  armed=null;
+  document.body.classList.remove('rg-pick');
+  if(hint)hint.classList.remove('on');
+  if(panel)panel.querySelectorAll('.rg-size').forEach(b=>b.classList.remove('on'));
+}
+
+function onGlobeClick(e){
+  if(!armed||busy)return;
+  const cv=document.getElementById('gl');
+  if(!cv||e.target!==cv)return;          // solo i clic sul globo
+  // se stavi ruotando il globo non e' una selezione
+  if(Math.abs(e.clientX-_down.x)>5||Math.abs(e.clientY-_down.y)>5)return;
+  if(typeof window.screenToLatLng!=='function')return;
+  const ll=window.screenToLatLng(e.clientX,e.clientY);
+  if(!ll){
+    hint.innerHTML='Fuori dal globo — clicca sulla superficie';
+    return;
+  }
+  e.stopPropagation();      // niente selezione del paese sotto il cursore
+  e.preventDefault();
+  const km=armed.km;
+  disarm();
+  run(ll.lat,ll.lng,km);
+}
+
+async function run(lat,lng,km){
+  build();
+  panel.classList.add('on');
+  busy=true;
+  const bbox=squareBox(lat,lng,km);
+  const note=panel.querySelector('#rg-note');
+  const bar=panel.querySelector('#rg-bar'), fill=bar.querySelector('i');
+  const host=panel.querySelector('#rg-svg');
+  bar.classList.add('on');
+  note.innerHTML='Quadrato di <b>'+km+' × '+km+' km</b> centrato su '+
+    fmtLL(lat,'N','S')+' '+fmtLL(lng,'E','W')+'<br>6 richieste, raffiche di 3 con 30 s di pausa.';
+
+  let timer=null;
+  const res=await fetchSquare(bbox,km,(p)=>{
+    fill.style.width=Math.round((p.have/p.total)*100)+'%';
+    if(timer){clearInterval(timer);timer=null}
+    if(p.phase==='wait'){
+      const until=Date.now()+p.ms;
+      const tick=()=>{
+        const s=Math.max(0,Math.round((until-Date.now())/1000));
+        note.innerHTML='<b style="color:#b89a4a">'+
+          (p.reason==='429'?'Limite di Open-Meteo':'Pausa fra le raffiche')+
+          ' · ripresa fra '+s+' s</b><br>'+p.have+'/'+p.total+' settori acquisiti.';
+        if(s<=0&&timer){clearInterval(timer);timer=null}
+      };
+      tick(); timer=setInterval(tick,1000);
+    }else{
+      note.innerHTML='Acquisizione… <b>'+p.have+'/'+p.total+'</b> settori.';
+    }
+  });
+  if(timer)clearInterval(timer);
+  bar.classList.remove('on');
+  busy=false;
+
+  if(!res.have.every(Boolean)){
+    note.innerHTML='<b style="color:#c27066">Interrotto a '+res.have.filter(Boolean).length+
+      '/'+N_CHUNKS+' settori.</b><br>I dati scaricati restano salvati: riseleziona '+
+      'lo stesso punto per riprendere da dove si era fermato.';
+    return;
+  }
+
+  const pts=pointsIn(bbox,collectPoints());
+  const svg=buildSVG(bbox,km,res.elev,pts,{lat,lng});
+  host.innerHTML=svg;
+  host.classList.add('on');
+  panel.classList.add('big');
+  panel.querySelector('#rg-legend').classList.add('on');
+  lastRun={bbox,km,elev:res.elev,pts,svg,centre:{lat,lng}};
+
+  const valid=res.elev.filter(v=>v!=null);
+  const mn=Math.min.apply(null,valid), mx=Math.max.apply(null,valid);
+  note.innerHTML='Quadrato di <b>'+km+' × '+km+' km</b> · centro '+
+    fmtLL(lat,'N','S')+' '+fmtLL(lng,'E','W')+'<br>'+
+    'quote da <b>'+mn+' m</b> a <b>'+mx+' m</b> · griglia '+GW+'×'+GH+
+    ' · '+(res.cached?'dalla cache':'6 richieste')+' · '+pts.length+' punti strategici';
+
+  const sym={mil:['▲','#c9a24a'],eco:['◆','#7fb37a'],sea:['●','#79a8b8']};
+  panel.querySelector('#rg-list').innerHTML=pts.length?pts.map(p=>{
+    const s=sym[p.kind]||sym.eco;
+    return '<div class="rg-item"><span style="color:'+s[1]+'">'+s[0]+'</span>'+
+      '<span class="n">'+esc(p.name)+'</span><span class="d">'+esc(p.note)+
+      (p.foreign?' · estero':'')+'</span></div>';
+  }).join(''):'';
+}
+
+function toggleFull(){
+  if(!panel)return;
+  if(document.fullscreenElement===panel){
+    if(document.exitFullscreen)document.exitFullscreen();
+  }else if(panel.requestFullscreen){
+    panel.requestFullscreen().catch(()=>panel.classList.toggle('big'));
+  }else{
+    panel.classList.toggle('big');
+  }
+}
+function saveSVG(){
+  if(!lastRun)return;
+  const blob=new Blob([lastRun.svg],{type:'image/svg+xml'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download='geoint-'+lastRun.km+'km-'+lastRun.centre.lat.toFixed(3)+'_'+
+             lastRun.centre.lng.toFixed(3)+'.svg';
+  a.click();
+  setTimeout(()=>URL.revokeObjectURL(a.href),4000);
+}
+function closePanel(){
+  disarm();
+  if(panel)panel.classList.remove('on');
+}
+function openPanel(){
+  build();
+  panel.classList.add('on');
+  if(!lastRun)arm(1);           // predefinito: 50 km
+}
 
 // ============================================================================
-//  Aggancio alla barra in basso
+//  Pulsante nella barra in basso, accanto a Satellites
 // ============================================================================
 function mount(){
   if(document.getElementById('btn-region'))return;
-  const b=el('button',{id:'btn-region',class:'fs-btn',title:'Rilievo di una regione'},
-             '◱ Region DEM');
-  b.addEventListener('click',open);
-  // accanto ai pulsanti gia' presenti; in mancanza, in fondo alla barra
-  const host=document.querySelector('#bot .left')||document.querySelector('#bot')||document.body;
-  const near=document.getElementById('btn-satellites')||
-             document.getElementById('btn-sat')||
-             document.getElementById('btn-sources');
-  if(near&&near.parentNode===host)host.insertBefore(b,near.nextSibling);
-  else host.appendChild(b);
-  if(host===document.body){
-    b.style.cssText='position:fixed;left:12px;bottom:52px;z-index:300;'+
-      'padding:6px 13px;background:rgba(17,27,22,.9);border:1px solid rgba(190,207,184,.2);'+
+  const b=el('button',{id:'btn-region',class:'fs-btn',
+    title:'Rilievo di un quadrato scelto sul globo'},'◱ Region DEM');
+  b.addEventListener('click',()=>{
+    if(panel&&panel.classList.contains('on'))closePanel(); else openPanel();
+  });
+  const near=document.getElementById('btn-satellites');
+  const host=document.querySelector('#bot .left')||document.querySelector('#bot');
+  if(near&&near.parentNode)near.parentNode.insertBefore(b,near.nextSibling);
+  else if(host)host.appendChild(b);
+  else{
+    document.body.appendChild(b);
+    b.style.cssText='position:fixed;left:12px;bottom:52px;z-index:300;padding:6px 13px;'+
+      'background:rgba(17,27,22,.9);border:1px solid rgba(190,207,184,.2);'+
       'border-radius:4px;color:#8aad84;font-size:11.5px;cursor:pointer';
   }
 }
@@ -778,14 +716,15 @@ if(document.readyState==='loading')
 else mount();
 
 window.GEOINT_REGION={
-  open:open, close:close, mount:mount,
+  open:openPanel, close:closePanel, pick:arm,
+  at:function(lat,lng,km){run(lat,lng,km||50)},
+  last:()=>lastRun,
   points:collectPoints,
-  last:()=>lastResult,
-  // agganci di servizio, utili per verifiche dalla console
-  _internal:{draw:drawRegion,grid:gridFor,inBox:pointsIn,coords:coordsFor},
+  status:()=>({requests:Q.total,penalty:penalty(),cooldownMs:cooldownLeft()}),
   clearCache:function(){
     try{Object.keys(localStorage).filter(k=>k.indexOf(CACHE_KEY)===0)
       .forEach(k=>localStorage.removeItem(k))}catch(e){}
-  }
+  },
+  _internal:{box:squareBox,coords:coordsFor,svg:buildSVG,inBox:pointsIn}
 };
 })();
