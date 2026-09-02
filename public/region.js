@@ -57,9 +57,16 @@ const INDEX_KEY='gx_region_index_v3';
 const KM_PER_DEG=111.32;
 const TARGET_LINES=14;
 const VIEW=520;
-const MARK={mil:{c:'#c9a24a',l:'Militare'},eco:{c:'#7fb37a',l:'Economico'},
-            sea:{c:'#79a8b8',l:'Marittimo'}};
-const KIND_LABEL={mil:'Base militare',eco:'Sito estrattivo',sea:'Nodo marittimo'};
+// Palette GEOINT (dalle variabili CSS del sito)
+const GEO={accent:'#8aad84', green:'#6b9e6f', gold:'#b89a4a', red:'#c27066',
+           white:'#d5d8d2', bright:'#e8ebe5', dim:'#5a6d5e',
+           // Colore del confine terra-mare. Cambia solo questo per ritoccarlo.
+           coast:'#3b6ea5'};
+const FONT="'EB Garamond',Garamond,Georgia,serif";
+const MARK={mil:{c:'#b89a4a',l:'Military'},eco:{c:'#7fb37a',l:'Economic'},
+            sea:{c:'#6f9fbf',l:'Maritime'},evt:{c:'#c27066',l:'Events'}};
+const KIND_LABEL={mil:'Military base',eco:'Extraction site',
+                  sea:'Maritime node',evt:'Reported event'};
 
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
@@ -246,9 +253,9 @@ function archiveBytes(){
 }
 function whenTxt(ts){
   const d=Math.floor((Date.now()-ts)/86400000);
-  if(d===0)return 'oggi';
-  if(d===1)return 'ieri';
-  if(d<30)return d+' giorni fa';
+  if(d===0)return 'today';
+  if(d===1)return 'yesterday';
+  if(d<30)return d+' days ago';
   return new Date(ts).toLocaleDateString();
 }
 
@@ -288,6 +295,34 @@ function collectPoints(){
   });
   return uniq;
 }
+// ----------------------------------------------------------------------------
+//  Eventi geolocalizzati: 200 voci in events.json, con titolo, descrizione,
+//  gravita' e fonte. Il file e' gia' nel sito, si legge una volta per sessione.
+// ----------------------------------------------------------------------------
+let _evP=null;
+function loadEvents(){
+  if(_evP)return _evP;
+  const inline=window.events;
+  if(Array.isArray(inline)&&inline.length){
+    _evP=Promise.resolve(inline);
+  }else{
+    _evP=fetch('events.json').then(r=>r.ok?r.json():null).catch(()=>null)
+      .then(d=>(d&&Array.isArray(d.events))?d.events:(Array.isArray(d)?d:[]));
+  }
+  return _evP;
+}
+function eventPoints(list){
+  return (list||[]).filter(e=>e&&typeof e.lat==='number'&&typeof e.lng==='number')
+    .map(e=>({lat:e.lat,lng:e.lng,name:e.title||e.location||'Event',kind:'evt',
+              note:e.location||'',desc:e.description||'',
+              severity:e.severity,src:e.source,url:e.url,ts:e.ts}));
+}
+/** Tutti i punti: siti fissi del progetto piu' gli eventi. */
+function allPoints(){
+  const fixed=collectPoints();
+  return loadEvents().then(ev=>fixed.concat(eventPoints(ev)),()=>fixed);
+}
+
 function pointsIn(bbox,pts){
   return pts.filter(p=>{
     let lng=p.lng;
@@ -307,14 +342,19 @@ function dms(v,a,b){
 function describe(p){
   const parts=[];
   if(p.note)parts.push(p.note);
-  if(p.foreign)parts.push('dispiegamento fuori dai confini nazionali');
+  if(p.foreign)parts.push('deployed outside national borders');
+  if(p.kind==='evt'){
+    if(p.severity)parts.push('severity '+p.severity+'/5');
+    if(p.src)parts.push(p.src);
+  }
   let country='';
   const db=window.COUNTRY_DB;
   if(p.country&&db&&db[p.country]){
     const c=db[p.country];
     country=((c.flag?c.flag+' ':'')+(c.name||''))||'';
   }
-  return {kind:KIND_LABEL[p.kind]||'Sito', text:parts.join(' · '), country:country,
+  return {kind:KIND_LABEL[p.kind]||'Site', text:parts.join(' · '), country:country,
+          detail:p.desc||'',
           dec:p.lat.toFixed(5)+', '+p.lng.toFixed(5),
           dms:dms(p.lat,'N','S')+'  '+dms(p.lng,'E','W')};
 }
@@ -423,9 +463,51 @@ function polyPath(pts,tol){
 //  e non costano nulla. Si tracciano soltanto: il mare NON viene campito,
 //  perche' una campitura su geometrie semplificate lascia riquadri storti.
 // ============================================================================
+// Il livello `land` dell'atlante e' il vero confine terra-mare. I contorni in
+// window.countryPolys comprendono anche i confini terrestri: usandoli, il
+// bordo fra Svizzera e Italia verrebbe tracciato come se fosse una costa.
+// Il file e' lo stesso che index.html ha gia' scaricato dal CDN, quindi la
+// richiesta esce dalla cache del browser.
+let _landP=null;
+function loadLandRings(){
+  if(_landP)return _landP;
+  const A='https://cdn.jsdelivr.net/npm/world-atlas@2/countries-10m.json';
+  const B='https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json';
+  _landP=fetch(A).then(r=>r.ok?r.json():Promise.reject(new Error('x')))
+    .catch(()=>fetch(B).then(r=>r.json()))
+    .then(decodeLand).catch(()=>null);
+  return _landP;
+}
+function decodeLand(tp){
+  const o=tp&&tp.objects&&tp.objects.land;
+  if(!o||!tp.transform)return null;
+  const sc=tp.transform.scale, tr=tp.transform.translate;
+  const arcs=tp.arcs.map(a=>{
+    let x=0,y=0;
+    return a.map(pt=>{x+=pt[0];y+=pt[1];return [x*sc[0]+tr[0], y*sc[1]+tr[1]]});
+  });
+  const rv=i=>i<0?arcs[~i].slice().reverse():arcs[i];
+  const rn=ids=>{
+    let c=[];
+    ids.forEach(i=>{let a=rv(i); if(c.length)a=a.slice(1); c=c.concat(a)});
+    return c;
+  };
+  const geoms=(o.type==='GeometryCollection')?o.geometries:[o];
+  const rings=[];
+  geoms.forEach(g=>{
+    if(g.type==='Polygon')g.arcs.forEach(r=>rings.push(rn(r)));
+    else if(g.type==='MultiPolygon')g.arcs.forEach(pl=>pl.forEach(r=>rings.push(rn(r))));
+  });
+  return rings.length?rings:null;
+}
+
+let _landRings=null;      // riempito da loadLandRings prima del disegno
+
 function landPaths(bbox,V){
-  const cp=window.countryPolys;
-  if(!cp)return null;
+  // se il livello land non e' disponibile si ripiega sui contorni dei paesi
+  const src=(_landRings&&_landRings.length)?_landRings:null;
+  const cp=src?null:window.countryPolys;
+  if(!src&&!cp)return null;
   const dLng=bbox[1]-bbox[0], dLat=bbox[3]-bbox[2];
   if(!(dLng>0)||!(dLat>0))return null;
   const sx=lng=>((lng-bbox[0])/dLng)*V, sy=lat=>V-((lat-bbox[2])/dLat)*V;
@@ -433,11 +515,12 @@ function landPaths(bbox,V){
   const minX=dLng/V*3, minY=dLat/V*3;      // isolotti sotto i 3 px: si saltano
   const padL=dLng*0.6, padA=dLat*0.6;
   const out=[];
-  for(const id in cp){
-    const polys=cp[id];
-    if(!polys)continue;
-    for(let q=0;q<polys.length;q++){
-      const ring=polys[q]&&polys[q][0];
+  const rings=src||[];
+  if(!src){for(const id in cp){const polys=cp[id];if(!polys)continue;
+    for(let q=0;q<polys.length;q++)if(polys[q]&&polys[q][0])rings.push(polys[q][0])}}
+  {
+    for(let q=0;q<rings.length;q++){
+      const ring=rings[q];
       if(!ring||ring.length<4)continue;
       let prev=null,mnx=Infinity,mxx=-Infinity,mny=Infinity,mxy=-Infinity;
       const un=new Array(ring.length);
@@ -487,7 +570,6 @@ function buildSVG(bbox,km,elev,pts,centre,q,rows,lps){
   // uno stretto la terra restava sotto e i livelli finivano calcolati su una
   // griglia di zeri, da cui il falso "rilievo assente".
   const levels=pickLevels(land.length>=15?land:seen,TARGET_LINES);
-  const interval=levels.length>1?(levels[1]-levels[0]):0;
   const hasSea=seen.some(v=>v!=null&&v<=0)&&land.length>0;
 
   let out='<svg viewBox="0 0 '+V+' '+V+'" xmlns="http://www.w3.org/2000/svg" '+
@@ -495,6 +577,12 @@ function buildSVG(bbox,km,elev,pts,centre,q,rows,lps){
     '<defs><linearGradient id="rgbg" x1="0" x2="0" y1="0" y2="1">'+
     '<stop offset="0%" stop-color="#0a1813"/><stop offset="100%" stop-color="#050b09"/>'+
     '</linearGradient>'+
+    '<linearGradient id="rgTop" x1="0" x2="0" y1="0" y2="1">'+
+    '<stop offset="0%" stop-color="rgba(5,10,8,.78)"/>'+
+    '<stop offset="100%" stop-color="rgba(5,10,8,0)"/></linearGradient>'+
+    '<linearGradient id="rgBot" x1="0" x2="0" y1="0" y2="1">'+
+    '<stop offset="0%" stop-color="rgba(5,10,8,0)"/>'+
+    '<stop offset="100%" stop-color="rgba(5,10,8,.82)"/></linearGradient>'+
     '<pattern id="rghatch" width="7" height="7" patternTransform="rotate(45)" '+
     'patternUnits="userSpaceOnUse">'+
     '<line x1="0" y1="0" x2="0" y2="7" stroke="rgba(138,173,132,.11)" stroke-width="1"/>'+
@@ -530,16 +618,16 @@ function buildSVG(bbox,km,elev,pts,centre,q,rows,lps){
     });
     if(lps)out+='</g>';
   }else if(full){
-    const msg=(land.length===0)?"SPECCHIO D'ACQUA · NESSUNA TERRA EMERSA"
-                               :'RILIEVO ASSENTE · TERRENO PIANEGGIANTE';
-    out+='<text x="'+(V/2)+'" y="'+(V/2)+'" fill="#5a6d5e" font-family="monospace" '+
-      'font-size="12" letter-spacing="1.4" text-anchor="middle">'+msg+'</text>';
+    const msg=(land.length===0)?'OPEN WATER · NO LAND IN FRAME'
+                               :'NO RELIEF · FLAT TERRAIN';
+    out+='<text x="'+(V/2)+'" y="'+(V/2)+'" fill="#5a6d5e" font-family="'+FONT+'" '+
+      'font-size="14" letter-spacing="1.6" text-anchor="middle">'+msg+'</text>';
   }
 
   // linea di costa: solo tracciata, nessuna campitura
   if(lps)lps.forEach(d=>{
-    out+='<path d="'+d+'" fill="none" stroke="rgba(148,206,219,.78)" '+
-      'stroke-width="1.2" stroke-linejoin="round"/>';
+    out+='<path d="'+d+'" fill="none" stroke="'+GEO.coast+'" '+
+      'stroke-width="1.35" stroke-linejoin="round" opacity=".92"/>';
   });
 
   // settori non ancora acquisiti (la griglia parte da sud)
@@ -552,7 +640,7 @@ function buildSVG(bbox,km,elev,pts,centre,q,rows,lps){
   }
 
   const zones=[];
-  out+=furniture(V,km,interval,centre,hasSea,zones,q);
+  out+=furniture(V,km,centre,hasSea,zones);
 
   // --- punti strategici ----------------------------------------------------
   const sx=lng=>((lng-bbox[0])/(bbox[1]-bbox[0]))*V;
@@ -572,6 +660,8 @@ function buildSVG(bbox,km,elev,pts,centre,q,rows,lps){
         (Y+4).toFixed(1)+'L'+(X-5.5).toFixed(1)+' '+(Y+4).toFixed(1)+'Z"';
     else if(p.kind==='sea')
       shape='<circle cx="'+X.toFixed(1)+'" cy="'+Y.toFixed(1)+'" r="4.3"';
+    else if(p.kind==='evt')
+      shape='<rect x="'+(X-4.4).toFixed(1)+'" y="'+(Y-4.4).toFixed(1)+'" width="8.8" height="8.8" rx="1"';
     else
       shape='<path d="M'+X.toFixed(1)+' '+(Y-5.4).toFixed(1)+'L'+(X+5.4).toFixed(1)+' '+
         Y.toFixed(1)+'L'+X.toFixed(1)+' '+(Y+5.4).toFixed(1)+'L'+(X-5.4).toFixed(1)+' '+Y.toFixed(1)+'Z"';
@@ -579,17 +669,17 @@ function buildSVG(bbox,km,elev,pts,centre,q,rows,lps){
       '<circle cx="'+X.toFixed(1)+'" cy="'+Y.toFixed(1)+'" r="11" fill="transparent"/>'+
       shape+' fill="'+st.c+'" stroke="rgba(5,11,9,.9)" stroke-width="1.8"/></g>';
     if(labels>=8)return;
-    const tw=p.name.length*5.2+8;
+    const tw=p.name.length*5.6+10;
     const lx=X+10, ly=Y+3.6;
     const clash=placed.some(b=>Math.abs(b[0]-lx)<tw&&Math.abs(b[1]-ly)<13);
     const onPlate=zones.some(z=>lx<z[0]+z[2]&&lx+tw>z[0]&&ly-10<z[1]+z[3]&&ly>z[1]);
     if(clash||onPlate||lx+tw>V-6)return;
     placed.push([lx,ly]);labels++;
     out+='<g class="rg-mk" data-rg="'+i+'" style="cursor:pointer">'+
-      '<rect x="'+(lx-3).toFixed(1)+'" y="'+(ly-9).toFixed(1)+'" width="'+tw.toFixed(1)+
-      '" height="12.5" rx="2" fill="rgba(5,11,9,.7)"/>'+
+      '<rect x="'+(lx-4).toFixed(1)+'" y="'+(ly-10).toFixed(1)+'" width="'+tw.toFixed(1)+
+      '" height="14" rx="3" fill="rgba(5,10,8,.55)"/>'+
       '<text x="'+lx.toFixed(1)+'" y="'+ly.toFixed(1)+'" fill="'+st.c+
-      '" font-family="ui-monospace,monospace" font-size="9.5">'+esc(p.name)+'</text></g>';
+      '" font-family="'+FONT+'" font-size="11">'+esc(p.name)+'</text></g>';
   });
 
   const c=V/2;
@@ -606,61 +696,68 @@ function buildSVG(bbox,km,elev,pts,centre,q,rows,lps){
 //  Cartiglio: coordinate a sinistra, lato a destra, legenda sotto, scala in
 //  basso, rosa dei venti in basso a destra.
 // ============================================================================
-function furniture(V,km,interval,centre,hasSea,zones,q){
+function furniture(V,km,centre,hasSea,zones){
   zones=zones||[];
-  const INK='#d8c48a', DIM='rgba(216,196,138,.65)';
+  const INK=GEO.accent, DIM='rgba(138,173,132,.55)';
 
-  // La barra rappresenta una distanza TONDA: si sceglie il valore piu' grande
-  // che stia entro un terzo della carta e da quello discende la lunghezza.
+  // Niente targhe squadrate: due velature morbide, in alto e in basso,
+  // tengono leggibile il testo sopra le isoipse senza tagliare la carta.
+  let g='<rect x="0" y="0" width="'+V+'" height="54" fill="url(#rgTop)"/>'+
+        '<rect x="0" y="'+(V-72)+'" width="'+V+'" height="72" fill="url(#rgBot)"/>';
+
+  // filetto interno e reperi d'angolo, come sui fogli di carta stampata
+  const m=11, t=13;
+  g+='<rect x="'+m+'" y="'+m+'" width="'+(V-2*m)+'" height="'+(V-2*m)+
+     '" fill="none" stroke="rgba(138,173,132,.16)" stroke-width="1"/>';
+  [[m,m,1,1],[V-m,m,-1,1],[m,V-m,1,-1],[V-m,V-m,-1,-1]].forEach(c=>{
+    g+='<path d="M'+(c[0]+c[2]*t)+' '+c[1]+'L'+c[0]+' '+c[1]+'L'+c[0]+' '+(c[1]+c[3]*t)+
+       '" fill="none" stroke="rgba(138,173,132,.5)" stroke-width="1.4"/>';
+  });
+
+  // coordinate in alto a sinistra, lato in alto a destra
+  const cc=fmtLL(centre.lat,'N','S')+'   '+fmtLL(centre.lng,'E','W');
+  zones.push([m,m,cc.length*6.4+14,26]);
+  zones.push([V-150,m,150-m,hasSea?42:26]);
+  g+='<g font-family="'+FONT+'">'+
+    '<text x="'+(m+9)+'" y="'+(m+19)+'" fill="'+INK+'" font-size="12.5" '+
+      'letter-spacing=".4">'+esc(cc)+'</text>'+
+    '<text x="'+(V-m-9)+'" y="'+(m+19)+'" fill="'+INK+'" font-size="12.5" '+
+      'letter-spacing="1.1" text-anchor="end">'+km+' × '+km+' KM</text>';
+  if(hasSea){
+    const lw=54;                       // spazio riservato alla parola
+    g+='<line x1="'+(V-m-9-lw-26)+'" y1="'+(m+34)+'" x2="'+(V-m-9-lw-6)+'" y2="'+(m+34)+
+       '" stroke="'+GEO.coast+'" stroke-width="1.7"/>'+
+       '<text x="'+(V-m-9)+'" y="'+(m+38)+'" fill="'+DIM+'" font-size="11" '+
+       'letter-spacing=".5" text-anchor="end">coastline</text>';
+  }
+
+  // scala: una linea con i suoi riferimenti, senza segmenti alternati
   const NICE=[0.1,0.25,0.5,1,2,2.5,5,10,20,25,50,100,200];
   let d=NICE[0];
-  for(let i=0;i<NICE.length;i++)if(NICE[i]<=km*0.34)d=NICE[i];
-  const barW=(d/km)*V, seg=barW/4, x0=16, y0=V-18;
+  for(let i=0;i<NICE.length;i++)if(NICE[i]<=km*0.30)d=NICE[i];
+  const barW=(d/km)*V, x0=m+10, y=V-m-16;
   const fmt=v=>v>=1?(Math.round(v*10)/10)+' km':Math.round(v*1000)+' m';
+  zones.push([m,V-m-40,barW+40,40]);
+  g+='<line x1="'+x0+'" y1="'+y+'" x2="'+(x0+barW).toFixed(1)+'" y2="'+y+
+     '" stroke="'+INK+'" stroke-width="1.3"/>';
+  [0,0.5,1].forEach(f=>{
+    const x=x0+barW*f;
+    g+='<line x1="'+x.toFixed(1)+'" y1="'+(y-4)+'" x2="'+x.toFixed(1)+'" y2="'+(y+4)+
+       '" stroke="'+INK+'" stroke-width="1.3"/>';
+  });
+  g+='<text x="'+x0+'" y="'+(y-9)+'" fill="'+DIM+'" font-size="10.5">0</text>'+
+     '<text x="'+(x0+barW).toFixed(1)+'" y="'+(y-9)+'" fill="'+DIM+
+       '" font-size="10.5" text-anchor="middle">'+fmt(d)+'</text>';
 
-  zones.push([x0-9,y0-30,barW+92,40]);
-  let g='<g font-family="ui-monospace,monospace">'+
-    '<rect x="'+(x0-9)+'" y="'+(y0-30)+'" width="'+(barW+92).toFixed(1)+'" height="40" rx="3" '+
-    'fill="rgba(6,12,10,.82)" stroke="rgba(216,196,138,.28)" stroke-width="1"/>';
-  for(let i=0;i<4;i++){
-    g+='<rect x="'+(x0+i*seg).toFixed(1)+'" y="'+(y0-9)+'" width="'+seg.toFixed(1)+
-      '" height="5" fill="'+(i%2?'rgba(6,12,10,.9)':INK)+'" stroke="'+INK+'" stroke-width="0.8"/>';
-  }
-  g+='<text x="'+x0+'" y="'+(y0-14)+'" fill="'+DIM+'" font-size="8">0</text>'+
-     '<text x="'+(x0+barW/2).toFixed(1)+'" y="'+(y0-14)+'" fill="'+DIM+
-       '" font-size="8" text-anchor="middle">'+fmt(d/2)+'</text>'+
-     '<text x="'+(x0+barW).toFixed(1)+'" y="'+(y0-14)+'" fill="'+DIM+
-       '" font-size="8" text-anchor="middle">'+fmt(d)+'</text>'+
-     '<text x="'+(x0+barW+10).toFixed(1)+'" y="'+(y0-1)+'" fill="'+INK+'" font-size="8.5">'+
-       (interval>0?'equid. '+Math.round(interval)+' m':'—')+'</text></g>';
-
-  const nx=V-30, ny=V-30;
-  zones.push([nx-16,ny-16,32,32]);
-  g+='<g><circle cx="'+nx+'" cy="'+ny+'" r="15" fill="rgba(6,12,10,.82)" '+
-    'stroke="rgba(216,196,138,.28)" stroke-width="1"/>'+
-    '<path d="M'+nx+' '+(ny-10)+'L'+(nx+4.5)+' '+(ny+5)+'L'+nx+' '+(ny+1.5)+
-    'L'+(nx-4.5)+' '+(ny+5)+'Z" fill="'+INK+'"/>'+
-    '<text x="'+nx+'" y="'+(ny+13)+'" fill="'+DIM+
-    '" font-family="ui-monospace,monospace" font-size="7.5" text-anchor="middle">N</text></g>';
-
-  const cc=fmtLL(centre.lat,'N','S')+'   '+fmtLL(centre.lng,'E','W');
-  zones.push([8,8,cc.length*5.3+14,17]);
-  zones.push([V-96,8,88,hasSea?38:17]);
-  g+='<g font-family="ui-monospace,monospace" font-size="8.5">'+
-    '<rect x="8" y="8" width="'+(cc.length*5.3+14)+'" height="17" rx="3" '+
-      'fill="rgba(6,12,10,.82)" stroke="rgba(216,196,138,.22)" stroke-width="1"/>'+
-    '<text x="15" y="20" fill="'+INK+'">'+esc(cc)+'</text>'+
-    '<rect x="'+(V-96)+'" y="8" width="88" height="17" rx="3" '+
-      'fill="rgba(6,12,10,.82)" stroke="rgba(216,196,138,.22)" stroke-width="1"/>'+
-    '<text x="'+(V-12)+'" y="20" fill="'+INK+'" text-anchor="end">'+km+' × '+km+' km</text>';
-  if(hasSea){
-    g+='<rect x="'+(V-96)+'" y="29" width="88" height="17" rx="3" '+
-      'fill="rgba(6,12,10,.82)" stroke="rgba(148,206,219,.3)" stroke-width="1"/>'+
-      '<line x1="'+(V-88)+'" y1="37.5" x2="'+(V-72)+'" y2="37.5" '+
-      'stroke="rgba(148,206,219,.85)" stroke-width="1.7"/>'+
-      '<text x="'+(V-12)+'" y="41" fill="rgba(148,206,219,.85)" text-anchor="end">costa</text>';
-  }
-  g+='</g>';
+  // nord: solo l'ago, senza cerchio
+  const nx=V-m-20, ny=V-m-16;
+  zones.push([nx-16,ny-38,32,42]);
+  g+='<path d="M'+nx+' '+(ny-26)+'L'+(nx+5)+' '+(ny-9)+'L'+nx+' '+(ny-13)+
+     'L'+(nx-5)+' '+(ny-9)+'Z" fill="'+INK+'"/>'+
+     '<line x1="'+nx+'" y1="'+(ny-9)+'" x2="'+nx+'" y2="'+(ny-2)+
+     '" stroke="'+INK+'" stroke-width="1.1"/>'+
+     '<text x="'+nx+'" y="'+(ny+8)+'" fill="'+DIM+'" font-size="10.5" '+
+     'text-anchor="middle">N</text></g>';
   return g;
 }
 
@@ -734,6 +831,8 @@ body.rg-pick #gl{cursor:crosshair!important}
 #rg-card .nm{color:#e8ebe5;font-size:11px;font-weight:600}
 #rg-card .kd{font-size:8px;letter-spacing:1px;text-transform:uppercase}
 #rg-card .co{color:#8aad84;font-size:9px;margin-bottom:4px}
+#rg-card .dt{color:#9aaa97;margin-top:4px;font-size:9.5px;line-height:1.55;
+  max-height:74px;overflow:hidden}
 #rg-card .ll{color:#7f9480;font-size:9px;border-top:1px solid rgba(190,207,184,.14);
   padding-top:4px;margin-top:3px}
 #rg-card .ll b{color:#cfe0cb;font-weight:400}
@@ -798,27 +897,27 @@ function build(){
   panel=el('div',{id:'rg-panel'});
   panel.innerHTML=
    '<div id="rg-hd">'+
-     '<div><div class="ttl">RILIEVO REGIONALE</div>'+
-     '<div class="sub">DEM Open-Meteo · curve di livello</div></div>'+
+     '<div><div class="ttl">REGIONAL RELIEF</div>'+
+     '<div class="sub">Open-Meteo DEM · contour lines</div></div>'+
      '<div style="display:flex;gap:5px">'+
-       '<button class="rg-ic" id="rg-saved" title="Rilievi salvati su questo dispositivo">☰</button>'+
-       '<button class="rg-ic" id="rg-full" title="Schermo intero">⛶</button>'+
-       '<button class="rg-ic" id="rg-save" title="Salva SVG">⤓</button>'+
-       '<button class="rg-ic" id="rg-close" title="Chiudi">✕</button>'+
+       '<button class="rg-ic" id="rg-saved" title="Saved on this device">☰</button>'+
+       '<button class="rg-ic" id="rg-full" title="Full screen">⛶</button>'+
+       '<button class="rg-ic" id="rg-save" title="Download SVG">⤓</button>'+
+       '<button class="rg-ic" id="rg-close" title="Close">✕</button>'+
      '</div></div>'+
    '<div id="rg-bd">'+
-     '<div class="rg-lbl">Lato del quadrato</div>'+
+     '<div class="rg-lbl">Square side</div>'+
      '<div class="rg-row">'+SIZES.map((s,i)=>
         '<button class="rg-opt" data-size="'+i+'">'+s.label+'</button>').join('')+'</div>'+
-     '<div class="rg-lbl">Definizione</div>'+
+     '<div class="rg-lbl">Resolution</div>'+
      '<div class="rg-row">'+QUAL.map((q,i)=>
         '<button class="rg-opt" data-qual="'+i+'">'+q.label+'</button>').join('')+'</div>'+
-     '<div class="rg-lbl">Centro</div>'+
-     '<div class="rg-row"><button class="rg-opt" id="rg-pick">Clicca sul globo</button></div>'+
+     '<div class="rg-lbl">Centre point</div>'+
+     '<div class="rg-row"><button class="rg-opt" id="rg-pick">Pick on globe</button></div>'+
      '<div class="rg-ll">'+
-       '<input id="rg-lat" type="text" inputmode="decimal" placeholder="latitudine" autocomplete="off">'+
-       '<input id="rg-lng" type="text" inputmode="decimal" placeholder="longitudine" autocomplete="off">'+
-       '<button id="rg-go">Vai</button></div>'+
+       '<input id="rg-lat" type="text" inputmode="decimal" placeholder="latitude" autocomplete="off">'+
+       '<input id="rg-lng" type="text" inputmode="decimal" placeholder="longitude" autocomplete="off">'+
+       '<button id="rg-go">Go</button></div>'+
      '<div class="rg-note" id="rg-note"></div>'+
      '<div id="rg-bar"><i></i></div>'+
      '<div id="rg-svg"></div>'+
@@ -826,8 +925,8 @@ function build(){
      '<div id="rg-list"></div>'+
    '</div>'+
    '<div id="rg-arch" style="display:none">'+
-     '<div class="rg-arch-hd"><span>Rilievi salvati su questo dispositivo</span>'+
-       '<button class="rg-ic" id="rg-wipe">svuota</button></div>'+
+     '<div class="rg-arch-hd"><span>Saved on this device</span>'+
+       '<button class="rg-ic" id="rg-wipe">clear all</button></div>'+
      '<div id="rg-arch-list"></div>'+
      '<div class="rg-arch-ft" id="rg-arch-ft"></div>'+
    '</div>';
@@ -883,10 +982,10 @@ function syncOpts(){
   const secs=(bursts-1)*PAUSE_MS/1000+ch*1.2;
   const cell=Math.round(km*1000/q.h);
   const note=panel.querySelector('#rg-note');
-  if(note)note.innerHTML='Griglia <b>'+q.w+'×'+q.h+'</b> · celle da <b>'+cell+' m</b><br>'+
-    ch+' richieste in <b>'+bursts+' raffiche</b> da '+BURST+', pausa '+(PAUSE_MS/1000)+' s · '+
-    'circa <b>'+(secs<90?Math.round(secs)+' s':Math.round(secs/60)+' min')+'</b>'+
-    (bursts>2?'<br>La carta si compone a settori man mano che arrivano.':'');
+  if(note)note.innerHTML='Grid <b>'+q.w+'×'+q.h+'</b> · <b>'+cell+' m</b> cells<br>'+
+    ch+' requests in <b>'+bursts+' bursts</b> of '+BURST+', '+(PAUSE_MS/1000)+' s pause · '+
+    'about <b>'+(secs<90?Math.round(secs)+' s':Math.round(secs/60)+' min')+'</b>'+
+    (bursts>2?'<br>The map fills in sector by sector as data arrives.':'');
 }
 
 function goManual(){
@@ -895,8 +994,9 @@ function goManual(){
   const ln=parseFloat(String(panel.querySelector('#rg-lng').value).replace(',','.'));
   const note=panel.querySelector('#rg-note');
   if(!isFinite(la)||!isFinite(ln)||la<-90||la>90||ln<-180||ln>180){
-    note.innerHTML='<b style="color:#c27066">Coordinate non valide.</b><br>'+
-      'Latitudine fra −90 e 90, longitudine fra −180 e 180. Esempio: 41.9028 e 12.4964.';
+    note.innerHTML='<b style="color:'+GEO.red+'">Invalid coordinates.</b><br>'+
+      'Latitude between −90 and 90, longitude between −180 and 180. '+
+      'For example 41.9028 and 12.4964.';
     return;
   }
   disarm();
@@ -907,17 +1007,17 @@ function arm(){
   build();
   if(typeof window.screenToLatLng!=='function'){
     panel.querySelector('#rg-note').innerHTML=
-      '<b style="color:#c27066">Manca l\'aggancio al globo.</b><br>'+
-      'In index.html, dopo la funzione screenToLatLng, aggiungi:<br>'+
+      '<b style="color:'+GEO.red+'">Globe hook missing.</b><br>'+
+      'In index.html, after the screenToLatLng function, add:<br>'+
       '<span style="color:#e8ebe5">window.screenToLatLng=screenToLatLng;</span><br>'+
-      'Nel frattempo puoi digitare le coordinate qui sopra.';
+      'Meanwhile you can type the coordinates above.';
     return;
   }
   armed=SIZES[curSize];
   document.body.classList.add('rg-pick');
   panel.querySelector('#rg-pick').classList.add('on');
-  hint.innerHTML='Clicca un punto sul globo — quadrato di <b>'+armed.km+' × '+armed.km+
-    ' km</b>, definizione '+QUAL[curQual].label.toLowerCase();
+  hint.innerHTML='Click a point on the globe — <b>'+armed.km+' × '+armed.km+
+    ' km</b> square, '+QUAL[curQual].label.toLowerCase()+' resolution';
   hint.classList.add('on');
 }
 function disarm(){
@@ -934,7 +1034,7 @@ function onGlobeClick(e){
   if(Math.abs(e.clientX-_down.x)>5||Math.abs(e.clientY-_down.y)>5)return;
   if(typeof window.screenToLatLng!=='function')return;
   const ll=window.screenToLatLng(e.clientX,e.clientY);
-  if(!ll){hint.innerHTML='Fuori dal globo — clicca sulla superficie';return}
+  if(!ll){hint.innerHTML='Outside the globe — click on the surface';return}
   e.stopPropagation();e.preventDefault();
   disarm();
   run(ll.lat,ll.lng);
@@ -955,7 +1055,10 @@ async function run(lat,lng){
   panel.querySelector('#rg-lat').value=lat.toFixed(4);
   panel.querySelector('#rg-lng').value=lng.toFixed(4);
 
-  const allPts=collectPoints();
+  if(_landRings===null){
+    try{_landRings=await loadLandRings()}catch(e){_landRings=false}
+  }
+  const allPts=await allPoints();      // siti fissi + eventi geolocalizzati
   const pts=pointsIn(bbox,allPts);
   const lps=landPaths(bbox,VIEW);        // calcolata una volta sola
   let timer=null;
@@ -979,13 +1082,13 @@ async function run(lat,lng){
       const tick=()=>{
         const s=Math.max(0,Math.round((until-Date.now())/1000));
         note.innerHTML='<b style="color:#b89a4a">'+
-          (p.reason==='429'?'Limite di Open-Meteo':'Pausa fra le raffiche')+
-          ' · ripresa fra '+s+' s</b><br>'+p.have+'/'+p.total+' settori acquisiti.';
+          (p.reason==='429'?'Open-Meteo limit reached':'Burst pause')+
+          ' · resuming in '+s+' s</b><br>'+p.have+'/'+p.total+' sectors acquired.';
         if(s<=0&&timer){clearInterval(timer);timer=null}
       };
       tick();timer=setInterval(tick,1000);
     }else if(p.phase!=='sector'){
-      note.innerHTML='Acquisizione… <b>'+p.have+'/'+p.total+'</b> settori.';
+      note.innerHTML='Acquiring… <b>'+p.have+'/'+p.total+'</b> sectors.';
     }
   });
   if(timer)clearInterval(timer);
@@ -996,8 +1099,8 @@ async function run(lat,lng){
   paint(res.elev,res.have);
 
   if(got<NC){
-    note.innerHTML='<b style="color:#c27066">Interrotto a '+got+'/'+NC+' settori.</b><br>'+
-      'Quanto scaricato resta salvato: ripeti la stessa selezione per riprendere.';
+    note.innerHTML='<b style="color:'+GEO.red+'">Stopped at '+got+'/'+NC+' sectors.</b><br>'+
+      'What was downloaded is saved. Press Go again to resume from here.';
     return;
   }
 
@@ -1006,31 +1109,31 @@ async function run(lat,lng){
 
   const valid=res.elev.filter(v=>v!=null);
   const mn=Math.min.apply(null,valid), mx=Math.max.apply(null,valid);
-  note.innerHTML='Quadrato di <b>'+km+' × '+km+' km</b> · '+q.label.toLowerCase()+
-    ' ('+q.w+'×'+q.h+')<br>quote da <b>'+mn+' m</b> a <b>'+mx+' m</b> · '+
-    (res.cached?'dalla cache locale':NC+' richieste');
+  note.innerHTML='<b>'+km+' × '+km+' km</b> square · '+q.label.toLowerCase()+
+    ' ('+q.w+'×'+q.h+')<br>elevation <b>'+mn+' m</b> to <b>'+mx+' m</b> · '+
+    (res.cached?'from local cache':NC+' requests');
 
   recordRun({k:cacheKey(bbox,km,q),lat,lng,km,q:q.id,ts:Date.now(),
              mn,mx,np:pts.length,label:labelFor(lat,lng,pts)});
   refreshSaved();
 
-  const cnt={mil:0,eco:0,sea:0};
+  const cnt={mil:0,eco:0,sea:0,evt:0};
   pts.forEach(p=>{cnt[p.kind]=(cnt[p.kind]||0)+1});
-  const sym={mil:'▲',eco:'◆',sea:'●'};
+  const sym={mil:'▲',eco:'◆',sea:'●',evt:'■'};
   const leg=panel.querySelector('#rg-legend');
   const items=Object.keys(cnt).filter(k=>cnt[k]>0).map(k=>
     '<span style="color:'+MARK[k].c+'">'+sym[k]+' '+MARK[k].l+
     ' <b style="color:#e8ebe5;font-weight:400">'+cnt[k]+'</b></span>');
-  leg.innerHTML=items.length?items.join(''):'<span>Nessun sito censito in quest\'area</span>';
+  leg.innerHTML=items.length?items.join(''):'<span>No sites recorded in this area</span>';
   leg.classList.add('on');
 
   panel.querySelector('#rg-list').innerHTML=pts.length?
     '<div class="rg-item" style="color:#5a6d5e;font-size:8.5px;letter-spacing:1px;'+
-    'text-transform:uppercase;padding-bottom:3px">Siti nell\'area — passa sopra i simboli</div>'+
+    'text-transform:uppercase;padding-bottom:3px">Sites in frame — hover the symbols</div>'+
     pts.map((p,i)=>{
       const d=describe(p);
       return '<div class="rg-item" data-rgl="'+i+'"><span style="color:'+MARK[p.kind].c+'">'+
-        sym[p.kind]+'</span><span class="n">'+esc(p.name)+'</span>'+
+        (sym[p.kind]||'◆')+'</span><span class="n">'+esc(p.name)+'</span>'+
         '<span class="d">'+esc(d.dec)+(d.text?' · '+esc(d.text):'')+'</span></div>';
     }).join(''):'';
 }
@@ -1057,8 +1160,9 @@ function attachCards(host,pts){
       '<span class="kd" style="color:'+MARK[p.kind].c+'">'+esc(d.kind)+'</span></div>'+
       (d.country?'<div class="co">'+d.country+'</div>':'')+
       (d.text?'<div>'+esc(d.text)+'</div>':'')+
+      (d.detail?'<div class="dt">'+esc(d.detail)+'</div>':'')+
       '<div class="ll"><b>'+esc(d.dms)+'</b><br>'+esc(d.dec)+'</div>'+
-      '<div class="hint">clic per copiare le coordinate</div>';
+      '<div class="hint">click to copy coordinates</div>';
     card.classList.add('on');place(ev);
   };
   const hit=e=>{
@@ -1077,7 +1181,7 @@ function attachCards(host,pts){
     if(navigator.clipboard)navigator.clipboard.writeText(
       p.lat.toFixed(5)+', '+p.lng.toFixed(5)).then(()=>{
         const h=card.querySelector('.hint');
-        if(h){h.textContent='coordinate copiate';h.style.color='#8aad84'}
+        if(h){h.textContent='coordinates copied';h.style.color=GEO.accent}
       },()=>{});
   });
   const list=panel.querySelector('#rg-list');
@@ -1122,14 +1226,14 @@ function refreshSaved(){
       '<span class="s">'+fmtLL(e.lat,'N','S')+' '+fmtLL(e.lng,'E','W')+
       ' · '+e.mn+'–'+e.mx+' m'+(q?' · '+q.label.toLowerCase():'')+
       (e.np?' · '+e.np+' siti':'')+' · '+whenTxt(e.ts)+'</span></span>'+
-      '<span class="x" data-del="'+e.k+'" title="Elimina">✕</span></div>';
+      '<span class="x" data-del="'+e.k+'" title="Delete">✕</span></div>';
   }).join(''):
     '<div class="rg-arch-ft" style="border:0;margin:0;padding:0">'+
-    'Nessun rilievo salvato. Quelli che scarichi compaiono qui.</div>';
-  if(ft)ft.innerHTML='Tutto resta su questo dispositivo, in localStorage del browser: '+
-    'niente viene caricato online e nessun altro lo vede.<br>Occupazione: '+
-    '<b style="color:#8aad84;font-weight:400">'+Math.round(archiveBytes()/1024)+' KB</b>'+
-    (idx.length?' · riaprire un rilievo salvato non consuma richieste':'');
+    'No saved maps yet. Anything you download shows up here.</div>';
+  if(ft)ft.innerHTML='Everything stays on this device, in the browser\'s local storage: '+
+    'nothing is uploaded and no one else can see it.<br>Using '+
+    '<b style="color:'+GEO.accent+';font-weight:400">'+Math.round(archiveBytes()/1024)+' KB</b>'+
+    (idx.length?' · reopening a saved map costs no requests':'');
 }
 
 function toggleFull(){
@@ -1167,7 +1271,7 @@ function openPanel(){
 function mount(){
   if(document.getElementById('btn-region'))return;
   const b=el('button',{id:'btn-region',class:'fs-btn',
-    title:'Rilievo di un quadrato scelto sul globo'},'◱ Region DEM');
+    title:'Relief of a square picked on the globe'},'◱ Region DEM');
   b.addEventListener('click',()=>{
     if(panel&&panel.classList.contains('on'))closePanel(); else openPanel();
   });
@@ -1204,6 +1308,7 @@ window.GEOINT_REGION={
     if(panel)refreshSaved();
   },
   _internal:{box:squareBox,coords:coordsFor,svg:buildSVG,inBox:pointsIn,
-             describe:describe,dms:dms,land:landPaths,rows:readyRows,QUAL:QUAL}
+             describe:describe,dms:dms,land:landPaths,rows:readyRows,QUAL:QUAL,
+             loadLand:loadLandRings,useLand:function(r){_landRings=r}}
 };
 })();
