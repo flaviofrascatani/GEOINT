@@ -1,7 +1,116 @@
 {
   "schema": 1,
-  "updated": "2026-09-03T09:41:03.276498+00:00",
+  "updated": "2026-09-03T14:28:04.816716+00:00",
   "events": [
+    {
+      "id": "c9a6702bc098",
+      "title": "Israel to release five Lebanese detainees amid talks with Lebanon",
+      "description": "Israel announced it will free five Lebanese prisoners as part of negotiations to recover the remains of Jewish community leaders kidnapped in the 1980s.",
+      "lat": 34.99,
+      "lng": 37.4152,
+      "severity": 1,
+      "location": "Beirut, Lebanon",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/israel-to-release-five-lebanese-detainees-amid-talks-with-lebanon/article71424402.ece",
+      "image": "https://th-i.thgim.com/public/news/national/okevul/article71424444.ece/alternates/LANDSCAPE_1200/iStock-1436012592.jpg",
+      "ts": 1788444587000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/israel-to-release-five-lebanese-detainees-amid-talks-with-lebanon/article71424402.ece"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/israel-news/defense-news/article-907454"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/09/israel-release-5-lebanese-prisoners-ahead-next-talks-what-know"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e721fd24d1f4",
+      "title": "Ukrainian intel agencies in Kyiv firefight: What happened and why?",
+      "description": "Three Ukrainian intelligence officers were wounded in a shootout in Kyiv, marking a rare direct clash between security forces and armed assailants.",
+      "lat": 50.45,
+      "lng": 32.42519999999999,
+      "severity": 3,
+      "location": "Kyiv, Ukraine",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/3/ukrainian-intel-agencies-in-kyiv-firefight-what-happened-and-why?traffic_source=rss",
+      "image": null,
+      "ts": 1788443642000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/9/3/ukrainian-intel-agencies-in-kyiv-firefight-what-happened-and-why?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d49007b37334",
+      "title": "Nile River is matter of national security, Egypt retains right to defend water security: Sisi",
+      "description": "President Sisi reiterated Egypt's claim to defend the Nile's water flow, warning of potential actions to protect national interests.",
+      "lat": 30.04,
+      "lng": 31.24,
+      "severity": 2,
+      "location": "Cairo, Egypt",
+      "source": "Egypt Independent",
+      "url": "https://www.egyptindependent.com/nile-river-is-matter-of-national-security-egypt-retains-right-to-defend-water-security-sisi/",
+      "image": null,
+      "ts": 1788443331000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/nile-river-is-matter-of-national-security-egypt-retains-right-to-defend-water-security-sisi/"
+          }
+        ]
+      }
+    },
     {
       "id": "712fa00eccc9",
       "title": "EU, China talk trade as Europe’s deadline for action looms",
@@ -479,10 +588,10 @@
     {
       "id": "946fc5608e04",
       "title": "Saudi Arabia Says Iran Attacked Vessel In Hormuz, Killing Two Sailors",
-      "description": "Iranian forces struck a supertanker transiting the Strait of Hormuz, killing two crew members and heightening tensions in the vital shipping lane.",
+      "description": "Iran allegedly struck a supertanker in the Strait of Hormuz, killing two crew members and heightening tensions in the strategic waterway.",
       "lat": 26.57,
       "lng": 58.15520000000001,
-      "severity": 3,
+      "severity": 4,
       "location": "Strait of Hormuz",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/iran-attack-tanker-hormuz-kills-sailors_n_6a985489e4b0f5af0411b6dd",
@@ -490,13 +599,13 @@
       "ts": 1788368702000,
       "coverage": {
         "left": 1,
-        "center": 1,
+        "center": 0,
         "right": 0,
-        "total": 2,
+        "total": 1,
         "buckets": {
           "left": 1,
           "lean_left": 0,
-          "center": 1,
+          "center": 0,
           "lean_right": 0,
           "right": 0
         },
@@ -505,11 +614,6 @@
             "n": "HuffPost World",
             "b": "left",
             "u": "https://www.huffpost.com/entry/iran-attack-tanker-hormuz-kills-sailors_n_6a985489e4b0f5af0411b6dd"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cx2zxgg4mx9o?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
@@ -7424,110 +7528,6 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/08/25/madrid-declares-ceuta-a-national-security-interest/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3adefbcad1c5",
-      "title": "Madrid declares Ceuta a “national security interest” — Nearly a month on, the situation in Ceuta remains tense. Around 80,000 people crossed illegally from Morocco into the Spanish enclave.",
-      "description": "Il governo spagnolo ha dichiarato l’enclave di Ceuta un interesse di sicurezza nazionale a causa dell’afflusso massiccio di migranti dal Marocco.",
-      "lat": 36.99,
-      "lng": -5.319999999999993,
-      "severity": 3,
-      "location": "Ceuta, Spain",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/08/25/madrid-declares-ceuta-a-national-security-interest/",
-      "image": "http://images.euronews.com/articles/stories/09/88/83/98/640x360_cmsv2_86e5d913-4eb7-543b-89ab-9a3f13923ad4-9888398.jpg?1787669692",
-      "ts": 1787675004000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/25/madrid-declares-ceuta-a-national-security-interest/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "089cde7bbb54",
-      "title": "Monsignor Gallagher asks Russia to end war in Ukraine",
-      "description": "Il segretario vaticano per i Rapporti con gli Stati e le Organizzazioni internazionali, monsignor Paul Richard Gallagher, ha chiesto alla Russia di porre fine alla guerra in Ucraina.",
-      "lat": 55.75,
-      "lng": 37.620000000000005,
-      "severity": 1,
-      "location": "Moscow, Russia",
-      "source": "AGI Estero",
-      "url": "https://www.agi.it/estero/news/2026-08-25/gallagher-a-lavrov-mosca-fermi-guerra-38698019/",
-      "image": "https://images.agi.it/pictures/agi/agi/2026/08/25/160922585-1c0158bc-359e-4901-9d07-07ca43cc183f.jpg",
-      "ts": 1787674877000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-08-25/gallagher-a-lavrov-mosca-fermi-guerra-38698019/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "86702606b64d",
-      "title": "China needs U.S. dollars but is building a hedge against Washington’s sanctions",
-      "description": "Beijing is developing alternative payment systems such as CIPS to reduce reliance on the U.S. dollar amid sanction threats.",
-      "lat": 41.0042,
-      "lng": 116.4074,
-      "severity": 3,
-      "location": "Beijing, China",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/08/25/china-iran-us-sanctions-banks-cips.html",
-      "image": null,
-      "ts": 1787673640000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/25/china-iran-us-sanctions-banks-cips.html"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1famY5dkNNeXZoLUR5aDdZMlhPYURwNE0wMy1ZSkhDWG9lMUtJX19UbExFS0FYdWhVUkQ2cmFDa3BtR2N1NGJoNjhPRWxlVHI2cDRiSWE5eldnWGcyN09rV0tfUFpKaXVVYUwwT1JoMmtYc21wdDF1NnhJa9IBgAFBVV95cUxNcmRGTmIwWlF4T3N0MDZOR24wMEYwam04UFV1N3BsMmhZM0lHeTdUX1ZsZXFHejlIaWFpeVM1SGkyak5JekZHckZ3X3RwUzcyQW51Ml9lbWN3RFV1cW12Z1FHallHT1pFNTNlUWw4TDNDUVlhMHAwLXhQVWJLQjNocQ?oc=5"
           }
         ]
       }
