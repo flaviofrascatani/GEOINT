@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-09-03T18:01:06.244043+00:00",
+  "updated": "2026-09-03T20:57:24.312654+00:00",
   "events": [
+    {
+      "id": "6865dc89a3c2",
+      "title": "Saudi Arabia taps China’s MiniMax for Arabic AI model",
+      "description": "Saudi Arabia adopts China’s MiniMax AI model for Arabic language processing, deepening tech ties with Beijing.",
+      "lat": 24.71,
+      "lng": 46.68,
+      "severity": 2,
+      "location": "Riyadh, Saudi Arabia",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/09/saudi-arabia-taps-chinas-minimax-arabic-ai-model",
+      "image": null,
+      "ts": 1788464197000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/09/saudi-arabia-taps-chinas-minimax-arabic-ai-model"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fad8dd2f8639",
+      "title": "Tajani al Cairo: cooperazione contro l'immigrazione irregolare e formazione dei giovani",
+      "description": "Italy and Egypt agreed to cooperate on curbing irregular migration and to train young Egyptians for employment.",
+      "lat": 30.04,
+      "lng": 33.14519999999999,
+      "severity": 2,
+      "location": "Cairo, Egypt",
+      "source": "AGI Estero",
+      "url": "https://www.agi.it/estero/news/2026-09-03/egitto-italia-tajani-38865726/",
+      "image": "https://images.agi.it/pictures/agi/agi/2026/09/03/174251077-8824329f-eeda-4a6a-b466-9147e8aaa96a.jpeg",
+      "ts": 1788458474000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "AGI Estero",
+            "b": "center",
+            "u": "https://www.agi.it/estero/news/2026-09-03/egitto-italia-tajani-38865726/"
+          }
+        ]
+      }
+    },
     {
       "id": "0d82789172fb",
       "title": "Colombia, rimossi vincoli all'attività mineraria e petrolifera in dieci distretti",
@@ -282,6 +348,49 @@
             "n": "Egypt Independent",
             "b": "center",
             "u": "https://www.egyptindependent.com/nile-river-is-matter-of-national-security-egypt-retains-right-to-defend-water-security-sisi/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2a2e66263b5c",
+      "title": "For Russia and Ukraine, an Escalating Spiral With No End in Sight",
+      "description": "Both sides continue missile and drone attacks, intensifying the armed conflict with high civilian casualties.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 4,
+      "location": "Kyiv, Ukraine",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/09/03/world/europe/russia-ukraine-escalation.html",
+      "image": "https://static01.nyt.com/images/2026/09/03/multimedia/03int-ukraine-russia-escalation-01-klvg/03int-ukraine-russia-escalation-01-klvg-mediumSquareAt3X.jpg",
+      "ts": 1788435344000,
+      "coverage": {
+        "left": 3,
+        "center": 0,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/09/03/world/europe/russia-ukraine-escalation.html"
+          },
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/09/02/russias-jet-powered-drones-are-overwhelming-ukraines-air-defenses/"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/national/jaishankar-visit-india-on-ukraine-russia-war/article71423638.ece"
           }
         ]
       }
@@ -7409,105 +7518,6 @@
             "n": "Sky News World",
             "b": "center",
             "u": "https://news.sky.com/story/israel-seizes-un-facility-in-east-jerusalem-and-vows-to-close-it-down-13577053"
-          }
-        ]
-      }
-    },
-    {
-      "id": "25a9945c5ed6",
-      "title": "US military plane lands in Moscow, with Kremlin claiming it has no information",
-      "description": "A US C‑17 aircraft approaches Vnukovo airport in Moscow, sparking diplomatic tension.",
-      "lat": 54.6274,
-      "lng": 38.93000000000001,
-      "severity": 3,
-      "location": "Moscow, Russia",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/us-military-plane-lands-moscow-kremlin-claiming-no-information-report",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/08/931/523/us-military-flight-russia.jpg?ve=1&tl=1",
-      "ts": 1787680376000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/us-military-plane-lands-moscow-kremlin-claiming-no-information-report"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b107256e915c",
-      "title": "Canada announces $20bn retaliatory tariffs as US trade war escalates",
-      "description": "Il governo canadese ha imposto dazi per 20 miliardi di dollari su prodotti statunitensi in risposta alle nuove tariffe americane.",
-      "lat": 46.52,
-      "lng": -73.7948,
-      "severity": 3,
-      "location": "Ottawa, Canada",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/7ced71c2-03b8-4569-a68d-14624a7e83f2?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1787678568000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/7ced71c2-03b8-4569-a68d-14624a7e83f2?syn-25a6b1a6=1"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5399ea0a0276",
-      "title": "Israele espelle rappresentanti olandesi da base Board of Peace a Kiryat Gat — Sa'ar: 'per le iniziative anti-israeliane del governo dell'Aja'",
-      "description": "Israele ha cacciato i diplomatici olandesi dalla base militare di Board of Peace a Kiryat Gat, accusandoli di iniziative anti‑israeliane.",
-      "lat": 31.61,
-      "lng": 36.68520000000001,
-      "severity": 3,
-      "location": "Kiryat Gat, Israel",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/08/25/israele-espelle-rappresentanti-olandesi-da-base-board-of-peace-a-kiryat-gat_c9d48974-bec6-4b99-a383-43c432c8e004.html",
-      "image": null,
-      "ts": 1787678120000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/08/25/israele-espelle-rappresentanti-olandesi-da-base-board-of-peace-a-kiryat-gat_c9d48974-bec6-4b99-a383-43c432c8e004.html"
           }
         ]
       }
