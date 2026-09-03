@@ -626,8 +626,10 @@ function buildSVG(bbox,km,elev,pts,centre,q,rows,lps){
 
   // linea di costa: solo tracciata, nessuna campitura
   if(lps)lps.forEach(d=>{
+    // stesso spessore di una curva di livello ordinaria: la costa si
+    // distingue per il colore, non per il peso del tratto
     out+='<path d="'+d+'" fill="none" stroke="'+GEO.coast+'" '+
-      'stroke-width="1.35" stroke-linejoin="round" opacity=".92"/>';
+      'stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round"/>';
   });
 
   // settori non ancora acquisiti (la griglia parte da sud)
@@ -726,7 +728,7 @@ function furniture(V,km,centre,hasSea,zones){
   if(hasSea){
     const lw=54;                       // spazio riservato alla parola
     g+='<line x1="'+(V-m-9-lw-26)+'" y1="'+(m+34)+'" x2="'+(V-m-9-lw-6)+'" y2="'+(m+34)+
-       '" stroke="'+GEO.coast+'" stroke-width="1.7"/>'+
+       '" stroke="'+GEO.coast+'" stroke-width="0.8"/>'+
        '<text x="'+(V-m-9)+'" y="'+(m+38)+'" fill="'+DIM+'" font-size="11" '+
        'letter-spacing=".5" text-anchor="end">coastline</text>';
   }
