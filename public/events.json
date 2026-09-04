@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-09-04T06:31:02.730896+00:00",
+  "updated": "2026-09-04T11:42:37.256112+00:00",
   "events": [
+    {
+      "id": "a6b10acad45f",
+      "title": "UAE President pardons Abdul Rahman Youssef Al-Qaradawi following cybercrime conviction",
+      "description": "UAE President Sheikh Mohamed bin Zayed Al Nahyan granted a presidential pardon to Abdul Rahman Youssef Al‑Qaradawi after his cyber‑crime conviction.",
+      "lat": 25.57,
+      "lng": 54.360000000000014,
+      "severity": 1,
+      "location": "Abu Dhabi, United Arab Emirates",
+      "source": "Egypt Independent",
+      "url": "https://www.egyptindependent.com/uae-president-pardons-abdul-rahman-youssef-al-qaradawi-following-cybercrime-conviction/",
+      "image": null,
+      "ts": 1788519694000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/uae-president-pardons-abdul-rahman-youssef-al-qaradawi-following-cybercrime-conviction/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b18281b6f9ac",
+      "title": "China’s “East Data, West Computing” initiative challenges US AI lead",
+      "description": "Beijing accelerates its AI infrastructure under the “East Data, West Computing” plan, aiming to narrow the gap with the United States.",
+      "lat": 39.91,
+      "lng": 118.28520000000003,
+      "severity": 2,
+      "location": "Beijing, China",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/us-adversary-turns-up-heat-americas-ai-lead-underestimated-edge",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/05/931/523/trump-xi-handshake.jpg?ve=1&tl=1",
+      "ts": 1788516034000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/us-adversary-turns-up-heat-americas-ai-lead-underestimated-edge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2b2a657c4e8",
+      "title": "Ariane 6’s First Geostationary Mission Lifts Off From French Guiana",
+      "description": "Ariane 6 successfully launched its first geostationary mission from the Kourou spaceport, carrying a European weather satellite.",
+      "lat": 5.16,
+      "lng": -52.65,
+      "severity": 1,
+      "location": "Kourou, French Guiana",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/ariane-6-first-geostationary-mission-french-guiana/",
+      "image": null,
+      "ts": 1788514643000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/ariane-6-first-geostationary-mission-french-guiana/"
+          }
+        ]
+      }
+    },
     {
       "id": "4db511242090",
       "title": "Satellite lofted for first Arab country",
@@ -655,6 +754,44 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/09/israel-release-5-lebanese-prisoners-ahead-next-talks-what-know"
+          }
+        ]
+      }
+    },
+    {
+      "id": "75a9a44a181b",
+      "title": "Body of convicted war criminal Ratko Mladic to be flown to Serbia, president says",
+      "description": "Serbian authorities will transport the remains of Ratko Mladic back to Serbia for burial.",
+      "lat": 44.81,
+      "lng": 20.46,
+      "severity": 2,
+      "location": "Belgrade, Serbia",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/body-convicted-war-criminal-ratko-mladic-flown-serbia-136173287",
+      "image": "https://s.abcnews.com/images/International/wirestory_4ea91c7519dccd18d56e2532e01eb535_4x3_384.jpg",
+      "ts": 1788444340000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/body-convicted-war-criminal-ratko-mladic-flown-serbia-136173287"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/serbia-how-the-funeral-of-ratko-mladic-is-dividing-a-nation/a-78948890?maca=en-rss-en-all-1573-rdf"
           }
         ]
       }
@@ -7291,188 +7428,6 @@
             "n": "IBTimes",
             "b": "center",
             "u": "https://www.ibtimes.com/saudi-arabia-goes-big-dragon-ball-z-7-billion-theme-park-deal-wil-built-france-3806775"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e6873885b51b",
-      "title": "Israel removes Netherlands representatives from Gaza center following settlement goods ban",
-      "description": "Israel expelled Dutch officials from a Gaza humanitarian hub after the Netherlands banned settlement‑product imports.",
-      "lat": 30.5474,
-      "lng": 36.11670000000001,
-      "severity": 3,
-      "location": "Gaza City, Palestine",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/israel-news/defense-news/article-906580",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_2798,w_4197/728629",
-      "ts": 1787697804000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/israel-news/defense-news/article-906580"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2177653"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7ff853467696",
-      "title": "Venezuela exchange rate gap fell to 12.3 % as oil output rises",
-      "description": "Acting President Delcy Rodríguez reported a narrowing exchange‑rate gap and record oil production, signaling economic stabilization.",
-      "lat": 11.58,
-      "lng": -66.9,
-      "severity": 3,
-      "location": "Caracas, Venezuela",
-      "source": "Rio Times",
-      "url": "https://www.riotimesonline.com/venezuela-exchange-rate-gap-12-3-2026/",
-      "image": null,
-      "ts": 1787696964000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Rio Times",
-            "b": "center",
-            "u": "https://www.riotimesonline.com/venezuela-exchange-rate-gap-12-3-2026/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0ae6d3348538",
-      "title": "Iran, Oman Discuss Temporary Hormuz Corridor As Impasse With US Drags On",
-      "description": "Iran and Oman negotiate a temporary shipping corridor through the Strait of Hormuz amid ongoing U.S. tensions.",
-      "lat": 26.57,
-      "lng": 58.15520000000001,
-      "severity": 2,
-      "location": "Strait of Hormuz",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/iran-oman-discuss-temporary-hormuz-corridor-as-impasse-with-us-drags-on-11959062#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-07/kqc933n_strait-of-hormuz_625x300_08_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1787696948000,
-      "coverage": {
-        "left": 2,
-        "center": 5,
-        "right": 3,
-        "total": 10,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 5,
-          "lean_right": 3,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/iran-oman-discuss-temporary-hormuz-corridor-as-impasse-with-us-drags-on-11959062#publisher=newsstand"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/iran-oman-hold-talks-on-managing-strait-of-hormuz/article71390541.ece"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/25/iran-oman-strait-hormuz-oil.html"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/b3e4d264-55f0-485e-8e1a-0ba0cbe006b6?syn-25a6b1a6=1"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-25/iran-oman-push-talks-for-interim-reopening-of-hormuz-strait"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/iran-and-oman-discuss-temporary-hormuz-corridor-impasse-us-drags"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/business/us-oil-prices-extend-losses-hopes-iran-oman-talks-strait-hormuz-6341076"
-          },
-          {
-            "n": "New York Post",
-            "b": "lean_right",
-            "u": "https://nypost.com/2026/08/25/world-news/iran-oman-reach-agreement-to-temporarily-reopen-strait-of-hormuz/"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2177675"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/mid-east/iran-oman-discuss-temporary-hormuz-corridor-mine-clearing-plan"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5463a6a2758f",
-      "title": "US‑led Gaza peace board warns Hamas over kites after Israeli threat",
-      "description": "The board overseeing the Gaza peace plan urged Hamas to stop militant activities, including kite‑based surveillance, following Israeli warnings.",
-      "lat": 30.5674,
-      "lng": 35.00999999999999,
-      "severity": 2,
-      "location": "Gaza City, Palestine",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/middle-east/20260825-us-gaza-peace-board-hamas-kites-israeli-threat",
-      "image": "https://s.france24.com/media/display/71071d0c-a0ca-11f1-bdf3-005056bfb2b6/w:1024/p:16x9/ES-20260825-121107-121253-CS.jpg",
-      "ts": 1787694577000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/middle-east/20260825-us-gaza-peace-board-hamas-kites-israeli-threat"
           }
         ]
       }
