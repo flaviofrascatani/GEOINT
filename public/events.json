@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-09-04T21:26:26.123013+00:00",
+  "updated": "2026-09-04T23:16:12.682228+00:00",
   "events": [
     {
       "id": "fbff9b51f1f8",
@@ -46,6 +46,39 @@
       }
     },
     {
+      "id": "8c2c99cb5c31",
+      "title": "Amid Iran War, US Approves $5 Billion Sale Of Bombs To Saudi",
+      "description": "The United States authorized a $5 billion sale of precision‑guided bombs to Saudi Arabia amid ongoing hostilities involving Iran and its proxies.",
+      "lat": 25.8136,
+      "lng": 46.67529999999999,
+      "severity": 3,
+      "location": "Riyadh, Saudi Arabia",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/amid-iran-war-us-approves-5-billion-sale-of-bombs-to-saudi-12004186#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-09/uvfnt8j4_us-saudi-deal_625x300_05_September_26.jpeg",
+      "ts": 1788557894000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/amid-iran-war-us-approves-5-billion-sale-of-bombs-to-saudi-12004186#publisher=newsstand"
+          }
+        ]
+      }
+    },
+    {
       "id": "ff1e1c83e9b3",
       "title": "U.S. Embassy in Havana issues health alert as sanctions limit imports to Cuba",
       "description": "The U.S. embassy warned of rising diarrheal illnesses in Cuba, attributing the surge to shortages caused by American sanctions.",
@@ -84,30 +117,73 @@
       }
     },
     {
+      "id": "106078a5319a",
+      "title": "Industry minister urges U.S. to ease tariffs on hard‑to‑source steel mill equipment",
+      "description": "South Korea's industry minister appealed to Washington to reduce tariffs on specialized steel‑mill machinery essential for the country's manufacturing sector.",
+      "lat": 37.5665,
+      "lng": 126.978,
+      "severity": 2,
+      "location": "Seoul, South Korea",
+      "source": "Yonhap News",
+      "url": "https://en.yna.co.kr/view/AEN20260904012200320",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/04/PYH2026090400240007101_P2.jpg",
+      "ts": 1788555600000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20260904012200320"
+          }
+        ]
+      }
+    },
+    {
       "id": "28278a3a3ec2",
       "title": "Trump envoys Witkoff and Kushner to travel to Moscow and Kyiv this weekend",
-      "description": "Former President Trump’s representatives are scheduled to visit Moscow and Kyiv for talks aimed at ending the war in Ukraine.",
+      "description": "Former President Donald Trump's envoys Steve Witkoff and Jared Kushner are scheduled to visit Moscow and Kyiv for talks aimed at ending the war in Ukraine.",
       "lat": 55.75,
       "lng": 37.620000000000005,
-      "severity": 1,
+      "severity": 2,
       "location": "Moscow, Russia",
       "source": "Axios",
       "url": "https://www.axios.com/2026/09/04/trump-witkoff-kushner-moscow-kyiv",
       "image": "https://thehill.com/wp-content/uploads/sites/2/2026/05/AP26102061314573.jpg?w=900",
       "ts": 1788553414000,
       "coverage": {
-        "left": 0,
+        "left": 2,
         "center": 5,
         "right": 0,
-        "total": 5,
+        "total": 7,
         "buckets": {
           "left": 0,
-          "lean_left": 0,
+          "lean_left": 2,
           "center": 5,
           "lean_right": 0,
           "right": 0
         },
         "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/9/4/witkoff-and-kushner-will-travel-to-end-russias-war-in-ukraine-trump?traffic_source=rss"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/09/04/trump-sends-envoys-to-moscow-and-kyiv-with-a-proposal-to-end-the-war_6757178_4.html"
+          },
           {
             "n": "BBC World",
             "b": "center",
@@ -7432,72 +7508,6 @@
             "n": "Financial Times World",
             "b": "center",
             "u": "https://www.ft.com/content/ef62e345-2a76-46b4-8a69-9d02a306126b?syn-25a6b1a6=1"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9571d6d460fb",
-      "title": "Indonesia’s forestry ministry processes 42 forest fire cases, sanctions six companies",
-      "description": "Indonesia’s government sanctioned six firms after detecting thousands of fire hotspots, mainly in Kalimantan, to curb illegal burning.",
-      "lat": 0.03,
-      "lng": 109.34,
-      "severity": 2,
-      "location": "Pontianak, Kalimantan, Indonesia",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/asia/indonesia-forest-fires-haze-kalimantan-6342171",
-      "image": null,
-      "ts": 1787734111000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/asia/indonesia-forest-fires-haze-kalimantan-6342171"
-          }
-        ]
-      }
-    },
-    {
-      "id": "32b6529e6c7d",
-      "title": "Chile debates a state of emergency of up to eight months without congressional approval",
-      "description": "President José Antonio Kast’s government is willing to amend a constitutional security reform bill after objections, raising political tension.",
-      "lat": -32.35,
-      "lng": -70.66,
-      "severity": 3,
-      "location": "Santiago, Chile",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/08/26/chile-debates-a-state-of-emergency-of-up-to-eight-months-without-congressional-approval?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111269/100x80/kast.jpeg",
-      "ts": 1787733720000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/08/26/chile-debates-a-state-of-emergency-of-up-to-eight-months-without-congressional-approval?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
           }
         ]
       }
