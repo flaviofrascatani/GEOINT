@@ -1,7 +1,149 @@
 {
   "schema": 1,
-  "updated": "2026-09-05T01:22:00.684644+00:00",
+  "updated": "2026-09-05T06:17:37.407485+00:00",
   "events": [
+    {
+      "id": "4db511242090",
+      "title": "Satellite lofted for first Arab country",
+      "description": "China launched a communications satellite that became the first such export to an Arab nation, Algeria.",
+      "lat": 37.83,
+      "lng": 4.995200000000011,
+      "severity": 2,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1788589057260,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "71f267db86d9",
+      "title": "Attacchi russi durante la notte, colpita Kiev e una fabbrica a Kamianske",
+      "description": "Russian forces bombed Kyiv overnight and hit an industrial plant in Kamianske, causing civilian casualties.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 4,
+      "location": "Kyiv, Ukraine",
+      "source": "AGI Estero",
+      "url": "https://www.agi.it/estero/news/2026-09-05/ucraina-russia-droni-kiev-38888641/",
+      "image": "https://images.agi.it/pictures/agi/agi/2026/09/05/061530388-a1fc5cca-cb13-4241-9562-7eb10c94a1d3.jpg",
+      "ts": 1788589024000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "AGI Estero",
+            "b": "center",
+            "u": "https://www.agi.it/estero/news/2026-09-05/ucraina-russia-droni-kiev-38888641/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b353b09d0fa4",
+      "title": "Lee touts record-high exports after surpassing 2025 annual record",
+      "description": "South Korean President Lee Jae‑Myung announced a new export record, highlighting strong trade performance.",
+      "lat": 38.66,
+      "lng": 126.98000000000002,
+      "severity": 2,
+      "location": "Seoul, South Korea",
+      "source": "Yonhap News",
+      "url": "https://en.yna.co.kr/view/AEN20260905001900315",
+      "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/05/AEN20260905001900315_03_i_P2.jpg",
+      "ts": 1788588316000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20260905001900315"
+          }
+        ]
+      }
+    },
+    {
+      "id": "748c9243fc66",
+      "title": "Women Were Uluating, Then A Bang: Wedding Guest Recounts US Bombing On Iran",
+      "description": "A US strike hit two family homes in Iran’s Hormozgan province, killing at least five people and injuring more than 60.",
+      "lat": 28.84,
+      "lng": 57.33260000000001,
+      "severity": 4,
+      "location": "Bandar Abbas, Iran",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/us-iran-war-women-were-uluating-then-a-bang-wedding-guest-recounts-us-bombing-on-iran-that-killed-5-12004785#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-09/mij6otck_iran_625x300_03_September_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1788586658000,
+      "coverage": {
+        "left": 3,
+        "center": 0,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 1,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/us-iran-renewed-violence_n_6a97dc7be4b0a45256181360"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/us-iran-war-women-were-uluating-then-a-bang-wedding-guest-recounts-us-bombing-on-iran-that-killed-5-12004785#publisher=newsstand"
+          },
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/09/04/did-the-u-s-strike-an-iranian-wedding-/"
+          }
+        ]
+      }
+    },
     {
       "id": "fbff9b51f1f8",
       "title": "IDF strikes Hezbollah targets in Lebanon after Israeli soldiers intercept drone attack",
@@ -41,6 +183,39 @@
             "n": "Channel News Asia",
             "b": "center",
             "u": "https://www.channelnewsasia.com/world/israeli-strike-lebanon-kills-two-6362756"
+          }
+        ]
+      }
+    },
+    {
+      "id": "64dc27c41c76",
+      "title": "Faye government faces deeper Moody’s Caa2 downgrade as Senegal economy oil cash meets hidden debt bill",
+      "description": "Senegal’s economy slips to a Moody’s Caa2 rating amid new oil‑gas revenue, hidden‑debt fallout and stalled IMF talks.",
+      "lat": 14.69,
+      "lng": -15.53479999999999,
+      "severity": 4,
+      "location": "Dakar, Senegal",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/senegal-economy-politics-2026/",
+      "image": null,
+      "ts": 1788561324000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/senegal-economy-politics-2026/"
           }
         ]
       }
@@ -778,39 +953,6 @@
             "n": "Google News Top",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52bS1aVFc1ektQekdnZHU5Y0dBTkI4RnRUZFhTSWJ1WnZpd1U5dWNaMmppbWVfWmVkeDNFWjVwaUNIMW90Mng0bFhzQWNtNHYxN3g5bVNEekhsUQ?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4db511242090",
-      "title": "Satellite lofted for first Arab country",
-      "description": "China launched a communications satellite for Algeria, marking the first export of such a spacecraft to an Arab nation.",
-      "lat": 37.83,
-      "lng": 4.995200000000011,
-      "severity": 1,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1788503462567,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
           }
         ]
       }
@@ -7376,138 +7518,6 @@
             "n": "NDTV World",
             "b": "lean_left",
             "u": "https://www.ndtv.com/world-news/rasuwa-flash-flood-at-least-8-dead-in-nepal-flash-floods-that-started-from-tibet-report-11960788#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "bd345c40a82a",
-      "title": "India Preparing To Send Relief Material To Nepal As Flash Floods Kill 16",
-      "description": "India mobilises humanitarian aid and relief supplies for Nepal after deadly flash floods in Rasuwa district.",
-      "lat": 29.05,
-      "lng": 85.32999999999998,
-      "severity": 1,
-      "location": "Dhunche, Nepal",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/nepal-flash-floods-live-updates-nepal-hit-by-massive-flash-floods-multiple-casualties-feared-rescue-ops-on-11960633#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-08/bhef84f_nepal-flash-floods_625x300_26_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1787743125000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/nepal-flash-floods-live-updates-nepal-hit-by-massive-flash-floods-multiple-casualties-feared-rescue-ops-on-11960633#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0795f6de8471",
-      "title": "Germany increasingly in the crosshairs of hybrid attacks",
-      "description": "German chancellor warned that perpetrators of hybrid attacks, including an explosive drone found at an airport, will be held accountable.",
-      "lat": 53.62,
-      "lng": 13.409999999999997,
-      "severity": 2,
-      "location": "Berlin, Germany",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/video/20260826-germany-increasingly-in-the-crosshairs-of-hybrid-attacks",
-      "image": "https://s.france24.com/media/display/3f0d88e4-a12a-11f1-8771-005056a90284/w:1024/p:16x9/EN-20260826-100121-100549-CS.jpg",
-      "ts": 1787740145000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/video/20260826-germany-increasingly-in-the-crosshairs-of-hybrid-attacks"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7e7ff5a9e5f9",
-      "title": "Venezuela’s Oil Exports to the US Hit a Seven-Year High",
-      "description": "Venezuela shipped about 786,000 barrels per day to the United States in July 2026, the strongest flow since 2019, signalling a shift in regional energy trade.",
-      "lat": 38.9,
-      "lng": -77.04,
-      "severity": 2,
-      "location": "Washington, DC, USA",
-      "source": "Rio Times",
-      "url": "https://www.riotimesonline.com/venezuela-economy-after-maduro-2026/",
-      "image": null,
-      "ts": 1787739000000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Rio Times",
-            "b": "center",
-            "u": "https://www.riotimesonline.com/venezuela-economy-after-maduro-2026/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "495fc5957ad3",
-      "title": "Electricity minister discusses Dabaa plant, SMRs with Rosatom in Russia",
-      "description": "Egypt’s electricity minister met Rosatom’s director in Nizhny Novgorod to review progress on the Dabaa nuclear plant and small modular reactors.",
-      "lat": 56.33,
-      "lng": 44.0,
-      "severity": 2,
-      "location": "Nizhny Novgorod, Russia",
-      "source": "Egypt Independent",
-      "url": "https://www.egyptindependent.com/electricity-minister-discusses-dabaa-plant-smrs-with-rosatom-in-russia/",
-      "image": null,
-      "ts": 1787737518000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/electricity-minister-discusses-dabaa-plant-smrs-with-rosatom-in-russia/"
           }
         ]
       }
