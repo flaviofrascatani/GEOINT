@@ -1,7 +1,118 @@
 {
   "schema": 1,
-  "updated": "2026-09-05T16:47:05.062687+00:00",
+  "updated": "2026-09-05T19:00:25.476822+00:00",
   "events": [
+    {
+      "id": "3f4c91cb71a7",
+      "title": "Greek Premier Unveils €2.2 Billion in Economic Support for 2027",
+      "description": "Prime Minister Kyriakos Mitsotakis announced a €2.2 billion package aimed at easing Greece’s cost‑of‑living crisis and boosting the economy.",
+      "lat": 37.98,
+      "lng": 23.73,
+      "severity": 2,
+      "location": "Athens, Greece",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-05/greek-premier-unveils-2-2-billion-in-economic-support-for-2027",
+      "image": null,
+      "ts": 1788632451000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-09-05/greek-premier-unveils-2-2-billion-in-economic-support-for-2027"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c058adf5da3a",
+      "title": "U.S. military says it hit 3 Iranian tankers after Navy ships targeted",
+      "description": "U.S. Central Command reported striking three Iranian oil tankers near Kharg Island, Jask and in the Gulf of Oman after Iranian forces targeted U.S. Navy vessels.",
+      "lat": 29.27,
+      "lng": 50.33,
+      "severity": 4,
+      "location": "Kharg Island, Iran",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/09/05/us-says-it-hit-3-iranian-oil-tankers-including-one-near-kharg-island/",
+      "image": null,
+      "ts": 1788632100000,
+      "coverage": {
+        "left": 6,
+        "center": 3,
+        "right": 1,
+        "total": 10,
+        "buckets": {
+          "left": 1,
+          "lean_left": 5,
+          "center": 3,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/ap-ml-iran-us_n_6a9c1fb3e4b09baa005e2e86"
+          },
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/09/05/us-says-it-hit-3-iranian-oil-tankers-including-one-near-kharg-island/"
+          },
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/iran/us-strikes-3-iranian-oil-tankers-iran-targets-rcna596222"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/us-military-hits-3-iranian-oil-tankers-after-136225526"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/us-strikes-3-iranian-oil-tankers-after-tehran-targeted-its-navy-warships-12006426#publisher=newsstand"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/us-military-says-it-destroyed-three-iranian-oil-tankers/article71432382.ece"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/09/05/us-iran-oil-tankers-navy-missile-attack.html"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/2026/0905/1590444-us-iran/"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObE9QLUF2VURBREN1RW5CZ2Z5cjdiTUpvU2Zhd3FKRHJ1X2FSQmZqMlNXUFN6Z2VrelJ3Nkl4OHRRYkllZGRSOVdFdlhEVXpvMGkzcENnYVZHMjVRcVZ0WUxvR1Q5ZEFTYWNydjlyc2M2ZHF3Y0JYU1ctSndocV9tS2UyNG9ZdzN4dE1zakxTcTdoNXhpMUE?oc=5"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/u-s-forces-strike-and-disable-3-iranian-oil-tankers-after-iran-targets-navy-warships/"
+          }
+        ]
+      }
+    },
     {
       "id": "02aa9e01fd61",
       "title": "UN approves resolution in support of map that shows Africa's true size",
@@ -181,27 +292,27 @@
     },
     {
       "id": "4eb6fb33d0b7",
-      "title": "Russia Pausing Kyiv Strikes as US Envoys Start Talks in Moscow",
-      "description": "President Vladimir Putin ordered a pause on airstrikes against Kyiv while US envoys arrived in Moscow for peace talks.",
+      "title": "Putin Orders Pause on Kyiv Strikes as Kushner and Witkoff Land in Moscow for Peace Talks",
+      "description": "President Vladimir Putin announced a 72‑hour pause on Russian strikes against Kyiv ahead of peace talks with U.S. envoys.",
       "lat": 50.45,
       "lng": 30.52000000000001,
-      "severity": 2,
+      "severity": 1,
       "location": "Kyiv, Ukraine",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-05/us-envoys-arrive-in-moscow-with-proposal-to-end-war-in-ukraine",
+      "source": "Breitbart",
+      "url": "https://www.breitbart.com/europe/2026/09/05/putin-orders-pause-on-kyiv-strikes-as-kushner-and-witkoff-land-in-moscow-for-peace-talks/",
       "image": "https://i.insider.com/6a90f2193f7df8787cff4881?format=jpeg",
       "ts": 1788613547000,
       "coverage": {
-        "left": 3,
-        "center": 5,
-        "right": 2,
-        "total": 10,
+        "left": 6,
+        "center": 11,
+        "right": 6,
+        "total": 23,
         "buckets": {
           "left": 1,
-          "lean_left": 2,
-          "center": 5,
-          "lean_right": 1,
-          "right": 1
+          "lean_left": 5,
+          "center": 11,
+          "lean_right": 2,
+          "right": 4
         },
         "sources": [
           {
@@ -215,9 +326,29 @@
             "u": "https://www.nytimes.com/2026/09/05/world/europe/russia-ukraine-witkoff-kushner-moscow.html"
           },
           {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/ukraine-russia-war-trump-peace-proposal-witkoff-kushner/"
+          },
+          {
             "n": "NDTV World",
             "b": "lean_left",
             "u": "https://www.ndtv.com/world-news/putin-says-no-strikes-on-kyiv-for-3-days-after-zelenskys-ceasefire-pitch-12006030#publisher=newsstand"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/putin-suspends-strikes-kyiv-pause-37630654"
+          },
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/09/05/putin-pauses-strikes-kyiv-trump-envoys-visit-russia-ukraine/"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cx2zqp46g8eo?at_medium=RSS&at_campaign=rss"
           },
           {
             "n": "Axios",
@@ -230,6 +361,11 @@
             "u": "https://www.ibtimes.com/putin-pauses-strikes-ukraine-us-envoys-arrive-hope-flickers-3807178"
           },
           {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/ukraine/2026/0905/1590416-ukraine-russia/"
+          },
+          {
             "n": "France 24",
             "b": "center",
             "u": "https://www.france24.com/en/video/20260905-war-in-ukraine-putin-zelensky-order-pause-in-strikes"
@@ -240,9 +376,34 @@
             "u": "https://www.dw.com/en/russia-to-pause-strikes-against-kyiv-amid-ukraine-talks/a-79040773?maca=en-rss-en-all-1573-rdf"
           },
           {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/homenews/administration/6073112-envoys-kushner-witkoff-moscow-kyiv-arrival/"
+          },
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/05/al-via-lincontro-di-putin-con-witkoff-e-kushner-la-discussione-non-e-semplice_add20629-99da-42f3-aaaa-29f6a5332ff8.html"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9hbWFaVHAzX3NCR3BCWjdSTjJsVHJubUhkVjRabXBjdHY5Ry1IZU1xemJPbHlXMzlydHRpaW53eXlmV3p5MTl6MWxsOGR3VzlXZXB5cjcyUEY3Zw?oc=5"
+          },
+          {
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-09-05/us-envoys-arrive-in-moscow-with-proposal-to-end-war-in-ukraine"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/world/trump-envoys-moscow-kyiv-new-plan-end-war-6364566"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2183207"
           },
           {
             "n": "Daily Sabah",
@@ -250,9 +411,24 @@
             "u": "https://www.dailysabah.com/world/europe/putin-orders-72-hour-halt-to-strikes-on-kyiv-as-us-envoys-arrive"
           },
           {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2245835/putin-orders-no-strikes-kyiv"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/putin-and-zelensky-pause-strikes-ahead-of-visits-from-witkoff-and-kushner-over-the-weekend/"
+          },
+          {
             "n": "Breitbart",
             "b": "right",
             "u": "https://www.breitbart.com/europe/2026/09/05/putin-orders-pause-on-kyiv-strikes-as-kushner-and-witkoff-land-in-moscow-for-peace-talks/"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4715018/putin-pause-ukraine-strike-witkoff-kushner-moscow/"
           }
         ]
       }
@@ -7457,72 +7633,6 @@
             "n": "The Hindu International",
             "b": "lean_left",
             "u": "https://www.thehindu.com/news/international/iranian-president-says-new-us-sanctions-will-achieve-nothing/article71393712.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d39e4c0797a4",
-      "title": "Putin and al-Sharaa discuss Russia‑Syria relations, deal on military bases",
-      "description": "Russia and Syria negotiated the future of Russian air bases in Khmeimim and Tartus as part of a broader bilateral agreement.",
-      "lat": 33.51,
-      "lng": 36.28999999999999,
-      "severity": 2,
-      "location": "Damascus, Syria",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/26/putin-and-al-sharaa-discuss-russia-syria-relations-deal-on-military-bases?traffic_source=rss",
-      "image": null,
-      "ts": 1787761662000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/26/putin-and-al-sharaa-discuss-russia-syria-relations-deal-on-military-bases?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0e45b8c427c8",
-      "title": "US declares drought disaster for parts of Puerto Rico as dry conditions persist",
-      "description": "The U.S. government declared a drought disaster for more than two dozen municipalities in Puerto Rico, triggering emergency response measures.",
-      "lat": 19.57,
-      "lng": -66.11,
-      "severity": 3,
-      "location": "San Juan, Puerto Rico",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/us-declares-drought-disaster-parts-puerto-rico-dry-135975801",
-      "image": "https://s.abcnews.com/images/International/wirestory_b4fe620ecbb2272576e79d140f0180dd_4x3_384.jpg",
-      "ts": 1787760375000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/us-declares-drought-disaster-parts-puerto-rico-dry-135975801"
           }
         ]
       }
