@@ -1,7 +1,141 @@
 {
   "schema": 1,
-  "updated": "2026-09-05T06:17:37.407485+00:00",
+  "updated": "2026-09-05T10:54:02.457910+00:00",
   "events": [
+    {
+      "id": "4cf8392e5887",
+      "title": "Bangladesh opposition launches protest march over energy crisis",
+      "description": "Opposition parties organized a large street march in Dhaka demanding government action on the worsening energy shortage.",
+      "lat": 23.81,
+      "lng": 90.41,
+      "severity": 3,
+      "location": "Dhaka, Bangladesh",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/south-asia/bangladesh-opposition-launches-protest-march-over-energy-crisis",
+      "image": null,
+      "ts": 1788603600000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/south-asia/bangladesh-opposition-launches-protest-march-over-energy-crisis"
+          }
+        ]
+      }
+    },
+    {
+      "id": "727db6937e9c",
+      "title": "Iranian tanker hit by US attack near Iran's Kharg Island",
+      "description": "A US strike damaged an Iranian oil tanker close to Kharg Island, escalating tensions in the Persian Gulf.",
+      "lat": 25.5474,
+      "lng": 57.150000000000006,
+      "severity": 4,
+      "location": "Larak Island, Iran",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/world/iran-tanker-hit-us-attack-kharg-island-war-6364541",
+      "image": "https://mf.b37mrtl.ru/files/2026.08/thumbnail/6a94a11785f54045146f869a.jpg",
+      "ts": 1788602040000,
+      "coverage": {
+        "left": 2,
+        "center": 5,
+        "right": 1,
+        "total": 8,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 5,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/iran-accuses-us-targeting-tanker-kharg-island-mideast-136222728"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/explosions-in-kharg-island-area-of-gulf/article71431525.ece"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/09/05/iranian-tanker-reportedly-hit-by-us-attack-near-irans-kharg-island.html"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20260905-middle-east-live-israeli-strikes-on-south-and-east-lebanon-kill-three-people"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/iran-war-explosions-reported-near-kharg-island/live-79044467?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/09/iranian-tanker-hit-us-attack-near-irans-kharg-island-tasnim-says"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/world/iran-tanker-hit-us-attack-kharg-island-war-6364541"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2183071"
+          }
+        ]
+      }
+    },
+    {
+      "id": "39975770f06c",
+      "title": "US ambassador meets Palestinians in Ramallah amid settler violence",
+      "description": "U.S. Ambassador to Israel Mike Huckabee visited Ramallah to meet Palestinian families affected by recent settler attacks.",
+      "lat": 31.35,
+      "lng": 36.15260000000001,
+      "severity": 2,
+      "location": "Ramallah, West Bank",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/09/us-ambassador-visits-palestinian-town-amid-rise-west-bank-settler-violence",
+      "image": null,
+      "ts": 1788601590000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/9/5/us-ambassador-to-israel-meets-palestinian-americans-in-occupied-west-bank?traffic_source=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "4db511242090",
       "title": "Satellite lofted for first Arab country",
@@ -140,6 +274,39 @@
             "n": "Time",
             "b": "lean_left",
             "u": "https://time.com/article/2026/09/04/did-the-u-s-strike-an-iranian-wedding-/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "af0db2261131",
+      "title": "Falkland Islands Legislative Assembly reaffirms self‑determination",
+      "description": "The Assembly issued a statement rejecting Argentine claims and affirming that the islands' future rests with its residents.",
+      "lat": 51.7,
+      "lng": -57.85,
+      "severity": 1,
+      "location": "Stanley, Falkland Islands",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/09/04/our-future-is-for-the-people-who-live-here-to-decide-falklands-assembly-tells-milei?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": "https://en.mercopress.com/data/cache/noticias/111373/100x80/sin-ti-tulo-1.jpg",
+      "ts": 1788564420000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/09/04/our-future-is-for-the-people-who-live-here-to-decide-falklands-assembly-tells-milei?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
           }
         ]
       }
@@ -3979,84 +4146,6 @@
       }
     },
     {
-      "id": "727db6937e9c",
-      "title": "US forces strike Iranian launchers on Larak Island",
-      "description": "U.S. military attacked rocket launchers on Iran's Larak Island, killing two and injuring two.",
-      "lat": 25.5474,
-      "lng": 57.150000000000006,
-      "severity": 3,
-      "location": "Larak Island, Iran",
-      "source": "AGI Estero",
-      "url": "https://www.agi.it/estero/news/2026-08-30/iran-usa-larak-hormuz-38788172/",
-      "image": "https://mf.b37mrtl.ru/files/2026.08/thumbnail/6a94a11785f54045146f869a.jpg",
-      "ts": 1788126953000,
-      "coverage": {
-        "left": 2,
-        "center": 6,
-        "right": 2,
-        "total": 10,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 6,
-          "lean_right": 0,
-          "right": 2
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/us-strikes-irans-larak-island-tehran-vows-response-and-punishment-11979563#publisher=newsstand"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/liveblog/2026/8/31/iran-war-live-irgc-attacks-us-bases-in-jordan-after-us-bombs-larak-island?traffic_source=rss"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/middle-east/20260830-us-forces-strike-iranian-launchers-on-larak-island-in-strait-of-hormuz"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/iran-war-us-military-strikes-iran-s-larak-island/live-78566992?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/us-forces-strike-two-iranian-launchers-irans-larak-island-us-official-says"
-          },
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/08/31/world/us-iranian-launchers-larak-island/"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/middle-east/article/3365782/us-forces-strike-two-iranian-launchers-irans-larak-island-us-official-says?utm_source=rss_feed"
-          },
-          {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/newsroom/u-s-forces-strike-iranian-rocket-launchers-first-military-action-in-a-month/"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/world/4705672/iran-launches-strikes-military-bases-jordan/"
-          }
-        ]
-      }
-    },
-    {
       "id": "d0bb3af6d132",
       "title": "Ontario’s premier urges thaw in U.S.-Canada trade war: ‘We’re best friends.’ — After days of trading insults with President Donald Trump, Ontario Premier Doug Ford said it was vital for the American a",
       "description": "Ontario Premier Doug Ford called for a rapid resolution of the U.S.–Canada trade dispute, emphasizing the need for a new trade agreement.",
@@ -7419,105 +7508,6 @@
             "n": "Die Welt",
             "b": "lean_right",
             "u": "https://www.welt.de/politik/deutschland/video6a8edbe7692b2e9e3efcbacf/militaerexperte-guido-schmidtke-man-kann-ohne-uebertreibung-sagen-dass-deutschland-in-der-drohnenabwehr-weitestgehend-blank-ist.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "329447b20768",
-      "title": "What to Know About Bank Melli, Singled Out in U.S. Call for Economic War",
-      "description": "The U.S. Treasury announced new sanctions that force Iran’s largest bank to close all foreign branches.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 3,
-      "location": "Tehran, Iran",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/08/26/world/europe/iran-melli-bank-us-sanctions.html",
-      "image": "https://static01.nyt.com/images/2026/08/26/multimedia/26int-iran-bank-melli-lgjh/26int-iran-bank-melli-lgjh-mediumSquareAt3X.jpg",
-      "ts": 1787749364000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/26/world/europe/iran-melli-bank-us-sanctions.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d3f6edc50ad5",
-      "title": "Netanyahu says US economic measures “tighten the siege on Iran”",
-      "description": "Israeli Prime Minister praised new U.S. sanctions aimed at companies doing business with Tehran.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 3,
-      "location": "Tehran, Iran",
-      "source": "Egypt Independent",
-      "url": "https://www.egyptindependent.com/netanyahu-says-us-economic-measures-tighten-the-siege-on-iran/",
-      "image": null,
-      "ts": 1787749295000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/netanyahu-says-us-economic-measures-tighten-the-siege-on-iran/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d64191ffda91",
-      "title": "105 Indians Among 400 Kailash Yatra Pilgrims Missing In Nepal Flash Floods, 19 Dead",
-      "description": "Flash floods in Nepal’s border districts have left hundreds missing and dozens dead.",
-      "lat": 27.53,
-      "lng": 86.7,
-      "severity": 3,
-      "location": "Dolakha, Nepal",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/rasuwa-flash-flood-at-least-8-dead-in-nepal-flash-floods-that-started-from-tibet-report-11960788#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-08/6eqmnbrg_nepal-flash-floods_625x300_26_August_26.jpeg",
-      "ts": 1787747171000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/rasuwa-flash-flood-at-least-8-dead-in-nepal-flash-floods-that-started-from-tibet-report-11960788#publisher=newsstand"
           }
         ]
       }
