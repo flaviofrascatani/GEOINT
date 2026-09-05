@@ -1,7 +1,214 @@
 {
   "schema": 1,
-  "updated": "2026-09-05T21:10:01.142212+00:00",
+  "updated": "2026-09-05T23:14:30.014974+00:00",
   "events": [
+    {
+      "id": "1301fb6ad6ca",
+      "title": "Satellite lofted for first Arab country",
+      "description": "Un satellite di comunicazione cinese è stato lanciato per l'Algeria, segnando la prima esportazione di questo tipo di veicolo spaziale verso un Paese arabo.",
+      "lat": 37.83,
+      "lng": 3.0900000000000034,
+      "severity": 1,
+      "location": "Algiers, Algeria",
+      "source": "China Daily World",
+      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
+      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
+      "ts": 1788650069891,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "China Daily World",
+            "b": "right",
+            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1a5b0fa756cb",
+      "title": "US strikes three Iranian crude oil tankers (VIDEO)",
+      "description": "Il comando centrale degli Stati Uniti ha confermato l’attacco a tre petroliere iraniane nel Golfo Persico, segnando un’escalation militare nella regione.",
+      "lat": 27.5,
+      "lng": 52.9,
+      "severity": 4,
+      "location": "Kharg Island, Iran",
+      "source": "RT News",
+      "url": "https://www.rt.com/news/645171-us-iran-tanker-strikes/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.09/thumbnail/6a9c9dc085f5407b1744bd83.png",
+      "ts": 1788649057000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/645171-us-iran-tanker-strikes/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8ae42fb8a15d",
+      "title": "Iran targets three US ships, three oil tankers in Hormuz in retaliation for US strikes",
+      "description": "La Marina iraniana ha lanciato attacchi contro tre petroliere e tre navi statunitensi nello Stretto di Hormuz in risposta agli attacchi americani precedenti.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 4,
+      "location": "Strait of Hormuz",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-907652",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_995,w_1896/735899",
+      "ts": 1788648583000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/iran/us-launched-large-powerful-strikes-iran-trump-says-rcna595581"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/iran-news/article-907652"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/09/05/tensions-in-the-strait-of-hormuz-drive-oil-prices-as-us-and-iran-both-claim-control/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e727516d21a2",
+      "title": "Putin Meets Witkoff and Kushner in Moscow to Discuss Ukraine War",
+      "description": "Il presidente russo Vladimir Putin ha incontrato gli inviati statunitensi Jared Kushner e Steve Witkoff a Mosca, concordando una pausa di tre giorni negli attacchi alle capitali.",
+      "lat": 55.75,
+      "lng": 37.620000000000005,
+      "severity": 2,
+      "location": "Moscow, Russia",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/09/05/world/europe/russia-ukraine-witkoff-kushner-moscow.html",
+      "image": "https://static01.nyt.com/images/2026/09/05/multimedia/05int-russia-meeting-sub-ckmh/05int-russia-meeting-sub-ckmh-mediumSquareAt3X.jpg",
+      "ts": 1788642524000,
+      "coverage": {
+        "left": 5,
+        "center": 5,
+        "right": 4,
+        "total": 14,
+        "buckets": {
+          "left": 0,
+          "lean_left": 5,
+          "center": 5,
+          "lean_right": 1,
+          "right": 3
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/09/05/world/europe/russia-ukraine-witkoff-kushner-moscow.html"
+          },
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/09/05/witkoff-kushner-arrive-moscow-talks-with-putin/"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/ukraine-russia-war-trump-peace-proposal-witkoff-kushner/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/situation-not-simple-vladimir-putin-meets-us-envoys-jared-kushner-steve-witkoff-talks-to-end-ukraine-war-begin-12007385#publisher=newsstand"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/9/5/us-envoys-witkoff-kushner-meet-putin-for-talks-on-ukraine-war?traffic_source=rss"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cx2zqp46g8eo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/09/05/putin-witkoff-kushner-trump-ukraine-war"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/video/20260905-war-in-ukraine-putin-zelensky-order-pause-in-strikes"
+          },
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/05/conclusi-dopo-3-ore-i-colloqui-di-putin-con-witkoff-e-kushner_94ebb0d0-52b9-4ef7-9542-41acdb211e30.html"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUkQ0OXgwdkJCdnZWd0VsRWZIZThHY3FrWG8xYXhVZ3FMVmJrZ2VzN1MtQmw5T3RhNTFMTzNaWk9jQVpTcnlvY0hNQmNYdWN4ZmJ4OXlEZDUtTFI5elpNc3RublQ4MWFBVjV5aTFsQnZOYW4tWDBncXBWRUgyUWNPNFFlcFpRc2R5eDZ2eFZTaWlobWEwVnRuOEVscm5RWDg3THR3QlNVdFoyQkQ3LVUtSXVWLWduNmJ6UjFXRFFJV0tweUdWbGhSeA?oc=5"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2183237"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/putin-and-zelensky-pause-strikes-ahead-of-visits-from-witkoff-and-kushner-over-the-weekend/"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/europe/2026/09/05/video-president-trumps-great-negotiators-witkoff-kushner-arrive-moscow-for-peace-talks-ukraine-war/"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4715018/putin-pause-ukraine-strike-witkoff-kushner-moscow/"
+          }
+        ]
+      }
+    },
     {
       "id": "b244b10273c1",
       "title": "Ucraina: gli inviati di Trump al Cremlino. Putin: \"Situazione non facile\"",
@@ -308,6 +515,39 @@
       }
     },
     {
+      "id": "efcc36b18fde",
+      "title": "Trump’s state capitalism comes to the oil industry with his unprecedented Venezuela deal",
+      "description": "Il nuovo accordo tra gli Stati Uniti e il Venezuela, firmato otto mesi dopo l’operazione militare che ha rimosso Nicolás Maduro, introduce un modello di capitalismo di Stato nel settore petrolifero venezuelano.",
+      "lat": 11.5806,
+      "lng": -64.9984,
+      "severity": 3,
+      "location": "Caracas, Venezuela",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/09/05/trump-venezuela-oil-north-america-blue-energy-partners-nabep.html",
+      "image": null,
+      "ts": 1788621063000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/09/05/trump-venezuela-oil-north-america-blue-energy-partners-nabep.html"
+          }
+        ]
+      }
+    },
+    {
       "id": "015cc38cbb6f",
       "title": "Yemen's deadliest fighting in years raises fears of return to all‑out war",
       "description": "Around 180 fighters were killed in three days of intense fighting near the strategic Bab al‑Mandab Strait in southwest Yemen.",
@@ -399,6 +639,39 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-09-05/us-strikes-three-iranian-tankers-in-retaliation-for-irgc-attacks"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ea977d1c3741",
+      "title": "Masked anti-immigration protesters disrupt UK's Dover port",
+      "description": "Protestanti anti-immigrazione mascherati hanno bloccato le strade intorno al porto di Dover, interrompendo il traffico di passeggeri e merci verso la Francia.",
+      "lat": 51.13,
+      "lng": 3.225200000000001,
+      "severity": 3,
+      "location": "Dover, United Kingdom",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/09/05/masked-anti-immigration-protesters-disrupt-uks-dover-port/",
+      "image": "http://images.euronews.com/articles/stories/09/90/25/99/640x360_cmsv2_b5322d0d-93f7-5f0f-b413-7ddf0c8dff7c-9902599.jpg?1788610156",
+      "ts": 1788616308000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/09/05/masked-anti-immigration-protesters-disrupt-uks-dover-port/"
           }
         ]
       }
@@ -6050,124 +6323,6 @@
       }
     },
     {
-      "id": "efcc36b18fde",
-      "title": "Trump announces ‘biggest oil deal in world history’ with Venezuela",
-      "description": "The U.S. president says the United States has secured a deal giving it majority control of more than 65 billion barrels of proven oil reserves in Venezuela.",
-      "lat": 11.5806,
-      "lng": -64.9984,
-      "severity": 2,
-      "location": "Caracas, Venezuela",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/29/trump-announces-biggest-oil-deal-in-world-history-with-venezuela?traffic_source=rss",
-      "image": null,
-      "ts": 1787970771000,
-      "coverage": {
-        "left": 7,
-        "center": 7,
-        "right": 4,
-        "total": 18,
-        "buckets": {
-          "left": 0,
-          "lean_left": 7,
-          "center": 7,
-          "lean_right": 2,
-          "right": 2
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/us-news/2026/aug/28/trump-venezuela-oil-agreement"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/venezuela/us-entered-deal-venezuela-take-control-65-billion-barrels-oil-reserves-rcna594966"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/trump-venezuela-oil-u-s-majority-control-65-billion-barrels/"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/donald-trump-announces-biggest-oil-deal-in-world-history-with-venezuela-11973190#publisher=newsstand"
-          },
-          {
-            "n": "Business Insider",
-            "b": "lean_left",
-            "u": "https://www.businessinsider.com/trump-us-majority-control-in-venezuelas-oil-2026-8"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/29/trump-announces-biggest-oil-deal-in-world-history-with-venezuela?traffic_source=rss"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/us-has-entered-deal-with-venezuela-to-take-control-of-65-billion-barrels-of-oil-reserves-says-trump/article71402388.ece"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/28/trump-announces-deal-with-venezuela-to-secure-more-than-65-billion-barrels-of-oil-reserves.html"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/us-venezuela-announce-historic-oil-deal/a-78553607?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/homenews/administration/6058643-trump-says-he-secured-majority-u-s-control-of-large-slice-of-venezuelas-oil-reserve/"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNk1qY0NSZExQbU1zZFA5V003aTVqbkNSVGtNMFhsaUpyZ1ZBb1gxUlk0a1k1QlIzNnl1YlViQVp2YXFJcmZPSTV6b1ZTZ25tMWthQjBmV3YxYWFPSzhFOGFaNHZRRXBhcEZDdTlMYUlKOThmZHZ3YndmamllemdmMkM4eXY0Qm1iR2dKUU9IX2RmRXpJSXZsOVdGSmNIeDBvUUV5b1FSYnhmaDZUS0xNcm9ibXhYeEZYQm52LVd2SDRMcDViQXkzeDBjaWhmUDc4LVNqVVdqY2JEMDYwS3c?oc=5"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/americas/article/3365672/trump-says-us-has-deal-venezuela-control-65-billion-barrels-oil-reserves?utm_source=rss_feed"
-          },
-          {
-            "n": "Buenos Aires Times",
-            "b": "center",
-            "u": "https://www.batimes.com.ar/news/latin-america/trump-announces-deal-for-huge-us-stake-in-venezuelan-oil-reserves.phtml"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2179175"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/644794-trump-venezuela-oil-reserves/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          },
-          {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/newsroom/trump-announces-u-s-venezuela-agreement-calls-it-biggest-oil-deal-in-world-history/"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/white-house/4705005/trump-venezuela-oil-deal-65-billion-barrels-in-reserves/"
-          }
-        ]
-      }
-    },
-    {
       "id": "763905f1f0f8",
       "title": "3 Palestinians killed in Israeli drone strike in occupied West Bank",
       "description": "An Israeli drone strike in the city of Jenin killed three Palestinians, with Israeli forces withholding the bodies.",
@@ -7103,39 +7258,6 @@
       }
     },
     {
-      "id": "1301fb6ad6ca",
-      "title": "Satellite lofted for first Arab country",
-      "description": "La Cina ha lanciato un satellite di comunicazione destinato all'Algeria, il primo veicolo spaziale di questo tipo esportato a un paese arabo.",
-      "lat": 37.83,
-      "lng": 3.0900000000000034,
-      "severity": 2,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1787801538474,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
-          }
-        ]
-      }
-    },
-    {
       "id": "8fd462db066b",
       "title": "S. Korea to launch homegrown Nuri rocket on Oct. 7",
       "description": "La Corea del Sud lancerà il razzo Nuri, il suo primo veicolo di lancio spaziale sviluppato internamente, segnando un passo importante per le capacità spaziali nazionali.",
@@ -7466,143 +7588,6 @@
             "n": "Time",
             "b": "lean_left",
             "u": "https://time.com/article/2026/08/26/hundreds-feared-dead-including-foreign-tourists-after-flash-floods-in-nepal/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f1138c15d7bc",
-      "title": "Hundreds missing and many feared dead after massive flash flood hits Nepal‑China border",
-      "description": "A massive flash flood along the Nepal‑China border caused widespread destruction, with hundreds missing and many feared dead.",
-      "lat": 29.0,
-      "lng": 88.23520000000002,
-      "severity": 4,
-      "location": "Rasuwa District, Nepal",
-      "source": "Google News Top",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaVMxckk4ZEFnYk1CNWNNb2dNeXFhbXloT1dCa0dtQ2xCWTUwWTNqWXhyS2IxdXZyZW5mbXlMSmhfTi1FclBhcG9NTDRCc2JOOUV1aWNPWnl2NW1OTTM0X1gtcm4tSjNuNHJGdHNIMVcxM05qZFQ5emtCTTE2ZU1YR0hTVVU3dw?oc=5",
-      "image": null,
-      "ts": 1787771220000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/a97acd81-ed7c-4d27-a9c9-298348242e37?syn-25a6b1a6=1"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaVMxckk4ZEFnYk1CNWNNb2dNeXFhbXloT1dCa0dtQ2xCWTUwWTNqWXhyS2IxdXZyZW5mbXlMSmhfTi1FclBhcG9NTDRCc2JOOUV1aWNPWnl2NW1OTTM0X1gtcm4tSjNuNHJGdHNIMVcxM05qZFQ5emtCTTE2ZU1YR0hTVVU3dw?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "21f5de53ada9",
-      "title": "US blacklists Palestine Action as terrorist group",
-      "description": "The U.S. Treasury Department designated the UK‑based Palestine Action as a specially designated global terrorist organization.",
-      "lat": 52.61,
-      "lng": 1.7752000000000123,
-      "severity": 3,
-      "location": "London, United Kingdom",
-      "source": "RT News",
-      "url": "https://www.rt.com/news/644686-palestine-action-us-terrorist-designation/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.08/thumbnail/6a8f210d85f5400d84539bec.jpg",
-      "ts": 1787769705000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/644686-palestine-action-us-terrorist-designation/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4caeead24f4a",
-      "title": "Nepal flash floods: 95 dead, hundreds missing; India launches relief effort",
-      "description": "Severe flash floods in Nepal’s Rasuwa district killed at least 95 people and left hundreds missing, prompting a relief operation from India.",
-      "lat": 29.0,
-      "lng": 86.32999999999998,
-      "severity": 4,
-      "location": "Rasuwa District, Nepal",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/videos/nepal-flash-floods-95-dead-hundreds-missing-india-launches-relief-effort/article71393947.ece",
-      "image": "https://th-i.thgim.com/public/incoming/j1cq43/article71393946.ece/alternates/LANDSCAPE_1200/Pakistan%20%202.png",
-      "ts": 1787767565000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/videos/nepal-flash-floods-95-dead-hundreds-missing-india-launches-relief-effort/article71393947.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "41b383804ba5",
-      "title": "Kiev is using Europe's military capabilities to attack buses — Russian diplomat",
-      "description": "A Ukrainian strike on a bus traveling between Lisichansk and Stakhanov killed nine people and injured six.",
-      "lat": 48.92,
-      "lng": 38.44,
-      "severity": 3,
-      "location": "Lisichansk, Ukraine",
-      "source": "TASS",
-      "url": "https://tass.com/politics/2178017",
-      "image": null,
-      "ts": 1787763140000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/politics/2178017"
           }
         ]
       }
