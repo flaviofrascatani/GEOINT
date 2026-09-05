@@ -1,7 +1,151 @@
 {
   "schema": 1,
-  "updated": "2026-09-05T13:50:37.766036+00:00",
+  "updated": "2026-09-05T16:47:05.062687+00:00",
   "events": [
+    {
+      "id": "02aa9e01fd61",
+      "title": "UN approves resolution in support of map that shows Africa's true size",
+      "description": "The United Nations voted to adopt a new world map that more accurately reflects the true size of African countries.",
+      "lat": 40.75,
+      "lng": -73.98,
+      "severity": 1,
+      "location": "New York, United States",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/video/20260905-un-approves-resolution-in-support-of-map-that-shows-africa-s-true-size",
+      "image": "https://s.france24.com/media/display/c0e586d8-a944-11f1-aba9-005056bfb2b6/w:1024/p:16x9/EN-20260905-171319-171458-CS.jpg",
+      "ts": 1788625438000,
+      "coverage": {
+        "left": 0,
+        "center": 4,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 4,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/countries-vote-at-un-to-back-new-world-map-that-shows-africas-true-size-13581494"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/video/20260905-un-approves-resolution-in-support-of-map-that-shows-africa-s-true-size"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/un-approves-world-map-reflecting-true-size-of-africa/a-79040629?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/09/05/un-general-assembly-adopts-new-world-map-that-shows-africas-true-size/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "015cc38cbb6f",
+      "title": "Yemen's deadliest fighting in years raises fears of return to all‑out war",
+      "description": "Around 180 fighters were killed in three days of intense fighting near the strategic Bab al‑Mandab Strait in southwest Yemen.",
+      "lat": 12.75,
+      "lng": 43.3,
+      "severity": 3,
+      "location": "Bab al‑Mandab Strait, Yemen",
+      "source": "Le Monde English",
+      "url": "https://www.lemonde.fr/en/international/article/2026/09/05/yemen-s-deadliest-fighting-in-years-raises-fears-of-return-to-all-out-war_6757196_4.html",
+      "image": "https://img.lemde.fr/2026/08/25/519/0/6235/3117/644/322/60/0/8c6c1b5_ftp-1-c6wwdxuro11v-5d5d09b0da7e4a6a84e73fbb36309d69-0-5bc5d4b3853b4d9c97ecdefbf2542170.jpg",
+      "ts": 1788618472000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/09/05/yemen-s-deadliest-fighting-in-years-raises-fears-of-return-to-all-out-war_6757196_4.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f0ef08866b3c",
+      "title": "U.S. attacks 3 Iranian oil tankers in tit‑for‑tat response",
+      "description": "U.S. forces struck three Iranian oil tankers after Iran fired ballistic missiles at two U.S. Navy warships.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 3,
+      "location": "Strait of Hormuz",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/09/05/us-iran-war-oil-tankers-warships",
+      "image": "https://images.axios.com/DIkLM-L74sGGJxciN9IWuxsy57c=/0x0:5000x2813/1366x768/2026/09/05/1788617175162.jpeg",
+      "ts": 1788618278000,
+      "coverage": {
+        "left": 5,
+        "center": 2,
+        "right": 0,
+        "total": 7,
+        "buckets": {
+          "left": 0,
+          "lean_left": 5,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/09/05/us-says-it-hit-3-iranian-oil-tankers-including-one-near-kharg-island/"
+          },
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/iran/us-strikes-3-iranian-oil-tankers-iran-targets-rcna596222"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/us-military-hits-3-iranian-oil-tankers-after-136225526"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diesel-gas-prices-labor-day/"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/9/5/us-says-it-hit-three-iranian-oil-tankers-after-attacks-on-warships?traffic_source=rss"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/09/05/us-iran-war-oil-tankers-warships"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-09-05/us-strikes-three-iranian-tankers-in-retaliation-for-irgc-attacks"
+          }
+        ]
+      }
+    },
     {
       "id": "5e5a329465b2",
       "title": "Masked protesters block Dover port roads",
@@ -37,43 +181,38 @@
     },
     {
       "id": "4eb6fb33d0b7",
-      "title": "Putin orders 72-hour pause in strikes on Kyiv as U.S. envoys visit Russia, Ukraine",
-      "description": "President Vladimir Putin announced a three‑day halt to Russian attacks on Kyiv while U.S. diplomats were in Moscow, signaling a temporary de‑escalation.",
+      "title": "Russia Pausing Kyiv Strikes as US Envoys Start Talks in Moscow",
+      "description": "President Vladimir Putin ordered a pause on airstrikes against Kyiv while US envoys arrived in Moscow for peace talks.",
       "lat": 50.45,
       "lng": 30.52000000000001,
-      "severity": 1,
+      "severity": 2,
       "location": "Kyiv, Ukraine",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/russian-president-vladimir-putin-orders-72-hour-pause-in-strikes-on-kyiv/article71432032.ece",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-05/us-envoys-arrive-in-moscow-with-proposal-to-end-war-in-ukraine",
       "image": "https://i.insider.com/6a90f2193f7df8787cff4881?format=jpeg",
       "ts": 1788613547000,
       "coverage": {
-        "left": 7,
+        "left": 3,
         "center": 5,
         "right": 2,
-        "total": 14,
+        "total": 10,
         "buckets": {
-          "left": 0,
-          "lean_left": 7,
+          "left": 1,
+          "lean_left": 2,
           "center": 5,
           "lean_right": 1,
           "right": 1
         },
         "sources": [
           {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/steve-witkoff-jared-kushner-arrive-in-moscow-in-new-push-to-end-russias-invasion-of-ukraine_n_6a9c04f8e4b09baa005e2bc7"
+          },
+          {
             "n": "New York Times World",
             "b": "lean_left",
             "u": "https://www.nytimes.com/2026/09/05/world/europe/russia-ukraine-witkoff-kushner-moscow.html"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/us-envoys-witkoff-kushner-moscow-new-push-peace-136222187"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/ukraine-russia-war-trump-peace-proposal-witkoff-kushner/"
           },
           {
             "n": "NDTV World",
@@ -81,34 +220,24 @@
             "u": "https://www.ndtv.com/world-news/putin-says-no-strikes-on-kyiv-for-3-days-after-zelenskys-ceasefire-pitch-12006030#publisher=newsstand"
           },
           {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/putin-suspends-strikes-kyiv-pause-37630654"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/9/5/at-least-5-killed-in-russian-attacks-on-ukraine-as-us-envoys-visit-moscow?traffic_source=rss"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/russian-president-vladimir-putin-orders-72-hour-pause-in-strikes-on-kyiv/article71432032.ece"
-          },
-          {
-            "n": "CNBC World",
+            "n": "Axios",
             "b": "center",
-            "u": "https://www.cnbc.com/2026/09/05/witkoff-kushner-moscow-russia-ukraine.html"
+            "u": "https://www.axios.com/2026/09/04/trump-witkoff-kushner-moscow-kyiv"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/putin-pauses-strikes-ukraine-us-envoys-arrive-hope-flickers-3807178"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/video/20260905-war-in-ukraine-putin-zelensky-order-pause-in-strikes"
           },
           {
             "n": "DW News",
             "b": "center",
-            "u": "https://www.dw.com/en/russia-announces-72-hour-pause-in-strikes-amid-ukraine-talks/a-79040773?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/international/internationalrussia-ukraine-war/article-907632"
+            "u": "https://www.dw.com/en/russia-to-pause-strikes-against-kyiv-amid-ukraine-talks/a-79040773?maca=en-rss-en-all-1573-rdf"
           },
           {
             "n": "Bloomberg Politics",
@@ -116,19 +245,14 @@
             "u": "https://www.bloomberg.com/news/articles/2026-09-05/us-envoys-arrive-in-moscow-with-proposal-to-end-war-in-ukraine"
           },
           {
-            "n": "Times of India World",
-            "b": "center",
-            "u": "https://timesofindia.indiatimes.com/world/europe/putin-orders-3-day-pause-in-strikes-on-kyiv-as-us-delegation-arrives-in-russia/articleshow/133800664.cms"
-          },
-          {
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/europe/putin-orders-72-hour-halt-to-strikes-on-kyiv-as-us-envoys-arrive"
           },
           {
-            "n": "Fox News World",
+            "n": "Breitbart",
             "b": "right",
-            "u": "https://www.foxnews.com/world/russias-strikes-near-moldova-raise-alarm-over-putins-plans-europes-eastern-flank"
+            "u": "https://www.breitbart.com/europe/2026/09/05/putin-orders-pause-on-kyiv-strikes-as-kushner-and-witkoff-land-in-moscow-for-peace-talks/"
           }
         ]
       }
@@ -471,6 +595,39 @@
             "n": "Time",
             "b": "lean_left",
             "u": "https://time.com/article/2026/09/04/did-the-u-s-strike-an-iranian-wedding-/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4e97779274ec",
+      "title": "US imposes sanctions on Turkish bank, prompting legal threat",
+      "description": "The United States announced sanctions against a Turkish bank, leading Turkey to threaten legal action.",
+      "lat": 41.03,
+      "lng": 32.860000000000014,
+      "severity": 2,
+      "location": "Ankara, Turkey",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTFpqM2dadE40ZS1BaERDQkh2dXhsc3pwZmszWkt1a1d6R0VVelZZTlg1dTdUZm94NTM5ZVE1Yk5TQ21OT2xfWUxwc0g1TmR1RWUtR0ZXekFZY0ZleUM5ZFNfXzRDQ2xQY2ZCaHlrRUNneGk5a010ckVMXzFteUt0ejBNcnJpSU90TUhjdlNZal90Nmw4cTZQV0pYcDZwanpJ0gGmAUFVX3lxTFBDTXBFQnYwZzFlbHN1RVNTQVJEZDNpOTlrQkJuUkJZeExpTDQ0SUxvNEJwbjlmMUxuVkk2V2k5LVZEbU5CenBqUjRhMmY3dlJnQ190cndrWEdsby1YOXEzdm16bDlSQTNVRDZfVW9UTjFUZ3d2ZnRuWmc5U3hMdi1TLTRaUlhDZGlrUDRlc1ZmUTZ4TGFhNEI0bk13NTg4YjhESEtmRUE?oc=5",
+      "image": null,
+      "ts": 1788585880000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTFpqM2dadE40ZS1BaERDQkh2dXhsc3pwZmszWkt1a1d6R0VVelZZTlg1dTdUZm94NTM5ZVE1Yk5TQ21OT2xfWUxwc0g1TmR1RWUtR0ZXekFZY0ZleUM5ZFNfXzRDQ2xQY2ZCaHlrRUNneGk5a010ckVMXzFteUt0ejBNcnJpSU90TUhjdlNZal90Nmw4cTZQV0pYcDZwanpJ0gGmAUFVX3lxTFBDTXBFQnYwZzFlbHN1RVNTQVJEZDNpOTlrQkJuUkJZeExpTDQ0SUxvNEJwbjlmMUxuVkk2V2k5LVZEbU5CenBqUjRhMmY3dlJnQ190cndrWEdsby1YOXEzdm16bDlSQTNVRDZfVW9UTjFUZ3d2ZnRuWmc5U3hMdi1TLTRaUlhDZGlrUDRlc1ZmUTZ4TGFhNEI0bk13NTg4YjhESEtmRUE?oc=5"
           }
         ]
       }
@@ -7366,148 +7523,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/us-declares-drought-disaster-parts-puerto-rico-dry-135975801"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cd28b6f9345f",
-      "title": "Hungary labels Russia a ‘threat’",
-      "description": "Budapest announced that Russia constitutes a threat to Europe, marking a major shift in Hungarian foreign policy.",
-      "lat": 47.5,
-      "lng": 19.04,
-      "severity": 2,
-      "location": "Budapest, Hungary",
-      "source": "RT News",
-      "url": "https://www.rt.com/news/644681-hungary-magyar-russia-threat/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.08/thumbnail/6a8efe4085f540167766517e.jpg",
-      "ts": 1787758496000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/644681-hungary-magyar-russia-threat/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7db1b092581f",
-      "title": "US imposes sanctions on Palestine Action group",
-      "description": "The United States announced sanctions against the Palestine Action group, targeting its financial assets and travel.",
-      "lat": 38.9,
-      "lng": -77.04,
-      "severity": 3,
-      "location": "Washington, D.C., USA",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWjEzMkJyU0JVTlVSRHd6REZjOG0xLUl0S0xfSUhlRkoyWnFiY2x4S0lCdnFKMWRpNmxWNUZKUzYzd2IyQU44TFBLc1ZwRGZIWkFYdWFIZXJISTdabU9ETlpxREpWTE1iYklYMS16RnlmOEkxbW81MWRYU0pWazRiZ1RBYXYzMC13SVl6ZVpKeHJJQ0pzajhVRG9xV2RRbnY3LWV1UlV4Qk9jZw?oc=5",
-      "image": null,
-      "ts": 1787755303000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWjEzMkJyU0JVTlVSRHd6REZjOG0xLUl0S0xfSUhlRkoyWnFiY2x4S0lCdnFKMWRpNmxWNUZKUzYzd2IyQU44TFBLc1ZwRGZIWkFYdWFIZXJISTdabU9ETlpxREpWTE1iYklYMS16RnlmOEkxbW81MWRYU0pWazRiZ1RBYXYzMC13SVl6ZVpKeHJJQ0pzajhVRG9xV2RRbnY3LWV1UlV4Qk9jZw?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/us-imposes-sanctions-palestine-action-group"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c843b6b17fe0",
-      "title": "King and Queen to visit Antigua and Barbuda",
-      "description": "The British monarchs will undertake a royal visit to Antigua and Barbuda during an autumn tour, announced by Buckingham Palace.",
-      "lat": 17.12,
-      "lng": -61.85,
-      "severity": 1,
-      "location": "St. John's, Antigua and Barbuda",
-      "source": "Sky News World",
-      "url": "https://news.sky.com/story/king-and-queen-to-visit-antigua-and-barbuda-during-autumn-tour-13577408",
-      "image": "https://e3.365dm.com/26/08/1920x1080/skynews-king-queen_7331902.jpg?20260826151656",
-      "ts": 1787751600000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/king-charles-iii-visit-bahamas-guyana-antigua-barbuda-135973728"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/king-and-queen-to-visit-antigua-and-barbuda-during-autumn-tour-13577408"
-          }
-        ]
-      }
-    },
-    {
-      "id": "aac287716f95",
-      "title": "US voices 'significant concerns' over Chinese dissident artist Gao Zhen's prison sentence",
-      "description": "The U.S. State Department expressed strong concern about the imprisonment of Chinese artist Gao Zhen, signalling heightened diplomatic tension between Washington and Beijing.",
-      "lat": 41.0,
-      "lng": 118.30520000000001,
-      "severity": 2,
-      "location": "Beijing, China",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/us-voices-significant-concerns-over-chinese-dissident-artist-gao-zhens-prison-sentence",
-      "image": null,
-      "ts": 1787750341000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/us-voices-significant-concerns-over-chinese-dissident-artist-gao-zhens-prison-sentence"
           }
         ]
       }
