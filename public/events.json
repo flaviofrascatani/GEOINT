@@ -1,7 +1,171 @@
 {
   "schema": 1,
-  "updated": "2026-09-05T10:54:02.457910+00:00",
+  "updated": "2026-09-05T13:50:37.766036+00:00",
   "events": [
+    {
+      "id": "5e5a329465b2",
+      "title": "Masked protesters block Dover port roads",
+      "description": "A group of masked demonstrators blocked access roads to the Port of Dover, temporarily disrupting freight traffic.",
+      "lat": 52.23,
+      "lng": 3.21520000000001,
+      "severity": 3,
+      "location": "Dover, United Kingdom",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/53751b68-5af6-42ec-9d93-bf3daee6acdd?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1788614372000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/9/5/stop-the-boats-masked-protesters-block-englands-port-of-dover?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4eb6fb33d0b7",
+      "title": "Putin orders 72-hour pause in strikes on Kyiv as U.S. envoys visit Russia, Ukraine",
+      "description": "President Vladimir Putin announced a three‑day halt to Russian attacks on Kyiv while U.S. diplomats were in Moscow, signaling a temporary de‑escalation.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 1,
+      "location": "Kyiv, Ukraine",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/russian-president-vladimir-putin-orders-72-hour-pause-in-strikes-on-kyiv/article71432032.ece",
+      "image": "https://i.insider.com/6a90f2193f7df8787cff4881?format=jpeg",
+      "ts": 1788613547000,
+      "coverage": {
+        "left": 7,
+        "center": 5,
+        "right": 2,
+        "total": 14,
+        "buckets": {
+          "left": 0,
+          "lean_left": 7,
+          "center": 5,
+          "lean_right": 1,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/09/05/world/europe/russia-ukraine-witkoff-kushner-moscow.html"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/us-envoys-witkoff-kushner-moscow-new-push-peace-136222187"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/ukraine-russia-war-trump-peace-proposal-witkoff-kushner/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/putin-says-no-strikes-on-kyiv-for-3-days-after-zelenskys-ceasefire-pitch-12006030#publisher=newsstand"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/putin-suspends-strikes-kyiv-pause-37630654"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/9/5/at-least-5-killed-in-russian-attacks-on-ukraine-as-us-envoys-visit-moscow?traffic_source=rss"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/russian-president-vladimir-putin-orders-72-hour-pause-in-strikes-on-kyiv/article71432032.ece"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/09/05/witkoff-kushner-moscow-russia-ukraine.html"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/russia-announces-72-hour-pause-in-strikes-amid-ukraine-talks/a-79040773?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/international/internationalrussia-ukraine-war/article-907632"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-09-05/us-envoys-arrive-in-moscow-with-proposal-to-end-war-in-ukraine"
+          },
+          {
+            "n": "Times of India World",
+            "b": "center",
+            "u": "https://timesofindia.indiatimes.com/world/europe/putin-orders-3-day-pause-in-strikes-on-kyiv-as-us-delegation-arrives-in-russia/articleshow/133800664.cms"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/europe/putin-orders-72-hour-halt-to-strikes-on-kyiv-as-us-envoys-arrive"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/russias-strikes-near-moldova-raise-alarm-over-putins-plans-europes-eastern-flank"
+          }
+        ]
+      }
+    },
+    {
+      "id": "465d1bb11b99",
+      "title": "Latvia, Lithuania consider ending Russian grain transit through ports — agency",
+      "description": "Latvian officials will meet to discuss a possible full ban on Russian grain exports passing through Baltic ports, tightening pressure on Moscow’s food‑export revenues.",
+      "lat": 56.95,
+      "lng": 24.11,
+      "severity": 2,
+      "location": "Riga, Latvia",
+      "source": "TASS",
+      "url": "https://tass.com/world/2183117",
+      "image": null,
+      "ts": 1788611204000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2183117"
+          }
+        ]
+      }
+    },
     {
       "id": "4cf8392e5887",
       "title": "Bangladesh opposition launches protest march over energy crisis",
@@ -31,6 +195,39 @@
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/south-asia/bangladesh-opposition-launches-protest-march-over-energy-crisis"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1045d3d6fc85",
+      "title": "Why is Trump threatening to strike Iran’s Pickaxe Mountain again, now?",
+      "description": "Former President Donald Trump reiterated threats to conduct a missile strike on Iran’s Pickaxe Mountain, escalating rhetoric between the two nations.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 2,
+      "location": "Strait of Hormuz",
+      "source": "Google News Top",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZjRxTHlmNGgyN05QTE9GN2ZQb0M0RFgtVUNvREtfMTdLRWJaUkw3blotT2ZBczVqOGlxQXdmREx1YVdWQ3d2bENpajhlaE83SFhrVDJEeF9vbkd4aHFUcXZITjdNYUlLWGgzUzQwdFJ6TXUtWWJfbEJKUU4wQndsWGRMM0JpUTJkejNMTjQ0eHl6V0pXRlpEM2F6TC1HOFpCMjNPM2xldHNYcDTSAbABQVVfeXFMTUFvWUxfc20yMlhaZG1rUFFUYWVWZGRXNVV2azJ4NVV4cFJFZHhMNjVnVFNRcTVZaWZQdFpRSE5XOXJITUdZaVhnZUZvbUNMblRLTVdzakc1VDhzWkhjRVItcFc2b3Jsd21kdVVQVEx3bTNBWTBfNXV0UGx3b0hfTXVJSnB2RjlISW1HN2xCeWhYa0hRSWF0M2dsVjN4MWxmcDFraFVSc01yU1NNZ00tN3Y?oc=5",
+      "image": null,
+      "ts": 1788602510000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZjRxTHlmNGgyN05QTE9GN2ZQb0M0RFgtVUNvREtfMTdLRWJaUkw3blotT2ZBczVqOGlxQXdmREx1YVdWQ3d2bENpajhlaE83SFhrVDJEeF9vbkd4aHFUcXZITjdNYUlLWGgzUzQwdFJ6TXUtWWJfbEJKUU4wQndsWGRMM0JpUTJkejNMTjQ0eHl6V0pXRlpEM2F6TC1HOFpCMjNPM2xldHNYcDTSAbABQVVfeXFMTUFvWUxfc20yMlhaZG1rUFFUYWVWZGRXNVV2azJ4NVV4cFJFZHhMNjVnVFNRcTVZaWZQdFpRSE5XOXJITUdZaVhnZUZvbUNMblRLTVdzakc1VDhzWkhjRVItcFc2b3Jsd21kdVVQVEx3bTNBWTBfNXV0UGx3b0hfTXVJSnB2RjlISW1HN2xCeWhYa0hRSWF0M2dsVjN4MWxmcDFraFVSc01yU1NNZ00tN3Y?oc=5"
           }
         ]
       }
@@ -872,69 +1069,6 @@
             "n": "Financial Times World",
             "b": "center",
             "u": "https://www.ft.com/content/f84c4053-3e14-4666-9543-7e958a1dadb2?syn-25a6b1a6=1"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4eb6fb33d0b7",
-      "title": "Russian drone strikes Ukraine's security service headquarters in Kyiv, Zelenskyy says",
-      "description": "A Russian drone hits the SBU headquarters in Kyiv, causing injuries and prompting a strong response from President Zelenskyy.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 4,
-      "location": "Kyiv, Ukraine",
-      "source": "Sky News World",
-      "url": "https://news.sky.com/story/russian-drone-strikes-ukraines-security-service-headquarters-in-kyiv-zelenskyysays-13581351",
-      "image": "https://i.insider.com/6a90f2193f7df8787cff4881?format=jpeg",
-      "ts": 1788531060000,
-      "coverage": {
-        "left": 3,
-        "center": 3,
-        "right": 1,
-        "total": 7,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 3,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/09/04/world/europe/russia-drone-attack-kyiv-security-service.html"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/russian-drone-hits-ukraines-intelligence-service-headquarters-in-kyiv-12002913#publisher=newsstand"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/9/4/09-04-russia-targets-ukraine-security-hq-clip-mp4?traffic_source=rss"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/ukraine/2026/0904/1590335-ukraine-russia/"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/russian-drone-strikes-ukraines-security-service-headquarters-in-kyiv-zelenskyysays-13581351"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/video/20260904-on-the-ground-russian-drone-strikes-ukraine-security-service-headquarters-in-kyiv"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/europe/russian-drone-hits-ukraine-intelligence-headquarters-in-central-kyiv"
           }
         ]
       }
@@ -3774,74 +3908,6 @@
             "n": "Channel News Asia",
             "b": "center",
             "u": "https://www.channelnewsasia.com/asia/thailand-shortens-visa-free-stays-tourists-singapore-6354981"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1045d3d6fc85",
-      "title": "Tankers attacked as Trump mulls new strikes in \"little war\" with Iran",
-      "description": "Two oil tankers were hit in the Strait of Hormuz amid heightened tensions between the US and Iran.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-us-strikes-strait-of-hormuz-larak-island/",
-      "image": null,
-      "ts": 1788264840000,
-      "coverage": {
-        "left": 3,
-        "center": 3,
-        "right": 2,
-        "total": 8,
-        "buckets": {
-          "left": 1,
-          "lean_left": 2,
-          "center": 3,
-          "lean_right": 1,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/iran-attacks-al-minhad-air-base-larak-island_n_6a950c05e4b0b47f3d0cadf2"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-strikes-strait-of-hormuz-larak-island/"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/donald-trump-vows-to-hit-iran-hard-after-first-exchange-of-fire-in-weeks/article71413458.ece"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/09/01/us-iran-war-trump-hormuz-tanker-attack-shipping-sanctions-.html"
-          },
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/homenews/analysis/6062071-trump-iran-conflict-us-volatility-strait-hormuz/"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNmZMblF2czdfZWVSVlZqV3ItbThJRG14MG1CWnp3dUJWSEVId2NCTk1IcnZhcTYxU3BKOFpvOU1aM3pQdmYzSW5Hc2VSb2U4R2sxWWdLRFdCNURqTXlVWGRscjdCQl9xaDFYME1lMXVaSEtQdTZETk9CWTk1OW4weE83MWY0bHYzMVVqRjNiM1ExODhYakJkd3IzWdIBoAFBVV95cUxNcFBTcDRwUEtOMHgwZnVHRHg1WnZiWDd3VWtKNDd3NHpUZzdtLXVWSkZoNlRKWkZJWEctOV9GcWZjOWxHeWxOY1Rxa2x3Ymphd0lDY2trbFo0MFpid19MbFZiQkJnQndKeUJyXzFTVnJYaVZGOGVHdUVabzhLcHpyNWwxWUFORTFQZ1VXQ3lneXZfODdhaUMxUEZ0aTAzNklv?oc=5"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/644946-trump-hit-iran-hard/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/trump-says-iran-dead-experts-point-real-sign-tehran-nearing-brink"
           }
         ]
       }
@@ -7442,72 +7508,6 @@
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/us-voices-significant-concerns-over-chinese-dissident-artist-gao-zhens-prison-sentence"
-          }
-        ]
-      }
-    },
-    {
-      "id": "25d055f17f2c",
-      "title": "Israeli army shoots Palestinian teen during raid on UN-run center (VIDEO)",
-      "description": "A Palestinian teenager was shot and wounded by Israeli forces during a raid on a UNRWA training centre in East Jerusalem.",
-      "lat": 31.78,
-      "lng": 35.22,
-      "severity": 3,
-      "location": "East Jerusalem, Palestine",
-      "source": "RT News",
-      "url": "https://www.rt.com/news/644670-idf-shoot-palestinian-teen/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.08/thumbnail/6a8edf8c85f5401f0a4ec0b8.jpg",
-      "ts": 1787749842000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/644670-idf-shoot-palestinian-teen/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "53f028dd6a6e",
-      "title": "Drone incident at Leipzig/Halle airport",
-      "description": "An explosive drone was found at Leipzig/Halle Airport, prompting heightened security and calls for better drone defence.",
-      "lat": 51.42,
-      "lng": 12.24,
-      "severity": 3,
-      "location": "Leipzig/Halle Airport, Germany",
-      "source": "Die Welt",
-      "url": "https://www.welt.de/politik/deutschland/video6a8edbe7692b2e9e3efcbacf/militaerexperte-guido-schmidtke-man-kann-ohne-uebertreibung-sagen-dass-deutschland-in-der-drohnenabwehr-weitestgehend-blank-ist.html",
-      "image": "https://images.welt.de/6a8edbe7692b2e9e3efcbacf/ba13ef85828e93ca04c0e97f382dc68e-master/ci16x9-w1200/schmidtke-2-jfif",
-      "ts": 1787749706000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Die Welt",
-            "b": "lean_right",
-            "u": "https://www.welt.de/politik/deutschland/video6a8edbe7692b2e9e3efcbacf/militaerexperte-guido-schmidtke-man-kann-ohne-uebertreibung-sagen-dass-deutschland-in-der-drohnenabwehr-weitestgehend-blank-ist.html"
           }
         ]
       }
