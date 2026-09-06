@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-09-06T17:19:51.447616+00:00",
+  "updated": "2026-09-06T19:28:15.911959+00:00",
   "events": [
+    {
+      "id": "595324f4a048",
+      "title": "EU Commission chief Von der Leyen visits Greenland to sign new partnership deal",
+      "description": "Ursula von der Leyen llegó a Nuuk para firmar un acuerdo de cooperación que profundiza la relación entre la UE y Groenlandia.",
+      "lat": 64.18,
+      "lng": -51.72,
+      "severity": 2,
+      "location": "Nuuk, Groenlandia",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/europe/article/3366565/eu-commission-chief-von-der-leyen-visits-greenland-sign-new-partnership-deal?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/07/69c74006-bbc6-4898-bffd-512095b26c48_62110ca5.jpg?itok=PwxkI0oJ&v=1788720179",
+      "ts": 1788720274000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/europe/article/3366565/eu-commission-chief-von-der-leyen-visits-greenland-sign-new-partnership-deal?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "222d03bc818c",
+      "title": "Chile hosts Falklands trade mission despite sovereignty row",
+      "description": "Un grupo de 25 empresarios de las Islas Malvinas viajó a Punta Arenas, Chile, para conversaciones comerciales y la apertura de una nueva ruta marítima, pese a la disputa de soberanía con Argentina.",
+      "lat": -53.16,
+      "lng": -70.91,
+      "severity": 2,
+      "location": "Punta Arenas, Chile",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/chile-punta-arenas-falklands-trade-mission-2026/",
+      "image": null,
+      "ts": 1788716026000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/chile-punta-arenas-falklands-trade-mission-2026/"
+          }
+        ]
+      }
+    },
     {
       "id": "fbff9b51f1f8",
       "title": "Lebanon’s president appeals to US for help as Israeli strikes kill 7",
@@ -61,6 +127,54 @@
             "n": "South China Morning Post",
             "b": "center",
             "u": "https://www.scmp.com/news/world/middle-east/article/3366563/lebanons-president-appeals-us-help-israeli-strikes-kill-7?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8ae42fb8a15d",
+      "title": "Iran claims strike on US ship in Strait of Hormuz as fighting escalates",
+      "description": "Irán afirmó haber atacado un buque estadounidense que transitaba por el estrecho de Hormuz, intensificando la tensión en la zona.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 3,
+      "location": "Strait of Hormuz",
+      "source": "Daily Express World",
+      "url": "https://www.express.co.uk/news/world/2246034/iran-claims-strike-us-ship",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_995,w_1896/735899",
+      "ts": 1788709860000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/iran-claims-strike-on-us-ship-in-hormuz-but-washington-denies-it/article71436167.ece"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcVRCUTJDbU1rM3VXMlV0U0lONk81WDlCendLTXVDTnBJc1JWamJfdDJtVzhOeFJxVnVHeWo5SnJ5WVkyQThNS2FDVmhSaDUzQnMzbGFRUVpEdDdmQ0V1X3pGMlFNMnVQdElab0dqNGNobzRSMGQxeGdPWEVYNVR3WE1FVXcwdTVzbzNyaWN1RTJiTmg2a1NMSFBBWTZPb05oYWRwV2NR?oc=5"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/09/05/tensions-in-the-strait-of-hormuz-drive-oil-prices-as-us-and-iran-both-claim-control/"
+          },
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2246034/iran-claims-strike-us-ship"
           }
         ]
       }
@@ -488,49 +602,6 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/645171-us-iran-tanker-strikes/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8ae42fb8a15d",
-      "title": "Iran targets three US ships, three oil tankers in Hormuz in retaliation for US strikes",
-      "description": "La Marina iraniana ha lanciato attacchi contro tre petroliere e tre navi statunitensi nello Stretto di Hormuz in risposta agli attacchi americani precedenti.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/middle-east/iran-news/article-907652",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_995,w_1896/735899",
-      "ts": 1788648583000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/iran/us-launched-large-powerful-strikes-iran-trump-says-rcna595581"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/iran-news/article-907652"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/09/05/tensions-in-the-strait-of-hormuz-drive-oil-prices-as-us-and-iran-both-claim-control/"
           }
         ]
       }
@@ -1285,6 +1356,39 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/09/05/masked-anti-immigration-protesters-disrupt-uks-dover-port/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fe9a45f15a28",
+      "title": "Iran accuses the US of targeting a tanker near Kharg Island",
+      "description": "Irán denunció que Estados Unidos atacó un buque petrolero iraní cerca de la isla de Kharg en el Golfo Pérsico.",
+      "lat": 29.53,
+      "lng": 51.5026,
+      "severity": 2,
+      "location": "Isla de Kharg, Irán",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/iran-accuses-us-targeting-tanker-kharg-island-mideast-136222728",
+      "image": "https://s.abcnews.com/images/International/wirestory_4972c370161bccbaf67f8de131095158_4x3_384.jpg",
+      "ts": 1788614547000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/iran-accuses-us-targeting-tanker-kharg-island-mideast-136222728"
           }
         ]
       }
@@ -7689,110 +7793,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/08/six-consequences-after-six-months-war-iran"
-          }
-        ]
-      }
-    },
-    {
-      "id": "57db75210179",
-      "title": "(GNews Geopolitics) Russian Sanctions Are Fueling a Canadian Car Theft Epidemic - The New York Times",
-      "description": "Le sanzioni contro la Russia hanno inaspettatamente aumentato i furti d'auto in Canada, creando tensioni economiche.",
-      "lat": 45.42,
-      "lng": -73.7948,
-      "severity": 3,
-      "location": "Ottawa, Canada",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUDdYYkJEd3puZ1kxc2NiRnlVUlB5bkJFVkpwbHNnU0RvcWFTTVdnR2kyRl9fMElGM0RvWnJGbW05RnlWbHd3REJyUWxiYklpanlGYS1ITWcyVFhLZEtqbUZxMlc2ZTM2a1BwVVVhaENpaW1jMVhuZE02bTRpcG5pa2JpdlBMVUZOVlAzbHhDUQ?oc=5",
-      "image": null,
-      "ts": 1787821238000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/27/world/canada/canada-car-theft-russia-sanctions.html"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUDdYYkJEd3puZ1kxc2NiRnlVUlB5bkJFVkpwbHNnU0RvcWFTTVdnR2kyRl9fMElGM0RvWnJGbW05RnlWbHd3REJyUWxiYklpanlGYS1ITWcyVFhLZEtqbUZxMlc2ZTM2a1BwVVVhaENpaW1jMVhuZE02bTRpcG5pa2JpdlBMVUZOVlAzbHhDUQ?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "86ed1322795d",
-      "title": "(The Guardian World) UK urged to help free British‑Egyptian ‘arrested in Cairo over sister’s activism’",
-      "description": "Il Regno Unito è stato sollecitato a intervenire per la liberazione di una cittadina britannico‑egiziana detenuta al Cairo.",
-      "lat": 30.04,
-      "lng": 31.24,
-      "severity": 3,
-      "location": "Il Cairo, Egitto",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/world/2026/aug/27/uk-urged-to-help-free-british-egyptian-arrested-in-cairo-over-sisters-activism",
-      "image": null,
-      "ts": 1787817609000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/world/2026/aug/27/uk-urged-to-help-free-british-egyptian-arrested-in-cairo-over-sisters-activism"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8fd462db066b",
-      "title": "S. Korea to launch homegrown Nuri rocket on Oct. 7",
-      "description": "La Corea del Sud lancerà il razzo Nuri, il suo primo veicolo di lancio spaziale sviluppato internamente, segnando un passo importante per le capacità spaziali nazionali.",
-      "lat": 34.45,
-      "lng": 126.7,
-      "severity": 3,
-      "location": "Centro Spaziale Naro, Goheung, Corea del Sud",
-      "source": "Yonhap News",
-      "url": "https://en.yna.co.kr/view/AEN20260827005051320",
-      "image": "https://img.yna.co.kr/etc/inner/EN/2026/08/27/AEN20260827005051320_01_i_P2.jpg",
-      "ts": 1787801227000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20260827005051320"
           }
         ]
       }
