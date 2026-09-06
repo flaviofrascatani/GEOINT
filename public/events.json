@@ -1,7 +1,85 @@
 {
   "schema": 1,
-  "updated": "2026-09-06T06:28:39.866188+00:00",
+  "updated": "2026-09-06T11:18:47.032532+00:00",
   "events": [
+    {
+      "id": "7ce402320baa",
+      "title": "Witkoff and Kushner meet with Putin about ending Ukraine war",
+      "description": "President‑appointed envoys Steve Witkoff and Jared Kushner met Russian President Vladimir Putin at the Kremlin to discuss U.S. proposals for ending the conflict in Ukraine.",
+      "lat": 55.75,
+      "lng": 37.620000000000005,
+      "severity": 2,
+      "location": "Moscow, Russia",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/09/05/putin-witkoff-kushner-trump-ukraine-war",
+      "image": "https://images.axios.com/sqobC2V6dO7WGrEXkPw-XV_iKao=/0x0:4894x2753/1366x768/2026/09/05/1788640436966.jpeg",
+      "ts": 1788655397000,
+      "coverage": {
+        "left": 2,
+        "center": 6,
+        "right": 2,
+        "total": 10,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 6,
+          "lean_right": 1,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/09/05/world/europe/russia-ukraine-witkoff-kushner-moscow.html"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/ukraine-russia-war-trump-peace-proposal-witkoff-kushner/"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/09/05/putin-witkoff-kushner-trump-ukraine-war"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/europe/20260906-live-trump-s-envoys-head-to-ukraine-after-substantive-talks-with-putin"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/us-envoys-meet-with-putin-leave-russia-for-kyiv/a-79040773?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5YenE2dEVHYWtBRFE5N3oxbm9OQmRYaTlWQ2pqQ1Vvb00zMlBfeERuTllJOHZIc3NHWTJlRVZQUEt5a2pZYndEamJlUnRSeDFiLWIzY3Z5T1R0UnlvbnRRd2wxV19MSXJ1WW5nWlZnYTBUWEpTTXNkTVBXTVc?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-09-05/us-envoys-arrive-in-moscow-with-proposal-to-end-war-in-ukraine"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/europe/article/3366544/us-envoys-witkoff-kushner-arrive-kyiv-after-talks-putin-moscow?utm_source=rss_feed"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2183323"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/putin-and-zelensky-pause-strikes-ahead-of-visits-from-witkoff-and-kushner-over-the-weekend/"
+          }
+        ]
+      }
+    },
     {
       "id": "c51b09e07dc3",
       "title": "Iran war live: IRGC claims new attacks on US warships over naval blockade",
@@ -238,6 +316,39 @@
             "n": "Washington Examiner",
             "b": "right",
             "u": "https://www.washingtonexaminer.com/news/world/4715018/putin-pause-ukraine-strike-witkoff-kushner-moscow/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "54330357a404",
+      "title": "Argentina's government targets 45 entities over Malvinas oil projects",
+      "description": "President Javier Milei's administration opened sanction proceedings against companies involved in hydrocarbon activities around the disputed Falkland Islands.",
+      "lat": -50.6,
+      "lng": -57.849999999999994,
+      "severity": 3,
+      "location": "Stanley, Falkland Islands",
+      "source": "Buenos Aires Times",
+      "url": "https://www.batimes.com.ar/news/argentina/argentina-targets-45-entities-over-malvinas-oil-projects.phtml",
+      "image": "https://fotos.perfil.com/2026/09/05/trim/540/304/president-javier-milei-cadena-nacional-2319828.jpg",
+      "ts": 1788634224000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Buenos Aires Times",
+            "b": "center",
+            "u": "https://www.batimes.com.ar/news/argentina/argentina-targets-45-entities-over-malvinas-oil-projects.phtml"
           }
         ]
       }
@@ -7577,72 +7688,6 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-08-26/trump-eases-tariffs-on-some-ground-beef-products-to-lower-prices"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9345b9d9f26f",
-      "title": "Ukrainian forces shell DPR populated areas 17 times over past day",
-      "description": "Fuerzas ucranianas bombardearon áreas civiles en la República Popular de Donetsk, hiriendo a 11 civiles, incluidos dos niños.",
-      "lat": 49.12,
-      "lng": 39.70519999999999,
-      "severity": 3,
-      "location": "Donetsk, Donetsk People's Republic",
-      "source": "TASS",
-      "url": "https://tass.com/defense/2178091",
-      "image": null,
-      "ts": 1787782025000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/defense/2178091"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d69a4c69dd96",
-      "title": "Qatar PM heads to Tehran amid flurry of regional diplomacy",
-      "description": "El Primer Ministro de Qatar, Sheikh Mohammed al‑Thani, visita Irán en un intento de reforzar la diplomacia regional y aliviar tensiones.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 1,
-      "location": "Teherán, Irán",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/08/qatar-pm-heads-tehran-amid-flurry-regional-diplomacy",
-      "image": null,
-      "ts": 1787775826000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/qatar-pm-heads-tehran-amid-flurry-regional-diplomacy"
           }
         ]
       }
