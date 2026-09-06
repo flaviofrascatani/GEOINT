@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-09-05T23:14:30.014974+00:00",
+  "updated": "2026-09-06T01:18:49.639379+00:00",
   "events": [
+    {
+      "id": "c51b09e07dc3",
+      "title": "Iran war live: IRGC claims new attacks on US warships over naval blockade",
+      "description": "IRGC says it fired ballistic missiles at a US aircraft carrier and destroyer in the Strait of Hormuz, escalating the standoff.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 4,
+      "location": "Strait of Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/9/6/iran-war-live-irgc-claims-new-attacks-on-us-warships-over-naval-blockade?traffic_source=rss",
+      "image": null,
+      "ts": 1788652800000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/liveblog/2026/9/6/iran-war-live-irgc-claims-new-attacks-on-us-warships-over-naval-blockade?traffic_source=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "1301fb6ad6ca",
       "title": "Satellite lofted for first Arab country",
@@ -510,6 +543,162 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/09/05/un-general-assembly-adopts-new-world-map-that-shows-africas-true-size/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1e6c235f2b8",
+      "title": "US military strikes oil tankers as Iran vows tougher reprisals",
+      "description": "US forces destroyed three Iranian oil tankers in retaliation for attempted missile attacks on US warships.",
+      "lat": 28.96,
+      "lng": 52.68000000000001,
+      "severity": 4,
+      "location": "Kharg Island, Iran",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/09/us-military-strikes-oil-tankers-iran-vows-tougher-reprisals",
+      "image": null,
+      "ts": 1788622223000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/iran/us-strikes-3-iranian-oil-tankers-iran-targets-rcna596222"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diesel-gas-prices-labor-day/"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVXFRdGRLT2Y0eEtsblc4WEZPWGs2a2JFNW9ULTFwSHQ2TlpzUEs0NmxHdjZYV1pjdnVoenM1MjBiRDZhVDZkajRzVVl0RF90SzNNWEprTXN5NkN4NW84LWVqR0xMU0pkVFB1REd1N3pIajlEaHJDczBCNGc5a1czX2ZjT05DTkFqTlhmOHBHeGR4QQ?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-09-05/us-strikes-three-iranian-tankers-in-retaliation-for-irgc-attacks"
+          }
+        ]
+      }
+    },
+    {
+      "id": "28278a3a3ec2",
+      "title": "Putin pauses strikes on Kyiv as Trump envoys visit Russia and Ukraine",
+      "description": "A three‑day suspension of Russian missile strikes on Kyiv was announced during the visit of US envoys, marking a diplomatic de‑escalation.",
+      "lat": 55.75,
+      "lng": 37.620000000000005,
+      "severity": 1,
+      "location": "Moscow, Russia",
+      "source": "Time",
+      "url": "https://time.com/article/2026/09/05/putin-pauses-strikes-kyiv-trump-envoys-visit-russia-ukraine/",
+      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/05/AP26102061314573.jpg?w=900",
+      "ts": 1788621133000,
+      "coverage": {
+        "left": 7,
+        "center": 6,
+        "right": 3,
+        "total": 16,
+        "buckets": {
+          "left": 0,
+          "lean_left": 7,
+          "center": 6,
+          "lean_right": 1,
+          "right": 2
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/09/05/world/europe/russia-ukraine-witkoff-kushner-moscow.html"
+          },
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/09/05/witkoff-kushner-arrive-moscow-talks-with-putin/"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/us-envoys-witkoff-kushner-moscow-new-push-peace-136222187"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/situation-not-simple-vladimir-putin-meets-us-envoys-jared-kushner-steve-witkoff-talks-to-end-ukraine-war-begin-12007385#publisher=newsstand"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/putin-holds-three-hour-kremlin-37631955"
+          },
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/09/05/putin-pauses-strikes-kyiv-trump-envoys-visit-russia-ukraine/"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/russian-president-vladimir-putin-orders-72-hour-pause-in-strikes-on-kyiv/article71432032.ece"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/09/04/trump-witkoff-kushner-moscow-kyiv"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/putin-pauses-strikes-ukraine-us-envoys-arrive-hope-flickers-3807178"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/9ae2c655-bcf7-4ef2-9a9b-0855248d06a0?syn-25a6b1a6=1"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/video/20260905-war-in-ukraine-putin-zelensky-order-pause-in-strikes"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/us-envoys-meet-with-putin-leave-russia-for-kyiv/a-79040773?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5YenE2dEVHYWtBRFE5N3oxbm9OQmRYaTlWQ2pqQ1Vvb00zMlBfeERuTllJOHZIc3NHWTJlRVZQUEt5a2pZYndEamJlUnRSeDFiLWIzY3Z5T1R0UnlvbnRRd2wxV19MSXJ1WW5nWlZnYTBUWEpTTXNkTVBXTVc?oc=5"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/europe/putin-orders-72-hour-halt-to-strikes-on-kyiv-as-us-envoys-arrive"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/russias-strikes-near-moldova-raise-alarm-over-putins-plans-europes-eastern-flank"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4715018/putin-pause-ukraine-strike-witkoff-kushner-moscow/"
           }
         ]
       }
@@ -1086,11 +1275,11 @@
     },
     {
       "id": "af0db2261131",
-      "title": "Falkland Islands Legislative Assembly reaffirms self‑determination",
-      "description": "The Assembly issued a statement rejecting Argentine claims and affirming that the islands' future rests with its residents.",
+      "title": "Falklands Assembly tells Milei the islands' future is for residents",
+      "description": "The Legislative Assembly of the Falkland Islands reaffirmed that the archipelago's status will be decided by its inhabitants, rejecting Argentine claims.",
       "lat": 51.7,
       "lng": -57.85,
-      "severity": 1,
+      "severity": 2,
       "location": "Stanley, Falkland Islands",
       "source": "MercoPress",
       "url": "https://en.mercopress.com/2026/09/04/our-future-is-for-the-people-who-live-here-to-decide-falklands-assembly-tells-milei?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
@@ -1326,69 +1515,6 @@
             "n": "Yonhap News",
             "b": "center",
             "u": "https://en.yna.co.kr/view/AEN20260904012200320"
-          }
-        ]
-      }
-    },
-    {
-      "id": "28278a3a3ec2",
-      "title": "Trump envoys Witkoff and Kushner to travel to Moscow and Kyiv this weekend",
-      "description": "Former President Donald Trump's envoys Steve Witkoff and Jared Kushner are scheduled to visit Moscow and Kyiv for talks aimed at ending the war in Ukraine.",
-      "lat": 55.75,
-      "lng": 37.620000000000005,
-      "severity": 2,
-      "location": "Moscow, Russia",
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/09/04/trump-witkoff-kushner-moscow-kyiv",
-      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/05/AP26102061314573.jpg?w=900",
-      "ts": 1788553414000,
-      "coverage": {
-        "left": 2,
-        "center": 5,
-        "right": 0,
-        "total": 7,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 5,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/9/4/witkoff-and-kushner-will-travel-to-end-russias-war-in-ukraine-trump?traffic_source=rss"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/09/04/trump-sends-envoys-to-moscow-and-kyiv-with-a-proposal-to-end-the-war_6757178_4.html"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c23x0z48x0no?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/09/04/trump-witkoff-kushner-moscow-kyiv"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/ukraine/2026/0904/1590335-ukraine-russia/"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/russian-drone-strikes-ukraines-security-service-headquarters-in-kyiv-zelenskyysays-13581351"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/international/article-907613"
           }
         ]
       }
@@ -7517,77 +7643,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/08/qatar-pm-heads-tehran-amid-flurry-regional-diplomacy"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d072840a7284",
-      "title": "Australia becomes the world's first country to ban social media for children under 16",
-      "description": "Australia ha implementado una prohibición total de plataformas como TikTok, YouTube e Instagram para menores de 16 años, marcando un precedente global en la regulación de redes sociales para jóvenes.",
-      "lat": -35.28,
-      "lng": 149.13,
-      "severity": 2,
-      "location": "Canberra, Australia",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/from-australia-to-europe-countries-move-to-curb-childrens-social-media-access6",
-      "image": null,
-      "ts": 1787772543000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/from-australia-to-europe-countries-move-to-curb-childrens-social-media-access6"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5deaf24ed0c0",
-      "title": "Flash floods devastate villages on the Nepal‑Tibet border",
-      "description": "Inundaciones repentinas arrasaron pueblos en la zona fronteriza entre Nepal y la región tibetana, causando al menos 160 muertos y cientos de desaparecidos.",
-      "lat": 27.53,
-      "lng": 88.60519999999997,
-      "severity": 4,
-      "location": "Bhotekoshi River area, Nepal‑China border",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/26/least-22-dead-hundreds-missing-flash-floods-nepal-china-border/",
-      "image": null,
-      "ts": 1787771671000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/world/2026/aug/26/major-casualties-feared-after-flash-floods-along-nepal-tibet-border"
-          },
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/08/26/hundreds-feared-dead-including-foreign-tourists-after-flash-floods-in-nepal/"
           }
         ]
       }
