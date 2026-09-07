@@ -1,7 +1,93 @@
 {
   "schema": 1,
-  "updated": "2026-09-06T23:49:28.506346+00:00",
+  "updated": "2026-09-07T04:28:37.710818+00:00",
   "events": [
+    {
+      "id": "568728ca7b85",
+      "title": "Russian forces destroy more than 20 drones over Rostov Region",
+      "description": "Russian air defenses shot down over 20 hostile drones in the Rostov area, highlighting ongoing aerial threats in the region.",
+      "lat": 47.23,
+      "lng": 39.72,
+      "severity": 3,
+      "location": "Rostov-on-Don, Russia",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2183453",
+      "image": null,
+      "ts": 1788754935000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2183453"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5244b24efc78",
+      "title": "Iran to announce restricted zone outside Strait of Hormuz",
+      "description": "Iran’s security chief said Tehran will create a restricted zone around the strategic Strait of Hormuz, affecting international shipping.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 2,
+      "location": "Strait of Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/7/aje-onl-nf_iran-to-announce-restricted-zone-around-hormuz-060926?traffic_source=rss",
+      "image": null,
+      "ts": 1788748916000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 1,
+        "total": 5,
+        "buckets": {
+          "left": 1,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/ap-ml-iran-us-strait-of-hormuz-shirp-strike_n_6a9d5316e4b0facfe72a7886"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/9/7/aje-onl-nf_iran-to-announce-restricted-zone-around-hormuz-060926?traffic_source=rss"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVktrNjVBTENONHRoZVB6OGRsQUxBSUdhZkFydmlOM3ZvVWRCRXVUUW85dGxNZ2VrMXkxZUpnVnpVMlNLZkpMWkRVTFJ2VVhSYXZCT1RmcEtYRTRjQmU5dTdCSzA4TDk4WkhJOWRiVUNxSFRKdHJmcTgxYWNEQy01eUVpY2Z5bHZpYl9sakVNcDBLal9BMkpCWWlKSEpMdw?oc=5"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/09/05/tensions-in-the-strait-of-hormuz-drive-oil-prices-as-us-and-iran-both-claim-control/"
+          },
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2246034/iran-claims-strike-us-ship"
+          }
+        ]
+      }
+    },
     {
       "id": "6916f00c37fc",
       "title": "N. Korea commissions nuclear‑capable naval destroyer Kang Kon",
@@ -194,11 +280,11 @@
     },
     {
       "id": "28278a3a3ec2",
-      "title": "In Kyiv, U.S. envoys say push is on for trilateral talks to end Russia’s war",
-      "description": "U.S. envoys visited Kyiv to advance a three‑way diplomatic effort aimed at ending the war in Ukraine.",
+      "title": "U.S. envoys push for trilateral talks to end Russia’s war in Kyiv",
+      "description": "Steve Witkoff and Jared Kushner arrived in Kyiv for the first U.S. diplomatic mission aimed at advancing peace negotiations in Ukraine.",
       "lat": 55.75,
       "lng": 37.620000000000005,
-      "severity": 2,
+      "severity": 1,
       "location": "Moscow, Russia",
       "source": "Washington Post World",
       "url": "https://www.washingtonpost.com/world/2026/09/06/us-envoys-kyiv-russia-ukraine-peace-talks-after-meeting-with-putin/",
@@ -206,13 +292,13 @@
       "ts": 1788721520000,
       "coverage": {
         "left": 2,
-        "center": 0,
+        "center": 1,
         "right": 1,
-        "total": 3,
+        "total": 4,
         "buckets": {
           "left": 0,
           "lean_left": 2,
-          "center": 0,
+          "center": 1,
           "lean_right": 1,
           "right": 0
         },
@@ -223,9 +309,14 @@
             "u": "https://www.washingtonpost.com/world/2026/09/06/us-envoys-kyiv-russia-ukraine-peace-talks-after-meeting-with-putin/"
           },
           {
-            "n": "Time",
+            "n": "ABC News International",
             "b": "lean_left",
-            "u": "https://time.com/article/2026/09/05/putin-pauses-strikes-kyiv-trump-envoys-visit-russia-ukraine/"
+            "u": "https://abcnews.com/International/wireStory/us-envoys-witkoff-kushner-arrive-kyiv-after-talks-136236924"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/09/06/witkoff-kushner-kyiv-ukraine-peace-talks"
           },
           {
             "n": "Daily Sabah",
@@ -7627,122 +7718,6 @@
             "n": "Japan Times",
             "b": "center",
             "u": "https://www.japantimes.co.jp/news/2026/08/28/japan/japan-defense-hub-nippon-steel/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "be311ec3edef",
-      "title": "\"That sucker is open\": U.S. gains the upper hand in the battle for Hormuz",
-      "description": "U.S. officials say recent operations have reduced Iran’s ability to threaten shipping through the Strait of Hormuz.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 2,
-      "location": "Strait of Hormuz",
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/08/28/trump-iran-hormuz-war-oil",
-      "image": "https://images.axios.com/tPT0wSt_aVQCrrQEvF9KIKzSMZI=/0x0:1920x1080/1366x768/2026/08/27/1787864294205.jpeg",
-      "ts": 1787909406000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/08/28/trump-iran-hormuz-war-oil"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6456c58e5d97",
-      "title": "Norway’s King Harald V Dies At 89 And His Son Becomes King Haakon VIII",
-      "description": "The long‑reigning monarch passes away, and his son Haakon VIII is crowned, marking a peaceful royal transition.",
-      "lat": 61.0139,
-      "lng": 10.752199999999988,
-      "severity": 1,
-      "location": "Oslo, Norway",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/norway-king-harald-dead_n_6a914513e4b0fc8477ab352a",
-      "image": null,
-      "ts": 1787905640000,
-      "coverage": {
-        "left": 4,
-        "center": 5,
-        "right": 2,
-        "total": 11,
-        "buckets": {
-          "left": 1,
-          "lean_left": 3,
-          "center": 5,
-          "lean_right": 0,
-          "right": 2
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/norway-king-harald-dead_n_6a914513e4b0fc8477ab352a"
-          },
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/28/world/europe/norway-new-king-haakon.html"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/norways-crown-prince-king-haakon-viii-after-fathers-136023201"
-          },
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/08/28/king-harald-v-norway-dies-son-successor-haakon-family-controversy/"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cm2rzxrdr71o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/king-harald-of-norway-dies-13578013"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/norway-mourns-king-harald-as-haakon-prepares-to-take-the-throne"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMie0FVX3lxTE41WWRxM1JfRy1aWk90RHIxdVROQTJLZncxS05EVk5YcTgwRjdsRGktTTFGV3I0S3lWUTVzLU9DMm9US2UzVHlIVXF6dUFWa3V5a2NHYVhyazVmQjJFZlJRLTRjaF91Q3FkcTdqalhmS2tYTlNYS0luenRqaw?oc=5"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/28/norway-mourns-king-harald-v-as-crown-prince-haakon-becomes-king/"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/norways-king-harald-dies-peacefully-89-son-crown-prince-haakon-succeed"
-          },
-          {
-            "n": "Daily Mail World",
-            "b": "right",
-            "u": "https://www.dailymail.com/news/royals/article-16074301/King-Harald-dead-89-Norway-monarch-hospital-stay.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
           }
         ]
       }
