@@ -1,7 +1,121 @@
 {
   "schema": 1,
-  "updated": "2026-09-07T15:47:25.949487+00:00",
+  "updated": "2026-09-07T19:54:27.894220+00:00",
   "events": [
+    {
+      "id": "bab68b5d241e",
+      "title": "Israeli forces ‘erase’ Palestinian village in West Bank (VIDEO)",
+      "description": "Le forze israeliane hanno demolito case e infrastrutture idriche nel villaggio palestinese di Khirbet al‑Tabban, nella Cisgiordania occupata.",
+      "lat": 31.78,
+      "lng": 35.120000000000005,
+      "severity": 3,
+      "location": "Khirbet al‑Tabban, West Bank",
+      "source": "RT News",
+      "url": "https://www.rt.com/news/645223-israelis-destroy-palestinian-village/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.09/thumbnail/6a9ef0eb2030276b494dd640.jpg",
+      "ts": 1788809689000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/09/07/world/middleeast/britain-sanctions-israeli-settlers.html"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-907844"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/09/two-palestinians-killed-israeli-stabbed-west-bank-settler-violence-flares"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/645223-israelis-destroy-palestinian-village/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "688bc54fe97d",
+      "title": "Tehran finalizing deal with Oman for temporary, safe route through Strait of Hormuz",
+      "description": "L'Iran sta finalizzando un accordo con l'Oman per garantire un percorso sicuro temporaneo attraverso lo Stretto di Hormuz, alleviando la congestione del traffico marittimo.",
+      "lat": 23.61,
+      "lng": 58.59,
+      "severity": 2,
+      "location": "Muscat, Oman",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/09/07/tehran-finalizing-deal-with-oman-for-temporary-safe-route-through-strait-of-hormuz/",
+      "image": "http://images.euronews.com/articles/stories/09/90/46/87/640x360_cmsv2_a9b98178-de32-5cdd-bb79-ba27287e14c4-9904687.jpg?1788796696",
+      "ts": 1788806727000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/09/07/tehran-finalizing-deal-with-oman-for-temporary-safe-route-through-strait-of-hormuz/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3dc08e088e33",
+      "title": "Nuovi raid israeliani in Libano, sterminata una famiglia",
+      "description": "Forze israeliane hanno condotto un raid nel sud del Libano, uccidendo una famiglia intera, inclusi due neonati, accusando Hezbollah di responsabilità.",
+      "lat": 33.27,
+      "lng": 35.19999999999999,
+      "severity": 4,
+      "location": "Tyre, Libano",
+      "source": "ANSA Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/07/nuovi-raid-israeliani-in-libano-sterminata-una-famiglia_a65d8ecf-b5c7-46bf-a111-e4f911f7f832.html",
+      "image": null,
+      "ts": 1788804669000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/07/nuovi-raid-israeliani-in-libano-sterminata-una-famiglia_a65d8ecf-b5c7-46bf-a111-e4f911f7f832.html"
+          }
+        ]
+      }
+    },
     {
       "id": "83f41c77a886",
       "title": "UK set to ban trade with Israeli settlements in West Bank on Tuesday",
@@ -208,6 +322,39 @@
             "n": "OAN",
             "b": "right",
             "u": "https://www.oann.com/newsroom/russia-signals-peace-talks-with-ukraine-u-s-on-the-table/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "230e46aa1863",
+      "title": "Finland will discontinue UNRWA funding by end of 2026",
+      "description": "Il governo finlandese ha deciso di interrompere i finanziamenti all'UNRWA, l'agenzia delle Nazioni Unite per i rifugiati palestinesi, entro il 2026.",
+      "lat": 60.17,
+      "lng": 24.94,
+      "severity": 3,
+      "location": "Helsinki, Finlandia",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/un-agency-accused-hamas-ties-sees-another-european-nation-cut-funding",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/08/931/523/unrwa-hq-gaza.jpg?ve=1&tl=1",
+      "ts": 1788785211000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/un-agency-accused-hamas-ties-sees-another-european-nation-cut-funding"
           }
         ]
       }
@@ -7646,173 +7793,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/mid-east/3-palestinians-killed-in-israeli-drone-strike-in-occupied-west-bank"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8867dbd951f6",
-      "title": "Finland discontinues €20 million UNRWA funding agreement",
-      "description": "Finland announced it will stop a €20 million contribution to UNRWA, affecting the agency’s operations in the Gaza Strip.",
-      "lat": 60.17,
-      "lng": 24.94,
-      "severity": 3,
-      "location": "Helsinki, Finland",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/international/article-906918",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_2717,w_4076/735619",
-      "ts": 1787952773000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/international/article-906918"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0b2ad0e2879e",
-      "title": "Norway mourns king Harald V as crown prince Haakon becomes king",
-      "description": "Following the death of King Harald V, Crown Prince Haakon ascends the throne in a solemn ceremony in Oslo.",
-      "lat": 59.9139,
-      "lng": 10.7522,
-      "severity": 1,
-      "location": "Oslo, Norway",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/08/28/norway-mourns-king-harald-v-as-crown-prince-haakon-becomes-king/",
-      "image": "http://images.euronews.com/articles/stories/09/89/33/96/640x360_cmsv2_ddc9c191-3e38-5e54-8079-cd50a2790400-9893396.jpg?1787939608",
-      "ts": 1787949651000,
-      "coverage": {
-        "left": 3,
-        "center": 3,
-        "right": 2,
-        "total": 8,
-        "buckets": {
-          "left": 1,
-          "lean_left": 2,
-          "center": 3,
-          "lean_right": 0,
-          "right": 2
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/norway-king-harald-dead_n_6a914513e4b0fc8477ab352a"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/norways-crown-prince-king-haakon-viii-after-fathers-136023201"
-          },
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/08/28/king-harald-v-norway-dies-son-successor-haakon-family-controversy/"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cm2rzxrdr71o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/norway-mourns-king-harald-as-haakon-prepares-to-take-the-throne"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/28/norway-mourns-king-harald-v-as-crown-prince-haakon-becomes-king/"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/norways-king-harald-dies-peacefully-89-son-crown-prince-haakon-succeed"
-          },
-          {
-            "n": "Daily Mail World",
-            "b": "right",
-            "u": "https://www.dailymail.com/news/royals/article-16074301/King-Harald-dead-89-Norway-monarch-hospital-stay.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4b50cce0dde1",
-      "title": "DRC President Tshisekedi calls for national dialogue excluding M23 rebels",
-      "description": "President Félix Tshisekedi urges a national dialogue to ease tensions, deliberately leaving out the M23 rebel group.",
-      "lat": 4.32,
-      "lng": 15.31,
-      "severity": 2,
-      "location": "Kinshasa, Democratic Republic of Congo",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260828-drc-president-tshisekedi-calls-for-national-dialogue-excluding-m23-rebels",
-      "image": "https://s.france24.com/media/display/57c93cba-a31f-11f1-88eb-005056a90284/w:1024/p:16x9/capture-16681304016a91eff34f8497-63123742.jpg",
-      "ts": 1787949401000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/tv-shows/eye-on-africa/20260828-drc-president-tshisekedi-calls-for-national-dialogue-excluding-m23-rebels"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3ac1b16096ce",
-      "title": "The US waives beef tariffs for Brazil and Paraguay, but not for Argentina and Uruguay",
-      "description": "President Trump signed a proclamation temporarily removing tariffs on lean beef imports from Brazil and Paraguay.",
-      "lat": -15.79,
-      "lng": -47.88,
-      "severity": 2,
-      "location": "Brasília, Brazil",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/08/28/the-us-waives-beef-tariffs-for-brazil-and-paraguay-but-not-for-argentina-and-uruguay?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111300/100x80/dot.jpg",
-      "ts": 1787945700000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/08/28/the-us-waives-beef-tariffs-for-brazil-and-paraguay-but-not-for-argentina-and-uruguay?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
           }
         ]
       }
