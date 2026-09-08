@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-09-07T22:46:50.074619+00:00",
+  "updated": "2026-09-08T01:08:13.517666+00:00",
   "events": [
     {
       "id": "66bd5e33485e",
@@ -256,6 +256,77 @@
       }
     },
     {
+      "id": "0dc1c17cf242",
+      "title": "Qatar Exports First LNG Shipment Through Hormuz in Weeks",
+      "description": "A Qatar‑loaded LNG tanker sailed through the Strait of Hormuz, marking the first visible export via the waterway since July.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 2,
+      "location": "Strait of Hormuz",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-07/laden-qatari-lng-tanker-makes-rare-attempt-to-exit-hormuz-strait",
+      "image": null,
+      "ts": 1788795923000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-09-07/laden-qatari-lng-tanker-makes-rare-attempt-to-exit-hormuz-strait"
+          }
+        ]
+      }
+    },
+    {
+      "id": "519d366695bf",
+      "title": "Peru Chancay Port Shows the Limits of Washington’s China Push",
+      "description": "Legal and political disputes over the Chinese‑built Chancay megaport continue, highlighting tensions between U.S. pressure and Peru’s sovereign decisions.",
+      "lat": -12.58,
+      "lng": -77.0,
+      "severity": 3,
+      "location": "Chancay, Peru",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/peru-chancay-port-us-china-dispute-2026/",
+      "image": null,
+      "ts": 1788795442000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/09/07/world/americas/peru-trump-china-economy.html"
+          },
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/peru-chancay-port-us-china-dispute-2026/"
+          }
+        ]
+      }
+    },
+    {
       "id": "c5f72f646fef",
       "title": "France Says Plans to Send Air Defense Systems to Kyiv On Track",
       "description": "France confirmed its SAMP/T air‑defence system will be delivered to Ukraine, reinforcing Kyiv’s defenses against Russian missiles.",
@@ -284,6 +355,39 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-09-07/france-says-plans-to-send-air-defense-systems-to-kyiv-on-track"
+          }
+        ]
+      }
+    },
+    {
+      "id": "86f55b50988e",
+      "title": "Niger coup plot exposes deepening fractures in Tiani’s army",
+      "description": "A mutiny on 29 August revealed internal divisions within Niger’s armed forces, raising fears of a possible coup against President Tiani.",
+      "lat": 13.51,
+      "lng": 2.11,
+      "severity": 3,
+      "location": "Niamey, Niger",
+      "source": "The Africa Report",
+      "url": "https://www.theafricareport.com/430066/niger-coup-plot-exposes-deepening-fractures-in-tianis-army/",
+      "image": null,
+      "ts": 1788793200000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Africa Report",
+            "b": "center",
+            "u": "https://www.theafricareport.com/430066/niger-coup-plot-exposes-deepening-fractures-in-tianis-army/"
           }
         ]
       }
@@ -7614,180 +7718,6 @@
             "n": "New York Times World",
             "b": "lean_left",
             "u": "https://www.nytimes.com/2026/08/29/world/asia/nepal-flood-rescue.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9f532d9f647b",
-      "title": "Death Toll At 37 From Russian Strike on Warehouse Near Kyiv",
-      "description": "A Russian drone strike detonated a warehouse in a village west of Kyiv, killing 37 people.",
-      "lat": 50.55,
-      "lng": 30.650000000000006,
-      "severity": 4,
-      "location": "Bucha, Ukraine",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-29/zelenskyy-says-dozens-killed-in-russian-drone-strike-near-kyiv",
-      "image": null,
-      "ts": 1787994525000,
-      "coverage": {
-        "left": 6,
-        "center": 9,
-        "right": 0,
-        "total": 15,
-        "buckets": {
-          "left": 0,
-          "lean_left": 6,
-          "center": 9,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/29/world/europe/russia-ukraine-strike-kyiv-drones.html"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/russian-drones-batter-ukraines-kyiv-region-hitting-apartments-136024871"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/russia-ukraine-war-27-killed-in-russian-strikes-on-ukraines-kyiv-50-residential-buildings-damaged-11974427#publisher=newsstand"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/russian-strike-warehouse-kyiv-deaths-37606450"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/08/29/dozens-dead-after-russian-strike-on-depot-near-kyiv_6756964_4.html"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/russian-strike-on-warehouse-in-ukraines-kyiv-region-causes-detonation-death-toll/article71404172.ece"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/29/russian-strike-on-kyiv-area-warehouse-causes-detonation-killing-27.html"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/ukraine/2026/0829/1589653-ukraine-russia-war/"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/40eaeba7-9514-4e6b-9bd3-4a9381618c84"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/warehouse-hit-by-russian-attack-stored-munitions-zelensky-says"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/russian-strike-on-ammunition-depot-near-kyiv-kills-dozens/a-78556008?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-08-29/zelenskyy-says-dozens-killed-in-russian-drone-strike-near-kyiv"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/at-least-37-dead-after-russian-drone-attack-triggers-multiple-blasts-and-fire-at-warehouse-near-kyiv/"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/europe/article/3365705/russian-drone-strike-near-kyiv-kills-least-27?utm_source=rss_feed"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/world/russia-strike-ukraine-kyiv-warehouse-detonation-6349491"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d970f324d78b",
-      "title": "US campaign to isolate Iran closes in on Dubai",
-      "description": "The United States is intensifying efforts to cut off Iranian financial services by targeting offshore hubs such as Dubai.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/930386eb-b5d4-4a62-a258-f7ab46401655?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1787993744000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/930386eb-b5d4-4a62-a258-f7ab46401655?syn-25a6b1a6=1"
-          }
-        ]
-      }
-    },
-    {
-      "id": "66db7cd40911",
-      "title": "Niger: Gunfire and explosions heard in Niamey",
-      "description": "Multiple gunshots and explosions were reported overnight in several districts of Niger’s capital, including near the military base by the international airport.",
-      "lat": 13.51,
-      "lng": 2.11,
-      "severity": 3,
-      "location": "Niamey, Niger",
-      "source": "The Africa Report",
-      "url": "https://www.theafricareport.com/429180/niger-gunfire-and-explosions-heard-in-niamey/",
-      "image": null,
-      "ts": 1787990233000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/29/reports-of-gunfire-near-military-base-in-nigers-capital/"
-          },
-          {
-            "n": "The Africa Report",
-            "b": "center",
-            "u": "https://www.theafricareport.com/429180/niger-gunfire-and-explosions-heard-in-niamey/"
           }
         ]
       }
