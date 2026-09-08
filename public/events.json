@@ -1,7 +1,217 @@
 {
   "schema": 1,
-  "updated": "2026-09-08T01:08:13.517666+00:00",
+  "updated": "2026-09-08T06:31:04.643776+00:00",
   "events": [
+    {
+      "id": "b64b25e0ce0c",
+      "title": "Trump threatens to block Canada's Bombardier planes from US market",
+      "description": "President Trump warned that Bombardier must shift production to the United States or face a ban on its aircraft in the U.S. market.",
+      "lat": 38.9,
+      "lng": -77.04,
+      "severity": 2,
+      "location": "Washington, DC, United States",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/trump-threatens-to-block-canada-s-bombardier-planes-from-us-market/a-79153896?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1788849064489,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Business Insider",
+            "b": "lean_left",
+            "u": "https://www.businessinsider.com/trump-stop-canada-bombardier-sold-us-2026-9"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/a7011878-b0b7-4e7f-8f5a-e7d9d662fd47?syn-25a6b1a6=1"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/trump-threatens-to-block-canada-s-bombardier-planes-from-us-market/a-79153896?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/business/trump-threatens-to-block-bombardier-sales-unless-it-builds-in-us/news"
+          }
+        ]
+      }
+    },
+    {
+      "id": "134d83008370",
+      "title": "Saudi‑led coalition in Yemen says 73 injured in Houthi attacks on the kingdom",
+      "description": "Houthis launched attacks on Saudi territory, injuring at least 73 people; the coalition vowed a firm response.",
+      "lat": 25.81,
+      "lng": 48.575199999999995,
+      "severity": 3,
+      "location": "Riyadh, Saudi Arabia",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/09/saudi-led-coalition-yemen-says-73-injured-houthi-attacks-kingdom",
+      "image": null,
+      "ts": 1788842793000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/houthi-attacks-saudi-arabia-wound-73-people-officials-136263886"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/09/saudi-led-coalition-yemen-says-73-injured-houthi-attacks-kingdom"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/middle-east/article/3366732/houthi-attacks-saudi-arabia-wound-dozens-coalition-vows-response?utm_source=rss_feed"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/world/houthi-attacks-disrupt-saudi-energy-facilities-wound-73-authorities-say-6368711"
+          }
+        ]
+      }
+    },
+    {
+      "id": "044063ee6103",
+      "title": "U.S. sinks an Ecuadorian ship in the Pacific it alleges is tied to drug trafficking",
+      "description": "U.S. Southern Command intercepted and sank an Ecuador‑flagged vessel in the Pacific, claiming it was linked to narcotics smuggling.",
+      "lat": 0.0,
+      "lng": -80.0,
+      "severity": 3,
+      "location": "Pacific Ocean (near 0°N, 80°W)",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/us-sinks-an-ecuadorian-ship-in-the-pacific-it-alleges-is-tied-to-drug-trafficking/article71441244.ece",
+      "image": "https://th-i.thgim.com/public/news/national/g66eaz/article71441257.ece/alternates/LANDSCAPE_1200/Screenshot%202026-09-08%20095239.png",
+      "ts": 1788842571000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/us-sinks-an-ecuadorian-ship-in-the-pacific-it-alleges-is-tied-to-drug-trafficking/article71441244.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "63e280d2b071",
+      "title": "Russian strikes continue following visit by Witkoff and Kushner to Kyiv",
+      "description": "Russia launched ballistic and cruise missiles at Kyiv shortly after envoys Steve Witkoff and Jared Kushner arrived for peace negotiations.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 4,
+      "location": "Kyiv, Ukraine",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/russian-strikes-continue-following-visit-witkoff-kushner-kyiv",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/zelenskyy-kushner-witkoff-kyiv-talks.jpg?ve=1&tl=1",
+      "ts": 1788841539000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 1,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/witkoff-kushner-arrive-kyiv-russia-ukraine-war_n_6a9d7f8ee4b0facfe72a8308"
+          },
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/09/06/world/europe/ukraine-zelensky-witkoff-kushner-russia-putin.html"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/09/06/witkoff-kushner-kyiv-ukraine-peace-talks"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/russian-strikes-continue-following-visit-witkoff-kushner-kyiv"
+          }
+        ]
+      }
+    },
+    {
+      "id": "acd51658eb67",
+      "title": "Iran increases gasoline price for its heaviest consumers as economy struggles",
+      "description": "Tehran raised the price of gasoline for the highest‑consumption users amid ongoing economic pressure from the war.",
+      "lat": 35.68,
+      "lng": 51.41,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/world/iran/iran-increases-gasoline-price-heaviest-consumers-economy-struggles-rcna596518",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-08/260825-tehran-2-rs-c8c01e.jpg",
+      "ts": 1788828321000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/iran/iran-increases-gasoline-price-heaviest-consumers-economy-struggles-rcna596518"
+          }
+        ]
+      }
+    },
     {
       "id": "66bd5e33485e",
       "title": "Oil prices surge as US-Iran strikes intensify in Strait of Hormuz",
@@ -7538,186 +7748,6 @@
             "n": "OAN",
             "b": "right",
             "u": "https://www.oann.com/newsroom/centcom-sinks-refueling-vessel-used-to-aid-crime-syndicate-drug-trafficking-boats-in-pacific-ocean/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5fcfd7674cb3",
-      "title": "Beijing expands purge of top generals",
-      "description": "President Xi Jinping is intensifying a campaign against senior PLA officers linked to former leaders, widening the internal power struggle.",
-      "lat": 39.91,
-      "lng": 116.39999999999998,
-      "severity": 3,
-      "location": "Beijing, China",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/29/beijing-expands-purge-top-generals/",
-      "image": null,
-      "ts": 1788014516000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/29/beijing-expands-purge-top-generals/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b054892f676e",
-      "title": "Iran says 40% of capacity at its giant gas field has been restored",
-      "description": "Iran announced that 40% of the damaged capacity of the South Pars gas field has been restored, though full recovery will take years.",
-      "lat": 28.95,
-      "lng": 50.84,
-      "severity": 2,
-      "location": "Bushehr, Iran",
-      "source": "Egypt Independent",
-      "url": "https://www.egyptindependent.com/iran-says-40-of-capacity-at-its-giant-gas-field-has-been-restored/",
-      "image": null,
-      "ts": 1788005351000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/iran-says-40-of-capacity-at-its-giant-gas-field-has-been-restored/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "497c9d0b3dd7",
-      "title": "Iran trade falls as Supreme Leader Khamenei urges less reliance on the U.S. dollar",
-      "description": "Iran’s imports and exports have contracted sharply amid intensified sanctions, while the Supreme Leader calls for reduced dollar dependence.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 3,
-      "location": "Tehran, Iran",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/08/29/iran-trade-sanctions-dollar-oil-exports.html",
-      "image": null,
-      "ts": 1788005288000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/08/29/iran-trade-sanctions-dollar-oil-exports.html"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObnBScDB0NHZoem1ucncyUTRSQ3B6cjdvanVrUms4R2Z2WGxTZlVoaGFjMzVKblRDQ0piaUNLWDM5eS0yOUlGUTlkU3o0QW1UUmpNUWxGS3V2LW9ZeHNpQ2hLa09jOVR1Mmp0VDlVcEg2YXNIc2Z4Uzk4SWVXTC1xVkV30gGHAUFVX3lxTFA1RTVxa25KSmtyOWp0M0hlM0N0NmRFRHAxcTZJcVFBTU1pcV9hZS1sZVdDaWFJZ2dSTHdndkhTaHNzVk9LdUczWTczbXpHNW45ekdyTjVLMkV3UkdEZGZReFR1MDBmWHFjcDFjUTV3NXdmNzQzMndWVG1Cd1lRMWJ1Vl82Yk9Wdw?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "545d978bd847",
-      "title": "Russian strike on Ukrainian warehouse kills 27, sparks investigation into ammunition storage",
-      "description": "A Russian missile strike hit a warehouse near Kyiv's western suburbs, killing 27 people and prompting an inquiry into the storage of ammunition.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 4,
-      "location": "Kyiv, Ukraine",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/ukraine-russia-war-warehouse-ammunition-investigation/",
-      "image": null,
-      "ts": 1787998749000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/ukraine-russia-war-warehouse-ammunition-investigation/"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/military-operation-in-ukraine/2179267"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d3e494a1ddc6",
-      "title": "‘Immense’ Devastation as Nepal Continues Search for 2,400 Missing in Floods",
-      "description": "Flash floods in Nepal have killed at least 584 people and left around 2,400 missing, overwhelming rescue capacities.",
-      "lat": 27.71,
-      "lng": 85.31,
-      "severity": 3,
-      "location": "Kathmandu, Nepal",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/08/29/world/asia/nepal-flood-rescue.html",
-      "image": "https://static01.nyt.com/images/2026/08/29/multimedia/29NEPAL-RESCUE-EFFORT-01-cfjv/29NEPAL-RESCUE-EFFORT-01-cfjv-mediumSquareAt3X.jpg",
-      "ts": 1787998343000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 1,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/catastrophic-floods-kill-over-270-in-nepal-and-tibet-more-than-1300-missing_n_6a8fa6f3e4b02b26136eee87"
-          },
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/29/world/asia/nepal-flood-rescue.html"
           }
         ]
       }
