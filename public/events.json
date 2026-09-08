@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-09-08T16:34:27.714919+00:00",
+  "updated": "2026-09-08T19:34:27.261752+00:00",
   "events": [
+    {
+      "id": "c9427d23b0b4",
+      "title": "Philippines defence chief confronts China at Seoul Defense Dialogue",
+      "description": "During the Seoul forum, Defence Secretary Gilberto Teodoro read a note from Chinese officials, accusing the Philippines of coercion and bullying, heightening diplomatic tension.",
+      "lat": 37.56,
+      "lng": 128.8852,
+      "severity": 3,
+      "location": "Seoul, South Korea",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/philippines-defense-chief-calls-out-china-note-interrupts-remarks-seoul-forum-coercion-bullying",
+      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/09/Philippines_Note_China.gif",
+      "ts": 1788891489000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/philippines-defense-chief-calls-out-china-note-interrupts-remarks-seoul-forum-coercion-bullying"
+          }
+        ]
+      }
+    },
+    {
+      "id": "395e44e75613",
+      "title": "Insurgents raid hunting lodge in Mozambique's Niassa province",
+      "description": "Armed insurgents attacked a remote hunting camp in Niassa, testing the security of Mozambique's newly restarted gas projects.",
+      "lat": -14.0,
+      "lng": 40.0,
+      "severity": 3,
+      "location": "Niassa Province, Mozambique",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/niassa-marangira-mozambique-lng-security-analysis-2026/",
+      "image": null,
+      "ts": 1788889456000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/niassa-marangira-mozambique-lng-security-analysis-2026/"
+          }
+        ]
+      }
+    },
     {
       "id": "f62e7a6697df",
       "title": "Türkiye backs 12 nations' move to curb trade with illegal settlements",
@@ -7652,77 +7718,6 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/08/30/volunteers-in-algeria-moblise-to-support-families-displaced-by-wildfires/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cb1fb38152a8",
-      "title": "Iran’s Khamenei calls for Gulf unity as Hormuz tensions persist",
-      "description": "Supreme Leader Ayatollah Khamenei urges Gulf states to unite against a “real enemy” while Iran maintains restrictions in the Strait of Hormuz.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 2,
-      "location": "Strait of Hormuz",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/8/30/irans-khamenei-calls-for-gulf-unity-as-hormuz-tensions-persist?traffic_source=rss",
-      "image": null,
-      "ts": 1788085857000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/8/30/irans-khamenei-calls-for-gulf-unity-as-hormuz-tensions-persist?traffic_source=rss"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/08/irans-khamenei-urges-gulf-rulers-written-message-confront-real-enemy"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ed675fb80a29",
-      "title": "Fears of more flooding in Nepal, 100 Americans among the missing as rescue efforts step up",
-      "description": "Authorities warn of further landslides and floods after heavy rains; rescue teams continue searching for missing people in Kathmandu and surrounding areas.",
-      "lat": 27.72,
-      "lng": 85.32999999999998,
-      "severity": 1,
-      "location": "Kathmandu, Nepal",
-      "source": "NBC News World",
-      "url": "https://www.nbcnews.com/world/asia/fears-flooding-nepal-100-americans-missing-rescue-efforts-step-rcna595093",
-      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-08/260830-nepal-2-nd-e6a1d8.jpg",
-      "ts": 1788085768000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/asia/fears-flooding-nepal-100-americans-missing-rescue-efforts-step-rcna595093"
           }
         ]
       }
