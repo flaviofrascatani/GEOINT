@@ -1,7 +1,113 @@
 {
   "schema": 1,
-  "updated": "2026-09-08T22:01:07.437555+00:00",
+  "updated": "2026-09-09T00:07:53.380627+00:00",
   "events": [
+    {
+      "id": "d0bb3af6d132",
+      "title": "Trump bans some Canada goods, imposes 50% tariffs on others",
+      "description": "The United States announced a 50 % tariff on a range of Canadian dairy, alcohol and motorcycle imports, escalating the trade dispute.",
+      "lat": 40.0,
+      "lng": -75.1348,
+      "severity": 3,
+      "location": "Washington, DC, United States",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3366840/trump-bans-some-canada-goods-puts-50-tariffs-others?utm_source=rss_feed",
+      "image": null,
+      "ts": 1788912109000,
+      "coverage": {
+        "left": 1,
+        "center": 4,
+        "right": 0,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 4,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/business/2026/09/08/trump-threatens-ban-bombardier-jet-sales-canadas-tariffs-take-effect/"
+          },
+          {
+            "n": "BBC Business",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/tv-shows/spotlight/20260908-accelerating-diversification-canada-seeks-economic-sovereignty-amid-trump-s-nonsensical-posturing"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxNc1BOQjh6RzR3NkhUTWNocHc3U2RzckMzVGdyMFVwR0JqS3JocTgtbFFwTkwtUU1pTURKNGNma3VpZmYtUExvaHZuYU8wZTlDSEFqemRLc0U0NzhyWUxtaDVxUUp1TW45TFU2MnY5WGhqNFVWd0RPWG1sV1J0N2x3LUFweTlPb0pjcm9YcW9oSS1uTk14cWVIWUJ2Z202Zw?oc=5"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/united-states-canada/article/3366840/trump-bans-some-canada-goods-puts-50-tariffs-others?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0a6d5a36642c",
+      "title": "China, Russia stress strategic ties with North Korea in anniversary messages to Kim",
+      "description": "Beijing and Moscow sent congratulatory messages to Kim Jong‑un, underscoring deepening strategic cooperation with Pyongyang.",
+      "lat": 40.13,
+      "lng": 127.6352,
+      "severity": 2,
+      "location": "Pyongyang, North Korea",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/east-asia/china-russia-stress-strategic-ties-with-north-korea-in-anniversary-messages-to-kim",
+      "image": null,
+      "ts": 1788911820000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 2,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 1,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/sep/07/russia-north-korea-open-first-road-bridge-tumen-river"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/russia-north-korea-open-first-road-link-across-shared-border/article71444269.ece"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/east-asia/china-russia-stress-strategic-ties-with-north-korea-in-anniversary-messages-to-kim"
+          },
+          {
+            "n": "Wall Street Journal World",
+            "b": "lean_right",
+            "u": "https://www.wsj.com/articles/kim-jong-un-is-doing-everything-he-can-to-keep-north-koreas-youth-in-line-0866a1de"
+          },
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/news/article-16113565/Kim-Jong-unveils-North-Korea-new-navy-destroyer-nuclear-missiles.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+          }
+        ]
+      }
+    },
     {
       "id": "90ce4912ae47",
       "title": "US hits remaining parts of Iran's aviation sector with sanctions",
@@ -64,6 +170,39 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/opinion/op-ed/indus-waters-treaty-is-still-binding-case-for-strategic-sanity"
+          }
+        ]
+      }
+    },
+    {
+      "id": "877a7a974267",
+      "title": "U.S. Treasury ratchets up pressure on Iran with sweeping new aviation sanctions",
+      "description": "The United States imposed extensive aviation sanctions targeting Iran’s airlines and related entities, tightening economic pressure.",
+      "lat": 36.79,
+      "lng": 53.295199999999994,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaGdHdXJpOEljWVdDWlBhWFFpS2w2YmtsSm5hUmkyanBIUWV2eWdEX0trcFpIRU1abHpTNjdTcHlNYWNOMWFQTjBvUDdscjVKc2k4a0hWSmxvZ0c1UWo4YWtkaFF5alY3UXFuOUZpZHByRHFQVkdCU2ZZT29kRTBMcGZ4aFN2b1Z5b2FNQk56bjJrVGxFMzBEMk9kTGhxOG5EWU9lRlVfclhQTFgyMFh5cU5CdzVYaE1BelF0WEw4LU5GZw?oc=5",
+      "image": null,
+      "ts": 1788894429000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaGdHdXJpOEljWVdDWlBhWFFpS2w2YmtsSm5hUmkyanBIUWV2eWdEX0trcFpIRU1abHpTNjdTcHlNYWNOMWFQTjBvUDdscjVKc2k4a0hWSmxvZ0c1UWo4YWtkaFF5alY3UXFuOUZpZHByRHFQVkdCU2ZZT29kRTBMcGZ4aFN2b1Z5b2FNQk56bjJrVGxFMzBEMk9kTGhxOG5EWU9lRlVfclhQTFgyMFh5cU5CdzVYaE1BelF0WEw4LU5GZw?oc=5"
           }
         ]
       }
@@ -7315,59 +7454,6 @@
       }
     },
     {
-      "id": "d0bb3af6d132",
-      "title": "Ontario’s premier urges thaw in U.S.-Canada trade war: ‘We’re best friends.’ — After days of trading insults with President Donald Trump, Ontario Premier Doug Ford said it was vital for the American a",
-      "description": "Ontario Premier Doug Ford called for a rapid resolution of the U.S.–Canada trade dispute, emphasizing the need for a new trade agreement.",
-      "lat": 40.0,
-      "lng": -75.1348,
-      "severity": 2,
-      "location": "Washington, DC, United States",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/08/30/ontarios-premier-urges-thaw-us-canada-trade-war-were-best-friends/",
-      "image": null,
-      "ts": 1788126300000,
-      "coverage": {
-        "left": 3,
-        "center": 0,
-        "right": 2,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 0,
-          "lean_right": 0,
-          "right": 2
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/08/30/ontarios-premier-urges-thaw-us-canada-trade-war-were-best-friends/"
-          },
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/us-news/2026/aug/30/canada-trump-lake-ontario-name"
-          },
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/08/28/the-trouble-with-trump-s-attempt-to-rename-lake-ontario/"
-          },
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2243948/former-aid-chief-blames-donald-trump-nepal-flood"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/clips/2026/08/30/ontario-premier-ford-trump-renaming-lake-ontario-something-out-of-saturday-night-live/"
-          }
-        ]
-      }
-    },
-    {
       "id": "e172c6a0305b",
       "title": "Algeria Sends Fighter Jets to Support Niger After Failed Mutiny — Algeria said it deployed four fighter jets to support the military rulers of neighboring Niger after a failed mutiny over the weekend.",
       "description": "Algeria dispatched four fighter jets to Niger to back the ruling military junta following an attempted mutiny.",
@@ -7637,87 +7723,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/africa/libya-political-parties-set-2-year-elections-roadmap-at-un-led-talks"
-          }
-        ]
-      }
-    },
-    {
-      "id": "dc49b2f87007",
-      "title": "Banque Misr, Egypt’s second‑largest, hit by US sanctions",
-      "description": "The United States imposed sanctions on Egypt’s Banque Misr, targeting its international operations.",
-      "lat": 31.14,
-      "lng": 33.14519999999999,
-      "severity": 3,
-      "location": "Cairo, Egypt",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdVpaa01NWVFQODM2OUxJVE5tSnJSUlhmekJCMDhtTDBxSm9MTmZlV2RDU2w1N2VOaG9id0hrRDFWV2NWR1RnckFuRHZKbkJBMGN5clMwd2l1MnAzVEpEZU45MXZiNGppc1lzTV82bEhJQ0QtUk11ZW1ZaFc4ZDF3OGhFNW9uMVhiRWFOTC1EU1lRRkg1NWpLWWgyM055anJZazY5VlNvYVI1cjjSAbABQVVfeXFMT1RONi1CZGtoZHBkQVJBQVJ5bl8tTzQxN21ibzVBYld1a2VjNlR2dURXai1NVUJvVTlxalBKUmpoTWJqU3J6NlFHcEFHcUNHYVN4YTZzVXNPbGstXzUxcGVNcmJReXRvZDBRTTNkbUZjQzBaMWY0NDA3dlE5djFBMnhldjNmWUxPMHdnc3FHWkw3bllaODRiTVZEMTJBQng3YkpEZ0JhWWVyc01vVWNnUEU?oc=5",
-      "image": null,
-      "ts": 1788096519000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/08/30/world/middleeast/uae-banque-misr-treasury-iran.html"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdVpaa01NWVFQODM2OUxJVE5tSnJSUlhmekJCMDhtTDBxSm9MTmZlV2RDU2w1N2VOaG9id0hrRDFWV2NWR1RnckFuRHZKbkJBMGN5clMwd2l1MnAzVEpEZU45MXZiNGppc1lzTV82bEhJQ0QtUk11ZW1ZaFc4ZDF3OGhFNW9uMVhiRWFOTC1EU1lRRkg1NWpLWWgyM055anJZazY5VlNvYVI1cjjSAbABQVVfeXFMT1RONi1CZGtoZHBkQVJBQVJ5bl8tTzQxN21ibzVBYld1a2VjNlR2dURXai1NVUJvVTlxalBKUmpoTWJqU3J6NlFHcEFHcUNHYVN4YTZzVXNPbGstXzUxcGVNcmJReXRvZDBRTTNkbUZjQzBaMWY0NDA3dlE5djFBMnhldjNmWUxPMHdnc3FHWkw3bllaODRiTVZEMTJBQng3YkpEZ0JhWWVyc01vVWNnUEU?oc=5"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/08/29/us-due-to-cut-off-uae-branches-of-egypts-banque-misr-over-iran-ties/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "71c50b659ab6",
-      "title": "Iran's Supreme Leader Urges Gulf Rulers In Written Message To Confront 'Real Enemy'",
-      "description": "Ayatollah Khamenei calls on Gulf states to unite against what he describes as a common adversary.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/mojtaba-khamenei-gulf-countries-muslims_n_6a942095e4b05bad0588387f",
-      "image": null,
-      "ts": 1788092867000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 1,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/mojtaba-khamenei-gulf-countries-muslims_n_6a942095e4b05bad0588387f"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/politics/2026/08/30/irans-supreme-leader-khamenei-calls-for-gulf-unity-confront-real-enemy-u-s-israel/"
           }
         ]
       }
