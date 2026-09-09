@@ -1,28 +1,61 @@
 {
   "schema": 1,
-  "updated": "2026-09-09T00:07:53.380627+00:00",
+  "updated": "2026-09-09T05:10:17.546208+00:00",
   "events": [
     {
-      "id": "d0bb3af6d132",
-      "title": "Trump bans some Canada goods, imposes 50% tariffs on others",
-      "description": "The United States announced a 50 % tariff on a range of Canadian dairy, alcohol and motorcycle imports, escalating the trade dispute.",
-      "lat": 40.0,
-      "lng": -75.1348,
-      "severity": 3,
-      "location": "Washington, DC, United States",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3366840/trump-bans-some-canada-goods-puts-50-tariffs-others?utm_source=rss_feed",
+      "id": "5e20770411a5",
+      "title": "Adani Airport to raise $1 bn from BlackRock, Temasek and others",
+      "description": "India’s Adani Airports secured a $1 billion financing round led by global investors, expanding its aviation infrastructure portfolio.",
+      "lat": 23.03,
+      "lng": 72.58,
+      "severity": 2,
+      "location": "Ahmedabad, India",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/business-deals/india-s-adani-airport-to-raise-1bn-from-blackrock-temasek-and-others",
       "image": null,
-      "ts": 1788912109000,
+      "ts": 1788930617416,
       "coverage": {
-        "left": 1,
-        "center": 4,
+        "left": 0,
+        "center": 1,
         "right": 0,
-        "total": 5,
+        "total": 1,
         "buckets": {
           "left": 0,
-          "lean_left": 1,
-          "center": 4,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Nikkei Asia",
+            "b": "center",
+            "u": "https://asia.nikkei.com/business/business-deals/india-s-adani-airport-to-raise-1bn-from-blackrock-temasek-and-others"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d0bb3af6d132",
+      "title": "Trump escalates trade war with Canada with 50% tariffs",
+      "description": "The U.S. president announced new import bans and 50 % tariffs on a range of Canadian goods, heightening bilateral tensions.",
+      "lat": 40.0,
+      "lng": -75.1348,
+      "severity": 2,
+      "location": "Washington, DC, United States",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/trump-escalates-trade-war-with-canada-with-import-bans-50-tariffs/a-79195010?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1788930617415,
+      "coverage": {
+        "left": 3,
+        "center": 5,
+        "right": 0,
+        "total": 8,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 5,
           "lean_right": 0,
           "right": 0
         },
@@ -31,6 +64,16 @@
             "n": "Washington Post World",
             "b": "lean_left",
             "u": "https://www.washingtonpost.com/business/2026/09/08/trump-threatens-ban-bombardier-jet-sales-canadas-tariffs-take-effect/"
+          },
+          {
+            "n": "Business Insider",
+            "b": "lean_left",
+            "u": "https://www.businessinsider.com/trump-bans-alcohol-tariffs-cheese-us-canada-trade-war-escalation-2026-9"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/trump-bans-some-canada-goods-as-trade-war-swells/article71445399.ece"
           },
           {
             "n": "BBC Business",
@@ -43,14 +86,77 @@
             "u": "https://www.france24.com/en/tv-shows/spotlight/20260908-accelerating-diversification-canada-seeks-economic-sovereignty-amid-trump-s-nonsensical-posturing"
           },
           {
-            "n": "Google News Top",
+            "n": "DW News",
             "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxNc1BOQjh6RzR3NkhUTWNocHc3U2RzckMzVGdyMFVwR0JqS3JocTgtbFFwTkwtUU1pTURKNGNma3VpZmYtUExvaHZuYU8wZTlDSEFqemRLc0U0NzhyWUxtaDVxUUp1TW45TFU2MnY5WGhqNFVWd0RPWG1sV1J0N2x3LUFweTlPb0pjcm9YcW9oSS1uTk14cWVIWUJ2Z202Zw?oc=5"
+            "u": "https://www.dw.com/en/trump-escalates-trade-war-with-canada-with-import-bans-50-tariffs/a-79195010?maca=en-rss-en-all-1573-rdf"
           },
           {
-            "n": "South China Morning Post",
+            "n": "The Hill",
             "b": "center",
-            "u": "https://www.scmp.com/news/world/united-states-canada/article/3366840/trump-bans-some-canada-goods-puts-50-tariffs-others?utm_source=rss_feed"
+            "u": "https://thehill.com/business/6077886-trump-bans-canadian-dairy-vehicles/"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQnJtRUpGelY0MERSSWduZmpjMnhCZ0pkUmV2VzdnMHUzcnM3VEdzMXZfdDZhX0RNRkw2enRDYk1lWE1YZkhTMFVOT3lzd3pmcFVaX1UtSVVGeFA5VjRtamY5VnRQQldjd09FRnhGeWx3VDNhNmxia0RnZ1dRaGVMNmg4YVJzYVV1ekZqVDdYNmxpdVFwRm5id01sLWs2UnFGU0lXVDBpZmpNVm1uaUN1aU8xbDJCMVZUdzhGVw?oc=5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1e6c235f2b8",
+      "title": "Iranian tanker hit by U.S. attack near Iran’s Kharg Island",
+      "description": "Four U.S. missiles struck an Iranian tanker anchored near Kharg Island, marking a direct military strike.",
+      "lat": 28.96,
+      "lng": 52.68000000000001,
+      "severity": 4,
+      "location": "Kharg Island, Iran",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/explosions-in-kharg-island-area-of-gulf/article71431525.ece",
+      "image": null,
+      "ts": 1788930350000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 2,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 1,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/iran/us-strikes-3-iranian-oil-tankers-iran-targets-rcna596222"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/explosions-in-kharg-island-area-of-gulf/article71431525.ece"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20260908-middle-east-live-us-destroys-five-iranian-oil-tankers-as-iran-threatens-kuwait-and-bahrain"
+          },
+          {
+            "n": "Times of India World",
+            "b": "center",
+            "u": "https://timesofindia.indiatimes.com/world/middle-east/watch-us-strikes-5-iranian-oil-tankers-near-kharg-island-after-iran-targets-us-navy-ship/articleshow/133946004.cms"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/explosions-reported-on-irans-kharg-island-in-jask"
+          },
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2246791/donald-trump-launches-new-strikes"
           }
         ]
       }
@@ -2097,49 +2203,6 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/645177-witkoff-kushner-likely-brought-substantive-proposal-to-moscow-experts/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b1e6c235f2b8",
-      "title": "Iran threatens \"more painful\" retaliation after U.S. strikes Iranian oil tankers",
-      "description": "Iran warned of a stronger response after the United States attacked three Iranian oil tankers.",
-      "lat": 28.96,
-      "lng": 52.68000000000001,
-      "severity": 2,
-      "location": "Kharg Island, Iran",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diesel-gas-prices-labor-day/",
-      "image": null,
-      "ts": 1788720930000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/iran/us-strikes-3-iranian-oil-tankers-iran-targets-rcna596222"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diesel-gas-prices-labor-day/"
-          },
-          {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/newsroom/u-s-forces-strike-and-disable-3-iranian-oil-tankers-after-iran-targets-navy-warships/"
           }
         ]
       }
@@ -7690,39 +7753,6 @@
             "n": "Sky News World",
             "b": "center",
             "u": "https://news.sky.com/story/iceland-rejects-government-proposal-to-resume-eu-membership-talks-13578939"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f288bb9c7754",
-      "title": "Libya political parties set 2-year elections roadmap at UN-led talks",
-      "description": "Rival Libyan factions signed an agreement to hold national elections within two years, aiming to resolve political disputes.",
-      "lat": 32.88,
-      "lng": 13.19,
-      "severity": 2,
-      "location": "Tripoli, Libya",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/world/africa/libya-political-parties-set-2-year-elections-roadmap-at-un-led-talks",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/08/30/458409.JPG",
-      "ts": 1788104100000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/africa/libya-political-parties-set-2-year-elections-roadmap-at-un-led-talks"
           }
         ]
       }
