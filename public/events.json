@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-09-09T20:53:15.193137+00:00",
+  "updated": "2026-09-09T23:10:22.063652+00:00",
   "events": [
+    {
+      "id": "324a823f1c4c",
+      "title": "Finland: Google announces €13 billion AI, energy investment",
+      "description": "Google disclosed a €13 billion plan to build AI data centres in Finland and purchase large volumes of nuclear power, prompting security‑service warnings.",
+      "lat": 61.27,
+      "lng": 24.939999999999998,
+      "severity": 2,
+      "location": "Helsinki, Finland",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/finland-google-announces-€13-billion-ai-energy-investment/a-79208034?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1788995421904,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/finland-google-announces-€13-billion-ai-energy-investment/a-79208034?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "66bd5e33485e",
+      "title": "Nearly 11 mln barrels of oil transit Strait of Hormuz daily — US energy secretary",
+      "description": "U.S. officials reported that daily oil flows through the Strait of Hormuz have reached their highest level since the start of the regional conflict.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 3,
+      "location": "Strait of Hormuz",
+      "source": "TASS",
+      "url": "https://tass.com/economy/2185153",
+      "image": null,
+      "ts": 1788994625000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/data-graphics/strait-of-hormuz-ports-traffic-trump-us-iran-war-rcna331507"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/economy/2185153"
+          }
+        ]
+      }
+    },
+    {
+      "id": "877eb47b77c2",
+      "title": "Spanish intelligence warned of Ceuta mass crossing plans before surge",
+      "description": "Spanish and Moroccan authorities were alerted to social media calls for a mass migrant crossing, which resulted in tens of thousands entering Ceuta.",
+      "lat": 36.53,
+      "lng": -5.37,
+      "severity": 3,
+      "location": "Ceuta, Spain",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/ced7vj2gv82o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13d6/live/5b9af280-ac92-11f1-ab14-5b9069dc795d.jpg",
+      "ts": 1788989025000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/ced7vj2gv82o?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "4e7cbbb79fee",
       "title": "Ukraine leader Zelensky’s plane almost hit by drone on way to Oslo, Norway PM says",
@@ -69,6 +173,39 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/world/2185115"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4d4a8e7c9852",
+      "title": "West Africa Central Bank Holds Rates and Flags the Inflation Turn",
+      "description": "The BCEAO kept its main policy rate at 3.00% for the eight‑country CFA franc zone, signalling concerns over rising inflation.",
+      "lat": 14.69,
+      "lng": -17.44,
+      "severity": 2,
+      "location": "Dakar, Senegal",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/bceao-holds-rates-inflation-turn-september-2026/",
+      "image": null,
+      "ts": 1788978465000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/bceao-holds-rates-inflation-turn-september-2026/"
           }
         ]
       }
@@ -1764,74 +1901,6 @@
             "n": "NBC News World",
             "b": "lean_left",
             "u": "https://www.nbcnews.com/world/iran/iran-increases-gasoline-price-heaviest-consumers-economy-struggles-rcna596518"
-          }
-        ]
-      }
-    },
-    {
-      "id": "66bd5e33485e",
-      "title": "Oil prices surge as US-Iran strikes intensify in Strait of Hormuz",
-      "description": "Oil prices jumped to six‑week highs after U.S. and Iranian forces carried out strikes that disrupted tanker traffic in the Strait of Hormuz.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz?traffic_source=rss",
-      "image": null,
-      "ts": 1788815832000,
-      "coverage": {
-        "left": 4,
-        "center": 3,
-        "right": 1,
-        "total": 8,
-        "buckets": {
-          "left": 1,
-          "lean_left": 3,
-          "center": 3,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/ap-ml-iran-us-strait-of-hormuz-shirp-strike_n_6a9d5316e4b0facfe72a7886"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-oil-gas-price-strikes/"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/us-iran-war-how-iranian-money-is-still-moving-through-us-banks-despite-sanctions-12012740#publisher=newsstand"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz?traffic_source=rss"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/09/07/oil-prices-rise-to-6-week-high-after-iran-and-us-trade-blows-saudi-aramco-facilities-reportedly-hit.html"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSHB2QzR0OFdwR0JsU1l3XzRBc0k4dzN0Sy1GRkt2dFZQbTFfVDZJNktORnNVT3NfSjFWbTRsZ1lySE1uVE5qdVVhYnVSV3FMeUVfcnpPS0ZhbDRORXFSQmRabTdoTmNvd3JhN2IwMVBiZVZmbUVfVjFkTmdLUXNOVVVJYkdObFFiV0VnSE9jWnM5QWI1UUpZNHVBc0NCZURtOHNnQ3lfSXE?oc=5"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOc0FkU0lFTGVobHIwMThjWEhxeFIyUXhMNjk5Q0tjUjZ1d0o4ZmV0NldKWV9zc1QxMzNESnZQM2JCSE9PdzZiMjgxbF9hVVQ5M2hINUg0RW40MkJ0RzQtWHc4M2tMeTJWY1pKT00zekJMUUVEcXRYa095eVNkUk93cXFhX0hVVDBnZ0phX3Z3?oc=5"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/645201-iran-us-hormuz-rezaei/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
           }
         ]
       }
@@ -7639,110 +7708,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/europe/germany-blames-russia-for-drone-attack-orders-consulate-shut"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c5b0a8b77f1d",
-      "title": "U.S. Sanctions on Iran Cut Off Students From Tests Needed for Study Abroad",
-      "description": "New U.S. sanctions prevent Iranian students from accessing standardized tests required for overseas university admission.",
-      "lat": 36.79,
-      "lng": 53.295199999999994,
-      "severity": 3,
-      "location": "Tehran, Iran",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUFB2WEhDZXpkVE9oVFpDbXloMFdyMUJyaXp6d2lnSHNXc2lKS0l1Zm5XSTI3dWVWM1VBUXdkenBBQjh1SzRCZlQ0MjNsVS1PMl9OV280NFR5dXJOYkJnd3B0MWhEUW1vOGhmQndoeUhDMmNqSTU0RTVXVDN1bUZHaEhQSXRkbVVmYlp6Sg?oc=5",
-      "image": null,
-      "ts": 1788275057000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/09/01/world/middleeast/iran-study-abroad-sanctions.html"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUFB2WEhDZXpkVE9oVFpDbXloMFdyMUJyaXp6d2lnSHNXc2lKS0l1Zm5XSTI3dWVWM1VBUXdkenBBQjh1SzRCZlQ0MjNsVS1PMl9OV280NFR5dXJOYkJnd3B0MWhEUW1vOGhmQndoeUhDMmNqSTU0RTVXVDN1bUZHaEhQSXRkbVVmYlp6Sg?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4b8dc1d55008",
-      "title": "Vanuatu tries to take island dispute with France to U.N.'s top court",
-      "description": "Vanuatu seeks to bring a long‑standing dispute over two uninhabited islands with France before the International Court of Justice.",
-      "lat": 49.9566,
-      "lng": 2.3522000000000105,
-      "severity": 2,
-      "location": "Paris, France",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/vanuatu-tries-to-take-island-dispute-with-france-to-u-n-s-top-court",
-      "image": null,
-      "ts": 1788273656000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/vanuatu-tries-to-take-island-dispute-with-france-to-u-n-s-top-court"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2b9992e61347",
-      "title": "New US ‘precision’ missiles responsible for multiple civilian deaths in Iran – report",
-      "description": "Investigative reporting says a newly deployed U.S. precision strike missile caused civilian casualties in Iran, sparking international condemnation.",
-      "lat": 36.78,
-      "lng": 51.379999999999995,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "RT News",
-      "url": "https://www.rt.com/news/644978-us-iran-precision-missiles-civilian-deaths/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.09/thumbnail/6a96d10985f54023fc485aaa.jpg",
-      "ts": 1788273009000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/644978-us-iran-precision-missiles-civilian-deaths/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
           }
         ]
       }
