@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-09-10T19:14:19.529395+00:00",
+  "updated": "2026-09-10T21:50:49.905675+00:00",
   "events": [
+    {
+      "id": "1609b5e87dc3",
+      "title": "BRICS Summit marks dual milestones and tests limits of cohesion",
+      "description": "Leaders of the BRICS grouping gathered for their summit, discussing deeper economic cooperation and political coordination among the five member states.",
+      "lat": -26.2,
+      "lng": 28.04,
+      "severity": 2,
+      "location": "Johannesburg, South Africa",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/spotlight/policy-asia/brics-summit-marks-dual-milestones-and-tests-limits-of-cohesion",
+      "image": null,
+      "ts": 1789077049756,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Nikkei Asia",
+            "b": "center",
+            "u": "https://asia.nikkei.com/spotlight/policy-asia/brics-summit-marks-dual-milestones-and-tests-limits-of-cohesion"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5c17b62fcd43",
+      "title": "Peru joins the Americas Shield during Rubio's visit to Lima",
+      "description": "Peru announced it will become a member of the US‑backed Americas Shield security coalition against transnational organized crime after a meeting between President Keiko Fujimori and US Secretary of State Marco Rubio.",
+      "lat": -10.94,
+      "lng": -77.03,
+      "severity": 2,
+      "location": "Lima, Peru",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/09/10/peru-joins-the-americas-shield-during-rubio-s-visit-to-lima?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": "https://en.mercopress.com/data/cache/noticias/111437/100x80/keik.jpeg",
+      "ts": 1789076700000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/09/10/peru-joins-the-americas-shield-during-rubio-s-visit-to-lima?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "8e4a9c7c65f6",
       "title": "Israel says it destroyed Hezbollah tunnels in Ali al‑Taher ridge",
@@ -36,6 +102,79 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/09/israel-says-it-destroyed-hezbollah-tunnels-ali-al-taher-ridge-what-know"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3dea183577d4",
+      "title": "Iran‑backed Houthi forces seize Yemen’s Mocha port, threatening Red Sea shipping",
+      "description": "The Houthi militia captured the strategic port of Mocha in Yemen, advancing toward the Bab al‑Mandeb strait and raising concerns for global maritime trade.",
+      "lat": 15.18,
+      "lng": 44.29259999999999,
+      "severity": 3,
+      "location": "Mocha, Yemen",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/iran-backed-terror-groups-latest-territorial-grab-threatens-second-global-shipping-chokepoint",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/Houti-Attack-Sep-10-Yemen.jpg?ve=1&tl=1",
+      "ts": 1789067036000,
+      "coverage": {
+        "left": 2,
+        "center": 4,
+        "right": 3,
+        "total": 9,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 4,
+          "lean_right": 2,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/09/10/world/middleeast/yemens-houthis-seize-strategic-red-sea-port-officials-say.html"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/iran-backed-houthi-rebels-take-over-a-strategic-port-city-in-yemen-posing-a-new-threat-to-shipping/article71452799.ece"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/iran-backed-houthi-rebels-take-strategic-port-city-in-yemen-raising-threat-to-red-sea-shipping"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/yemen-houthis-take-control-of-strategic-red-sea-port-city/a-79220628?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUkxXc2JVVUxqdmJvWTRPQ3B4eUlfb1NhUHNzZ0pIWF9WZXBOSks2TFdNampOaVA0bnhvbmY3RFBYbW40aFRKaW5WbDBtQnJJeFIxc3ExamVPUE5nVXhDczZEWWJmcDBwZExXSVZWY3JXUjlqcm1mX3hXeGUtQWNJczJiS29qbFlOT3dIV2pzVnh1NThDc29fMEJqbGQtLV80VnM1SXhGQU1qRWkyWkxlaWg1eUhuQQ?oc=5"
+          },
+          {
+            "n": "Times of India World",
+            "b": "center",
+            "u": "https://timesofindia.indiatimes.com/world/middle-east/houthis-seize-yemens-strategic-red-sea-port-city-of-mokha-from-saudi-backed-forces/articleshow/134025249.cms"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/645399-yemen-houthis-port-city/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          },
+          {
+            "n": "Wall Street Journal World",
+            "b": "lean_right",
+            "u": "https://www.wsj.com/articles/shippers-wary-of-red-sea-routes-despite-houthi-pledge-to-end-targeting-4dde35c2"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/iran-backed-terror-groups-latest-territorial-grab-threatens-second-global-shipping-chokepoint"
           }
         ]
       }
@@ -312,6 +451,49 @@
       }
     },
     {
+      "id": "6f2f42109c83",
+      "title": "Zelenskyy’s plane almost blown up by drone in suspected Russian attack",
+      "description": "A drone was detected near the Ukrainian president’s aircraft en route to Norway, forcing the plane to land safely without casualties.",
+      "lat": 59.91,
+      "lng": 10.75,
+      "severity": 3,
+      "location": "Oslo, Norway",
+      "source": "Daily Star World",
+      "url": "https://www.dailystar.co.uk/news/latest-news/volodymyr-zelenskyys-plane-almost-blown-37648345",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37647973.ece/ALTERNATES/s615/5_Cda-Ukraine-Calgary-Canada-09-Sep-2026.jpg",
+      "ts": 1789049381000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/russian-drone-delayed-ukrainian-president-zelenskyys-plane-moldova-war-escalates-3807335"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQLUItb2UwbnNEdklTQTM2UjhaUWlVM0NiQWMtMEtfbjd2SG52eEoxaHc2aWNZb0VDdF90am40WnJJaWpCUFBERnVzOXBjSnF5M1VqOHl0Sk1YS1ZLSXNmMmVmWEVRTUFCWFBiVjBDMWdOSUwwOHpfTFA1STcxRDVuNG1TTHVmZ253aVZXMzAwbVB4WGdXTlVNRjI1NzNBaFhPRk92amdIcDZPLWRWU3d1N25Ibw?oc=5"
+          },
+          {
+            "n": "Daily Star World",
+            "b": "right",
+            "u": "https://www.dailystar.co.uk/news/latest-news/volodymyr-zelenskyys-plane-almost-blown-37648345"
+          }
+        ]
+      }
+    },
+    {
       "id": "430bb11498b2",
       "title": "Fueled by regional rivalries, Algeria severs diplomatic ties with UAE",
       "description": "Algerien bricht die diplomatischen Beziehungen zu den Vereinigten Arabischen Emiraten ab und wirft Abu Dhabi provokante und feindliche Handlungen vor.",
@@ -553,6 +735,39 @@
             "n": "Sky News World",
             "b": "center",
             "u": "https://news.sky.com/story/at-least-20-people-killed-after-fire-breaks-out-on-cargo-ship-in-china-port-13583942"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e11226df40f9",
+      "title": "Mutiny in Niger highlights Alliance of Sahel States' challenges",
+      "description": "A sudden mutiny erupted in Niger, exposing the fragility of the joint military force of the Alliance of Sahel States and raising concerns about regional security coordination.",
+      "lat": 14.62,
+      "lng": 4.015199999999993,
+      "severity": 3,
+      "location": "Niamey, Niger",
+      "source": "The Africa Report",
+      "url": "https://www.theafricareport.com/430368/mutiny-in-niger-5-questions-to-understand-why-the-aoss-left-tiani-on-his-own/",
+      "image": null,
+      "ts": 1789037139000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Africa Report",
+            "b": "center",
+            "u": "https://www.theafricareport.com/430368/mutiny-in-niger-5-questions-to-understand-why-the-aoss-left-tiani-on-his-own/"
           }
         ]
       }
@@ -7478,181 +7693,6 @@
             "n": "Financial Times World",
             "b": "center",
             "u": "https://www.ft.com/content/f73d918c-efc4-4cc0-b6d7-be97a2ef3288?syn-25a6b1a6=1"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1435bdf1025f",
-      "title": "Trump, 'Hormuz sotto controllo Usa, lo ribattezziamo Stretto di Trump?'",
-      "description": "President Trump warned that the United States has control over the Strait of Hormuz, implying a possible response to any threats.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 2,
-      "location": "Strait of Hormuz",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/02/trump-hormuz-sotto-controllo-usa-lo-ribattezziamo-stretto-di-trump_1b8cdf40-7408-4a5f-88d4-fcfe98d67b69.html",
-      "image": null,
-      "ts": 1788363265000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/02/trump-hormuz-sotto-controllo-usa-lo-ribattezziamo-stretto-di-trump_1b8cdf40-7408-4a5f-88d4-fcfe98d67b69.html"
-          },
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-09-02/usa-trump-iran-stretto-hormuz-38840521/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0e9cf972f5d0",
-      "title": "Vietnam arrests deputy minister over probe into huge bribes",
-      "description": "A deputy health minister was detained on suspicion of accepting large bribes linked to medical equipment smuggling.",
-      "lat": 21.02,
-      "lng": 105.85,
-      "severity": 3,
-      "location": "Hanoi, Vietnam",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3366153/vietnam-arrests-deputy-minister-over-probe-huge-bribes?utm_source=rss_feed",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/02/c20f6096-235f-4412-956c-530a9a7e4032_a8ed1c8f.jpg?itok=gE6EzVB6&v=1788362675",
-      "ts": 1788362680000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/asia/southeast-asia/article/3366153/vietnam-arrests-deputy-minister-over-probe-huge-bribes?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "fd2baf057fba",
-      "title": "5 questions on why tensions are flaring on the Senegal‑Gambia border",
-      "description": "A dispute over a demolished border wall has heightened diplomatic friction between Senegal and Gambia, with a joint commission seeking a settlement.",
-      "lat": 15.79,
-      "lng": -17.439999999999998,
-      "severity": 3,
-      "location": "Dakar, Senegal",
-      "source": "The Africa Report",
-      "url": "https://www.theafricareport.com/429501/5-questions-on-why-tensions-are-flaring-on-the-senegal-gambia-border/",
-      "image": null,
-      "ts": 1788357600000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Africa Report",
-            "b": "center",
-            "u": "https://www.theafricareport.com/429501/5-questions-on-why-tensions-are-flaring-on-the-senegal-gambia-border/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ce75d8f90b93",
-      "title": "Senegal and IMF Strike $2.2bn Deal, Two Years After Debt Scandal Froze Funding",
-      "description": "Senegal reaches a staff‑level agreement with the IMF for a new $2.2 billion lending programme.",
-      "lat": 15.79,
-      "lng": -15.53479999999999,
-      "severity": 2,
-      "location": "Dakar, Senegal",
-      "source": "All Africa",
-      "url": "https://allafrica.com/stories/202609020462.html",
-      "image": null,
-      "ts": 1788351825000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "All Africa",
-            "b": "center",
-            "u": "https://allafrica.com/stories/202609020462.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "bb900ccbda2c",
-      "title": "EU summons Russian envoy over failed Leipzig drone attack",
-      "description": "The EU’s foreign policy chief summoned the Russian ambassador after a drone attack in Leipzig was attributed to state‑sponsored terrorism.",
-      "lat": 56.85,
-      "lng": 37.620000000000005,
-      "severity": 3,
-      "location": "Moscow, Russia",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/eu-summons-russian-envoy-over-failed-leipzig-drone-attack/a-78687280?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1788349268008,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/2026/0902/1590018-foreign-ministers-meeting/"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/eu-summons-russian-envoy-over-failed-leipzig-drone-attack/a-78687280?maca=en-rss-en-all-1573-rdf"
           }
         ]
       }
