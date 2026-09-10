@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-09-09T23:10:22.063652+00:00",
+  "updated": "2026-09-10T01:25:15.844197+00:00",
   "events": [
     {
       "id": "324a823f1c4c",
@@ -69,6 +69,49 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/economy/2185153"
+          }
+        ]
+      }
+    },
+    {
+      "id": "666ad127fd54",
+      "title": "Oil tops $100 per barrel as U.S. and Iran launch new attacks",
+      "description": "The price of crude oil hit a 15‑week high after the United States said it blew up five Iranian oil tankers, prompting retaliation from Tehran.",
+      "lat": 35.6892,
+      "lng": 51.38900000000001,
+      "severity": 4,
+      "location": "Tehran, Iran",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-tankers-attacks-strikes-strait-of-hormuz-oil-price/",
+      "image": null,
+      "ts": 1788991619000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-tankers-attacks-strikes-strait-of-hormuz-oil-price/"
+          },
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/09/09/iran-us-base-jordan-oil-tankers-war-strikes/"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1JNm1pTmJIcTdoQzB1RXlGdFcwWlNBUmxRaUhxVzFDVWcxcjM0Z0lvTzBxMEt1a3lGTlplR2JENzlHVXZxMFlVVW8xX1pFN2c5WmtnTVl0U19PTFNLdG1wcUdKT1didXFaTVJKZG40WTE0NUg1R0JMVQ?oc=5"
           }
         ]
       }
@@ -7640,74 +7683,6 @@
             "n": "The Africa Report",
             "b": "center",
             "u": "https://www.theafricareport.com/429492/tanzania-vp-nchimbis-resignation-entrenches-samias-iron-first-rule/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2984b8d49a8f",
-      "title": "Attempted drone attack at German airport blamed on Russia",
-      "description": "Germany accuses Russia of an attempted explosive‑laden drone attack at Leipzig Airport.",
-      "lat": 52.44,
-      "lng": 14.285200000000003,
-      "severity": 3,
-      "location": "Leipzig, Germany",
-      "source": "Sky News World",
-      "url": "https://news.sky.com/story/attempted-drone-attack-at-leipzig-airport-blamed-on-russia-german-government-says-13579937",
-      "image": "https://e3.365dm.com/26/08/1920x1080/skynews-germany-leipzig-halle_7314592.jpg?20260805140142",
-      "ts": 1788277740000,
-      "coverage": {
-        "left": 2,
-        "center": 5,
-        "right": 1,
-        "total": 8,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 5,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/germany-blames-russia-months-attempted-drone-attack-leipzig-136117900"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/9/1/germany-accuses-russia-of-drone-attack-on-leipzig-airport?traffic_source=rss"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c5ylm3m67n2o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/germany-directly-blames-russia-attempted-drone-attack-airport-eu-anticipates-clear-response-3807032"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/world/2026/0901/1589996-germany-drone-attack-russia/"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/attempted-drone-attack-at-leipzig-airport-blamed-on-russia-german-government-says-13579937"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/germany-says-russia-behind-attempted-drone-attack-at-leipzig-airport/a-78584589?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/europe/germany-blames-russia-for-drone-attack-orders-consulate-shut"
           }
         ]
       }
