@@ -1,7 +1,187 @@
 {
   "schema": 1,
-  "updated": "2026-09-10T06:37:08.767026+00:00",
+  "updated": "2026-09-10T11:49:32.863816+00:00",
   "events": [
+    {
+      "id": "7811d3851d71",
+      "title": "S. Korea inks 640 bln-won deal to export 19 Chunmoo rocket launchers to Croatia",
+      "description": "Corea del Sur firmó un contrato para vender 18 lanzacohetes Chunmoo a Croacia, ampliando la cooperación de defensa entre ambos países.",
+      "lat": 45.81,
+      "lng": 15.98,
+      "severity": 2,
+      "location": "Zagreb, Croacia",
+      "source": "Yonhap News",
+      "url": "https://en.yna.co.kr/view/AEN20260910005600315",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2025/04/18/PYH2025041802030001300_P2.jpg",
+      "ts": 1789040139000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20260910005600315"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecca0d5faa6a",
+      "title": "Yemen's Houthis seize key city on Red Sea: military source",
+      "description": "Los Houthi capturaron la estratégica ciudad portuaria de Mokha en la costa del Mar Rojo, ampliando su control territorial.",
+      "lat": 13.53,
+      "lng": 44.73,
+      "severity": 3,
+      "location": "Mokha, Yemen",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/09/yemens-houthis-seize-key-city-red-sea-military-source",
+      "image": null,
+      "ts": 1789039833000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/09/10/world/middleeast/yemens-houthis-seize-strategic-red-sea-port-officials-say.html"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-908223"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNWdzb1JYOGV3bkxIQ0FoWUpXcHFiTWVmMEQxaW9IeDUya2E0UVVvS1J6V3NESXZhYnpOVlNRNTRCN0ZtcEZDS1dJb3VFOGlJTkFwOFJyLVFpN1pxSEdNbWV6WENVMVYtRVBsaGFJcjlwWWFqaXBtT01CdG5GeUNIY2ZIR00weWE2QldKY1dQYU00UEplMzVyc1lGbEJyUGNRcFAyek9QRDdIMjVtbmtPS1FMMXo?oc=5"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/09/yemens-houthis-seize-key-city-red-sea-military-source"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e3709cbe3059",
+      "title": "The Houthis are testing the limits of Saudi restraint",
+      "description": "Los rebeldes yemeníes Houthi intensifican ataques y amenazas contra Arabia Saudita, poniendo a prueba la política de disuasión saudí.",
+      "lat": 24.71,
+      "lng": 46.670000000000016,
+      "severity": 2,
+      "location": "Riyadh, Arabia Saudita",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/opinions/2026/9/10/the-houthis-are-testing-the-limits-of-saudi-restraint?traffic_source=rss",
+      "image": null,
+      "ts": 1789039043000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/opinions/2026/9/10/the-houthis-are-testing-the-limits-of-saudi-restraint?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "993fe1ec56a6",
+      "title": "At least 20 people killed after fire breaks out on cargo ship in China port",
+      "description": "Un incendio en un buque de carga atracado en un puerto chino provocó al menos 20 muertos y varios desaparecidos.",
+      "lat": 31.23,
+      "lng": 121.47,
+      "severity": 3,
+      "location": "Shanghai, China",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/at-least-20-people-killed-after-fire-breaks-out-on-cargo-ship-in-china-port-13583942",
+      "image": "https://e3.365dm.com/26/09/1920x1080/skynews-shandong-china-ocean-melody_7346969.jpg?20260910120840",
+      "ts": 1789037880000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/at-least-20-people-killed-after-fire-breaks-out-on-cargo-ship-in-china-port-13583942"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1740f321ab2d",
+      "title": "Japan demands correction to Equal Earth map over depiction of disputed islands",
+      "description": "Tokio solicitó a la editorial que corrija el mapa que muestra las Islas del Norte (Territorios del Norte) con el mismo color que territorio ruso, intensificando la disputa con Rusia.",
+      "lat": 43.06,
+      "lng": 141.35,
+      "severity": 2,
+      "location": "Moscú, Rusia",
+      "source": "Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/09/10/japan/japan-map-complaint/",
+      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/09/10/562486.jpg",
+      "ts": 1789034580000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/09/10/japan/japan-map-complaint/"
+          }
+        ]
+      }
+    },
     {
       "id": "aacdd93fb852",
       "title": "Nuova tegola sul gas, l'Australia tratterrà il 20% dell'export di Gnl",
@@ -7433,211 +7613,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/09/un-faces-contentious-iran-nuclear-vote-ahead-general-assembly"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f07424a5f8dc",
-      "title": "U.S. strikes Iran as Tehran retaliates, raising risk of wider war",
-      "description": "U.S. forces conduct additional strikes around the Strait of Hormuz in response to Iranian attacks on shipping and personnel.",
-      "lat": 27.67,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/09/01/us-strikes-iran-after-new-hormuz-strait-shipping-attacks-centcom.html",
-      "image": null,
-      "ts": 1788296210000,
-      "coverage": {
-        "left": 0,
-        "center": 3,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 3,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/09/01/us-strikes-iran-after-new-hormuz-strait-shipping-attacks-centcom.html"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/us-strikes-iran-again-strait-hormuz-tehran-vows-harsh-punishment-3807036"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/trump-says-latest-strikes-iran-are-justified-warns-tehran-against-retaliation"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/trump-says-iran-dead-experts-point-real-sign-tehran-nearing-brink"
-          }
-        ]
-      }
-    },
-    {
-      "id": "71e2227f4db6",
-      "title": "Netanyahu says Israel seized Hamas internal security chief in Gaza",
-      "description": "Israel announced the capture of the head of Hamas’s internal security apparatus in Gaza during a targeted operation.",
-      "lat": 31.52,
-      "lng": 34.46000000000001,
-      "severity": 3,
-      "location": "Gaza City, Gaza Strip",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/netanyahu-says-israel-seized-hamas-internal-security-chief-in-gaza/article71417072.ece",
-      "image": "https://th-i.thgim.com/public/incoming/o2s3hm/article71417073.ece/alternates/LANDSCAPE_1200/2026-08-24T184219Z_1225272422_RC2C0NAFZUJR_RTRMADP_3_IRAN-CRISIS-ISRAEL-NETANYAHU.JPG",
-      "ts": 1788291506000,
-      "coverage": {
-        "left": 2,
-        "center": 1,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/benjamin-netanyahu-says-israeli-forces-have-captured-hamas-security-chief-in-gaza-11989282#publisher=newsstand"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/netanyahu-says-israel-seized-hamas-internal-security-chief-in-gaza/article71417072.ece"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c1wxex4vg35o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/israel-captures-top-hamas-commander-gaza-strike-defense-minister-says"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c04f2f899b32",
-      "title": "Syria site infrastructure 'consistent with nuclear reactor': IAEA",
-      "description": "The IAEA reports that a Syrian site contains infrastructure consistent with a nuclear reactor, raising proliferation concerns.",
-      "lat": 34.61,
-      "lng": 36.28999999999999,
-      "severity": 3,
-      "location": "Damascus, Syria",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/09/syria-site-infrastructure-consistent-nuclear-reactor-iaea",
-      "image": null,
-      "ts": 1788291029000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/syria-site-infrastructure-consistent-nuclear-reactor-iaea"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0190726f99c3",
-      "title": "Senegal and IMF agree new $2.2 billion loan programme",
-      "description": "Senegal reaches a fresh $2.2 billion financing agreement with the International Monetary Fund to support its economy.",
-      "lat": 14.69,
-      "lng": -17.44,
-      "severity": 2,
-      "location": "Dakar, Senegal",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/09/01/senegal-and-imf-agree-new-22-billion-loan-programme/",
-      "image": "http://images.euronews.com/articles/stories/09/89/76/25/640x360_cmsv2_e03cbb43-babf-55ee-b0a3-50d7ed1671bf-9897625.jpg?1788278257",
-      "ts": 1788290489000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/09/01/senegal-and-imf-agree-new-22-billion-loan-programme/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "22b8bcc17d53",
-      "title": "Syria was building nuclear reactor in Deir el‑Zour under Assad, UN report finds",
-      "description": "UN nuclear watchdog confirms a site in Deir ez‑Zor consistent with a nuclear reactor built under the Assad regime.",
-      "lat": 35.33,
-      "lng": 40.15,
-      "severity": 3,
-      "location": "Deir ez‑Zor, Syria",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3366033/syria-was-building-nuclear-reactor-deir-el-zour-under-assad-un-report-finds?utm_source=rss_feed",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/02/f9d17667-3a43-4486-95bf-da221dbb3021_7a3f4510.jpg?itok=XVkro-ZG&v=1788287006",
-      "ts": 1788287014000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/report-finds-syria-building-nuclear-reactor-deir-el-136120506"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/middle-east/article/3366033/syria-was-building-nuclear-reactor-deir-el-zour-under-assad-un-report-finds?utm_source=rss_feed"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/mid-east/syria-built-nuclear-reactor-under-assad-iaea-confirms"
           }
         ]
       }
