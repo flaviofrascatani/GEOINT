@@ -1,7 +1,60 @@
 {
   "schema": 1,
-  "updated": "2026-09-11T20:00:09.544119+00:00",
+  "updated": "2026-09-11T22:30:40.698617+00:00",
   "events": [
+    {
+      "id": "35e67d8cee94",
+      "title": "North Korea fires unidentified projectile toward East Sea",
+      "description": "North Korea launched an unidentified projectile toward the sea east of the Korean Peninsula, prompting a warning from South Korea.",
+      "lat": 39.03,
+      "lng": 125.75,
+      "severity": 3,
+      "location": "Pyongyang, North Korea",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/east-asia/north-korea-launches-unidentified-projectile-toward-east-sea",
+      "image": null,
+      "ts": 1789161972000,
+      "coverage": {
+        "left": 0,
+        "center": 3,
+        "right": 2,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 3,
+          "lean_right": 2,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20260912000351315"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/east-asia/north-korea-launches-unidentified-projectile-toward-east-sea-6379606"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/east-asia/north-korea-launches-unidentified-projectile-toward-east-sea"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2186487"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/asia-pacific/north-korea-fires-unidentified-projectile-toward-eastern-sea"
+          }
+        ]
+      }
+    },
     {
       "id": "196e5ad23ea0",
       "title": "Diesel hits record $6 a gallon as Iran‑backed Houthis take key Red Sea territory",
@@ -609,6 +662,39 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/09/11/ebola-kisangani-gets-new-treatment-centre-as-authorities-scale-capacity/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ad0910a0aca2",
+      "title": "Huge security operation under way ahead of Trump visit",
+      "description": "Irish authorities deployed a massive security operation in preparation for U.S. President Donald Trump's visit to Ireland.",
+      "lat": 53.35,
+      "lng": -6.26,
+      "severity": 3,
+      "location": "Dublin, Ireland",
+      "source": "RTE News",
+      "url": "https://www.rte.ie/news/dublin/2026/0911/1591140-trump-visit-travel-disruption/",
+      "image": "https://www.rte.ie/images/0024fdbf-800.jpg",
+      "ts": 1789116090000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/dublin/2026/0911/1591140-trump-visit-travel-disruption/"
           }
         ]
       }
@@ -7762,77 +7848,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/09/israel-release-5-lebanese-prisoners-ahead-next-talks-what-know"
-          }
-        ]
-      }
-    },
-    {
-      "id": "75a9a44a181b",
-      "title": "Body of convicted war criminal Ratko Mladic to be flown to Serbia, president says",
-      "description": "Serbian authorities will transport the remains of Ratko Mladic back to Serbia for burial.",
-      "lat": 44.81,
-      "lng": 20.46,
-      "severity": 2,
-      "location": "Belgrade, Serbia",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/body-convicted-war-criminal-ratko-mladic-flown-serbia-136173287",
-      "image": "https://s.abcnews.com/images/International/wirestory_4ea91c7519dccd18d56e2532e01eb535_4x3_384.jpg",
-      "ts": 1788444340000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/body-convicted-war-criminal-ratko-mladic-flown-serbia-136173287"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/serbia-how-the-funeral-of-ratko-mladic-is-dividing-a-nation/a-78948890?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e721fd24d1f4",
-      "title": "Ukrainian intel agencies in Kyiv firefight: What happened and why?",
-      "description": "Three Ukrainian intelligence officers were wounded in a shootout in Kyiv, marking a rare direct clash between security forces and armed assailants.",
-      "lat": 50.45,
-      "lng": 32.42519999999999,
-      "severity": 3,
-      "location": "Kyiv, Ukraine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/3/ukrainian-intel-agencies-in-kyiv-firefight-what-happened-and-why?traffic_source=rss",
-      "image": null,
-      "ts": 1788443642000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/9/3/ukrainian-intel-agencies-in-kyiv-firefight-what-happened-and-why?traffic_source=rss"
           }
         ]
       }
