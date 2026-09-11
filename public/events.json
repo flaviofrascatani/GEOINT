@@ -1,7 +1,50 @@
 {
   "schema": 1,
-  "updated": "2026-09-11T13:32:20.496027+00:00",
+  "updated": "2026-09-11T17:10:39.094621+00:00",
   "events": [
+    {
+      "id": "a075853292d7",
+      "title": "India Hosts BRICS Leaders' Summit 2026",
+      "description": "India convened leaders of the BRICS bloc in New Delhi, discussing cooperation and new payment systems.",
+      "lat": 28.6139,
+      "lng": 77.209,
+      "severity": 2,
+      "location": "New Delhi, India",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-11/india-hosts-brics-leaders-summit-2026-video",
+      "image": null,
+      "ts": 1789145636000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/09/11/world/asia/china-india-brics-summit.html"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/china-keeps-up-suspense-over-xis-india-visit-48-hours-ahead-of-brics-summit-12027512#publisher=newsstand"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/videos/2026-09-11/india-hosts-brics-leaders-summit-2026-video"
+          }
+        ]
+      }
+    },
     {
       "id": "63e280d2b071",
       "title": "Russian strikes kill two in Kyiv as Moscow targets capital’s fuel stations",
@@ -37,27 +80,27 @@
     },
     {
       "id": "2156e1dffc06",
-      "title": "Houthis Seize Key Red Sea Island, Complete Push To Control Bab Al-Mandeb Area",
-      "description": "Houthi fighters captured a strategic island near the Bab al‑Mandeb strait, consolidating their control over the vital shipping lane.",
+      "title": "Iran-backed Houthis seize Red Sea coastline, tightening grip on vital shipping lane",
+      "description": "Houthis captured key points along Yemen’s Red Sea coast, gaining control of the Bab al‑Mandab strait.",
       "lat": 11.6274,
       "lng": 43.849999999999994,
-      "severity": 3,
+      "severity": 4,
       "location": "Perim Island, Yemen",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/houthis-seize-key-red-sea-island-complete-push-to-control-bab-al-mandeb-area-12033833#publisher=newsstand",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/world/middle-east/houthis-control-bab-el-mandeb-yemen-red-sea-saudi-iran-war-oil-rcna597186",
       "image": "https://c.ndtvimg.com/2026-07/kjq7j2gs_red-sea_625x300_27_July_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
       "ts": 1789131517000,
       "coverage": {
-        "left": 6,
-        "center": 4,
-        "right": 2,
-        "total": 12,
+        "left": 4,
+        "center": 5,
+        "right": 0,
+        "total": 9,
         "buckets": {
           "left": 0,
-          "lean_left": 6,
-          "center": 4,
-          "lean_right": 1,
-          "right": 1
+          "lean_left": 4,
+          "center": 5,
+          "lean_right": 0,
+          "right": 0
         },
         "sources": [
           {
@@ -76,19 +119,9 @@
             "u": "https://www.cbsnews.com/live-updates/iran-war-diesel-price-record-houthis-red-sea/"
           },
           {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/houthis-seize-key-red-sea-island-complete-push-to-control-bab-al-mandeb-area-12033833#publisher=newsstand"
-          },
-          {
             "n": "Al Jazeera",
             "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/9/11/houthis-take-control-of-yemens-red-sea-coast-key-shipping-route?traffic_source=rss"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/west-asia-conflict-us-iran-war-live-updates-houthis-iran-red-sea-strait-of-hormuz-september-11-2026/article71455463.ece"
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/9/11/houthis-declare-red-sea-shipping-safe-except-for-saudi-vessels?traffic_source=rss"
           },
           {
             "n": "CNBC World",
@@ -101,9 +134,9 @@
             "u": "https://www.axios.com/2026/09/11/houthis-yemen-saudi-trump-mbs-strikes"
           },
           {
-            "n": "Financial Times World",
+            "n": "France 24",
             "b": "center",
-            "u": "https://www.ft.com/content/976fa0d6-ed09-4a6f-be02-ff4317b45f40?syn-25a6b1a6=1"
+            "u": "https://www.france24.com/en/middle-east/20260911-middle-east-live-trump-says-he-has-no-regrets-about-launching-war-on-iran"
           },
           {
             "n": "DW News",
@@ -111,14 +144,9 @@
             "u": "https://www.dw.com/en/yemen-houthis-tighten-control-of-strategic-red-sea-towns/a-79220628?maca=en-rss-en-all-1573-rdf"
           },
           {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/645399-yemen-houthis-port-city/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/world/4723436/iran-backed-houthis-taken-key-island-bab-el-mandeb-strait-yemen/"
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/09/houthis-advance-along-yemeni-coast-threaten-saudi-oil-exports-red-sea"
           }
         ]
       }
@@ -7660,39 +7688,6 @@
             "n": "Washington Examiner",
             "b": "right",
             "u": "https://www.washingtonexaminer.com/news/4711258/southern-command-sinks-refueling-vessel-los-choneros-terrorist-organization/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f6fa729a8734",
-      "title": "N. Korea drops unification goal, cements Kim as sole leader in revised party charter",
-      "description": "North Korea’s Workers’ Party removed references to peaceful reunification, solidifying Kim Jong‑un’s sole leadership in the new charter.",
-      "lat": 40.13,
-      "lng": 125.75,
-      "severity": 2,
-      "location": "Pyongyang, North Korea",
-      "source": "Yonhap News",
-      "url": "https://en.yna.co.kr/view/AEN20260903006000315",
-      "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/03/AEN20260903006000315_02_i_P2.jpg",
-      "ts": 1788410937000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20260903006000315"
           }
         ]
       }
