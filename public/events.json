@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-09-11T00:04:25.032726+00:00",
+  "updated": "2026-09-11T04:32:09.785276+00:00",
   "events": [
     {
       "id": "9a7ce966d981",
@@ -269,6 +269,54 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/09/israel-says-it-destroyed-hezbollah-tunnels-ali-al-taher-ridge-what-know"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0a6585cdef2e",
+      "title": "Iran-backed Houthi forces seized Yemen's Mocha port and advanced toward Bab el-Mandeb",
+      "description": "The militia captured the strategic port of Mocha, threatening Red Sea shipping lanes and prompting a surge in oil prices.",
+      "lat": 13.28,
+      "lng": 43.25,
+      "severity": 4,
+      "location": "Mocha, Yemen",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/iran-backed-terror-groups-latest-territorial-grab-threatens-second-global-shipping-chokepoint",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/Houti-Attack-Sep-10-Yemen.jpg?ve=1&tl=1",
+      "ts": 1789067036000,
+      "coverage": {
+        "left": 0,
+        "center": 3,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 3,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20260910-yemen-houthis-city-red-sea-iran"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNWRYSVQ3NTI0em1SZDNNMlFJS1YtZnNsUHFQdWhuVkM3ajdsdXVubnlmQk1QUllqZm9VUEctOThDRkVOSjNtOGtWNEJzY0xJOVhHeWxVSUU3ZGVZeUVUSGI0NzJhd1lUSTBudzJ5U21WY0RDM3ZUWGZEMVNnTTcwMHlXTGltdldkejBUdU1iNk1XamFTV1ZBblVzeC10VVU?oc=5"
+          },
+          {
+            "n": "AGI Estero",
+            "b": "center",
+            "u": "https://www.agi.it/estero/news/2026-09-10/houthi-avanzano-baeb-el-mandeb-38988071/"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/iran-backed-terror-groups-latest-territorial-grab-threatens-second-global-shipping-chokepoint"
           }
         ]
       }
@@ -763,6 +811,39 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/09/yemens-houthis-seize-key-city-red-sea-military-source"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4cdded90c95f",
+      "title": "China says it hopes to agree with US on tariff reductions 'at an early date'",
+      "description": "Chinese officials expressed optimism about reaching a bilateral agreement with the United States to lower import tariffs soon.",
+      "lat": 38.9,
+      "lng": -77.04,
+      "severity": 2,
+      "location": "Washington, DC, USA",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/china-hopes-agree-us-tariff-reductions-early-date-136328623",
+      "image": "https://s.abcnews.com/images/US/wirestory_f2066bf9ae668afd3a5a2a0658748b4f_4x3_384.jpg",
+      "ts": 1789039337000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/china-hopes-agree-us-tariff-reductions-early-date-136328623"
           }
         ]
       }
@@ -7592,102 +7673,6 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/news/2026/9/2/uss-abraham-lincoln-reaches-thailand-after-9-months-at-sea?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "91cd5158549f",
-      "title": "Russia threatens strikes on Germany and hints at taking out Western leaders",
-      "description": "Medvedev warned Germany of a direct strike after accusations of a drone attack at Leipzig/Halle Airport.",
-      "lat": 52.52,
-      "lng": 12.240000000000009,
-      "severity": 2,
-      "location": "Leipzig/Halle, Germany",
-      "source": "Mirror World",
-      "url": "https://www.mirror.co.uk/news/world-news/russia-germany-dmitry-medvedev-threats-37620739",
-      "image": null,
-      "ts": 1788371275000,
-      "coverage": {
-        "left": 3,
-        "center": 2,
-        "right": 2,
-        "total": 7,
-        "buckets": {
-          "left": 1,
-          "lean_left": 2,
-          "center": 2,
-          "lean_right": 0,
-          "right": 2
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/russia-drone-attack-german-airport_n_6a96feaae4b087cf7efeaf21"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/eus-kallas-calls-alleged-russian-drone-plot-state-136136530"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/russia-germany-dmitry-medvedev-threats-37620739"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/ce9e810pg7ko?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/russia-s-hybrid-attacks-on-germany-when-is-it-war/a-78784262?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/germany-blames-russia-explosive-laden-drone-found-near-ukrainian-cargo-planes-major-airport"
-          },
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2244875/horror-warning-russia-could-invade"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f8e242decfba",
-      "title": "U.S. and Iran survey the damage after a night of intense strikes",
-      "description": "Both sides inspected the aftermath of a series of missile and drone strikes exchanged over the Strait of Hormuz.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/09/02/world/middleeast/us-iran-strikes.html",
-      "image": "https://static01.nyt.com/images/2026/09/02/multimedia/02iran-US-Strikes-01-hpkv/02iran-US-Strikes-01-hpkv-mediumSquareAt3X.jpg",
-      "ts": 1788370737000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/09/02/world/middleeast/us-iran-strikes.html"
           }
         ]
       }
