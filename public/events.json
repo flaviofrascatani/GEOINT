@@ -1,7 +1,161 @@
 {
   "schema": 1,
-  "updated": "2026-09-11T09:06:06.984556+00:00",
+  "updated": "2026-09-11T13:32:20.496027+00:00",
   "events": [
+    {
+      "id": "63e280d2b071",
+      "title": "Russian strikes kill two in Kyiv as Moscow targets capital’s fuel stations",
+      "description": "Two civilians were killed when Russian missiles hit fuel stations in Kyiv, marking a new campaign against civilian infrastructure.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 3,
+      "location": "Kyiv, Ukraine",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/11/russian-strikes-kill-two-in-kyiv-as-moscow-targets-capitals-fuel-stations?traffic_source=rss",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/zelenskyy-kushner-witkoff-kyiv-talks.jpg?ve=1&tl=1",
+      "ts": 1789132184000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/9/11/russian-strikes-kill-two-in-kyiv-as-moscow-targets-capitals-fuel-stations?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2156e1dffc06",
+      "title": "Houthis Seize Key Red Sea Island, Complete Push To Control Bab Al-Mandeb Area",
+      "description": "Houthi fighters captured a strategic island near the Bab al‑Mandeb strait, consolidating their control over the vital shipping lane.",
+      "lat": 11.6274,
+      "lng": 43.849999999999994,
+      "severity": 3,
+      "location": "Perim Island, Yemen",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/houthis-seize-key-red-sea-island-complete-push-to-control-bab-al-mandeb-area-12033833#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-07/kjq7j2gs_red-sea_625x300_27_July_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1789131517000,
+      "coverage": {
+        "left": 6,
+        "center": 4,
+        "right": 2,
+        "total": 12,
+        "buckets": {
+          "left": 0,
+          "lean_left": 6,
+          "center": 4,
+          "lean_right": 1,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/09/11/world/middleeast/yemen-houthis-bab-al-mandab.html"
+          },
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/middle-east/houthis-control-bab-el-mandeb-yemen-red-sea-saudi-iran-war-oil-rcna597186"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-diesel-price-record-houthis-red-sea/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/houthis-seize-key-red-sea-island-complete-push-to-control-bab-al-mandeb-area-12033833#publisher=newsstand"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/9/11/houthis-take-control-of-yemens-red-sea-coast-key-shipping-route?traffic_source=rss"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/west-asia-conflict-us-iran-war-live-updates-houthis-iran-red-sea-strait-of-hormuz-september-11-2026/article71455463.ece"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/09/11/iran-houthis-mokha-red-sea-yemen.html"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/09/11/houthis-yemen-saudi-trump-mbs-strikes"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/976fa0d6-ed09-4a6f-be02-ff4317b45f40?syn-25a6b1a6=1"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/yemen-houthis-tighten-control-of-strategic-red-sea-towns/a-79220628?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/645399-yemen-houthis-port-city/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4723436/iran-backed-houthis-taken-key-island-bab-el-mandeb-strait-yemen/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "96adc71a2c5d",
+      "title": "Koizumi says Japan not ruling out nuclear subs, days after U.S. offers positive view",
+      "description": "Japanese Defense Minister Shinjiro Koizumi stated Japan will keep all options open, including nuclear‑powered submarines, to strengthen its defence.",
+      "lat": 36.78,
+      "lng": 139.76,
+      "severity": 2,
+      "location": "Tokyo, Japan",
+      "source": "Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/09/11/japan/koizumi-japan-us-nuclear-submarines/",
+      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/09/11/562643.jpg",
+      "ts": 1789126140000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/09/11/japan/koizumi-japan-us-nuclear-submarines/"
+          }
+        ]
+      }
+    },
     {
       "id": "ba4cd464150b",
       "title": "Xi in India, bank capital injections, EU‑China trade",
@@ -217,25 +371,25 @@
     },
     {
       "id": "3dea183577d4",
-      "title": "Yemen's Iran-backed Houthi rebels seize strategic Red Sea port city of Mocha",
-      "description": "Houthi forces captured the Red Sea port of Mocha, intensifying their offensive against Saudi‑backed Yemeni government forces and threatening maritime traffic.",
+      "title": "Iran-Backed Houthi Rebels Take Over A Strategic Port City In Yemen, Posing A New Threat To Shipping",
+      "description": "Houthi forces captured the Red Sea port city of Mokha, gaining control of a key maritime hub.",
       "lat": 15.18,
       "lng": 44.29259999999999,
-      "severity": 4,
+      "severity": 3,
       "location": "Mocha, Yemen",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/middle-east/20260910-yemen-houthis-city-red-sea-iran",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/ap-ml-yemen-houthi-rebels-port-city_n_6aa2d64fe4b06fbaa80f7d41",
       "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/Houti-Attack-Sep-10-Yemen.jpg?ve=1&tl=1",
       "ts": 1789080918000,
       "coverage": {
         "left": 1,
-        "center": 4,
+        "center": 2,
         "right": 1,
-        "total": 6,
+        "total": 4,
         "buckets": {
           "left": 1,
           "lean_left": 0,
-          "center": 4,
+          "center": 2,
           "lean_right": 1,
           "right": 0
         },
@@ -246,29 +400,19 @@
             "u": "https://www.huffpost.com/entry/ap-ml-yemen-houthi-rebels-port-city_n_6aa2d64fe4b06fbaa80f7d41"
           },
           {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/middle-east/20260910-yemen-houthis-city-red-sea-iran"
-          },
-          {
             "n": "DW News",
             "b": "center",
-            "u": "https://www.dw.com/en/yemen-houthis-take-control-of-strategic-red-sea-port-city/a-79220628?maca=en-rss-en-all-1573-rdf"
+            "u": "https://www.dw.com/en/iran-war-saudi-houthi-escalation-intensifies-yemen-conflict/a-79226627?maca=en-rss-en-all-1573-rdf"
           },
           {
-            "n": "Google News Top",
+            "n": "GNews Geopolitics",
             "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUkxXc2JVVUxqdmJvWTRPQ3B4eUlfb1NhUHNzZ0pIWF9WZXBOSks2TFdNampOaVA0bnhvbmY3RFBYbW40aFRKaW5WbDBtQnJJeFIxc3ExamVPUE5nVXhDczZEWWJmcDBwZExXSVZWY3JXUjlqcm1mX3hXeGUtQWNJczJiS29qbFlOT3dIV2pzVnh1NThDc29fMEJqbGQtLV80VnM1SXhGQU1qRWkyWkxlaWg1eUhuQQ?oc=5"
-          },
-          {
-            "n": "Times of India World",
-            "b": "center",
-            "u": "https://timesofindia.indiatimes.com/world/middle-east/houthis-seize-yemens-strategic-red-sea-port-city-of-mokha-from-saudi-backed-forces/articleshow/134025249.cms"
+            "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSEktSm1yT29OUHRmUXVjZzdaOFJ0dkFsYnJHaEpuZXhQaUV2WWJxREJZSjZfTWVHSEhoVTlYQ0ZiVElLcU5tMy02S040YzRyY2g0NU44ME1WQkFIcnU3cFl4TmNEZ1JtcXBJNGFKU0tCOEtCYXhHWDBNb081c0ZkQ3oxS0Z1R0Y3VEU5aHJEZ2M5T3FLX05Z0gGXAUFVX3lxTFB2V1BGaWc2MHVZTDUxMzRTRGJNcVlzcEFqR1Z5eTVnNVNuWlBLS2pIaTR1akYwQnZCZ0tJQ1F4RlVUUm80UXQtbldieENyU0pPRFl2RDFKamxzQ0RtOElBTTJTcE5rbDdLbWdxX2RnQ3hqZVJ6akJXa2VwS0taYVBSOXctRlpZZDRrNDhsSUFvMVNhUHpFbEU?oc=5"
           },
           {
             "n": "Wall Street Journal World",
             "b": "lean_right",
-            "u": "https://www.wsj.com/articles/shippers-wary-of-red-sea-routes-despite-houthi-pledge-to-end-targeting-4dde35c2"
+            "u": "https://www.wsj.com/articles/rwanda-backed-rebels-enter-congo-safe-haven-city-aid-hub-09fdccb8"
           }
         ]
       }
@@ -314,10 +458,10 @@
     {
       "id": "90ce4912ae47",
       "title": "How the U.S. Treasury's New Aviation Sanctions on Iran Extend Beyond Tehran",
-      "description": "The United States imposed new aviation sanctions targeting Iranian airlines and related entities, expanding pressure on Tehran’s air sector.",
+      "description": "The U.S. Treasury imposed new aviation sanctions targeting Iranian airlines and related entities, tightening economic pressure on Tehran.",
       "lat": 36.79,
       "lng": 51.389999999999986,
-      "severity": 2,
+      "severity": 3,
       "location": "Tehran, Iran",
       "source": "GNews Geopolitics",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaFhUYUhHOUpHTEZrTmhmbllNR0s4WXJxZUlLZnVadWxmbXE5NGV0a2xzd3NLNDBRcW0wR2laRnpGUUNxTkppeW9CdzhZRFNjY1gyQWRIcTZMZFFqOGRseGE1TmxwSW9nMTdTNmVfcTMwSzd1bkZwOW85SUhMUVpZMEJlS05sX05rNGsxc1AzWEVjVm4wTmhYVEZ3?oc=5",
@@ -3143,54 +3287,6 @@
             "n": "The Hindu International",
             "b": "lean_left",
             "u": "https://www.thehindu.com/news/international/us-sinks-an-ecuadorian-ship-in-the-pacific-it-alleges-is-tied-to-drug-trafficking/article71441244.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "63e280d2b071",
-      "title": "Russian strikes continue following visit by Witkoff and Kushner to Kyiv",
-      "description": "Russia launched ballistic and cruise missiles at Kyiv shortly after envoys Steve Witkoff and Jared Kushner arrived for peace negotiations.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 4,
-      "location": "Kyiv, Ukraine",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/russian-strikes-continue-following-visit-witkoff-kushner-kyiv",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/zelenskyy-kushner-witkoff-kyiv-talks.jpg?ve=1&tl=1",
-      "ts": 1788841539000,
-      "coverage": {
-        "left": 2,
-        "center": 1,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 1,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/witkoff-kushner-arrive-kyiv-russia-ukraine-war_n_6a9d7f8ee4b0facfe72a8308"
-          },
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/09/06/world/europe/ukraine-zelensky-witkoff-kushner-russia-putin.html"
-          },
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/09/06/witkoff-kushner-kyiv-ukraine-peace-talks"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/russian-strikes-continue-following-visit-witkoff-kushner-kyiv"
           }
         ]
       }
@@ -7597,72 +7693,6 @@
             "n": "Yonhap News",
             "b": "center",
             "u": "https://en.yna.co.kr/view/AEN20260903006000315"
-          }
-        ]
-      }
-    },
-    {
-      "id": "758a915fbebc",
-      "title": "Witkoff meets powerful UAE official amid crackdown on Iran",
-      "description": "U.S. envoy Steve Witkoff held talks with the UAE national security adviser to coordinate policy on Iran.",
-      "lat": 24.47,
-      "lng": 54.37,
-      "severity": 2,
-      "location": "Abu Dhabi, United Arab Emirates",
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/09/02/witkoff-uae-iran-war-trump-bessent",
-      "image": "https://images.axios.com/-xvOVAerZjDKAByGE46NhcTJHTo=/0x0:2464x1386/1366x768/2026/09/02/1788378636620.jpeg",
-      "ts": 1788385889000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/09/02/witkoff-uae-iran-war-trump-bessent"
-          }
-        ]
-      }
-    },
-    {
-      "id": "346005296b48",
-      "title": "Kiev troops shell DPR 28 times in past day, four killed",
-      "description": "Ukrainian forces fired on the self‑declared Donetsk People's Republic, damaging infrastructure and causing civilian deaths.",
-      "lat": 49.11,
-      "lng": 37.80000000000001,
-      "severity": 4,
-      "location": "Donetsk, Ukraine",
-      "source": "TASS",
-      "url": "https://tass.com/politics/2181521",
-      "image": null,
-      "ts": 1788385615000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/politics/2181521"
           }
         ]
       }
