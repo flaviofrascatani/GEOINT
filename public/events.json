@@ -1,7 +1,144 @@
 {
   "schema": 1,
-  "updated": "2026-09-12T09:13:53.443015+00:00",
+  "updated": "2026-09-12T13:05:58.136857+00:00",
   "events": [
+    {
+      "id": "663dd2cfda51",
+      "title": "Iran-backed Houthis tighten grip on key oil shipping lane",
+      "description": "Los rebeldes hutíes intensifican su control del estrecho de Bab el-Mandeb, dificultando el paso de buques petroleros hacia Arabia Saudita.",
+      "lat": 12.5,
+      "lng": 43.0,
+      "severity": 2,
+      "location": "Estrecho de Bab el-Mandeb",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-diesel-price-record-houthis-red-sea/",
+      "image": null,
+      "ts": 1789217990000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/video/iran-backed-houthis-take-control-of-red-sea-coastline-in-yemen-269743173909"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-diesel-price-record-houthis-red-sea/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c22d1e123630",
+      "title": "Trump envoys arrive in Kyiv in new push to end Russia’s war",
+      "description": "Un equipo de alto nivel del presidente estadounidense aterriza en Kiev para discutir una posible solución diplomática al conflicto en Ucrania.",
+      "lat": 51.5501,
+      "lng": 32.42860000000002,
+      "severity": 1,
+      "location": "Kiev, Ucrania",
+      "source": "Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/09/12/world/trump-envoys-arrive-in-kyiv/",
+      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/09/06/561535.jpg",
+      "ts": 1789213920000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/09/12/world/trump-envoys-arrive-in-kyiv/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cb6e9e90ab20",
+      "title": "BRICS leaders meet in India as wars and US tensions test the bloc",
+      "description": "Líderes de los países del BRICS se reúnen en Nueva Delhi para firmar acuerdos comerciales y de inversión y reforzar la cooperación estratégica.",
+      "lat": 28.6139,
+      "lng": 77.209,
+      "severity": 2,
+      "location": "Nueva Delhi, India",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/video/20260912-brics-leaders-meet-in-india-as-wars-and-us-tensions-test-the-bloc",
+      "image": "https://s.france24.com/media/display/2290711c-ae8c-11f1-b001-005056a97e36/w:1024/p:16x9/EN-20260912-110058-110409-CS.jpg",
+      "ts": 1789208966000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/video/20260912-brics-leaders-meet-in-india-as-wars-and-us-tensions-test-the-bloc"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8716030a1b55",
+      "title": "Exclusive: Nobel laureate freed by Trump urges hard line in new Belarus talks",
+      "description": "El activista bielorruso Ales Bialiatski, liberado gracias a la intervención de EE. UU., llama a mantener una postura firme en las negociaciones con Minsk.",
+      "lat": 53.9045,
+      "lng": 27.5615,
+      "severity": 1,
+      "location": "Minsk, Bielorrusia",
+      "source": "The Hill",
+      "url": "https://thehill.com/policy/international/6084537-bialiatski-urges-more-concessions/",
+      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/09/Belarus_Kelly_AP_Mindaugas-Kulbis.jpg?w=900",
+      "ts": 1789207200000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/policy/international/6084537-bialiatski-urges-more-concessions/"
+          }
+        ]
+      }
+    },
     {
       "id": "a3012c8f85f4",
       "title": "Al‑Qaeda regroups in Afghanistan, 25 years after 9/11",
@@ -625,6 +762,99 @@
             "n": "The Hindu International",
             "b": "lean_left",
             "u": "https://www.thehindu.com/news/national/un-chief-guterres-meets-pm-modi-discusses-west-asia-ukraine-conflicts/article71457757.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a419450cd349",
+      "title": "Saudi Arabia tells Trump now is the time for military action as Iran-backed Houthis advance",
+      "description": "El gobierno saudí insta al presidente estadounidense a autorizar una intervención militar contra los hutíes que han tomado la isla Perim y posiciones estratégicas.",
+      "lat": 24.7136,
+      "lng": 46.67529999999999,
+      "severity": 2,
+      "location": "Riyadh, Arabia Saudita",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/saudi-arabia-tells-trump-time-military-action-iran-backed-houthis-advance",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/Houtis-Yemen.jpg?ve=1&tl=1",
+      "ts": 1789146529000,
+      "coverage": {
+        "left": 6,
+        "center": 6,
+        "right": 1,
+        "total": 13,
+        "buckets": {
+          "left": 1,
+          "lean_left": 5,
+          "center": 6,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/middle-east-tensions_n_6aa3d76fe4b0b2af35a60990"
+          },
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/middle-east/houthis-control-bab-el-mandeb-yemen-red-sea-saudi-iran-war-oil-rcna597186"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/saudi-arabia-options-faces-mounting-threats-iran-allies-136384544"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/saudi-arabia-mbs-trump-houthis-yemen/"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/9/12/trump-iran-probably-behind-saudi-oil-pipeline-attack?traffic_source=rss"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/09/12/isolated-by-iran-and-yemeni-houthi-rebels-saudi-arabia-seeks-us-backing_6757448_4.html"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/09/11/houthis-yemen-saudi-trump-mbs-strikes"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/american-politics/article-908415"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTkhNMzZqVU5KTk1hMGJ5VFpOTTVsUU1PRjVNaU5DREtTLU9tTzlFUF9zNkRSWVIwOWpMVEhudEVYeUk4bnZtcEFSRVJDbHQ0eUlBVXdka1RWUVNyeXVYVXdGVENObE4zQXJfc2hlaDJUYUx2VkdCczIydndIQ0gxVmVSamxfZkdEWE5idHhrMXRIX2ZodXQ5Y002LXQwTDZHZjBVOVowMmpPa2xuZVJkajY5dFN0LVht?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-09-12/trump-says-iran-backed-houthis-asked-us-not-to-target-them"
+          },
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/trump-says-iran-likely-responsible-for-attack-on-vital-saudi-oil-pipeline/"
+          },
+          {
+            "n": "Times of India World",
+            "b": "center",
+            "u": "https://timesofindia.indiatimes.com/world/us/trump-says-iran-probably-behind-saudi-pipeline-attack-as-oil-route-shut/articleshow/134126834.cms"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/saudi-arabia-tells-trump-time-military-action-iran-backed-houthis-advance"
           }
         ]
       }
@@ -7703,176 +7933,6 @@
             "n": "Buenos Aires Times",
             "b": "center",
             "u": "https://www.batimes.com.ar/news/economy/argentinas-milei-revives-bitter-malvinas-dispute-with-united-kingdom.phtml"
-          }
-        ]
-      }
-    },
-    {
-      "id": "86a1c904b055",
-      "title": "UN to vote on adopting new world map that shows Africa’s true scale",
-      "description": "A Togo‑sponsored resolution will be voted on at the UN General Assembly to replace traditional maps that distort Africa’s size.",
-      "lat": 48.86,
-      "lng": 2.35,
-      "severity": 1,
-      "location": "New York, United States",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa",
-      "image": null,
-      "ts": 1788487254000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa"
-          }
-        ]
-      }
-    },
-    {
-      "id": "35c7fd6c8c9b",
-      "title": "South Korea Preparing To Deploy Troops In Strait Of Hormuz: Report",
-      "description": "Seoul is discussing a possible contribution of forces to protect shipping in the strategic Strait of Hormuz alongside the United States, Britain and France.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 2,
-      "location": "Strait of Hormuz",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/south-korea-preparing-to-deploy-troops-in-strait-of-hormuz-report-11999951#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-06/h636veco_strait-of-hormuz_625x300_12_June_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1788477602000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/south-korea-preparing-to-deploy-troops-in-strait-of-hormuz-report-11999951#publisher=newsstand"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/south-korea-prepares-hormuz-military-deployment-media-reports-say"
-          }
-        ]
-      }
-    },
-    {
-      "id": "92f1b0c0b920",
-      "title": "Standard Chartered Is Bringing Bitcoin And Ether Spot Trading To UAE Institutions",
-      "description": "The bank will offer spot trading of Bitcoin and Ether to institutional clients in Dubai, expanding digital‑asset services in the Gulf region.",
-      "lat": 24.3174,
-      "lng": 56.94999999999999,
-      "severity": 2,
-      "location": "Dubai, United Arab Emirates",
-      "source": "IBTimes",
-      "url": "https://www.ibtimes.com/standard-chartered-bringing-bitcoin-ether-spot-trading-uae-institutions-its-first-global-3807116",
-      "image": null,
-      "ts": 1788477241000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/standard-chartered-bringing-bitcoin-ether-spot-trading-uae-institutions-its-first-global-3807116"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a1512ffa2af5",
-      "title": "Brasil, il governo minaccia ritorsioni contro il blocco UE alla carne",
-      "description": "Il governo brasiliano ha avvertito l'Unione Europea di possibili ritorsioni commerciali in risposta al blocco delle esportazioni di carne.",
-      "lat": 50.8503,
-      "lng": 4.3517,
-      "severity": 2,
-      "location": "Brussels, Belgium",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/09/04/brasile-il-governo-minaccia-ritorsioni-contro-il-blocco-ue-alla-carne_040d2ed0-6ea2-42ae-a754-1c3bef51858b.html",
-      "image": null,
-      "ts": 1788477011000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/09/04/brasile-il-governo-minaccia-ritorsioni-contro-il-blocco-ue-alla-carne_040d2ed0-6ea2-42ae-a754-1c3bef51858b.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2a34f0c41e8b",
-      "title": "Brazil's Embraer gets firm order for eight additional E190‑E2 jets from Japan's ANA",
-      "description": "Embraer ha ricevuto un ordine per otto aerei E190‑E2 da All Nippon Airways, rafforzando la cooperazione aeronautica tra Brasile e Giappone.",
-      "lat": 36.7895,
-      "lng": 139.69169999999997,
-      "severity": 2,
-      "location": "Tokyo, Japan",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/business/brazils-embraer-gets-firm-order-eight-additional-e190-e2-jets-japans-ana-6361701",
-      "image": null,
-      "ts": 1788476151000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/business/brazils-embraer-gets-firm-order-eight-additional-e190-e2-jets-japans-ana-6361701"
           }
         ]
       }
