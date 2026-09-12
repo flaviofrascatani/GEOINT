@@ -1,41 +1,74 @@
 {
   "schema": 1,
-  "updated": "2026-09-12T18:42:58.262657+00:00",
+  "updated": "2026-09-12T21:24:47.121231+00:00",
   "events": [
     {
-      "id": "ca4452ee7a90",
-      "title": "Attack that closed key Saudi pipeline is blamed on Iran-backed militias in Iraq",
-      "description": "Drone attack launched from Iraq damaged Saudi Arabia's East‑West oil pipeline, halting flow and injuring personnel.",
-      "lat": 25.81,
-      "lng": 46.68000000000001,
-      "severity": 4,
-      "location": "Riyadh, Saudi Arabia",
-      "source": "Google News Top",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPY0hKblZsWDdXODVsQUN2V2V6c3dSODhwQm9pVHlwTmxpX3dQRnEyM3BLNTdBYy1OV2ZqNTE3M2pfQ1pKLWI2ZEdxZXE5QU1vWUR5WnI5bkdDalpxeVRtU3l6Zmp3UnVCUFFMbVdLQUR3RlFqQThBOUQ0UWZDYWozV1RSLWhWWUdTcEgyV2g5dUs3QQ?oc=5",
-      "image": null,
-      "ts": 1789230360000,
+      "id": "727db6937e9c",
+      "title": "Explosions heard off Iran's Qeshm Island",
+      "description": "Multiple explosions were reported near Qeshm Island as Iran continues to target oil tankers and regional facilities.",
+      "lat": 25.5474,
+      "lng": 57.150000000000006,
+      "severity": 3,
+      "location": "Larak Island, Iran",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/us-iran-war-explosions-heard-off-the-coast-of-irans-qeshm-island-12038960#publisher=newsstand",
+      "image": "https://mf.b37mrtl.ru/files/2026.08/thumbnail/6a94a11785f54045146f869a.jpg",
+      "ts": 1789239571000,
       "coverage": {
-        "left": 2,
-        "center": 9,
-        "right": 1,
-        "total": 12,
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
         "buckets": {
           "left": 0,
-          "lean_left": 2,
-          "center": 9,
-          "lean_right": 1,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
           "right": 0
         },
         "sources": [
           {
-            "n": "Washington Post World",
+            "n": "NDTV World",
             "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/09/12/with-no-clear-path-out-us-war-iran-messy-mideast-gets-messier/"
+            "u": "https://www.ndtv.com/world-news/us-iran-war-explosions-heard-off-the-coast-of-irans-qeshm-island-12038960#publisher=newsstand"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ca4452ee7a90",
+      "title": "Saudi shutdown of key oil pipeline after drone attack launched from Iraq",
+      "description": "A drone strike from Iraq forced Saudi Arabia to close its east‑west oil pipeline, tightening regional oil supplies.",
+      "lat": 25.81,
+      "lng": 46.68000000000001,
+      "severity": 3,
+      "location": "Riyadh, Saudi Arabia",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/world/middle-east/saudi-arabia-shutdown-key-pipeline-limits-oil-flow-yemen-houthis-rcna597362",
+      "image": null,
+      "ts": 1789230360000,
+      "coverage": {
+        "left": 2,
+        "center": 5,
+        "right": 0,
+        "total": 7,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 5,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/09/12/world/middleeast/saudi-arabia-oil-pipeline-attack.html"
           },
           {
-            "n": "Le Monde English",
+            "n": "Al Jazeera",
             "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/09/12/isolated-by-iran-and-yemeni-houthi-rebels-saudi-arabia-seeks-us-backing_6757448_4.html"
+            "u": "https://www.aljazeera.com/news/2026/9/12/iraq-probes-drone-strikes-on-saudi-arabia-shuts-three-crossings-to-iran?traffic_source=rss"
           },
           {
             "n": "BBC World",
@@ -48,14 +81,9 @@
             "u": "https://www.dw.com/en/baghdad-confirms-attack-on-saudi-pipeline-came-from-iraq/a-79247086?maca=en-rss-en-all-1573-rdf"
           },
           {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/article-908422"
-          },
-          {
             "n": "Google News Top",
             "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPY0hKblZsWDdXODVsQUN2V2V6c3dSODhwQm9pVHlwTmxpX3dQRnEyM3BLNTdBYy1OV2ZqNTE3M2pfQ1pKLWI2ZEdxZXE5QU1vWUR5WnI5bkdDalpxeVRtU3l6Zmp3UnVCUFFMbVdLQUR3RlFqQThBOUQ0UWZDYWozV1RSLWhWWUdTcEgyV2g5dUs3QQ?oc=5"
+            "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONEdJUjhTN0ZoaHN2R1U0eEZvV2pOb2tOTGVjX2NxbjF6RTg5SDFyLXRhVlF2enBCV2ctSXFjVEZaeXdqTjNSeXVjcEszem9kUTRxaFR1T0pUQ3M4aEVaT2NwMjl3WC1mbi01bTVIZmRMWXJSUml4X3QyM0tYamRXbDc2T3h3dG9JbGtZZHVyZVBRMTVvaHFSdGhCci1jLXBMTnRnYWlZNHRnTzRjTGMw?oc=5"
           },
           {
             "n": "Bloomberg Politics",
@@ -63,29 +91,9 @@
             "u": "https://www.bloomberg.com/news/articles/2026-09-12/iraq-fires-commander-after-drone-attacks-on-saudi-arabia-s-east-west-pipeline"
           },
           {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/trump-says-iran-probably-responsible-attack-saudi-pipeline"
-          },
-          {
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/09/12/saudi-arabia-condemns-attack-on-pipeline-launched-from-iraq/"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/trump-says-iran-likely-responsible-for-attack-on-vital-saudi-oil-pipeline/"
-          },
-          {
-            "n": "Times of India World",
-            "b": "center",
-            "u": "https://timesofindia.indiatimes.com/world/middle-east/from-iraq-to-yemen-how-iran-linked-groups-are-putting-saudi-energy-routes-under-pressure/articleshow/134144723.cms"
-          },
-          {
-            "n": "New York Post",
-            "b": "lean_right",
-            "u": "https://nypost.com/2026/09/12/world-news/attack-that-closed-key-saudi-pipeline-is-blamed-on-iran-backed-militias-in-iraq/"
           }
         ]
       }
@@ -688,10 +696,10 @@
     {
       "id": "35e67d8cee94",
       "title": "North Korea fires unidentified projectile toward eastern sea",
-      "description": "North Korean forces launched an unknown projectile into waters east of the Korean Peninsula, raising regional security concerns.",
+      "description": "North Korea launched an unidentified projectile into waters east of the Korean Peninsula, raising regional security concerns.",
       "lat": 39.03,
       "lng": 125.75,
-      "severity": 4,
+      "severity": 2,
       "location": "Pyongyang, North Korea",
       "source": "Daily Sabah",
       "url": "https://www.dailysabah.com/world/asia-pacific/north-korea-fires-unidentified-projectile-toward-eastern-sea",
@@ -6972,74 +6980,6 @@
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/south-asia/bangladesh-opposition-launches-protest-march-over-energy-crisis"
-          }
-        ]
-      }
-    },
-    {
-      "id": "727db6937e9c",
-      "title": "Iranian tanker hit by US attack near Iran's Kharg Island",
-      "description": "A US strike damaged an Iranian oil tanker close to Kharg Island, escalating tensions in the Persian Gulf.",
-      "lat": 25.5474,
-      "lng": 57.150000000000006,
-      "severity": 4,
-      "location": "Larak Island, Iran",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/world/iran-tanker-hit-us-attack-kharg-island-war-6364541",
-      "image": "https://mf.b37mrtl.ru/files/2026.08/thumbnail/6a94a11785f54045146f869a.jpg",
-      "ts": 1788602040000,
-      "coverage": {
-        "left": 2,
-        "center": 5,
-        "right": 1,
-        "total": 8,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 5,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/iran-accuses-us-targeting-tanker-kharg-island-mideast-136222728"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/explosions-in-kharg-island-area-of-gulf/article71431525.ece"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/09/05/iranian-tanker-reportedly-hit-by-us-attack-near-irans-kharg-island.html"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/middle-east/20260905-middle-east-live-israeli-strikes-on-south-and-east-lebanon-kill-three-people"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/iran-war-explosions-reported-near-kharg-island/live-79044467?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/iranian-tanker-hit-us-attack-near-irans-kharg-island-tasnim-says"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/world/iran-tanker-hit-us-attack-kharg-island-war-6364541"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2183071"
           }
         ]
       }
