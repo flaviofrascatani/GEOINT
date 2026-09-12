@@ -1,7 +1,181 @@
 {
   "schema": 1,
-  "updated": "2026-09-11T22:30:40.698617+00:00",
+  "updated": "2026-09-12T00:35:35.065880+00:00",
   "events": [
+    {
+      "id": "347643d2952c",
+      "title": "Cheong Wa Dae denounces N.K. missile launch as violation of UNSC resolution",
+      "description": "South Korea’s presidential office condemned North Korea’s missile launch as a breach of United Nations Security Council resolutions.",
+      "lat": 37.56,
+      "lng": 126.98000000000002,
+      "severity": 3,
+      "location": "Seoul, South Korea",
+      "source": "Yonhap News",
+      "url": "https://en.yna.co.kr/view/AEN20260912000700315",
+      "image": "https://img.yna.co.kr/photo/cms/2026/05/06/62/PCM20260506000062990_P2.jpg",
+      "ts": 1789172946000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20260912000700315"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ca4452ee7a90",
+      "title": "Saudi pipeline comes under drone attack launched from Iraq, Foreign Ministry says",
+      "description": "Saudi Arabia reported a drone strike on its strategic east‑west oil pipeline, prompting a shutdown of the facility and warnings of further measures to protect its sovereignty.",
+      "lat": 25.81,
+      "lng": 46.68000000000001,
+      "severity": 4,
+      "location": "Riyadh, Saudi Arabia",
+      "source": "TASS",
+      "url": "https://tass.com/world/2186509",
+      "image": null,
+      "ts": 1789171634000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/9/11/saudi-arabia-says-east-west-pipeline-hit-by-drones-launched-from-iraq?traffic_source=rss"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/saudi-arabia-shuts-down-major-oil-pipeline-citing-attacks-amid-fighting-in-yemen/article71457890.ece"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/09/11/saudi-arabia-shut-down-east-west-crude-oil-pipeline.html"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2186509"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a1eb98724135",
+      "title": "Houthis Seize a Key Red Sea Island, Threatening Another Global Oil Route",
+      "description": "The Houthi militia captured an island in the Bab al‑Mandeb Strait, a crucial choke point for oil shipments, while Saudi Arabia shut a major oil pipeline after a drone attack launched from Iraq.",
+      "lat": 12.6,
+      "lng": 43.30000000000001,
+      "severity": 4,
+      "location": "Bab al‑Mandab Strait, Yemen",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/09/11/world/middleeast/yemen-houthis-bab-al-mandab.html",
+      "image": "https://static01.nyt.com/images/2026/09/11/multimedia/11yemen-cpvm/11yemen-cpvm-mediumSquareAt3X.jpg",
+      "ts": 1789165336000,
+      "coverage": {
+        "left": 7,
+        "center": 6,
+        "right": 0,
+        "total": 13,
+        "buckets": {
+          "left": 0,
+          "lean_left": 7,
+          "center": 6,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/09/11/world/middleeast/yemen-houthis-bab-al-mandab.html"
+          },
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/09/11/iran-denounces-us-israeli-oppression-houthis-advance-yemen/"
+          },
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/video/iran-backed-houthis-take-control-of-red-sea-coastline-in-yemen-269743173909"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-diesel-price-record-houthis-red-sea/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/saudi-shuts-down-major-oil-pipeline-amid-fighting-with-yemens-houthis-12035379#publisher=newsstand"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/liveblog/2026/9/12/iran-war-live-houthis-control-red-sea-coast-saudi-pipeline-shut-down?traffic_source=rss"
+          },
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/09/11/yemen-houthi-red-sea-bab-el-mandeb-shipping-iran-war/"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/09/11/iran-houthis-mokha-red-sea-yemen.html"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/09/11/houthis-yemen-saudi-trump-mbs-strikes"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/976fa0d6-ed09-4a6f-be02-ff4317b45f40?syn-25a6b1a6=1"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20260911-middle-east-live-trump-says-he-has-no-regrets-about-launching-war-on-iran"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObkxyVFNSVzhBR0tMZHQwcEFBYnFEaEtzRFl2Y0xmQTFUQ1hxeFZqc0pWTkdRWjR0aWVDVHFKbHp2eDBRN1ptbFRxbHdfRjBLVGgwbl9ZbHdGTFVZeW80ZXZVblBOdG1ucWVIRzFwZXRxY1FBRWxHczBLcXdDbmF4Z3IyOEVDLW1HNDlONA?oc=5"
+          }
+        ]
+      }
+    },
     {
       "id": "35e67d8cee94",
       "title": "North Korea fires unidentified projectile toward East Sea",
@@ -89,94 +263,6 @@
             "n": "CBS News World",
             "b": "lean_left",
             "u": "https://www.cbsnews.com/live-updates/iran-war-diesel-price-record-houthis-red-sea/"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/09/11/iran-houthis-mokha-red-sea-yemen.html"
-          },
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/09/11/houthis-yemen-saudi-trump-mbs-strikes"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/976fa0d6-ed09-4a6f-be02-ff4317b45f40?syn-25a6b1a6=1"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/middle-east/20260911-middle-east-live-trump-says-he-has-no-regrets-about-launching-war-on-iran"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/yemen-houthis-tighten-control-of-strategic-red-sea-towns/a-79220628?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeUpPLURuUGtNWW5MdUstN2NHalFnV1d0bFN5bl9MbHJHa0l0RGQ1X1UzWm85X0lVcmxKT2I2V01NdTlOWmtYcE1ESTFFNTQ5Z1FVVmFncXlZWUVtcFNENmlsTFUzMmE0LU12QTZlMlp1cDdtN042UUJhS0Z3TkcxYU5tUW9fRXdLMUE?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/houthis-advance-along-yemeni-coast-threaten-saudi-oil-exports-red-sea"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a1eb98724135",
-      "title": "Houthis Seize a Key Red Sea Island, Threatening Another Global Oil Route",
-      "description": "The Houthi militia captured a strategic island at the entrance of the Bab al‑Mandab Strait, heightening risks to international oil shipments.",
-      "lat": 12.6,
-      "lng": 43.30000000000001,
-      "severity": 3,
-      "location": "Bab al‑Mandab Strait, Yemen",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/09/11/world/middleeast/yemen-houthis-bab-al-mandab.html",
-      "image": "https://static01.nyt.com/images/2026/09/11/multimedia/11yemen-cpvm/11yemen-cpvm-mediumSquareAt3X.jpg",
-      "ts": 1789155581000,
-      "coverage": {
-        "left": 4,
-        "center": 8,
-        "right": 0,
-        "total": 12,
-        "buckets": {
-          "left": 0,
-          "lean_left": 4,
-          "center": 8,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/09/11/world/middleeast/yemen-houthis-bab-al-mandab.html"
-          },
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/09/11/iran-denounces-us-israeli-oppression-houthis-advance-yemen/"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-diesel-price-record-houthis-red-sea/"
-          },
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/09/11/yemen-houthi-red-sea-bab-el-mandeb-shipping-iran-war/"
           },
           {
             "n": "BBC World",
@@ -766,6 +852,39 @@
             "n": "Washington Examiner",
             "b": "right",
             "u": "https://www.washingtonexaminer.com/news/4723311/araghchi-thanks-cao-for-saying-iran-blew-the-hell-out-of-us-base-in-bahrain/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "68cbb712d5a1",
+      "title": "$15m fund launched to create ‘unstoppable momentum’ to end FGM worldwide",
+      "description": "A new $15 million fund aims to accelerate the global fight against female genital mutilation, targeting 230 million women and girls.",
+      "lat": 41.81,
+      "lng": -74.01,
+      "severity": 1,
+      "location": "New York, United States",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/global-development/2026/sep/11/15m-fund-launched-to-create-unstoppable-momentum-to-end-fgm-worldwide",
+      "image": null,
+      "ts": 1789099204000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/global-development/2026/sep/11/15m-fund-launched-to-create-unstoppable-momentum-to-end-fgm-worldwide"
           }
         ]
       }
@@ -7739,115 +7858,6 @@
             "n": "IBTimes",
             "b": "center",
             "u": "https://www.ibtimes.com/nvidia-confirms-acquisition-hugging-face-almost-13-billion-its-stock-edging-3807094"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f5328b166e12",
-      "title": "US pressure on Iran starting to tell, as sanctions and blockade bite - Reuters",
-      "description": "Le nuove sanzioni statunitensi e il blocco commerciale stanno iniziando a influenzare l'economia iraniana.",
-      "lat": 35.6892,
-      "lng": 51.38900000000001,
-      "severity": 3,
-      "location": "Teheran, Iran",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSFdWSEQ0NWhzbDhXcnU0Qkg3M2tkUTFVd3FORVkycWhEWWN4M0ZvM3gzaHRUb1c5dkw0Vm1iZXNfM1FiVUFFLURwUUhGektkY01rd0VYT1N2dXJTTks4OEhKN09lRExxZ1dCTDcwZ082XzRmMEMwNkpENlF1c1BnVFlBMmdmd1pRUC14cVZfMmpTdzVpTmpaVWtjdUszR1pxWExxX05Zb0hxSDQy?oc=5",
-      "image": null,
-      "ts": 1788447855000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSFdWSEQ0NWhzbDhXcnU0Qkg3M2tkUTFVd3FORVkycWhEWWN4M0ZvM3gzaHRUb1c5dkw0Vm1iZXNfM1FiVUFFLURwUUhGektkY01rd0VYT1N2dXJTTks4OEhKN09lRExxZ1dCTDcwZ082XzRmMEMwNkpENlF1c1BnVFlBMmdmd1pRUC14cVZfMmpTdzVpTmpaVWtjdUszR1pxWExxX05Zb0hxSDQy?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "304674e78d14",
-      "title": "Iran fires missiles and drones at Kuwait as strikes resume in war with U.S.",
-      "description": "Iran launched missiles and drones that were intercepted by Kuwait’s air defenses, marking a direct escalation in the regional conflict.",
-      "lat": 29.3759,
-      "lng": 47.9774,
-      "severity": 4,
-      "location": "Kuwait City, Kuwait",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/09/03/iran-fires-missiles-drones-kuwait-strikes-resume-us-war/",
-      "image": null,
-      "ts": 1788446366000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/09/03/iran-fires-missiles-drones-kuwait-strikes-resume-us-war/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c9a6702bc098",
-      "title": "Israel to release five Lebanese detainees amid talks with Lebanon",
-      "description": "Israel announced it will free five Lebanese prisoners as part of negotiations to recover the remains of Jewish community leaders kidnapped in the 1980s.",
-      "lat": 34.99,
-      "lng": 37.4152,
-      "severity": 1,
-      "location": "Beirut, Lebanon",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/israel-to-release-five-lebanese-detainees-amid-talks-with-lebanon/article71424402.ece",
-      "image": "https://th-i.thgim.com/public/news/national/okevul/article71424444.ece/alternates/LANDSCAPE_1200/iStock-1436012592.jpg",
-      "ts": 1788444587000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/israel-to-release-five-lebanese-detainees-amid-talks-with-lebanon/article71424402.ece"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/israel-news/defense-news/article-907454"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/israel-release-5-lebanese-prisoners-ahead-next-talks-what-know"
           }
         ]
       }
