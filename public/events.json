@@ -1,7 +1,141 @@
 {
   "schema": 1,
-  "updated": "2026-09-12T00:35:35.065880+00:00",
+  "updated": "2026-09-12T05:00:24.702325+00:00",
   "events": [
+    {
+      "id": "c96cdb42b352",
+      "title": "Kiev targets Zaporozhye NPP workers after failed attempt to force them to leave",
+      "description": "Ukrainian officials said they have been trying to create unbearable conditions for staff at the Zaporizhzhia nuclear plant.",
+      "lat": 47.84,
+      "lng": 35.14,
+      "severity": 3,
+      "location": "Zaporizhzhia, Ukraine",
+      "source": "TASS",
+      "url": "https://tass.com/society/2186523",
+      "image": null,
+      "ts": 1789186815000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/society/2186523"
+          }
+        ]
+      }
+    },
+    {
+      "id": "36f31dce4263",
+      "title": "Factbox-The evolution of BRICS and its challenges today",
+      "description": "Leaders of the BRICS group gathered in New Delhi for their annual summit amid growing geopolitical tensions.",
+      "lat": 28.61,
+      "lng": 77.20999999999998,
+      "severity": 2,
+      "location": "New Delhi, India",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/09/factbox-evolution-brics-and-its-challenges-today",
+      "image": null,
+      "ts": 1789181191000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/09/factbox-evolution-brics-and-its-challenges-today"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6d5c3d792dad",
+      "title": "North Korea sends chilling warning to Donald Trump as it launches 'missiles towards sea'",
+      "description": "North Korea warned the United States and launched missiles toward the sea, a day after trilateral drills by the US, South Korea and Japan.",
+      "lat": 38.9,
+      "lng": -77.04,
+      "severity": 2,
+      "location": "Washington, D.C., USA",
+      "source": "Daily Express World",
+      "url": "https://www.express.co.uk/news/world/2247894/north-korea-sends-chilling-warning",
+      "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2247894_1.jpg",
+      "ts": 1789177500000,
+      "coverage": {
+        "left": 3,
+        "center": 4,
+        "right": 1,
+        "total": 8,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 4,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/north-korea-launches-ballistic-missiles-sea-military-drill-136379039"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/north-korea-fires-ballistic-missiles-day-after-south-koreas-maritime-drills-12035707#publisher=newsstand"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/9/12/north-korea-fires-ballistic-missiles-off-eastern-coast-seoul-says?traffic_source=rss"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/asia/2026/0912/1591259-korea-missile-asia/"
+          },
+          {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/policy/defense/6085776-north-korea-launches-missiles/"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-09-11/north-korea-fires-short-ballistic-missiles-toward-east-sea"
+          },
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/09/12/asia-pacific/north-korea-fires-projectile/"
+          },
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2247894/north-korea-sends-chilling-warning"
+          }
+        ]
+      }
+    },
     {
       "id": "347643d2952c",
       "title": "Cheong Wa Dae denounces N.K. missile launch as violation of UNSC resolution",
@@ -178,48 +312,43 @@
     },
     {
       "id": "35e67d8cee94",
-      "title": "North Korea fires unidentified projectile toward East Sea",
-      "description": "North Korea launched an unidentified projectile toward the sea east of the Korean Peninsula, prompting a warning from South Korea.",
+      "title": "North Korea fires unidentified projectile toward eastern sea",
+      "description": "The North Korean military launched an unidentified projectile toward waters east of the Korean Peninsula.",
       "lat": 39.03,
       "lng": 125.75,
-      "severity": 3,
+      "severity": 2,
       "location": "Pyongyang, North Korea",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/east-asia/north-korea-launches-unidentified-projectile-toward-east-sea",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/world/asia-pacific/north-korea-fires-unidentified-projectile-toward-eastern-sea",
       "image": null,
       "ts": 1789161972000,
       "coverage": {
-        "left": 0,
-        "center": 3,
-        "right": 2,
-        "total": 5,
+        "left": 1,
+        "center": 2,
+        "right": 1,
+        "total": 4,
         "buckets": {
           "left": 0,
-          "lean_left": 0,
-          "center": 3,
-          "lean_right": 2,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 1,
           "right": 0
         },
         "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/north-korea-launches-ballistic-missiles-sea-military-drill-136379039"
+          },
           {
             "n": "Yonhap News",
             "b": "center",
             "u": "https://en.yna.co.kr/view/AEN20260912000351315"
           },
           {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/east-asia/north-korea-launches-unidentified-projectile-toward-east-sea-6379606"
-          },
-          {
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/east-asia/north-korea-launches-unidentified-projectile-toward-east-sea"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2186487"
           },
           {
             "n": "Daily Sabah",
@@ -543,6 +672,39 @@
       }
     },
     {
+      "id": "f4e371f58c51",
+      "title": "Nigeria: Abuja bans all official visits to South Africa amid anti‑immigrant violence",
+      "description": "Nigeria’s National Assembly announced a ban on official trips to South Africa in response to violence against immigrants.",
+      "lat": 9.07,
+      "lng": 7.48,
+      "severity": 3,
+      "location": "Abuja, Nigeria",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/09/11/nigeria-abuja-bans-all-official-visits-to-south-africa-amid-anti-immigrant-violence/",
+      "image": "http://images.euronews.com/articles/stories/09/91/05/47/640x360_cmsv2_62162513-643b-5eab-b7c3-49e863bc9421-9910547.jpg?1789135939",
+      "ts": 1789143751000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/09/11/nigeria-abuja-bans-all-official-visits-to-south-africa-amid-anti-immigrant-violence/"
+          }
+        ]
+      }
+    },
+    {
       "id": "63e280d2b071",
       "title": "Russian strikes kill two in Kyiv as Moscow targets capital’s fuel stations",
       "description": "Two civilians were killed when Russian missiles hit fuel stations in Kyiv, marking a new campaign against civilian infrastructure.",
@@ -852,6 +1014,39 @@
             "n": "Washington Examiner",
             "b": "right",
             "u": "https://www.washingtonexaminer.com/news/4723311/araghchi-thanks-cao-for-saying-iran-blew-the-hell-out-of-us-base-in-bahrain/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ee99534b2448",
+      "title": "Myanmar's Min Aung Hlaing visits Cambodia as he seeks to restore ASEAN engagement",
+      "description": "Myanmar’s military‑backed leader traveled to Cambodia for talks aimed at re‑engaging with ASEAN.",
+      "lat": 11.55,
+      "lng": 104.92,
+      "severity": 1,
+      "location": "Phnom Penh, Cambodia",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/myanmars-min-aung-hlaing-visits-cambodia-seeks-restore-136354958",
+      "image": "https://s.abcnews.com/images/International/wirestory_42bd2b33be09f3751b191484e6494940_4x3_384.jpg",
+      "ts": 1789108574000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/myanmars-min-aung-hlaing-visits-cambodia-seeks-restore-136354958"
           }
         ]
       }
@@ -7683,181 +7878,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/09/saudi-arabia-taps-chinas-minimax-arabic-ai-model"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7c87d5e91343",
-      "title": "Putin warns Russians they must be 'prepared for anything' as he hints at escalation of his war",
-      "description": "Il presidente russo ha esortato i cittadini a prepararsi a possibili intensificazioni del conflitto in Ucraina.",
-      "lat": 55.7558,
-      "lng": 37.61760000000001,
-      "severity": 2,
-      "location": "Moscow, Russia",
-      "source": "Daily Mail World",
-      "url": "https://www.dailymail.com/news/article-16102287/Putin-warns-Russians-prepared-escalation-war.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-      "image": "https://i.dailymail.com/1s/2026/09/03/14/111029683-0-image-m-19_1788442004059.jpg",
-      "ts": 1788463609000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Daily Mail World",
-            "b": "right",
-            "u": "https://www.dailymail.com/news/article-16102287/Putin-warns-Russians-prepared-escalation-war.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-          }
-        ]
-      }
-    },
-    {
-      "id": "fad8dd2f8639",
-      "title": "Tajani al Cairo: cooperazione contro l'immigrazione irregolare e formazione dei giovani",
-      "description": "Italy and Egypt agreed to cooperate on curbing irregular migration and to train young Egyptians for employment.",
-      "lat": 30.04,
-      "lng": 33.14519999999999,
-      "severity": 2,
-      "location": "Cairo, Egypt",
-      "source": "AGI Estero",
-      "url": "https://www.agi.it/estero/news/2026-09-03/egitto-italia-tajani-38865726/",
-      "image": "https://images.agi.it/pictures/agi/agi/2026/09/03/174251077-8824329f-eeda-4a6a-b466-9147e8aaa96a.jpeg",
-      "ts": 1788458474000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-09-03/egitto-italia-tajani-38865726/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0d82789172fb",
-      "title": "Colombia, rimossi vincoli all'attività mineraria e petrolifera in dieci distretti",
-      "description": "Il governo colombiano ha eliminato le restrizioni all'estrazione mineraria e petrolifera in dieci distretti per stimolare gli investimenti.",
-      "lat": 4.711,
-      "lng": -74.0721,
-      "severity": 2,
-      "location": "Bogotá, Colombia",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/09/03/colombia-rimossi-vincoli-allattivita-mineraria-e-petrolifera-in-dieci-distretti_f8a2dc83-3925-4289-a1d4-b8f39866557f.html",
-      "image": null,
-      "ts": 1788458048000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/09/03/colombia-rimossi-vincoli-allattivita-mineraria-e-petrolifera-in-dieci-distretti_f8a2dc83-3925-4289-a1d4-b8f39866557f.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "091d51170946",
-      "title": "Il prezzo del gas è in calo a 71,25 euro al megawattora — Ad Amsterdam i contratti Ttf cedono oltre il 3%",
-      "description": "Il prezzo del gas naturale in Europa è sceso a 71,25 €/MWh, con i contratti TTF di Amsterdam in calo di oltre il 3 %.",
-      "lat": 52.3676,
-      "lng": 4.9041,
-      "severity": 2,
-      "location": "Amsterdam, Paesi Bassi",
-      "source": "ANSA Economia",
-      "url": "https://www.ansa.it/sito/notizie/economia/2026/09/03/il-prezzo-del-gas-e-in-calo-a-7125-euro-al-megawattora_347c7a67-c44b-476a-9aee-388ec448408d.html",
-      "image": null,
-      "ts": 1788454097000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Economia",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/economia/2026/09/03/il-prezzo-del-gas-e-in-calo-a-7125-euro-al-megawattora_347c7a67-c44b-476a-9aee-388ec448408d.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1a333cbb5a00",
-      "title": "Nvidia strikes $12.9bn deal to buy AI platform Hugging Face",
-      "description": "Nvidia agreed to acquire Hugging Face, gaining control of a leading open‑source AI platform and its developer community.",
-      "lat": 37.3861,
-      "lng": -122.0839,
-      "severity": 2,
-      "location": "Santa Clara, United States",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cr4vnr5g1k7o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d9a5/live/f7099cf0-a7a9-11f1-aed2-8d6da8d75094.jpg",
-      "ts": 1788453125000,
-      "coverage": {
-        "left": 0,
-        "center": 3,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC Business",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cr4vnr5g1k7o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/nvidia-confirms-acquisition-hugging-face-almost-13-billion-its-stock-edging-3807094"
           }
         ]
       }
