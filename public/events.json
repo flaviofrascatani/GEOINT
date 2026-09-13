@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-09-13T01:23:11.309056+00:00",
+  "updated": "2026-09-13T06:44:18.979404+00:00",
   "events": [
+    {
+      "id": "4771fe72bbb6",
+      "title": "IDF warns of rising West Bank tensions despite low terror levels, pushes for preventive operations",
+      "description": "Israeli forces cautioned of increasing friction in the West Bank and announced preventive measures.",
+      "lat": 30.9474,
+      "lng": 36.849999999999994,
+      "severity": 3,
+      "location": "Ramallah, West Bank",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-908442",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_2589,w_3884/737032",
+      "ts": 1789288265000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/israel-news/defense-news/article-908442"
+          }
+        ]
+      }
+    },
     {
       "id": "427727a9c1dd",
       "title": "BRICS leaders voice concern over Middle East, condemn unilateral sanctions at India summit",
@@ -317,6 +350,54 @@
             "n": "Buenos Aires Times",
             "b": "center",
             "u": "https://www.batimes.com.ar/news/argentina/milei-revives-strategic-naval-base-at-the-end-of-the-world.phtml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e1ef67ec402a",
+      "title": "Russian Strikes Kill 8 In Ukraine As Putin Warns Europe Against Sending Troops",
+      "description": "Russian air strikes in Ukraine caused eight civilian deaths, while President Putin warned Europe of escalation.",
+      "lat": 50.45,
+      "lng": 32.42519999999999,
+      "severity": 2,
+      "location": "Kyiv, Ukraine",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/russian-strikes-kill-3-ukraine-putin-warns-europe-against-sending-troops_n_6aa54b30e4b0b2af35a6dd22",
+      "image": null,
+      "ts": 1789217919000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/russian-strikes-kill-3-ukraine-putin-warns-europe-against-sending-troops_n_6aa54b30e4b0b2af35a6dd22"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c4gr33g3evlo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/ukraine-several-killed-in-series-of-russian-strikes/a-79245980?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/ukraine-strikes-deep-russias-arctic-gas-heartland-trump-pushes-putin-toward-peace"
           }
         ]
       }
@@ -1857,33 +1938,28 @@
     {
       "id": "90ce4912ae47",
       "title": "How the U.S. Treasury's New Aviation Sanctions on Iran Extend Beyond Tehran",
-      "description": "The U.S. Treasury imposed new aviation sanctions targeting Iranian airlines and related entities, tightening economic pressure on Tehran.",
+      "description": "The U.S. Treasury imposed new aviation sanctions targeting Iranian airlines and related entities.",
       "lat": 36.79,
       "lng": 51.389999999999986,
-      "severity": 3,
+      "severity": 2,
       "location": "Tehran, Iran",
       "source": "GNews Geopolitics",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaFhUYUhHOUpHTEZrTmhmbllNR0s4WXJxZUlLZnVadWxmbXE5NGV0a2xzd3NLNDBRcW0wR2laRnpGUUNxTkppeW9CdzhZRFNjY1gyQWRIcTZMZFFqOGRseGE1TmxwSW9nMTdTNmVfcTMwSzd1bkZwOW85SUhMUVpZMEJlS05sX05rNGsxc1AzWEVjVm4wTmhYVEZ3?oc=5",
       "image": null,
       "ts": 1789077210000,
       "coverage": {
-        "left": 1,
+        "left": 0,
         "center": 1,
         "right": 0,
-        "total": 2,
+        "total": 1,
         "buckets": {
           "left": 0,
-          "lean_left": 1,
+          "lean_left": 0,
           "center": 1,
           "lean_right": 0,
           "right": 0
         },
         "sources": [
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/09/09/us-treasury-iran-sanctions-aviation-global-impact-economy/"
-          },
           {
             "n": "GNews Geopolitics",
             "b": "center",
@@ -7832,72 +7908,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/09/us-sanctions-turkey-based-bank-over-iran-ties"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4131d4272923",
-      "title": "Venezuela’s jumbo oil deal does little to appease its creditors",
-      "description": "Venezuela signs a large oil-backed debt deal, but bondholders remain skeptical about its ability to generate enough dollar‑denominated oil revenue to repay the debt.",
-      "lat": 10.48,
-      "lng": -66.9,
-      "severity": 3,
-      "location": "Caracas, Venezuela",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/f84c4053-3e14-4666-9543-7e958a1dadb2?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1788531206000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/f84c4053-3e14-4666-9543-7e958a1dadb2?syn-25a6b1a6=1"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a6b10acad45f",
-      "title": "UAE President pardons Abdul Rahman Youssef Al-Qaradawi following cybercrime conviction",
-      "description": "UAE President Sheikh Mohamed bin Zayed Al Nahyan granted a presidential pardon to Abdul Rahman Youssef Al‑Qaradawi after his cyber‑crime conviction.",
-      "lat": 25.57,
-      "lng": 54.360000000000014,
-      "severity": 1,
-      "location": "Abu Dhabi, United Arab Emirates",
-      "source": "Egypt Independent",
-      "url": "https://www.egyptindependent.com/uae-president-pardons-abdul-rahman-youssef-al-qaradawi-following-cybercrime-conviction/",
-      "image": null,
-      "ts": 1788519694000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/uae-president-pardons-abdul-rahman-youssef-al-qaradawi-following-cybercrime-conviction/"
           }
         ]
       }
