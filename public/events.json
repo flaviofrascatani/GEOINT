@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-09-13T06:44:18.979404+00:00",
+  "updated": "2026-09-13T12:41:51.212206+00:00",
   "events": [
+    {
+      "id": "949b195bd8e7",
+      "title": "Turkey warns against Israel’s destabilization of Syria",
+      "description": "Turkish Foreign Minister Hakan Fidan warned Israel of destabilising actions while meeting Syrian diplomat in Damascus.",
+      "lat": 32.5574,
+      "lng": 37.94999999999999,
+      "severity": 2,
+      "location": "Damascus, Syria",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/politics/turkiye-warns-against-israels-destabilization-of-syria/news",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/09/13/460380.jpeg",
+      "ts": 1789302180000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/politics/turkiye-warns-against-israels-destabilization-of-syria/news"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7c73d483a3fe",
+      "title": "NATO fighter jets scrambled as flights grounded and emergency phone alert issued",
+      "description": "Lithuanian airspace was secured after jets were scrambled and an emergency alert sent to residents near Vilnius Airport.",
+      "lat": 54.68,
+      "lng": 25.28,
+      "severity": 3,
+      "location": "Vilnius, Lithuania",
+      "source": "Mirror World",
+      "url": "https://www.mirror.co.uk/news/world-news/lithuania-vilnius-drone-nato-flights-37657534",
+      "image": "https://i2-prod.dailystar.co.uk/news/latest-news/article37638454.ece/ALTERNATES/s615/4_Polish-Air-Force-Lockheed-F-16-Fighting-Falcon-fighter-jet-plane-flying-Aviation-and-military-aircraft.jpg",
+      "ts": 1789298706000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/lithuania-vilnius-drone-nato-flights-37657534"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b9f7c83f2e6a",
+      "title": "‘Trumpism’ spawns rare unity at BRICS summit",
+      "description": "The BRICS bloc reached consensus on several issues amid concerns over the Gulf war and sanctions, showing unexpected cohesion.",
+      "lat": -25.1,
+      "lng": 29.9452,
+      "severity": 1,
+      "location": "Johannesburg, South Africa",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/d17cda71-1c35-4abd-b4d5-773550b109cc?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1789296658000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/d17cda71-1c35-4abd-b4d5-773550b109cc?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
     {
       "id": "4771fe72bbb6",
       "title": "IDF warns of rising West Bank tensions despite low terror levels, pushes for preventive operations",
@@ -31,6 +130,49 @@
             "n": "Jerusalem Post",
             "b": "center",
             "u": "https://www.jpost.com/israel-news/defense-news/article-908442"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9cb0adbff7e2",
+      "title": "Taoiseach in Doonbeg on last day of Trump visit",
+      "description": "Irish Prime Minister Micheál Martin met Donald Trump in Doonbeg, Ireland, concluding the leader’s visit.",
+      "lat": 52.15,
+      "lng": -9.53,
+      "severity": 1,
+      "location": "Doonbeg, Ireland",
+      "source": "RTE News",
+      "url": "https://www.rte.ie/news/ireland/2026/0913/1591330-trump-visit-daytwo/",
+      "image": "https://www.rte.ie/images/00250049-800.jpg",
+      "ts": 1789261170000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/09/12/world/europe/trump-irish-open-ireland-doonbeg.html"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/donald-trump-ireland-visit-dublin-37654637"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/ireland/2026/0913/1591330-trump-visit-daytwo/"
           }
         ]
       }
@@ -7771,143 +7913,6 @@
             "n": "GNews Geopolitics",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSml5Y093OWVORkhPb29wMzl1QlYxcWtjWGYwUTNFSUh3bkNTU3NJZ0d3eG9UbUNxeXM4eGE3U2V5ejVqaThPemU1WDBoMndmY0NxOUhKamRhUExmMjBnMDY2RXQ1b2FBMFI4X1NOcjJZNDlaSDR1dGZSclJoM3FOOElibjhITXVjS1ZiVTBpeFNUVXZuaWlORUNENUw1YVJNcFRYUXNwRERJZTgxb1E?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d56460b46b0a",
-      "title": "Il quartier generale degli 007 a Kiev è stato colpito da un drone russo",
-      "description": "A Russian drone struck the headquarters of Ukraine’s security services in Kyiv.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 3,
-      "location": "Kyiv, Ukraine",
-      "source": "AGI Estero",
-      "url": "https://www.agi.it/estero/news/2026-09-04/ucraina-russia-servizi-segreti-38883736/",
-      "image": "https://images.agi.it/pictures/agi/agi/2026/09/04/175426716-090ccb7f-c86b-4b8d-83eb-2764d7a2a95c.jpg",
-      "ts": 1788544896000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-09-04/ucraina-russia-servizi-segreti-38883736/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "534fc34d9a71",
-      "title": "More than 120 killed in Yemen's worst clashes in years",
-      "description": "Heavy fighting by the Houthis at the Red Sea gateway resulted in over 120 deaths, the deadliest clash in Yemen in years.",
-      "lat": 14.8,
-      "lng": 42.95,
-      "severity": 4,
-      "location": "Hodeidah, Yemen",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/09/more-120-killed-yemens-worst-clashes-years-sources",
-      "image": null,
-      "ts": 1788543024000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/more-120-killed-yemens-worst-clashes-years-sources"
-          }
-        ]
-      }
-    },
-    {
-      "id": "093c5e09689c",
-      "title": "5 EU nations plan to send rejected migrants to non‑EU ‘return hubs’, target 2027",
-      "description": "Denmark and four other EU states agree on a model to transfer rejected migrants to designated hubs outside the EU starting in 2027.",
-      "lat": 55.68,
-      "lng": 12.57,
-      "severity": 2,
-      "location": "Copenhagen, Denmark",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3366443/5-eu-nations-plan-send-rejected-migrants-non-eu-return-hubs-target-2027?utm_source=rss_feed",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/04/181e362e-f2df-4075-8fa2-f1bc3b44aba9_b5f2fdb8.jpg?itok=aNHr-Hoa&v=1788537301",
-      "ts": 1788537316000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/europe/article/3366443/5-eu-nations-plan-send-rejected-migrants-non-eu-return-hubs-target-2027?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "05227c7e504b",
-      "title": "US sanctions Turkey‑based bank over Iran ties",
-      "description": "The U.S. Treasury imposes sanctions on Golden Global Bank for facilitating transactions for Iran’s Islamic Revolutionary Guard Corps.",
-      "lat": 39.93,
-      "lng": 32.86,
-      "severity": 3,
-      "location": "Ankara, Turkey",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/09/us-sanctions-turkey-based-bank-over-iran-ties",
-      "image": null,
-      "ts": 1788533550000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaHJNV1dhTGpWSDUybEtxSHpfVHpkY28yWnVtX09lSWF1UG02cmk0a2k2bHpmOExFTzVRTFNzd285Y3pMSVg5MnVXeS02R01lOEJWZmhCQlRTQ0NxUXc1ZERMeGZFYWFjOUFvMWxCSGhQV1JLemFEMjJvczBwOTd5emJoVjEtZGliT1VoVzcwTnpsRkN5X0ZXXzNnNGNWendUMDcyM2NNVG5RVzFJRzJlRXdBeXQ0Tlpib1FYR2NjcG9HankwVHFrNEY5TkNRU2VPS0E?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/us-sanctions-turkey-based-bank-over-iran-ties"
           }
         ]
       }
