@@ -1,7 +1,116 @@
 {
   "schema": 1,
-  "updated": "2026-09-13T12:41:51.212206+00:00",
+  "updated": "2026-09-13T16:57:01.305781+00:00",
   "events": [
+    {
+      "id": "69866a614028",
+      "title": "Putin seeks BRICS grain trade, insurance to fight curbs",
+      "description": "President Vladimir Putin proposes a dedicated platform within BRICS for grain trade and insurance to bypass Western restrictions.",
+      "lat": 56.85,
+      "lng": 39.525199999999984,
+      "severity": 2,
+      "location": "Moscow, Russia",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/putin-seeks-brics-grain-trade-insurance-to-fight-curbs/article71463622.ece",
+      "image": "https://th-i.thgim.com/public/incoming/vjg7zj/article71464235.ece/alternates/LANDSCAPE_1200/AP09_13_2026_000453B.jpg",
+      "ts": 1789316603000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/putin-seeks-brics-grain-trade-insurance-to-fight-curbs/article71463622.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d1cfa0e1a187",
+      "title": "CENTCOM: 100 commercial ships redirected during two‑month‑long ‘steel wall’ blockade against Iran",
+      "description": "The United States has redirected around 100 commercial vessels as part of a blockade aimed at Iranian ports.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "OAN",
+      "url": "https://www.oann.com/newsroom/centcom-100-commercial-ships-redirected-during-two-month-long-steel-wall-blockade-against-iran/",
+      "image": null,
+      "ts": 1789316174000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/centcom-100-commercial-ships-redirected-during-two-month-long-steel-wall-blockade-against-iran/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8ae42fb8a15d",
+      "title": "Strike on Iranian cargo ship in the Strait of Hormuz kills 1",
+      "description": "An Iranian cargo vessel was hit by a missile strike in the Strait of Hormuz, resulting in one fatality.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 4,
+      "location": "Strait of Hormuz",
+      "source": "Google News Top",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMG04XzJlaFg3N0hjVGVucURCODFNSFJKYkdZaHY0aWZxMWJCXzlPY1pGOUNrWHRhWkc3NnJXQms3X1ZxaHBxOTBHTUZVNUFWWXBJV0hLcG9PaEg0Nm9VaTQxbVNfallyV0ZhVzlfMGpqaWMwLTV2ZmYwRGZYNm9EUzFLMnMzZkREbzRlR1JqR0tBd1Fs?oc=5",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_995,w_1896/735899",
+      "ts": 1789305720000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-diesel-price-record-houthis-red-sea/"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/09/13/vessel-struck-strait-of-hormuz-ukmto.html"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMG04XzJlaFg3N0hjVGVucURCODFNSFJKYkdZaHY0aWZxMWJCXzlPY1pGOUNrWHRhWkc3NnJXQms3X1ZxaHBxOTBHTUZVNUFWWXBJV0hLcG9PaEg0Nm9VaTQxbVNfallyV0ZhVzlfMGpqaWMwLTV2ZmYwRGZYNm9EUzFLMnMzZkREbzRlR1JqR0tBd1Fs?oc=5"
+          }
+        ]
+      }
+    },
     {
       "id": "949b195bd8e7",
       "title": "Turkey warns against Israel’s destabilization of Syria",
@@ -6117,54 +6226,6 @@
       }
     },
     {
-      "id": "8ae42fb8a15d",
-      "title": "Iran claims strike on US ship in Strait of Hormuz as fighting escalates",
-      "description": "Irán afirmó haber atacado un buque estadounidense que transitaba por el estrecho de Hormuz, intensificando la tensión en la zona.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 3,
-      "location": "Strait of Hormuz",
-      "source": "Daily Express World",
-      "url": "https://www.express.co.uk/news/world/2246034/iran-claims-strike-us-ship",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_995,w_1896/735899",
-      "ts": 1788709860000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/iran-claims-strike-on-us-ship-in-hormuz-but-washington-denies-it/article71436167.ece"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcVRCUTJDbU1rM3VXMlV0U0lONk81WDlCendLTXVDTnBJc1JWamJfdDJtVzhOeFJxVnVHeWo5SnJ5WVkyQThNS2FDVmhSaDUzQnMzbGFRUVpEdDdmQ0V1X3pGMlFNMnVQdElab0dqNGNobzRSMGQxeGdPWEVYNVR3WE1FVXcwdTVzbzNyaWN1RTJiTmg2a1NMSFBBWTZPb05oYWRwV2NR?oc=5"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/09/05/tensions-in-the-strait-of-hormuz-drive-oil-prices-as-us-and-iran-both-claim-control/"
-          },
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2246034/iran-claims-strike-us-ship"
-          }
-        ]
-      }
-    },
-    {
       "id": "50a380fb7f81",
       "title": "Lee arrives in France, set for summit with Macron in Paris",
       "description": "South Korean President Lee Jae‑Myung arrived in Paris for a bilateral summit with French President Emmanuel Macron.",
@@ -7837,82 +7898,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/09/us-approves-potential-sale-joint-direct-attack-munitions-extend-range-saudi"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a4964492826e",
-      "title": "Russian air defenses down 480 Ukrainian drones since morning",
-      "description": "Russian air‑defence units have shot down hundreds of Ukrainian UAVs over several Russian regions.",
-      "lat": 55.75,
-      "lng": 37.620000000000005,
-      "severity": 3,
-      "location": "Moscow, Russia",
-      "source": "TASS",
-      "url": "https://tass.com/politics/2182965",
-      "image": null,
-      "ts": 1788546608000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/politics/2182965"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2e1dc1e3460a",
-      "title": "US sanctions Turkish bank, two subsidiaries in latest pressure on Iran",
-      "description": "The United States imposed sanctions on a Turkish bank and two of its subsidiaries to further isolate Iran’s financial network.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 3,
-      "location": "Tehran, Iran",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSml5Y093OWVORkhPb29wMzl1QlYxcWtjWGYwUTNFSUh3bkNTU3NJZ0d3eG9UbUNxeXM4eGE3U2V5ejVqaThPemU1WDBoMndmY0NxOUhKamRhUExmMjBnMDY2RXQ1b2FBMFI4X1NOcjJZNDlaSDR1dGZSclJoM3FOOElibjhITXVjS1ZiVTBpeFNUVXZuaWlORUNENUw1YVJNcFRYUXNwRERJZTgxb1E?oc=5",
-      "image": null,
-      "ts": 1788545542000,
-      "coverage": {
-        "left": 0,
-        "center": 3,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/us-seeking-cut-iran-off-global-financial-system-it-targeting-turkish-bank-do-so-3807164"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/iran-news/article-907608"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSml5Y093OWVORkhPb29wMzl1QlYxcWtjWGYwUTNFSUh3bkNTU3NJZ0d3eG9UbUNxeXM4eGE3U2V5ejVqaThPemU1WDBoMndmY0NxOUhKamRhUExmMjBnMDY2RXQ1b2FBMFI4X1NOcjJZNDlaSDR1dGZSclJoM3FOOElibjhITXVjS1ZiVTBpeFNUVXZuaWlORUNENUw1YVJNcFRYUXNwRERJZTgxb1E?oc=5"
           }
         ]
       }
