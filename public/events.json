@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-09-13T21:38:59.002437+00:00",
+  "updated": "2026-09-14T00:07:37.994338+00:00",
   "events": [
+    {
+      "id": "a0e1afd2e158",
+      "title": "Three shot dead, 15 wounded ahead of polls in Philippine Muslim enclave",
+      "description": "Armed clash in Cotabato City left three dead and fifteen injured as rival factions vied for voting priority.",
+      "lat": 7.22,
+      "lng": 124.25,
+      "severity": 3,
+      "location": "Cotabato City, Philippines",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/se-asia/three-shot-dead-15-wounded-ahead-of-polls-in-philippine-muslim-enclave",
+      "image": null,
+      "ts": 1789336926000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/se-asia/three-shot-dead-15-wounded-ahead-of-polls-in-philippine-muslim-enclave"
+          }
+        ]
+      }
+    },
     {
       "id": "a5ad58f41b1e",
       "title": "Over 80,000 displaced in Yemen as fighting intensifies amid new Houthi push",
@@ -31,6 +64,39 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/645663-yemens-houthis-new-push/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f558cf709db8",
+      "title": "Sao Paulo‑Cape Town flight: LATAM’s three weekly nonstops mean for expats in South Africa",
+      "description": "LATAM launched a nonstop service linking Sao Paulo and Cape Town, enhancing trade and travel between Brazil and South Africa.",
+      "lat": -23.55,
+      "lng": -46.64,
+      "severity": 2,
+      "location": "São Paulo, Brazil",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/sao-paulo-cape-town-flight-latam-schedule-expats-2026/",
+      "image": null,
+      "ts": 1789332840000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/sao-paulo-cape-town-flight-latam-schedule-expats-2026/"
           }
         ]
       }
@@ -371,11 +437,11 @@
     },
     {
       "id": "ad7ce3bd1a94",
-      "title": "How Iran’s hard‑liners blew up the peace deal with Trump",
-      "description": "Iranian hard‑liners sabotaged the 2015 nuclear agreement by covertly targeting shipping in the Strait of Hormuz, prompting Tehran’s president to react angrily.",
+      "title": "How Iran’s Hard‑liners Blew Up the Peace Deal with Trump",
+      "description": "Iranian hard‑liners sabotaged a shipping agreement by attacking vessels in the Strait of Hormuz, derailing the peace initiative.",
       "lat": 35.6892,
       "lng": 51.38900000000001,
-      "severity": 3,
+      "severity": 4,
       "location": "Tehran, Iran",
       "source": "New York Times World",
       "url": "https://www.nytimes.com/2026/09/13/world/middleeast/iran-hard-liners-sabotaged-peace-deal.html",
@@ -7882,82 +7948,6 @@
             "n": "Yonhap News",
             "b": "center",
             "u": "https://en.yna.co.kr/view/AEN20260905001900315"
-          }
-        ]
-      }
-    },
-    {
-      "id": "748c9243fc66",
-      "title": "Women Were Uluating, Then A Bang: Wedding Guest Recounts US Bombing On Iran",
-      "description": "A US strike hit two family homes in Iran’s Hormozgan province, killing at least five people and injuring more than 60.",
-      "lat": 28.84,
-      "lng": 57.33260000000001,
-      "severity": 4,
-      "location": "Bandar Abbas, Iran",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/us-iran-war-women-were-uluating-then-a-bang-wedding-guest-recounts-us-bombing-on-iran-that-killed-5-12004785#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-09/mij6otck_iran_625x300_03_September_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1788586658000,
-      "coverage": {
-        "left": 3,
-        "center": 0,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 1,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/us-iran-renewed-violence_n_6a97dc7be4b0a45256181360"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/us-iran-war-women-were-uluating-then-a-bang-wedding-guest-recounts-us-bombing-on-iran-that-killed-5-12004785#publisher=newsstand"
-          },
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/09/04/did-the-u-s-strike-an-iranian-wedding-/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4e97779274ec",
-      "title": "US imposes sanctions on Turkish bank, prompting legal threat",
-      "description": "The United States announced sanctions against a Turkish bank, leading Turkey to threaten legal action.",
-      "lat": 41.03,
-      "lng": 32.860000000000014,
-      "severity": 2,
-      "location": "Ankara, Turkey",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTFpqM2dadE40ZS1BaERDQkh2dXhsc3pwZmszWkt1a1d6R0VVelZZTlg1dTdUZm94NTM5ZVE1Yk5TQ21OT2xfWUxwc0g1TmR1RWUtR0ZXekFZY0ZleUM5ZFNfXzRDQ2xQY2ZCaHlrRUNneGk5a010ckVMXzFteUt0ejBNcnJpSU90TUhjdlNZal90Nmw4cTZQV0pYcDZwanpJ0gGmAUFVX3lxTFBDTXBFQnYwZzFlbHN1RVNTQVJEZDNpOTlrQkJuUkJZeExpTDQ0SUxvNEJwbjlmMUxuVkk2V2k5LVZEbU5CenBqUjRhMmY3dlJnQ190cndrWEdsby1YOXEzdm16bDlSQTNVRDZfVW9UTjFUZ3d2ZnRuWmc5U3hMdi1TLTRaUlhDZGlrUDRlc1ZmUTZ4TGFhNEI0bk13NTg4YjhESEtmRUE?oc=5",
-      "image": null,
-      "ts": 1788585880000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTFpqM2dadE40ZS1BaERDQkh2dXhsc3pwZmszWkt1a1d6R0VVelZZTlg1dTdUZm94NTM5ZVE1Yk5TQ21OT2xfWUxwc0g1TmR1RWUtR0ZXekFZY0ZleUM5ZFNfXzRDQ2xQY2ZCaHlrRUNneGk5a010ckVMXzFteUt0ejBNcnJpSU90TUhjdlNZal90Nmw4cTZQV0pYcDZwanpJ0gGmAUFVX3lxTFBDTXBFQnYwZzFlbHN1RVNTQVJEZDNpOTlrQkJuUkJZeExpTDQ0SUxvNEJwbjlmMUxuVkk2V2k5LVZEbU5CenBqUjRhMmY3dlJnQ190cndrWEdsby1YOXEzdm16bDlSQTNVRDZfVW9UTjFUZ3d2ZnRuWmc5U3hMdi1TLTRaUlhDZGlrUDRlc1ZmUTZ4TGFhNEI0bk13NTg4YjhESEtmRUE?oc=5"
           }
         ]
       }
