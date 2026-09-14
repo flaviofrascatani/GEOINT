@@ -1,7 +1,93 @@
 {
   "schema": 1,
-  "updated": "2026-09-14T05:23:57.158269+00:00",
+  "updated": "2026-09-14T10:11:19.813149+00:00",
   "events": [
+    {
+      "id": "3f485a9152e3",
+      "title": "Houthis advance along Yemen's Red Sea coastline, displacing thousands",
+      "description": "Iran‑aligned Houthi militants swept through Taiz province, forcing civilians into makeshift camps as they control more of the Red Sea coast.",
+      "lat": 15.34,
+      "lng": 46.0352,
+      "severity": 3,
+      "location": "Taiz, Yemen",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/09/yemens-displaced-long-loved-ones-stability-houthis-advance",
+      "image": null,
+      "ts": 1789379190000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/video/iran-backed-houthis-take-control-of-red-sea-coastline-in-yemen-269743173909"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/yemens-houthi-rebels-seize-more-key-islands-in-southern-red-sea-tighten-grip-on-shipping-routes/article71465671.ece"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-908486"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/houthis-enter-us-kill-box-after-seizing-red-sea-cork-former-pentagon-official-warns"
+          }
+        ]
+      }
+    },
+    {
+      "id": "331663403ee0",
+      "title": "Finland will join France's advanced nuclear deterrence initiative",
+      "description": "Finland becomes the tenth European country to sign onto the French‑proposed advanced nuclear deterrence framework.",
+      "lat": 48.86,
+      "lng": 2.35,
+      "severity": 2,
+      "location": "Paris, France",
+      "source": "ANSA Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/14/la-finlandia-aderira-alla-deterrenza-nucleare-avanzata-proposta-dalla-francia_2e9d06e1-3f4d-46b6-8853-5e4c3ba3cd82.html",
+      "image": null,
+      "ts": 1789377303000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/09/14/finland-to-join-france-s-forward-nuclear-deterrent_6757502_4.html"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-09-14/finland-will-join-france-s-nuclear-deterrence-initiative"
+          }
+        ]
+      }
+    },
     {
       "id": "20f93d7549a1",
       "title": "Pakistan's $3bn bond sale signals shift away from G2G borrowing",
@@ -97,6 +183,82 @@
             "n": "The Africa Report",
             "b": "center",
             "u": "https://www.theafricareport.com/430432/western-tigray-shifting-alliances-in-ethiopias-most-dangerous-frontier/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "513912e29866",
+      "title": "Preliminary Swedish election results show left bloc narrow lead",
+      "description": "Early counts indicate the left‑wing opposition holds a one‑seat advantage over Prime Minister Ulf Kristersson’s coalition.",
+      "lat": 59.33,
+      "lng": 18.07,
+      "severity": 3,
+      "location": "Stockholm, Sweden",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/sweden-election-preliminary-results-show-one-seat-advantage-for-left-wing-bloc-13585683",
+      "image": "https://e3.365dm.com/26/09/1920x1080/skynews-sweden-social-democrats_7351077.jpg?20260914043533",
+      "ts": 1789355160000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/swedish-voters-polls-choose-new-parliament-hard-bids-136400161"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/sweden-election-preliminary-results-show-one-seat-advantage-for-left-wing-bloc-13585683"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1eb649554ef0",
+      "title": "U.S. Air Force colonel recounts being shot down over Iran",
+      "description": "A U.S. colonel survived after his F‑15E fighter was downed by Iranian forces during the ongoing conflict.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 4,
+      "location": "Tehran, Iran",
+      "source": "The Hill",
+      "url": "https://thehill.com/policy/defense/6087347-usaf-colonel-survives-iran-crash/",
+      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/04/Quiz-war-powers_101709_AP_Maya-Allerruzzo.jpg?w=900",
+      "ts": 1789350228000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/policy/defense/6087347-usaf-colonel-survives-iran-crash/"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObFFucjM5NU9vaUJObkFteWRGLS1rMWIxT0g3NVA2bHBOYzdZdXBJNVpwaE5vaDVyZ2RRY09TMjVBWFZsUU9wNThoNVNkazZLeWVuLVc0MWNzQmR6SHFZcTBIRkpCUFBLdjQ2cjI0OERGV3JadzdVc19JN1o3Z1NnaURZc2hVbVpOcWlwUVlGaUg0Q18tUUNpd3ByaDZCS0RWMUhj?oc=5"
           }
         ]
       }
@@ -7801,138 +7963,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/iran-accuses-us-targeting-tanker-kharg-island-mideast-136222728"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5e5a329465b2",
-      "title": "Masked protesters block Dover port roads",
-      "description": "A group of masked demonstrators blocked access roads to the Port of Dover, temporarily disrupting freight traffic.",
-      "lat": 52.23,
-      "lng": 3.21520000000001,
-      "severity": 3,
-      "location": "Dover, United Kingdom",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/53751b68-5af6-42ec-9d93-bf3daee6acdd?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1788614372000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/9/5/stop-the-boats-masked-protesters-block-englands-port-of-dover?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "465d1bb11b99",
-      "title": "Latvia, Lithuania consider ending Russian grain transit through ports — agency",
-      "description": "Latvian officials will meet to discuss a possible full ban on Russian grain exports passing through Baltic ports, tightening pressure on Moscow’s food‑export revenues.",
-      "lat": 56.95,
-      "lng": 24.11,
-      "severity": 2,
-      "location": "Riga, Latvia",
-      "source": "TASS",
-      "url": "https://tass.com/world/2183117",
-      "image": null,
-      "ts": 1788611204000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2183117"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4cf8392e5887",
-      "title": "Bangladesh opposition launches protest march over energy crisis",
-      "description": "Opposition parties organized a large street march in Dhaka demanding government action on the worsening energy shortage.",
-      "lat": 23.81,
-      "lng": 90.41,
-      "severity": 3,
-      "location": "Dhaka, Bangladesh",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/south-asia/bangladesh-opposition-launches-protest-march-over-energy-crisis",
-      "image": null,
-      "ts": 1788603600000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/south-asia/bangladesh-opposition-launches-protest-march-over-energy-crisis"
-          }
-        ]
-      }
-    },
-    {
-      "id": "39975770f06c",
-      "title": "US ambassador meets Palestinians in Ramallah amid settler violence",
-      "description": "U.S. Ambassador to Israel Mike Huckabee visited Ramallah to meet Palestinian families affected by recent settler attacks.",
-      "lat": 31.35,
-      "lng": 36.15260000000001,
-      "severity": 2,
-      "location": "Ramallah, West Bank",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/09/us-ambassador-visits-palestinian-town-amid-rise-west-bank-settler-violence",
-      "image": null,
-      "ts": 1788601590000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/9/5/us-ambassador-to-israel-meets-palestinian-americans-in-occupied-west-bank?traffic_source=rss"
           }
         ]
       }
