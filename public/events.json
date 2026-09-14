@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-09-14T00:07:37.994338+00:00",
+  "updated": "2026-09-14T05:23:57.158269+00:00",
   "events": [
+    {
+      "id": "20f93d7549a1",
+      "title": "Pakistan's $3bn bond sale signals shift away from G2G borrowing",
+      "description": "Pakistan raised $3 billion through a sovereign bond issuance, indicating a move toward market‑based financing.",
+      "lat": 33.69,
+      "lng": 73.05,
+      "severity": 2,
+      "location": "Islamabad, Pakistan",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/markets/bonds/pakistan-s-3bn-bond-sale-signals-shift-away-from-g2g-borrowing",
+      "image": null,
+      "ts": 1789363437041,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Nikkei Asia",
+            "b": "center",
+            "u": "https://asia.nikkei.com/business/markets/bonds/pakistan-s-3bn-bond-sale-signals-shift-away-from-g2g-borrowing"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a858d688cd79",
+      "title": "SF to join Welsh, Scottish leaders for independence talks",
+      "description": "The First Ministers of Northern Ireland, Wales and Scotland will sign a landmark agreement to pressure the UK government on independence referendums.",
+      "lat": 51.48,
+      "lng": -3.18,
+      "severity": 1,
+      "location": "Cardiff, United Kingdom",
+      "source": "RTE News",
+      "url": "https://www.rte.ie/news/world/2026/0914/1591410-independence-summit/",
+      "image": "https://www.rte.ie/images/002173c4-800.jpg",
+      "ts": 1789362000000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/world/2026/0914/1591410-independence-summit/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f745f1269480",
+      "title": "Western Tigray: Shifting alliances in Ethiopia’s most dangerous frontier",
+      "description": "Fighting in western Tigray intensifies as Sudan and possible Eritrea‑Fano‑TPLF alignments challenge Ethiopia’s central government.",
+      "lat": 13.5,
+      "lng": 36.5,
+      "severity": 3,
+      "location": "Welkait, Ethiopia",
+      "source": "The Africa Report",
+      "url": "https://www.theafricareport.com/430432/western-tigray-shifting-alliances-in-ethiopias-most-dangerous-frontier/",
+      "image": null,
+      "ts": 1789362000000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Africa Report",
+            "b": "center",
+            "u": "https://www.theafricareport.com/430432/western-tigray-shifting-alliances-in-ethiopias-most-dangerous-frontier/"
+          }
+        ]
+      }
+    },
     {
       "id": "a0e1afd2e158",
       "title": "Three shot dead, 15 wounded ahead of polls in Philippine Muslim enclave",
@@ -879,26 +978,26 @@
     {
       "id": "ca4452ee7a90",
       "title": "Saudi shutdown of key pipeline limits oil flow as Yemen hits back against Houthis",
-      "description": "Saudi Arabia closed its vital East‑West oil pipeline after a drone strike launched from Iraq, tightening regional oil supplies.",
+      "description": "Saudi Arabia closed a critical oil pipeline after it was struck by drones launched from Iraq, tightening regional oil supplies.",
       "lat": 25.81,
       "lng": 46.68000000000001,
-      "severity": 4,
+      "severity": 3,
       "location": "Riyadh, Saudi Arabia",
       "source": "NBC News World",
       "url": "https://www.nbcnews.com/world/middle-east/saudi-arabia-shutdown-key-pipeline-limits-oil-flow-yemen-houthis-rcna597362",
       "image": null,
       "ts": 1789230360000,
       "coverage": {
-        "left": 4,
-        "center": 2,
-        "right": 1,
-        "total": 7,
+        "left": 3,
+        "center": 1,
+        "right": 0,
+        "total": 4,
         "buckets": {
           "left": 1,
-          "lean_left": 3,
-          "center": 2,
+          "lean_left": 2,
+          "center": 1,
           "lean_right": 0,
-          "right": 1
+          "right": 0
         },
         "sources": [
           {
@@ -912,29 +1011,14 @@
             "u": "https://www.nbcnews.com/world/middle-east/saudi-arabia-shutdown-key-pipeline-limits-oil-flow-yemen-houthis-rcna597362"
           },
           {
-            "n": "CBS News World",
+            "n": "ABC News International",
             "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/saudi-arabia-mbs-trump-houthis-yemen/"
+            "u": "https://abcnews.com/International/wireStory/iran-backed-houthis-yemen-claim-new-attacks-saudi-136400892"
           },
           {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/liveblog/2026/9/13/iran-war-live-saudi-arabia-and-houthis-trade-strikes-over-bab-al-mandeb?traffic_source=rss"
-          },
-          {
-            "n": "France 24",
+            "n": "Al-Monitor",
             "b": "center",
-            "u": "https://www.france24.com/en/middle-east/20260912-saudi-arabia-shut-down-east-west-pipeline-as-houthis-tighten-grip-on-red-sea"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/middle-east/article/3367329/houthis-hit-saudi-base-after-renewed-fighting-yemen-government-forces?utm_source=rss_feed"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/world/4724791/trump-houthi-dont-want-fight/"
+            "u": "https://www.al-monitor.com/originals/2026/09/houthis-say-saudi-arabia-launched-over-50-strikes-against-them-24-hours"
           }
         ]
       }
@@ -7849,105 +7933,6 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/video/newsfeed/2026/9/5/us-ambassador-to-israel-meets-palestinian-americans-in-occupied-west-bank?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4db511242090",
-      "title": "Satellite lofted for first Arab country",
-      "description": "China launched a communications satellite that became the first such export to an Arab nation, Algeria.",
-      "lat": 37.83,
-      "lng": 4.995200000000011,
-      "severity": 2,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1788589057260,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "71f267db86d9",
-      "title": "Attacchi russi durante la notte, colpita Kiev e una fabbrica a Kamianske",
-      "description": "Russian forces bombed Kyiv overnight and hit an industrial plant in Kamianske, causing civilian casualties.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 4,
-      "location": "Kyiv, Ukraine",
-      "source": "AGI Estero",
-      "url": "https://www.agi.it/estero/news/2026-09-05/ucraina-russia-droni-kiev-38888641/",
-      "image": "https://images.agi.it/pictures/agi/agi/2026/09/05/061530388-a1fc5cca-cb13-4241-9562-7eb10c94a1d3.jpg",
-      "ts": 1788589024000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-09-05/ucraina-russia-droni-kiev-38888641/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b353b09d0fa4",
-      "title": "Lee touts record-high exports after surpassing 2025 annual record",
-      "description": "South Korean President Lee Jae‑Myung announced a new export record, highlighting strong trade performance.",
-      "lat": 38.66,
-      "lng": 126.98000000000002,
-      "severity": 2,
-      "location": "Seoul, South Korea",
-      "source": "Yonhap News",
-      "url": "https://en.yna.co.kr/view/AEN20260905001900315",
-      "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/05/AEN20260905001900315_03_i_P2.jpg",
-      "ts": 1788588316000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20260905001900315"
           }
         ]
       }
