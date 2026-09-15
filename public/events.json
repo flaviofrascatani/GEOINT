@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-09-15T14:55:49.593475+00:00",
+  "updated": "2026-09-15T18:55:34.184384+00:00",
   "events": [
+    {
+      "id": "333070d8c4da",
+      "title": "Libya halts operations at 3 oil sites after pipeline shutdown",
+      "description": "Libyan Petroleum Facilities Guards shut a key valve on the Al‑Hamada‑Zawiya pipeline, forcing a suspension of production at three oil sites.",
+      "lat": 32.76,
+      "lng": 13.2,
+      "severity": 3,
+      "location": "Zawiya, Libya",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/business/energy/libya-halts-operations-at-3-oil-sites-after-pipeline-shutdown",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/09/15/460769.jpg",
+      "ts": 1789496460000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/business/energy/libya-halts-operations-at-3-oil-sites-after-pipeline-shutdown"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8132d9a00c2e",
+      "title": "Ten‑year Treasury yield hits highest level since 2007",
+      "description": "U.S. benchmark 10‑year Treasury yield rose to 5.04%, reflecting concerns over inflation and higher interest rates worldwide.",
+      "lat": 39.9951,
+      "lng": -77.0364,
+      "severity": 2,
+      "location": "Washington, D.C., United States",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/5e2327aa-dbd0-4a79-8c99-622a893876d7?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1789496033000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/5e2327aa-dbd0-4a79-8c99-622a893876d7?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
     {
       "id": "a99f1b9e603c",
       "title": "Saudi Arabia warns it will react 'firmly' to Houthi attacks",
@@ -7597,72 +7663,6 @@
             "n": "Rio Times",
             "b": "center",
             "u": "https://www.riotimesonline.com/chile-punta-arenas-falklands-trade-mission-2026/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "50a380fb7f81",
-      "title": "Lee arrives in France, set for summit with Macron in Paris",
-      "description": "South Korean President Lee Jae‑Myung arrived in Paris for a bilateral summit with French President Emmanuel Macron.",
-      "lat": 48.86,
-      "lng": 4.255200000000002,
-      "severity": 2,
-      "location": "Paris, France",
-      "source": "Yonhap News",
-      "url": "https://en.yna.co.kr/view/AEN20260906000300315",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/06/PYH2026090602460001300_P2.jpg",
-      "ts": 1788707708000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20260906000300315"
-          }
-        ]
-      }
-    },
-    {
-      "id": "99b2c62d4d0c",
-      "title": "Ho Chi Minh City delays low-emission zone rollout by 6 months",
-      "description": "Vietnam’s biggest city postponed the implementation of its low‑emission traffic zone, pushing the start date back half a year.",
-      "lat": 10.82,
-      "lng": 106.63,
-      "severity": 1,
-      "location": "Ho Chi Minh City, Vietnam",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/spotlight/environment/ho-chi-minh-city-delays-low-emission-zone-rollout-by-6-months",
-      "image": null,
-      "ts": 1788704560891,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Nikkei Asia",
-            "b": "center",
-            "u": "https://asia.nikkei.com/spotlight/environment/ho-chi-minh-city-delays-low-emission-zone-rollout-by-6-months"
           }
         ]
       }
