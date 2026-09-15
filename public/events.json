@@ -1,7 +1,83 @@
 {
   "schema": 1,
-  "updated": "2026-09-15T10:00:20.477022+00:00",
+  "updated": "2026-09-15T14:55:49.593475+00:00",
   "events": [
+    {
+      "id": "a99f1b9e603c",
+      "title": "Saudi Arabia warns it will react 'firmly' to Houthi attacks",
+      "description": "Saudi Civil Defence issued an alert for six cities, including the main Red Sea oil port Yanbu, after Houthi attacks in the region.",
+      "lat": 27.44,
+      "lng": 49.53,
+      "severity": 2,
+      "location": "Ras Tanura, Saudi Arabia",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/west-asia-war-live-updates-saudi-arabia-houthi-attacks-red-sea-us-iran-september-15-2026/article71466658.ece",
+      "image": null,
+      "ts": 1789481488000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/west-asia-war-live-updates-saudi-arabia-houthi-attacks-red-sea-us-iran-september-15-2026/article71466658.ece"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-908610"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/09/saudi-arabias-mbs-visits-egypt-red-sea-crisis-houthis-escalates"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b2b0945c046a",
+      "title": "Denmark accuses Moscow warship of firing flares ‘within metres’ of military helicopter",
+      "description": "During the Ukraine‑Russia war, a Danish source reported a Russian warship launched flares close to a Danish‑operated military helicopter.",
+      "lat": 55.75,
+      "lng": 37.62,
+      "severity": 3,
+      "location": "Moscow, Russia",
+      "source": "Google News Top",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQmhmakVSTFNjMldBLW5SbDE0UUprY0k3WTVRTkVYRFRWY2JvcGJGWFlWUGhmYVlEZ0l1LUFjV1NYMUpvS2dsMXYteVJ4RkNLdGFna1ZBaFlRWVJ0WkFWd1RNRUsteDJ1RWtxUF9WU1ZBLXNZelBKRHpZU19vMGdYTHlHVzFQNHc4NWxuTm1OSDZxSU9UNWxsSkJ1SGpjRnhhOXZEVlY1QUlvRmVNcE5vTDZQSQ?oc=5",
+      "image": null,
+      "ts": 1789476302000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQmhmakVSTFNjMldBLW5SbDE0UUprY0k3WTVRTkVYRFRWY2JvcGJGWFlWUGhmYVlEZ0l1LUFjV1NYMUpvS2dsMXYteVJ4RkNLdGFna1ZBaFlRWVJ0WkFWd1RNRUsteDJ1RWtxUF9WU1ZBLXNZelBKRHpZU19vMGdYTHlHVzFQNHc4NWxuTm1OSDZxSU9UNWxsSkJ1SGpjRnhhOXZEVlY1QUlvRmVNcE5vTDZQSQ?oc=5"
+          }
+        ]
+      }
+    },
     {
       "id": "c331343a90c9",
       "title": "Hezbollah will mount significant attack after regrouping, studying Israeli activity, IDF warns",
@@ -145,6 +221,39 @@
             "n": "Egypt Independent",
             "b": "center",
             "u": "https://www.egyptindependent.com/trump-says-ukraine-and-russia-agreed-to-stop-targeting-energy-sites-but-kyiv-calls-it-a-proposal-for-a-mutual-halt/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9055e956eea5",
+      "title": "It’s Boom Time in Kyrgyzstan, Courtesy in Part of the War in Ukraine",
+      "description": "Kyrgyzstan’s economy grew 11 % last year, boosted by its role as a conduit for goods flowing into Russia amid the Ukraine war.",
+      "lat": 42.87,
+      "lng": 74.59,
+      "severity": 2,
+      "location": "Bishkek, Kyrgyzstan",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/09/15/world/asia/kyrgyzstan-economy-russia-war.html",
+      "image": "https://static01.nyt.com/images/2026/08/10/multimedia/10int-kyrgyzstan-economy-01-cbjk/10int-kyrgyzstan-economy-01-cbjk-mediumSquareAt3X.jpg",
+      "ts": 1789463609000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/09/15/world/asia/kyrgyzstan-economy-russia-war.html"
           }
         ]
       }
@@ -401,54 +510,6 @@
             "n": "Die Welt",
             "b": "lean_right",
             "u": "https://www.welt.de/politik/ausland/article6aa8596977bd109fcdd014a6/ukraine-krieg-russland-nimmt-hier-auf-der-eskalationsleiter-die-naechste-sprosse-warnt-militaerexperte-reisner.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a99f1b9e603c",
-      "title": "Oil hits $109 after Saudi Arabia closes vital export pipeline",
-      "description": "Saudi Arabia pulled out of regional talks and shut a key export pipeline following a drone attack, pushing oil prices above $109 a barrel.",
-      "lat": 27.44,
-      "lng": 49.53,
-      "severity": 4,
-      "location": "Ras Tanura, Saudi Arabia",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/4845a503-3ddd-4bb7-a469-c51f275bc873?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1789416680000,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/09/14/world/middleeast/saudi-leader-meets-centcom.html"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/4845a503-3ddd-4bb7-a469-c51f275bc873?syn-25a6b1a6=1"
-          },
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/policy/energy-environment/6088763-oil-prices-jump-houthi-attacks/"
-          },
-          {
-            "n": "Rio Times",
-            "b": "center",
-            "u": "https://www.riotimesonline.com/oil-prices-brent-saudi-pipeline-halt-2026/"
           }
         ]
       }
@@ -7602,72 +7663,6 @@
             "n": "Nikkei Asia",
             "b": "center",
             "u": "https://asia.nikkei.com/spotlight/environment/ho-chi-minh-city-delays-low-emission-zone-rollout-by-6-months"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cdf93009b3ec",
-      "title": "US Marines are training to jam enemy drones before they can reach US amphibious assault ships",
-      "description": "Marines aboard the USS Makin Island practiced using upgraded counter‑drone systems to detect and jam hostile UAVs.",
-      "lat": 32.71,
-      "lng": -117.16,
-      "severity": 3,
-      "location": "San Diego, USA",
-      "source": "Business Insider",
-      "url": "https://www.businessinsider.com/marines-training-jam-drones-before-they-can-reach-navy-ships-2026-9",
-      "image": "https://i.insider.com/6a9ad88b755b3072e51cc5e7?format=jpeg",
-      "ts": 1788702624000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Business Insider",
-            "b": "lean_left",
-            "u": "https://www.businessinsider.com/marines-training-jam-drones-before-they-can-reach-navy-ships-2026-9"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7498d374eb7d",
-      "title": "Missile Shortage Forces Ukraine To Use 1970s‑Era R‑60 Against Russian Drones",
-      "description": "Facing a lack of modern missiles, Ukrainian MiG‑29 pilots have re‑activated the Soviet‑era R‑60 to engage Russian drone threats.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 3,
-      "location": "Kyiv, Ukraine",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/ukraine-runs-short-of-key-missiles-mig-29-jets-bring-back-1970s-weapon-12009538#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-09/26ppnou8_r-60-missiles_625x300_06_September_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1788698440000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/ukraine-runs-short-of-key-missiles-mig-29-jets-bring-back-1970s-weapon-12009538#publisher=newsstand"
           }
         ]
       }
