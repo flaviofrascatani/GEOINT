@@ -1,7 +1,154 @@
 {
   "schema": 1,
-  "updated": "2026-09-15T04:47:02.195927+00:00",
+  "updated": "2026-09-15T10:00:20.477022+00:00",
   "events": [
+    {
+      "id": "c331343a90c9",
+      "title": "Hezbollah will mount significant attack after regrouping, studying Israeli activity, IDF warns",
+      "description": "Israel’s defense forces warned that Hezbollah is preparing a major operation following its recent regrouping.",
+      "lat": 31.77,
+      "lng": 35.21000000000001,
+      "severity": 2,
+      "location": "Jerusalem, Israel",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/article-908648",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_537,w_822/725482",
+      "ts": 1789472837000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-908648"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1e1be9ad44a6",
+      "title": "Norway police investigate Telenor over suspected crimes against humanity in Myanmar",
+      "description": "Oslo police opened an investigation into Norwegian telecom operator Telenor for alleged involvement in Myanmar’s post‑coup atrocities.",
+      "lat": 16.84,
+      "lng": 96.16,
+      "severity": 3,
+      "location": "Yangon, Myanmar",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/norway-police-investigate-telenor-over-suspected-crimes-against-humanity-in-myanmar",
+      "image": null,
+      "ts": 1789465617000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/norway-police-investigate-telenor-over-suspected-crimes-against-humanity-in-myanmar"
+          }
+        ]
+      }
+    },
+    {
+      "id": "925df145e776",
+      "title": "Egypt, Singapore explore means to expand cooperation",
+      "description": "Egyptian and Singaporean foreign ministers met in Cairo to discuss deepening bilateral ties and joint projects.",
+      "lat": 30.04,
+      "lng": 31.24,
+      "severity": 2,
+      "location": "Cairo, Egypt",
+      "source": "Egypt Independent",
+      "url": "https://www.egyptindependent.com/egypt-singapore-explore-means-to-expand-cooperation/",
+      "image": null,
+      "ts": 1789465088000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/egypt-singapore-explore-means-to-expand-cooperation/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a48417a4e2e9",
+      "title": "Ukraine Hits Russia Refinery Despite Trump’s Energy-Truce Claim",
+      "description": "Ukrainian forces struck the Syzran oil refinery in Russia’s Volga region, damaging critical infrastructure.",
+      "lat": 53.16,
+      "lng": 48.48,
+      "severity": 3,
+      "location": "Syzran, Russia",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-15/ukraine-hits-russia-refinery-despite-trump-s-energy-truce-claim",
+      "image": null,
+      "ts": 1789464938000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/ukraine-defies-trump-russian-oil-37663209"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/trump-calls-ukraine-stop-hitting-russian-oil-refineries-price-diesel-skyrockets-3807414"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-09-15/ukraine-hits-russia-refinery-despite-trump-s-energy-truce-claim"
+          },
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/trump-says-ukraine-and-russia-agreed-to-stop-targeting-energy-sites-but-kyiv-calls-it-a-proposal-for-a-mutual-halt/"
+          }
+        ]
+      }
+    },
     {
       "id": "eeea1fe8dfc8",
       "title": "NATO jets shoot down drone over Lithuania",
@@ -31,6 +178,39 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/nato-jets-shoot-down-drone-over-lithuania/a-79267975?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6a503b544023",
+      "title": "Ebola outbreak in DRC has peaked, say authorities, as infection rates slow",
+      "description": "Health officials announced that the Ebola epidemic in the Democratic Republic of Congo is declining, with fewer new cases reported.",
+      "lat": 0.78,
+      "lng": 30.03,
+      "severity": 1,
+      "location": "Bundibugyo, Democratic Republic of Congo",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/global-development/2026/sep/15/ebola-outbreak-in-drc-has-peaked-say-authorities-as-infection-rates-slow",
+      "image": null,
+      "ts": 1789444826000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/global-development/2026/sep/15/ebola-outbreak-in-drc-has-peaked-say-authorities-as-infection-rates-slow"
           }
         ]
       }
@@ -636,6 +816,54 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-09-14/finland-will-join-france-s-nuclear-deterrence-initiative"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e1ef67ec402a",
+      "title": "Russian Drone Hits Train Near Ukraine-Poland Border Soon After Visiting Dignitaries Passed Through",
+      "description": "A drone strike damaged a passenger train at Yahodyn station close to the Ukraine‑Poland border, causing injuries and service disruption.",
+      "lat": 50.45,
+      "lng": 32.42519999999999,
+      "severity": 3,
+      "location": "Kyiv, Ukraine",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/russia-attacks-train-ukraine_n_6aa7b826e4b054da7a232473",
+      "image": null,
+      "ts": 1789377287000,
+      "coverage": {
+        "left": 3,
+        "center": 1,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 1,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/russia-attacks-train-ukraine_n_6aa7b826e4b054da7a232473"
+          },
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/09/14/world/europe/ukraine-railway-strike-europe.html"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/ukraine-defies-trump-russian-oil-37663209"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/europe/20260915-nato-fighter-jets-shoot-down-drone-over-lithuania-after-latest-incursion"
           }
         ]
       }
@@ -1774,54 +2002,6 @@
             "n": "Buenos Aires Times",
             "b": "center",
             "u": "https://www.batimes.com.ar/news/argentina/milei-revives-strategic-naval-base-at-the-end-of-the-world.phtml"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e1ef67ec402a",
-      "title": "Russian Strikes Kill 8 In Ukraine As Putin Warns Europe Against Sending Troops",
-      "description": "Russian air strikes in Ukraine caused eight civilian deaths, while President Putin warned Europe of escalation.",
-      "lat": 50.45,
-      "lng": 32.42519999999999,
-      "severity": 2,
-      "location": "Kyiv, Ukraine",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/russian-strikes-kill-3-ukraine-putin-warns-europe-against-sending-troops_n_6aa54b30e4b0b2af35a6dd22",
-      "image": null,
-      "ts": 1789217919000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 1,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/russian-strikes-kill-3-ukraine-putin-warns-europe-against-sending-troops_n_6aa54b30e4b0b2af35a6dd22"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c4gr33g3evlo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/ukraine-several-killed-in-series-of-russian-strikes/a-79245980?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/ukraine-strikes-deep-russias-arctic-gas-heartland-trump-pushes-putin-toward-peace"
           }
         ]
       }
@@ -7488,301 +7668,6 @@
             "n": "NDTV World",
             "b": "lean_left",
             "u": "https://www.ndtv.com/world-news/ukraine-runs-short-of-key-missiles-mig-29-jets-bring-back-1970s-weapon-12009538#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c432dc9da672",
-      "title": "Milei quiets ruling‑party rifts, reclaims agenda via Malvinas",
-      "description": "Argentine President Javier Milei’s nationwide broadcast aimed to calm internal party disputes and refocus attention on the Falklands issue.",
-      "lat": 34.61,
-      "lng": -58.38,
-      "severity": 2,
-      "location": "Buenos Aires, Argentina",
-      "source": "Buenos Aires Times",
-      "url": "https://www.batimes.com.ar/news/argentina/milei-quiets-ruling-party-rifts-reclaims-agenda-via-malvinas.phtml",
-      "image": "https://fotos.perfil.com/2026/09/06/trim/540/304/islas-malvinasfalkland-islands-stock-2320037.jpg",
-      "ts": 1788697031000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Buenos Aires Times",
-            "b": "center",
-            "u": "https://www.batimes.com.ar/news/argentina/milei-quiets-ruling-party-rifts-reclaims-agenda-via-malvinas.phtml"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3516b0a06275",
-      "title": "U.S. envoys Witkoff and Kushner meet with Zelenskyy in Kyiv after peace talks in Moscow",
-      "description": "Trump‑appointed envoys Steve Witkoff and Jared Kushner arrived in Kyiv for talks with President Zelenskyy following meetings with President Putin in Moscow.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 2,
-      "location": "Kyiv, Ukraine",
-      "source": "NBC News World",
-      "url": "https://www.nbcnews.com/world/ukraine/us-envoys-witkoff-kushner-set-arrive-kyiv-peace-talks-moscow-rcna596324",
-      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-09/260906-witkoff-nd-af6639.jpg",
-      "ts": 1788688010000,
-      "coverage": {
-        "left": 6,
-        "center": 10,
-        "right": 2,
-        "total": 18,
-        "buckets": {
-          "left": 0,
-          "lean_left": 6,
-          "center": 10,
-          "lean_right": 2,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/09/06/world/europe/ukraine-zelensky-witkoff-kushner-russia-putin.html"
-          },
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/09/05/witkoff-kushner-arrive-moscow-talks-with-putin/"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/ukraine/us-envoys-witkoff-kushner-set-arrive-kyiv-peace-talks-moscow-rcna596324"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/us-envoys-witkoff-kushner-arrive-kyiv-after-talks-136236924"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/ukraine-russia-war-trump-peace-proposal-witkoff-kushner/"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/09/06/trump-s-envoys-arrive-in-kyiv-for-first-ukraine-visit_6757217_4.html"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/09/05/putin-witkoff-kushner-trump-ukraine-war"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/2026/0906/1590482-ukraine-kushner-witkoff/"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/1e2d9db0-cb2c-4c79-942b-f0aff960e4c5"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/europe/20260906-live-trump-s-envoys-head-to-ukraine-after-substantive-talks-with-putin"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/us-envoys-witkoff-kushner-arrive-in-kiyv-after-putin-talks/a-79054779?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeTNDSjA2dThDN291SjNRVEUyNHU2ODFxRWlpdTBMV0oyeC13Tkh0dnJsMWU4VjFvU0RNeGJoaHFsYmlUYWh2SllCNW1aQTJzMVJvSWptMEhCNWlhdlhtUDBRb0JrdEdQNzdQeU5nOUhwWFF0UVp4MGZCZU9SZTIyYWFNU01rLS01Ny1KQjE1TnNHcy0yQS01Vk10Y3RwdDlhenBXYkZXNU1JYXd6ZHU2MFExcWVyUQ?oc=5"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-09-06/russia-ukraine-exchange-strikes-as-us-envoys-head-for-kyiv"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/witkoff-and-kushner-arrive-in-kyiv-for-second-leg-of-us-diplomacy-push/"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/europe/article/3366544/us-envoys-witkoff-kushner-arrive-kyiv-after-talks-putin-moscow?utm_source=rss_feed"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/politics/2183323"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/645183-peskov-kiev-kushner-witkoff-visit/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7ce402320baa",
-      "title": "Witkoff and Kushner meet with Putin about ending Ukraine war",
-      "description": "President‑appointed envoys Steve Witkoff and Jared Kushner met Russian President Vladimir Putin at the Kremlin to discuss U.S. proposals for ending the conflict in Ukraine.",
-      "lat": 55.75,
-      "lng": 37.620000000000005,
-      "severity": 2,
-      "location": "Moscow, Russia",
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/09/05/putin-witkoff-kushner-trump-ukraine-war",
-      "image": "https://images.axios.com/sqobC2V6dO7WGrEXkPw-XV_iKao=/0x0:4894x2753/1366x768/2026/09/05/1788640436966.jpeg",
-      "ts": 1788655397000,
-      "coverage": {
-        "left": 2,
-        "center": 6,
-        "right": 2,
-        "total": 10,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 6,
-          "lean_right": 1,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/09/05/world/europe/russia-ukraine-witkoff-kushner-moscow.html"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/ukraine-russia-war-trump-peace-proposal-witkoff-kushner/"
-          },
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/09/05/putin-witkoff-kushner-trump-ukraine-war"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/europe/20260906-live-trump-s-envoys-head-to-ukraine-after-substantive-talks-with-putin"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/us-envoys-meet-with-putin-leave-russia-for-kyiv/a-79040773?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5YenE2dEVHYWtBRFE5N3oxbm9OQmRYaTlWQ2pqQ1Vvb00zMlBfeERuTllJOHZIc3NHWTJlRVZQUEt5a2pZYndEamJlUnRSeDFiLWIzY3Z5T1R0UnlvbnRRd2wxV19MSXJ1WW5nWlZnYTBUWEpTTXNkTVBXTVc?oc=5"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-09-05/us-envoys-arrive-in-moscow-with-proposal-to-end-war-in-ukraine"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/europe/article/3366544/us-envoys-witkoff-kushner-arrive-kyiv-after-talks-putin-moscow?utm_source=rss_feed"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/politics/2183323"
-          },
-          {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/newsroom/putin-and-zelensky-pause-strikes-ahead-of-visits-from-witkoff-and-kushner-over-the-weekend/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c51b09e07dc3",
-      "title": "Iran war live: IRGC claims new attacks on US warships over naval blockade",
-      "description": "IRGC says it fired ballistic missiles at a US aircraft carrier and destroyer in the Strait of Hormuz, escalating the standoff.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/9/6/iran-war-live-irgc-claims-new-attacks-on-us-warships-over-naval-blockade?traffic_source=rss",
-      "image": null,
-      "ts": 1788652800000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/liveblog/2026/9/6/iran-war-live-irgc-claims-new-attacks-on-us-warships-over-naval-blockade?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1301fb6ad6ca",
-      "title": "Satellite lofted for first Arab country",
-      "description": "Un satellite di comunicazione cinese è stato lanciato per l'Algeria, segnando la prima esportazione di questo tipo di veicolo spaziale verso un Paese arabo.",
-      "lat": 37.83,
-      "lng": 3.0900000000000034,
-      "severity": 1,
-      "location": "Algiers, Algeria",
-      "source": "China Daily World",
-      "url": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html",
-      "image": "http://img2.chinadaily.com.cn/images/201712/12/5a2f22e1a3108bc89ad5504c.jpeg",
-      "ts": 1788650069891,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "China Daily World",
-            "b": "right",
-            "u": "http://www.chinadaily.com.cn/a/201712/12/WS5a2f225ea3108bc8c67219dd.html"
           }
         ]
       }
