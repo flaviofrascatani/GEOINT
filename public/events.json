@@ -1,7 +1,88 @@
 {
   "schema": 1,
-  "updated": "2026-09-15T22:09:29.749003+00:00",
+  "updated": "2026-09-16T00:45:53.922652+00:00",
   "events": [
+    {
+      "id": "de292016cf57",
+      "title": "European Council president to call for creating European Security Council",
+      "description": "Ursula von der Leyen will propose the establishment of a European Security Council in her State of the Union address.",
+      "lat": 48.58,
+      "lng": 7.75,
+      "severity": 2,
+      "location": "Strasbourg, France",
+      "source": "TASS",
+      "url": "https://tass.com/world/2188123",
+      "image": null,
+      "ts": 1789517761000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2188123"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a99f1b9e603c",
+      "title": "Saudi Arabia cancels oil shipments to Europe after pipeline attack – Reuters",
+      "description": "Following a drone attack on a key pipeline, Saudi Arabia halted oil exports to European markets.",
+      "lat": 27.44,
+      "lng": 49.53,
+      "severity": 4,
+      "location": "Ras Tanura, Saudi Arabia",
+      "source": "RT News",
+      "url": "https://www.rt.com/news/645782-saudi-arabia-cancels-oil-shipments-europe/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": null,
+      "ts": 1789516629000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/west-asia-war-live-updates-saudi-arabia-houthi-attacks-red-sea-us-iran-september-15-2026/article71466658.ece"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/09/how-far-will-iran-push-houthis-against-saudi-arabia-amid-raging-conflict"
+          },
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/09/16/world/politics/mbs-saudi-crisis-oil-pipeline/"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/645782-saudi-arabia-cancels-oil-shipments-europe/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
     {
       "id": "67d97275bf97",
       "title": "US Senate crypto bill collapses in blow to industry",
@@ -188,44 +269,67 @@
       }
     },
     {
-      "id": "a99f1b9e603c",
-      "title": "Saudi Arabia warns it will react 'firmly' to Houthi attacks",
-      "description": "Saudi Civil Defence issued an alert for six cities, including the main Red Sea oil port Yanbu, after Houthi attacks in the region.",
-      "lat": 27.44,
-      "lng": 49.53,
-      "severity": 2,
-      "location": "Ras Tanura, Saudi Arabia",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/west-asia-war-live-updates-saudi-arabia-houthi-attacks-red-sea-us-iran-september-15-2026/article71466658.ece",
-      "image": null,
-      "ts": 1789481488000,
+      "id": "61f4958e40b7",
+      "title": "Iran's regime came for teenage twins. Their fate offers a glimpse of Tehran's widening death campaign",
+      "description": "Twin sisters Taraneh and Romina Rahimi were sentenced to execution and long prison terms for their participation in anti‑government protests.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 4,
+      "location": "Tehran, Iran",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/irans-regime-came-teenage-twins-fate-offers-glimpse-tehrans-widening-death-campaign",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/sisters-Rahimi-Iran-Protesters.jpg?ve=1&tl=1",
+      "ts": 1789485438000,
       "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 0,
-        "total": 3,
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
         "buckets": {
           "left": 0,
-          "lean_left": 1,
-          "center": 2,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/irans-regime-came-teenage-twins-fate-offers-glimpse-tehrans-widening-death-campaign"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4e661b13c10e",
+      "title": "Starlink suspended in Senegal over breach of licensing rules",
+      "description": "SpaceX’s Starlink service was temporarily halted in Senegal due to alleged violations of local licensing regulations.",
+      "lat": 15.79,
+      "lng": -17.439999999999998,
+      "severity": 3,
+      "location": "Dakar, Senegal",
+      "source": "The Africa Report",
+      "url": "https://www.theafricareport.com/430751/starlink-suspended-in-senegal-over-breach-of-licensing-rules/",
+      "image": null,
+      "ts": 1789477200000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
           "lean_right": 0,
           "right": 0
         },
         "sources": [
           {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/west-asia-war-live-updates-saudi-arabia-houthi-attacks-red-sea-us-iran-september-15-2026/article71466658.ece"
-          },
-          {
-            "n": "Jerusalem Post",
+            "n": "The Africa Report",
             "b": "center",
-            "u": "https://www.jpost.com/middle-east/article-908610"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/saudi-arabias-mbs-visits-egypt-red-sea-crisis-houthis-escalates"
+            "u": "https://www.theafricareport.com/430751/starlink-suspended-in-senegal-over-breach-of-licensing-rules/"
           }
         ]
       }
@@ -479,10 +583,10 @@
     {
       "id": "6a503b544023",
       "title": "Ebola outbreak in DRC has peaked, say authorities, as infection rates slow",
-      "description": "Health officials announced that the Ebola epidemic in the Democratic Republic of Congo is declining, with fewer new cases reported.",
+      "description": "Health officials report that the Ebola epidemic in the Democratic Republic of the Congo is declining after more than 3,000 deaths.",
       "lat": 0.78,
       "lng": 30.03,
-      "severity": 1,
+      "severity": 3,
       "location": "Bundibugyo, Democratic Republic of Congo",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/global-development/2026/sep/15/ebola-outbreak-in-drc-has-peaked-say-authorities-as-infection-rates-slow",
@@ -7514,175 +7618,6 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/emergencies/2183417"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8f7987a27839",
-      "title": "Iran says plans to announce new ‘exclusion zone’ near Strait of Hormuz",
-      "description": "Iran announced it will create an exclusion zone around the Strait of Hormuz and sanction any ship that enters it.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 2,
-      "location": "Strait of Hormuz",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/iran-says-plans-to-announce-new-exclusion-zone-near-strait-of-hormuz/article71436488.ece",
-      "image": "https://th-i.thgim.com/public/incoming/k7n2ai/article71436491.ece/alternates/LANDSCAPE_1200/APTOPIX_Iran_War_Strait_of_Hormuz_44418.jpg",
-      "ts": 1788730041000,
-      "coverage": {
-        "left": 2,
-        "center": 3,
-        "right": 1,
-        "total": 6,
-        "buckets": {
-          "left": 1,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/ap-ml-iran-us-strait-of-hormuz-shirp-strike_n_6a9d5316e4b0facfe72a7886"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/iran-says-plans-to-announce-new-exclusion-zone-near-strait-of-hormuz/article71436488.ece"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVnRWSTAzR3R1bWNOYUlFbC12M3pENWFESjZQaGtFbThpdVZGV0dHRzVrRGthN3BDandiaVFKWGR1RndvbzBCb3puLVFlc2IyX1hpVWRFQmlRQURQejVNTFMyX2lOMElxQ1RmN2h4XzA1UUFCbHl1WF9SNWJkSTdJZVMxVjV4MDVaRGUxam9MSC1Ga2ZVUmx4ZE1YZWF2Nk5TREJjd3hyRGd4amNpamFRNE1vYzlTQdIBuwFBVV95cUxOZW5HQzlaUDRkN2syOGlqa3JGYXZjUlgxYW9OS2VTdHVJYkVxNktCME1fUFRRMEhUVV9qSWg2b3pWaXA1N0V1UnZ0NWhiUzdyRFpsanZqNVpfSlFESU55cDA5a0Q0RFlpejFnV2N0QWFERFB4dnQ1U3lqbHRZdVpFeV91Z284Vkc3QkxVbDRIaHdEVWxveE0xT3dGSVU3WG1XRmdzdGRtbFpGbEwwWGc3SDNfUTh5QjNxeks4?oc=5"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcVRCUTJDbU1rM3VXMlV0U0lONk81WDlCendLTXVDTnBJc1JWamJfdDJtVzhOeFJxVnVHeWo5SnJ5WVkyQThNS2FDVmhSaDUzQnMzbGFRUVpEdDdmQ0V1X3pGMlFNMnVQdElab0dqNGNobzRSMGQxeGdPWEVYNVR3WE1FVXcwdTVzbzNyaWN1RTJiTmg2a1NMSFBBWTZPb05oYWRwV2NR?oc=5"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/09/05/tensions-in-the-strait-of-hormuz-drive-oil-prices-as-us-and-iran-both-claim-control/"
-          },
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2246034/iran-claims-strike-us-ship"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d1cb137a5a49",
-      "title": "Stray US glide bomb likely hit wedding in Iran – WaPo",
-      "description": "U.S. investigators say a stray glide bomb probably caused a deadly blast at a wedding in Iran, resulting in civilian casualties.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "RT News",
-      "url": "https://www.rt.com/news/645195-us-bomb-iranian-wedding/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.09/thumbnail/6a9dd8a020302719dd1d6de6.jpg",
-      "ts": 1788729595000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/645195-us-bomb-iranian-wedding/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "28278a3a3ec2",
-      "title": "Witkoff And Kushner Arrive In Kyiv After Talks With Putin In Moscow",
-      "description": "U.S. envoys arrived in Kyiv following meetings with Russian officials in Moscow, signalling a renewed diplomatic push for peace in Ukraine.",
-      "lat": 55.75,
-      "lng": 37.620000000000005,
-      "severity": 2,
-      "location": "Moscow, Russia",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/witkoff-kushner-arrive-kyiv-russia-ukraine-war_n_6a9d7f8ee4b0facfe72a8308",
-      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/05/AP26102061314573.jpg?w=900",
-      "ts": 1788721520000,
-      "coverage": {
-        "left": 5,
-        "center": 4,
-        "right": 1,
-        "total": 10,
-        "buckets": {
-          "left": 1,
-          "lean_left": 4,
-          "center": 4,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/witkoff-kushner-arrive-kyiv-russia-ukraine-war_n_6a9d7f8ee4b0facfe72a8308"
-          },
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/09/06/world/europe/ukraine-zelensky-witkoff-kushner-russia-putin.html"
-          },
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/09/05/witkoff-kushner-arrive-moscow-talks-with-putin/"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/ukraine/us-envoys-witkoff-kushner-set-arrive-kyiv-peace-talks-moscow-rcna596324"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/us-envoys-witkoff-kushner-arrive-kyiv-after-talks-136236924"
-          },
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/09/06/witkoff-kushner-kyiv-ukraine-peace-talks"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/us-envoys-head-ukraine-moscow-despite-highly-useful-talks-peace-remains-elusive-3807191"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQY3JHeGxZZzc2VWpSa2ZhN2dmYS1STm5IVFRjZGlCLVlZMkN1ZG5rQV84YVNvaVpPU1pLci0zYlZTaWJ5X0d0N3BROEkwTzlNUVNLWVF3U2VZN2pveGNnRjVMdnRCQWZZYW5SUC1faGJMZElza19HMEM0QWZFaVp5emI0SUVwcHFncDFsM1JsMEY3eHFMOWxkSV9ZNkdQbGFzS0Vr0gGjAUFVX3lxTE5KMThEMExUMkp1dTA0TlFQbDZHY2dlRkd5NnloNlAzdmtrNGFueC1icjVyczJlQjRWQmVZamE4UDMzaURFcXdyZHl2UjM0TmtRa0dEN3lfQVk4Tmd3aDdyVmctMGdFb0NTTDk1LWMtS0hUSktiQ3A2bElRcVBLS3k2czJ0MG1sWUZ3VzJrZzd5YzAtWnVkWkxZejM1OHpXQTBFb0E?oc=5"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/witkoff-confident-of-good-resolution-after-kyiv-meeting-as-us-pushes-for-trilateral-talks-with-russia/"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/645177-witkoff-kushner-likely-brought-substantive-proposal-to-moscow-experts/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
           }
         ]
       }
