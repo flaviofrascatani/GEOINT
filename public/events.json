@@ -1,7 +1,139 @@
 {
   "schema": 1,
-  "updated": "2026-09-16T15:31:15.048644+00:00",
+  "updated": "2026-09-16T19:03:35.762850+00:00",
   "events": [
+    {
+      "id": "94684b868f4b",
+      "title": "Trump oil ally Harold Hamm to invest in Venezuela",
+      "description": "Continental Resources announced a new oil investment in Venezuela, marking a rare Western entry after U.S. sanctions.",
+      "lat": 10.51,
+      "lng": -66.9,
+      "severity": 3,
+      "location": "Caracas, Venezuela",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/7be92efe-13d6-4d02-9f77-0e8229b3b8fa?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1789583475000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/7be92efe-13d6-4d02-9f77-0e8229b3b8fa?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ec093bee4006",
+      "title": "Washington set to approve $2.8 bn arms package for Israel",
+      "description": "The U.S. government is preparing to authorize a large weapons sale to Israel, including 40,000 one‑ton bombs.",
+      "lat": 40.0,
+      "lng": -75.1348,
+      "severity": 3,
+      "location": "Washington, D.C., United States",
+      "source": "France 24",
+      "url": "http://www.france24.com/en/washington-set-to-approve-2-8-bn-arms-package-for-israel",
+      "image": "https://s.france24.com/media/display/942153e2-b1fb-11f1-bd55-3df65e1cd14d/w:1024/p:16x9/capture-17306261656aaade6612d4f8-79538850.jpg",
+      "ts": 1789583055000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "http://www.france24.com/en/washington-set-to-approve-2-8-bn-arms-package-for-israel"
+          }
+        ]
+      }
+    },
+    {
+      "id": "00b0c5496988",
+      "title": "U.S. diplomats meet with Houthis at the U.S. embassy in Oman",
+      "description": "American diplomats held talks with Houthi representatives in Muscat to address the escalating Red Sea crisis.",
+      "lat": 23.61,
+      "lng": 58.59,
+      "severity": 2,
+      "location": "Muscat, Oman",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/09/16/us-houthi-oman-to-discuss-red-sea-crisis",
+      "image": "https://images.axios.com/u1UccKjLK_ymiRPVXNrMYJMJnqM=/0x0:4000x2250/1366x768/2026/09/16/1789582390733.jpeg",
+      "ts": 1789582781000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/09/16/us-houthi-oman-to-discuss-red-sea-crisis"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5db320722716",
+      "title": "Houthi capture of ground overlooking the Bab el-Mandeb Strait",
+      "description": "Houthi forces seized a strategic position that commands the Bab el‑Mandeb, threatening Red Sea shipping routes.",
+      "lat": 12.6,
+      "lng": 43.0,
+      "severity": 3,
+      "location": "Bab el‑Mandeb Strait, Yemen",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/09/houthi-blitz-leaves-saudi-arabia-exposed-iran-emboldened-0",
+      "image": null,
+      "ts": 1789577202000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/09/houthi-blitz-leaves-saudi-arabia-exposed-iran-emboldened-0"
+          }
+        ]
+      }
+    },
     {
       "id": "afcd2b7ca483",
       "title": "Yemen fighting forces thousands into makeshift camps as displacement surges",
@@ -31,6 +163,44 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/09/16/yemen-fighting-forces-thousands-into-makeshift-camps-as-displacement-surges/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5d4dd333a937",
+      "title": "Building Collapse Kills Over 20 In Gaza As Perilous Conditions Persist",
+      "description": "A structural collapse in Gaza City killed more than twenty people amid ongoing conflict‑related damage.",
+      "lat": 33.17,
+      "lng": 35.4126,
+      "severity": 3,
+      "location": "Gaza City, Gaza Strip",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/building-collapse-kills-gaza-perilous-conditions-israel-palestine_n_6aaaa854e4b05a5eaee2a394",
+      "image": null,
+      "ts": 1789570013000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 1,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/building-collapse-kills-gaza-perilous-conditions-israel-palestine_n_6aaaa854e4b05a5eaee2a394"
+          },
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/09/16/world/middleeast/gaza-building-collapse.html"
           }
         ]
       }
@@ -7408,211 +7578,6 @@
             "n": "Rio Times",
             "b": "center",
             "u": "https://www.riotimesonline.com/peru-chancay-port-us-china-dispute-2026/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c5f72f646fef",
-      "title": "France Says Plans to Send Air Defense Systems to Kyiv On Track",
-      "description": "France confirmed its SAMP/T air‑defence system will be delivered to Ukraine, reinforcing Kyiv’s defenses against Russian missiles.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 2,
-      "location": "Kyiv, Ukraine",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-07/france-says-plans-to-send-air-defense-systems-to-kyiv-on-track",
-      "image": null,
-      "ts": 1788794851000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-09-07/france-says-plans-to-send-air-defense-systems-to-kyiv-on-track"
-          }
-        ]
-      }
-    },
-    {
-      "id": "86f55b50988e",
-      "title": "Niger coup plot exposes deepening fractures in Tiani’s army",
-      "description": "A mutiny on 29 August revealed internal divisions within Niger’s armed forces, raising fears of a possible coup against President Tiani.",
-      "lat": 13.51,
-      "lng": 2.11,
-      "severity": 3,
-      "location": "Niamey, Niger",
-      "source": "The Africa Report",
-      "url": "https://www.theafricareport.com/430066/niger-coup-plot-exposes-deepening-fractures-in-tianis-army/",
-      "image": null,
-      "ts": 1788793200000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Africa Report",
-            "b": "center",
-            "u": "https://www.theafricareport.com/430066/niger-coup-plot-exposes-deepening-fractures-in-tianis-army/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "35cfa20c9f95",
-      "title": "EU pledges $232M in Greenland investments amid Trump pressure",
-      "description": "The European Union announced a €200 million investment programme for Greenland to strengthen Arctic cooperation.",
-      "lat": 65.28,
-      "lng": -49.81479999999999,
-      "severity": 2,
-      "location": "Nuuk, Greenland",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/business/economy/eu-pledges-232m-in-greenlandinvestments-amid-trump-pressure",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/09/07/459585.jpg",
-      "ts": 1788791460000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/business/economy/eu-pledges-232m-in-greenlandinvestments-amid-trump-pressure"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7386a2e7fd5f",
-      "title": "Lebanon says Israel conducts wave of deadly strikes",
-      "description": "Israel carried out a series of airstrikes in southern Lebanon, killing 12 civilians, including women and children.",
-      "lat": 34.37,
-      "lng": 35.19999999999999,
-      "severity": 4,
-      "location": "Tyre, Lebanon",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/09/lebanon-says-israel-conducts-wave-deadly-strikes",
-      "image": null,
-      "ts": 1788791430000,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/09/07/world/middleeast/israel-lebanon-strikes-hezbollah.html"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/middle-east/2026/0907/1590523-middle-east/"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMENNcE5uNHZLQ0ZybVgyaXBQTXZZaWN6VnkzcGdjMUlFUmVramlSQXdsNWREX0VnQV9KWkpMeThYSG1kajJaUk9rc20xdGE3YW5yYk02NFVqTEdydnFPZDRGaDBpMWFwY2xXUmNQajl2bkdWNlU3OXdrc2J5VHhyMTU0NUN4Z2hxNVpWd2Y1YnZuZ0E?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/lebanon-says-israel-conducts-wave-deadly-strikes"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6b8dacaad297",
-      "title": "Russia signals peace talks with Ukraine, U.S. on the table",
-      "description": "Kremlin officials indicated that trilateral peace negotiations involving Russia, Ukraine and the United States are possible after recent diplomatic visits.",
-      "lat": 55.75,
-      "lng": 37.620000000000005,
-      "severity": 2,
-      "location": "Moscow, Russia",
-      "source": "OAN",
-      "url": "https://www.oann.com/newsroom/russia-signals-peace-talks-with-ukraine-u-s-on-the-table/",
-      "image": null,
-      "ts": 1788790001000,
-      "coverage": {
-        "left": 4,
-        "center": 1,
-        "right": 1,
-        "total": 6,
-        "buckets": {
-          "left": 0,
-          "lean_left": 4,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/09/05/witkoff-kushner-arrive-moscow-talks-with-putin/"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/russia-ukraine-war-russia-not-ruling-out-three-way-peace-talks-with-ukraine-us-kremlin-12013794#publisher=newsstand"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/opinions/2026/9/7/will-trump-succeed-in-restarting-russia-ukraine-peace-talks?traffic_source=rss"
-          },
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/09/05/putin-pauses-strikes-kyiv-trump-envoys-visit-russia-ukraine/"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-09-07/ukraine-resumes-attacks-on-oil-refineries-deep-inside-russia"
-          },
-          {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/newsroom/russia-signals-peace-talks-with-ukraine-u-s-on-the-table/"
           }
         ]
       }
