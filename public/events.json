@@ -1,7 +1,121 @@
 {
   "schema": 1,
-  "updated": "2026-09-17T19:14:03.182337+00:00",
+  "updated": "2026-09-17T22:24:41.998949+00:00",
   "events": [
+    {
+      "id": "75f0a152c98d",
+      "title": "North Korea's Kim Yo Jong warns of stronger response to US-led drills",
+      "description": "Kim Yo Jong threatened a harsher reaction if the United States continues its military exercises near the Korean Peninsula.",
+      "lat": 38.9,
+      "lng": -77.04,
+      "severity": 2,
+      "location": "Washington, USA",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/north-koreas-kim-yo-jong-warns-of-stronger-response-to-us-led-drills",
+      "image": null,
+      "ts": 1789682294000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/korea-kim-russia-ukraine-drones-37673329"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/north-koreas-kim-yo-jong-warns-of-stronger-response-to-us-led-drills"
+          },
+          {
+            "n": "Wall Street Journal World",
+            "b": "lean_right",
+            "u": "https://www.wsj.com/articles/kim-jong-un-is-doing-everything-he-can-to-keep-north-koreas-youth-in-line-0866a1de"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4744b0fe7041",
+      "title": "Iran downed at least 2 American drones in recent days",
+      "description": "Iranian forces shot down two U.S. MQ‑1 drones, escalating aerial tensions between Tehran and Washington.",
+      "lat": 38.9,
+      "lng": -77.04,
+      "severity": 3,
+      "location": "Washington, USA",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/iran-downed-american-drones-us-officials/",
+      "image": null,
+      "ts": 1789679220000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/iran-downed-american-drones-us-officials/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "02de6df00826",
+      "title": "Russia kicks off voting in first parliamentary election since Ukraine war began",
+      "description": "Russia began its first parliamentary elections held after the start of the war in Ukraine, drawing international scrutiny.",
+      "lat": 55.75,
+      "lng": 37.620000000000005,
+      "severity": 3,
+      "location": "Moscow, Russia",
+      "source": "Times of India World",
+      "url": "https://timesofindia.indiatimes.com/world/europe/russia-kicks-off-voting-in-first-parliamentary-election-since-ukraine-war-began/articleshow/134321045.cms",
+      "image": "https://static.toiimg.com/photo/msid-134321046,imgsize-294222.cms",
+      "ts": 1789678538000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/russia-touts-candidates-fought-ukraine-wartime-parliamentary-election-136483924"
+          },
+          {
+            "n": "Times of India World",
+            "b": "center",
+            "u": "https://timesofindia.indiatimes.com/world/europe/russia-kicks-off-voting-in-first-parliamentary-election-since-ukraine-war-began/articleshow/134321045.cms"
+          }
+        ]
+      }
+    },
     {
       "id": "033c2a9c75d9",
       "title": "Trump administration approves $24 bn sale of F‑35 jets to Saudi Arabia",
@@ -69,6 +183,39 @@
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/us-officials-made-rare-visit-to-myanmar-to-free-american-businessman"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5b9521bcdce1",
+      "title": "Gas prices are about to take a big jump, analysts say",
+      "description": "Analysts warn of a sharp increase in gasoline prices in the United States, forecasting broader economic impact.",
+      "lat": 38.9,
+      "lng": -77.04,
+      "severity": 3,
+      "location": "Washington, USA",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/09/16/analysts-predict-gas-price-jump-long-disruption-damaged-pipeline/",
+      "image": null,
+      "ts": 1789665432000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/09/16/analysts-predict-gas-price-jump-long-disruption-damaged-pipeline/"
           }
         ]
       }
@@ -7356,148 +7503,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/09/israels-foreign-minister-says-it-closing-british-consulate-east-jerusalem"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f19d19fb20aa",
-      "title": "Navy Chief Krishna Swaminathan to visit Australia, New Zealand; naval ties set to receive boost",
-      "description": "India’s Navy Chief will travel to Canberra and Wellington to enhance bilateral naval cooperation with Australia and New Zealand.",
-      "lat": -35.28,
-      "lng": 149.13,
-      "severity": 2,
-      "location": "Canberra, Australia",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/national/navy-chief-krishna-swaminathan-to-visit-australia-new-zealand-naval-ties-set-to-receive-boost/article71443325.ece",
-      "image": null,
-      "ts": 1788884057000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/national/navy-chief-krishna-swaminathan-to-visit-australia-new-zealand-naval-ties-set-to-receive-boost/article71443325.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6d6524b89e69",
-      "title": "Iran claims dramatic capture of US submarine near the Strait of Hormuz",
-      "description": "The IRGC announced it had seized an unmanned US submarine at the entrance to the strategic Strait of Hormuz.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "Mirror World",
-      "url": "https://www.mirror.co.uk/news/world-news/iran-captures-us-submarine-hormuz-37640707",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37640758.ece/ALTERNATES/s615/0_IRAN-US-CONFLICT-DIPLOMACY-MILITARY.jpg",
-      "ts": 1788883279000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 2,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 1,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/iran-captures-us-submarine-hormuz-37640707"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2184357"
-          },
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2246731/iran-declares-capture-us-submarine"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0a688529fe02",
-      "title": "Algeria sends air force contingent to Niger to help quell attempted coup",
-      "description": "Algeria dispatches fighter jets to Niger, marking its first overseas military deployment to support the Nigerien government.",
-      "lat": 14.61,
-      "lng": 2.1100000000000136,
-      "severity": 3,
-      "location": "Niamey, Niger",
-      "source": "The Africa Report",
-      "url": "https://www.theafricareport.com/430169/intervention-why-algeria-is-getting-militarily-involved-in-the-sahel/",
-      "image": null,
-      "ts": 1788883200000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Africa Report",
-            "b": "center",
-            "u": "https://www.theafricareport.com/430169/intervention-why-algeria-is-getting-militarily-involved-in-the-sahel/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e87997d20faa",
-      "title": "Canada’s retaliatory tariffs take effect on roughly $20B worth of U.S. goods",
-      "description": "Canada has implemented new tariffs ranging from 15% to 50% on a wide range of American products in response to U.S. measures.",
-      "lat": 40.0,
-      "lng": -75.1348,
-      "severity": 3,
-      "location": "Washington, D.C., United States",
-      "source": "OAN",
-      "url": "https://www.oann.com/newsroom/canadas-retaliatory-tariffs-take-effect-on-roughly-20b-worth-of-u-s-goods/",
-      "image": null,
-      "ts": 1788880428000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/newsroom/canadas-retaliatory-tariffs-take-effect-on-roughly-20b-worth-of-u-s-goods/"
           }
         ]
       }
