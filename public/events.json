@@ -1,7 +1,88 @@
 {
   "schema": 1,
-  "updated": "2026-09-16T22:06:01.946017+00:00",
+  "updated": "2026-09-17T00:27:34.749427+00:00",
   "events": [
+    {
+      "id": "66bd5e33485e",
+      "title": "Saudi Arabia strikes Al-Barh bridge in Yemen twice in 2 days as conflict with Houthis escalates",
+      "description": "L'Arabia Saudita ha effettuato due attacchi aerei sul ponte Al‑Barh nello Yemen, intensificando la guerra contro i ribelli Houthi.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 4,
+      "location": "Strait of Hormuz",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/article-908841",
+      "image": null,
+      "ts": 1789607846000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/middle-east/saudi-arabia-mecca-houthis-drone-iran-war-trump-oil-gas-prices-rcna598075"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "http://www.france24.com/en/middle-east/20260916-saudi-arabia-accuses-houthis-of-targeting-mecca-calling-it-a-red-line"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-908841"
+          },
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/09/17/world/saudi-houthis-strikes-mecca/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c7f2fc0b318b",
+      "title": "Australia to bar foreign students from bringing partners, children while they study",
+      "description": "Il governo australiano ha annunciato nuove restrizioni che impediranno agli studenti internazionali di far venire familiari durante gli studi.",
+      "lat": -32.77,
+      "lng": 151.21000000000004,
+      "severity": 2,
+      "location": "Sydney, Australia",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/australia-to-bar-foreign-students-from-bringing-partners-children-while-they-study",
+      "image": null,
+      "ts": 1789604584000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/australia-to-bar-foreign-students-from-bringing-partners-children-while-they-study"
+          }
+        ]
+      }
+    },
     {
       "id": "606c3998d4d7",
       "title": "U.S. Embassy to run Korea-U.S. alliance ad on S. Korea's high‑speed rail network",
@@ -497,6 +578,39 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/645782-saudi-arabia-cancels-oil-shipments-europe/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c2f3cac4006c",
+      "title": "Indian and Pakistani Warships Collide at Sea, Refueling Tensions",
+      "description": "Le navi da guerra indiane e pakistane si sono scontrate in mare, scatenando proteste diplomatiche tra i due paesi nucleari.",
+      "lat": 20.0,
+      "lng": 68.0,
+      "severity": 2,
+      "location": "Indian Ocean (near 20°N, 68°E)",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-16/india-pakistan-warships-collide-at-sea-adding-to-tensions",
+      "image": null,
+      "ts": 1789551468000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-09-16/india-pakistan-warships-collide-at-sea-adding-to-tensions"
           }
         ]
       }
@@ -1397,59 +1511,6 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-09-15/hegseth-pistorius-eye-deal-for-eu-firms-to-license-us-weapons"
-          }
-        ]
-      }
-    },
-    {
-      "id": "66bd5e33485e",
-      "title": "Houthis strike Saudi targets anew as talks over Strait of Hormuz stall",
-      "description": "Yemen's Iran‑aligned Houthis launched a new wave of attacks on Saudi Arabia, hitting civilian and military sites.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 3,
-      "location": "Strait of Hormuz",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/09/houthis-strike-saudi-targets-anew-talks-over-strait-hormuz-stall",
-      "image": null,
-      "ts": 1789433191000,
-      "coverage": {
-        "left": 2,
-        "center": 3,
-        "right": 0,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/middle-east/saudi-arabia-shutdown-key-pipeline-limits-oil-flow-yemen-houthis-rcna597362"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-oil-strait-of-hormuz/"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/middle-east/2026/0915/1591559-houthi-saudi-world/"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/houthis-strike-saudi-targets-anew-talks-over-strait-hormuz-stall"
-          },
-          {
-            "n": "Times of India World",
-            "b": "center",
-            "u": "https://timesofindia.indiatimes.com/world/middle-east/saudi-military-airbase-hit-as-houthis-launch-fresh-attacks/articleshow/134250115.cms"
           }
         ]
       }
@@ -7512,72 +7573,6 @@
             "n": "GNews Geopolitics",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOV3pqVXBwZEZMRVNlTml0S19ZSzdoQnFxVm9GZFkwdkZhOEhlZ3VxX04ySFkwdmd0RVZPd2dMQkw3MTZkc0Zfa2VYRk55N3lMc3NjMDQ5VWVzNmdYY084QnFINUI0RDhMY3ZLUWhTTWpoRHp5d1BiMmNlUDVUSjhPaGl5Vk9nZWk4UHVkSFdtejdFQ01LcHZLUzg0ekM3bXo2cmUxbDJKenlvZTQ?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "688bc54fe97d",
-      "title": "Tehran finalizing deal with Oman for temporary, safe route through Strait of Hormuz",
-      "description": "L'Iran sta finalizzando un accordo con l'Oman per garantire un percorso sicuro temporaneo attraverso lo Stretto di Hormuz, alleviando la congestione del traffico marittimo.",
-      "lat": 23.61,
-      "lng": 58.59,
-      "severity": 2,
-      "location": "Muscat, Oman",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/09/07/tehran-finalizing-deal-with-oman-for-temporary-safe-route-through-strait-of-hormuz/",
-      "image": "http://images.euronews.com/articles/stories/09/90/46/87/640x360_cmsv2_a9b98178-de32-5cdd-bb79-ba27287e14c4-9904687.jpg?1788796696",
-      "ts": 1788806727000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/09/07/tehran-finalizing-deal-with-oman-for-temporary-safe-route-through-strait-of-hormuz/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3dc08e088e33",
-      "title": "Nuovi raid israeliani in Libano, sterminata una famiglia",
-      "description": "Forze israeliane hanno condotto un raid nel sud del Libano, uccidendo una famiglia intera, inclusi due neonati, accusando Hezbollah di responsabilità.",
-      "lat": 33.27,
-      "lng": 35.19999999999999,
-      "severity": 4,
-      "location": "Tyre, Libano",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/07/nuovi-raid-israeliani-in-libano-sterminata-una-famiglia_a65d8ecf-b5c7-46bf-a111-e4f911f7f832.html",
-      "image": null,
-      "ts": 1788804669000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/07/nuovi-raid-israeliani-in-libano-sterminata-una-famiglia_a65d8ecf-b5c7-46bf-a111-e4f911f7f832.html"
           }
         ]
       }
