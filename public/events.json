@@ -1,7 +1,177 @@
 {
   "schema": 1,
-  "updated": "2026-09-18T14:58:01.607350+00:00",
+  "updated": "2026-09-18T18:22:10.186098+00:00",
   "events": [
+    {
+      "id": "e599e76c1753",
+      "title": "2 ships attacked in Strait of Hormuz as Trump grapples with his next move",
+      "description": "Two merchant vessels were struck in the Strait of Hormuz, marking a concrete escalation of maritime hostilities in the strategic waterway.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 4,
+      "location": "Strait of Hormuz",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-of-hormuz-oil-houthis/",
+      "image": null,
+      "ts": 1789754922000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-of-hormuz-oil-houthis/"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/strait-of-hormuz-attacks-spill-oil-into-persian-gulf/a-79327092?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "48b4b4cbcd2a",
+      "title": "Assad‑era Syrian official sentenced to 60 years by U.S. court",
+      "description": "Former Syrian official Samir Ousman Alsheikh was convicted in Washington on charges of torture and conspiracy, receiving a 60‑year prison term.",
+      "lat": 38.9,
+      "lng": -77.04,
+      "severity": 3,
+      "location": "Washington, DC, USA",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/assad-era-syrian-official-jailed-for-60-years-by-us-court/article71482280.ece",
+      "image": "https://th-i.thgim.com/public/incoming/ss2rvv/article71482304.ece/alternates/LANDSCAPE_1200/2026-08-11T092944Z_1769915961_RC29WMAXFZH1_RTRMADP_3_SYRIA-JUSTICE-ASSAD.JPG",
+      "ts": 1789753690000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/assad-era-syrian-official-jailed-for-60-years-by-us-court/article71482280.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f041d0de0b59",
+      "title": "Nigeria’s Tinubu meets Macron for private dinner in Paris",
+      "description": "President Bola Tinubu and French President Emmanuel Macron held a private dinner in Paris, underscoring the close diplomatic ties between Nigeria and France.",
+      "lat": 49.96,
+      "lng": 4.255200000000002,
+      "severity": 2,
+      "location": "Paris, France",
+      "source": "All Africa",
+      "url": "https://allafrica.com/stories/202609180555.html",
+      "image": null,
+      "ts": 1789750092000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "All Africa",
+            "b": "center",
+            "u": "https://allafrica.com/stories/202609180555.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "637513a7203e",
+      "title": "Madagascar tourist arrivals grow despite instability",
+      "description": "The Indian Ocean island recorded nearly 150,000 tourist arrivals in the first half of 2026, indicating a rebound in travel despite ongoing political instability.",
+      "lat": -18.88,
+      "lng": 47.52,
+      "severity": 1,
+      "location": "Antananarivo, Madagascar",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/09/18/madagascar-tourist-arrivals-grow-despite-instability/",
+      "image": "http://images.euronews.com/articles/stories/09/91/91/40/640x360_cmsv2_e02611f9-ee98-5e01-8a9d-c7902751524c-9919140.jpg?1789737328",
+      "ts": 1789749522000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/09/18/madagascar-tourist-arrivals-grow-despite-instability/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2973a885b927",
+      "title": "Saudi Aramco curbs Europe crude exports to support Asia supplies",
+      "description": "Saudi Arabia redirects about 60 million barrels of crude through the Strait of Hormuz to Oman’s Sohar port, reducing shipments to Europe in favor of Asian markets.",
+      "lat": 27.67,
+      "lng": 58.15520000000001,
+      "severity": 2,
+      "location": "Strait of Hormuz",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/09/saudi-aramco-curbs-europe-crude-exports-support-asia-supplies",
+      "image": null,
+      "ts": 1789744215000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/09/saudi-aramco-curbs-europe-crude-exports-support-asia-supplies"
+          }
+        ]
+      }
+    },
     {
       "id": "85f01a9f3b5a",
       "title": "Russian hybrid attacks against Europe intensifying, says Macron",
@@ -249,6 +419,39 @@
             "n": "Yonhap News",
             "b": "center",
             "u": "https://en.yna.co.kr/view/AEN20260918011200315"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ba9cd1720ff1",
+      "title": "Milei sends Congress his Falklands sovereignty bill, with an anti‑terrorism registry attached",
+      "description": "Argentine President Javier Milei presented a bill to Congress asserting sovereignty over the Falkland Islands and establishing a related anti‑terrorism registry.",
+      "lat": 35.71,
+      "lng": -58.379999999999995,
+      "severity": 3,
+      "location": "Buenos Aires, Argentina",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/09/18/milei-sends-congress-his-falklands-sovereignty-bill-with-an-anti-terrorism-registry-attached?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": "https://en.mercopress.com/data/cache/noticias/111500/100x80/jm.jpg",
+      "ts": 1789718580000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/09/18/milei-sends-congress-his-falklands-sovereignty-bill-with-an-anti-terrorism-registry-attached?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
           }
         ]
       }
@@ -7195,224 +7398,6 @@
             "n": "ANSA Economia",
             "b": "center",
             "u": "https://www.ansa.it/sito/notizie/economia/2026/09/09/il-gas-sfiora-gli-81-euro-ad-amsterdam-sui-massimi-da-fine-2022_b929f68c-5012-4494-98e9-0fa8ede127a3.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "28ff2f5a626b",
-      "title": "The US-South Korea-Japan wargames offer a glimpse of Washington’s real plan for Asia",
-      "description": "Ejercicios militares conjuntos entre EE. UU., Corea del Sur y Japón se llevaron a cabo en Yokosuka, mostrando una coordinación de defensa regional.",
-      "lat": 36.38,
-      "lng": 141.5752,
-      "severity": 3,
-      "location": "Yokosuka, Japan",
-      "source": "RT News",
-      "url": "https://www.rt.com/news/645359-us-south-korea-japan-wargames/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.09/thumbnail/6aa18da685f5404cc64ccb09.jpg",
-      "ts": 1788972615000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Nikkei Asia",
-            "b": "center",
-            "u": "https://asia.nikkei.com/opinion/south-korea-s-ai-diplomacy-needs-japan-in-the-room"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/645359-us-south-korea-japan-wargames/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "959abfe60a60",
-      "title": "Honda invests in rare‑earth‑free magnet startup Niron Magnetics",
-      "description": "Honda anuncia una inversión estratégica en la empresa japonesa Niron Magnetics para desarrollar imanes sin tierras raras.",
-      "lat": 35.68,
-      "lng": 139.76,
-      "severity": 2,
-      "location": "Tokio, Japón",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/markets/commodities/honda-invests-in-rare-earth-free-magnet-startup-niron-magnetics",
-      "image": null,
-      "ts": 1788964308192,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Nikkei Asia",
-            "b": "center",
-            "u": "https://asia.nikkei.com/business/markets/commodities/honda-invests-in-rare-earth-free-magnet-startup-niron-magnetics"
-          }
-        ]
-      }
-    },
-    {
-      "id": "af4fdab1f4c2",
-      "title": "Nepal turns to drones to deliver flood relief",
-      "description": "El ejército de Nepal utiliza drones para transportar suministros a áreas aisladas tras las inundaciones devastadoras.",
-      "lat": 28.25,
-      "lng": 84.45,
-      "severity": 1,
-      "location": "Devighat, Nepal",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/nepal-turns-to-drones-to-deliver-flood-relief",
-      "image": null,
-      "ts": 1788963159000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/nepal-turns-to-drones-to-deliver-flood-relief"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8857ba2ed907",
-      "title": "Singapore’s DBS sued for US$1 billion in alleged 1MDB‑linked claim",
-      "description": "El banco DBS de Singapur enfrenta una demanda por más de mil millones de dólares vinculada al escándalo del fondo 1MDB.",
-      "lat": 1.35,
-      "lng": 103.82,
-      "severity": 3,
-      "location": "Singapur, Singapur",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3366959/singapores-dbs-sued-us1-billion-alleged-1mdb-linked-claim?utm_source=rss_feed",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/09/85897542-0350-495a-bdf1-299b9fa0f4cc_573f1e17.jpg?itok=47UaDFyv&v=1788963145",
-      "ts": 1788963155000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/asia/southeast-asia/article/3366959/singapores-dbs-sued-us1-billion-alleged-1mdb-linked-claim?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "33e0a1c41f81",
-      "title": "Britain must 'stand against injustice' over West Bank settlements, PM Burnham says",
-      "description": "El primer ministro británico Andy Burnham insta a su gobierno a bloquear importaciones de productos de los asentamientos israelíes en Cisjordania.",
-      "lat": 31.78,
-      "lng": 35.22,
-      "severity": 2,
-      "location": "Jerusalén, Israel",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/09/britain-must-stand-against-injustice-over-west-bank-settlements-pm-burnham-says",
-      "image": null,
-      "ts": 1788961598000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/international/article-908054"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/britain-must-stand-against-injustice-over-west-bank-settlements-pm-burnham-says"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b7e641abf164",
-      "title": "U.S. denies claims Iran struck two American vessels in retaliation for earlier strikes",
-      "description": "Washington desmiente que Irán haya atacado dos embarcaciones estadounidenses cerca del Estrecho de Ormuz.",
-      "lat": 27.67,
-      "lng": 58.15520000000001,
-      "severity": 3,
-      "location": "Estrecho de Ormuz, Irán",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/09/08/iran-us-sub-strait-hormuz.html",
-      "image": null,
-      "ts": 1788961571000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/iran/us-strikes-iranian-tankers-attempted-missile-attacks-navy-warship-rcna596699"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/09/08/iran-us-sub-strait-hormuz.html"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/video/20260909-iran-attacks-us-base-after-american-strikes-on-tankers"
           }
         ]
       }
