@@ -1,7 +1,45 @@
 {
   "schema": 1,
-  "updated": "2026-09-18T21:12:42.803963+00:00",
+  "updated": "2026-09-18T23:33:27.476781+00:00",
   "events": [
+    {
+      "id": "e200940ecb34",
+      "title": "North Korea says its nuclear status is ‘irreversible’ after UN atomic agency rebuke",
+      "description": "North Korean officials declared their nuclear capability permanent, heightening regional tensions.",
+      "lat": 39.03,
+      "lng": 125.75,
+      "severity": 2,
+      "location": "Pyongyang, North Korea",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/north-korea-says-nuclear-status-irreversible-after-un-atomic-agency-rebuke",
+      "image": null,
+      "ts": 1789772607000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/09/18/asia-pacific/north-korea-us-drills/"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/north-korea-says-nuclear-status-irreversible-after-un-atomic-agency-rebuke"
+          }
+        ]
+      }
+    },
     {
       "id": "730bd91c2798",
       "title": "Spike hazard: Thai farmers go all in to feed China's durian craving",
@@ -7370,39 +7408,6 @@
             "n": "Rio Times",
             "b": "center",
             "u": "https://www.riotimesonline.com/bceao-holds-rates-inflation-turn-september-2026/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0bbdddcce92c",
-      "title": "US Treasury triples debt buyback to stem borrowing costs",
-      "description": "The Treasury announced a three‑fold increase in its longer‑dated government‑debt buyback program.",
-      "lat": 38.9072,
-      "lng": -75.1317,
-      "severity": 2,
-      "location": "Washington, DC, USA",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-09/us-treasury-triples-debt-buyback-video",
-      "image": null,
-      "ts": 1788976296000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/videos/2026-09-09/us-treasury-triples-debt-buyback-video"
           }
         ]
       }
