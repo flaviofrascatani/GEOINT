@@ -1,7 +1,78 @@
 {
   "schema": 1,
-  "updated": "2026-09-18T18:22:10.186098+00:00",
+  "updated": "2026-09-18T21:12:42.803963+00:00",
   "events": [
+    {
+      "id": "730bd91c2798",
+      "title": "Spike hazard: Thai farmers go all in to feed China's durian craving",
+      "description": "Thai farmers increase production to meet rising Chinese demand for durian, highlighting a significant trade shift in the region.",
+      "lat": 13.7563,
+      "lng": 100.5018,
+      "severity": 2,
+      "location": "Bangkok, Thailand",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/spotlight/big-in-asia/spike-hazard-thai-farmers-go-all-in-to-feed-china-s-durian-craving",
+      "image": null,
+      "ts": 1789765962712,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Nikkei Asia",
+            "b": "center",
+            "u": "https://asia.nikkei.com/spotlight/big-in-asia/spike-hazard-thai-farmers-go-all-in-to-feed-china-s-durian-craving"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6674130d5ea7",
+      "title": "British mother kidnapped by gunmen in Malawi is freed in daring rescue",
+      "description": "A British mother of two was rescued after being abducted by gunmen in Malawi, following a police operation.",
+      "lat": 13.9833,
+      "lng": 33.7833,
+      "severity": 3,
+      "location": "Lilongwe, Malawi",
+      "source": "Daily Mail World",
+      "url": "https://www.dailymail.com/news/article-16140149/British-mother-kidnapped-gunmen-Malawi-makes-safe-return-home-daring-rescue.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "image": "https://i.dailymail.com/1s/2026/09/17/20/111267421-0-Osman_a_mother_of_two_young_children_is_from_Leicester_and_was_w-a-5_1789672878600.jpg",
+      "ts": 1789761177000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/4-suspects-killed-shootout-police-rescue-kidnapped-british-136551217"
+          },
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/news/article-16140149/British-mother-kidnapped-gunmen-Malawi-makes-safe-return-home-daring-rescue.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+          }
+        ]
+      }
+    },
     {
       "id": "e599e76c1753",
       "title": "2 ships attacked in Strait of Hormuz as Trump grapples with his next move",
@@ -523,6 +594,39 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/video/newsfeed/2026/9/18/un-mission-alleges-crimes-against-humanity-in-iranian-protest-crackdown?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b35b612d502c",
+      "title": "Egypt bans social media accounts for under‑13s and mandates “safe mode” for ages 13‑15",
+      "description": "Egypt introduces a crackdown that bars children under 13 from independent social‑media accounts and imposes strict safeguards for older teens.",
+      "lat": 31.1444,
+      "lng": 33.14089999999999,
+      "severity": 2,
+      "location": "Cairo, Egypt",
+      "source": "Egypt Independent",
+      "url": "https://www.egyptindependent.com/egypt-bans-social-media-accounts-for-under-13s-and-mandates-safe-mode-for-ages-13-15/",
+      "image": null,
+      "ts": 1789701323000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/egypt-bans-social-media-accounts-for-under-13s-and-mandates-safe-mode-for-ages-13-15/"
           }
         ]
       }
@@ -7299,105 +7403,6 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/videos/2026-09-09/us-treasury-triples-debt-buyback-video"
-          }
-        ]
-      }
-    },
-    {
-      "id": "631efc74d982",
-      "title": "IAEA board refers Iran to UN Security Council",
-      "description": "The IAEA Board of Governors voted to refer Iran to the UN Security Council over nuclear non‑compliance.",
-      "lat": 35.6892,
-      "lng": 53.29419999999999,
-      "severity": 3,
-      "location": "Tehran, Iran",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/09/iaea-board-refers-iran-un-security-council",
-      "image": null,
-      "ts": 1788975027000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/iaea-board-refers-iran-un-security-council"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7e1b6cd5dccf",
-      "title": "S. Korean President Lee wraps up France visit, heads home",
-      "description": "President Lee Jae‑Myung concluded his state visit to France, reinforcing bilateral ties.",
-      "lat": 49.9566,
-      "lng": 2.3522000000000105,
-      "severity": 2,
-      "location": "Paris, France",
-      "source": "Yonhap News",
-      "url": "https://en.yna.co.kr/view/AEN20260909012100315",
-      "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/09/AEN20260909012100315_01_i_P2.jpg",
-      "ts": 1788973509000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20260909012100315"
-          }
-        ]
-      }
-    },
-    {
-      "id": "52da99d12f06",
-      "title": "Il gas sfiora gli 81 euro ad Amsterdam, sui massimi da fine 2022",
-      "description": "European gas prices hit 81 €/MWh, driven by heightened US‑Iran tensions in the Strait of Hormuz.",
-      "lat": 53.4676,
-      "lng": 4.9041,
-      "severity": 3,
-      "location": "Amsterdam, Netherlands",
-      "source": "ANSA Economia",
-      "url": "https://www.ansa.it/sito/notizie/economia/2026/09/09/il-gas-sfiora-gli-81-euro-ad-amsterdam-sui-massimi-da-fine-2022_b929f68c-5012-4494-98e9-0fa8ede127a3.html",
-      "image": null,
-      "ts": 1788973246000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Economia",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/economia/2026/09/09/il-gas-sfiora-gli-81-euro-ad-amsterdam-sui-massimi-da-fine-2022_b929f68c-5012-4494-98e9-0fa8ede127a3.html"
           }
         ]
       }
