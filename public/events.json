@@ -1,32 +1,42 @@
 {
   "schema": 1,
-  "updated": "2026-09-18T23:33:27.476781+00:00",
+  "updated": "2026-09-19T01:33:19.501329+00:00",
   "events": [
     {
       "id": "e200940ecb34",
-      "title": "North Korea says its nuclear status is ‘irreversible’ after UN atomic agency rebuke",
-      "description": "North Korean officials declared their nuclear capability permanent, heightening regional tensions.",
+      "title": "North Korea says nuclear status 'irreversible' after UN atomic agency rebuke",
+      "description": "Kim Yo Jong declared North Korea's nuclear capability permanent, rejecting IAEA criticism and signalling continued defiance.",
       "lat": 39.03,
       "lng": 125.75,
-      "severity": 2,
+      "severity": 3,
       "location": "Pyongyang, North Korea",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/north-korea-says-nuclear-status-irreversible-after-un-atomic-agency-rebuke",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/north-korea-says-nuclear-status-irreversible-after-un-atomic-agency-rebuke/article71483443.ece",
       "image": null,
-      "ts": 1789772607000,
+      "ts": 1789780294000,
       "coverage": {
-        "left": 0,
-        "center": 2,
+        "left": 1,
+        "center": 3,
         "right": 0,
-        "total": 2,
+        "total": 4,
         "buckets": {
           "left": 0,
-          "lean_left": 0,
-          "center": 2,
+          "lean_left": 1,
+          "center": 3,
           "lean_right": 0,
           "right": 0
         },
         "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/north-korea-says-nuclear-status-irreversible-after-un-atomic-agency-rebuke/article71483443.ece"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-09-18/north-korea-rejects-iaea-resolution-vows-to-keep-nuclear-status"
+          },
           {
             "n": "Japan Times",
             "b": "center",
@@ -36,6 +46,170 @@
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/north-korea-says-nuclear-status-irreversible-after-un-atomic-agency-rebuke"
+          }
+        ]
+      }
+    },
+    {
+      "id": "48bd7737c5e9",
+      "title": "Russian forces capture new lines in two sectors near DPR’s Druzhkovka",
+      "description": "Russian troops reported taking additional front‑line positions near the village of Druzhkovka in the Donetsk People's Republic, indicating ongoing combat escalation.",
+      "lat": 48.0,
+      "lng": 38.0,
+      "severity": 3,
+      "location": "Druzhkovka, Donetsk region, Ukraine",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2190001",
+      "image": null,
+      "ts": 1789778640000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2190001"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1f07e7785f28",
+      "title": "Cuba plunges into total blackout as electrical grid collapses again, US Embassy warns",
+      "description": "A nationwide power failure shut down electricity, mobile networks and internet across Cuba, prompting a warning from the US embassy about humanitarian impacts.",
+      "lat": 23.13,
+      "lng": -82.38,
+      "severity": 3,
+      "location": "Havana, Cuba",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/cuba-plunges-total-blackout-electrical-grid-collapses-us-embassy-warns",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/cuba-power-outage.png?ve=1&tl=1",
+      "ts": 1789778290000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/cuba-plunges-total-blackout-electrical-grid-collapses-us-embassy-warns"
+          }
+        ]
+      }
+    },
+    {
+      "id": "660365a011f4",
+      "title": "🔴 Greenland, Denmark say they expect to sign deal with the US on the sidelines of UN General Assembly",
+      "description": "The United States, Denmark and Greenland plan to sign an Arctic security pact granting the US permanent control over Greenland's security, announced at the UN General Assembly.",
+      "lat": 41.81,
+      "lng": -74.01,
+      "severity": 1,
+      "location": "New York City, United States",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/europe/20260918-greenland-denmark-us-deal-un-general-assembly",
+      "image": null,
+      "ts": 1789768791000,
+      "coverage": {
+        "left": 5,
+        "center": 7,
+        "right": 2,
+        "total": 14,
+        "buckets": {
+          "left": 0,
+          "lean_left": 5,
+          "center": 7,
+          "lean_right": 2,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/politics/trump-administration/trump-announces-agreement-denmark-secure-permanent-control-greenlands-rcna598641"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/donald-trump-claims-he-has-deal-with-denmark-to-bolster-us-military-presence-in-greenland-12066934#publisher=newsstand"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/9/18/trump-says-denmark-deal-gives-us-security-control-over-greenland?traffic_source=rss"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/09/18/trump-says-us-and-denmark-reach-deal-to-expand-military-presence-in-greenland_6757690_4.html"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/us-and-denmark-reach-deal-on-greenland-trump/article71482588.ece"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/09/18/trump-greenland-denmark-military-deal.html"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/trump-says-us-has-entered-deal-with-denmark-giving-us-control-over-security-on-greenland-13589529"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/europe/20260918-greenland-denmark-us-deal-un-general-assembly"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOOWhvcVJtTTZyUmxhYUN1b2tiQ1RpWFNCQXFDM0ExZFc5TjJya0ZEdXRIb0JLMF9kcmR3ZWg2SnZYSzZMWGRKQVptYWFHeWZZSlptUU90MkJMdG52c3JkV1VncFgyVy1SY0pEbnRJd3p4UGNTRVVKS2VWMmxSenpucDJaOUtLd1dqSng1enlXMllpbV8tWjVCQ0x6NndhWlNBRDNsZU5WZUF6NTFpTzZSNDVjYThzXzJnejQ5U2Z4YmRGNUY4R3VUYXVydGVocGJiUDVoMXpUZzh2bWZjMFBMTEs2TTZZQTgwMnRPNWZVbmZ2VXZrMmZMVjVwNnF5cDg?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-09-18/trump-says-he-reached-security-deal-on-greenland-with-denmark"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/world/us-and-denmark-reach-deal-greenland-trump-says-6395916"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2189997"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/americas/us-denmark-reach-infinite-greenland-security-deal-trump"
           }
         ]
       }
@@ -7304,110 +7478,6 @@
             "n": "BBC World",
             "b": "center",
             "u": "https://www.bbc.co.uk/news/articles/ced7vj2gv82o?at_medium=RSS&at_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4e7cbbb79fee",
-      "title": "Ukraine leader Zelensky’s plane almost hit by drone on way to Oslo, Norway PM says",
-      "description": "Un dron casi impactó el avión del presidente ucraniano mientras despegaba de Moldavia, generando preocupación de seguridad.",
-      "lat": 47.07,
-      "lng": 28.91,
-      "severity": 2,
-      "location": "Chișinău, Moldova",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3366973/ukraine-leader-zelenskys-plane-almost-hit-drone-way-oslo-norway-pm-says?utm_source=rss_feed",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/10/f53d21f5-fba9-4ae9-a41e-7d53d1414f97_d2dc05df.jpg?itok=cFuq21sT&v=1788986720",
-      "ts": 1788986728000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-09-09/zelensky-aereo-drone-oslo-ucraina-38966159/"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/europe/article/3366973/ukraine-leader-zelenskys-plane-almost-hit-drone-way-oslo-norway-pm-says?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "bf2e0ac31514",
-      "title": "Israel violated ceasefire with Lebanon 7,700 times since June 26",
-      "description": "El ejército libanés denunció miles de violaciones israelíes del alto el fuego en la frontera sur de Líbano.",
-      "lat": 33.89,
-      "lng": 37.40520000000001,
-      "severity": 3,
-      "location": "Beirut, Lebanon",
-      "source": "TASS",
-      "url": "https://tass.com/world/2185115",
-      "image": null,
-      "ts": 1788986433000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2185115"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4d4a8e7c9852",
-      "title": "West Africa Central Bank Holds Rates and Flags the Inflation Turn",
-      "description": "The BCEAO kept its main policy rate at 3.00% for the eight‑country CFA franc zone, signalling concerns over rising inflation.",
-      "lat": 14.69,
-      "lng": -17.44,
-      "severity": 2,
-      "location": "Dakar, Senegal",
-      "source": "Rio Times",
-      "url": "https://www.riotimesonline.com/bceao-holds-rates-inflation-turn-september-2026/",
-      "image": null,
-      "ts": 1788978465000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Rio Times",
-            "b": "center",
-            "u": "https://www.riotimesonline.com/bceao-holds-rates-inflation-turn-september-2026/"
           }
         ]
       }
