@@ -1,7 +1,80 @@
 {
   "schema": 1,
-  "updated": "2026-09-19T20:33:38.031517+00:00",
+  "updated": "2026-09-19T22:28:31.546175+00:00",
   "events": [
+    {
+      "id": "a99f1b9e603c",
+      "title": "Saudi Arabia confirms Yemen’s Houthi rebels tried to attack its capital with ballistic missile",
+      "description": "The Saudi‑led coalition said a Houthi ballistic missile aimed at Riyadh was intercepted, confirming the attempted attack.",
+      "lat": 27.44,
+      "lng": 49.53,
+      "severity": 3,
+      "location": "Ras Tanura, Saudi Arabia",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/saudi-arabia-confirms-yemens-houthi-rebels-tried-to-attack-its-capital-with-ballistic-missile/article71486051.ece",
+      "image": null,
+      "ts": 1789856380000,
+      "coverage": {
+        "left": 2,
+        "center": 4,
+        "right": 3,
+        "total": 9,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 4,
+          "lean_right": 1,
+          "right": 2
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/9/19/saudi-led-coalition-says-defences-intercept-houthi-missile-fired-at-riyadh?traffic_source=rss"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/saudi-arabia-confirms-yemens-houthi-rebels-tried-to-attack-its-capital-with-ballistic-missile/article71486051.ece"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/07fd42b5-0610-470c-8fb8-4840b5401271?syn-25a6b1a6=1"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/black-smoke-seen-near-riyadh-amid-air-raid-alerts-in-saudi-arabia"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/saudi-arabia-houthis-claim-strikes-on-riyadh-yanbu-port/a-79339010?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNb3ZQdTJKbzNUNVFFeGV0NG0xYTlhTURSZ24wTGRxWUVsNFc3cUswUHpFWWFuM0piU1kxVmZlWURxbnZkT1Zvc0gxNHZPaVQ0di1hTmRoTDA1Z3Nib3phUjkycVIwN3czNlBDZl9tb2tpZ0liSVItaGVpQmpBUTEwSDl5UnZOTnhZdlh2UjcyRjAwSkFGN0N1UjBPcWp3NVE?oc=5"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2190145"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/saudi-arabia-facing-biggest-threat-oil-production-iran-proxy-houthis-launch-attacks-expert-says"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4734911/riyadh-airport-explosion-saudi-arabia-houthi-escalates/"
+          }
+        ]
+      }
+    },
     {
       "id": "5976c2217775",
       "title": "Paraguay Leader Visits Venezuela in Shift After Years of Enmity",
@@ -168,49 +241,34 @@
       }
     },
     {
-      "id": "a99f1b9e603c",
-      "title": "Saudi Arabia sounds air‑raid alerts as missile and drone assault intensifies",
-      "description": "Authorities in Riyadh issued air‑raid warnings as Yemeni rebels launched a new wave of missile and drone attacks on Saudi territory.",
-      "lat": 27.44,
-      "lng": 49.53,
+      "id": "bc6e5b1fdf9d",
+      "title": "Israeli strikes kill three people in Gaza, medics say",
+      "description": "Airstrikes by Israel hit the Gaza Strip, killing at least three Palestinians near Jabalia refugee camp.",
+      "lat": 30.5674,
+      "lng": 35.00999999999999,
       "severity": 4,
-      "location": "Ras Tanura, Saudi Arabia",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/07fd42b5-0610-470c-8fb8-4840b5401271?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1789828566000,
+      "location": "Gaza City, Gaza Strip",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/09/israeli-strikes-kill-three-people-gaza-medics-say",
+      "image": "http://images.euronews.com/articles/stories/09/91/26/59/640x360_cmsv2_9c37be98-ae3b-512f-98ee-b788a2666ac4-9912659.jpg?1789379775",
+      "ts": 1789829192000,
       "coverage": {
         "left": 0,
-        "center": 3,
-        "right": 1,
-        "total": 4,
+        "center": 1,
+        "right": 0,
+        "total": 1,
         "buckets": {
           "left": 0,
           "lean_left": 0,
-          "center": 3,
+          "center": 1,
           "lean_right": 0,
-          "right": 1
+          "right": 0
         },
         "sources": [
           {
-            "n": "BBC World",
+            "n": "Al-Monitor",
             "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cmed7el18dxpo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/07fd42b5-0610-470c-8fb8-4840b5401271?syn-25a6b1a6=1"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/israel-news/article-909112"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/saudi-arabia-facing-biggest-threat-oil-production-iran-proxy-houthis-launch-attacks-expert-says"
+            "u": "https://www.al-monitor.com/originals/2026/09/israeli-strikes-kill-three-people-gaza-medics-say"
           }
         ]
       }
@@ -3938,44 +3996,6 @@
             "n": "South China Morning Post",
             "b": "center",
             "u": "https://www.scmp.com/news/china/military/article/3367476/japan-eyes-quantum-sub-hunting-drone-sensors-china-extends-undersea-reach?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "bc6e5b1fdf9d",
-      "title": "Israeli strike on Gaza vehicle kills two Hamas engineers, 13 wounded",
-      "description": "An Israeli airstrike hit a car in Gaza’s Tel al‑Hawa neighbourhood, killing two Hamas engineers and injuring 13 others.",
-      "lat": 30.5674,
-      "lng": 35.00999999999999,
-      "severity": 3,
-      "location": "Gaza City, Gaza Strip",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/09/14/israeli-strike-on-gaza-vehicle-kills-two-hamas-engineers-13-wounded/",
-      "image": "http://images.euronews.com/articles/stories/09/91/26/59/640x360_cmsv2_9c37be98-ae3b-512f-98ee-b788a2666ac4-9912659.jpg?1789379775",
-      "ts": 1789380572000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/09/14/israeli-strike-on-gaza-vehicle-kills-two-hamas-engineers-13-wounded/"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/mid-east/israeli-strike-kills-2-palestinians-in-fresh-gaza-violation"
           }
         ]
       }
