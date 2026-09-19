@@ -1,7 +1,78 @@
 {
   "schema": 1,
-  "updated": "2026-09-19T06:35:01.959035+00:00",
+  "updated": "2026-09-19T11:30:09.853288+00:00",
   "events": [
+    {
+      "id": "4a58f675f455",
+      "title": "Inside the Houthi advance: How Iran's allies are helping tighten Tehran's grip on the Red Sea",
+      "description": "The Houthis, backed by Iran and other partners, expanded their naval presence near the Red Sea, threatening commercial shipping routes.",
+      "lat": 15.5,
+      "lng": 42.0,
+      "severity": 2,
+      "location": "Red Sea",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/article-908995",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_1313,w_1969/738318",
+      "ts": 1789821570000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-908995"
+          },
+          {
+            "n": "Wall Street Journal World",
+            "b": "lean_right",
+            "u": "https://www.wsj.com/articles/shippers-wary-of-red-sea-routes-despite-houthi-pledge-to-end-targeting-4dde35c2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "55126a8b9aea",
+      "title": "UK calls Argentine action against Falklands companies “unacceptable”",
+      "description": "Britain formally protested Argentina’s legal actions against UK‑linked firms operating in the Falkland Islands, labeling them without legal basis.",
+      "lat": -34.6,
+      "lng": -58.38,
+      "severity": 3,
+      "location": "Buenos Aires, Argentina",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/09/19/uk-calls-argentine-action-against-falklands-companies-unacceptable?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": "https://en.mercopress.com/data/cache/noticias/111504/100x80/2jm.jpg",
+      "ts": 1789810320000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/09/19/uk-calls-argentine-action-against-falklands-companies-unacceptable?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "a139467a3e03",
       "title": "Pakistan: Suicide bombing death toll rises to at least 31",
@@ -112,6 +183,39 @@
             "n": "Japan Times",
             "b": "center",
             "u": "https://www.japantimes.co.jp/news/2026/09/19/japan/politics/koizumi-hegseth-japan-us-talks/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7b903808dcb",
+      "title": "FBI suspended cooperation with Canada over 9/11 language – NYT",
+      "description": "The U.S. Federal Bureau of Investigation temporarily halted certain collaborative activities with Canadian authorities after a dispute over terminology used in 9/11 reporting.",
+      "lat": 45.42,
+      "lng": -75.7,
+      "severity": 3,
+      "location": "Ottawa, Canada",
+      "source": "RT News",
+      "url": "https://www.rt.com/news/645973-fbi-canada-halt-cooperation/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.09/thumbnail/6aae13fd20302749527d319f.jpg",
+      "ts": 1789793392000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/645973-fbi-canada-halt-cooperation/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
           }
         ]
       }
@@ -717,6 +821,39 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/09/18/kenya-health-workers-increasingly-concerned-in-wake-of-usaid-cuts/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a0f0d9001665",
+      "title": "Taiwan holds first joint military drills using attack drones ahead of Trump‑Xi summit",
+      "description": "Taiwan conducted its inaugural combined‑arms exercises featuring attack drones and missiles, signaling heightened defence readiness amid regional tensions.",
+      "lat": 25.03,
+      "lng": 121.56,
+      "severity": 3,
+      "location": "Taoyuan, Taiwan",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/taiwan-holds-joint-military-drills-attack-drones-ahead-136554853",
+      "image": "https://s.abcnews.com/images/International/wirestory_e7c1c16040f6f9ca5e7672a3fda0ab60_4x3_384.jpg",
+      "ts": 1789736604000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/taiwan-holds-joint-military-drills-attack-drones-ahead-136554853"
           }
         ]
       }
@@ -7341,143 +7478,6 @@
             "n": "Yonhap News",
             "b": "center",
             "u": "https://en.yna.co.kr/view/AEN20260910005500315"
-          }
-        ]
-      }
-    },
-    {
-      "id": "702951a8efb1",
-      "title": "Migration: Spanish prime minister defends handling of Ceuta crisis",
-      "description": "Spain’s leader defended the government’s response to the surge of migrants attempting to enter the Spanish enclave of Ceuta.",
-      "lat": 37.54,
-      "lng": -4.3674000000000035,
-      "severity": 2,
-      "location": "Ceuta, Spain",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/09/10/migration-spanish-prime-minister-defends-handling-of-ceuta-crisis/",
-      "image": "http://images.euronews.com/articles/stories/09/90/77/81/640x360_cmsv2_df9f0c20-5eda-547a-bb2b-c212290220c3-9907781.jpg?1788974258",
-      "ts": 1789020675000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/09/10/migration-spanish-prime-minister-defends-handling-of-ceuta-crisis/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "73546e203d2b",
-      "title": "Three ‘narco‑terrorists’ killed in the Caribbean by US military forces",
-      "description": "U.S. forces carried out a kinetic strike on a suspected drug‑trafficking boat in the Caribbean Sea, killing three targets.",
-      "lat": 15.0,
-      "lng": -75.0,
-      "severity": 3,
-      "location": "Caribbean Sea",
-      "source": "Washington Examiner",
-      "url": "https://www.washingtonexaminer.com/news/4720561/three-narco-terrorists-killed-in-the-caribbean-by-us-military-forces/",
-      "image": null,
-      "ts": 1789020480000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/4720561/three-narco-terrorists-killed-in-the-caribbean-by-us-military-forces/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9bf54fe07b65",
-      "title": "Drone nearly strikes Zelenskyy’s plane before takeoff for Norwegian king’s funeral, PM says",
-      "description": "A Russian drone reportedly came close to the Ukrainian president’s aircraft as it attempted to take off from Moldova’s capital.",
-      "lat": 48.11,
-      "lng": 28.860000000000014,
-      "severity": 3,
-      "location": "Chișinău, Moldova",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/drone-nearly-strikes-zelenskyy-plane-takeoff-norwegian-king-funeral-pm-says",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/12/931/523/ukraine-russia-war-volodymyr-zelenskyy.jpg?ve=1&tl=1",
-      "ts": 1789001493000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-09-10/zelenskyy-s-plane-almost-struck-by-a-drone-norwegian-pm-says"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/drone-nearly-strikes-zelenskyy-plane-takeoff-norwegian-king-funeral-pm-says"
-          }
-        ]
-      }
-    },
-    {
-      "id": "324a823f1c4c",
-      "title": "Finland: Google announces €13 billion AI, energy investment",
-      "description": "Google disclosed a €13 billion plan to build AI data centres in Finland and purchase large volumes of nuclear power, prompting security‑service warnings.",
-      "lat": 61.27,
-      "lng": 24.939999999999998,
-      "severity": 2,
-      "location": "Helsinki, Finland",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/finland-google-announces-€13-billion-ai-energy-investment/a-79208034?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1788995421904,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/finland-google-announces-€13-billion-ai-energy-investment/a-79208034?maca=en-rss-en-all-1573-rdf"
           }
         ]
       }
