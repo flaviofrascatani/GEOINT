@@ -1,7 +1,121 @@
 {
   "schema": 1,
-  "updated": "2026-09-19T01:33:19.501329+00:00",
+  "updated": "2026-09-19T06:35:01.959035+00:00",
   "events": [
+    {
+      "id": "a139467a3e03",
+      "title": "Pakistan: Suicide bombing death toll rises to at least 31",
+      "description": "A suicide bomber attacked a police headquarters near the Afghanistan border, killing at least 31 people and injuring over 100 others.",
+      "lat": 34.01,
+      "lng": 71.58,
+      "severity": 4,
+      "location": "Peshawar, Pakistan",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/pakistan-suicide-bombing-death-toll-rises-to-at-least-31/a-79327432?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1789799701881,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/pakistan-suicide-bombing-death-toll-rises-to-at-least-31/a-79327432?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/asia/2026/09/18/suicide-bomb-attack-pakistan-mosque-kills-27/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "02de6df00826",
+      "title": "Russia holds parliamentary vote in areas it seized from Ukraine in the war",
+      "description": "Russia conducted elections in occupied Ukrainian territories, a move condemned as illegal by Kyiv and international observers.",
+      "lat": 55.75,
+      "lng": 37.620000000000005,
+      "severity": 4,
+      "location": "Moscow, Russia",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/russia-holds-parliamentary-vote-in-areas-it-seized-from-ukraine-in-the-war/article71483671.ece",
+      "image": "https://static.toiimg.com/photo/msid-134321046,imgsize-294222.cms",
+      "ts": 1789797155000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/now/video/russia-holds-first-parliamentary-election-since-war-in-ukraine-began-270118981859"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/russia-holds-parliamentary-vote-in-areas-it-seized-from-ukraine-in-the-war/article71483671.ece"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/voters-get-choose-just-not-result-russias-parliamentary-election-reaches-occupied-ukraine"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a9d6ed318dee",
+      "title": "Koizumi and U.S. defense chief Hegseth agree to boost security cooperation",
+      "description": "Japan’s defence minister and the U.S. secretary of defence pledged deeper security cooperation and joint exercises.",
+      "lat": 36.78,
+      "lng": 139.76,
+      "severity": 2,
+      "location": "Tokyo, Japan",
+      "source": "Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/09/19/japan/politics/koizumi-hegseth-japan-us-talks/",
+      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/09/19/564000.jpg",
+      "ts": 1789794360000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/09/19/japan/politics/koizumi-hegseth-japan-us-talks/"
+          }
+        ]
+      }
+    },
     {
       "id": "e200940ecb34",
       "title": "North Korea says nuclear status 'irreversible' after UN atomic agency rebuke",
@@ -1085,44 +1199,6 @@
             "n": "CBS News World",
             "b": "lean_left",
             "u": "https://www.cbsnews.com/news/iran-downed-american-drones-us-officials/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "02de6df00826",
-      "title": "Russia kicks off voting in first parliamentary election since Ukraine war began",
-      "description": "Russia began its first parliamentary elections held after the start of the war in Ukraine, drawing international scrutiny.",
-      "lat": 55.75,
-      "lng": 37.620000000000005,
-      "severity": 3,
-      "location": "Moscow, Russia",
-      "source": "Times of India World",
-      "url": "https://timesofindia.indiatimes.com/world/europe/russia-kicks-off-voting-in-first-parliamentary-election-since-ukraine-war-began/articleshow/134321045.cms",
-      "image": "https://static.toiimg.com/photo/msid-134321046,imgsize-294222.cms",
-      "ts": 1789678538000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/russia-touts-candidates-fought-ukraine-wartime-parliamentary-election-136483924"
-          },
-          {
-            "n": "Times of India World",
-            "b": "center",
-            "u": "https://timesofindia.indiatimes.com/world/europe/russia-kicks-off-voting-in-first-parliamentary-election-since-ukraine-war-began/articleshow/134321045.cms"
           }
         ]
       }
@@ -7402,82 +7478,6 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/finland-google-announces-€13-billion-ai-energy-investment/a-79208034?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "666ad127fd54",
-      "title": "Oil tops $100 per barrel as U.S. and Iran launch new attacks",
-      "description": "The price of crude oil hit a 15‑week high after the United States said it blew up five Iranian oil tankers, prompting retaliation from Tehran.",
-      "lat": 35.6892,
-      "lng": 51.38900000000001,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-us-tankers-attacks-strikes-strait-of-hormuz-oil-price/",
-      "image": null,
-      "ts": 1788991619000,
-      "coverage": {
-        "left": 2,
-        "center": 1,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-tankers-attacks-strikes-strait-of-hormuz-oil-price/"
-          },
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/09/09/iran-us-base-jordan-oil-tankers-war-strikes/"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1JNm1pTmJIcTdoQzB1RXlGdFcwWlNBUmxRaUhxVzFDVWcxcjM0Z0lvTzBxMEt1a3lGTlplR2JENzlHVXZxMFlVVW8xX1pFN2c5WmtnTVl0U19PTFNLdG1wcUdKT1didXFaTVJKZG40WTE0NUg1R0JMVQ?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "877eb47b77c2",
-      "title": "Spanish intelligence warned of Ceuta mass crossing plans before surge",
-      "description": "Spanish and Moroccan authorities were alerted to social media calls for a mass migrant crossing, which resulted in tens of thousands entering Ceuta.",
-      "lat": 36.53,
-      "lng": -5.37,
-      "severity": 3,
-      "location": "Ceuta, Spain",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/ced7vj2gv82o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13d6/live/5b9af280-ac92-11f1-ab14-5b9069dc795d.jpg",
-      "ts": 1788989025000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/ced7vj2gv82o?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
