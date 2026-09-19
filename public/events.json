@@ -1,7 +1,121 @@
 {
   "schema": 1,
-  "updated": "2026-09-19T11:30:09.853288+00:00",
+  "updated": "2026-09-19T14:45:09.067032+00:00",
   "events": [
+    {
+      "id": "1cc33ee10c29",
+      "title": "'I am pro‑Abraham': Meet the unlikely allies risking everything for peace with Israel",
+      "description": "Members of the Abrahamic Movement describe their grassroots efforts to foster normalization and dialogue with Israel despite personal risks.",
+      "lat": 32.7326,
+      "lng": 36.870000000000005,
+      "severity": 1,
+      "location": "Jerusalem, Israel",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/article-908997",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_1269,w_1969/738324",
+      "ts": 1789833612000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-908997"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a99f1b9e603c",
+      "title": "Saudi Arabia sounds air‑raid alerts as missile and drone assault intensifies",
+      "description": "Authorities in Riyadh issued air‑raid warnings as Yemeni rebels launched a new wave of missile and drone attacks on Saudi territory.",
+      "lat": 27.44,
+      "lng": 49.53,
+      "severity": 4,
+      "location": "Ras Tanura, Saudi Arabia",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/07fd42b5-0610-470c-8fb8-4840b5401271?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1789828566000,
+      "coverage": {
+        "left": 0,
+        "center": 3,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 3,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cmed7el18dxpo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/07fd42b5-0610-470c-8fb8-4840b5401271?syn-25a6b1a6=1"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/israel-news/article-909112"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/saudi-arabia-facing-biggest-threat-oil-production-iran-proxy-houthis-launch-attacks-expert-says"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aec8b2a389f8",
+      "title": "US allies facing five‑year delay in missile deliveries – Bloomberg",
+      "description": "Supply chain strains and the war in Ukraine have pushed back the scheduled delivery of advanced missile systems to several NATO partners.",
+      "lat": 51.55,
+      "lng": 32.42519999999999,
+      "severity": 3,
+      "location": "Kyiv, Ukraine",
+      "source": "RT News",
+      "url": "https://www.rt.com/news/645986-us-allies-missile-delays/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.09/thumbnail/6aae95a02030276e75033b2e.jpg",
+      "ts": 1789826601000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/645986-us-allies-missile-delays/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
     {
       "id": "4a58f675f455",
       "title": "Inside the Houthi advance: How Iran's allies are helping tighten Tehran's grip on the Red Sea",
@@ -36,6 +150,44 @@
             "n": "Wall Street Journal World",
             "b": "lean_right",
             "u": "https://www.wsj.com/articles/shippers-wary-of-red-sea-routes-despite-houthi-pledge-to-end-targeting-4dde35c2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cf13063e1d09",
+      "title": "US lifts sanctions on Eritrea ‘to advance US regional interests’ in Red Sea",
+      "description": "Washington announced the removal of economic sanctions on Eritrea, aiming to strengthen cooperation in the Red Sea corridor.",
+      "lat": 15.33,
+      "lng": 38.93,
+      "severity": 2,
+      "location": "Asmara, Eritrea",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNkg2ZVg2dUFJLTc3eVlKWVRoTjRFR1dlSTBaUEhyTkRwemxDd2JMU3lWYWF3b1FWUGNtOTVqd3VRUzhCMEdUTmZuVnlqUy1xSlBnTVZ0aGYyR0JDRFBsc25nVlZQN3R4SkRSOGlxUE4zU0JMVF9oaGlydXVQY0lxSmhpOWk2THpqYTlEd2pmWkxMbjlnLUtweExKNkV2Y082emYzOE5XbTBZRGF4YVRqVXE4cXLSAboBQVVfeXFMTTFETFV1ZHNPNEVTcFNWR3RkUW1DVjl6bmNFZUcxcS1MQ1R5TGRiamllb2p4WG5BdGFTNFRxVnZpd0ZwQV9mOXVPRkR4djFjdEg4X2NSSUw5ZEZuYnI2NTVOMmF6TUxjcWJXUFBmdkM5dmFqbUVFUmYwZ3MxWEJ2UFVNSC1ZMlRhaGJlcno0RFZ5cVI4a3FyY19LQ3pXY2RoYmFjbHVnOVJHWGk1VkEtcmNqdE5HeERZSE5R?oc=5",
+      "image": null,
+      "ts": 1789821522000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/9/19/us-lifts-sanctions-on-eritrea-imposed-during-conflict-in-ethiopias-tigray?traffic_source=rss"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNkg2ZVg2dUFJLTc3eVlKWVRoTjRFR1dlSTBaUEhyTkRwemxDd2JMU3lWYWF3b1FWUGNtOTVqd3VRUzhCMEdUTmZuVnlqUy1xSlBnTVZ0aGYyR0JDRFBsc25nVlZQN3R4SkRSOGlxUE4zU0JMVF9oaGlydXVQY0lxSmhpOWk2THpqYTlEd2pmWkxMbjlnLUtweExKNkV2Y082emYzOE5XbTBZRGF4YVRqVXE4cXLSAboBQVVfeXFMTTFETFV1ZHNPNEVTcFNWR3RkUW1DVjl6bmNFZUcxcS1MQ1R5TGRiamllb2p4WG5BdGFTNFRxVnZpd0ZwQV9mOXVPRkR4djFjdEg4X2NSSUw5ZEZuYnI2NTVOMmF6TUxjcWJXUFBmdkM5dmFqbUVFUmYwZ3MxWEJ2UFVNSC1ZMlRhaGJlcno0RFZ5cVI4a3FyY19LQ3pXY2RoYmFjbHVnOVJHWGk1VkEtcmNqdE5HeERZSE5R?oc=5"
           }
         ]
       }
@@ -1648,59 +1800,6 @@
             "n": "GNews Geopolitics",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1EYWhRQVlOTGQ1b3AxdzQyR1VEUGh2UlFnV1ZWNG11VnhpTVp3NXh3STFJRTZDTzJmZC1mVk5JMFBCekxXRkQ5OHBFSVNZUFl3T0lJQ0QtNnZpNWgtRHhWcTA3SG5QY2F5T2NUcS1oWk8?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a99f1b9e603c",
-      "title": "Saudi Arabia accuses Huthis of ‘red line’ attack on Mecca as rebels face outrage from Muslim world",
-      "description": "Saudi forces shot down a Houthi drone near Mecca, marking a direct confrontation with the Iran‑backed Yemeni rebels.",
-      "lat": 27.44,
-      "lng": 49.53,
-      "severity": 3,
-      "location": "Ras Tanura, Saudi Arabia",
-      "source": "Egypt Independent",
-      "url": "https://www.egyptindependent.com/saudi-arabia-accuses-huthis-of-red-line-attack-on-mecca-as-rebels-face-outrage-from-muslim-world/",
-      "image": null,
-      "ts": 1789649060000,
-      "coverage": {
-        "left": 1,
-        "center": 4,
-        "right": 0,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 4,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/middle-east/saudi-arabia-mecca-houthis-drone-iran-war-trump-oil-gas-prices-rcna598075"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/09/17/oil-prices-today-wti-brent-hormuz-iran-war.html"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/world/2026/0917/1591942-houthi-yemen-saudi-arabia/"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/saudi-arabia-accuses-huthis-of-red-line-attack-on-mecca-as-rebels-face-outrage-from-muslim-world/"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/one-killed-as-saudi-arabia-intercepts-drone-launched-by-yemens-houthis"
           }
         ]
       }
@@ -7379,105 +7478,6 @@
             "n": "Japan Times",
             "b": "center",
             "u": "https://www.japantimes.co.jp/news/2026/09/10/japan/japan-map-complaint/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "aacdd93fb852",
-      "title": "Nuova tegola sul gas, l'Australia tratterrà il 20% dell'export di Gnl",
-      "description": "Australia announced it will retain 20 % of its LNG exports for domestic use starting 2028, affecting global gas markets.",
-      "lat": -34.18,
-      "lng": 151.03520000000003,
-      "severity": 2,
-      "location": "Canberra, Australia",
-      "source": "ANSA Economia",
-      "url": "https://www.ansa.it/sito/notizie/economia/2026/09/10/nuova-tegola-sul-gas-laustralia-tratterra-il-20-dellexport-di-gnl_263941cb-ded8-4543-9280-9b77e5e9580a.html",
-      "image": null,
-      "ts": 1789021886000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Economia",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/economia/2026/09/10/nuova-tegola-sul-gas-laustralia-tratterra-il-20-dellexport-di-gnl_263941cb-ded8-4543-9280-9b77e5e9580a.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c80261ffdcef",
-      "title": "Netanyahu visits troops in occupied Syria as Damascus slams ‘blatant violation’ of sovereignty",
-      "description": "Israeli premier toured forces in the Syrian territory Israel controls, prompting a strong condemnation from Damascus.",
-      "lat": 34.61,
-      "lng": 36.28999999999999,
-      "severity": 4,
-      "location": "Damascus, Syria",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/middle-east/20260910-netanyahu-visits-troops-occupied-syria-damascus-slams-blatant-violation-sovereignty",
-      "image": "https://s.france24.com/media/display/76a50a12-9e4a-11f1-a0b4-005056bfb2b6/w:1024/p:16x9/2026-08-20T145844Z-607844057-RC2B2NAKHJYC-RTRMADP-3-ISRAEL-SYRIA.jpg",
-      "ts": 1789021430000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/middle-east/20260910-netanyahu-visits-troops-occupied-syria-damascus-slams-blatant-violation-sovereignty"
-          }
-        ]
-      }
-    },
-    {
-      "id": "02b6d886a013",
-      "title": "Hyundai Steel signs 1st subcontractor deal under yellow envelope act",
-      "description": "Hyundai Steel finalised its first domestic subcontracting agreement, signalling a shift in South Korea’s industrial procurement practices.",
-      "lat": 37.56,
-      "lng": 126.98000000000002,
-      "severity": 2,
-      "location": "Seoul, South Korea",
-      "source": "Yonhap News",
-      "url": "https://en.yna.co.kr/view/AEN20260910005500315",
-      "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/10/AEN20260910005500315_02_i_P2.jpg",
-      "ts": 1789021422000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20260910005500315"
           }
         ]
       }
