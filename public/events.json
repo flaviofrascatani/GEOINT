@@ -1,7 +1,149 @@
 {
   "schema": 1,
-  "updated": "2026-09-19T22:28:31.546175+00:00",
+  "updated": "2026-09-20T00:21:21.375050+00:00",
   "events": [
+    {
+      "id": "1799ed119ae0",
+      "title": "New US sanctions law undermines Ukraine peace efforts – Kremlin",
+      "description": "The Kremlin warned that a newly enacted U.S. sanctions law will jeopardize peace efforts in Ukraine and strain bilateral relations.",
+      "lat": 55.75,
+      "lng": 37.620000000000005,
+      "severity": 3,
+      "location": "Moscow, Russia",
+      "source": "RT News",
+      "url": "https://www.rt.com/news/645997-us-sanctions-undermines-ukraine-peace/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.09/thumbnail/6aaf24aa2030271fe414749a.jpg",
+      "ts": 1789863368000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/645997-us-sanctions-undermines-ukraine-peace/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2ae945cef9ad",
+      "title": "Ukraine intensifies terrorist activities ahead of Russian parliamentary vote",
+      "description": "Ukrainian groups stepped up terrorist attacks in Russian‑controlled territories as Russia prepared for its parliamentary elections.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 3,
+      "location": "Kyiv, Ukraine",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2190169",
+      "image": null,
+      "ts": 1789863159000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/russian-holds-parliamentary-vote-areas-seized-ukraine-war-136580922"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/nato-jets-poland-russia-ukraine-37677949"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2190169"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1e6bb7409047",
+      "title": "Indonesia’s uneasy Aukus moment",
+      "description": "A former Australian official’s remarks describing an “aggressive Indonesia” sparked diplomatic friction over Indonesia’s potential involvement in the Aukus security pact.",
+      "lat": 7.31,
+      "lng": 106.85000000000002,
+      "severity": 3,
+      "location": "Jakarta, Indonesia",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/week-asia/politics/article/3368035/named-enemy-indonesias-uneasy-aukus-moment?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/18/9dadcf7b-2c3e-4e40-93f5-7cd9d7583f62_83e91e8f.jpg?itok=rLojYIqV&v=1789728124",
+      "ts": 1789862409000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/week-asia/politics/article/3368035/named-enemy-indonesias-uneasy-aukus-moment?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "56dc163c7470",
+      "title": "Caribbean Reparations Chief Says Slavery Justice Push Is in Final Phase",
+      "description": "Sir Hilary Beckles announced at a CARICOM conference in Barbados that the push for slavery reparations is entering its final stage.",
+      "lat": 13.1,
+      "lng": -59.62,
+      "severity": 2,
+      "location": "Bridgetown, Barbados",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/beckles-caricom-reparations-final-phase-barbados-2026/",
+      "image": null,
+      "ts": 1789857395000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/beckles-caricom-reparations-final-phase-barbados-2026/"
+          }
+        ]
+      }
+    },
     {
       "id": "a99f1b9e603c",
       "title": "Saudi Arabia confirms Yemen’s Houthi rebels tried to attack its capital with ballistic missile",
@@ -78,10 +220,10 @@
     {
       "id": "5976c2217775",
       "title": "Paraguay Leader Visits Venezuela in Shift After Years of Enmity",
-      "description": "President Santiago Peña travels to Caracas for talks with acting President Delcy Rodríguez, signalling a diplomatic rapprochement.",
+      "description": "President Santiago Peña traveled to Caracas for talks with acting President Delcy Rodríguez, marking a diplomatic realignment in Latin America.",
       "lat": 11.58,
       "lng": -66.9,
-      "severity": 1,
+      "severity": 2,
       "location": "Caracas, Venezuela",
       "source": "Bloomberg Politics",
       "url": "https://www.bloomberg.com/news/articles/2026-09-19/paraguay-leader-visits-venezuela-in-shift-after-years-of-enmity",
@@ -678,58 +820,48 @@
     },
     {
       "id": "660365a011f4",
-      "title": "🔴 Greenland, Denmark say they expect to sign deal with the US on the sidelines of UN General Assembly",
-      "description": "The United States, Denmark and Greenland plan to sign an Arctic security pact granting the US permanent control over Greenland's security, announced at the UN General Assembly.",
+      "title": "Denmark deal gives US permanent control over security of Greenland",
+      "description": "Denmark and the United States signed an agreement granting the U.S. permanent security control over Greenland, welcomed by NATO.",
       "lat": 41.81,
       "lng": -74.01,
-      "severity": 1,
+      "severity": 2,
       "location": "New York City, United States",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/europe/20260918-greenland-denmark-us-deal-un-general-assembly",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/trump-says-us-has-entered-deal-with-denmark-giving-us-control-over-security-on-greenland-13589529",
       "image": null,
       "ts": 1789768791000,
       "coverage": {
-        "left": 5,
-        "center": 7,
+        "left": 4,
+        "center": 5,
         "right": 2,
-        "total": 14,
+        "total": 11,
         "buckets": {
-          "left": 0,
-          "lean_left": 5,
-          "center": 7,
-          "lean_right": 2,
-          "right": 0
+          "left": 1,
+          "lean_left": 3,
+          "center": 5,
+          "lean_right": 1,
+          "right": 1
         },
         "sources": [
           {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/politics/trump-administration/trump-announces-agreement-denmark-secure-permanent-control-greenlands-rcna598641"
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/denmark-us-greenland-deal_n_6aae71b5e4b03a8a58d6c235"
           },
           {
-            "n": "NDTV World",
+            "n": "NBC News World",
             "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/donald-trump-claims-he-has-deal-with-denmark-to-bolster-us-military-presence-in-greenland-12066934#publisher=newsstand"
+            "u": "https://www.nbcnews.com/video/trump-announces-deal-with-denmark-for-permanent-control-over-greenland-s-security-270132805853"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/denmark-greenland-leaders-us-security-deal-trump/"
           },
           {
             "n": "Al Jazeera",
             "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/9/18/trump-says-denmark-deal-gives-us-security-control-over-greenland?traffic_source=rss"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/09/18/trump-says-us-and-denmark-reach-deal-to-expand-military-presence-in-greenland_6757690_4.html"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/us-and-denmark-reach-deal-on-greenland-trump/article71482588.ece"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss"
+            "u": "https://www.aljazeera.com/news/2026/9/19/denmark-says-binding-us-deal-on-greenland-wont-compromise-sovereignty?traffic_source=rss"
           },
           {
             "n": "CNBC World",
@@ -742,34 +874,29 @@
             "u": "https://news.sky.com/story/trump-says-us-has-entered-deal-with-denmark-giving-us-control-over-security-on-greenland-13589529"
           },
           {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/europe/20260918-greenland-denmark-us-deal-un-general-assembly"
-          },
-          {
             "n": "Google News Top",
             "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOOWhvcVJtTTZyUmxhYUN1b2tiQ1RpWFNCQXFDM0ExZFc5TjJya0ZEdXRIb0JLMF9kcmR3ZWg2SnZYSzZMWGRKQVptYWFHeWZZSlptUU90MkJMdG52c3JkV1VncFgyVy1SY0pEbnRJd3p4UGNTRVVKS2VWMmxSenpucDJaOUtLd1dqSng1enlXMllpbV8tWjVCQ0x6NndhWlNBRDNsZU5WZUF6NTFpTzZSNDVjYThzXzJnejQ5U2Z4YmRGNUY4R3VUYXVydGVocGJiUDVoMXpUZzh2bWZjMFBMTEs2TTZZQTgwMnRPNWZVbmZ2VXZrMmZMVjVwNnF5cDg?oc=5"
+            "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUUswdG5RR3A3czVTQV82SzUwWDh1ZDZrYjNXcld1cUQwOW9nZENwVlhQRVpfMXRQY2RXZ1pLcVlnal9jeGJxelREVVpWeTZyTTI2bnJKUXlIYUNtNklZQnkyWHNPX1NzZ1lIRVB2SVFfWkJTWkg4ZFM5WE5rdTVISldEczdQX1BIdkRyd21lYVhibzVLRkwwOGVIWXdfODNPRzloNWhEWQ?oc=5"
           },
           {
-            "n": "Bloomberg Politics",
+            "n": "Japan Times",
             "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-09-18/trump-says-he-reached-security-deal-on-greenland-with-denmark"
+            "u": "https://www.japantimes.co.jp/news/2026/09/20/world/politics/denmark-trump-greenland-deal/"
           },
           {
-            "n": "Channel News Asia",
+            "n": "South China Morning Post",
             "b": "center",
-            "u": "https://www.channelnewsasia.com/world/us-and-denmark-reach-deal-greenland-trump-says-6395916"
+            "u": "https://www.scmp.com/news/world/united-states-canada/article/3368126/denmark-cautiously-optimistic-over-trumps-greenland-deal?utm_source=rss_feed"
           },
           {
-            "n": "TASS",
+            "n": "New York Post",
             "b": "lean_right",
-            "u": "https://tass.com/world/2189997"
+            "u": "https://nypost.com/2026/09/19/world-news/trumps-denmark-greenland-pact-blocks-china-and-russias-bases/"
           },
           {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/americas/us-denmark-reach-infinite-greenland-security-deal-trump"
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2249900/donald-trump-greenland-security-deal-denmark"
           }
         ]
       }
@@ -7351,153 +7478,6 @@
             "n": "Egypt Independent",
             "b": "center",
             "u": "https://www.egyptindependent.com/exclusive-this-small-island-off-yemen-is-now-a-strategic-prize-in-the-widening-iran-war/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "94eb101d67ad",
-      "title": "Falklands Legislative Assembly sends greetings to Gibraltar on its National Day",
-      "description": "Das Parlament der Falklandinseln übermittelt dem Gibraltar‑Regierungsteam freundliche Grüße zum Nationalfeiertag, ein Zeichen diplomatischer Freundschaft.",
-      "lat": -51.695,
-      "lng": -55.94380000000001,
-      "severity": 1,
-      "location": "Stanley, Falklandinseln",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/09/10/falklands-legislative-assembly-sends-greetings-to-gibraltar-on-its-national-day?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111430/100x80/gibfi.jpg",
-      "ts": 1789042980000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/09/10/falklands-legislative-assembly-sends-greetings-to-gibraltar-on-its-national-day?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7811d3851d71",
-      "title": "S. Korea inks 640 bln-won deal to export 19 Chunmoo rocket launchers to Croatia",
-      "description": "Corea del Sur firmó un contrato para vender 18 lanzacohetes Chunmoo a Croacia, ampliando la cooperación de defensa entre ambos países.",
-      "lat": 45.81,
-      "lng": 15.98,
-      "severity": 2,
-      "location": "Zagreb, Croacia",
-      "source": "Yonhap News",
-      "url": "https://en.yna.co.kr/view/AEN20260910005600315",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2025/04/18/PYH2025041802030001300_P2.jpg",
-      "ts": 1789040139000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20260910005600315"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ecca0d5faa6a",
-      "title": "Yemen's Houthis seize key city on Red Sea: military source",
-      "description": "Los Houthi capturaron la estratégica ciudad portuaria de Mokha en la costa del Mar Rojo, ampliando su control territorial.",
-      "lat": 13.53,
-      "lng": 44.73,
-      "severity": 3,
-      "location": "Mokha, Yemen",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/09/yemens-houthis-seize-key-city-red-sea-military-source",
-      "image": null,
-      "ts": 1789039833000,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/09/10/world/middleeast/yemens-houthis-seize-strategic-red-sea-port-officials-say.html"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/article-908223"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNWdzb1JYOGV3bkxIQ0FoWUpXcHFiTWVmMEQxaW9IeDUya2E0UVVvS1J6V3NESXZhYnpOVlNRNTRCN0ZtcEZDS1dJb3VFOGlJTkFwOFJyLVFpN1pxSEdNbWV6WENVMVYtRVBsaGFJcjlwWWFqaXBtT01CdG5GeUNIY2ZIR00weWE2QldKY1dQYU00UEplMzVyc1lGbEJyUGNRcFAyek9QRDdIMjVtbmtPS1FMMXo?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/yemens-houthis-seize-key-city-red-sea-military-source"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4cdded90c95f",
-      "title": "China says it hopes to agree with US on tariff reductions 'at an early date'",
-      "description": "Chinese officials expressed optimism about reaching a bilateral agreement with the United States to lower import tariffs soon.",
-      "lat": 38.9,
-      "lng": -77.04,
-      "severity": 2,
-      "location": "Washington, DC, USA",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/china-hopes-agree-us-tariff-reductions-early-date-136328623",
-      "image": "https://s.abcnews.com/images/US/wirestory_f2066bf9ae668afd3a5a2a0658748b4f_4x3_384.jpg",
-      "ts": 1789039337000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/china-hopes-agree-us-tariff-reductions-early-date-136328623"
           }
         ]
       }
