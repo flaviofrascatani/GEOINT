@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-09-20T00:21:21.375050+00:00",
+  "updated": "2026-09-20T05:21:37.823702+00:00",
   "events": [
+    {
+      "id": "1ab58e88c7b8",
+      "title": "Chinese imports of Russian LNG up 28.2%, of oil - up 18.1% in January-August",
+      "description": "Las importaciones chinas de gas natural licuado ruso aumentan significativamente, reforzando la relación energética entre Moscú y Pekín.",
+      "lat": 55.75,
+      "lng": 37.620000000000005,
+      "severity": 2,
+      "location": "Moscow, Russia",
+      "source": "TASS",
+      "url": "https://tass.com/economy/2190217",
+      "image": null,
+      "ts": 1789880184000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/economy/2190217"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e07c5492432a",
+      "title": "U.S. military says it killed 4 in strike on alleged drug‑smuggling boat in Caribbean",
+      "description": "El comando sur de EE. UU. lleva a cabo un ataque contra una embarcación sospechosa de narcotráfico en el Caribe, dejando cuatro muertos.",
+      "lat": 15.0,
+      "lng": -75.0,
+      "severity": 3,
+      "location": "Caribbean Sea",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/us-military-says-it-killed-4-in-strike-on-alleged-drug-smuggling-boat-in-caribbean/article71486931.ece",
+      "image": "https://th-i.thgim.com/public/incoming/7v7rky/article71486932.ece/alternates/LANDSCAPE_1200/2026-09-20T005607Z_904264331_RC2OMNA3OLYO_RTRMADP_3_USA-TRUMP-DRUGS-STRIKE.JPG",
+      "ts": 1789875140000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/us-military-says-it-killed-4-in-strike-on-alleged-drug-smuggling-boat-in-caribbean/article71486931.ece"
+          }
+        ]
+      }
+    },
     {
       "id": "1799ed119ae0",
       "title": "New US sanctions law undermines Ukraine peace efforts – Kremlin",
@@ -213,6 +279,69 @@
             "n": "Washington Examiner",
             "b": "right",
             "u": "https://www.washingtonexaminer.com/news/world/4734911/riyadh-airport-explosion-saudi-arabia-houthi-escalates/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "327d27044aad",
+      "title": "Houthis claim attacks on ‘sensitive sites’ in Saudi Arabian capital",
+      "description": "Los hutíes publican video de una explosión de gran humo cerca del aeropuerto internacional de Riad, señalando un ataque a instalaciones estratégicas.",
+      "lat": 25.81,
+      "lng": 46.68000000000001,
+      "severity": 3,
+      "location": "Riyadh, Saudi Arabia",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/09/19/houthis-claim-attacks-sensitive-sites-saudi-arabian-capital/",
+      "image": null,
+      "ts": 1789849933000,
+      "coverage": {
+        "left": 2,
+        "center": 4,
+        "right": 1,
+        "total": 7,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 4,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/09/19/world/middleeast/saudi-arabia-riyadh-houthis.html"
+          },
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/09/19/houthis-claim-attacks-sensitive-sites-saudi-arabian-capital/"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/09/19/flames-smoke-seen-near-riyadh-airport-houthis-claim-attacks.html"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/houthis-claim-drone-attack-on-saudi-arabias-capital-after-smoke-seen-rising-near-airport-13589978"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0M1RqdlhDaEtlM0o2NEJqWEgtclk1NWZkeklLQTl2NUFFSEdLOFlPRVp2Mm1Lemx4czFSZnlBRVVhVkh6a0hJcXNQbWtoMF9JUVFKTUR1WVdUczQ?oc=5"
+          },
+          {
+            "n": "Times of India World",
+            "b": "center",
+            "u": "https://timesofindia.indiatimes.com/world/middle-east/saudi-arabia-claims-houthis-tried-to-attack-its-capital-riyadh-with-missiles/articleshow/134362350.cms"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/saudi-arabia-facing-biggest-threat-oil-production-iran-proxy-houthis-launch-attacks-expert-says"
           }
         ]
       }
@@ -444,6 +573,39 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/645986-us-allies-missile-delays/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dd64c04918e4",
+      "title": "Algeria accuses UAE of trying to sway two presidential elections",
+      "description": "Argelia denuncia a los Emiratos Árabes Unidos por presunta interferencia en sus procesos electorales de 2019 y 2024.",
+      "lat": 36.75,
+      "lng": 3.06,
+      "severity": 3,
+      "location": "Algiers, Algeria",
+      "source": "The Africa Report",
+      "url": "https://www.theafricareport.com/431261/algeria-accuses-uae-of-trying-to-sway-two-presidential-elections/",
+      "image": null,
+      "ts": 1789822885000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Africa Report",
+            "b": "center",
+            "u": "https://www.theafricareport.com/431261/algeria-accuses-uae-of-trying-to-sway-two-presidential-elections/"
           }
         ]
       }
@@ -964,6 +1126,39 @@
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/4-suspects-killed-shootout-police-rescue-kidnapped-british-136551217"
           },
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/news/article-16140149/British-mother-kidnapped-gunmen-Malawi-makes-safe-return-home-daring-rescue.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+          }
+        ]
+      }
+    },
+    {
+      "id": "48b967efd1e9",
+      "title": "British mother kidnapped by gunmen in Malawi is freed in daring rescue",
+      "description": "Una madre británica secuestrada en Malawi es liberada tras una operación policial armada, siendo trasladada a un hospital local.",
+      "lat": 15.09,
+      "lng": 33.78,
+      "severity": 3,
+      "location": "Lilongwe, Malawi",
+      "source": "Daily Mail World",
+      "url": "https://www.dailymail.com/news/article-16140149/British-mother-kidnapped-gunmen-Malawi-makes-safe-return-home-daring-rescue.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "image": "https://i.dailymail.com/1s/2026/09/17/20/111267421-0-Osman_a_mother_of_two_young_children_is_from_Leicester_and_was_w-a-5_1789672878600.jpg",
+      "ts": 1789761177000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
           {
             "n": "Daily Mail World",
             "b": "right",
@@ -7298,186 +7493,6 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-09-10/uae-plans-to-invest-46-billion-in-germany-to-boost-europe-ties"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1045d3d6fc85",
-      "title": "Iran strikes U.S. jets after Trump promises war to end after midterms",
-      "description": "Iranische Raketen trafen US‑Jagdflugzeuge, die auf einem Luftwaffenstützpunkt in Jordanien geparkt waren, und lösten eine direkte militärische Konfrontation aus.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-us-tankers-attacks-strikes-strait-of-hormuz-oil-price/",
-      "image": null,
-      "ts": 1789055596000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-tankers-attacks-strikes-strait-of-hormuz-oil-price/"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUVJuX1liNlV4OVBFUUZrMUQ4QWNZV0R3enp2b0pzN0gwVVVKeW9xUmdKejFueWVCM3Z3RXI2TldvbVYzWXNPRlRNNmFSd3ZxVERxem0wX3R6YjFwcERxa1ZjUDhKbU93RGFPVG5rU3dqUVZkS2dlQU1qcmhsM21HY29Ea1MxdmNDYWVFZThvcGx0M0ZuUUFGdVl4Qmd4QUpaLWc?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ff3755463ccc",
-      "title": "Ukraine braces for another harsh winter as air defense falls short",
-      "description": "Ukrainische Behörden warnen, dass die schwache Luftverteidigung das Land im bevorstehenden Winter anfällig für russische Angriffe macht.",
-      "lat": 51.5501,
-      "lng": 30.52340000000001,
-      "severity": 4,
-      "location": "Kiew, Ukraine",
-      "source": "Le Monde English",
-      "url": "https://www.lemonde.fr/en/international/article/2026/09/10/ukraine-braces-for-another-harsh-winter-as-air-defense-falls-short_6757391_4.html",
-      "image": "https://img.lemde.fr/2026/09/10/608/0/4500/2250/644/322/60/0/6d6173d_upload-1-osm1wjduai62-2025-12-31t135236z-353999600-rc2priato7u6-rtrmadp-3-ukraine-crisis-kyiv.JPG",
-      "ts": 1789054207000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/09/10/ukraine-braces-for-another-harsh-winter-as-air-defense-falls-short_6757391_4.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6f2f42109c83",
-      "title": "Zelenskyy’s plane almost blown up by drone in suspected Russian attack",
-      "description": "A drone was detected near the Ukrainian president’s aircraft en route to Norway, forcing the plane to land safely without casualties.",
-      "lat": 59.91,
-      "lng": 10.75,
-      "severity": 3,
-      "location": "Oslo, Norway",
-      "source": "Daily Star World",
-      "url": "https://www.dailystar.co.uk/news/latest-news/volodymyr-zelenskyys-plane-almost-blown-37648345",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37647973.ece/ALTERNATES/s615/5_Cda-Ukraine-Calgary-Canada-09-Sep-2026.jpg",
-      "ts": 1789049381000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/russian-drone-delayed-ukrainian-president-zelenskyys-plane-moldova-war-escalates-3807335"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQLUItb2UwbnNEdklTQTM2UjhaUWlVM0NiQWMtMEtfbjd2SG52eEoxaHc2aWNZb0VDdF90am40WnJJaWpCUFBERnVzOXBjSnF5M1VqOHl0Sk1YS1ZLSXNmMmVmWEVRTUFCWFBiVjBDMWdOSUwwOHpfTFA1STcxRDVuNG1TTHVmZ253aVZXMzAwbVB4WGdXTlVNRjI1NzNBaFhPRk92amdIcDZPLWRWU3d1N25Ibw?oc=5"
-          },
-          {
-            "n": "Daily Star World",
-            "b": "right",
-            "u": "https://www.dailystar.co.uk/news/latest-news/volodymyr-zelenskyys-plane-almost-blown-37648345"
-          }
-        ]
-      }
-    },
-    {
-      "id": "430bb11498b2",
-      "title": "Fueled by regional rivalries, Algeria severs diplomatic ties with UAE",
-      "description": "Algerien bricht die diplomatischen Beziehungen zu den Vereinigten Arabischen Emiraten ab und wirft Abu Dhabi provokante und feindliche Handlungen vor.",
-      "lat": 36.7538,
-      "lng": 3.0588,
-      "severity": 3,
-      "location": "Algier, Algerien",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/09/fueled-regional-rivalries-algeria-severs-diplomatic-ties-uae",
-      "image": null,
-      "ts": 1789047399000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/fueled-regional-rivalries-algeria-severs-diplomatic-ties-uae"
-          }
-        ]
-      }
-    },
-    {
-      "id": "80676c185c42",
-      "title": "Exclusive: This small island off Yemen is now a strategic prize in the widening Iran war — Perim Island, Yemen",
-      "description": "Perim Island, situated at the entrance of the Red Sea, has become a focal point for regional powers as Iran‑backed forces seek to control this strategic chokepoint.",
-      "lat": 12.5,
-      "lng": 45.20519999999999,
-      "severity": 3,
-      "location": "Perim Island, Yemen",
-      "source": "Egypt Independent",
-      "url": "https://www.egyptindependent.com/exclusive-this-small-island-off-yemen-is-now-a-strategic-prize-in-the-widening-iran-war/",
-      "image": "https://media.cnn.com/api/v1/images/stellar/prod/photo-6-mp-soldiers-village-copy.jpg?c=original&amp;q=w_860,c_fill",
-      "ts": 1789043923000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/exclusive-this-small-island-off-yemen-is-now-a-strategic-prize-in-the-widening-iran-war/"
           }
         ]
       }
