@@ -1,7 +1,85 @@
 {
   "schema": 1,
-  "updated": "2026-09-20T17:38:51.672185+00:00",
+  "updated": "2026-09-20T20:44:59.924438+00:00",
   "events": [
+    {
+      "id": "41a22aba17f8",
+      "title": "Trump to meet with Zelensky as Russia-Ukraine attacks intensify",
+      "description": "Il presidente Trump incontrerà il presidente ucraino Zelensky a New York durante l'Assemblea Generale delle Nazioni Unite.",
+      "lat": 49.784,
+      "lng": 22.77,
+      "severity": 2,
+      "location": "Przemyśl, Poland",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/09/20/trump-zelensky-meeting-russia-ukraine-war-talks",
+      "image": "https://c.ndtvimg.com/2025-03/uj54uh28_zelensky_625x300_03_March_25.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1789932316000,
+      "coverage": {
+        "left": 2,
+        "center": 6,
+        "right": 2,
+        "total": 10,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 6,
+          "lean_right": 0,
+          "right": 2
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/russia/two-dead-moscow-region-drones-hit-oil-refinery-russian-capital-rcna598767"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/ukraine-drone-attack-moscow-russia/"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/09/20/trump-zelensky-meeting-russia-ukraine-war-talks"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/europe/20260920-russia-s-ruling-party-on-track-to-win-election-after-ukraine-s-drone-attacks-on-moscow"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVVQyb1M5emp0WWE1cjRPcGk0LVJhX0NSN0JzY3lMUTZKeDVJQnBMRm5HVGFrTHhrb1dwMDZRakhOUGF1MElPRjNLTEVCYXk5UnZmcmdSYWZfWWpramJQWDlEX3RuQUYwRGUxS0RRdFR0N0p2bE9Fc3lZNFFaX19MNXQ4NldMUjdwUkE?oc=5"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUG4xdzdpSmtOVGxlTDNNQVJVOW8tVGsydzBiN1ZZc2ZfVTA1V25xX1Q1NDYzb3BETmF2Wkg3Zno2UTU5ZG41QW0tS3h1Xy1uZ2JoSDFlYkxDeEFPVEVkTmo0Z05fanZaS3FuWGNBYjgxQm1IdDNESWtBdFZqZ09rdlpaVGZvTWRWSXd0UW0tRWI4TU40bEhNd29oc1lnUnhpNXhmNG9CVE1IamE5aG1iZ1pzd2tmUdIBuwFBVV95cUxNR29JOXNnRGVGUmFVd1NhTGFpREJ0VXcyN1FLc0tCN1lseV9VdHI4Zmd6b1lHSEdRSmhFeU45YzQyaE9vTnA4d21YNk5JQTA3M2xLUFFUd2NlMl9JZzRZQlFxWTZRMGM5UTJRMHlvTVVoSDU2QjlEaWNET1JqSmo4NVRNNlpTa3BZMmRVNlAyeEozZGNyajZCUUc4Vkx1SlNnRkZSWnk3VTJkNU9ISWVQNENQc193dDNOcUVj?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-09-20/ukraine-s-zelenskyy-says-trump-agrees-to-meet-him-in-new-york"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/russia-central-asia/article/3368177/russia-vows-revenge-ukraines-election-day-attacks-poll-shows-win-ruling-party?utm_source=rss_feed"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/ukraine-targets-russia-1000-drones-killing-2-moscow-holds-last-day-elections"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4735071/ukraine-drone-attack-russia-elections/"
+          }
+        ]
+      }
+    },
     {
       "id": "acfdec8222bc",
       "title": "Mosca, 'intensificheremo gli attacchi sull'Ucraina in risposta ai raid odierni'",
@@ -828,6 +906,39 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/world/2190115"
+          }
+        ]
+      }
+    },
+    {
+      "id": "03ca01a6ff27",
+      "title": "Russian election observer loses consciousness during arrest, opposition party says",
+      "description": "Un osservatore elettorale del partito Yabloko è svenuto mentre veniva arrestato dalla polizia a San Pietroburgo durante le elezioni.",
+      "lat": 59.93,
+      "lng": 30.33,
+      "severity": 3,
+      "location": "St. Petersburg, Russia",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/russian-election-observer-loses-consciousness-arrest-police-opposition-136585736",
+      "image": "https://s.abcnews.com/images/International/wirestory_31a304d3156d9a066ff8001cf1338d7e_4x3_384.jpg",
+      "ts": 1789834708000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/russian-election-observer-loses-consciousness-arrest-police-opposition-136585736"
           }
         ]
       }
@@ -4010,44 +4121,6 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/irans-regime-came-teenage-twins-fate-offers-glimpse-tehrans-widening-death-campaign"
-          }
-        ]
-      }
-    },
-    {
-      "id": "41a22aba17f8",
-      "title": "Russia and Ukraine launch new attacks on energy despite Trump’s ceasefire claim",
-      "description": "Ambas partes continúan bombardeando infraestructuras energéticas, rompiendo la supuesta pausa anunciada por el presidente estadounidense.",
-      "lat": 49.784,
-      "lng": 22.77,
-      "severity": 4,
-      "location": "Przemyśl, Poland",
-      "source": "NBC News World",
-      "url": "https://www.nbcnews.com/world/ukraine/russia-ukraine-new-energy-attacks-trumps-ceasefire-claim-rcna597873",
-      "image": "https://c.ndtvimg.com/2025-03/uj54uh28_zelensky_625x300_03_March_25.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1789483721000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/ukraine/russia-ukraine-new-energy-attacks-trumps-ceasefire-claim-rcna597873"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/russia-trump-s-ukraine-ceasefire-proposal-is-good-idea/a-79280087?maca=en-rss-en-all-1573-rdf"
           }
         ]
       }
@@ -7510,39 +7583,6 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/world/2185791"
-          }
-        ]
-      }
-    },
-    {
-      "id": "90ce4912ae47",
-      "title": "How the U.S. Treasury's New Aviation Sanctions on Iran Extend Beyond Tehran",
-      "description": "The U.S. Treasury imposed new aviation sanctions targeting Iranian airlines and related entities.",
-      "lat": 36.79,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaFhUYUhHOUpHTEZrTmhmbllNR0s4WXJxZUlLZnVadWxmbXE5NGV0a2xzd3NLNDBRcW0wR2laRnpGUUNxTkppeW9CdzhZRFNjY1gyQWRIcTZMZFFqOGRseGE1TmxwSW9nMTdTNmVfcTMwSzd1bkZwOW85SUhMUVpZMEJlS05sX05rNGsxc1AzWEVjVm4wTmhYVEZ3?oc=5",
-      "image": null,
-      "ts": 1789077210000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaFhUYUhHOUpHTEZrTmhmbllNR0s4WXJxZUlLZnVadWxmbXE5NGV0a2xzd3NLNDBRcW0wR2laRnpGUUNxTkppeW9CdzhZRFNjY1gyQWRIcTZMZFFqOGRseGE1TmxwSW9nMTdTNmVfcTMwSzd1bkZwOW85SUhMUVpZMEJlS05sX05rNGsxc1AzWEVjVm4wTmhYVEZ3?oc=5"
           }
         ]
       }
