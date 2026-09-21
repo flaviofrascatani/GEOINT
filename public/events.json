@@ -1,7 +1,50 @@
 {
   "schema": 1,
-  "updated": "2026-09-20T23:11:28.484111+00:00",
+  "updated": "2026-09-21T01:36:05.580956+00:00",
   "events": [
+    {
+      "id": "c6af07cbd34a",
+      "title": "China Rare‑Earth Magnet Exports to US Drop Before Xi‑Trump Meet",
+      "description": "Exports of critical rare‑earth magnets from China to the United States fell sharply ahead of the upcoming leaders’ summit.",
+      "lat": 38.9,
+      "lng": -77.04,
+      "severity": 2,
+      "location": "Washington, D.C., USA",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-21/china-rare-earth-magnet-exports-to-us-drop-before-xi-trump-meet",
+      "image": null,
+      "ts": 1789950499000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/economy/2026/9/20/us-china-open-high-level-talks-ahead-of-trump-xi-summit?traffic_source=rss"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/09/20/bessent-he-lifeng-trump-xi-summit.html"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-09-21/china-rare-earth-magnet-exports-to-us-drop-before-xi-trump-meet"
+          }
+        ]
+      }
+    },
     {
       "id": "d52e80da1fb0",
       "title": "Canada, France agree to closer ties in defense, economy",
@@ -288,6 +331,64 @@
       }
     },
     {
+      "id": "6d5c3d792dad",
+      "title": "North Korea Launches 2 Ballistic Missiles Toward Sea",
+      "description": "The DPRK conducted a missile launch, sending two ballistic missiles out over the sea in a continued weapons demonstration.",
+      "lat": 38.9,
+      "lng": -77.04,
+      "severity": 3,
+      "location": "Washington, D.C., USA",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/north-korea-launches-2-ballistic-missiles-toward-sea-12073587#publisher=newsstand",
+      "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2247894_1.jpg",
+      "ts": 1789930368000,
+      "coverage": {
+        "left": 4,
+        "center": 1,
+        "right": 1,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 4,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/north-korea-fires-short-range-ballistic-missile-sea-136595740"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/north-korea-missile-launch-pressure-us/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/north-korea-launches-2-ballistic-missiles-toward-sea-12073587#publisher=newsstand"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/north-korea-ballistic-missile-tests-37682291"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EWmlFdUhEQmRGU3MyT3RVVVpNdF9JM0JrRFhsTWhVOUd6YnA1aFZJV3JqX2YzcDlWMWRrNUo0V1ZOcjVMODByMGU3YWNrblQtVzNtMmJycnprSF9GYThnT09jUGZRNFBWWEtyS2ptUDFxVk9CWS1B?oc=5"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4735096/north-korea-ballistic-missile-launch-sea/"
+          }
+        ]
+      }
+    },
+    {
       "id": "a99f1b9e603c",
       "title": "Houthi Rebels Warn Against Joining Saudi Arabia In Yemen's Growing Civil War",
       "description": "The Iran‑backed group told the Trump administration it will not attack U.S. vessels in the Red Sea.",
@@ -456,11 +557,11 @@
     },
     {
       "id": "659b5526317a",
-      "title": "Brazil transforms waste palm oil into green energy",
-      "description": "Salvador, Brazil, is converting residual palm oil from local cuisine into renewable energy, boosting sustainable fuel production.",
+      "title": "Brazil transforms waste palm oil into green energy — Salvador promotes reuse of residual palm oil",
+      "description": "Salvador, Brazil, launches a program to convert waste palm oil from local cuisine into renewable energy, showcasing a sustainable initiative.",
       "lat": -12.97,
       "lng": -38.51,
-      "severity": 1,
+      "severity": 2,
       "location": "Salvador, Brazil",
       "source": "Africanews",
       "url": "http://www.africanews.com/2026/09/20/brazil-transforms-waste-palm-oil-into-green-energy/",
@@ -1749,33 +1850,28 @@
     {
       "id": "6674130d5ea7",
       "title": "British mother kidnapped by gunmen in Malawi is freed in daring rescue",
-      "description": "A British mother of two was rescued after being abducted by gunmen in Malawi, following a police operation.",
+      "description": "After a gunmen‑led abduction, Malawian police rescued the British mother, who is now recovering in hospital.",
       "lat": 13.9833,
       "lng": 33.7833,
-      "severity": 3,
+      "severity": 1,
       "location": "Lilongwe, Malawi",
       "source": "Daily Mail World",
       "url": "https://www.dailymail.com/news/article-16140149/British-mother-kidnapped-gunmen-Malawi-makes-safe-return-home-daring-rescue.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
       "image": "https://i.dailymail.com/1s/2026/09/17/20/111267421-0-Osman_a_mother_of_two_young_children_is_from_Leicester_and_was_w-a-5_1789672878600.jpg",
       "ts": 1789761177000,
       "coverage": {
-        "left": 1,
+        "left": 0,
         "center": 0,
         "right": 1,
-        "total": 2,
+        "total": 1,
         "buckets": {
           "left": 0,
-          "lean_left": 1,
+          "lean_left": 0,
           "center": 0,
           "lean_right": 0,
           "right": 1
         },
         "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/4-suspects-killed-shootout-police-rescue-kidnapped-british-136551217"
-          },
           {
             "n": "Daily Mail World",
             "b": "right",
@@ -6547,64 +6643,6 @@
       }
     },
     {
-      "id": "6d5c3d792dad",
-      "title": "North Korea fires ballistic missiles after condemning military drill as threat",
-      "description": "North Korea launched a series of ballistic missiles toward the sea following a trilateral drill by the United States, South Korea and Japan.",
-      "lat": 38.9,
-      "lng": -77.04,
-      "severity": 4,
-      "location": "Washington, D.C., USA",
-      "source": "The Hill",
-      "url": "https://thehill.com/policy/defense/6085776-north-korea-launches-missiles/",
-      "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2247894_1.jpg",
-      "ts": 1789180826000,
-      "coverage": {
-        "left": 3,
-        "center": 2,
-        "right": 1,
-        "total": 6,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 2,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/north-korea-launches-ballistic-missiles-sea-military-drill-136379039"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/north-korea-fires-ballistic-missiles-day-after-south-koreas-maritime-drills-12035707#publisher=newsstand"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/north-korea-fires-ballistic-missiles-toward-sea-after-rivals-military-drill-it-sees-as-provocation/article71459171.ece"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/north-korea-fires-multiple-ballistic-missiles-day-after-trilateral-drills-end/a-79242070?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/policy/defense/6085776-north-korea-launches-missiles/"
-          },
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2247894/north-korea-sends-chilling-warning"
-          }
-        ]
-      }
-    },
-    {
       "id": "347643d2952c",
       "title": "Cheong Wa Dae denounces N.K. missile launch as violation of UNSC resolution",
       "description": "South Korea’s presidential office condemned North Korea’s missile launch as a breach of United Nations Security Council resolutions.",
@@ -7545,39 +7583,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/myanmars-min-aung-hlaing-visits-cambodia-seeks-restore-136354958"
-          }
-        ]
-      }
-    },
-    {
-      "id": "68cbb712d5a1",
-      "title": "$15m fund launched to create ‘unstoppable momentum’ to end FGM worldwide",
-      "description": "A new $15 million fund aims to accelerate the global fight against female genital mutilation, targeting 230 million women and girls.",
-      "lat": 41.81,
-      "lng": -74.01,
-      "severity": 1,
-      "location": "New York, United States",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/global-development/2026/sep/11/15m-fund-launched-to-create-unstoppable-momentum-to-end-fgm-worldwide",
-      "image": null,
-      "ts": 1789099204000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/global-development/2026/sep/11/15m-fund-launched-to-create-unstoppable-momentum-to-end-fgm-worldwide"
           }
         ]
       }
