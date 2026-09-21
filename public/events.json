@@ -1,7 +1,177 @@
 {
   "schema": 1,
-  "updated": "2026-09-21T01:36:05.580956+00:00",
+  "updated": "2026-09-21T07:09:22.913247+00:00",
   "events": [
+    {
+      "id": "9ae666995f5c",
+      "title": "Sibur expands polymer supplies to Africa, Southeast Asia",
+      "description": "Sibur plans to export polypropylene from its new Tobolsk facility to markets in Africa and Southeast Asia, boosting trade links.",
+      "lat": 58.2,
+      "lng": 68.25,
+      "severity": 2,
+      "location": "Tobolsk, Russia",
+      "source": "TASS",
+      "url": "https://tass.com/economy/2190433",
+      "image": null,
+      "ts": 1789974484000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/economy/2190433"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bb1a484d0d17",
+      "title": "Chinese President Xi Jinping will pay state visit to US this week, Beijing confirms",
+      "description": "Xi Jinping will make a state visit to the United States, marking his first such trip since 2015, aiming to strengthen bilateral ties.",
+      "lat": 38.9,
+      "lng": -77.04,
+      "severity": 1,
+      "location": "Washington, DC, USA",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3368223/chinese-president-xi-jinping-will-pay-state-visit-us-week-beijing-confirms?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/21/aeadc39a-438e-47e8-939c-20b127509cc8_507c832f.jpg?itok=3acSqieI&v=1789974400",
+      "ts": 1789974403000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/china/diplomacy/article/3368223/chinese-president-xi-jinping-will-pay-state-visit-us-week-beijing-confirms?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "214458261226",
+      "title": "Explosion injures 3 South Korean military officers in border area with North Korea",
+      "description": "A blast near the heavily fortified border injured three South Korean officers, raising tensions on the peninsula.",
+      "lat": 37.55,
+      "lng": 126.58,
+      "severity": 3,
+      "location": "Kaesong, North Korea",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/explosion-injures-3-south-korean-military-officers-border-136611060",
+      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
+      "ts": 1789973483000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/explosion-injures-3-south-korean-military-officers-border-136611060"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9a68878e223a",
+      "title": "UN General Assembly: Wars, geopolitical divides, AI and climate change test global cooperation",
+      "description": "Nearly 130 heads of state gather in New York for the UN General Assembly’s High‑level Week to discuss major global challenges.",
+      "lat": 41.85,
+      "lng": -72.0748,
+      "severity": 2,
+      "location": "New York, USA",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/world/un-general-assembly-wars-geopolitical-divides-ai-climate-change-global-cooperation-6398916",
+      "image": null,
+      "ts": 1789973364000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/world/un-general-assembly-wars-geopolitical-divides-ai-climate-change-global-cooperation-6398916"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eba279eacbc2",
+      "title": "3 South Korean soldiers patrolling demilitarised zone injured in blast",
+      "description": "Three South Korean soldiers were injured by an explosion near the DMZ; cause of the blast is unclear.",
+      "lat": 37.41,
+      "lng": 127.6526,
+      "severity": 3,
+      "location": "Panmunjom, Korea",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/east-asia/3-south-korean-soldiers-patrolling-demilitarised-zone-injured-in-blast",
+      "image": null,
+      "ts": 1789973336000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/09/21/asia-pacific/south-korean-soldiers-dmz-blast/"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/east-asia/3-south-korean-soldiers-patrolling-demilitarised-zone-injured-in-blast"
+          }
+        ]
+      }
+    },
     {
       "id": "c6af07cbd34a",
       "title": "China Rare‑Earth Magnet Exports to US Drop Before Xi‑Trump Meet",
@@ -7413,176 +7583,6 @@
             "n": "South China Morning Post",
             "b": "center",
             "u": "https://www.scmp.com/plus/news/china/diplomacy/article/3367198/xi-india-bank-capital-injections-eu-china-trade?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a55cfb2e7027",
-      "title": "Ebola: Kisangani gets new treatment centre as authorities scale capacity",
-      "description": "Congolese authorities inaugurated a new Ebola treatment centre in Kisangani to boost surveillance and care capacity.",
-      "lat": 0.52,
-      "lng": 25.19,
-      "severity": 1,
-      "location": "Kisangani, Democratic Republic of the Congo",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/09/11/ebola-kisangani-gets-new-treatment-centre-as-authorities-scale-capacity/",
-      "image": "http://images.euronews.com/articles/stories/09/90/87/57/640x360_cmsv2_1db5c0e9-f9da-58fd-a0be-2334aec0dd34-9908757.jpg?1789041661",
-      "ts": 1789116113000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/09/11/ebola-kisangani-gets-new-treatment-centre-as-authorities-scale-capacity/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ad0910a0aca2",
-      "title": "Huge security operation under way ahead of Trump visit",
-      "description": "Irish authorities deployed a massive security operation in preparation for U.S. President Donald Trump's visit to Ireland.",
-      "lat": 53.35,
-      "lng": -6.26,
-      "severity": 3,
-      "location": "Dublin, Ireland",
-      "source": "RTE News",
-      "url": "https://www.rte.ie/news/dublin/2026/0911/1591140-trump-visit-travel-disruption/",
-      "image": "https://www.rte.ie/images/0024fdbf-800.jpg",
-      "ts": 1789116090000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/dublin/2026/0911/1591140-trump-visit-travel-disruption/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b604751a8d7d",
-      "title": "Cuba Lets Private Businesses Charge Customers in US Dollar Cash",
-      "description": "Cuba issued a decree allowing private firms to accept U.S. dollars and euros, marking a partial dollarisation of its economy.",
-      "lat": 24.2136,
-      "lng": -82.3666,
-      "severity": 2,
-      "location": "Havana, Cuba",
-      "source": "Rio Times",
-      "url": "https://www.riotimesonline.com/cuba-private-businesses-us-dollar-cash-2026/",
-      "image": null,
-      "ts": 1789111676000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Rio Times",
-            "b": "center",
-            "u": "https://www.riotimesonline.com/cuba-private-businesses-us-dollar-cash-2026/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "fdb705910050",
-      "title": "Iran’s Araghchi thanks acting Navy Secretary Cao for saying Iran ‘blew the hell out of’ US base in Bahrain",
-      "description": "Iranian officials praised U.S. Navy Secretary Hung Cao’s admission that Iran caused extensive damage to the U.S. naval base in Bahrain.",
-      "lat": 26.23,
-      "lng": 50.58,
-      "severity": 4,
-      "location": "Manama, Bahrain",
-      "source": "Washington Examiner",
-      "url": "https://www.washingtonexaminer.com/news/4723311/araghchi-thanks-cao-for-saying-iran-blew-the-hell-out-of-us-base-in-bahrain/",
-      "image": null,
-      "ts": 1789110704000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/newsletters/defense-national-security/6083326-acting-navy-secretary-says-iran-blew-the-hell-out-of-us-base-in-bahrain/"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/4723311/araghchi-thanks-cao-for-saying-iran-blew-the-hell-out-of-us-base-in-bahrain/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ee99534b2448",
-      "title": "Myanmar's Min Aung Hlaing visits Cambodia as he seeks to restore ASEAN engagement",
-      "description": "Myanmar’s military‑backed leader traveled to Cambodia for talks aimed at re‑engaging with ASEAN.",
-      "lat": 11.55,
-      "lng": 104.92,
-      "severity": 1,
-      "location": "Phnom Penh, Cambodia",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/myanmars-min-aung-hlaing-visits-cambodia-seeks-restore-136354958",
-      "image": "https://s.abcnews.com/images/International/wirestory_42bd2b33be09f3751b191484e6494940_4x3_384.jpg",
-      "ts": 1789108574000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/myanmars-min-aung-hlaing-visits-cambodia-seeks-restore-136354958"
           }
         ]
       }
