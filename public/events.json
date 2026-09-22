@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-09-22T17:44:48.743579+00:00",
+  "updated": "2026-09-22T21:13:47.182352+00:00",
   "events": [
+    {
+      "id": "96045828095d",
+      "title": "Iran submits conditions for reopening of Hormuz to U.S. representative, state media says",
+      "description": "Il ministro degli Esteri iraniano ha presentato a un inviato americano le condizioni per riaprire lo Stretto di Hormuz, includendo la rimozione del blocco navale USA.",
+      "lat": 40.71,
+      "lng": -74.01,
+      "severity": 2,
+      "location": "New York City, United States",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/09/iran-submits-conditions-reopening-hormuz-us-representative-state-media-says",
+      "image": null,
+      "ts": 1790109994000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/09/iran-submits-conditions-reopening-hormuz-us-representative-state-media-says"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c43a1b19d855",
+      "title": "Saudi Arabia’s King Salman slams targeting of Mecca by ‘terrorist’ Houthis",
+      "description": "Il re saudita condanna gli attacchi dei ribelli Houthi contro la città sacra di La Mecca, definendoli atti terroristici.",
+      "lat": 22.52,
+      "lng": 41.7252,
+      "severity": 2,
+      "location": "Mecca, Saudi Arabia",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/22/saudi-king-slams-heinous-targeting-of-mecca-by-terrorist-houthis?traffic_source=rss",
+      "image": null,
+      "ts": 1790108865000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/9/22/saudi-king-slams-heinous-targeting-of-mecca-by-terrorist-houthis?traffic_source=rss"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/saudi-arabia-houthis-yemen-prison-attack-death-toll/article71495239.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8cbcb8ffbaca",
+      "title": "PhonePe secures UAE central bank approval for two payment licences",
+      "description": "L'azienda indiana di pagamenti digitali PhonePe ha ottenuto l'approvazione della Banca Centrale degli Emirati Arabi Uniti per due licenze operative.",
+      "lat": 24.47,
+      "lng": 54.37,
+      "severity": 2,
+      "location": "Abu Dhabi, United Arab Emirates",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/business/phonepe-secures-uae-central-bank-approval-for-two-payment-licences/article71496967.ece",
+      "image": "https://th-i.thgim.com/public/incoming/jxaubg/article71497028.ece/alternates/LANDSCAPE_1200/2026-09-09T142121Z_1835467061_RC2JFNACRLWE_RTRMADP_3_INDIA-FINTECH.JPG",
+      "ts": 1790098333000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/business/phonepe-secures-uae-central-bank-approval-for-two-payment-licences/article71496967.ece"
+          }
+        ]
+      }
+    },
     {
       "id": "904548b5324e",
       "title": "Spain allows US extradition request against pro‑Palestinian donor to proceed",
@@ -95,6 +199,39 @@
       "lat": 9.07,
       "lng": 7.48,
       "severity": 3,
+      "location": "Abuja, Nigeria",
+      "source": "The Africa Report",
+      "url": "https://www.theafricareport.com/431436/nigeria-surprises-markets-with-steep-rate-cut-as-factories-struggle/",
+      "image": null,
+      "ts": 1790089332000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Africa Report",
+            "b": "center",
+            "u": "https://www.theafricareport.com/431436/nigeria-surprises-markets-with-steep-rate-cut-as-factories-struggle/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c568e4f20151",
+      "title": "Nigeria surprises markets with steep rate cut as factories struggle",
+      "description": "La Banca Centrale della Nigeria ha ridotto il tasso di interesse di riferimento di 350 punti base, passando al 23%, per sostenere l'economia.",
+      "lat": 10.72,
+      "lng": 8.432600000000008,
+      "severity": 2,
       "location": "Abuja, Nigeria",
       "source": "The Africa Report",
       "url": "https://www.theafricareport.com/431436/nigeria-surprises-markets-with-steep-rate-cut-as-factories-struggle/",
@@ -7226,143 +7363,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/09/houthis-say-saudi-arabia-launched-over-50-strikes-against-them-24-hours"
-          }
-        ]
-      }
-    },
-    {
-      "id": "663dd2cfda51",
-      "title": "Iran‑backed Houthis tighten grip on key oil shipping lane",
-      "description": "The Houthis increased control over the Bab el‑Mandeb Strait, threatening the flow of oil shipments from the Red Sea.",
-      "lat": 12.5,
-      "lng": 43.0,
-      "severity": 3,
-      "location": "Estrecho de Bab el-Mandeb",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-diesel-price-record-houthis-red-sea/",
-      "image": null,
-      "ts": 1789228536000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/video/iran-backed-houthis-take-control-of-red-sea-coastline-in-yemen-269743173909"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-diesel-price-record-houthis-red-sea/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ae3bce4766c9",
-      "title": "Milei revives strategic naval base at ‘the end of the world’",
-      "description": "Argentine President Javier Milei announced the re‑activation of a naval base in Ushuaia, signalling a tougher stance on regional maritime issues.",
-      "lat": -54.8,
-      "lng": -68.3,
-      "severity": 2,
-      "location": "Ushuaia, Argentina",
-      "source": "Buenos Aires Times",
-      "url": "https://www.batimes.com.ar/news/argentina/milei-revives-strategic-naval-base-at-the-end-of-the-world.phtml",
-      "image": "https://fotos.perfil.com/2026/09/12/trim/540/304/new-naval-base-2324924.jpg",
-      "ts": 1789219278000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Buenos Aires Times",
-            "b": "center",
-            "u": "https://www.batimes.com.ar/news/argentina/milei-revives-strategic-naval-base-at-the-end-of-the-world.phtml"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c22d1e123630",
-      "title": "Trump envoys arrive in Kyiv in new push to end Russia’s war",
-      "description": "Un equipo de alto nivel del presidente estadounidense aterriza en Kiev para discutir una posible solución diplomática al conflicto en Ucrania.",
-      "lat": 51.5501,
-      "lng": 32.42860000000002,
-      "severity": 1,
-      "location": "Kiev, Ucrania",
-      "source": "Japan Times",
-      "url": "https://www.japantimes.co.jp/news/2026/09/12/world/trump-envoys-arrive-in-kyiv/",
-      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/09/06/561535.jpg",
-      "ts": 1789213920000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/09/12/world/trump-envoys-arrive-in-kyiv/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cb6e9e90ab20",
-      "title": "BRICS leaders meet in India as wars and US tensions test the bloc",
-      "description": "Líderes de los países del BRICS se reúnen en Nueva Delhi para firmar acuerdos comerciales y de inversión y reforzar la cooperación estratégica.",
-      "lat": 28.6139,
-      "lng": 77.209,
-      "severity": 2,
-      "location": "Nueva Delhi, India",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/video/20260912-brics-leaders-meet-in-india-as-wars-and-us-tensions-test-the-bloc",
-      "image": "https://s.france24.com/media/display/2290711c-ae8c-11f1-b001-005056a97e36/w:1024/p:16x9/EN-20260912-110058-110409-CS.jpg",
-      "ts": 1789208966000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/video/20260912-brics-leaders-meet-in-india-as-wars-and-us-tensions-test-the-bloc"
           }
         ]
       }
