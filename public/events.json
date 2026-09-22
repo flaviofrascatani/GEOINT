@@ -1,7 +1,126 @@
 {
   "schema": 1,
-  "updated": "2026-09-22T07:39:38.009897+00:00",
+  "updated": "2026-09-22T13:21:59.498384+00:00",
   "events": [
+    {
+      "id": "8c28880c68f1",
+      "title": "Iran's president heads for U.N. summit ahead of possible Trump meeting",
+      "description": "Iranian president travels to New York to defend Tehran’s positions at the United Nations General Assembly.",
+      "lat": 40.75,
+      "lng": -73.98,
+      "severity": 2,
+      "location": "New York City, United States",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-decision-tehran-warns-of-expansion/",
+      "image": null,
+      "ts": 1790082722000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/us-iran-war-trump-decision-tehran-warns-of-expansion/"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/liveblog/2026/9/22/un-general-assembly-live-trump-qatar-emir-to-speak-as-iran-war-dominates?traffic_source=rss"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/09/21/trump-xi-china-summit-trade-tariffs.html"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/09/trump-set-whirlwind-un-meetings-wars-iran-ukraine-agenda"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6d5c3d792dad",
+      "title": "‘Incurable headache’ to enemies: North Korea tests new weapon system",
+      "description": "North Korea conducted a test of a new mobile missile system, heightening regional security tensions.",
+      "lat": 38.9,
+      "lng": -77.04,
+      "severity": 4,
+      "location": "Washington, D.C., USA",
+      "source": "RT News",
+      "url": "https://www.rt.com/news/646075-north-korea-new-missile/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2247894_1.jpg",
+      "ts": 1790069420000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/north-korea-missile-launch-pressure-us/"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/646075-north-korea-new-missile/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "73bc0997852d",
+      "title": "Inside Russia’s industry of forced POW videos",
+      "description": "Investigative report reveals Russia coercing Ukrainian prisoners of war to record propaganda videos denouncing Ukraine.",
+      "lat": 55.75,
+      "lng": 37.620000000000005,
+      "severity": 3,
+      "location": "Moscow, Russia",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/tech/misinformation/russia-ukraine-pow-video-propaganda-rcna598593",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-09/260921-ukranian-pow-cover-2x1-lr-9441c4.jpg",
+      "ts": 1790067642000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/tech/misinformation/russia-ukraine-pow-video-propaganda-rcna598593"
+          }
+        ]
+      }
+    },
     {
       "id": "a99f1b9e603c",
       "title": "U.K. to offer Saudi Arabia aerial refuelling to counter Houthi attacks",
@@ -203,6 +322,39 @@
             "n": "NDTV World",
             "b": "lean_left",
             "u": "https://www.ndtv.com/world-news/6-killed-8-injured-in-saudi-strikes-in-yemen-port-city-report-12078728#publisher=newsstand"
+          }
+        ]
+      }
+    },
+    {
+      "id": "26713df854ac",
+      "title": "Argentina sends eight suspects to trial over AMIA bombing",
+      "description": "Buenos Aires judges formally charged eight Iranian and Lebanese nationals for the 1994 bombing that killed 85 people.",
+      "lat": -33.51,
+      "lng": -58.379999999999995,
+      "severity": 3,
+      "location": "Buenos Aires, Argentina",
+      "source": "Buenos Aires Times",
+      "url": "https://www.batimes.com.ar/news/argentina/argentina-sends-eight-suspects-to-trial-over-amia-bombing.phtml",
+      "image": "https://fotos.perfil.com/2025/07/20/trim/540/304/amia-anniversary-2065164.jpg",
+      "ts": 1790033815000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Buenos Aires Times",
+            "b": "center",
+            "u": "https://www.batimes.com.ar/news/argentina/argentina-sends-eight-suspects-to-trial-over-amia-bombing.phtml"
           }
         ]
       }
@@ -1228,64 +1380,6 @@
             "n": "Washington Examiner",
             "b": "right",
             "u": "https://www.washingtonexaminer.com/news/world/4735071/ukraine-drone-attack-russia-elections/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6d5c3d792dad",
-      "title": "North Korea Launches 2 Ballistic Missiles Toward Sea",
-      "description": "The DPRK conducted a missile launch, sending two ballistic missiles out over the sea in a continued weapons demonstration.",
-      "lat": 38.9,
-      "lng": -77.04,
-      "severity": 3,
-      "location": "Washington, D.C., USA",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/north-korea-launches-2-ballistic-missiles-toward-sea-12073587#publisher=newsstand",
-      "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2247894_1.jpg",
-      "ts": 1789930368000,
-      "coverage": {
-        "left": 4,
-        "center": 1,
-        "right": 1,
-        "total": 6,
-        "buckets": {
-          "left": 0,
-          "lean_left": 4,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/north-korea-fires-short-range-ballistic-missile-sea-136595740"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/north-korea-missile-launch-pressure-us/"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/north-korea-launches-2-ballistic-missiles-toward-sea-12073587#publisher=newsstand"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/north-korea-ballistic-missile-tests-37682291"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EWmlFdUhEQmRGU3MyT3RVVVpNdF9JM0JrRFhsTWhVOUd6YnA1aFZJV3JqX2YzcDlWMWRrNUo0V1ZOcjVMODByMGU3YWNrblQtVzNtMmJycnprSF9GYThnT09jUGZRNFBWWEtyS2ptUDFxVk9CWS1B?oc=5"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/world/4735096/north-korea-ballistic-missile-launch-sea/"
           }
         ]
       }
@@ -7259,105 +7353,6 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/saudi-arabia-tells-trump-time-military-action-iran-backed-houthis-advance"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a3012c8f85f4",
-      "title": "Al‑Qaeda regroups in Afghanistan, 25 years after 9/11",
-      "description": "The terrorist group has re‑established at least eight training sites in Afghanistan under the Taliban’s rule.",
-      "lat": 35.6553,
-      "lng": 69.20749999999998,
-      "severity": 3,
-      "location": "Kabul, Afghanistan",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/09/12/25-years-after-911-al-qaeda-regroups-afghanistan/",
-      "image": null,
-      "ts": 1789203600000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/09/12/25-years-after-911-al-qaeda-regroups-afghanistan/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "31214e71b4ed",
-      "title": "BRICS bloc agrees on joint declaration, sources say",
-      "description": "I leader del BRICS hanno concordato una dichiarazione congiunta che condanna le guerre unilaterali e rafforza la cooperazione del gruppo.",
-      "lat": 28.6139,
-      "lng": 77.209,
-      "severity": 2,
-      "location": "New Delhi, India",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/09/brics-bloc-agrees-joint-declaration-sources-say",
-      "image": null,
-      "ts": 1789202793000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/brics-bloc-agrees-joint-declaration-sources-say"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5c7c4515670e",
-      "title": "Una delegazione russa parteciperà alla riunione del G20 sull'energia",
-      "description": "Il governo russo ha confermato che una delegazione parteciperà al summit G20 sull'energia che si terrà a Houston.",
-      "lat": 29.7604,
-      "lng": -95.3698,
-      "severity": 2,
-      "location": "Houston, USA",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/09/12/una-delegazione-russa-partecipera-alla-riunione-del-g20-sullenergia_cef37133-614b-465b-965e-c7389fbe39df.html",
-      "image": null,
-      "ts": 1789201159000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/nordamerica/2026/09/12/una-delegazione-russa-partecipera-alla-riunione-del-g20-sullenergia_cef37133-614b-465b-965e-c7389fbe39df.html"
           }
         ]
       }
