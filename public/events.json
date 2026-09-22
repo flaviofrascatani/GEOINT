@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-09-22T21:13:47.182352+00:00",
+  "updated": "2026-09-22T23:47:21.698577+00:00",
   "events": [
+    {
+      "id": "923ccc52bd20",
+      "title": "U.S. and Iran officials meet in New York to discuss ending the war",
+      "description": "U.S. envoys and Iranian delegates held a three‑hour meeting on the sidelines of the UN General Assembly, seeking a diplomatic path to end hostilities.",
+      "lat": 40.71,
+      "lng": -74.01,
+      "severity": 2,
+      "location": "New York, United States",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/09/22/unga-iran-us-trump-war",
+      "image": "https://images.axios.com/6lWG5-ea5PyYMHBnn262HLmGChk=/0x0:7170x4033/1366x768/2026/09/22/1790087449264.jpeg",
+      "ts": 1790120563000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/09/22/unga-iran-us-trump-war"
+          }
+        ]
+      }
+    },
+    {
+      "id": "875f5353598c",
+      "title": "Another U.S. Soldier Is Dead as Iran War Casualties Rise",
+      "description": "A further U.S. service member was killed in the ongoing conflict with Iran, bringing U.S. casualties above 850 and underscoring the war's intensity.",
+      "lat": 35.68,
+      "lng": 51.379999999999995,
+      "severity": 4,
+      "location": "Tehran, Iran",
+      "source": "The Intercept",
+      "url": "https://theintercept.com/2026/09/22/iran-war-military-casualties/",
+      "image": "https://theintercept.com/wp-content/uploads/2026/09/AP26245085863295-e1789430014330.jpg?w=440&amp;h=440&amp;crop=1",
+      "ts": 1790110412000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Intercept",
+            "b": "left",
+            "u": "https://theintercept.com/2026/09/22/iran-war-military-casualties/"
+          }
+        ]
+      }
+    },
     {
       "id": "96045828095d",
       "title": "Iran submits conditions for reopening of Hormuz to U.S. representative, state media says",
@@ -69,6 +135,54 @@
             "n": "The Hindu International",
             "b": "lean_left",
             "u": "https://www.thehindu.com/news/international/saudi-arabia-houthis-yemen-prison-attack-death-toll/article71495239.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a22734019ce5",
+      "title": "EU renews Russia sanctions, drops Russian billionaires Usmanov and Fridman",
+      "description": "The European Union extended its sanctions regime against Russia, adding high‑profile oligarchs to the blacklist, further isolating Moscow economically.",
+      "lat": 55.75,
+      "lng": 37.620000000000005,
+      "severity": 3,
+      "location": "Moscow, Russia",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMnhFeHB1dlJzNUFaZkYzM0d3cFNyaDI3bFo3VjJFYW5wc0dhandneXlLVkstbVhfd0REaXJrUmx2TF9tRTd0QzdoTExocDNHSFhwVTlVRkZ6RzhKMU4yckMwNzEzS0xtalhQQl9vSkpBdjRxbUFVczFVc1NEQVJQM3R0NEdaQThjX0owTkdxbUcxb3JuM1c3XzNCVGN4dXV4OTNBeEQ3bURQWGxnRmdaVw?oc=5",
+      "image": null,
+      "ts": 1790098657000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/09/22/alisher-usmanov-russian-uzbek-oligarch-escapes-eu-sanctions-at-france-s-request_6757823_4.html"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/eu-drops-sanctions-for-russian-oligarchs-usmanov-and-fridman/a-79381048?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMnhFeHB1dlJzNUFaZkYzM0d3cFNyaDI3bFo3VjJFYW5wc0dhandneXlLVkstbVhfd0REaXJrUmx2TF9tRTd0QzdoTExocDNHSFhwVTlVRkZ6RzhKMU4yckMwNzEzS0xtalhQQl9vSkpBdjRxbUFVczFVc1NEQVJQM3R0NEdaQThjX0owTkdxbUcxb3JuM1c3XzNCVGN4dXV4OTNBeEQ3bURQWGxnRmdaVw?oc=5"
+          },
+          {
+            "n": "AGI Estero",
+            "b": "center",
+            "u": "https://www.agi.it/estero/news/2026-09-22/sanzioni-ue-russia-39194804/"
           }
         ]
       }
@@ -7249,120 +7363,6 @@
             "n": "ANSA Mondo",
             "b": "center",
             "u": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/13/houthi-colpita-una-base-militare-saudita-con-missili-balistici-e-droni_71ed5ae4-5a31-4905-acc2-7d81e6d514a6.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a83884201060",
-      "title": "Tensione in Yemen: gli Houthi accusano \"129 raid sauditi in 48 ore\"",
-      "description": "Houthi officials claim Saudi air forces carried out 129 raids over Yemen in the past two days, intensifying the conflict.",
-      "lat": 21.4858,
-      "lng": 39.1925,
-      "severity": 3,
-      "location": "Jeddah, Saudi Arabia",
-      "source": "AGI Estero",
-      "url": "https://www.agi.it/estero/news/2026-09-12/yemen-houthi-arabia-saudita-39028195/",
-      "image": "https://images.agi.it/pictures/agi/agi/2026/09/12/213833367-20fde8d2-8286-4059-a299-6fc66d50da49.jpg",
-      "ts": 1789249248000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-09-12/yemen-houthi-arabia-saudita-39028195/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "727db6937e9c",
-      "title": "Explosions heard off Iran's Qeshm Island",
-      "description": "Multiple explosions were reported near Qeshm Island as Iran continues to target oil tankers and regional facilities.",
-      "lat": 25.5474,
-      "lng": 57.150000000000006,
-      "severity": 3,
-      "location": "Larak Island, Iran",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/us-iran-war-explosions-heard-off-the-coast-of-irans-qeshm-island-12038960#publisher=newsstand",
-      "image": "https://mf.b37mrtl.ru/files/2026.08/thumbnail/6a94a11785f54045146f869a.jpg",
-      "ts": 1789239571000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/us-iran-war-explosions-heard-off-the-coast-of-irans-qeshm-island-12038960#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ca4452ee7a90",
-      "title": "Saudi shutdown of key pipeline limits oil flow as Yemen hits back against Houthis",
-      "description": "Saudi Arabia closed a critical oil pipeline after it was struck by drones launched from Iraq, tightening regional oil supplies.",
-      "lat": 25.81,
-      "lng": 46.68000000000001,
-      "severity": 3,
-      "location": "Riyadh, Saudi Arabia",
-      "source": "NBC News World",
-      "url": "https://www.nbcnews.com/world/middle-east/saudi-arabia-shutdown-key-pipeline-limits-oil-flow-yemen-houthis-rcna597362",
-      "image": null,
-      "ts": 1789230360000,
-      "coverage": {
-        "left": 3,
-        "center": 1,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 1,
-          "lean_left": 2,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/middle-east-tensions_n_6aa3d76fe4b0b2af35a60990"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/middle-east/saudi-arabia-shutdown-key-pipeline-limits-oil-flow-yemen-houthis-rcna597362"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/iran-backed-houthis-yemen-claim-new-attacks-saudi-136400892"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/houthis-say-saudi-arabia-launched-over-50-strikes-against-them-24-hours"
           }
         ]
       }
