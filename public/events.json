@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-09-22T23:47:21.698577+00:00",
+  "updated": "2026-09-23T04:38:28.275633+00:00",
   "events": [
+    {
+      "id": "547a8fbb6cd3",
+      "title": "UK makes military pledge to Saudi Arabia",
+      "description": "Britain announced it will deploy an RAF tanker to Saudi Arabia as the conflict with Yemen's Houthis intensifies.",
+      "lat": 24.71,
+      "lng": 48.585199999999986,
+      "severity": 3,
+      "location": "Riyadh, Saudi Arabia",
+      "source": "RT News",
+      "url": "https://www.rt.com/news/646107-uk-saudi-military-support-houthis/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.09/thumbnail/6ab2dad185f54004e14ac84e.jpg",
+      "ts": 1790137981000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/646107-uk-saudi-military-support-houthis/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f4b6cdaa4e2c",
+      "title": "Taiwan to maintain 'close contact' with US on arms sales",
+      "description": "Taiwan's defence ministry said it will keep close communication with the United States to ensure the planned arms sales are implemented.",
+      "lat": 22.99,
+      "lng": 120.21,
+      "severity": 2,
+      "location": "Tainan, Taiwan",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/taiwan-to-maintain-close-contact-with-us-on-arms-sales",
+      "image": null,
+      "ts": 1790137295000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/taiwan-to-maintain-close-contact-with-us-on-arms-sales"
+          }
+        ]
+      }
+    },
     {
       "id": "923ccc52bd20",
       "title": "U.S. and Iran officials meet in New York to discuss ending the war",
@@ -308,11 +374,11 @@
     },
     {
       "id": "9f7ecd44acf9",
-      "title": "Nigeria central bank slashes benchmark interest rate by 350 basis points",
-      "description": "Nigeria's central bank cut its policy rate to 23% to ease monetary conditions as inflation cools.",
+      "title": "Nigeria surprises markets with steep rate cut as factories struggle",
+      "description": "Nigeria's central bank cut its benchmark interest rate by 350 basis points to 23% to ease borrowing costs amid slowing inflation.",
       "lat": 9.07,
       "lng": 7.48,
-      "severity": 3,
+      "severity": 1,
       "location": "Abuja, Nigeria",
       "source": "The Africa Report",
       "url": "https://www.theafricareport.com/431436/nigeria-surprises-markets-with-steep-rate-cut-as-factories-struggle/",
@@ -560,6 +626,54 @@
             "n": "Daily Mail World",
             "b": "right",
             "u": "https://www.dailymail.com/news/article-16147639/Trump-rejected-personal-plea-Saudis-Crown-Prince-Mohammed-bin-Salman-bomb-Houthis-report-claims.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3687c4f04ded",
+      "title": "Burnham expects to find 'common ground' with Trump in first meeting",
+      "description": "Prime Minister Burnham will meet President Trump in New York, aiming to discuss AI and broader cooperation at the UN General Assembly.",
+      "lat": 40.71,
+      "lng": -74.01,
+      "severity": 2,
+      "location": "New York, United States",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cqevwpmvpekeo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9db6/live/f0a69f40-b670-11f1-b711-df5e4d50c2fd.jpg",
+      "ts": 1790057002000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/09/22/world/europe/trump-burnham-meeting-un-us-uk.html"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cqevwpmvpekeo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/09/22/burnham-says-he-raised-the-falklands-with-trump-at-their-first-meeting?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+          },
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2250853/anxious-andy-burnham-vulnerable-stage"
           }
         ]
       }
@@ -7244,125 +7358,6 @@
             "n": "RTE News",
             "b": "center",
             "u": "https://www.rte.ie/news/ireland/2026/0913/1591330-trump-visit-daytwo/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "427727a9c1dd",
-      "title": "BRICS leaders voice concern over Middle East, condemn unilateral sanctions at India summit",
-      "description": "At the BRICS summit in New Delhi, leaders expressed concern about the Middle‑East conflict and criticized unilateral sanctions.",
-      "lat": 28.61,
-      "lng": 77.20999999999998,
-      "severity": 2,
-      "location": "New Delhi, India",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPREdaZmR6TnMxUGFHT280OUlwV1VleHUzc0MzSDc0X2Z6Y3hEdF9aLUZRaVpYNmIwYmtOSGdjWWltTjkyanJhM2NWRUZnMVdnMFJMSVlRMjRuWVZMajVpQ2lOck5McHRYNzJLYmR4R2hkc3M2YzRBTTM2NjlOaHVhcFB0YTZhWkVDVUNpMEZxZDViTjhWWXZGVVhqbFpkR045?oc=5",
-      "image": null,
-      "ts": 1789260360000,
-      "coverage": {
-        "left": 2,
-        "center": 3,
-        "right": 0,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/iran-says-middle-east-doesnt-need-a-regional-policeman-amid-war-with-us-12038522#publisher=newsstand"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/09/12/brics-nations-call-for-maximum-restraint-in-middle-east-war_6757456_4.html"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/brics-summit-leaders-urge-maximum-restraint-in-middle-east/live-79224239?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPREdaZmR6TnMxUGFHT280OUlwV1VleHUzc0MzSDc0X2Z6Y3hEdF9aLUZRaVpYNmIwYmtOSGdjWWltTjkyanJhM2NWRUZnMVdnMFJMSVlRMjRuWVZMajVpQ2lOck5McHRYNzJLYmR4R2hkc3M2YzRBTTM2NjlOaHVhcFB0YTZhWkVDVUNpMEZxZDViTjhWWXZGVVhqbFpkR045?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/xi-urges-brics-peace-role-middle-east-courts-modi-india-visit"
-          }
-        ]
-      }
-    },
-    {
-      "id": "38f9ffa02287",
-      "title": "Modi and Xi agree to look beyond 'differences' at New Delhi talks",
-      "description": "India's Prime Minister Narendra Modi and Chinese President Xi Jinping pledged to move past bilateral differences during talks in New Delhi.",
-      "lat": 28.6139,
-      "lng": 77.209,
-      "severity": 1,
-      "location": "New Delhi, India",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/international-relations/modi-and-xi-agree-to-look-beyond-differences-at-new-delhi-talks",
-      "image": null,
-      "ts": 1789255023880,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Nikkei Asia",
-            "b": "center",
-            "u": "https://asia.nikkei.com/politics/international-relations/modi-and-xi-agree-to-look-beyond-differences-at-new-delhi-talks"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7cc11d123da1",
-      "title": "Houthi, 'colpita una base militare saudita con missili balistici e droni'",
-      "description": "Houthis claimed to have hit a Saudi military base with ballistic missiles and drones, marking a direct strike on Saudi forces.",
-      "lat": 24.71,
-      "lng": 46.68000000000001,
-      "severity": 4,
-      "location": "Riyadh, Saudi Arabia",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/13/houthi-colpita-una-base-militare-saudita-con-missili-balistici-e-droni_71ed5ae4-5a31-4905-acc2-7d81e6d514a6.html",
-      "image": null,
-      "ts": 1789251661000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/09/13/houthi-colpita-una-base-militare-saudita-con-missili-balistici-e-droni_71ed5ae4-5a31-4905-acc2-7d81e6d514a6.html"
           }
         ]
       }
