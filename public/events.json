@@ -1,7 +1,225 @@
 {
   "schema": 1,
-  "updated": "2026-09-23T19:00:32.257445+00:00",
+  "updated": "2026-09-23T22:14:28.983786+00:00",
   "events": [
+    {
+      "id": "1cb73437f3b1",
+      "title": "IDF announces rotation of forces in Syria, West Bank regions amid High Holy Days, terror attacks",
+      "description": "The Israeli Defence Forces began a new deployment cycle, rotating units in Syria’s security zone and the West Bank as terror attacks rise.",
+      "lat": 33.51,
+      "lng": 38.1952,
+      "severity": 3,
+      "location": "Damascus, Syria",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-909495",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_1066,w_1600/739008",
+      "ts": 1790203397000,
+      "coverage": {
+        "left": 3,
+        "center": 1,
+        "right": 1,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/israel-ambassador-leiter-son-west-bank-attack/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/israeli-soldier-injured-in-west-bank-car-ramming-attack-12089000#publisher=newsstand"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/9/23/23-09-sv-israeli-solider-injured-leiter-il?traffic_source=rss"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/israel-news/defense-news/article-909495"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4739987/israeli-ambassador-yechiel-leiter-son-west-bank-injury/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "566612bd1fab",
+      "title": "North Korea conducted test of upgraded rocket launcher system, KCNA says",
+      "description": "North Korea fired an upgraded 240 mm guided multiple‑rocket launcher in a test demonstration of its new artillery capability.",
+      "lat": 40.13,
+      "lng": 125.75,
+      "severity": 3,
+      "location": "Pyongyang, North Korea",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/north-korea-conducted-test-of-upgraded-rocket-launcher-system-kcna-says",
+      "image": null,
+      "ts": 1790201498000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/north-korea-conducted-test-of-upgraded-rocket-launcher-system-kcna-says"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dd65376294be",
+      "title": "Lavrov, Lebanese prime minister discuss developments in Middle East",
+      "description": "Russian Foreign Minister Sergei Lavrov met the Lebanese prime minister to discuss regional issues and reaffirm support for Lebanon’s sovereignty.",
+      "lat": 33.89,
+      "lng": 35.5,
+      "severity": 2,
+      "location": "Beirut, Lebanon",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2191891",
+      "image": null,
+      "ts": 1790201145000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2191891"
+          }
+        ]
+      }
+    },
+    {
+      "id": "042dff74e4a6",
+      "title": "Turkey and Iraq agree Turkey will turn over military camp in northern Iraq",
+      "description": "Turkey and Iraq reached an agreement for Turkish forces to gradually hand over a military camp in northern Iraq to Iraqi authorities.",
+      "lat": 36.19,
+      "lng": 44.01,
+      "severity": 1,
+      "location": "Erbil, Iraq",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/09/turkey-and-iraq-agree-turkey-will-turn-over-military-camp-northern-iraq",
+      "image": null,
+      "ts": 1790199990000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/09/turkey-and-iraq-agree-turkey-will-turn-over-military-camp-northern-iraq"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cce44a79eaa7",
+      "title": "Lavrov: \"Mosca pronta ai negoziati ma la guerra non sarà sospesa\"",
+      "description": "Russian Foreign Minister Sergei Lavrov said Russia is ready for negotiations but will not suspend its war in Ukraine.",
+      "lat": 55.75,
+      "lng": 37.620000000000005,
+      "severity": 3,
+      "location": "Moscow, Russia",
+      "source": "AGI Estero",
+      "url": "https://www.agi.it/estero/news/2026-09-23/russia-guerra-ucraina-lavrov-39211639/",
+      "image": "https://images.agi.it/pictures/agi/agi/2026/09/23/175117717-78972c33-d8fc-49d2-b5b2-73441a4b46f2.jpg",
+      "ts": 1790199195000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "AGI Estero",
+            "b": "center",
+            "u": "https://www.agi.it/estero/news/2026-09-23/russia-guerra-ucraina-lavrov-39211639/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "97269969bdb2",
+      "title": "US Senate Democrats seek sanctions over Israeli settlements, bill says",
+      "description": "US Senate Democrats introduced legislation to impose sanctions on Israel over settlement activities in the occupied territories.",
+      "lat": 31.78,
+      "lng": 35.22,
+      "severity": 3,
+      "location": "Jerusalem, Israel",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVndBSnV3YXhuSXlyX1JLV3dlbm9rRVFHZmg1aWswUGJBZzREb1hYdFJHYjhnU2h4UWwycEJweVpaQ0JWYU1ZVmZlbHNYSXpqMkhITC1DeFdkbFJEWVA5eWg4RFFKNUg2M1lLVkJ4NXhPVHMxb1o2UERSYXZYYjJwWGxwQ1liRXZtTGJmRVNKaWItVGd6dVNvRUtYY1RNYlExakNQVl9tVy0wa1pWX01OdFgxQWMtT1YyVklnYkhqaw?oc=5",
+      "image": null,
+      "ts": 1790197456000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVndBSnV3YXhuSXlyX1JLV3dlbm9rRVFHZmg1aWswUGJBZzREb1hYdFJHYjhnU2h4UWwycEJweVpaQ0JWYU1ZVmZlbHNYSXpqMkhITC1DeFdkbFJEWVA5eWg4RFFKNUg2M1lLVkJ4NXhPVHMxb1o2UERSYXZYYjJwWGxwQ1liRXZtTGJmRVNKaWItVGd6dVNvRUtYY1RNYlExakNQVl9tVy0wa1pWX01OdFgxQWMtT1YyVklnYkhqaw?oc=5"
+          }
+        ]
+      }
+    },
     {
       "id": "4a1a52274e65",
       "title": "France Warns of Wider Russian Threat in UN Face-Off With Lavrov",
@@ -7115,214 +7333,6 @@
             "n": "The Africa Report",
             "b": "center",
             "u": "https://www.theafricareport.com/430432/western-tigray-shifting-alliances-in-ethiopias-most-dangerous-frontier/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "513912e29866",
-      "title": "Preliminary Swedish election results show left bloc narrow lead",
-      "description": "Early counts indicate the left‑wing opposition holds a one‑seat advantage over Prime Minister Ulf Kristersson’s coalition.",
-      "lat": 59.33,
-      "lng": 18.07,
-      "severity": 3,
-      "location": "Stockholm, Sweden",
-      "source": "Sky News World",
-      "url": "https://news.sky.com/story/sweden-election-preliminary-results-show-one-seat-advantage-for-left-wing-bloc-13585683",
-      "image": "https://e3.365dm.com/26/09/1920x1080/skynews-sweden-social-democrats_7351077.jpg?20260914043533",
-      "ts": 1789355160000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/swedish-voters-polls-choose-new-parliament-hard-bids-136400161"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/sweden-election-preliminary-results-show-one-seat-advantage-for-left-wing-bloc-13585683"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1eb649554ef0",
-      "title": "U.S. Air Force colonel recounts being shot down over Iran",
-      "description": "A U.S. colonel survived after his F‑15E fighter was downed by Iranian forces during the ongoing conflict.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "The Hill",
-      "url": "https://thehill.com/policy/defense/6087347-usaf-colonel-survives-iran-crash/",
-      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/04/Quiz-war-powers_101709_AP_Maya-Allerruzzo.jpg?w=900",
-      "ts": 1789350228000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/policy/defense/6087347-usaf-colonel-survives-iran-crash/"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObFFucjM5NU9vaUJObkFteWRGLS1rMWIxT0g3NVA2bHBOYzdZdXBJNVpwaE5vaDVyZ2RRY09TMjVBWFZsUU9wNThoNVNkazZLeWVuLVc0MWNzQmR6SHFZcTBIRkpCUFBLdjQ2cjI0OERGV3JadzdVc19JN1o3Z1NnaURZc2hVbVpOcWlwUVlGaUg0Q18tUUNpd3ByaDZCS0RWMUhj?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f859b5507ea7",
-      "title": "Houthis seize Perim Island in Bab el‑Mandeb Strait",
-      "description": "Yemeni Houthi rebels captured Perim Island, a strategic point in the Bab el‑Mandeb Strait, raising concerns over Red Sea shipping security.",
-      "lat": 12.5,
-      "lng": 43.0,
-      "severity": 3,
-      "location": "Bab el‑Mandeb Strait, Yemen",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/houthis-enter-us-kill-box-after-seizing-red-sea-cork-former-pentagon-official-warns",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/houthis-perim-island.jpg?ve=1&tl=1",
-      "ts": 1789339962000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/09/13/thousands-forced-to-flee-as-houthis-advance-on-bab-el-mandeb-strait/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a0e1afd2e158",
-      "title": "Three shot dead, 15 wounded ahead of polls in Philippine Muslim enclave",
-      "description": "Armed clash in Cotabato City left three dead and fifteen injured as rival factions vied for voting priority.",
-      "lat": 7.22,
-      "lng": 124.25,
-      "severity": 3,
-      "location": "Cotabato City, Philippines",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/se-asia/three-shot-dead-15-wounded-ahead-of-polls-in-philippine-muslim-enclave",
-      "image": null,
-      "ts": 1789336926000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/se-asia/three-shot-dead-15-wounded-ahead-of-polls-in-philippine-muslim-enclave"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a5ad58f41b1e",
-      "title": "Over 80,000 displaced in Yemen as fighting intensifies amid new Houthi push",
-      "description": "Intensified Houthi offensives have forced more than 80,000 people from their homes in Yemen.",
-      "lat": 17.0,
-      "lng": 45.1626,
-      "severity": 3,
-      "location": "Sana'a, Yemen",
-      "source": "RT News",
-      "url": "https://www.rt.com/news/645663-yemens-houthis-new-push/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.09/thumbnail/6aa713c585f5405d0504c920.png",
-      "ts": 1789334541000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/645663-yemens-houthis-new-push/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f558cf709db8",
-      "title": "Sao Paulo‑Cape Town flight: LATAM’s three weekly nonstops mean for expats in South Africa",
-      "description": "LATAM launched a nonstop service linking Sao Paulo and Cape Town, enhancing trade and travel between Brazil and South Africa.",
-      "lat": -23.55,
-      "lng": -46.64,
-      "severity": 2,
-      "location": "São Paulo, Brazil",
-      "source": "Rio Times",
-      "url": "https://www.riotimesonline.com/sao-paulo-cape-town-flight-latam-schedule-expats-2026/",
-      "image": null,
-      "ts": 1789332840000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Rio Times",
-            "b": "center",
-            "u": "https://www.riotimesonline.com/sao-paulo-cape-town-flight-latam-schedule-expats-2026/"
           }
         ]
       }
