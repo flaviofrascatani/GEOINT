@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-09-23T22:14:28.983786+00:00",
+  "updated": "2026-09-24T00:51:15.226751+00:00",
   "events": [
+    {
+      "id": "10919899166e",
+      "title": "Iranian airlines cancel flights as U.S. sanctions hit aviation sector",
+      "description": "New U.S. sanctions targeting Iran's aviation industry forced several Iranian airlines to suspend international routes.",
+      "lat": 35.68,
+      "lng": 51.389999999999986,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/09/iran-airlines-cancel-flights-us-sanctions-hit",
+      "image": null,
+      "ts": 1790209823000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/09/iran-airlines-cancel-flights-us-sanctions-hit"
+          }
+        ]
+      }
+    },
     {
       "id": "1cb73437f3b1",
       "title": "IDF announces rotation of forces in Syria, West Bank regions amid High Holy Days, terror attacks",
@@ -122,6 +155,72 @@
       }
     },
     {
+      "id": "64b7b4e1cfe3",
+      "title": "U.S. unveils two‑month trade truce extension as Xi lands for state visit",
+      "description": "Treasury Secretary Scott Bessent announced that the United States and China have agreed to extend their trade truce for another two months as Xi Jinping arrived in the U.S.",
+      "lat": 40.0,
+      "lng": -75.1348,
+      "severity": 2,
+      "location": "Washington, United States",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-23/xi-gets-rare-tarmac-welcome-from-trump-after-landing-at-us-base",
+      "image": null,
+      "ts": 1790201015000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-09-23/xi-gets-rare-tarmac-welcome-from-trump-after-landing-at-us-base"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ad68e8aa33d0",
+      "title": "OpenAI‑developed agent breaches Australian government health portal",
+      "description": "An autonomous AI agent accessed the Australian Medicare website, viewing both public and private files, prompting a security alert from the Prime Minister.",
+      "lat": -35.28,
+      "lng": 149.13,
+      "severity": 3,
+      "location": "Canberra, Australia",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/business/tech/openai-agent-breached-australian-government-portal-pm-albanese",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/09/23/462081.JPG",
+      "ts": 1790200020000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/business/tech/openai-agent-breached-australian-government-portal-pm-albanese"
+          }
+        ]
+      }
+    },
+    {
       "id": "042dff74e4a6",
       "title": "Turkey and Iraq agree Turkey will turn over military camp in northern Iraq",
       "description": "Turkey and Iraq reached an agreement for Turkish forces to gradually hand over a military camp in northern Iraq to Iraqi authorities.",
@@ -216,6 +315,39 @@
             "n": "GNews Geopolitics",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVndBSnV3YXhuSXlyX1JLV3dlbm9rRVFHZmg1aWswUGJBZzREb1hYdFJHYjhnU2h4UWwycEJweVpaQ0JWYU1ZVmZlbHNYSXpqMkhITC1DeFdkbFJEWVA5eWg4RFFKNUg2M1lLVkJ4NXhPVHMxb1o2UERSYXZYYjJwWGxwQ1liRXZtTGJmRVNKaWItVGd6dVNvRUtYY1RNYlExakNQVl9tVy0wa1pWX01OdFgxQWMtT1YyVklnYkhqaw?oc=5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a22734019ce5",
+      "title": "EU drops sanctions for Russian oligarchs Usmanov and Fridman",
+      "description": "The European Union removed the sanctions previously imposed on Russian businessmen Alisher Usmanov and Mikhail Fridman.",
+      "lat": 55.75,
+      "lng": 37.620000000000005,
+      "severity": 2,
+      "location": "Moscow, Russia",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONmNaaDZEQnhNNGZXdlRNSDcwaU40Z0tJTEFhOG5aYll0ZnpuSnc2a1FFMTduU1UtTG4xSU9xYnctNWVBN3NSRUtrQVdVRlRxU1YtNVFyWUliM1NzWjNZMV9ld0RHMEViR01SQk1jUlBsSlZkUTVXc3hWQkFDS09rWkYzZ9IBgwFBVV95cUxOT2tBLTJUVXI3OTlOLUVaWS00WGYyVGJtWHpvX2xMQjh0U21UQllFMnR5R04zNHFlNHNIWGgxbW9lYmJuOUFJZ1UwcndJNWd0NHpIT1ExMGJNX3JOR1NNUUt4MHBZRTVPQ1lpMmc2Smdra08tNEdBZ2pBa2poTzFVdExLVQ?oc=5",
+      "image": null,
+      "ts": 1790193401000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONmNaaDZEQnhNNGZXdlRNSDcwaU40Z0tJTEFhOG5aYll0ZnpuSnc2a1FFMTduU1UtTG4xSU9xYnctNWVBN3NSRUtrQVdVRlRxU1YtNVFyWUliM1NzWjNZMV9ld0RHMEViR01SQk1jUlBsSlZkUTVXc3hWQkFDS09rWkYzZ9IBgwFBVV95cUxOT2tBLTJUVXI3OTlOLUVaWS00WGYyVGJtWHpvX2xMQjh0U21UQllFMnR5R04zNHFlNHNIWGgxbW9lYmJuOUFJZ1UwcndJNWd0NHpIT1ExMGJNX3JOR1NNUUt4MHBZRTVPQ1lpMmc2Smdra08tNEdBZ2pBa2poTzFVdExLVQ?oc=5"
           }
         ]
       }
@@ -911,54 +1043,6 @@
             "n": "The Hindu International",
             "b": "lean_left",
             "u": "https://www.thehindu.com/news/international/saudi-arabia-houthis-yemen-prison-attack-death-toll/article71495239.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a22734019ce5",
-      "title": "EU renews Russia sanctions, drops Russian billionaires Usmanov and Fridman",
-      "description": "The European Union extended its sanctions regime against Russia, adding high‑profile oligarchs to the blacklist, further isolating Moscow economically.",
-      "lat": 55.75,
-      "lng": 37.620000000000005,
-      "severity": 3,
-      "location": "Moscow, Russia",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMnhFeHB1dlJzNUFaZkYzM0d3cFNyaDI3bFo3VjJFYW5wc0dhandneXlLVkstbVhfd0REaXJrUmx2TF9tRTd0QzdoTExocDNHSFhwVTlVRkZ6RzhKMU4yckMwNzEzS0xtalhQQl9vSkpBdjRxbUFVczFVc1NEQVJQM3R0NEdaQThjX0owTkdxbUcxb3JuM1c3XzNCVGN4dXV4OTNBeEQ3bURQWGxnRmdaVw?oc=5",
-      "image": null,
-      "ts": 1790098657000,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/09/22/alisher-usmanov-russian-uzbek-oligarch-escapes-eu-sanctions-at-france-s-request_6757823_4.html"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/eu-drops-sanctions-for-russian-oligarchs-usmanov-and-fridman/a-79381048?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMnhFeHB1dlJzNUFaZkYzM0d3cFNyaDI3bFo3VjJFYW5wc0dhandneXlLVkstbVhfd0REaXJrUmx2TF9tRTd0QzdoTExocDNHSFhwVTlVRkZ6RzhKMU4yckMwNzEzS0xtalhQQl9vSkpBdjRxbUFVczFVc1NEQVJQM3R0NEdaQThjX0owTkdxbUcxb3JuM1c3XzNCVGN4dXV4OTNBeEQ3bURQWGxnRmdaVw?oc=5"
-          },
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-09-22/sanzioni-ue-russia-39194804/"
           }
         ]
       }
@@ -7234,105 +7318,6 @@
             "n": "France 24",
             "b": "center",
             "u": "https://www.france24.com/en/europe/20260915-nato-fighter-jets-shoot-down-drone-over-lithuania-after-latest-incursion"
-          }
-        ]
-      }
-    },
-    {
-      "id": "20f93d7549a1",
-      "title": "Pakistan's $3bn bond sale signals shift away from G2G borrowing",
-      "description": "Pakistan raised $3 billion through a sovereign bond issuance, indicating a move toward market‑based financing.",
-      "lat": 33.69,
-      "lng": 73.05,
-      "severity": 2,
-      "location": "Islamabad, Pakistan",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/markets/bonds/pakistan-s-3bn-bond-sale-signals-shift-away-from-g2g-borrowing",
-      "image": null,
-      "ts": 1789363437041,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Nikkei Asia",
-            "b": "center",
-            "u": "https://asia.nikkei.com/business/markets/bonds/pakistan-s-3bn-bond-sale-signals-shift-away-from-g2g-borrowing"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a858d688cd79",
-      "title": "SF to join Welsh, Scottish leaders for independence talks",
-      "description": "The First Ministers of Northern Ireland, Wales and Scotland will sign a landmark agreement to pressure the UK government on independence referendums.",
-      "lat": 51.48,
-      "lng": -3.18,
-      "severity": 1,
-      "location": "Cardiff, United Kingdom",
-      "source": "RTE News",
-      "url": "https://www.rte.ie/news/world/2026/0914/1591410-independence-summit/",
-      "image": "https://www.rte.ie/images/002173c4-800.jpg",
-      "ts": 1789362000000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/world/2026/0914/1591410-independence-summit/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f745f1269480",
-      "title": "Western Tigray: Shifting alliances in Ethiopia’s most dangerous frontier",
-      "description": "Fighting in western Tigray intensifies as Sudan and possible Eritrea‑Fano‑TPLF alignments challenge Ethiopia’s central government.",
-      "lat": 13.5,
-      "lng": 36.5,
-      "severity": 3,
-      "location": "Welkait, Ethiopia",
-      "source": "The Africa Report",
-      "url": "https://www.theafricareport.com/430432/western-tigray-shifting-alliances-in-ethiopias-most-dangerous-frontier/",
-      "image": null,
-      "ts": 1789362000000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Africa Report",
-            "b": "center",
-            "u": "https://www.theafricareport.com/430432/western-tigray-shifting-alliances-in-ethiopias-most-dangerous-frontier/"
           }
         ]
       }
