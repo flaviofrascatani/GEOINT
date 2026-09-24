@@ -1,7 +1,116 @@
 {
   "schema": 1,
-  "updated": "2026-09-24T17:04:37.221686+00:00",
+  "updated": "2026-09-24T20:27:14.261966+00:00",
   "events": [
+    {
+      "id": "66bd5e33485e",
+      "title": "Houthis claim strikes on target in Riyadh, Saudi Aramco facilities in Yanbu",
+      "description": "Yemeni Houthi forces said they hit Saudi Arabian targets in Riyadh and at Aramco facilities near Yanbu.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 3,
+      "location": "Strait of Hormuz",
+      "source": "TASS",
+      "url": "https://tass.com/world/2192453",
+      "image": null,
+      "ts": 1790281285000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-909637"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-09-24/saudi-arabia-intercepts-houthi-missiles-fired-at-cities"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2192453"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0b13675330c6",
+      "title": "Foreign leader on Putin’s doorstep sounds alarm over Iran fueling Moscow’s war machine",
+      "description": "Latvian President Edgars Rinkēvičs warned that Iran’s drone technology is supporting Russia’s war in Ukraine and said Latvia will join a coalition in the Strait of Hormuz.",
+      "lat": 55.75,
+      "lng": 39.525199999999984,
+      "severity": 2,
+      "location": "Moscow, Russia",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/foreign-leader-putins-doorstep-sounds-alarm-iran-fueling-moscows-war-machine",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/iran-russia-drills-hormuz-optimized-1.jpg?ve=1&tl=1",
+      "ts": 1790276436000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/foreign-leader-putins-doorstep-sounds-alarm-iran-fueling-moscows-war-machine"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5e02d73c4252",
+      "title": "No More ‘Trump Avenue’: Canada’s Capital Moves to Rename Street Amid Tense Trade War",
+      "description": "Ottawa plans to rename a street that bears Donald Trump’s name as tensions rise in the Canada‑U.S. trade dispute.",
+      "lat": 46.52,
+      "lng": -75.7,
+      "severity": 2,
+      "location": "Ottawa, Canada",
+      "source": "Time",
+      "url": "https://time.com/article/2026/09/24/canada-cuts-trump-avenue-street-name-ottawa-trade-war-carney-alliances/",
+      "image": "https://static.time.com/v3/assets/bltea6093859af6183b/blt6baeb3c2d73de8cf/6ab56b7344523f64bab9238f/GettyImages-2281267274.jpg?branch=production",
+      "ts": 1790274470000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/09/24/canada-cuts-trump-avenue-street-name-ottawa-trade-war-carney-alliances/"
+          }
+        ]
+      }
+    },
     {
       "id": "f07c531d77cd",
       "title": "Israel ready to resume strikes on Iran as regime aims to rebuild nuclear program",
@@ -31,6 +140,39 @@
             "n": "Jerusalem Post",
             "b": "center",
             "u": "https://www.jpost.com/middle-east/iran-news/article-909607"
+          }
+        ]
+      }
+    },
+    {
+      "id": "47ea071acf95",
+      "title": "Twelve Kazakhstan military personnel die after being washed out to sea during exercises",
+      "description": "A naval training drill off Kazakhstan’s coast resulted in twelve servicemen being swept into the Caspian Sea and drowning.",
+      "lat": 44.5,
+      "lng": 51.0,
+      "severity": 3,
+      "location": "Caspian Sea, Kazakhstan",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/twelve-kazakh-military-personnel-die-after-being-washed-out-to-sea-during-exercises",
+      "image": null,
+      "ts": 1790269900000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/twelve-kazakh-military-personnel-die-after-being-washed-out-to-sea-during-exercises"
           }
         ]
       }
@@ -97,6 +239,49 @@
             "n": "The Africa Report",
             "b": "center",
             "u": "https://www.theafricareport.com/431708/dangote-bets-660m-on-a-fuel-pipeline-into-ethiopia/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8460e32a2f23",
+      "title": "Dozens of envoys at UN walk out of Netanyahu speech",
+      "description": "Diplomats from multiple countries left the UN General Assembly hall in protest of Israeli Prime Minister Benjamin Netanyahu’s remarks.",
+      "lat": 40.75,
+      "lng": -73.98,
+      "severity": 3,
+      "location": "New York, United States",
+      "source": "RTE News",
+      "url": "https://www.rte.ie/news/politics/2026/0924/1592839-un-netanyahu-israel-walkout/",
+      "image": "https://www.rte.ie/images/002510bc-800.jpg",
+      "ts": 1790260281000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/9/24/delegates-walk-out-of-netanyahus-un-speech?traffic_source=rss"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/09/24/dozens-of-un-envoys-walk-out-of-israeli-pm-netanyahu-s-speech_6757912_4.html"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/politics/2026/0924/1592839-un-netanyahu-israel-walkout/"
           }
         ]
       }
@@ -234,6 +419,39 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/mid-east/saudi-arabia-issues-then-lifts-likely-missile-alert-for-mecca"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7fc8aedef7ed",
+      "title": "UK replies to Milei: “not the behaviour we expect of a democracy”",
+      "description": "The United Kingdom demanded a written statement from Argentina after President Javier Milei’s address at the UN, criticizing his remarks as undemocratic.",
+      "lat": -33.5,
+      "lng": -56.4748,
+      "severity": 3,
+      "location": "Buenos Aires, Argentina",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/09/24/uk-replies-to-milei-not-the-behaviour-we-expect-of-a-democracy?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": "https://en.mercopress.com/data/cache/noticias/111560/100x80/2jmm.jpg",
+      "ts": 1790247540000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/09/24/uk-replies-to-milei-not-the-behaviour-we-expect-of-a-democracy?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
           }
         ]
       }
@@ -2143,59 +2361,6 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/09/21/egypt-compensation-paid-to-familt-of-shaimaa-al-sabbagh/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "66bd5e33485e",
-      "title": "Trump calls off planned US strikes on Houthis at last minute after Saudi plea - report",
-      "description": "U.S. cancelled a planned airstrike against Houthi targets in Yemen after Saudi Crown Prince Mohammed bin Salman asked for restraint.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 1,
-      "location": "Strait of Hormuz",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/international/article-909202",
-      "image": null,
-      "ts": 1790021435000,
-      "coverage": {
-        "left": 0,
-        "center": 4,
-        "right": 1,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 4,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/09/21/trump-houthis-yemen-saudi-bin-salman"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/international/article-909202"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTjlZVF83amhsMWNiQjBfMGJTRlBqT1laZUN0NHBPU1lveU91YWxiTF95Qnkzc0ZSVE1SSXg0bFB1aXBJVG42YlkwakFESXV4OWF2YU53NHk2MC16Rk95WXhaTEVTeUEzMmhUZV8tRURvZ2hGeDlyb0ltUjZRbjIxbnQwVHRFejN0VkppeGZjR1lES2ptQ3M3WjZiaEk3eUNHc3FGVTZVcG1rQXFqcU9STlZ0OXlPS3dTb2JxS3dlWQ?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/houthis-push-control-yemen-highlands-trump-said-have-called-strikes"
-          },
-          {
-            "n": "Daily Mail World",
-            "b": "right",
-            "u": "https://www.dailymail.com/news/article-16147639/Trump-rejected-personal-plea-Saudis-Crown-Prince-Mohammed-bin-Salman-bomb-Houthis-report-claims.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
           }
         ]
       }
@@ -7103,186 +7268,6 @@
             "n": "Egypt Independent",
             "b": "center",
             "u": "https://www.egyptindependent.com/egypt-singapore-explore-means-to-expand-cooperation/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a48417a4e2e9",
-      "title": "Ukraine Hits Russia Refinery Despite Trump’s Energy-Truce Claim",
-      "description": "Ukrainian forces struck the Syzran oil refinery in Russia’s Volga region, damaging critical infrastructure.",
-      "lat": 53.16,
-      "lng": 48.48,
-      "severity": 3,
-      "location": "Syzran, Russia",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-15/ukraine-hits-russia-refinery-despite-trump-s-energy-truce-claim",
-      "image": null,
-      "ts": 1789464938000,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/ukraine-defies-trump-russian-oil-37663209"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/trump-calls-ukraine-stop-hitting-russian-oil-refineries-price-diesel-skyrockets-3807414"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-09-15/ukraine-hits-russia-refinery-despite-trump-s-energy-truce-claim"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/trump-says-ukraine-and-russia-agreed-to-stop-targeting-energy-sites-but-kyiv-calls-it-a-proposal-for-a-mutual-halt/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9055e956eea5",
-      "title": "It’s Boom Time in Kyrgyzstan, Courtesy in Part of the War in Ukraine",
-      "description": "Kyrgyzstan’s economy grew 11 % last year, boosted by its role as a conduit for goods flowing into Russia amid the Ukraine war.",
-      "lat": 42.87,
-      "lng": 74.59,
-      "severity": 2,
-      "location": "Bishkek, Kyrgyzstan",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/09/15/world/asia/kyrgyzstan-economy-russia-war.html",
-      "image": "https://static01.nyt.com/images/2026/08/10/multimedia/10int-kyrgyzstan-economy-01-cbjk/10int-kyrgyzstan-economy-01-cbjk-mediumSquareAt3X.jpg",
-      "ts": 1789463609000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/09/15/world/asia/kyrgyzstan-economy-russia-war.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "172bd7886621",
-      "title": "It’s Boom Time in Kyrgyzstan, Courtesy in Part of the War in Ukraine",
-      "description": "La economía de Kirguistán creció un 11 % el año pasado, impulsada en parte por su papel como corredor de mercancías hacia Rusia.",
-      "lat": 43.97,
-      "lng": 74.59,
-      "severity": 2,
-      "location": "Biskek, Kirguistán",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/09/15/world/asia/kyrgyzstan-economy-russia-war.html",
-      "image": "https://static01.nyt.com/images/2026/08/10/multimedia/10int-kyrgyzstan-economy-01-cbjk/10int-kyrgyzstan-economy-01-cbjk-mediumSquareAt3X.jpg",
-      "ts": 1789463609000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/09/15/world/asia/kyrgyzstan-economy-russia-war.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "eeea1fe8dfc8",
-      "title": "NATO jets shoot down drone over Lithuania",
-      "description": "Lithuanian air defence shot down an unauthorised drone that was suspected to have come from Belarus.",
-      "lat": 55.78,
-      "lng": 25.28,
-      "severity": 1,
-      "location": "Vilnius, Lithuania",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/nato-jets-shoot-down-drone-over-lithuania/a-79267975?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1789447622070,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/nato-jets-shoot-down-drone-over-lithuania/a-79267975?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6a503b544023",
-      "title": "Ebola outbreak in DRC has peaked, say authorities, as infection rates slow",
-      "description": "Health officials report that the Ebola epidemic in the Democratic Republic of the Congo is declining after more than 3,000 deaths.",
-      "lat": 0.78,
-      "lng": 30.03,
-      "severity": 3,
-      "location": "Bundibugyo, Democratic Republic of Congo",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/global-development/2026/sep/15/ebola-outbreak-in-drc-has-peaked-say-authorities-as-infection-rates-slow",
-      "image": null,
-      "ts": 1789444826000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/global-development/2026/sep/15/ebola-outbreak-in-drc-has-peaked-say-authorities-as-infection-rates-slow"
           }
         ]
       }
