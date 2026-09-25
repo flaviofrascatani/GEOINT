@@ -1,7 +1,45 @@
 {
   "schema": 1,
-  "updated": "2026-09-24T23:24:38.615113+00:00",
+  "updated": "2026-09-25T01:52:13.510956+00:00",
   "events": [
+    {
+      "id": "7ac73d6662f6",
+      "title": "Iran offers Trump deal before US elections",
+      "description": "Tehran proposes a new agreement to the United States aimed at ending months‑long conflicts ahead of the November vote.",
+      "lat": 36.79,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "RT News",
+      "url": "https://www.rt.com/news/646221-iran-us-deal-elections/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.09/thumbnail/6ab5cc4c85f54031bc765cf0.jpg",
+      "ts": 1790300210000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/09/us-senate-rejects-resolution-curbing-trumps-iran-war-powers"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/646221-iran-us-deal-elections/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
     {
       "id": "7492939f4be6",
       "title": "Macron to send French troops to Saudi Arabia",
@@ -79,6 +117,82 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/world/2192473"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b674c87ed7ee",
+      "title": "U.S. pledges an additional $267 million to contain fast-spreading Ebola",
+      "description": "The United States announces extra funding to expand treatment units, safe burials and containment programs for Ebola.",
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "severity": 1,
+      "location": "Washington, United States",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/09/24/us-pledges-an-additional-267-million-contain-fast-spreading-ebola/",
+      "image": null,
+      "ts": 1790285154000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/09/24/us-pledges-an-additional-267-million-contain-fast-spreading-ebola/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "89d2a0543996",
+      "title": "Trump and Xi meet, but hopes for AI cooperation stay slim",
+      "description": "US President Donald Trump hosts Chinese President Xi Jinping at the White House for a state dinner and talks in the Oval Office.",
+      "lat": 38.8977,
+      "lng": -75.1313,
+      "severity": 2,
+      "location": "Washington, United States",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/tv-shows/a-propos/20260924-trump-and-xi-meet-but-hopes-for-ai-cooperation-stay-slim",
+      "image": "https://s.france24.com/media/display/1c3e4596-b814-11f1-bfbf-0fb9a8008200/w:1024/p:16x9/2026-09-23T225034Z-690498338-RC2APNA2RVRP-RTRMADP-3-USA-CHINA.jpg",
+      "ts": 1790283888000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/9/24/trump-and-xi-hold-critical-talks-at-white-house-summit?traffic_source=rss"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/09/25/heres-who-is-attending-the-trump-xi-state-dinner.html"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/tv-shows/a-propos/20260924-trump-and-xi-meet-but-hopes-for-ai-cooperation-stay-slim"
           }
         ]
       }
@@ -259,6 +373,39 @@
       }
     },
     {
+      "id": "a5b8bae8bc9c",
+      "title": "Palestinian President Addresses UN Leaders On Prerecorded Video After Being Denied Visa",
+      "description": "Mahmoud Abbas delivers a prerecorded speech from Ramallah condemning Israel’s targeting of basic necessities.",
+      "lat": 32.8526,
+      "lng": 35.75,
+      "severity": 3,
+      "location": "Ramallah, Palestine",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/palestinian-president-addresses-un-general-assembly-visa-denied_n_6ab540b0e4b0bad9a645d48a",
+      "image": null,
+      "ts": 1790263943000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/palestinian-president-addresses-un-general-assembly-visa-denied_n_6ab540b0e4b0bad9a645d48a"
+          }
+        ]
+      }
+    },
+    {
       "id": "c9ef65b8a76a",
       "title": "Rebel offensive against Ethiopian army stokes fears of return to civil war",
       "description": "Tigrayan rebels launch a new offensive, raising concerns of a renewed civil war in Ethiopia.",
@@ -294,10 +441,10 @@
     {
       "id": "52f1f827c136",
       "title": "Dangote bets $660m on a fuel pipeline into Ethiopia",
-      "description": "Aliko Dangote invests $660 million to build a 120 km pipeline from Djibouti to Ethiopia to lower fuel costs.",
+      "description": "Aliko Dangote invests $660 million in a 120 km fuel pipeline from Djibouti to Dewele, Ethiopia, to lower fuel costs and delays.",
       "lat": 11.58,
       "lng": 43.15,
-      "severity": 2,
+      "severity": 1,
       "location": "Djibouti, Djibouti",
       "source": "The Africa Report",
       "url": "https://www.theafricareport.com/431708/dangote-bets-660m-on-a-fuel-pipeline-into-ethiopia/",
@@ -7151,138 +7298,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/business/energy/libya-halts-operations-at-3-oil-sites-after-pipeline-shutdown"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8132d9a00c2e",
-      "title": "Ten‑year Treasury yield hits highest level since 2007",
-      "description": "U.S. benchmark 10‑year Treasury yield rose to 5.04%, reflecting concerns over inflation and higher interest rates worldwide.",
-      "lat": 39.9951,
-      "lng": -77.0364,
-      "severity": 2,
-      "location": "Washington, D.C., United States",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/5e2327aa-dbd0-4a79-8c99-622a893876d7?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1789496033000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/5e2327aa-dbd0-4a79-8c99-622a893876d7?syn-25a6b1a6=1"
-          }
-        ]
-      }
-    },
-    {
-      "id": "61f4958e40b7",
-      "title": "Iran's regime came for teenage twins. Their fate offers a glimpse of Tehran's widening death campaign",
-      "description": "Twin sisters Taraneh and Romina Rahimi were sentenced to execution and long prison terms for their participation in anti‑government protests.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/irans-regime-came-teenage-twins-fate-offers-glimpse-tehrans-widening-death-campaign",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/sisters-Rahimi-Iran-Protesters.jpg?ve=1&tl=1",
-      "ts": 1789485438000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/irans-regime-came-teenage-twins-fate-offers-glimpse-tehrans-widening-death-campaign"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4e661b13c10e",
-      "title": "Starlink suspended in Senegal over breach of licensing rules",
-      "description": "SpaceX’s Starlink service was temporarily halted in Senegal due to alleged violations of local licensing regulations.",
-      "lat": 15.79,
-      "lng": -17.439999999999998,
-      "severity": 3,
-      "location": "Dakar, Senegal",
-      "source": "The Africa Report",
-      "url": "https://www.theafricareport.com/430751/starlink-suspended-in-senegal-over-breach-of-licensing-rules/",
-      "image": null,
-      "ts": 1789477200000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Africa Report",
-            "b": "center",
-            "u": "https://www.theafricareport.com/430751/starlink-suspended-in-senegal-over-breach-of-licensing-rules/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b2b0945c046a",
-      "title": "Denmark accuses Moscow warship of firing flares ‘within metres’ of military helicopter",
-      "description": "During the Ukraine‑Russia war, a Danish source reported a Russian warship launched flares close to a Danish‑operated military helicopter.",
-      "lat": 55.75,
-      "lng": 37.62,
-      "severity": 3,
-      "location": "Moscow, Russia",
-      "source": "Google News Top",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQmhmakVSTFNjMldBLW5SbDE0UUprY0k3WTVRTkVYRFRWY2JvcGJGWFlWUGhmYVlEZ0l1LUFjV1NYMUpvS2dsMXYteVJ4RkNLdGFna1ZBaFlRWVJ0WkFWd1RNRUsteDJ1RWtxUF9WU1ZBLXNZelBKRHpZU19vMGdYTHlHVzFQNHc4NWxuTm1OSDZxSU9UNWxsSkJ1SGpjRnhhOXZEVlY1QUlvRmVNcE5vTDZQSQ?oc=5",
-      "image": null,
-      "ts": 1789476302000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQmhmakVSTFNjMldBLW5SbDE0UUprY0k3WTVRTkVYRFRWY2JvcGJGWFlWUGhmYVlEZ0l1LUFjV1NYMUpvS2dsMXYteVJ4RkNLdGFna1ZBaFlRWVJ0WkFWd1RNRUsteDJ1RWtxUF9WU1ZBLXNZelBKRHpZU19vMGdYTHlHVzFQNHc4NWxuTm1OSDZxSU9UNWxsSkJ1SGpjRnhhOXZEVlY1QUlvRmVNcE5vTDZQSQ?oc=5"
           }
         ]
       }
