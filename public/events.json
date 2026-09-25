@@ -1,7 +1,159 @@
 {
   "schema": 1,
-  "updated": "2026-09-25T18:31:23.733326+00:00",
+  "updated": "2026-09-25T21:48:11.145590+00:00",
   "events": [
+    {
+      "id": "8f53cdd5a745",
+      "title": "Lavrov, Singaporean foreign minister discuss implementation of agreements between leaders",
+      "description": "Russia and Singapore exchanged views on implementing bilateral agreements and regional issues.",
+      "lat": 1.35,
+      "lng": 103.82,
+      "severity": 2,
+      "location": "Singapore, Singapore",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2193135",
+      "image": null,
+      "ts": 1790370420000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2193135"
+          }
+        ]
+      }
+    },
+    {
+      "id": "41a22aba17f8",
+      "title": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
+      "description": "Ukrainian President Zelensky says Russian strikes on data centres aim to disrupt civilians' ability to stay connected, study and work.",
+      "lat": 49.784,
+      "lng": 22.77,
+      "severity": 4,
+      "location": "Przemyśl, Poland",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss",
+      "image": "https://c.ndtvimg.com/2025-03/uj54uh28_zelensky_625x300_03_March_25.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1790369269000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0cdf9575b631",
+      "title": "Pakistani, Saudi, Turkish chiefs discuss closer military ties",
+      "description": "Military leaders from Pakistan, Saudi Arabia and Turkey met in Riyadh to enhance intelligence sharing and coordinate capabilities.",
+      "lat": 24.71,
+      "lng": 46.68000000000001,
+      "severity": 2,
+      "location": "Riyadh, Saudi Arabia",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/09/pakistani-saudi-turkish-chiefs-discuss-closer-military-ties",
+      "image": null,
+      "ts": 1790369197000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/09/pakistani-saudi-turkish-chiefs-discuss-closer-military-ties"
+          }
+        ]
+      }
+    },
+    {
+      "id": "239f2ddf041a",
+      "title": "Iran proposes a 7‑day plan to reopen the Strait of Hormuz",
+      "description": "Iran's president offers a week‑long proposal to the United States to restore navigation through the strategic waterway.",
+      "lat": 27.67,
+      "lng": 58.15520000000001,
+      "severity": 2,
+      "location": "Strait of Hormuz",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-7-day-proposal/",
+      "image": null,
+      "ts": 1790366876000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 1,
+        "total": 5,
+        "buckets": {
+          "left": 1,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/iran-proposes-deal-reopen-strait-of-hormuz-7-days-us-meets-conditions_n_6ab69619e4b0bad9a6472b11"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-7-day-proposal/"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/09/25/us-iran-trump-hormuz-.html"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/iran-says-it-has-given-us-concrete-seven-day-plan-to-reopen-strait-of-hormuz-13591945"
+          },
+          {
+            "n": "New York Post",
+            "b": "lean_right",
+            "u": "https://nypost.com/2026/09/25/world-news/us-iran-reportedly-discussing-phased-deal-to-reopen-hormuz-and-end-blockade/"
+          }
+        ]
+      }
+    },
     {
       "id": "cd475ea07f06",
       "title": "Poland boosts air defence after ‘Russian provocations’ amid Ukraine war",
@@ -3899,84 +4051,6 @@
       }
     },
     {
-      "id": "41a22aba17f8",
-      "title": "Trump to meet with Zelensky as Russia-Ukraine attacks intensify",
-      "description": "Il presidente Trump incontrerà il presidente ucraino Zelensky a New York durante l'Assemblea Generale delle Nazioni Unite.",
-      "lat": 49.784,
-      "lng": 22.77,
-      "severity": 2,
-      "location": "Przemyśl, Poland",
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/09/20/trump-zelensky-meeting-russia-ukraine-war-talks",
-      "image": "https://c.ndtvimg.com/2025-03/uj54uh28_zelensky_625x300_03_March_25.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1789932316000,
-      "coverage": {
-        "left": 2,
-        "center": 6,
-        "right": 2,
-        "total": 10,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 6,
-          "lean_right": 0,
-          "right": 2
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/russia/two-dead-moscow-region-drones-hit-oil-refinery-russian-capital-rcna598767"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/ukraine-drone-attack-moscow-russia/"
-          },
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/09/20/trump-zelensky-meeting-russia-ukraine-war-talks"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/europe/20260920-russia-s-ruling-party-on-track-to-win-election-after-ukraine-s-drone-attacks-on-moscow"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVVQyb1M5emp0WWE1cjRPcGk0LVJhX0NSN0JzY3lMUTZKeDVJQnBMRm5HVGFrTHhrb1dwMDZRakhOUGF1MElPRjNLTEVCYXk5UnZmcmdSYWZfWWpramJQWDlEX3RuQUYwRGUxS0RRdFR0N0p2bE9Fc3lZNFFaX19MNXQ4NldMUjdwUkE?oc=5"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUG4xdzdpSmtOVGxlTDNNQVJVOW8tVGsydzBiN1ZZc2ZfVTA1V25xX1Q1NDYzb3BETmF2Wkg3Zno2UTU5ZG41QW0tS3h1Xy1uZ2JoSDFlYkxDeEFPVEVkTmo0Z05fanZaS3FuWGNBYjgxQm1IdDNESWtBdFZqZ09rdlpaVGZvTWRWSXd0UW0tRWI4TU40bEhNd29oc1lnUnhpNXhmNG9CVE1IamE5aG1iZ1pzd2tmUdIBuwFBVV95cUxNR29JOXNnRGVGUmFVd1NhTGFpREJ0VXcyN1FLc0tCN1lseV9VdHI4Zmd6b1lHSEdRSmhFeU45YzQyaE9vTnA4d21YNk5JQTA3M2xLUFFUd2NlMl9JZzRZQlFxWTZRMGM5UTJRMHlvTVVoSDU2QjlEaWNET1JqSmo4NVRNNlpTa3BZMmRVNlAyeEozZGNyajZCUUc4Vkx1SlNnRkZSWnk3VTJkNU9ISWVQNENQc193dDNOcUVj?oc=5"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-09-20/ukraine-s-zelenskyy-says-trump-agrees-to-meet-him-in-new-york"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/russia-central-asia/article/3368177/russia-vows-revenge-ukraines-election-day-attacks-poll-shows-win-ruling-party?utm_source=rss_feed"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/ukraine-targets-russia-1000-drones-killing-2-moscow-holds-last-day-elections"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/world/4735071/ukraine-drone-attack-russia-elections/"
-          }
-        ]
-      }
-    },
-    {
       "id": "acfdec8222bc",
       "title": "Mosca, 'intensificheremo gli attacchi sull'Ucraina in risposta ai raid odierni'",
       "description": "Russian officials said they will intensify attacks on Ukraine in retaliation for recent Ukrainian drone and missile raids.",
@@ -7154,110 +7228,6 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/09/16/yemen-fighting-forces-thousands-into-makeshift-camps-as-displacement-surges/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5d4dd333a937",
-      "title": "Building Collapse Kills Over 20 In Gaza As Perilous Conditions Persist",
-      "description": "A structural collapse in Gaza City killed more than twenty people amid ongoing conflict‑related damage.",
-      "lat": 33.17,
-      "lng": 35.4126,
-      "severity": 3,
-      "location": "Gaza City, Gaza Strip",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/building-collapse-kills-gaza-perilous-conditions-israel-palestine_n_6aaaa854e4b05a5eaee2a394",
-      "image": null,
-      "ts": 1789570013000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 1,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/building-collapse-kills-gaza-perilous-conditions-israel-palestine_n_6aaaa854e4b05a5eaee2a394"
-          },
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/09/16/world/middleeast/gaza-building-collapse.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "061581f4864c",
-      "title": "Building Collapse Kills Over 20 In Gaza As Perilous Conditions Persist",
-      "description": "Un edificio colapsó en Gaza, dejando más de 20 muertos mientras los equipos de rescate continúan buscando víctimas entre los escombros.",
-      "lat": 31.52,
-      "lng": 34.46000000000001,
-      "severity": 4,
-      "location": "Gaza City, Gaza Strip",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/building-collapse-kills-gaza-perilous-conditions-israel-palestine_n_6aaaa854e4b05a5eaee2a394",
-      "image": null,
-      "ts": 1789570013000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 1,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/building-collapse-kills-gaza-perilous-conditions-israel-palestine_n_6aaaa854e4b05a5eaee2a394"
-          }
-        ]
-      }
-    },
-    {
-      "id": "547940c1bb7a",
-      "title": "Turkish intel chief Kalın visits Afghanistan to boost ties",
-      "description": "Turkey’s National Intelligence Organization chief Ibrahim Kalın traveled to Kabul and Kandahar for talks aimed at strengthening security cooperation with Afghanistan.",
-      "lat": 34.55,
-      "lng": 69.2,
-      "severity": 2,
-      "location": "Kabul, Afghanistan",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/politics/diplomacy/turkish-intel-chief-kalin-visits-afghanistan-to-boost-ties",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/09/16/460909.jpg",
-      "ts": 1789567740000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/politics/diplomacy/turkish-intel-chief-kalin-visits-afghanistan-to-boost-ties"
           }
         ]
       }
