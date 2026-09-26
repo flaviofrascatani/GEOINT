@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-09-26T05:26:45.662771+00:00",
+  "updated": "2026-09-26T10:12:46.682117+00:00",
   "events": [
+    {
+      "id": "42dc2f416fa6",
+      "title": "Mosca colpisce un centro dati di Starlink in Ucraina",
+      "description": "Russian forces struck a Starlink data centre in Kyiv, disrupting satellite internet services used by Ukraine.",
+      "lat": 51.55,
+      "lng": 30.52000000000001,
+      "severity": 3,
+      "location": "Kyiv, Ukraine",
+      "source": "AGI Estero",
+      "url": "https://www.agi.it/estero/news/2026-09-26/ucraina-russia-colpito-centro-starlink-kiev-39253054/",
+      "image": "https://images.agi.it/pictures/agi/agi/2026/09/26/072117294-9323d172-cc9e-4afd-8b04-56ce8b31e651.jpg",
+      "ts": 1790417184000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "AGI Estero",
+            "b": "center",
+            "u": "https://www.agi.it/estero/news/2026-09-26/ucraina-russia-colpito-centro-starlink-kiev-39253054/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cb663d4e4cd5",
+      "title": "Madagascar's Gen Z 'betrayed' after ushering in military govt",
+      "description": "Young activists say the new military‑backed administration in Antananarivo has reverted to repressive tactics, sparking domestic unrest.",
+      "lat": -18.88,
+      "lng": 47.52,
+      "severity": 3,
+      "location": "Antananarivo, Madagascar",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/09/26/madagascars-gen-z-betrayed-after-ushering-in-military-govt/",
+      "image": "http://images.euronews.com/articles/stories/09/92/87/22/640x360_cmsv2_ba94f042-6062-5247-b1b6-c777d7353951-9928722.jpg?1790405314",
+      "ts": 1790414192000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/09/26/madagascars-gen-z-betrayed-after-ushering-in-military-govt/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2353703064af",
+      "title": "Houthis Attack Riyadh Again as Trump Rejects Ceasefire Offer",
+      "description": "Yemen’s Houthi rebels launched missile and drone attacks on Saudi Arabia’s capital, Riyadh, causing damage and civilian casualties.",
+      "lat": 24.71,
+      "lng": 46.68000000000001,
+      "severity": 4,
+      "location": "Riyadh, Saudi Arabia",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-26/trump-rejects-iran-s-seven-day-ceasefire-proposal-wsj-reports",
+      "image": null,
+      "ts": 1790389527000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/saudi-says-houthis-attacked-riyadh-again-intercepted-two-drones-12100168#publisher=newsstand"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-09-26/trump-rejects-iran-s-seven-day-ceasefire-proposal-wsj-reports"
+          }
+        ]
+      }
+    },
     {
       "id": "09c7b2617d90",
       "title": "At least 14 people killed after military plane crashes 'on residential plot' in Congo",
@@ -7139,110 +7243,6 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/us-backed-agreement-deepens-ties-officials-address-saudi-arabia-growing-houthi-threat-global-shipping"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7e31b2a03c81",
-      "title": "At least 82 people killed in gold mine collapse in Sudan's West Kordofan",
-      "description": "수단 서코르도판 주의 금광 붕괴로 최소 82명이 사망하고 다수가 부상했습니다.",
-      "lat": 13.35,
-      "lng": 30.45,
-      "severity": 3,
-      "location": "Al‑Fulah, Sudan",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/09/16/at-least-82-people-killed-in-gold-mine-collapse-in-sudans-west-kordofan/",
-      "image": "http://images.euronews.com/articles/stories/09/91/61/94/640x360_cmsv2_21f55699-4c79-5d39-a1bf-5230cdd1fee9-9916194.jpg?1789571672",
-      "ts": 1789588534000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/gold-mine-collapse-killed-67-people-remote-area-136488522"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/09/16/at-least-82-people-killed-in-gold-mine-collapse-in-sudans-west-kordofan/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "94684b868f4b",
-      "title": "Trump oil ally Harold Hamm to invest in Venezuela",
-      "description": "Continental Resources announced a new oil investment in Venezuela, marking a rare Western entry after U.S. sanctions.",
-      "lat": 10.51,
-      "lng": -66.9,
-      "severity": 3,
-      "location": "Caracas, Venezuela",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/7be92efe-13d6-4d02-9f77-0e8229b3b8fa?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1789583475000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/7be92efe-13d6-4d02-9f77-0e8229b3b8fa?syn-25a6b1a6=1"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ec093bee4006",
-      "title": "Washington set to approve $2.8 bn arms package for Israel",
-      "description": "The U.S. government is preparing to authorize a large weapons sale to Israel, including 40,000 one‑ton bombs.",
-      "lat": 40.0,
-      "lng": -75.1348,
-      "severity": 3,
-      "location": "Washington, D.C., United States",
-      "source": "France 24",
-      "url": "http://www.france24.com/en/washington-set-to-approve-2-8-bn-arms-package-for-israel",
-      "image": "https://s.france24.com/media/display/942153e2-b1fb-11f1-bd55-3df65e1cd14d/w:1024/p:16x9/capture-17306261656aaade6612d4f8-79538850.jpg",
-      "ts": 1789583055000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "http://www.france24.com/en/washington-set-to-approve-2-8-bn-arms-package-for-israel"
           }
         ]
       }
