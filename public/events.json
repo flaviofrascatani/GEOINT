@@ -1,7 +1,83 @@
 {
   "schema": 1,
-  "updated": "2026-09-26T10:12:46.682117+00:00",
+  "updated": "2026-09-26T14:42:47.779527+00:00",
   "events": [
+    {
+      "id": "a139467a3e03",
+      "title": "Pakistan: Suicide attack at police stop kills at least 11",
+      "description": "A suicide bomber targeted a police checkpoint in Dera Ismail Khan, killing at least 11 people and injuring dozens.",
+      "lat": 34.01,
+      "lng": 71.58,
+      "severity": 3,
+      "location": "Peshawar, Pakistan",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/pakistan-suicide-attack-at-police-stop-kills-at-least-11/a-79443050?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1790433767667,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/pakistan-suicide-attack-at-police-stop-kills-at-least-11/a-79443050?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/asia/south-asia/article/3368910/suicide-bombing-police-checkpoint-pakistan-kills-least-11?utm_source=rss_feed"
+          },
+          {
+            "n": "Daily Star World",
+            "b": "right",
+            "u": "https://www.dailystar.co.uk/news/world-news/horror-suicide-bombing-police-checkpoint-37705376"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6d933c6d718a",
+      "title": "De la Espriella announces the reopening of oil exploration in Colombia, including fracking",
+      "description": "Colombian President Abelardo de la Espriella signed a decree to fully restart hydrocarbon exploration and new contracts, reviving the sector.",
+      "lat": 4.71,
+      "lng": -74.07,
+      "severity": 2,
+      "location": "Bogotá, Colombia",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/09/26/de-la-espriella-announces-the-reopening-of-oil-exploration-in-colombia-including-fracking?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": "https://en.mercopress.com/data/cache/noticias/111586/100x80/col.jpeg",
+      "ts": 1790420760000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/09/26/de-la-espriella-announces-the-reopening-of-oil-exploration-in-colombia-including-fracking?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "42dc2f416fa6",
       "title": "Mosca colpisce un centro dati di Starlink in Ucraina",
@@ -64,6 +140,72 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/09/26/madagascars-gen-z-betrayed-after-ushering-in-military-govt/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7300368905b3",
+      "title": "Europe frets as the Kremlin pushes the limits of its hybrid warfare",
+      "description": "Analysts note an increase in Russian hybrid‑war tactics aimed at European institutions and infrastructure.",
+      "lat": 50.85,
+      "lng": 4.35,
+      "severity": 2,
+      "location": "Brussels, Belgium",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/world/europe/europe-frets-kremlin-pushes-limits-hybrid-warfare-rcna599351",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-08/260808-germany-aiport-drone-ch-1102-c38853.jpg",
+      "ts": 1790413240000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/europe/europe-frets-kremlin-pushes-limits-hybrid-warfare-rcna599351"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b512daea5074",
+      "title": "Six big takeaways from a turbulent week of UN diplomacy",
+      "description": "World leaders gathered at the United Nations in New York for a week of speeches, meetings and hallway diplomacy, producing several diplomatic agreements and statements.",
+      "lat": 41.85,
+      "lng": -73.98,
+      "severity": 2,
+      "location": "New York, United States",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/09/six-big-takeaways-turbulent-week-un-diplomacy",
+      "image": null,
+      "ts": 1790401590000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/09/six-big-takeaways-turbulent-week-un-diplomacy"
           }
         ]
       }
@@ -5283,44 +5425,6 @@
       }
     },
     {
-      "id": "a139467a3e03",
-      "title": "Pakistan: Suicide bombing death toll rises to at least 31",
-      "description": "A suicide bomber attacked a police headquarters near the Afghanistan border, killing at least 31 people and injuring over 100 others.",
-      "lat": 34.01,
-      "lng": 71.58,
-      "severity": 4,
-      "location": "Peshawar, Pakistan",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/pakistan-suicide-bombing-death-toll-rises-to-at-least-31/a-79327432?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1789799701881,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/pakistan-suicide-bombing-death-toll-rises-to-at-least-31/a-79327432?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/asia/2026/09/18/suicide-bomb-attack-pakistan-mosque-kills-27/"
-          }
-        ]
-      }
-    },
-    {
       "id": "02de6df00826",
       "title": "Russia holds parliamentary vote in areas it seized from Ukraine in the war",
       "description": "Russia conducted elections in occupied Ukrainian territories, a move condemned as illegal by Kyiv and international observers.",
@@ -7139,110 +7243,6 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/645885-turkiye-sues-ukraine-ship/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c7f2fc0b318b",
-      "title": "Australia to bar foreign students from bringing partners, children while they study",
-      "description": "Il governo australiano ha annunciato nuove restrizioni che impediranno agli studenti internazionali di far venire familiari durante gli studi.",
-      "lat": -32.77,
-      "lng": 151.21000000000004,
-      "severity": 2,
-      "location": "Sydney, Australia",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/australia-to-bar-foreign-students-from-bringing-partners-children-while-they-study",
-      "image": null,
-      "ts": 1789604584000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/australia-to-bar-foreign-students-from-bringing-partners-children-while-they-study"
-          }
-        ]
-      }
-    },
-    {
-      "id": "606c3998d4d7",
-      "title": "U.S. Embassy to run Korea-U.S. alliance ad on S. Korea's high‑speed rail network",
-      "description": "미국 대사관이 한국 고속철도에 한미 동맹 홍보 광고를 게재한다는 계획을 발표했습니다.",
-      "lat": 38.66,
-      "lng": 126.98000000000002,
-      "severity": 1,
-      "location": "Seoul, South Korea",
-      "source": "Yonhap News",
-      "url": "https://en.yna.co.kr/view/AEN20260916005400315",
-      "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/16/AEN20260916005400315_02_i_P2.jpg",
-      "ts": 1789596004000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20260916005400315"
-          }
-        ]
-      }
-    },
-    {
-      "id": "429cd760e46c",
-      "title": "Israel, Morocco agree to exchange ambassadors, open embassies",
-      "description": "이스라엘과 모로코가 대사 교환 및 대사관 개설에 합의해 아브라함 협정의 중요한 진전을 이루었습니다.",
-      "lat": 34.02,
-      "lng": -6.84,
-      "severity": 1,
-      "location": "Rabat, Morocco",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/09/israel-morocco-agree-exchange-ambassadors-open-embassies",
-      "image": null,
-      "ts": 1789591744000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/israel-morocco-agree-exchange-ambassadors-open-embassies"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/us-backed-agreement-deepens-ties-officials-address-saudi-arabia-growing-houthi-threat-global-shipping"
           }
         ]
       }
