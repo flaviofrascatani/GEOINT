@@ -1,7 +1,50 @@
 {
   "schema": 1,
-  "updated": "2026-09-26T00:34:49.730853+00:00",
+  "updated": "2026-09-26T05:26:45.662771+00:00",
   "events": [
+    {
+      "id": "09c7b2617d90",
+      "title": "At least 14 people killed after military plane crashes 'on residential plot' in Congo",
+      "description": "A military aircraft crashed in the Democratic Republic of Congo, killing 14 people including two senior officers.",
+      "lat": 4.38,
+      "lng": 15.44,
+      "severity": 3,
+      "location": "Kinshasa, Democratic Republic of Congo",
+      "source": "Daily Star World",
+      "url": "https://www.dailystar.co.uk/news/world-news/14-dead-military-plane-crash-37704681",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37704683.ece/ALTERNATES/s615/2_Image.jpg",
+      "ts": 1790380811000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/congo-plane-crash-kills-14-including-2-senior-136769427"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/plane-crash-democratic-republic-congo-37704350"
+          },
+          {
+            "n": "Daily Star World",
+            "b": "right",
+            "u": "https://www.dailystar.co.uk/news/world-news/14-dead-military-plane-crash-37704681"
+          }
+        ]
+      }
+    },
     {
       "id": "8f53cdd5a745",
       "title": "Lavrov, Singaporean foreign minister discuss implementation of agreements between leaders",
@@ -150,6 +193,44 @@
             "n": "New York Post",
             "b": "lean_right",
             "u": "https://nypost.com/2026/09/25/world-news/us-iran-reportedly-discussing-phased-deal-to-reopen-hormuz-and-end-blockade/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "88ecc9f0af02",
+      "title": "Macron and Pope Leo XIV unite on AI risks and nuclear weapons",
+      "description": "French President Emmanuel Macron and Pope Leo XIV called for international oversight of advanced AI systems to prevent misuse, especially in nuclear contexts.",
+      "lat": 49.96,
+      "lng": 2.3499999999999943,
+      "severity": 2,
+      "location": "Paris, France",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/09/25/macron-and-pope-leo-xiv-unite-on-ai-risks-and-nuclear-weapons/",
+      "image": "http://images.euronews.com/articles/stories/09/92/84/25/640x360_cmsv2_8ead1b05-91bc-5e15-a6fa-082bcf7a956e-9928425.jpg?1790364307",
+      "ts": 1790366786000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/pope-paradise-of-machines-ai-37702195"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/09/25/macron-and-pope-leo-xiv-unite-on-ai-risks-and-nuclear-weapons/"
           }
         ]
       }
@@ -7162,72 +7243,6 @@
             "n": "France 24",
             "b": "center",
             "u": "http://www.france24.com/en/washington-set-to-approve-2-8-bn-arms-package-for-israel"
-          }
-        ]
-      }
-    },
-    {
-      "id": "00b0c5496988",
-      "title": "U.S. diplomats meet with Houthis at the U.S. embassy in Oman",
-      "description": "American diplomats held talks with Houthi representatives in Muscat to address the escalating Red Sea crisis.",
-      "lat": 23.61,
-      "lng": 58.59,
-      "severity": 2,
-      "location": "Muscat, Oman",
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/09/16/us-houthi-oman-to-discuss-red-sea-crisis",
-      "image": "https://images.axios.com/u1UccKjLK_ymiRPVXNrMYJMJnqM=/0x0:4000x2250/1366x768/2026/09/16/1789582390733.jpeg",
-      "ts": 1789582781000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/09/16/us-houthi-oman-to-discuss-red-sea-crisis"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5db320722716",
-      "title": "Houthi capture of ground overlooking the Bab el-Mandeb Strait",
-      "description": "Houthi forces seized a strategic position that commands the Bab el‑Mandeb, threatening Red Sea shipping routes.",
-      "lat": 12.6,
-      "lng": 43.0,
-      "severity": 3,
-      "location": "Bab el‑Mandeb Strait, Yemen",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/09/houthi-blitz-leaves-saudi-arabia-exposed-iran-emboldened-0",
-      "image": null,
-      "ts": 1789577202000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/houthi-blitz-leaves-saudi-arabia-exposed-iran-emboldened-0"
           }
         ]
       }
