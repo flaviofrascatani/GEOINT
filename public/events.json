@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-09-26T18:32:26.419397+00:00",
+  "updated": "2026-09-26T21:30:34.825872+00:00",
   "events": [
+    {
+      "id": "4eb2371019fa",
+      "title": "German and Russian foreign ministers meet for first time in over four years",
+      "description": "German Foreign Minister Johann Wadephul and Russian Foreign Minister Sergei Lavrov held a face‑to‑face meeting, discussing de‑escalation in Ukraine and drone incursions.",
+      "lat": 56.85,
+      "lng": 37.620000000000005,
+      "severity": 2,
+      "location": "Moscow, Russia",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/ec92933f-7147-410e-8ade-ab09add476a7?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1790449306000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/ec92933f-7147-410e-8ade-ab09add476a7?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
     {
       "id": "1114bad7564f",
       "title": "China and the United States agree to set up a channel for AI safety incidents",
@@ -69,35 +102,63 @@
       }
     },
     {
+      "id": "6d928f1dfcc3",
+      "title": "U.S. And China Vow Greater Cooperation On AI, Announce Creation Of Nuclear‑Hotline‑Style Communications Channel",
+      "description": "The United States and China agreed to set up a bilateral communication channel for AI‑related incidents following President Xi’s state visit to the U.S.",
+      "lat": 38.9,
+      "lng": -77.04,
+      "severity": 1,
+      "location": "Washington, DC, USA",
+      "source": "IBTimes",
+      "url": "https://www.ibtimes.com/us-china-vow-greater-cooperation-ai-announce-creation-nuclear-hotline-style-ai-communications-3807932",
+      "image": null,
+      "ts": 1790440462000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/us-china-vow-greater-cooperation-ai-announce-creation-nuclear-hotline-style-ai-communications-3807932"
+          }
+        ]
+      }
+    },
+    {
       "id": "a139467a3e03",
-      "title": "Pakistan: Suicide attack at police stop kills at least 11",
-      "description": "A suicide bomber targeted a police checkpoint in Dera Ismail Khan, killing at least 11 people and injuring dozens.",
+      "title": "Horror suicide bombing at police checkpoint kills at least 11 as 30 injured",
+      "description": "A suicide bomber attacked a police checkpoint in Dera Ismail Khan, Pakistan, killing at least 11 people and wounding around 30.",
       "lat": 34.01,
       "lng": 71.58,
-      "severity": 3,
+      "severity": 4,
       "location": "Peshawar, Pakistan",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/pakistan-suicide-attack-at-police-stop-kills-at-least-11/a-79443050?maca=en-rss-en-all-1573-rdf",
+      "source": "Daily Star World",
+      "url": "https://www.dailystar.co.uk/news/world-news/horror-suicide-bombing-police-checkpoint-37705376",
       "image": null,
       "ts": 1790433767667,
       "coverage": {
         "left": 0,
-        "center": 2,
+        "center": 1,
         "right": 1,
-        "total": 3,
+        "total": 2,
         "buckets": {
           "left": 0,
           "lean_left": 0,
-          "center": 2,
+          "center": 1,
           "lean_right": 0,
           "right": 1
         },
         "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/pakistan-suicide-attack-at-police-stop-kills-at-least-11/a-79443050?maca=en-rss-en-all-1573-rdf"
-          },
           {
             "n": "South China Morning Post",
             "b": "center",
@@ -113,11 +174,11 @@
     },
     {
       "id": "3804049a09d8",
-      "title": "War returns to Ethiopia’s Tigray region",
-      "description": "After a 2022 peace deal, fighting has resumed in Tigray, reigniting a deadly conflict in northern Ethiopia.",
+      "title": "War has returned to Ethiopia’s Tigray — and former enemies are now fighting together",
+      "description": "After a peace deal, fighting has resumed in Ethiopia’s northern Tigray region, sparking fears of renewed large‑scale conflict.",
       "lat": 10.56,
       "lng": 39.47,
-      "severity": 4,
+      "severity": 3,
       "location": "Mekelle, Ethiopia",
       "source": "Egypt Independent",
       "url": "https://www.egyptindependent.com/war-has-returned-to-ethiopias-tigray-and-former-enemies-are-now-fighting-together-what-changed/",
@@ -784,6 +845,94 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/09/25/over-55000-sudanese-refugees-fled-to-east-chad-this-year-un/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "64eca143bf40",
+      "title": "Iran Proposes A Deal To Reopen The Strait Of Hormuz In 7 Days If The U.S. Meets Its Conditions",
+      "description": "Iran offered a seven‑day plan to the United States to reopen the Strait of Hormuz, using the waterway as leverage in regional tensions.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 2,
+      "location": "Strait of Hormuz",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/iran-proposes-deal-reopen-strait-of-hormuz-7-days-us-meets-conditions_n_6ab69619e4b0bad9a6472b11",
+      "image": null,
+      "ts": 1790353522000,
+      "coverage": {
+        "left": 5,
+        "center": 6,
+        "right": 1,
+        "total": 12,
+        "buckets": {
+          "left": 1,
+          "lean_left": 4,
+          "center": 6,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/iran-proposes-deal-reopen-strait-of-hormuz-7-days-us-meets-conditions_n_6ab69619e4b0bad9a6472b11"
+          },
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/nightly-news/video/iran-s-new-proposal-to-re-open-strait-of-hormuz-270565957609"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/donald-trump-rejects-ceasefire-deal-37704745"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/09/26/trump-rejects-iran-s-plan-to-reopen-strait-of-hormuz_6757986_4.html"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/trump-rejects-iran-proposal-for-deal-to-reopen-hormuz/article71514089.ece"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/4d71acf8-dda7-475e-88c5-5351f0176558?syn-25a6b1a6=1"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/iran-says-it-has-given-us-concrete-seven-day-plan-to-reopen-strait-of-hormuz-13591945"
+          },
+          {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/homenews/6112836-live-updates-trump-college-football-gop/"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPekVrcUpCSVdWWjdjNHY5ZS12MmprMF9ma3loOGpyZExyTW5uRG9qT3NjV21qSUFSMUhRVV9Ld3A5TWpVTS1QcFI2VENoZTdQRkVIQi11Z2JuUV80a1B2U2Q5TGhlQlZiZkV3MFlCbkI4NUZDeWJROWgxbTAtSVE3dU0xUDVnbFU2MF9MN25MVmZRNUdCWXBleDhlamtaVGNzbkVtWDM1VlfSAa4BQVVfeXFMTjljQTNjOXdPLVpNZWhUNTduR2ZZWGN3dDRrak9NOS1WWlBNejVMWDk2aGRkek9CYzB5OWpiTU1BeWtHUkRZZGduc28td2dSZmlsQUM2NTNrQ1M5WU1rcVJoNWZKZlkzNmN5Z1FkWnJFN0FNVDEtQjFKSkYwQ0RQZFpkOWVxNm43dkloMnZtTFFFSy1xVVRYVEJEYkFZdzdBemNCMEJQZGVLZzdvQXlB?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-09-26/trump-says-he-rejected-latest-iran-proposal-to-reopen-hormuz"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/white-house/4743997/iran-hormuz-deal-trump-resume-bomb-midterm/"
           }
         ]
       }
@@ -7139,105 +7288,6 @@
             "n": "Rio Times",
             "b": "center",
             "u": "https://www.riotimesonline.com/colombia-85-extraditions-de-la-espriella-2026/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "85e004a666d1",
-      "title": "Shoigu calls treatment of Russian‑backed businesses in Armenia a 'hostile takeover'",
-      "description": "Russian Security Council secretary Sergei Shoigu denounced Armenia’s actions against Russian‑linked firms as a hostile takeover, heightening bilateral tensions.",
-      "lat": 40.18,
-      "lng": 44.51,
-      "severity": 3,
-      "location": "Yerevan, Armenia",
-      "source": "TASS",
-      "url": "https://tass.com/economy/2188939",
-      "image": null,
-      "ts": 1789640217000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/economy/2188939"
-          }
-        ]
-      }
-    },
-    {
-      "id": "97f8acb2fd50",
-      "title": "Mali’s drone war: ‘They saw the children and still fired’",
-      "description": "Investigations reveal Malian and Russian‑linked drones conducting strikes that caused civilian casualties, highlighting ongoing conflict dynamics.",
-      "lat": 12.65,
-      "lng": -8.0,
-      "severity": 3,
-      "location": "Bamako, Mali",
-      "source": "The Africa Report",
-      "url": "https://www.theafricareport.com/430931/malis-drone-war-they-saw-the-children-and-still-fired/",
-      "image": null,
-      "ts": 1789639307000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Africa Report",
-            "b": "center",
-            "u": "https://www.theafricareport.com/430931/malis-drone-war-they-saw-the-children-and-still-fired/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b64480f96fe1",
-      "title": "Investigation of Mali’s drone war involving Russian Africa Corps",
-      "description": "Open‑source investigators reported drone strikes by the Malian army and Russia’s Africa Corps, raising concerns over civilian casualties.",
-      "lat": 13.75,
-      "lng": -8.0,
-      "severity": 3,
-      "location": "Bamako, Mali",
-      "source": "The Africa Report",
-      "url": "https://www.theafricareport.com/430931/malis-drone-war-they-saw-the-children-and-still-fired/",
-      "image": null,
-      "ts": 1789639307000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Africa Report",
-            "b": "center",
-            "u": "https://www.theafricareport.com/430931/malis-drone-war-they-saw-the-children-and-still-fired/"
           }
         ]
       }
