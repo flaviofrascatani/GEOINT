@@ -1,7 +1,98 @@
 {
   "schema": 1,
-  "updated": "2026-09-27T10:42:25.849285+00:00",
+  "updated": "2026-09-27T15:37:45.438013+00:00",
   "events": [
+    {
+      "id": "e616aa8ccbe7",
+      "title": "Russian forces strike Omega Telecom data center in Kiev",
+      "description": "Russian military targeted the Omega Telecom data centre in Kyiv, a key communications hub used by Ukrainian forces.",
+      "lat": 50.45,
+      "lng": 30.52,
+      "severity": 3,
+      "location": "Kyiv, Ukraine",
+      "source": "TASS",
+      "url": "https://tass.com/defense/2193639",
+      "image": null,
+      "ts": 1790523351000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/defense/2193639"
+          }
+        ]
+      }
+    },
+    {
+      "id": "06b5fa41b02e",
+      "title": "Iran captures another US spy drone in Hormuz (VIDEO) — Iran’s IRGC says it captured a US Remus 600 underwater drone allegedly spying in the Strait of Hormuz",
+      "description": "Iran’s Islamic Revolutionary Guard Corps announced the seizure of a U.S. Remus‑600 underwater surveillance drone in the strategic Strait of Hormuz.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 3,
+      "location": "Strait of Hormuz",
+      "source": "RT News",
+      "url": "https://www.rt.com/news/646320-us-drone-captured-iran/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.09/thumbnail/6ab91b7d85f540349e35d87d.png",
+      "ts": 1790518216000,
+      "coverage": {
+        "left": 3,
+        "center": 1,
+        "right": 2,
+        "total": 6,
+        "buckets": {
+          "left": 1,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 2,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/iran-proposes-deal-reopen-strait-of-hormuz-7-days-us-meets-conditions_n_6ab69619e4b0bad9a6472b11"
+          },
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/nightly-news/video/iran-s-new-proposal-to-re-open-strait-of-hormuz-270565957609"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/economy/2026/9/27/strait-of-hormuz-tensions-linger-as-iran-and-us-move-further-from-a-deal?traffic_source=rss"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/iran-says-it-has-given-us-concrete-seven-day-plan-to-reopen-strait-of-hormuz-13591945"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2193611"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/646320-us-drone-captured-iran/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
     {
       "id": "02926182ef29",
       "title": "Allarme esplosivi vicino a base della Raf, in campo antiterrorismo Gb",
@@ -1137,6 +1228,39 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/09/iran-will-make-no-nuclear-concessions-iranian-official-says"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a4cad793f0f6",
+      "title": "Dangote Refinery IPO Opens Ownership to Nigerian Investors",
+      "description": "Nigeria’s flagship oil refinery launched an IPO, allowing domestic investors to buy shares in the $19 billion project.",
+      "lat": 6.45,
+      "lng": 3.39,
+      "severity": 2,
+      "location": "Lagos, Nigeria",
+      "source": "All Africa",
+      "url": "https://allafrica.com/stories/202609250479.html",
+      "image": null,
+      "ts": 1790357874000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "All Africa",
+            "b": "center",
+            "u": "https://allafrica.com/stories/202609250479.html"
           }
         ]
       }
@@ -7164,120 +7288,6 @@
             "n": "IBTimes",
             "b": "center",
             "u": "https://www.ibtimes.com/fed-raised-rates-first-time-three-years-dollar-global-yields-are-feeling-it-3807549"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a903e5e93e41",
-      "title": "Yemen War Intensifies as Houthi Militia Advances on Marib",
-      "description": "Clashes near the oil‑rich Marib province as Iranian‑backed Houthi fighters push against Saudi‑backed government forces.",
-      "lat": 17.12,
-      "lng": 46.2826,
-      "severity": 3,
-      "location": "Marib, Yemen",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/09/17/world/middleeast/yemen-houthis-marib.html",
-      "image": "https://static01.nyt.com/images/2026/09/17/multimedia/17int-Houthis-Marib-cktz/17int-Houthis-Marib-cktz-mediumSquareAt3X.jpg",
-      "ts": 1789685044000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/09/17/world/middleeast/yemen-houthis-marib.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4477331612d5",
-      "title": "Trump administration grants visas to top Iranian leaders to attend U.N. General Assembly",
-      "description": "The U.S. approved visas for senior Iranian officials to travel to New York for the UN General Assembly despite ongoing tensions.",
-      "lat": 40.71,
-      "lng": -74.01,
-      "severity": 2,
-      "location": "New York City, USA",
-      "source": "NBC News World",
-      "url": "https://www.nbcnews.com/world/iran/trump-administration-grants-visas-top-iranian-leaders-attend-un-genera-rcna598422",
-      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-09/260917-Masoud-Pezeshkian-ch-1618-ae3910.jpg",
-      "ts": 1789682371000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/iran/trump-administration-grants-visas-top-iranian-leaders-attend-un-genera-rcna598422"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/mid-east/us-approves-visas-for-iranian-leaders-to-attend-un-summit"
-          }
-        ]
-      }
-    },
-    {
-      "id": "75f0a152c98d",
-      "title": "North Korea's Kim Yo Jong warns of stronger response to US-led drills",
-      "description": "Kim Yo Jong threatened a harsher reaction if the United States continues its military exercises near the Korean Peninsula.",
-      "lat": 38.9,
-      "lng": -77.04,
-      "severity": 2,
-      "location": "Washington, USA",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/north-koreas-kim-yo-jong-warns-of-stronger-response-to-us-led-drills",
-      "image": null,
-      "ts": 1789682294000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/korea-kim-russia-ukraine-drones-37673329"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/north-koreas-kim-yo-jong-warns-of-stronger-response-to-us-led-drills"
-          },
-          {
-            "n": "Wall Street Journal World",
-            "b": "lean_right",
-            "u": "https://www.wsj.com/articles/kim-jong-un-is-doing-everything-he-can-to-keep-north-koreas-youth-in-line-0866a1de"
           }
         ]
       }
