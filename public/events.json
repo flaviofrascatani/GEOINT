@@ -1,7 +1,144 @@
 {
   "schema": 1,
-  "updated": "2026-09-26T23:51:00.860209+00:00",
+  "updated": "2026-09-27T05:12:07.844213+00:00",
   "events": [
+    {
+      "id": "6eaf0a51a6d2",
+      "title": "Kiev taking 'exhaustive measures' to hinder reconstruction in DPR — Pushilin",
+      "description": "DPR leader Denis Pushilin says Ukrainian forces are obstructing the installation of utilities and life‑support systems in liberated areas.",
+      "lat": 48.02,
+      "lng": 37.8,
+      "severity": 3,
+      "location": "Donetsk, Ukraine",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2193525",
+      "image": null,
+      "ts": 1790482921000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2193525"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4b259192fb74",
+      "title": "Recreational Aerial Craft Become Weapons in Myanmar’s War",
+      "description": "Myanmar’s military is increasingly using motorized paragliders and gyrocopters to bomb rebel‑held towns and villages.",
+      "lat": 19.75,
+      "lng": 96.1,
+      "severity": 4,
+      "location": "Naypyidaw, Myanmar",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/09/27/world/asia/myanmar-light-aircraft-war-weapons.html",
+      "image": null,
+      "ts": 1790481680000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/09/27/world/asia/myanmar-light-aircraft-war-weapons.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "60d3ba3321a8",
+      "title": "Hours Before Flight, 2 US Couples Killed In Blast In Athens Building",
+      "description": "A bomb blast in the Plaka district of Athens killed two American tourists just before their scheduled flight.",
+      "lat": 39.08,
+      "lng": 23.72999999999999,
+      "severity": 4,
+      "location": "Athens, Greece",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/hours-before-flight-2-us-couples-killed-in-blast-in-athens-building-12103758#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-09/oc4r80ic_greece-building-collapse-reuters_625x300_27_September_26.jpeg",
+      "ts": 1790479143000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/hours-before-flight-2-us-couples-killed-in-blast-in-athens-building-12103758#publisher=newsstand"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/9/26/four-american-tourists-among-6-killed-in-suspected-gas-leak-blast-in-athens?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d13e606fa830",
+      "title": "Venezuela releases dozens of prisoners following meeting between Trump and interim leader",
+      "description": "Following a meeting with former U.S. President Donald Trump, Venezuela freed dozens of political prisoners.",
+      "lat": 10.48,
+      "lng": -66.9,
+      "severity": 1,
+      "location": "Caracas, Venezuela",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/venezuela-releases-dozens-prisoners-meeting-trump-interim-leader-136790060",
+      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
+      "ts": 1790470553000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/venezuela-releases-dozens-prisoners-meeting-trump-interim-leader-136790060"
+          }
+        ]
+      }
+    },
     {
       "id": "b50e264ce6fb",
       "title": "Lesotho asks the UN for climate money, citing 38% youth joblessness",
@@ -1850,10 +1987,10 @@
     {
       "id": "c9ef65b8a76a",
       "title": "Rebel offensive against Ethiopian army stokes fears of return to civil war",
-      "description": "Tigrayan rebels launch a new offensive, raising concerns of a renewed civil war in Ethiopia.",
+      "description": "Tigrayan rebels have launched a new offensive against the Ethiopian army, raising alarms of a possible slide back into civil war.",
       "lat": 15.15,
       "lng": 40.45259999999999,
-      "severity": 3,
+      "severity": 4,
       "location": "Mekelle, Ethiopia",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/sep/24/fears-return-to-war-tigray-rebels-launch-offensive-against-ethiopian-army",
@@ -7146,143 +7283,6 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-09-17/putin-orders-temporary-administration-of-nestle-assets-in-russia"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5b9521bcdce1",
-      "title": "Gas prices are about to take a big jump, analysts say",
-      "description": "Analysts warn of a sharp increase in gasoline prices in the United States, forecasting broader economic impact.",
-      "lat": 38.9,
-      "lng": -77.04,
-      "severity": 3,
-      "location": "Washington, USA",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/09/16/analysts-predict-gas-price-jump-long-disruption-damaged-pipeline/",
-      "image": null,
-      "ts": 1789665432000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/09/16/analysts-predict-gas-price-jump-long-disruption-damaged-pipeline/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d7cd7ae785ef",
-      "title": "Rare honour: Trump will greet Xi at Andrews, not just the White House",
-      "description": "U.S. President Donald Trump will meet Chinese President Xi Jinping on the tarmac of Joint Base Andrews, a rare diplomatic reception.",
-      "lat": 38.81,
-      "lng": -74.9648,
-      "severity": 2,
-      "location": "Joint Base Andrews, United States",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3367905/rare-honour-trump-will-greet-xi-andrews-not-just-white-house?utm_source=rss_feed",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/17/e845b90d-ca20-46a0-9018-1b6c204d900b_ede2e0fd.jpg?itok=M7E5x0DF&v=1789658019",
-      "ts": 1789658029000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/china/diplomacy/article/3367905/rare-honour-trump-will-greet-xi-andrews-not-just-white-house?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d1372f9e5850",
-      "title": "Serbia opens Israeli drone assembly plant",
-      "description": "Serbian President Aleksandar Vučić announced the opening of a factory to assemble advanced Israeli‑made drones for the Serbian military.",
-      "lat": 44.78,
-      "lng": 20.45,
-      "severity": 2,
-      "location": "Belgrade, Serbia",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/09/serbia-opens-israeli-drone-assembly-plant",
-      "image": null,
-      "ts": 1789656395000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/international/article-908976"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/serbia-opens-israeli-drone-assembly-plant"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1ec83ea60001",
-      "title": "China, US top diplomats discuss ‘high‑level interactions’ in call, Beijing says",
-      "description": "Senior diplomats from China and the United States held a high‑level phone call ahead of a planned visit by President Xi to the U.S.",
-      "lat": 41.0,
-      "lng": 116.39999999999998,
-      "severity": 2,
-      "location": "Beijing, China",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/east-asia/china-us-top-diplomats-discuss-high-level-interactions-in-call-beijing-says",
-      "image": null,
-      "ts": 1789656190000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/east-asia/china-us-top-diplomats-discuss-high-level-interactions-in-call-beijing-says"
           }
         ]
       }
