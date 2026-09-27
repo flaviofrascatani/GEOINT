@@ -1,7 +1,139 @@
 {
   "schema": 1,
-  "updated": "2026-09-27T05:12:07.844213+00:00",
+  "updated": "2026-09-27T10:42:25.849285+00:00",
   "events": [
+    {
+      "id": "02926182ef29",
+      "title": "Allarme esplosivi vicino a base della Raf, in campo antiterrorismo Gb",
+      "description": "Explosive devices were discovered near a RAF base in the United Kingdom, prompting a major security response.",
+      "lat": 51.66,
+      "lng": -1.78,
+      "severity": 3,
+      "location": "Fairford, United Kingdom",
+      "source": "ANSA Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/27/allarme-esplosivi-vicino-a-base-della-raf-in-campo-antiterrorismo-gb_399ed795-5693-4212-b31b-60cf28643b69.html",
+      "image": null,
+      "ts": 1790504690000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/27/allarme-esplosivi-vicino-a-base-della-raf-in-campo-antiterrorismo-gb_399ed795-5693-4212-b31b-60cf28643b69.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "90a3ee01b72e",
+      "title": "Israeli minister Bezalel Smotrich calls for war in occupied West Bank",
+      "description": "The minister publicly urges a war‑like approach in the occupied West Bank, heightening political tension.",
+      "lat": 33.0,
+      "lng": 37.105199999999996,
+      "severity": 2,
+      "location": "West Bank, Palestine",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/27/israeli-minister-bezalel-smotrich-calls-for-war-in-occupied-west-bank?traffic_source=rss",
+      "image": null,
+      "ts": 1790503293000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/9/27/israeli-minister-bezalel-smotrich-calls-for-war-in-occupied-west-bank?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5f3c2d2d11e2",
+      "title": "Afghanistan says 28 fighters killed after crossing from Pakistan",
+      "description": "Afghan defence forces report killing 28 insurgents and wounding 32 in Nuristan province.",
+      "lat": 36.1,
+      "lng": 71.0,
+      "severity": 3,
+      "location": "Nuristan, Afghanistan",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/afghanistan-says-28-fighters-killed-after-crossing-from-pakistan",
+      "image": null,
+      "ts": 1790503045000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/afghanistan-says-28-fighters-killed-after-crossing-from-pakistan"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f7f8e8dfca56",
+      "title": "Palestinian death toll in Gaza war crosses 74,000: Health Ministry",
+      "description": "The Gaza health ministry reports over 74,000 war‑related deaths, marking a humanitarian crisis of massive scale.",
+      "lat": 31.5,
+      "lng": 34.5,
+      "severity": 5,
+      "location": "Gaza Strip, Palestine",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/palestinian-death-toll-in-gaza-war-crosses-74000-health-ministry/article71515541.ece",
+      "image": "https://th-i.thgim.com/public/incoming/n699jn/article71515601.ece/alternates/LANDSCAPE_1200/Israel_Palestinians_Gaza_62671.jpg",
+      "ts": 1790502348000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/palestinian-death-toll-in-gaza-war-crosses-74000-health-ministry/article71515541.ece"
+          }
+        ]
+      }
+    },
     {
       "id": "6eaf0a51a6d2",
       "title": "Kiev taking 'exhaustive measures' to hinder reconstruction in DPR — Pushilin",
@@ -1256,11 +1388,11 @@
     },
     {
       "id": "108a7268d1bf",
-      "title": "Uganda Begins $121M South Sudan Power Interconnection Project",
-      "description": "Uganda launches a $121 million electricity interconnection project with South Sudan, aiming to boost regional energy trade and stability.",
+      "title": "Africa: All of Africa Today - September 25, 2026 — Uganda Begins $121M South Sudan Power Interconnection Project",
+      "description": "Uganda launches a $121 million electricity interconnection project with South Sudan to boost regional power trade.",
       "lat": 5.95,
       "lng": 31.599999999999994,
-      "severity": 1,
+      "severity": 2,
       "location": "Juba, South Sudan",
       "source": "All Africa",
       "url": "https://allafrica.com/stories/202609250212.html",
@@ -7146,143 +7278,6 @@
             "n": "Wall Street Journal World",
             "b": "lean_right",
             "u": "https://www.wsj.com/articles/kim-jong-un-is-doing-everything-he-can-to-keep-north-koreas-youth-in-line-0866a1de"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4744b0fe7041",
-      "title": "Iran downed at least 2 American drones in recent days",
-      "description": "Iranian forces shot down two U.S. MQ‑1 drones, escalating aerial tensions between Tehran and Washington.",
-      "lat": 38.9,
-      "lng": -77.04,
-      "severity": 3,
-      "location": "Washington, USA",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/iran-downed-american-drones-us-officials/",
-      "image": null,
-      "ts": 1789679220000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/iran-downed-american-drones-us-officials/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "033c2a9c75d9",
-      "title": "Trump administration approves $24 bn sale of F‑35 jets to Saudi Arabia",
-      "description": "The United States cleared a $24 billion deal to deliver F‑35 fighter aircraft to Riyadh amid the regional crisis.",
-      "lat": 25.81,
-      "lng": 48.575199999999995,
-      "severity": 2,
-      "location": "Riyadh, Saudi Arabia",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/9934acc6-6b06-4f2e-a37a-6cf0869092cb?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1789671509000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/9934acc6-6b06-4f2e-a37a-6cf0869092cb?syn-25a6b1a6=1"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/us-democrats-look-stop-trumps-saudi-nuclear-deal"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6afa979c7e31",
-      "title": "U.S. officials visit Myanmar to secure release of detained American businessman",
-      "description": "A U.S. delegation traveled to Naypyidaw to negotiate the freedom of U.S. citizen Adam Castillo held by the military‑backed government.",
-      "lat": 19.75,
-      "lng": 96.1,
-      "severity": 2,
-      "location": "Naypyidaw, Myanmar",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/us-officials-made-rare-visit-to-myanmar-to-free-american-businessman",
-      "image": null,
-      "ts": 1789669085000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/us-officials-made-rare-visit-to-myanmar-to-free-american-businessman"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2db675579d44",
-      "title": "Russia Ties Nestle, Auchan Asset Grabs to Europe Aid for Ukraine",
-      "description": "The Kremlin linked the seizure of Russian assets of Nestlé and Auchan to European military support for Ukraine, tightening economic pressure on Russia.",
-      "lat": 55.75,
-      "lng": 37.620000000000005,
-      "severity": 3,
-      "location": "Moscow, Russia",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-17/putin-orders-temporary-administration-of-nestle-assets-in-russia",
-      "image": null,
-      "ts": 1789666128000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-09-17/putin-orders-temporary-administration-of-nestle-assets-in-russia"
           }
         ]
       }
