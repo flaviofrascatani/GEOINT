@@ -1,19 +1,19 @@
 {
   "schema": 1,
-  "updated": "2026-09-27T22:59:02.035879+00:00",
+  "updated": "2026-09-28T01:35:23.074172+00:00",
   "events": [
     {
-      "id": "218dd3b89128",
-      "title": "Israel's Netanyahu visited Abu Dhabi and met UAE President",
-      "description": "Israeli Prime Minister Benjamin Netanyahu traveled to Abu Dhabi for a high‑level meeting with President Sheikh Mohammed bin Zayed Al Nahyan, reinforcing diplomatic ties.",
-      "lat": 25.57,
-      "lng": 54.370000000000005,
-      "severity": 2,
-      "location": "Abu Dhabi, United Arab Emirates",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/09/israels-netanyahu-visited-abu-dhabi-sunday-israeli-official-says",
+      "id": "78656c0ba729",
+      "title": "Israel strips Dutch diplomats of status in West Bank",
+      "description": "In retaliation to Dutch sanctions on settlement products, Israel's foreign ministry revoked the diplomatic status of Dutch embassy staff operating in the occupied West Bank.",
+      "lat": 31.9038,
+      "lng": 37.403400000000005,
+      "severity": 3,
+      "location": "Ramallah, West Bank",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/israel-strips-dutch-diplomats-of-status-in-west-bank/a-79451271?maca=en-rss-en-all-1573-rdf",
       "image": null,
-      "ts": 1790541988000,
+      "ts": 1790559322986,
       "coverage": {
         "left": 0,
         "center": 3,
@@ -28,19 +28,57 @@
         },
         "sources": [
           {
-            "n": "Jerusalem Post",
+            "n": "France 24",
             "b": "center",
-            "u": "https://www.jpost.com/israel-news/article-909903"
+            "u": "https://www.france24.com/en/middle-east/20260927-israel-revokes-dutch-diplomats-credentials-settlement-sanctions"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/israel-strips-dutch-diplomats-of-status-in-west-bank/a-79451271?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMjJIOHkwRlBTTTYzZldsNWNYT2R1X3BZTzYtSExFOGVvU1h4LVNpTnZMeUVFaXNoRGJ0SWZoa3NBeHAycU9qYk9PUTlrOE5uQS1VdEVsaW92cm9lMk5uaDZGNVVxTHJZbTZ5V0ZwUW9QUDMwOXpPYTRyNHBNSGdwT3RPZW5LbFlCMFpPNWtyNHN4ZDdDZlMzR2JyMG1UVGdVamdXakFSemZDY1JB0gGyAUFVX3lxTE16R3lDRl9mTl9SZkpEaGd2Z1RvekxxeXZVRTM2ckRVSzhwVndQSzB1OHRhbTBZUDBDN3NSZVh1LVdvLTY4aDhsY0pkVEZLVXQyQnhLTVRzY0tGenVnbHNuUHNWLTBBUGFYSGtUQmhzZW5ieUVmWmdtSlVsZlBUQWdFWkoyOFZnaDFOMXZxYmxkVFhKZXZHNkVMdndNRUpNcGdoU2w3Y1g4c2tSR1ZYZmFQd3c?oc=5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "218dd3b89128",
+      "title": "Israel's Netanyahu visited Abu Dhabi on Sunday, Israeli official says",
+      "description": "Israeli Prime Minister Benjamin Netanyahu met UAE President Sheikh Mohammed bin Zayed Al Nahyan in Abu Dhabi, marking another step in the recent normalization process between the two countries.",
+      "lat": 25.57,
+      "lng": 54.370000000000005,
+      "severity": 1,
+      "location": "Abu Dhabi, United Arab Emirates",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/09/israels-netanyahu-visited-abu-dhabi-sunday-israeli-official-says",
+      "image": null,
+      "ts": 1790541988000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/israeli-media-says-netanyahu-made-unannounced-visit-to-uae/article71517298.ece"
           },
           {
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/09/israels-netanyahu-visited-abu-dhabi-sunday-israeli-official-says"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/middle-east/article/3368981/israel-revokes-diplomatic-status-dutch-diplomats-ramallah?utm_source=rss_feed"
           }
         ]
       }
@@ -527,6 +565,44 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/646313-trump-rejects-iran-deal/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7223579d08a6",
+      "title": "Iran Says Won’t Soften Demands After Trump Rejects Hormuz Offer",
+      "description": "Iran reaffirmed its seven‑day proposal to reopen the Strait of Hormuz, rejecting the U.S. president’s mixed signals and warning of continued pressure on shipping.",
+      "lat": 26.5725,
+      "lng": 56.26580000000001,
+      "severity": 2,
+      "location": "Strait of Hormuz",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-27/iran-says-won-t-soften-demands-after-trump-rejects-hormuz-offer",
+      "image": null,
+      "ts": 1790494861000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORDZjNkdzeS11c0ZDdWpBNXc1ZVdJTTN3b2l0WDJ4eHFXMXF3VXRxVElkT1RUV1JGT2Y3TW1sMEM2U2t3bXZWNS15SVdnV0trMDIydjlVRElmM0NwLXpTdGhxY2c5MURnV0NJb1lqdE00Y3JwMXlkbUM2anpvSlh5NHdWd0FHY0NSeDZwSDZGREZtZnQ3aEpuU29n?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-09-27/iran-says-won-t-soften-demands-after-trump-rejects-hormuz-offer"
           }
         ]
       }
@@ -7292,72 +7368,6 @@
             "n": "CNBC World",
             "b": "center",
             "u": "https://www.cnbc.com/2026/09/18/nestle-russia-assets-putin-ukraine-war.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "652bf159f0df",
-      "title": "Attacchi alla base aerea di Ta’if in Arabia, colpito un Eurofighter italiano",
-      "description": "An air base in Ta’if, Saudi Arabia was struck, damaging an Italian Eurofighter; the attack highlights the ongoing regional conflict.",
-      "lat": 21.27,
-      "lng": 40.42,
-      "severity": 4,
-      "location": "Ta’if, Saudi Arabia",
-      "source": "AGI Estero",
-      "url": "https://www.agi.it/estero/news/2026-09-18/arabia-saudita-attacco-base-colpito-eurofighter-italiano-39121944/",
-      "image": "https://images.agi.it/pictures/agi/agi/2026/09/18/085053647-ea55125c-1c54-461e-ae07-25146ce4ea0c.jpg",
-      "ts": 1789729348000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-09-18/arabia-saudita-attacco-base-colpito-eurofighter-italiano-39121944/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5610923f9bb4",
-      "title": "Lee meets UAE official to discuss continued cooperation",
-      "description": "South Korean President Lee Jae‑Myung met with a United Arab Emirates representative in Seoul to deepen bilateral ties and explore joint projects.",
-      "lat": 38.67,
-      "lng": 128.8852,
-      "severity": 2,
-      "location": "Seoul, South Korea",
-      "source": "Yonhap News",
-      "url": "https://en.yna.co.kr/view/AEN20260918011200315",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091823860001300_P2.jpg",
-      "ts": 1789728570000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20260918011200315"
           }
         ]
       }
