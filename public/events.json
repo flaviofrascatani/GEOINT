@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-09-28T07:36:51.301793+00:00",
+  "updated": "2026-09-28T15:57:49.882603+00:00",
   "events": [
+    {
+      "id": "dd569763e7eb",
+      "title": "Hybrid warfare: The threat of Russia looms over the Mediterranean",
+      "description": "Intelligence reports warn that Russia is preparing hybrid operations across the Mediterranean Sea.",
+      "lat": 36.0,
+      "lng": 18.0,
+      "severity": 2,
+      "location": "Mediterranean Sea",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/europe/20260928-hybrid-warfare-the-threat-of-russia-looms-over-the-mediterranean",
+      "image": "https://s.france24.com/media/display/4525906e-bb51-11f1-8930-177f79e345bf/w:1024/p:16x9/mediterranee-russe-EN.jpg",
+      "ts": 1790609985000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/europe/20260928-hybrid-warfare-the-threat-of-russia-looms-over-the-mediterranean"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7fda306ef362",
+      "title": "Lebanon PM meets Rubio as Israel talks stall",
+      "description": "Lebanese Prime Minister meets U.S. Senator Marco Rubio in Beirut to discuss stalled U.S.-brokered talks with Israel.",
+      "lat": 34.99,
+      "lng": 35.50999999999999,
+      "severity": 2,
+      "location": "Beirut, Lebanon",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/09/lebanon-pm-meets-rubio-israel-talks-stall-what-know",
+      "image": null,
+      "ts": 1790607271000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/09/lebanon-pm-meets-rubio-israel-talks-stall-what-know"
+          }
+        ]
+      }
+    },
+    {
+      "id": "42be0338cac6",
+      "title": "India poll chief Gyanesh Kumar under pressure over alleged manipulation of electoral rolls",
+      "description": "Opposition parties demand the resignation of India's election chief amid accusations of voter‑list tampering.",
+      "lat": 28.61,
+      "lng": 77.20999999999998,
+      "severity": 3,
+      "location": "New Delhi, India",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/india-poll-chief-gyanesh-kumar-under-pressure-over-alleged-manipulation-of-electoral-rolls",
+      "image": null,
+      "ts": 1790600569000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/india-poll-chief-gyanesh-kumar-under-pressure-over-alleged-manipulation-of-electoral-rolls"
+          }
+        ]
+      }
+    },
     {
       "id": "6afcc9633434",
       "title": "UK police 'investigate Iran link' to alleged bomb threat against base hosting U.S. Air Force",
@@ -122,6 +221,54 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/09/saudi-foreign-minister-arrives-washington-talks-rubio"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eb3a751cd724",
+      "title": "Trump Asked China's President If He Wants To Buy U.S. Arms, Ambassador Says",
+      "description": "U.S. ambassador to China reports that former President Donald Trump offered President Xi Jinping the opportunity to purchase American weapons.",
+      "lat": 39.9,
+      "lng": 116.4,
+      "severity": 2,
+      "location": "Beijing, China",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/trump-china-us-arms-ambassador_n_6ab9c495e4b07795582cb512",
+      "image": null,
+      "ts": 1790559782000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 1,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/trump-china-us-arms-ambassador_n_6ab9c495e4b07795582cb512"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/trump-asked-chinas-president-xi-if-he-wanted-to-buy-us-arms-while-defending-taiwan-sale-says-envoy/article71519100.ece"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/trump-asked-chinas-president-if-he-wanted-to-buy-us-weapons-says-ambassador-13592653"
+          },
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/09/28/asia-pacific/politics/trump-sell-weapons-china/"
           }
         ]
       }
@@ -7241,158 +7388,6 @@
             "n": "All Africa",
             "b": "center",
             "u": "https://allafrica.com/stories/202609180555.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "637513a7203e",
-      "title": "Madagascar tourist arrivals grow despite instability",
-      "description": "The Indian Ocean island recorded nearly 150,000 tourist arrivals in the first half of 2026, indicating a rebound in travel despite ongoing political instability.",
-      "lat": -18.88,
-      "lng": 47.52,
-      "severity": 1,
-      "location": "Antananarivo, Madagascar",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/09/18/madagascar-tourist-arrivals-grow-despite-instability/",
-      "image": "http://images.euronews.com/articles/stories/09/91/91/40/640x360_cmsv2_e02611f9-ee98-5e01-8a9d-c7902751524c-9919140.jpg?1789737328",
-      "ts": 1789749522000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/09/18/madagascar-tourist-arrivals-grow-despite-instability/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2973a885b927",
-      "title": "Saudi Aramco curbs Europe crude exports to support Asia supplies",
-      "description": "Saudi Arabia redirects about 60 million barrels of crude through the Strait of Hormuz to Oman’s Sohar port, reducing shipments to Europe in favor of Asian markets.",
-      "lat": 27.67,
-      "lng": 58.15520000000001,
-      "severity": 2,
-      "location": "Strait of Hormuz",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/09/saudi-aramco-curbs-europe-crude-exports-support-asia-supplies",
-      "image": null,
-      "ts": 1789744215000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/saudi-aramco-curbs-europe-crude-exports-support-asia-supplies"
-          }
-        ]
-      }
-    },
-    {
-      "id": "85f01a9f3b5a",
-      "title": "Russian hybrid attacks against Europe intensifying, says Macron",
-      "description": "Il presidente francese Emmanuel Macron ha avvertito di un aumento degli attacchi ibridi russi contro infrastrutture critiche e siti della difesa in Europa.",
-      "lat": 49.96,
-      "lng": 2.3499999999999943,
-      "severity": 2,
-      "location": "Paris, France",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cm2dw1w9d3yjo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/72d4/live/9686b940-b360-11f1-8f19-bd786ea30d0b.jpg",
-      "ts": 1789742521000,
-      "coverage": {
-        "left": 1,
-        "center": 4,
-        "right": 0,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 4,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/france/article/2026/09/18/macron-orders-protection-of-france-s-infrastructure-against-russian-hybrid-attacks_6757676_7.html"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cm2dw1w9d3yjo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/video/20260918-replay-macron-orders-plan-to-counter-russian-hybrid-attacks"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/france-macron-orders-defense-against-russian-hybrid-attacks/a-79329757?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xRVBhVWg5em1aNmVhakttdU8wWkJ4aVRWVFdrcHpmWFJKOTR4bDcyMThlSmtQQ2VJQWU1SzlJQlk0dXM5a211LWlhazY1SnJFeVZSdkpTSG9BWkk?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "45d6d4f9402a",
-      "title": "La fregata Bergamini scorta un mercantile italiano a Bab el-Mandeb",
-      "description": "La Marina italiana ha inviato la fregata Bergamini a scortare un mercantile italiano attraverso lo stretto di Bab el‑Mandeb, segnale di presenza navale nella rotta strategica.",
-      "lat": 13.81,
-      "lng": 43.28,
-      "severity": 2,
-      "location": "Bab el‑Mandeb, Yemen",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/africa/2026/09/18/la-fregata-bergamini-scorta-un-mercantile-italiano-a-bab-el-mandeb_2708dbf7-ef46-4ae2-9841-2489604162d0.html",
-      "image": null,
-      "ts": 1789740890000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/africa/2026/09/18/la-fregata-bergamini-scorta-un-mercantile-italiano-a-bab-el-mandeb_2708dbf7-ef46-4ae2-9841-2489604162d0.html"
           }
         ]
       }
