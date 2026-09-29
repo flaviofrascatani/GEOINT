@@ -1,7 +1,172 @@
 {
   "schema": 1,
-  "updated": "2026-09-29T01:51:15.714001+00:00",
+  "updated": "2026-09-29T08:22:25.117742+00:00",
   "events": [
+    {
+      "id": "e616aa8ccbe7",
+      "title": "Locomotive depot, data centers in Kiev hit in Russian forces’ group strike",
+      "description": "Russian forces struck a locomotive depot and data centre in Kyiv, causing infrastructure damage amid ongoing hostilities.",
+      "lat": 50.45,
+      "lng": 30.52,
+      "severity": 4,
+      "location": "Kyiv, Ukraine",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2194349",
+      "image": null,
+      "ts": 1790669594000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2194349"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9c32ff947681",
+      "title": "Ex-foreign minister holds talks with China’s top diplomat, economic official",
+      "description": "Japanese ex‑foreign minister met China’s foreign minister Wang Yi, who warned that bilateral relations are in a \"severe situation\" and need to be normalized again.",
+      "lat": 41.0042,
+      "lng": 116.4074,
+      "severity": 3,
+      "location": "Beijing, China",
+      "source": "Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/09/29/japan/politics/china-foreign-minister-japan-iwaya/",
+      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/09/29/565643.jpg",
+      "ts": 1790668440000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/09/29/japan/politics/china-foreign-minister-japan-iwaya/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3568669e50ec",
+      "title": "Over 100 Jewish extremist settlers riot near West Bank town, clash with Israeli forces",
+      "description": "Extremist settlers clashed with Israeli Border Police near Jalud, setting fire to property and injuring three officers.",
+      "lat": 31.95,
+      "lng": 35.150000000000006,
+      "severity": 3,
+      "location": "Jalud, West Bank",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/israel-news/article-910035",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_712,w_1262/739765",
+      "ts": 1790668263000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/israel-news/article-910035"
+          }
+        ]
+      }
+    },
+    {
+      "id": "81568e11045d",
+      "title": "Spanish fighter jets scrambled with Romania 'alert' as Putin launches huge attack",
+      "description": "Two Spanish F‑18s were dispatched to monitor the situation after Russia launched a major attack on Ukraine, reflecting heightened NATO vigilance.",
+      "lat": 50.4501,
+      "lng": 32.42860000000002,
+      "severity": 3,
+      "location": "Kyiv, Ukraine",
+      "source": "Mirror World",
+      "url": "https://www.mirror.co.uk/news/world-news/romania-russia-ukraine-nato-spain-37712734",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37706554.ece/ALTERNATES/s615/7_Activity-at-the-Torrejon-de-Ardoz-military-base-on-the-occasion-of-the-National-Day-of-Spain-parade.jpg",
+      "ts": 1790666679000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/romania-russia-ukraine-nato-spain-37712734"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9ba5ac589205",
+      "title": "Turkish diplomat Güllüoğlu appointed to senior UN posts",
+      "description": "Former Turkish ambassador Mehmet Güllüoğlu was appointed to two senior positions within the United Nations Office for the Coordination of Humanitarian Affairs.",
+      "lat": 40.7128,
+      "lng": -72.1008,
+      "severity": 1,
+      "location": "New York, United States",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/politics/turkish-diplomat-gulluoglu-appointed-to-senior-un-posts/news",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/09/29/462762.jpg",
+      "ts": 1790664480000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/politics/turkish-diplomat-gulluoglu-appointed-to-senior-un-posts/news"
+          }
+        ]
+      }
+    },
     {
       "id": "c545b65dc33d",
       "title": "US visa clash exposes Sudan’s forgotten war as foreign powers compete for strategic foothold",
@@ -829,39 +994,6 @@
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/south-korea-voices-regret-over-ukraine-denial-of-pact-on-north-korean-pows-yonhap-reports"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e616aa8ccbe7",
-      "title": "Russian forces strike Omega Telecom data center in Kiev",
-      "description": "Russian military targeted the Omega Telecom data centre in Kyiv, a key communications hub used by Ukrainian forces.",
-      "lat": 50.45,
-      "lng": 30.52,
-      "severity": 3,
-      "location": "Kyiv, Ukraine",
-      "source": "TASS",
-      "url": "https://tass.com/defense/2193639",
-      "image": null,
-      "ts": 1790523351000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/defense/2193639"
           }
         ]
       }
@@ -7191,153 +7323,6 @@
             "n": "Japan Times",
             "b": "center",
             "u": "https://www.japantimes.co.jp/news/2026/09/19/japan/politics/koizumi-hegseth-japan-us-talks/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b7b903808dcb",
-      "title": "FBI suspended cooperation with Canada over 9/11 language – NYT",
-      "description": "The U.S. Federal Bureau of Investigation temporarily halted certain collaborative activities with Canadian authorities after a dispute over terminology used in 9/11 reporting.",
-      "lat": 45.42,
-      "lng": -75.7,
-      "severity": 3,
-      "location": "Ottawa, Canada",
-      "source": "RT News",
-      "url": "https://www.rt.com/news/645973-fbi-canada-halt-cooperation/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.09/thumbnail/6aae13fd20302749527d319f.jpg",
-      "ts": 1789793392000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/645973-fbi-canada-halt-cooperation/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e200940ecb34",
-      "title": "North Korea says nuclear status 'irreversible' after UN atomic agency rebuke",
-      "description": "Kim Yo Jong declared North Korea's nuclear capability permanent, rejecting IAEA criticism and signalling continued defiance.",
-      "lat": 39.03,
-      "lng": 125.75,
-      "severity": 3,
-      "location": "Pyongyang, North Korea",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/north-korea-says-nuclear-status-irreversible-after-un-atomic-agency-rebuke/article71483443.ece",
-      "image": null,
-      "ts": 1789780294000,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/north-korea-says-nuclear-status-irreversible-after-un-atomic-agency-rebuke/article71483443.ece"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-09-18/north-korea-rejects-iaea-resolution-vows-to-keep-nuclear-status"
-          },
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/09/18/asia-pacific/north-korea-us-drills/"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/north-korea-says-nuclear-status-irreversible-after-un-atomic-agency-rebuke"
-          }
-        ]
-      }
-    },
-    {
-      "id": "48bd7737c5e9",
-      "title": "Russian forces capture new lines in two sectors near DPR’s Druzhkovka",
-      "description": "Russian troops reported taking additional front‑line positions near the village of Druzhkovka in the Donetsk People's Republic, indicating ongoing combat escalation.",
-      "lat": 48.0,
-      "lng": 38.0,
-      "severity": 3,
-      "location": "Druzhkovka, Donetsk region, Ukraine",
-      "source": "TASS",
-      "url": "https://tass.com/politics/2190001",
-      "image": null,
-      "ts": 1789778640000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/politics/2190001"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1f07e7785f28",
-      "title": "Cuba plunges into total blackout as electrical grid collapses again, US Embassy warns",
-      "description": "A nationwide power failure shut down electricity, mobile networks and internet across Cuba, prompting a warning from the US embassy about humanitarian impacts.",
-      "lat": 23.13,
-      "lng": -82.38,
-      "severity": 3,
-      "location": "Havana, Cuba",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/cuba-plunges-total-blackout-electrical-grid-collapses-us-embassy-warns",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/cuba-power-outage.png?ve=1&tl=1",
-      "ts": 1789778290000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/cuba-plunges-total-blackout-electrical-grid-collapses-us-embassy-warns"
           }
         ]
       }
