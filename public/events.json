@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-09-28T21:53:25.486318+00:00",
+  "updated": "2026-09-29T01:51:15.714001+00:00",
   "events": [
+    {
+      "id": "c545b65dc33d",
+      "title": "US visa clash exposes Sudan’s forgotten war as foreign powers compete for strategic foothold",
+      "description": "Der Sudanese Oberbefehlshaber Abdel Fattah al‑Burhan reagierte trotzig, nachdem die USA ihm das Visum verweigerten, was die Spannungen im langjährigen Konflikt verschärft.",
+      "lat": 15.6,
+      "lng": 32.53,
+      "severity": 3,
+      "location": "Khartum, Sudan",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/us-visa-clash-exposes-sudans-forgotten-war-foreign-powers-compete-strategic-foothold",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/Sudan-soldiers.jpg?ve=1&tl=1",
+      "ts": 1790633722000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/us-visa-clash-exposes-sudans-forgotten-war-foreign-powers-compete-strategic-foothold"
+          }
+        ]
+      }
+    },
     {
       "id": "a4bed695d434",
       "title": "UAE president discussed bilateral relations with Israel's Netanyahu, state news agency says",
@@ -109,6 +142,39 @@
       "lng": 44.21000000000001,
       "severity": 3,
       "location": "Sana'a, Yemen",
+      "source": "Le Monde English",
+      "url": "https://www.lemonde.fr/en/international/article/2026/09/28/we-have-nothing-no-safe-place-no-food-yemen-s-humanitarian-crisis-is-worsening_6758047_4.html",
+      "image": "https://img.lemde.fr/2026/09/24/735/0/5429/2714/644/322/60/0/3665eb6_ftp-1-h0zqelyq2bc7-ea999d1ffd7040038cb67e8c092ad150-0-7a3d1e9ced81487b83c2390b00988e2c.jpg",
+      "ts": 1790621103000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/09/28/we-have-nothing-no-safe-place-no-food-yemen-s-humanitarian-crisis-is-worsening_6758047_4.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2fffb3f4e0a",
+      "title": "'We have nothing, no safe place, no food': Yemen's humanitarian crisis is worsening",
+      "description": "Der anhaltende Konflikt zwischen Huthi und Regierungstruppen verschärft die humanitäre Lage in Jemen, wo über 130.000 Menschen vertrieben sind.",
+      "lat": 16.45,
+      "lng": 46.095200000000006,
+      "severity": 3,
+      "location": "Sanaa, Jemen",
       "source": "Le Monde English",
       "url": "https://www.lemonde.fr/en/international/article/2026/09/28/we-have-nothing-no-safe-place-no-food-yemen-s-humanitarian-crisis-is-worsening_6758047_4.html",
       "image": "https://img.lemde.fr/2026/09/24/735/0/5429/2714/644/322/60/0/3665eb6_ftp-1-h0zqelyq2bc7-ea999d1ffd7040038cb67e8c092ad150-0-7a3d1e9ced81487b83c2390b00988e2c.jpg",
@@ -7272,122 +7338,6 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/cuba-plunges-total-blackout-electrical-grid-collapses-us-embassy-warns"
-          }
-        ]
-      }
-    },
-    {
-      "id": "660365a011f4",
-      "title": "Denmark deal gives US permanent control over security of Greenland",
-      "description": "Denmark and the United States signed an agreement granting the U.S. permanent security control over Greenland, welcomed by NATO.",
-      "lat": 41.81,
-      "lng": -74.01,
-      "severity": 2,
-      "location": "New York City, United States",
-      "source": "Sky News World",
-      "url": "https://news.sky.com/story/trump-says-us-has-entered-deal-with-denmark-giving-us-control-over-security-on-greenland-13589529",
-      "image": null,
-      "ts": 1789768791000,
-      "coverage": {
-        "left": 4,
-        "center": 5,
-        "right": 2,
-        "total": 11,
-        "buckets": {
-          "left": 1,
-          "lean_left": 3,
-          "center": 5,
-          "lean_right": 1,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/denmark-us-greenland-deal_n_6aae71b5e4b03a8a58d6c235"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/video/trump-announces-deal-with-denmark-for-permanent-control-over-greenland-s-security-270132805853"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/denmark-greenland-leaders-us-security-deal-trump/"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/9/19/denmark-says-binding-us-deal-on-greenland-wont-compromise-sovereignty?traffic_source=rss"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/09/18/trump-greenland-denmark-military-deal.html"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/trump-says-us-has-entered-deal-with-denmark-giving-us-control-over-security-on-greenland-13589529"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUUswdG5RR3A3czVTQV82SzUwWDh1ZDZrYjNXcld1cUQwOW9nZENwVlhQRVpfMXRQY2RXZ1pLcVlnal9jeGJxelREVVpWeTZyTTI2bnJKUXlIYUNtNklZQnkyWHNPX1NzZ1lIRVB2SVFfWkJTWkg4ZFM5WE5rdTVISldEczdQX1BIdkRyd21lYVhibzVLRkwwOGVIWXdfODNPRzloNWhEWQ?oc=5"
-          },
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/09/20/world/politics/denmark-trump-greenland-deal/"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/united-states-canada/article/3368126/denmark-cautiously-optimistic-over-trumps-greenland-deal?utm_source=rss_feed"
-          },
-          {
-            "n": "New York Post",
-            "b": "lean_right",
-            "u": "https://nypost.com/2026/09/19/world-news/trumps-denmark-greenland-pact-blocks-china-and-russias-bases/"
-          },
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2249900/donald-trump-greenland-security-deal-denmark"
-          }
-        ]
-      }
-    },
-    {
-      "id": "730bd91c2798",
-      "title": "Spike hazard: Thai farmers go all in to feed China's durian craving",
-      "description": "Thai farmers increase production to meet rising Chinese demand for durian, highlighting a significant trade shift in the region.",
-      "lat": 13.7563,
-      "lng": 100.5018,
-      "severity": 2,
-      "location": "Bangkok, Thailand",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/spotlight/big-in-asia/spike-hazard-thai-farmers-go-all-in-to-feed-china-s-durian-craving",
-      "image": null,
-      "ts": 1789765962712,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Nikkei Asia",
-            "b": "center",
-            "u": "https://asia.nikkei.com/spotlight/big-in-asia/spike-hazard-thai-farmers-go-all-in-to-feed-china-s-durian-craving"
           }
         ]
       }
