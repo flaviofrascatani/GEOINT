@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-09-29T08:22:25.117742+00:00",
+  "updated": "2026-09-29T15:03:51.713888+00:00",
   "events": [
+    {
+      "id": "05f7e99a24ed",
+      "title": "Iran says it expects response to cease‑fire plan already rejected by Trump",
+      "description": "Iran warned it will respond after the U.S. rejected its cease‑fire proposal, heightening diplomatic tension.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-strait-of-hormuz/",
+      "image": null,
+      "ts": 1790692979000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-strait-of-hormuz/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4a033e8b284b",
+      "title": "Israel’s Gaza air strike kills Hamas commander behind October 7, 2023 attack",
+      "description": "An Israeli air strike in north Gaza killed the head of Hamas’ armed wing, a key figure linked to the Oct 7 attacks.",
+      "lat": 30.4274,
+      "lng": 35.920000000000016,
+      "severity": 4,
+      "location": "Beit Hanoun, Gaza Strip",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3369244/israels-gaza-air-strike-kills-hamas-commander-behind-october-7-2023-attack?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/29/c928d480-2e84-4f11-ace9-8faf22128c27_01f8a200.jpg?itok=u0l7KR6Y&v=1790692844",
+      "ts": 1790692845000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/israel-news/article-910056"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/middle-east/article/3369244/israels-gaza-air-strike-kills-hamas-commander-behind-october-7-2023-attack?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dbc1a9acc3c8",
+      "title": "America's Canadian import restrictions come into force",
+      "description": "The United States imposed new import bans on several Canadian products, escalating trade friction between the two nations.",
+      "lat": 45.42,
+      "lng": -75.7,
+      "severity": 2,
+      "location": "Ottawa, Canada",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/09/29/canada-import-ban-trade-war.html",
+      "image": null,
+      "ts": 1790680999000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/09/29/canada-import-ban-trade-war.html"
+          }
+        ]
+      }
+    },
     {
       "id": "e616aa8ccbe7",
       "title": "Locomotive depot, data centers in Kiev hit in Russian forces’ group strike",
@@ -432,6 +536,44 @@
             "n": "France 24",
             "b": "center",
             "u": "https://www.france24.com/en/europe/20260928-hybrid-warfare-the-threat-of-russia-looms-over-the-mediterranean"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d1a3db92fe4f",
+      "title": "5 Men Released On Bail After Arrest Near U.S.-Run Air Base In England, Police Say",
+      "description": "British police arrested five men near RAF Lakenheath on counter‑terrorism charges; they were later released on bail.",
+      "lat": 51.4974,
+      "lng": 2.1999999999999886,
+      "severity": 3,
+      "location": "RAF Lakenheath, United Kingdom",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/five-men-released-us-air-base-england-police-counterterrorism_n_6aba83a8e4b00588e1d560e5",
+      "image": null,
+      "ts": 1790609006000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 1,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/five-men-released-us-air-base-england-police-counterterrorism_n_6aba83a8e4b00588e1d560e5"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/england-raf-fairford-us-military-air-force-bomb-disposal/"
           }
         ]
       }
@@ -7176,153 +7318,6 @@
             "n": "Wall Street Journal World",
             "b": "lean_right",
             "u": "https://www.wsj.com/articles/shippers-wary-of-red-sea-routes-despite-houthi-pledge-to-end-targeting-4dde35c2"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cf13063e1d09",
-      "title": "US lifts sanctions on Eritrea ‘to advance US regional interests’ in Red Sea",
-      "description": "Washington announced the removal of economic sanctions on Eritrea, aiming to strengthen cooperation in the Red Sea corridor.",
-      "lat": 15.33,
-      "lng": 38.93,
-      "severity": 2,
-      "location": "Asmara, Eritrea",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNkg2ZVg2dUFJLTc3eVlKWVRoTjRFR1dlSTBaUEhyTkRwemxDd2JMU3lWYWF3b1FWUGNtOTVqd3VRUzhCMEdUTmZuVnlqUy1xSlBnTVZ0aGYyR0JDRFBsc25nVlZQN3R4SkRSOGlxUE4zU0JMVF9oaGlydXVQY0lxSmhpOWk2THpqYTlEd2pmWkxMbjlnLUtweExKNkV2Y082emYzOE5XbTBZRGF4YVRqVXE4cXLSAboBQVVfeXFMTTFETFV1ZHNPNEVTcFNWR3RkUW1DVjl6bmNFZUcxcS1MQ1R5TGRiamllb2p4WG5BdGFTNFRxVnZpd0ZwQV9mOXVPRkR4djFjdEg4X2NSSUw5ZEZuYnI2NTVOMmF6TUxjcWJXUFBmdkM5dmFqbUVFUmYwZ3MxWEJ2UFVNSC1ZMlRhaGJlcno0RFZ5cVI4a3FyY19LQ3pXY2RoYmFjbHVnOVJHWGk1VkEtcmNqdE5HeERZSE5R?oc=5",
-      "image": null,
-      "ts": 1789821522000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/9/19/us-lifts-sanctions-on-eritrea-imposed-during-conflict-in-ethiopias-tigray?traffic_source=rss"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNkg2ZVg2dUFJLTc3eVlKWVRoTjRFR1dlSTBaUEhyTkRwemxDd2JMU3lWYWF3b1FWUGNtOTVqd3VRUzhCMEdUTmZuVnlqUy1xSlBnTVZ0aGYyR0JDRFBsc25nVlZQN3R4SkRSOGlxUE4zU0JMVF9oaGlydXVQY0lxSmhpOWk2THpqYTlEd2pmWkxMbjlnLUtweExKNkV2Y082emYzOE5XbTBZRGF4YVRqVXE4cXLSAboBQVVfeXFMTTFETFV1ZHNPNEVTcFNWR3RkUW1DVjl6bmNFZUcxcS1MQ1R5TGRiamllb2p4WG5BdGFTNFRxVnZpd0ZwQV9mOXVPRkR4djFjdEg4X2NSSUw5ZEZuYnI2NTVOMmF6TUxjcWJXUFBmdkM5dmFqbUVFUmYwZ3MxWEJ2UFVNSC1ZMlRhaGJlcno0RFZ5cVI4a3FyY19LQ3pXY2RoYmFjbHVnOVJHWGk1VkEtcmNqdE5HeERZSE5R?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "55126a8b9aea",
-      "title": "UK calls Argentine action against Falklands companies “unacceptable”",
-      "description": "Britain formally protested Argentina’s legal actions against UK‑linked firms operating in the Falkland Islands, labeling them without legal basis.",
-      "lat": -34.6,
-      "lng": -58.38,
-      "severity": 3,
-      "location": "Buenos Aires, Argentina",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/09/19/uk-calls-argentine-action-against-falklands-companies-unacceptable?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111504/100x80/2jm.jpg",
-      "ts": 1789810320000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/09/19/uk-calls-argentine-action-against-falklands-companies-unacceptable?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "02de6df00826",
-      "title": "Russia holds parliamentary vote in areas it seized from Ukraine in the war",
-      "description": "Russia conducted elections in occupied Ukrainian territories, a move condemned as illegal by Kyiv and international observers.",
-      "lat": 55.75,
-      "lng": 37.620000000000005,
-      "severity": 4,
-      "location": "Moscow, Russia",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/russia-holds-parliamentary-vote-in-areas-it-seized-from-ukraine-in-the-war/article71483671.ece",
-      "image": "https://static.toiimg.com/photo/msid-134321046,imgsize-294222.cms",
-      "ts": 1789797155000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/now/video/russia-holds-first-parliamentary-election-since-war-in-ukraine-began-270118981859"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/russia-holds-parliamentary-vote-in-areas-it-seized-from-ukraine-in-the-war/article71483671.ece"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/voters-get-choose-just-not-result-russias-parliamentary-election-reaches-occupied-ukraine"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a9d6ed318dee",
-      "title": "Koizumi and U.S. defense chief Hegseth agree to boost security cooperation",
-      "description": "Japan’s defence minister and the U.S. secretary of defence pledged deeper security cooperation and joint exercises.",
-      "lat": 36.78,
-      "lng": 139.76,
-      "severity": 2,
-      "location": "Tokyo, Japan",
-      "source": "Japan Times",
-      "url": "https://www.japantimes.co.jp/news/2026/09/19/japan/politics/koizumi-hegseth-japan-us-talks/",
-      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/09/19/564000.jpg",
-      "ts": 1789794360000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/09/19/japan/politics/koizumi-hegseth-japan-us-talks/"
           }
         ]
       }
