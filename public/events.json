@@ -1,51 +1,112 @@
 {
   "schema": 1,
-  "updated": "2026-09-29T19:57:51.475815+00:00",
+  "updated": "2026-09-29T23:39:31.518519+00:00",
   "events": [
     {
-      "id": "aed09c0788d6",
-      "title": "Morocco: King appoints first woman prime minister",
-      "description": "King Mohammed VI appointed Fatima Zahra Mansouri as Morocco's first female prime minister following her party's parliamentary victory.",
-      "lat": 31.63,
-      "lng": -8.0,
-      "severity": 2,
-      "location": "Rabat, Morocco",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/morocco-king-appoints-first-woman-prime-minister/a-79479722?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1790711871303,
+      "id": "fa6183edf36b",
+      "title": "Pentagon signs $20 billion Boeing deal for 6th‑generation strike fighter",
+      "description": "The U.S. Department of Defense awarded Boeing a $20 billion contract to develop the Navy’s next‑generation sixth‑generation strike fighter.",
+      "lat": 38.87,
+      "lng": -77.05,
+      "severity": 3,
+      "location": "The Pentagon, Arlington VA, USA",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/pentagon-signs-20-billion-boeing-deal-for-6th-generation-strike-fighter-12117289#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-09/6j53f1kg_boeing-logo_625x300_30_September_26.jpeg",
+      "ts": 1790723372000,
       "coverage": {
         "left": 2,
-        "center": 2,
-        "right": 1,
-        "total": 5,
+        "center": 0,
+        "right": 0,
+        "total": 2,
         "buckets": {
           "left": 0,
           "lean_left": 2,
-          "center": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/pentagon-signs-20-billion-boeing-deal-for-6th-generation-strike-fighter-12117289#publisher=newsstand"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/09/30/pentagon-picks-boeing-for-new-us-navy-contract-valued-at-20-billion-for-air-strike-weapons_6758089_4.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f179fa3b1b9f",
+      "title": "Trump says AI companies sign voluntary accord on safety controls",
+      "description": "President Trump and leaders of major AI firms signed a voluntary agreement to strengthen safety reviews and self‑regulation of artificial‑intelligence technologies.",
+      "lat": 38.9,
+      "lng": -77.04,
+      "severity": 2,
+      "location": "Washington DC, USA",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/technology/20260929-trump-says-ai-companies-sign-voluntary-accord-on-safety-controls",
+      "image": "https://s.france24.com/media/display/90fd0ef6-bc49-11f1-9860-852b23529bb9/w:1024/p:16x9/Part-GTY-2297774094-1-1-0.jpg",
+      "ts": 1790722087000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/technology/20260929-trump-says-ai-companies-sign-voluntary-accord-on-safety-controls"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aed09c0788d6",
+      "title": "Morocco appoints its first female prime minister",
+      "description": "King Mohammed VI issued a royal decree naming Fatima Zahra El Mansouri as Morocco’s first female prime minister, tasking her with forming a new cabinet.",
+      "lat": 31.63,
+      "lng": -8.0,
+      "severity": 1,
+      "location": "Rabat, Morocco",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/09/29/morocco-appoints-its-first-female-prime-minister/",
+      "image": null,
+      "ts": 1790719346000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
           "lean_right": 1,
           "right": 0
         },
         "sources": [
           {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/09/29/morocco-appoints-its-first-female-prime-minister/"
+          },
+          {
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/moroccos-king-appoints-countrys-woman-prime-minister-136858899"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/9/29/truly-historic-moroccos-king-appoints-first-woman-prime-minister?traffic_source=rss"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/africa/20260929-morocco-king-appoints-first-woman-prime-minister-el-mansouri-after-parliamentary-vote"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/morocco-king-appoints-first-woman-prime-minister/a-79479722?maca=en-rss-en-all-1573-rdf"
           },
           {
             "n": "Daily Sabah",
@@ -155,6 +216,39 @@
       }
     },
     {
+      "id": "256ce1a42c4d",
+      "title": "Motorcycle patrols swarm Iranian cities, checkpoints rise as regime braces for unrest",
+      "description": "Iran’s IRGC, Basij and police intensified security in Tehran with numerous checkpoints and patrols amid growing student protests over compulsory hijab laws.",
+      "lat": 35.68,
+      "lng": 51.389999999999986,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/motorcycle-patrols-swarm-iranian-cities-checkpoints-rise-regime-braces-unrest",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/Motorcycles-Iran-Sep-2026.jpg?ve=1&tl=1",
+      "ts": 1790700243000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/motorcycle-patrols-swarm-iranian-cities-checkpoints-rise-regime-braces-unrest"
+          }
+        ]
+      }
+    },
+    {
       "id": "32af708c83bc",
       "title": "Tankers Are Loading Oil Again From a Vital Saudi Pipeline",
       "description": "Saudi authorities resumed oil loading on tankers from a key pipeline after it was temporarily shut down following a drone attack.",
@@ -254,6 +348,39 @@
             "n": "South China Morning Post",
             "b": "center",
             "u": "https://www.scmp.com/news/world/middle-east/article/3369244/israels-gaza-air-strike-kills-hamas-commander-behind-october-7-2023-attack?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "812ee513065d",
+      "title": "Russia's spy agency opens criminal case against Lib Dem councillor in London",
+      "description": "Russia’s security service launched a criminal investigation against a Russian exile living in London, accusing her of involvement with a terrorist organization.",
+      "lat": 50.96,
+      "lng": 0.8225999999999942,
+      "severity": 3,
+      "location": "London, United Kingdom",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/russias-spy-agency-opens-criminal-case-against-lib-dem-councillor-13593293",
+      "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ksenia-maximova-russia_7364167.jpg?20260929150252",
+      "ts": 1790689140000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/russias-spy-agency-opens-criminal-case-against-lib-dem-councillor-13593293"
           }
         ]
       }
@@ -7201,138 +7328,6 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/saudi-arabia-facing-biggest-threat-oil-production-iran-proxy-houthis-launch-attacks-expert-says"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5976c2217775",
-      "title": "Paraguay Leader Visits Venezuela in Shift After Years of Enmity",
-      "description": "President Santiago Peña traveled to Caracas for talks with acting President Delcy Rodríguez, marking a diplomatic realignment in Latin America.",
-      "lat": 11.58,
-      "lng": -66.9,
-      "severity": 2,
-      "location": "Caracas, Venezuela",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-19/paraguay-leader-visits-venezuela-in-shift-after-years-of-enmity",
-      "image": null,
-      "ts": 1789844151000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-09-19/paraguay-leader-visits-venezuela-in-shift-after-years-of-enmity"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e8ad08e794da",
-      "title": "Iran says it has conveyed conditions to re-engage in talks, end war with US",
-      "description": "Iranian officials offered conditions—including ending the naval blockade and unfreezing funds—to restart negotiations with the United States.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 1,
-      "location": "Tehran, Iran",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/middle-east/article-909123",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_858,w_1915/732635",
-      "ts": 1789843582000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/article-909123"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0659dec2a40b",
-      "title": "At least 48 people died in clashes in southern Yemen over past 24 hours",
-      "description": "Intense fighting on the border between Lahij and Taiz provinces in southern Yemen resulted in at least 48 fatalities.",
-      "lat": 13.58,
-      "lng": 45.92519999999999,
-      "severity": 3,
-      "location": "Taiz, Yemen",
-      "source": "TASS",
-      "url": "https://tass.com/world/2190115",
-      "image": null,
-      "ts": 1789840598000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2190115"
-          }
-        ]
-      }
-    },
-    {
-      "id": "03ca01a6ff27",
-      "title": "Russian election observer loses consciousness during arrest, opposition party says",
-      "description": "Un osservatore elettorale del partito Yabloko è svenuto mentre veniva arrestato dalla polizia a San Pietroburgo durante le elezioni.",
-      "lat": 59.93,
-      "lng": 30.33,
-      "severity": 3,
-      "location": "St. Petersburg, Russia",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/russian-election-observer-loses-consciousness-arrest-police-opposition-136585736",
-      "image": "https://s.abcnews.com/images/International/wirestory_31a304d3156d9a066ff8001cf1338d7e_4x3_384.jpg",
-      "ts": 1789834708000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/russian-election-observer-loses-consciousness-arrest-police-opposition-136585736"
           }
         ]
       }
