@@ -1,7 +1,126 @@
 {
   "schema": 1,
-  "updated": "2026-09-30T11:20:27.024253+00:00",
+  "updated": "2026-09-30T16:59:08.793317+00:00",
   "events": [
+    {
+      "id": "1de29bd288b0",
+      "title": "UK Believes Iran Played a Part in RAF Fairford Air Base Incident, Burnham Says",
+      "description": "British officials say there are strong indications Iran was involved in a security incident at RAF Fairford.",
+      "lat": 51.66,
+      "lng": -2.1500000000000057,
+      "severity": 3,
+      "location": "Fairford, United Kingdom",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/09/30/world/europe/uk-iran-raf-fairford-burnham.html",
+      "image": "https://static01.nyt.com/images/2026/09/30/multimedia/30int-uk-airbase-plot-1-wfgc/30int-uk-airbase-plot-1-wfgc-mediumSquareAt3X.jpg",
+      "ts": 1790787032000,
+      "coverage": {
+        "left": 1,
+        "center": 4,
+        "right": 0,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 4,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/09/30/world/europe/uk-iran-raf-fairford-burnham.html"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/bb557b06-6880-4bae-a719-fbd733c63787?syn-25a6b1a6=1"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA1UHBuUzZGckZNRjdBb3dkOEIwU0NxY2lPanNVVjdkRzF1SnFQWXN4UEZLdVhvdlViZWhnekhnQmNrdFVVRWVtcGRCMzFIWGNlWlZNUkVDQlJ5SXM?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-09-30/uk-s-burnham-says-iran-likely-involved-in-fairford-incident"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/europe/article/3369387/uk-pm-says-strong-indications-iran-involved-bomb-scare-us-run-airbase?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "343ed3e6176b",
+      "title": "Argentina announces agreement with Japan to open up beef exports",
+      "description": "Argentina and Japan sign a trade deal clearing sanitary hurdles for Argentine beef shipments to Japan.",
+      "lat": -33.51,
+      "lng": -58.379999999999995,
+      "severity": 2,
+      "location": "Buenos Aires, Argentina",
+      "source": "Buenos Aires Times",
+      "url": "https://www.batimes.com.ar/news/economy/argentina-announces-agreement-with-japan-to-open-up-beef-exports.phtml",
+      "image": "https://fotos.perfil.com/2026/09/30/trim/540/304/beef-for-export-2337453.jpg",
+      "ts": 1790783152000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Buenos Aires Times",
+            "b": "center",
+            "u": "https://www.batimes.com.ar/news/economy/argentina-announces-agreement-with-japan-to-open-up-beef-exports.phtml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a509fa0e2ef0",
+      "title": "Japan officially overhauls permanent residency rules",
+      "description": "Japan adopts stricter income and language requirements for permanent residency, tightening immigration policy.",
+      "lat": 35.68,
+      "lng": 139.76,
+      "severity": 2,
+      "location": "Tokyo, Japan",
+      "source": "Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/10/01/japan/permanent-residency-guidelines-revision/",
+      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/09/30/566053.jpg",
+      "ts": 1790781300000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/10/01/japan/permanent-residency-guidelines-revision/"
+          }
+        ]
+      }
+    },
     {
       "id": "cef8ab806966",
       "title": "China, Russia to strengthen cooperation and global governance",
@@ -163,26 +282,26 @@
     },
     {
       "id": "a99f1b9e603c",
-      "title": "Israel says pilot tried to hijack flydubai flight to Tel Aviv that diverted, landed in Saudi Arabia",
-      "description": "Israeli officials reported a pilot stabbed his co‑pilot in an attempted hijack, but passengers subdued the attacker and the plane landed safely in Saudi Arabia.",
+      "title": "Flydubai pilot attempts terror hijacking of flight to Tel Aviv, foiled by Israeli passengers",
+      "description": "A Flydubai pilot stabbed his co‑pilot in an attempted hijacking; the aircraft made an emergency landing in Saudi Arabia.",
       "lat": 27.44,
       "lng": 49.53,
-      "severity": 3,
+      "severity": 4,
       "location": "Ras Tanura, Saudi Arabia",
       "source": "Jerusalem Post",
       "url": "https://www.jpost.com/international/article-910155",
       "image": null,
       "ts": 1790760716000,
       "coverage": {
-        "left": 4,
-        "center": 5,
-        "right": 0,
-        "total": 9,
+        "left": 2,
+        "center": 2,
+        "right": 1,
+        "total": 5,
         "buckets": {
           "left": 0,
-          "lean_left": 4,
-          "center": 5,
-          "lean_right": 0,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 1,
           "right": 0
         },
         "sources": [
@@ -194,22 +313,7 @@
           {
             "n": "Al Jazeera",
             "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/9/30/flydubai-flight-to-israel-diverted-to-saudi-arabia-after-emergency-alert-2?traffic_source=rss"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/09/30/plane-bound-for-israel-forced-to-land-in-saudi-arabia-both-pilots-hospitalized-after-incident_6758104_4.html"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/israel-bound-commercial-plane-from-dubai-diverted-to-saudi-arabia-after-distress-call/article71527429.ece"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/2026/0930/1593453-pilot-fight/"
+            "u": "https://www.aljazeera.com/news/2026/9/30/what-happened-on-diverted-flydubai-flight-from-dubai-to-tel-aviv?traffic_source=rss"
           },
           {
             "n": "DW News",
@@ -222,14 +326,42 @@
             "u": "https://www.jpost.com/international/article-910155"
           },
           {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSUVoWWFZd2hfb29WZ0tCQV83bTRCdFI5TTVLbWh4bHdxcWRxTTY5N2gxN0I4ZkN5TUp4YVpaVGMtSTRjTGRTMkV5cHVLeEl4a19lWXNBdzZVeXVnMGNCanJWdTRSNjVDUzRtSndzQ2ZBV3JsdlBXNkRlVGd5WXRaU2UweXFIVG1DVWpWby1sekV4Y1FBTDZtS1Z5aFVXSE9venYxdTRn?oc=5"
-          },
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/society/2195267"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53702856c6cd",
+      "title": "North Korea denies planting mines that injured 3 South Korean soldiers, accuses Seoul of conspiracy",
+      "description": "Pyongyang rejects accusations that it placed land mines injuring South Korean troops, calling the claim a conspiracy.",
+      "lat": 37.57,
+      "lng": 128.8852,
+      "severity": 2,
+      "location": "Seoul, South Korea",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/north-korea-denies-planting-mines-injured-3-south-136874623",
+      "image": "https://s.abcnews.com/images/International/wirestory_27210b8bafe9e11b6b456892b80ca881_4x3_384.jpg",
+      "ts": 1790747057000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
           {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/israel-bound-flight-diverted-saudi-arabia-after-brawl-between-pilots-israeli"
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/north-korea-denies-planting-mines-injured-3-south-136874623"
           }
         ]
       }
@@ -476,6 +608,39 @@
             "n": "Axios",
             "b": "center",
             "u": "https://www.axios.com/2026/09/29/navy-boeing-fighter-contract-f47"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0411612458a5",
+      "title": "Settlers clash with Israeli forces to block Palestinian family’s return home",
+      "description": "Jewish settlers confront Israeli troops while trying to prevent a Palestinian family from returning to their house in the West Bank.",
+      "lat": 31.95,
+      "lng": 35.30000000000001,
+      "severity": 3,
+      "location": "Hebron, West Bank",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/world/middle-east/jewish-settlers-clash-israeli-security-forces-prevent-palestinian-fami-rcna600437",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-09/260929-west-bank-attack-zk-1dbdcb.jpg",
+      "ts": 1790715930000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/middle-east/jewish-settlers-clash-israeli-security-forces-prevent-palestinian-fami-rcna600437"
           }
         ]
       }
@@ -7183,211 +7348,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/09/iran-warns-against-new-escalation-us-and-allies"
-          }
-        ]
-      }
-    },
-    {
-      "id": "659b5526317a",
-      "title": "Brazil transforms waste palm oil into green energy — Salvador promotes reuse of residual palm oil",
-      "description": "Salvador, Brazil, launches a program to convert waste palm oil from local cuisine into renewable energy, showcasing a sustainable initiative.",
-      "lat": -12.97,
-      "lng": -38.51,
-      "severity": 2,
-      "location": "Salvador, Brazil",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/09/20/brazil-transforms-waste-palm-oil-into-green-energy/",
-      "image": "http://images.euronews.com/articles/stories/09/92/04/06/640x360_cmsv2_b0c28a85-7619-5ba9-8d50-d1263d223581-9920406.jpg?1789904162",
-      "ts": 1789910861000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/09/20/brazil-transforms-waste-palm-oil-into-green-energy/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "36ed0d45342e",
-      "title": "Senior Taiwan official makes rare trip to China",
-      "description": "Taiwan's Labor Minister Hung Sun-han flew to Nanjing for meetings, marking a rare high‑level visit to the mainland.",
-      "lat": 32.06,
-      "lng": 118.78,
-      "severity": 2,
-      "location": "Nanjing, China",
-      "source": "Japan Times",
-      "url": "https://www.japantimes.co.jp/news/2026/09/20/asia-pacific/taiwans-labor-minister-visits-china/",
-      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/09/20/564131.jpg",
-      "ts": 1789899900000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/09/20/asia-pacific/taiwans-labor-minister-visits-china/"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/east-asia/taiwan-minister-makes-rare-trip-to-china-for-apec-event"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6e6d0b9ef33f",
-      "title": "Russia: Ukrainian drone strike on Moscow kills 2",
-      "description": "A Ukrainian‑launched drone hit an oil refinery in Moscow, killing two people and marking one of the largest attacks on the Russian capital during the parliamentary election period.",
-      "lat": 55.75,
-      "lng": 37.620000000000005,
-      "severity": 3,
-      "location": "Moscow, Russia",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/russia-ukrainian-drone-strike-on-moscow-kills-2/a-79341964?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1789898647747,
-      "coverage": {
-        "left": 3,
-        "center": 4,
-        "right": 1,
-        "total": 8,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 4,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/09/20/russia-recruited-ukrainian-kids-carry-out-attacks-they-got-caught/"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/moscow-russia-ukraine-war-strikes-37681523"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/9/20/mass-ukrainian-drone-attack-on-moscow-kills-two-russia-says?traffic_source=rss"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/europe/20260920-live-russian-election-enters-final-day-in-shadow-of-war-in-ukraine"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/russia-ukrainian-drone-strike-on-moscow-kills-2/a-79341964?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-09-20/moscow-refinery-hit-as-russia-reports-largest-2026-drone-attack"
-          },
-          {
-            "n": "New York Post",
-            "b": "lean_right",
-            "u": "https://nypost.com/2026/09/20/world-news/one-of-ukraines-largest-drone-strikes-on-russia-targets-moscow-killing-two/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4d92ab8b0be1",
-      "title": "Ex‑Pakistan PM Imran Khan's sister Aleema arrested in Lahore ahead of PTI march",
-      "description": "Aleema Khan was taken into custody by Pakistani authorities in Lahore as the opposition prepares for a large political rally.",
-      "lat": 31.55,
-      "lng": 74.34,
-      "severity": 3,
-      "location": "Lahore, Pakistan",
-      "source": "Times of India World",
-      "url": "https://timesofindia.indiatimes.com/world/pakistan/ex-pakistan-pm-imran-khans-sister-aleema-arrested-in-lahore-ahead-of-sept-27-pti-march/articleshow/134366345.cms",
-      "image": "https://static.toiimg.com/photo/msid-134366402,imgsize-1311591.cms",
-      "ts": 1789898321000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Times of India World",
-            "b": "center",
-            "u": "https://timesofindia.indiatimes.com/world/pakistan/ex-pakistan-pm-imran-khans-sister-aleema-arrested-in-lahore-ahead-of-sept-27-pti-march/articleshow/134366345.cms"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b55ed281447f",
-      "title": "Greece incriminates itself on Meis island's demilitarized status",
-      "description": "A three‑day visit by Greek Prime Minister Kyriakos Mitsotakis to the demilitarized island of Kastellorizo sparked diplomatic friction with Turkey over the island’s status.",
-      "lat": 36.15,
-      "lng": 27.71,
-      "severity": 3,
-      "location": "Kastellorizo (Meis), Greece",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/opinion/op-ed/greece-incriminates-itself-on-meis-islands-demilitarized-status",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/09/20/461342.jpg",
-      "ts": 1789896120000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/opinion/op-ed/greece-incriminates-itself-on-meis-islands-demilitarized-status"
           }
         ]
       }
