@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-10-01T00:48:24.402747+00:00",
+  "updated": "2026-10-01T07:09:18.736290+00:00",
   "events": [
+    {
+      "id": "d434deba1e21",
+      "title": "Rubio orders Iran UNGA delegation to leave United States following stalled negotiations - report",
+      "description": "U.S. Secretary of State Marco Rubio demanded the Iranian UN delegation depart the United States after talks stalled.",
+      "lat": 36.78,
+      "lng": 53.2852,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-910254",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_537,w_822/740029",
+      "ts": 1790841290000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/iran-news/article-910254"
+          }
+        ]
+      }
+    },
+    {
+      "id": "530a26e665b6",
+      "title": "Turkish intelligence captures suspect in 2013 Reyhanlı bombing",
+      "description": "Turkey’s MIT arrested Ömer el‑Hatip, a Syrian national suspected of planning the 2013 Reyhanlı attack that killed dozens.",
+      "lat": 37.68,
+      "lng": 36.19999999999999,
+      "severity": 3,
+      "location": "Reyhanlı, Turkey",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/politics/war-on-terror/turkish-intelligence-captures-suspect-in-2013-reyhanli-bombing",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/10/01/463249.jpg",
+      "ts": 1790836800000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/politics/war-on-terror/turkish-intelligence-captures-suspect-in-2013-reyhanli-bombing"
+          }
+        ]
+      }
+    },
     {
       "id": "485510baaef0",
       "title": "France: Hundreds arrested as student protests escalate",
@@ -7162,72 +7228,6 @@
             "n": "South China Morning Post",
             "b": "center",
             "u": "https://www.scmp.com/news/china/diplomacy/article/3368223/chinese-president-xi-jinping-will-pay-state-visit-us-week-beijing-confirms?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "214458261226",
-      "title": "Explosion injures 3 South Korean military officers in border area with North Korea",
-      "description": "A blast near the heavily fortified border injured three South Korean officers, raising tensions on the peninsula.",
-      "lat": 37.55,
-      "lng": 126.58,
-      "severity": 3,
-      "location": "Kaesong, North Korea",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/explosion-injures-3-south-korean-military-officers-border-136611060",
-      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
-      "ts": 1789973483000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/explosion-injures-3-south-korean-military-officers-border-136611060"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9a68878e223a",
-      "title": "UN General Assembly: Wars, geopolitical divides, AI and climate change test global cooperation",
-      "description": "Nearly 130 heads of state gather in New York for the UN General Assembly’s High‑level Week to discuss major global challenges.",
-      "lat": 41.85,
-      "lng": -72.0748,
-      "severity": 2,
-      "location": "New York, USA",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/world/un-general-assembly-wars-geopolitical-divides-ai-climate-change-global-cooperation-6398916",
-      "image": null,
-      "ts": 1789973364000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/world/un-general-assembly-wars-geopolitical-divides-ai-climate-change-global-cooperation-6398916"
           }
         ]
       }
