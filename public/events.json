@@ -1,7 +1,154 @@
 {
   "schema": 1,
-  "updated": "2026-10-02T13:07:04.503755+00:00",
+  "updated": "2026-10-02T18:23:50.545659+00:00",
   "events": [
+    {
+      "id": "ceda025d8d1a",
+      "title": "Yemen: Deadly battles between Ansar Allah, gov't forces",
+      "description": "Intense fighting near a key waterway killed about 80 combatants as Houthi and Saudi‑backed forces clash.",
+      "lat": 12.5,
+      "lng": 43.0,
+      "severity": 3,
+      "location": "Bab al‑Mandab Strait, Yemen",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/10/02/yemen-deadly-battles-between-ansar-allah-govt-forces/",
+      "image": "http://images.euronews.com/articles/stories/09/93/73/72/640x360_cmsv2_96502d2c-3015-5f1c-ae24-8290f9c775dc-9937372.jpg?1790948719",
+      "ts": 1790959654000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/10/02/yemen-deadly-battles-between-ansar-allah-govt-forces/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6783f877a25a",
+      "title": "Saudis plan assault on Houthis to break Red Sea chokehold",
+      "description": "Saudi Arabia is preparing a military offensive against Iran‑backed Houthi militants in Yemen.",
+      "lat": 25.81,
+      "lng": 48.585199999999986,
+      "severity": 2,
+      "location": "Riyadh, Saudi Arabia",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/10/saudis-plan-assault-houthis-break-red-sea-chokehold",
+      "image": null,
+      "ts": 1790959598000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/10/saudis-plan-assault-houthis-break-red-sea-chokehold"
+          }
+        ]
+      }
+    },
+    {
+      "id": "289b69a3edff",
+      "title": "Trump says S. Korea deal 'keeps getting better,' unveils US$8.4 billion oil recovery project",
+      "description": "President Trump announced an improved agreement with South Korea and a large oil‑recovery initiative.",
+      "lat": 37.57,
+      "lng": 126.98000000000002,
+      "severity": 2,
+      "location": "Seoul, South Korea",
+      "source": "Yonhap News",
+      "url": "https://en.yna.co.kr/view/AEN20261002009851315",
+      "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/02/AEN20261002009851315_01_i_P2.jpg",
+      "ts": 1790954533000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20261002009851315"
+          }
+        ]
+      }
+    },
+    {
+      "id": "51c1a03a4656",
+      "title": "G7 countries to release up to 100 million barrels of diesel and crude oil reserves",
+      "description": "The Group of Seven agreed to release tens of millions of barrels of diesel and crude to help curb soaring fuel prices.",
+      "lat": 41.9,
+      "lng": 12.48,
+      "severity": 1,
+      "location": "Rome, Italy",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/business/energy/g-7-diesel-crude-release-trump-macron-rcna601132",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-10/261002-diesel-truck-mn-1015-2f7c75.jpg",
+      "ts": 1790950966000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/business/energy/g-7-diesel-crude-release-trump-macron-rcna601132"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/10/02/g7-leaders-hold-talks-after-us-pressures-eu-on-fuel-reserves-and-diesel-ban_6758179_4.html"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/united-states-canada/article/3369626/trump-says-europe-agrees-release-diesel-stocks?utm_source=rss_feed"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/business/economy/g7-agrees-to-release-100m-barrels-of-oil-as-diesel-prices-soar"
+          }
+        ]
+      }
+    },
     {
       "id": "38fb00200a95",
       "title": "US‑Africa: Trump’s seven ambassador nominees clear Congress",
@@ -7061,158 +7208,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/09/trump-set-whirlwind-un-meetings-wars-iran-ukraine-agenda"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6d5c3d792dad",
-      "title": "‘Incurable headache’ to enemies: North Korea tests new weapon system",
-      "description": "North Korea conducted a test of a new mobile missile system, heightening regional security tensions.",
-      "lat": 38.9,
-      "lng": -77.04,
-      "severity": 4,
-      "location": "Washington, D.C., USA",
-      "source": "RT News",
-      "url": "https://www.rt.com/news/646075-north-korea-new-missile/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2247894_1.jpg",
-      "ts": 1790069420000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/north-korea-missile-launch-pressure-us/"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/646075-north-korea-new-missile/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "73bc0997852d",
-      "title": "Inside Russia’s industry of forced POW videos",
-      "description": "Investigative report reveals Russia coercing Ukrainian prisoners of war to record propaganda videos denouncing Ukraine.",
-      "lat": 55.75,
-      "lng": 37.620000000000005,
-      "severity": 3,
-      "location": "Moscow, Russia",
-      "source": "NBC News World",
-      "url": "https://www.nbcnews.com/tech/misinformation/russia-ukraine-pow-video-propaganda-rcna598593",
-      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-09/260921-ukranian-pow-cover-2x1-lr-9441c4.jpg",
-      "ts": 1790067642000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/tech/misinformation/russia-ukraine-pow-video-propaganda-rcna598593"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3687c4f04ded",
-      "title": "Burnham expects to find 'common ground' with Trump in first meeting",
-      "description": "Prime Minister Burnham will meet President Trump in New York, aiming to discuss AI and broader cooperation at the UN General Assembly.",
-      "lat": 40.71,
-      "lng": -74.01,
-      "severity": 2,
-      "location": "New York, United States",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cqevwpmvpekeo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9db6/live/f0a69f40-b670-11f1-b711-df5e4d50c2fd.jpg",
-      "ts": 1790057002000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/09/22/world/europe/trump-burnham-meeting-un-us-uk.html"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cqevwpmvpekeo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/09/22/burnham-says-he-raised-the-falklands-with-trump-at-their-first-meeting?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          },
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2250853/anxious-andy-burnham-vulnerable-stage"
-          }
-        ]
-      }
-    },
-    {
-      "id": "71e5209ea98c",
-      "title": "Urging Pivot on North Korea, South’s Leader Calls for Easing Sanctions",
-      "description": "South Korean President urges a shift in policy and calls for easing sanctions on North Korea to reduce tensions.",
-      "lat": 37.56,
-      "lng": 128.8852,
-      "severity": 2,
-      "location": "Seoul, South Korea",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTjU4UFd6TXlIOGl3TzNMM1dpWnM1cjdYMVRucWZLUV9yendTUXJlOHdFSkdhX2JyZE5OaW1oc1d3a0NtZ282aF9tbDFpT2VvTm1hZGg4NFJWaU5tX1NiSWhkUzUzQTE0d2NwVFhvN0J5S0tzc3BNMDR1dmxWME11by1JaFJkeE9Ea3ZLX2pqYzZpT2hockRDdHdCVXVORFI2TVMtTHFReXlXRVUtemJV?oc=5",
-      "image": null,
-      "ts": 1790041174000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTjU4UFd6TXlIOGl3TzNMM1dpWnM1cjdYMVRucWZLUV9yendTUXJlOHdFSkdhX2JyZE5OaW1oc1d3a0NtZ282aF9tbDFpT2VvTm1hZGg4NFJWaU5tX1NiSWhkUzUzQTE0d2NwVFhvN0J5S0tzc3BNMDR1dmxWME11by1JaFJkeE9Ea3ZLX2pqYzZpT2hockRDdHdCVXVORFI2TVMtTHFReXlXRVUtemJV?oc=5"
           }
         ]
       }
