@@ -1,7 +1,144 @@
 {
   "schema": 1,
-  "updated": "2026-10-01T20:19:17.212010+00:00",
+  "updated": "2026-10-02T00:09:55.448328+00:00",
   "events": [
+    {
+      "id": "5aae3f7ea236",
+      "title": "Crew Dragon spacecraft with Russian cosmonaut docks with ISS",
+      "description": "The Crew Dragon vehicle successfully docked with the International Space Station, marking the fastest crewed journey to the ISS and a milestone in U.S.–Russian space cooperation.",
+      "lat": 45.92,
+      "lng": 63.34,
+      "severity": 1,
+      "location": "Baikonur Cosmodrome, Kazakhstan",
+      "source": "TASS",
+      "url": "https://tass.com/science/2196401",
+      "image": null,
+      "ts": 1790898807000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/science/2196401"
+          }
+        ]
+      }
+    },
+    {
+      "id": "33d98f954bbe",
+      "title": "Israeli drone kills Palestinian in Gaza, settlers kill another in West Bank",
+      "description": "An Israeli drone strike in Gaza resulted in the death of a Palestinian civilian, while separate settler violence caused another fatality in the West Bank.",
+      "lat": 33.17,
+      "lng": 35.4126,
+      "severity": 4,
+      "location": "Gaza City, Gaza Strip",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/1/israeli-drone-kills-palestinian-in-gaza-settlers-kill-another-in-west-bank?traffic_source=rss",
+      "image": null,
+      "ts": 1790898279000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/politics/2026/10/01/senate-blocks-measure-requiring-report-israeli-violence-west-bank/"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/10/1/israeli-drone-kills-palestinian-in-gaza-settlers-kill-another-in-west-bank?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dd48081e35af",
+      "title": "British foreign secretary reiterates support for the Falklands in meeting with Cheryl Roberts",
+      "description": "UK Foreign Secretary Ed Miliband met Falkland Islands legislator Cheryl Roberts in London, reaffirming Britain's commitment to the islands' security and self‑determination.",
+      "lat": 51.51,
+      "lng": -0.12999999999999545,
+      "severity": 2,
+      "location": "London, United Kingdom",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/10/01/british-foreign-secretary-reiterates-support-for-the-falklands-in-meeting-with-cheryl-roberts?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": "https://en.mercopress.com/data/cache/noticias/111634/100x80/fied.jpg",
+      "ts": 1790896020000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/10/01/british-foreign-secretary-reiterates-support-for-the-falklands-in-meeting-with-cheryl-roberts?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5ab243dc8f00",
+      "title": "Saudi Coalition Says Intercepted Houthi Missiles, Drones",
+      "description": "Saudi civil defence reported the interception of a ballistic missile and drones launched by Houthi forces over Khamis Mushait, causing only limited material damage.",
+      "lat": 18.3,
+      "lng": 42.73,
+      "severity": 3,
+      "location": "Khamis Mushait, Saudi Arabia",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/saudi-coalition-says-intercepted-houthi-missiles-drones-12127925#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-10/sr548l7g_saudi-houthi-conflict_625x300_02_October_26.jpeg",
+      "ts": 1790889506000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/saudi-coalition-says-intercepted-houthi-missiles-drones-12127925#publisher=newsstand"
+          }
+        ]
+      }
+    },
     {
       "id": "9a55c493e7fd",
       "title": "US sanctions target Iran's auto, rail sectors after blockade chokes shipping lanes",
@@ -244,6 +381,39 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/10/pakistani-airstrikes-kill-nine-afghanistan-taliban-say"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c5d8799f4725",
+      "title": "Kenya seeks $985m World Bank, AfDB loans as IMF deal delays",
+      "description": "Kenya is requesting nearly $1 billion in loans from the World Bank and African Development Bank to offset financing gaps left by a delayed IMF agreement.",
+      "lat": 1.29,
+      "lng": 36.82,
+      "severity": 2,
+      "location": "Nairobi, Kenya",
+      "source": "The Africa Report",
+      "url": "https://www.theafricareport.com/432130/kenya-seeks-985m-world-bank-afdb-loans-as-imf-deal-delays/",
+      "image": null,
+      "ts": 1790861400000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Africa Report",
+            "b": "center",
+            "u": "https://www.theafricareport.com/432130/kenya-seeks-985m-world-bank-afdb-loans-as-imf-deal-delays/"
           }
         ]
       }
@@ -7033,181 +7203,6 @@
             "n": "NDTV World",
             "b": "lean_left",
             "u": "https://www.ndtv.com/world-news/uk-agrees-to-saudi-request-for-refuelling-support-to-counter-houthis-12078571#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e73bddc1fb8e",
-      "title": "Egypt: Compensation paid to family of Shaimaa Al‑Sabbagh",
-      "description": "Il governo egiziano ha versato un risarcimento alla famiglia della poetessa e attivista Shaimaa Al‑Sabbagh.",
-      "lat": 30.04,
-      "lng": 33.14519999999999,
-      "severity": 1,
-      "location": "Cairo, Egypt",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/09/21/egypt-compensation-paid-to-familt-of-shaimaa-al-sabbagh/",
-      "image": "http://images.euronews.com/articles/stories/09/92/19/32/640x360_cmsv2_71edceeb-6ccb-50bd-b922-eaab8baa6001-9921932.jpg?1790001838",
-      "ts": 1790022307000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/09/21/egypt-compensation-paid-to-familt-of-shaimaa-al-sabbagh/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2d0aab74b560",
-      "title": "Top S. Korean, U.S., Japanese diplomats reaffirm N.K. denuclearization goal, urge dialogue",
-      "description": "Senior diplomats from South Korea, the United States and Japan met in Washington and reiterated the aim of North Korean denuclearisation, calling for continued dialogue.",
-      "lat": 38.9,
-      "lng": -77.04,
-      "severity": 2,
-      "location": "Washington, USA",
-      "source": "Yonhap News",
-      "url": "https://en.yna.co.kr/view/AEN20260922000252315",
-      "image": "https://img.yna.co.kr/photo/ap/2026/09/22/PAP20260922010801009_P2.jpg",
-      "ts": 1790016364000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20260922000252315"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0654417c1202",
-      "title": "President Erdoğan holds Vietnam, Libya talks on sidelines of UN meeting",
-      "description": "Turkish President Recep Tayyip Erdoğan met with the leaders of Vietnam and Libya during the UN General Assembly in New York, expanding diplomatic outreach.",
-      "lat": 40.71,
-      "lng": -72.1048,
-      "severity": 2,
-      "location": "New York, USA",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/politics/diplomacy/president-erdogan-holds-vietnam-libya-talks-on-sidelines-of-un-meeting",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/09/21/461656.jpg",
-      "ts": 1790016180000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/politics/diplomacy/president-erdogan-holds-vietnam-libya-talks-on-sidelines-of-un-meeting"
-          }
-        ]
-      }
-    },
-    {
-      "id": "08fe52de80f2",
-      "title": "Trump call with Yemen President did not pledge military support against Houthis",
-      "description": "In a phone conversation, President Trump declined to commit U.S. military assistance to Yemen’s government against the Houthi rebels.",
-      "lat": 16.45,
-      "lng": 44.21000000000001,
-      "severity": 3,
-      "location": "Sana'a, Yemen",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/trump-in-call-with-yemen-president-did-not-pledge-military-support-against-houthis-say-sources/article71492048.ece",
-      "image": "https://th-i.thgim.com/public/incoming/hhusnc/article71492131.ece/alternates/LANDSCAPE_1200/2026-09-18T204129Z_1879280378_RC2WLNA24JYA_RTRMADP_3_USA-TRUMP.JPG",
-      "ts": 1790000093000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/trump-in-call-with-yemen-president-did-not-pledge-military-support-against-houthis-say-sources/article71492048.ece"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/houthis-push-control-yemen-highlands-trump-reported-have-called-airstrikes"
-          }
-        ]
-      }
-    },
-    {
-      "id": "48adc33b0281",
-      "title": "CIA chief Ratcliffe meets Zelensky at Shannon Airport",
-      "description": "Il capo della CIA John Ratcliffe incontra il presidente ucraino Zelensky all'aeroporto di Shannon.",
-      "lat": 52.7,
-      "lng": -8.92,
-      "severity": 2,
-      "location": "Shannon Airport, Ireland",
-      "source": "RTE News",
-      "url": "https://www.rte.ie/news/2026/0921/1592385-ukraine-russia/",
-      "image": "https://www.rte.ie/images/00250bf6-800.jpg",
-      "ts": 1790000079000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/2026/0921/1592385-ukraine-russia/"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2190809"
           }
         ]
       }
