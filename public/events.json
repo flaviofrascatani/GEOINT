@@ -1,7 +1,93 @@
 {
   "schema": 1,
-  "updated": "2026-10-02T18:23:50.545659+00:00",
+  "updated": "2026-10-02T22:31:27.397444+00:00",
   "events": [
+    {
+      "id": "b3da5729ee0c",
+      "title": "North Korea fired off apparent ballistic missile amid landmine row with South",
+      "description": "North Korea launched a ballistic missile following a recent landmine incident that injured South Korean soldiers in the DMZ.",
+      "lat": 39.03,
+      "lng": 125.75,
+      "severity": 4,
+      "location": "Pyongyang, North Korea",
+      "source": "Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/10/03/japan/north-korea-missile-october-3/",
+      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/10/03/566504.jpg",
+      "ts": 1790978160000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/south-koreas-military-north-korea-fired-projectile-eastern-136962514"
+          },
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/10/03/japan/north-korea-missile-october-3/"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/east-asia/north-korea-rejects-souths-accusation-over-dmz-mine-blast-and-wont-apologise"
+          }
+        ]
+      }
+    },
+    {
+      "id": "76b304e0bcf2",
+      "title": "N. Korea fires unidentified projectile toward East Sea: JCS",
+      "description": "North Korea launched an unidentified projectile toward the East Sea, heightening regional security concerns.",
+      "lat": 39.1,
+      "lng": 129.0,
+      "severity": 3,
+      "location": "East Sea (Sea of Japan), International Waters",
+      "source": "Yonhap News",
+      "url": "https://en.yna.co.kr/view/AEN20260930004900315",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/22/PYH2026092204790031500_P2.jpg",
+      "ts": 1790977627000,
+      "coverage": {
+        "left": 0,
+        "center": 3,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/north-korea-fires-projectile-toward-sea-seoul-military-says/a-79526243?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20260930004900315"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/north-korea-fires-unidentified-projectile-toward-sea-off-east-coast-seoul-says"
+          }
+        ]
+      }
+    },
     {
       "id": "ceda025d8d1a",
       "title": "Yemen: Deadly battles between Ansar Allah, gov't forces",
@@ -7127,87 +7213,6 @@
             "n": "The Africa Report",
             "b": "center",
             "u": "https://www.theafricareport.com/431436/nigeria-surprises-markets-with-steep-rate-cut-as-factories-struggle/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c568e4f20151",
-      "title": "Nigeria surprises markets with steep rate cut as factories struggle",
-      "description": "La Banca Centrale della Nigeria ha ridotto il tasso di interesse di riferimento di 350 punti base, passando al 23%, per sostenere l'economia.",
-      "lat": 10.72,
-      "lng": 8.432600000000008,
-      "severity": 2,
-      "location": "Abuja, Nigeria",
-      "source": "The Africa Report",
-      "url": "https://www.theafricareport.com/431436/nigeria-surprises-markets-with-steep-rate-cut-as-factories-struggle/",
-      "image": null,
-      "ts": 1790089332000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Africa Report",
-            "b": "center",
-            "u": "https://www.theafricareport.com/431436/nigeria-surprises-markets-with-steep-rate-cut-as-factories-struggle/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8c28880c68f1",
-      "title": "Iran's president heads for U.N. summit ahead of possible Trump meeting",
-      "description": "Iranian president travels to New York to defend Tehran’s positions at the United Nations General Assembly.",
-      "lat": 40.75,
-      "lng": -73.98,
-      "severity": 2,
-      "location": "New York City, United States",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-decision-tehran-warns-of-expansion/",
-      "image": null,
-      "ts": 1790082722000,
-      "coverage": {
-        "left": 2,
-        "center": 2,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/us-iran-war-trump-decision-tehran-warns-of-expansion/"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/liveblog/2026/9/22/un-general-assembly-live-trump-qatar-emir-to-speak-as-iran-war-dominates?traffic_source=rss"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/09/21/trump-xi-china-summit-trade-tariffs.html"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/trump-set-whirlwind-un-meetings-wars-iran-ukraine-agenda"
           }
         ]
       }
