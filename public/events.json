@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-10-03T19:48:49.243095+00:00",
+  "updated": "2026-10-03T22:50:53.782479+00:00",
   "events": [
+    {
+      "id": "6184144af369",
+      "title": "Ukrainian forces shell Donetsk People’s Republic settlements 47 times over past day",
+      "description": "Ukrainian artillery fired dozens of rounds into DPR‑controlled settlements, damaging civilian infrastructure.",
+      "lat": 49.11,
+      "lng": 37.80000000000001,
+      "severity": 3,
+      "location": "Donetsk, Ukraine",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2197225",
+      "image": null,
+      "ts": 1791066840000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2197225"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b3da5729ee0c",
+      "title": "N. Korea's Kim oversees intermediate-range missile launch, calls for bolstering war deterrent",
+      "description": "Kim Jong‑un supervised the launch of an intermediate‑range missile, signalling continued escalation of North Korea’s deterrent capabilities.",
+      "lat": 39.03,
+      "lng": 125.75,
+      "severity": 4,
+      "location": "Pyongyang, North Korea",
+      "source": "Yonhap News",
+      "url": "https://en.yna.co.kr/view/AEN20261004000300315",
+      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/10/03/566504.jpg",
+      "ts": 1791065657000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20261004000300315"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/east-asia/north-koreas-kim-yo-jong-says-intermediate-range-missile-test-was-conducted"
+          }
+        ]
+      }
+    },
+    {
+      "id": "72b1a515d5db",
+      "title": "China and Africa boost law enforcement ties in crackdown on cross‑border cybercrime",
+      "description": "Beijing and several African nations agreed to deepen cooperation on cybercrime investigations, enhancing joint law‑enforcement capabilities.",
+      "lat": 39.91,
+      "lng": 116.39999999999998,
+      "severity": 2,
+      "location": "Beijing, China",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3369660/china-and-africa-boost-law-enforcement-ties-crackdown-cross-border-cybercrime?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/03/77f3fced-b2cf-4458-92f6-fd882a1b9d58_2b0ddd0f.jpg?itok=DSxMA0Bu&v=1791018992",
+      "ts": 1791064812000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/china/diplomacy/article/3369660/china-and-africa-boost-law-enforcement-ties-crackdown-cross-border-cybercrime?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
     {
       "id": "c32a35dcad60",
       "title": "Pakistan vs. Afghanistan: From allies and neighbors to war",
@@ -211,69 +315,6 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/greece-returns-remains-of-czar-samuel-to-bulgaria/a-79530104?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b3da5729ee0c",
-      "title": "North Korea's Kim Yo Jong says intermediate-range missile test was conducted",
-      "description": "Kim Yo Jong announced that North Korea successfully carried out an intermediate‑range missile test.",
-      "lat": 39.03,
-      "lng": 125.75,
-      "severity": 2,
-      "location": "Pyongyang, North Korea",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/east-asia/north-koreas-kim-yo-jong-says-intermediate-range-missile-test-was-conducted-6429151",
-      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/10/03/566504.jpg",
-      "ts": 1791028186000,
-      "coverage": {
-        "left": 1,
-        "center": 5,
-        "right": 1,
-        "total": 7,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 5,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/world/2026/oct/03/north-korea-launches-ballistic-missile-after-seoul-demands-apology-over-wounded-soldiers"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/north-korea-fires-ballistic-missile-after-seoul-demands-apology-over-border-mine-blasts-13594567"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/asia-pacific/20261003-north-korea-fires-ballistic-missile-after-seoul-s-apology-demand"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-10-03/north-korea-fires-ballistic-missile-toward-east-coast-jcs-says"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/east-asia/north-koreas-kim-yo-jong-says-intermediate-range-missile-test-was-conducted-6429151"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/east-asia/north-koreas-kim-yo-jong-says-intermediate-range-missile-test-was-conducted"
-          },
-          {
-            "n": "Wall Street Journal World",
-            "b": "lean_right",
-            "u": "https://www.wsj.com/articles/kim-jong-un-is-doing-everything-he-can-to-keep-north-koreas-youth-in-line-0866a1de"
           }
         ]
       }
@@ -7167,72 +7208,6 @@
             "n": "Daily Mail World",
             "b": "right",
             "u": "https://www.dailymail.com/news/article-16153707/British-family-man-abducted-tortured-Saudi-condemn-Andy-Burnham-military-assistance.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b759aef6170c",
-      "title": "British businessman jailed over illegal arms deals to war zones worth millions",
-      "description": "A British businessman and a government adviser were sentenced to 16 years for brokering illegal arms sales to conflict areas.",
-      "lat": 52.61,
-      "lng": 1.7752000000000123,
-      "severity": 4,
-      "location": "London, United Kingdom",
-      "source": "Sky News World",
-      "url": "https://news.sky.com/story/british-businessman-jailed-over-illegal-arms-deals-to-war-zones-worth-millions-13591072",
-      "image": "https://e3.365dm.com/26/09/1920x1080/skynews-david-greenhalgh_7359523.jpg?20260923151836",
-      "ts": 1790170980000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/british-businessman-jailed-over-illegal-arms-deals-to-war-zones-worth-millions-13591072"
-          }
-        ]
-      }
-    },
-    {
-      "id": "be1218570da5",
-      "title": "Poland puts 'ground‑based forces on standby' after 'violation' from Russian military",
-      "description": "Polish armed forces placed ground units on alert following a Russian Mi‑8 helicopter incursion into Polish airspace.",
-      "lat": 52.23,
-      "lng": 21.01,
-      "severity": 3,
-      "location": "Warsaw, Poland",
-      "source": "Daily Star World",
-      "url": "https://www.dailystar.co.uk/news/world-news/breaking-poland-puts-ground-based-37693627",
-      "image": "https://i2-prod.dailystar.co.uk/incoming/article37692957.ece/ALTERNATES/s615/0_President-Putin-Participates-Marks-Navy-Day-In-Saint-Petersburg.jpg",
-      "ts": 1790164660000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Daily Star World",
-            "b": "right",
-            "u": "https://www.dailystar.co.uk/news/world-news/breaking-poland-puts-ground-based-37693627"
           }
         ]
       }
