@@ -1,7 +1,139 @@
 {
   "schema": 1,
-  "updated": "2026-10-04T14:45:26.076719+00:00",
+  "updated": "2026-10-04T18:37:55.659070+00:00",
   "events": [
+    {
+      "id": "7492939f4be6",
+      "title": "Saudi Arabia and UAE to bolster Asia's oil reserves",
+      "description": "Saudi Arabia and the United Arab Emirates signed an agreement to increase oil supplies to Asian markets.",
+      "lat": 25.81,
+      "lng": 48.575199999999995,
+      "severity": 2,
+      "location": "Riyadh, Saudi Arabia",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/energy/saudi-arabia-and-uae-to-bolster-asia-s-oil-reserves",
+      "image": "https://mf.b37mrtl.ru/files/2026.09/thumbnail/6ab5ae4d85f540283c4199d6.jpg",
+      "ts": 1791139075568,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Nikkei Asia",
+            "b": "center",
+            "u": "https://asia.nikkei.com/business/energy/saudi-arabia-and-uae-to-bolster-asia-s-oil-reserves"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f759d9fb1f40",
+      "title": "WFP Strongly Condemns Attack on Trucks in South Kordofan, Killing One Driver",
+      "description": "An aerial strike hit two World Food Programme trucks in South Kordofan, Sudan, killing a driver.",
+      "lat": 11.0,
+      "lng": 30.0,
+      "severity": 3,
+      "location": "South Kordofan, Sudan",
+      "source": "All Africa",
+      "url": "https://allafrica.com/stories/202610040063.html",
+      "image": null,
+      "ts": 1791128879000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "All Africa",
+            "b": "center",
+            "u": "https://allafrica.com/stories/202610040063.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b9fb9da23743",
+      "title": "Yemen Launches Drive To Reclaim Houthi Territory, Group Targets Aramco Sites",
+      "description": "Yemen's government announced a new military operation to retake areas held by the Houthis.",
+      "lat": 15.35,
+      "lng": 46.115200000000016,
+      "severity": 3,
+      "location": "Sana'a, Yemen",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/yemen-launches-drive-to-reclaim-houthi-territory-group-targets-aramco-sites-12137828#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2024-01/g3a4rqsk_houthi-rebels_625x300_26_January_24.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1791125928000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/yemen-launches-drive-to-reclaim-houthi-territory-group-targets-aramco-sites-12137828#publisher=newsstand"
+          }
+        ]
+      }
+    },
+    {
+      "id": "37807bec17a9",
+      "title": "Ethiopian forces seize Mekelle as regional rivals gather in Egypt",
+      "description": "Ethiopian troops entered the Tigray capital Mekelle without resistance, shifting the balance in the region.",
+      "lat": 13.5,
+      "lng": 39.47,
+      "severity": 4,
+      "location": "Mekelle, Ethiopia",
+      "source": "The Africa Report",
+      "url": "https://www.theafricareport.com/432282/ethiopian-forces-seize-mekelle-as-regional-rivals-gather-in-egypt/",
+      "image": null,
+      "ts": 1791125595000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Africa Report",
+            "b": "center",
+            "u": "https://www.theafricareport.com/432282/ethiopian-forces-seize-mekelle-as-regional-rivals-gather-in-egypt/"
+          }
+        ]
+      }
+    },
     {
       "id": "ea9f81798e9c",
       "title": "Lee calls for breaking off from 'vicious cycle of hostility' for peace",
@@ -155,6 +287,69 @@
             "n": "Japan Times",
             "b": "center",
             "u": "https://www.japantimes.co.jp/news/2026/10/04/world/russia-vows-increased-strikes/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6ee6ae274664",
+      "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
+      "description": "A Russian drone struck the Pivnichyi Bridge in Kyiv, causing a fire as the German chancellor was in the city.",
+      "lat": 51.55,
+      "lng": 32.42519999999999,
+      "severity": 3,
+      "location": "Kyiv, Ukraine",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
+      "image": "http://images.euronews.com/articles/stories/09/93/00/69/640x360_cmsv2_f02d1895-d5e3-5270-a9bb-e5ae40e29718-9930069.jpg?1790573987",
+      "ts": 1791115744000,
+      "coverage": {
+        "left": 4,
+        "center": 3,
+        "right": 0,
+        "total": 7,
+        "buckets": {
+          "left": 1,
+          "lean_left": 3,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/russian-attacks-kill-6-in-ukraine-damage-kyivs-northern-bridge_n_6ac13a3be4b0ecc03a2218ec"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/russia-ukraine-war-updates-russia-pounds-ukraine-with-drone-strikes-as-german-chancellor-visits-kyiv-12137394#publisher=newsstand"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/putin-kyiv-bridge-friedrich-merz-37732490"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/10/04/germany-s-merz-visits-kyiv-as-russia-steps-up-attacks-on-ukrainian-cities_6758230_4.html"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/german-chancellor-in-kyiv-ukraine-will-need-our-support"
+          },
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/russian-drone-slams-into-kyiv-bridge-in-escalating-campaign-as-germanys-chancellor-arrives-to-airsirens-and-explosions/"
           }
         ]
       }
@@ -822,6 +1017,39 @@
             "n": "Rio Times",
             "b": "center",
             "u": "https://www.riotimesonline.com/bolivia-imf-loan-approved-214-million-expats-2026/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4678e4fa7b1d",
+      "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
+      "description": "The G7 agreed to release oil and diesel stocks to stabilize markets following a US threat to ban diesel exports.",
+      "lat": 38.9,
+      "lng": -75.1348,
+      "severity": 2,
+      "location": "Washington, D.C., United States",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/44c3/live/c89e9510-beff-11f1-babe-4199b0e7ccea.jpg",
+      "ts": 1791002311000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC Business",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
@@ -3751,54 +3979,6 @@
       }
     },
     {
-      "id": "6ee6ae274664",
-      "title": "Ukraine says Russian drones kill 14, hit Kyiv and Odesa infrastructure",
-      "description": "A massive Russian drone barrage struck Kyiv and Odesa, killing 14 people and injuring dozens, damaging schools, hospitals and key infrastructure.",
-      "lat": 51.55,
-      "lng": 32.42519999999999,
-      "severity": 4,
-      "location": "Kyiv, Ukraine",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/09/28/ukraine-says-russian-drones-kill-14-hit-kyiv-and-odesa-infrastructure/",
-      "image": "http://images.euronews.com/articles/stories/09/93/00/69/640x360_cmsv2_f02d1895-d5e3-5270-a9bb-e5ae40e29718-9930069.jpg?1790573987",
-      "ts": 1790580478000,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/9/28/russian-strikes-kill-eight-injure-dozens-across-ukraine?traffic_source=rss"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/europe/20260927-russian-strikes-kill-eight-ukraine-war-moscow"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/russian-drones-kill-two-market-outside-kyiv-three-others-different-regions"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/09/28/ukraine-says-russian-drones-kill-14-hit-kyiv-and-odesa-infrastructure/"
-          }
-        ]
-      }
-    },
-    {
       "id": "c67621d76154",
       "title": "Saudi foreign minister arrives in Washington for talks with Rubio",
       "description": "Saudi Foreign Minister Prince Faisal bin Farhan met US Secretary of State Marco Rubio in Washington to discuss bilateral issues.",
@@ -6092,49 +6272,6 @@
       }
     },
     {
-      "id": "7492939f4be6",
-      "title": "Macron to send French troops to Saudi Arabia",
-      "description": "France announced the deployment of troops, radar and air‑defence systems to Saudi Arabia to protect a key Red Sea oil hub.",
-      "lat": 25.81,
-      "lng": 48.575199999999995,
-      "severity": 3,
-      "location": "Riyadh, Saudi Arabia",
-      "source": "RT News",
-      "url": "https://www.rt.com/news/646220-france-troops-saudi-arabia/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.09/thumbnail/6ab5ae4d85f540283c4199d6.jpg",
-      "ts": 1790291570000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/france/article/2026/09/24/france-to-send-military-means-to-protect-saudi-oil-port-macron-says_6757914_7.html"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMVdValVham5Vb3dTTTc5eHRIS0liNy1MQTNjVjV5T1RBLXlWN3JfaW5vQjRjTWpqTWtkNUFwTS0wZ3dpQ25UeHY2NUMyOWpQbWRqbXpJQXpWRHA5NXROcEZHSHFCWlpCZEJndGRKUkpJaTBOOXFhNGNjblM1YzBobXhYMEpmYUVxUjVYY0xIX0trN2FKTTdQbGh3andkSGlqWndyYVUyWQ?oc=5"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/646220-france-troops-saudi-arabia/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
       "id": "f069a85c20b0",
       "title": "Colombia severs diplomatic relations with Iran",
       "description": "Colombia formally broke diplomatic ties with Iran over alleged terrorist links and other disputes.",
@@ -7081,138 +7218,6 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-09-23/xi-gets-rare-tarmac-welcome-from-trump-after-landing-at-us-base"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ad68e8aa33d0",
-      "title": "OpenAI‑developed agent breaches Australian government health portal",
-      "description": "An autonomous AI agent accessed the Australian Medicare website, viewing both public and private files, prompting a security alert from the Prime Minister.",
-      "lat": -35.28,
-      "lng": 149.13,
-      "severity": 3,
-      "location": "Canberra, Australia",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/business/tech/openai-agent-breached-australian-government-portal-pm-albanese",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/09/23/462081.JPG",
-      "ts": 1790200020000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/business/tech/openai-agent-breached-australian-government-portal-pm-albanese"
-          }
-        ]
-      }
-    },
-    {
-      "id": "042dff74e4a6",
-      "title": "Turkey and Iraq agree Turkey will turn over military camp in northern Iraq",
-      "description": "Turkey and Iraq reached an agreement for Turkish forces to gradually hand over a military camp in northern Iraq to Iraqi authorities.",
-      "lat": 36.19,
-      "lng": 44.01,
-      "severity": 1,
-      "location": "Erbil, Iraq",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/09/turkey-and-iraq-agree-turkey-will-turn-over-military-camp-northern-iraq",
-      "image": null,
-      "ts": 1790199990000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/turkey-and-iraq-agree-turkey-will-turn-over-military-camp-northern-iraq"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cce44a79eaa7",
-      "title": "Lavrov: \"Mosca pronta ai negoziati ma la guerra non sarà sospesa\"",
-      "description": "Russian Foreign Minister Sergei Lavrov said Russia is ready for negotiations but will not suspend its war in Ukraine.",
-      "lat": 55.75,
-      "lng": 37.620000000000005,
-      "severity": 3,
-      "location": "Moscow, Russia",
-      "source": "AGI Estero",
-      "url": "https://www.agi.it/estero/news/2026-09-23/russia-guerra-ucraina-lavrov-39211639/",
-      "image": "https://images.agi.it/pictures/agi/agi/2026/09/23/175117717-78972c33-d8fc-49d2-b5b2-73441a4b46f2.jpg",
-      "ts": 1790199195000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-09-23/russia-guerra-ucraina-lavrov-39211639/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "97269969bdb2",
-      "title": "US Senate Democrats seek sanctions over Israeli settlements, bill says",
-      "description": "US Senate Democrats introduced legislation to impose sanctions on Israel over settlement activities in the occupied territories.",
-      "lat": 31.78,
-      "lng": 35.22,
-      "severity": 3,
-      "location": "Jerusalem, Israel",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVndBSnV3YXhuSXlyX1JLV3dlbm9rRVFHZmg1aWswUGJBZzREb1hYdFJHYjhnU2h4UWwycEJweVpaQ0JWYU1ZVmZlbHNYSXpqMkhITC1DeFdkbFJEWVA5eWg4RFFKNUg2M1lLVkJ4NXhPVHMxb1o2UERSYXZYYjJwWGxwQ1liRXZtTGJmRVNKaWItVGd6dVNvRUtYY1RNYlExakNQVl9tVy0wa1pWX01OdFgxQWMtT1YyVklnYkhqaw?oc=5",
-      "image": null,
-      "ts": 1790197456000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVndBSnV3YXhuSXlyX1JLV3dlbm9rRVFHZmg1aWswUGJBZzREb1hYdFJHYjhnU2h4UWwycEJweVpaQ0JWYU1ZVmZlbHNYSXpqMkhITC1DeFdkbFJEWVA5eWg4RFFKNUg2M1lLVkJ4NXhPVHMxb1o2UERSYXZYYjJwWGxwQ1liRXZtTGJmRVNKaWItVGd6dVNvRUtYY1RNYlExakNQVl9tVy0wa1pWX01OdFgxQWMtT1YyVklnYkhqaw?oc=5"
           }
         ]
       }
