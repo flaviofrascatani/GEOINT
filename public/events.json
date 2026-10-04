@@ -1,7 +1,55 @@
 {
   "schema": 1,
-  "updated": "2026-10-04T02:32:45.895201+00:00",
+  "updated": "2026-10-04T08:44:44.480607+00:00",
   "events": [
+    {
+      "id": "75b7558c1336",
+      "title": "Germany's Merz visits Kyiv to pledge more support to Zelensky",
+      "description": "German Chancellor Friedrich Merz arrived in Kyiv to reaffirm political and military backing for Ukraine amid intensified Russian attacks.",
+      "lat": 51.55,
+      "lng": 30.52000000000001,
+      "severity": 2,
+      "location": "Kyiv, Ukraine",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/europe/20261004-live-germany-s-merz-in-kyiv-for-talks-with-zelensky",
+      "image": "https://s.france24.com/media/display/a33d3f92-bfc2-11f1-9826-13420ab900a2/w:1024/p:16x9/2026-10-04T055047Z-1503198767-RC24WNARZQX1-RTRMADP-3-UKRAINE-CRISIS-GERMANY-ARRIVAL.jpg",
+      "ts": 1791098887000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/germanys-merz-visits-kyiv-russia-steps-attacks-ukrainian-136983124"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/germanys-merz-in-kyiv-for-talks-with-zelenskyy/article71543190.ece"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/b7bd5c45-1c32-4984-af37-21746a02c4ef?syn-25a6b1a6=1"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/europe/20261004-live-germany-s-merz-in-kyiv-for-talks-with-zelensky"
+          }
+        ]
+      }
+    },
     {
       "id": "950082cbf38f",
       "title": "Japanese and Korean shipbuilders deploy robots to take on China",
@@ -7155,39 +7203,6 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/us-judge-blocks-trump-ban-of-cnn-ms-now-politico-from-white-house-orders-him-to-restore-access/a-79405693?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "912fbec84565",
-      "title": "Japan's Hitachi Rail to upgrade Austria's signal system in $1.5bn deal",
-      "description": "Hitachi Rail will modernise Austria's railway signalling, strengthening European transport infrastructure.",
-      "lat": 48.21,
-      "lng": 16.37,
-      "severity": 2,
-      "location": "Vienna, Austria",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/transportation/japan-s-hitachi-rail-to-upgrade-austria-s-signal-system-in-1.5bn-deal",
-      "image": null,
-      "ts": 1790175401901,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Nikkei Asia",
-            "b": "center",
-            "u": "https://asia.nikkei.com/business/transportation/japan-s-hitachi-rail-to-upgrade-austria-s-signal-system-in-1.5bn-deal"
           }
         ]
       }
