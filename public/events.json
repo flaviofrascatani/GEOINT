@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-10-03T22:50:53.782479+00:00",
+  "updated": "2026-10-04T02:32:45.895201+00:00",
   "events": [
+    {
+      "id": "950082cbf38f",
+      "title": "Japanese and Korean shipbuilders deploy robots to take on China",
+      "description": "Japan and South Korea invest in automated shipyards to counter China’s dominance in maritime manufacturing.",
+      "lat": 36.78,
+      "lng": 141.66520000000003,
+      "severity": 2,
+      "location": "Tokyo, Japan",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/ea32c53d-4de7-4b34-af44-cc148b23433f?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1791075604000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/ea32c53d-4de7-4b34-af44-cc148b23433f?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
     {
       "id": "6184144af369",
       "title": "Ukrainian forces shell Donetsk People’s Republic settlements 47 times over past day",
@@ -135,6 +168,72 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/pakistan-vs-afghanistan-from-allies-and-neighbors-to-war/a-79532115?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b8f728ebaac4",
+      "title": "Iranian diplomats \"kicked out\" of U.S. after ignoring order to leave",
+      "description": "Two Iranian UN delegates were expelled from the United States after refusing to depart New York.",
+      "lat": 41.81,
+      "lng": -74.01,
+      "severity": 3,
+      "location": "New York, USA",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/10/03/iran-un-kicked-out-rubio",
+      "image": "https://images.axios.com/ecIqTDlhRZGaOVKX3qe8WxfGJ_A=/0x0:5306x2985/1366x768/2026/10/03/1791054860093.jpeg",
+      "ts": 1791055543000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/10/03/iran-un-kicked-out-rubio"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f6f309d81620",
+      "title": "The G7 Is Releasing Emergency Fuel Reserves",
+      "description": "The G7, coordinated by the IEA, will release 100 million barrels of oil to ease the global fuel shortage.",
+      "lat": 50.85,
+      "lng": 4.35,
+      "severity": 2,
+      "location": "Brussels, Belgium",
+      "source": "Time",
+      "url": "https://time.com/article/2026/10/03/the-g7-is-releasing-emergency-fuel-reserves-how-much-will-it-help-americans-/",
+      "image": "https://static.time.com/v3/assets/bltea6093859af6183b/bltcfcf1db15c8ef629/6ac1602e9e73444d15079ec8/GettyImages-2297102806.jpg?branch=production",
+      "ts": 1791054831000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/10/03/the-g7-is-releasing-emergency-fuel-reserves-how-much-will-it-help-americans-/"
           }
         ]
       }
@@ -277,6 +376,39 @@
             "n": "France 24",
             "b": "center",
             "u": "https://www.france24.com/en/europe/20261003-italy-ustica-enigma-can-french-files-solve-mystery-crash-blamed-on-stray-missile-gaddafi"
+          }
+        ]
+      }
+    },
+    {
+      "id": "97bef2561c32",
+      "title": "Loud explosions heard Yemeni capital amid reports of Saudi strikes",
+      "description": "Saudi airstrikes hit positions in Sana'a, causing loud explosions and civilian alarm.",
+      "lat": 15.35,
+      "lng": 44.21,
+      "severity": 3,
+      "location": "Sana'a, Yemen",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/10/03/loud-explosions-heard-yemeni-capital-amid-reports-of-saudi-strikes/",
+      "image": "http://images.euronews.com/articles/stories/09/93/81/05/640x360_cmsv2_190ea3fd-58bd-5d46-9acd-6dca68d1d15f-9938105.jpg?1791037049",
+      "ts": 1791040400000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/10/03/loud-explosions-heard-yemeni-capital-amid-reports-of-saudi-strikes/"
           }
         ]
       }
@@ -829,10 +961,10 @@
     {
       "id": "10e3428a8fec",
       "title": "African Union must convene emergency session on Ethiopia as new conflict expands",
-      "description": "The African Union is called to hold an emergency session as fighting spreads in Ethiopia, raising regional security concerns.",
+      "description": "The AU plans an emergency meeting in Addis Ababa to address the widening violence in Ethiopia.",
       "lat": 10.13,
       "lng": 40.64519999999999,
-      "severity": 4,
+      "severity": 3,
       "location": "Addis Ababa, Ethiopia",
       "source": "GNews Geopolitics",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUGRza2d2cXROY3c2cURfcDRaNEVfVENnWWtMTklNMWIwR2l1OGZQWWdRS0ZYeXlMQkNHbmJZdWctamhsaTVQRzFwS1RFVUpsTEZMX0V1b2lWZzd2dzlEZ09BbDR3YTEtNWwxdExTZ2FuWHhqOEdnampnR2czcEcyY24yTEh1NS1RQmt2cFcxN2o0REtOTWxSQVpXanhHS2RRTVBBUFRwTmtRTGdyTERlcm1CTHdBcnpGNjhGcU5zM3RVeDFvSURmWEhHdUtLdUx1dmZF?oc=5",
@@ -7056,158 +7188,6 @@
             "n": "Nikkei Asia",
             "b": "center",
             "u": "https://asia.nikkei.com/business/transportation/japan-s-hitachi-rail-to-upgrade-austria-s-signal-system-in-1.5bn-deal"
-          }
-        ]
-      }
-    },
-    {
-      "id": "df102f6f1841",
-      "title": "South Sudan's election commission urges peaceful electoral process",
-      "description": "The commission chairperson called on politicians to choose ballots over bullets, promoting a non‑violent election.",
-      "lat": 4.85,
-      "lng": 31.6,
-      "severity": 1,
-      "location": "Juba, South Sudan",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/09/23/south-sudans-election-commission-urges-peaceful-electoral-process/",
-      "image": "http://images.euronews.com/articles/stories/09/92/49/59/640x360_cmsv2_fcf438a6-6dc2-5537-86d4-edd4be29125e-9924959.jpg?1790167609",
-      "ts": 1790173218000,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/south-sudan-president-dissolves-transitional-government-ahead-long-136675583"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c8750ykkglq1o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/09/23/south-sudans-election-commission-urges-peaceful-electoral-process/"
-          },
-          {
-            "n": "All Africa",
-            "b": "center",
-            "u": "https://allafrica.com/stories/202609230393.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "51686c107ede",
-      "title": "Moroccans head to polls amid economic uncertainty to decide next parliament",
-      "description": "Millions vote in a national election that will shape Morocco's economic and political direction.",
-      "lat": 35.12,
-      "lng": -6.840000000000003,
-      "severity": 2,
-      "location": "Rabat, Morocco",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/23/moroccans-head-to-polls-amid-economic-uncertainty-to-decide-next-parliament?traffic_source=rss",
-      "image": null,
-      "ts": 1790172997000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/9/23/moroccans-head-to-polls-amid-economic-uncertainty-to-decide-next-parliament?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3029263f614a",
-      "title": "U.S. announces implementation plan with S. Korea, Japan for SMR deployments",
-      "description": "Washington unveiled a joint plan to deploy small modular reactors in partnership with South Korea and Japan.",
-      "lat": 40.0,
-      "lng": -77.04,
-      "severity": 2,
-      "location": "Washington, DC, USA",
-      "source": "Yonhap News",
-      "url": "https://en.yna.co.kr/view/AEN20260923012000315",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2025/04/23/PYH2025042301140001300_P2.jpg",
-      "ts": 1790171945000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20260923012000315"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2b4273c4c7d4",
-      "title": "British family of man 'abducted and tortured by Saudi officials' condemn Andy Burnham's 'moral misstep' after UK offered the kingdom military assistance",
-      "description": "The UK approved a request from Riyadh for military help against Houthi attacks, raising concerns over regional escalation.",
-      "lat": 24.71,
-      "lng": 46.68000000000001,
-      "severity": 3,
-      "location": "Riyadh, Saudi Arabia",
-      "source": "Daily Mail World",
-      "url": "https://www.dailymail.com/news/article-16153707/British-family-man-abducted-tortured-Saudi-condemn-Andy-Burnham-military-assistance.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-      "image": "https://i.dailymail.com/1s/2026/09/23/11/111135821-0-Rami_Naimi_poses_with_his_wife_Mira_Lozi_in_this_undated_photogr-a-9_1790158243346.jpg",
-      "ts": 1790171207000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 2,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 2
-        },
-        "sources": [
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/europe/2026/09/23/watch-spanish-pm-sanchez-shares-central-park-stroll-with-pm-burnham/"
-          },
-          {
-            "n": "Daily Mail World",
-            "b": "right",
-            "u": "https://www.dailymail.com/news/article-16153707/British-family-man-abducted-tortured-Saudi-condemn-Andy-Burnham-military-assistance.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
           }
         ]
       }
