@@ -1,7 +1,98 @@
 {
   "schema": 1,
-  "updated": "2026-10-04T18:37:55.659070+00:00",
+  "updated": "2026-10-04T21:56:26.192383+00:00",
   "events": [
+    {
+      "id": "dc5ccbc9ea20",
+      "title": "Moscow format participants to discuss settlement of Afghanistan‑Pakistan relations",
+      "description": "Senior envoys from Afghanistan, India, Iran, Kazakhstan, China, Kyrgyzstan, Pakistan, Russia, Tajikistan and Uzbekistan gathered in Moscow to negotiate regional cooperation and stability.",
+      "lat": 56.85,
+      "lng": 37.620000000000005,
+      "severity": 1,
+      "location": "Moscow, Russia",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2197453",
+      "image": null,
+      "ts": 1791150030000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2197453"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6ee6ae274664",
+      "title": "German Chancellor Visits Kyiv; Russian Missiles Hit City Hours Later",
+      "description": "During Friedrich Merz’s unannounced visit to Kyiv, Russian missile strikes struck the capital, underscoring the fragility of Ukraine’s security.",
+      "lat": 51.55,
+      "lng": 32.42519999999999,
+      "severity": 4,
+      "location": "Kyiv, Ukraine",
+      "source": "IBTimes",
+      "url": "https://www.ibtimes.com/german-chancellor-visits-missile-prone-kyiv-german-ukrainian-alliance-now-faces-political-3808213",
+      "image": "http://images.euronews.com/articles/stories/09/93/00/69/640x360_cmsv2_f02d1895-d5e3-5270-a9bb-e5ae40e29718-9930069.jpg?1790573987",
+      "ts": 1791139883000,
+      "coverage": {
+        "left": 2,
+        "center": 4,
+        "right": 0,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 4,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/putin-kyiv-bridge-friedrich-merz-37732490"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/10/04/germany-s-merz-visits-kyiv-as-russia-steps-up-attacks-on-ukrainian-cities_6758230_4.html"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/german-chancellor-visits-missile-prone-kyiv-german-ukrainian-alliance-now-faces-political-3808213"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/german-chancellor-in-kyiv-ukraine-will-need-our-support"
+          },
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/russian-drone-slams-into-kyiv-bridge-in-escalating-campaign-as-germanys-chancellor-arrives-to-airsirens-and-explosions/"
+          }
+        ]
+      }
+    },
     {
       "id": "7492939f4be6",
       "title": "Saudi Arabia and UAE to bolster Asia's oil reserves",
@@ -292,26 +383,26 @@
       }
     },
     {
-      "id": "6ee6ae274664",
-      "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
-      "description": "A Russian drone struck the Pivnichyi Bridge in Kyiv, causing a fire as the German chancellor was in the city.",
-      "lat": 51.55,
-      "lng": 32.42519999999999,
-      "severity": 3,
-      "location": "Kyiv, Ukraine",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
-      "image": "http://images.euronews.com/articles/stories/09/93/00/69/640x360_cmsv2_f02d1895-d5e3-5270-a9bb-e5ae40e29718-9930069.jpg?1790573987",
-      "ts": 1791115744000,
+      "id": "4cdb1e0696a4",
+      "title": "Iran Says Strait Of Hormuz Will Not Reopen Until Conditions Are Met",
+      "description": "Iran announced the strategic waterway will stay closed until the United States fulfills seven conditions from a June interim agreement.",
+      "lat": 27.67,
+      "lng": 58.15520000000001,
+      "severity": 2,
+      "location": "Strait of Hormuz",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/strait-of-hormuz-closure_n_6ac24247e4b0bc90e3ff8ae5",
+      "image": null,
+      "ts": 1791116197000,
       "coverage": {
-        "left": 4,
-        "center": 3,
+        "left": 1,
+        "center": 0,
         "right": 0,
-        "total": 7,
+        "total": 1,
         "buckets": {
           "left": 1,
-          "lean_left": 3,
-          "center": 3,
+          "lean_left": 0,
+          "center": 0,
           "lean_right": 0,
           "right": 0
         },
@@ -319,37 +410,7 @@
           {
             "n": "HuffPost World",
             "b": "left",
-            "u": "https://www.huffpost.com/entry/russian-attacks-kill-6-in-ukraine-damage-kyivs-northern-bridge_n_6ac13a3be4b0ecc03a2218ec"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/russia-ukraine-war-updates-russia-pounds-ukraine-with-drone-strikes-as-german-chancellor-visits-kyiv-12137394#publisher=newsstand"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/putin-kyiv-bridge-friedrich-merz-37732490"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/10/04/germany-s-merz-visits-kyiv-as-russia-steps-up-attacks-on-ukrainian-cities_6758230_4.html"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/german-chancellor-in-kyiv-ukraine-will-need-our-support"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/russian-drone-slams-into-kyiv-bridge-in-escalating-campaign-as-germanys-chancellor-arrives-to-airsirens-and-explosions/"
+            "u": "https://www.huffpost.com/entry/strait-of-hormuz-closure_n_6ac24247e4b0bc90e3ff8ae5"
           }
         ]
       }
@@ -1029,6 +1090,39 @@
       "lng": -75.1348,
       "severity": 2,
       "location": "Washington, D.C., United States",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/44c3/live/c89e9510-beff-11f1-babe-4199b0e7ccea.jpg",
+      "ts": 1791002311000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC Business",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2678546a65de",
+      "title": "G7 Agrees to Release Millions of Barrels of Oil to Stabilise Markets",
+      "description": "The Group of Seven announced a coordinated release of oil and diesel to curb price spikes after U.S. threats of export bans.",
+      "lat": 49.96,
+      "lng": 2.3499999999999943,
+      "severity": 2,
+      "location": "Paris, France",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/44c3/live/c89e9510-beff-11f1-babe-4199b0e7ccea.jpg",
@@ -7119,105 +7213,6 @@
             "n": "Washington Examiner",
             "b": "right",
             "u": "https://www.washingtonexaminer.com/news/world/4739987/israeli-ambassador-yechiel-leiter-son-west-bank-injury/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "566612bd1fab",
-      "title": "North Korea conducted test of upgraded rocket launcher system, KCNA says",
-      "description": "North Korea fired an upgraded 240 mm guided multiple‑rocket launcher in a test demonstration of its new artillery capability.",
-      "lat": 40.13,
-      "lng": 125.75,
-      "severity": 3,
-      "location": "Pyongyang, North Korea",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/north-korea-conducted-test-of-upgraded-rocket-launcher-system-kcna-says",
-      "image": null,
-      "ts": 1790201498000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/north-korea-conducted-test-of-upgraded-rocket-launcher-system-kcna-says"
-          }
-        ]
-      }
-    },
-    {
-      "id": "dd65376294be",
-      "title": "Lavrov, Lebanese prime minister discuss developments in Middle East",
-      "description": "Russian Foreign Minister Sergei Lavrov met the Lebanese prime minister to discuss regional issues and reaffirm support for Lebanon’s sovereignty.",
-      "lat": 33.89,
-      "lng": 35.5,
-      "severity": 2,
-      "location": "Beirut, Lebanon",
-      "source": "TASS",
-      "url": "https://tass.com/politics/2191891",
-      "image": null,
-      "ts": 1790201145000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/politics/2191891"
-          }
-        ]
-      }
-    },
-    {
-      "id": "64b7b4e1cfe3",
-      "title": "U.S. unveils two‑month trade truce extension as Xi lands for state visit",
-      "description": "Treasury Secretary Scott Bessent announced that the United States and China have agreed to extend their trade truce for another two months as Xi Jinping arrived in the U.S.",
-      "lat": 40.0,
-      "lng": -75.1348,
-      "severity": 2,
-      "location": "Washington, United States",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-23/xi-gets-rare-tarmac-welcome-from-trump-after-landing-at-us-base",
-      "image": null,
-      "ts": 1790201015000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-09-23/xi-gets-rare-tarmac-welcome-from-trump-after-landing-at-us-base"
           }
         ]
       }
