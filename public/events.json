@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-10-05T00:50:13.729356+00:00",
+  "updated": "2026-10-05T06:56:11.665026+00:00",
   "events": [
+    {
+      "id": "b9fb9da23743",
+      "title": "Yemen launches major military operation against Houthis",
+      "description": "Yemen's internationally recognised government announced a large‑scale offensive to retake Houthi‑held areas after rebels cut the road linking Taiz with Aden.",
+      "lat": 15.35,
+      "lng": 46.115200000000016,
+      "severity": 4,
+      "location": "Sana'a, Yemen",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/yemen-launches-major-military-operation-against-houthis/a-79542723?maca=en-rss-en-all-1573-rdf",
+      "image": "https://c.ndtvimg.com/2024-01/g3a4rqsk_houthi-rebels_625x300_26_January_24.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1791183371549,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/yemens-government-declares-major-operation-houthis-mideast-news-136983229"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/yemen-launches-major-military-operation-against-houthis/a-79542723?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ba3013a5bf6c",
+      "title": "U.S. Southern Command conducts strike on suspected narco‑boat in the Caribbean",
+      "description": "Four alleged drug traffickers were killed when U.S. forces hit a vessel believed to be smuggling narcotics in Caribbean waters.",
+      "lat": 15.0,
+      "lng": -75.0,
+      "severity": 3,
+      "location": "Caribbean Sea",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/dramatic-footage-shows-alleged-narco-boat-erupt-fireball-during-us-military-strike",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/accused-drug-boat-lethal-strike.png?ve=1&tl=1",
+      "ts": 1791177732000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/dramatic-footage-shows-alleged-narco-boat-erupt-fireball-during-us-military-strike"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ccaa2c806168",
+      "title": "U.S. sanctions aim to ‘shut down’ Iran’s airlines",
+      "description": "Washington imposed new sanctions targeting Iran’s civil aviation sector, seeking to halt commercial flights despite a Boeing plane still operating.",
+      "lat": 36.79,
+      "lng": 51.389999999999986,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeW0tbGd3clJ4Q3dNMEEwLXAwR0V2X1ZZZDA1bG9Db3lKTm95U1FUeExwY1owWUdLSlQwcEM5dFN6TWhGNHcxaGJSR2lwUlFJVkVhLUppaTV1QUhaaTlRaGFwMWVHZktBZ1J5Tm5PckhJNTA0aEJKaUNvVXBobmRHRU9RWVMyMURoam8tWFE2RFI1dTk2b0pSWA?oc=5",
+      "image": null,
+      "ts": 1791172867000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeW0tbGd3clJ4Q3dNMEEwLXAwR0V2X1ZZZDA1bG9Db3lKTm95U1FUeExwY1owWUdLSlQwcEM5dFN6TWhGNHcxaGJSR2lwUlFJVkVhLUppaTV1QUhaaTlRaGFwMWVHZktBZ1J5Tm5PckhJNTA0aEJKaUNvVXBobmRHRU9RWVMyMURoam8tWFE2RFI1dTk2b0pSWA?oc=5"
+          }
+        ]
+      }
+    },
     {
       "id": "0e1b1042a9b4",
       "title": "Brazil election headed to runoff, projection shows, as Bolsonaro lead narrows",
@@ -163,33 +267,33 @@
     },
     {
       "id": "6ee6ae274664",
-      "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
-      "description": "Un dron ruso impactó el puente Pivnichyi en Kiev, provocando un incendio mientras el canciller alemán estaba de visita.",
+      "title": "German Chancellor Friedrich Merz visits Kyiv as Russia steps up attacks on Ukrainian cities",
+      "description": "Chancellor Merz traveled to Kyiv to show political support for Ukraine amid intensified Russian missile strikes on Ukrainian urban centers.",
       "lat": 51.55,
       "lng": 32.42519999999999,
-      "severity": 3,
+      "severity": 2,
       "location": "Kyiv, Ukraine",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/germanys-merz-visits-kyiv-russia-steps-attacks-ukrainian-136983124",
       "image": "http://images.euronews.com/articles/stories/09/93/00/69/640x360_cmsv2_f02d1895-d5e3-5270-a9bb-e5ae40e29718-9930069.jpg?1790573987",
       "ts": 1791139883000,
       "coverage": {
         "left": 3,
-        "center": 4,
+        "center": 3,
         "right": 0,
-        "total": 7,
+        "total": 6,
         "buckets": {
-          "left": 1,
-          "lean_left": 2,
-          "center": 4,
+          "left": 0,
+          "lean_left": 3,
+          "center": 3,
           "lean_right": 0,
           "right": 0
         },
         "sources": [
           {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/russian-attacks-kill-6-in-ukraine-damage-kyivs-northern-bridge_n_6ac13a3be4b0ecc03a2218ec"
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/germanys-merz-visits-kyiv-russia-steps-attacks-ukrainian-136983124"
           },
           {
             "n": "Mirror World",
@@ -212,14 +316,9 @@
             "u": "https://www.ibtimes.com/german-chancellor-visits-missile-prone-kyiv-german-ukrainian-alliance-now-faces-political-3808213"
           },
           {
-            "n": "France 24",
+            "n": "DW News",
             "b": "center",
-            "u": "https://www.france24.com/en/german-chancellor-in-kyiv-ukraine-will-need-our-support"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/russian-drone-slams-into-kyiv-bridge-in-escalating-campaign-as-germanys-chancellor-arrives-to-airsirens-and-explosions/"
+            "u": "https://www.dw.com/en/germany-s-merz-visits-kyiv-as-russia-strikes-bridge/a-79534734?maca=en-rss-en-all-1573-rdf"
           }
         ]
       }
@@ -286,39 +385,6 @@
             "n": "All Africa",
             "b": "center",
             "u": "https://allafrica.com/stories/202610040063.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b9fb9da23743",
-      "title": "Yemen Launches Drive To Reclaim Houthi Territory, Group Targets Aramco Sites",
-      "description": "Yemen's government announced a new military operation to retake areas held by the Houthis.",
-      "lat": 15.35,
-      "lng": 46.115200000000016,
-      "severity": 3,
-      "location": "Sana'a, Yemen",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/yemen-launches-drive-to-reclaim-houthi-territory-group-targets-aramco-sites-12137828#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2024-01/g3a4rqsk_houthi-rebels_625x300_26_January_24.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1791125928000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/yemen-launches-drive-to-reclaim-houthi-territory-group-targets-aramco-sites-12137828#publisher=newsstand"
           }
         ]
       }
@@ -7192,72 +7258,6 @@
             "n": "GNews Geopolitics",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNlllVVlKRlVNVVB3eWZlWnkySGxQOWxidXRPRVVMM2xtZEhQd0Z0R1Rpak1RLXltQmFoVGRVU3hqaUJnSjhzbFVmWHZoRzBrMnpnNVBHWFUwaml0MTdCNjM1SDcxdHNyTWI4Z2RjbmpaZFFpWTFINEx3Q3g3NGpENzd4RER2eHpnaXJDamlXZFRMWmpTcGs1U2xLQ3FPQmNVTXNTdmdnUzVmT3BGcTNLN0JQZ0E3VjQ?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "97d2e4c9cb1e",
-      "title": "How Chinese Goods Sustain the Houthis' War Machine",
-      "description": "Chinese equipment and parts are enabling the Houthis in Yemen to produce weapons domestically, bolstering their war effort.",
-      "lat": 15.35,
-      "lng": 44.21,
-      "severity": 3,
-      "location": "Sana'a, Yemen",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/videos/2026-09-24/how-chinese-goods-sustain-the-houthis-war-machine-video",
-      "image": null,
-      "ts": 1790229300000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/videos/2026-09-24/how-chinese-goods-sustain-the-houthis-war-machine-video"
-          }
-        ]
-      }
-    },
-    {
-      "id": "37b0dbc28c76",
-      "title": "Turkey's Erdogan tells Ukraine's Zelenskiy that Black Sea attacks are inexplicable",
-      "description": "President Erdogan told President Zelensky that recent attacks on commercial vessels in the Black Sea were inexplicable.",
-      "lat": 39.93,
-      "lng": 32.86,
-      "severity": 3,
-      "location": "Ankara, Turkey",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/09/turkeys-erdogan-tells-ukraines-zelenskiy-black-sea-attacks-are-inexplicable",
-      "image": null,
-      "ts": 1790228794000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/turkeys-erdogan-tells-ukraines-zelenskiy-black-sea-attacks-are-inexplicable"
           }
         ]
       }
