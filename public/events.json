@@ -1,7 +1,220 @@
 {
   "schema": 1,
-  "updated": "2026-10-05T06:56:11.665026+00:00",
+  "updated": "2026-10-05T15:55:40.258001+00:00",
   "events": [
+    {
+      "id": "da70833e7fdf",
+      "title": "Norway parliament to consider proposal for national terror list naming Hamas, IRGC",
+      "description": "A proposal in Norway's parliament seeks to create an independent list designating terrorist organizations such as Hamas and the IRGC.",
+      "lat": 59.91,
+      "lng": 10.75,
+      "severity": 2,
+      "location": "Oslo, Norway",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/international/islamic-terrorism/article-910672",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_4429,w_7007/734138",
+      "ts": 1791220383000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/international/islamic-terrorism/article-910672"
+          }
+        ]
+      }
+    },
+    {
+      "id": "61c1b0818a70",
+      "title": "UK security adviser visited Israel in bid to keep Jerusalem consulate open",
+      "description": "Britain's top national security official travelled to Israel to negotiate keeping the UK consulate in East Jerusalem operational.",
+      "lat": 32.88,
+      "lng": 37.12520000000001,
+      "severity": 2,
+      "location": "East Jerusalem, Israel",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/10/uk-security-adviser-visited-israel-bid-keep-jerusalem-consulate-open-sources-say",
+      "image": null,
+      "ts": 1791215189000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/10/uk-security-adviser-visited-israel-bid-keep-jerusalem-consulate-open-sources-say"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6f1e6faeeb26",
+      "title": "Spain’s Leader Calls an Early Election",
+      "description": "Prime Minister Pedro Sánchez announced an early general election amid migration pressures and corruption scandals.",
+      "lat": 40.42,
+      "lng": -3.7,
+      "severity": 3,
+      "location": "Madrid, Spain",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/live/2026/10/05/world/spain-elections-sanchez",
+      "image": "https://static01.nyt.com/images/2026/10/05/multimedia/05int-spain-live-hqtl-cop-promo/05int-spain-live-hqtl-cop-promo-mediumSquareAt3X-v3.jpg",
+      "ts": 1791214952000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/live/2026/10/05/world/spain-elections-sanchez"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/europe/2026/10/05/spanish-socialist-pm-pedro-sanchez-calls-for-november-29-snap-election/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9bb75b517bbe",
+      "title": "Nigeria launches rescue after military plane crashes with 32 aboard",
+      "description": "A Nigerian military aircraft crashed in Ondo state, prompting a rescue operation for the 32 personnel on board.",
+      "lat": 7.25,
+      "lng": 5.2,
+      "severity": 4,
+      "location": "Ondo State, Nigeria",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/5/nigeria-launches-rescue-after-military-plane-crashes-with-32-aboard?traffic_source=rss",
+      "image": null,
+      "ts": 1791214215000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/10/5/nigeria-launches-rescue-after-military-plane-crashes-with-32-aboard?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7054ec608017",
+      "title": "Kenya: ‘If we can do a refinery, we can do anything,’ says James Mwangi",
+      "description": "Equity Group chief executive highlights the planned Lamu oil refinery as a key step for Africa to capture more value in the energy chain.",
+      "lat": 2.27,
+      "lng": 40.9,
+      "severity": 1,
+      "location": "Lamu, Kenya",
+      "source": "The Africa Report",
+      "url": "https://www.theafricareport.com/432276/kenya-if-we-can-do-a-refinery-we-can-do-anything-says-james-mwangi/",
+      "image": null,
+      "ts": 1791208800000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Africa Report",
+            "b": "center",
+            "u": "https://www.theafricareport.com/432276/kenya-if-we-can-do-a-refinery-we-can-do-anything-says-james-mwangi/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5d5d4c15bda1",
+      "title": "Germany at risk of violent conflict with Russia, intelligence chief says",
+      "description": "Germany's intelligence chief warned that the country faces a risk of armed conflict with Russia.",
+      "lat": 52.52,
+      "lng": 13.4,
+      "severity": 3,
+      "location": "Berlin, Germany",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOelJXS092bDNjUVJZOGk3OHRSM3F4OHRTMjZkNHh6RWlTRXVoUnlpQ2NYMlUtV1dCUDBKUFB1YzFRUUtLVERsbmp4Y1h2WTJNbkZqeVRtZkE0d0FYUWJ4QVpjLTNBWjZ3eF8zRTFpWERkaWpVZUgyQkJWTms0RTdWN1hXMTcxczhHWnR6MHNzdzdoYlV2VU9IREd3NGs1UHloTG1nc0d1alRsWlBjTF9nTg?oc=5",
+      "image": null,
+      "ts": 1791198334000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/germany-at-risk-of-violent-conflict-with-russia-warns-intelligence-chief-13595339"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOelJXS092bDNjUVJZOGk3OHRSM3F4OHRTMjZkNHh6RWlTRXVoUnlpQ2NYMlUtV1dCUDBKUFB1YzFRUUtLVERsbmp4Y1h2WTJNbkZqeVRtZkE0d0FYUWJ4QVpjLTNBWjZ3eF8zRTFpWERkaWpVZUgyQkJWTms0RTdWN1hXMTcxczhHWnR6MHNzdzdoYlV2VU9IREd3NGs1UHloTG1nc0d1alRsWlBjTF9nTg?oc=5"
+          },
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/news/article-16183727/Germany-Berlin-hybrid-war-Russia-Putin.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+          }
+        ]
+      }
+    },
     {
       "id": "b9fb9da23743",
       "title": "Yemen launches major military operation against Houthis",
@@ -195,6 +408,44 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/646715-bolsonaro-leads-lula-election-brazil/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e9c96e80b061",
+      "title": "Pentagon Moves Bombers From UK Base at Center of Terror Plot",
+      "description": "The United States removed its bombers from RAF Fairford in the UK after the base was linked to a suspected terrorist attack attempt.",
+      "lat": 51.66,
+      "lng": -1.789999999999992,
+      "severity": 4,
+      "location": "RAF Fairford, United Kingdom",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-04/pentagon-redeploys-bombers-from-uk-base-at-center-of-terror-plot",
+      "image": null,
+      "ts": 1791150295000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/air-force-britain-us-air-base-bombers_n_6ac2ec62e4b0d51e335c5af4"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-10-04/pentagon-redeploys-bombers-from-uk-base-at-center-of-terror-plot"
           }
         ]
       }
@@ -7022,242 +7273,6 @@
             "n": "Japan Times",
             "b": "center",
             "u": "https://www.japantimes.co.jp/business/2026/09/24/amazon-india-bet/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5e7e98e6cf8b",
-      "title": "Hamas 'ready' to move forward with Board of Peace ceasefire roadmap for Gaza",
-      "description": "Hamas says it is prepared to advance the ceasefire roadmap, urging Israel to halt aggression.",
-      "lat": 31.52,
-      "lng": 36.365200000000016,
-      "severity": 1,
-      "location": "Gaza City, Gaza Strip",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/middle-east/article-909561",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_537,w_822/703090",
-      "ts": 1790252625000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cwlyke0mm0x3o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/article-909561"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f049a8cd77d9",
-      "title": "Bangladesh skips BRICS summit in New Delhi, raising tensions with India",
-      "description": "Bangladesh's absence from the BRICS summit in Delhi highlights strained India‑Bangladesh relations.",
-      "lat": 29.71,
-      "lng": 77.20999999999998,
-      "severity": 3,
-      "location": "New Delhi, India",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/tensions-between-india-and-bangladesh-are-is-in-focus-after-dhaka-skipped-the-brics-summit-in-delhi/a-79410667?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1790250097194,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/tensions-between-india-and-bangladesh-are-is-in-focus-after-dhaka-skipped-the-brics-summit-in-delhi/a-79410667?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0481de2bdb3f",
-      "title": "U.S. and Iran trade threats, pushing oil prices higher",
-      "description": "Iran warns of a new front after U.S. threats, escalating rhetoric between the two nations.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-trump-un-speech-annihilate-threat-talks-resume/",
-      "image": null,
-      "ts": 1790249785000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-trump-un-speech-annihilate-threat-talks-resume/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7448ddf1de6c",
-      "title": "Saudi Civil Defense issues, then lifts missile alert for Mecca",
-      "description": "An alert for a possible missile threat over Mecca was issued and later cancelled.",
-      "lat": 22.52,
-      "lng": 39.829999999999984,
-      "severity": 2,
-      "location": "Mecca, Saudi Arabia",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/world/mid-east/saudi-arabia-issues-then-lifts-likely-missile-alert-for-mecca",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/09/24/462140.jpg",
-      "ts": 1790247660000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/mid-east/saudi-arabia-issues-then-lifts-likely-missile-alert-for-mecca"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7fc8aedef7ed",
-      "title": "UK replies to Milei: “not the behaviour we expect of a democracy”",
-      "description": "The United Kingdom demanded a written statement from Argentina after President Javier Milei’s address at the UN, criticizing his remarks as undemocratic.",
-      "lat": -33.5,
-      "lng": -56.4748,
-      "severity": 3,
-      "location": "Buenos Aires, Argentina",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/09/24/uk-replies-to-milei-not-the-behaviour-we-expect-of-a-democracy?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111560/100x80/2jmm.jpg",
-      "ts": 1790247540000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/09/24/uk-replies-to-milei-not-the-behaviour-we-expect-of-a-democracy?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5db2da6f6251",
-      "title": "US spies warn of Russian drone attack plot on Italy, Spain and France",
-      "description": "Intelligence reports a Russian plan to launch UAV strikes on tourist sites in Europe.",
-      "lat": 41.9,
-      "lng": 12.48,
-      "severity": 2,
-      "location": "Rome, Italy",
-      "source": "Daily Mail World",
-      "url": "https://www.dailymail.com/news/article-16156439/Putins-Mediterranean-drone-attack-plot-US-spies-warn-Russia-planning-strikes-Italy-Spain-France-UAVs-hidden-merchant-ships.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-      "image": "https://i.dailymail.com/1s/2026/09/24/07/111438215-0-image-m-15_1790232893690.jpg",
-      "ts": 1790245577000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Daily Mail World",
-            "b": "right",
-            "u": "https://www.dailymail.com/news/article-16156439/Putins-Mediterranean-drone-attack-plot-US-spies-warn-Russia-planning-strikes-Italy-Spain-France-UAVs-hidden-merchant-ships.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-          }
-        ]
-      }
-    },
-    {
-      "id": "583904342218",
-      "title": "Serbia's Russian‑owned NIS oil firm seeks new US sanctions waiver",
-      "description": "The Serbian oil company requests a waiver to mitigate the impact of U.S. sanctions on its operations.",
-      "lat": 45.91,
-      "lng": 20.460000000000008,
-      "severity": 2,
-      "location": "Belgrade, Serbia",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNlllVVlKRlVNVVB3eWZlWnkySGxQOWxidXRPRVVMM2xtZEhQd0Z0R1Rpak1RLXltQmFoVGRVU3hqaUJnSjhzbFVmWHZoRzBrMnpnNVBHWFUwaml0MTdCNjM1SDcxdHNyTWI4Z2RjbmpaZFFpWTFINEx3Q3g3NGpENzd4RER2eHpnaXJDamlXZFRMWmpTcGs1U2xLQ3FPQmNVTXNTdmdnUzVmT3BGcTNLN0JQZ0E3VjQ?oc=5",
-      "image": null,
-      "ts": 1790238369000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNlllVVlKRlVNVVB3eWZlWnkySGxQOWxidXRPRVVMM2xtZEhQd0Z0R1Rpak1RLXltQmFoVGRVU3hqaUJnSjhzbFVmWHZoRzBrMnpnNVBHWFUwaml0MTdCNjM1SDcxdHNyTWI4Z2RjbmpaZFFpWTFINEx3Q3g3NGpENzd4RER2eHpnaXJDamlXZFRMWmpTcGs1U2xLQ3FPQmNVTXNTdmdnUzVmT3BGcTNLN0JQZ0E3VjQ?oc=5"
           }
         ]
       }
