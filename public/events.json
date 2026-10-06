@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-10-06T16:14:30.456539+00:00",
+  "updated": "2026-10-06T21:12:13.086044+00:00",
   "events": [
+    {
+      "id": "73113eb27029",
+      "title": "Tigray drone strikes continue as life resumes in Mekelle",
+      "description": "エチオピア政府支援軍がティグレ州首都メケレでドローン攻撃を継続、戦闘が再燃。",
+      "lat": 15.15,
+      "lng": 40.42259999999999,
+      "severity": 4,
+      "location": "Mekelle, Ethiopia",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/10/06/tigray-drone-strikes-continue-as-life-resumes-in-mekelle/",
+      "image": "http://images.euronews.com/articles/stories/09/94/18/50/640x360_cmsv2_2e1ac77a-9672-5b13-b629-22a841b6ca08-9941850.jpg?1791305807",
+      "ts": 1791316936000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/10/06/tigray-drone-strikes-continue-as-life-resumes-in-mekelle/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "126ae8b276a1",
+      "title": "South Korea prepares Nuri rocket's fifth launch with 15 satellites",
+      "description": "韓国が自国開発ロケットNuriの第5回打ち上げを実施、15機の衛星を軌道へ投入予定。",
+      "lat": 34.55,
+      "lng": 127.21,
+      "severity": 2,
+      "location": "Goheung, South Korea",
+      "source": "Yonhap News",
+      "url": "https://en.yna.co.kr/view/AEN20261006008500320",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/06/PYH2026100609340001300_P2.jpg",
+      "ts": 1791316803000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20261006008500320"
+          }
+        ]
+      }
+    },
     {
       "id": "891e143ab583",
       "title": "Iran drone plot fears led US to remove bombers from UK base, US officials say",
@@ -102,6 +168,105 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/10/06/malian-army-and-russian-fighters-retake-key-city-of-kidal-abandoned-by-rebels/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8205b3c24155",
+      "title": "Anduril Industries invests $3.7 bn in new Maryland drone factory",
+      "description": "米国防衛企業アンドゥリルがメリーランド州に大型ドローン・船舶製造施設を建設、米海軍の核潜水艦支援を強化。",
+      "lat": 39.29,
+      "lng": -76.61,
+      "severity": 2,
+      "location": "Baltimore, United States",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-06/drone-maker-anduril-pushes-into-submarines-with-maryland-factory",
+      "image": null,
+      "ts": 1791291600000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-10-06/drone-maker-anduril-pushes-into-submarines-with-maryland-factory"
+          }
+        ]
+      }
+    },
+    {
+      "id": "86564092747f",
+      "title": "Kenya confirms its first Ebola case as virus surges in DRC",
+      "description": "ケニア保健大臣が、コンゴ民主共和国から入国した患者で国内初のエボラ感染を確認、28人の接触者を特定。",
+      "lat": 2.39,
+      "lng": 36.81999999999999,
+      "severity": 3,
+      "location": "Nairobi, Kenya",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/world/2026/oct/06/kenya-first-ebola-case-death-drc",
+      "image": null,
+      "ts": 1791290816000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/oct/06/kenya-first-ebola-case-death-drc"
+          }
+        ]
+      }
+    },
+    {
+      "id": "024cb6f7adb6",
+      "title": "Takaichi asked Trump to broker Japan‑North Korea summit",
+      "description": "日本の高市氏がトランプ米大統領に北朝鮮との首脳会談仲介を要請、拉致問題で停滞した交渉再開を狙う。",
+      "lat": 40.13,
+      "lng": 125.73000000000002,
+      "severity": 1,
+      "location": "Pyongyang, North Korea",
+      "source": "Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/10/06/japan/takaichi-trump-north-korea-abductee/",
+      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/10/06/567138.jpg",
+      "ts": 1791282480000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/10/06/japan/takaichi-trump-north-korea-abductee/"
           }
         ]
       }
@@ -604,6 +769,39 @@
             "n": "Jerusalem Post",
             "b": "center",
             "u": "https://www.jpost.com/international/islamic-terrorism/article-910672"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6ebcc1d8421d",
+      "title": "ICC to unseal warrants for four senior Taliban leaders",
+      "description": "国際刑事裁判所がタリバン指導者4名に対し、ジェンダー迫害の人道に対する罪で逮捕状を公開。",
+      "lat": 35.65,
+      "lng": 71.11520000000002,
+      "severity": 2,
+      "location": "Kabul, Afghanistan",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/icc-unseal-arrest-warrants-4-taliban-leaders-wanted-137005762",
+      "image": "https://s.abcnews.com/images/International/wirestory_d865b7b9695311a5c18c8f95769b9132_4x3_384.jpg",
+      "ts": 1791215276000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/icc-unseal-arrest-warrants-4-taliban-leaders-wanted-137005762"
           }
         ]
       }
@@ -7045,209 +7243,6 @@
             "n": "IBTimes",
             "b": "center",
             "u": "https://www.ibtimes.com/iranian-fm-says-hormuz-strait-will-reopen-within-seven-says-if-us-meets-certain-conditions-oil-3807880"
-          }
-        ]
-      }
-    },
-    {
-      "id": "dc512c3926f4",
-      "title": "German Lawmakers Approve Fuel‑Tax Relief Worth €2.5 Billion",
-      "description": "Germany's parliament passed a temporary cut to fuel taxes to ease the burden of soaring energy prices on consumers.",
-      "lat": 53.62,
-      "lng": 13.409999999999997,
-      "severity": 2,
-      "location": "Berlin, Germany",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-25/german-lawmakers-approve-new-fuel-tax-relief-worth-2-5-billion",
-      "image": null,
-      "ts": 1790336525000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-09-25/german-lawmakers-approve-new-fuel-tax-relief-worth-2-5-billion"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9c88455fc7ae",
-      "title": "Trump and Xi exchange warm words at state dinner but little progress on key issues",
-      "description": "U.S. President Donald Trump and Chinese President Xi Jinping held a state dinner in Washington, offering cordial remarks but achieving no substantive agreements.",
-      "lat": 38.9,
-      "lng": -77.04,
-      "severity": 2,
-      "location": "Washington, DC, United States",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/602f/live/4a515750-b8a7-11f1-a430-4d16ee157c41.jpg",
-      "ts": 1790332615000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&at_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4628dbcf3e41",
-      "title": "Two IDF soldiers killed in drone accident during operation within Gaza outpost",
-      "description": "A drone crashed and exploded while Israeli soldiers were investigating the site, resulting in two fatalities.",
-      "lat": 31.52,
-      "lng": 34.46000000000001,
-      "severity": 3,
-      "location": "Gaza City, Gaza Strip",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/israel-news/defense-news/article-909641",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_537,w_822/739250",
-      "ts": 1790324561000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/israel-news/defense-news/article-909641"
-          }
-        ]
-      }
-    },
-    {
-      "id": "71674334b43a",
-      "title": "Pakistani forces kill several Afghan Taliban fighters in border clash amid escalating tensions",
-      "description": "Clash along the Pakistan‑Afghanistan frontier resulted in the deaths of multiple Taliban combatants, heightening regional security concerns.",
-      "lat": 31.0,
-      "lng": 71.0,
-      "severity": 3,
-      "location": "Torkham Border Crossing, Pakistan/Afghanistan",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/pakistani-forces-kill-several-afghan-taliban-fighters-in-border-clash-amid-escalating-tensions/article71507478.ece",
-      "image": "https://th-i.thgim.com/public/incoming/ti9z4x/article71507509.ece/alternates/LANDSCAPE_1200/Afghanistan_Pakistan_9_421.jpg",
-      "ts": 1790321089000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/9/25/pakistani-forces-kill-afghan-taliban-fighters-in-border-escalation?traffic_source=rss"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/pakistani-forces-kill-several-afghan-taliban-fighters-in-border-clash-amid-escalating-tensions/article71507478.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "eb0f7a207467",
-      "title": "Vietnam and North Korea pledge closer defence ties during Hanoi talks",
-      "description": "Vietnam and North Korea agreed to deepen defence cooperation, signalling a new security alignment in East Asia.",
-      "lat": 21.02,
-      "lng": 105.85,
-      "severity": 2,
-      "location": "Hanoi, Vietnam",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/vietnam-and-north-korea-pledge-closer-defence-ties-during-hanoi-talks",
-      "image": null,
-      "ts": 1790320912000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/vietnam-and-north-korea-pledge-closer-defence-ties-during-hanoi-talks"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8b5a89d75e64",
-      "title": "Iran's president tells Fox anchor the war was 'imposed on us' and warns of strong response",
-      "description": "President Masoud Pezeshkian blames external forces for the conflict with the U.S. and threatens a robust retaliation if attacks continue.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "The Hill",
-      "url": "https://thehill.com/policy/international/6110895-pezeshkian-us-conflict-iran/",
-      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/09/AP26265238297251-e1790167881356.jpg?w=900",
-      "ts": 1790304407000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/policy/international/6110895-pezeshkian-us-conflict-iran/"
           }
         ]
       }
