@@ -1,14 +1,113 @@
 {
   "schema": 1,
-  "updated": "2026-10-06T21:12:13.086044+00:00",
+  "updated": "2026-10-07T01:00:05.294438+00:00",
   "events": [
+    {
+      "id": "d53f721f7d0a",
+      "title": "NATO membership for Ukraine ‘not on the table’ – Rubio",
+      "description": "U.S. Secretary of State Marco Rubio stated that Ukraine’s NATO accession is currently not being considered, signalling a diplomatic warning.",
+      "lat": 50.45,
+      "lng": 32.42519999999999,
+      "severity": 2,
+      "location": "Kyiv, Ukraine",
+      "source": "RT News",
+      "url": "https://www.rt.com/news/646837-nato-membership-ukraine-rubio/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.10/thumbnail/6ac53ec22030275b020b7cef.jpg",
+      "ts": 1791334242000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://www.rt.com/news/646837-nato-membership-ukraine-rubio/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f9cf7d054970",
+      "title": "Yemeni forces launch offensive to retake al‑Waziiya in Taiz",
+      "description": "Yemen’s government forces began an assault on the Houthi‑held al‑Waziiya district, a strategic point for the Red Sea port of Mocha.",
+      "lat": 13.58,
+      "lng": 45.92519999999999,
+      "severity": 3,
+      "location": "Al‑Waziiya, Taiz, Yemen",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/7/yemeni-forces-launch-offensive-to-retake-houthi-held-al-waziiya-in-taiz?traffic_source=rss",
+      "image": null,
+      "ts": 1791333357000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/10/7/yemeni-forces-launch-offensive-to-retake-houthi-held-al-waziiya-in-taiz?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0d0f5c96dedc",
+      "title": "Costa Rica Parliament approves law against illegal mining",
+      "description": "The Costa Rican legislature passed a law imposing up to eight years in prison for illegal mineral extraction; awaiting presidential signature.",
+      "lat": 9.93,
+      "lng": -84.09,
+      "severity": 1,
+      "location": "San José, Costa Rica",
+      "source": "ANSA Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/10/07/costa-rica-il-parlamento-approva-legge-contro-lestrazione-mineraria-illegale_d55746b3-d0ff-4625-b0fb-9291f4b8d445.html",
+      "image": null,
+      "ts": 1791330326000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/10/07/costa-rica-il-parlamento-approva-legge-contro-lestrazione-mineraria-illegale_d55746b3-d0ff-4625-b0fb-9291f4b8d445.html"
+          }
+        ]
+      }
+    },
     {
       "id": "73113eb27029",
       "title": "Tigray drone strikes continue as life resumes in Mekelle",
-      "description": "エチオピア政府支援軍がティグレ州首都メケレでドローン攻撃を継続、戦闘が再燃。",
+      "description": "Government‑aligned forces use drones against Tigray fighters in Mekelle, causing civilian disruption and escalating the regional conflict.",
       "lat": 15.15,
       "lng": 40.42259999999999,
-      "severity": 4,
+      "severity": 3,
       "location": "Mekelle, Ethiopia",
       "source": "Africanews",
       "url": "http://www.africanews.com/2026/10/06/tigray-drone-strikes-continue-as-life-resumes-in-mekelle/",
@@ -64,6 +163,39 @@
             "n": "Yonhap News",
             "b": "center",
             "u": "https://en.yna.co.kr/view/AEN20261006008500320"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1762294bf8f9",
+      "title": "Iran Ramps Up Ship Attacks in Hormuz as Oil, Gas Flows Climb",
+      "description": "Iran increased attacks on tankers transiting the Strait of Hormuz, heightening maritime security risks for global energy shipments.",
+      "lat": 27.67,
+      "lng": 56.25,
+      "severity": 2,
+      "location": "Strait of Hormuz",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-06/iran-ramps-up-ship-attacks-in-hormuz-as-oil-and-gas-flows-climb",
+      "image": null,
+      "ts": 1791303490000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-10-06/iran-ramps-up-ship-attacks-in-hormuz-as-oil-and-gas-flows-climb"
           }
         ]
       }
@@ -234,6 +366,39 @@
             "n": "The Guardian World",
             "b": "lean_left",
             "u": "https://www.theguardian.com/world/2026/oct/06/kenya-first-ebola-case-death-drc"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d1e24e8d71bf",
+      "title": "Ex‑spy chief arrested in Germany on suspicion of trading state secrets",
+      "description": "Germany’s federal prosecutor detained a former foreign intelligence chief on espionage and treason charges, heightening diplomatic tensions.",
+      "lat": 53.62,
+      "lng": 15.305200000000013,
+      "severity": 3,
+      "location": "Berlin, Germany",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/spy-chief-arrested-germany-suspicion-trading-state-secrets-137025370",
+      "image": "https://s.abcnews.com/images/International/wirestory_47bb15543a3e2404e3f756dbb517d14c_4x3_384.jpg",
+      "ts": 1791288154000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/spy-chief-arrested-germany-suspicion-trading-state-secrets-137025370"
           }
         ]
       }
@@ -1506,44 +1671,6 @@
             "n": "South China Morning Post",
             "b": "center",
             "u": "https://www.scmp.com/news/hong-kong/society/article/3369721/1500-hong-kong-residents-tour-revamped-huanggang-port-border-crossing?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1762294bf8f9",
-      "title": "More tankers struck in the Middle East as Iran reiterates conditions for reopening the Strait of Hormuz",
-      "description": "Iranian forces attacked additional oil tankers in the Strait of Hormuz, demanding an end to U.S. actions before reopening the waterway.",
-      "lat": 27.67,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/10/04/more-tankers-struck-in-gulf-waters-as-iran-reiterates-conditions.html",
-      "image": null,
-      "ts": 1791117335000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/iran-says-strait-of-hormuz-will-not-reopen-until-conditions-are-met-says-reports/article71543176.ece"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/10/04/more-tankers-struck-in-gulf-waters-as-iran-reiterates-conditions.html"
           }
         ]
       }
@@ -7041,208 +7168,6 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/09/25/over-55000-sudanese-refugees-fled-to-east-chad-this-year-un/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "64eca143bf40",
-      "title": "Iran Proposes A Deal To Reopen The Strait Of Hormuz In 7 Days If The U.S. Meets Its Conditions",
-      "description": "Iran offered a seven‑day plan to the United States to reopen the Strait of Hormuz, using the waterway as leverage in regional tensions.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 2,
-      "location": "Strait of Hormuz",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/iran-proposes-deal-reopen-strait-of-hormuz-7-days-us-meets-conditions_n_6ab69619e4b0bad9a6472b11",
-      "image": null,
-      "ts": 1790353522000,
-      "coverage": {
-        "left": 5,
-        "center": 6,
-        "right": 1,
-        "total": 12,
-        "buckets": {
-          "left": 1,
-          "lean_left": 4,
-          "center": 6,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/iran-proposes-deal-reopen-strait-of-hormuz-7-days-us-meets-conditions_n_6ab69619e4b0bad9a6472b11"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/nightly-news/video/iran-s-new-proposal-to-re-open-strait-of-hormuz-270565957609"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/donald-trump-rejects-ceasefire-deal-37704745"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/09/26/trump-rejects-iran-s-plan-to-reopen-strait-of-hormuz_6757986_4.html"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/trump-rejects-iran-proposal-for-deal-to-reopen-hormuz/article71514089.ece"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/4d71acf8-dda7-475e-88c5-5351f0176558?syn-25a6b1a6=1"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/iran-says-it-has-given-us-concrete-seven-day-plan-to-reopen-strait-of-hormuz-13591945"
-          },
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/homenews/6112836-live-updates-trump-college-football-gop/"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPekVrcUpCSVdWWjdjNHY5ZS12MmprMF9ma3loOGpyZExyTW5uRG9qT3NjV21qSUFSMUhRVV9Ld3A5TWpVTS1QcFI2VENoZTdQRkVIQi11Z2JuUV80a1B2U2Q5TGhlQlZiZkV3MFlCbkI4NUZDeWJROWgxbTAtSVE3dU0xUDVnbFU2MF9MN25MVmZRNUdCWXBleDhlamtaVGNzbkVtWDM1VlfSAa4BQVVfeXFMTjljQTNjOXdPLVpNZWhUNTduR2ZZWGN3dDRrak9NOS1WWlBNejVMWDk2aGRkek9CYzB5OWpiTU1BeWtHUkRZZGduc28td2dSZmlsQUM2NTNrQ1M5WU1rcVJoNWZKZlkzNmN5Z1FkWnJFN0FNVDEtQjFKSkYwQ0RQZFpkOWVxNm43dkloMnZtTFFFSy1xVVRYVEJEYkFZdzdBemNCMEJQZGVLZzdvQXlB?oc=5"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-09-26/trump-says-he-rejected-latest-iran-proposal-to-reopen-hormuz"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/white-house/4743997/iran-hormuz-deal-trump-resume-bomb-midterm/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "83386c861c23",
-      "title": "Explosion near Acropolis collapses building in Athens’ Plaka, injuring two",
-      "description": "A powerful blast in the historic Plaka district of Athens caused a two‑storey building to collapse, injuring at least two people.",
-      "lat": 37.98,
-      "lng": 23.73,
-      "severity": 3,
-      "location": "Athens, Greece",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/09/25/explosion-near-acropolis-collapses-building-in-athens-plaka-injuring-two/",
-      "image": "http://images.euronews.com/articles/stories/09/92/79/70/640x360_cmsv2_790845e8-c9b8-522e-9aff-89534549b56f-9927970.jpg?1790339627",
-      "ts": 1790340506000,
-      "coverage": {
-        "left": 2,
-        "center": 2,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/video/an-explosion-near-the-acropolis-in-greece-injures-at-least-three-people-270514245665"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/explosion-acropolis-greece-injures-2-people-collapses-building-136744794"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/powerful-explosion-in-athens-destroys-building-near-acropolis-13591684"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/09/25/explosion-near-acropolis-collapses-building-in-athens-plaka-injuring-two/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "108a7268d1bf",
-      "title": "Africa: All of Africa Today - September 25, 2026 — Uganda Begins $121M South Sudan Power Interconnection Project",
-      "description": "Uganda launches a $121 million electricity interconnection project with South Sudan to boost regional power trade.",
-      "lat": 5.95,
-      "lng": 31.599999999999994,
-      "severity": 2,
-      "location": "Juba, South Sudan",
-      "source": "All Africa",
-      "url": "https://allafrica.com/stories/202609250212.html",
-      "image": null,
-      "ts": 1790339870000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "All Africa",
-            "b": "center",
-            "u": "https://allafrica.com/stories/202609250212.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "adad74464a0a",
-      "title": "Iranian FM Says Hormuz Strait Will Reopen Within Seven If U.S. Meets 'Certain Conditions'",
-      "description": "Iranian foreign minister Abbas Araghchi said the Strait of Hormuz will be reopened within a week if the United States fulfills conditions deemed non‑new by Tehran.",
-      "lat": 27.67,
-      "lng": 56.25,
-      "severity": 2,
-      "location": "Strait of Hormuz",
-      "source": "IBTimes",
-      "url": "https://www.ibtimes.com/iranian-fm-says-hormuz-strait-will-reopen-within-seven-says-if-us-meets-certain-conditions-oil-3807880",
-      "image": null,
-      "ts": 1790338367000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/iranian-fm-says-hormuz-strait-will-reopen-within-seven-says-if-us-meets-certain-conditions-oil-3807880"
           }
         ]
       }
