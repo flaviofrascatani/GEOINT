@@ -1,7 +1,154 @@
 {
   "schema": 1,
-  "updated": "2026-10-07T14:43:51.916509+00:00",
+  "updated": "2026-10-07T20:34:29.753510+00:00",
   "events": [
+    {
+      "id": "9615ae1cecae",
+      "title": "Michigan’s Mike Rogers says trade war with Canada needs to end",
+      "description": "U.S. Representative Mike Rogers urges an end to the trade dispute with Canada, calling for renewed cooperation.",
+      "lat": 42.73,
+      "lng": -84.55,
+      "severity": 2,
+      "location": "Lansing, United States",
+      "source": "Politico",
+      "url": "https://www.politico.com/news/2026/10/07/mike-rogers-canada-trade-war-01109815",
+      "image": "https://static.politico.com/31/7b/4eed8e4e4ead865d6eae5ef064a6/election-2-26-republicans-519.jpg",
+      "ts": 1791405269653,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Politico",
+            "b": "center",
+            "u": "https://www.politico.com/news/2026/10/07/mike-rogers-canada-trade-war-01109815"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0fec650310f9",
+      "title": "Mediation efforts in Iran‑US talks reach deadlock",
+      "description": "Talks between Iran and the United States have stalled, with both sides unable to reach a mediation breakthrough.",
+      "lat": 35.69,
+      "lng": 53.295199999999994,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "TASS",
+      "url": "https://tass.com/world/2199011",
+      "image": null,
+      "ts": 1791404781000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2199011"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d3c002ae0793",
+      "title": "Saudi Says 3 Killed In Houthi Attacks On Its Airports As Conflict Deepens",
+      "description": "Houthi militants launched attacks on Saudi airports, killing three people and striking Riyadh's King Khalid International Airport.",
+      "lat": 25.81,
+      "lng": 46.68000000000001,
+      "severity": 4,
+      "location": "Riyadh, Saudi Arabia",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/saudi-arabia-says-3-killed-in-houthi-attacks-on-its-airports-as-conflict-deepens-12153496#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-10/1gkm6fgs_saudi-vs-houthis_625x300_08_October_26.jpeg",
+      "ts": 1791401332000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/saudi-arabia-says-3-killed-in-houthi-attacks-on-its-airports-as-conflict-deepens-12153496#publisher=newsstand"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/10/7/saudi-arabia-says-three-foreign-nationals-killed-in-attacks-on-airports?traffic_source=rss"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-10-07/houthis-kill-three-in-attacks-on-two-airports-in-saudi-arabia"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/attacks-on-2-saudi-airports-kill-3-aviation-authority-says"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bebd2e9b1e64",
+      "title": "Taiwan’s US envoy says ties robust after Trump‑Xi summit",
+      "description": "The U.S. envoy to Taiwan says bilateral relations remain strong following the recent summit between President Trump and President Xi.",
+      "lat": 26.13,
+      "lng": 121.56,
+      "severity": 1,
+      "location": "Taipei, Taiwan",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/east-asia/taiwans-us-envoy-says-ties-robust-after-trump-xi-summit",
+      "image": null,
+      "ts": 1791389053000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/east-asia/taiwans-us-envoy-says-ties-robust-after-trump-xi-summit"
+          }
+        ]
+      }
+    },
     {
       "id": "465ad5076e25",
       "title": "South Sudan's road to elections remains uncertain",
@@ -7036,138 +7183,6 @@
             "n": "Egypt Independent",
             "b": "center",
             "u": "https://www.egyptindependent.com/war-has-returned-to-ethiopias-tigray-and-former-enemies-are-now-fighting-together-what-changed/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6d933c6d718a",
-      "title": "De la Espriella announces the reopening of oil exploration in Colombia, including fracking",
-      "description": "Colombian President Abelardo de la Espriella signed a decree to fully restart hydrocarbon exploration and new contracts, reviving the sector.",
-      "lat": 4.71,
-      "lng": -74.07,
-      "severity": 2,
-      "location": "Bogotá, Colombia",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/09/26/de-la-espriella-announces-the-reopening-of-oil-exploration-in-colombia-including-fracking?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111586/100x80/col.jpeg",
-      "ts": 1790420760000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/09/26/de-la-espriella-announces-the-reopening-of-oil-exploration-in-colombia-including-fracking?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "42dc2f416fa6",
-      "title": "Mosca colpisce un centro dati di Starlink in Ucraina",
-      "description": "Russian forces struck a Starlink data centre in Kyiv, disrupting satellite internet services used by Ukraine.",
-      "lat": 51.55,
-      "lng": 30.52000000000001,
-      "severity": 3,
-      "location": "Kyiv, Ukraine",
-      "source": "AGI Estero",
-      "url": "https://www.agi.it/estero/news/2026-09-26/ucraina-russia-colpito-centro-starlink-kiev-39253054/",
-      "image": "https://images.agi.it/pictures/agi/agi/2026/09/26/072117294-9323d172-cc9e-4afd-8b04-56ce8b31e651.jpg",
-      "ts": 1790417184000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-09-26/ucraina-russia-colpito-centro-starlink-kiev-39253054/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cb663d4e4cd5",
-      "title": "Madagascar's Gen Z 'betrayed' after ushering in military govt",
-      "description": "Young activists say the new military‑backed administration in Antananarivo has reverted to repressive tactics, sparking domestic unrest.",
-      "lat": -18.88,
-      "lng": 47.52,
-      "severity": 3,
-      "location": "Antananarivo, Madagascar",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/09/26/madagascars-gen-z-betrayed-after-ushering-in-military-govt/",
-      "image": "http://images.euronews.com/articles/stories/09/92/87/22/640x360_cmsv2_ba94f042-6062-5247-b1b6-c777d7353951-9928722.jpg?1790405314",
-      "ts": 1790414192000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/09/26/madagascars-gen-z-betrayed-after-ushering-in-military-govt/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7300368905b3",
-      "title": "Europe frets as the Kremlin pushes the limits of its hybrid warfare",
-      "description": "Analysts note an increase in Russian hybrid‑war tactics aimed at European institutions and infrastructure.",
-      "lat": 50.85,
-      "lng": 4.35,
-      "severity": 2,
-      "location": "Brussels, Belgium",
-      "source": "NBC News World",
-      "url": "https://www.nbcnews.com/world/europe/europe-frets-kremlin-pushes-limits-hybrid-warfare-rcna599351",
-      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-08/260808-germany-aiport-drone-ch-1102-c38853.jpg",
-      "ts": 1790413240000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/europe/europe-frets-kremlin-pushes-limits-hybrid-warfare-rcna599351"
           }
         ]
       }
