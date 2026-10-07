@@ -1,7 +1,306 @@
 {
   "schema": 1,
-  "updated": "2026-10-07T01:00:05.294438+00:00",
+  "updated": "2026-10-07T07:10:27.334724+00:00",
   "events": [
+    {
+      "id": "079729d46ca8",
+      "title": "India raises interest rates for first time in 3 years",
+      "description": "La Reserve Bank of India aumenta i tassi per contenere l’inflazione, segnando una svolta nella politica monetaria.",
+      "lat": 28.61,
+      "lng": 77.21,
+      "severity": 3,
+      "location": "New Delhi, India",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/713ccee6-855f-48d8-acf1-161265041ad8?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1791356674000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/713ccee6-855f-48d8-acf1-161265041ad8?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8e30875649c7",
+      "title": "Lee urges S. Korea to take global lead in green transformation",
+      "description": "Il presidente sudcoreano Lee Jae‑Myung chiama il Paese a guidare la transizione ecologica a livello mondiale.",
+      "lat": 39.21,
+      "lng": 127.93259999999998,
+      "severity": 2,
+      "location": "Seoul, South Korea",
+      "source": "Yonhap News",
+      "url": "https://en.yna.co.kr/view/AEN20261007007700315",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/07/PYH2026100717450001300_P2.jpg",
+      "ts": 1791356620000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20261007007700315"
+          }
+        ]
+      }
+    },
+    {
+      "id": "563b66a8e7d4",
+      "title": "Fonti Nato, il Comitato Militare alleato in visita a Kiev",
+      "description": "Il comitato militare alleato della NATO visita la capitale ucraina per coordinare il supporto alla difesa aerea.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 3,
+      "location": "Kiev, Ukraine",
+      "source": "ANSA Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/07/fonti-nato-il-comitato-militare-alleato-in-visita-a-kiev_7fa269b3-a410-489f-acb3-67868d7a7ebe.html",
+      "image": null,
+      "ts": 1791356591000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/07/fonti-nato-il-comitato-militare-alleato-in-visita-a-kiev_7fa269b3-a410-489f-acb3-67868d7a7ebe.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "de26e861a788",
+      "title": "Myanmar President arrives in Malaysia, repatriation among key issues",
+      "description": "Myanmar's president lands in Kuala Lumpur for an official welcome at the Perdana Putra Complex, discussing repatriation of citizens.",
+      "lat": 3.15,
+      "lng": 101.69,
+      "severity": 1,
+      "location": "Kuala Lumpur, Malaysia",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/se-asia/myanmar-president-arrives-in-malaysia-repatriation-among-key-issues",
+      "image": null,
+      "ts": 1791355800000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/se-asia/myanmar-president-arrives-in-malaysia-repatriation-among-key-issues"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2353703064af",
+      "title": "Yemen’s Houthis attack Aden airport; Saudi forces down missile near Riyadh",
+      "description": "Un missile colpisce la pista dell’aeroporto di Aden poco prima di un volo da Il Cairo, mentre le forze saudite intercettano un altro missile vicino a Riyadh.",
+      "lat": 24.71,
+      "lng": 46.68000000000001,
+      "severity": 4,
+      "location": "Riyadh, Saudi Arabia",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/7/yemens-houthis-attack-aden-airport-saudi-forces-down-missile-near-riyadh?traffic_source=rss",
+      "image": null,
+      "ts": 1791355271000,
+      "coverage": {
+        "left": 1,
+        "center": 5,
+        "right": 1,
+        "total": 7,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 5,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/10/7/yemens-houthis-attack-aden-airport-saudi-forces-down-missile-near-riyadh?traffic_source=rss"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/yemen-s-houthis-claim-strikes-on-aden-riyadh-airports/a-79571321?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-910857"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNjcwdDdFSmxISzN2RWdiODU1ZjlXODFLZGRiVmxTeW94dnI1T1VsNnhlU1NJMTZXajJoVlE0VnpzVDlmMmJQUjYzN21Tamk5YWZhazdRSzd5MTJndURBTjNQTC0yd2I2ZDhIazZlNUJUYjAyZHVwZFRCMER1OGZLS2pZRmRQTjlrSlVyLUd3N1dnUUxrM2NBSERSd3VmYkJBNnpzT1I4RmhwMWhHbHQyN1ZOWkxCclZBV3c?oc=5"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/10/houthis-attack-aden-airport-fighting-intensifies-yemen"
+          },
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/saudi-backed-yemeni-forces-attack-houthis-near-key-global-trade-route/"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2198549"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f622bc8681e5",
+      "title": "WW3 fears explode as Russia issues horror warning over new NATO nuclear plan",
+      "description": "Moscow minaccia misure “necessarie” dopo che una nazione ha accettato di ospitare testate nucleari alleate e una base permanente USA.",
+      "lat": 55.75,
+      "lng": 39.525199999999984,
+      "severity": 2,
+      "location": "Moscow, Russia",
+      "source": "Daily Express World",
+      "url": "https://www.express.co.uk/news/world/2255068/russia-warning-nato-nuclear-plan-ww3-fears",
+      "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2255068_1.jpg",
+      "ts": 1791354960000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2255068/russia-warning-nato-nuclear-plan-ww3-fears"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e6416cfbced4",
+      "title": "Malaysia’s Melaka sets election date as BN, PAS near alliance against Anwar",
+      "description": "Il consiglio di stato di Melaka annuncia le elezioni del 14 novembre mentre BN e PAS negoziano un’alleanza contro il governo di Anwar Ibrahim.",
+      "lat": 3.84,
+      "lng": 103.20260000000002,
+      "severity": 3,
+      "location": "Melaka, Malaysia",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/week-asia/politics/article/3370001/malaysias-melaka-sets-election-date-bn-pas-near-alliance-against-anwar?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/07/6bb82481-0b43-49bf-8ab1-341e1a943e45_f05b0daa.jpg?itok=t057kMM-&v=1791354668",
+      "ts": 1791354671000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-10-07/malaysia-sets-nov-14-for-malacca-vote-in-fresh-test-for-anwar"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/week-asia/politics/article/3370001/malaysias-melaka-sets-election-date-bn-pas-near-alliance-against-anwar?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "495cf1243fdb",
+      "title": "Egypt: Strategic urgency revives Tobruk-Alexandria pipeline",
+      "description": "L’Egitto spinge per riattivare il collegamento petrolifero diretto con la Libia per garantire la sicurezza delle rotte di trasporto.",
+      "lat": 31.2,
+      "lng": 29.92,
+      "severity": 2,
+      "location": "Alexandria, Egypt",
+      "source": "The Africa Report",
+      "url": "https://www.theafricareport.com/431193/egypt-strategic-urgency-revives-tobruk-alexandria-pipeline/",
+      "image": null,
+      "ts": 1791349200000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Africa Report",
+            "b": "center",
+            "u": "https://www.theafricareport.com/431193/egypt-strategic-urgency-revives-tobruk-alexandria-pipeline/"
+          }
+        ]
+      }
+    },
     {
       "id": "d53f721f7d0a",
       "title": "NATO membership for Ukraine ‘not on the table’ – Rubio",
@@ -711,39 +1010,6 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/icc-unseals-taliban-leaders-warrants-over-persecuting-women/a-79556631?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2353703064af",
-      "title": "Houthis claim strikes on Riyadh airport",
-      "description": "Yemen’s Houthi movement said it launched missile and drone attacks on Riyadh’s King Khalid International Airport.",
-      "lat": 24.71,
-      "lng": 46.68000000000001,
-      "severity": 3,
-      "location": "Riyadh, Saudi Arabia",
-      "source": "RT News",
-      "url": "https://www.rt.com/news/646767-houthis-saudi-sensitive-sites/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": null,
-      "ts": 1791238884000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/646767-houthis-saudi-sensitive-sites/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
           }
         ]
       }
@@ -6932,242 +7198,6 @@
             "n": "New York Post",
             "b": "lean_right",
             "u": "https://nypost.com/2026/09/25/world-news/us-iran-reportedly-discussing-phased-deal-to-reopen-hormuz-and-end-blockade/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "88ecc9f0af02",
-      "title": "Macron and Pope Leo XIV unite on AI risks and nuclear weapons",
-      "description": "French President Emmanuel Macron and Pope Leo XIV called for international oversight of advanced AI systems to prevent misuse, especially in nuclear contexts.",
-      "lat": 49.96,
-      "lng": 2.3499999999999943,
-      "severity": 2,
-      "location": "Paris, France",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/09/25/macron-and-pope-leo-xiv-unite-on-ai-risks-and-nuclear-weapons/",
-      "image": "http://images.euronews.com/articles/stories/09/92/84/25/640x360_cmsv2_8ead1b05-91bc-5e15-a6fa-082bcf7a956e-9928425.jpg?1790364307",
-      "ts": 1790366786000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/pope-paradise-of-machines-ai-37702195"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/09/25/macron-and-pope-leo-xiv-unite-on-ai-risks-and-nuclear-weapons/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ca5cd8239fe0",
-      "title": "Pentagon quietly adds dozens to tally of troops wounded amid Iran war",
-      "description": "The U.S. Department of Defense reports an additional 37 service members wounded, bringing the total to 861 since the conflict with Iran began.",
-      "lat": 35.68,
-      "lng": 51.389999999999986,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/national-security/2026/09/25/pentagon-quietly-adds-dozens-tally-troops-wounded-amid-iran-war/",
-      "image": null,
-      "ts": 1790365818000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/national-security/2026/09/25/pentagon-quietly-adds-dozens-tally-troops-wounded-amid-iran-war/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cd475ea07f06",
-      "title": "Poland boosts air defence after ‘Russian provocations’ amid Ukraine war",
-      "description": "Poland announced the deployment of additional air‑defence systems to counter alleged Russian incursions, heightening NATO’s eastern flank readiness.",
-      "lat": 53.33,
-      "lng": 21.00999999999999,
-      "severity": 2,
-      "location": "Warsaw, Poland",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/25/poland-boosts-air-defence-after-russian-provocations-amid-ukraine-war?traffic_source=rss",
-      "image": null,
-      "ts": 1790359532000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/9/25/poland-boosts-air-defence-after-russian-provocations-amid-ukraine-war?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cab836ee9234",
-      "title": "Iran will make no nuclear concessions, Iranian official says",
-      "description": "An Iranian official declared Tehran will not compromise on its nuclear programme even if the United States offers to reopen the Strait of Hormuz.",
-      "lat": 35.69,
-      "lng": 53.295199999999994,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/09/iran-will-make-no-nuclear-concessions-iranian-official-says",
-      "image": null,
-      "ts": 1790358397000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/iran-will-make-no-nuclear-concessions-iranian-official-says"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a4cad793f0f6",
-      "title": "Dangote Refinery IPO Opens Ownership to Nigerian Investors",
-      "description": "Nigeria’s flagship oil refinery launched an IPO, allowing domestic investors to buy shares in the $19 billion project.",
-      "lat": 6.45,
-      "lng": 3.39,
-      "severity": 2,
-      "location": "Lagos, Nigeria",
-      "source": "All Africa",
-      "url": "https://allafrica.com/stories/202609250479.html",
-      "image": null,
-      "ts": 1790357874000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "All Africa",
-            "b": "center",
-            "u": "https://allafrica.com/stories/202609250479.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b7963a9fa460",
-      "title": "Saudis have not ruled out developing nuclear weapons, U.S. intelligence assesses",
-      "description": "U.S. intelligence reports that Saudi Arabia is keeping the option of a nuclear weapons programme open, increasing regional proliferation worries.",
-      "lat": 24.71,
-      "lng": 46.68000000000001,
-      "severity": 2,
-      "location": "Riyadh, Saudi Arabia",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/national-security/2026/09/25/saudis-have-not-ruled-out-developing-nuclear-weapons-us-intelligence-assesses/",
-      "image": null,
-      "ts": 1790356324000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/national-security/2026/09/25/saudis-have-not-ruled-out-developing-nuclear-weapons-us-intelligence-assesses/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6bdf04b73fd3",
-      "title": "Over 55,000 Sudanese refugees fled to east Chad this year: UN",
-      "description": "More than 55,000 Sudanese have crossed into eastern Chad since the start of the year, straining humanitarian assistance as aid funding declines.",
-      "lat": 13.46,
-      "lng": 22.2,
-      "severity": 3,
-      "location": "Adré, Chad",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/09/25/over-55000-sudanese-refugees-fled-to-east-chad-this-year-un/",
-      "image": "http://images.euronews.com/articles/stories/09/92/82/28/640x360_cmsv2_569299b4-0cef-5250-b9a5-6bf4b179aa10-9928228.jpg?1790348653",
-      "ts": 1790354629000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/09/25/over-55000-sudanese-refugees-fled-to-east-chad-this-year-un/"
           }
         ]
       }
