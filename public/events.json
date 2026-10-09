@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-10-09T00:17:33.846027+00:00",
+  "updated": "2026-10-09T06:39:07.460686+00:00",
   "events": [
+    {
+      "id": "dab424d2297e",
+      "title": "South Africa: Home Affairs Withdraws Asylum Directive After Violent Anti-Immigration Protests",
+      "description": "The Department of Home Affairs withdrew a directive on asylum intake following violent protests in Durban and Soweto.",
+      "lat": -29.86,
+      "lng": 31.02,
+      "severity": 3,
+      "location": "Durban, South Africa",
+      "source": "All Africa",
+      "url": "https://allafrica.com/stories/202610090210.html",
+      "image": null,
+      "ts": 1791527722000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/south-africa-anti-migrant-protests-turn-violent/a-79605037?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "All Africa",
+            "b": "center",
+            "u": "https://allafrica.com/stories/202610090210.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a5672b5f45a7",
+      "title": "Spy agency snub raises U.S. alliance concerns in S. Korea",
+      "description": "A recent snub of Seoul's spy agency during a trilateral meeting has sparked worries in Washington about the strength of the U.S.–South Korea alliance.",
+      "lat": 37.57,
+      "lng": 126.98000000000002,
+      "severity": 3,
+      "location": "Seoul, South Korea",
+      "source": "Yonhap News",
+      "url": "https://en.yna.co.kr/view/AEN20261009003500315",
+      "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/09/AEN20261009003500315_01_i_P2.jpg",
+      "ts": 1791525994000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20261009003500315"
+          }
+        ]
+      }
+    },
+    {
+      "id": "78a22da51ccd",
+      "title": "2 foreign nationals breach UK base housing key US, NATO intel hub amid $556M expansion",
+      "description": "Two Latvian men were arrested after breaching the perimeter of RAF Molesworth, a critical US‑NATO intelligence facility in the UK.",
+      "lat": 52.31,
+      "lng": -0.45,
+      "severity": 3,
+      "location": "RAF Molesworth, United Kingdom",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/foreign-nationals-breach-us-nato-intel-hub-uk-military-base-556m-expansion",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/molesworth-us-air-force.jpg?ve=1&tl=1",
+      "ts": 1791509744000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/foreign-nationals-breach-us-nato-intel-hub-uk-military-base-556m-expansion"
+          }
+        ]
+      }
+    },
     {
       "id": "ec5ca9e71b62",
       "title": "Japan's tourist spending windfall shrinks as Chinese visitors plunge",
@@ -172,6 +276,39 @@
       }
     },
     {
+      "id": "717ab730d7be",
+      "title": "German Chancellor tells Burnham he wants the UK 'closer and closer' to the EU as they hold talks in Berlin",
+      "description": "German Chancellor Friedrich Merz pledged to deepen ties with the UK during a meeting with Andy Burnham in Berlin, signalling a diplomatic outreach.",
+      "lat": 52.52,
+      "lng": 13.400000000000006,
+      "severity": 2,
+      "location": "Berlin, Germany",
+      "source": "Daily Mail World",
+      "url": "https://www.dailymail.com/news/article-16192179/French-minister-Burnham-Brexit-PM-Germany-EU-summit.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "image": "https://i.dailymail.com/1s/2026/10/08/14/111731181-0-image-m-25_1791466599489.jpg",
+      "ts": 1791477245000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/news/article-16192179/French-minister-Burnham-Brexit-PM-Germany-EU-summit.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+          }
+        ]
+      }
+    },
+    {
       "id": "1ec85607ce57",
       "title": "Russian strike on buses kills at least 30, say officials, as deadly attacks on Ukraine surge",
       "description": "Two crowded buses in the front‑line city of Kramatorsk were hit by Russian missiles, killing at least 30 civilians.",
@@ -334,6 +471,39 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/10/turkeys-foreign-minister-says-ankara-weighing-saudi-defence-support-rules-out"
+          }
+        ]
+      }
+    },
+    {
+      "id": "310d95580811",
+      "title": "\"Exploited State Secrets for Profit\": German Intelligence Rocked by Espionage Arrest of Former Chief",
+      "description": "Former BND chief August Hanning was arrested on espionage charges, raising concerns about intelligence security in Germany.",
+      "lat": 52.52,
+      "lng": 13.400000000000006,
+      "severity": 3,
+      "location": "Berlin, Germany",
+      "source": "Der Spiegel International",
+      "url": "https://www.spiegel.de/international/germany/exploited-state-secrets-for-profit-german-intelligence-rocked-by-espionage-arrest-of-former-chief-a-06a62002-0fc7-4bc0-b7c7-5e6e9c829d0f#ref=rss",
+      "image": "https://cdn.prod.www.spiegel.de/images/241cb30c-820b-44b2-9e51-80858da893bf_w520_r2.08_fpx48_fpy56.jpg",
+      "ts": 1791466200000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Der Spiegel International",
+            "b": "lean_left",
+            "u": "https://www.spiegel.de/international/germany/exploited-state-secrets-for-profit-german-intelligence-rocked-by-espionage-arrest-of-former-chief-a-06a62002-0fc7-4bc0-b7c7-5e6e9c829d0f#ref=rss"
           }
         ]
       }
@@ -7043,201 +7213,6 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/world/2193675"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ae1040bd9e6d",
-      "title": "Iran's foreign minister says Tehran ready for 'doomsday' war with U.S., but leaves diplomacy on the table",
-      "description": "Iranian FM warned of a possible large‑scale conflict with the United States while stating that diplomatic channels remain open.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/09/27/iran-foreign-minister-keeps-indirect-talks-with-us-open-state-media.html",
-      "image": null,
-      "ts": 1790534727000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/09/27/iran-foreign-minister-keeps-indirect-talks-with-us-open-state-media.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e4a94385d317",
-      "title": "Bomb squad searching vans near U.S. air base in Britain as five men arrested on terror charge",
-      "description": "British authorities deployed a bomb squad to inspect vehicles near a U.S. air base after the arrest of five suspects on terrorism charges.",
-      "lat": 54.1,
-      "lng": 1.502600000000001,
-      "severity": 2,
-      "location": "Lakenheath, United Kingdom",
-      "source": "Google News Top",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMzkybDc0THU3R1JKM3YzOVBJOXU1a3hQc3NqbFJRc0tJVVJCemxrYWZvaUl0S0tXeHRmbC02TUpFMjNwNlZRTE5HeGFQT3RmS3FXclphbEdDZWZGa0pQZEJpWGp2ZFpKd2dyTDZLRm5xQzBhZWxSbVBkTnc3WUliNE9hTjRhZlRJaXB5VGNnbnJzVjhxN2l3QWIxak1qaGhlWTk2Tkd2N09SZWNIV0pKWUJIeTRnQUQ2b3c?oc=5",
-      "image": null,
-      "ts": 1790527673000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/united-kingdom/men-arrested-suspicion-explosives-offences-us-air-base-britain-rcna600052"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMzkybDc0THU3R1JKM3YzOVBJOXU1a3hQc3NqbFJRc0tJVVJCemxrYWZvaUl0S0tXeHRmbC02TUpFMjNwNlZRTE5HeGFQT3RmS3FXclphbEdDZWZGa0pQZEJpWGp2ZFpKd2dyTDZLRm5xQzBhZWxSbVBkTnc3WUliNE9hTjRhZlRJaXB5VGNnbnJzVjhxN2l3QWIxak1qaGhlWTk2Tkd2N09SZWNIV0pKWUJIeTRnQUQ2b3c?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "06b5fa41b02e",
-      "title": "Iran captures another US spy drone in Hormuz (VIDEO) — Iran’s IRGC says it captured a US Remus 600 underwater drone allegedly spying in the Strait of Hormuz",
-      "description": "Iran’s Islamic Revolutionary Guard Corps announced the seizure of a U.S. Remus‑600 underwater surveillance drone in the strategic Strait of Hormuz.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 3,
-      "location": "Strait of Hormuz",
-      "source": "RT News",
-      "url": "https://www.rt.com/news/646320-us-drone-captured-iran/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.09/thumbnail/6ab91b7d85f540349e35d87d.png",
-      "ts": 1790518216000,
-      "coverage": {
-        "left": 3,
-        "center": 1,
-        "right": 2,
-        "total": 6,
-        "buckets": {
-          "left": 1,
-          "lean_left": 2,
-          "center": 1,
-          "lean_right": 2,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/iran-proposes-deal-reopen-strait-of-hormuz-7-days-us-meets-conditions_n_6ab69619e4b0bad9a6472b11"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/nightly-news/video/iran-s-new-proposal-to-re-open-strait-of-hormuz-270565957609"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/economy/2026/9/27/strait-of-hormuz-tensions-linger-as-iran-and-us-move-further-from-a-deal?traffic_source=rss"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/iran-says-it-has-given-us-concrete-seven-day-plan-to-reopen-strait-of-hormuz-13591945"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2193611"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/646320-us-drone-captured-iran/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "02926182ef29",
-      "title": "Allarme esplosivi vicino a base della Raf, in campo antiterrorismo Gb",
-      "description": "Explosive devices were discovered near a RAF base in the United Kingdom, prompting a major security response.",
-      "lat": 51.66,
-      "lng": -1.78,
-      "severity": 3,
-      "location": "Fairford, United Kingdom",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/27/allarme-esplosivi-vicino-a-base-della-raf-in-campo-antiterrorismo-gb_399ed795-5693-4212-b31b-60cf28643b69.html",
-      "image": null,
-      "ts": 1790504690000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/27/allarme-esplosivi-vicino-a-base-della-raf-in-campo-antiterrorismo-gb_399ed795-5693-4212-b31b-60cf28643b69.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "90a3ee01b72e",
-      "title": "Israeli minister Bezalel Smotrich calls for war in occupied West Bank",
-      "description": "The minister publicly urges a war‑like approach in the occupied West Bank, heightening political tension.",
-      "lat": 33.0,
-      "lng": 37.105199999999996,
-      "severity": 2,
-      "location": "West Bank, Palestine",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/9/27/israeli-minister-bezalel-smotrich-calls-for-war-in-occupied-west-bank?traffic_source=rss",
-      "image": null,
-      "ts": 1790503293000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/9/27/israeli-minister-bezalel-smotrich-calls-for-war-in-occupied-west-bank?traffic_source=rss"
           }
         ]
       }
