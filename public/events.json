@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-10-09T19:42:31.887558+00:00",
+  "updated": "2026-10-09T23:59:20.048961+00:00",
   "events": [
+    {
+      "id": "bf622e90e696",
+      "title": "US urges South Korea to uphold alliance standards",
+      "description": "A senior US official warned Seoul to maintain alliance commitments amid concerns over intelligence cooperation.",
+      "lat": 37.57,
+      "lng": 126.98000000000002,
+      "severity": 2,
+      "location": "Seoul, South Korea",
+      "source": "Yonhap News",
+      "url": "https://en.yna.co.kr/view/AEN20261010000200315",
+      "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/10/AEN20261010000200315_01_i_P2.jpg",
+      "ts": 1791582391000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20261010000200315"
+          }
+        ]
+      }
+    },
     {
       "id": "7263443937d1",
       "title": "Trump, Putin agree on deal to release Russian diesel to US, world markets",
@@ -76,6 +109,39 @@
             "n": "Daily Express World",
             "b": "right",
             "u": "https://www.express.co.uk/news/world/2256011/trump-call-putin-russia-deal"
+          }
+        ]
+      }
+    },
+    {
+      "id": "01d2d300d58d",
+      "title": "Tanker attacks surge in the Strait of Hormuz",
+      "description": "Iran‑linked attacks on oil tankers in the Strait of Hormuz have risen to wartime levels, threatening global oil shipments.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 2,
+      "location": "Strait of Hormuz",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/10/09/iran-war-strait-hormuz-tanker-attack-oil.html",
+      "image": null,
+      "ts": 1791571969000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/10/09/iran-war-strait-hormuz-tanker-attack-oil.html"
           }
         ]
       }
@@ -7272,77 +7338,6 @@
             "n": "Le Monde English",
             "b": "lean_left",
             "u": "https://www.lemonde.fr/en/international/article/2026/09/28/we-have-nothing-no-safe-place-no-food-yemen-s-humanitarian-crisis-is-worsening_6758047_4.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "dd569763e7eb",
-      "title": "Hybrid warfare: The threat of Russia looms over the Mediterranean",
-      "description": "Intelligence reports warn that Russia is preparing hybrid operations across the Mediterranean Sea.",
-      "lat": 36.0,
-      "lng": 18.0,
-      "severity": 2,
-      "location": "Mediterranean Sea",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/europe/20260928-hybrid-warfare-the-threat-of-russia-looms-over-the-mediterranean",
-      "image": "https://s.france24.com/media/display/4525906e-bb51-11f1-8930-177f79e345bf/w:1024/p:16x9/mediterranee-russe-EN.jpg",
-      "ts": 1790609985000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/europe/20260928-hybrid-warfare-the-threat-of-russia-looms-over-the-mediterranean"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d1a3db92fe4f",
-      "title": "5 Men Released On Bail After Arrest Near U.S.-Run Air Base In England, Police Say",
-      "description": "British police arrested five men near RAF Lakenheath on counter‑terrorism charges; they were later released on bail.",
-      "lat": 51.4974,
-      "lng": 2.1999999999999886,
-      "severity": 3,
-      "location": "RAF Lakenheath, United Kingdom",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/five-men-released-us-air-base-england-police-counterterrorism_n_6aba83a8e4b00588e1d560e5",
-      "image": null,
-      "ts": 1790609006000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 1,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/five-men-released-us-air-base-england-police-counterterrorism_n_6aba83a8e4b00588e1d560e5"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/england-raf-fairford-us-military-air-force-bomb-disposal/"
           }
         ]
       }
