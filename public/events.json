@@ -1,7 +1,144 @@
 {
   "schema": 1,
-  "updated": "2026-10-10T05:43:01.300303+00:00",
+  "updated": "2026-10-10T12:23:32.042349+00:00",
   "events": [
+    {
+      "id": "b01d9462a711",
+      "title": "Zaporizhzhia sotto attacco: un raid russo uccide 15 persone, tra loro anche tre bambini",
+      "description": "Un raid aereo russo su Zaporizhzhia ha colpito edifici residenziali, provocando 15 morti, inclusi tre bambini.",
+      "lat": 47.84,
+      "lng": 35.14,
+      "severity": 4,
+      "location": "Zaporizhzhia, Ukraine",
+      "source": "AGI Estero",
+      "url": "https://www.agi.it/estero/news/2026-10-10/zaporizhzhia-bombe-russe-morti-39467830/",
+      "image": "https://images.agi.it/pictures/agi/agi/2026/10/10/100801951-2f3b843a-8037-4f5f-a50a-c9a7c993a505.jpg",
+      "ts": 1791633974000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "AGI Estero",
+            "b": "center",
+            "u": "https://www.agi.it/estero/news/2026-10-10/zaporizhzhia-bombe-russe-morti-39467830/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4898d4460e47",
+      "title": "🔴 Palestinian president Abbas postpones legislative elections, sets presidential poll for September 2027",
+      "description": "Il presidente palestinese Mahmoud Abbas ha rinviato le elezioni legislative e fissato le elezioni presidenziali per il 2027.",
+      "lat": 31.9,
+      "lng": 35.19999999999999,
+      "severity": 2,
+      "location": "Ramallah, Palestine",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20261010-palestinian-president-abbas-postpones-legislative-elections-to-september-2027",
+      "image": null,
+      "ts": 1791633504000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20261010-palestinian-president-abbas-postpones-legislative-elections-to-september-2027"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-911222"
+          }
+        ]
+      }
+    },
+    {
+      "id": "426903bf2ca9",
+      "title": "What to Know About the Delhi Protests",
+      "description": "Le proteste a New Delhi contro le revisioni dei registri elettorali hanno incontrato una risposta di polizia in forza.",
+      "lat": 29.71,
+      "lng": 77.20999999999998,
+      "severity": 3,
+      "location": "New Delhi, India",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/10/09/world/asia/what-to-know-about-the-delhi-protests.html",
+      "image": "https://static01.nyt.com/images/2026/10/10/multimedia/10india-protests-What-We-Know-bqth/10india-protests-What-We-Know-bqth-mediumSquareAt3X.jpg",
+      "ts": 1791630420000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/10/09/world/asia/what-to-know-about-the-delhi-protests.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f7f42e750451",
+      "title": "Government proposes €141bn cut to EU budget",
+      "description": "Il governo irlandese ha proposto un taglio di 141 miliardi di euro al bilancio pluriennale dell'UE.",
+      "lat": 53.35,
+      "lng": -6.26,
+      "severity": 2,
+      "location": "Dublin, Ireland",
+      "source": "RTE News",
+      "url": "https://www.rte.ie/news/europe/2026/1010/1594807-eu-budget/",
+      "image": "https://www.rte.ie/images/00252648-800.jpg",
+      "ts": 1791616363000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/europe/2026/1010/1594807-eu-budget/"
+          }
+        ]
+      }
+    },
     {
       "id": "7bf27cfabc2f",
       "title": "US Ships US$75 Million of Fuel to Cuba in August",
@@ -508,6 +645,49 @@
             "n": "GNews Geopolitics",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSVZwUEMzamgxUzl4TTJ6aVdJWTJpbEpUc2RqR0IxTXg5MmV1QkVjRmhnb2x2blVDdGRyM2dFNkhQZHBObFlwZUlBXzg0U3VNV3NPNUdScEh5bHBMVzRVSWxrZjNIUmZNdVpmUmdwLWFZTlJNbjUyd2xUWi14SXJlSTM2Y3BTS2VHRXc?oc=5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fffbda5a7561",
+      "title": "Imposing Sanctions on the International Criminal Court - U.S. Department of State",
+      "description": "Il Dipartimento di Stato degli Stati Uniti ha annunciato sanzioni contro la Corte Penale Internazionale.",
+      "lat": 52.07,
+      "lng": 6.205199999999991,
+      "severity": 3,
+      "location": "The Hague, Netherlands",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbF9kWkF3dlFITzZHa29JMy1kaVFqTHRuUXl1eGtqODU0SGpHU2NjOER5WU9iY1pRZVRvSmJmT2h5VUhmc0VXeGhoRWdNX2FHUEtRYkx3NkEwZDQtdk1yRU9lRnREcWdNZU5kSVU0QVpGRDlzWWtpWC1xTF9MMkltMTFqRllmUm9QX2NxYXEyUzVnRUk2WW5JbVdwNTl2b3FKdjZENy1NY0RRSmNXTzFIcnBEQ1RmYkJ3eGc?oc=5",
+      "image": null,
+      "ts": 1791557836000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/10/09/trump-hits-international-criminal-court-with-new-us-sanctions/"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbF9kWkF3dlFITzZHa29JMy1kaVFqTHRuUXl1eGtqODU0SGpHU2NjOER5WU9iY1pRZVRvSmJmT2h5VUhmc0VXeGhoRWdNX2FHUEtRYkx3NkEwZDQtdk1yRU9lRnREcWdNZU5kSVU0QVpGRDlzWWtpWC1xTF9MMkltMTFqRllmUm9QX2NxYXEyUzVnRUk2WW5JbVdwNTl2b3FKdjZENy1NY0RRSmNXTzFIcnBEQ1RmYkJ3eGc?oc=5"
+          },
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/10/09/us-sanctions-the-international-criminal-court-hours-after-a-former-judge-wins-the-nobel-peace-prize?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
           }
         ]
       }
@@ -7168,171 +7348,6 @@
             "n": "Mirror World",
             "b": "lean_left",
             "u": "https://www.mirror.co.uk/news/world-news/romania-russia-ukraine-nato-spain-37712734"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9ba5ac589205",
-      "title": "Turkish diplomat Güllüoğlu appointed to senior UN posts",
-      "description": "Former Turkish ambassador Mehmet Güllüoğlu was appointed to two senior positions within the United Nations Office for the Coordination of Humanitarian Affairs.",
-      "lat": 40.7128,
-      "lng": -72.1008,
-      "severity": 1,
-      "location": "New York, United States",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/politics/turkish-diplomat-gulluoglu-appointed-to-senior-un-posts/news",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/09/29/462762.jpg",
-      "ts": 1790664480000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/politics/turkish-diplomat-gulluoglu-appointed-to-senior-un-posts/news"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c545b65dc33d",
-      "title": "US visa clash exposes Sudan’s forgotten war as foreign powers compete for strategic foothold",
-      "description": "Der Sudanese Oberbefehlshaber Abdel Fattah al‑Burhan reagierte trotzig, nachdem die USA ihm das Visum verweigerten, was die Spannungen im langjährigen Konflikt verschärft.",
-      "lat": 15.6,
-      "lng": 32.53,
-      "severity": 3,
-      "location": "Khartum, Sudan",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/us-visa-clash-exposes-sudans-forgotten-war-foreign-powers-compete-strategic-foothold",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/Sudan-soldiers.jpg?ve=1&tl=1",
-      "ts": 1790633722000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/us-visa-clash-exposes-sudans-forgotten-war-foreign-powers-compete-strategic-foothold"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a4bed695d434",
-      "title": "UAE president discussed bilateral relations with Israel's Netanyahu, state news agency says",
-      "description": "Sheikh Mohamed bin Zayed met Israeli Prime Minister Benjamin Netanyahu in Cairo to talk about strengthening ties between the United Arab Emirates and Israel.",
-      "lat": 30.04,
-      "lng": 31.24,
-      "severity": 2,
-      "location": "Cairo, Egypt",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/09/uae-president-discussed-bilateral-relations-israels-netanyahu-state-news-agency",
-      "image": null,
-      "ts": 1790631990000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/09/uae-president-discussed-bilateral-relations-israels-netanyahu-state-news-agency"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e1cc399df5c9",
-      "title": "Iran says it's up to Trump to choose between war and diplomacy",
-      "description": "Iran warned President Trump that the United States must decide whether to pursue military action or diplomatic engagement with Tehran.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-strait-of-hormuz/",
-      "image": null,
-      "ts": 1790629655000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-strait-of-hormuz/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "85b94427a8ca",
-      "title": "UN marks 25 Years of Durban Declaration as Guterres calls for stronger global action",
-      "description": "The UN General Assembly held a high‑level meeting in New York to commemorate the Durban Declaration on racism and to urge renewed international commitment.",
-      "lat": 41.85,
-      "lng": -72.0748,
-      "severity": 1,
-      "location": "New York City, United States",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/09/28/un-marks-25-years-of-durban-declaration-as-guterres-calls-for-stronger-global-action/",
-      "image": "http://images.euronews.com/articles/stories/09/93/11/18/640x360_cmsv2_e8d64c38-eb37-5918-ab85-d85c0c5715a3-9931118.jpg?1790614263",
-      "ts": 1790624985000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/09/28/un-marks-25-years-of-durban-declaration-as-guterres-calls-for-stronger-global-action/"
           }
         ]
       }
