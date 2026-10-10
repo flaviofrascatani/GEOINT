@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-10-10T17:27:27.554046+00:00",
+  "updated": "2026-10-10T20:41:17.336301+00:00",
   "events": [
+    {
+      "id": "8c580e13a36d",
+      "title": "Red Cross chief says she tried to arrange Gaza hostage visits through talks with Hamas's Haniyeh",
+      "description": "The Red Cross negotiated with Hamas to enable visits for families of Gaza hostages, facilitating humanitarian contact.",
+      "lat": 30.5674,
+      "lng": 35.00999999999999,
+      "severity": 1,
+      "location": "Gaza City, Gaza Strip",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/article-911238",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_2904,w_4135/741346",
+      "ts": 1791666768000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-911238"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0e43a29fa505",
+      "title": "Pakistan has ‘robust’ nuclear security regime: IAEA",
+      "description": "The IAEA praised Pakistan’s nuclear security framework, noting its far‑reaching impact on global safety.",
+      "lat": 34.78,
+      "lng": 73.05000000000001,
+      "severity": 1,
+      "location": "Islamabad, Pakistan",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/pakistan-has-robust-nuclear-security-regime-iaea/article71569223.ece",
+      "image": "https://th-i.thgim.com/public/incoming/lgd41j/article71569423.ece/alternates/LANDSCAPE_1200/2026-09-09T132512Z_592814026_RC2PFNA9EBVX_RTRMADP_3_SYRIA-NUCLEAR-IAEA.JPG",
+      "ts": 1791654221000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/pakistan-has-robust-nuclear-security-regime-iaea/article71569223.ece"
+          }
+        ]
+      }
+    },
     {
       "id": "f20c1fb0281a",
       "title": "India-U.S. trade pact to be finalised keeping changed circumstances in mind: Piyush Goyal",
@@ -141,33 +207,48 @@
     },
     {
       "id": "d6322a0f527e",
-      "title": "Germany sticks to Russia sanctions after Trump announcement on diesel",
-      "description": "Germany reaffirmed its sanctions regime against Russia despite U.S. statements about diesel supplies, maintaining pressure on Moscow.",
+      "title": "Trump says Russia will supply millions of tonnes of diesel as US eases sanctions on Moscow",
+      "description": "President Trump announced a deal for Russia to deliver about 4.8 million tonnes of diesel to the United States and global markets as sanctions are relaxed.",
       "lat": 55.7558,
       "lng": 37.6173,
-      "severity": 3,
+      "severity": 2,
       "location": "Moscow, Russia",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYUFXZDgzaHN2T1FRdnc3Njh3R0t5cGppS3pJUm8xREprWk54RFdON1pYY1BBbFRKS2pEajVWVzJJcmNiQVVJVGI1czM0U0F1U04zUEFZZVNDZzUtVWZ6UzdPQlItRzNyX3ZseVdmeVlaY1B5M203LWhwWFJTZjh0TlBFVm4zbm9SQjVvRGpXclhWWnJDYmdOWVRmaFhCVDBRNV9uU0UtZmo?oc=5",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/10/09/trump-says-russia-will-supply-millions-of-tonnes-of-diesel-as-us-eases-sanctions-on-moscow?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
       "image": null,
       "ts": 1791629983000,
       "coverage": {
-        "left": 1,
-        "center": 5,
-        "right": 0,
-        "total": 6,
+        "left": 3,
+        "center": 8,
+        "right": 1,
+        "total": 12,
         "buckets": {
           "left": 0,
-          "lean_left": 1,
-          "center": 5,
+          "lean_left": 3,
+          "center": 8,
           "lean_right": 0,
-          "right": 0
+          "right": 1
         },
         "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/politics/2026/10/09/trump-says-putin-will-export-diesel-bid-lower-prices/"
+          },
           {
             "n": "NBC News World",
             "b": "lean_left",
             "u": "https://www.nbcnews.com/business/energy/trump-putin-diesel-prices-rcna602566"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/russian-attacks-kill-7-ukraine-after-trump-strikes-137153808"
+          },
+          {
+            "n": "BBC Business",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss"
           },
           {
             "n": "CNBC World",
@@ -175,14 +256,14 @@
             "u": "https://www.cnbc.com/2026/10/09/trump-putin-diesel-russia-sanctions-ukraine.html"
           },
           {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/10/10/trump-ukraine-zelensky-replace-putin-diesel"
+          },
+          {
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/germany-sticks-to-russia-sanctions-after-trump-diesel-deal/live-79627811?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/homenews/administration/6140462-democrats-slam-trump-putin-diesel-deal/"
           },
           {
             "n": "GNews Geopolitics",
@@ -190,9 +271,24 @@
             "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYUFXZDgzaHN2T1FRdnc3Njh3R0t5cGppS3pJUm8xREprWk54RFdON1pYY1BBbFRKS2pEajVWVzJJcmNiQVVJVGI1czM0U0F1U04zUEFZZVNDZzUtVWZ6UzdPQlItRzNyX3ZseVdmeVlaY1B5M203LWhwWFJTZjh0TlBFVm4zbm9SQjVvRGpXclhWWnJDYmdOWVRmaFhCVDBRNV9uU0UtZmo?oc=5"
           },
           {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/videos/2026-10-10/trump-turns-to-russia-as-diesel-prices-rise-video"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/world/russian-attack-ukrainian-city-kills-20-day-after-trump-eases-diesel-sanctions-moscow-6449106"
+          },
+          {
             "n": "MercoPress",
             "b": "center",
             "u": "https://en.mercopress.com/2026/10/09/trump-says-russia-will-supply-millions-of-tonnes-of-diesel-as-us-eases-sanctions-on-moscow?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+          },
+          {
+            "n": "Daily Star World",
+            "b": "right",
+            "u": "https://www.dailystar.co.uk/news/world-news/donald-trump-russia-diesel-deal-37756925"
           }
         ]
       }
@@ -335,6 +431,44 @@
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/east-asia/taiwan-cherishes-peace-but-will-not-give-up-its-freedom-president-says"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5b07a5d66bf1",
+      "title": "FlyDubai Co-Pilot Intended To Crash Plane Into Tel Aviv Airport, UAE Prosecutor Says",
+      "description": "UAE prosecutors say a FlyDubai co‑pilot tried to hijack a flight and crash it into Ben Gurion Airport in Tel Aviv.",
+      "lat": 33.1,
+      "lng": 34.900000000000006,
+      "severity": 4,
+      "location": "Tel Aviv, Israel",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/flydubai-attack_n_6ac960cae4b01d1704f9fb60",
+      "image": null,
+      "ts": 1791582622000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/flydubai-attack_n_6ac960cae4b01d1704f9fb60"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/flydubai-co-pilot-intended-to-crash-plane-into-tel-aviv-airport-inspired-by-9-11/"
           }
         ]
       }
@@ -7274,105 +7408,6 @@
             "n": "Sky News World",
             "b": "center",
             "u": "https://news.sky.com/story/russias-spy-agency-opens-criminal-case-against-lib-dem-councillor-13593293"
-          }
-        ]
-      }
-    },
-    {
-      "id": "dbc1a9acc3c8",
-      "title": "America's Canadian import restrictions come into force",
-      "description": "The United States imposed new import bans on several Canadian products, escalating trade friction between the two nations.",
-      "lat": 45.42,
-      "lng": -75.7,
-      "severity": 2,
-      "location": "Ottawa, Canada",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/09/29/canada-import-ban-trade-war.html",
-      "image": null,
-      "ts": 1790680999000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/09/29/canada-import-ban-trade-war.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0508cb376883",
-      "title": "Chile's defence minister backs trade between Punta Arenas and the Falklands",
-      "description": "Chile's defence minister supported the development of commercial activity linking the Magallanes region with the Falkland Islands, backing Argentina's sovereignty claim.",
-      "lat": -53.16,
-      "lng": -70.91,
-      "severity": 2,
-      "location": "Punta Arenas, Chile",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/09/29/chile-s-defence-minister-backs-trade-between-punta-arenas-and-the-falklands?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111600/100x80/chile.jpg",
-      "ts": 1790672520000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/09/29/chile-s-defence-minister-backs-trade-between-punta-arenas-and-the-falklands?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9c32ff947681",
-      "title": "Ex-foreign minister holds talks with China’s top diplomat, economic official",
-      "description": "Japanese ex‑foreign minister met China’s foreign minister Wang Yi, who warned that bilateral relations are in a \"severe situation\" and need to be normalized again.",
-      "lat": 41.0042,
-      "lng": 116.4074,
-      "severity": 3,
-      "location": "Beijing, China",
-      "source": "Japan Times",
-      "url": "https://www.japantimes.co.jp/news/2026/09/29/japan/politics/china-foreign-minister-japan-iwaya/",
-      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/09/29/565643.jpg",
-      "ts": 1790668440000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/09/29/japan/politics/china-foreign-minister-japan-iwaya/"
           }
         ]
       }
