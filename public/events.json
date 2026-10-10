@@ -1,7 +1,116 @@
 {
   "schema": 1,
-  "updated": "2026-10-09T23:59:20.048961+00:00",
+  "updated": "2026-10-10T05:43:01.300303+00:00",
   "events": [
+    {
+      "id": "7bf27cfabc2f",
+      "title": "US Ships US$75 Million of Fuel to Cuba in August",
+      "description": "U.S. fuel exports to Cuba reached almost $75 million in August, marking a significant increase in trade between the two countries.",
+      "lat": 23.12,
+      "lng": -82.38,
+      "severity": 2,
+      "location": "Havana, Cuba",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/us-ships-fuel-to-cuba-august-2026/",
+      "image": null,
+      "ts": 1791609567000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/us-ships-fuel-to-cuba-august-2026/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5d9257f84617",
+      "title": "South Korean ambassador leaves Ukraine",
+      "description": "Seoul announced the recall of its ambassador from Kyiv amid escalating tensions in the region.",
+      "lat": 39.22,
+      "lng": 127.93259999999998,
+      "severity": 3,
+      "location": "Seoul, South Korea",
+      "source": "TASS",
+      "url": "https://tass.com/world/2200213",
+      "image": null,
+      "ts": 1791607577000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20261010000900315"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2200213"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5d9f7fdf2521",
+      "title": "Taiwan’s leader says increasing defense spending to ‘deter war’",
+      "description": "Taiwan ha earmarked a record NT$1.1 trillion for defense in 2027, over 3 % of GDP, to strengthen deterrence against mainland China.",
+      "lat": 26.13,
+      "lng": 123.46519999999998,
+      "severity": 2,
+      "location": "Taipei, Taiwan",
+      "source": "Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/10/10/asia-pacific/politics/taiwan-lai-increasing-defense-spending/",
+      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/10/10/567841.JPG",
+      "ts": 1791606540000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/10/10/asia-pacific/politics/taiwan-lai-increasing-defense-spending/"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/east-asia/taiwan-cherishes-peace-but-will-not-give-up-its-freedom-president-says"
+          }
+        ]
+      }
+    },
     {
       "id": "bf622e90e696",
       "title": "US urges South Korea to uphold alliance standards",
@@ -839,54 +948,6 @@
             "n": "Washington Examiner",
             "b": "right",
             "u": "https://www.washingtonexaminer.com/news/white-house/4759478/trump-pledges-no-attacks-iran-before-midterm-elections/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5d9257f84617",
-      "title": "South Korea recalls ambassador from Ukraine amid N. Korea prisoners wrangle",
-      "description": "Seoul withdrew its ambassador to Kyiv after a dispute over North Korean prisoners of war sent to South Korea.",
-      "lat": 39.22,
-      "lng": 127.93259999999998,
-      "severity": 2,
-      "location": "Seoul, South Korea",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/east-asia/south-korea-recalls-ambassador-from-ukraine-amid-n-korea-prisoners-wrangle",
-      "image": null,
-      "ts": 1791482504000,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/10/08/world/asia/ukraine-south-korea-ambassador.html"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/ckwy48rrz95vo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/10/08/asia-pacific/politics/south-korea-ukraine-envoy-recall/"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/east-asia/south-korea-recalls-ambassador-from-ukraine-amid-n-korea-prisoners-wrangle"
           }
         ]
       }
@@ -7272,72 +7333,6 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/09/28/un-marks-25-years-of-durban-declaration-as-guterres-calls-for-stronger-global-action/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "157c80b615de",
-      "title": "Yemen's humanitarian crisis is worsening",
-      "description": "Intensifying fighting between Houthi forces and government troops leaves over 130,000 people displaced and hampers aid delivery.",
-      "lat": 16.45,
-      "lng": 44.21000000000001,
-      "severity": 3,
-      "location": "Sana'a, Yemen",
-      "source": "Le Monde English",
-      "url": "https://www.lemonde.fr/en/international/article/2026/09/28/we-have-nothing-no-safe-place-no-food-yemen-s-humanitarian-crisis-is-worsening_6758047_4.html",
-      "image": "https://img.lemde.fr/2026/09/24/735/0/5429/2714/644/322/60/0/3665eb6_ftp-1-h0zqelyq2bc7-ea999d1ffd7040038cb67e8c092ad150-0-7a3d1e9ced81487b83c2390b00988e2c.jpg",
-      "ts": 1790621103000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/09/28/we-have-nothing-no-safe-place-no-food-yemen-s-humanitarian-crisis-is-worsening_6758047_4.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a2fffb3f4e0a",
-      "title": "'We have nothing, no safe place, no food': Yemen's humanitarian crisis is worsening",
-      "description": "Der anhaltende Konflikt zwischen Huthi und Regierungstruppen verschärft die humanitäre Lage in Jemen, wo über 130.000 Menschen vertrieben sind.",
-      "lat": 16.45,
-      "lng": 46.095200000000006,
-      "severity": 3,
-      "location": "Sanaa, Jemen",
-      "source": "Le Monde English",
-      "url": "https://www.lemonde.fr/en/international/article/2026/09/28/we-have-nothing-no-safe-place-no-food-yemen-s-humanitarian-crisis-is-worsening_6758047_4.html",
-      "image": "https://img.lemde.fr/2026/09/24/735/0/5429/2714/644/322/60/0/3665eb6_ftp-1-h0zqelyq2bc7-ea999d1ffd7040038cb67e8c092ad150-0-7a3d1e9ced81487b83c2390b00988e2c.jpg",
-      "ts": 1790621103000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/09/28/we-have-nothing-no-safe-place-no-food-yemen-s-humanitarian-crisis-is-worsening_6758047_4.html"
           }
         ]
       }
