@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-10-10T20:41:17.336301+00:00",
+  "updated": "2026-10-11T00:12:32.935060+00:00",
   "events": [
+    {
+      "id": "642e085df51d",
+      "title": "Ghana seeks BRICS membership to broaden trade and diplomatic options",
+      "description": "Accra announced Ghana's application to join the BRICS bloc, aiming to diversify its economic partnerships beyond traditional Western allies.",
+      "lat": 5.56,
+      "lng": -0.2,
+      "severity": 2,
+      "location": "Accra, Ghana",
+      "source": "All Africa",
+      "url": "https://allafrica.com/stories/202610100177.html",
+      "image": null,
+      "ts": 1791674922000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "All Africa",
+            "b": "center",
+            "u": "https://allafrica.com/stories/202610100177.html"
+          }
+        ]
+      }
+    },
     {
       "id": "8c580e13a36d",
       "title": "Red Cross chief says she tried to arrange Gaza hostage visits through talks with Hamas's Haniyeh",
@@ -289,6 +322,39 @@
             "n": "Daily Star World",
             "b": "right",
             "u": "https://www.dailystar.co.uk/news/world-news/donald-trump-russia-diesel-deal-37756925"
+          }
+        ]
+      }
+    },
+    {
+      "id": "18a1d9d88374",
+      "title": "Ethiopia tells UN it is acting in self‑defence against Eritrea",
+      "description": "Ethiopia informed the UN Security Council that it is taking self‑defence measures in response to alleged Eritrean aggression.",
+      "lat": 9.03,
+      "lng": 38.74,
+      "severity": 3,
+      "location": "Addis Ababa, Ethiopia",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/ethiopia-tells-acting-defense-eritrea-137153814",
+      "image": "https://s.abcnews.com/images/International/wirestory_9386a16a06e537a29ffe2de273267c8b_4x3_384.jpg",
+      "ts": 1791618093000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/ethiopia-tells-acting-defense-eritrea-137153814"
           }
         ]
       }
@@ -7337,77 +7403,6 @@
             "n": "CBS News World",
             "b": "lean_left",
             "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-strait-of-hormuz/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4a033e8b284b",
-      "title": "Israel’s Gaza air strike kills Hamas commander behind October 7, 2023 attack",
-      "description": "An Israeli air strike in north Gaza killed the head of Hamas’ armed wing, a key figure linked to the Oct 7 attacks.",
-      "lat": 30.4274,
-      "lng": 35.920000000000016,
-      "severity": 4,
-      "location": "Beit Hanoun, Gaza Strip",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3369244/israels-gaza-air-strike-kills-hamas-commander-behind-october-7-2023-attack?utm_source=rss_feed",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/29/c928d480-2e84-4f11-ace9-8faf22128c27_01f8a200.jpg?itok=u0l7KR6Y&v=1790692844",
-      "ts": 1790692845000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/israel-news/article-910056"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/middle-east/article/3369244/israels-gaza-air-strike-kills-hamas-commander-behind-october-7-2023-attack?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "812ee513065d",
-      "title": "Russia's spy agency opens criminal case against Lib Dem councillor in London",
-      "description": "Russia’s security service launched a criminal investigation against a Russian exile living in London, accusing her of involvement with a terrorist organization.",
-      "lat": 50.96,
-      "lng": 0.8225999999999942,
-      "severity": 3,
-      "location": "London, United Kingdom",
-      "source": "Sky News World",
-      "url": "https://news.sky.com/story/russias-spy-agency-opens-criminal-case-against-lib-dem-councillor-13593293",
-      "image": "https://e3.365dm.com/26/09/1920x1080/skynews-ksenia-maximova-russia_7364167.jpg?20260929150252",
-      "ts": 1790689140000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/russias-spy-agency-opens-criminal-case-against-lib-dem-councillor-13593293"
           }
         ]
       }
