@@ -1,7 +1,189 @@
 {
   "schema": 1,
-  "updated": "2026-10-11T13:27:50.630216+00:00",
+  "updated": "2026-10-11T18:25:47.516649+00:00",
   "events": [
+    {
+      "id": "fabc91b56d88",
+      "title": "Houthis, Saudis ratchet up violence with back-and-forth airport strikes",
+      "description": "Iran‑backed Houthi rebels and Saudi Arabia exchanged attacks on each other's airports, escalating regional tension.",
+      "lat": 24.96,
+      "lng": 46.69999999999999,
+      "severity": 3,
+      "location": "Riyadh, Saudi Arabia",
+      "source": "New York Post",
+      "url": "https://nypost.com/2026/10/11/world-news/houthis-saudis-launch-back-and-forth-airport-strikes/",
+      "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F10%2F144657152.jpg?quality%3D90%26strip%3Dall",
+      "ts": 1791743120000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Post",
+            "b": "lean_right",
+            "u": "https://nypost.com/2026/10/11/world-news/houthis-saudis-launch-back-and-forth-airport-strikes/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a6c238461932",
+      "title": "Iran calls U.S. response \"insufficient\" amid stalled talks to end the war",
+      "description": "Iran criticised the United States for what it described as an inadequate effort to negotiate an end to the conflict in Yemen.",
+      "lat": 38.9,
+      "lng": -75.1348,
+      "severity": 2,
+      "location": "Washington, USA",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/",
+      "image": null,
+      "ts": 1791742909000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bc82f1248e5c",
+      "title": "Djibouti boat wreck leaves 139 migrants dead, 84 missing: UN",
+      "description": "A migrant vessel capsized while sailing from Djibouti to Yemen, resulting in at least 139 deaths and dozens missing.",
+      "lat": 12.68,
+      "lng": 43.150000000000006,
+      "severity": 4,
+      "location": "Djibouti, Djibouti",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/world/djibouti-boat-wreck-leaves-139-migrants-dead-84-missing-un-6450621",
+      "image": null,
+      "ts": 1791742661000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/109-dead-after-ship-sinks-off-coast-of-djibouti-un-agency-says-13597707"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/world/djibouti-boat-wreck-leaves-139-migrants-dead-84-missing-un-6450621"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d3c002ae0793",
+      "title": "Saudi capital airport hit by second Houthi strike in two days",
+      "description": "Houthi rebels attacked King Khalid International Airport in Riyadh, killing 13 people and damaging airport facilities.",
+      "lat": 25.81,
+      "lng": 46.68000000000001,
+      "severity": 3,
+      "location": "Riyadh, Saudi Arabia",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
+      "image": "https://c.ndtvimg.com/2026-10/1gkm6fgs_saudi-vs-houthis_625x300_08_October_26.jpeg",
+      "ts": 1791736897000,
+      "coverage": {
+        "left": 3,
+        "center": 6,
+        "right": 1,
+        "total": 10,
+        "buckets": {
+          "left": 1,
+          "lean_left": 2,
+          "center": 6,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/saudi-arabia-yemen_n_6ac8a694e4b01d1704f9031d"
+          },
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/10/11/saudi-arabia-vows-retaliation-against-houthis-after-riyadh-airport-strike/"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/10/11/saudi-arabia-weighs-response-after-deadliest-houthi-attack-on-riyadh-in-a-decade_6758480_4.html"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/riyadh-airport-evacuated-after-suspected-houthi-strike-latest-series-attacks-against-saudi-3808450"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPT1ZOSzFDM3Yta3pYdDE1N2VlbTBTN0hJaTRJZkUtVGJ4NGY4V0ZwVkMtMmxQQjR1aFhhTk52M1FNeDI4bTlaZFhIMjBBaTV4eXRfaHloN2xrQUprTy1qZnlVa1VPYWZyaGh4MTdzZ2o2QkFZRVJFYVFuYmZRS0ZDR280T2RoaU9yRkI1MW9zV09RdTMzZnFLMHlnS19uMnRnRjIxT0dzWFhSa0J5NmfSAbMBQVVfeXFMUE9VUEo0X1M2UllxWXNLYVd4dGV6UVVjRk5GUVFyWnNpNUVTMFU5Z2dyVm1lZ2R5amJKR3lyTGk0RXpmRmdZN0dLVzNZSVpLUVM2NGFuYXdjU2dLQUdneFVsVjBTUWlvMF9CdXJMQm1QS2lQRm1LQXliajI4M3lZdlZqcXEtOU5aWWowWnZCa0Q1VjBtMG92Rmt5WUdTdWRERmtCMXpJWGZpTW1MY3J6R1J2c1U?oc=5"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/10/houthi-strike-saudi-airport-kills-12-worst-attack-kingdom-decade"
+          },
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/pakistan-confirms-it-has-troops-in-saudi-as-conflict-with-yemens-houthi-rebels-escalates/"
+          },
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20261011002900315"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/turkiye-slams-latest-houthi-attack-on-saudi-capital-riyadh"
+          }
+        ]
+      }
+    },
     {
       "id": "48280b9650a8",
       "title": "A migrant boat sank off the coast of Djibouti with the UN reporting over 200 people dead or missing",
@@ -97,6 +279,39 @@
             "n": "All Africa",
             "b": "center",
             "u": "https://allafrica.com/stories/202610110093.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4898d4460e47",
+      "title": "Abbas delays Palestinian elections again, making more than two decades without vote",
+      "description": "Palestinian Authority President Mahmoud Abbas postponed the long‑awaited elections to 2027, extending a near‑20‑year hiatus.",
+      "lat": 31.9,
+      "lng": 35.19999999999999,
+      "severity": 3,
+      "location": "Ramallah, Palestine",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/abbas-delays-palestinian-elections-again-making-more-than-two-decades-without-vote",
+      "image": null,
+      "ts": 1791721326000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/abbas-delays-palestinian-elections-again-making-more-than-two-decades-without-vote"
           }
         ]
       }
@@ -492,44 +707,6 @@
             "n": "AGI Estero",
             "b": "center",
             "u": "https://www.agi.it/estero/news/2026-10-10/zaporizhzhia-bombe-russe-morti-39467830/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4898d4460e47",
-      "title": "🔴 Palestinian president Abbas postpones legislative elections, sets presidential poll for September 2027",
-      "description": "Il presidente palestinese Mahmoud Abbas ha rinviato le elezioni legislative e fissato le elezioni presidenziali per il 2027.",
-      "lat": 31.9,
-      "lng": 35.19999999999999,
-      "severity": 2,
-      "location": "Ramallah, Palestine",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/middle-east/20261010-palestinian-president-abbas-postpones-legislative-elections-to-september-2027",
-      "image": null,
-      "ts": 1791633504000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/middle-east/20261010-palestinian-president-abbas-postpones-legislative-elections-to-september-2027"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/article-911222"
           }
         ]
       }
@@ -2332,54 +2509,6 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/world/2199011"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d3c002ae0793",
-      "title": "Saudi Says 3 Killed In Houthi Attacks On Its Airports As Conflict Deepens",
-      "description": "Houthi militants launched attacks on Saudi airports, killing three people and striking Riyadh's King Khalid International Airport.",
-      "lat": 25.81,
-      "lng": 46.68000000000001,
-      "severity": 4,
-      "location": "Riyadh, Saudi Arabia",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/saudi-arabia-says-3-killed-in-houthi-attacks-on-its-airports-as-conflict-deepens-12153496#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-10/1gkm6fgs_saudi-vs-houthis_625x300_08_October_26.jpeg",
-      "ts": 1791401332000,
-      "coverage": {
-        "left": 2,
-        "center": 1,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 1,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/saudi-arabia-says-3-killed-in-houthi-attacks-on-its-airports-as-conflict-deepens-12153496#publisher=newsstand"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/10/7/saudi-arabia-says-three-foreign-nationals-killed-in-attacks-on-airports?traffic_source=rss"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-10-07/houthis-kill-three-in-attacks-on-two-airports-in-saudi-arabia"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/mid-east/attacks-on-2-saudi-airports-kill-3-aviation-authority-says"
           }
         ]
       }
@@ -7309,105 +7438,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/africa/morocco-appoints-fatima-zahra-mansouri-as-first-woman-pm"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7592cd16420c",
-      "title": "Boeing nabs $20B contract for Navy's futuristic fighter",
-      "description": "Boeing wins a $20 billion contract to develop the U.S. Navy's next-generation fighter aircraft.",
-      "lat": 38.9,
-      "lng": -77.04,
-      "severity": 2,
-      "location": "Washington, D.C., USA",
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/09/29/navy-boeing-fighter-contract-f47",
-      "image": "https://images.axios.com/C3jlFMZLgPV7qb6XLY-x8hQg0TA=/1366x768/smart/2021/09/09/213020-1631223020835.jpg",
-      "ts": 1790718131000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/09/29/navy-boeing-fighter-contract-f47"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0411612458a5",
-      "title": "Settlers clash with Israeli forces to block Palestinian family’s return home",
-      "description": "Jewish settlers confront Israeli troops while trying to prevent a Palestinian family from returning to their house in the West Bank.",
-      "lat": 31.95,
-      "lng": 35.30000000000001,
-      "severity": 3,
-      "location": "Hebron, West Bank",
-      "source": "NBC News World",
-      "url": "https://www.nbcnews.com/world/middle-east/jewish-settlers-clash-israeli-security-forces-prevent-palestinian-fami-rcna600437",
-      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-09/260929-west-bank-attack-zk-1dbdcb.jpg",
-      "ts": 1790715930000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/middle-east/jewish-settlers-clash-israeli-security-forces-prevent-palestinian-fami-rcna600437"
-          }
-        ]
-      }
-    },
-    {
-      "id": "19a9919585da",
-      "title": "US imposes sanctions on 13 tied to Iran weapons procurement",
-      "description": "The United States sanctions 13 individuals and entities linked to Iran's weapons procurement network.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 3,
-      "location": "Tehran, Iran",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWWZ2NlJ3d0swV0JKWFhhREdzNmxnUlhaSlE0eFlrbUhBZ3RBMXhQeEJSS1JCTnR2UV82cTA4YW4yUDR5YnNUd1FmN2M1Z1liMWhfNEJOUnFMLVYtTzFCMjFSTWJuaWlhUFdHc3lLVE9tMHZUWkRldzJXaFd3SDdqX1NIOXJxRTBFZF9FT1Fvalg1b25FWm1RVEYySkUzZS1nNHItOXMtVUVTQjVt?oc=5",
-      "image": null,
-      "ts": 1790715831000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWWZ2NlJ3d0swV0JKWFhhREdzNmxnUlhaSlE0eFlrbUhBZ3RBMXhQeEJSS1JCTnR2UV82cTA4YW4yUDR5YnNUd1FmN2M1Z1liMWhfNEJOUnFMLVYtTzFCMjFSTWJuaWlhUFdHc3lLVE9tMHZUWkRldzJXaFd3SDdqX1NIOXJxRTBFZF9FT1Fvalg1b25FWm1RVEYySkUzZS1nNHItOXMtVUVTQjVt?oc=5"
           }
         ]
       }
