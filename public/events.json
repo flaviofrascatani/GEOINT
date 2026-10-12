@@ -1,7 +1,78 @@
 {
   "schema": 1,
-  "updated": "2026-10-11T22:25:11.133994+00:00",
+  "updated": "2026-10-12T01:43:36.189573+00:00",
   "events": [
+    {
+      "id": "be01401e2058",
+      "title": "(URGENT) N. Korea's ballistic missiles flew over 900 km: JCS",
+      "description": "North Korea launched a ballistic missile that traveled more than 900 km, flying over the sea toward South Korea.",
+      "lat": 37.57,
+      "lng": 126.98000000000002,
+      "severity": 2,
+      "location": "Seoul, South Korea",
+      "source": "Yonhap News",
+      "url": "https://en.yna.co.kr/view/AEN20261012002900315",
+      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+      "ts": 1791768918000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20261012002900315"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ea03c965b7a7",
+      "title": "Houthis kill 14 at Saudi airport as expert warns of 'rapid targets' amid Middle East war",
+      "description": "Iran‑backed Houthi rebels struck King Khalid International Airport in Riyadh, killing at least 14 people and injuring over 300.",
+      "lat": 26.06,
+      "lng": 48.605199999999996,
+      "severity": 4,
+      "location": "Riyadh, Saudi Arabia",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/houthis-kill-14-saudi-airport-expert-warns-rapid-targets-amid-middle-east-war",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/saudi-arabia-airport-attack.jpg?ve=1&tl=1",
+      "ts": 1791765293000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/video/yemens-houthis-target-king-khalid-airport-saudi-arabia-again/"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/houthis-kill-14-saudi-airport-expert-warns-rapid-targets-amid-middle-east-war"
+          }
+        ]
+      }
+    },
     {
       "id": "68bad8d025a7",
       "title": "Slovenia rejects bill in blow to PM Janez Jansa’s reform agenda",
@@ -465,6 +536,39 @@
       "description": "Negli ultimi due settimane Washington ha subito una serie di sconfitte diplomatiche nel tentativo di spingere il Sudan verso un accordo di cessate il fuoco.",
       "lat": 16.69,
       "lng": 32.53999999999999,
+      "severity": 3,
+      "location": "Khartoum, Sudan",
+      "source": "All Africa",
+      "url": "https://allafrica.com/stories/202610110093.html",
+      "image": null,
+      "ts": 1791723009000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "All Africa",
+            "b": "center",
+            "u": "https://allafrica.com/stories/202610110093.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9a8696d965d6",
+      "title": "Sudan: Diplomatic Setbacks Undermine U.S. Approach to Sudan",
+      "description": "Recent diplomatic defeats have hampered Washington’s effort to push Sudanese authorities toward a cease‑fire agreement.",
+      "lat": 16.69,
+      "lng": 34.4452,
       "severity": 3,
       "location": "Khartoum, Sudan",
       "source": "All Africa",
@@ -7449,110 +7553,6 @@
             "n": "RTE News",
             "b": "center",
             "u": "https://www.rte.ie/news/2026/0930/1593437-drumcree-latest/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "53702856c6cd",
-      "title": "North Korea denies planting mines that injured South Korean soldiers",
-      "description": "Pyongyang rejected accusations that it had laid land mines which wounded three South Korean troops, heightening inter‑Korean tensions.",
-      "lat": 37.57,
-      "lng": 128.8852,
-      "severity": 3,
-      "location": "Seoul, South Korea",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/north-korea-denies-planting-mines-injured-3-south-136874623",
-      "image": "https://s.abcnews.com/images/International/wirestory_27210b8bafe9e11b6b456892b80ca881_4x3_384.jpg",
-      "ts": 1790747057000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/north-korea-denies-planting-mines-injured-3-south-136874623"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/north-and-south-korea-trade-accusations-over-landmines-that-injured-three-soldiers/a-79503854?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "94bc594118ac",
-      "title": "Côte d’Ivoire and the Sahel: Trade thaws a political freeze",
-      "description": "Trade talks between Abidjan and the Sahel states revive economic ties despite lingering political tensions.",
-      "lat": 5.36,
-      "lng": -4.01,
-      "severity": 1,
-      "location": "Abidjan, Ivory Coast",
-      "source": "The Africa Report",
-      "url": "https://www.theafricareport.com/431959/cote-divoire-and-the-sahel-trade-thaws-a-political-freeze/",
-      "image": null,
-      "ts": 1790744400000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Africa Report",
-            "b": "center",
-            "u": "https://www.theafricareport.com/431959/cote-divoire-and-the-sahel-trade-thaws-a-political-freeze/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e616aa8ccbe7",
-      "title": "Minister Kiev, 'every missile alarm costs $45 million per hour' – Russian missile attempt",
-      "description": "Ukrainian minister Kravchenko warns that a Russian missile strike attempt threatens the national economy, costing $45 million per hour of alarm.",
-      "lat": 50.45,
-      "lng": 30.52,
-      "severity": 2,
-      "location": "Kyiv, Ukraine",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/30/ministro-kiev-ogni-allarme-missilistico-costa-45-milioni-dollari-allora_7800ac36-bb41-4f9e-aeac-c8c40fc67649.html",
-      "image": null,
-      "ts": 1790743802000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/europa/2026/09/30/ministro-kiev-ogni-allarme-missilistico-costa-45-milioni-dollari-allora_7800ac36-bb41-4f9e-aeac-c8c40fc67649.html"
           }
         ]
       }
