@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-10-12T01:43:36.189573+00:00",
+  "updated": "2026-10-12T09:05:39.904990+00:00",
   "events": [
+    {
+      "id": "100b0c0edcb3",
+      "title": "Mozambique sets December deadline to surrender illegal weapons",
+      "description": "Der Präsident von Mosambik kündigte an, dass bis Dezember alle illegalen Schusswaffen abgegeben werden müssen, um die Sicherheit zu erhöhen.",
+      "lat": -25.97,
+      "lng": 32.58,
+      "severity": 1,
+      "location": "Maputo, Mosambik",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/10/12/mozambique-sets-december-deadline-to-surrender-illegal-weapons/",
+      "image": "http://images.euronews.com/articles/stories/09/94/81/60/640x360_cmsv2_5f7ae8d8-0df8-5365-a4e4-39b18d9c8c28-9948160.jpg?1791780641",
+      "ts": 1791795549000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/10/12/mozambique-sets-december-deadline-to-surrender-illegal-weapons/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a44870612e2d",
+      "title": "One killed after Riyadh airport hit again, a day after deadly strike killed 12",
+      "description": "Ein weiterer Raketenangriff traf das King‑Khalid‑International‑Airport in Riad und forderte ein Todesopfer sowie zahlreiche Verletzte.",
+      "lat": 24.96,
+      "lng": 46.69999999999999,
+      "severity": 4,
+      "location": "Riyadh, Saudi-Arabien",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/houthis-threat-saudi-airspace-attack-riyadh-airport/",
+      "image": null,
+      "ts": 1791793555000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/houthis-threat-saudi-airspace-attack-riyadh-airport/"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ec551c9d03bb",
+      "title": "Taiwan says it is closely monitoring a series of Chinese live‑fire drills",
+      "description": "Taiwan beobachtet intensiv die von China im östlichen Meer durchgeführten Schießübungen, die nahe an die taiwanesische Küste heranreichen.",
+      "lat": 29.65,
+      "lng": 122.2,
+      "severity": 3,
+      "location": "Zhejiang, China",
+      "source": "Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/10/12/asia-pacific/taiwan-monitoring-china-drills/",
+      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/10/12/568015.jpg",
+      "ts": 1791792540000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/10/12/asia-pacific/taiwan-monitoring-china-drills/"
+          }
+        ]
+      }
+    },
     {
       "id": "be01401e2058",
       "title": "(URGENT) N. Korea's ballistic missiles flew over 900 km: JCS",
@@ -7414,145 +7518,6 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/world/2195071"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7e4c9d4b69e7",
-      "title": "FlyDubai flight diverts to Saudi Arabia after reported fight between pilots",
-      "description": "An emergency landing was performed in Saudi Arabia after a reported fight between pilots on a FlyDubai flight bound for Israel.",
-      "lat": 25.81,
-      "lng": 46.68000000000001,
-      "severity": 3,
-      "location": "Riyadh, Saudi Arabia",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/tel-aviv-israel-flydubai-flight-saudi-arabia-diverted-pilots/",
-      "image": null,
-      "ts": 1790765453000,
-      "coverage": {
-        "left": 2,
-        "center": 1,
-        "right": 2,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 1,
-          "lean_right": 1,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/tel-aviv-israel-flydubai-flight-saudi-arabia-diverted-pilots/"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/9/30/flydubai-flight-to-israel-diverted-to-saudi-arabia-after-emergency-alert-2?traffic_source=rss"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/2026/0930/1593453-pilot-fight/"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/646469-russian-ukrainian-pilots-brawl/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/flydubai-pilots-reportedly-fight-cockpit-triggering-hijacking-fears-israeli-fighter-jet-response"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a99f1b9e603c",
-      "title": "Flydubai pilot attempts terror hijacking of flight to Tel Aviv, foiled by Israeli passengers",
-      "description": "A Flydubai pilot stabbed his co‑pilot in an attempted hijacking; the aircraft made an emergency landing in Saudi Arabia.",
-      "lat": 27.44,
-      "lng": 49.53,
-      "severity": 4,
-      "location": "Ras Tanura, Saudi Arabia",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/international/article-910155",
-      "image": null,
-      "ts": 1790760716000,
-      "coverage": {
-        "left": 2,
-        "center": 2,
-        "right": 1,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 2,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/09/30/flydubai-flight-tel-aviv-diverted-saudi-arabia-after-onboard-altercation/"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/9/30/what-happened-on-diverted-flydubai-flight-from-dubai-to-tel-aviv?traffic_source=rss"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/flydubai-pilot-investigated-over-possible-attempt-to-crash-tel-aviv-bound-flight/a-79484761?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/international/article-910155"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/society/2195267"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4ebefcce8e74",
-      "title": "Residents discuss proposal, DUP MP says deal unacceptable – Drumcree parading dispute",
-      "description": "Local residents in Garvaghy Road met to consider a settlement to the long‑standing Drumcree parade dispute, though a DUP MP rejected the proposal.",
-      "lat": 54.6,
-      "lng": -6.2,
-      "severity": 1,
-      "location": "Garvaghy Road, Northern Ireland",
-      "source": "RTE News",
-      "url": "https://www.rte.ie/news/2026/0930/1593437-drumcree-latest/",
-      "image": "https://www.rte.ie/images/00251984-800.jpg",
-      "ts": 1790747510000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/2026/0930/1593437-drumcree-latest/"
           }
         ]
       }
