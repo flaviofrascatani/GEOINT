@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-10-13T08:23:26.817143+00:00",
+  "updated": "2026-10-13T16:23:41.949758+00:00",
   "events": [
+    {
+      "id": "c0f9c29543e1",
+      "title": "MI5 chief warns Iran is targeting military sites in UK as hostile state threats surge",
+      "description": "Britain’s MI5 warned that Iran is planning attacks on UK military installations.",
+      "lat": 52.61,
+      "lng": 1.7752000000000123,
+      "severity": 2,
+      "location": "London, United Kingdom",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/europe/article/3370774/mi5-chief-warns-iran-targeting-military-sites-uk-hostile-state-threats-surge?utm_source=rss_feed",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/13/789cb926-73dd-4434-a1dc-698f155efd1d_fb15935d.jpg?itok=fppCzLwC&v=1791898758",
+      "ts": 1791898772000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/europe/article/3370774/mi5-chief-warns-iran-targeting-military-sites-uk-hostile-state-threats-surge?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bef5b4381b99",
+      "title": "Tourist Hotspot Mauritius Declares Curfew After Widespread Riots",
+      "description": "Prime Minister Navinchandra Ramgoolam imposed a curfew following the worst riots on the island since 1999.",
+      "lat": -20.16,
+      "lng": 57.5,
+      "severity": 4,
+      "location": "Port Louis, Mauritius",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-13/tourist-hotspot-mauritius-hit-by-worst-unrest-since-1999",
+      "image": null,
+      "ts": 1791883723000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-10-13/tourist-hotspot-mauritius-hit-by-worst-unrest-since-1999"
+          }
+        ]
+      }
+    },
     {
       "id": "623a9ee303e9",
       "title": "“Falkland Islanders will is to remain British, and we will uphold it”, PM Burnham told Trump",
@@ -75,27 +141,27 @@
     },
     {
       "id": "5ab243dc8f00",
-      "title": "Saudi Arabia intercepts three missiles as capital’s international airport remains closed after deadly Houthi attacks",
-      "description": "Le forze aeree saudite hanno distrutto tre missili balistici lanciati dagli Houthi, mantenendo chiuso l’aeroporto internazionale di Riyad.",
+      "title": "Skies Over Saudi Capital Empty After Deadly Houthi Airport Strikes",
+      "description": "Houthi attacks forced the closure of Riyadh’s international airport, leaving the skies empty.",
       "lat": 18.3,
       "lng": 42.73,
-      "severity": 3,
+      "severity": 4,
       "location": "Khamis Mushait, Saudi Arabia",
-      "source": "Egypt Independent",
-      "url": "https://www.egyptindependent.com/saudi-arabia-intercepts-three-missiles-as-capitals-international-airport-remains-closed-after-deadly-houthi-attacks/",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/riyadh-attack-houthis-saudi-arabia_n_6acce4dce4b0ec20eb6b45c5",
       "image": "https://c.ndtvimg.com/2026-10/sr548l7g_saudi-houthi-conflict_625x300_02_October_26.jpeg",
       "ts": 1791879147000,
       "coverage": {
-        "left": 5,
-        "center": 2,
+        "left": 3,
+        "center": 1,
         "right": 1,
-        "total": 8,
+        "total": 5,
         "buckets": {
           "left": 1,
-          "lean_left": 4,
-          "center": 2,
-          "lean_right": 0,
-          "right": 1
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
         },
         "sources": [
           {
@@ -104,39 +170,24 @@
             "u": "https://www.huffpost.com/entry/riyadh-attack-houthis-saudi-arabia_n_6acce4dce4b0ec20eb6b45c5"
           },
           {
-            "n": "New York Times World",
+            "n": "NBC News World",
             "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/10/12/world/middleeast/iran-houthis-saudi-arabia.html"
-          },
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/10/11/saudi-arabia-vows-retaliation-against-houthis-after-riyadh-airport-strike/"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/video/trump-considering-strikes-against-houthis-in-yemen-after-attacks-on-saudi-arabia/"
+            "u": "https://www.nbcnews.com/world/middle-east/deadly-saudi-airport-strikes-mark-major-mideast-escalation-rcna602922"
           },
           {
             "n": "NDTV World",
             "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/saudi-intercepts-more-houthi-missiles-as-conflict-shows-no-signs-of-easing-12177550#publisher=newsstand"
+            "u": "https://www.ndtv.com/world-news/houthis-saudi-riyadh-airport-attacks-pressure-trump-to-boost-us-role-in-yemen-12177835#publisher=newsstand"
           },
           {
-            "n": "Bloomberg Politics",
+            "n": "Jerusalem Post",
             "b": "center",
-            "u": "https://www.bloomberg.com/news/videos/2026-10-13/saudi-intercepts-houthi-attacks-as-pressure-grows-on-us-video"
+            "u": "https://www.jpost.com/middle-east/article-911565"
           },
           {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/saudi-arabia-intercepts-three-missiles-as-capitals-international-airport-remains-closed-after-deadly-houthi-attacks/"
-          },
-          {
-            "n": "Daily Mail World",
-            "b": "right",
-            "u": "https://www.dailymail.com/news/article-16201757/Saudi-prince-heavily-guarded-palaces-bunkers-Houthi-attacks.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/politics/diplomacy/erdogan-condemns-houthi-attacks-in-call-with-saudi-crown-prince"
           }
         ]
       }
@@ -7452,72 +7503,6 @@
             "n": "Jerusalem Post",
             "b": "center",
             "u": "https://www.jpost.com/middle-east/iran-news/article-910254"
-          }
-        ]
-      }
-    },
-    {
-      "id": "530a26e665b6",
-      "title": "Turkish intelligence captures suspect in 2013 Reyhanlı bombing",
-      "description": "Turkey’s MIT arrested Ömer el‑Hatip, a Syrian national suspected of planning the 2013 Reyhanlı attack that killed dozens.",
-      "lat": 37.68,
-      "lng": 36.19999999999999,
-      "severity": 3,
-      "location": "Reyhanlı, Turkey",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/politics/war-on-terror/turkish-intelligence-captures-suspect-in-2013-reyhanli-bombing",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/10/01/463249.jpg",
-      "ts": 1790836800000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/politics/war-on-terror/turkish-intelligence-captures-suspect-in-2013-reyhanli-bombing"
-          }
-        ]
-      }
-    },
-    {
-      "id": "485510baaef0",
-      "title": "France: Hundreds arrested as student protests escalate",
-      "description": "Massive student demonstrations in France turned violent, leading to hundreds of arrests and dozens of injuries across several cities.",
-      "lat": 48.86,
-      "lng": 4.255200000000002,
-      "severity": 3,
-      "location": "Paris, France",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/france-hundreds-arrested-as-student-protests-escalate/a-79495633?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1790815704275,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/france-hundreds-arrested-as-student-protests-escalate/a-79495633?maca=en-rss-en-all-1573-rdf"
           }
         ]
       }
