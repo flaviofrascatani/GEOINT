@@ -1,7 +1,103 @@
 {
   "schema": 1,
-  "updated": "2026-10-14T19:39:52.127362+00:00",
+  "updated": "2026-10-14T23:09:50.313729+00:00",
   "events": [
+    {
+      "id": "89e936631bb9",
+      "title": "Albania protests turn violent as protestors demand PM Rama's resignation",
+      "description": "Demonstrations in Tirana escalated into clashes, with government buildings damaged and fires reported.",
+      "lat": 41.33,
+      "lng": 19.82,
+      "severity": 3,
+      "location": "Tirana, Albania",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/europe/20261014-albania-protests-protestors-demand-pm-rama-resignation",
+      "image": "https://s.france24.com/media/display/2b7d0ff0-c80f-11f1-979c-4dd8ac2cf3bf/w:1024/p:16x9/2026-10-14T202423Z-672776165-RC243OAZMXW5-RTRMADP-3-ALBANIA-PROTESTS.jpg",
+      "ts": 1792017308000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/europe/20261014-albania-protests-protestors-demand-pm-rama-resignation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d5d9265616c3",
+      "title": "Houthis launch new attack on Saudi capital as Trump mulls strikes",
+      "description": "Iran‑aligned Houthi forces carried out a missile and drone strike targeting Riyadh, Saudi Arabia.",
+      "lat": 26.27,
+      "lng": 50.21,
+      "severity": 4,
+      "location": "Dhahran, Saudi-Arabien",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/",
+      "image": null,
+      "ts": 1792017002000,
+      "coverage": {
+        "left": 3,
+        "center": 2,
+        "right": 2,
+        "total": 7,
+        "buckets": {
+          "left": 1,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 2,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/riyadh-explosions-houthi-rebels_n_6acf5645e4b08a0fe85498f8"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/iran-backed-houthis-strike-saudi-oil-company-aramcos-headquarters/article71585469.ece"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3FLcG5hMEUtNVJFdEhob3IzWW56Q2ZSeUFzR3d0X21MQThoaFA5ZlFybEhlcjJvTXlQcVhISjRLQlM4ZnF2ZGl5ekZiMHg3aC04YVhSeDFEbFI4RzA3M0Zxb3l6UUpmNUV1LXpWbXhibWxucEVRcm94YU9faWVEVHhUdlRDUnF3dkwwNWFmSGNNQQ?oc=5"
+          },
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/headquarters-of-saudi-aramco-hit-as-houthis-and-riyadh-trade-strikes/"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2202231"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/opinion/op-ed/israel-as-symbol-saudi-arabia-as-target-houthis-calculus"
+          }
+        ]
+      }
+    },
     {
       "id": "d8148f4d9444",
       "title": "GOP Sen. Tillis asks Musk to explain Ukraine losing access to Starlink",
@@ -170,79 +266,6 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/germany-s-far-right-afd-forges-a-pro-russia-alliance-with-the-bsw/a-79662413?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d5d9265616c3",
-      "title": "Iran‑backed Houthis strike Saudi Aramco executive offices",
-      "description": "Houthis launched a missile attack on the executive offices of Saudi Arabia's oil giant Aramco in Dhahran, marking a high‑profile strike on the energy sector.",
-      "lat": 26.27,
-      "lng": 50.21,
-      "severity": 3,
-      "location": "Dhahran, Saudi-Arabien",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/riyadh-explosions-houthi-rebels_n_6acf5645e4b08a0fe85498f8",
-      "image": null,
-      "ts": 1791990215000,
-      "coverage": {
-        "left": 4,
-        "center": 4,
-        "right": 1,
-        "total": 9,
-        "buckets": {
-          "left": 1,
-          "lean_left": 3,
-          "center": 4,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/riyadh-explosions-houthi-rebels_n_6acf5645e4b08a0fe85498f8"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/houthis-claim-attack-on-saudi-aramco-facilities-as-explosions-rock-riyadh-12186547#publisher=newsstand"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/iran-backed-houthis-strike-saudi-oil-company-aramcos-headquarters/article71585469.ece"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/middle-east/20261014-yemen-houthis-vow-continue-saudi-attacks-oil-giant-aramco-headquarters-hit"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3FLcG5hMEUtNVJFdEhob3IzWW56Q2ZSeUFzR3d0X21MQThoaFA5ZlFybEhlcjJvTXlQcVhISjRLQlM4ZnF2ZGl5ekZiMHg3aC04YVhSeDFEbFI4RzA3M0Zxb3l6UUpmNUV1LXpWbXhibWxucEVRcm94YU9faWVEVHhUdlRDUnF3dkwwNWFmSGNNQQ?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/10/aramco-hq-attack-exposes-saudi-defense-gaps-infrastructure-vulnerabilities"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/headquarters-of-saudi-aramco-hit-as-houthis-and-riyadh-trade-strikes/"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/middle-east/2026/10/14/houthis-launch-more-missiles-saudi-oil-company-headquarters-heavily-damaged/"
           }
         ]
       }
@@ -7560,39 +7583,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/business/economy/g7-agrees-to-release-100m-barrels-of-oil-as-diesel-prices-soar"
-          }
-        ]
-      }
-    },
-    {
-      "id": "10e3428a8fec",
-      "title": "African Union must convene emergency session on Ethiopia as new conflict expands",
-      "description": "The AU plans an emergency meeting in Addis Ababa to address the widening violence in Ethiopia.",
-      "lat": 10.13,
-      "lng": 40.64519999999999,
-      "severity": 3,
-      "location": "Addis Ababa, Ethiopia",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUGRza2d2cXROY3c2cURfcDRaNEVfVENnWWtMTklNMWIwR2l1OGZQWWdRS0ZYeXlMQkNHbmJZdWctamhsaTVQRzFwS1RFVUpsTEZMX0V1b2lWZzd2dzlEZ09BbDR3YTEtNWwxdExTZ2FuWHhqOEdnampnR2czcEcyY24yTEh1NS1RQmt2cFcxN2o0REtOTWxSQVpXanhHS2RRTVBBUFRwTmtRTGdyTERlcm1CTHdBcnpGNjhGcU5zM3RVeDFvSURmWEhHdUtLdUx1dmZF?oc=5",
-      "image": null,
-      "ts": 1790943282000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUGRza2d2cXROY3c2cURfcDRaNEVfVENnWWtMTklNMWIwR2l1OGZQWWdRS0ZYeXlMQkNHbmJZdWctamhsaTVQRzFwS1RFVUpsTEZMX0V1b2lWZzd2dzlEZ09BbDR3YTEtNWwxdExTZ2FuWHhqOEdnampnR2czcEcyY24yTEh1NS1RQmt2cFcxN2o0REtOTWxSQVpXanhHS2RRTVBBUFRwTmtRTGdyTERlcm1CTHdBcnpGNjhGcU5zM3RVeDFvSURmWEhHdUtLdUx1dmZF?oc=5"
           }
         ]
       }
