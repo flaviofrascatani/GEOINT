@@ -1,7 +1,146 @@
 {
   "schema": 1,
-  "updated": "2026-10-14T15:26:57.962053+00:00",
+  "updated": "2026-10-14T19:39:52.127362+00:00",
   "events": [
+    {
+      "id": "d8148f4d9444",
+      "title": "GOP Sen. Tillis asks Musk to explain Ukraine losing access to Starlink",
+      "description": "Senator Thom Tillis pressed Elon Musk for answers after Ukraine reported a loss of military access to the Starlink satellite communications network, affecting Kyiv's defense capabilities.",
+      "lat": 50.45,
+      "lng": 30.52,
+      "severity": 3,
+      "location": "Kyiv, Ukraine",
+      "source": "The Hill",
+      "url": "https://thehill.com/homenews/senate/6148831-tillis-presses-musk-starlink/",
+      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/09/tillisthom_093026gn02_w.jpg?w=900",
+      "ts": 1792005746000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/10/14/ukraine-accuses-elon-musks-spacex-of-throttling-starlink-terminals?traffic_source=rss"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/10/14/russian-energy-strikes-leave-600-000-people-without-power-says-zelensky_6758587_4.html"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/ukraine-says-musk-s-spacex-limits-kyiv-s-starlink-access/a-79658015?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/homenews/senate/6148831-tillis-presses-musk-starlink/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "01d2d300d58d",
+      "title": "Container ship sinks in Strait of Hormuz as Iran steps up attacks",
+      "description": "An Iranian attack caused a commercial container vessel to sink in the Strait of Hormuz, heightening tensions over the vital oil‑shipping lane.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 3,
+      "location": "Strait of Hormuz",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/10/14/container-ship-sinks-strait-hormuz-as-iran-war-attacks.html",
+      "image": null,
+      "ts": 1792005720000,
+      "coverage": {
+        "left": 1,
+        "center": 4,
+        "right": 1,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 4,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/iran-reports-cargo-ship-sinks-after-hitting-mine-in-strait-of-hormuz/article71585186.ece"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/crkg7q97z078o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/10/14/container-ship-sinks-strait-hormuz-as-iran-war-attacks.html"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/iran-further-escalates-attacks-strait-hormuz-two-ships-were-sunk-day-3808581"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMWFKMzFFcmxqYVdxcTVUYmZBZTZHejZpWTJmZ3o3Z3lFbnA0NTV4MkFlb1ZEMmRGQmw3MjJkc2RnTFgtX19YRkZOUDR4WXhNeWg5Zy1qV3FpeVpTVUo5QVBOVmJxcXVhc0NqandfT2ltQ3BseThmbG5oQTJhYUJ4MV9nM240c3I3ZG5wai1fY3ZIYWdpbGfSAZsBQVVfeXFMUHl0VWNMbEpIOXhweHBSVTdYdHNjd1V5a2NfNkJSdFk5UUV0R2lDSUtZV1BpMEM3aWxZOXlWRTBRRTNtVkxRcDZtYVFDdnA5X3RPLW4zTm42M0hzVFJYNGtoMWJHcjVGVlJ1a2Jja1F5SnFDUHVTYVFkYXRYTFFnbDd1REZsc0haTlNibWhxdTU0aHZCcjVYQ0x1Vm8?oc=5"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/iran-mulls-tactical-shift-in-hormuz-attacks-before-key-usvote"
+          }
+        ]
+      }
+    },
+    {
+      "id": "72e79e7d0689",
+      "title": "US lifts sanctions on head of Venezuela legislature",
+      "description": "The United States removed sanctions on the president of Venezuela's National Assembly, signaling a shift in Washington's policy toward Caracas.",
+      "lat": 10.51,
+      "lng": -66.9,
+      "severity": 2,
+      "location": "Caracas, Venezuela",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVXFnM3A0T3lJeVdPVnZrVlZHT3l6dlBUbjZkZGdmYTd4NTFkZEE1TkpOVkNxaXpoZVBiQUNSNWhrRGl4cXZxS2VWeHN5aVVfbEpSR2doM0xwR1JiZHA5VjdkLVhrVHhBMTlNQmQ1ZGNOSGd1bDhFOEFFQlpveFRpcG43MUZ1OEwwWGxqeXFrLUNwakUxOTU5R19rZEFTQQ?oc=5",
+      "image": null,
+      "ts": 1791995149000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSU1iSUxicXZRcE1zT1JLUExiTUhBeGF3RHZCUW5yX0ktWlViQ1poX3pmY2lNX29Wa09SWmhDdm1YekI4aUNBMTNjVlhUZDY1MjFIVmNWdUlmS0lGd2Zsd01ZRkQ0ZGJGY2VTMkVMZnl6dnRYdzlNTmlwclNTLXlkRi1nUnNIem1rcnNNRkFKUDRxZmJYbnBjONIBngFBVV95cUxPOXkxa0pzRlNOcFFfOWFFUmpOdVJRVmRQTFFJY180NkNtbnotbElTSkI2NWgyUXd0eTBJSnUtc192aWN5YzFreUdfQlEwY2VJb1lYX2s0bFhKRDl4TEpnNmlDeTJRaC1pTmIyQzRZMmdweHVsQXkwM3FUaXl4MlNiN1lpMnI0aEJXeTl5bk9yejFsWklyZUUyT1BnejhHZw?oc=5"
+          }
+        ]
+      }
+    },
     {
       "id": "2558c7df3e76",
       "title": "Germany's far‑right AfD forges a pro‑Russia alliance with the BSW",
@@ -37,24 +176,24 @@
     },
     {
       "id": "d5d9265616c3",
-      "title": "Iran says it’s ‘counting the moments’ until it can strike U.S. warships; Saudi Aramco facilities attacked",
-      "description": "Ein neuer Angriff auf die Saudi‑Aramco‑Anlage bei Dhahran wurde gemeldet, während der Iran ankündigt, US‑Kriegsflotten ins Visier zu nehmen.",
+      "title": "Iran‑backed Houthis strike Saudi Aramco executive offices",
+      "description": "Houthis launched a missile attack on the executive offices of Saudi Arabia's oil giant Aramco in Dhahran, marking a high‑profile strike on the energy sector.",
       "lat": 26.27,
       "lng": 50.21,
-      "severity": 4,
+      "severity": 3,
       "location": "Dhahran, Saudi-Arabien",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/10/14/us-iran-war-trump-hormuz-saudi.html",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/riyadh-explosions-houthi-rebels_n_6acf5645e4b08a0fe85498f8",
       "image": null,
       "ts": 1791990215000,
       "coverage": {
-        "left": 2,
+        "left": 4,
         "center": 4,
         "right": 1,
-        "total": 7,
+        "total": 9,
         "buckets": {
           "left": 1,
-          "lean_left": 1,
+          "lean_left": 3,
           "center": 4,
           "lean_right": 0,
           "right": 1
@@ -63,27 +202,37 @@
           {
             "n": "HuffPost World",
             "b": "left",
-            "u": "https://www.huffpost.com/entry/saudi-arabia-yemen_n_6acee88ce4b064943479761a"
+            "u": "https://www.huffpost.com/entry/riyadh-explosions-houthi-rebels_n_6acf5645e4b08a0fe85498f8"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/houthis-claim-attack-on-saudi-aramco-facilities-as-explosions-rock-riyadh-12186547#publisher=newsstand"
           },
           {
             "n": "The Hindu International",
             "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/yemens-houthis-vow-more-attacks-on-saudi-airports-oil-facilities-after-aramco-hq-hit/article71583859.ece"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/10/14/us-iran-war-trump-hormuz-saudi.html"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/a25417b3-d4e4-4b89-b14d-6370a85ce3c4?syn-25a6b1a6=1"
+            "u": "https://www.thehindu.com/news/international/iran-backed-houthis-strike-saudi-oil-company-aramcos-headquarters/article71585469.ece"
           },
           {
             "n": "France 24",
             "b": "center",
-            "u": "https://www.france24.com/en/video/20261014-houthis-say-targeted-saudi-oil-giant-aramco-vow-more-attacks"
+            "u": "https://www.france24.com/en/middle-east/20261014-yemen-houthis-vow-continue-saudi-attacks-oil-giant-aramco-headquarters-hit"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3FLcG5hMEUtNVJFdEhob3IzWW56Q2ZSeUFzR3d0X21MQThoaFA5ZlFybEhlcjJvTXlQcVhISjRLQlM4ZnF2ZGl5ekZiMHg3aC04YVhSeDFEbFI4RzA3M0Zxb3l6UUpmNUV1LXpWbXhibWxucEVRcm94YU9faWVEVHhUdlRDUnF3dkwwNWFmSGNNQQ?oc=5"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/10/aramco-hq-attack-exposes-saudi-defense-gaps-infrastructure-vulnerabilities"
           },
           {
             "n": "Egypt Independent",
@@ -91,9 +240,9 @@
             "u": "https://www.egyptindependent.com/headquarters-of-saudi-aramco-hit-as-houthis-and-riyadh-trade-strikes/"
           },
           {
-            "n": "Washington Examiner",
+            "n": "Breitbart",
             "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/world/4765370/headquarters-saudi-oil-aramco-houthi-strike/"
+            "u": "https://www.breitbart.com/middle-east/2026/10/14/houthis-launch-more-missiles-saudi-oil-company-headquarters-heavily-damaged/"
           }
         ]
       }
@@ -127,6 +276,39 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/politics/2202127"
+          }
+        ]
+      }
+    },
+    {
+      "id": "db1963f53a72",
+      "title": "Jailed Imran Khan's woes compound after Pakistan suspends his provincial government",
+      "description": "Pakistan declared a state of emergency and suspended the provincial administration in Punjab, intensifying the political crisis surrounding former prime minister Imran Khan.",
+      "lat": 31.55,
+      "lng": 74.34,
+      "severity": 3,
+      "location": "Lahore, Pakistan",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/jailed-imran-khans-woes-compound-after-pakistan-suspends-his-provincial-government",
+      "image": null,
+      "ts": 1791984653000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/jailed-imran-khans-woes-compound-after-pakistan-suspends-his-provincial-government"
           }
         ]
       }
@@ -2763,39 +2945,6 @@
             "n": "Daily Express World",
             "b": "right",
             "u": "https://www.express.co.uk/news/world/2256011/trump-call-putin-russia-deal"
-          }
-        ]
-      }
-    },
-    {
-      "id": "01d2d300d58d",
-      "title": "Tanker attacks surge in the Strait of Hormuz",
-      "description": "Iran‑linked attacks on oil tankers in the Strait of Hormuz have risen to wartime levels, threatening global oil shipments.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 2,
-      "location": "Strait of Hormuz",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/10/09/iran-war-strait-hormuz-tanker-attack-oil.html",
-      "image": null,
-      "ts": 1791571969000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/10/09/iran-war-strait-hormuz-tanker-attack-oil.html"
           }
         ]
       }
@@ -7444,110 +7593,6 @@
             "n": "GNews Geopolitics",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUGRza2d2cXROY3c2cURfcDRaNEVfVENnWWtMTklNMWIwR2l1OGZQWWdRS0ZYeXlMQkNHbmJZdWctamhsaTVQRzFwS1RFVUpsTEZMX0V1b2lWZzd2dzlEZ09BbDR3YTEtNWwxdExTZ2FuWHhqOEdnampnR2czcEcyY24yTEh1NS1RQmt2cFcxN2o0REtOTWxSQVpXanhHS2RRTVBBUFRwTmtRTGdyTERlcm1CTHdBcnpGNjhGcU5zM3RVeDFvSURmWEhHdUtLdUx1dmZF?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "38fb00200a95",
-      "title": "US‑Africa: Trump’s seven ambassador nominees clear Congress",
-      "description": "The U.S. Senate confirmed seven new ambassadors to African nations, helping to restaff a largely vacant diplomatic corps on the continent.",
-      "lat": 40.0,
-      "lng": -75.1348,
-      "severity": 1,
-      "location": "Washington, DC, USA",
-      "source": "The Africa Report",
-      "url": "https://www.theafricareport.com/432176/us-africa-trumps-seven-ambassador-nominees-clear-congress/",
-      "image": null,
-      "ts": 1790942653000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Africa Report",
-            "b": "center",
-            "u": "https://www.theafricareport.com/432176/us-africa-trumps-seven-ambassador-nominees-clear-congress/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b3bb94cb8c4b",
-      "title": "Egypt secures record hard‑currency reserves as overseas transfers spike",
-      "description": "Egypt’s central bank reported its strongest foreign‑currency reserves in six years, boosted by large inflows from expatriates.",
-      "lat": 31.14,
-      "lng": 31.24000000000001,
-      "severity": 1,
-      "location": "Cairo, Egypt",
-      "source": "Egypt Independent",
-      "url": "https://www.egyptindependent.com/egypt-secures-record-hard-currency-reserves-as-overseas-transfers-spike/",
-      "image": null,
-      "ts": 1790938982000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/egypt-secures-record-hard-currency-reserves-as-overseas-transfers-spike/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f39035b98707",
-      "title": "North Korea rejects South’s accusation over DMZ mine blast and won’t apologise",
-      "description": "North Korea dismissed South Korea’s demand for an apology after a mine explosion in the Demilitarized Zone, heightening tensions.",
-      "lat": 36.6174,
-      "lng": 127.52999999999997,
-      "severity": 2,
-      "location": "Seoul, South Korea",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/east-asia/north-korea-rejects-souths-accusation-over-dmz-mine-blast-and-wont-apologise",
-      "image": null,
-      "ts": 1790935500000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/ukraine-south-korea-clash-over-transfer-of-2-north-korean-prisoners/a-79508601?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/east-asia/north-korea-rejects-souths-accusation-over-dmz-mine-blast-and-wont-apologise"
           }
         ]
       }
