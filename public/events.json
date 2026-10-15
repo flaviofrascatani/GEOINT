@@ -1,7 +1,126 @@
 {
   "schema": 1,
-  "updated": "2026-10-15T12:50:20.457440+00:00",
+  "updated": "2026-10-15T17:44:27.684427+00:00",
   "events": [
+    {
+      "id": "e86d147e71a8",
+      "title": "Yemen Says Prime Minister Unhurt After Iran-Backed Houthis Strike Palace",
+      "description": "Two people were killed when Houthi missiles hit the Maashiq Presidential Palace in Aden; the prime minister was unharmed.",
+      "lat": 12.79,
+      "lng": 45.03,
+      "severity": 3,
+      "location": "Aden, Yemen",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/10/15/world/middleeast/yemen-strike-aden-palace.html",
+      "image": null,
+      "ts": 1792086088000,
+      "coverage": {
+        "left": 3,
+        "center": 0,
+        "right": 2,
+        "total": 5,
+        "buckets": {
+          "left": 1,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 1,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/riyadh-explosions-houthi-rebels_n_6acf5645e4b08a0fe85498f8"
+          },
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/10/15/world/middleeast/yemen-strike-aden-palace.html"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/10/15/houthis-target-yemens-presidential-palace-in-aden-with-missiles?traffic_source=rss"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/saudi-arabia-accuses-iran-of-spurring-on-yemens-houthis"
+          },
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/news/article-16212143/Houthis-missiles-presidential-palace-Yemen.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4661bb81baba",
+      "title": "Commercial goods are no longer entering Gaza, raising fears of worsening shortages",
+      "description": "Merchants report that Israel’s military now blocks commercial shipments into Gaza, threatening further humanitarian shortages.",
+      "lat": 32.62,
+      "lng": 36.365200000000016,
+      "severity": 1,
+      "location": "Gaza City, Gaza Strip",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/commercial-goods-are-no-longer-entering-gaza-raising-fears-of-worsening-shortages-in-the-territory/article71589618.ece",
+      "image": "https://th-i.thgim.com/public/incoming/5n5wre/article71589786.ece/alternates/LANDSCAPE_1200/Israel_Palestinians_Gaza_5_88_.jpg",
+      "ts": 1792085595000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/commercial-goods-are-no-longer-entering-gaza-raising-fears-of-worsening-shortages-in-the-territory/article71589618.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "99b06d92afd1",
+      "title": "Afghan UN mission reports arbitrary detentions, ill-treatment by Taliban",
+      "description": "The UN mission said Taliban morality police detained hundreds arbitrarily and subjected dozens to ill‑treatment between July and September.",
+      "lat": 35.65,
+      "lng": 69.20999999999998,
+      "severity": 3,
+      "location": "Kabul, Afghanistan",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/afghan-un-mission-reports-arbitrary-detentions-ill-treatment-by-taliban",
+      "image": null,
+      "ts": 1792083657000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/afghan-un-mission-reports-arbitrary-detentions-ill-treatment-by-taliban"
+          }
+        ]
+      }
+    },
     {
       "id": "4b73a372306e",
       "title": "US Treasury pushes global partners to rename AI as 'super intelligence'",
@@ -64,6 +183,39 @@
             "n": "South China Morning Post",
             "b": "center",
             "u": "https://www.scmp.com/economy/global-economy/article/3370999/canada-singapore-reaffirm-china-trade-ties-amid-global-push-self-sufficiency?utm_source=rss_feed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "291da4cbfdc3",
+      "title": "Ghana’s cocaine coast: Who is letting the traffickers through?",
+      "description": "Investigations reveal large quantities of cocaine passing through Ghanaian ports, raising concerns over regional drug trafficking networks.",
+      "lat": 6.66,
+      "lng": -0.19999999999998863,
+      "severity": 3,
+      "location": "Accra, Ghana",
+      "source": "The Africa Report",
+      "url": "https://www.theafricareport.com/433698/ghanas-cocaine-coast-who-is-letting-the-traffickers-through/",
+      "image": null,
+      "ts": 1792066301000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Africa Report",
+            "b": "center",
+            "u": "https://www.theafricareport.com/433698/ghanas-cocaine-coast-who-is-letting-the-traffickers-through/"
           }
         ]
       }
@@ -7406,138 +7558,6 @@
             "n": "The Guardian World",
             "b": "lean_left",
             "u": "https://www.theguardian.com/world/2026/oct/03/libyan-unity-talks-warlord-son-linked-drone-attack-khalifa-haftar"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ca4017a91607",
-      "title": "Chinese lithium mine registers wider vein, bolstering Beijing’s battery supply",
-      "description": "China announced a 70% expansion of a major lithium deposit in Sichuan, strengthening its battery material base.",
-      "lat": 30.67,
-      "lng": 104.07,
-      "severity": 2,
-      "location": "Sichuan Province, China",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/economy/china-economy/article/3369603/chinese-lithium-mine-registers-wider-vein-bolstering-beijings-battery-supply?utm_source=rss_feed",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/02/d43aee48-ff64-4cf3-b0ef-1817aab89718_99a22642.jpg?itok=WEbSlyyV&v=1790940005",
-      "ts": 1791010811000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/economy/china-economy/article/3369603/chinese-lithium-mine-registers-wider-vein-bolstering-beijings-battery-supply?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "54652d976d90",
-      "title": "China’s grip on DRC critical minerals tightens: 49 projects and counting",
-      "description": "Chinese firms now participate in over half of the Democratic Republic of Congo’s critical mining projects.",
-      "lat": -4.32,
-      "lng": 15.31,
-      "severity": 2,
-      "location": "Kinshasa, Democratic Republic of Congo",
-      "source": "The Africa Report",
-      "url": "https://www.theafricareport.com/432220/chinas-grip-on-drc-critical-minerals-tightens-49-projects-and-counting/",
-      "image": null,
-      "ts": 1791010800000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Africa Report",
-            "b": "center",
-            "u": "https://www.theafricareport.com/432220/chinas-grip-on-drc-critical-minerals-tightens-49-projects-and-counting/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "52528245cf05",
-      "title": "Bolivia IMF Loan Approved With US$214 Million Up Front",
-      "description": "The IMF approved a $1.9 billion programme for Bolivia and released $214 million immediately.",
-      "lat": -16.5,
-      "lng": -68.15,
-      "severity": 2,
-      "location": "La Paz, Bolivia",
-      "source": "Rio Times",
-      "url": "https://www.riotimesonline.com/bolivia-imf-loan-approved-214-million-expats-2026/",
-      "image": null,
-      "ts": 1791002668000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Rio Times",
-            "b": "center",
-            "u": "https://www.riotimesonline.com/bolivia-imf-loan-approved-214-million-expats-2026/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4678e4fa7b1d",
-      "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
-      "description": "The G7 agreed to release oil and diesel stocks to stabilize markets following a US threat to ban diesel exports.",
-      "lat": 38.9,
-      "lng": -75.1348,
-      "severity": 2,
-      "location": "Washington, D.C., United States",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/44c3/live/c89e9510-beff-11f1-babe-4199b0e7ccea.jpg",
-      "ts": 1791002311000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC Business",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
