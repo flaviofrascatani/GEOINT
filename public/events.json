@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-10-15T23:49:01.994880+00:00",
+  "updated": "2026-10-16T04:22:57.033539+00:00",
   "events": [
+    {
+      "id": "ec55dbbea62c",
+      "title": "Russia ready to boost oil deliveries to India on request",
+      "description": "Russia’s foreign ministry said it stands ready to increase oil shipments to India if the Indian government asks for more supply.",
+      "lat": 28.61,
+      "lng": 77.21,
+      "severity": 2,
+      "location": "New Delhi, India",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2202789",
+      "image": null,
+      "ts": 1792122840000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2202789"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d9229a8bfdd9",
+      "title": "China tells Israel to stop ‘forced establishment’ of West Bank settlements",
+      "description": "China’s foreign minister urged Israel to halt settlement expansion in the West Bank, calling the issue a major historical injustice.",
+      "lat": 31.78,
+      "lng": 37.420000000000016,
+      "severity": 2,
+      "location": "Jerusalem, Israel",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/16/china-tells-israel-to-stop-forced-establishment-of-west-bank-settlements?traffic_source=rss",
+      "image": null,
+      "ts": 1792119381000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/10/16/china-tells-israel-to-stop-forced-establishment-of-west-bank-settlements?traffic_source=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "56b790f45686",
       "title": "North Korea says opening ceremony was held for new bridge to China",
@@ -41,6 +107,44 @@
       }
     },
     {
+      "id": "044ab44fe52f",
+      "title": "Albania: Violent protests rock Tirana for third straight day",
+      "description": "Protesters clashed with police in Tirana, using stones and tear‑gas as they demanded the resignation of Prime Minister Edi Rama.",
+      "lat": 42.43,
+      "lng": 19.819999999999993,
+      "severity": 3,
+      "location": "Tirana, Albania",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/10/15/albania-violent-protests-rock-tirana-for-third-straight-day/",
+      "image": "http://images.euronews.com/articles/stories/09/95/36/00/640x360_cmsv2_58594b43-0ba9-5f05-8b31-60d6dd435e24-9953600.jpg?1792097364",
+      "ts": 1792100104000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/10/15/albania-violent-protests-rock-tirana-for-third-straight-day/"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/albania-rioters-clash-police-socialist-government-european-unrest-spreads"
+          }
+        ]
+      }
+    },
+    {
       "id": "01d2d300d58d",
       "title": "Strait of Hormuz still unsafe for ships, maritime group warns",
       "description": "A maritime security firm warned that vessels transiting the Strait of Hormuz continue to face indiscriminate attacks despite some ships turning off tracking systems.",
@@ -74,6 +178,39 @@
             "n": "Egypt Independent",
             "b": "center",
             "u": "https://www.egyptindependent.com/two-cargo-ships-sunk-in-strait-of-hormuz-as-iran-ramps-up-attacks-in-run-up-to-midterms/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e4c1fcb055d3",
+      "title": "Iraq parliament approves remaining cabinet posts, PM deputies",
+      "description": "Iraq’s parliament completed the formation of Prime Minister Alial‑Zaidi’s cabinet, filling the last ministerial slots.",
+      "lat": 33.33,
+      "lng": 44.42,
+      "severity": 2,
+      "location": "Baghdad, Iraq",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/10/iraq-parliament-approves-remaining-cabinet-posts-pm-deputies",
+      "image": null,
+      "ts": 1792097186000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/10/iraq-parliament-approves-remaining-cabinet-posts-pm-deputies"
           }
         ]
       }
@@ -7396,153 +7533,6 @@
             "n": "AGI Estero",
             "b": "center",
             "u": "https://www.agi.it/estero/news/2026-10-03/ucraina-zelensky-raid-raffinerie-russia-39372596/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "23930d9188de",
-      "title": "Flydubai co‑pilot attacked captain with crash axe on Tel Aviv‑bound flight",
-      "description": "A 29‑year‑old Omani co‑pilot used a crash axe to assault the captain during a flight to Tel Aviv, an attempted terrorist act that was thwarted.",
-      "lat": 32.09,
-      "lng": 34.78999999999999,
-      "severity": 4,
-      "location": "Tel Aviv, Israel",
-      "source": "Washington Examiner",
-      "url": "https://www.washingtonexaminer.com/news/world/4753071/flydubai-tel-aviv-co-pilot-crash-axe-hijack-uae-attorney-general-terrorist-plot-undetermined/",
-      "image": null,
-      "ts": 1791043881000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 2,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 2
-        },
-        "sources": [
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/36b90fa1-f61e-4563-8622-127cdb471101?syn-25a6b1a6=1"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/flydubai-co-pilot-accused-stabbing-captain-identified-29-year-old-omani-national"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/world/4753071/flydubai-tel-aviv-co-pilot-crash-axe-hijack-uae-attorney-general-terrorist-plot-undetermined/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6bfa97676054",
-      "title": "Italy’s Ustica enigma: France shares defence documents with Italian judiciary",
-      "description": "France agreed to provide defence files to Italy to aid the investigation of the 1980 Ustica aircraft crash, marking a defence‑document sharing pact.",
-      "lat": 43.0,
-      "lng": 12.47999999999999,
-      "severity": 2,
-      "location": "Rome, Italy",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/europe/20261003-italy-ustica-enigma-can-french-files-solve-mystery-crash-blamed-on-stray-missile-gaddafi",
-      "image": "https://s.france24.com/media/display/cc7cbc12-bf35-11f1-9acd-1ff0321dbbd3/w:1024/p:16x9/AP23245467521507.jpg",
-      "ts": 1791042165000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/europe/20261003-italy-ustica-enigma-can-french-files-solve-mystery-crash-blamed-on-stray-missile-gaddafi"
-          }
-        ]
-      }
-    },
-    {
-      "id": "97bef2561c32",
-      "title": "Loud explosions heard Yemeni capital amid reports of Saudi strikes",
-      "description": "Saudi airstrikes hit positions in Sana'a, causing loud explosions and civilian alarm.",
-      "lat": 15.35,
-      "lng": 44.21,
-      "severity": 3,
-      "location": "Sana'a, Yemen",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/10/03/loud-explosions-heard-yemeni-capital-amid-reports-of-saudi-strikes/",
-      "image": "http://images.euronews.com/articles/stories/09/93/81/05/640x360_cmsv2_190ea3fd-58bd-5d46-9acd-6dca68d1d15f-9938105.jpg?1791037049",
-      "ts": 1791040400000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/10/03/loud-explosions-heard-yemeni-capital-amid-reports-of-saudi-strikes/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f81cb16fc2ab",
-      "title": "Greece returns remains of Czar Samuel to Bulgaria",
-      "description": "Greek authorities handed over the remains of medieval Czar Samuel to Bulgaria, a symbolic act of cultural reconciliation.",
-      "lat": 42.7,
-      "lng": 23.33,
-      "severity": 1,
-      "location": "Sofia, Bulgaria",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/greece-returns-remains-of-czar-samuel-to-bulgaria/a-79530104?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1791030514726,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/remains-medieval-ruler-czar-samuel-arrive-bulgaria-after-136968660"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/greece-returns-remains-of-czar-samuel-to-bulgaria/a-79530104?maca=en-rss-en-all-1573-rdf"
           }
         ]
       }
