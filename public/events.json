@@ -1,7 +1,139 @@
 {
   "schema": 1,
-  "updated": "2026-10-16T14:12:25.556287+00:00",
+  "updated": "2026-10-16T18:19:14.205499+00:00",
   "events": [
+    {
+      "id": "1359e46f24a3",
+      "title": "DR Congo bans activities of 13 parties linked to former president Kabila",
+      "description": "The Congolese government prohibited the operations of 13 political parties, citing national security concerns.",
+      "lat": -4.32,
+      "lng": 15.31,
+      "severity": 3,
+      "location": "Kinshasa, Democratic Republic of the Congo",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/10/16/dr-congo-bans-activities-of-13-political-parties-linked-to-joseph-kabila-as-opposition-cri/",
+      "image": "http://images.euronews.com/articles/stories/09/95/54/81/640x360_cmsv2_ac95ea94-4b16-57ed-bb7c-dbb560ff900d-9955481.jpg?1792169212",
+      "ts": 1792173524000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/10/16/dr-congo-bans-activities-of-13-political-parties-linked-to-joseph-kabila-as-opposition-cri/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "63dc1fe756e0",
+      "title": "Iranian president says Strait of Hormuz will reopen if US leaves, threatens expulsion",
+      "description": "Iran’s president warned the United States will be expelled if it does not withdraw from the Middle East, linking the threat to the Strait of Hormuz.",
+      "lat": 38.9,
+      "lng": -77.04,
+      "severity": 2,
+      "location": "Washington, DC, USA",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/",
+      "image": null,
+      "ts": 1792170565000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1d5b8eab42b",
+      "title": "U.S. raises market‑access issues with China in Bangkok talks",
+      "description": "During bilateral meetings in Bangkok, the United States pressed China on granting market access to Mastercard and Citigroup.",
+      "lat": 14.85,
+      "lng": 100.5,
+      "severity": 2,
+      "location": "Bangkok, Thailand",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html",
+      "image": null,
+      "ts": 1792169178000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "57e614e13bb5",
+      "title": "Ukrainian forces advance in Donbas amid Operation Vivaldi",
+      "description": "Ukraine’s offensive pushes Russian troops back in the Donbas region, with key gains reported around Bakhmut.",
+      "lat": 48.59,
+      "lng": 38.01,
+      "severity": 4,
+      "location": "Bakhmut, Ukraine",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1e40/live/404f3fb0-c978-11f1-80fc-ab418b149008.jpg",
+      "ts": 1792166430000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "5ab243dc8f00",
       "title": "Houthi attacks on Saudi strategic assets raise regional security concerns",
@@ -31,6 +163,39 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/houthi-attacks-on-strategic-saudi-assets-threaten-riyadh-s-regional-leadership-and-economic-ambitions/a-79680200?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1fac15fa6bbb",
+      "title": "IMF forecasts strong growth for sub‑Saharan Africa",
+      "description": "The IMF’s regional outlook projects 4.5% GDP growth in 2026‑27 for sub‑Saharan Africa despite Middle‑East conflicts.",
+      "lat": -1.94,
+      "lng": 29.87,
+      "severity": 2,
+      "location": "Kigali, Rwanda",
+      "source": "The Africa Report",
+      "url": "https://www.theafricareport.com/433761/ethiopia-guinea-benin-imf-report-on-african-countries-posting-strongest-economic-growth/",
+      "image": null,
+      "ts": 1792159200000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Africa Report",
+            "b": "center",
+            "u": "https://www.theafricareport.com/433761/ethiopia-guinea-benin-imf-report-on-african-countries-posting-strongest-economic-growth/"
           }
         ]
       }
@@ -145,6 +310,59 @@
             "n": "ANSA Mondo",
             "b": "center",
             "u": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/16/zelensky-allue-la-guerra-nel-2027-costera-155-miliardi-ne-chiedo-70-a-voi_09601eb9-b807-4257-b44e-12896d7372bb.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fe45daa4f3cd",
+      "title": "Pope Leo calls Putin urging cease‑fire in Ukraine",
+      "description": "The Pope, recovering from lung‑cancer surgery, phoned President Vladimir Putin urging a cease‑fire in a Russian‑occupied Ukrainian city.",
+      "lat": 55.75,
+      "lng": 37.620000000000005,
+      "severity": 1,
+      "location": "Moscow, Russia",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/pope-leo-pictured-for-first-time-since-cancer-surgery-as-he-holds-mass-from-hospital-13599944",
+      "image": "https://e3.365dm.com/26/10/1920x1080/skynews-pope-leo_7378341.jpg?20261016181822",
+      "ts": 1792153320000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 2,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 1,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/pope-leo-urges-vladimir-putin-37781044"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/pope-leo-pictured-for-first-time-since-cancer-surgery-as-he-holds-mass-from-hospital-13599944"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/europe/article/3371210/hospital-pope-leo-pushes-putin-ceasefire-contested-ukraine-city?utm_source=rss_feed"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2203289"
+          },
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2257970/pope-leo-xiv-putin-call-hospital"
           }
         ]
       }
@@ -7285,224 +7503,6 @@
             "n": "Japan Times",
             "b": "center",
             "u": "https://www.japantimes.co.jp/news/2026/10/04/world/russia-vows-increased-strikes/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4cdb1e0696a4",
-      "title": "Iran Says Strait Of Hormuz Will Not Reopen Until Conditions Are Met",
-      "description": "Iran announced the strategic waterway will stay closed until the United States fulfills seven conditions from a June interim agreement.",
-      "lat": 27.67,
-      "lng": 58.15520000000001,
-      "severity": 2,
-      "location": "Strait of Hormuz",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/strait-of-hormuz-closure_n_6ac24247e4b0bc90e3ff8ae5",
-      "image": null,
-      "ts": 1791116197000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 1,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/strait-of-hormuz-closure_n_6ac24247e4b0bc90e3ff8ae5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "75b7558c1336",
-      "title": "Germany's Merz visits Kyiv to pledge more support to Zelensky",
-      "description": "German Chancellor Friedrich Merz arrived in Kyiv to reaffirm political and military backing for Ukraine amid intensified Russian attacks.",
-      "lat": 51.55,
-      "lng": 30.52000000000001,
-      "severity": 2,
-      "location": "Kyiv, Ukraine",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/europe/20261004-live-germany-s-merz-in-kyiv-for-talks-with-zelensky",
-      "image": "https://s.france24.com/media/display/a33d3f92-bfc2-11f1-9826-13420ab900a2/w:1024/p:16x9/2026-10-04T055047Z-1503198767-RC24WNARZQX1-RTRMADP-3-UKRAINE-CRISIS-GERMANY-ARRIVAL.jpg",
-      "ts": 1791098887000,
-      "coverage": {
-        "left": 2,
-        "center": 2,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/germanys-merz-visits-kyiv-russia-steps-attacks-ukrainian-136983124"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/germanys-merz-in-kyiv-for-talks-with-zelenskyy/article71543190.ece"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/b7bd5c45-1c32-4984-af37-21746a02c4ef?syn-25a6b1a6=1"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/europe/20261004-live-germany-s-merz-in-kyiv-for-talks-with-zelensky"
-          }
-        ]
-      }
-    },
-    {
-      "id": "950082cbf38f",
-      "title": "Japanese and Korean shipbuilders deploy robots to take on China",
-      "description": "Japan and South Korea invest in automated shipyards to counter China’s dominance in maritime manufacturing.",
-      "lat": 36.78,
-      "lng": 141.66520000000003,
-      "severity": 2,
-      "location": "Tokyo, Japan",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/ea32c53d-4de7-4b34-af44-cc148b23433f?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1791075604000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/ea32c53d-4de7-4b34-af44-cc148b23433f?syn-25a6b1a6=1"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6184144af369",
-      "title": "Ukrainian forces shell Donetsk People’s Republic settlements 47 times over past day",
-      "description": "Ukrainian artillery fired dozens of rounds into DPR‑controlled settlements, damaging civilian infrastructure.",
-      "lat": 49.11,
-      "lng": 37.80000000000001,
-      "severity": 3,
-      "location": "Donetsk, Ukraine",
-      "source": "TASS",
-      "url": "https://tass.com/politics/2197225",
-      "image": null,
-      "ts": 1791066840000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/politics/2197225"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b3da5729ee0c",
-      "title": "N. Korea's Kim oversees intermediate-range missile launch, calls for bolstering war deterrent",
-      "description": "Kim Jong‑un supervised the launch of an intermediate‑range missile, signalling continued escalation of North Korea’s deterrent capabilities.",
-      "lat": 39.03,
-      "lng": 125.75,
-      "severity": 4,
-      "location": "Pyongyang, North Korea",
-      "source": "Yonhap News",
-      "url": "https://en.yna.co.kr/view/AEN20261004000300315",
-      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/10/03/566504.jpg",
-      "ts": 1791065657000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20261004000300315"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/east-asia/north-koreas-kim-yo-jong-says-intermediate-range-missile-test-was-conducted"
-          }
-        ]
-      }
-    },
-    {
-      "id": "72b1a515d5db",
-      "title": "China and Africa boost law enforcement ties in crackdown on cross‑border cybercrime",
-      "description": "Beijing and several African nations agreed to deepen cooperation on cybercrime investigations, enhancing joint law‑enforcement capabilities.",
-      "lat": 39.91,
-      "lng": 116.39999999999998,
-      "severity": 2,
-      "location": "Beijing, China",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3369660/china-and-africa-boost-law-enforcement-ties-crackdown-cross-border-cybercrime?utm_source=rss_feed",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/03/77f3fced-b2cf-4458-92f6-fd882a1b9d58_2b0ddd0f.jpg?itok=DSxMA0Bu&v=1791018992",
-      "ts": 1791064812000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/china/diplomacy/article/3369660/china-and-africa-boost-law-enforcement-ties-crackdown-cross-border-cybercrime?utm_source=rss_feed"
           }
         ]
       }
