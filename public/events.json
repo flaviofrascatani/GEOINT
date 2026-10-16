@@ -1,7 +1,182 @@
 {
   "schema": 1,
-  "updated": "2026-10-16T18:19:14.205499+00:00",
+  "updated": "2026-10-16T21:39:24.992429+00:00",
   "events": [
+    {
+      "id": "20eec9f916c0",
+      "title": "Russian forces striking strategic targets in Ukraine — Gerasimov",
+      "description": "Ukrainian logistics centres, port facilities and vessels were hit, causing extensive damage to military supply lines.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 4,
+      "location": "Kyiv, Ukraine",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2203371",
+      "image": null,
+      "ts": 1792184423000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2203371"
+          }
+        ]
+      }
+    },
+    {
+      "id": "04fd131fc058",
+      "title": "Iran‑backed militias sending money back to cash‑starved IRGC, U.S. says",
+      "description": "Militant groups in the region are channeling funds to Iran’s Revolutionary Guard Corps to alleviate its war‑time economic strain.",
+      "lat": 35.69,
+      "lng": 53.295199999999994,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/10/16/iran-backed-militias-sending-money-irgc-centcom",
+      "image": "https://images.axios.com/wRhzQ5CBfWlQdVUqNm0tr4wU1BE=/0x0:7243x4074/1366x768/2026/10/16/1792181704970.jpeg",
+      "ts": 1792182177000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/10/16/iran-backed-militias-sending-money-irgc-centcom"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c7805cd74dbb",
+      "title": "Iran's president denies nuclear ambitions, says he's ready for talks",
+      "description": "President Raisi stated Iran has no nuclear weapons program and expressed willingness to discuss the issue diplomatically.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/",
+      "image": null,
+      "ts": 1792181566000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1762294bf8f9",
+      "title": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
+      "description": "Iran increased attacks on shipping in the Strait of Hormuz, pushing global oil prices above $110 a barrel.",
+      "lat": 27.67,
+      "lng": 56.25,
+      "severity": 4,
+      "location": "Strait of Hormuz",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html",
+      "image": null,
+      "ts": 1792180941000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/nightly-news/video/ukraine-resumes-strikes-on-russian-refineries-271659589622"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://rt-english.com/news/647287-russian-oil-starlink-trump-pressure-zelensky/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "446894de9db3",
+      "title": "Kenya confirms third Ebola case as health officials race to contain outbreak",
+      "description": "A 65‑year‑old woman became the third confirmed Ebola patient in Kenya, prompting intensified containment measures.",
+      "lat": 2.39,
+      "lng": 36.81999999999999,
+      "severity": 3,
+      "location": "Nairobi, Kenya",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/10/16/kenya-confirms-third-ebola-case-as-health-officials-race-to-contain-outbreak/",
+      "image": "http://images.euronews.com/articles/stories/09/95/57/06/640x360_cmsv2_28226977-3053-5695-9885-f3c1f25d02bc-9955706.jpg?1792172304",
+      "ts": 1792177288000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/10/16/kenya-confirms-third-ebola-case-as-health-officials-race-to-contain-outbreak/"
+          }
+        ]
+      }
+    },
     {
       "id": "1359e46f24a3",
       "title": "DR Congo bans activities of 13 parties linked to former president Kabila",
@@ -107,6 +282,39 @@
       "description": "Ukraine’s offensive pushes Russian troops back in the Donbas region, with key gains reported around Bakhmut.",
       "lat": 48.59,
       "lng": 38.01,
+      "severity": 4,
+      "location": "Bakhmut, Ukraine",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1e40/live/404f3fb0-c978-11f1-80fc-ab418b149008.jpg",
+      "ts": 1792166430000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2f029327d8d6",
+      "title": "Inside Ukrainian offensive pushing Russia back – with Starlink playing a key role",
+      "description": "Ukrainian forces advanced in the Donbas, recapturing key positions around Bakhmut with satellite communications support.",
+      "lat": 49.69,
+      "lng": 38.0,
       "severity": 4,
       "location": "Bakhmut, Ukraine",
       "source": "BBC World",
@@ -416,6 +624,39 @@
             "n": "Daily Express World",
             "b": "right",
             "u": "https://www.express.co.uk/news/world/2257705/trump-russia-ukraine-war-oil-refineries"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1eee5e3f0a3c",
+      "title": "Egypt halts Sudan truck transit following fatal shooting of two Egyptian drivers",
+      "description": "Egypt suspended all truck traffic through the Qustul land port to Sudan after two Egyptian drivers were killed.",
+      "lat": 22.0,
+      "lng": 31.5,
+      "severity": 3,
+      "location": "Qustul, Egypt",
+      "source": "Egypt Independent",
+      "url": "https://www.egyptindependent.com/egypt-halts-sudan-truck-transit-following-fatal-shooting-of-two-egyptian-drivers/",
+      "image": null,
+      "ts": 1792143849000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/egypt-halts-sudan-truck-transit-following-fatal-shooting-of-two-egyptian-drivers/"
           }
         ]
       }
@@ -4560,94 +4801,6 @@
       }
     },
     {
-      "id": "1762294bf8f9",
-      "title": "Iran scales up Hormuz attacks, raising pressure on Trump as midterms near",
-      "description": "Iran intensified missile and drone attacks on shipping in the Strait of Hormuz, further disrupting oil flows.",
-      "lat": 27.67,
-      "lng": 56.25,
-      "severity": 3,
-      "location": "Strait of Hormuz",
-      "source": "Washington Post World",
-      "url": "https://www.washingtonpost.com/world/2026/10/08/iran-scales-up-hormuz-attacks-raising-pressure-trump-midterms-near/",
-      "image": null,
-      "ts": 1791484243000,
-      "coverage": {
-        "left": 3,
-        "center": 6,
-        "right": 3,
-        "total": 12,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 6,
-          "lean_right": 0,
-          "right": 3
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/10/08/iran-scales-up-hormuz-attacks-raising-pressure-trump-midterms-near/"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-nuclear-donald-trump-vance-rubio-strait-of-hormuz/"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/us-wont-attack-iran-till-november-3-midterm-polls-declares-trump-12158313#publisher=newsstand"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/10/08/iran-war-trump-midterm-election.html"
-          },
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/10/08/trump-iran-strikes-midterm-elections"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/e0cc2789-0e71-401d-8096-d58303970a37?syn-25a6b1a6=1"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/videos/2026-10-08/balance-of-power-early-edition-10-8-2026-video"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/10/trump-says-us-will-not-attack-iran-midterm-elections-november"
-          },
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2255667/tucker-carlson-accuses-donald-trump"
-          },
-          {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/newsroom/trump-u-s-will-not-attack-iran-before-midterms/"
-          },
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/white-house/4759478/trump-pledges-no-attacks-iran-before-midterm-elections/"
-          }
-        ]
-      }
-    },
-    {
       "id": "717ab730d7be",
       "title": "German Chancellor tells Burnham he wants the UK 'closer and closer' to the EU as they hold talks in Berlin",
       "description": "German Chancellor Friedrich Merz pledged to deepen ties with the UK during a meeting with Andy Burnham in Berlin, signalling a diplomatic outreach.",
@@ -7285,224 +7438,6 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/germany-s-merz-visits-kyiv-as-russia-strikes-bridge/a-79534734?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7492939f4be6",
-      "title": "Saudi Arabia and UAE to bolster Asia's oil reserves",
-      "description": "Saudi Arabia and the United Arab Emirates signed an agreement to increase oil supplies to Asian markets.",
-      "lat": 25.81,
-      "lng": 48.575199999999995,
-      "severity": 2,
-      "location": "Riyadh, Saudi Arabia",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/energy/saudi-arabia-and-uae-to-bolster-asia-s-oil-reserves",
-      "image": "https://mf.b37mrtl.ru/files/2026.09/thumbnail/6ab5ae4d85f540283c4199d6.jpg",
-      "ts": 1791139075568,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Nikkei Asia",
-            "b": "center",
-            "u": "https://asia.nikkei.com/business/energy/saudi-arabia-and-uae-to-bolster-asia-s-oil-reserves"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f759d9fb1f40",
-      "title": "WFP Strongly Condemns Attack on Trucks in South Kordofan, Killing One Driver",
-      "description": "An aerial strike hit two World Food Programme trucks in South Kordofan, Sudan, killing a driver.",
-      "lat": 11.0,
-      "lng": 30.0,
-      "severity": 3,
-      "location": "South Kordofan, Sudan",
-      "source": "All Africa",
-      "url": "https://allafrica.com/stories/202610040063.html",
-      "image": null,
-      "ts": 1791128879000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "All Africa",
-            "b": "center",
-            "u": "https://allafrica.com/stories/202610040063.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "37807bec17a9",
-      "title": "Ethiopian forces seize Mekelle as regional rivals gather in Egypt",
-      "description": "El ejército etíope tomó la capital de Tigray sin resistencia, reavivando temores de conflicto regional.",
-      "lat": 13.5,
-      "lng": 39.47,
-      "severity": 3,
-      "location": "Mekelle, Ethiopia",
-      "source": "The Africa Report",
-      "url": "https://www.theafricareport.com/432282/ethiopian-forces-seize-mekelle-as-regional-rivals-gather-in-egypt/",
-      "image": null,
-      "ts": 1791125595000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Africa Report",
-            "b": "center",
-            "u": "https://www.theafricareport.com/432282/ethiopian-forces-seize-mekelle-as-regional-rivals-gather-in-egypt/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ea9f81798e9c",
-      "title": "Lee calls for breaking off from 'vicious cycle of hostility' for peace",
-      "description": "South Korean President Lee Jae‑Myung urged an end to hostile rhetoric and promoted dialogue to achieve lasting peace on the peninsula.",
-      "lat": 37.56,
-      "lng": 126.98000000000002,
-      "severity": 1,
-      "location": "Seoul, South Korea",
-      "source": "Yonhap News",
-      "url": "https://en.yna.co.kr/view/AEN20261004003000315",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/08/05/PYH2026080503600001300_P2.jpg",
-      "ts": 1791123008000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20261004003000315"
-          }
-        ]
-      }
-    },
-    {
-      "id": "21b89f5072ac",
-      "title": "1,500 Hong Kong residents tour revamped Huanggang Port border crossing",
-      "description": "Residents inspected the newly upgraded Huanggang Port, part of preparations for its reopening to facilitate cross‑border movement.",
-      "lat": 22.55,
-      "lng": 114.12,
-      "severity": 1,
-      "location": "Huanggang Port, Hong Kong/China",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/hong-kong/society/article/3369721/1500-hong-kong-residents-tour-revamped-huanggang-port-border-crossing?utm_source=rss_feed",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/04/df309215-88df-4999-b974-dd8e3355f36a_157c3611.jpg?itok=tD38VgCp&v=1791122347",
-      "ts": 1791122418000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/hong-kong/society/article/3369721/1500-hong-kong-residents-tour-revamped-huanggang-port-border-crossing?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2ddcf981f0f4",
-      "title": "Russia vows to step up strikes and warns diplomats to avoid Kyiv",
-      "description": "Moscow announced intensified missile strikes on Ukrainian energy sites and cautioned foreign diplomats to leave Kyiv.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 2,
-      "location": "Kyiv, Ukraine",
-      "source": "Japan Times",
-      "url": "https://www.japantimes.co.jp/news/2026/10/04/world/russia-vows-increased-strikes/",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/40ff/live/e6e2a0c0-beeb-11f1-a8d6-110a5391f5ce.jpg",
-      "ts": 1791116460000,
-      "coverage": {
-        "left": 2,
-        "center": 3,
-        "right": 0,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/russia-ukraine-war-updates-russia-pounds-ukraine-with-drone-strikes-as-german-chancellor-visits-kyiv-12137394#publisher=newsstand"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/10/4/russian-strike-hits-kyiv-bridge-as-german-chancellor-visits-ukraine?traffic_source=rss"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/b7bd5c45-1c32-4984-af37-21746a02c4ef?syn-25a6b1a6=1"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/germany-s-merz-visits-kyiv-as-russia-strikes-bridge/a-79534734?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/10/04/world/russia-vows-increased-strikes/"
           }
         ]
       }
