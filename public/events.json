@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-10-17T00:22:56.193322+00:00",
+  "updated": "2026-10-17T04:56:51.363923+00:00",
   "events": [
+    {
+      "id": "c7805cd74dbb",
+      "title": "Iran's president denies nuclear ambitions, says he's ready for talks",
+      "description": "President of Iran says the country is open to nuclear talks, rejecting claims of a weapons program.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 1,
+      "location": "Tehran, Iran",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/",
+      "image": null,
+      "ts": 1792202253000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
+          }
+        ]
+      }
+    },
     {
       "id": "e0735e969a02",
       "title": "Amazon deforestation lowest in nearly 40 years",
@@ -37,48 +70,43 @@
     },
     {
       "id": "01534f300da1",
-      "title": "Putin Agrees To Cooperate With Pope Leo's Plea For Aid For Ukrainian Town",
-      "description": "Following the Pope's appeal, Putin agrees to a ceasefire to allow humanitarian aid into Oleshky, Ukraine.",
+      "title": "Recovering from lung surgery, Pope Leo urges Putin to agree to ceasefire in Russian-held Ukraine city",
+      "description": "The Pope calls President Putin from his hospital bed, urging a cease‑fire in Oleshky, Ukraine.",
       "lat": 46.57,
       "lng": 32.73,
-      "severity": 2,
+      "severity": 1,
       "location": "Oleshky, Ukraine",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/putin-agrees-to-cooperate-with-pope-leos-plea-for-aid-for-ukrainian-town-12197446#publisher=newsstand",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/recovering-lung-surgery-pope-leo-urges-putin-agree-ceasefire-russian-held-ukraine-city",
       "image": "https://c.ndtvimg.com/2026-10/1e2s57m4_vladimir-putin_625x300_17_October_26.jpg?im=FeatureCrop,algorithm=dnn,width=270,height=300",
-      "ts": 1792191442000,
+      "ts": 1792192221000,
       "coverage": {
         "left": 3,
-        "center": 1,
+        "center": 0,
         "right": 3,
-        "total": 7,
+        "total": 6,
         "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 1,
+          "left": 1,
+          "lean_left": 2,
+          "center": 0,
           "lean_right": 0,
           "right": 3
         },
         "sources": [
           {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/10/16/world/europe/pope-leo-putin-ukraine-cease-fire.html"
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/vatican-pope-leo-surgery_n_6acf3854e4b0e26c18d0c30c"
           },
           {
-            "n": "NDTV World",
+            "n": "NBC News World",
             "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/putin-agrees-to-cooperate-with-pope-leos-plea-for-aid-for-ukrainian-town-12197446#publisher=newsstand"
+            "u": "https://www.nbcnews.com/nightly-news/video/ukraine-resumes-strikes-on-russian-refineries-271659589622"
           },
           {
             "n": "Mirror World",
             "b": "lean_left",
             "u": "https://www.mirror.co.uk/news/world-news/pope-leo-urges-vladimir-putin-37781044"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/europe/article/3371210/hospital-pope-leo-pushes-putin-ceasefire-contested-ukraine-city?utm_source=rss_feed"
           },
           {
             "n": "Fox News World",
@@ -160,39 +188,6 @@
             "n": "Axios",
             "b": "center",
             "u": "https://www.axios.com/2026/10/16/iran-backed-militias-sending-money-irgc-centcom"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c7805cd74dbb",
-      "title": "Iran's president denies nuclear ambitions, says he's ready for talks",
-      "description": "President Raisi stated Iran has no nuclear weapons program and expressed willingness to discuss the issue diplomatically.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/",
-      "image": null,
-      "ts": 1792181566000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
           }
         ]
       }
