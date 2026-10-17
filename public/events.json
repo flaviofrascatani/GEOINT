@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-10-17T09:14:48.080454+00:00",
+  "updated": "2026-10-17T13:09:35.374150+00:00",
   "events": [
+    {
+      "id": "7d50682142ea",
+      "title": "Russia wants blackout in Ukraine as winter comes — Zelenskyy",
+      "description": "Ukrainian President Zelenskyy says Russia is attempting to cut electricity and heating to civilians ahead of winter.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 3,
+      "location": "Kyiv, Ukraine",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/russia-wants-blackout-in-ukraine-as-winter-comes-zelenskyy/a-79686703?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1792242575283,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/russia-wants-blackout-in-ukraine-as-winter-comes-zelenskyy/a-79686703?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "47b7851c1d28",
+      "title": "Syria’s Kurdish autonomy is fading as Arab unrest challenges Damascus’s control",
+      "description": "The Kurdish‑led authority in Syria has been dissolved on paper, signalling a decline in autonomous governance amid broader regional unrest.",
+      "lat": 37.05,
+      "lng": 41.22,
+      "severity": 3,
+      "location": "Qamishli, Syria",
+      "source": "Jerusalem Post",
+      "url": "https://www.jpost.com/middle-east/article-911880",
+      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_1312,w_1969/742199",
+      "ts": 1792242017000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/article-911880"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e29ed7bf4343",
+      "title": "US strikes $25M UNICEF deal to avert medicine shortages",
+      "description": "The United States government reached an agreement to provide free lifesaving medicines and medical equipment to the world’s poorest countries.",
+      "lat": 40.0,
+      "lng": -77.04,
+      "severity": 1,
+      "location": "Washington, United States",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/world/africa/us-strikes-25m-unicef-deal-to-avert-medicine-shortages",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/10/17/466083.JPG",
+      "ts": 1792233600000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/africa/us-strikes-25m-unicef-deal-to-avert-medicine-shortages"
+          }
+        ]
+      }
+    },
     {
       "id": "f60f8db3ab7a",
       "title": "PM Wong to visit Qatar, UAE in first trip to Middle East region since taking office",
@@ -150,6 +249,39 @@
             "n": "CBS News World",
             "b": "lean_left",
             "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2f1d98bdad50",
+      "title": "Former Ukraine international footballer killed in war after 20 months missing in action",
+      "description": "A former Ukrainian international footballer, who had been missing for nearly two years, was confirmed dead after serving in the armed forces.",
+      "lat": 49.11,
+      "lng": 39.70519999999999,
+      "severity": 3,
+      "location": "Donetsk, Ukraine",
+      "source": "Daily Star World",
+      "url": "https://www.dailystar.co.uk/sport/football/ukraine-footballer-dead-roman-maksymyuk-37782037",
+      "image": "https://i2-prod.dailystar.co.uk/incoming/article37782468.ece/ALTERNATES/s615/0_Roman-Maksymyuk.jpg",
+      "ts": 1792200824000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Daily Star World",
+            "b": "right",
+            "u": "https://www.dailystar.co.uk/sport/football/ukraine-footballer-dead-roman-maksymyuk-37782037"
           }
         ]
       }
@@ -7261,153 +7393,6 @@
             "n": "The Africa Report",
             "b": "center",
             "u": "https://www.theafricareport.com/432276/kenya-if-we-can-do-a-refinery-we-can-do-anything-says-james-mwangi/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5d5d4c15bda1",
-      "title": "Germany at risk of violent conflict with Russia, intelligence chief says",
-      "description": "Germany's intelligence chief warned that the country faces a risk of armed conflict with Russia.",
-      "lat": 52.52,
-      "lng": 13.4,
-      "severity": 3,
-      "location": "Berlin, Germany",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOelJXS092bDNjUVJZOGk3OHRSM3F4OHRTMjZkNHh6RWlTRXVoUnlpQ2NYMlUtV1dCUDBKUFB1YzFRUUtLVERsbmp4Y1h2WTJNbkZqeVRtZkE0d0FYUWJ4QVpjLTNBWjZ3eF8zRTFpWERkaWpVZUgyQkJWTms0RTdWN1hXMTcxczhHWnR6MHNzdzdoYlV2VU9IREd3NGs1UHloTG1nc0d1alRsWlBjTF9nTg?oc=5",
-      "image": null,
-      "ts": 1791198334000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/germany-at-risk-of-violent-conflict-with-russia-warns-intelligence-chief-13595339"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOelJXS092bDNjUVJZOGk3OHRSM3F4OHRTMjZkNHh6RWlTRXVoUnlpQ2NYMlUtV1dCUDBKUFB1YzFRUUtLVERsbmp4Y1h2WTJNbkZqeVRtZkE0d0FYUWJ4QVpjLTNBWjZ3eF8zRTFpWERkaWpVZUgyQkJWTms0RTdWN1hXMTcxczhHWnR6MHNzdzdoYlV2VU9IREd3NGs1UHloTG1nc0d1alRsWlBjTF9nTg?oc=5"
-          },
-          {
-            "n": "Daily Mail World",
-            "b": "right",
-            "u": "https://www.dailymail.com/news/article-16183727/Germany-Berlin-hybrid-war-Russia-Putin.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b9fb9da23743",
-      "title": "Yemen launches major military operation against Houthis",
-      "description": "Yemen's internationally recognised government announced a large‑scale offensive to retake Houthi‑held areas after rebels cut the road linking Taiz with Aden.",
-      "lat": 15.35,
-      "lng": 46.115200000000016,
-      "severity": 4,
-      "location": "Sana'a, Yemen",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/yemen-launches-major-military-operation-against-houthis/a-79542723?maca=en-rss-en-all-1573-rdf",
-      "image": "https://c.ndtvimg.com/2024-01/g3a4rqsk_houthi-rebels_625x300_26_January_24.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1791183371549,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/yemens-government-declares-major-operation-houthis-mideast-news-136983229"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/yemen-launches-major-military-operation-against-houthis/a-79542723?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ba3013a5bf6c",
-      "title": "U.S. Southern Command conducts strike on suspected narco‑boat in the Caribbean",
-      "description": "Four alleged drug traffickers were killed when U.S. forces hit a vessel believed to be smuggling narcotics in Caribbean waters.",
-      "lat": 15.0,
-      "lng": -75.0,
-      "severity": 3,
-      "location": "Caribbean Sea",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/dramatic-footage-shows-alleged-narco-boat-erupt-fireball-during-us-military-strike",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/accused-drug-boat-lethal-strike.png?ve=1&tl=1",
-      "ts": 1791177732000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/dramatic-footage-shows-alleged-narco-boat-erupt-fireball-during-us-military-strike"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ccaa2c806168",
-      "title": "U.S. sanctions aim to ‘shut down’ Iran’s airlines",
-      "description": "Washington imposed new sanctions targeting Iran’s civil aviation sector, seeking to halt commercial flights despite a Boeing plane still operating.",
-      "lat": 36.79,
-      "lng": 51.389999999999986,
-      "severity": 3,
-      "location": "Tehran, Iran",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeW0tbGd3clJ4Q3dNMEEwLXAwR0V2X1ZZZDA1bG9Db3lKTm95U1FUeExwY1owWUdLSlQwcEM5dFN6TWhGNHcxaGJSR2lwUlFJVkVhLUppaTV1QUhaaTlRaGFwMWVHZktBZ1J5Tm5PckhJNTA0aEJKaUNvVXBobmRHRU9RWVMyMURoam8tWFE2RFI1dTk2b0pSWA?oc=5",
-      "image": null,
-      "ts": 1791172867000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeW0tbGd3clJ4Q3dNMEEwLXAwR0V2X1ZZZDA1bG9Db3lKTm95U1FUeExwY1owWUdLSlQwcEM5dFN6TWhGNHcxaGJSR2lwUlFJVkVhLUppaTV1QUhaaTlRaGFwMWVHZktBZ1J5Tm5PckhJNTA0aEJKaUNvVXBobmRHRU9RWVMyMURoam8tWFE2RFI1dTk2b0pSWA?oc=5"
           }
         ]
       }
