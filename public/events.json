@@ -1,7 +1,103 @@
 {
   "schema": 1,
-  "updated": "2026-10-16T21:39:24.992429+00:00",
+  "updated": "2026-10-17T00:22:56.193322+00:00",
   "events": [
+    {
+      "id": "e0735e969a02",
+      "title": "Amazon deforestation lowest in nearly 40 years",
+      "description": "Deforestation in Brazil's Amazon fell to 3,335 km², the smallest amount since 1988, marking a historic environmental gain.",
+      "lat": -3.1,
+      "lng": -60.02,
+      "severity": 1,
+      "location": "Manaus, Brazil",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/brazil-amazon-deforestation-lowest-in-nearly-40-years/a-79684906?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1792196576111,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/brazil-amazon-deforestation-lowest-in-nearly-40-years/a-79684906?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "01534f300da1",
+      "title": "Putin Agrees To Cooperate With Pope Leo's Plea For Aid For Ukrainian Town",
+      "description": "Following the Pope's appeal, Putin agrees to a ceasefire to allow humanitarian aid into Oleshky, Ukraine.",
+      "lat": 46.57,
+      "lng": 32.73,
+      "severity": 2,
+      "location": "Oleshky, Ukraine",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/putin-agrees-to-cooperate-with-pope-leos-plea-for-aid-for-ukrainian-town-12197446#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-10/1e2s57m4_vladimir-putin_625x300_17_October_26.jpg?im=FeatureCrop,algorithm=dnn,width=270,height=300",
+      "ts": 1792191442000,
+      "coverage": {
+        "left": 3,
+        "center": 1,
+        "right": 3,
+        "total": 7,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 1,
+          "lean_right": 0,
+          "right": 3
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/10/16/world/europe/pope-leo-putin-ukraine-cease-fire.html"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/putin-agrees-to-cooperate-with-pope-leos-plea-for-aid-for-ukrainian-town-12197446#publisher=newsstand"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/pope-leo-urges-vladimir-putin-37781044"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/europe/article/3371210/hospital-pope-leo-pushes-putin-ceasefire-contested-ukraine-city?utm_source=rss_feed"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/recovering-lung-surgery-pope-leo-urges-putin-agree-ceasefire-russian-held-ukraine-city"
+          },
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2257970/pope-leo-xiv-putin-call-hospital"
+          },
+          {
+            "n": "Daily Star World",
+            "b": "right",
+            "u": "https://www.dailystar.co.uk/news/world-news/pope-leo-hospital-vladimir-putin-37781991"
+          }
+        ]
+      }
+    },
     {
       "id": "20eec9f916c0",
       "title": "Russian forces striking strategic targets in Ukraine — Gerasimov",
@@ -104,10 +200,10 @@
     {
       "id": "1762294bf8f9",
       "title": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
-      "description": "Iran increased attacks on shipping in the Strait of Hormuz, pushing global oil prices above $110 a barrel.",
+      "description": "Oil prices surge as Iran intensifies attacks in the Strait of Hormuz, heightening regional tensions.",
       "lat": 27.67,
       "lng": 56.25,
-      "severity": 4,
+      "severity": 2,
       "location": "Strait of Hormuz",
       "source": "CNBC World",
       "url": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html",
@@ -7347,97 +7443,6 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/politics/2197453"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d31b6f1c7b5a",
-      "title": "US withdraws all its bombers from Britain's RAF Fairford base",
-      "description": "Los bombarderos estadounidenses fueron reubicados en EE. UU. tras una amenaza de ataque terrorista contra la base británica.",
-      "lat": 52.78,
-      "lng": -1.990000000000009,
-      "severity": 3,
-      "location": "Fairford, United Kingdom",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/10/04/us-withdraws-all-its-bombers-from-britain-s-raf-fairford-base?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111663/100x80/raf.jpg",
-      "ts": 1791149700000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/10/04/us-withdraws-all-its-bombers-from-britain-s-raf-fairford-base?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6ee6ae274664",
-      "title": "German Chancellor Friedrich Merz visits Kyiv as Russia steps up attacks on Ukrainian cities",
-      "description": "Chancellor Merz traveled to Kyiv to show political support for Ukraine amid intensified Russian missile strikes on Ukrainian urban centers.",
-      "lat": 51.55,
-      "lng": 32.42519999999999,
-      "severity": 2,
-      "location": "Kyiv, Ukraine",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/germanys-merz-visits-kyiv-russia-steps-attacks-ukrainian-136983124",
-      "image": "http://images.euronews.com/articles/stories/09/93/00/69/640x360_cmsv2_f02d1895-d5e3-5270-a9bb-e5ae40e29718-9930069.jpg?1790573987",
-      "ts": 1791139883000,
-      "coverage": {
-        "left": 3,
-        "center": 3,
-        "right": 0,
-        "total": 6,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/germanys-merz-visits-kyiv-russia-steps-attacks-ukrainian-136983124"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/putin-kyiv-bridge-friedrich-merz-37732490"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/10/04/germany-s-merz-visits-kyiv-as-russia-steps-up-attacks-on-ukrainian-cities_6758230_4.html"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/german-chancellor-visits-missile-prone-kyiv-german-ukrainian-alliance-now-faces-political-3808213"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/germany-s-merz-visits-kyiv-as-russia-strikes-bridge/a-79534734?maca=en-rss-en-all-1573-rdf"
           }
         ]
       }
