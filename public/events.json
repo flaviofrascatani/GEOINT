@@ -1,7 +1,159 @@
 {
   "schema": 1,
-  "updated": "2026-10-18T04:21:29.773206+00:00",
+  "updated": "2026-10-18T09:02:38.432204+00:00",
   "events": [
+    {
+      "id": "0fa37893c347",
+      "title": "Reported attacks on ships around Hormuz reach record highs",
+      "description": "A monitoring agency records a surge in vessel attacks in the Strait of Hormuz.",
+      "lat": 26.57,
+      "lng": 58.15520000000001,
+      "severity": 3,
+      "location": "Strait of Hormuz",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/",
+      "image": null,
+      "ts": 1792313312000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a12e91d98b70",
+      "title": "Pakistan extends airspace ban on Indian aircraft till November 24",
+      "description": "Pakistan prolongs its restriction on Indian flights, heightening regional tensions.",
+      "lat": 29.71,
+      "lng": 77.20999999999998,
+      "severity": 2,
+      "location": "New Delhi, India",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/pakistan-extends-airspace-ban-on-indian-aircraft-till-november-24/article71599424.ece",
+      "image": "https://th-i.thgim.com/public/incoming/astkqp/article71599431.ece/alternates/LANDSCAPE_1200/iStock-530089923.jpg",
+      "ts": 1792311470000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/pakistan-extends-ban-on-indian-aircraft-in-its-airspace-till-november-24-12202114#publisher=newsstand"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/pakistan-extends-airspace-ban-on-indian-aircraft-till-november-24/article71599424.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8b36e383eb71",
+      "title": "Violent clashes, looting and buildings ablaze in France as more than 1,200 arrested after protests",
+      "description": "Widespread unrest erupts across French cities amid cost‑of‑living protests.",
+      "lat": 48.86,
+      "lng": 4.255200000000002,
+      "severity": 3,
+      "location": "Paris, France",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8264/live/a6715ba0-ca74-11f1-9ef8-9dedd6ab697d.jpg",
+      "ts": 1792302980000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/gallery/2026/10/18/photos-protests-across-france-spiral-into-looting-blazes-and-clashes?traffic_source=rss"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6bedbb38af9f",
+      "title": "Fire at Canadian Forces Base Wainwright kills and injures personnel",
+      "description": "A major fire at CFB Wainwright in Alberta results in multiple deaths and injuries.",
+      "lat": 53.04,
+      "lng": -110.87,
+      "severity": 4,
+      "location": "Wainwright, Canada",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/fatalities-injuries-reported-canadian-forces-base-wainwright-alberta-after-incident-sparked-fire",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/wainwright-health-centre-paramedics.jpg?ve=1&tl=1",
+      "ts": 1792302070000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/10/17/world/canada/fire-canadian-army-base-wainwright.html"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMUZObU0tTWtHYUpFOGJDbUdUd2xlRDh3TnluVUVGU1U1dGJEMGtiX2U4dFFBdFhmT0xEQjFNVEREUXNleEJ4NHJsWVU5OThtNE90SHhpTFREU0N3azlVblRWUnpGVENldV9kZkVJaEJMMno0TzhybEtRS3d2RHlNcDVWRWI2eGVxNXR4bGNLTGk?oc=5"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/fatalities-injuries-reported-canadian-forces-base-wainwright-alberta-after-incident-sparked-fire"
+          }
+        ]
+      }
+    },
     {
       "id": "ec9b90892dcf",
       "title": "Major fire reported at Canadian military base in Alberta",
@@ -342,39 +494,6 @@
       }
     },
     {
-      "id": "8b36e383eb71",
-      "title": "Violent clashes, looting and buildings ablaze in France as over 1,000 arrested after protests",
-      "description": "Mass protests across France over cost of living turn violent, with widespread looting, arson and more than a thousand arrests.",
-      "lat": 48.86,
-      "lng": 4.255200000000002,
-      "severity": 4,
-      "location": "Paris, France",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8264/live/a6715ba0-ca74-11f1-9ef8-9dedd6ab697d.jpg",
-      "ts": 1792270337000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
       "id": "9fa15bd14ce9",
       "title": "Japan set to move forward with Bangladesh's first economic pact",
       "description": "Tokyo and Dhaka are preparing to sign a bilateral economic agreement, the first of its kind for Bangladesh, aimed at boosting trade and investment.",
@@ -542,52 +661,42 @@
     {
       "id": "d6322a0f527e",
       "title": "Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold",
-      "description": "Ukrainian President Volodymyr Zelenskyy called on allies to back fresh U.S. sanctions on Moscow after President Trump delayed their implementation.",
+      "description": "Ukrainian President calls for renewed U.S. sanctions against Moscow.",
       "lat": 55.7558,
       "lng": 37.6173,
-      "severity": 3,
+      "severity": 2,
       "location": "Moscow, Russia",
       "source": "GNews Geopolitics",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE50MGlLYl9jeVFRcDdiaWJaSWtUdkpoUHJaczN0bldDUDY3ZW52TEh2QmZZOHU1X1JmVVNNMm9YbjdlaDNGUDFxYjAxdGlsYWxuRllHanZGMXhUWmtCUy1oZjcybFNhRnlJdnRJT0dVaXJ2UQ?oc=5",
       "image": null,
       "ts": 1792247110000,
       "coverage": {
-        "left": 5,
-        "center": 11,
-        "right": 2,
-        "total": 18,
+        "left": 3,
+        "center": 9,
+        "right": 1,
+        "total": 13,
         "buckets": {
           "left": 1,
-          "lean_left": 4,
-          "center": 11,
-          "lean_right": 1,
+          "lean_left": 2,
+          "center": 9,
+          "lean_right": 0,
           "right": 1
         },
         "sources": [
           {
             "n": "HuffPost World",
             "b": "left",
-            "u": "https://www.huffpost.com/entry/russia-ukraine-attacks-trump-zelenskyy-spat_n_6ad20346e4b0bfd25657a02a"
+            "u": "https://www.huffpost.com/entry/zelenskyy-urges-support-new-us-sanctions-russia-after-trump-hold_n_6ad37480e4b0ce24aed9f0c2"
           },
           {
-            "n": "New York Times World",
+            "n": "CBS News World",
             "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/10/16/us/politics/trump-order-russia-sanctions.html"
+            "u": "https://www.cbsnews.com/video/zelenskyy-says-trumps-decision-to-waive-new-sanctions-on-russia-seems-wrong/"
           },
           {
-            "n": "NBC News World",
+            "n": "The Hindu International",
             "b": "lean_left",
-            "u": "https://www.nbcnews.com/politics/trump-administration/trump-suspends-new-russia-sanctions-deal-purchase-diesel-citing-nation-rcna603991"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/zelenskyy-urges-support-new-us-sanctions-russia-after-137342993"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/10/17/trump-faces-bipartisan-backlash-over-russia-sanctions-waiver?traffic_source=rss"
+            "u": "https://www.thehindu.com/news/international/many-dont-know-what-my-decision-is-donald-trump-on-sanctions-waiver-to-russia/article71599103.ece"
           },
           {
             "n": "BBC World",
@@ -610,29 +719,19 @@
             "u": "https://www.ibtimes.com/trump-waives-russia-sanctions-he-previously-signed-law-prompting-immediate-international-3808696"
           },
           {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/836eddd7-3adc-4cbb-8527-7a0a7a277e50?syn-25a6b1a6=1"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/russia-wants-blackout-in-ukraine-as-winter-comes-zelenskyy/a-79686703?maca=en-rss-en-all-1573-rdf"
-          },
-          {
             "n": "GNews Geopolitics",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE50MGlLYl9jeVFRcDdiaWJaSWtUdkpoUHJaczN0bldDUDY3ZW52TEh2QmZZOHU1X1JmVVNNMm9YbjdlaDNGUDFxYjAxdGlsYWxuRllHanZGMXhUWmtCUy1oZjcybFNhRnlJdnRJT0dVaXJ2UQ?oc=5"
           },
           {
-            "n": "Bloomberg Politics",
+            "n": "Google News Top",
             "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-10-17/trump-waives-russia-energy-tariffs-sanctions-in-graham-law"
+            "u": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbWVTdHdKeEJ1UF9uS09wSTdzT0RtVkJUTWpGTWc1RnV6eFR6VHhHNDlPREhaS0ljWlE2T3Z0bm1VM1VnRnEtNGR1anA2bm1RaS02eUY0eFgzLUlpc2JtWkloS2hvRllNSERpOWh0QllEMklURzcySlJYNkFRc182RF96WXdScEk?oc=5"
           },
           {
-            "n": "Al-Monitor",
+            "n": "Bloomberg Politics",
             "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/10/zelenskiy-criticizes-trumps-waiver-sanctions-russia-wrong"
+            "u": "https://www.bloomberg.com/news/articles/2026-10-17/trump-s-russia-sanctions-waiver-called-mistake-by-key-gop-allies"
           },
           {
             "n": "Egypt Independent",
@@ -640,14 +739,9 @@
             "u": "https://www.egyptindependent.com/trump-waives-russia-related-sanctions-before-they-even-kick-in-as-ukraine-ties-worsen/"
           },
           {
-            "n": "Japan Times",
+            "n": "Straits Times Asia",
             "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/10/17/world/politics/trump-waives-russia-sanctions/"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://rt-english.com/news/647324-trump-waives-graham-sanctions-russia/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+            "u": "https://www.straitstimes.com/asia/rubio-says-trump-to-take-up-to-60-days-to-weigh-russia-sanctions"
           },
           {
             "n": "Washington Examiner",
@@ -7339,110 +7433,6 @@
             "n": "MercoPress",
             "b": "center",
             "u": "https://en.mercopress.com/2026/10/06/uk-agrees-190m-airbus-deal-to-boost-raf-s-strategic-airlift-fleet-of-a400m-atlas?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "dac9ac6d79f0",
-      "title": "U.S. Sends Reaper Drones to Colombia and Ecuador to Hunt Cartels",
-      "description": "The United States deployed MQ‑9 Reaper drones to Colombia and Ecuador to assist in anti‑narcotics operations against drug cartels.",
-      "lat": 4.71,
-      "lng": -74.07,
-      "severity": 2,
-      "location": "Bogotá, Colombia",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/10/06/world/americas/us-reaper-drones-colombia-ecuador-cartels.html",
-      "image": "https://static01.nyt.com/images/2026/10/05/multimedia/05int-reaper-drones-latin-america-twpl/05int-reaper-drones-latin-america-twpl-mediumSquareAt3X.jpg",
-      "ts": 1791277413000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/10/06/world/americas/us-reaper-drones-colombia-ecuador-cartels.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a09d32bb7719",
-      "title": "Warnings of possible Iranian drone attack led US to pull bombers from RAF Fairford",
-      "description": "The United States withdrew bomber aircraft from the RAF Fairford base in the UK after intelligence indicated a potential Iranian drone strike.",
-      "lat": 51.68,
-      "lng": -2.180000000000007,
-      "severity": 3,
-      "location": "Fairford, United Kingdom",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/c37419cd-5325-409e-9eac-ea509c8ace51?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1791275456000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/c37419cd-5325-409e-9eac-ea509c8ace51?syn-25a6b1a6=1"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQjRsdk41T0lIa1daTjFnY2Vaek1lcW5EUTdXNmtXT19XNm1VUDFjU29fOEtwSWhVbjU5bUtXcEJZNjNMZTk5TXV0VThpSjUyQ2J3dm1JcUNwNGNSdzVPbTdlWE5pQkc0X3d1VldTWjR2czBZb0xfa0lEcnB2Q2NJTHdB?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9e4ef72bda83",
-      "title": "Massiccio attacco ucraino su Mosca: \"Lanciati 650 droni. Ci sono morti e feriti\"",
-      "description": "A large Ukrainian drone strike on Moscow resulted in at least one death and several injuries.",
-      "lat": 56.85,
-      "lng": 39.525199999999984,
-      "severity": 3,
-      "location": "Moscow, Russia",
-      "source": "AGI Estero",
-      "url": "https://www.agi.it/estero/news/2026-10-06/ucraina-russia-attacco-su-mosca-39401816/",
-      "image": "https://images.agi.it/pictures/agi/agi/2026/10/06/073125302-aa6e4ecc-fec5-45e6-96bd-2230a6cdf165.jpg",
-      "ts": 1791272490000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-10-06/ucraina-russia-attacco-su-mosca-39401816/"
           }
         ]
       }
