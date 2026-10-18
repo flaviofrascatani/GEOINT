@@ -1,7 +1,116 @@
 {
   "schema": 1,
-  "updated": "2026-10-18T09:02:38.432204+00:00",
+  "updated": "2026-10-18T13:12:28.372980+00:00",
   "events": [
+    {
+      "id": "5899479e939f",
+      "title": "DW News) France reports more than 1,800 arrests after riots, looting and arson during cost-of-living protests",
+      "description": "Police detained over 1,800 people as violent protests spread across French cities over rising living costs.",
+      "lat": 48.86,
+      "lng": 2.3499999999999943,
+      "severity": 3,
+      "location": "Paris, France",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/france-reports-more-than-1-800-arrests-after-riots-looting-and-arson-during-cost-of-living-protests/a-79692322?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1792329148283,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/france-reports-more-than-1-800-arrests-after-riots-looting-and-arson-during-cost-of-living-protests/a-79692322?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fc02fc8a3fd5",
+      "title": "S. Korea, Ukraine had no discussion on timing of disclosing N.K. POW repatriation: diplomat",
+      "description": "South Korean and Ukrainian officials said they had not coordinated on when to announce the return of North Korean prisoners of war.",
+      "lat": 40.13,
+      "lng": 127.65519999999998,
+      "severity": 2,
+      "location": "Pyongyang, North Korea",
+      "source": "Yonhap News",
+      "url": "https://en.yna.co.kr/view/AEN20261018003300315",
+      "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/18/AEN20261018003300315_01_i_P2.jpg",
+      "ts": 1792326784000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20261018003300315"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f53a3740a504",
+      "title": "Fire breaks out after deadly incident at Canadian military base, officials say",
+      "description": "A fire at a Canadian Forces base in Alberta caused multiple fatalities and injuries.",
+      "lat": 53.55,
+      "lng": -113.5,
+      "severity": 4,
+      "location": "Alberta, Canada",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/deadly-incident-fire-alberta-canada-military-base-cfb-wainwright/",
+      "image": null,
+      "ts": 1792326764000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/10/17/world/canada/fire-canadian-army-base-wainwright.html"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/deadly-incident-fire-alberta-canada-military-base-cfb-wainwright/"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdFJGUGVNYmQ1ZlJFamV3NWRjMU5oUDVmcUJkVDBMcVNyeVotaGlwTlVRNEU1aFg1eUxHUnBKYmxGby1ZTmFEVjMyMmNMTmJEVi0xMFhwSmxCTEx5Um9PbWhTeFdoM2RVVk54OG9sellqWlRvejIxNGJWQ1pJSHgtTExUa05xWnZoUWVkMlFOREh2RnFSN0RHQmxvRHBUZW5GSEo0VTMwTENlWGs4VEg1M0xPdUltQ0lSZXBtRjBSeHZjWkJnT3VsS0Rn?oc=5"
+          }
+        ]
+      }
+    },
     {
       "id": "0fa37893c347",
       "title": "Reported attacks on ships around Hormuz reach record highs",
@@ -628,10 +737,10 @@
     {
       "id": "25c926a40cf3",
       "title": "US senator accuses Turkey of ‘thuggish behavior’ toward Greece and Cyprus",
-      "description": "Senator Rick Scott condemned Turkey’s actions toward Greece and Cyprus, questioning Ankara’s NATO commitment.",
+      "description": "Sen. Rick Scott criticized Turkey’s actions toward Greece and Cyprus, questioning Ankara’s commitment to NATO.",
       "lat": 37.98,
       "lng": 23.73,
-      "severity": 3,
+      "severity": 2,
       "location": "Athens, Greece",
       "source": "ABC News International",
       "url": "https://abcnews.com/International/wireStory/us-senator-accuses-turkey-thuggish-behavior-greece-cyprus-137347982",
@@ -7329,110 +7438,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/spy-chief-arrested-germany-suspicion-trading-state-secrets-137025370"
-          }
-        ]
-      }
-    },
-    {
-      "id": "024cb6f7adb6",
-      "title": "Takaichi asked Trump to broker Japan‑North Korea summit",
-      "description": "日本の高市氏がトランプ米大統領に北朝鮮との首脳会談仲介を要請、拉致問題で停滞した交渉再開を狙う。",
-      "lat": 40.13,
-      "lng": 125.73000000000002,
-      "severity": 1,
-      "location": "Pyongyang, North Korea",
-      "source": "Japan Times",
-      "url": "https://www.japantimes.co.jp/news/2026/10/06/japan/takaichi-trump-north-korea-abductee/",
-      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/10/06/567138.jpg",
-      "ts": 1791282480000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/10/06/japan/takaichi-trump-north-korea-abductee/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "589d222bf784",
-      "title": "Germany joins France in call for China trade defences",
-      "description": "Germany and France jointly urged tougher EU trade defences against China ahead of upcoming negotiations.",
-      "lat": 53.62,
-      "lng": 13.400000000000006,
-      "severity": 2,
-      "location": "Berlin, Germany",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3369919/germany-joins-france-call-china-trade-defences?utm_source=rss_feed",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/06/19796d76-028e-46ed-a4ab-434173fa1269_d6153cde.jpg?itok=FYdfmiyY&v=1791278358",
-      "ts": 1791278360000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/8a6b5b97-5fed-4013-804b-c631863010db?syn-25a6b1a6=1"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/plus/news/china/diplomacy/article/3369919/germany-joins-france-call-china-trade-defences?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c3e4d36b202e",
-      "title": "UK agrees £190m Airbus deal to boost RAF's strategic airlift fleet of A400M Atlas",
-      "description": "The UK Ministry of Defence signs a £190 million contract with Airbus to enhance the Royal Air Force's strategic airlift capability.",
-      "lat": 51.51,
-      "lng": 2.069999999999993,
-      "severity": 2,
-      "location": "London, United Kingdom",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/10/06/uk-agrees-190m-airbus-deal-to-boost-raf-s-strategic-airlift-fleet-of-a400m-atlas?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111678/100x80/raf.jpg",
-      "ts": 1791277680000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/10/06/uk-agrees-190m-airbus-deal-to-boost-raf-s-strategic-airlift-fleet-of-a400m-atlas?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
           }
         ]
       }
