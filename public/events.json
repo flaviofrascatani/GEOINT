@@ -1,7 +1,136 @@
 {
   "schema": 1,
-  "updated": "2026-10-19T00:10:28.537975+00:00",
+  "updated": "2026-10-19T05:15:27.298759+00:00",
   "events": [
+    {
+      "id": "1eacf8769aec",
+      "title": "Italy's defence minister says Rome must continue to support Ukraine despite protests",
+      "description": "Defence Minister Guido Crosetto urges the Italian government to maintain military aid to Kyiv even as public opposition grows.",
+      "lat": 43.0,
+      "lng": 12.47999999999999,
+      "severity": 2,
+      "location": "Rome, Italy",
+      "source": "RT News",
+      "url": "https://rt-english.com/news/647374-hard-convince-italians-back-ukraine/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.10/thumbnail/6ad59cf82030271a8b428f14.jpg",
+      "ts": 1792384331000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://rt-english.com/news/647374-hard-convince-italians-back-ukraine/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f3911f2f3f61",
+      "title": "Putin reportedly suggests summit with Trump and Xi to decide fate of Ukraine",
+      "description": "President Vladimir Putin is said to have floated a three‑leader summit with the United States and China to discuss a resolution to the war in Ukraine.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 2,
+      "location": "Kyiv, Ukraine",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/10/19/putin-trump-xi-ukraine-war-energy.html",
+      "image": null,
+      "ts": 1792382163000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/putin-proposes-summit-with-trump-and-xi-to-discuss-ukraine-deal-report/article71602034.ece"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/10/19/putin-trump-xi-ukraine-war-energy.html"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/international/internationalrussia-ukraine-war/article-912112"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-10-18/putin-proposes-summit-with-us-china-on-ukraine-wsj-reports"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2703ffc5f98f",
+      "title": "Major fire at Canadian Forces Base Wainwright kills 4 and injures dozens",
+      "description": "A fast‑moving fire broke out at CFB Wainwright in Alberta, killing four soldiers and injuring many others during a training exercise.",
+      "lat": 54.49,
+      "lng": -109.9074,
+      "severity": 3,
+      "location": "Wainwright, Canada",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/10/18/world/canada/canadian-army-base-fire-kills-4.html",
+      "image": "https://static.time.com/v3/assets/bltea6093859af6183b/blte3e0ac755576549b/6ad4f7e196b6a5f864837805/AP26291249421665.jpg?branch=production",
+      "ts": 1792377949000,
+      "coverage": {
+        "left": 2,
+        "center": 1,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 1,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/canada-military-base-alberta_n_6ad42993e4b0ce24aed9fee9"
+          },
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/10/18/world/canada/canadian-army-base-fire-kills-4.html"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-10-18/four-canadian-soldiers-killed-in-military-base-fire-carney-says"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/fatalities-injuries-reported-canadian-forces-base-wainwright-alberta-after-incident-sparked-fire"
+          }
+        ]
+      }
+    },
     {
       "id": "3def96546dc7",
       "title": "Protesters disrupt Ben-Gvir event forcing him off stage",
@@ -284,64 +413,6 @@
             "n": "BBC World",
             "b": "center",
             "u": "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2703ffc5f98f",
-      "title": "Canadian Army Base Fire Kills Four Soldiers, Injures Dozens",
-      "description": "Four Canadian soldiers were killed and dozens injured after a fire broke out during a training exercise at CFB Wainwright in Alberta.",
-      "lat": 54.49,
-      "lng": -109.9074,
-      "severity": 4,
-      "location": "Wainwright, Canada",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-18/four-canadian-soldiers-killed-in-military-base-fire-carney-says",
-      "image": "https://static.time.com/v3/assets/bltea6093859af6183b/blte3e0ac755576549b/6ad4f7e196b6a5f864837805/AP26291249421665.jpg?branch=production",
-      "ts": 1792347077000,
-      "coverage": {
-        "left": 3,
-        "center": 2,
-        "right": 1,
-        "total": 6,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 2,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/10/18/world/canada/canadian-army-base-fire-kills-4.html"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/cfb-wainwright-fire-canada-alberta-37783854"
-          },
-          {
-            "n": "Time",
-            "b": "lean_left",
-            "u": "https://time.com/article/2026/10/18/what-to-know-about-the-deadly-fire-at-a-canadian-military-base/"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/americas/20261018-canada-military-base-fire-four-dead-39-hospitalised"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-10-18/four-canadian-soldiers-killed-in-military-base-fire-carney-says"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/canadian-pm-carney-4-service-members-killed-dozens-injured-military-base-fire"
           }
         ]
       }
@@ -7452,72 +7523,6 @@
             "n": "The Africa Report",
             "b": "center",
             "u": "https://www.theafricareport.com/431193/egypt-strategic-urgency-revives-tobruk-alexandria-pipeline/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d53f721f7d0a",
-      "title": "NATO membership for Ukraine ‘not on the table’ – Rubio",
-      "description": "U.S. Secretary of State Marco Rubio stated that Ukraine’s NATO accession is currently not being considered, signalling a diplomatic warning.",
-      "lat": 50.45,
-      "lng": 32.42519999999999,
-      "severity": 2,
-      "location": "Kyiv, Ukraine",
-      "source": "RT News",
-      "url": "https://www.rt.com/news/646837-nato-membership-ukraine-rubio/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.10/thumbnail/6ac53ec22030275b020b7cef.jpg",
-      "ts": 1791334242000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://www.rt.com/news/646837-nato-membership-ukraine-rubio/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f9cf7d054970",
-      "title": "Yemeni forces launch offensive to retake al‑Waziiya in Taiz",
-      "description": "Yemen’s government forces began an assault on the Houthi‑held al‑Waziiya district, a strategic point for the Red Sea port of Mocha.",
-      "lat": 13.58,
-      "lng": 45.92519999999999,
-      "severity": 3,
-      "location": "Al‑Waziiya, Taiz, Yemen",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/7/yemeni-forces-launch-offensive-to-retake-houthi-held-al-waziiya-in-taiz?traffic_source=rss",
-      "image": null,
-      "ts": 1791333357000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/10/7/yemeni-forces-launch-offensive-to-retake-houthi-held-al-waziiya-in-taiz?traffic_source=rss"
           }
         ]
       }
