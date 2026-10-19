@@ -1,7 +1,144 @@
 {
   "schema": 1,
-  "updated": "2026-10-19T11:12:19.748543+00:00",
+  "updated": "2026-10-19T17:44:30.718280+00:00",
   "events": [
+    {
+      "id": "7d20b4f5e88a",
+      "title": "Riots erupt in Albania’s capital amid anti‑government protests",
+      "description": "Violent demonstrations spread through Tirana as opposition groups accuse the government of corruption and foreign interference.",
+      "lat": 41.3275,
+      "lng": 19.818899999999985,
+      "severity": 3,
+      "location": "Tirana, Albania",
+      "source": "RT News",
+      "url": "https://rt-english.com/news/647403-albania-protests-riots-russia/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.10/thumbnail/6ad643a485f54068fe3f5b83.jpg",
+      "ts": 1792431223000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://rt-english.com/news/647403-albania-protests-riots-russia/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5f23d651f529",
+      "title": "France imposes curfew in central Paris after weekend unrest",
+      "description": "French authorities placed an overnight curfew on parts of central Paris following several nights of riots and looting.",
+      "lat": 49.9566,
+      "lng": 2.3522000000000105,
+      "severity": 3,
+      "location": "Paris, France",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/france/20261019-live-french-pm-lecornu-calls-for-partial-curfews-in-cities-hit-by-riots-and-looting",
+      "image": null,
+      "ts": 1792429766000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/2026/1019/1595915-france-protests/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "88bee2d913af",
+      "title": "South Africa warned of possible loss of US AGOA trade benefits",
+      "description": "President Cyril Ramaphosa said South Africa must prepare for a potential exclusion from the United States’ duty‑free African Growth and Opportunity Act.",
+      "lat": -26.2041,
+      "lng": 28.0473,
+      "severity": 2,
+      "location": "Johannesburg, South Africa",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/south-africa-must-prepare-for-potential-loss-of-us-trade-benefits-president-says",
+      "image": null,
+      "ts": 1792424771000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/cyril-ramaphosa-tells-south-africa-to-prepare-for-loss-of-us-africa-trade-deal/article71603027.ece"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/south-africa-must-prepare-for-potential-loss-of-us-trade-benefits-president-says"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faadc580f31e",
+      "title": "Macky Sall withdraws candidacy for UN Secretary‑General",
+      "description": "Former Senegal President Macky Sall announced he is pulling out of the race for the United Nations Secretary‑General post.",
+      "lat": 14.6928,
+      "lng": -17.4467,
+      "severity": 1,
+      "location": "Dakar, Senegal",
+      "source": "All Africa",
+      "url": "https://allafrica.com/stories/202610190453.html",
+      "image": null,
+      "ts": 1792416141000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "All Africa",
+            "b": "center",
+            "u": "https://allafrica.com/stories/202610190453.html"
+          }
+        ]
+      }
+    },
     {
       "id": "8de16fc49679",
       "title": "China imposes export controls on tunnel‑boring machines sought by India",
@@ -297,6 +434,44 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/fatalities-injuries-reported-canadian-forces-base-wainwright-alberta-after-incident-sparked-fire"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a97e5f228ce2",
+      "title": "Flight from Tel Aviv makes emergency landing in Sofia after bomb threat",
+      "description": "A commercial aircraft diverted to Sofia Airport after a bomb threat was reported on board, prompting a precautionary landing.",
+      "lat": 42.6977,
+      "lng": 23.3219,
+      "severity": 2,
+      "location": "Sofia, Bulgaria",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/flight-tel-aviv-vienna-makes-emergency-landing-bulgaria-137365438",
+      "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
+      "ts": 1792365081000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/flight-tel-aviv-vienna-makes-emergency-landing-bulgaria-137365438"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/flight-from-tel-aviv-to-vienna-makes-emergency-landing-after-bomb-threat-13600784"
           }
         ]
       }
@@ -7358,171 +7533,6 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/politics/diplomacy/turkish-interior-minister-visits-greece-with-crime-fighting-agenda"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4f9c79bd6513",
-      "title": "Somalia: Somalia Says Al‑Shabab Amniyat Chief Killed in Nisa Operation",
-      "description": "Somali istihbarat, uluslararası ortaklarla yürütülen Nisa operasyonunda Al‑Şebab’ın Amniyat şubesinin başkanını öldürdü.",
-      "lat": 2.5,
-      "lng": 45.0,
-      "severity": 3,
-      "location": "Nisa, Somalia",
-      "source": "All Africa",
-      "url": "https://allafrica.com/stories/202610070420.html",
-      "image": null,
-      "ts": 1791378478000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "All Africa",
-            "b": "center",
-            "u": "https://allafrica.com/stories/202610070420.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7d28b0f08db5",
-      "title": "Japanese firm confirms it sold books to Anthropic",
-      "description": "Nippan IPS, yapay zeka şirketi Anthropic’e Aralık 2024‑2025 döneminde kitap satışı yaptı.",
-      "lat": 35.68,
-      "lng": 141.66520000000003,
-      "severity": 1,
-      "location": "Tokyo, Japan",
-      "source": "Japan Times",
-      "url": "https://www.japantimes.co.jp/business/2026/10/07/book-firm-anthropic/",
-      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/10/07/567409.JPG",
-      "ts": 1791376140000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/business/2026/10/07/book-firm-anthropic/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b824b3861c34",
-      "title": "Google ordered to halt work on two data centers in ‘Texas of Europe’",
-      "description": "Finlandiya, veri merkezleri projelerinin çevresel riskleri nedeniyle durdurulmasını kararlaştırdı.",
-      "lat": 60.17,
-      "lng": 24.94,
-      "severity": 2,
-      "location": "Helsinki, Finland",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/10/07/google-finland-data-center-halt.html",
-      "image": null,
-      "ts": 1791365162000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/10/07/google-finland-data-center-halt.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "079729d46ca8",
-      "title": "India raises interest rates for first time in 3 years",
-      "description": "La Reserve Bank of India aumenta i tassi per contenere l’inflazione, segnando una svolta nella politica monetaria.",
-      "lat": 28.61,
-      "lng": 77.21,
-      "severity": 3,
-      "location": "New Delhi, India",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/713ccee6-855f-48d8-acf1-161265041ad8?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1791356674000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/713ccee6-855f-48d8-acf1-161265041ad8?syn-25a6b1a6=1"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8e30875649c7",
-      "title": "Lee urges S. Korea to take global lead in green transformation",
-      "description": "Il presidente sudcoreano Lee Jae‑Myung chiama il Paese a guidare la transizione ecologica a livello mondiale.",
-      "lat": 39.21,
-      "lng": 127.93259999999998,
-      "severity": 2,
-      "location": "Seoul, South Korea",
-      "source": "Yonhap News",
-      "url": "https://en.yna.co.kr/view/AEN20261007007700315",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/07/PYH2026100717450001300_P2.jpg",
-      "ts": 1791356620000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20261007007700315"
           }
         ]
       }
