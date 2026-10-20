@@ -1,7 +1,174 @@
 {
   "schema": 1,
-  "updated": "2026-10-20T16:57:32.301115+00:00",
+  "updated": "2026-10-20T20:31:19.540356+00:00",
   "events": [
+    {
+      "id": "caae3313d1da",
+      "title": "Hegseth meets Netanyahu ahead of elections, possible Iran war restart",
+      "description": "U.S. Defense Secretary Pete Hegseth made an unannounced visit to Israel to discuss security matters just before national elections, amid speculation of renewed tensions with Iran.",
+      "lat": 31.78,
+      "lng": 35.22,
+      "severity": 3,
+      "location": "Jerusalem, Israel",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/hegseth-visits-israel-elections-iran-war-netanyahu/",
+      "image": null,
+      "ts": 1792526569000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/10/20/world/middleeast/hegseth-netanyahu-trump-israel-election.html"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/hegseth-visits-israel-elections-iran-war-netanyahu/"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://rt-english.com/news/647429-hegseth-netanyahu-secret-visit/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2acf93cb675e",
+      "title": "Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo",
+      "description": "Ukrainian President Volodymyr Zelensky praised the effectiveness of U.S. intelligence cooperation following a meeting with a Trump‑appointed envoy in Oslo.",
+      "lat": 61.01,
+      "lng": 12.655200000000008,
+      "severity": 1,
+      "location": "Oslo, Norway",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
+      "image": null,
+      "ts": 1792526464000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/putin-secret-meeting-trump-zelensky-37790946"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9OcXdwQnZ5LWxrMElfTGl2Z1MtRnhOVzBmdTZaYms5cVdPXzlQekFlYVdrUzFqMlc3RVBvWG00aE1ibTF2cTJZSUhyMVpaY2ppTkRCYXpQVjhvMmM?oc=5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b364be04f229",
+      "title": "Nigeria records first Ebola case of Africa's latest outbreak",
+      "description": "Nigeria confirmed its first Ebola infection in a woman who traveled from Uganda to Abuja, prompting contact‑tracing efforts.",
+      "lat": 9.07,
+      "lng": 7.48,
+      "severity": 3,
+      "location": "Abuja, Nigeria",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/10/20/breaking-nigeria-records-first-ebola-case-of-africas-latest-outbreak/",
+      "image": "http://images.euronews.com/articles/stories/09/96/06/58/640x360_cmsv2_02d05042-ff16-5ac9-a8e8-e5494f334f78-9960658.jpg?1792518782",
+      "ts": 1792523189000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/nigeria-confirms-ebola-case-abuja-woman-arrived-uganda-137420211"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/nigeria-records-its-first-ebola-case-in-capital-abuja/a-79717377?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/10/20/breaking-nigeria-records-first-ebola-case-of-africas-latest-outbreak/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "db54b126dad0",
+      "title": "Eastern Libya parliament approves maritime deal with Turkey, drawing Greek rejection",
+      "description": "Libya's eastern parliament in Benghazi signed a maritime boundaries agreement with Turkey, prompting Greece to condemn the pact as a violation of international law.",
+      "lat": 32.12,
+      "lng": 20.07,
+      "severity": 2,
+      "location": "Benghazi, Libya",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/10/eastern-libya-parliament-approves-maritime-deal-turkey-drawing-greek-rejection",
+      "image": null,
+      "ts": 1792521986000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/10/eastern-libya-parliament-approves-maritime-deal-turkey-drawing-greek-rejection"
+          },
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/libya-turkey-maritime-deal-parliament-2026/"
+          }
+        ]
+      }
+    },
     {
       "id": "58cf1b35b3f1",
       "title": "Albanian police clash with anti‑government protesters for an 8th day",
@@ -31,49 +198,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/albanian-police-clash-anti-government-protesters-8th-day-137417515"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2acf93cb675e",
-      "title": "Senior Ukrainian lawmaker, intel chief join Zelensky for Oslo talks with US",
-      "description": "Ukrainian officials met with US envoys in Oslo to discuss security and aid amid the war.",
-      "lat": 61.01,
-      "lng": 12.655200000000008,
-      "severity": 2,
-      "location": "Oslo, Norway",
-      "source": "TASS",
-      "url": "https://tass.com/world/2204873",
-      "image": null,
-      "ts": 1792514065000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/ck9qzn193lrlo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/europe/20261020-zelensky-oslo-for-talks-with-us-envoys-ukraine-claims-missile-holdup"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2204873"
           }
         ]
       }
@@ -7449,120 +7573,6 @@
             "n": "GNews Geopolitics",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUm45bHRGMFlmNEV2d2lTTkFvQURQckhMSGhYRlhxWUtOb1d2cGhCTnVXUEJaMF94S2xZNXFWMF9ONTVraWdWdnVOME04c2xyMk5tRnhHVjI3YVFmQTZIWVR6MXhDUUNram9tRjlsejRlRXVQUERDX3NkY2ZIVmlsOV9Ic0wxOVNPSmVCRmtVVExGcWZNY0tCTw?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "717ab730d7be",
-      "title": "German Chancellor tells Burnham he wants the UK 'closer and closer' to the EU as they hold talks in Berlin",
-      "description": "German Chancellor Friedrich Merz pledged to deepen ties with the UK during a meeting with Andy Burnham in Berlin, signalling a diplomatic outreach.",
-      "lat": 52.52,
-      "lng": 13.400000000000006,
-      "severity": 2,
-      "location": "Berlin, Germany",
-      "source": "Daily Mail World",
-      "url": "https://www.dailymail.com/news/article-16192179/French-minister-Burnham-Brexit-PM-Germany-EU-summit.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-      "image": "https://i.dailymail.com/1s/2026/10/08/14/111731181-0-image-m-25_1791466599489.jpg",
-      "ts": 1791477245000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Daily Mail World",
-            "b": "right",
-            "u": "https://www.dailymail.com/news/article-16192179/French-minister-Burnham-Brexit-PM-Germany-EU-summit.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1ec85607ce57",
-      "title": "Russian strike on buses kills at least 30, say officials, as deadly attacks on Ukraine surge",
-      "description": "Two crowded buses in the front‑line city of Kramatorsk were hit by Russian missiles, killing at least 30 civilians.",
-      "lat": 48.72,
-      "lng": 39.525199999999984,
-      "severity": 4,
-      "location": "Kramatorsk, Ukraine",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a5b/live/25d71060-c2fa-11f1-b8c6-6d610e41a5d9.jpg",
-      "ts": 1791477089000,
-      "coverage": {
-        "left": 3,
-        "center": 1,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/10/08/least-30-dead-russian-bus-strike-moscow-closes-ukraines-fortress-belt/"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/yandex-drone-attack-russian-google-37734385"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/death-toll-russian-strike-in-eastern-ukraine/article71559309.ece"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "50da83d7d070",
-      "title": "SoftBank and Grab to develop AI infrastructure in Malaysia's Sarawak",
-      "description": "Japanese conglomerate SoftBank and Southeast Asian ride‑hailing firm Grab announced a joint venture to build artificial‑intelligence data centers in Sarawak, boosting regional tech investment.",
-      "lat": 1.55,
-      "lng": 110.35,
-      "severity": 2,
-      "location": "Kuching, Malaysia",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/technology/softbank-and-grab-to-develop-ai-infrastructure-in-malaysia-s-sarawak",
-      "image": null,
-      "ts": 1791468087776,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Nikkei Asia",
-            "b": "center",
-            "u": "https://asia.nikkei.com/business/technology/softbank-and-grab-to-develop-ai-infrastructure-in-malaysia-s-sarawak"
           }
         ]
       }
