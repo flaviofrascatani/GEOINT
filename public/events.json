@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-10-19T22:17:29.333451+00:00",
+  "updated": "2026-10-20T01:13:44.735555+00:00",
   "events": [
+    {
+      "id": "2b6eca926eae",
+      "title": "South Korea's top military officer orders stern responses after N.K. threatens to deploy more weapons along border",
+      "description": "South Korea’s senior military commander ordered troops to prepare a firm response following North Korea’s threat to increase weapons deployments along the demilitarised zone.",
+      "lat": 38.67,
+      "lng": 128.8852,
+      "severity": 2,
+      "location": "Seoul, South Korea",
+      "source": "Yonhap News",
+      "url": "https://en.yna.co.kr/view/AEN20261020002700315",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/08/PYH2026100821270001300_P2.jpg",
+      "ts": 1792457987000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20261020002700315"
+          }
+        ]
+      }
+    },
+    {
+      "id": "73512a0f3c1a",
+      "title": "Ukrainian troops attack DPR communities 14 times in 24 hours, two injured",
+      "description": "Ukrainian forces carried out multiple attacks on settlements in the self‑declared Donetsk People's Republic, damaging civilian infrastructure and injuring two people.",
+      "lat": 48.01,
+      "lng": 39.70519999999999,
+      "severity": 3,
+      "location": "Donetsk, Ukraine",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2204409",
+      "image": null,
+      "ts": 1792456080000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2204409"
+          }
+        ]
+      }
+    },
+    {
+      "id": "544b08de9d2c",
+      "title": "US grants deportation reprieve to migrants from Ukraine and Sudan",
+      "description": "The Department of Homeland Security announced that temporary protected status for Ukrainian and Sudanese migrants will be extended, allowing them to remain in the United States.",
+      "lat": 38.9,
+      "lng": -75.1348,
+      "severity": 1,
+      "location": "Washington, United States",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan",
+      "image": null,
+      "ts": 1792449283000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan"
+          }
+        ]
+      }
+    },
     {
       "id": "0ca506cffff8",
       "title": "Overnight curfews announced in parts of Paris and Nice after riots across France",
@@ -135,6 +234,39 @@
             "n": "Jerusalem Post",
             "b": "center",
             "u": "https://www.jpost.com/middle-east/article-912181"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ebca3007a84d",
+      "title": "Japan launches mission to Mars to bring back samples from its moon",
+      "description": "Japan successfully launched the H3 rocket carrying the MMX probe toward Phobos, marking a historic step in lunar sample‑return exploration.",
+      "lat": 30.37,
+      "lng": 130.66,
+      "severity": 2,
+      "location": "Tanegashima, Japan",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/japan-launches-mission-to-mars-to-bring-back-samples-from-one-of-its-moons-13601139",
+      "image": "https://e3.365dm.com/26/10/1920x1080/skynews-japan-space_7381131.jpg?20261019212508",
+      "ts": 1792440240000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/japan-launches-mission-to-mars-to-bring-back-samples-from-one-of-its-moons-13601139"
           }
         ]
       }
@@ -279,10 +411,10 @@
     {
       "id": "faadc580f31e",
       "title": "Macky Sall officially withdraws his candidacy for UN Secretary‑General position",
-      "description": "The former Senegalese president announced his withdrawal, clearing the way for other contenders in the UN leadership race.",
+      "description": "Former Senegalese President Macky Sall announced his withdrawal from the race to become the next United Nations Secretary‑General.",
       "lat": 14.6928,
       "lng": -17.4467,
-      "severity": 2,
+      "severity": 1,
       "location": "Dakar, Senegal",
       "source": "All Africa",
       "url": "https://allafrica.com/stories/202610190453.html",
@@ -7406,138 +7538,6 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://www.rt.com/news/646908-iran-strikes-us-base-kuwait/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9a13f2081655",
-      "title": "US, Greece announce $4B arms sales as defense ties deepen",
-      "description": "The United States and Greece signed a $4 billion Foreign Military Sales deal to bolster Athens’ long‑term defence capabilities.",
-      "lat": 39.08,
-      "lng": 23.72999999999999,
-      "severity": 2,
-      "location": "Athens, Greece",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/business/defense/us-greece-announce-4b-arms-sales-as-defense-ties-deepen",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/10/07/464557.jpg",
-      "ts": 1791409200000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/business/defense/us-greece-announce-4b-arms-sales-as-defense-ties-deepen"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2309770bd5e0",
-      "title": "OFAC Targets Iran’s Aviation and Rail Sectors for Additional Sanctions",
-      "description": "The U.S. Office of Foreign Assets Control imposed new sanctions on Iran’s civil aviation and railway industries.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 3,
-      "location": "Tehran, Iran",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMkQ4eWE3amlqRTE5aGx1T0VzaHlncXJFcHY2TmRBMEtlZ1VHRlprRENaQllrdVY0NVVKdkxRaW56djNZem5kTTE2b1kxV1pYUDlwVmdvcVI3TFUwRVpHNmlJa283ZHgtV3V0ZzBKT0FOWmtQbEpuMnJGYmNRSEVJeEZDTWs5Sm1abndfUDVlWDExSGNDMkdOd2NtXzIzUi15VW80aFVEb0xFV1FGR1k2QzF2eVBYdVU?oc=5",
-      "image": null,
-      "ts": 1791408761000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMkQ4eWE3amlqRTE5aGx1T0VzaHlncXJFcHY2TmRBMEtlZ1VHRlprRENaQllrdVY0NVVKdkxRaW56djNZem5kTTE2b1kxV1pYUDlwVmdvcVI3TFUwRVpHNmlJa283ZHgtV3V0ZzBKT0FOWmtQbEpuMnJGYmNRSEVJeEZDTWs5Sm1abndfUDVlWDExSGNDMkdOd2NtXzIzUi15VW80aFVEb0xFV1FGR1k2QzF2eVBYdVU?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "349bd54f1c47",
-      "title": "‘The world is standing with you’: Christian leaders from 122 countries unite in Jerusalem for Oct 7",
-      "description": "The Friends of Zion summit gathered delegations from 122 nations in Jerusalem, featuring hostages and families sharing their stories.",
-      "lat": 31.78,
-      "lng": 37.12520000000001,
-      "severity": 1,
-      "location": "Jerusalem, Israel",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/world-standing-christian-leaders-122-countries-unite-jerusalem-oct-7",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/summit-oct7-jerusalem-hostages.jpg?ve=1&tl=1",
-      "ts": 1791407811000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/world-standing-christian-leaders-122-countries-unite-jerusalem-oct-7"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9615ae1cecae",
-      "title": "Michigan’s Mike Rogers says trade war with Canada needs to end",
-      "description": "U.S. Representative Mike Rogers urges an end to the trade dispute with Canada, calling for renewed cooperation.",
-      "lat": 42.73,
-      "lng": -84.55,
-      "severity": 2,
-      "location": "Lansing, United States",
-      "source": "Politico",
-      "url": "https://www.politico.com/news/2026/10/07/mike-rogers-canada-trade-war-01109815",
-      "image": "https://static.politico.com/31/7b/4eed8e4e4ead865d6eae5ef064a6/election-2-26-republicans-519.jpg",
-      "ts": 1791405269653,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Politico",
-            "b": "center",
-            "u": "https://www.politico.com/news/2026/10/07/mike-rogers-canada-trade-war-01109815"
           }
         ]
       }
