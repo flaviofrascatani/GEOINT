@@ -1,7 +1,199 @@
 {
   "schema": 1,
-  "updated": "2026-10-20T12:05:35.911931+00:00",
+  "updated": "2026-10-20T16:57:32.301115+00:00",
   "events": [
+    {
+      "id": "58cf1b35b3f1",
+      "title": "Albanian police clash with anti‑government protesters for an 8th day",
+      "description": "Police in Tirana used tear gas and water cannons to disperse demonstrators opposing the government.",
+      "lat": 41.33,
+      "lng": 19.819999999999993,
+      "severity": 3,
+      "location": "Tirana, Albania",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/albanian-police-clash-anti-government-protesters-8th-day-137417515",
+      "image": "https://s.abcnews.com/images/International/wirestory_76658d03cf1d00656c27ceabb7151b0a_4x3_384.jpg",
+      "ts": 1792514545000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/albanian-police-clash-anti-government-protesters-8th-day-137417515"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2acf93cb675e",
+      "title": "Senior Ukrainian lawmaker, intel chief join Zelensky for Oslo talks with US",
+      "description": "Ukrainian officials met with US envoys in Oslo to discuss security and aid amid the war.",
+      "lat": 61.01,
+      "lng": 12.655200000000008,
+      "severity": 2,
+      "location": "Oslo, Norway",
+      "source": "TASS",
+      "url": "https://tass.com/world/2204873",
+      "image": null,
+      "ts": 1792514065000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/ck9qzn193lrlo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/europe/20261020-zelensky-oslo-for-talks-with-us-envoys-ukraine-claims-missile-holdup"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2204873"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d77ee4d2968b",
+      "title": "Türkiye welcomes Libya's approval of maritime deal: Duran",
+      "description": "Turkey hailed Libya's unanimous approval of a new maritime boundary agreement, strengthening bilateral ties.",
+      "lat": 33.98,
+      "lng": 13.189999999999998,
+      "severity": 2,
+      "location": "Tripoli, Libya",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/politics/diplomacy/turkiye-welcomes-libyas-approval-of-maritime-deal-duran",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/10/20/466704.jpg",
+      "ts": 1792513140000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/politics/diplomacy/turkiye-welcomes-libyas-approval-of-maritime-deal-duran"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5ab243dc8f00",
+      "title": "RAF fighter jets set to be used to defend Saudi Arabia from Houthi aerial attacks",
+      "description": "The UK announced deployment of RAF fighters to protect Saudi airspace against missile strikes by Houthi rebels.",
+      "lat": 18.3,
+      "lng": 42.73,
+      "severity": 3,
+      "location": "Khamis Mushait, Saudi Arabia",
+      "source": "Daily Mail World",
+      "url": "https://www.dailymail.com/news/article-16223279/RAF-launch-defensive-actions-protect-Saudi-Arabia-Houthi-attacks.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "image": "https://c.ndtvimg.com/2026-10/sr548l7g_saudi-houthi-conflict_625x300_02_October_26.jpeg",
+      "ts": 1792504815000,
+      "coverage": {
+        "left": 3,
+        "center": 5,
+        "right": 3,
+        "total": 11,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 5,
+          "lean_right": 0,
+          "right": 3
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/10/20/world/europe/uk-saudi-arabia-houthis-raf-typhoon-fighter-jets.html"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/uk-to-deploy-fighter-jets-to-support-saudi-arabia-against-houthi-attacks-12211076#publisher=newsstand"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/10/20/uk-promises-fighter-jets-to-help-protect-saudi-from-houthi-attacks_6759832_4.html"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/10/20/uk-fighter-jets-saudi-houthi-attacks-iran.html"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/another-country-will-send-military-help-saudi-arabia-it-grapples-escalating-houthi-attacks-3808765"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd1EtQlVBeUdvX1BnaEx2cXI4ZVVleTdNSlJ2dUR2eXdWeEpwVl9SandQVEpadDVrdzVEM1k0a2NfRXhpSURuOFZtRzdnOWtsNGZncFhtcV9OZ3kxQ1Y1RDRYN1FLNG11V2Y4dFQwbnRqOXJQZDBySEhMWUxrVGZwQ0tPS0N4TXpZVGxkeFRwU3BTWkoxMnNTa1JsNTlPYjZDSFJhNDZFazJsSXc?oc=5"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/10/houthi-attacks-undermine-saudi-arabias-economic-ambitions"
+          },
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/uk-to-deploy-fighter-jets-to-defend-saudi-arabia-against-houthi-attacks/"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/saudi-arabia-edge-iconic-kingdom-centre-sends-workers-home-amid-houthi-attacks"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/europe/2026/10/20/uk-dispatches-fighter-jets-to-defend-saudi-arabia-from-houthi-attacks/"
+          },
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/news/article-16223279/RAF-launch-defensive-actions-protect-Saudi-Arabia-Houthi-attacks.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+          }
+        ]
+      }
+    },
     {
       "id": "fe8ec04d37b0",
       "title": "Polaris to launch $630m private credit fund, one of Japan's largest",
@@ -1281,59 +1473,6 @@
             "n": "MercoPress",
             "b": "center",
             "u": "https://en.mercopress.com/2026/10/18/lula-s-campaign-takes-alleged-meta-favouritism-towards-bolsonaro-to-the-un-and-federal-police?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5ab243dc8f00",
-      "title": "Egypt's top security body agrees to help Saudi Arabia defend itself against Houthi attacks",
-      "description": "Egypt's security council pledged military assistance to Saudi Arabia in its fight against Iranian‑backed Houthi rebels in Yemen.",
-      "lat": 18.3,
-      "lng": 42.73,
-      "severity": 2,
-      "location": "Khamis Mushait, Saudi Arabia",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/egypts-top-security-body-agrees-saudi-arabia-defend-137364690",
-      "image": "https://c.ndtvimg.com/2026-10/sr548l7g_saudi-houthi-conflict_625x300_02_October_26.jpeg",
-      "ts": 1792350489000,
-      "coverage": {
-        "left": 3,
-        "center": 2,
-        "right": 0,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/egypts-top-security-body-agrees-saudi-arabia-defend-137364690"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/10/18/gcc-condemns-houthi-attacks-on-saudi-arabia-as-yemen-fighting-intensifies?traffic_source=rss"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/iran-backs-political-process-to-resolve-saudi-houthi-conflict-fm/article71596732.ece"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/saudi-arabia-sends-skyscraper-employees-home-amid-houthi-threats/a-79693225?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/video-egypt-thrashes-saudi-arabia-5-0-in-u-17-gulf-cup/"
           }
         ]
       }
@@ -7424,105 +7563,6 @@
             "n": "Nikkei Asia",
             "b": "center",
             "u": "https://asia.nikkei.com/business/technology/softbank-and-grab-to-develop-ai-infrastructure-in-malaysia-s-sarawak"
-          }
-        ]
-      }
-    },
-    {
-      "id": "11e72fbf81d6",
-      "title": "Turkey's foreign minister says Ankara weighing Saudi defence support, rules out offensive role",
-      "description": "Ankara is evaluating assistance to Saudi Arabia for defending against Houthi attacks under a joint defence pact with Pakistan, while explicitly rejecting any offensive deployment.",
-      "lat": 39.93,
-      "lng": 32.86,
-      "severity": 2,
-      "location": "Ankara, Turkey",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/10/turkeys-foreign-minister-says-ankara-weighing-saudi-defence-support-rules-out",
-      "image": null,
-      "ts": 1791467192000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/10/turkeys-foreign-minister-says-ankara-weighing-saudi-defence-support-rules-out"
-          }
-        ]
-      }
-    },
-    {
-      "id": "310d95580811",
-      "title": "\"Exploited State Secrets for Profit\": German Intelligence Rocked by Espionage Arrest of Former Chief",
-      "description": "Former BND chief August Hanning was arrested on espionage charges, raising concerns about intelligence security in Germany.",
-      "lat": 52.52,
-      "lng": 13.400000000000006,
-      "severity": 3,
-      "location": "Berlin, Germany",
-      "source": "Der Spiegel International",
-      "url": "https://www.spiegel.de/international/germany/exploited-state-secrets-for-profit-german-intelligence-rocked-by-espionage-arrest-of-former-chief-a-06a62002-0fc7-4bc0-b7c7-5e6e9c829d0f#ref=rss",
-      "image": "https://cdn.prod.www.spiegel.de/images/241cb30c-820b-44b2-9e51-80858da893bf_w520_r2.08_fpx48_fpy56.jpg",
-      "ts": 1791466200000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Der Spiegel International",
-            "b": "lean_left",
-            "u": "https://www.spiegel.de/international/germany/exploited-state-secrets-for-profit-german-intelligence-rocked-by-espionage-arrest-of-former-chief-a-06a62002-0fc7-4bc0-b7c7-5e6e9c829d0f#ref=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4ee610a84bd3",
-      "title": "S. Korean military detonates suspected N. Korean land mine washed ashore on west coast",
-      "description": "South Korean forces safely detonated an unexploded device believed to be a North Korean land mine that had drifted to the country's western shoreline.",
-      "lat": 37.46,
-      "lng": 128.6352,
-      "severity": 3,
-      "location": "Incheon, South Korea",
-      "source": "Yonhap News",
-      "url": "https://en.yna.co.kr/view/AEN20261008009000315",
-      "image": "https://img.yna.co.kr/etc/inner/EN/2026/10/08/AEN20261008009000315_01_i_P2.jpg",
-      "ts": 1791465448000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20261008009000315"
           }
         ]
       }
