@@ -1,7 +1,108 @@
 {
   "schema": 1,
-  "updated": "2026-10-21T13:11:18.174053+00:00",
+  "updated": "2026-10-21T18:14:31.546492+00:00",
   "events": [
+    {
+      "id": "22dbce5248e4",
+      "title": "Iran says indirect talks with U.S. on ceasefire proposal continue",
+      "description": "Iran announced ongoing indirect negotiations with the United States regarding a seven‑day ceasefire in the Ukraine war.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-ceasefire-talks-ongoing/",
+      "image": null,
+      "ts": 1792606099000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-trump-us-ceasefire-talks-ongoing/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "312182f92214",
+      "title": "Putin agrees to resume 3‑way peace talks with Ukraine and US",
+      "description": "Russian President Vladimir Putin announced the restart of trilateral peace talks involving Ukraine and the United States.",
+      "lat": 55.75,
+      "lng": 37.620000000000005,
+      "severity": 1,
+      "location": "Moscow, Russia",
+      "source": "Google News Top",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQXZaYTY5blYzZWJWYkJaQnI2M2RSSGJUcnpzSF9OMldoZjZxckRDRzhyb2JReEVNbEE5bjdZcUZlNzJ2b0YzQkRIZjltamVxVHVSaElldGhNUmlFZzdmZHpPOFBOSDNhbFV0NEdpYXBBN0w3VjlHV0JkSVQ3NG1hMHJMay14MWNuNDdQTldXaVE2Z205bjFkN05lVUh4TkloZWFvSm5FcGp0aS1nQ2JKcmNGTHB1NDhqdWJCaEM2NnoyRUE?oc=5",
+      "image": null,
+      "ts": 1792597478000,
+      "coverage": {
+        "left": 1,
+        "center": 6,
+        "right": 1,
+        "total": 8,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 6,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/us-envoy-witkoff-meets-putin-in-saint-petersburg/article71606691.ece"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/putin-ready-hold-talks-us-ukraine-seek-end-war-3808825"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/world/2026/1021/1596208-ukraine-russia/"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/d7345d46-f000-49b1-99f6-57edfbd5f0af?syn-25a6b1a6=1"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQXZaYTY5blYzZWJWYkJaQnI2M2RSSGJUcnpzSF9OMldoZjZxckRDRzhyb2JReEVNbEE5bjdZcUZlNzJ2b0YzQkRIZjltamVxVHVSaElldGhNUmlFZzdmZHpPOFBOSDNhbFV0NEdpYXBBN0w3VjlHV0JkSVQ3NG1hMHJMay14MWNuNDdQTldXaVE2Z205bjFkN05lVUh4TkloZWFvSm5FcGp0aS1nQ2JKcmNGTHB1NDhqdWJCaEM2NnoyRUE?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-10-21/putin-meets-us-envoy-witkoff-to-discuss-ukraine-peace-proposals"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/10/21/russia-frees-jailed-american-as-putin-meets-us-envoy-for-ukraine-talks/"
+          },
+          {
+            "n": "Daily Star World",
+            "b": "right",
+            "u": "https://www.dailystar.co.uk/news/world-news/breaking-special-envoy-commends-putin-37795509"
+          }
+        ]
+      }
+    },
     {
       "id": "5368e299b01d",
       "title": "IDF detains 90 West Bank olive harvest volunteers, including US congressional nominee",
@@ -7367,72 +7468,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/ethiopia-tells-acting-defense-eritrea-137153814"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f7f42e750451",
-      "title": "Government proposes €141bn cut to EU budget",
-      "description": "Il governo irlandese ha proposto un taglio di 141 miliardi di euro al bilancio pluriennale dell'UE.",
-      "lat": 53.35,
-      "lng": -6.26,
-      "severity": 2,
-      "location": "Dublin, Ireland",
-      "source": "RTE News",
-      "url": "https://www.rte.ie/news/europe/2026/1010/1594807-eu-budget/",
-      "image": "https://www.rte.ie/images/00252648-800.jpg",
-      "ts": 1791616363000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/europe/2026/1010/1594807-eu-budget/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7bf27cfabc2f",
-      "title": "US Ships US$75 Million of Fuel to Cuba in August",
-      "description": "U.S. fuel exports to Cuba reached almost $75 million in August, marking a significant increase in trade between the two countries.",
-      "lat": 23.12,
-      "lng": -82.38,
-      "severity": 2,
-      "location": "Havana, Cuba",
-      "source": "Rio Times",
-      "url": "https://www.riotimesonline.com/us-ships-fuel-to-cuba-august-2026/",
-      "image": null,
-      "ts": 1791609567000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Rio Times",
-            "b": "center",
-            "u": "https://www.riotimesonline.com/us-ships-fuel-to-cuba-august-2026/"
           }
         ]
       }
