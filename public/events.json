@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-10-21T01:58:34.056061+00:00",
+  "updated": "2026-10-21T07:29:58.294728+00:00",
   "events": [
+    {
+      "id": "109a046e67e7",
+      "title": "Does Singapore’s tougher stance on haze mark an inflection point?",
+      "description": "Singapore announced it will pursue companies responsible for Indonesian forest fires that cause regional haze, signaling a firmer environmental policy.",
+      "lat": 1.35,
+      "lng": 103.82,
+      "severity": 2,
+      "location": "Singapore, Singapore",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/week-asia/health-environment/article/3371620/does-singapores-tougher-stance-haze-mark-inflection-point",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/21/7a180f7b-cae4-4c65-8687-56e60ab0609a_e52e727b.jpg?itok=xXspa9cC&v=1792567344",
+      "ts": 1792567358000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/week-asia/health-environment/article/3371620/does-singapores-tougher-stance-haze-mark-inflection-point"
+          }
+        ]
+      }
+    },
+    {
+      "id": "201076b55e34",
+      "title": "Russian stock market turns lower after opening gains",
+      "description": "The Moscow Exchange saw a decline in its main indices after an initial rise at the start of the trading session.",
+      "lat": 55.75,
+      "lng": 37.620000000000005,
+      "severity": 3,
+      "location": "Moscow, Russia",
+      "source": "TASS",
+      "url": "https://tass.com/economy/2205103",
+      "image": null,
+      "ts": 1792567149000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/economy/2205103"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4a01fc43e625",
+      "title": "Deutscher in Russland wegen „Söldnertums“ für die Ukraine festgenommen",
+      "description": "Der russische Geheimdienst FSB hat einen deutschen Staatsbürger in Russland wegen mutmaßlicher Söldnertätigkeit für die ukrainischen Streitkräfte festgenommen.",
+      "lat": 56.85,
+      "lng": 39.525199999999984,
+      "severity": 3,
+      "location": "Moscow, Russia",
+      "source": "Die Welt",
+      "url": "https://www.welt.de/politik/ausland/article6ad863ab29754e92ee68e077/deutscher-in-russland-wegen-soeldnertums-fuer-die-ukraine-festgenommen.html",
+      "image": "https://images.welt.de/6ad863ab29754e92ee68e077/76815262da6376538f31279cd562d457-master/ci23x11-w1200/apdpa-75ed399b9ea5454eb8c7dedbab4efee1-jpg",
+      "ts": 1792567001000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Die Welt",
+            "b": "lean_right",
+            "u": "https://www.welt.de/politik/ausland/article6ad863ab29754e92ee68e077/deutscher-in-russland-wegen-soeldnertums-fuer-die-ukraine-festgenommen.html"
+          }
+        ]
+      }
+    },
     {
       "id": "bf9232273c57",
       "title": "UK under pressure to align with EU duties on Chinese EVs",
@@ -37,25 +136,25 @@
     },
     {
       "id": "5ab243dc8f00",
-      "title": "UK fighter jets to protect Saudi Arabia from Houthi attacks",
-      "description": "The United Kingdom deployed fighter aircraft to Saudi Arabia to help defend against missile and drone attacks by Iran‑aligned Houthi rebels.",
+      "title": "RAF fighter jets set to be used to defend Saudi Arabia from Houthi aerial attacks",
+      "description": "The UK will deploy RAF fighter jets to create a defensive shield over Saudi Arabia against missile attacks by Houthi rebels.",
       "lat": 18.3,
       "lng": 42.73,
-      "severity": 4,
+      "severity": 3,
       "location": "Khamis Mushait, Saudi Arabia",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/uk-fighter-jets-to-protect-saudi-arabia-from-houthi-attacks/a-79718467?maca=en-rss-en-all-1573-rdf",
+      "source": "Daily Mail World",
+      "url": "https://www.dailymail.com/news/article-16223279/RAF-launch-defensive-actions-protect-Saudi-Arabia-Houthi-attacks.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
       "image": "https://c.ndtvimg.com/2026-10/sr548l7g_saudi-houthi-conflict_625x300_02_October_26.jpeg",
       "ts": 1792547913919,
       "coverage": {
         "left": 2,
-        "center": 2,
+        "center": 3,
         "right": 3,
-        "total": 7,
+        "total": 8,
         "buckets": {
           "left": 0,
           "lean_left": 2,
-          "center": 2,
+          "center": 3,
           "lean_right": 1,
           "right": 2
         },
@@ -76,6 +175,11 @@
             "u": "https://www.dw.com/en/uk-fighter-jets-to-protect-saudi-arabia-from-houthi-attacks/a-79718467?maca=en-rss-en-all-1573-rdf"
           },
           {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/videos/2026-10-21/uk-to-defend-saudi-arabia-from-houthi-attacks-video"
+          },
+          {
             "n": "Egypt Independent",
             "b": "center",
             "u": "https://www.egyptindependent.com/uk-to-deploy-fighter-jets-to-defend-saudi-arabia-against-houthi-attacks/"
@@ -94,6 +198,39 @@
             "n": "Daily Mail World",
             "b": "right",
             "u": "https://www.dailymail.com/news/article-16223279/RAF-launch-defensive-actions-protect-Saudi-Arabia-Houthi-attacks.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dad36a1a7f17",
+      "title": "Argentina and the UK to face off in Hamburg on November 10 over Falklands oil",
+      "description": "The International Tribunal for the Law of the Sea will hear Argentina's request to halt the UK's Sea Lion oil project near the Falklands.",
+      "lat": 52.61,
+      "lng": -0.12999999999999545,
+      "severity": 2,
+      "location": "London, United Kingdom",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/10/21/argentina-and-the-uk-to-face-off-in-hamburg-on-november-10-over-falklands-oil?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": "https://en.mercopress.com/data/cache/noticias/111832/100x80/sea.jpg",
+      "ts": 1792547160000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/10/21/argentina-and-the-uk-to-face-off-in-hamburg-on-november-10-over-falklands-oil?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
           }
         ]
       }
@@ -132,6 +269,39 @@
             "n": "Google News Top",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMidkFVX3lxTE05TXhCNE5nTDBJcEZteGFUWGtLMHY5bmlkOXBBajNqMlpqbkF4Q2wwOVZjN2E2YWhSU2p6YmJoTmpwUW1VMkVqUEhSZjc3N1hMdVZwR3RjazBCdHRVZmptaEtpN2dtV3hzcHYwb2NadVlYZFlaMkE?oc=5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8b94c049cdfe",
+      "title": "Uganda reacts angrily as Nigeria confirms its first Ebola case",
+      "description": "Uganda expressed strong displeasure after Nigeria reported its first Ebola case, highlighting regional health security concerns.",
+      "lat": 10.17,
+      "lng": 9.385199999999998,
+      "severity": 3,
+      "location": "Abuja, Nigeria",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/nigeria-confirms-ebola-case-as-outbreak-continues-to-spread-13601748",
+      "image": "https://e3.365dm.com/26/08/1920x1080/skynews-ebola-congo_7323686.jpg?20260816231920",
+      "ts": 1792543140000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/nigeria-confirms-ebola-case-as-outbreak-continues-to-spread-13601748"
           }
         ]
       }
@@ -7408,181 +7578,6 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/who-navi-pillay-nobel-peace-prize-winners-un-record-renews-fierce-antisemitism-accusations"
-          }
-        ]
-      }
-    },
-    {
-      "id": "70feb443da8c",
-      "title": "Massive 7.7 magnitude earthquake strikes Panama as officials investigate potential tsunami threat",
-      "description": "A powerful 7.7‑magnitude quake hits Panama’s southern coast, prompting tsunami warnings across the region.",
-      "lat": 8.98,
-      "lng": -79.52,
-      "severity": 3,
-      "location": "Panama City, Panama",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/massive-7-7-magnitude-earthquake-strikes-panama-officials-investigate-potential-tsunami-threat",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/panama-earthquake.png?ve=1&tl=1",
-      "ts": 1791571000000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/massive-7-7-magnitude-earthquake-strikes-panama-officials-investigate-potential-tsunami-threat"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d8f0bac8db80",
-      "title": "Estados Unidos sanciona a la Corte Penal Internacional horas después del Nobel de la Paz a una exjueza",
-      "description": "EEUU impone sanciones a la Corte Penal Internacional tras la entrega del Nobel de la Paz a Navi Pillay.",
-      "lat": 53.18,
-      "lng": 6.21520000000001,
-      "severity": 3,
-      "location": "The Hague, Netherlands",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/10/09/estados-unidos-sanciona-a-la-corte-penal-internacional-horas-despues-del-nobel-de-la-paz-a-una-exjueza?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111714/100x80/nannad.jpg",
-      "ts": 1791568860000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/10/09/estados-unidos-sanciona-a-la-corte-penal-internacional-horas-despues-del-nobel-de-la-paz-a-una-exjueza?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "da5a9b6f76d9",
-      "title": "The ICC strongly rejects US sanctions against the institution",
-      "description": "The International Criminal Court publicly denounces recent US sanctions targeting the court.",
-      "lat": 53.18,
-      "lng": 4.310000000000002,
-      "severity": 1,
-      "location": "The Hague, Netherlands",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSVZwUEMzamgxUzl4TTJ6aVdJWTJpbEpUc2RqR0IxTXg5MmV1QkVjRmhnb2x2blVDdGRyM2dFNkhQZHBObFlwZUlBXzg0U3VNV3NPNUdScEh5bHBMVzRVSWxrZjNIUmZNdVpmUmdwLWFZTlJNbjUyd2xUWi14SXJlSTM2Y3BTS2VHRXc?oc=5",
-      "image": null,
-      "ts": 1791559312000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSVZwUEMzamgxUzl4TTJ6aVdJWTJpbEpUc2RqR0IxTXg5MmV1QkVjRmhnb2x2blVDdGRyM2dFNkhQZHBObFlwZUlBXzg0U3VNV3NPNUdScEh5bHBMVzRVSWxrZjNIUmZNdVpmUmdwLWFZTlJNbjUyd2xUWi14SXJlSTM2Y3BTS2VHRXc?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "fffbda5a7561",
-      "title": "Imposing Sanctions on the International Criminal Court - U.S. Department of State",
-      "description": "Il Dipartimento di Stato degli Stati Uniti ha annunciato sanzioni contro la Corte Penale Internazionale.",
-      "lat": 52.07,
-      "lng": 6.205199999999991,
-      "severity": 3,
-      "location": "The Hague, Netherlands",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbF9kWkF3dlFITzZHa29JMy1kaVFqTHRuUXl1eGtqODU0SGpHU2NjOER5WU9iY1pRZVRvSmJmT2h5VUhmc0VXeGhoRWdNX2FHUEtRYkx3NkEwZDQtdk1yRU9lRnREcWdNZU5kSVU0QVpGRDlzWWtpWC1xTF9MMkltMTFqRllmUm9QX2NxYXEyUzVnRUk2WW5JbVdwNTl2b3FKdjZENy1NY0RRSmNXTzFIcnBEQ1RmYkJ3eGc?oc=5",
-      "image": null,
-      "ts": 1791557836000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/10/09/trump-hits-international-criminal-court-with-new-us-sanctions/"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbF9kWkF3dlFITzZHa29JMy1kaVFqTHRuUXl1eGtqODU0SGpHU2NjOER5WU9iY1pRZVRvSmJmT2h5VUhmc0VXeGhoRWdNX2FHUEtRYkx3NkEwZDQtdk1yRU9lRnREcWdNZU5kSVU0QVpGRDlzWWtpWC1xTF9MMkltMTFqRllmUm9QX2NxYXEyUzVnRUk2WW5JbVdwNTl2b3FKdjZENy1NY0RRSmNXTzFIcnBEQ1RmYkJ3eGc?oc=5"
-          },
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/10/09/us-sanctions-the-international-criminal-court-hours-after-a-former-judge-wins-the-nobel-peace-prize?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2b7912c3cb3c",
-      "title": "Sottosegretario Dell'Utri alla Arctic Circle Assembly di Reykjavik — Ribadito l'impegno dell'Italia nella regione artica",
-      "description": "Il sottosegretario italiano ha partecipato all'Assemblea dell'Artico a Reykjavik, ribadendo l'impegno dell'Italia nella cooperazione artica.",
-      "lat": 64.13,
-      "lng": -21.9,
-      "severity": 1,
-      "location": "Reykjavik, Iceland",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/09/sottosegretario-dellutri-alla-arctic-circle-assembly-di-reykjavik_e4309ff2-7e0f-4c56-a7a6-291bdfe193a1.html",
-      "image": null,
-      "ts": 1791553641000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/09/sottosegretario-dellutri-alla-arctic-circle-assembly-di-reykjavik_e4309ff2-7e0f-4c56-a7a6-291bdfe193a1.html"
           }
         ]
       }
