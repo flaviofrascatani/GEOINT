@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-10-22T11:43:19.484355+00:00",
+  "updated": "2026-10-22T17:04:56.186002+00:00",
   "events": [
+    {
+      "id": "21d1ef37be5e",
+      "title": "U.S. Secretary of State says Ukraine conflict can only be resolved through talks, U.S. ready to act as mediator",
+      "description": "The United States offers to mediate between Russia and Ukraine, emphasizing diplomatic negotiations as the sole path to peace.",
+      "lat": 38.9,
+      "lng": -77.04,
+      "severity": 2,
+      "location": "Washington, D.C., USA",
+      "source": "TASS",
+      "url": "https://tass.com/world/2206437",
+      "image": null,
+      "ts": 1792688021000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2206437"
+          }
+        ]
+      }
+    },
+    {
+      "id": "10c3240813cd",
+      "title": "French debt risk premium reaches eurozone sovereign crisis levels",
+      "description": "Investors demand a risk premium on French bonds comparable to the 2010 eurozone crisis, signalling heightened financial stress in France.",
+      "lat": 48.86,
+      "lng": 2.3499999999999943,
+      "severity": 3,
+      "location": "Paris, France",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/business/economy/french-debt-risk-premium-reaches-eurozone-sovereign-crisis-levels",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/10/22/467081.jpg",
+      "ts": 1792686900000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/business/economy/french-debt-risk-premium-reaches-eurozone-sovereign-crisis-levels"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f03924511c4f",
+      "title": "Greece, Egypt in talks to extend maritime zone further east",
+      "description": "Athens and Cairo discuss expanding their exclusive economic zones eastward toward Cyprus after Libya's parliament ratified a disputed deal with Turkey.",
+      "lat": 39.08,
+      "lng": 25.635199999999998,
+      "severity": 2,
+      "location": "Athens, Greece",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/10/greece-egypt-talks-extend-maritime-zone-further-east",
+      "image": null,
+      "ts": 1792684030000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/10/greece-egypt-talks-extend-maritime-zone-further-east"
+          }
+        ]
+      }
+    },
     {
       "id": "4cf4768430ab",
       "title": "South Korea and the United States hold combined river‑crossing drills",
@@ -97,6 +196,49 @@
             "n": "The Africa Report",
             "b": "center",
             "u": "https://www.theafricareport.com/434212/niger-two-western-hostages-released-in-libya-after-more-than-18-months-in-islamic-state-captivity/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "93f13ad4f6c5",
+      "title": "France reports first Shamonda virus case in human who later died",
+      "description": "French health authorities confirm the first human infection of the livestock‑borne Shamonda virus, resulting in a fatality.",
+      "lat": 48.86,
+      "lng": 2.3499999999999943,
+      "severity": 1,
+      "location": "Paris, France",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/france-reports-first-shamonda-virus-case-in-human-who-later-died-13602182",
+      "image": "https://e3.365dm.com/26/10/1920x1080/skynews-stock-cow-france_7383619.jpg?20261022121549",
+      "ts": 1792658280000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/france-reports-first-shamonda-virus-case-in-human-who-later-died-13602182"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/france-confirms-first-shamonda-virus-infection-in-a-human-death-of-severely-immunocompromised-individual/a-79731991?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Daily Star World",
+            "b": "right",
+            "u": "https://www.dailystar.co.uk/news/latest-news/terrifying-new-cattle-virus-infects-37800429"
           }
         ]
       }
@@ -7256,138 +7398,6 @@
             "n": "Egypt Independent",
             "b": "center",
             "u": "https://www.egyptindependent.com/authorities-successfully-rescue-nile-cruise-ship-carrying-99-tourists/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "48280b9650a8",
-      "title": "A migrant boat sank off the coast of Djibouti with the UN reporting over 200 people dead or missing",
-      "description": "Un'imbarcazione carica di migranti è affondata al largo di Djibouti, causando almeno 109 morti e più di 116 dispersi.",
-      "lat": 11.57,
-      "lng": 43.15,
-      "severity": 3,
-      "location": "Djibouti, Djibouti",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/a-migrant-boat-sank-off-the-coast-of-djibouti-with-the-un-reporting-over-200-people-dead-or-missing/a-79633644?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1791725270487,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/a-migrant-boat-sank-off-the-coast-of-djibouti-with-the-un-reporting-over-200-people-dead-or-missing/a-79633644?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a2ab8ec01695",
-      "title": "Allerta in Polonia: \"C'è un piano per uccidere il premier Tusk\"",
-      "description": "Il ministero dell'Interno ha convocato un incontro d'urgenza per fronteggiare un presunto complotto contro il premier Donald Tusk.",
-      "lat": 53.33,
-      "lng": 21.00999999999999,
-      "severity": 2,
-      "location": "Warsaw, Poland",
-      "source": "AGI Estero",
-      "url": "https://www.agi.it/estero/news/2026-10-11/polonia-piano-uccidere-tusk-riunione-emergenza-39479390/",
-      "image": "https://images.agi.it/pictures/agi/agi/2026/10/11/100553027-7128020e-b631-4de5-8c1a-72dabd71d5f3.jpg",
-      "ts": 1791725127000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-10-11/polonia-piano-uccidere-tusk-riunione-emergenza-39479390/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5cc97e33ec38",
-      "title": "Sudan: Diplomatic Setbacks Undermine U.S. Approach to Sudan",
-      "description": "Negli ultimi due settimane Washington ha subito una serie di sconfitte diplomatiche nel tentativo di spingere il Sudan verso un accordo di cessate il fuoco.",
-      "lat": 16.69,
-      "lng": 32.53999999999999,
-      "severity": 3,
-      "location": "Khartoum, Sudan",
-      "source": "All Africa",
-      "url": "https://allafrica.com/stories/202610110093.html",
-      "image": null,
-      "ts": 1791723009000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "All Africa",
-            "b": "center",
-            "u": "https://allafrica.com/stories/202610110093.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9a8696d965d6",
-      "title": "Sudan: Diplomatic Setbacks Undermine U.S. Approach to Sudan",
-      "description": "Recent diplomatic defeats have hampered Washington’s effort to push Sudanese authorities toward a cease‑fire agreement.",
-      "lat": 16.69,
-      "lng": 34.4452,
-      "severity": 3,
-      "location": "Khartoum, Sudan",
-      "source": "All Africa",
-      "url": "https://allafrica.com/stories/202610110093.html",
-      "image": null,
-      "ts": 1791723009000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "All Africa",
-            "b": "center",
-            "u": "https://allafrica.com/stories/202610110093.html"
           }
         ]
       }
