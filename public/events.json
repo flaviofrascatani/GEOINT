@@ -1,7 +1,116 @@
 {
   "schema": 1,
-  "updated": "2026-10-22T17:04:56.186002+00:00",
+  "updated": "2026-10-22T20:32:28.050202+00:00",
   "events": [
+    {
+      "id": "da4f38b78324",
+      "title": "Elon Musk's Starlink and Starshield, and what they mean to Ukraine",
+      "description": "Starlink e Starshield di Musk forniscono connettività e capacità di difesa a Ucraina nella guerra contro la Russia.",
+      "lat": 50.45,
+      "lng": 32.42519999999999,
+      "severity": 1,
+      "location": "Kyiv, Ukraine",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/elon-musk-starlink-starshield-ukraine-russia/",
+      "image": null,
+      "ts": 1792700934000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/elon-musk-starlink-starshield-ukraine-russia/"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/10/22/elon-musk-ukraine-starlink-alternatives.html"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-10-22/trump-called-musk-to-lift-starlink-limits-in-ukraine-wsj-says"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8b4cea027d32",
+      "title": "OpenAI nears up to $30 billion funding round led by UAE investors",
+      "description": "OpenAI sta per chiudere un round di finanziamento da quasi 30 miliardi di dollari, con investitori principali provenienti dagli Emirati Arabi Uniti.",
+      "lat": 24.47,
+      "lng": 54.37,
+      "severity": 2,
+      "location": "Abu Dhabi, United Arab Emirates",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
+      "image": null,
+      "ts": 1792700216000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5c112b212a1b",
+      "title": "Houthis claim they rescued 14 Indians from yacht",
+      "description": "I ribelli Houthi hanno affermato di aver salvato quattordici cittadini indiani da uno yacht in pericolo nel Mar Rosso.",
+      "lat": 15.5,
+      "lng": 42.0,
+      "severity": 3,
+      "location": "Red Sea",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/houthis-claim-they-rescued-14-indians-from-yacht-india-says-extending-help-12222528#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-10/ttqcfg5g_yacht-unsplash_625x300_23_October_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1792694128000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/houthis-claim-they-rescued-14-indians-from-yacht-india-says-extending-help-12222528#publisher=newsstand"
+          }
+        ]
+      }
+    },
     {
       "id": "21d1ef37be5e",
       "title": "U.S. Secretary of State says Ukraine conflict can only be resolved through talks, U.S. ready to act as mediator",
@@ -64,6 +173,39 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/business/economy/french-debt-risk-premium-reaches-eurozone-sovereign-crisis-levels"
+          }
+        ]
+      }
+    },
+    {
+      "id": "64acfaf6ad7b",
+      "title": "Newborn twins fight for survival as conflict fuels Yemen's hunger crisis",
+      "description": "Due neonati rifugiati a causa delle ostilità tra forze governative e Houthis affrontano una grave crisi alimentare.",
+      "lat": 15.35,
+      "lng": 44.21,
+      "severity": 3,
+      "location": "Sana'a, Yemen",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6f6f/live/0c562b60-ce2d-11f1-9f18-490cec60aa0f.jpg",
+      "ts": 1792684596000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
@@ -7261,143 +7403,6 @@
             "n": "France 24",
             "b": "center",
             "u": "https://www.france24.com/en/europe/20261011-slovenia-bill-pm-janez-jansa-reform"
-          }
-        ]
-      }
-    },
-    {
-      "id": "fabc91b56d88",
-      "title": "Houthis, Saudis ratchet up violence with back-and-forth airport strikes",
-      "description": "Iran‑backed Houthi rebels and Saudi Arabia exchanged attacks on each other's airports, escalating regional tension.",
-      "lat": 24.96,
-      "lng": 46.69999999999999,
-      "severity": 3,
-      "location": "Riyadh, Saudi Arabia",
-      "source": "New York Post",
-      "url": "https://nypost.com/2026/10/11/world-news/houthis-saudis-launch-back-and-forth-airport-strikes/",
-      "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F10%2F144657152.jpg?quality%3D90%26strip%3Dall",
-      "ts": 1791743120000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Post",
-            "b": "lean_right",
-            "u": "https://nypost.com/2026/10/11/world-news/houthis-saudis-launch-back-and-forth-airport-strikes/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a6c238461932",
-      "title": "Iran calls U.S. response \"insufficient\" amid stalled talks to end the war",
-      "description": "Iran criticised the United States for what it described as an inadequate effort to negotiate an end to the conflict in Yemen.",
-      "lat": 38.9,
-      "lng": -75.1348,
-      "severity": 2,
-      "location": "Washington, USA",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/",
-      "image": null,
-      "ts": 1791742909000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "bc82f1248e5c",
-      "title": "Djibouti boat wreck leaves 139 migrants dead, 84 missing: UN",
-      "description": "A migrant vessel capsized while sailing from Djibouti to Yemen, resulting in at least 139 deaths and dozens missing.",
-      "lat": 12.68,
-      "lng": 43.150000000000006,
-      "severity": 4,
-      "location": "Djibouti, Djibouti",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/world/djibouti-boat-wreck-leaves-139-migrants-dead-84-missing-un-6450621",
-      "image": null,
-      "ts": 1791742661000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/109-dead-after-ship-sinks-off-coast-of-djibouti-un-agency-says-13597707"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/world/djibouti-boat-wreck-leaves-139-migrants-dead-84-missing-un-6450621"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cec0c6b13832",
-      "title": "Authorities successfully rescue Nile cruise ship carrying 99 tourists",
-      "description": "Egyptian authorities refloated the cruise ship “Courchette” after it ran aground near the Kom Ombo Temple on the Nile.",
-      "lat": 24.47,
-      "lng": 32.95,
-      "severity": 1,
-      "location": "Kom Ombo, Egypt",
-      "source": "Egypt Independent",
-      "url": "https://www.egyptindependent.com/authorities-successfully-rescue-nile-cruise-ship-carrying-99-tourists/",
-      "image": null,
-      "ts": 1791733079000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/authorities-successfully-rescue-nile-cruise-ship-carrying-99-tourists/"
           }
         ]
       }
