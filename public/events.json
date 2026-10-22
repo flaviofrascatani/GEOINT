@@ -1,7 +1,113 @@
 {
   "schema": 1,
-  "updated": "2026-10-22T20:32:28.050202+00:00",
+  "updated": "2026-10-22T23:33:53.884084+00:00",
   "events": [
+    {
+      "id": "0f45b85d39f0",
+      "title": "Hundreds of Ethiopians cross into Kenya to flee regional fighting",
+      "description": "Refugees from the Somali Regional State conflict cross the border into Kenya, seeking safety.",
+      "lat": 3.53,
+      "lng": 39.07,
+      "severity": 3,
+      "location": "Moyale, Kenya",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/22/hundreds-of-ethiopians-cross-into-kenya-to-flee-regional-fighting?traffic_source=rss",
+      "image": null,
+      "ts": 1792709555000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/10/22/hundreds-of-ethiopians-cross-into-kenya-to-flee-regional-fighting?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "312182f92214",
+      "title": "Russia ready for talks on plans for final Ukraine deal, not truce: Putin",
+      "description": "President Vladimir Putin says Russia is prepared to negotiate a comprehensive settlement with Ukraine.",
+      "lat": 55.75,
+      "lng": 37.620000000000005,
+      "severity": 2,
+      "location": "Moscow, Russia",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/russia-ready-for-talks-on-plans-for-final-ukraine-deal-not-truce-putin/article71613329.ece",
+      "image": null,
+      "ts": 1792705491000,
+      "coverage": {
+        "left": 4,
+        "center": 2,
+        "right": 3,
+        "total": 9,
+        "buckets": {
+          "left": 0,
+          "lean_left": 4,
+          "center": 2,
+          "lean_right": 1,
+          "right": 2
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/politics/donald-trump/trump-hopes-flatter-putin-negotiating-ukraine-experts-say-rcna604770"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/ukraine-russia-war-putin-trump-37798642"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/10/22/putin-says-russia-ready-for-talks-on-plans-for-final-ukraine-deal_6761845_4.html"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/russia-ready-for-talks-on-plans-for-final-ukraine-deal-not-truce-putin/article71613329.ece"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/international/internationalrussia-ukraine-war/article-912633"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/videos/2026-10-22/romania-s-president-on-ukraine-war-security-starlink-video"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2206565"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/stephen-hubbard-russia-american-prisoner-release"
+          },
+          {
+            "n": "Daily Star World",
+            "b": "right",
+            "u": "https://www.dailystar.co.uk/news/world-news/breaking-special-envoy-commends-putin-37795509"
+          }
+        ]
+      }
+    },
     {
       "id": "da4f38b78324",
       "title": "Elon Musk's Starlink and Starshield, and what they mean to Ukraine",
@@ -140,6 +246,39 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/world/2206437"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2957625a58ef",
+      "title": "Qatar locks in US LNG through 2054 as it looks beyond Hormuz",
+      "description": "Qatar signs a long‑term contract to purchase up to 4 million tonnes of U.S. liquefied natural gas each year until 2054.",
+      "lat": 26.38,
+      "lng": 53.43520000000001,
+      "severity": 2,
+      "location": "Doha, Qatar",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/10/qatar-locks-us-lng-through-2054-it-looks-beyond-hormuz",
+      "image": null,
+      "ts": 1792687318000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/10/qatar-locks-us-lng-through-2054-it-looks-beyond-hormuz"
           }
         ]
       }
@@ -338,6 +477,39 @@
             "n": "The Africa Report",
             "b": "center",
             "u": "https://www.theafricareport.com/434212/niger-two-western-hostages-released-in-libya-after-more-than-18-months-in-islamic-state-captivity/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bebaf73b30ce",
+      "title": "Greece says it is implementing sanctions linked to Iran",
+      "description": "Athens announces the enforcement of EU sanctions targeting Iranian entities and individuals.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMFJaZ0t6eFMxSzJVenJlSEdyVkFjWXVuYmsxUy14ajVPdWZEMEUybm1ySE5zbzE1N05TNlVaeW1rZmNHOWVkLWxMQ193QzlRMTdYMGFYZmk2TzROdWptVDB5LXAtV3BiSW9nVERSSTF0bkpLWGVSREdja21vcFpGcnZmb1UtbUtFdE9QSUtVZENOMzJURl9Rd1lEbGZTVW1ISk5PamhUaUhGZw?oc=5",
+      "image": null,
+      "ts": 1792660458000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMFJaZ0t6eFMxSzJVenJlSEdyVkFjWXVuYmsxUy14ajVPdWZEMEUybm1ySE5zbzE1N05TNlVaeW1rZmNHOWVkLWxMQ193QzlRMTdYMGFYZmk2TzROdWptVDB5LXAtV3BiSW9nVERSSTF0bkpLWGVSREdja21vcFpGcnZmb1UtbUtFdE9QSUtVZENOMzJURl9Rd1lEbGZTVW1ISk5PamhUaUhGZw?oc=5"
           }
         ]
       }
@@ -782,74 +954,6 @@
             "n": "CBS News World",
             "b": "lean_left",
             "u": "https://www.cbsnews.com/live-updates/iran-war-trump-us-ceasefire-talks-ongoing/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "312182f92214",
-      "title": "Putin agrees to resume 3‑way peace talks with Ukraine and US",
-      "description": "Russian President Vladimir Putin announced the restart of trilateral peace talks involving Ukraine and the United States.",
-      "lat": 55.75,
-      "lng": 37.620000000000005,
-      "severity": 1,
-      "location": "Moscow, Russia",
-      "source": "Google News Top",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQXZaYTY5blYzZWJWYkJaQnI2M2RSSGJUcnpzSF9OMldoZjZxckRDRzhyb2JReEVNbEE5bjdZcUZlNzJ2b0YzQkRIZjltamVxVHVSaElldGhNUmlFZzdmZHpPOFBOSDNhbFV0NEdpYXBBN0w3VjlHV0JkSVQ3NG1hMHJMay14MWNuNDdQTldXaVE2Z205bjFkN05lVUh4TkloZWFvSm5FcGp0aS1nQ2JKcmNGTHB1NDhqdWJCaEM2NnoyRUE?oc=5",
-      "image": null,
-      "ts": 1792597478000,
-      "coverage": {
-        "left": 1,
-        "center": 6,
-        "right": 1,
-        "total": 8,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 6,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/us-envoy-witkoff-meets-putin-in-saint-petersburg/article71606691.ece"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/putin-ready-hold-talks-us-ukraine-seek-end-war-3808825"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/world/2026/1021/1596208-ukraine-russia/"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/d7345d46-f000-49b1-99f6-57edfbd5f0af?syn-25a6b1a6=1"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQXZaYTY5blYzZWJWYkJaQnI2M2RSSGJUcnpzSF9OMldoZjZxckRDRzhyb2JReEVNbEE5bjdZcUZlNzJ2b0YzQkRIZjltamVxVHVSaElldGhNUmlFZzdmZHpPOFBOSDNhbFV0NEdpYXBBN0w3VjlHV0JkSVQ3NG1hMHJMay14MWNuNDdQTldXaVE2Z205bjFkN05lVUh4TkloZWFvSm5FcGp0aS1nQ2JKcmNGTHB1NDhqdWJCaEM2NnoyRUE?oc=5"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-10-21/putin-meets-us-envoy-witkoff-to-discuss-ukraine-peace-proposals"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/10/21/russia-frees-jailed-american-as-putin-meets-us-envoy-for-ukraine-talks/"
-          },
-          {
-            "n": "Daily Star World",
-            "b": "right",
-            "u": "https://www.dailystar.co.uk/news/world-news/breaking-special-envoy-commends-putin-37795509"
           }
         ]
       }
@@ -7299,110 +7403,6 @@
             "n": "Japan Times",
             "b": "center",
             "u": "https://www.japantimes.co.jp/news/2026/10/12/asia-pacific/taiwan-monitoring-china-drills/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "be01401e2058",
-      "title": "(URGENT) N. Korea's ballistic missiles flew over 900 km: JCS",
-      "description": "North Korea launched a ballistic missile that traveled more than 900 km, flying over the sea toward South Korea.",
-      "lat": 37.57,
-      "lng": 126.98000000000002,
-      "severity": 2,
-      "location": "Seoul, South Korea",
-      "source": "Yonhap News",
-      "url": "https://en.yna.co.kr/view/AEN20261012002900315",
-      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-      "ts": 1791768918000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20261012002900315"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ea03c965b7a7",
-      "title": "Houthis kill 14 at Saudi airport as expert warns of 'rapid targets' amid Middle East war",
-      "description": "Iran‑backed Houthi rebels struck King Khalid International Airport in Riyadh, killing at least 14 people and injuring over 300.",
-      "lat": 26.06,
-      "lng": 48.605199999999996,
-      "severity": 4,
-      "location": "Riyadh, Saudi Arabia",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/houthis-kill-14-saudi-airport-expert-warns-rapid-targets-amid-middle-east-war",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/saudi-arabia-airport-attack.jpg?ve=1&tl=1",
-      "ts": 1791765293000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/video/yemens-houthis-target-king-khalid-airport-saudi-arabia-again/"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/houthis-kill-14-saudi-airport-expert-warns-rapid-targets-amid-middle-east-war"
-          }
-        ]
-      }
-    },
-    {
-      "id": "68bad8d025a7",
-      "title": "Slovenia rejects bill in blow to PM Janez Jansa’s reform agenda",
-      "description": "A referendum rejected a bill expanding parliamentary inquiry powers, dealing a setback to Prime Minister Janez Janša’s reforms.",
-      "lat": 46.05,
-      "lng": 14.51,
-      "severity": 2,
-      "location": "Ljubljana, Slovenia",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/europe/20261011-slovenia-bill-pm-janez-jansa-reform",
-      "image": "https://s.france24.com/media/display/98813ac8-ac0c-11f1-a9b8-005056bfb2b6/w:1024/p:16x9/f7359e93a9fdc8275228248f1acc565e3d957d05.jpg",
-      "ts": 1791756073000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/europe/20261011-slovenia-bill-pm-janez-jansa-reform"
           }
         ]
       }
