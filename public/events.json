@@ -1,7 +1,159 @@
 {
   "schema": 1,
-  "updated": "2026-10-23T01:54:11.800586+00:00",
+  "updated": "2026-10-23T07:24:03.111454+00:00",
   "events": [
+    {
+      "id": "bf843196d5f3",
+      "title": "WHO warns Africa faces ‘complex’ Ebola outbreak as virus reaches Nigeria",
+      "description": "The World Health Organization reported the first Ebola case in West Africa, occurring in Nigeria.",
+      "lat": 6.45,
+      "lng": 3.39,
+      "severity": 3,
+      "location": "Lagos, Nigeria",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/africa/article/3371887/who-warns-africa-faces-complex-ebola-outbreak-virus-reaches-nigeria",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/bee9e113-5dca-448f-b559-95c6c84d04ca_231a5c2b.jpg?itok=aYZVsiZb&v=1792738158",
+      "ts": 1792738164000,
+      "coverage": {
+        "left": 1,
+        "center": 4,
+        "right": 0,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 4,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/10/23/who-africa-facing-complex-ebola-outbreak-after-nigeria-reports-first-case/"
+          },
+          {
+            "n": "All Africa",
+            "b": "center",
+            "u": "https://allafrica.com/stories/202610230018.html"
+          },
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/10/23/world/science-health/africa-complex-ebola-outbreak/"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/africa/article/3371887/who-warns-africa-faces-complex-ebola-outbreak-virus-reaches-nigeria"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e901d720bb51",
+      "title": "Defense giant Saab sees orders triple after Gripen fighter jet deal with Ukraine",
+      "description": "Saab announced a major contract to supply Gripen fighter jets to Ukraine, boosting Kyiv's air capabilities.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 2,
+      "location": "Kyiv, Ukraine",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/10/23/saab-q3-earnings-figther-jet-maker-beats-expectations-as-orders-triple.html",
+      "image": null,
+      "ts": 1792736154000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/10/23/saab-q3-earnings-figther-jet-maker-beats-expectations-as-orders-triple.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "abd3f4b35064",
+      "title": "Tigray is still at war, rebel leader warns, claiming tactical victories",
+      "description": "The TPLF leader announced continued fighting in Ethiopia's Tigray region, indicating an ongoing civil war.",
+      "lat": 13.5,
+      "lng": 39.47,
+      "severity": 2,
+      "location": "Mekelle, Ethiopia",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/10/23/tigray-is-still-at-war-rebel-leader-warns-claiming-tactical-victories/",
+      "image": "http://images.euronews.com/articles/stories/09/96/40/15/640x360_cmsv2_4a1d65d9-b1bd-5e72-bdab-c24fe972c9b9-9964015.jpg?1792731931",
+      "ts": 1792736096000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/10/23/tigray-is-still-at-war-rebel-leader-warns-claiming-tactical-victories/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1d17042a05a8",
+      "title": "France bans multiple protests ahead of Saturday, raising concern for rule of law",
+      "description": "French authorities prohibited several demonstrations, citing security concerns ahead of upcoming protests.",
+      "lat": 48.86,
+      "lng": 2.3499999999999943,
+      "severity": 3,
+      "location": "Paris, France",
+      "source": "Le Monde English",
+      "url": "https://www.lemonde.fr/en/politics/article/2026/10/23/bans-on-protests-rain-down-across-france-raising-concerns-for-the-rule-of-law_6762142_5.html",
+      "image": "https://img.lemde.fr/2026/10/21/214/0/4500/2250/644/322/60/0/d5276cd_upload-1-ihypahrmaiul-18-20102026-dscf4479-couvre-feu-paris-carrot.jpg",
+      "ts": 1792727109000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/politics/article/2026/10/23/bans-on-protests-rain-down-across-france-raising-concerns-for-the-rule-of-law_6762142_5.html"
+          }
+        ]
+      }
+    },
     {
       "id": "e6589ccfd615",
       "title": "BYD‑Gentari cooperation targets Malaysia's EV charging gap",
@@ -70,11 +222,11 @@
     },
     {
       "id": "d6322a0f527e",
-      "title": "Trump Waives Sanctions Against Russia Just Before New Law Takes Effect",
-      "description": "The U.S. president announced a waiver of existing sanctions on Russia, temporarily easing economic pressure on Moscow.",
+      "title": "Trump Waives Sanctions Against Russia Just Before New Law Takes Effect - WSJ",
+      "description": "President Trump lifted existing sanctions on Russia, easing economic pressure on Moscow.",
       "lat": 55.7558,
       "lng": 37.6173,
-      "severity": 3,
+      "severity": 2,
       "location": "Moscow, Russia",
       "source": "GNews Geopolitics",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUnVnOEloY0J4aFRTZFZ2N2hTeHBWeUVXV3VPQmR0c04zcFlCdEs0aW1jUDRNM05Za3NMQnhtQ3BmVXNQRUFNMms5eXJJdVE4Q01ud0ZlYVVKOGhhSHBncjFLaVl6djRPb1NPVDZ6MkFtbHlYWmV0cWJ5VEdpTW1adFREWXRHVmUtcjR0MEl5QXhmSnMyamtrTUxiZjZkLTQ?oc=5",
@@ -477,6 +629,72 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/10/greece-egypt-talks-extend-maritime-zone-further-east"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5c6cb1baa44f",
+      "title": "Milei hopes to exploit the Falklands’ oil dispute in next year’s election",
+      "description": "Argentinian candidate Milei plans to use the contested oil project near the Falkland Islands as a campaign issue.",
+      "lat": -51.7,
+      "lng": -57.85,
+      "severity": 2,
+      "location": "Port Stanley, Falkland Islands",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/10/22/milei-hopes-to-exploit-the-falklands-oil-dispute-in-next-year-s-election?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": "https://en.mercopress.com/data/cache/noticias/111857/100x80/sea-lion-well.jpg",
+      "ts": 1792676100000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/10/22/milei-hopes-to-exploit-the-falklands-oil-dispute-in-next-year-s-election?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "39d67d3f69fd",
+      "title": "Russia Pounds Kyiv With Missiles As Moscow Says 808 Drones Downed In Russian Cities",
+      "description": "Moscow launched missile strikes on Kyiv, causing significant damage and civilian casualties.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 4,
+      "location": "Kyiv, Ukraine",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/russia-ukraine-attacks_n_6ad9ee1be4b0ba084e14eccd",
+      "image": null,
+      "ts": 1792667840000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/russia-ukraine-attacks_n_6ad9ee1be4b0ba084e14eccd"
           }
         ]
       }
@@ -7135,209 +7353,6 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/hundreds-of-french-supermarkets-hit-by-a-cyberattack-that-defrosted-refrigeration-systems/a-79646097?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "bf07eb7ab668",
-      "title": "Ukraine’s EU accession bid advances after Kyiv passes minority rights law",
-      "description": "The EU will open new negotiation chapters with Ukraine, marking a key step toward membership.",
-      "lat": 51.55,
-      "lng": 32.42519999999999,
-      "severity": 1,
-      "location": "Kyiv, Ukraine",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3370647/ukraines-eu-accession-bid-advances-after-kyiv-passes-minority-rights-law?utm_source=rss_feed",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/13/703efb4b-3723-400d-a9e2-e5b899a39012_92d657fc.jpg?itok=yHoEMZDw&v=1791830884",
-      "ts": 1791830476000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/europe/article/3370647/ukraines-eu-accession-bid-advances-after-kyiv-passes-minority-rights-law?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "daaed5ee8cc1",
-      "title": "Venezuela’s Rodríguez launches food‑security plan at FAO in Rome",
-      "description": "Acting president Nicolás Rodríguez unveiled the ‘Venezuela Alimenta’ initiative, blaming U.S. sanctions for reduced food production.",
-      "lat": 41.9,
-      "lng": 12.49,
-      "severity": 2,
-      "location": "Rome, Italy",
-      "source": "Rio Times",
-      "url": "https://www.riotimesonline.com/venezuela-rodriguez-food-plan-us-sanctions-2026/",
-      "image": null,
-      "ts": 1791827287000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Rio Times",
-            "b": "center",
-            "u": "https://www.riotimesonline.com/venezuela-rodriguez-food-plan-us-sanctions-2026/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "107c95628fb9",
-      "title": "Ethiopian government forces enter key Tigray town near Eritrea border",
-      "description": "Federal troops moved into a strategic town in Tigray, intensifying the conflict with the TPLF near the Eritrean frontier.",
-      "lat": 13.83,
-      "lng": 40.42259999999999,
-      "severity": 3,
-      "location": "Adigrat, Ethiopia",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/ethiopian-govt-forces-enter-key-tigray-town-near-eritrea-border/article71576602.ece",
-      "image": "https://th-i.thgim.com/public/incoming/2n5kxn/article71576700.ece/alternates/LANDSCAPE_1200/2026-10-11T083049Z_499203646_RC2FZNAZMTUW_RTRMADP_3_ETHIOPIA-SECURITY.JPG",
-      "ts": 1791824667000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/ethiopian-govt-forces-enter-key-tigray-town-near-eritrea-border/article71576602.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "63fabc74ddf8",
-      "title": "French supermarket fridges heated to 50C in cyber attack - causing fires and food losses",
-      "description": "Un attacco informatico ha provocato l’aumento della temperatura nei frigoriferi di numerosi supermercati francesi, scatenando incendi e perdite di cibo.",
-      "lat": 49.96,
-      "lng": 2.3499999999999943,
-      "severity": 3,
-      "location": "Paris, France",
-      "source": "Sky News World",
-      "url": "https://news.sky.com/story/hackers-heat-french-supermarket-fridges-to-50c-in-large-scale-cyber-attack-13598252",
-      "image": "https://e3.365dm.com/26/10/1920x1080/skynews-carrefour-france_7375229.jpg?20261012170413",
-      "ts": 1791820560000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/hackers-heat-french-supermarket-fridges-to-50c-in-large-scale-cyber-attack-13598252"
-          }
-        ]
-      }
-    },
-    {
-      "id": "fb10f38b770a",
-      "title": "EU agrees largest‑ever package of sanctions targeting Russia’s military‑industrial complex",
-      "description": "The European Union added almost 1,600 individuals and entities to its sanctions list over Russia’s war in Ukraine.",
-      "lat": 56.85,
-      "lng": 37.620000000000005,
-      "severity": 3,
-      "location": "Moscow, Russia",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxPWHNlczJqY1VHMDg3NEFKaXNMTkN5eVJSdXB5VE5ZR21CRWpoYm1GeVVLVkl2VjkzUk15RGtEZXRKMG80ZlQ0elBzSWR2M1Z4MmItR2p4WVQyZk43SHFYNGZ5c0JodTFxVmdVTU52VzhWM0tGSHZjcFdZUVE0Sl9td2dnd1BoUUN3R3RzbFAtRWwzUk01d1VsUzg3Q0RzLUowY1ZibnBYbjZnaUFnclFuREw5S2ljajB4UU9qWWRFWXpITUE3a0k5enh2X2JQSEFBSkZadmpZRDVuZy01UGR1bWY0Vk9CenJ5LUhRV0ZjaWljaXhsWjJvS0VnbEU1SUhQcWdUOXBHWkRncWRXZXY2end4MmM3TEZfQlpEZ2ZneTRhU25NX3B2LVl3Nzk4dkJxa2o4NFJjYTVTejBwRFZXRGFNc01BNG9RaU1sZHgwTFpQZXB3Y0RUa00yWEE?oc=5",
-      "image": null,
-      "ts": 1791801453000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/germany-s-wadephul-calls-new-eu-sanctions-unprecedented-blow-to-russia/a-79638017?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxPWHNlczJqY1VHMDg3NEFKaXNMTkN5eVJSdXB5VE5ZR21CRWpoYm1GeVVLVkl2VjkzUk15RGtEZXRKMG80ZlQ0elBzSWR2M1Z4MmItR2p4WVQyZk43SHFYNGZ5c0JodTFxVmdVTU52VzhWM0tGSHZjcFdZUVE0Sl9td2dnd1BoUUN3R3RzbFAtRWwzUk01d1VsUzg3Q0RzLUowY1ZibnBYbjZnaUFnclFuREw5S2ljajB4UU9qWWRFWXpITUE3a0k5enh2X2JQSEFBSkZadmpZRDVuZy01UGR1bWY0Vk9CenJ5LUhRV0ZjaWljaXhsWjJvS0VnbEU1SUhQcWdUOXBHWkRncWRXZXY2end4MmM3TEZfQlpEZ2ZneTRhU25NX3B2LVl3Nzk4dkJxa2o4NFJjYTVTejBwRFZXRGFNc01BNG9RaU1sZHgwTFpQZXB3Y0RUa00yWEE?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "100b0c0edcb3",
-      "title": "Mozambique sets December deadline to surrender illegal weapons",
-      "description": "Der Präsident von Mosambik kündigte an, dass bis Dezember alle illegalen Schusswaffen abgegeben werden müssen, um die Sicherheit zu erhöhen.",
-      "lat": -25.97,
-      "lng": 32.58,
-      "severity": 1,
-      "location": "Maputo, Mosambik",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/10/12/mozambique-sets-december-deadline-to-surrender-illegal-weapons/",
-      "image": "http://images.euronews.com/articles/stories/09/94/81/60/640x360_cmsv2_5f7ae8d8-0df8-5365-a4e4-39b18d9c8c28-9948160.jpg?1791780641",
-      "ts": 1791795549000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/10/12/mozambique-sets-december-deadline-to-surrender-illegal-weapons/"
           }
         ]
       }
