@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-10-23T21:20:08.185872+00:00",
+  "updated": "2026-10-23T23:58:07.120310+00:00",
   "events": [
+    {
+      "id": "9683951fbc42",
+      "title": "Russia vows to continue to send aid to Cuba through UN World Food Programme",
+      "description": "Russian Deputy Foreign Minister Alexander Alimov pledged ongoing humanitarian aid deliveries to Cuba via the UN WFP.",
+      "lat": 23.12,
+      "lng": -82.38,
+      "severity": 1,
+      "location": "Havana, Cuba",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2207209",
+      "image": null,
+      "ts": 1792797901000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2207209"
+          }
+        ]
+      }
+    },
+    {
+      "id": "df7d1634fb14",
+      "title": "Thailand welcomes US-Myanmar engagement, expects ASEAN talks on country’s future",
+      "description": "Thai officials expressed openness to U.S. engagement with Myanmar while stressing it does not legitimize the regime, and called for ASEAN discussions.",
+      "lat": 13.75,
+      "lng": 100.5,
+      "severity": 2,
+      "location": "Bangkok, Thailand",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/se-asia/thailand-welcomes-us-myanmar-engagement-expects-asean-talks-on-countrys-future",
+      "image": null,
+      "ts": 1792796212000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/se-asia/thailand-welcomes-us-myanmar-engagement-expects-asean-talks-on-countrys-future"
+          }
+        ]
+      }
+    },
     {
       "id": "acea37c4239e",
       "title": "Kenya reports second Ebola death",
@@ -7407,72 +7473,6 @@
             "n": "Japan Times",
             "b": "center",
             "u": "https://www.japantimes.co.jp/news/2026/10/14/japan/russia-arrests-japanese-journalist-espionage/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2389e6a8f232",
-      "title": "Russian, Vietnamese deputy defense ministers hold another strategic dialogue round",
-      "description": "The two deputy defense ministers reaffirmed their commitment to deepen military cooperation under their comprehensive strategic partnership.",
-      "lat": 56.85,
-      "lng": 39.525199999999984,
-      "severity": 2,
-      "location": "Moscow, Russia",
-      "source": "TASS",
-      "url": "https://tass.com/defense/2201645",
-      "image": null,
-      "ts": 1791925941000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/defense/2201645"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0ca10df3456c",
-      "title": "Miliband: Falklands residents have the right to develop their resources “as they see fit”",
-      "description": "British Foreign Secretary Ed Miliband affirmed the Falkland Islanders’ right to independently develop their natural resources, signalling diplomatic goodwill.",
-      "lat": -51.7,
-      "lng": -57.85,
-      "severity": 1,
-      "location": "Stanley, Falkland Islands",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/10/13/miliband-falklands-residents-have-the-right-to-develop-their-resources-as-they-see-fit?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111757/100x80/ed.jpeg",
-      "ts": 1791918180000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/10/13/miliband-falklands-residents-have-the-right-to-develop-their-resources-as-they-see-fit?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
           }
         ]
       }
