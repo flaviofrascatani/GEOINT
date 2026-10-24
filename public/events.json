@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-10-24T16:55:02.995487+00:00",
+  "updated": "2026-10-24T19:26:52.555807+00:00",
   "events": [
+    {
+      "id": "20b57b62a660",
+      "title": "U.S. warns of increased Houthi and Iranian aggression, updates travel advisories for numerous Middle Eastern countries",
+      "description": "The U.S. State Department issued new travel warnings citing heightened aggression from Iran‑backed Houthis and Iran itself across the region.",
+      "lat": 16.45,
+      "lng": 44.19,
+      "severity": 2,
+      "location": "Sana'a, Yemen",
+      "source": "OAN",
+      "url": "https://www.oann.com/newsroom/u-s-warns-of-increased-houthi-and-iranian-aggression-updates-travel-advisories-for-numerous-middle-eastern-countries/",
+      "image": null,
+      "ts": 1792865306000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/u-s-warns-of-increased-houthi-and-iranian-aggression-updates-travel-advisories-for-numerous-middle-eastern-countries/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ed8fe98857c0",
+      "title": "Iran Speaker to skip BRICS meet, as Iran seeks bilateral air route for ‘humanitarian aid’ from India",
+      "description": "Iran’s parliamentary speaker will not attend the BRICS summit and is negotiating a direct air corridor with India to transport humanitarian supplies to Tehran.",
+      "lat": 36.79,
+      "lng": 53.295199999999994,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/national/irans-ghalibaf-will-not-attend-brics-parliamentary-forum-in-delhi-embassy/article71619999.ece",
+      "image": "https://th-i.thgim.com/public/incoming/wir7cd/article71619994.ece/alternates/LANDSCAPE_1200/2026-06-21T100721Z_7779319_RC2WXLAGFUXI_RTRMADP_3_IRAN-CRISIS.JPG",
+      "ts": 1792861773000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/national/irans-ghalibaf-will-not-attend-brics-parliamentary-forum-in-delhi-embassy/article71619999.ece"
+          }
+        ]
+      }
+    },
     {
       "id": "92a9c40412cc",
       "title": "Iran president says many struggling for food as war bites",
@@ -196,6 +262,39 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/news/2026/10/24/jordans-king-abdullah-orders-firm-response-after-deadly-church-attack?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8495ccae5f32",
+      "title": "Ukraine says Starlink and Starshield high speed restrictions have been lifted",
+      "description": "Ukrainian authorities report that Starlink and Starshield satellite connections have been fully restored, improving military communications on the front lines.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 1,
+      "location": "Kyiv, Ukraine",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/10/24/ukraine-starlink-starshield-service-restored.html",
+      "image": null,
+      "ts": 1792846835000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/10/24/ukraine-starlink-starshield-service-restored.html"
           }
         ]
       }
@@ -7299,165 +7398,6 @@
             "n": "France 24",
             "b": "center",
             "u": "https://www.france24.com/en/europe/20261014-albania-protests-protestors-demand-pm-rama-resignation"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d5d9265616c3",
-      "title": "Houthis launch new attack on Saudi capital as Trump mulls strikes",
-      "description": "Iran‑aligned Houthi forces carried out a missile and drone strike targeting Riyadh, Saudi Arabia.",
-      "lat": 26.27,
-      "lng": 50.21,
-      "severity": 4,
-      "location": "Dhahran, Saudi-Arabien",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/",
-      "image": null,
-      "ts": 1792017002000,
-      "coverage": {
-        "left": 3,
-        "center": 2,
-        "right": 2,
-        "total": 7,
-        "buckets": {
-          "left": 1,
-          "lean_left": 2,
-          "center": 2,
-          "lean_right": 2,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/riyadh-explosions-houthi-rebels_n_6acf5645e4b08a0fe85498f8"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-houthi-saudi-arabia-trump/"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/iran-backed-houthis-strike-saudi-oil-company-aramcos-headquarters/article71585469.ece"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3FLcG5hMEUtNVJFdEhob3IzWW56Q2ZSeUFzR3d0X21MQThoaFA5ZlFybEhlcjJvTXlQcVhISjRLQlM4ZnF2ZGl5ekZiMHg3aC04YVhSeDFEbFI4RzA3M0Zxb3l6UUpmNUV1LXpWbXhibWxucEVRcm94YU9faWVEVHhUdlRDUnF3dkwwNWFmSGNNQQ?oc=5"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/headquarters-of-saudi-aramco-hit-as-houthis-and-riyadh-trade-strikes/"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2202231"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/opinion/op-ed/israel-as-symbol-saudi-arabia-as-target-houthis-calculus"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d8148f4d9444",
-      "title": "GOP Sen. Tillis asks Musk to explain Ukraine losing access to Starlink",
-      "description": "Senator Thom Tillis pressed Elon Musk for answers after Ukraine reported a loss of military access to the Starlink satellite communications network, affecting Kyiv's defense capabilities.",
-      "lat": 50.45,
-      "lng": 30.52,
-      "severity": 3,
-      "location": "Kyiv, Ukraine",
-      "source": "The Hill",
-      "url": "https://thehill.com/homenews/senate/6148831-tillis-presses-musk-starlink/",
-      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/09/tillisthom_093026gn02_w.jpg?w=900",
-      "ts": 1792005746000,
-      "coverage": {
-        "left": 2,
-        "center": 2,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/10/14/ukraine-accuses-elon-musks-spacex-of-throttling-starlink-terminals?traffic_source=rss"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/10/14/russian-energy-strikes-leave-600-000-people-without-power-says-zelensky_6758587_4.html"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/ukraine-says-musk-s-spacex-limits-kyiv-s-starlink-access/a-79658015?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/homenews/senate/6148831-tillis-presses-musk-starlink/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4bb4531918a7",
-      "title": "Ukraine says Elon Musk’s SpaceX hampers drones for attack and defence, as U.S. ties fray",
-      "description": "Ukrainian officials accused SpaceX of throttling Starlink services, limiting drone operations and air‑defence communications on the front lines.",
-      "lat": 50.45,
-      "lng": 32.42519999999999,
-      "severity": 3,
-      "location": "Kyiv, Ukraine",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/ukraine-zelenskyy-elon-musk-starlink_n_6acfbaa2e4b0bfd25653976d",
-      "image": null,
-      "ts": 1791999043000,
-      "coverage": {
-        "left": 3,
-        "center": 1,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 1,
-          "lean_left": 2,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/ukraine-zelenskyy-elon-musk-starlink_n_6acfbaa2e4b0bfd25653976d"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/ukraine/ukraine-starlink-restrictions-military-intel-trump-zelenskyy-russia-rcna603412"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/elon-musk-blames-trump-government-for-starshield-slowdown-in-ukraine-12186977#publisher=newsstand"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/ukraine-says-musk-s-spacex-limits-kyiv-s-starlink-access/a-79658015?maca=en-rss-en-all-1573-rdf"
           }
         ]
       }
