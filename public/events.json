@@ -1,7 +1,139 @@
 {
   "schema": 1,
-  "updated": "2026-10-24T13:17:24.253450+00:00",
+  "updated": "2026-10-24T16:55:02.995487+00:00",
   "events": [
+    {
+      "id": "92a9c40412cc",
+      "title": "Iran president says many struggling for food as war bites",
+      "description": "Il presidente iraniano ha denunciato la grave crisi alimentare interna, descrivendo la situazione come uno stato di 'ne guerra né pace'.",
+      "lat": 36.79,
+      "lng": 51.389999999999986,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/iran-president-says-many-struggling-for-food-as-war-bites/article71620956.ece",
+      "image": "https://th-i.thgim.com/public/incoming/s9zp8v/article71620981.ece/alternates/LANDSCAPE_1200/Turkmenistan_Summit_94449.jpg",
+      "ts": 1792857564000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/iran-president-says-many-struggling-for-food-as-war-bites/article71620956.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fcfe600ba91d",
+      "title": "Ozon logistics center in Siberia’s Omsk comes under enemy attack",
+      "description": "Un centro logistico di Ozon a Omsk è stato colpito da un attacco nemico, senza vittime ma con danni materiali.",
+      "lat": 54.99,
+      "lng": 73.37,
+      "severity": 3,
+      "location": "Omsk, Russia",
+      "source": "TASS",
+      "url": "https://tass.com/emergencies/2207313",
+      "image": null,
+      "ts": 1792857498000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/emergencies/2207313"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b38cf1a0f8ba",
+      "title": "US Embassy Staff Return to Caracas",
+      "description": "Il personale dell'ambasciata americana è tornato a lavorare a Caracas, segnando un passo verso il ripristino delle relazioni diplomatiche USA‑Venezuela.",
+      "lat": 10.48,
+      "lng": -66.9,
+      "severity": 1,
+      "location": "Caracas, Venezuela",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/us-embassy-staff-return-caracas/",
+      "image": null,
+      "ts": 1792857307000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/us-embassy-staff-return-caracas/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "37437c52e521",
+      "title": "Haiti's ex-president Martelly registers as candidate for upcoming election",
+      "description": "L'ex presidente haitiano Michel Martelly ha presentato la sua candidatura per le elezioni di dicembre, segnando il ritorno di una figura politica controversa.",
+      "lat": 19.64,
+      "lng": -72.34,
+      "severity": 2,
+      "location": "Port-au-Prince, Haiti",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/10/24/haitis-ex-president-martelly-registers-as-candidate-for-upcoming-election/",
+      "image": "http://images.euronews.com/articles/stories/09/96/53/72/640x360_cmsv2_fa52cce4-4fb9-5485-b1f8-75a4f2cb2d82-9965372.jpg?1792808208",
+      "ts": 1792850975000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/10/24/haitis-ex-president-martelly-registers-as-candidate-for-upcoming-election/"
+          }
+        ]
+      }
+    },
     {
       "id": "cb546e61b5b0",
       "title": "'Three red lines' needed against China, Japan defense academy chief says",
@@ -64,6 +196,39 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/news/2026/10/24/jordans-king-abdullah-orders-firm-response-after-deadly-church-attack?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "47fdb67f0a61",
+      "title": "Ukraine says Starlink connection 'now stable' after network limits",
+      "description": "Le connessioni Starlink in Ucraina sono state ripristinate, migliorando le operazioni militari e di ricognizione dei droni.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 1,
+      "location": "Kyiv, Ukraine",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6049/live/9c0d0c10-cf9a-11f1-b441-2b33b063138f.jpg",
+      "ts": 1792843960000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
@@ -7293,181 +7458,6 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/ukraine-says-musk-s-spacex-limits-kyiv-s-starlink-access/a-79658015?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "72e79e7d0689",
-      "title": "US lifts sanctions on head of Venezuela legislature",
-      "description": "The United States removed sanctions on the president of Venezuela's National Assembly, signaling a shift in Washington's policy toward Caracas.",
-      "lat": 10.51,
-      "lng": -66.9,
-      "severity": 2,
-      "location": "Caracas, Venezuela",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVXFnM3A0T3lJeVdPVnZrVlZHT3l6dlBUbjZkZGdmYTd4NTFkZEE1TkpOVkNxaXpoZVBiQUNSNWhrRGl4cXZxS2VWeHN5aVVfbEpSR2doM0xwR1JiZHA5VjdkLVhrVHhBMTlNQmQ1ZGNOSGd1bDhFOEFFQlpveFRpcG43MUZ1OEwwWGxqeXFrLUNwakUxOTU5R19rZEFTQQ?oc=5",
-      "image": null,
-      "ts": 1791995149000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSU1iSUxicXZRcE1zT1JLUExiTUhBeGF3RHZCUW5yX0ktWlViQ1poX3pmY2lNX29Wa09SWmhDdm1YekI4aUNBMTNjVlhUZDY1MjFIVmNWdUlmS0lGd2Zsd01ZRkQ0ZGJGY2VTMkVMZnl6dnRYdzlNTmlwclNTLXlkRi1nUnNIem1rcnNNRkFKUDRxZmJYbnBjONIBngFBVV95cUxPOXkxa0pzRlNOcFFfOWFFUmpOdVJRVmRQTFFJY180NkNtbnotbElTSkI2NWgyUXd0eTBJSnUtc192aWN5YzFreUdfQlEwY2VJb1lYX2s0bFhKRDl4TEpnNmlDeTJRaC1pTmIyQzRZMmdweHVsQXkwM3FUaXl4MlNiN1lpMnI0aEJXeTl5bk9yejFsWklyZUUyT1BnejhHZw?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2558c7df3e76",
-      "title": "Germany's far‑right AfD forges a pro‑Russia alliance with the BSW",
-      "description": "In Sachsen‑Anhalt schließen die AfD und die BSW eine Koalition, um die Beziehungen zu Moskau zu vertiefen und Verhandlungen mit Russland zu fördern.",
-      "lat": 52.13,
-      "lng": 11.62,
-      "severity": 3,
-      "location": "Magdeburg, Deutschland",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/germany-s-far-right-afd-forges-a-pro-russia-alliance-with-the-bsw/a-79662413?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1791991617843,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/germany-s-far-right-afd-forges-a-pro-russia-alliance-with-the-bsw/a-79662413?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8cb324afb495",
-      "title": "Putin to visit APEC summit in China",
-      "description": "Präsident Wladimir Putin reist nach Peking, um am APEC-Gipfel teilzunehmen, wo er sich mit chinesischem Präsident Xi Jinping trifft.",
-      "lat": 41.0,
-      "lng": 116.39999999999998,
-      "severity": 2,
-      "location": "Peking, China",
-      "source": "TASS",
-      "url": "https://tass.com/politics/2202127",
-      "image": null,
-      "ts": 1791990000000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/politics/2202127"
-          }
-        ]
-      }
-    },
-    {
-      "id": "db1963f53a72",
-      "title": "Jailed Imran Khan's woes compound after Pakistan suspends his provincial government",
-      "description": "Pakistan declared a state of emergency and suspended the provincial administration in Punjab, intensifying the political crisis surrounding former prime minister Imran Khan.",
-      "lat": 31.55,
-      "lng": 74.34,
-      "severity": 3,
-      "location": "Lahore, Pakistan",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/jailed-imran-khans-woes-compound-after-pakistan-suspends-his-provincial-government",
-      "image": null,
-      "ts": 1791984653000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/jailed-imran-khans-woes-compound-after-pakistan-suspends-his-provincial-government"
-          }
-        ]
-      }
-    },
-    {
-      "id": "07139bc7b707",
-      "title": "Ukrainian on trial in Germany over gas pipeline bombing",
-      "description": "Der Prozess gegen einen ukrainischen Mann wegen eines geplanten Anschlags auf eine unterseeische Gaspipeline, die russisches Gas nach Deutschland transportiert, hat in Berlin begonnen.",
-      "lat": 53.62,
-      "lng": 15.305200000000013,
-      "severity": 3,
-      "location": "Berlin, Germany",
-      "source": "Sky News World",
-      "url": "https://news.sky.com/story/ukrainian-on-trial-in-germany-over-war-crime-bombing-of-nord-stream-pipeline-13599215",
-      "image": "https://e3.365dm.com/26/10/1920x1080/skynews-serhii-kusnetzow-nord-stream_7376774.jpg?20261014145512",
-      "ts": 1791978420000,
-      "coverage": {
-        "left": 0,
-        "center": 3,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/ukrainian-on-trial-in-germany-over-war-crime-bombing-of-nord-stream-pipeline-13599215"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/nord-stream-germany-puts-suspected-ukrainian-pipeline-saboteur-on-trial/a-79647617?maca=en-rss-en-all-1573-rdf"
           }
         ]
       }
