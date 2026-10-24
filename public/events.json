@@ -1,7 +1,123 @@
 {
   "schema": 1,
-  "updated": "2026-10-24T04:27:46.332622+00:00",
+  "updated": "2026-10-24T09:05:05.683853+00:00",
   "events": [
+    {
+      "id": "162706c8f110",
+      "title": "North Korean leader Kim Jong Un visits China via newly opened bridge",
+      "description": "Kim Jong Un arrived in Dandong, China, traveling over a new bridge linking North Korea and China, marking a high‑level diplomatic contact.",
+      "lat": 40.13,
+      "lng": 124.39,
+      "severity": 2,
+      "location": "Dandong, China",
+      "source": "Yonhap News",
+      "url": "https://en.yna.co.kr/view/AEN20261024001954320",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/28/PYH2026072811190031500_P2.jpg",
+      "ts": 1792831327000,
+      "coverage": {
+        "left": 3,
+        "center": 6,
+        "right": 2,
+        "total": 11,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 6,
+          "lean_right": 2,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/north-korean-leader-kim-jong-visits-china-south-137532630"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/10/24/north-koreas-kim-jong-un-arrives-in-china-south-korean-media-says?traffic_source=rss"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/north-korean-leader-kim-jong-un-visits-china-south-korean-media-reports/article71619300.ece"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/north-korean-leader-kim-jong-un-arrives-in-chinese-border-city/a-79748580?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-10-24/kim-jong-un-arrives-in-china-s-dandong-city-yonhap-reports"
+          },
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/10/24/asia-pacific/politics/north-korea-kim-jong-un-china-dandong/"
+          },
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20261024001954320"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/east-asia/kim-jong-un-tells-north-korean-army-units-prepare-new-era-military-build-up-6488631"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/east-asia/north-koreas-kim-jong-un-visits-china-via-dandong-bridge-yonhap-says"
+          },
+          {
+            "n": "Die Welt",
+            "b": "lean_right",
+            "u": "https://www.welt.de/politik/article6adc613e9fbb7e8e310de160/nordkorea-kim-jong-un-zu-ueberraschendem-besuch-in-china-eingetroffen.html"
+          },
+          {
+            "n": "Wall Street Journal World",
+            "b": "lean_right",
+            "u": "https://www.wsj.com/articles/kim-jong-un-is-doing-everything-he-can-to-keep-north-koreas-youth-in-line-0866a1de"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d9d3b231128c",
+      "title": "Brazil candidates make final campaign push ahead of presidential runoff",
+      "description": "Brazil prepares for a tightly contested presidential runoff between incumbent Luiz Inácio Lula da Silva and challenger Flávio Bolsonaro.",
+      "lat": -14.69,
+      "lng": -47.879999999999995,
+      "severity": 3,
+      "location": "Brasília, Brazil",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/10/24/brazil-candidates-make-final-campaign-push-ahead-of-presidential-runoff/",
+      "image": "http://images.euronews.com/articles/stories/09/96/53/76/640x360_cmsv2_a6b59625-441d-5367-9d43-1631711c07c9-9965376.jpg?1792808741",
+      "ts": 1792829283000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/10/24/brazil-candidates-make-final-campaign-push-ahead-of-presidential-runoff/"
+          }
+        ]
+      }
+    },
     {
       "id": "9683951fbc42",
       "title": "Russia vows to continue to send aid to Cuba through UN World Food Programme",
@@ -7387,87 +7503,6 @@
             "n": "Rio Times",
             "b": "center",
             "u": "https://www.riotimesonline.com/us-trucks-panama-quake-relief-2026/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0dd97f937593",
-      "title": "Missile alert interrupts Saudi minister mid‑speech (VIDEO)",
-      "description": "A Saudi minister’s speech was halted by emergency missile‑alert warnings amid escalating Houthi attacks in the region.",
-      "lat": 24.71,
-      "lng": 46.68000000000001,
-      "severity": 3,
-      "location": "Riyadh, Saudi Arabia",
-      "source": "RT News",
-      "url": "https://rt-english.com/news/647152-emergency-alerts-interrupt-saudi-minister-speech/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.10/thumbnail/6ace64c885f540778328565d.png",
-      "ts": 1791954026000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://rt-english.com/news/647152-emergency-alerts-interrupt-saudi-minister-speech/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "759aaca8a391",
-      "title": "A former Ukrainian officer goes on trial over sabotage of Nord Stream pipelines",
-      "description": "A former Ukrainian army officer is being tried in Germany for alleged involvement in the 2022 explosions that damaged the Nord Stream gas pipelines.",
-      "lat": 53.62,
-      "lng": 13.400000000000006,
-      "severity": 2,
-      "location": "Berlin, Germany",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/former-ukrainian-officer-trial-sabotage-nord-stream-pipelines-137247789",
-      "image": "https://s.abcnews.com/images/International/wirestory_fdbddfa8c362df5a9f81e617e546b287_4x3_384.jpg",
-      "ts": 1791952896000,
-      "coverage": {
-        "left": 2,
-        "center": 2,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/former-ukrainian-officer-trial-sabotage-nord-stream-pipelines-137247789"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/10/14/former-ukrainian-officer-stands-trial-in-germany-over-nord-stream-sabotage_6758580_4.html"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/8c3c631c-e37f-4209-aefd-112c4c58020c?syn-25a6b1a6=1"
           }
         ]
       }
