@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-23T23:58:07.120310+00:00",
+  "updated": "2026-10-24T04:27:46.332622+00:00",
   "events": [
     {
       "id": "9683951fbc42",
@@ -64,6 +64,77 @@
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/se-asia/thailand-welcomes-us-myanmar-engagement-expects-asean-talks-on-countrys-future"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0dd68e4bd08f",
+      "title": "Hungary commemorates 70th anniversary of 1956 uprising",
+      "description": "Prime Minister Péter Magyar and EU Commission President Ursula von der Leyen paid tribute to the victims of the 1956 anti‑Soviet uprising in Budapest.",
+      "lat": 47.5,
+      "lng": 19.04,
+      "severity": 1,
+      "location": "Budapest, Hungary",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/10/24/hungary-70-years-after-soviet-crackdown-leaders-honour-uprising-victims/",
+      "image": "http://images.euronews.com/articles/stories/09/96/51/79/640x360_cmsv2_1d7824de-f72d-5f60-8bca-f9d862793871-9965179.jpg?1792772058",
+      "ts": 1792793229000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/european-leaders-gather-budapest-anniversary-hungarian-revolution-magyar-137503355"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/10/24/hungary-70-years-after-soviet-crackdown-leaders-honour-uprising-victims/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d6322a0f527e",
+      "title": "Trump waives sanctions against Russia just before new law takes effect",
+      "description": "The U.S. president lifted existing sanctions on Russian entities, altering the economic pressure on Moscow.",
+      "lat": 55.7558,
+      "lng": 37.6173,
+      "severity": 3,
+      "location": "Moscow, Russia",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUnVnOEloY0J4aFRTZFZ2N2hTeHBWeUVXV3VPQmR0c04zcFlCdEs0aW1jUDRNM05Za3NMQnhtQ3BmVXNQRUFNMms5eXJJdVE4Q01ud0ZlYVVKOGhhSHBncjFLaVl6djRPb1NPVDZ6MkFtbHlYWmV0cWJ5VEdpTW1adFREWXRHVmUtcjR0MEl5QXhmSnMyamtrTUxiZjZkLTQ?oc=5",
+      "image": null,
+      "ts": 1792792545000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUnVnOEloY0J4aFRTZFZ2N2hTeHBWeUVXV3VPQmR0c04zcFlCdEs0aW1jUDRNM05Za3NMQnhtQ3BmVXNQRUFNMms5eXJJdVE4Q01ud0ZlYVVKOGhhSHBncjFLaVl6djRPb1NPVDZ6MkFtbHlYWmV0cWJ5VEdpTW1adFREWXRHVmUtcjR0MEl5QXhmSnMyamtrTUxiZjZkLTQ?oc=5"
           }
         ]
       }
@@ -184,6 +255,39 @@
       "lat": 49.99,
       "lng": 36.23,
       "severity": 3,
+      "location": "Kharkiv, Ukraine",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/world/ukraine/starlink-slowdown-hit-ukraines-front-line-soldiers-pushing-russia-back-rcna604732",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-10/261022-starlink-rs-ad8358.jpg",
+      "ts": 1792775926000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/ukraine/starlink-slowdown-hit-ukraines-front-line-soldiers-pushing-russia-back-rcna604732"
+          }
+        ]
+      }
+    },
+    {
+      "id": "81e0741dee28",
+      "title": "Starlink slowdown hampers Ukrainian front‑line operations",
+      "description": "Reduced bandwidth from the Starlink satellite network limited communications for Ukrainian soldiers fighting Russian forces in the southeast.",
+      "lat": 51.09,
+      "lng": 36.22999999999999,
+      "severity": 4,
       "location": "Kharkiv, Ukraine",
       "source": "NBC News World",
       "url": "https://www.nbcnews.com/world/ukraine/starlink-slowdown-hit-ukraines-front-line-soldiers-pushing-russia-back-rcna604732",
@@ -836,39 +940,6 @@
             "n": "Washington Examiner",
             "b": "right",
             "u": "https://www.washingtonexaminer.com/news/world/4776807/live-grenade-training-canada-military-base-fire/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d6322a0f527e",
-      "title": "Trump Waives Sanctions Against Russia Just Before New Law Takes Effect - WSJ",
-      "description": "President Trump lifted existing sanctions on Russia, easing economic pressure on Moscow.",
-      "lat": 55.7558,
-      "lng": 37.6173,
-      "severity": 2,
-      "location": "Moscow, Russia",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUnVnOEloY0J4aFRTZFZ2N2hTeHBWeUVXV3VPQmR0c04zcFlCdEs0aW1jUDRNM05Za3NMQnhtQ3BmVXNQRUFNMms5eXJJdVE4Q01ud0ZlYVVKOGhhSHBncjFLaVl6djRPb1NPVDZ6MkFtbHlYWmV0cWJ5VEdpTW1adFREWXRHVmUtcjR0MEl5QXhmSnMyamtrTUxiZjZkLTQ?oc=5",
-      "image": null,
-      "ts": 1792710946000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUnVnOEloY0J4aFRTZFZ2N2hTeHBWeUVXV3VPQmR0c04zcFlCdEs0aW1jUDRNM05Za3NMQnhtQ3BmVXNQRUFNMms5eXJJdVE4Q01ud0ZlYVVKOGhhSHBncjFLaVl6djRPb1NPVDZ6MkFtbHlYWmV0cWJ5VEdpTW1adFREWXRHVmUtcjR0MEl5QXhmSnMyamtrTUxiZjZkLTQ?oc=5"
           }
         ]
       }
@@ -7397,82 +7468,6 @@
             "n": "Financial Times World",
             "b": "center",
             "u": "https://www.ft.com/content/8c3c631c-e37f-4209-aefd-112c4c58020c?syn-25a6b1a6=1"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f9b629c74674",
-      "title": "Argentina asks the law of the sea tribunal to halt Sea Lion and bar new oil permits",
-      "description": "Argentina solicita al Tribunal Internacional del Derecho del Mar que impida el desarrollo del proyecto petrolífero Sea Lion frente a las Islas Malvinas.",
-      "lat": -51.7,
-      "lng": -59.52,
-      "severity": 2,
-      "location": "Falkland Islands",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/10/13/argentina-asks-the-law-of-the-sea-tribunal-to-halt-sea-lion-and-bar-new-oil-permits?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111760/100x80/trub.jpg",
-      "ts": 1791932580000,
-      "coverage": {
-        "left": 0,
-        "center": 3,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Rio Times",
-            "b": "center",
-            "u": "https://www.riotimesonline.com/argentina-falklands-oil-tribunal-2026/"
-          },
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/10/13/argentina-asks-the-law-of-the-sea-tribunal-to-halt-sea-lion-and-bar-new-oil-permits?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          },
-          {
-            "n": "Buenos Aires Times",
-            "b": "center",
-            "u": "https://www.batimes.com.ar/news/economy/argentina-asks-law-of-the-sea-tribunal-to-halt-malvinas-oil-project.phtml"
-          }
-        ]
-      }
-    },
-    {
-      "id": "dcfedb9af68c",
-      "title": "Russia detains Japanese journalist on suspicion of spying",
-      "description": "Autoridades rusas arrestan a un reportero japonés en la ciudad de Yuzhno‑Sakhalinsk bajo acusaciones de espionaje.",
-      "lat": 46.96,
-      "lng": 142.73,
-      "severity": 3,
-      "location": "Yuzhno‑Sakhalinsk, Russia",
-      "source": "Japan Times",
-      "url": "https://www.japantimes.co.jp/news/2026/10/14/japan/russia-arrests-japanese-journalist-espionage/",
-      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/10/14/568229.jpg",
-      "ts": 1791928380000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/10/14/japan/russia-arrests-japanese-journalist-espionage/"
           }
         ]
       }
