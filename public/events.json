@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-25T17:49:32.844568+00:00",
+  "updated": "2026-10-25T20:45:18.447534+00:00",
   "events": [
     {
       "id": "5f1b5d66ce0b",
@@ -31,6 +31,44 @@
             "n": "Nikkei Asia",
             "b": "center",
             "u": "https://asia.nikkei.com/business/softbank/softbank-plans-50bn-ai-investment-in-malaysia-pm-says"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6d5ac0fc7abe",
+      "title": "Marine Le Pen vows to restore 'rule of law' at presidential campaign kickoff",
+      "description": "During her campaign launch in Orléans, French far‑right leader Marine Le Pen pledged to strengthen law and order, marking a notable political moment ahead of the French election.",
+      "lat": 47.902,
+      "lng": 3.809200000000004,
+      "severity": 2,
+      "location": "Orléans, France",
+      "source": "Le Monde English",
+      "url": "https://www.lemonde.fr/en/france/article/2026/10/25/marine-le-pen-vows-to-restore-rule-of-law-at-presidential-campaign-kickoff_6763891_7.html",
+      "image": "https://img.lemde.fr/2026/10/25/492/0/5906/2953/644/322/60/0/1c8e2c8_ftp-1-atacc05p2nrp-2026-10-25t173130z-924015987-rc2faoazw5qi-rtrmadp-3-france-politics.JPG",
+      "ts": 1792950172000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/world/2026/1025/1596816-marine-le-pen-france/"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/video/20261025-marine-le-pen-launches-presidential-campaign-in-orl%C3%A9ans"
           }
         ]
       }
@@ -178,6 +216,112 @@
             "n": "Jerusalem Post",
             "b": "center",
             "u": "https://www.jpost.com/middle-east/iran-news/article-912809"
+          }
+        ]
+      }
+    },
+    {
+      "id": "722c043e3755",
+      "title": "Houthis say attacked Riyadh airport hours after flights resume",
+      "description": "Yemen's Houthi rebels launched a fresh strike on Saudi Arabia's King Khalid International Airport in Riyadh, hours after the airport had reopened, causing casualties and further disrupting air traffic.",
+      "lat": 24.71,
+      "lng": 46.68,
+      "severity": 4,
+      "location": "Riyadh, Saudi Arabia",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/10/houthis-say-attacked-riyadh-airport-hours-after-flights-resume",
+      "image": null,
+      "ts": 1792942223000,
+      "coverage": {
+        "left": 1,
+        "center": 2,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/10/25/world/middleeast/saudi-arabia-riyadh-airport-reopens.html"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/middle-east/2026/1025/1596819-riyadh-airport-reopens/"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/10/houthis-say-attacked-riyadh-airport-hours-after-flights-resume"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2207607"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5ab243dc8f00",
+      "title": "Saudi Arabia Partly Reopens Riyadh Airport Despite Renewed Houthi Threats",
+      "description": "King Khalid International Airport in Riyadh resumed limited operations after a previous Houthi attack that killed 13 people, signaling a partial restoration of air services despite ongoing threats.",
+      "lat": 18.3,
+      "lng": 42.73,
+      "severity": 2,
+      "location": "Khamis Mushait, Saudi Arabia",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/saudi-arabia-reopens-airport-houthi-attacks_n_6ade1d89e4b0320e45d2c1e7",
+      "image": "https://c.ndtvimg.com/2026-10/sr548l7g_saudi-houthi-conflict_625x300_02_October_26.jpeg",
+      "ts": 1792941928000,
+      "coverage": {
+        "left": 3,
+        "center": 2,
+        "right": 1,
+        "total": 6,
+        "buckets": {
+          "left": 1,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/saudi-arabia-reopens-airport-houthi-attacks_n_6ade1d89e4b0320e45d2c1e7"
+          },
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/10/25/world/middleeast/saudi-arabia-riyadh-airport-reopens.html"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/saudi-arabia-reopens-airport-attacks-houthi-rebels-persist-137549261"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/10/25/saudi-arabia-houthi-missile-drone-interceptions.html"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/10/25/saudi-arabias-riyadh-airport-partially-resumes-flights-after-houthi-attacks/"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2207607"
           }
         ]
       }
@@ -3556,74 +3700,6 @@
             "n": "Nikkei Asia",
             "b": "center",
             "u": "https://asia.nikkei.com/politics/uk-under-pressure-to-align-with-eu-duties-on-chinese-evs"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5ab243dc8f00",
-      "title": "RAF fighter jets set to be used to defend Saudi Arabia from Houthi aerial attacks",
-      "description": "The UK will deploy RAF fighter jets to create a defensive shield over Saudi Arabia against missile attacks by Houthi rebels.",
-      "lat": 18.3,
-      "lng": 42.73,
-      "severity": 3,
-      "location": "Khamis Mushait, Saudi Arabia",
-      "source": "Daily Mail World",
-      "url": "https://www.dailymail.com/news/article-16223279/RAF-launch-defensive-actions-protect-Saudi-Arabia-Houthi-attacks.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-      "image": "https://c.ndtvimg.com/2026-10/sr548l7g_saudi-houthi-conflict_625x300_02_October_26.jpeg",
-      "ts": 1792547913919,
-      "coverage": {
-        "left": 2,
-        "center": 3,
-        "right": 3,
-        "total": 8,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 3,
-          "lean_right": 1,
-          "right": 2
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/10/20/world/europe/uk-saudi-arabia-houthis-raf-typhoon-fighter-jets.html"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/egypt-troops-saudi-arabia-attacks-iran-houthis/"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/uk-fighter-jets-to-protect-saudi-arabia-from-houthi-attacks/a-79718467?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/videos/2026-10-21/uk-to-defend-saudi-arabia-from-houthi-attacks-video"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/uk-to-deploy-fighter-jets-to-defend-saudi-arabia-against-houthi-attacks/"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://rt-english.com/news/647456-saudi-arabia-cancels-forum-houthis/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/saudi-arabia-edge-iconic-kingdom-centre-sends-workers-home-amid-houthi-attacks"
-          },
-          {
-            "n": "Daily Mail World",
-            "b": "right",
-            "u": "https://www.dailymail.com/news/article-16223279/RAF-launch-defensive-actions-protect-Saudi-Arabia-Houthi-attacks.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
           }
         ]
       }
@@ -7362,72 +7438,6 @@
             "n": "Egypt Independent",
             "b": "center",
             "u": "https://www.egyptindependent.com/egypt-halts-sudan-truck-transit-following-fatal-shooting-of-two-egyptian-drivers/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "795b649fd37e",
-      "title": "Seoul keeps fuel price caps unchanged amid Mideast tensions",
-      "description": "South Korea decided to maintain its fuel price caps despite rising tensions in the Middle East.",
-      "lat": 37.56,
-      "lng": 126.98000000000002,
-      "severity": 2,
-      "location": "Seoul, South Korea",
-      "source": "Yonhap News",
-      "url": "https://en.yna.co.kr/view/AEN20261016009100320",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/10/16/PYH2026101608690001300_P2.jpg",
-      "ts": 1792141201000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20261016009100320"
-          }
-        ]
-      }
-    },
-    {
-      "id": "675142899a72",
-      "title": "US sanctions cause Iranian airlines to cancel flights, raising costs",
-      "description": "New U.S. sanctions on Iran have led to widespread flight cancellations and soaring ticket prices for Iranian passengers.",
-      "lat": 36.79,
-      "lng": 53.295199999999994,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ3VsbnB5RXpMTExtZ0U4Z2dWYUg5bE5pMzhQcXluNDhQNHlVT21TRnNPbGNma0lXVUNDQ3Z5blR4bF9MMGJhRkQ4dVBnQ1lwR3FnMmRmdFd2VmtZcU5kZWRLLXduZWhGZUl3c1RNNGgyNkhydzMzN2tIMmhlOXFaUW5MYXJpMXoxLTBwVjF6VDJDU0xhVXgtdXZEb2t0Q1NkUEkyQi1SajlnV3JnaW9fWkRYbTJKdHBUVkg2ZEVxb0RQUdIBxwFBVV95cUxOUDJJWk5UM21WdXJkejdKNTMxcHg3VE5UZ2d6aWpLSE41OVpYV3VidzN0aXo0STNLZ05SNGhNVUcyWlR6cHNrWWhTWnJDWXRUV0IwR3BiNEM5UXI1Z3p4VUo3eWVydjVkREg4Z1hKMkVZQUZQZnlvUUs4U1NXV1luemxuWkZ5VkhpRUZ5WlpWZ2o5ajM5QTZlUkVBLUJWdDY5V3FFY2ZzaVJZbVI1X1d4NW83Nmk3S09wU0ZlYU1DMG5UejNMaktZ?oc=5",
-      "image": null,
-      "ts": 1792130080000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ3VsbnB5RXpMTExtZ0U4Z2dWYUg5bE5pMzhQcXluNDhQNHlVT21TRnNPbGNma0lXVUNDQ3Z5blR4bF9MMGJhRkQ4dVBnQ1lwR3FnMmRmdFd2VmtZcU5kZWRLLXduZWhGZUl3c1RNNGgyNkhydzMzN2tIMmhlOXFaUW5MYXJpMXoxLTBwVjF6VDJDU0xhVXgtdXZEb2t0Q1NkUEkyQi1SajlnV3JnaW9fWkRYbTJKdHBUVkg2ZEVxb0RQUdIBxwFBVV95cUxOUDJJWk5UM21WdXJkejdKNTMxcHg3VE5UZ2d6aWpLSE41OVpYV3VidzN0aXo0STNLZ05SNGhNVUcyWlR6cHNrWWhTWnJDWXRUV0IwR3BiNEM5UXI1Z3p4VUo3eWVydjVkREg4Z1hKMkVZQUZQZnlvUUs4U1NXV1luemxuWkZ5VkhpRUZ5WlpWZ2o5ajM5QTZlUkVBLUJWdDY5V3FFY2ZzaVJZbVI1X1d4NW83Nmk3S09wU0ZlYU1DMG5UejNMaktZ?oc=5"
           }
         ]
       }
