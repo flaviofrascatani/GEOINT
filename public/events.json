@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-10-24T21:50:54.376552+00:00",
+  "updated": "2026-10-25T00:16:31.887076+00:00",
   "events": [
+    {
+      "id": "4ce64123d4fa",
+      "title": "Belgorod faces significant damage, casualties following massive Ukrainian strike",
+      "description": "Ukrainian forces carried out a large-scale missile strike on the Russian city of Belgorod, causing extensive damage and civilian casualties.",
+      "lat": 52.25,
+      "lng": 37.5326,
+      "severity": 4,
+      "location": "Belgorod, Russia",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2207373",
+      "image": null,
+      "ts": 1792885800000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2207373"
+          }
+        ]
+      }
+    },
+    {
+      "id": "647fbc24aca9",
+      "title": "Indonesia cuts pipeline gas exports to Singapore by about 9%",
+      "description": "Indonesia reduced its natural‑gas pipeline deliveries to Singapore, cutting 15 mmscfd from Natuna and 16 mmscfd from Sumatra, affecting regional energy trade.",
+      "lat": 2.45,
+      "lng": 103.82,
+      "severity": 2,
+      "location": "Singapore, Singapore",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/indonesia-cuts-pipeline-gas-exports-to-singapore-by-about-9/article71621477.ece",
+      "image": null,
+      "ts": 1792880644000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/indonesia-cuts-pipeline-gas-exports-to-singapore-by-about-9/article71621477.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0295045ca776",
+      "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+      "description": "French authorities detained nearly a thousand people after a second weekend of nationwide demonstrations and confrontations with police.",
+      "lat": 49.96,
+      "lng": 4.255200000000002,
+      "severity": 3,
+      "location": "Paris, France",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d00/live/edf93830-cffb-11f1-b444-6fb1f13f8d87.jpg",
+      "ts": 1792876167000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
     {
       "id": "09a153cab31d",
       "title": "Leader of Central African Republic to attend 3rd Russia‑Africa summit",
@@ -43,10 +142,10 @@
     {
       "id": "c7f90cfa709c",
       "title": "Zelenskyy says Starlink is working again in Ukraine and thanks Americans who 'took this seriously'",
-      "description": "Ukrainian President Volodymyr Zelenskyy announced that Starlink internet service has been fully restored, enabling continued military communications.",
+      "description": "Ukrainian President Volodymyr Zelenskyy confirmed that high‑speed Starlink service has been restored, improving communications for the Ukrainian military.",
       "lat": 50.45,
       "lng": 30.52000000000001,
-      "severity": 1,
+      "severity": 3,
       "location": "Kyiv, Ukraine",
       "source": "Business Insider",
       "url": "https://www.businessinsider.com/starlink-ukraine-zelenskyy-elon-musk-trump-2026-10",
@@ -7274,140 +7373,6 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/el-salvador-bukele-announces-plan-free-half-prisoners-jailed-gang-crackdown"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0884bd702351",
-      "title": "North Korea and China Open Their Biggest Border Bridge",
-      "description": "Il nuovo ponte sul fiume Yalu è stato inaugurato, rafforzando i legami commerciali tra Pechino e Pyongyang.",
-      "lat": 40.13,
-      "lng": 124.38,
-      "severity": 1,
-      "location": "Dandong, Cina",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/10/15/world/asia/north-korea-china-bridge-yalu.html",
-      "image": "https://static01.nyt.com/images/2026/10/15/multimedia/15int-nkorea-china-bridge-cglj/15int-nkorea-china-bridge-cglj-mediumSquareAt3X.jpg",
-      "ts": 1792046700000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/10/15/world/asia/north-korea-china-bridge-yalu.html"
-          },
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/10/15/asia-pacific/china-north-korea-bridge-open/"
-          },
-          {
-            "n": "Nikkei Asia",
-            "b": "center",
-            "u": "https://asia.nikkei.com/politics/international-relations/china-north-korea-traffic-to-increase-with-new-bridge-opening"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5d42f8b68bcf",
-      "title": "Eritrean forces suffer 'heavy losses' in Tigray, Ethiopian militia says",
-      "description": "Le truppe eritree stanno subendo pesanti perdite e si ritirano verso il confine eritreo durante il conflitto nella regione del Tigray.",
-      "lat": 15.15,
-      "lng": 40.45259999999999,
-      "severity": 3,
-      "location": "Mekelle, Etiopia",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/10/15/eritrean-forces-suffer-heavy-losses-in-tigray-ethiopian-militia-says/",
-      "image": "http://images.euronews.com/articles/stories/09/95/26/98/640x360_cmsv2_db32ba8b-603d-5688-a565-5daa4aaed7b0-9952698.jpg?1792037144",
-      "ts": 1792045712000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/10/15/eritrean-forces-suffer-heavy-losses-in-tigray-ethiopian-militia-says/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7e63d8c8f6a5",
-      "title": "North Korea says it tested cruise missiles to be launched from submarines",
-      "description": "The Korean People's Army conducted a test‑flight of submarine‑launched cruise missiles, demonstrating an expanded strike capability.",
-      "lat": 40.13,
-      "lng": 125.73000000000002,
-      "severity": 3,
-      "location": "Pyeongyang, North Korea",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/north-korea-says-it-tested-cruise-missiles-to-be-launched-from-sub/a-79664436?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1792028842830,
-      "coverage": {
-        "left": 1,
-        "center": 4,
-        "right": 1,
-        "total": 6,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 4,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/north-korea-test-fires-two-types-of-submarine-strategic-cruise-missiles-12187185#publisher=newsstand"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/asia-pacific/20261014-north-korea-test-fires-submarine-launched-cruise-missiles"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/north-korea-says-it-tested-cruise-missiles-to-be-launched-from-sub/a-79664436?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/east-asia/north-korea-tests-submarine-launched-strategic-cruise-missiles-6460706"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/east-asia/north-korea-says-it-tested-submarine-launched-cruise-missiles-kcna-says"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2202253"
           }
         ]
       }
