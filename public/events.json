@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-10-25T00:16:31.887076+00:00",
+  "updated": "2026-10-25T05:14:07.915668+00:00",
   "events": [
+    {
+      "id": "beb8dabbaffe",
+      "title": "Ukrainian drone attack on Russia’s Omsk Region injures three",
+      "description": "A Ukrainian‑launched drone struck the Omsk region of Russia, causing injuries to three people and demonstrating continued cross‑border hostilities.",
+      "lat": 56.09,
+      "lng": 73.37,
+      "severity": 3,
+      "location": "Omsk, Russia",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2207401",
+      "image": null,
+      "ts": 1792903549000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2207401"
+          }
+        ]
+      }
+    },
+    {
+      "id": "318000ce5a7e",
+      "title": "Serbia votes in election pitting longtime leader against student movement",
+      "description": "Serbia held a national election where incumbent Aleksandar Vučić faced a strong challenge from a student‑led anti‑corruption coalition, influencing the country's political trajectory.",
+      "lat": 44.82,
+      "lng": 20.46,
+      "severity": 2,
+      "location": "Belgrade, Serbia",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/25/serbia-votes-in-election-pitting-longtime-leader-against-student-movement?traffic_source=rss",
+      "image": null,
+      "ts": 1792903386000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/10/25/serbia-votes-in-election-pitting-longtime-leader-against-student-movement?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2868fcb0e785",
+      "title": "Survivor of Jordan church shooting recalls 'crawling for his life' in 'terror attack'",
+      "description": "A terrorist attack on a church in Karak, Jordan killed nine people and left dozens injured, marking a serious security breach in the country.",
+      "lat": 31.18,
+      "lng": 35.71000000000001,
+      "severity": 4,
+      "location": "Karak, Jordan",
+      "source": "Daily Express World",
+      "url": "https://www.express.co.uk/news/world/2260120/survivor-church-shooting-recalls-crawling",
+      "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2260120_1.jpg",
+      "ts": 1792892100000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/survivor-deadly-attack-jordan-church-describes-people-crawling-137540100"
+          },
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2260120/survivor-church-shooting-recalls-crawling"
+          }
+        ]
+      }
+    },
     {
       "id": "4ce64123d4fa",
       "title": "Belgorod faces significant damage, casualties following massive Ukrainian strike",
@@ -142,10 +246,10 @@
     {
       "id": "c7f90cfa709c",
       "title": "Zelenskyy says Starlink is working again in Ukraine and thanks Americans who 'took this seriously'",
-      "description": "Ukrainian President Volodymyr Zelenskyy confirmed that high‑speed Starlink service has been restored, improving communications for the Ukrainian military.",
+      "description": "Zelenskyy announced that Starlink service has been fully restored across Ukraine after a brief throttling period, improving communications for civilians and the military.",
       "lat": 50.45,
       "lng": 30.52000000000001,
-      "severity": 3,
+      "severity": 1,
       "location": "Kyiv, Ukraine",
       "source": "Business Insider",
       "url": "https://www.businessinsider.com/starlink-ukraine-zelenskyy-elon-musk-trump-2026-10",
@@ -7274,105 +7378,6 @@
             "n": "South China Morning Post",
             "b": "center",
             "u": "https://www.scmp.com/economy/global-economy/article/3370999/canada-singapore-reaffirm-china-trade-ties-amid-global-push-self-sufficiency?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "291da4cbfdc3",
-      "title": "Ghana’s cocaine coast: Who is letting the traffickers through?",
-      "description": "Investigations reveal large quantities of cocaine passing through Ghanaian ports, raising concerns over regional drug trafficking networks.",
-      "lat": 6.66,
-      "lng": -0.19999999999998863,
-      "severity": 3,
-      "location": "Accra, Ghana",
-      "source": "The Africa Report",
-      "url": "https://www.theafricareport.com/433698/ghanas-cocaine-coast-who-is-letting-the-traffickers-through/",
-      "image": null,
-      "ts": 1792066301000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Africa Report",
-            "b": "center",
-            "u": "https://www.theafricareport.com/433698/ghanas-cocaine-coast-who-is-letting-the-traffickers-through/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "dd489d7f5cd2",
-      "title": "'Mother of all bombs': US potential Iran strike plans include largest non-nuclear weapon - report",
-      "description": "Secondi fonti indicano che gli Stati Uniti stanno pianificando di impiegare il MOAB contro infrastrutture energetiche e nucleari iraniane.",
-      "lat": 35.69,
-      "lng": 51.39,
-      "severity": 2,
-      "location": "Teheran, Iran",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/middle-east/iran-news/article-911758",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_613,w_1024/742076",
-      "ts": 1792051869000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/iran-news/article-911758"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7537e081bc6d",
-      "title": "El Salvador's Bukele announces plan to free up to half of prisoners jailed in gang crackdown",
-      "description": "Il presidente Nayib Bukele ha proposto di liberare fino a metà dei 90.000 detenuti incarcerati durante lo stato di emergenza contro le gang.",
-      "lat": 13.69,
-      "lng": -89.19,
-      "severity": 1,
-      "location": "San Salvador, El Salvador",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/el-salvador-bukele-announces-plan-free-half-prisoners-jailed-gang-crackdown",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/02/931/523/bukele.jpg?ve=1&tl=1",
-      "ts": 1792047719000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/el-salvador-bukele-announces-plan-free-half-prisoners-jailed-gang-crackdown"
           }
         ]
       }
