@@ -1,7 +1,144 @@
 {
   "schema": 1,
-  "updated": "2026-10-25T20:45:18.447534+00:00",
+  "updated": "2026-10-25T23:11:02.570950+00:00",
   "events": [
+    {
+      "id": "59895a7607df",
+      "title": "Brazil’s Supreme Court extends voting as transport complaints mar election",
+      "description": "The Brazilian Supreme Court orders an extension of voting hours to address shortages of buses and ferries during the runoff, affecting the electoral process.",
+      "lat": -15.79,
+      "lng": -47.879999999999995,
+      "severity": 2,
+      "location": "Brasília, Brazil",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/29033fb9-2dc7-4af0-a2ff-55d1bdd5dece?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1792969286000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/29033fb9-2dc7-4af0-a2ff-55d1bdd5dece?syn-25a6b1a6=1"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/world/brazil-pauses-presidential-vote-count-after-supreme-court-extends-voting-hours-6490261"
+          }
+        ]
+      }
+    },
+    {
+      "id": "11a0c4b63f0f",
+      "title": "Bulgaria election heads to a run‑off amid low voter turnout",
+      "description": "Bulgaria’s presidential race proceeds to a second round, highlighting political fragmentation in the EU’s southeastern flank.",
+      "lat": 43.8,
+      "lng": 23.329999999999984,
+      "severity": 2,
+      "location": "Sofia, Bulgaria",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/25/bulgaria-election-heads-to-a-run-off-amid-low-voter-turnout?traffic_source=rss",
+      "image": null,
+      "ts": 1792969037000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/10/25/bulgaria-election-heads-to-a-run-off-amid-low-voter-turnout?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e18d01f61d77",
+      "title": "Student movement topples Serbia's longtime ruling party",
+      "description": "A nationwide student‑led protest forces the defeat of Aleksandar Vučić’s Serbian Progressive Party after 14 years in power.",
+      "lat": 45.92,
+      "lng": 20.460000000000008,
+      "severity": 3,
+      "location": "Belgrade, Serbia",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/10/25/serbia-election-2026-student-protests-vucic",
+      "image": "https://images.axios.com/X7ktdfVZeq9DrmPmCHvIJOvVmRk=/0x0:4903x2758/1366x768/2026/10/25/1792963776767.jpeg",
+      "ts": 1792968190000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/10/25/serbia-election-2026-student-protests-vucic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7edf19adbb1",
+      "title": "Brazil chooses between BRICS and Trump ally in presidential runoff",
+      "description": "Brazil’s presidential runoff pits left‑wing incumbent Lula against right‑wing candidate Flávio Bolsonaro, with implications for BRICS alignment and US‑Latin America relations.",
+      "lat": -15.79,
+      "lng": -45.974800000000016,
+      "severity": 3,
+      "location": "Brasília, Brazil",
+      "source": "RT News",
+      "url": "https://rt-english.com/news/647650-brazil-election-live-updates/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.10/thumbnail/6ade790d85f54037a57e5c55.jpg",
+      "ts": 1792964944000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://rt-english.com/news/647650-brazil-election-live-updates/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
     {
       "id": "5f1b5d66ce0b",
       "title": "SoftBank announces $50 bn AI investment plan in Malaysia",
@@ -183,6 +320,59 @@
             "n": "Google News Top",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9xR2Z4WDJTQ2l5Q2steHAxSU9hZmVsVHFQZEljR0c0ajlIRWZVS2E0QmxRb0tCRF84TWdHLXJTRWRfOEt5V1pQVkdvRGpnWTNPYmdBTHhmS1BObFU?oc=5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a28b2e3ff999",
+      "title": "María Corina Machado returns to Venezuela after ten months abroad and seven failed attempts",
+      "description": "Opposition leader María Corina Machado re‑enters Venezuela, signaling a renewed domestic political challenge to the Maduro regime.",
+      "lat": 11.58,
+      "lng": -64.9548,
+      "severity": 3,
+      "location": "Caracas, Venezuela",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/10/25/maria-corina-machado-returns-to-venezuela-after-ten-months-abroad-and-seven-failed-attempts?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": "https://en.mercopress.com/data/cache/noticias/111892/100x80/hvfazlrwwaamabc.jpg",
+      "ts": 1792948080000,
+      "coverage": {
+        "left": 3,
+        "center": 2,
+        "right": 0,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/10/25/world/americas/machado-venezuela-return.html"
+          },
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/venezuela-opposition-maria-corina-machado-return/"
+          },
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/10/25/maria-corina-machado-torna-in-venezuela-sono-qui-tra-voi_faf60f2d-c279-4adc-8126-ff967629e3e2.html"
+          },
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/10/25/maria-corina-machado-returns-to-venezuela-after-ten-months-abroad-and-seven-failed-attempts?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
           }
         ]
       }
@@ -7233,211 +7423,6 @@
             "n": "The Africa Report",
             "b": "center",
             "u": "https://www.theafricareport.com/433761/ethiopia-guinea-benin-imf-report-on-african-countries-posting-strongest-economic-growth/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8b8745ca2d53",
-      "title": "Kenya on high alert as Ebola outbreak spreads from DR Congo",
-      "description": "Kenya heightened border controls after a deadly Ebola outbreak in the Democratic Republic of Congo led to one death and two cases at the Ugandan border.",
-      "lat": 1.29,
-      "lng": 36.82,
-      "severity": 3,
-      "location": "Nairobi, Kenya",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/10/16/kenya-on-high-alert-as-ebola-outbreak-in-dr-congo-fuels-border-fears/",
-      "image": "http://images.euronews.com/articles/stories/09/95/49/89/640x360_cmsv2_179355fd-005e-5ef6-b7ec-1516d15ddd01-9954989.jpg?1792151875",
-      "ts": 1792158714000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/10/16/kenya-on-high-alert-as-ebola-outbreak-in-dr-congo-fuels-border-fears/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "13b65a72a2a8",
-      "title": "Zelensky asks EU for €70 billion to fund war effort in 2027",
-      "description": "Ukrainian President Volodymyr Zelensky appealed to the European Union for additional financial support, estimating the war’s cost at €155 billion and requesting €70 billion.",
-      "lat": 49.96,
-      "lng": 4.255200000000002,
-      "severity": 3,
-      "location": "Brussels, Belgium",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/16/zelensky-allue-la-guerra-nel-2027-costera-155-miliardi-ne-chiedo-70-a-voi_09601eb9-b807-4257-b44e-12896d7372bb.html",
-      "image": null,
-      "ts": 1792156196000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/europa/2026/10/16/zelensky-allue-la-guerra-nel-2027-costera-155-miliardi-ne-chiedo-70-a-voi_09601eb9-b807-4257-b44e-12896d7372bb.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "fe45daa4f3cd",
-      "title": "Pope Leo calls Putin urging cease‑fire in Ukraine",
-      "description": "The Pope, recovering from lung‑cancer surgery, phoned President Vladimir Putin urging a cease‑fire in a Russian‑occupied Ukrainian city.",
-      "lat": 55.75,
-      "lng": 37.620000000000005,
-      "severity": 1,
-      "location": "Moscow, Russia",
-      "source": "Sky News World",
-      "url": "https://news.sky.com/story/pope-leo-pictured-for-first-time-since-cancer-surgery-as-he-holds-mass-from-hospital-13599944",
-      "image": "https://e3.365dm.com/26/10/1920x1080/skynews-pope-leo_7378341.jpg?20261016181822",
-      "ts": 1792153320000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 2,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 1,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/pope-leo-urges-vladimir-putin-37781044"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/pope-leo-pictured-for-first-time-since-cancer-surgery-as-he-holds-mass-from-hospital-13599944"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/europe/article/3371210/hospital-pope-leo-pushes-putin-ceasefire-contested-ukraine-city?utm_source=rss_feed"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/politics/2203289"
-          },
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2257970/pope-leo-xiv-putin-call-hospital"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e34b2b2f4c48",
-      "title": "Starlink restrictions enable Russia to intensify attacks on Ukraine",
-      "description": "Ukraine’s defense minister warned that limits on Starlink satellite internet are allowing Russia to step up its missile and drone strikes.",
-      "lat": 51.55,
-      "lng": 30.52000000000001,
-      "severity": 2,
-      "location": "Kyiv, Ukraine",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/10/16/zelenskyy-trump-eu-summit-russia-ukraine.html",
-      "image": null,
-      "ts": 1792146346000,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 1,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/ukraine/ukraine-starlink-restrictions-military-intel-trump-zelenskyy-russia-rcna603412"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/10/16/zelenskyy-trump-eu-summit-russia-ukraine.html"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-10-16/ukraine-civilian-casualties-surge-as-russia-intensifies-strikes"
-          },
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2257705/trump-russia-ukraine-war-oil-refineries"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1eee5e3f0a3c",
-      "title": "Egypt halts Sudan truck transit following fatal shooting of two Egyptian drivers",
-      "description": "Egypt suspended all truck traffic through the Qustul land port to Sudan after two Egyptian drivers were killed.",
-      "lat": 22.0,
-      "lng": 31.5,
-      "severity": 3,
-      "location": "Qustul, Egypt",
-      "source": "Egypt Independent",
-      "url": "https://www.egyptindependent.com/egypt-halts-sudan-truck-transit-following-fatal-shooting-of-two-egyptian-drivers/",
-      "image": null,
-      "ts": 1792143849000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/egypt-halts-sudan-truck-transit-following-fatal-shooting-of-two-egyptian-drivers/"
           }
         ]
       }
