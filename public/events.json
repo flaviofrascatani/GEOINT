@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-10-26T15:07:32.585705+00:00",
+  "updated": "2026-10-26T20:43:47.252754+00:00",
   "events": [
+    {
+      "id": "29e9bd6f5150",
+      "title": "Western borders of Russia‑Belarus Union State under growing threat",
+      "description": "Russian ambassador warns of NATO buildup near the Union State’s western borders, citing arms‑control violations.",
+      "lat": 53.9,
+      "lng": 27.56,
+      "severity": 2,
+      "location": "Minsk, Belarus",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2208259",
+      "image": null,
+      "ts": 1793046994000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2208259"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0620829e0c60",
+      "title": "Egypt OKs Military Aid to Saudis in Fight With Houthis",
+      "description": "Egypt approves defensive military assistance for Saudi Arabia in its conflict with the Houthi militia.",
+      "lat": 25.81,
+      "lng": 46.670000000000016,
+      "severity": 3,
+      "location": "Riyadh, Saudi Arabia",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/10/26/world/middleeast/egypt-military-saudi-houthis.html",
+      "image": "https://static01.nyt.com/images/2026/10/26/multimedia/26int-egypt-3-jwpm/26int-egypt-3-jwpm-mediumSquareAt3X.jpg",
+      "ts": 1793043778000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/10/26/world/middleeast/egypt-military-saudi-houthis.html"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/10/26/egypt-approves-military-support-for-saudi-arabia-amid-escalating-houthi-attacks/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d537b09a6efc",
+      "title": "Swiss foreign minister to hold talks in North Korea this week",
+      "description": "Swiss Foreign Minister Ignazio Cassis will travel to Pyongyang for political talks and to reopen Switzerland's diplomatic office.",
+      "lat": 40.13,
+      "lng": 125.73000000000002,
+      "severity": 1,
+      "location": "Pyongyang, North Korea",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/swiss-foreign-minister-to-hold-talks-in-north-korea-this-week",
+      "image": null,
+      "ts": 1793035541000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/swiss-foreign-minister-to-hold-talks-in-north-korea-this-week"
+          }
+        ]
+      }
+    },
     {
       "id": "cc4d68e0196d",
       "title": "How the Gachagua‑Sifuna alliance is rewriting Kenya’s 2027 playbook",
@@ -7299,160 +7403,6 @@
             "n": "Daily Star World",
             "b": "right",
             "u": "https://www.dailystar.co.uk/sport/football/ukraine-footballer-dead-roman-maksymyuk-37782037"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e0735e969a02",
-      "title": "Amazon deforestation lowest in nearly 40 years",
-      "description": "Deforestation in Brazil's Amazon fell to 3,335 km², the smallest amount since 1988, marking a historic environmental gain.",
-      "lat": -3.1,
-      "lng": -60.02,
-      "severity": 1,
-      "location": "Manaus, Brazil",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/brazil-amazon-deforestation-lowest-in-nearly-40-years/a-79684906?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1792196576111,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/brazil-amazon-deforestation-lowest-in-nearly-40-years/a-79684906?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4f7bcc39c1f7",
-      "title": "Russian Oil Company is Managing to Keep Service Stations Open Following Trump's Sanctions Waiver",
-      "description": "A Treasury waiver lets Lukoil continue operating service stations despite sanctions.",
-      "lat": 55.75,
-      "lng": 37.620000000000005,
-      "severity": 2,
-      "location": "Moscow, Russia",
-      "source": "IBTimes",
-      "url": "https://www.ibtimes.com/russian-oil-company-managing-keep-service-stations-open-following-trumps-sanctions-waiver-3808662",
-      "image": null,
-      "ts": 1792193881000,
-      "coverage": {
-        "left": 4,
-        "center": 3,
-        "right": 0,
-        "total": 7,
-        "buckets": {
-          "left": 0,
-          "lean_left": 4,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/ukraine/ukraine-resumes-strikes-russian-oil-refineries-trump-starlink-intel-rcna603648"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/donald-trump-waives-many-russia-related-sanctions-tariffs-under-lindsey-graham-act-in-relief-for-india-china-amid-ukraine-war-12197563#publisher=newsstand"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/us-sanctions-russia-waived-trump-37782088"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/donald-trump-waives-sanctions-tariffs-on-purchase-of-russian-oil-and-gas/article71595243.ece"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/russian-oil-company-managing-keep-service-stations-open-following-trumps-sanctions-waiver-3808662"
-          },
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/homenews/administration/6155621-trump-waives-russian-sanctions-act-tariffs/"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbjBtZHJzaWs1Q0M1VEQ3LVg3VTRvdkdwTFNKY2xwbG82X0ZYZGR1X3ZYZk1uOGRqWFdhcl90YUNTVlQ5dWNjV0Y1bmpYcWo4TENqdnhTMy1VQVV6MEtpM2ZlQXRuN2o3TS11UUNrR0F3Vnp4T0NqNHBiTndVY1ZGMU1sT2Nka2c?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "01534f300da1",
-      "title": "Recovering from lung surgery, Pope Leo urges Putin to agree to ceasefire in Russian-held Ukraine city",
-      "description": "The Pope calls President Putin from his hospital bed, urging a cease‑fire in Oleshky, Ukraine.",
-      "lat": 46.57,
-      "lng": 32.73,
-      "severity": 1,
-      "location": "Oleshky, Ukraine",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/recovering-lung-surgery-pope-leo-urges-putin-agree-ceasefire-russian-held-ukraine-city",
-      "image": "https://c.ndtvimg.com/2026-10/1e2s57m4_vladimir-putin_625x300_17_October_26.jpg?im=FeatureCrop,algorithm=dnn,width=270,height=300",
-      "ts": 1792192221000,
-      "coverage": {
-        "left": 3,
-        "center": 0,
-        "right": 3,
-        "total": 6,
-        "buckets": {
-          "left": 1,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 3
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/vatican-pope-leo-surgery_n_6acf3854e4b0e26c18d0c30c"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/nightly-news/video/ukraine-resumes-strikes-on-russian-refineries-271659589622"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/pope-leo-urges-vladimir-putin-37781044"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/recovering-lung-surgery-pope-leo-urges-putin-agree-ceasefire-russian-held-ukraine-city"
-          },
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2257970/pope-leo-xiv-putin-call-hospital"
-          },
-          {
-            "n": "Daily Star World",
-            "b": "right",
-            "u": "https://www.dailystar.co.uk/news/world-news/pope-leo-hospital-vladimir-putin-37781991"
           }
         ]
       }
