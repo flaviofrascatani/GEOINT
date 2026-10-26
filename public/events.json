@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-26T01:38:31.811698+00:00",
+  "updated": "2026-10-26T07:43:22.478260+00:00",
   "events": [
     {
       "id": "62ab38fd4ec4",
@@ -31,6 +31,39 @@
             "n": "CNBC World",
             "b": "center",
             "u": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "529fdd1158c5",
+      "title": "Celebrations in Serbia after veteran ruler Vučić loses election to student‑led protest movement",
+      "description": "Serbian opposition student list overtakes the long‑time incumbent Aleksandar Vučić, signalling a potential political turnover.",
+      "lat": 45.9176,
+      "lng": 22.36850000000001,
+      "severity": 3,
+      "location": "Belgrade, Serbia",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f0c7/live/712973e0-d110-11f1-b441-2b33b063138f.jpg",
+      "ts": 1792976825000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
@@ -598,24 +631,24 @@
     {
       "id": "5ab243dc8f00",
       "title": "Saudi Arabia Partly Reopens Riyadh Airport Despite Renewed Houthi Threats",
-      "description": "King Khalid International Airport resumes limited operations after a Houthi attack that killed 13 people, restoring a key air hub in the region.",
+      "description": "King Khalid International Airport resumes limited operations after a Houthi‑claimed attack that killed 13 people.",
       "lat": 18.3,
       "lng": 42.73,
-      "severity": 1,
+      "severity": 3,
       "location": "Khamis Mushait, Saudi Arabia",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/saudi-arabia-reopens-airport-houthi-attacks_n_6ade1d89e4b0320e45d2c1e7",
       "image": "https://c.ndtvimg.com/2026-10/sr548l7g_saudi-houthi-conflict_625x300_02_October_26.jpeg",
       "ts": 1792941928000,
       "coverage": {
-        "left": 3,
-        "center": 1,
+        "left": 4,
+        "center": 6,
         "right": 0,
-        "total": 4,
+        "total": 10,
         "buckets": {
           "left": 1,
-          "lean_left": 2,
-          "center": 1,
+          "lean_left": 3,
+          "center": 6,
           "lean_right": 0,
           "right": 0
         },
@@ -631,14 +664,44 @@
             "u": "https://www.nytimes.com/2026/10/25/world/middleeast/saudi-arabia-riyadh-airport-reopens.html"
           },
           {
-            "n": "ABC News International",
+            "n": "NDTV World",
             "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/saudi-arabia-reopens-airport-attacks-houthi-rebels-persist-137549261"
+            "u": "https://www.ndtv.com/world-news/saudi-arabia-reopens-riyadh-airport-as-houthi-missile-drone-attacks-continue-12235445#publisher=newsstand"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/intercepted-missile-after-houthis-hit-riyadh-airport-says-saudi-coalition/article71625586.ece"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORlYwOVl3Z1hlOFdacWVmeXZVNnVhejFlWDVOR0toczJ2MWNjT1FMRWZjVU0xd1hGaGtzNU9VcGdYSnR1Z2NVQjFfRVpKallEcEVuTzNweldmeEdYOE05UXFOejl1ekR1ZjlxUlhHT1NLa3J0cmZYWUxhSEs2eXNGb2xNNUJycVNWci1ZVzZUOXBSNGc0bzRJNWVTTnVlWHhXRlBrLWRTOV9HbmlJTmVfZk95N0FIQnBLQTlTa3N3eFBaVDJMWGptVU1VN3A?oc=5"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/10/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-fighting"
           },
           {
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/10/25/saudi-arabias-riyadh-airport-partially-resumes-flights-after-houthi-attacks/"
+          },
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/10/26/world/politics/houthi-saudi-arabia-riyadh-airport/"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/middle-east/article/3372131/saudi-coalition-intercepts-missile-houthis-claim-new-attack-riyadh-airport"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/world/saudi-houthis-riyadh-airport-attack-missile-6492261"
           }
         ]
       }
@@ -7385,39 +7448,6 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/10/16/dr-congo-bans-activities-of-13-political-parties-linked-to-joseph-kabila-as-opposition-cri/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "63dc1fe756e0",
-      "title": "Iranian president says Strait of Hormuz will reopen if US leaves, threatens expulsion",
-      "description": "Iran’s president warned the United States will be expelled if it does not withdraw from the Middle East, linking the threat to the Strait of Hormuz.",
-      "lat": 38.9,
-      "lng": -77.04,
-      "severity": 2,
-      "location": "Washington, DC, USA",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/",
-      "image": null,
-      "ts": 1792170565000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
           }
         ]
       }
