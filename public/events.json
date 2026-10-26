@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-10-25T23:11:02.570950+00:00",
+  "updated": "2026-10-26T01:38:31.811698+00:00",
   "events": [
+    {
+      "id": "62ab38fd4ec4",
+      "title": "Lula wins presidential election in runoff vote – markets fall, real set to weaken",
+      "description": "Brazil’s election outcome triggers a sell‑off in local markets and puts pressure on the real, reflecting investor uncertainty about policy direction.",
+      "lat": -15.78,
+      "lng": -47.93000000000001,
+      "severity": 3,
+      "location": "Brasília, Brazil",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
+      "image": null,
+      "ts": 1792977046000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3e2cbdbe300b",
+      "title": "Israel drills for surprise attack with massive military exercise as expert invokes 1973 war",
+      "description": "Israel conducts its largest joint‑forces drill in years, mobilising multiple divisions to test readiness against border infiltrations.",
+      "lat": 33.1,
+      "lng": 34.900000000000006,
+      "severity": 4,
+      "location": "Lod, Israel",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/israel-drills-surprise-attack-massive-military-exercise-expert-invokes-1973-war",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/israeli-soldiers-northern-israel-.jpg?ve=1&tl=1",
+      "ts": 1792975344000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/israel-drills-surprise-attack-massive-military-exercise-expert-invokes-1973-war"
+          }
+        ]
+      }
+    },
     {
       "id": "59895a7607df",
       "title": "Brazil’s Supreme Court extends voting as transport complaints mar election",
@@ -107,6 +173,44 @@
       }
     },
     {
+      "id": "be22d7cb7af7",
+      "title": "Lula re-elected president in Brazil, electoral authority says",
+      "description": "Luiz Inácio Lula da Silva wins a fourth term, shifting Brazil’s foreign policy back to the left and affecting US‑Latin America relations.",
+      "lat": -23.55,
+      "lng": -46.63,
+      "severity": 3,
+      "location": "São Paulo, Brazil",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/lula-re-elected-president-in-brazil-electoral-authority-says-13603818",
+      "image": "https://e3.365dm.com/26/10/1920x1080/skynews-brazil-lula_7387391.jpg?20261026002730",
+      "ts": 1792966380000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/lula-re-elected-president-in-brazil-electoral-authority-says-13603818"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2207637"
+          }
+        ]
+      }
+    },
+    {
       "id": "b7edf19adbb1",
       "title": "Brazil chooses between BRICS and Trump ally in presidential runoff",
       "description": "Brazil’s presidential runoff pits left‑wing incumbent Lula against right‑wing candidate Flávio Bolsonaro, with implications for BRICS alignment and US‑Latin America relations.",
@@ -135,6 +239,39 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://rt-english.com/news/647650-brazil-election-live-updates/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bc744e9954d1",
+      "title": "UK’s Healey Ends Talks with Canada to Merge Defense Banks",
+      "description": "Britain and Canada abandon negotiations to combine their defense‑financing institutions, signalling a setback for trans‑Atlantic defence cooperation.",
+      "lat": 51.51,
+      "lng": 1.7752000000000123,
+      "severity": 2,
+      "location": "London, United Kingdom",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-25/uk-s-healey-ends-talks-with-canada-to-merge-defense-banks",
+      "image": null,
+      "ts": 1792956396000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-10-25/uk-s-healey-ends-talks-with-canada-to-merge-defense-banks"
           }
         ]
       }
@@ -461,10 +598,10 @@
     {
       "id": "5ab243dc8f00",
       "title": "Saudi Arabia Partly Reopens Riyadh Airport Despite Renewed Houthi Threats",
-      "description": "King Khalid International Airport in Riyadh resumed limited operations after a previous Houthi attack that killed 13 people, signaling a partial restoration of air services despite ongoing threats.",
+      "description": "King Khalid International Airport resumes limited operations after a Houthi attack that killed 13 people, restoring a key air hub in the region.",
       "lat": 18.3,
       "lng": 42.73,
-      "severity": 2,
+      "severity": 1,
       "location": "Khamis Mushait, Saudi Arabia",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/saudi-arabia-reopens-airport-houthi-attacks_n_6ade1d89e4b0320e45d2c1e7",
@@ -472,14 +609,14 @@
       "ts": 1792941928000,
       "coverage": {
         "left": 3,
-        "center": 2,
-        "right": 1,
-        "total": 6,
+        "center": 1,
+        "right": 0,
+        "total": 4,
         "buckets": {
           "left": 1,
           "lean_left": 2,
-          "center": 2,
-          "lean_right": 1,
+          "center": 1,
+          "lean_right": 0,
           "right": 0
         },
         "sources": [
@@ -499,19 +636,9 @@
             "u": "https://abcnews.com/International/wireStory/saudi-arabia-reopens-airport-attacks-houthi-rebels-persist-137549261"
           },
           {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/10/25/saudi-arabia-houthi-missile-drone-interceptions.html"
-          },
-          {
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/10/25/saudi-arabias-riyadh-airport-partially-resumes-flights-after-houthi-attacks/"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2207607"
           }
         ]
       }
@@ -7291,138 +7418,6 @@
             "n": "CBS News World",
             "b": "lean_left",
             "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b1d5b8eab42b",
-      "title": "U.S. raises market‑access issues with China in Bangkok talks",
-      "description": "During bilateral meetings in Bangkok, the United States pressed China on granting market access to Mastercard and Citigroup.",
-      "lat": 14.85,
-      "lng": 100.5,
-      "severity": 2,
-      "location": "Bangkok, Thailand",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html",
-      "image": null,
-      "ts": 1792169178000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "57e614e13bb5",
-      "title": "Ukrainian forces advance in Donbas amid Operation Vivaldi",
-      "description": "Ukraine’s offensive pushes Russian troops back in the Donbas region, with key gains reported around Bakhmut.",
-      "lat": 48.59,
-      "lng": 38.01,
-      "severity": 4,
-      "location": "Bakhmut, Ukraine",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1e40/live/404f3fb0-c978-11f1-80fc-ab418b149008.jpg",
-      "ts": 1792166430000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2f029327d8d6",
-      "title": "Inside Ukrainian offensive pushing Russia back – with Starlink playing a key role",
-      "description": "Ukrainian forces advanced in the Donbas, recapturing key positions around Bakhmut with satellite communications support.",
-      "lat": 49.69,
-      "lng": 38.0,
-      "severity": 4,
-      "location": "Bakhmut, Ukraine",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1e40/live/404f3fb0-c978-11f1-80fc-ab418b149008.jpg",
-      "ts": 1792166430000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1fac15fa6bbb",
-      "title": "IMF forecasts strong growth for sub‑Saharan Africa",
-      "description": "The IMF’s regional outlook projects 4.5% GDP growth in 2026‑27 for sub‑Saharan Africa despite Middle‑East conflicts.",
-      "lat": -1.94,
-      "lng": 29.87,
-      "severity": 2,
-      "location": "Kigali, Rwanda",
-      "source": "The Africa Report",
-      "url": "https://www.theafricareport.com/433761/ethiopia-guinea-benin-imf-report-on-african-countries-posting-strongest-economic-growth/",
-      "image": null,
-      "ts": 1792159200000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Africa Report",
-            "b": "center",
-            "u": "https://www.theafricareport.com/433761/ethiopia-guinea-benin-imf-report-on-african-countries-posting-strongest-economic-growth/"
           }
         ]
       }
