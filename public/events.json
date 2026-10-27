@@ -1,7 +1,88 @@
 {
   "schema": 1,
-  "updated": "2026-10-27T16:29:57.512300+00:00",
+  "updated": "2026-10-27T20:55:46.838757+00:00",
   "events": [
+    {
+      "id": "ca6bd2093577",
+      "title": "Ebola outbreak surpasses 10,000 cases in the Democratic Republic of the Congo",
+      "description": "The DRC’s Ebola epidemic has exceeded 10,000 confirmed infections with nearly 5,000 deaths, prompting a major international health response.",
+      "lat": 1.66,
+      "lng": 29.22,
+      "severity": 3,
+      "location": "Goma, Democratic Republic of the Congo",
+      "source": "Washington Examiner",
+      "url": "https://www.washingtonexaminer.com/news/world/4781909/ebola-variant-outbreak-surpasses-10000-cases-congo-spread-to-kenya/",
+      "image": null,
+      "ts": 1793133737000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4781909/ebola-variant-outbreak-surpasses-10000-cases-congo-spread-to-kenya/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4db9dc53da3f",
+      "title": "Norway and Finland leaders hold rare call with Putin",
+      "description": "Finland’s President and Norway’s Prime Minister spoke with Russian President Vladimir Putin, signalling a rare diplomatic outreach amid the Ukraine war.",
+      "lat": 55.75,
+      "lng": 37.620000000000005,
+      "severity": 1,
+      "location": "Moscow, Russia",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/62a7/live/0a738c90-d1fa-11f1-8c9f-8d21fef6ffad.jpg",
+      "ts": 1793125703000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/vladimir-putin-ukraine-war-nato-37816393"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/norway-finland-leaders-hold-frank-and-substantive-talk-with-putin/article71632960.ece"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/denmark-s-frederiksen-criticizes-finland-and-norway-for-calling-putin-without-coordinating-with-allies-despite-consultation-with-ukraine/a-79776208?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
     {
       "id": "2d639518700c",
       "title": "Japan's Sumitomo Electric offers more low‑tungsten tools to cut China reliance",
@@ -446,6 +527,39 @@
             "n": "BBC World",
             "b": "center",
             "u": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e75dc6e87cee",
+      "title": "Israeli election results in deadlock, exit polls predict",
+      "description": "Exit polls show no clear majority in Israel’s parliamentary election, setting the stage for prolonged coalition negotiations.",
+      "lat": 31.78,
+      "lng": 35.22,
+      "severity": 3,
+      "location": "Jerusalem, Israel",
+      "source": "RTE News",
+      "url": "https://www.rte.ie/news/middle-east/2026/1027/1596901-israel-election/",
+      "image": "https://www.rte.ie/images/00253c7e-800.jpg",
+      "ts": 1793082245000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/middle-east/2026/1027/1596901-israel-election/"
           }
         ]
       }
@@ -7289,180 +7403,6 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/defense/2203653"
-          }
-        ]
-      }
-    },
-    {
-      "id": "cfef9f3d8f79",
-      "title": "Israeli settlers attack Palestinians and European officials in West Bank",
-      "description": "Extremist settlers assaulted Palestinian civilians, broke a European diplomatic vehicle’s window and attacked a French mayor during the olive harvest.",
-      "lat": 30.98,
-      "lng": 36.052599999999984,
-      "severity": 3,
-      "location": "Hebron, West Bank",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/10/17/world/middleeast/israeli-settlers-attack-palestinians-diplomats-west-bank.html",
-      "image": null,
-      "ts": 1792290771000,
-      "coverage": {
-        "left": 6,
-        "center": 8,
-        "right": 2,
-        "total": 16,
-        "buckets": {
-          "left": 1,
-          "lean_left": 5,
-          "center": 8,
-          "lean_right": 2,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/israelis-attack-journalist-burn-olive-trees-west-bank_n_6ad24868e4b0dccf572afdfc"
-          },
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/10/17/world/middleeast/israeli-settlers-attack-palestinians-diplomats-west-bank.html"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/video/israeli-settlers-burn-olive-trees-injure-journalist-in-west-bank-attack-271694917817"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/masked-settlers-attack-european-diplomats-occupied-west-bank-137348438"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/israeli-settlers-attack-european-diplomats-in-west-bank-french-mayor-beaten-12200387#publisher=newsstand"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/10/18/israeli-settlers-attack-european-diplomats-in-the-occupied-west-bank?traffic_source=rss"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/israeli-settlers-attack-foreign-media-diplomats-west-bank-israel-questions-reports-3808703"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/35a08f82-6830-41fa-83ae-d3765f3970e0"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/israeli-settlers-attack-european-diplomats-and-french-mayor-in-west-bank-belgium-says-13600419"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/west-bank-israeli-settlers-attack-eu-diplomats-french-mayor/a-79688819?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/opinion/article-911987"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-10-17/israel-must-probe-west-bank-attack-on-journalist-us-envoy-says"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/10/israeli-settlers-attack-european-diplomats-beat-french-mayor"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://rt-english.com/news/647344-israeli-settlers-attack-european-diplomats/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/mid-east/israeli-settler-terrorists-attack-european-delegation-in-west-bank"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7a715119d4ed",
-      "title": "US ambassador urges Israel to prosecute attackers of American journalist",
-      "description": "Ambassador Mike Huckabee calls the assault on Washington Post journalist Heidi Levine a despicable act of terror and demands arrests.",
-      "lat": 31.78,
-      "lng": 35.22,
-      "severity": 2,
-      "location": "Jerusalem, Israel",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/17/us-ambassador-calls-on-israel-to-prosecute-settlers-over-journalist-attack?traffic_source=rss",
-      "image": null,
-      "ts": 1792280459000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/10/17/us-ambassador-calls-on-israel-to-prosecute-settlers-over-journalist-attack?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "bec91b1f6d40",
-      "title": "Govt, trade unions to prepare for formal talks on pay",
-      "description": "The Irish government and public‑sector unions will begin negotiations on a new pay deal at the Workplace Relations Commission.",
-      "lat": 53.35,
-      "lng": -6.26,
-      "severity": 2,
-      "location": "Dublin, Ireland",
-      "source": "RTE News",
-      "url": "https://www.rte.ie/news/ireland/2026/1018/1595801-public-sector-pay-deal/",
-      "image": "https://www.rte.ie/images/00252b17-800.jpg",
-      "ts": 1792278000000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/ireland/2026/1018/1595801-public-sector-pay-deal/"
           }
         ]
       }
