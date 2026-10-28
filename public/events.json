@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-10-27T20:55:46.838757+00:00",
+  "updated": "2026-10-28T00:27:26.233558+00:00",
   "events": [
+    {
+      "id": "707b5a70611e",
+      "title": "Trade between Russia, Libya continues to grow — Putin",
+      "description": "President Putin says trade with Libya is expanding, highlighting ongoing economic partnership in North Africa.",
+      "lat": 32.89,
+      "lng": 13.19,
+      "severity": 2,
+      "location": "Tripoli, Libya",
+      "source": "TASS",
+      "url": "https://tass.com/economy/2209175",
+      "image": null,
+      "ts": 1793146081000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/economy/2209175"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9604d6a507d2",
+      "title": "Why is the US reluctant to give South Korea wartime control of its troops?",
+      "description": "South Korea seeks to regain wartime command of its forces, but the United States hesitates to set a timeline.",
+      "lat": 37.57,
+      "lng": 128.8852,
+      "severity": 2,
+      "location": "Seoul, South Korea",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/week-asia/politics/article/3372297/why-us-reluctant-give-south-korea-wartime-control-its-troops",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/27/0e1a379e-9086-47b6-975d-c84d07861dbd_7bf1b6b9.jpg?itok=NctyMaEr&v=1793093702",
+      "ts": 1793145621000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/week-asia/politics/article/3372297/why-us-reluctant-give-south-korea-wartime-control-its-troops"
+          }
+        ]
+      }
+    },
     {
       "id": "ca6bd2093577",
       "title": "Ebola outbreak surpasses 10,000 cases in the Democratic Republic of the Congo",
@@ -38,10 +104,10 @@
     {
       "id": "4db9dc53da3f",
       "title": "Norway and Finland leaders hold rare call with Putin",
-      "description": "Finland’s President and Norway’s Prime Minister spoke with Russian President Vladimir Putin, signalling a rare diplomatic outreach amid the Ukraine war.",
+      "description": "Prime ministers of Norway and Finland speak with Russian President Putin, urging an end to the Ukraine conflict.",
       "lat": 55.75,
       "lng": 37.620000000000005,
-      "severity": 1,
+      "severity": 2,
       "location": "Moscow, Russia",
       "source": "BBC World",
       "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
@@ -53,17 +119,17 @@
         "right": 0,
         "total": 4,
         "buckets": {
-          "left": 0,
-          "lean_left": 2,
+          "left": 1,
+          "lean_left": 1,
           "center": 2,
           "lean_right": 0,
           "right": 0
         },
         "sources": [
           {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/vladimir-putin-ukraine-war-nato-37816393"
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/norway-finland-putin-call_n_6ae07d49e4b065fbf4c22d9f"
           },
           {
             "n": "The Hindu International",
@@ -7337,72 +7403,6 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/canada-major-fire-reported-at-military-base-in-alberta/a-79690515?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "867fbeca0898",
-      "title": "Cherish peace and stability, John Lee urges Hongkongers during Chung Yeung Festival",
-      "description": "Hong Kong leader John Lee called on residents to value peace and stability while commemorating wartime defenders.",
-      "lat": 22.32,
-      "lng": 114.18,
-      "severity": 1,
-      "location": "Hong Kong, China",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/hong-kong/society/article/3371284/cherish-peace-and-stability-john-lee-urges-hongkongers-during-chung-yeung-festival?utm_source=rss_feed",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/18/563ec0e8-5c98-42ba-be07-95b820eb6af9_54b62476.jpg?itok=eBj1JHZM&v=1792297097",
-      "ts": 1792297110000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/hong-kong/society/article/3371284/cherish-peace-and-stability-john-lee-urges-hongkongers-during-chung-yeung-festival?utm_source=rss_feed"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e00f0711476a",
-      "title": "Russian strikes destroy half of nearly 500 Ukrainian drone crews near Dobropolye",
-      "description": "Russian air strikes hit Ukrainian drone units near Dobropolye, destroying a large portion of the crews.",
-      "lat": 51.54,
-      "lng": 46.03,
-      "severity": 4,
-      "location": "Saratov, Russia",
-      "source": "TASS",
-      "url": "https://tass.com/defense/2203653",
-      "image": null,
-      "ts": 1792295738000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/defense/2203653"
           }
         ]
       }
