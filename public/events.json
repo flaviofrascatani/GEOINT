@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-10-28T00:27:26.233558+00:00",
+  "updated": "2026-10-28T06:14:14.139282+00:00",
   "events": [
+    {
+      "id": "d6a465d0fbc8",
+      "title": "UK issued chilling 'before it's too late' Russia warning as WW3 fears explode",
+      "description": "The United Kingdom released a stark warning to Moscow, urging Russia to de‑escalate amid heightened fears of a broader conflict.",
+      "lat": 56.85,
+      "lng": 37.620000000000005,
+      "severity": 2,
+      "location": "Moscow, Russia",
+      "source": "Daily Express World",
+      "url": "https://www.express.co.uk/news/world/2261012/uk-issued-chilling-before-ww3-zelensky-putin-russia-ukraine",
+      "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2261012_1.jpg",
+      "ts": 1793167800000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2261012/uk-issued-chilling-before-ww3-zelensky-putin-russia-ukraine"
+          }
+        ]
+      }
+    },
     {
       "id": "707b5a70611e",
       "title": "Trade between Russia, Libya continues to grow — Putin",
@@ -69,6 +102,39 @@
       }
     },
     {
+      "id": "f267d6430251",
+      "title": "IMF strikes preliminary Argentina deal as market return dims",
+      "description": "The International Monetary Fund reached a preliminary agreement with Argentina, praising President Milei’s fiscal policies while noting a cautious outlook for market re‑entry.",
+      "lat": -33.51,
+      "lng": -58.379999999999995,
+      "severity": 2,
+      "location": "Buenos Aires, Argentina",
+      "source": "Buenos Aires Times",
+      "url": "https://www.batimes.com.ar/news/economy/imf-strikes-preliminary-argentina-deal-as-market-return-dims.phtml",
+      "image": "https://fotos.perfil.com/2026/10/27/trim/540/304/the-international-monetary-fund-office-in-washington-2357739.jpg",
+      "ts": 1793144311000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Buenos Aires Times",
+            "b": "center",
+            "u": "https://www.batimes.com.ar/news/economy/imf-strikes-preliminary-argentina-deal-as-market-return-dims.phtml"
+          }
+        ]
+      }
+    },
+    {
       "id": "ca6bd2093577",
       "title": "Ebola outbreak surpasses 10,000 cases in the Democratic Republic of the Congo",
       "description": "The DRC’s Ebola epidemic has exceeded 10,000 confirmed infections with nearly 5,000 deaths, prompting a major international health response.",
@@ -102,40 +168,98 @@
       }
     },
     {
+      "id": "1ff158ea3873",
+      "title": "Netanyahu gains overnight as Israel election heads toward political deadlock",
+      "description": "Israeli election exit polls show Benjamin Netanyahu’s Likud party pulling ahead but still short of a majority, leaving the government formation uncertain.",
+      "lat": 31.78,
+      "lng": 35.22,
+      "severity": 3,
+      "location": "Jerusalem, Israel",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/israelis-vote-record-numbers-first-national-election-since-oct-7-hamas-massacre",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/netanyahu-voting.jpg?ve=1&tl=1",
+      "ts": 1793131831000,
+      "coverage": {
+        "left": 2,
+        "center": 3,
+        "right": 3,
+        "total": 8,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 3,
+          "lean_right": 1,
+          "right": 2
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/10/28/exit-polls-trigger-heated-debate-across-israeli-political-divide?traffic_source=rss"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/netanyahu-and-rival-each-claim-mandate-after-tight-israel-election/article71634295.ece"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/world/2026/1028/1597028-israel-election/"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20261027-israel-election-record-turnout-netanyahu-eisenkot-deadlock"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/10/netanyahu-eisenkot-stake-rival-claims-lead-israel-after-deadlocked-vote"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/netanyahu-eisenkot-deadlocked-as-israel-election-delivers-no-clear-winner"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/israelis-vote-record-numbers-first-national-election-since-oct-7-hamas-massacre"
+          },
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2261003/israeli-pm-netanyahu-claims-victory"
+          }
+        ]
+      }
+    },
+    {
       "id": "4db9dc53da3f",
       "title": "Norway and Finland leaders hold rare call with Putin",
-      "description": "Prime ministers of Norway and Finland speak with Russian President Putin, urging an end to the Ukraine conflict.",
+      "description": "Norway and Finland prime ministers spoke with Russian President Vladimir Putin in a rare diplomatic call, emphasizing that silence will not end the Ukraine conflict.",
       "lat": 55.75,
       "lng": 37.620000000000005,
-      "severity": 2,
+      "severity": 1,
       "location": "Moscow, Russia",
       "source": "BBC World",
       "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/62a7/live/0a738c90-d1fa-11f1-8c9f-8d21fef6ffad.jpg",
       "ts": 1793125703000,
       "coverage": {
-        "left": 2,
+        "left": 0,
         "center": 2,
         "right": 0,
-        "total": 4,
+        "total": 2,
         "buckets": {
-          "left": 1,
-          "lean_left": 1,
+          "left": 0,
+          "lean_left": 0,
           "center": 2,
           "lean_right": 0,
           "right": 0
         },
         "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/norway-finland-putin-call_n_6ae07d49e4b065fbf4c22d9f"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/norway-finland-leaders-hold-frank-and-substantive-talk-with-putin/article71632960.ece"
-          },
           {
             "n": "BBC World",
             "b": "center",
@@ -725,6 +849,39 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://rt-english.com/news/647769-eu-record-gas-prices/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1f02a0dce40d",
+      "title": "Crisis in Yemen: \"Imperative that World Powers Resolutely Defend International Maritime Law\"",
+      "description": "UN Special Envoy to Yemen warned that the conflict is close to escalation and called on global powers to uphold maritime law.",
+      "lat": 16.45,
+      "lng": 46.095200000000006,
+      "severity": 3,
+      "location": "Sana'a, Yemen",
+      "source": "Der Spiegel International",
+      "url": "https://www.spiegel.de/international/world/crisis-in-yemen-imperative-that-world-powers-resolutely-defend-international-maritime-law-a-46cd5da6-a026-495d-9f55-3f137c6814ee#ref=rss",
+      "image": "https://cdn.prod.www.spiegel.de/images/11a4fcd1-5f93-4423-9441-a043d588cb34_w520_r2.08_fpx30.76_fpy52.97.jpg",
+      "ts": 1793062080000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Der Spiegel International",
+            "b": "lean_left",
+            "u": "https://www.spiegel.de/international/world/crisis-in-yemen-imperative-that-world-powers-resolutely-defend-international-maritime-law-a-46cd5da6-a026-495d-9f55-3f137c6814ee#ref=rss"
           }
         ]
       }
@@ -7251,158 +7408,6 @@
             "n": "CBS News World",
             "b": "lean_left",
             "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a12e91d98b70",
-      "title": "Pakistan extends airspace ban on Indian aircraft till November 24",
-      "description": "Pakistan prolongs its restriction on Indian flights, heightening regional tensions.",
-      "lat": 29.71,
-      "lng": 77.20999999999998,
-      "severity": 2,
-      "location": "New Delhi, India",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/pakistan-extends-airspace-ban-on-indian-aircraft-till-november-24/article71599424.ece",
-      "image": "https://th-i.thgim.com/public/incoming/astkqp/article71599431.ece/alternates/LANDSCAPE_1200/iStock-530089923.jpg",
-      "ts": 1792311470000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/pakistan-extends-ban-on-indian-aircraft-in-its-airspace-till-november-24-12202114#publisher=newsstand"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/pakistan-extends-airspace-ban-on-indian-aircraft-till-november-24/article71599424.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8b36e383eb71",
-      "title": "Violent clashes, looting and buildings ablaze in France as more than 1,200 arrested after protests",
-      "description": "Widespread unrest erupts across French cities amid cost‑of‑living protests.",
-      "lat": 48.86,
-      "lng": 4.255200000000002,
-      "severity": 3,
-      "location": "Paris, France",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8264/live/a6715ba0-ca74-11f1-9ef8-9dedd6ab697d.jpg",
-      "ts": 1792302980000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/gallery/2026/10/18/photos-protests-across-france-spiral-into-looting-blazes-and-clashes?traffic_source=rss"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6bedbb38af9f",
-      "title": "Fire at Canadian Forces Base Wainwright kills and injures personnel",
-      "description": "A major fire at CFB Wainwright in Alberta results in multiple deaths and injuries.",
-      "lat": 53.04,
-      "lng": -110.87,
-      "severity": 4,
-      "location": "Wainwright, Canada",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/fatalities-injuries-reported-canadian-forces-base-wainwright-alberta-after-incident-sparked-fire",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/wainwright-health-centre-paramedics.jpg?ve=1&tl=1",
-      "ts": 1792302070000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/10/17/world/canada/fire-canadian-army-base-wainwright.html"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMUZObU0tTWtHYUpFOGJDbUdUd2xlRDh3TnluVUVGU1U1dGJEMGtiX2U4dFFBdFhmT0xEQjFNVEREUXNleEJ4NHJsWVU5OThtNE90SHhpTFREU0N3azlVblRWUnpGVENldV9kZkVJaEJMMno0TzhybEtRS3d2RHlNcDVWRWI2eGVxNXR4bGNLTGk?oc=5"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/fatalities-injuries-reported-canadian-forces-base-wainwright-alberta-after-incident-sparked-fire"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ec9b90892dcf",
-      "title": "Major fire reported at Canadian military base in Alberta",
-      "description": "A serious incident caused a large fire at a Canadian defence base in Alberta, resulting in casualties and extensive damage.",
-      "lat": 56.73,
-      "lng": -111.38,
-      "severity": 3,
-      "location": "Fort McMurray, Canada",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/canada-major-fire-reported-at-military-base-in-alberta/a-79690515?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1792297289648,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/canada-major-fire-reported-at-military-base-in-alberta/a-79690515?maca=en-rss-en-all-1573-rdf"
           }
         ]
       }
