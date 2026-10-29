@@ -1,7 +1,144 @@
 {
   "schema": 1,
-  "updated": "2026-10-29T09:50:00.159852+00:00",
+  "updated": "2026-10-29T16:52:28.720216+00:00",
   "events": [
+    {
+      "id": "47710788f309",
+      "title": "Yemen's hospitals buckle as fighting escalates",
+      "description": "Intense fighting in Taiz, Yemen, has left hospitals overwhelmed, with casualties rising and medical supplies dwindling.",
+      "lat": 13.58,
+      "lng": 44.02,
+      "severity": 3,
+      "location": "Taiz, Yemen",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/10/yemens-hospitals-buckle-fighting-escalates",
+      "image": null,
+      "ts": 1793292393000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/10/yemens-hospitals-buckle-fighting-escalates"
+          }
+        ]
+      }
+    },
+    {
+      "id": "582589637e70",
+      "title": "Iran says four tankers on fire after hitting mines in Hormuz",
+      "description": "Iran claimed four oil tankers caught fire after striking mines in the Strait of Hormuz, accusing vessels of ignoring IRGC warnings.",
+      "lat": 27.67,
+      "lng": 58.15520000000001,
+      "severity": 2,
+      "location": "Strait of Hormuz",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/iran-says-four-tankers-on-fire-after-hitting-mines-in-hormuz/article71642019.ece",
+      "image": "https://mf.b37mrtl.ru/files/2026.10/thumbnail/6ad3c52485f5405c1c50eb98.png",
+      "ts": 1793291537000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/3-oil-tankers-on-fire-after-hitting-mines-in-hormuz-say-iran-guards-12253174#publisher=newsstand"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/iran-says-four-tankers-on-fire-after-hitting-mines-in-hormuz/article71642019.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ef7bd5dada8f",
+      "title": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
+      "description": "A Russian drone struck a train station in Dnipro, Ukraine, killing at least 14 people and wounding many others.",
+      "lat": 49.55,
+      "lng": 35.03999999999999,
+      "severity": 4,
+      "location": "Dnipro, Ukraine",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9946/live/591e3810-d3b5-11f1-a701-fddedf244c16.jpg",
+      "ts": 1793283455000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bbef9f690ad7",
+      "title": "Netanyahu falls short of majority as Israel faces three possible paths to a new government",
+      "description": "Prime Minister Netanyahu’s coalition failed to secure a parliamentary majority, prompting negotiations for a new governing arrangement.",
+      "lat": 31.78,
+      "lng": 35.22,
+      "severity": 2,
+      "location": "Jerusalem, Israel",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/netanyahu-bloc-falls-short-arab-vote-surges-qatar-election-interference-allegations-emerge",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/Israeli-Election-Banners-Netanyahu-Eisenkot.jpg?ve=1&tl=1",
+      "ts": 1793281669000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/netanyahu-bloc-falls-short-arab-vote-surges-qatar-election-interference-allegations-emerge"
+          }
+        ]
+      }
+    },
     {
       "id": "d4c897505fd3",
       "title": "China promotes General Zhang Shengmin to Politburo",
@@ -64,6 +201,44 @@
             "n": "Egypt Independent",
             "b": "center",
             "u": "https://www.egyptindependent.com/egypt-world-bank-to-boost-investment-and-exports/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "63a2f44146f5",
+      "title": "Russia and US discussing sanctions relief for Moscow’s sovereign wealth fund, Kremlin aide says",
+      "description": "U.S. and Russian officials are in talks about easing sanctions on Russia’s sovereign wealth fund, signaling a possible diplomatic thaw.",
+      "lat": 56.85,
+      "lng": 39.525199999999984,
+      "severity": 2,
+      "location": "Moscow, Russia",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNX3RtTjdiTklWeVlfbTUwdFowWHJBZzl4dG43UEd3c0RVLUpNYk05RG41SlNtUVdMNFR3bHg4MTlNS3BEeDdiSXVuZnNwcUZ2RGFFYWxFYXFFLTBDUE5rbkthaldwMVotX21WWk45YWhZQ3ZSTHY0ZFpvcWxueTBqcThxWlBDZHBFaGc?oc=5",
+      "image": null,
+      "ts": 1793255189000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNX3RtTjdiTklWeVlfbTUwdFowWHJBZzl4dG43UEd3c0RVLUpNYk05RG41SlNtUVdMNFR3bHg4MTlNS3BEeDdiSXVuZnNwcUZ2RGFFYWxFYXFFLTBDUE5rbkthaldwMVotX21WWk45YWhZQ3ZSTHY0ZFpvcWxueTBqcThxWlBDZHBFaGc?oc=5"
+          },
+          {
+            "n": "All Africa",
+            "b": "center",
+            "u": "https://allafrica.com/stories/202610290178.html"
           }
         ]
       }
@@ -6660,39 +6835,6 @@
       }
     },
     {
-      "id": "582589637e70",
-      "title": "Iran Guards Say 2 \"Violating\" Oil Tankers Set Ablaze In Strait Of Hormuz",
-      "description": "Iranian Revolutionary Guards reported that naval mines stopped two tankers attempting to pass through the strategic Strait of Hormuz, igniting them.",
-      "lat": 27.67,
-      "lng": 58.15520000000001,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/iran-guards-say-2-violating-oil-tankers-set-ablaze-in-strait-of-hormuz-12210436#publisher=newsstand",
-      "image": "https://mf.b37mrtl.ru/files/2026.10/thumbnail/6ad3c52485f5405c1c50eb98.png",
-      "ts": 1792492171000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/iran-guards-say-2-violating-oil-tankers-set-ablaze-in-strait-of-hormuz-12210436#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
       "id": "28a91e18664e",
       "title": "Zelenskyy Goes to Oslo for US Talks as Trump Tensions Mount",
       "description": "Ukrainian President Volodymyr Zelenskyy arrived in Norway for peace talks with U.S. envoys, seeking a new diplomatic path amid heightened tensions.",
@@ -7231,143 +7373,6 @@
             "n": "RTE News",
             "b": "center",
             "u": "https://www.rte.ie/news/2026/1019/1595915-france-protests/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "88bee2d913af",
-      "title": "South Africa warned of possible loss of US AGOA trade benefits",
-      "description": "President Cyril Ramaphosa said South Africa must prepare for a potential exclusion from the United States’ duty‑free African Growth and Opportunity Act.",
-      "lat": -26.2041,
-      "lng": 28.0473,
-      "severity": 2,
-      "location": "Johannesburg, South Africa",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/south-africa-must-prepare-for-potential-loss-of-us-trade-benefits-president-says",
-      "image": null,
-      "ts": 1792424771000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/cyril-ramaphosa-tells-south-africa-to-prepare-for-loss-of-us-africa-trade-deal/article71603027.ece"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/south-africa-must-prepare-for-potential-loss-of-us-trade-benefits-president-says"
-          }
-        ]
-      }
-    },
-    {
-      "id": "faadc580f31e",
-      "title": "Macky Sall officially withdraws his candidacy for UN Secretary‑General position",
-      "description": "Former Senegalese President Macky Sall announced his withdrawal from the race to become the next United Nations Secretary‑General.",
-      "lat": 14.6928,
-      "lng": -17.4467,
-      "severity": 1,
-      "location": "Dakar, Senegal",
-      "source": "All Africa",
-      "url": "https://allafrica.com/stories/202610190453.html",
-      "image": null,
-      "ts": 1792416141000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "All Africa",
-            "b": "center",
-            "u": "https://allafrica.com/stories/202610190453.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8de16fc49679",
-      "title": "China imposes export controls on tunnel‑boring machines sought by India",
-      "description": "Beijing announced new export restrictions on tunnel‑boring equipment, citing national‑security concerns, affecting Indian projects.",
-      "lat": 29.71,
-      "lng": 79.11520000000002,
-      "severity": 2,
-      "location": "New Delhi, India",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/china-imposes-export-controls-on-tunnel-boring-machines-sought-by-india-citing-national-security/article71602536.ece",
-      "image": "https://th-i.thgim.com/public/incoming/s4n7i3/article71602543.ece/alternates/LANDSCAPE_1200/iStock-187348194.jpg",
-      "ts": 1792407185000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/china-imposes-export-controls-on-tunnel-boring-machines-sought-by-india-citing-national-security/article71602536.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9f895885f6d8",
-      "title": "France to set curfews after weekend riots, Lecornu says",
-      "description": "French authorities will impose partial curfews in several cities following violent riots that damaged public property.",
-      "lat": 48.86,
-      "lng": 2.3499999999999943,
-      "severity": 3,
-      "location": "Paris, France",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-19/france-to-set-curfews-after-weekend-riots-lecornu-says",
-      "image": null,
-      "ts": 1792407122000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-10-19/france-to-set-curfews-after-weekend-riots-lecornu-says"
           }
         ]
       }
