@@ -1,7 +1,88 @@
 {
   "schema": 1,
-  "updated": "2026-10-29T21:44:49.851588+00:00",
+  "updated": "2026-10-30T01:53:53.474809+00:00",
   "events": [
+    {
+      "id": "a8867f7c949a",
+      "title": "Tensions Between Cuba And The U.S. Are Rising. Washington Just Expelled One Of Havana's Diplomats.",
+      "description": "The United States expelled a Cuban diplomat, escalating diplomatic friction between Washington and Havana.",
+      "lat": 24.22,
+      "lng": -80.4748,
+      "severity": 3,
+      "location": "Havana, Cuba",
+      "source": "IBTimes",
+      "url": "https://www.ibtimes.com/tensions-between-cuba-us-are-rising-washington-just-expelled-one-havanas-diplomats-3809132",
+      "image": null,
+      "ts": 1793319603000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/tensions-between-cuba-us-are-rising-washington-just-expelled-one-havanas-diplomats-3809132"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1762294bf8f9",
+      "title": "Ukraine: Russian strike kills two teenage girls in Chernihiv",
+      "description": "A Russian missile strike on the city of Chernihiv killed two 15‑year‑old girls and injured dozens of civilians.",
+      "lat": 27.67,
+      "lng": 56.25,
+      "severity": 4,
+      "location": "Strait of Hormuz",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/10/30/ukraine-russian-strike-kills-two-teenage-girls-in-chernihiv/",
+      "image": null,
+      "ts": 1793315711000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/russia-ukraine-war-drone-dnipro-train-station-oleshky-ceasefire/"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/ukraine-says-at-least-13-killed-in-russian-attack-on-train-station/article71641924.ece"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/10/30/ukraine-russian-strike-kills-two-teenage-girls-in-chernihiv/"
+          },
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/10/29/world/ukraine-dnipro-train-strike/"
+          }
+        ]
+      }
+    },
     {
       "id": "a023e6c26df5",
       "title": "Palestinians face growing bans from Al‑Aqsa as Israel tightens control",
@@ -31,6 +112,39 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/news/2026/10/29/palestinians-face-growing-bans-from-al-aqsa-as-israel-tightens-control?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "10eab4ed3fb7",
+      "title": "Türkiye‑centered power architecture – advancing defence relations with Europe",
+      "description": "Turkey deepened its defence cooperation with European partners, expanding joint projects and strategic dialogues.",
+      "lat": 41.03,
+      "lng": 32.860000000000014,
+      "severity": 2,
+      "location": "Ankara, Turkey",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/opinion/op-ed/turkiye-centered-power-architecture",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/10/29/468001.jpg",
+      "ts": 1793307900000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/opinion/op-ed/turkiye-centered-power-architecture"
           }
         ]
       }
@@ -6435,54 +6549,6 @@
       }
     },
     {
-      "id": "1762294bf8f9",
-      "title": "US has resumed sharing intelligence with Ukraine about Russian strikes, says Zelenskyy - The Guardian",
-      "description": "The United States restored the flow of intelligence to Kyiv, improving Ukraine's ability to anticipate Russian missile attacks.",
-      "lat": 27.67,
-      "lng": 56.25,
-      "severity": 1,
-      "location": "Strait of Hormuz",
-      "source": "Google News Top",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOT1BXVEVrSUZFeXd0V1NuRDd6dXh3cGdXVndLZWJUYTU2N3VDWFZWTlRjLUhNM3p5TDBFdEFpWDZLYzFCNTQzODN4ZGV1Vk91S0U3MmM5SUZOVmFuM2o1dFNULWc0LTFWY1V6VnpUOUozUHg2SG9yQ0lEVnFIbDJyX1hsYjl1VHB4bVVSN1lTOXV5VFBZSzVCRUREa2tlaFZHTjAtMlRmc3E3a21INVN6cDh3TGlib1M0YklzQmpCWU5VczlvTnZxM0xkaw?oc=5",
-      "image": null,
-      "ts": 1792539480000,
-      "coverage": {
-        "left": 2,
-        "center": 1,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 1,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/zelenskyy-ukraine-no-warning-russian-missiles_n_6ad6e28fe4b05354557fa620"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/russian-aerial-blitz-kills-9-in-ukraine-as-zelenskyy-meets-us-european-officials-in-norway/article71605338.ece"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOT1BXVEVrSUZFeXd0V1NuRDd6dXh3cGdXVndLZWJUYTU2N3VDWFZWTlRjLUhNM3p5TDBFdEFpWDZLYzFCNTQzODN4ZGV1Vk91S0U3MmM5SUZOVmFuM2o1dFNULWc0LTFWY1V6VnpUOUozUHg2SG9yQ0lEVnFIbDJyX1hsYjl1VHB4bVVSN1lTOXV5VFBZSzVCRUREa2tlaFZHTjAtMlRmc3E3a21INVN6cDh3TGlib1M0YklzQmpCWU5VczlvTnZxM0xkaw?oc=5"
-          },
-          {
-            "n": "Daily Star World",
-            "b": "right",
-            "u": "https://www.dailystar.co.uk/news/world-news/horror-russian-drone-strike-ukraine-37789335"
-          }
-        ]
-      }
-    },
-    {
       "id": "9c170314df3d",
       "title": "Nigeria records first Ebola case as outbreak spreads across Africa",
       "description": "Nigeria confirms its first Ebola infection amid a widening outbreak on the continent.",
@@ -7312,72 +7378,6 @@
             "n": "BBC World",
             "b": "center",
             "u": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e1d4bf628a4b",
-      "title": "Saudi envoy meets Pakistan Army chief, discusses regional security dynamics",
-      "description": "Saudi Arabia’s representative and Pakistan’s army chief held talks at the GHQ in Rawalpindi, emphasizing cooperation under the Makkah Joint Defence Agreement.",
-      "lat": 33.5971,
-      "lng": 73.0479,
-      "severity": 2,
-      "location": "Rawalpindi, Pakistan",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/saudi-envoy-meets-pakistan-army-chief-discusses-regional-security-dynamics/article71603090.ece",
-      "image": null,
-      "ts": 1792442880000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/saudi-envoy-meets-pakistan-army-chief-discusses-regional-security-dynamics/article71603090.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "881fbe89421a",
-      "title": "Syria fears imminent Israeli‑backed Druze offensive in Sweida, official tells 'Post'",
-      "description": "Damascus warns that Israel is encouraging Druze groups to launch an offensive in the Sweida region.",
-      "lat": 33.818,
-      "lng": 36.61699999999999,
-      "severity": 2,
-      "location": "Sweida, Syria",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/middle-east/article-912181",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_2005,w_3008/690360",
-      "ts": 1792441721000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/article-912181"
           }
         ]
       }
