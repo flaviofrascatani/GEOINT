@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-10-30T01:53:53.474809+00:00",
+  "updated": "2026-10-30T08:31:45.178999+00:00",
   "events": [
+    {
+      "id": "207c89a50db5",
+      "title": "Qatari mediators return to Tehran to push for US-Iran deal",
+      "description": "Qatari envoys arrived in Tehran to resume negotiations aimed at a US‑Iran agreement.",
+      "lat": 35.68,
+      "lng": 51.389999999999986,
+      "severity": 1,
+      "location": "Tehran, Iran",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/10/qatari-mediators-return-tehran-push-us-iran-deal-official-says",
+      "image": null,
+      "ts": 1793346390000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/10/qatari-mediators-return-tehran-push-us-iran-deal-official-says"
+          }
+        ]
+      }
+    },
+    {
+      "id": "86f73277ef66",
+      "title": "Ethiopia: Tens of Thousands Flee to Kenya, UN Agency Warns of Growing Humanitarian Needs",
+      "description": "UNHCR highlighted escalating humanitarian requirements as large numbers of Ethiopians cross into Kenya amid border clashes.",
+      "lat": 3.52,
+      "lng": 39.05,
+      "severity": 3,
+      "location": "Moyale, Kenya",
+      "source": "All Africa",
+      "url": "https://allafrica.com/stories/202610300173.html",
+      "image": null,
+      "ts": 1793346134000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "All Africa",
+            "b": "center",
+            "u": "https://allafrica.com/stories/202610300173.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "582589637e70",
+      "title": "Iran claims 4 tankers hit mines in Strait of Hormuz",
+      "description": "Iran reported that four oil tankers were struck by mines while transiting the strategic Strait of Hormuz.",
+      "lat": 27.67,
+      "lng": 58.15520000000001,
+      "severity": 4,
+      "location": "Strait of Hormuz",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-qatar-mediators-new-proposal-end-war/",
+      "image": "https://mf.b37mrtl.ru/files/2026.10/thumbnail/6ad3c52485f5405c1c50eb98.png",
+      "ts": 1793344719000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-qatar-mediators-new-proposal-end-war/"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/10/30/iran-trump-hormuz-oil-middle-east-.html"
+          }
+        ]
+      }
+    },
     {
       "id": "a8867f7c949a",
       "title": "Tensions Between Cuba And The U.S. Are Rising. Washington Just Expelled One Of Havana's Diplomats.",
@@ -254,6 +358,44 @@
       }
     },
     {
+      "id": "de13b4b5222c",
+      "title": "U.S. Hits Rwanda With New Sanctions Over a Conflict Trump Declared ‘Ended’",
+      "description": "The U.S. Treasury imposed sanctions on Rwanda for supporting rebels in eastern DRC, undermining a peace deal.",
+      "lat": 3.05,
+      "lng": 30.060000000000002,
+      "severity": 3,
+      "location": "Kigali, Rwanda",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/10/29/world/africa/rwanda-sanctions-m23-congo.html",
+      "image": "https://static01.nyt.com/images/2026/10/29/multimedia/29int-rwanda-1-qmkv/29int-rwanda-1-qmkv-mediumSquareAt3X.jpg",
+      "ts": 1793294028000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/10/29/world/africa/rwanda-sanctions-m23-congo.html"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOM3RIUm10VUtmSjgwYWgyTHdQSHVIczM3ZFhCSGJGbjEzN1JyWFg2YWRSa2lBR3IwYU13MVlGckhRQXJlUWRTZWxndDh0YjdTXzUxLV96WkoyM2gtQzRCcDBnQjJabmZIQi14S1RXVzhoNGY0LXhHVUdQOUlPMnhxczhjeTR4Zw?oc=5"
+          }
+        ]
+      }
+    },
+    {
       "id": "47710788f309",
       "title": "Yemen's hospitals buckle as fighting escalates",
       "description": "Intense fighting in Taiz, Yemen, has left hospitals overwhelmed, with casualties rising and medical supplies dwindling.",
@@ -282,44 +424,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/10/yemens-hospitals-buckle-fighting-escalates"
-          }
-        ]
-      }
-    },
-    {
-      "id": "582589637e70",
-      "title": "Iran says four tankers on fire after hitting mines in Hormuz",
-      "description": "Iran claimed four oil tankers caught fire after striking mines in the Strait of Hormuz, accusing vessels of ignoring IRGC warnings.",
-      "lat": 27.67,
-      "lng": 58.15520000000001,
-      "severity": 2,
-      "location": "Strait of Hormuz",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/iran-says-four-tankers-on-fire-after-hitting-mines-in-hormuz/article71642019.ece",
-      "image": "https://mf.b37mrtl.ru/files/2026.10/thumbnail/6ad3c52485f5405c1c50eb98.png",
-      "ts": 1793291537000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/3-oil-tankers-on-fire-after-hitting-mines-in-hormuz-say-iran-guards-12253174#publisher=newsstand"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/iran-says-four-tankers-on-fire-after-hitting-mines-in-hormuz/article71642019.ece"
           }
         ]
       }
@@ -962,39 +1066,6 @@
             "n": "The Guardian World",
             "b": "lean_left",
             "u": "https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown"
-          }
-        ]
-      }
-    },
-    {
-      "id": "207c89a50db5",
-      "title": "Qatari mediators hand Iran new proposal to end the war",
-      "description": "Qatari envoys presented Tehran with a draft peace deal, which Iran rejected as unacceptable.",
-      "lat": 35.68,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-qatar-mediators-new-proposal-end-war/",
-      "image": null,
-      "ts": 1793193904000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-qatar-mediators-new-proposal-end-war/"
           }
         ]
       }
@@ -7307,77 +7378,6 @@
             "n": "Google News Top",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KbTV4RU1RUG1XSzBGSjZULVZ6a0R4SVF6dEwyWXFYbS1iSktHNmY0MGdaZTI2REYtX2NOOUZMUHEzRmdLUld0R2RUY0dsS0pGU1ZUbTFxMXFCNEE?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0ca506cffff8",
-      "title": "Overnight curfews announced in parts of Paris and Nice after riots across France",
-      "description": "French authorities imposed curfews in Paris and Nice following nationwide rioting over fuel prices and economic grievances.",
-      "lat": 48.8566,
-      "lng": 2.3522000000000105,
-      "severity": 3,
-      "location": "Paris, France",
-      "source": "Google News Top",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpZklSWldWXzY3TzVZLUFfRUtuZkZoZEFNTWhFVTVKV2VvRDJrcVF1LU00Njk5TkdCSlI3NWc5Y3l4cF9PbndBcXJWTGpmYzBXSmF3NlVn?oc=5",
-      "image": null,
-      "ts": 1792444275000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/france-curfews-issued-in-paris-nice-after-unrest/live-79707186?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpZklSWldWXzY3TzVZLUFfRUtuZkZoZEFNTWhFVTVKV2VvRDJrcVF1LU00Njk5TkdCSlI3NWc5Y3l4cF9PbndBcXJWTGpmYzBXSmF3NlVn?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b1b3cb75484e",
-      "title": "Ukrainians dying because US restricting intelligence sharing, Zelensky adviser tells BBC",
-      "description": "A senior adviser warned that reduced U.S. intelligence flow is hampering Ukraine’s ability to defend against missile attacks.",
-      "lat": 51.5501,
-      "lng": 32.42860000000002,
-      "severity": 3,
-      "location": "Kyiv, Ukraine",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a726/live/cb93b2c0-cbf0-11f1-9a39-31b474234113.png",
-      "ts": 1792442940000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
