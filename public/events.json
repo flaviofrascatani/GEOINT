@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-31T16:17:33.790581+00:00",
+  "updated": "2026-10-31T20:16:08.322210+00:00",
   "events": [
     {
       "id": "df9a6cee9522",
@@ -69,6 +69,49 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/us-embassy-warns-credible-mass-casualty-threat-popular-moscow-tourist-attraction"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5b8bceebbeae",
+      "title": "Evacuees from Russian‑occupied city arrive in Ukraine",
+      "description": "A humanitarian mission extracted hundreds of people from Oleshky, a city under Russian occupation, and brought them to safety in Ukraine.",
+      "lat": 46.61,
+      "lng": 35.70519999999999,
+      "severity": 1,
+      "location": "Oleshky, Ukraine",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/55dfa145-4078-450f-a853-5f2d551260f1",
+      "image": null,
+      "ts": 1793459854000,
+      "coverage": {
+        "left": 0,
+        "center": 3,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/ukraine/2026/1031/1597454-ukraine-russia/"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/55dfa145-4078-450f-a853-5f2d551260f1"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/ukraine-news-evacuees-from-russian-occupied-oleshky-reach-kyiv-controlled-territory/live-79815409?maca=en-rss-en-all-1573-rdf"
           }
         ]
       }
@@ -837,6 +880,39 @@
             "n": "Yonhap News",
             "b": "center",
             "u": "https://en.yna.co.kr/view/AEN20261030013300315"
+          }
+        ]
+      }
+    },
+    {
+      "id": "933558f328e6",
+      "title": "Sporadic gunfire sends Ethiopians fleeing into Kenya as trucks remain stuck at border",
+      "description": "Gunfire was heard from the Ethiopian border town of Moyale, prompting civilians to flee into Kenya amid a regional dispute.",
+      "lat": -3.53,
+      "lng": 39.05,
+      "severity": 3,
+      "location": "Moyale, Ethiopia/Kenya border",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/sporadic-gunfire-sends-ethiopians-fleeing-kenya-trucks-remain-137699895",
+      "image": "https://s.abcnews.com/images/International/wirestory_e0a1189e426f109136738c84653248ca_4x3_384.jpg",
+      "ts": 1793363342000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/sporadic-gunfire-sends-ethiopians-fleeing-kenya-trucks-remain-137699895"
           }
         ]
       }
@@ -7317,77 +7393,6 @@
             "n": "Nikkei Asia",
             "b": "center",
             "u": "https://asia.nikkei.com/politics/uk-under-pressure-to-align-with-eu-duties-on-chinese-evs"
-          }
-        ]
-      }
-    },
-    {
-      "id": "dad36a1a7f17",
-      "title": "Argentina and the UK to face off in Hamburg on November 10 over Falklands oil",
-      "description": "The International Tribunal for the Law of the Sea will hear Argentina's request to halt the UK's Sea Lion oil project near the Falklands.",
-      "lat": 52.61,
-      "lng": -0.12999999999999545,
-      "severity": 2,
-      "location": "London, United Kingdom",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/10/21/argentina-and-the-uk-to-face-off-in-hamburg-on-november-10-over-falklands-oil?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111832/100x80/sea.jpg",
-      "ts": 1792547160000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/10/21/argentina-and-the-uk-to-face-off-in-hamburg-on-november-10-over-falklands-oil?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "77a73703fd0a",
-      "title": "Musk chose to restrict Ukraine's access to SpaceX network, sources say",
-      "description": "Elon Musk limited Ukraine's use of the Starlink satellite communications network, hampering its communications capability.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 3,
-      "location": "Kyiv, Ukraine",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/elon-musk-ukraine-spacex-starshield-trump-administration/",
-      "image": null,
-      "ts": 1792545430000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/elon-musk-ukraine-spacex-starshield-trump-administration/"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMidkFVX3lxTE05TXhCNE5nTDBJcEZteGFUWGtLMHY5bmlkOXBBajNqMlpqbkF4Q2wwOVZjN2E2YWhSU2p6YmJoTmpwUW1VMkVqUEhSZjc3N1hMdVZwR3RjazBCdHRVZmptaEtpN2dtV3hzcHYwb2NadVlYZFlaMkE?oc=5"
           }
         ]
       }
