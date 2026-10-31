@@ -1,7 +1,83 @@
 {
   "schema": 1,
-  "updated": "2026-10-31T20:16:08.322210+00:00",
+  "updated": "2026-10-31T23:40:24.265945+00:00",
   "events": [
+    {
+      "id": "83c1b630ad2c",
+      "title": "North Korea says defence research institutes tested major weapon system",
+      "description": "Pyongyang announced that its defence research institutes have conducted a test of a new major weapon system, indicating an escalation in its military capabilities.",
+      "lat": 39.03,
+      "lng": 125.73,
+      "severity": 4,
+      "location": "Pyongyang, North Korea",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/east-asia/north-korea-says-defence-research-institutes-tested-major-weapon-system",
+      "image": null,
+      "ts": 1793483498000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/east-asia/north-korea-says-defence-research-institutes-tested-major-weapon-system"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9ad9d8d399c0",
+      "title": "Dozens arrested outside US Embassy in London for supporting proscribed pro‑Palestinian group",
+      "description": "London police detained dozens of demonstrators outside the U.S. Embassy who were protesting in support of the banned group Palestine Action.",
+      "lat": 51.5,
+      "lng": -0.13,
+      "severity": 2,
+      "location": "London, United Kingdom",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/dozens-arrested-us-embassy-london-supporting-proscribed-pro-137736783",
+      "image": "https://s.abcnews.com/images/International/wirestory_181ab108a671bcabf5433863608949bc_4x3_384.jpg",
+      "ts": 1793473565000,
+      "coverage": {
+        "left": 3,
+        "center": 0,
+        "right": 0,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/dozens-arrested-us-embassy-london-supporting-proscribed-pro-137736783"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/dozens-arrested-us-embassy-london-pro-palestinian-group/"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/london-police-arrest-many-outside-us-embassy-for-supporting-banned-pro-palestinian-group/article71650821.ece"
+          }
+        ]
+      }
+    },
     {
       "id": "df9a6cee9522",
       "title": "Ukrainian evacuees reunite with family after years trapped in Russia‑occupied city",
@@ -37,34 +113,29 @@
     },
     {
       "id": "22707d42bb0d",
-      "title": "US Embassy warns of credible mass‑casualty threat at Moscow's Tsaritsyno Museum Reserve",
-      "description": "The US embassy in Moscow alerted authorities to a credible threat of a mass‑casualty event at the Tsaritsyno Museum Reserve.",
+      "title": "US Embassy warns of credible 'mass casualty' threat at popular Moscow tourist attraction",
+      "description": "The U.S. Embassy in Moscow alerted the public to a credible threat targeting the Tsaritsyno Museum Reserve, urging people to avoid the site.",
       "lat": 55.71,
       "lng": 37.579999999999984,
-      "severity": 2,
+      "severity": 3,
       "location": "Moscow, Russia",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-31/us-embassy-warns-of-mass-casualty-threat-at-moscow-museum",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/us-embassy-warns-credible-mass-casualty-threat-popular-moscow-tourist-attraction",
       "image": null,
-      "ts": 1793460083000,
+      "ts": 1793461128000,
       "coverage": {
         "left": 0,
-        "center": 1,
+        "center": 0,
         "right": 1,
-        "total": 2,
+        "total": 1,
         "buckets": {
           "left": 0,
           "lean_left": 0,
-          "center": 1,
+          "center": 0,
           "lean_right": 0,
           "right": 1
         },
         "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-10-31/us-embassy-warns-of-mass-casualty-threat-at-moscow-museum"
-          },
           {
             "n": "Fox News World",
             "b": "right",
@@ -145,6 +216,39 @@
             "n": "Straits Times Asia",
             "b": "center",
             "u": "https://www.straitstimes.com/asia/chinas-coast-guard-conducts-patrols-east-of-taiwan-cctv-reports"
+          }
+        ]
+      }
+    },
+    {
+      "id": "207c89a50db5",
+      "title": "Qatari mediators held talks in Tehran aimed at restarting direct U.S.-Iran negotiations, source says",
+      "description": "Qatari envoys met Iranian officials in Tehran for more than 12 hours to try to revive direct talks between Washington and Tehran.",
+      "lat": 35.68,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/10/31/qatar-iran-us-talks-mediation.html",
+      "image": null,
+      "ts": 1793454423000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/10/31/qatar-iran-us-talks-mediation.html"
           }
         ]
       }
@@ -913,39 +1017,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/sporadic-gunfire-sends-ethiopians-fleeing-kenya-trucks-remain-137699895"
-          }
-        ]
-      }
-    },
-    {
-      "id": "207c89a50db5",
-      "title": "Qatari mediators return to Tehran to push for US-Iran deal",
-      "description": "Qatari envoys arrived in Tehran to resume negotiations aimed at a US‑Iran agreement.",
-      "lat": 35.68,
-      "lng": 51.389999999999986,
-      "severity": 1,
-      "location": "Tehran, Iran",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/10/qatari-mediators-return-tehran-push-us-iran-deal-official-says",
-      "image": null,
-      "ts": 1793346390000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/10/qatari-mediators-return-tehran-push-us-iran-deal-official-says"
           }
         ]
       }
@@ -7327,72 +7398,6 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/economy/2205103"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4a01fc43e625",
-      "title": "Deutscher in Russland wegen „Söldnertums“ für die Ukraine festgenommen",
-      "description": "Der russische Geheimdienst FSB hat einen deutschen Staatsbürger in Russland wegen mutmaßlicher Söldnertätigkeit für die ukrainischen Streitkräfte festgenommen.",
-      "lat": 56.85,
-      "lng": 39.525199999999984,
-      "severity": 3,
-      "location": "Moscow, Russia",
-      "source": "Die Welt",
-      "url": "https://www.welt.de/politik/ausland/article6ad863ab29754e92ee68e077/deutscher-in-russland-wegen-soeldnertums-fuer-die-ukraine-festgenommen.html",
-      "image": "https://images.welt.de/6ad863ab29754e92ee68e077/76815262da6376538f31279cd562d457-master/ci23x11-w1200/apdpa-75ed399b9ea5454eb8c7dedbab4efee1-jpg",
-      "ts": 1792567001000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Die Welt",
-            "b": "lean_right",
-            "u": "https://www.welt.de/politik/ausland/article6ad863ab29754e92ee68e077/deutscher-in-russland-wegen-soeldnertums-fuer-die-ukraine-festgenommen.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "bf9232273c57",
-      "title": "UK under pressure to align with EU duties on Chinese EVs",
-      "description": "British officials face calls to match European Union tariffs on electric vehicles imported from China, signaling a shift in trade policy.",
-      "lat": 51.51,
-      "lng": -0.13,
-      "severity": 2,
-      "location": "London, United Kingdom",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/uk-under-pressure-to-align-with-eu-duties-on-chinese-evs",
-      "image": null,
-      "ts": 1792547913920,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Nikkei Asia",
-            "b": "center",
-            "u": "https://asia.nikkei.com/politics/uk-under-pressure-to-align-with-eu-duties-on-chinese-evs"
           }
         ]
       }
