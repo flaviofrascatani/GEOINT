@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-10-31T23:40:24.265945+00:00",
+  "updated": "2026-11-01T05:52:59.613382+00:00",
   "events": [
+    {
+      "id": "c3e5fafa5119",
+      "title": "North Korea tests cluster bomb warheads in latest ‘major’ weapons test",
+      "description": "La Corea del Nord ha effettuato un test di testate a grappolo, dimostrando capacità di distruzione su ampia area.",
+      "lat": 40.13,
+      "lng": 127.65519999999998,
+      "severity": 4,
+      "location": "Pyongyang, Corea del Nord",
+      "source": "Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/11/01/asia-pacific/north-korea-cluster-bomb-warhead/",
+      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/01/571673.JPG",
+      "ts": 1793506320000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/11/01/asia-pacific/north-korea-cluster-bomb-warhead/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e0bdb5b68013",
+      "title": "Repubblica Centrafricana, esercito sventa tentativo di presa del potere dei miliziani",
+      "description": "L'esercito della Repubblica Centrafricana ha fermato un tentativo di colpo di stato da parte di miliziani, garantendo la prosecuzione delle elezioni.",
+      "lat": 4.36,
+      "lng": 18.56,
+      "severity": 3,
+      "location": "Bangui, Repubblica Centrafricana",
+      "source": "ANSA Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/africa/2026/11/01/repubblica-centrafricana-esercito-sventa-tentativo-di-presa-del-potere-dei-miliziani_7fa3dcd8-47bc-42b0-ba2e-cd891cc69c0a.html",
+      "image": null,
+      "ts": 1793505980000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/africa/2026/11/01/repubblica-centrafricana-esercito-sventa-tentativo-di-presa-del-potere-dei-miliziani_7fa3dcd8-47bc-42b0-ba2e-cd891cc69c0a.html"
+          }
+        ]
+      }
+    },
     {
       "id": "83c1b630ad2c",
       "title": "North Korea says defence research institutes tested major weapon system",
@@ -114,10 +180,10 @@
     {
       "id": "22707d42bb0d",
       "title": "US Embassy warns of credible 'mass casualty' threat at popular Moscow tourist attraction",
-      "description": "The U.S. Embassy in Moscow alerted the public to a credible threat targeting the Tsaritsyno Museum Reserve, urging people to avoid the site.",
+      "description": "L'Ambasciata USA a Mosca ha avvertito di una minaccia credibile di attacco di massa al complesso museale di Tsaritsyno.",
       "lat": 55.71,
       "lng": 37.579999999999984,
-      "severity": 3,
+      "severity": 2,
       "location": "Moscow, Russia",
       "source": "Fox News World",
       "url": "https://www.foxnews.com/world/us-embassy-warns-credible-mass-casualty-threat-popular-moscow-tourist-attraction",
@@ -140,6 +206,44 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/us-embassy-warns-credible-mass-casualty-threat-popular-moscow-tourist-attraction"
+          }
+        ]
+      }
+    },
+    {
+      "id": "28928eaf63c2",
+      "title": "U.K. Leader Burnham Hints At Apology For Country's Role In Slave Trade But Rejects Reparations",
+      "description": "Il Primo Ministro britannico ha suggerito un possibile scuse per il ruolo del Regno Unito nella tratta degli schiavi, senza accettare richieste di riparazioni.",
+      "lat": 52.61,
+      "lng": -0.12999999999999545,
+      "severity": 2,
+      "location": "London, United Kingdom",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/britain-slavery-burnham_n_6ae601eae4b0b1f508d4d5b8",
+      "image": null,
+      "ts": 1793460649000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 1,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/britain-slavery-burnham_n_6ae601eae4b0b1f508d4d5b8"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/uk-pm-andy-burnham-open-to-slavery-apology-but-rejects-reparations-12265111#publisher=newsstand"
           }
         ]
       }
@@ -7289,115 +7393,6 @@
             "n": "MercoPress",
             "b": "center",
             "u": "https://en.mercopress.com/2026/10/21/falklands-uk-statement-at-the-un-fourth-committee-on-decolonization?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "154d0d744cce",
-      "title": "At least 153 people killed in drone strike on disputed Sudan‑South Sudan region",
-      "description": "A drone attack on a fuel depot in a border area killed over 150 civilians.",
-      "lat": 9.25,
-      "lng": 30.22,
-      "severity": 4,
-      "location": "Bentiu, Sudan",
-      "source": "Sky News World",
-      "url": "https://news.sky.com/story/at-least-153-people-killed-in-drone-strike-on-disputed-sudan-south-sudan-region-13601817",
-      "image": "https://e3.365dm.com/26/10/1920x1080/skynews-sudan-southsudan_7382655.jpg?20261021095804",
-      "ts": 1792572480000,
-      "coverage": {
-        "left": 0,
-        "center": 3,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/at-least-153-people-killed-in-drone-strike-on-disputed-sudan-south-sudan-region-13601817"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/10/21/united-nations-condemns-drone-strikes-on-civilians-and-infrastructure-in-sudan/"
-          },
-          {
-            "n": "The Africa Report",
-            "b": "center",
-            "u": "https://www.theafricareport.com/434070/sudan-army-strike-in-disputed-territory-kills-153-local-authorities/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "109a046e67e7",
-      "title": "Does Singapore’s tougher stance on haze mark an inflection point?",
-      "description": "Singapore announced it will pursue companies responsible for Indonesian forest fires that cause regional haze, signaling a firmer environmental policy.",
-      "lat": 1.35,
-      "lng": 103.82,
-      "severity": 2,
-      "location": "Singapore, Singapore",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/week-asia/health-environment/article/3371620/does-singapores-tougher-stance-haze-mark-inflection-point",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/21/7a180f7b-cae4-4c65-8687-56e60ab0609a_e52e727b.jpg?itok=xXspa9cC&v=1792567344",
-      "ts": 1792567358000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/week-asia/health-environment/article/3371620/does-singapores-tougher-stance-haze-mark-inflection-point"
-          }
-        ]
-      }
-    },
-    {
-      "id": "201076b55e34",
-      "title": "Russian stock market turns lower after opening gains",
-      "description": "The Moscow Exchange saw a decline in its main indices after an initial rise at the start of the trading session.",
-      "lat": 55.75,
-      "lng": 37.620000000000005,
-      "severity": 3,
-      "location": "Moscow, Russia",
-      "source": "TASS",
-      "url": "https://tass.com/economy/2205103",
-      "image": null,
-      "ts": 1792567149000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/economy/2205103"
           }
         ]
       }
