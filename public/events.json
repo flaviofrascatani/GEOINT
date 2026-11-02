@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-11-01T22:21:49.301819+00:00",
+  "updated": "2026-11-02T01:46:15.192497+00:00",
   "events": [
+    {
+      "id": "f2d14878937c",
+      "title": "Frankfurt riots linked to migrants, dozens of police injured",
+      "description": "Violent clashes in Frankfurt left over 100 police officers injured, with officials saying most rioters had migrant backgrounds.",
+      "lat": 50.11,
+      "lng": 8.68,
+      "severity": 3,
+      "location": "Frankfurt, Germany",
+      "source": "RT News",
+      "url": "https://rt-english.com/news/648213-frankfurt-rioters-had-migrant-background/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.11/thumbnail/6ae7dbf02030275c2833f681.jpg",
+      "ts": 1793583422000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://rt-english.com/news/648213-frankfurt-rioters-had-migrant-background/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
     {
       "id": "2dfcec05b223",
       "title": "Canada PM Carney says he had good conversation with Trump on trade",
@@ -250,11 +283,11 @@
     },
     {
       "id": "1762294bf8f9",
-      "title": "Russian Forces’ Campaign Against Ukraine-Bound Shipping Presses on With New Strike Off Odessa",
-      "description": "Fuerzas rusas atacaron un buque de carga a 16 km al sureste de Odessa que transportaba suministros para las tropas ucranianas.",
+      "title": "Russian forces strike cargo ship delivering supplies to Ukraine near Odessa",
+      "description": "Russian forces hit a cargo vessel 16 km southeast of Odessa, Ukraine, that was carrying supplies for Ukrainian troops.",
       "lat": 27.67,
       "lng": 56.25,
-      "severity": 3,
+      "severity": 4,
       "location": "Strait of Hormuz",
       "source": "Sputnik International",
       "url": "https://sputnikglobe.com/20261101/russian-forces-campaign-against-ukraine-bound-shipping-presses-on-with-new-strike-off-odessa-1124984896.html",
@@ -262,17 +295,22 @@
       "ts": 1793544265000,
       "coverage": {
         "left": 0,
-        "center": 1,
+        "center": 2,
         "right": 1,
-        "total": 2,
+        "total": 3,
         "buckets": {
           "left": 0,
           "lean_left": 0,
-          "center": 1,
+          "center": 2,
           "lean_right": 0,
           "right": 1
         },
         "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&at_campaign=rss"
+          },
           {
             "n": "CNBC World",
             "b": "center",
@@ -7340,39 +7378,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/coastal-construction-projects-threaten-mangrove-forest-protects-vietnams-137466689"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0d431c1ba1b1",
-      "title": "Philippines exploring deeper cooperation with Taiwan to protect cables",
-      "description": "Manila and Taipei discuss joint measures to safeguard undersea communication links in the South China Sea.",
-      "lat": 25.033,
-      "lng": 121.5654,
-      "severity": 2,
-      "location": "Taipei, Taiwan",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/philippines-exploring-deeper-cooperation-with-taiwan-to-protect-cables",
-      "image": null,
-      "ts": 1792622788000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/philippines-exploring-deeper-cooperation-with-taiwan-to-protect-cables"
           }
         ]
       }
