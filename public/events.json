@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-11-03T09:59:41.386575+00:00",
+  "updated": "2026-11-03T17:45:41.785675+00:00",
   "events": [
+    {
+      "id": "5ed41e05e785",
+      "title": "Gas reserves in European storage facilities at lowest level since 2013",
+      "description": "IEA data shows EU gas storage at 75 % capacity, the lowest level since 2013, raising concerns over energy security ahead of winter.",
+      "lat": 48.86,
+      "lng": 2.35,
+      "severity": 3,
+      "location": "Paris, France",
+      "source": "TASS",
+      "url": "https://tass.com/economy/2212677",
+      "image": null,
+      "ts": 1793727466000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/economy/2212677"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ebc42797c204",
+      "title": "Israel detains Al Jazeera journalist in Hebron raids",
+      "description": "Israeli forces detained Al Jazeera reporter Montaser Nassar during raids near Hebron, heightening diplomatic friction with the press organization.",
+      "lat": 33.18,
+      "lng": 36.052599999999984,
+      "severity": 3,
+      "location": "Hebron, West Bank",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/jerusalem-daily-israel-detains-al-jazeera-journalist-in-hebron-raids?traffic_source=rss",
+      "image": null,
+      "ts": 1793726762000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/11/3/jerusalem-daily-israel-detains-al-jazeera-journalist-in-hebron-raids?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "64186fae75cb",
+      "title": "Poland sends forces to Russian border as 'disturbing movement' detected",
+      "description": "Polish Prime Minister Donald Tusk ordered substantial troops to the border with Russia after intelligence reported unusual activity in Kaliningrad.",
+      "lat": 54.35,
+      "lng": 18.65,
+      "severity": 3,
+      "location": "Kaliningrad, Russia",
+      "source": "Mirror World",
+      "url": "https://www.mirror.co.uk/news/world-news/russia-poland-nato-border-forces-37839322",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article35957982.ece/ALTERNATES/s615/2_Polish-Troops-Join-NATO-Allies-for-Iron-Defender-25.jpg",
+      "ts": 1793726649000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/11/03/world/europe/poland-russia-kaliningrad.html"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/russia-poland-nato-border-forces-37839322"
+          }
+        ]
+      }
+    },
     {
       "id": "ea934b81c498",
       "title": "Ukrainian President Zelenskyy to make surprise Berlin visit this Tuesday, Merz says",
@@ -130,6 +234,44 @@
             "n": "Egypt Independent",
             "b": "center",
             "u": "https://www.egyptindependent.com/egypt-sudan-sign-agreement-to-defend-water-security/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "81d5883b3b9c",
+      "title": "The Pope arrives in an Argentina where bishops are among Milei’s firmest critics",
+      "description": "Pope Leo XIV lands in Buenos Aires, marking a high‑profile pastoral visit amid tensions with the Argentine government.",
+      "lat": -34.61,
+      "lng": -58.38,
+      "severity": 1,
+      "location": "Buenos Aires, Argentina",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/11/03/the-pope-arrives-in-an-argentina-where-bishops-are-among-milei-s-firmest-critics?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": "https://en.mercopress.com/data/cache/noticias/111977/100x80/papa.jpeg",
+      "ts": 1793698140000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/11/03/the-pope-arrives-in-an-argentina-where-bishops-are-among-milei-s-firmest-critics?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+          },
+          {
+            "n": "Buenos Aires Times",
+            "b": "center",
+            "u": "https://www.batimes.com.ar/news/argentina/made-with-munitions-from-malvinas-war-a-chalice-of-peace-in-argentina-for-pope-leo.phtml"
           }
         ]
       }
@@ -7321,138 +7463,6 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-10-22/trump-called-musk-to-lift-starlink-limits-in-ukraine-wsj-says"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8b4cea027d32",
-      "title": "OpenAI nears up to $30 billion funding round led by UAE investors",
-      "description": "OpenAI sta per chiudere un round di finanziamento da quasi 30 miliardi di dollari, con investitori principali provenienti dagli Emirati Arabi Uniti.",
-      "lat": 24.47,
-      "lng": 54.37,
-      "severity": 2,
-      "location": "Abu Dhabi, United Arab Emirates",
-      "source": "CNBC World",
-      "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
-      "image": null,
-      "ts": 1792700216000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5c112b212a1b",
-      "title": "Houthis claim they rescued 14 Indians from yacht",
-      "description": "I ribelli Houthi hanno affermato di aver salvato quattordici cittadini indiani da uno yacht in pericolo nel Mar Rosso.",
-      "lat": 15.5,
-      "lng": 42.0,
-      "severity": 3,
-      "location": "Red Sea",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/houthis-claim-they-rescued-14-indians-from-yacht-india-says-extending-help-12222528#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-10/ttqcfg5g_yacht-unsplash_625x300_23_October_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1792694128000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/houthis-claim-they-rescued-14-indians-from-yacht-india-says-extending-help-12222528#publisher=newsstand"
-          }
-        ]
-      }
-    },
-    {
-      "id": "21d1ef37be5e",
-      "title": "U.S. Secretary of State says Ukraine conflict can only be resolved through talks, U.S. ready to act as mediator",
-      "description": "The United States offers to mediate between Russia and Ukraine, emphasizing diplomatic negotiations as the sole path to peace.",
-      "lat": 38.9,
-      "lng": -77.04,
-      "severity": 2,
-      "location": "Washington, D.C., USA",
-      "source": "TASS",
-      "url": "https://tass.com/world/2206437",
-      "image": null,
-      "ts": 1792688021000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2206437"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2957625a58ef",
-      "title": "Qatar locks in US LNG through 2054 as it looks beyond Hormuz",
-      "description": "Qatar signs a long‑term contract to purchase up to 4 million tonnes of U.S. liquefied natural gas each year until 2054.",
-      "lat": 26.38,
-      "lng": 53.43520000000001,
-      "severity": 2,
-      "location": "Doha, Qatar",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/10/qatar-locks-us-lng-through-2054-it-looks-beyond-hormuz",
-      "image": null,
-      "ts": 1792687318000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/10/qatar-locks-us-lng-through-2054-it-looks-beyond-hormuz"
           }
         ]
       }
