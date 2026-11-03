@@ -1,7 +1,60 @@
 {
   "schema": 1,
-  "updated": "2026-11-02T19:45:04.490901+00:00",
+  "updated": "2026-11-03T02:13:13.374799+00:00",
   "events": [
+    {
+      "id": "854335f28591",
+      "title": "Multiple explosions heard on Qeshm Island and Bandar Lengeh in Iran",
+      "description": "Residents reported a series of explosions on Qeshm Island and in the nearby port city of Bandar Lengeh, raising security concerns in the Persian Gulf region.",
+      "lat": 25.9174,
+      "lng": 57.55000000000001,
+      "severity": 3,
+      "location": "Qeshm Island, Iran",
+      "source": "NDTV World",
+      "url": "https://www.ndtv.com/world-news/multiple-explosions-heard-on-qeshm-island-bandar-lengeh-in-iran-report-12273948#publisher=newsstand",
+      "image": "https://c.ndtvimg.com/2026-06/t2tfvsbg_iran_625x300_04_June_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1793664408000,
+      "coverage": {
+        "left": 2,
+        "center": 3,
+        "right": 0,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/multiple-explosions-heard-on-qeshm-island-bandar-lengeh-in-iran-report-12273948#publisher=newsstand"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/us-strikes-irans-qeshm-island-report/article71659212.ece"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/iran-news/article-913644"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUW9iaUN1YmNnZlZ0a05YVklpS2I1dFp2UHR0VzNRaXRubGN6ZWczLWNqdlhaTENzcUtZYjQ4OG5Ca19nVmZjZTVEYlNGTTU4QXpZYVVXOXhnMTIzYXJBeWY5ZXdTREpkN1ZCNmNzd0d4eThoOTZmVUtFSEQ1NHg0b2VQU08xaHh5R01MUWhNN0NlY0l3d1gwVDRNM0RUTnZPMjR5TENVRVpETWIxenJ3?oc=5"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/business/oil-rises-after-report-us-strike-irans-qeshm-island-6514906"
+          }
+        ]
+      }
+    },
     {
       "id": "a54d6f5b8ba1",
       "title": "Fridge cyberattack hits supermarkets across Europe",
@@ -3885,11 +3938,11 @@
     },
     {
       "id": "1f02a0dce40d",
-      "title": "Crisis in Yemen: \"Imperative that World Powers Resolutely Defend International Maritime Law\"",
-      "description": "UN Special Envoy to Yemen warned that the conflict is close to escalation and called on global powers to uphold maritime law.",
+      "title": "UN envoy says Yemen parties close to peace, urges world powers to defend maritime law",
+      "description": "UN Special Envoy Hans Grundberg highlighted that the Yemeni sides are nearer to a settlement and called for international support to uphold maritime law.",
       "lat": 16.45,
       "lng": 46.095200000000006,
-      "severity": 3,
+      "severity": 1,
       "location": "Sana'a, Yemen",
       "source": "Der Spiegel International",
       "url": "https://www.spiegel.de/international/world/crisis-in-yemen-imperative-that-world-powers-resolutely-defend-international-maritime-law-a-46cd5da6-a026-495d-9f55-3f137c6814ee#ref=rss",
@@ -7350,39 +7403,6 @@
             "n": "Yonhap News",
             "b": "center",
             "u": "https://en.yna.co.kr/view/AEN20261022012000315"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d7c7434d265f",
-      "title": "EU won’t try to steal Russian assets again – Belgium",
-      "description": "Belgian Prime Minister Bart De Wever said the EU will not revisit a proposal to seize frozen Russian sovereign assets to fund Ukraine, signalling a pause in asset‑seizure policy.",
-      "lat": 55.75,
-      "lng": 39.525199999999984,
-      "severity": 2,
-      "location": "Moscow, Russia",
-      "source": "RT News",
-      "url": "https://rt-english.com/news/647512-eu-russian-assets-confiscation/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.10/thumbnail/6ad9d02185f54079fb20f9f4.jpg",
-      "ts": 1792662565000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://rt-english.com/news/647512-eu-russian-assets-confiscation/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
           }
         ]
       }
