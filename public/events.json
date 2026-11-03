@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-11-03T17:45:41.785675+00:00",
+  "updated": "2026-11-03T23:14:37.882553+00:00",
   "events": [
+    {
+      "id": "c568025ee362",
+      "title": "Ukrainian army attacks DPR settlements 12 times in 24 hours, killing one civilian",
+      "description": "Ukrainian forces carried out multiple attacks on settlements in the Russian‑backed Donetsk People's Republic, resulting in civilian casualties.",
+      "lat": 48.01,
+      "lng": 37.8,
+      "severity": 3,
+      "location": "Donetsk, Ukraine",
+      "source": "TASS",
+      "url": "https://tass.com/defense/2212761",
+      "image": null,
+      "ts": 1793746548000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/defense/2212761"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f4f43f34ac00",
+      "title": "Trump says US will end £3billion-a-year aid payments to Israel but 'will help if needed'",
+      "description": "President Trump announced the United States will cease its annual $4 billion military aid to Israel after 2026, ending a long‑standing assistance program.",
+      "lat": 31.78,
+      "lng": 37.12520000000001,
+      "severity": 3,
+      "location": "Jerusalem, Israel",
+      "source": "Mirror World",
+      "url": "https://www.mirror.co.uk/news/us-news/trump-israel-us-aid-midterms-37840034",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37840023.ece/ALTERNATES/s615/1_FILES-US-ISRAEL-POLITICS-TRUMP-NETANYAHU.jpg",
+      "ts": 1793741703000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/us-news/trump-israel-us-aid-midterms-37840034"
+          }
+        ]
+      }
+    },
+    {
+      "id": "edb415ccced9",
+      "title": "Israeli ex‑generals condemn settler violence, help Palestinian farmers",
+      "description": "A group of senior former Israeli military officers assisted Palestinian farmers in harvesting olives as a gesture of solidarity amid rising tensions.",
+      "lat": 32.22,
+      "lng": 35.25999999999999,
+      "severity": 1,
+      "location": "Nablus, West Bank",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/11/israeli-ex-generals-condemn-settler-violence-help-palestinian-farmers",
+      "image": null,
+      "ts": 1793731604000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/world/2026/1103/1597872-west-bank-israel-military/"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/israeli-ex-generals-stand-with-palestinians-amid-settler-violence"
+          }
+        ]
+      }
+    },
     {
       "id": "5ed41e05e785",
       "title": "Gas reserves in European storage facilities at lowest level since 2013",
@@ -7314,155 +7418,6 @@
             "n": "Washington Examiner",
             "b": "right",
             "u": "https://www.washingtonexaminer.com/news/world/4776807/live-grenade-training-canada-military-base-fire/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0f45b85d39f0",
-      "title": "Hundreds of Ethiopians cross into Kenya to flee regional fighting",
-      "description": "Refugees from the Somali Regional State conflict cross the border into Kenya, seeking safety.",
-      "lat": 3.53,
-      "lng": 39.07,
-      "severity": 3,
-      "location": "Moyale, Kenya",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/22/hundreds-of-ethiopians-cross-into-kenya-to-flee-regional-fighting?traffic_source=rss",
-      "image": null,
-      "ts": 1792709555000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/10/22/hundreds-of-ethiopians-cross-into-kenya-to-flee-regional-fighting?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "312182f92214",
-      "title": "Russia ready for talks on plans for final Ukraine deal, not truce: Putin",
-      "description": "President Vladimir Putin says Russia is prepared to negotiate a comprehensive settlement with Ukraine.",
-      "lat": 55.75,
-      "lng": 37.620000000000005,
-      "severity": 2,
-      "location": "Moscow, Russia",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/russia-ready-for-talks-on-plans-for-final-ukraine-deal-not-truce-putin/article71613329.ece",
-      "image": null,
-      "ts": 1792705491000,
-      "coverage": {
-        "left": 4,
-        "center": 2,
-        "right": 3,
-        "total": 9,
-        "buckets": {
-          "left": 0,
-          "lean_left": 4,
-          "center": 2,
-          "lean_right": 1,
-          "right": 2
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/politics/donald-trump/trump-hopes-flatter-putin-negotiating-ukraine-experts-say-rcna604770"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/ukraine-russia-war-putin-trump-37798642"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/10/22/putin-says-russia-ready-for-talks-on-plans-for-final-ukraine-deal_6761845_4.html"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/russia-ready-for-talks-on-plans-for-final-ukraine-deal-not-truce-putin/article71613329.ece"
-          },
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/international/internationalrussia-ukraine-war/article-912633"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/videos/2026-10-22/romania-s-president-on-ukraine-war-security-starlink-video"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/politics/2206565"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/stephen-hubbard-russia-american-prisoner-release"
-          },
-          {
-            "n": "Daily Star World",
-            "b": "right",
-            "u": "https://www.dailystar.co.uk/news/world-news/breaking-special-envoy-commends-putin-37795509"
-          }
-        ]
-      }
-    },
-    {
-      "id": "da4f38b78324",
-      "title": "Elon Musk's Starlink and Starshield, and what they mean to Ukraine",
-      "description": "Starlink e Starshield di Musk forniscono connettività e capacità di difesa a Ucraina nella guerra contro la Russia.",
-      "lat": 50.45,
-      "lng": 32.42519999999999,
-      "severity": 1,
-      "location": "Kyiv, Ukraine",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/elon-musk-starlink-starshield-ukraine-russia/",
-      "image": null,
-      "ts": 1792700934000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/elon-musk-starlink-starshield-ukraine-russia/"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/10/22/elon-musk-ukraine-starlink-alternatives.html"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-10-22/trump-called-musk-to-lift-starlink-limits-in-ukraine-wsj-says"
           }
         ]
       }
