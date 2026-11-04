@@ -1,7 +1,177 @@
 {
   "schema": 1,
-  "updated": "2026-11-04T11:30:44.650265+00:00",
+  "updated": "2026-11-04T18:51:01.819499+00:00",
   "events": [
+    {
+      "id": "8735c8a4c383",
+      "title": "EU, UK, US meeting on Ukraine in Brussels ends without results",
+      "description": "A high‑level meeting of the EU, United Kingdom and United States in Brussels concluded without any practical agreements on the Ukraine conflict.",
+      "lat": 51.95,
+      "lng": 4.349999999999994,
+      "severity": 3,
+      "location": "Brussels, Belgium",
+      "source": "TASS",
+      "url": "https://tass.com/world/2212975",
+      "image": null,
+      "ts": 1793818076000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2212975"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e5eb21be4191",
+      "title": "Paraguay Bank Crisis Sparks Impeachment Push",
+      "description": "A banking crisis that froze savings sparked street protests and prompted opposition lawmakers to seek the impeachment of President Santiago Peña.",
+      "lat": -25.3,
+      "lng": -57.63,
+      "severity": 3,
+      "location": "Asunción, Paraguay",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/paraguay-ueno-bank-protests-impeachment-push/",
+      "image": null,
+      "ts": 1793815533000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/paraguay-ueno-bank-protests-impeachment-push/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eda15f674565",
+      "title": "Libya's eastern administration appoints a new central bank governor",
+      "description": "The eastern administration in Libya announced the appointment of a new governor for the central bank, signaling a shift in monetary leadership.",
+      "lat": 32.88,
+      "lng": 13.19,
+      "severity": 3,
+      "location": "Tripoli, Libya",
+      "source": "Africanews",
+      "url": "http://www.africanews.com/2026/11/04/libyas-eastern-administration-appoints-a-new-central-bank-governor/",
+      "image": "http://images.euronews.com/articles/stories/09/98/02/19/640x360_cmsv2_ac3ea3b3-8771-5249-92ba-f35dba2fac7e-9980219.jpg?1793810773",
+      "ts": 1793814354000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/11/04/libyas-eastern-administration-appoints-a-new-central-bank-governor/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f56eed6e3691",
+      "title": "Israel’s President Will Start Talks on Whether Netanyahu or Eisenkot Can Form a Government",
+      "description": "President Isaac Herzog began two days of meetings with party leaders to determine which candidate will be given the first chance to build a coalition.",
+      "lat": -34.61,
+      "lng": -58.38,
+      "severity": 3,
+      "location": "Buenos Aires, Argentinien",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/11/04/world/middleeast/israel-herzog-netanyahu-government.html",
+      "image": null,
+      "ts": 1793808789000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 1,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/herzog-accepts-certified-election-results-israel_n_6aeb0d2de4b0dcee62e189a9"
+          },
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/11/04/world/middleeast/israel-herzog-netanyahu-government.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "de5871a88a8c",
+      "title": "Strict environmental conditions imposed on data centres, says Malaysian PM Anwar",
+      "description": "Malaysia’s prime minister announced new stringent environmental standards for data centre operations to curb energy consumption.",
+      "lat": 3.14,
+      "lng": 101.69,
+      "severity": 2,
+      "location": "Kuala Lumpur, Malaysia",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/se-asia/strict-environmental-conditions-imposed-on-data-centres-says-malaysian-pm-anwar",
+      "image": null,
+      "ts": 1793794380000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/se-asia/strict-environmental-conditions-imposed-on-data-centres-says-malaysian-pm-anwar"
+          }
+        ]
+      }
+    },
     {
       "id": "c1680e02377c",
       "title": "Israel’s President Herzog Begins Government‑Formation Consultations",
@@ -107,6 +277,39 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/11/04/haitian-pm-thanks-el-salvador-for-support-in-fight-against-gangs/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "56517f401030",
+      "title": "Netanyahu faces coalition showdown as rivals maneuver to form Israel's next government",
+      "description": "Prime Minister Benjamin Netanyahu confronts a critical test as President Isaac Herzog decides which leader will receive the mandate to form a new coalition government.",
+      "lat": 31.78,
+      "lng": 35.22,
+      "severity": 3,
+      "location": "Jerusalem, Israel",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/netanyahu-faces-coalition-showdown-rivals-maneuver-form-israels-next-government",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/08/931/523/benjamin-netanyahu-cast-ballot.png?ve=1&tl=1",
+      "ts": 1793771104000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/netanyahu-faces-coalition-showdown-rivals-maneuver-form-israels-next-government"
           }
         ]
       }
@@ -6210,39 +6413,6 @@
       }
     },
     {
-      "id": "f56eed6e3691",
-      "title": "Netanyahu Has Told Israeli Diplomats To Support Argentine Push For Falklands Talks: Report",
-      "description": "Israelische Diplomaten erhalten den Auftrag, Argentiniens Initiative für Falkland-Gespräche zu unterstützen.",
-      "lat": -34.61,
-      "lng": -58.38,
-      "severity": 2,
-      "location": "Buenos Aires, Argentinien",
-      "source": "IBTimes",
-      "url": "https://www.ibtimes.com/netanyahu-has-told-israeli-diplomats-support-argentine-push-falklands-talks-report-3808964",
-      "image": null,
-      "ts": 1792861292000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/netanyahu-has-told-israeli-diplomats-support-argentine-push-falklands-talks-report-3808964"
-          }
-        ]
-      }
-    },
-    {
       "id": "92a9c40412cc",
       "title": "Iran president says many struggling for food as war bites",
       "description": "Il presidente iraniano ha denunciato la grave crisi alimentare interna, descrivendo la situazione come uno stato di 'ne guerra né pace'.",
@@ -7243,191 +7413,6 @@
             "n": "Egypt Independent",
             "b": "center",
             "u": "https://www.egyptindependent.com/egypt-holds-firm-on-mediterranean-sovereignty-boundaries/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e49c7407e88d",
-      "title": "Poland closes airports and 'air defence system activated' as Russia launches attack",
-      "description": "Airports in Lublin and Rzeszów were shut down after Russia carried out missile strikes in eastern Poland, prompting activation of the country's air‑defence network.",
-      "lat": 51.25,
-      "lng": 22.57,
-      "severity": 4,
-      "location": "Lublin, Poland",
-      "source": "Mirror World",
-      "url": "https://www.mirror.co.uk/news/world-news/poland-closes-airports-air-defence-37803629",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37803933.ece/ALTERNATES/s615/0_SWEDEN-ESTONIA-RUSSIA-NATO.jpg",
-      "ts": 1792756755000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/poland-closes-airports-air-defence-37803629"
-          }
-        ]
-      }
-    },
-    {
-      "id": "598b7248f8ae",
-      "title": "EU capitals moderate plans to help companies operate bloc‑wide",
-      "description": "EU leaders trimmed key provisions of the proposed ‘EU Inc’ framework, aiming to simplify cross‑border business operations while preserving national regulatory autonomy.",
-      "lat": 51.9503,
-      "lng": 4.351699999999994,
-      "severity": 1,
-      "location": "Brussels, Belgium",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/0db7d1cd-be3b-4034-b813-51fc8be88f11?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1792756509000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/0db7d1cd-be3b-4034-b813-51fc8be88f11?syn-25a6b1a6=1"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1043aa0169ae",
-      "title": "Government calls for stronger energy supply structure in white paper",
-      "description": "Japan’s 2025 energy white paper outlines measures to reinforce the nation’s supply‑and‑demand balance and improve resilience against future emergencies.",
-      "lat": 35.6895,
-      "lng": 141.5969,
-      "severity": 1,
-      "location": "Tokyo, Japan",
-      "source": "Japan Times",
-      "url": "https://www.japantimes.co.jp/news/2026/10/23/japan/japan-energy-white-paper/",
-      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/10/23/570224.jpg",
-      "ts": 1792755000000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/10/23/japan/japan-energy-white-paper/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c9b2c6aaa502",
-      "title": "Lula and Bolsonaro agree to open their bank and phone records days before the runoff",
-      "description": "Brazilian President Luiz Inácio Lula da Silva and Senator Flávio Bolsonaro signed an agreement to lift secrecy on their financial and telecommunications data ahead of the presidential runoff.",
-      "lat": 15.7939,
-      "lng": -47.8828,
-      "severity": 2,
-      "location": "Brasília, Brazil",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/10/23/lula-and-bolsonaro-agree-to-open-their-bank-and-phone-records-days-before-the-runoff?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111863/100x80/lula-bolso.jpeg",
-      "ts": 1792750380000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/10/23/lula-and-bolsonaro-agree-to-open-their-bank-and-phone-records-days-before-the-runoff?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "bf843196d5f3",
-      "title": "WHO warns Africa faces ‘complex’ Ebola outbreak as virus reaches Nigeria",
-      "description": "The World Health Organization reported the first Ebola case in West Africa, occurring in Nigeria.",
-      "lat": 6.45,
-      "lng": 3.39,
-      "severity": 3,
-      "location": "Lagos, Nigeria",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/africa/article/3371887/who-warns-africa-faces-complex-ebola-outbreak-virus-reaches-nigeria",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/bee9e113-5dca-448f-b559-95c6c84d04ca_231a5c2b.jpg?itok=aYZVsiZb&v=1792738158",
-      "ts": 1792738164000,
-      "coverage": {
-        "left": 1,
-        "center": 4,
-        "right": 0,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 4,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/10/23/who-africa-facing-complex-ebola-outbreak-after-nigeria-reports-first-case/"
-          },
-          {
-            "n": "All Africa",
-            "b": "center",
-            "u": "https://allafrica.com/stories/202610230018.html"
-          },
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/10/23/world/science-health/africa-complex-ebola-outbreak/"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/africa/article/3371887/who-warns-africa-faces-complex-ebola-outbreak-virus-reaches-nigeria"
           }
         ]
       }
