@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-11-03T23:14:37.882553+00:00",
+  "updated": "2026-11-04T03:11:57.019171+00:00",
   "events": [
+    {
+      "id": "448812c669e5",
+      "title": "U.S. midterm election results 2026: Full list of winners",
+      "description": "All 435 House seats and 35 Senate seats were contested, with Democrats gaining a majority in the House and making gains in the Senate, shaping future U.S. foreign‑policy direction.",
+      "lat": 38.9,
+      "lng": -75.1348,
+      "severity": 3,
+      "location": "Washington, DC, United States",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/us-mid-term-election-poll-results-2026-full-list-of-winners/article71663723.ece",
+      "image": "https://th-i.thgim.com/public/incoming/53dzkp/article71660797.ece/alternates/LANDSCAPE_1200/2026-11-03T115443Z_820725663_RC2BGOAI0Z80_RTRMADP_3_USA-ELECTION-OHIO.JPG",
+      "ts": 1793761273000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/us-mid-term-election-poll-results-2026-full-list-of-winners/article71663723.ece"
+          }
+        ]
+      }
+    },
     {
       "id": "c568025ee362",
       "title": "Ukrainian army attacks DPR settlements 12 times in 24 hours, killing one civilian",
@@ -38,10 +71,10 @@
     {
       "id": "f4f43f34ac00",
       "title": "Trump says US will end £3billion-a-year aid payments to Israel but 'will help if needed'",
-      "description": "President Trump announced the United States will cease its annual $4 billion military aid to Israel after 2026, ending a long‑standing assistance program.",
+      "description": "President Donald Trump declared that the United States will cease its annual $3.8 billion military aid to Israel after 2026, signalling a major shift in U.S. Middle‑East policy.",
       "lat": 31.78,
       "lng": 37.12520000000001,
-      "severity": 3,
+      "severity": 2,
       "location": "Jerusalem, Israel",
       "source": "Mirror World",
       "url": "https://www.mirror.co.uk/news/us-news/trump-israel-us-aid-midterms-37840034",
@@ -64,6 +97,39 @@
             "n": "Mirror World",
             "b": "lean_left",
             "u": "https://www.mirror.co.uk/news/us-news/trump-israel-us-aid-midterms-37840034"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1a6088168f6e",
+      "title": "UK and EU agree draft deal to scrap Brexit red tape over food exports",
+      "description": "The United Kingdom and the European Union reached a draft agreement to eliminate bureaucratic barriers for food exports, marking a significant step in normalising trade relations post‑Brexit.",
+      "lat": 51.5,
+      "lng": 1.7752000000000123,
+      "severity": 2,
+      "location": "London, United Kingdom",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d44/live/1a0b49b0-d757-11f1-93e1-3b657b665bcf.jpg",
+      "ts": 1793739183000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC Business",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
@@ -211,6 +277,39 @@
       }
     },
     {
+      "id": "92b1d9057975",
+      "title": "Zelenskyy on defying US in attacking Russian oil: 'Our response must be painful'",
+      "description": "Ukrainian President Volodymyr Zelenskyy announced that Ukraine will continue striking Russian oil refineries despite U.S. objections, intensifying the energy‑war dimension of the conflict.",
+      "lat": 55.75,
+      "lng": 37.620000000000005,
+      "severity": 4,
+      "location": "Moscow, Russia",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/ukraine-zelenskyy-defying-us-attacking-russian-oil-response-must-be-painful",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/zelenskyy-yingst-interview-walking.jpg?ve=1&tl=1",
+      "ts": 1793711853000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/ukraine-zelenskyy-defying-us-attacking-russian-oil-response-must-be-painful"
+          }
+        ]
+      }
+    },
+    {
       "id": "ea934b81c498",
       "title": "Ukrainian President Zelenskyy to make surprise Berlin visit this Tuesday, Merz says",
       "description": "Zelenskyy will travel to Germany for talks aimed at reviving peace negotiations with Moscow.",
@@ -239,39 +338,6 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/ukrainian-president-zelenskyy-to-make-surprise-berlin-visit-this-tuesday-merz-says/a-79836026?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1a6088168f6e",
-      "title": "UK and EU agree draft deal to scrap Brexit red tape over food exports",
-      "description": "Britain and the European Union finalize a draft agreement to ease food export regulations, easing trade friction post‑Brexit.",
-      "lat": 51.5,
-      "lng": 1.7752000000000123,
-      "severity": 1,
-      "location": "London, United Kingdom",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d44/live/1a0b49b0-d757-11f1-93e1-3b657b665bcf.jpg",
-      "ts": 1793699747000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC Business",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
@@ -7352,72 +7418,6 @@
             "n": "Le Monde English",
             "b": "lean_left",
             "u": "https://www.lemonde.fr/en/politics/article/2026/10/23/bans-on-protests-rain-down-across-france-raising-concerns-for-the-rule-of-law_6762142_5.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e6589ccfd615",
-      "title": "BYD‑Gentari cooperation targets Malaysia's EV charging gap",
-      "description": "Chinese EV maker BYD and Malaysian firm Gentari sign a partnership to develop charging infrastructure across Malaysia.",
-      "lat": 3.14,
-      "lng": 101.69,
-      "severity": 2,
-      "location": "Kuala Lumpur, Malaysia",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/byd-gentari-cooperation-targets-malaysia-s-ev-charging-gap",
-      "image": null,
-      "ts": 1792720451735,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Nikkei Asia",
-            "b": "center",
-            "u": "https://asia.nikkei.com/business/automobiles/electric-vehicles/byd-gentari-cooperation-targets-malaysia-s-ev-charging-gap"
-          }
-        ]
-      }
-    },
-    {
-      "id": "bcce66d6e90f",
-      "title": "Live grenade training sparked deadly fire at Canadian military base, army says",
-      "description": "A live‑grenade exercise caused a fire at an Alberta base, killing four service members and injuring dozens.",
-      "lat": 54.65,
-      "lng": -113.49,
-      "severity": 3,
-      "location": "Edmonton, Canada",
-      "source": "Washington Examiner",
-      "url": "https://www.washingtonexaminer.com/news/world/4776807/live-grenade-training-canada-military-base-fire/",
-      "image": null,
-      "ts": 1792716318000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/world/4776807/live-grenade-training-canada-military-base-fire/"
           }
         ]
       }
