@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-11-05T21:56:45.217782+00:00",
+  "updated": "2026-11-06T02:18:50.782572+00:00",
   "events": [
+    {
+      "id": "71090ddd9acc",
+      "title": "Mexico Kills Cartel Boss Known as El General",
+      "description": "Mexican federal forces killed the cartel founder El General in Naucalpan, a man previously sanctioned by the U.S. Treasury.",
+      "lat": 19.48,
+      "lng": -99.24,
+      "severity": 3,
+      "location": "Naucalpan, Mexico",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/el-general-nuevo-imperio-cartel-boss-killed-mexico/",
+      "image": null,
+      "ts": 1793927507000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/el-general-nuevo-imperio-cartel-boss-killed-mexico/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "67a79cc38a7e",
+      "title": "China’s tech megacity cleans up seedy underbelly for Apec summit",
+      "description": "Shenzhen intensified crackdowns on illicit markets ahead of the APEC leaders’ summit.",
+      "lat": 23.65,
+      "lng": 114.06,
+      "severity": 2,
+      "location": "Shenzhen, China",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/ea2ab632-1f5c-4e22-8fe2-f513e36a6862?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1793927487000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/ea2ab632-1f5c-4e22-8fe2-f513e36a6862?syn-25a6b1a6=1"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/opinion/china-opinion/article/3373140/chances-are-us-china-truce-will-be-extended-shenzhen-apec-summit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e653ba0312e6",
+      "title": "Russia hawk appointed as Germany’s top commander",
+      "description": "Lieutenant General Christian Freuding, known for his strong stance against Russia, was appointed chief of the German Armed Forces.",
+      "lat": 53.62,
+      "lng": 15.305200000000013,
+      "severity": 3,
+      "location": "Berlin, Germany",
+      "source": "RT News",
+      "url": "https://rt-english.com/news/648491-russia-hawk-lead-german-forces/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.11/thumbnail/6aed024c85f5400e197e96f0.jpg",
+      "ts": 1793923447000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://rt-english.com/news/648491-russia-hawk-lead-german-forces/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
     {
       "id": "f46b1e8a55b7",
       "title": "Redrawing Mediterranean: New alliance for energy and security",
@@ -31,6 +135,39 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/opinion/op-ed/redrawing-mediterranean-new-alliance-for-energy-and-security"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4fd29b9d7a75",
+      "title": "US issues new Cuba sanctions, takes aim at sectors of Cuban economy",
+      "description": "The United States imposed fresh sanctions targeting key sectors of Cuba’s economy.",
+      "lat": 23.12,
+      "lng": -82.36,
+      "severity": 3,
+      "location": "Havana, Cuba",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQblVpSUg3SjBzNjdqeWlrY1hpeWNhQ2E0VzNmZW1RTVl3ekVfRW5ERnpNU2gwa3M3NUZuNWFFc3JWR3BnNGlHeS1VOENLeFcwRUxaYm00TnVxZWd1RkxtbEJ0WlJTQmFMeXZDZm9iX1Fybk5qTGJ5eVhCMlV6c2VFbUd4ZXZBS2VmeW9tM0d1SjRoN0FibW13RnAtcU11XzVENk5PVTVYV2RPMGJkM3ZlaQ?oc=5",
+      "image": null,
+      "ts": 1793902268000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQblVpSUg3SjBzNjdqeWlrY1hpeWNhQ2E0VzNmZW1RTVl3ekVfRW5ERnpNU2gwa3M3NUZuNWFFc3JWR3BnNGlHeS1VOENLeFcwRUxaYm00TnVxZWd1RkxtbEJ0WlJTQmFMeXZDZm9iX1Fybk5qTGJ5eVhCMlV6c2VFbUd4ZXZBS2VmeW9tM0d1SjRoN0FibW13RnAtcU11XzVENk5PVTVYV2RPMGJkM3ZlaQ?oc=5"
           }
         ]
       }
@@ -97,6 +234,104 @@
             "n": "BBC World",
             "b": "center",
             "u": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fa1e94c07c6e",
+      "title": "Melania Trump hails Oleshky ceasefire as potential ‘spark’ for progress amid Ukraine-Russia war",
+      "description": "Melania Trump praised the ceasefire in Oleshky, calling it a spark for peace in the Ukraine‑Russia conflict.",
+      "lat": 46.61,
+      "lng": 32.599999999999994,
+      "severity": 1,
+      "location": "Oleshky, Ukraine",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/melania-trump-oleshky-ceasefire-spark-more-enduring-peace-ukraine-russia",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/melania-trump-ceasefire-oleshky-white-house.jpg?ve=1&tl=1",
+      "ts": 1793899567000,
+      "coverage": {
+        "left": 5,
+        "center": 3,
+        "right": 6,
+        "total": 14,
+        "buckets": {
+          "left": 0,
+          "lean_left": 5,
+          "center": 3,
+          "lean_right": 3,
+          "right": 3
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/11/05/world/europe/melania-trump-oleshky-ukraine-ceasefire.html"
+          },
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/ukraine/melania-trump-host-russia-ukraine-representatives-white-house-rare-mee-rcna607390"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/russia-ukraine-war-donald-trump-meets-putin-envoy-predicts-big-deal-with-russia-on-ukraine-12290251#publisher=newsstand"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/11/06/melania-hosts-russia-and-ukraine-as-trump-touts-big-agreement_6773131_4.html"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/donald-trump-predicts-deal-with-russia-on-ukraine-and-all-of-europe/article71672626.ece"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/2026/1106/1598206-trump-russia-ukraine/"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNXlZVmtDYXdpRk5xam5pbDJqRmFyb2hNV3A1VFhQbElwUVNWSWVSdnNINy1SMXo2bjM5UkZrQWNUV29zV29oSGk1OWEtbGFwUURPVFBkSDBaSWhLdWRsNExINXpQRWxlbUNCUTg4Rk5xcWthbWVrV3lhNlowQkdaYUMyZEh4NzA4NERJRmJEWUVRdTFKSVU1RGhYV1JoaW9JbU0za1RUZEJFOThpWDhjWWZCcVNBUnlvZHlj?oc=5"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2213579"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://rt-english.com/news/648478-russia-ukraine-melania-trump-meeting/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/americas/melania-trump-urges-lasting-ukraine-truce-at-rare-white-house-talks"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/melania-trump-oleshky-ceasefire-spark-more-enduring-peace-ukraine-russia"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/melania-trump-calls-for-peace-between-russia-and-ukraine-after-successful-humanitarian-ceasefire/"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/politics/2026/11/05/melania-trump-hopes-russia-ukraine-ceasefire-inspires-greater-peace/"
           }
         ]
       }
@@ -7098,221 +7333,6 @@
             "n": "CNBC World",
             "b": "center",
             "u": "https://www.cnbc.com/2026/10/24/ukraine-starlink-starshield-service-restored.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "47fdb67f0a61",
-      "title": "Ukraine says Starlink connection 'now stable' after network limits",
-      "description": "Le connessioni Starlink in Ucraina sono state ripristinate, migliorando le operazioni militari e di ricognizione dei droni.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 1,
-      "location": "Kyiv, Ukraine",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6049/live/9c0d0c10-cf9a-11f1-b441-2b33b063138f.jpg",
-      "ts": 1792843960000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a11e1aa67638",
-      "title": "China's Communist Party names new provincial chiefs ahead of fifth plenum",
-      "description": "Six new provincial party secretaries were appointed, indicating potential shifts in regional governance ahead of the party’s fifth plenum.",
-      "lat": 41.0,
-      "lng": 118.30520000000001,
-      "severity": 3,
-      "location": "Beijing, China",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/chinas-communist-party-names-new-provincial-chiefs-ahead-of-fifth-plenum",
-      "image": null,
-      "ts": 1792841535000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/chinas-communist-party-names-new-provincial-chiefs-ahead-of-fifth-plenum"
-          }
-        ]
-      }
-    },
-    {
-      "id": "162706c8f110",
-      "title": "North Korean leader Kim Jong Un visits China via newly opened bridge",
-      "description": "Kim Jong Un arrived in Dandong, China, traveling over a new bridge linking North Korea and China, marking a high‑level diplomatic contact.",
-      "lat": 40.13,
-      "lng": 124.39,
-      "severity": 2,
-      "location": "Dandong, China",
-      "source": "Yonhap News",
-      "url": "https://en.yna.co.kr/view/AEN20261024001954320",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/07/28/PYH2026072811190031500_P2.jpg",
-      "ts": 1792831327000,
-      "coverage": {
-        "left": 3,
-        "center": 6,
-        "right": 2,
-        "total": 11,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 6,
-          "lean_right": 2,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/north-korean-leader-kim-jong-visits-china-south-137532630"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/10/24/north-koreas-kim-jong-un-arrives-in-china-south-korean-media-says?traffic_source=rss"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/north-korean-leader-kim-jong-un-visits-china-south-korean-media-reports/article71619300.ece"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/north-korean-leader-kim-jong-un-arrives-in-chinese-border-city/a-79748580?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-10-24/kim-jong-un-arrives-in-china-s-dandong-city-yonhap-reports"
-          },
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/10/24/asia-pacific/politics/north-korea-kim-jong-un-china-dandong/"
-          },
-          {
-            "n": "Yonhap News",
-            "b": "center",
-            "u": "https://en.yna.co.kr/view/AEN20261024001954320"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/east-asia/kim-jong-un-tells-north-korean-army-units-prepare-new-era-military-build-up-6488631"
-          },
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/east-asia/north-koreas-kim-jong-un-visits-china-via-dandong-bridge-yonhap-says"
-          },
-          {
-            "n": "Die Welt",
-            "b": "lean_right",
-            "u": "https://www.welt.de/politik/article6adc613e9fbb7e8e310de160/nordkorea-kim-jong-un-zu-ueberraschendem-besuch-in-china-eingetroffen.html"
-          },
-          {
-            "n": "Wall Street Journal World",
-            "b": "lean_right",
-            "u": "https://www.wsj.com/articles/kim-jong-un-is-doing-everything-he-can-to-keep-north-koreas-youth-in-line-0866a1de"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d9d3b231128c",
-      "title": "Brazil candidates make final campaign push ahead of presidential runoff",
-      "description": "Brazil prepares for a tightly contested presidential runoff between incumbent Luiz Inácio Lula da Silva and challenger Flávio Bolsonaro.",
-      "lat": -14.69,
-      "lng": -47.879999999999995,
-      "severity": 3,
-      "location": "Brasília, Brazil",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/10/24/brazil-candidates-make-final-campaign-push-ahead-of-presidential-runoff/",
-      "image": "http://images.euronews.com/articles/stories/09/96/53/76/640x360_cmsv2_a6b59625-441d-5367-9d43-1631711c07c9-9965376.jpg?1792808741",
-      "ts": 1792829283000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/10/24/brazil-candidates-make-final-campaign-push-ahead-of-presidential-runoff/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9683951fbc42",
-      "title": "Russia vows to continue to send aid to Cuba through UN World Food Programme",
-      "description": "Russian Deputy Foreign Minister Alexander Alimov pledged ongoing humanitarian aid deliveries to Cuba via the UN WFP.",
-      "lat": 23.12,
-      "lng": -82.38,
-      "severity": 1,
-      "location": "Havana, Cuba",
-      "source": "TASS",
-      "url": "https://tass.com/politics/2207209",
-      "image": null,
-      "ts": 1792797901000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/politics/2207209"
           }
         ]
       }
