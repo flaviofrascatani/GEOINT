@@ -1,7 +1,126 @@
 {
   "schema": 1,
-  "updated": "2026-11-07T02:19:36.466294+00:00",
+  "updated": "2026-11-07T09:11:59.459484+00:00",
   "events": [
+    {
+      "id": "67eeb2b17216",
+      "title": "Iran executes Baluch militant over armed attack on police station",
+      "description": "Iran carries out the death sentence on a Baluch man convicted of an armed assault on a police station in the country's southeast, which left several officers killed or wounded.",
+      "lat": 29.5,
+      "lng": 60.86,
+      "severity": 3,
+      "location": "Zahedan, Iran",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/iran-executes-baluch-militant-over-armed-attack-on-police-station",
+      "image": null,
+      "ts": 1794041289000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/iran-executes-baluch-militant-over-armed-attack-on-police-station"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9b4372a0c44c",
+      "title": "Northern Road Bridge, TPP, power substation, missile plant hit in Kiev",
+      "description": "Russian forces use precision‑guided weapons and drones to strike a bridge, a thermal power plant, a substation and a missile factory in Kiev and the surrounding region.",
+      "lat": 51.55,
+      "lng": 30.52000000000001,
+      "severity": 4,
+      "location": "Kyiv, Ukraine",
+      "source": "TASS",
+      "url": "https://tass.com/defense/2214199",
+      "image": null,
+      "ts": 1794041056000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 2,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/defense/2214199"
+          },
+          {
+            "n": "Sputnik International",
+            "b": "right",
+            "u": "https://sputnikglobe.com/20261107/russian-strikes-hit-kiev-bridge-missile-plant-and-energy-infrastructure-1125028223.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a257b733045b",
+      "title": "U.S. offers $20 million for information on Iran's nuclear program",
+      "description": "The Rewards for Justice program announces a $20 million bounty for tips on Iran's nuclear facilities, equipment and personnel.",
+      "lat": 35.68,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/",
+      "image": null,
+      "ts": 1794040016000,
+      "coverage": {
+        "left": 3,
+        "center": 1,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/us-offers-20-million-reward-for-information-on-irans-nuclear-program-12295278#publisher=newsstand"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/piers-morgan-reaction-us-reward-37853473"
+          },
+          {
+            "n": "Jerusalem Post",
+            "b": "center",
+            "u": "https://www.jpost.com/middle-east/iran-news/article-914113"
+          }
+        ]
+      }
+    },
     {
       "id": "c78da0691740",
       "title": "Haitian gang reaches out to state disarmament group as gunfights persist",
@@ -348,6 +467,39 @@
       "description": "Addis Ababa announced a statistical rebasing that lifts Ethiopia’s GDP to $201 bn, prompting higher tax collection forecasts.",
       "lat": 9.03,
       "lng": 38.74,
+      "severity": 3,
+      "location": "Addis Ababa, Ethiopia",
+      "source": "The Africa Report",
+      "url": "https://www.theafricareport.com/435714/ethiopia-a-201bn-economy-on-paper-a-heavier-tax-bill-in-practice/",
+      "image": null,
+      "ts": 1793975400000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Africa Report",
+            "b": "center",
+            "u": "https://www.theafricareport.com/435714/ethiopia-a-201bn-economy-on-paper-a-heavier-tax-bill-in-practice/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d59160a77f81",
+      "title": "Ethiopia: A $201bn economy on paper, a heavier tax bill in practice",
+      "description": "Addis Ababa rebases its GDP to $201 billion, confirming its rank as Africa’s third‑largest economy but raising concerns over higher tax burdens.",
+      "lat": 10.13,
+      "lng": 38.74000000000001,
       "severity": 3,
       "location": "Addis Ababa, Ethiopia",
       "source": "The Africa Report",
@@ -7161,193 +7313,6 @@
             "n": "GNews Geopolitics",
             "b": "center",
             "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdEZIYi1YYkZXSDlUeWN0cUgzdzdudTFUNlF5bHE1eVM4Z1NZeUFxVWZrVXp3d0N1dnRRWU5iYzZSc3J5QlJiQ3c4bllDUXFJcFFFdjNGeTFPbGhxc2VRZjYzV1dLSmtKX2JqQlpfd2U4RTFmWUhoRGFtVUVtVWRSc0NBZjc0NjhUdUVLNmM2dDVBYUxLOWRob3BwWkY2bnBKSlhnSGc0aXVfTEZ5RjBsTDJ3?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5534b3fa958b",
-      "title": "Russian attacks in Dnipro region kill four civilians",
-      "description": "Nighttime Russian strikes in Ukraine’s Dnipro region resulted in four deaths and 22 injuries, including a child.",
-      "lat": 48.45,
-      "lng": 35.04,
-      "severity": 3,
-      "location": "Dnipro, Ukraine",
-      "source": "AGI Estero",
-      "url": "https://www.agi.it/estero/news/2026-10-25/ucraina-raid-russi-vertice-putin-trump-xi-39700584/",
-      "image": "https://images.agi.it/pictures/agi/agi/2026/10/25/105359420-39fd9fdb-6e2b-4412-acb3-70ea49da1ebd.jpg",
-      "ts": 1792926267000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "AGI Estero",
-            "b": "center",
-            "u": "https://www.agi.it/estero/news/2026-10-25/ucraina-raid-russi-vertice-putin-trump-xi-39700584/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6a65ccc181f9",
-      "title": "Iranische Revolutionsgarden greifen Stellung im Irak an",
-      "description": "Die iranischen Revolutionsgarden setzten Kampfdrohnen gegen das Hauptquartier der kurdischen Komala-Partei im Nordirak ein.",
-      "lat": 36.19,
-      "lng": 44.01,
-      "severity": 3,
-      "location": "Erbil, Irak",
-      "source": "Die Welt",
-      "url": "https://www.welt.de/politik/ausland/article6addc28bc5dbf72dd3f81605/kurdische-ziele-iranische-revolutionsgarden-greifen-stellung-im-irak-an.html",
-      "image": "https://images.welt.de/6addc28bc5dbf72dd3f81605/8f2c5bf8ce516fd31ff079f6c5b8b897-master/ci23x11-w1200/gyi-2266155196-jpg",
-      "ts": 1792922112000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Die Welt",
-            "b": "lean_right",
-            "u": "https://www.welt.de/politik/ausland/article6addc28bc5dbf72dd3f81605/kurdische-ziele-iranische-revolutionsgarden-greifen-stellung-im-irak-an.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "fc06855cd68a",
-      "title": "Israeli forces turn Hebron homes into military posts amid lockdown",
-      "description": "Israelische Streitkräfte richten in Hebron mehrere zivile Häuser zu militärischen Posten aus, was die Spannungen im Westjordanland weiter anheizt.",
-      "lat": 31.53,
-      "lng": 35.099999999999994,
-      "severity": 3,
-      "location": "Hebron, Westjordanland",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/25/israeli-forces-turn-hebron-homes-into-military-posts-amid-lockdown?traffic_source=rss",
-      "image": null,
-      "ts": 1792920423000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/10/25/israeli-forces-turn-hebron-homes-into-military-posts-amid-lockdown?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c71e486bac5f",
-      "title": "Bolsonaro and Lula face off in knife-edge Brazil election",
-      "description": "Die Stichwahl zwischen dem rechten Kandidaten Bolsonaro und dem linken Präsidenten Lula entscheidet über die zukünftige Ausrichtung Brasiliens.",
-      "lat": -14.69,
-      "lng": -45.974800000000016,
-      "severity": 3,
-      "location": "Brasília, Brasilien",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/29033fb9-2dc7-4af0-a2ff-55d1bdd5dece?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1792904410000,
-      "coverage": {
-        "left": 4,
-        "center": 8,
-        "right": 0,
-        "total": 12,
-        "buckets": {
-          "left": 1,
-          "lean_left": 3,
-          "center": 8,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/brazil-election-runoff-lula-bolsonaro_n_6add7bf7e4b096020fa2d4d4"
-          },
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/liveblog/2026/10/25/brazil-election-2026-live-lula-and-bolsonaro-in-tight-race?traffic_source=rss"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/10/25/brazil-s-lula-and-flavio-bolsonaro-neck-and-neck-after-bitter-runoff-campaign_6763594_4.html"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/10/25/lula-bolsonaro-rally-supporters-before-brazil-presidential-runoff.html"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/29033fb9-2dc7-4af0-a2ff-55d1bdd5dece?syn-25a6b1a6=1"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/americas/20261025-what-to-know-as-brazilians-choose-between-lula-and-bolsonaro-in-tense-presidential-runoff"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/brazil-votes-in-tight-runoff-between-leftist-lula-and-right-wing-flavio-bolsonaro/a-79753924?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-10-24/bolsonaro-and-lula-in-dead-heat-a-day-before-runoff-polls-shows"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/brazils-election-tests-lulas-leftist-legacy-against-bolsonaros-right-wing-movement/"
-          },
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/10/25/brazil-chooses-between-lula-and-bolsonaro-in-its-tightest-runoff-in-recent-history?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
           }
         ]
       }
