@@ -1,7 +1,154 @@
 {
   "schema": 1,
-  "updated": "2026-11-07T15:53:40.593525+00:00",
+  "updated": "2026-11-07T20:10:19.412470+00:00",
   "events": [
+    {
+      "id": "ad8df6c5128e",
+      "title": "Israeli president picks Gadi Eisenkot to form government: Statement",
+      "description": "President Isaac Herzog tasked former military chief Gadi Eisenkot with forming a new coalition government after Netanyahu's era ended.",
+      "lat": 31.78,
+      "lng": 35.22,
+      "severity": 2,
+      "location": "Jerusalem, Israel",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/israeli-president-picks-gadi-eisenkot-to-form-government-statement/a-79888288?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1794082219299,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/israeli-president-picks-gadi-eisenkot-to-form-government-statement/a-79888288?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e827dd53212e",
+      "title": "Mass shooting in Polish market leaves at least 6 dead, 15 injured",
+      "description": "A gunman drove onto Krakow's main square and opened fire, killing six people and wounding fifteen.",
+      "lat": 50.06,
+      "lng": 19.94,
+      "severity": 3,
+      "location": "Krakow, Poland",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/news/shooting-main-market-square-krakow-poland/",
+      "image": null,
+      "ts": 1794081103000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/shooting-main-market-square-krakow-poland/"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/at-least-6-killed-in-shooting-in-polish-city-of-krakow-police-say/a-79886489?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Daily Star World",
+            "b": "right",
+            "u": "https://www.dailystar.co.uk/news/world-news/multiple-people-shot-gunman-opens-37854278"
+          }
+        ]
+      }
+    },
+    {
+      "id": "816362bf1e7e",
+      "title": "Masked protesters set off firecrackers and block roads in Albania",
+      "description": "Police used water cannons to disperse masked protesters who blocked streets in Tirana, Albania's capital.",
+      "lat": 41.33,
+      "lng": 19.82,
+      "severity": 3,
+      "location": "Tirana, Albania",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/masked-protesters-set-off-firecrackers-and-block-roads-in-albania?traffic_source=rss",
+      "image": null,
+      "ts": 1794080959000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/11/7/masked-protesters-set-off-firecrackers-and-block-roads-in-albania?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2f8621c6ae76",
+      "title": "U.S. Is Seeking To Expand Its Blockade On Iran Despite Growing Bipartisan Opposition To The Conflict",
+      "description": "CENTCOM created a 20‑member task force to disrupt Iran's land and Caspian Sea supply routes, intensifying Washington's economic pressure campaign.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 3,
+      "location": "Tehran, Iran",
+      "source": "IBTimes",
+      "url": "https://www.ibtimes.com/centcom-task-force-iron-gate-iran-supply-routes-3809533",
+      "image": null,
+      "ts": 1794076849000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/centcom-task-force-iron-gate-iran-supply-routes-3809533"
+          }
+        ]
+      }
+    },
     {
       "id": "6006a53fdbd6",
       "title": "Heavy rains flood 70,000 displacement tents across Gaza",
@@ -7096,173 +7243,6 @@
             "n": "France 24",
             "b": "center",
             "u": "https://www.france24.com/en/video/20261025-marine-le-pen-launches-presidential-campaign-in-orl%C3%A9ans"
-          }
-        ]
-      }
-    },
-    {
-      "id": "78ff772e995c",
-      "title": "Israeli strike on Gaza university kills three",
-      "description": "An air strike on a university in Gaza City resulted in three fatalities, according to local health officials.",
-      "lat": 31.52,
-      "lng": 34.46000000000001,
-      "severity": 3,
-      "location": "Gaza City, Gaza Strip",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/10/strike-gaza-university-kills-three-staff-hospital",
-      "image": null,
-      "ts": 1792949425000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/israeli-air-strikes-kill-several-across-gaza-strip-local-authorities/article71624332.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "343c9e5c322c",
-      "title": "Israel expels thousands of Palestinians from Hebron",
-      "description": "Israeli authorities ordered the removal of several thousand residents from Hebron, citing security concerns.",
-      "lat": 31.53,
-      "lng": 35.099999999999994,
-      "severity": 3,
-      "location": "Hebron, West Bank",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/jerusalem-daily-israel-expels-thousands-from-hebron?traffic_source=rss",
-      "image": null,
-      "ts": 1792948379000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/10/25/jerusalem-daily-israel-expels-thousands-from-hebron?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a2b869cb3622",
-      "title": "Venezuelan opposition leader María Corina Machado returns after months in exile",
-      "description": "Machado re‑entered Venezuela, calling for new elections and confronting the government that has barred her.",
-      "lat": 11.61,
-      "lng": -66.9,
-      "severity": 2,
-      "location": "Caracas, Venezuela",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/10/25/maria-corina-machado-returns-to-venezuela-after-ten-months-abroad-and-seven-failed-attempts?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111892/100x80/hvfazlrwwaamabc.jpg",
-      "ts": 1792948080000,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 0,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/10/25/world/americas/machado-venezuela-return.html"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/world/2026/1025/1596811-machado-venezuela-return/"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9xR2Z4WDJTQ2l5Q2steHAxSU9hZmVsVHFQZEljR0c0ajlIRWZVS2E0QmxRb0tCRF84TWdHLXJTRWRfOEt5V1pQVkdvRGpnWTNPYmdBTHhmS1BObFU?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a28b2e3ff999",
-      "title": "María Corina Machado returns to Venezuela after ten months abroad and seven failed attempts",
-      "description": "Opposition leader María Corina Machado re‑enters Venezuela, signaling a renewed domestic political challenge to the Maduro regime.",
-      "lat": 11.58,
-      "lng": -64.9548,
-      "severity": 3,
-      "location": "Caracas, Venezuela",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/10/25/maria-corina-machado-returns-to-venezuela-after-ten-months-abroad-and-seven-failed-attempts?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111892/100x80/hvfazlrwwaamabc.jpg",
-      "ts": 1792948080000,
-      "coverage": {
-        "left": 3,
-        "center": 2,
-        "right": 0,
-        "total": 5,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/10/25/world/americas/machado-venezuela-return.html"
-          },
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/venezuela-opposition-maria-corina-machado-return/"
-          },
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/10/25/maria-corina-machado-torna-in-venezuela-sono-qui-tra-voi_faf60f2d-c279-4adc-8126-ff967629e3e2.html"
-          },
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/10/25/maria-corina-machado-returns-to-venezuela-after-ten-months-abroad-and-seven-failed-attempts?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
           }
         ]
       }
