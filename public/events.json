@@ -1,7 +1,78 @@
 {
   "schema": 1,
-  "updated": "2026-11-07T09:11:59.459484+00:00",
+  "updated": "2026-11-07T15:53:40.593525+00:00",
   "events": [
+    {
+      "id": "6006a53fdbd6",
+      "title": "Heavy rains flood 70,000 displacement tents across Gaza",
+      "description": "Heavy rain flooded tens of thousands of tents housing displaced Palestinians in the Gaza Strip, leaving many families without shelter.",
+      "lat": 30.5674,
+      "lng": 36.110000000000014,
+      "severity": 3,
+      "location": "Gaza City, Gaza Strip",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/world/mid-east/heavy-rains-flood-70000-displacement-tents-across-gaza",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/11/07/469503.jpg",
+      "ts": 1794062700000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/11/07/heavy-rains-leave-tens-of-thousands-without-shelter-in-gaza/"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/heavy-rains-flood-70000-displacement-tents-across-gaza"
+          }
+        ]
+      }
+    },
+    {
+      "id": "98864093e82e",
+      "title": "US military targets Iranian defense system in latest round of limited strikes",
+      "description": "The United States launched limited strikes against Iran's air defence systems, marking a new escalation in the region.",
+      "lat": 35.69,
+      "lng": 51.389999999999986,
+      "severity": 4,
+      "location": "Tehran, Iran",
+      "source": "The Hill",
+      "url": "https://thehill.com/policy/defense/6205977-trump-launches-iran-limited-strikes/",
+      "image": "https://thehill.com/wp-content/uploads/sites/2/2026/11/AP26108447361822-e1793672391772.jpg?w=900",
+      "ts": 1794060284000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/policy/defense/6205977-trump-launches-iran-limited-strikes/"
+          }
+        ]
+      }
+    },
     {
       "id": "67eeb2b17216",
       "title": "Iran executes Baluch militant over armed attack on police station",
@@ -117,6 +188,39 @@
             "n": "Jerusalem Post",
             "b": "center",
             "u": "https://www.jpost.com/middle-east/iran-news/article-914113"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3b30c4e80285",
+      "title": "Pakistani astronaut to board Shenzhou 24 and become the first foreigner on China's space station",
+      "description": "A Pakistani astronaut will fly aboard China's Shenzhou 24, marking the first foreign national to visit the Tiangong space station.",
+      "lat": 41.0,
+      "lng": 116.39999999999998,
+      "severity": 2,
+      "location": "Beijing, China",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/pakistani-astronaut-board-shenzhou-24-become-foreigner-chinas-137935456",
+      "image": "https://s.abcnews.com/images/International/wirestory_5f41ab023758265d421bb4b57ebe931f_4x3_384.jpg",
+      "ts": 1794027830000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/pakistani-astronaut-board-shenzhou-24-become-foreigner-chinas-137935456"
           }
         ]
       }
@@ -320,6 +424,44 @@
             "n": "The Hindu International",
             "b": "lean_left",
             "u": "https://www.thehindu.com/news/international/airstrikes-on-market-in-southwestern-yemen-kill-at-least-20-houthis-say/article71674991.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "64db8df5623a",
+      "title": "Somalia: Court Says President Term Extension Unlawful",
+      "description": "Somalia's Supreme Court ruled that the president's one‑year term extension was illegal, sparking political tension and clashes.",
+      "lat": 3.14,
+      "lng": 45.34,
+      "severity": 3,
+      "location": "Mogadishu, Somalia",
+      "source": "All Africa",
+      "url": "https://allafrica.com/stories/202611060647.html",
+      "image": null,
+      "ts": 1793990960000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/11/07/political-chaos-in-somalia-after-court-ruling-against-presidents-term-extension/"
+          },
+          {
+            "n": "All Africa",
+            "b": "center",
+            "u": "https://allafrica.com/stories/202611060647.html"
           }
         ]
       }
@@ -7121,198 +7263,6 @@
             "n": "MercoPress",
             "b": "center",
             "u": "https://en.mercopress.com/2026/10/25/maria-corina-machado-returns-to-venezuela-after-ten-months-abroad-and-seven-failed-attempts?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a8efea263e12",
-      "title": "Mossad releases video of pre‑emptive strike on Iran’s ballistic missiles and air defenses",
-      "description": "Israel’s intelligence agency showed footage of a coordinated air‑strike against Iranian missile sites, confirming the operation was carried out.",
-      "lat": 35.68,
-      "lng": 53.2852,
-      "severity": 4,
-      "location": "Tehran, Iran",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/middle-east/iran-news/article-912809",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_4227,w_6337/743495",
-      "ts": 1792946347000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/middle-east/iran-news/article-912809"
-          }
-        ]
-      }
-    },
-    {
-      "id": "722c043e3755",
-      "title": "Houthis say attacked Riyadh airport hours after flights resume",
-      "description": "Yemen's Houthi rebels launched a fresh strike on Saudi Arabia's King Khalid International Airport in Riyadh, hours after the airport had reopened, causing casualties and further disrupting air traffic.",
-      "lat": 24.71,
-      "lng": 46.68,
-      "severity": 4,
-      "location": "Riyadh, Saudi Arabia",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/10/houthis-say-attacked-riyadh-airport-hours-after-flights-resume",
-      "image": null,
-      "ts": 1792942223000,
-      "coverage": {
-        "left": 1,
-        "center": 2,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 2,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/10/25/world/middleeast/saudi-arabia-riyadh-airport-reopens.html"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/middle-east/2026/1025/1596819-riyadh-airport-reopens/"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/10/houthis-say-attacked-riyadh-airport-hours-after-flights-resume"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2207607"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5ab243dc8f00",
-      "title": "Saudi Arabia Partly Reopens Riyadh Airport Despite Renewed Houthi Threats",
-      "description": "King Khalid International Airport resumes limited operations after a Houthi‑claimed attack that killed 13 people.",
-      "lat": 18.3,
-      "lng": 42.73,
-      "severity": 3,
-      "location": "Khamis Mushait, Saudi Arabia",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/saudi-arabia-reopens-airport-houthi-attacks_n_6ade1d89e4b0320e45d2c1e7",
-      "image": "https://c.ndtvimg.com/2026-10/sr548l7g_saudi-houthi-conflict_625x300_02_October_26.jpeg",
-      "ts": 1792941928000,
-      "coverage": {
-        "left": 4,
-        "center": 6,
-        "right": 0,
-        "total": 10,
-        "buckets": {
-          "left": 1,
-          "lean_left": 3,
-          "center": 6,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/saudi-arabia-reopens-airport-houthi-attacks_n_6ade1d89e4b0320e45d2c1e7"
-          },
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/10/25/world/middleeast/saudi-arabia-riyadh-airport-reopens.html"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/saudi-arabia-reopens-riyadh-airport-as-houthi-missile-drone-attacks-continue-12235445#publisher=newsstand"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/intercepted-missile-after-houthis-hit-riyadh-airport-says-saudi-coalition/article71625586.ece"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORlYwOVl3Z1hlOFdacWVmeXZVNnVhejFlWDVOR0toczJ2MWNjT1FMRWZjVU0xd1hGaGtzNU9VcGdYSnR1Z2NVQjFfRVpKallEcEVuTzNweldmeEdYOE05UXFOejl1ekR1ZjlxUlhHT1NLa3J0cmZYWUxhSEs2eXNGb2xNNUJycVNWci1ZVzZUOXBSNGc0bzRJNWVTTnVlWHhXRlBrLWRTOV9HbmlJTmVfZk95N0FIQnBLQTlTa3N3eFBaVDJMWGptVU1VN3A?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/10/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-fighting"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/10/25/saudi-arabias-riyadh-airport-partially-resumes-flights-after-houthi-attacks/"
-          },
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/10/26/world/politics/houthi-saudi-arabia-riyadh-airport/"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/middle-east/article/3372131/saudi-coalition-intercepts-missile-houthis-claim-new-attack-riyadh-airport"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/world/saudi-houthis-riyadh-airport-attack-missile-6492261"
-          }
-        ]
-      }
-    },
-    {
-      "id": "58e9b6f78225",
-      "title": "Netanyahu rebuked for plan to use crypto to bypass economic sanctions",
-      "description": "Israeli Prime Minister Benjamin Netanyahu faced criticism for proposing the use of cryptocurrency to evade international sanctions.",
-      "lat": 31.78,
-      "lng": 35.22,
-      "severity": 3,
-      "location": "Jerusalem, Israel",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdEZIYi1YYkZXSDlUeWN0cUgzdzdudTFUNlF5bHE1eVM4Z1NZeUFxVWZrVXp3d0N1dnRRWU5iYzZSc3J5QlJiQ3c4bllDUXFJcFFFdjNGeTFPbGhxc2VRZjYzV1dLSmtKX2JqQlpfd2U4RTFmWUhoRGFtVUVtVWRSc0NBZjc0NjhUdUVLNmM2dDVBYUxLOWRob3BwWkY2bnBKSlhnSGc0aXVfTEZ5RjBsTDJ3?oc=5",
-      "image": null,
-      "ts": 1792930533000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdEZIYi1YYkZXSDlUeWN0cUgzdzdudTFUNlF5bHE1eVM4Z1NZeUFxVWZrVXp3d0N1dnRRWU5iYzZSc3J5QlJiQ3c4bllDUXFJcFFFdjNGeTFPbGhxc2VRZjYzV1dLSmtKX2JqQlpfd2U4RTFmWUhoRGFtVUVtVWRSc0NBZjc0NjhUdUVLNmM2dDVBYUxLOWRob3BwWkY2bnBKSlhnSGc0aXVfTEZ5RjBsTDJ3?oc=5"
           }
         ]
       }
