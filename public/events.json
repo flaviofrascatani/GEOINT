@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-11-07T20:10:19.412470+00:00",
+  "updated": "2026-11-07T23:55:17.438040+00:00",
   "events": [
+    {
+      "id": "d02556e3013b",
+      "title": "Netanyahu faces being ousted as rival given chance to form new Israeli government",
+      "description": "Israel’s president authorises opposition leader Gadi Eisenkot to attempt to build a coalition, indicating potential shift in Israeli leadership.",
+      "lat": 31.78,
+      "lng": 35.22,
+      "severity": 3,
+      "location": "Jerusalem, Israel",
+      "source": "Mirror World",
+      "url": "https://www.mirror.co.uk/news/world-news/netanyahu-faces-being-ousted-rival-37854898",
+      "image": "https://i2-prod.mirror.co.uk/incoming/article37810812.ece/ALTERNATES/s615/1_Gadi-Eisenkot-Holds-Campaign-Rally-In-Tel-Aviv.jpg",
+      "ts": 1794091777000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/netanyahu-faces-being-ousted-rival-37854898"
+          }
+        ]
+      }
+    },
     {
       "id": "ad8df6c5128e",
       "title": "Israeli president picks Gadi Eisenkot to form government: Statement",
@@ -368,6 +401,39 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/pakistani-astronaut-board-shenzhou-24-become-foreigner-chinas-137935456"
+          }
+        ]
+      }
+    },
+    {
+      "id": "341a3a769c88",
+      "title": "Princess Anne to arrive in the Falklands on the eve of the Hamburg hearing",
+      "description": "Princess Anne, sister of King Charles III, will visit the Falkland Islands, signaling diplomatic engagement with the territory.",
+      "lat": -51.7,
+      "lng": -57.85,
+      "severity": 1,
+      "location": "Stanley, Falkland Islands",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/11/07/princess-anne-to-arrive-in-the-falklands-on-the-eve-of-the-hamburg-hearing?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": "https://en.mercopress.com/data/cache/noticias/112023/100x80/flks.jpg",
+      "ts": 1794020100000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/11/07/princess-anne-to-arrive-in-the-falklands-on-the-eve-of-the-hamburg-hearing?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
           }
         ]
       }
@@ -7172,77 +7238,6 @@
             "n": "Bloomberg Politics",
             "b": "center",
             "u": "https://www.bloomberg.com/news/articles/2026-10-25/uk-s-healey-ends-talks-with-canada-to-merge-defense-banks"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5f1b5d66ce0b",
-      "title": "SoftBank announces $50 bn AI investment plan in Malaysia",
-      "description": "SoftBank will allocate up to fifty billion dollars to artificial‑intelligence projects in Malaysia, as confirmed by the Malaysian prime minister.",
-      "lat": 4.24,
-      "lng": 101.69,
-      "severity": 2,
-      "location": "Kuala Lumpur, Malaysia",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/softbank/softbank-plans-50bn-ai-investment-in-malaysia-pm-says",
-      "image": null,
-      "ts": 1792950572703,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Nikkei Asia",
-            "b": "center",
-            "u": "https://asia.nikkei.com/business/softbank/softbank-plans-50bn-ai-investment-in-malaysia-pm-says"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6d5ac0fc7abe",
-      "title": "Marine Le Pen vows to restore 'rule of law' at presidential campaign kickoff",
-      "description": "During her campaign launch in Orléans, French far‑right leader Marine Le Pen pledged to strengthen law and order, marking a notable political moment ahead of the French election.",
-      "lat": 47.902,
-      "lng": 3.809200000000004,
-      "severity": 2,
-      "location": "Orléans, France",
-      "source": "Le Monde English",
-      "url": "https://www.lemonde.fr/en/france/article/2026/10/25/marine-le-pen-vows-to-restore-rule-of-law-at-presidential-campaign-kickoff_6763891_7.html",
-      "image": "https://img.lemde.fr/2026/10/25/492/0/5906/2953/644/322/60/0/1c8e2c8_ftp-1-atacc05p2nrp-2026-10-25t173130z-924015987-rc2faoazw5qi-rtrmadp-3-france-politics.JPG",
-      "ts": 1792950172000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/world/2026/1025/1596816-marine-le-pen-france/"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/video/20261025-marine-le-pen-launches-presidential-campaign-in-orl%C3%A9ans"
           }
         ]
       }
