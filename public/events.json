@@ -1,7 +1,131 @@
 {
   "schema": 1,
-  "updated": "2026-11-08T18:28:59.582959+00:00",
+  "updated": "2026-11-08T22:26:37.419094+00:00",
   "events": [
+    {
+      "id": "5d0daded7e8d",
+      "title": "Pope Leo arrives in Argentina amid divisions over Milei’s austerity",
+      "description": "Pope Leo XIV landed in Buenos Aires, calling for social justice and dialogue as the country grapples with President Milei’s economic reforms.",
+      "lat": -33.51,
+      "lng": -58.379999999999995,
+      "severity": 1,
+      "location": "Buenos Aires, Argentina",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/americas/20261108-pope-leo-argentina-visit-milei",
+      "image": "https://s.france24.com/media/display/39bb378c-dbaf-11f1-8a96-1beafce15fea/w:1024/p:16x9/2026-11-08T200018Z-1909450093-RC2WJOAQHQ73-RTRMADP-3-POPE-LATAM-ARGENTINA.jpg",
+      "ts": 1794176599000,
+      "coverage": {
+        "left": 3,
+        "center": 3,
+        "right": 0,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 3,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/11/08/world/americas/pope-leo-argentina-milei.html"
+          },
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/nov/08/popes-visit-to-argentina-sets-up-showdown-with-hyper-capitalist-milei"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/11/08/in-argentina-pope-leo-s-next-stop-the-church-stands-in-stark-opposition-to-milei-s-vision_6775045_4.html"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/americas/20261108-pope-leo-argentina-visit-milei"
+          },
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/pope-leo-lands-in-argentina-met-by-milei/"
+          },
+          {
+            "n": "Buenos Aires Times",
+            "b": "center",
+            "u": "https://www.batimes.com.ar/news/argentina/argentina-prepares-for-historic-pope-leo-xiv-visit.phtml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4ac2d9d830aa",
+      "title": "New Zealand's new lawmakers start to arrive at parliament as government remains in limbo",
+      "description": "Freshly elected MPs began convening in Wellington’s parliament building while coalition talks continue to determine the next government.",
+      "lat": -41.28,
+      "lng": 174.78,
+      "severity": 1,
+      "location": "Wellington, New Zealand",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/new-zealands-new-lawmakers-start-to-arrive-at-parliament-as-government-remains-in-limbo",
+      "image": null,
+      "ts": 1794176021000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/new-zealands-new-lawmakers-start-to-arrive-at-parliament-as-government-remains-in-limbo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "da7e3adee4a2",
+      "title": "Attack on Iraq gas complex disrupts supply to region’s power plants, authorities say",
+      "description": "A drone strike hit the Emirati‑owned Khor Mor gas field in Iraq’s Kurdistan region, halting gas deliveries to local power stations.",
+      "lat": 36.3,
+      "lng": 44.0,
+      "severity": 3,
+      "location": "Khor Mor, Iraq",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3373721/attack-iraq-gas-complex-disrupts-supply-regions-power-plants-authorities-say",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/09/e3423188-fa11-48d5-b8ea-0d665ccc3331_bf7ce915.jpg?itok=yrRWpc4t&v=1794175736",
+      "ts": 1794175787000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/middle-east/article/3373721/attack-iraq-gas-complex-disrupts-supply-regions-power-plants-authorities-say"
+          }
+        ]
+      }
+    },
     {
       "id": "4d7bf307e77e",
       "title": "Iran’s proposals on opening Strait of Hormuz still on table — top diplomat",
@@ -70,11 +194,11 @@
     },
     {
       "id": "a0518dc86d8d",
-      "title": "COP31 conference in Turkey aims to move climate up the agenda in a crisis-rocked world",
-      "description": "The 31st UN climate conference opened in Antalya, bringing heads of state together to negotiate emissions cuts amid geopolitical tensions.",
+      "title": "COP31 conference in Turkey aims to move climate up the agenda in a crisis‑rocked world",
+      "description": "World leaders gathered in Antalya for the 31st UN climate conference, seeking stronger commitments amid energy and geopolitical tensions.",
       "lat": 36.89,
       "lng": 30.7,
-      "severity": 2,
+      "severity": 1,
       "location": "Antalya, Turkey",
       "source": "Le Monde English",
       "url": "https://www.lemonde.fr/en/environment/article/2026/11/08/cop31-conference-turkey-aims-to-move-climate-up-the-agenda-in-a-crisis-rocked-world_6775243_114.html",
@@ -674,6 +798,39 @@
             "n": "Mirror World",
             "b": "lean_left",
             "u": "https://www.mirror.co.uk/news/world-news/netanyahu-faces-being-ousted-rival-37854898"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c243b3027e09",
+      "title": "Israeli president taps Netanyahu rival to form government as coalition battle looms",
+      "description": "President appointed Gadi Eisenkot with Knesset backing, but deep divisions over Arab parties and conscription threaten coalition formation.",
+      "lat": 31.78,
+      "lng": 35.22,
+      "severity": 3,
+      "location": "Jerusalem, Israel",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/israeli-president-picks-netanyahu-rival-form-government-coalition-battle-looms",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/07/931/523/israeli-president-isaac-herzog-fox-news-digital-interview.jpg?ve=1&tl=1",
+      "ts": 1794089857000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/israeli-president-picks-netanyahu-rival-form-government-coalition-battle-looms"
           }
         ]
       }
@@ -7251,138 +7408,6 @@
             "n": "RTE News",
             "b": "center",
             "u": "https://www.rte.ie/news/middle-east/2026/1027/1596901-israel-election/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "87b5daf918e3",
-      "title": "Rapidus partners with Indian tech giant on chip development",
-      "description": "The Japanese semiconductor firm and its Indian partner inaugurated two joint development centers in India to boost chip production.",
-      "lat": 12.97,
-      "lng": 77.59,
-      "severity": 2,
-      "location": "Bengaluru, India",
-      "source": "Japan Times",
-      "url": "https://www.japantimes.co.jp/business/2026/10/27/companies/rapidus-india-hcl-technologies-partnership/",
-      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/10/27/570708.jpg",
-      "ts": 1793078820000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/business/2026/10/27/companies/rapidus-india-hcl-technologies-partnership/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a7c93749bce7",
-      "title": "Israel opens polling stations for Knesset elections",
-      "description": "Citizens vote in the first parliamentary election since the October 7 conflict, determining the country's political future.",
-      "lat": 31.78,
-      "lng": 35.22,
-      "severity": 2,
-      "location": "Jerusalem, Israel",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/27/israele-aperti-i-seggi-per-il-rinnovo-della-knesset_e99c122f-f89d-472f-8e07-cf9e1612ac63.html",
-      "image": null,
-      "ts": 1793078036000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/10/27/israele-aperti-i-seggi-per-il-rinnovo-della-knesset_e99c122f-f89d-472f-8e07-cf9e1612ac63.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "236f7ba88fa6",
-      "title": "EU gas prices surge to four‑year high amid Iran war",
-      "description": "European natural‑gas markets hit record levels as the ongoing Iran conflict disrupts LNG shipments and depletes storage.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 3,
-      "location": "Tehran, Iran",
-      "source": "RT News",
-      "url": "https://rt-english.com/news/647769-eu-record-gas-prices/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.10/thumbnail/6adfdaf2203027585f266953.jpg",
-      "ts": 1793071888000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://rt-english.com/news/647769-eu-record-gas-prices/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1f02a0dce40d",
-      "title": "UN envoy says Yemen parties close to peace, urges world powers to defend maritime law",
-      "description": "UN Special Envoy Hans Grundberg highlighted that the Yemeni sides are nearer to a settlement and called for international support to uphold maritime law.",
-      "lat": 16.45,
-      "lng": 46.095200000000006,
-      "severity": 1,
-      "location": "Sana'a, Yemen",
-      "source": "Der Spiegel International",
-      "url": "https://www.spiegel.de/international/world/crisis-in-yemen-imperative-that-world-powers-resolutely-defend-international-maritime-law-a-46cd5da6-a026-495d-9f55-3f137c6814ee#ref=rss",
-      "image": "https://cdn.prod.www.spiegel.de/images/11a4fcd1-5f93-4423-9441-a043d588cb34_w520_r2.08_fpx30.76_fpy52.97.jpg",
-      "ts": 1793062080000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Der Spiegel International",
-            "b": "lean_left",
-            "u": "https://www.spiegel.de/international/world/crisis-in-yemen-imperative-that-world-powers-resolutely-defend-international-maritime-law-a-46cd5da6-a026-495d-9f55-3f137c6814ee#ref=rss"
           }
         ]
       }
