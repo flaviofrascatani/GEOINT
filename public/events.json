@@ -1,7 +1,149 @@
 {
   "schema": 1,
-  "updated": "2026-11-10T11:42:13.397252+00:00",
+  "updated": "2026-11-10T19:39:14.774922+00:00",
   "events": [
+    {
+      "id": "1ce40f489600",
+      "title": "US soldier arrested in UK on Russian espionage allegations",
+      "description": "A US Army member was detained near Gloucester, England on suspicion of spying for Russia, prompting joint US‑UK investigation.",
+      "lat": 51.86,
+      "lng": -2.25,
+      "severity": 3,
+      "location": "Gloucester, United Kingdom",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/us-soldier-arrested-in-uk-on-russian-espionage-allegations/a-79913240?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1794339554647,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/us-soldier-arrested-in-uk-on-russian-espionage-allegations/a-79913240?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-11-10/uk-arrests-us-army-soldier-over-russia-spying-allegations"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2f2c07eee928",
+      "title": "Eisenkot vows to undo Netanyahu policies as Israeli parliament opens",
+      "description": "Prime Minister‑designate Gadi Eisenkot pledged to dismantle key policies of the outgoing Netanyahu government during the first session of the new Knesset.",
+      "lat": 31.78,
+      "lng": 35.22,
+      "severity": 2,
+      "location": "Jerusalem, Israel",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/world/mid-east/eisenkot-vows-to-undo-netanyahu-policies-as-israeli-parliament-opens",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/11/10/469927.jpg",
+      "ts": 1794335460000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/new-israeli-parliament-to-take-aim-at-netanyahu-as-eisenkot-seeks-government/article71687117.ece"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/eisenkot-vows-to-undo-netanyahu-policies-as-israeli-parliament-opens"
+          }
+        ]
+      }
+    },
+    {
+      "id": "82181735f49f",
+      "title": "UK court overturns Trinidad and Tobago law criminalising gay sex",
+      "description": "A London court ruled that Trinidad and Tobago's law banning consensual same‑sex relations was unlawful, marking a significant human‑rights victory.",
+      "lat": 52.61,
+      "lng": -0.12999999999999545,
+      "severity": 1,
+      "location": "London, United Kingdom",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/americas/article/3373994/uk-court-overturns-trinidad-and-tobago-law-criminalising-gay-sex",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/11/224645fb-774b-4c24-8383-3c9d0ca7a7be_18a36545.jpg?itok=8QtGVJMG&v=1794335213",
+      "ts": 1794335225000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/uk-court-overturns-trinidad-and-tobago-law-criminalising-homosexual-sex-13610702"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d160100c6cbf",
+      "title": "Ukraine peace talks restart after 9 months",
+      "description": "A new round of negotiations between the US, Ukraine and Russia began in Abu Dhabi, aiming to revive efforts to end the war.",
+      "lat": 24.47,
+      "lng": 54.37,
+      "severity": 1,
+      "location": "Abu Dhabi, United Arab Emirates",
+      "source": "Egypt Independent",
+      "url": "https://www.egyptindependent.com/ukraine-peace-talks-restart-after-9-months-what-makes-them-different-this-time/",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/02-gettyimages-2293369294.jpg?c=original&amp;q=w_860,c_fill",
+      "ts": 1794317713000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/ukraine-peace-talks-restart-after-9-months-what-makes-them-different-this-time/"
+          }
+        ]
+      }
+    },
     {
       "id": "6e05fa41b5e8",
       "title": "Financial Security Institute reports data leak following hacking attack — SEOUL",
@@ -7176,183 +7318,6 @@
             "n": "IBTimes",
             "b": "center",
             "u": "https://www.ibtimes.com/iran-reiterated-it-wont-compromise-its-nuclear-policy-it-also-working-russia-new-deal-3809071"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5a77effa5451",
-      "title": "Türkiye, Bulgaria, Romania reaffirm Black Sea security commitment",
-      "description": "The three NATO members issued a joint statement confirming their continued cooperation to keep the Black Sea stable.",
-      "lat": 39.93,
-      "lng": 32.86,
-      "severity": 1,
-      "location": "Ankara, Turkey",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/politics/turkiye-bulgaria-romania-reaffirm-black-sea-security-commitment/news",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/10/28/467944.jpg",
-      "ts": 1793191380000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 2,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/politics/turkiye-bulgaria-romania-reaffirm-black-sea-security-commitment/news"
-          },
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2261115/black-sea-drones-bulgaria-drones"
-          }
-        ]
-      }
-    },
-    {
-      "id": "eb7c94fc5b15",
-      "title": "Italy puts Ukraine weapons package on hold – media",
-      "description": "Rome announced a pause on a major arms shipment to Ukraine amid internal coalition tensions.",
-      "lat": 41.9,
-      "lng": 12.48,
-      "severity": 3,
-      "location": "Rome, Italy",
-      "source": "RT News",
-      "url": "https://rt-english.com/news/647898-italy-meloni-ukraine-arms/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.10/thumbnail/6ae1dc4a85f54060f952b90a.jpg",
-      "ts": 1793190668000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://rt-english.com/news/647898-italy-meloni-ukraine-arms/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "94e3d6e9f546",
-      "title": "Attacker shouting 'Allahu Akbar' killed outside Israeli Embassy in Serbia",
-      "description": "A man attacked a gendarmerie officer outside the Israeli embassy in Belgrade and was shot dead by police.",
-      "lat": 44.81,
-      "lng": 22.365200000000016,
-      "severity": 3,
-      "location": "Belgrade, Serbia",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/attacker-shouting-allahu-akbar-killed-outside-israeli-embassy-serbia-police-say",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/524/israeli-embassy-belgrade.jpg?ve=1&tl=1",
-      "ts": 1793189854000,
-      "coverage": {
-        "left": 4,
-        "center": 3,
-        "right": 2,
-        "total": 9,
-        "buckets": {
-          "left": 0,
-          "lean_left": 4,
-          "center": 3,
-          "lean_right": 0,
-          "right": 2
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/10/28/world/europe/knife-wielding-attacker-fatally-shot-outside-israeli-embassy-in-serbia.html"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/video/assailant-killed-after-attacking-officer-outside-israeli-embassy-in-serbia-272386629954"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/israel-embassy-belgrade-knife-attacker-37430099"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/policeman-kills-knife-attacker-outside-israeli-embassy-in-serbia/article71635091.ece"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/serbia-knife-attacker-shot-dead-by-police-outside-israeli-embassy-in-belgrade-13604683"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/serbian-police-shoot-dead-assailant-at-israeli-embassy/a-79782905?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/europe/article/3372460/assailant-outside-israeli-embassy-serbia-killed-after-attacking-police-officer"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/attacker-shouting-allahu-akbar-killed-outside-israeli-embassy-serbia-police-say"
-          },
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2261025/knifeman-screaming-allahu-akbar-attacks"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d6a465d0fbc8",
-      "title": "UK issued chilling 'before it's too late' Russia warning as WW3 fears explode",
-      "description": "The United Kingdom released a stark warning to Moscow, urging Russia to de‑escalate amid heightened fears of a broader conflict.",
-      "lat": 56.85,
-      "lng": 37.620000000000005,
-      "severity": 2,
-      "location": "Moscow, Russia",
-      "source": "Daily Express World",
-      "url": "https://www.express.co.uk/news/world/2261012/uk-issued-chilling-before-ww3-zelensky-putin-russia-ukraine",
-      "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2261012_1.jpg",
-      "ts": 1793167800000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2261012/uk-issued-chilling-before-ww3-zelensky-putin-russia-ukraine"
           }
         ]
       }
