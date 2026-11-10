@@ -1,7 +1,164 @@
 {
   "schema": 1,
-  "updated": "2026-11-09T20:39:41.087506+00:00",
+  "updated": "2026-11-10T03:28:19.810712+00:00",
   "events": [
+    {
+      "id": "60da609da7f3",
+      "title": "Army temporarily grounds Apache helicopters amid U.S. inspection for possible defect",
+      "description": "South Korea suspends operations of its Apache fleet pending a U.S. review, indicating heightened security concerns.",
+      "lat": 37.57,
+      "lng": 126.98,
+      "severity": 3,
+      "location": "Seoul, South Korea",
+      "source": "Yonhap News",
+      "url": "https://en.yna.co.kr/view/AEN20261110006100315",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/05/28/PEP20260528108101009_P2.jpg",
+      "ts": 1794280809000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20261110006100315"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5f012b170a54",
+      "title": "Ukrainian‑Russian negotiations resume in Abu Dhabi under U.S. mediation",
+      "description": "After nine months, Ukraine and Russia restart direct talks in Abu Dhabi, mediated by the United States.",
+      "lat": 24.4667,
+      "lng": 56.5667,
+      "severity": 1,
+      "location": "Abu Dhabi, United Arab Emirates",
+      "source": "AGI Estero",
+      "url": "https://www.agi.it/estero/news/2026-11-10/punto-ucraina-ad-abu-dhabi-riprendono-negoziati-con-russia-39956430/",
+      "image": null,
+      "ts": 1794280425000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 2,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 2,
+          "lean_right": 1,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/11/09/world/europe/ukraine-russia-peace-talks.html"
+          },
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/11/09/us-gives-russia-an-early-win-even-before-ukraine-peace-talks-begin-abu-dhabi/"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/ukraine/2026/1110/1598616-ukraine-russia-world/"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/new-trilateral-talks-on-ukraine-war-in-abu-dhabi-what-to-expect/a-79905734?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2215131"
+          },
+          {
+            "n": "Sputnik International",
+            "b": "right",
+            "u": "https://sputnikglobe.com/20261109/russia-supports-us-approach-on-talks-in-abu-dhabi-on-ukraine-conflict---lavrov-1125034324.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "235045b448dd",
+      "title": "Honda pins growth hopes on hybrids with $3 bn US investment",
+      "description": "Honda commits $3 billion to build a new hybrid vehicle plant in the United States, expanding its production capacity.",
+      "lat": 39.96,
+      "lng": -82.99,
+      "severity": 1,
+      "location": "Columbus, Ohio, USA",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/5f2aab2e-9c12-4aa1-a628-b6d021a07fd7?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1794277468000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/5f2aab2e-9c12-4aa1-a628-b6d021a07fd7?syn-25a6b1a6=1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deadaedf0d1b",
+      "title": "Apple announces major Turkey investment with new tech hubs",
+      "description": "Apple will establish several developer academies and a manufacturing academy in Turkey, boosting the local tech sector.",
+      "lat": 42.11,
+      "lng": 28.960000000000008,
+      "severity": 1,
+      "location": "Istanbul, Turkey",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/business/tech/apple-announces-major-turkiye-investment-with-7-new-tech-hubs",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/11/09/469764.jpg",
+      "ts": 1794258480000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/business/tech/apple-announces-major-turkiye-investment-with-7-new-tech-hubs"
+          }
+        ]
+      }
+    },
     {
       "id": "fdc30285625e",
       "title": "Tajani annuncia il 13° pacchetto di aiuti militari all'Ucraina: \"Non possiamo abbandonare Kiev\"",
@@ -114,6 +271,39 @@
             "n": "Daily Sabah",
             "b": "lean_right",
             "u": "https://www.dailysabah.com/world/europe/france-probes-iran-linked-cyberattacks-on-supermarket-fridges"
+          }
+        ]
+      }
+    },
+    {
+      "id": "974d4b3240ac",
+      "title": "Niger and Chad’s drone‑strike row exposes deep rifts in the Sahel",
+      "description": "Tensions over a cross‑border drone strike highlight growing rivalry between Niger and Chad, with Moscow and Algerian mediation involved.",
+      "lat": 13.51,
+      "lng": 2.11,
+      "severity": 3,
+      "location": "Niamey, Niger",
+      "source": "The Africa Report",
+      "url": "https://www.theafricareport.com/435867/niger-and-chads-drone-strike-row-exposes-deep-rifts-in-the-sahel/",
+      "image": null,
+      "ts": 1794239823000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Africa Report",
+            "b": "center",
+            "u": "https://www.theafricareport.com/435867/niger-and-chads-drone-strike-row-exposes-deep-rifts-in-the-sahel/"
           }
         ]
       }
@@ -829,44 +1019,6 @@
             "n": "Nikkei Asia",
             "b": "center",
             "u": "https://asia.nikkei.com/politics/ukraine-war/ukraine-s-zaporizhzhia-nuclear-plant-again-relies-on-backup-power"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5f012b170a54",
-      "title": "Europe will be represented at US‑mediated Ukraine talks in Abu Dhabi: France",
-      "description": "France announced that European countries will take part in the United States‑led negotiations on Ukraine held in Abu Dhabi.",
-      "lat": 24.4667,
-      "lng": 56.5667,
-      "severity": 2,
-      "location": "Abu Dhabi, United Arab Emirates",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/world/europe-us-mediated-ukraine-russia-talks-abu-dhabi-6534261",
-      "image": null,
-      "ts": 1794143608000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/11/europeans-will-join-ukraine-talks-abu-dhabi-french-foreign-minister-says"
-          },
-          {
-            "n": "Channel News Asia",
-            "b": "center",
-            "u": "https://www.channelnewsasia.com/world/europe-us-mediated-ukraine-russia-talks-abu-dhabi-6534261"
           }
         ]
       }
@@ -7211,178 +7363,6 @@
             "n": "Buenos Aires Times",
             "b": "center",
             "u": "https://www.batimes.com.ar/news/economy/imf-strikes-preliminary-argentina-deal-as-market-return-dims.phtml"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ca6bd2093577",
-      "title": "Ebola outbreak surpasses 10,000 cases in the Democratic Republic of the Congo",
-      "description": "The DRC’s Ebola epidemic has exceeded 10,000 confirmed infections with nearly 5,000 deaths, prompting a major international health response.",
-      "lat": 1.66,
-      "lng": 29.22,
-      "severity": 3,
-      "location": "Goma, Democratic Republic of the Congo",
-      "source": "Washington Examiner",
-      "url": "https://www.washingtonexaminer.com/news/world/4781909/ebola-variant-outbreak-surpasses-10000-cases-congo-spread-to-kenya/",
-      "image": null,
-      "ts": 1793133737000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Washington Examiner",
-            "b": "right",
-            "u": "https://www.washingtonexaminer.com/news/world/4781909/ebola-variant-outbreak-surpasses-10000-cases-congo-spread-to-kenya/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1ff158ea3873",
-      "title": "Netanyahu gains overnight as Israel election heads toward political deadlock",
-      "description": "Israeli election exit polls show Benjamin Netanyahu’s Likud party pulling ahead but still short of a majority, leaving the government formation uncertain.",
-      "lat": 31.78,
-      "lng": 35.22,
-      "severity": 3,
-      "location": "Jerusalem, Israel",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/israelis-vote-record-numbers-first-national-election-since-oct-7-hamas-massacre",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/netanyahu-voting.jpg?ve=1&tl=1",
-      "ts": 1793131831000,
-      "coverage": {
-        "left": 2,
-        "center": 3,
-        "right": 3,
-        "total": 8,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 3,
-          "lean_right": 1,
-          "right": 2
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/10/28/exit-polls-trigger-heated-debate-across-israeli-political-divide?traffic_source=rss"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/netanyahu-and-rival-each-claim-mandate-after-tight-israel-election/article71634295.ece"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/world/2026/1028/1597028-israel-election/"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/middle-east/20261027-israel-election-record-turnout-netanyahu-eisenkot-deadlock"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/10/netanyahu-eisenkot-stake-rival-claims-lead-israel-after-deadlocked-vote"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/mid-east/netanyahu-eisenkot-deadlocked-as-israel-election-delivers-no-clear-winner"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/israelis-vote-record-numbers-first-national-election-since-oct-7-hamas-massacre"
-          },
-          {
-            "n": "Daily Express World",
-            "b": "right",
-            "u": "https://www.express.co.uk/news/world/2261003/israeli-pm-netanyahu-claims-victory"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4db9dc53da3f",
-      "title": "Norway and Finland leaders hold rare call with Putin",
-      "description": "Norway and Finland prime ministers spoke with Russian President Vladimir Putin in a rare diplomatic call, emphasizing that silence will not end the Ukraine conflict.",
-      "lat": 55.75,
-      "lng": 37.620000000000005,
-      "severity": 1,
-      "location": "Moscow, Russia",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/62a7/live/0a738c90-d1fa-11f1-8c9f-8d21fef6ffad.jpg",
-      "ts": 1793125703000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/denmark-s-frederiksen-criticizes-finland-and-norway-for-calling-putin-without-coordinating-with-allies-despite-consultation-with-ukraine/a-79776208?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2d639518700c",
-      "title": "Japan's Sumitomo Electric offers more low‑tungsten tools to cut China reliance",
-      "description": "Sumitomo Electric announced expanded production of low‑tungsten tools aimed at reducing Japanese manufacturers' dependence on Chinese supplies.",
-      "lat": 35.68,
-      "lng": 139.76,
-      "severity": 2,
-      "location": "Tokyo, Japan",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/materials/japan-s-sumitomo-electric-offers-more-low-tungsten-tools-to-cut-china-reliance",
-      "image": null,
-      "ts": 1793118597338,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Nikkei Asia",
-            "b": "center",
-            "u": "https://asia.nikkei.com/business/materials/japan-s-sumitomo-electric-offers-more-low-tungsten-tools-to-cut-china-reliance"
           }
         ]
       }
