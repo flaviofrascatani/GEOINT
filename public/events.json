@@ -1,7 +1,149 @@
 {
   "schema": 1,
-  "updated": "2026-11-11T00:36:07.945960+00:00",
+  "updated": "2026-11-11T07:06:27.273267+00:00",
   "events": [
+    {
+      "id": "5fa485567b66",
+      "title": "Russia Says Two Polish Spies Detained in Kaliningrad Region",
+      "description": "The Russian Federal Security Service announced the detention of two Polish citizens accused of espionage in the Kaliningrad enclave.",
+      "lat": 54.71,
+      "lng": 20.51,
+      "severity": 3,
+      "location": "Kaliningrad, Russia",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-11/russia-says-two-polish-spies-detained-in-kaliningrad-region",
+      "image": null,
+      "ts": 1794380088000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 2,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 1,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-11-11/russia-says-two-polish-spies-detained-in-kaliningrad-region"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2215839"
+          },
+          {
+            "n": "Sputnik International",
+            "b": "right",
+            "u": "https://sputnikglobe.com/20261111/russian-fsb-says-identified-localized-agent-network-of-polish-intel-in-kaliningrad-region-1125047321.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "72bd643add21",
+      "title": "Public sector strike suspended as unions agree pay deal",
+      "description": "Irish trade unions called off a planned public‑sector strike after reaching a draft pay agreement with the government.",
+      "lat": 53.35,
+      "lng": -6.26,
+      "severity": 2,
+      "location": "Dublin, Ireland",
+      "source": "RTE News",
+      "url": "https://www.rte.ie/news/ireland/2026/1111/1598773-public-sector-pay-deal/",
+      "image": "https://www.rte.ie/images/002551b8-800.jpg",
+      "ts": 1794371381000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/ireland/2026/1111/1598773-public-sector-pay-deal/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e5d3aa5a0f99",
+      "title": "Egyptian journalist Lina Attalah faces prison as trial sparks international outcry",
+      "description": "Lina Attalah, head of independent outlet Mada Masr, was brought before a criminal court in Cairo on charges of operating without a licence and publishing false news, prompting condemnation from UN bodies.",
+      "lat": 31.69,
+      "lng": 32.1926,
+      "severity": 3,
+      "location": "Cairo, Egypt",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/middle-east/20261111-lina-attalah-egypt-trial-prison",
+      "image": "https://s.france24.com/media/display/f471bf6c-dd6f-11f1-b88a-29048b396e03/w:1024/p:16x9/a44f4102d9b1178ba8efb41cfeca20fa077097ab.jpg",
+      "ts": 1794362031000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/middle-east/20261111-lina-attalah-egypt-trial-prison"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5fbc8d2106d8",
+      "title": "End of U.S.-Iran War Focuses Iraqi Kurds on Middle East’s Challenges, Opportunities at Slemani Strategic Forum",
+      "description": "Leaders gathered in Sulaymaniyah, Iraq, for a strategic forum to discuss regional security and economic cooperation following the de‑escalation of the U.S.–Iran conflict.",
+      "lat": 35.56,
+      "lng": 45.32,
+      "severity": 2,
+      "location": "Sulaymaniyah, Iraq",
+      "source": "Breitbart",
+      "url": "https://www.breitbart.com/politics/2026/11/10/exclusive-end-of-u-s-iran-war-focuses-iraqi-kurds-on-middle-easts-challenges-opportunities-at-slemani-strategic-forum/",
+      "image": null,
+      "ts": 1794355177000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/politics/2026/11/10/exclusive-end-of-u-s-iran-war-focuses-iraqi-kurds-on-middle-easts-challenges-opportunities-at-slemani-strategic-forum/"
+          }
+        ]
+      }
+    },
     {
       "id": "fb4607b7374d",
       "title": "US charges 3 ‘Iranian operatives’ over UK airbase plot",
@@ -7206,138 +7348,6 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://rt-english.com/news/647976-us-ambassador-cuban-minister-un/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a6cd332a2b53",
-      "title": "Russia appreciates friendly relations with Ethiopia, Putin says",
-      "description": "El presidente Vladimir Putin elogió los lazos amistosos con Etiopía, recordando conversaciones recientes con el primer ministro Abiy Ahmed en la cumbre del BRICS en Nueva Delhi.",
-      "lat": 9.03,
-      "lng": 38.74,
-      "severity": 2,
-      "location": "Addis Ababa, Ethiopia",
-      "source": "TASS",
-      "url": "https://tass.com/politics/2209821",
-      "image": null,
-      "ts": 1793223541000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/politics/2209821"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c40c504ecf4e",
-      "title": "Iran pressed to make nuke concessions as massive post-midterms strikes loom",
-      "description": "Mediadores liderados por Qatar intentan lograr un acuerdo diplomático entre EE. UU. e Irán para evitar la reanudación de hostilidades tras las elecciones de medio término.",
-      "lat": 26.38,
-      "lng": 51.52000000000001,
-      "severity": 2,
-      "location": "Doha, Qatar",
-      "source": "Axios",
-      "url": "https://www.axios.com/2026/10/28/iran-war-arab-mediators-war-post-midterms",
-      "image": "https://images.axios.com/Pr4s1MYjYlF_udSc4r13YIyt18Q=/0x0:7369x4145/1366x768/2026/10/28/1793204023991.jpeg",
-      "ts": 1793210424000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Axios",
-            "b": "center",
-            "u": "https://www.axios.com/2026/10/28/iran-war-arab-mediators-war-post-midterms"
-          }
-        ]
-      }
-    },
-    {
-      "id": "876ed32eb08d",
-      "title": "Iran warns of 'devastating' economic fallout from any new Israeli attack",
-      "description": "Iran threatens severe economic retaliation if Israel launches another attack, heightening regional tensions.",
-      "lat": 35.68,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/iran-warns-of-devastating-economic-fallout-from-any-new-israeli-attack/article71637747.ece",
-      "image": "https://th-i.thgim.com/public/incoming/3cdcge/article71637760.ece/alternates/LANDSCAPE_1200/2026-10-27T173026Z_635877314_RC2TBOA9T55I_RTRMADP_3_RUSSIA-ENERGY-SUMMIT-BILATS-IRAN.JPG",
-      "ts": 1793209664000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/iran-warns-of-devastating-economic-fallout-from-any-new-israeli-attack/article71637747.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6d923b9ffffb",
-      "title": "South Korea fines Google and Apple over unfair app market practices",
-      "description": "South Korean regulators impose a $47.6 million fine on Google and Apple for alleged anti‑competitive behavior in app stores.",
-      "lat": 37.57,
-      "lng": 126.98000000000002,
-      "severity": 2,
-      "location": "Seoul, South Korea",
-      "source": "OAN",
-      "url": "https://www.oann.com/tech/south-korea-fines-google-and-apple-over-unfair-app-market-practices/",
-      "image": null,
-      "ts": 1793208347000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/tech/south-korea-fines-google-and-apple-over-unfair-app-market-practices/"
           }
         ]
       }
