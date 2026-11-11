@@ -1,7 +1,151 @@
 {
   "schema": 1,
-  "updated": "2026-11-11T07:06:27.273267+00:00",
+  "updated": "2026-11-11T15:07:47.921257+00:00",
   "events": [
+    {
+      "id": "62b98f7495c3",
+      "title": "Lukashenko calls for boosting CSTO military potential",
+      "description": "Belarusian President Alexander Lukashenko urged member states of the Collective Security Treaty Organization to enhance their joint military capabilities.",
+      "lat": 53.9025,
+      "lng": 27.5615,
+      "severity": 3,
+      "location": "Minsk, Belarus",
+      "source": "TASS",
+      "url": "https://tass.com/world/2216461",
+      "image": null,
+      "ts": 1794409399000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2216461"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d160100c6cbf",
+      "title": "Russia, Ukraine agree on prisoner exchange as talks end without major breakthrough",
+      "description": "Russia and Ukraine concluded a large prisoner‑of‑war exchange during U.S.‑mediated talks held in Abu Dhabi, though no broader peace breakthrough was achieved.",
+      "lat": 24.47,
+      "lng": 54.37,
+      "severity": 2,
+      "location": "Abu Dhabi, United Arab Emirates",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/europe/article/3374117/russia-ukraine-agree-prisoner-exchange-talks-end-without-major-breakthrough",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/02-gettyimages-2293369294.jpg?c=original&amp;q=w_860,c_fill",
+      "ts": 1794408851000,
+      "coverage": {
+        "left": 5,
+        "center": 3,
+        "right": 2,
+        "total": 10,
+        "buckets": {
+          "left": 1,
+          "lean_left": 4,
+          "center": 3,
+          "lean_right": 1,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/us-brokered-russia-ukraine-talks-abu-dhabi_n_6af43d31e4b09e0b5c534308"
+          },
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/11/11/russia-ukraine-agree-prisoner-swap-little-else-us-mediated-talks/"
+          },
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/video/russia-and-ukraine-hold-nearly-4-hours-of-u-s-mediated-talks-in-abu-dhabi-273201221767"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/11/11/russia-ukraine-talks-in-abu-dhabi-end-with-prisoner-exchange-agreement?traffic_source=rss"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/russia-ukraine-agree-to-prisoner-swap-at-us-brokered-talks/article71689267.ece"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/39254048-0d84-47b8-bb97-4b9d9e1f2b92?syn-25a6b1a6=1"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/11/baltic-nations-finland-issue-overnight-drone-warnings-russia-ukraine-exchange"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/europe/article/3374117/russia-ukraine-agree-prisoner-exchange-talks-end-without-major-breakthrough"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://rt-english.com/news/648693-russia-ukraine-us-talks-second-day/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4799883/russia-ukraine-prisoner-swap-peace-talks/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8ea5d4339584",
+      "title": "EBRD plans $6B investment in Türkiye's clean energy projects",
+      "description": "The European Bank for Reconstruction and Development announced a five‑year, $6 billion programme to fund renewable‑energy projects across Turkey.",
+      "lat": 39.9334,
+      "lng": 32.8597,
+      "severity": 1,
+      "location": "Ankara, Turkey",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/business/economy/ebrd-plans-6b-investment-in-turkiyes-clean-energy-projects",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/11/11/470062.jpg",
+      "ts": 1794405000000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/business/economy/ebrd-plans-6b-investment-in-turkiyes-clean-energy-projects"
+          }
+        ]
+      }
+    },
     {
       "id": "5fa485567b66",
       "title": "Russia Says Two Polish Spies Detained in Kaliningrad Region",
@@ -406,34 +550,34 @@
       }
     },
     {
-      "id": "d160100c6cbf",
-      "title": "Ukraine peace talks restart after 9 months",
-      "description": "A new round of negotiations between the US, Ukraine and Russia began in Abu Dhabi, aiming to revive efforts to end the war.",
-      "lat": 24.47,
-      "lng": 54.37,
-      "severity": 1,
-      "location": "Abu Dhabi, United Arab Emirates",
-      "source": "Egypt Independent",
-      "url": "https://www.egyptindependent.com/ukraine-peace-talks-restart-after-9-months-what-makes-them-different-this-time/",
-      "image": "https://media.cnn.com/api/v1/images/stellar/prod/02-gettyimages-2293369294.jpg?c=original&amp;q=w_860,c_fill",
-      "ts": 1794317713000,
+      "id": "cb6690479647",
+      "title": "Overnight strikes in Yemen kill at least 1 person and wound 9",
+      "description": "Air strikes hit a gas station and an oil facility in Yemen, resulting in one death and nine injuries.",
+      "lat": 16.4694,
+      "lng": 44.191,
+      "severity": 3,
+      "location": "Sana'a, Yemen",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/overnight-strikes-yemen-kill-1-person-wound-9-138005785",
+      "image": "https://s.abcnews.com/images/International/wirestory_f4407845b6dd105e54190ccab7d55f8d_4x3_384.jpg",
+      "ts": 1794318850000,
       "coverage": {
-        "left": 0,
-        "center": 1,
+        "left": 1,
+        "center": 0,
         "right": 0,
         "total": 1,
         "buckets": {
           "left": 0,
-          "lean_left": 0,
-          "center": 1,
+          "lean_left": 1,
+          "center": 0,
           "lean_right": 0,
           "right": 0
         },
         "sources": [
           {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/ukraine-peace-talks-restart-after-9-months-what-makes-them-different-this-time/"
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/overnight-strikes-yemen-kill-1-person-wound-9-138005785"
           }
         ]
       }
@@ -7249,105 +7393,6 @@
             "n": "CBS News World",
             "b": "lean_left",
             "u": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-qatar-mediators-new-proposal-end-war/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a04de3375696",
-      "title": "Poland pivots towards India as ‘strategic partnership’ with China develops cracks",
-      "description": "Poland and India aim to raise bilateral trade from $6 bn to $10 bn, elevating ties to a strategic partnership.",
-      "lat": 52.23,
-      "lng": 21.01,
-      "severity": 2,
-      "location": "Warsaw, Poland",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/national/poland-pivots-towards-india-as-strategic-partnership-with-china-develops-cracks/article71636517.ece",
-      "image": "https://th-i.thgim.com/public/incoming/dge6a9/article71637682.ece/alternates/LANDSCAPE_1200/20261022372L.jpg",
-      "ts": 1793238579000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/national/poland-pivots-towards-india-as-strategic-partnership-with-china-develops-cracks/article71636517.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a6ea4cbbb931",
-      "title": "Australia returns ancient stone heads to China after more than 30 years",
-      "description": "Australia devolvió dos esculturas de piedra milenarias a China, marcando un gesto de reconciliación cultural tras tres décadas de disputa.",
-      "lat": 39.9,
-      "lng": 118.30520000000001,
-      "severity": 1,
-      "location": "Beijing, China",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3372466/australia-returns-ancient-stone-heads-china-after-more-30-years",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/28/c5f1d486-241d-4725-8e0a-23c3082ac6c3_06484739.jpg?itok=K4UxzY7f&v=1793188211",
-      "ts": 1793228407000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/china/diplomacy/article/3372466/australia-returns-ancient-stone-heads-china-after-more-30-years"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7553bab28355",
-      "title": "US ambassador erupts at Cuban minister (VIDEO)",
-      "description": "El embajador estadounidense Mike Waltz gritó “¡Retrocedan!” al ministro de Relaciones Exteriores de Cuba durante una tensa confrontación en la ONU sobre el bloqueo estadounidense.",
-      "lat": 24.22,
-      "lng": -82.38,
-      "severity": 2,
-      "location": "Havana, Cuba",
-      "source": "RT News",
-      "url": "https://rt-english.com/news/647976-us-ambassador-cuban-minister-un/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.10/thumbnail/6ae2648a2030271e3e341cb6.jpg",
-      "ts": 1793224135000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://rt-english.com/news/647976-us-ambassador-cuban-minister-un/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
           }
         ]
       }
