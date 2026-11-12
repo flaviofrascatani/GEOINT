@@ -1,29 +1,100 @@
 {
   "schema": 1,
-  "updated": "2026-11-12T11:46:23.257790+00:00",
+  "updated": "2026-11-12T19:50:48.790699+00:00",
   "events": [
     {
-      "id": "751fa808228b",
-      "title": "Israeli strike on Gaza hospital kills at least six people",
-      "description": "Un attacco aereo israeliano ha colpito l'ospedale Nasser a Gaza, provocando almeno sei morti e numerosi feriti.",
-      "lat": 33.1,
-      "lng": 35.2226,
-      "severity": 4,
-      "location": "Gaza City, Gaza Strip",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/11/israeli-strike-gaza-hospital-deadliest-election",
-      "image": null,
-      "ts": 1794483022000,
+      "id": "d43bf669b9f8",
+      "title": "Emmanuel Macron leans in to greet Iceland's PM Kristrun Frostadottir at meeting of European leaders",
+      "description": "French President Macron and Icelandic Prime Minister Frostadottir shared a brief embrace during a European leaders summit, signaling diplomatic goodwill.",
+      "lat": 64.13,
+      "lng": -21.9,
+      "severity": 2,
+      "location": "Reykjavik, Iceland",
+      "source": "Daily Mail World",
+      "url": "https://www.dailymail.com/news/article-16287117/frosty-welcome-Macron-Iceland-PM-Kristrun-Frostadottir.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "image": "https://i.dailymail.com/1s/2026/11/12/13/112465575-0-image-a-71_1794488731223.jpg",
+      "ts": 1794511742000,
       "coverage": {
-        "left": 2,
-        "center": 3,
+        "left": 0,
+        "center": 0,
         "right": 1,
-        "total": 6,
+        "total": 1,
         "buckets": {
           "left": 0,
-          "lean_left": 2,
-          "center": 3,
-          "lean_right": 1,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/news/article-16287117/frosty-welcome-Macron-Iceland-PM-Kristrun-Frostadottir.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bdc912bbddfb",
+      "title": "Iran launches missile attack on US ships as Trump unleashes new strikes in Middle East",
+      "description": "Iran fired missiles at United States naval vessels in the Gulf of Oman, marking a direct military confrontation.",
+      "lat": 20.0,
+      "lng": 58.0,
+      "severity": 4,
+      "location": "Gulf of Oman",
+      "source": "Daily Express World",
+      "url": "https://www.express.co.uk/news/world/2265809/iran-launches-attack-10-us",
+      "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2265809_1.jpg",
+      "ts": 1794511440000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-strait-of-hormuz/"
+          },
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2265809/iran-launches-attack-10-us"
+          }
+        ]
+      }
+    },
+    {
+      "id": "751fa808228b",
+      "title": "Israeli strike on Gaza hospital kills 11 in deadliest attack since election",
+      "description": "An Israeli airstrike hit Nasser hospital in southern Gaza, killing 11 people.",
+      "lat": 33.1,
+      "lng": 35.2226,
+      "severity": 3,
+      "location": "Gaza City, Gaza Strip",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3374264/israeli-strike-gaza-hospital-kills-11-deadliest-attack-election",
+      "image": null,
+      "ts": 1794508332000,
+      "coverage": {
+        "left": 4,
+        "center": 6,
+        "right": 0,
+        "total": 10,
+        "buckets": {
+          "left": 0,
+          "lean_left": 4,
+          "center": 6,
+          "lean_right": 0,
           "right": 0
         },
         "sources": [
@@ -38,24 +109,115 @@
             "u": "https://www.cbsnews.com/news/israel-strike-gaza-hospital-kills-several/"
           },
           {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/israel-airstrike-gaza-hospital-latest-37871833"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss"
+          },
+          {
             "n": "BBC World",
             "b": "center",
             "u": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss"
           },
           {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/israeli-strike-on-gaza-hospital-kills-six-including-doctor-health-ministry-says-13611456"
+          },
+          {
             "n": "Google News Top",
             "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU3ZJQlhjSko5MDVzS25JNzdQaWprR1pORklBMUI1Qlg0T3Zkc2J1eV8yUTE1S2RMdHlLcjdDbXNrNERFdDNtYTFleFlkNHZyeXBfQ25lcS05S29hd3YtT3ZWMXE2eUs2RXpuZXV2Z01OcklJeXdKT2FzR1dqZVRHRE9Ncl9QUzVSTkVod1V6RnFjMWNIcFBkWXBWU0FWWTM3TGJj?oc=5"
+            "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQUdEakxtMWZpbTJoLTBTOGRoNElEcDFodXFDNzcyUEtVS2dJMU92anJoQWFpdjEwT042d3lRVExOcHpFdDdrZ3lNTWZ2dlp1dzdoVjN3YU5TdUJkb1NWTWZBNHhqOTlBVWNYTkRoS2tpUWRrMTVMVFlLMDN1NHB6blRvV3dkbERhZWJHSFM1enVSaGlsaHUzRVk2cTBSREp3aENrYVBCbTlteEpMMzd2U05n?oc=5"
           },
           {
-            "n": "Al-Monitor",
+            "n": "Africanews",
             "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/11/israeli-strike-gaza-hospital-deadliest-election"
+            "u": "http://www.africanews.com/2026/11/12/gaza-devastation-inside-nasser-hospital-after-deadly-israeli-strike/"
           },
           {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/mid-east/israeli-strike-on-gazas-nasser-hospital-kills-6-including-doctor"
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/israeli-strike-on-gaza-hospital-kills-at-least-six-including-doctor-and-child-palestinian-officials-say/"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/middle-east/article/3374264/israeli-strike-gaza-hospital-kills-11-deadliest-attack-election"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0a5c81135467",
+      "title": "Russia, United States Agree to Continue Trilateral Format Negotiations - Kremlin Aide",
+      "description": "Russia and the United States reaffirmed their commitment to keep the Ukraine trilateral talks ongoing.",
+      "lat": 56.85,
+      "lng": 39.525199999999984,
+      "severity": 2,
+      "location": "Moscow, Russia",
+      "source": "Sputnik International",
+      "url": "https://sputnikglobe.com/20261112/russia-united-states-agree-to-continue-trilateral-format-negotiations---kremlin-aide-1125064498.html",
+      "image": "https://cdn.imgsputnikglobe.com/img/07ea/0b/0c/1125061568_0:0:2872:1615_600x0_80_0_0_2d693943494fd37597b1861830507136.jpg",
+      "ts": 1794504233000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/us-brokered-russia-ukraine-talks-abu-dhabi_n_6af43d31e4b09e0b5c534308"
+          },
+          {
+            "n": "Sputnik International",
+            "b": "right",
+            "u": "https://sputnikglobe.com/20261112/russia-united-states-agree-to-continue-trilateral-format-negotiations---kremlin-aide-1125064498.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ca562ca01d75",
+      "title": "US-South Africa: Ramaphosa tests Trump’s visa sanctions with AI-focused US visit",
+      "description": "South African President Ramaphosa travels to the United States to discuss AI investment despite existing visa restrictions, indicating a diplomatic opening.",
+      "lat": -25.75,
+      "lng": 28.19,
+      "severity": 2,
+      "location": "Pretoria, South Africa",
+      "source": "The Africa Report",
+      "url": "https://www.theafricareport.com/436210/us-south-africa-ramaphosa-tests-trumps-visa-sanctions-with-ai-focused-us-visit/",
+      "image": null,
+      "ts": 1794499200000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Africa Report",
+            "b": "center",
+            "u": "https://www.theafricareport.com/436210/us-south-africa-ramaphosa-tests-trumps-visa-sanctions-with-ai-focused-us-visit/"
           }
         ]
       }
@@ -7186,143 +7348,6 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/10/29/cameroon-families-demand-return-of-relatives-from-ukraine/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "eab2d97b31e5",
-      "title": "Delcy Rodríguez casts herself as guarantor of Venezuela’s transition",
-      "description": "Acting President Delcy Rodríguez announced she will oversee a democratic transition and promised elections organized by a renewed electoral authority.",
-      "lat": 10.51,
-      "lng": -64.9948,
-      "severity": 2,
-      "location": "Caracas, Venezuela",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/10/29/i-am-the-right-person-delcy-rodriguez-casts-herself-as-guarantor-of-venezuela-s-transition?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111946/100x80/dlec.jpg",
-      "ts": 1793295720000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/10/29/i-am-the-right-person-delcy-rodriguez-casts-herself-as-guarantor-of-venezuela-s-transition?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de13b4b5222c",
-      "title": "U.S. Hits Rwanda With New Sanctions Over a Conflict Trump Declared ‘Ended’",
-      "description": "The U.S. Treasury imposed sanctions on Rwanda for supporting rebels in eastern DRC, undermining a peace deal.",
-      "lat": 3.05,
-      "lng": 30.060000000000002,
-      "severity": 3,
-      "location": "Kigali, Rwanda",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/10/29/world/africa/rwanda-sanctions-m23-congo.html",
-      "image": "https://static01.nyt.com/images/2026/10/29/multimedia/29int-rwanda-1-qmkv/29int-rwanda-1-qmkv-mediumSquareAt3X.jpg",
-      "ts": 1793294028000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/10/29/world/africa/rwanda-sanctions-m23-congo.html"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOM3RIUm10VUtmSjgwYWgyTHdQSHVIczM3ZFhCSGJGbjEzN1JyWFg2YWRSa2lBR3IwYU13MVlGckhRQXJlUWRTZWxndDh0YjdTXzUxLV96WkoyM2gtQzRCcDBnQjJabmZIQi14S1RXVzhoNGY0LXhHVUdQOUlPMnhxczhjeTR4Zw?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "47710788f309",
-      "title": "Yemen's hospitals buckle as fighting escalates",
-      "description": "Intense fighting in Taiz, Yemen, has left hospitals overwhelmed, with casualties rising and medical supplies dwindling.",
-      "lat": 13.58,
-      "lng": 44.02,
-      "severity": 3,
-      "location": "Taiz, Yemen",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/10/yemens-hospitals-buckle-fighting-escalates",
-      "image": null,
-      "ts": 1793292393000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/10/yemens-hospitals-buckle-fighting-escalates"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ef7bd5dada8f",
-      "title": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
-      "description": "A Russian drone struck a train station in Dnipro, Ukraine, killing at least 14 people and wounding many others.",
-      "lat": 49.55,
-      "lng": 35.03999999999999,
-      "severity": 4,
-      "location": "Dnipro, Ukraine",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9946/live/591e3810-d3b5-11f1-a701-fddedf244c16.jpg",
-      "ts": 1793283455000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
