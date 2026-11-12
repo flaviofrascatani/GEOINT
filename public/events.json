@@ -1,7 +1,169 @@
 {
   "schema": 1,
-  "updated": "2026-11-12T03:19:16.492645+00:00",
+  "updated": "2026-11-12T11:46:23.257790+00:00",
   "events": [
+    {
+      "id": "751fa808228b",
+      "title": "Israeli strike on Gaza hospital kills at least six people",
+      "description": "Un attacco aereo israeliano ha colpito l'ospedale Nasser a Gaza, provocando almeno sei morti e numerosi feriti.",
+      "lat": 33.1,
+      "lng": 35.2226,
+      "severity": 4,
+      "location": "Gaza City, Gaza Strip",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/11/israeli-strike-gaza-hospital-deadliest-election",
+      "image": null,
+      "ts": 1794483022000,
+      "coverage": {
+        "left": 2,
+        "center": 3,
+        "right": 1,
+        "total": 6,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 3,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/middle-east/israeli-strike-gaza-nasser-hospital-abu-shaira-doctor-hamas-rcna608932"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/israel-strike-gaza-hospital-kills-several/"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU3ZJQlhjSko5MDVzS25JNzdQaWprR1pORklBMUI1Qlg0T3Zkc2J1eV8yUTE1S2RMdHlLcjdDbXNrNERFdDNtYTFleFlkNHZyeXBfQ25lcS05S29hd3YtT3ZWMXE2eUs2RXpuZXV2Z01OcklJeXdKT2FzR1dqZVRHRE9Ncl9QUzVSTkVod1V6RnFjMWNIcFBkWXBWU0FWWTM3TGJj?oc=5"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/11/israeli-strike-gaza-hospital-deadliest-election"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/israeli-strike-on-gazas-nasser-hospital-kills-6-including-doctor"
+          }
+        ]
+      }
+    },
+    {
+      "id": "56a5eedd03b2",
+      "title": "UNHCR calls for emergency aid to address refugee crisis in Niger",
+      "description": "L'UNHCR ha chiesto aiuti urgenti per milioni di rifugiati che fuggono dal Nigeria verso il Niger e il Benin.",
+      "lat": 14.61,
+      "lng": 2.1100000000000136,
+      "severity": 3,
+      "location": "Niamey, Niger",
+      "source": "All Africa",
+      "url": "https://allafrica.com/stories/202611120372.html",
+      "image": null,
+      "ts": 1794482837000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "All Africa",
+            "b": "center",
+            "u": "https://allafrica.com/stories/202611120372.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "caecc803b274",
+      "title": "US envoys meet Putin at the Kremlin to discuss Ukraine peace",
+      "description": "Gli inviati statunitensi sono arrivati al Cremlino per colloqui con Vladimir Putin, cercando di rilanciare un accordo di pace per l'Ucraina.",
+      "lat": 55.75,
+      "lng": 37.62,
+      "severity": 2,
+      "location": "Kremlin, Moscow, Russia",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/us-envoys-witkoff-kushner-putin-talks-ukraine-zelenskyy-opportunity",
+      "image": null,
+      "ts": 1794463925000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-11-12/us-envoys-witkoff-kushner-putin-talks-ukraine-zelenskyy-opportunity"
+          }
+        ]
+      }
+    },
+    {
+      "id": "efe4464c227d",
+      "title": "Fiery clashes erupt across Spain during first general strike in 14 years",
+      "description": "Scaramucce violente sono scoppiate in diverse città spagnole mentre milioni di lavoratori partecipano allo sciopero generale.",
+      "lat": 40.42,
+      "lng": -3.7,
+      "severity": 3,
+      "location": "Madrid, Spain",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/fiery-clashes-erupt-in-spain-as-millions-join-general-strike-13611270",
+      "image": "https://e3.365dm.com/26/11/1920x1080/skynews-spain-barcelona_7404497.jpg?20261112043458",
+      "ts": 1794451260000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/fiery-clashes-erupt-in-spain-as-millions-join-general-strike-13611270"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/fiery-chaos-erupts-spain-protesters-clash-police-massive-nationwide-strike"
+          }
+        ]
+      }
+    },
     {
       "id": "2f7677ac8a2d",
       "title": "Indonesian VP resigns over education qualification row",
@@ -7161,143 +7323,6 @@
             "n": "BBC World",
             "b": "center",
             "u": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "bbef9f690ad7",
-      "title": "Netanyahu falls short of majority as Israel faces three possible paths to a new government",
-      "description": "Prime Minister Netanyahu’s coalition failed to secure a parliamentary majority, prompting negotiations for a new governing arrangement.",
-      "lat": 31.78,
-      "lng": 35.22,
-      "severity": 2,
-      "location": "Jerusalem, Israel",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/netanyahu-bloc-falls-short-arab-vote-surges-qatar-election-interference-allegations-emerge",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/Israeli-Election-Banners-Netanyahu-Eisenkot.jpg?ve=1&tl=1",
-      "ts": 1793281669000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/netanyahu-bloc-falls-short-arab-vote-surges-qatar-election-interference-allegations-emerge"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d4c897505fd3",
-      "title": "China promotes General Zhang Shengmin to Politburo",
-      "description": "Beijing elevated General Zhang Shengmin, a key figure in the PLA’s anti‑corruption campaign, to the top decision‑making body of the Communist Party.",
-      "lat": 39.9042,
-      "lng": 116.4074,
-      "severity": 3,
-      "location": "Beijing, China",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/china/military/article/3372591/china-promotes-general-zhang-shengmin-politburo",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/29/07f0795c-0638-45c7-8b1a-c65d59ee48da_59856e0a.jpg?itok=9o_YSIgh&v=1793267300",
-      "ts": 1793267304000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/china/military/article/3372591/china-promotes-general-zhang-shengmin-politburo"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2819fd171c59",
-      "title": "Egypt, World Bank to boost investment and exports",
-      "description": "Egypt’s Investment and Foreign Trade Minister announced a partnership with the World Bank to develop a new investment promotion strategy.",
-      "lat": 31.1444,
-      "lng": 31.23570000000001,
-      "severity": 2,
-      "location": "Cairo, Egypt",
-      "source": "Egypt Independent",
-      "url": "https://www.egyptindependent.com/egypt-world-bank-to-boost-investment-and-exports/",
-      "image": null,
-      "ts": 1793266659000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/egypt-world-bank-to-boost-investment-and-exports/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6af0755e009a",
-      "title": "North Korea fires missile barrage toward the sea as tensions with South rise",
-      "description": "North Korea launched a salvo of ballistic missiles that flew over the sea east of the Korean Peninsula, heightening military tensions with South Korea.",
-      "lat": 38.0,
-      "lng": 130.0,
-      "severity": 4,
-      "location": "East Sea (Sea of Japan), off South Korea",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/north-korea-fires-missile-barrage-sea-tensions-south-137662901",
-      "image": "https://s.abcnews.com/images/International/wirestory_b1a2feff5944a71c716ed37fd94e8aa5_4x3_384.jpg",
-      "ts": 1793256276000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/north-korea-fires-missile-barrage-sea-tensions-south-137662901"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/north-korea-fires-ballistic-missiles-off-east-coast-as-tensions-with-south-rise-13605215"
           }
         ]
       }
