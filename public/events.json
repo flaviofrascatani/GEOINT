@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-11-13T01:00:24.725917+00:00",
+  "updated": "2026-11-13T07:50:53.145814+00:00",
   "events": [
+    {
+      "id": "6c6b4f999bdf",
+      "title": "Mosca, 'la scorsa notte 467 droni ucraini diretti verso la capitale'",
+      "description": "Moscow reported that 467 Ukrainian drones were launched toward the city overnight, most of which were shot down by air‑defence systems.",
+      "lat": 55.75,
+      "lng": 39.525199999999984,
+      "severity": 3,
+      "location": "Moscow, Russia",
+      "source": "ANSA Mondo",
+      "url": "https://www.ansa.it/sito/notizie/mondo/europa/2026/11/13/mosca-la-scorsa-notte-467-droni-ucraini-diretti-verso-la-capitale_f3fe7d2a-98ed-4449-bb6d-2ed5b4f4086a.html",
+      "image": null,
+      "ts": 1794548620000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/europa/2026/11/13/mosca-la-scorsa-notte-467-droni-ucraini-diretti-verso-la-capitale_f3fe7d2a-98ed-4449-bb6d-2ed5b4f4086a.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b0ac3b95957f",
+      "title": "Zelensky hails ‘real result’ in breakthrough on Russian peace as soldiers to return home",
+      "description": "Ukrainian President Volodymyr Zelensky announced a major prisoner‑exchange deal that will see many Ukrainian soldiers released and return home.",
+      "lat": 50.45,
+      "lng": 30.52,
+      "severity": 1,
+      "location": "Kyiv, Ukraine",
+      "source": "Daily Express World",
+      "url": "https://www.express.co.uk/news/world/2265849/zelensky-russian-peace-prisoner-swap",
+      "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2265849_1.jpg",
+      "ts": 1794548220000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2265849/zelensky-russian-peace-prisoner-swap"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0ebbf52b7763",
+      "title": "U.S. managed $12 billion in Venezuelan oil revenue, State Department says",
+      "description": "The State Department reported that the United States has handled $12 billion of oil revenues from Venezuela, emphasizing transparency and the use of funds for humanitarian purposes.",
+      "lat": 10.51,
+      "lng": -66.9,
+      "severity": 2,
+      "location": "Caracas, Venezuela",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/11/12/us-managed-12-billion-venezuela-oil-revenue-state-department-says/",
+      "image": null,
+      "ts": 1794523200000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/11/12/us-managed-12-billion-venezuela-oil-revenue-state-department-says/"
+          }
+        ]
+      }
+    },
     {
       "id": "079df318728a",
       "title": "Yemen’s Houthis say they targeted Saudi East‑West pipeline, port city of Yanbu",
@@ -7254,105 +7353,6 @@
             "n": "ABC News International",
             "b": "lean_left",
             "u": "https://abcnews.com/International/wireStory/sporadic-gunfire-sends-ethiopians-fleeing-kenya-trucks-remain-137699895"
-          }
-        ]
-      }
-    },
-    {
-      "id": "86f73277ef66",
-      "title": "Ethiopia: Tens of Thousands Flee to Kenya, UN Agency Warns of Growing Humanitarian Needs",
-      "description": "UNHCR highlighted escalating humanitarian requirements as large numbers of Ethiopians cross into Kenya amid border clashes.",
-      "lat": 3.52,
-      "lng": 39.05,
-      "severity": 3,
-      "location": "Moyale, Kenya",
-      "source": "All Africa",
-      "url": "https://allafrica.com/stories/202610300173.html",
-      "image": null,
-      "ts": 1793346134000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "All Africa",
-            "b": "center",
-            "u": "https://allafrica.com/stories/202610300173.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a8867f7c949a",
-      "title": "Tensions Between Cuba And The U.S. Are Rising. Washington Just Expelled One Of Havana's Diplomats.",
-      "description": "The United States expelled a Cuban diplomat, escalating diplomatic friction between Washington and Havana.",
-      "lat": 24.22,
-      "lng": -80.4748,
-      "severity": 3,
-      "location": "Havana, Cuba",
-      "source": "IBTimes",
-      "url": "https://www.ibtimes.com/tensions-between-cuba-us-are-rising-washington-just-expelled-one-havanas-diplomats-3809132",
-      "image": null,
-      "ts": 1793319603000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/tensions-between-cuba-us-are-rising-washington-just-expelled-one-havanas-diplomats-3809132"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a023e6c26df5",
-      "title": "Palestinians face growing bans from Al‑Aqsa as Israel tightens control",
-      "description": "Israel renewed a ban on a senior Al‑Aqsa imam, further restricting Muslim worship at the holy site and sparking tensions with the Islamic Waqf.",
-      "lat": 31.78,
-      "lng": 35.22,
-      "severity": 3,
-      "location": "Jerusalem, Israel",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/29/palestinians-face-growing-bans-from-al-aqsa-as-israel-tightens-control?traffic_source=rss",
-      "image": null,
-      "ts": 1793308586000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/10/29/palestinians-face-growing-bans-from-al-aqsa-as-israel-tightens-control?traffic_source=rss"
           }
         ]
       }
