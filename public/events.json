@@ -1,7 +1,45 @@
 {
   "schema": 1,
-  "updated": "2026-11-12T19:50:48.790699+00:00",
+  "updated": "2026-11-13T01:00:24.725917+00:00",
   "events": [
+    {
+      "id": "079df318728a",
+      "title": "Yemen’s Houthis say they targeted Saudi East‑West pipeline, port city of Yanbu",
+      "description": "The Houthis claimed to have struck the East‑West oil pipeline ending at Yanbu, Saudi Arabia.",
+      "lat": 24.0889,
+      "lng": 38.0638,
+      "severity": 3,
+      "location": "Yanbu, Saudi Arabia",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/yemens-houthis-say-they-targeted-saudi-east-west-pipeline-port-city-of-yanbu/article71695404.ece",
+      "image": "https://th-i.thgim.com/public/incoming/pbbhoe/article71695405.ece/alternates/LANDSCAPE_1200/2026-11-09T165348Z_764578082_RC2AONA88CSD_RTRMADP_3_IRAN-CRISIS-SAUDI.JPG",
+      "ts": 1794518782000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/yemens-houthis-say-they-targeted-saudi-east-west-pipeline-port-city-of-yanbu/article71695404.ece"
+          }
+        ]
+      }
+    },
     {
       "id": "d43bf669b9f8",
       "title": "Emmanuel Macron leans in to greet Iceland's PM Kristrun Frostadottir at meeting of European leaders",
@@ -218,6 +256,39 @@
             "n": "The Africa Report",
             "b": "center",
             "u": "https://www.theafricareport.com/436210/us-south-africa-ramaphosa-tests-trumps-visa-sanctions-with-ai-focused-us-visit/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "decc48889ac5",
+      "title": "Iran's shadow operations stretch across Europe as chilling spy convictions expose Tehran's reach",
+      "description": "Two Iranian nationals were convicted of espionage in the United Kingdom, highlighting Tehran’s covert activities in Europe.",
+      "lat": 52.6074,
+      "lng": 1.7774,
+      "severity": 3,
+      "location": "London, United Kingdom",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/irans-shadow-operations-stretch-across-europe-chilling-spy-convictions-expose-tehrans-reach",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/01/931/523/iran-military-rally-001.jpg?ve=1&tl=1",
+      "ts": 1794496249000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/irans-shadow-operations-stretch-across-europe-chilling-spy-convictions-expose-tehrans-reach"
           }
         ]
       }
@@ -7282,72 +7353,6 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/news/2026/10/29/palestinians-face-growing-bans-from-al-aqsa-as-israel-tightens-control?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "10eab4ed3fb7",
-      "title": "Türkiye‑centered power architecture – advancing defence relations with Europe",
-      "description": "Turkey deepened its defence cooperation with European partners, expanding joint projects and strategic dialogues.",
-      "lat": 41.03,
-      "lng": 32.860000000000014,
-      "severity": 2,
-      "location": "Ankara, Turkey",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/opinion/op-ed/turkiye-centered-power-architecture",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/10/29/468001.jpg",
-      "ts": 1793307900000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/opinion/op-ed/turkiye-centered-power-architecture"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4a362102c222",
-      "title": "Cameroon families demand return of relatives from Ukraine",
-      "description": "Families gathered outside the Russian embassy in Yaoundé, demanding that Russia release Cameroonian citizens detained in Ukraine.",
-      "lat": 3.87,
-      "lng": 11.52,
-      "severity": 3,
-      "location": "Yaoundé, Cameroon",
-      "source": "Africanews",
-      "url": "http://www.africanews.com/2026/10/29/cameroon-families-demand-return-of-relatives-from-ukraine/",
-      "image": "http://images.euronews.com/articles/stories/09/97/23/53/640x360_cmsv2_89cca5db-11b0-5512-8f4a-057fc8998c33-9972353.jpg?1793287911",
-      "ts": 1793301994000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/10/29/cameroon-families-demand-return-of-relatives-from-ukraine/"
           }
         ]
       }
