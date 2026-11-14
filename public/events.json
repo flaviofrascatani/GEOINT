@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-11-14T02:40:01.630748+00:00",
+  "updated": "2026-11-14T10:12:26.789682+00:00",
   "events": [
+    {
+      "id": "051f256b58cf",
+      "title": "Russian forces liberate Tersyanka in Zaporozhye Region",
+      "description": "El Batallón del Este de las fuerzas rusas tomó el control del asentamiento de Tersyanka, despejando más de 300 edificios en la región de Zaporozhye, Ucrania.",
+      "lat": 48.6,
+      "lng": 36.90520000000001,
+      "severity": 4,
+      "location": "Tersyanka, Región de Zaporozhye, Ucrania",
+      "source": "TASS",
+      "url": "https://tass.com/defense/2218169",
+      "image": null,
+      "ts": 1794650662000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/defense/2218169"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f4f6c0610b1e",
+      "title": "UN climate chief urges speed as COP31 confronts fossil fuel divide",
+      "description": "El jefe de clima de la ONU pidió a los negociadores del COP31 en Antalya acelerar un acuerdo y evitar retrasos tácticos.",
+      "lat": 38.01,
+      "lng": 30.69999999999999,
+      "severity": 2,
+      "location": "Antalya, Turkey",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/un-climate-chief-urges-speed-as-cop31-confronts-fossil-fuel-divide",
+      "image": null,
+      "ts": 1794649760000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/un-climate-chief-urges-speed-as-cop31-confronts-fossil-fuel-divide"
+          }
+        ]
+      }
+    },
     {
       "id": "d3ece044ad5c",
       "title": "Indonesia’s commodity export U-turn: no monopoly, just all the data",
@@ -112,6 +178,39 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/pope-leo-celebrates-mass-in-his-former-diocese-of-chiclayo-peru/a-79944167?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fe62cd9c4bcd",
+      "title": "Trump, Xi and Putin to meet on the sidelines of APEC in Shenzhen",
+      "description": "El presidente Donald Trump se reunirá con Xi Jinping y Vladimir Putin durante la cumbre de APEC en Shenzhen, una cita sin precedentes entre los tres líderes.",
+      "lat": 23.65,
+      "lng": 114.06,
+      "severity": 2,
+      "location": "Shenzhen, China",
+      "source": "NBC News World",
+      "url": "https://www.nbcnews.com/world/china/trump-xi-putin-plan-unprecedented-joint-meeting-sidelines-apec-officia-rcna609275",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261106-Xi-Trump-Putin-vsb-1846-405edd.jpg",
+      "ts": 1794614938000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/asia/2026/11/14/casa-bianca-trump-xi-e-putin-terranno-colloqui-trilaterali-a-shenzhen_1d0acae1-cdbb-4e03-8ffb-d184908de2c6.html"
           }
         ]
       }
@@ -854,6 +953,39 @@
       "lng": 1.7774,
       "severity": 3,
       "location": "London, United Kingdom",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/irans-shadow-operations-stretch-across-europe-chilling-spy-convictions-expose-tehrans-reach",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/01/931/523/iran-military-rally-001.jpg?ve=1&tl=1",
+      "ts": 1794496249000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/irans-shadow-operations-stretch-across-europe-chilling-spy-convictions-expose-tehrans-reach"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7f6dcecac282",
+      "title": "Iranian spies convicted in Britain amid accusations of IRGC cyber‑attacks in France and UAE warnings",
+      "description": "Dos hombres iraníes fueron condenados por espionaje en el Reino Unido mientras Francia acusa al IRGC de ciberataques y los Emiratos advierten sobre células durmientes iraníes.",
+      "lat": 51.51,
+      "lng": 1.7752000000000123,
+      "severity": 3,
+      "location": "Londres, Reino Unido",
       "source": "Fox News World",
       "url": "https://www.foxnews.com/world/irans-shadow-operations-stretch-across-europe-chilling-spy-convictions-expose-tehrans-reach",
       "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/01/931/523/iran-military-rally-001.jpg?ve=1&tl=1",
@@ -7196,163 +7328,6 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/news/2026/10/31/us-jails-two-chinese-nationals-for-spying?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4e3dd10635fa",
-      "title": "Poland’s constitutional court crisis sparks riots in Warsaw",
-      "description": "Riot police were deployed to the Constitutional Tribunal in Warsaw as protesters demanded the reinstatement of the court’s president, heightening political tension.",
-      "lat": 53.33,
-      "lng": 22.9152,
-      "severity": 3,
-      "location": "Warsaw, Poland",
-      "source": "Mirror World",
-      "url": "https://www.mirror.co.uk/news/world-news/poland-coup-detat-donald-tusk-37829033",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37829037.ece/ALTERNATES/s615/0_POLAND-POLITICS-GOVERNMENT-CONSTITUTION.jpg",
-      "ts": 1793418836000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/poland-coup-detat-donald-tusk-37829033"
-          }
-        ]
-      }
-    },
-    {
-      "id": "64d0a7c971e4",
-      "title": "New transit rules and green incentives for Panama Canal",
-      "description": "Panama announced revised scheduling priorities and environmental incentives for vessels transiting the canal, aiming to boost sustainable trade flows.",
-      "lat": 9.08,
-      "lng": -79.68,
-      "severity": 2,
-      "location": "Panama Canal, Panama",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/10/31/nuove-regole-per-i-transiti-e-incentivi-verdi-al-canale-di-panama_cd3a040a-1aec-433d-b956-9245190cd77b.html",
-      "image": null,
-      "ts": 1793418045000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/americalatina/2026/10/31/nuove-regole-per-i-transiti-e-incentivi-verdi-al-canale-di-panama_cd3a040a-1aec-433d-b956-9245190cd77b.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4483c342cc2e",
-      "title": "Pope Leo XIV begins South American tour in Montevideo",
-      "description": "Pope Leo XIV arrived in Montevideo to start a multi‑country visit, meeting President Yamandú Orsi and holding open‑air Masses, signaling diplomatic outreach in the region.",
-      "lat": 34.9,
-      "lng": -56.16,
-      "severity": 1,
-      "location": "Montevideo, Uruguay",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/10/31/from-montevideo-to-lujan-leo-xiv-s-tour-of-uruguay-and-argentina?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111961/100x80/ppaa.jpg",
-      "ts": 1793409240000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/10/31/from-montevideo-to-lujan-leo-xiv-s-tour-of-uruguay-and-argentina?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "985c8e62109c",
-      "title": "US approves sale of 500 Patriot missiles to Ukraine",
-      "description": "The United States authorized the transfer of 500 Patriot air‑defence missiles to Ukraine to bolster its capability against Russian ballistic missiles.",
-      "lat": 52.23,
-      "lng": 21.01,
-      "severity": 4,
-      "location": "Warsaw, Poland",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
-      "image": "https://mf.b37mrtl.ru/files/2026.10/thumbnail/6ad8959f203027566f6ccc9f.jpg",
-      "ts": 1793407243000,
-      "coverage": {
-        "left": 1,
-        "center": 5,
-        "right": 0,
-        "total": 6,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 5,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/ukraine-patriot-missiles-us-lockheed-martin-sale-zelenskyy/"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/321cf4f9-d236-4b50-a52c-c2a21f7c447b?syn-25a6b1a6=1"
-          },
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/newsletters/defense-national-security/6185817-us-approves-ukraine-patriot-missiles/"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-10-30/us-approves-2-1-billion-in-patriot-missiles-for-ukraine"
-          },
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/10/31/world/ukraine-patriot-missile-sale-approve/"
           }
         ]
       }
