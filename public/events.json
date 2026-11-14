@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "updated": "2026-11-14T16:42:40.133196+00:00",
+  "updated": "2026-11-14T21:24:07.427361+00:00",
   "events": [
+    {
+      "id": "f2faab8a0eb8",
+      "title": "Iran says three oil tankers hit mines in the Strait of Hormuz",
+      "description": "Three oil tankers were damaged by mines in the Strait of Hormuz, heightening tensions over Iran's threat to shipping.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 2,
+      "location": "Strait of Hormuz",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-nuclear-material-no-deal/",
+      "image": null,
+      "ts": 1794684158000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/us-iran-war-trump-nuclear-material-no-deal/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8a17173dcdc3",
+      "title": "Poland and Bulgaria halt additional weapons funding for Ukraine",
+      "description": "Both Poland and Bulgaria have refused further financial support for U.S.-supplied weapons to Ukraine, signaling a slowdown in aid.",
+      "lat": 51.55,
+      "lng": 32.42519999999999,
+      "severity": 3,
+      "location": "Kyiv, Ukraine",
+      "source": "RT News",
+      "url": "https://rt-english.com/news/648838-poland-bulgaria-put-brakes-ukraine-weapons-funding/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.11/thumbnail/6af88ed92030272cf729ca24.jpg",
+      "ts": 1794677906000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://rt-english.com/news/648838-poland-bulgaria-put-brakes-ukraine-weapons-funding/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
     {
       "id": "ec2cbd9f2900",
       "title": "Philippines moves to secure emergency access to oil in Indonesia, Thailand",
@@ -155,6 +221,39 @@
       "description": "ASEAN summit in Manila will focus on peaceful conflict resolution, with U.S. President Trump slated to attend the final talks.",
       "lat": 14.6,
       "lng": 122.8852,
+      "severity": 2,
+      "location": "Manila, Philippines",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/southeast-asian-leaders-call-peaceful-resolutions-conflicts-trump-138136538",
+      "image": "https://s.abcnews.com/images/International/wirestory_c6424379b1a551099f40b8f4a0318427_4x3_384.jpg",
+      "ts": 1794652291000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/southeast-asian-leaders-call-peaceful-resolutions-conflicts-trump-138136538"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1c611f12fe22",
+      "title": "ASEAN leaders to convene in Manila for peace‑focused summit",
+      "description": "Southeast Asian leaders will gather in the Philippine capital for the annual ASEAN summit, emphasizing peaceful resolution of regional conflicts.",
+      "lat": 14.6,
+      "lng": 120.98000000000002,
       "severity": 2,
       "location": "Manila, Philippines",
       "source": "ABC News International",
@@ -4286,39 +4385,6 @@
       }
     },
     {
-      "id": "f2faab8a0eb8",
-      "title": "Two tankers catch fire in Strait of Hormuz, IRGC says US drone destroyed",
-      "description": "Iran's Revolutionary Guard reported two oil tankers ablaze while attempting to transit the Strait of Hormuz, claiming a U.S. drone was shot down.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 4,
-      "location": "Strait of Hormuz",
-      "source": "Sputnik International",
-      "url": "https://sputnikglobe.com/20261106/two-tankers-in-strait-of-hormuz-on-fire-us-mq-1-drone-destroyed---irgc-1125026653.html",
-      "image": null,
-      "ts": 1793984400000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Sputnik International",
-            "b": "right",
-            "u": "https://sputnikglobe.com/20261106/two-tankers-in-strait-of-hormuz-on-fire-us-mq-1-drone-destroyed---irgc-1125026653.html"
-          }
-        ]
-      }
-    },
-    {
       "id": "3a8d96b9328b",
       "title": "Houthi attack kills 30 at market in Taiz",
       "description": "Houthi forces bombed a market in Taiz, Yemen, killing at least 30 people and injuring eight.",
@@ -7272,77 +7338,6 @@
             "n": "BBC World",
             "b": "center",
             "u": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "22707d42bb0d",
-      "title": "US Embassy warns of credible 'mass casualty' threat at popular Moscow tourist attraction",
-      "description": "L'Ambasciata USA a Mosca ha avvertito di una minaccia credibile di attacco di massa al complesso museale di Tsaritsyno.",
-      "lat": 55.71,
-      "lng": 37.579999999999984,
-      "severity": 2,
-      "location": "Moscow, Russia",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/us-embassy-warns-credible-mass-casualty-threat-popular-moscow-tourist-attraction",
-      "image": null,
-      "ts": 1793461128000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/us-embassy-warns-credible-mass-casualty-threat-popular-moscow-tourist-attraction"
-          }
-        ]
-      }
-    },
-    {
-      "id": "28928eaf63c2",
-      "title": "U.K. Leader Burnham Hints At Apology For Country's Role In Slave Trade But Rejects Reparations",
-      "description": "Il Primo Ministro britannico ha suggerito un possibile scuse per il ruolo del Regno Unito nella tratta degli schiavi, senza accettare richieste di riparazioni.",
-      "lat": 52.61,
-      "lng": -0.12999999999999545,
-      "severity": 2,
-      "location": "London, United Kingdom",
-      "source": "HuffPost World",
-      "url": "https://www.huffpost.com/entry/britain-slavery-burnham_n_6ae601eae4b0b1f508d4d5b8",
-      "image": null,
-      "ts": 1793460649000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 1,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/britain-slavery-burnham_n_6ae601eae4b0b1f508d4d5b8"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/uk-pm-andy-burnham-open-to-slavery-apology-but-rejects-reparations-12265111#publisher=newsstand"
           }
         ]
       }
