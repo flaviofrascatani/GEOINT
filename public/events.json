@@ -1,7 +1,126 @@
 {
   "schema": 1,
-  "updated": "2026-11-15T01:16:50.505988+00:00",
+  "updated": "2026-11-15T08:24:26.634670+00:00",
   "events": [
+    {
+      "id": "5b41b0a3315b",
+      "title": "Drei Tote bei russischen Angriffen auf ukrainische Städte",
+      "description": "Russian attacks on Ukrainian cities killed at least three people and injured more than 30 in the Zaporizhzhia region.",
+      "lat": 46.8874,
+      "lng": 36.78999999999999,
+      "severity": 3,
+      "location": "Zaporizhzhia, Ukraine",
+      "source": "Die Welt",
+      "url": "https://www.welt.de/politik/ausland/video6af94b794495f9bd85b8062a/ueber-30-verletzte-drei-tote-bei-russischen-angriffen-uaf-ukainische-staedte.html",
+      "image": "https://images.welt.de/6af94b794495f9bd85b8062a/8c4fb33fb2852c0a54af85b9a65ac85b/ci16x9-w1200/2026-11-14t232352z-884360501-rc2xnoa948w5-rtrmadp-3-ukraine-crisis-attack-zaporizhzhia-jpg",
+      "ts": 1794730809000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Die Welt",
+            "b": "lean_right",
+            "u": "https://www.welt.de/politik/ausland/video6af94b794495f9bd85b8062a/ueber-30-verletzte-drei-tote-bei-russischen-angriffen-uaf-ukainische-staedte.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3f54a64ff2a3",
+      "title": "Saudi‑led coalition intercepts missiles towards Riyadh, drones in Eastern Province",
+      "description": "Saudi Arabia's air defenses shot down missiles and drones aimed at Riyadh and the oil‑rich Eastern Province.",
+      "lat": 25.8136,
+      "lng": 46.67529999999999,
+      "severity": 4,
+      "location": "Riyadh, Saudi Arabia",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/saudi-led-coalition-intercepts-missiles-towards-riyadh-drones-in-eastern-province/article71704331.ece",
+      "image": null,
+      "ts": 1794729289000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/saudi-alliance-intercepts-2-houthi-missiles-3-drones-targeting-riyadh-12328633#publisher=newsstand"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/saudi-led-coalition-intercepts-missiles-towards-riyadh-drones-in-eastern-province/article71704331.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e8b15ba39793",
+      "title": "Australia, Philippines Upgrade Defense Ties With Focus on China",
+      "description": "Australia and the Philippines signed a new defense pact, boosting military cooperation amid concerns over China's assertiveness in the Asia‑Pacific.",
+      "lat": 14.6,
+      "lng": 121.0,
+      "severity": 2,
+      "location": "Manila, Philippines",
+      "source": "Bloomberg Politics",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-15/australia-philippines-upgrade-defense-ties-with-focus-on-china",
+      "image": null,
+      "ts": 1794716959000,
+      "coverage": {
+        "left": 0,
+        "center": 4,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 4,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-11-15/australia-philippines-upgrade-defense-ties-with-focus-on-china"
+          },
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/11/15/asia-pacific/australia-philippines-defense-upgrade-china/"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/world/philippines-australia-sign-updated-defence-agreement-6552726"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/se-asia/philippines-australia-sign-defence-pact-with-eye-on-china"
+          }
+        ]
+      }
+    },
     {
       "id": "b82597df7da5",
       "title": "US threatening to starve Iranians – Tehran",
@@ -201,6 +320,39 @@
             "n": "The Hindu International",
             "b": "lean_left",
             "u": "https://www.thehindu.com/news/international/bomb-rips-through-damascus-suburb-several-people-killed/article71703052.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2d47cf86d0b5",
+      "title": "Nyala Commander Dies of Drone Strike Wounds",
+      "description": "The chief of staff of an armed group aligned with Sudan's RSF died from injuries linked to a drone strike on his home in Nyala.",
+      "lat": 12.06,
+      "lng": 24.95,
+      "severity": 3,
+      "location": "Nyala, Sudan",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/nyala-commander-dies-of-drone-strike-wounds/",
+      "image": null,
+      "ts": 1794684285000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/nyala-commander-dies-of-drone-strike-wounds/"
           }
         ]
       }
@@ -1722,44 +1874,6 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/el-salvador-air-assault-destroys-haiti-gang-headquarters-search-missing-troops"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3f54a64ff2a3",
-      "title": "Saudi Arabia intercepts Houthi missiles, drones; group denies targeting Mecca",
-      "description": "Saudi air defences shot down missiles and drones launched by the Iran‑aligned Houthi movement towards Riyadh and Mecca.",
-      "lat": 25.8136,
-      "lng": 46.67529999999999,
-      "severity": 3,
-      "location": "Riyadh, Saudi Arabia",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/11/saudi-arabia-intercepts-houthi-missiles-drones-group-denies-targeting-mecca",
-      "image": null,
-      "ts": 1794433696000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/saudi-arabia-intercepts-houthi-missiles-drones-group-denies-targeting-mecca-12314643#publisher=newsstand"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/11/saudi-arabia-intercepts-houthi-missiles-drones-group-denies-targeting-mecca"
           }
         ]
       }
@@ -7219,105 +7333,6 @@
             "n": "RTE News",
             "b": "center",
             "u": "https://www.rte.ie/news/2026/1101/1597505-middle-east-iran/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "238cccc8d6bd",
-      "title": "Kherson truce lets Ukrainian family ‘close chapter’ on old life",
-      "description": "A truce in Kherson allows a Ukrainian family to begin rebuilding their lives after the city changed hands.",
-      "lat": 47.74,
-      "lng": 34.525199999999984,
-      "severity": 1,
-      "location": "Kherson, Ukraine",
-      "source": "Japan Times",
-      "url": "https://www.japantimes.co.jp/news/2026/11/01/world/kherson-truce-ukrainian-families/",
-      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/01/571717.jpg",
-      "ts": 1793533260000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/11/01/world/kherson-truce-ukrainian-families/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b53694c00d75",
-      "title": "Pro‑EU Polish PM brings ‘Russian bots’ into court showdown",
-      "description": "Polish Prime Minister Donald Tusk accuses political rivals of receiving assistance from Russian bots, leading to a court confrontation.",
-      "lat": 52.23,
-      "lng": 22.9152,
-      "severity": 3,
-      "location": "Warsaw, Poland",
-      "source": "RT News",
-      "url": "https://rt-english.com/news/648202-polish-pm-russian-bots-claim/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.11/thumbnail/6ae70f9285f5403f600f3c8b.jpg",
-      "ts": 1793527812000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://rt-english.com/news/648202-polish-pm-russian-bots-claim/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c3e5fafa5119",
-      "title": "North Korea tests cluster bomb warheads in latest ‘major’ weapons test",
-      "description": "La Corea del Nord ha effettuato un test di testate a grappolo, dimostrando capacità di distruzione su ampia area.",
-      "lat": 40.13,
-      "lng": 127.65519999999998,
-      "severity": 4,
-      "location": "Pyongyang, Corea del Nord",
-      "source": "Japan Times",
-      "url": "https://www.japantimes.co.jp/news/2026/11/01/asia-pacific/north-korea-cluster-bomb-warhead/",
-      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/01/571673.JPG",
-      "ts": 1793506320000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Japan Times",
-            "b": "center",
-            "u": "https://www.japantimes.co.jp/news/2026/11/01/asia-pacific/north-korea-cluster-bomb-warhead/"
           }
         ]
       }
