@@ -1,36 +1,206 @@
 {
   "schema": 1,
-  "updated": "2026-11-14T21:24:07.427361+00:00",
+  "updated": "2026-11-15T01:16:50.505988+00:00",
   "events": [
     {
-      "id": "f2faab8a0eb8",
-      "title": "Iran says three oil tankers hit mines in the Strait of Hormuz",
-      "description": "Three oil tankers were damaged by mines in the Strait of Hormuz, heightening tensions over Iran's threat to shipping.",
-      "lat": 26.57,
-      "lng": 56.25,
+      "id": "b82597df7da5",
+      "title": "US threatening to starve Iranians – Tehran",
+      "description": "Iran accuses the United States of using sanctions and a naval blockade to deprive its population of essential supplies.",
+      "lat": 35.68,
+      "lng": 53.2852,
       "severity": 2,
-      "location": "Strait of Hormuz",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-nuclear-material-no-deal/",
-      "image": null,
-      "ts": 1794684158000,
+      "location": "Tehran, Iran",
+      "source": "RT News",
+      "url": "https://rt-english.com/news/648848-us-threatening-to-starve-iranians/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.11/thumbnail/6af8ffb385f5401f51422bea.jpg",
+      "ts": 1794705124000,
       "coverage": {
-        "left": 1,
+        "left": 0,
         "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://rt-english.com/news/648848-us-threatening-to-starve-iranians/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "942a12633110",
+      "title": "North Korea’s official delegation arrives in Moscow",
+      "description": "A senior North Korean delegation is received in Moscow, indicating a possible diplomatic outreach between the two countries.",
+      "lat": 55.75,
+      "lng": 37.620000000000005,
+      "severity": 1,
+      "location": "Moscow, Russia",
+      "source": "TASS",
+      "url": "https://tass.com/world/2218241",
+      "image": null,
+      "ts": 1794704779000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2218241"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2dfcec05b223",
+      "title": "Carney says he's 'making progress' with Trump on possible US-Canada trade deal",
+      "description": "Canadian Prime Minister Mark Carney reports that negotiations for a new US‑Canada trade agreement are advancing amid ongoing tariff disputes.",
+      "lat": 40.0,
+      "lng": -77.04,
+      "severity": 1,
+      "location": "Washington, D.C., United States",
+      "source": "The Hill",
+      "url": "https://thehill.com/policy/international/6221010-carney-trump-canada-us-trade-progress/",
+      "image": "https://th-i.thgim.com/public/incoming/6mqvdq/article71654267.ece/alternates/LANDSCAPE_1200/Canada_US_Trade_26938.jpg",
+      "ts": 1794702406000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
         "right": 0,
         "total": 1,
         "buckets": {
           "left": 0,
-          "lean_left": 1,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hill",
+            "b": "center",
+            "u": "https://thehill.com/policy/international/6221010-carney-trump-canada-us-trade-progress/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "24f94a94f373",
+      "title": "Global powers converge on Manila as ASEAN summit kicks off",
+      "description": "Southeast Asian heads of state and global leaders gather in Manila for the ASEAN summit to discuss trade, security and energy issues.",
+      "lat": 14.6,
+      "lng": 120.98000000000002,
+      "severity": 2,
+      "location": "Manila, Philippines",
+      "source": "Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/11/15/asia-pacific/politics/asean-manila-summit/",
+      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/15/574032.jpg",
+      "ts": 1794700500000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/11/15/asia-pacific/politics/asean-manila-summit/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "f2faab8a0eb8",
+      "title": "Iran's navy says three tankers on fire after hitting mines in Hormuz",
+      "description": "Three oil tankers caught fire after striking naval mines in the Strait of Hormuz, escalating tensions in the strategic waterway.",
+      "lat": 26.57,
+      "lng": 56.25,
+      "severity": 3,
+      "location": "Strait of Hormuz",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/11/irans-navy-says-three-tankers-fire-after-hitting-mines-hormuz",
+      "image": null,
+      "ts": 1794699989000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/11/irans-navy-says-three-tankers-fire-after-hitting-mines-hormuz"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3c1fb50a4782",
+      "title": "Bomb rips through Damascus suburb; killing 2, including child",
+      "description": "An explosion in the southern Damascus suburb of Jaramana kills two people, including a child, heightening security concerns in Syria.",
+      "lat": 34.65,
+      "lng": 36.30000000000001,
+      "severity": 3,
+      "location": "Jaramana, Syria",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/bomb-rips-through-damascus-suburb-several-people-killed/article71703052.ece",
+      "image": "https://th-i.thgim.com/public/incoming/wyk4yc/article71703053.ece/alternates/LANDSCAPE_1200/Syria_Explosion_54_88.jpg",
+      "ts": 1794698019000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
           "center": 0,
           "lean_right": 0,
           "right": 0
         },
         "sources": [
           {
-            "n": "CBS News World",
+            "n": "ABC News International",
             "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/us-iran-war-trump-nuclear-material-no-deal/"
+            "u": "https://abcnews.com/International/wireStory/bomb-rips-damascus-suburb-killing-2-including-child-138145860"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/bomb-rips-through-damascus-suburb-several-people-killed/article71703052.ece"
           }
         ]
       }
@@ -175,10 +345,10 @@
     {
       "id": "bbf4f575be86",
       "title": "US proposed Donbas swap for NATO membership - Zelensky",
-      "description": "Ukrainian President Zelensky said the United States suggested Ukraine cede part of Donbas to Russia in exchange for NATO membership, sparking diplomatic debate.",
+      "description": "Ukrainian President Zelensky says the United States suggested ceding Donbas territory to Russia in exchange for Ukraine’s NATO membership.",
       "lat": 51.55,
       "lng": 30.52000000000001,
-      "severity": 3,
+      "severity": 2,
       "location": "Kyiv, Ukraine",
       "source": "RTE News",
       "url": "https://www.rte.ie/news/europe/2026/1114/1599202-us-ukraine-russia/",
@@ -186,22 +356,17 @@
       "ts": 1794653495000,
       "coverage": {
         "left": 0,
-        "center": 3,
+        "center": 2,
         "right": 0,
-        "total": 3,
+        "total": 2,
         "buckets": {
           "left": 0,
           "lean_left": 0,
-          "center": 3,
+          "center": 2,
           "lean_right": 0,
           "right": 0
         },
         "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss"
-          },
           {
             "n": "RTE News",
             "b": "center",
@@ -6770,49 +6935,6 @@
       }
     },
     {
-      "id": "2dfcec05b223",
-      "title": "Canada PM Carney says he had good conversation with Trump on trade",
-      "description": "Canadian Prime Minister Justin Carney reported a constructive trade discussion with U.S. President Donald Trump.",
-      "lat": 40.0,
-      "lng": -77.04,
-      "severity": 2,
-      "location": "Washington, D.C., United States",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/canada-pm-carney-says-he-had-good-conversation-with-trump-on-trade/article71654266.ece",
-      "image": "https://th-i.thgim.com/public/incoming/6mqvdq/article71654267.ece/alternates/LANDSCAPE_1200/Canada_US_Trade_26938.jpg",
-      "ts": 1793566974000,
-      "coverage": {
-        "left": 3,
-        "center": 0,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/canadian-prime-minister-carney-reports-progress-trade-talks-137750777"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/11/1/carney-signals-progress-on-canada-us-trade-deal-talks-as-midterms-loom?traffic_source=rss"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/canada-pm-carney-says-he-had-good-conversation-with-trump-on-trade/article71654266.ece"
-          }
-        ]
-      }
-    },
-    {
       "id": "1b19a6cfbf41",
       "title": "Queen Camilla joins King Charles for the first time in Antigua ahead of major Commonwealth meeting",
       "description": "Charles and Camilla attended a service in Antigua marking the start of a high‑level Commonwealth gathering.",
@@ -7196,148 +7318,6 @@
             "n": "Japan Times",
             "b": "center",
             "u": "https://www.japantimes.co.jp/news/2026/11/01/asia-pacific/north-korea-cluster-bomb-warhead/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e0bdb5b68013",
-      "title": "Repubblica Centrafricana, esercito sventa tentativo di presa del potere dei miliziani",
-      "description": "L'esercito della Repubblica Centrafricana ha fermato un tentativo di colpo di stato da parte di miliziani, garantendo la prosecuzione delle elezioni.",
-      "lat": 4.36,
-      "lng": 18.56,
-      "severity": 3,
-      "location": "Bangui, Repubblica Centrafricana",
-      "source": "ANSA Mondo",
-      "url": "https://www.ansa.it/sito/notizie/mondo/africa/2026/11/01/repubblica-centrafricana-esercito-sventa-tentativo-di-presa-del-potere-dei-miliziani_7fa3dcd8-47bc-42b0-ba2e-cd891cc69c0a.html",
-      "image": null,
-      "ts": 1793505980000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ANSA Mondo",
-            "b": "center",
-            "u": "https://www.ansa.it/sito/notizie/mondo/africa/2026/11/01/repubblica-centrafricana-esercito-sventa-tentativo-di-presa-del-potere-dei-miliziani_7fa3dcd8-47bc-42b0-ba2e-cd891cc69c0a.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "83c1b630ad2c",
-      "title": "North Korea says defence research institutes tested major weapon system",
-      "description": "Pyongyang announced that its defence research institutes have conducted a test of a new major weapon system, indicating an escalation in its military capabilities.",
-      "lat": 39.03,
-      "lng": 125.73,
-      "severity": 4,
-      "location": "Pyongyang, North Korea",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/east-asia/north-korea-says-defence-research-institutes-tested-major-weapon-system",
-      "image": null,
-      "ts": 1793483498000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/east-asia/north-korea-says-defence-research-institutes-tested-major-weapon-system"
-          }
-        ]
-      }
-    },
-    {
-      "id": "9ad9d8d399c0",
-      "title": "Dozens arrested outside US Embassy in London for supporting proscribed pro‑Palestinian group",
-      "description": "London police detained dozens of demonstrators outside the U.S. Embassy who were protesting in support of the banned group Palestine Action.",
-      "lat": 51.5,
-      "lng": -0.13,
-      "severity": 2,
-      "location": "London, United Kingdom",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/dozens-arrested-us-embassy-london-supporting-proscribed-pro-137736783",
-      "image": "https://s.abcnews.com/images/International/wirestory_181ab108a671bcabf5433863608949bc_4x3_384.jpg",
-      "ts": 1793473565000,
-      "coverage": {
-        "left": 3,
-        "center": 0,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/dozens-arrested-us-embassy-london-supporting-proscribed-pro-137736783"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/dozens-arrested-us-embassy-london-pro-palestinian-group/"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/london-police-arrest-many-outside-us-embassy-for-supporting-banned-pro-palestinian-group/article71650821.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "df9a6cee9522",
-      "title": "Ukrainian evacuees reunite with family after years trapped in Russia‑occupied city",
-      "description": "Families from Oleshky were reunited after a US‑brokered ceasefire enabled their safe return to Ukraine.",
-      "lat": 46.5,
-      "lng": 33.9,
-      "severity": 1,
-      "location": "Oleshky, Ukraine",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41b8/live/9f93a310-d532-11f1-b441-2b33b063138f.jpg",
-      "ts": 1793461841000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss"
           }
         ]
       }
