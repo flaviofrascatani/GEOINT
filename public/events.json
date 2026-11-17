@@ -1,7 +1,144 @@
 {
   "schema": 1,
-  "updated": "2026-11-16T18:23:14.166759+00:00",
+  "updated": "2026-11-17T02:03:10.477887+00:00",
   "events": [
+    {
+      "id": "62b89730a6c8",
+      "title": "Yemeni army reports 661 attacks on Houthis as group advances towards Aden",
+      "description": "Yemen’s government forces say they have repelled 661 Houthi attacks, reporting 173 Houthi fighters killed or wounded while defending Aden.",
+      "lat": 13.885,
+      "lng": 45.018,
+      "severity": 4,
+      "location": "Aden, Yemen",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/17/yemen-army-reports-661-attacks-on-houthis-amid-houthi-push-towards-aden?traffic_source=rss",
+      "image": null,
+      "ts": 1794879493000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/11/17/yemen-army-reports-661-attacks-on-houthis-amid-houthi-push-towards-aden?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e5560b172f1f",
+      "title": "French troops secretly operate in Ukraine – media",
+      "description": "Investigative report reveals French special forces are covertly supporting Ukrainian units on the front lines.",
+      "lat": 50.4501,
+      "lng": 30.52340000000001,
+      "severity": 4,
+      "location": "Kyiv, Ukraine",
+      "source": "RT News",
+      "url": "https://rt-english.com/news/648926-french-troops-operate-ukraine/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.11/thumbnail/6afbabd5203027391d4e4bc4.jpg",
+      "ts": 1794879043000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://rt-english.com/news/648926-french-troops-operate-ukraine/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "26f97ccf692e",
+      "title": "Orsi praises “excellent” ties with Milei and Lula’s re‑election ahead of the Mercosur summit",
+      "description": "Uruguayan President Yamandú Orsi lauds the relationship with Argentina’s Milei government and Brazil’s Lula administration as “excellent” before the regional summit.",
+      "lat": -34.9033,
+      "lng": -56.1882,
+      "severity": 2,
+      "location": "Montevideo, Uruguay",
+      "source": "MercoPress",
+      "url": "https://en.mercopress.com/2026/11/16/orsi-praises-excellent-ties-with-milei-and-lula-s-re-election-ahead-of-the-mercosur-summit?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "image": "https://en.mercopress.com/data/cache/noticias/112126/100x80/orlula.jpg",
+      "ts": 1794862020000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/11/16/orsi-praises-excellent-ties-with-milei-and-lula-s-re-election-ahead-of-the-mercosur-summit?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+          },
+          {
+            "n": "Buenos Aires Times",
+            "b": "center",
+            "u": "https://www.batimes.com.ar/news/world/first-milei-now-lula-enters-the-fray-to-shape-spains-election.phtml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "11110bc6e981",
+      "title": "EU to revive long‑stalled association agreement with Syria",
+      "description": "The European Union plans to sign a modernised association pact with Damascus, aiming to deepen political and economic ties.",
+      "lat": 34.6138,
+      "lng": 38.181700000000006,
+      "severity": 2,
+      "location": "Damascus, Syria",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/11/eu-revive-long-stalled-association-agreement-syria-what-know",
+      "image": null,
+      "ts": 1794861494000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/11/eu-revive-long-stalled-association-agreement-syria-what-know"
+          }
+        ]
+      }
+    },
     {
       "id": "67bd3cd50dca",
       "title": "Ukraine hits Putin's prized bridge in record drone blitz as Kremlin tells lawmakers to prepare for 'victory'",
@@ -168,6 +305,39 @@
             "n": "The Hindu International",
             "b": "lean_left",
             "u": "https://www.thehindu.com/news/national/piyush-goyal-in-egypt-for-india-egypt-joint-trade-committee-jtc-meet/article71706845.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0ab7983dbee3",
+      "title": "Inside France's denunciation of Iran over supermarket freezer hacks",
+      "description": "Paris publicly blames Iran for a cyber‑attack that disabled refrigeration systems in 700 French supermarkets.",
+      "lat": 48.86,
+      "lng": 2.3499999999999943,
+      "severity": 3,
+      "location": "Paris, France",
+      "source": "Le Monde English",
+      "url": "https://www.lemonde.fr/en/international/article/2026/11/16/inside-france-s-denunciation-of-iran-over-supermarket-freezer-hacks_6782272_4.html",
+      "image": "https://e3.365dm.com/26/11/1920x1080/skynews-cyber-attack-freezer_7394827.jpg?20261109172457",
+      "ts": 1794849017000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/11/16/inside-france-s-denunciation-of-iran-over-supermarket-freezer-hacks_6782272_4.html"
           }
         ]
       }
@@ -3266,79 +3436,6 @@
             "n": "France 24",
             "b": "center",
             "u": "https://www.france24.com/en/video/20261110-new-israel-parliament-to-be-sworn-in-as-eisenkot-works-to-form-new-govt"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0ab7983dbee3",
-      "title": "France warns Iran of tough measures over freezer cyberattacks",
-      "description": "Le ministre français des Affaires étrangères a déclaré que la France n'exclut aucune mesure en réponse à une cyberattaque iranienne contre des réfrigérateurs de supermarchés.",
-      "lat": 48.86,
-      "lng": 2.3499999999999943,
-      "severity": 2,
-      "location": "Paris, France",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/world/europe/france-warns-iran-of-tough-measures-over-freezer-cyberattacks",
-      "image": "https://e3.365dm.com/26/11/1920x1080/skynews-cyber-attack-freezer_7394827.jpg?20261109172457",
-      "ts": 1794306960000,
-      "coverage": {
-        "left": 5,
-        "center": 3,
-        "right": 1,
-        "total": 9,
-        "buckets": {
-          "left": 0,
-          "lean_left": 5,
-          "center": 3,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/11/09/world/europe/france-iran-refrigerators-cyberattack.html"
-          },
-          {
-            "n": "Washington Post World",
-            "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/11/09/iran-hacked-hundreds-french-supermarket-refrigerators-france-says/"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/france-blames-iran-months-cyberattack-supermarket-fridges-137980107"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/france-iran-behind-refrigerator-freezer-hack-cyberattack/"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/news/2026/11/10/france-summons-irans-ambassador-over-supermarket-fridge-sabotage?traffic_source=rss"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/11/10/iran-fridge-cyberattacks-france.html"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/france-accuses-iran-of-being-behind-massive-cyber-attack-on-supermarket-fridges-13610319"
-          },
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9jWHRvNTRYTnpDandQOUdCbC1EOHVmOUVER1JJWnNhRGFld2FlUkxXd2lRMklQb3ZWeTY0V2UxVUVCRWlFZC1XNHpVWm03TU5keXRndGl2aXV2VkRyWF9IYUxWVFFuSUFrZEpPRmJLbEVaMmlXNzln?oc=5"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/europe/france-warns-iran-of-tough-measures-over-freezer-cyberattacks"
           }
         ]
       }
@@ -7141,143 +7238,6 @@
             "n": "DW News",
             "b": "center",
             "u": "https://www.dw.com/en/ukrainian-president-zelenskyy-to-make-surprise-berlin-visit-this-tuesday-merz-says/a-79836026?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0dfe292b931b",
-      "title": "Iran's Foreign Minister says talks with Saudi Arabia are ongoing; Yemen fighting intensifies",
-      "description": "Iran and Saudi Arabia continue diplomatic talks while hostilities between Saudi forces and Yemen’s Houthi rebels increase.",
-      "lat": 24.71,
-      "lng": 46.68,
-      "severity": 3,
-      "location": "Riyadh, Saudi Arabia",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/irans-foreign-minister-says-talks-with-saudi-arabia-are-ongoing-yemen-fighting-intensifies/article71659845.ece",
-      "image": "https://th-i.thgim.com/public/incoming/rnm7b4/article71659897.ece/alternates/LANDSCAPE_1200/2026-10-27T173026Z_635877314_RC2TBOA9T55I_RTRMADP_3_RUSSIA-ENERGY-SUMMIT-BILATS-IRAN.JPG",
-      "ts": 1793699554000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/irans-foreign-minister-says-talks-with-saudi-arabia-are-ongoing-yemen-fighting-intensifies/article71659845.ece"
-          }
-        ]
-      }
-    },
-    {
-      "id": "507d2c0e0836",
-      "title": "Egypt-Sudan sign agreement to defend water security",
-      "description": "Egypt and Sudan agree to cooperate on protecting water resources in the Eastern Nile Basin and reject unilateral actions on the GERD.",
-      "lat": 31.14,
-      "lng": 33.14519999999999,
-      "severity": 1,
-      "location": "Cairo, Egypt",
-      "source": "Egypt Independent",
-      "url": "https://www.egyptindependent.com/egypt-sudan-sign-agreement-to-defend-water-security/",
-      "image": null,
-      "ts": 1793699314000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/egypt-sudan-sign-agreement-to-defend-water-security/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "81d5883b3b9c",
-      "title": "The Pope arrives in an Argentina where bishops are among Milei’s firmest critics",
-      "description": "Pope Leo XIV lands in Buenos Aires, marking a high‑profile pastoral visit amid tensions with the Argentine government.",
-      "lat": -34.61,
-      "lng": -58.38,
-      "severity": 1,
-      "location": "Buenos Aires, Argentina",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/11/03/the-pope-arrives-in-an-argentina-where-bishops-are-among-milei-s-firmest-critics?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/111977/100x80/papa.jpeg",
-      "ts": 1793698140000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/11/03/the-pope-arrives-in-an-argentina-where-bishops-are-among-milei-s-firmest-critics?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          },
-          {
-            "n": "Buenos Aires Times",
-            "b": "center",
-            "u": "https://www.batimes.com.ar/news/argentina/made-with-munitions-from-malvinas-war-a-chalice-of-peace-in-argentina-for-pope-leo.phtml"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2c57b78535c2",
-      "title": "Shell to sell Australian gas stake to Abu Dhabi’s XRG for $1.45bn",
-      "description": "Shell agrees to divest its Australian gas assets to Abu Dhabi‑based XRG as part of its strategy to shed mature holdings.",
-      "lat": 24.47,
-      "lng": 54.37,
-      "severity": 2,
-      "location": "Abu Dhabi, United Arab Emirates",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/28649f64-1c4e-4163-ba2b-8d28c6e37616?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1793694126000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/28649f64-1c4e-4163-ba2b-8d28c6e37616?syn-25a6b1a6=1"
           }
         ]
       }
