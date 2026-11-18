@@ -1,7 +1,419 @@
 {
   "schema": 1,
-  "updated": "2026-11-18T10:02:07.828512+00:00",
+  "updated": "2026-11-18T18:48:48.933559+00:00",
   "events": [
+    {
+      "id": "b59e4cf0e3aa",
+      "title": "Ukraine strikes 'one of the largest oil refineries' in southern Russia ahead of Putin-Trump meeting in China",
+      "description": "Ukrainian forces hit a key oil refinery in Russia's Krasnodar Krai region, targeting the facility in Novorossiysk.",
+      "lat": 23.65,
+      "lng": 115.96519999999998,
+      "severity": 3,
+      "location": "Shenzhen, China",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/ukraine-strikes-one-largest-oil-refineries-southern-russia-ahead-putin-trump-meeting-china",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261106-Xi-Trump-Putin-vsb-1846-405edd.jpg",
+      "ts": 1795026756000,
+      "coverage": {
+        "left": 6,
+        "center": 14,
+        "right": 10,
+        "total": 30,
+        "buckets": {
+          "left": 1,
+          "lean_left": 5,
+          "center": 14,
+          "lean_right": 3,
+          "right": 7
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/ukraine-crimea-bridge-destroyed-putin-kerch_n_6afc9f05e4b02da00c022679"
+          },
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/live/2026/nov/18/apec-summit-live-updates-xi-putin-trump-world-leaders-gather-in-china"
+          },
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/asia/xi-jinping-greets-trump-arrives-china-tarmac-putin-talks-shenzhen-apec-rcna609962"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/video/trump-lands-in-china-ahead-of-historic-meeting-with-xi-and-putin/"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/11/18/crowds-gather-as-trump-arrives-in-china-ahead-of-talks-with-xi-and-putin?traffic_source=rss"
+          },
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/11/18/trump-putin-and-xi-meet-for-first-time-as-russia-claims-europe-in-humiliating-decline-at-china-summit/"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/11/18/trump-putin-china-meeting-ukraine"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/world/2026/1118/1599626-asia-trilateral-summit/"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/65c5684a-f532-4601-9878-8fa2efe8d8f8?syn-25a6b1a6=1"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb21UOHp4X2E2V05LRUhhUjhnSzI5b1NmNDRVQWhCb2RTV3gwQng0N3lKQ2lnV3JrbjB2cTBpSkNObTdwbXowR2d0UEt5NFp5blJtallNRjdFSjNoVDdxNkNXWFI4bmpETEV5TUs2OE16WW1lLTR0NkZCbEdXZF9OVDVycUFYV2p2aklNS3dR?oc=5"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FNVg3ME1zb05FTlVhMmw5SXQ4eGlxRF9hYUo3bGhVNlMyTjEyeFBMT29tMDM1WjY4QUxONVVjSkp4VFVlZFZrNkNxU0ZDR0c1LWU3cmE1c0lDeTQ?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/videos/2026-11-18/xi-welcomes-trump-putin-apec-leaders-to-china-summit-video"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/11/18/trump-putin-and-xi-meet-ahead-of-historic-three-way-talks-in-china/"
+          },
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/will-putin-and-trump-hold-separate-talks-in-china/"
+          },
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/11/18/asia-pacific/politics/putin-xi-china-russia-meeting-apec/"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/china/diplomacy/article/3374951/tarmac-hug-xi-and-handshake-putin-how-trump-began-his-china-visit"
+          },
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20261118010300315"
+          },
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/11/18/xi-and-putin-reaffirm-their-alliance-on-the-eve-of-the-first-three-way-summit-with-trump?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2220773"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://rt-english.com/news/648991-absolutely-unprecedented-event-russian-experts/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/asia-pacific/putin-trump-shake-hands-ahead-of-trilateral-china-summit"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/ukraine-strikes-one-largest-oil-refineries-southern-russia-ahead-putin-trump-meeting-china"
+          },
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2267269/trump-meets-putin-xi-china"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/president-xi-personally-greets-trump-in-china-ahead-of-talks-with-putin/"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/europe/2026/11/18/chinas-xi-greets-trump-with-a-hug-ahead-of-trilateral-talks-with-putin/"
+          },
+          {
+            "n": "Daily Star World",
+            "b": "right",
+            "u": "https://www.dailystar.co.uk/news/world-news/kim-jong-un-missing-again-37889172"
+          },
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/news/article-16302135/Putins-sister-law-names-newborn-Melania-claimed-ahead-Trump-summit-China.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+          },
+          {
+            "n": "Sputnik International",
+            "b": "right",
+            "u": "https://sputnikglobe.com/20261118/putin-trump-meet-for-8th-time-in-9-years-1125097024.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6680eec0f3f0",
+      "title": "Israeli forces launch new military operation in central Gaza",
+      "description": "Israeli troops advanced west of the Yellow Line, initiating a new offensive in central Gaza.",
+      "lat": 30.4174,
+      "lng": 34.879999999999995,
+      "severity": 3,
+      "location": "Deir al‑Balah, Gaza Strip",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israeli-forces-launch-new-military-operation-in-central-gaza?traffic_source=rss",
+      "image": null,
+      "ts": 1795025562000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israeli-forces-launch-new-military-operation-in-central-gaza?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d7d53ec10038",
+      "title": "Iran Fires Missiles and Drones at Gulf Arab States as Peace Talks Falter",
+      "description": "Kuwait and Bahrain reported missile and drone attacks, marking an escalation amid stalled peace negotiations.",
+      "lat": 26.38,
+      "lng": 51.53,
+      "severity": 3,
+      "location": "Doha, Qatar",
+      "source": "New York Times World",
+      "url": "https://www.nytimes.com/2026/11/18/world/middleeast/iran-attacks-bahrain-kuwait-ships-hormuz.html",
+      "image": "https://c.ndtvimg.com/2025-10/on1r4jvk_trump-qatar-emir_625x300_26_October_25.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1795016231000,
+      "coverage": {
+        "left": 3,
+        "center": 0,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 1,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/iran-widens-gulf-attacks_n_6afd76a5e4b0e902c23c65f6"
+          },
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/11/18/world/middleeast/iran-attacks-bahrain-kuwait-ships-hormuz.html"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/iran-army-says-it-targeted-us-military-base-in-kuwait/article71715048.ece"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/iran-targets-us-air-base-kuwait-us-defensive-strikes-criticism-gulf-states"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eec1b476b590",
+      "title": "Trump, Xi, Putin exchange greetings ahead of trilateral summit in China",
+      "description": "Leaders of the United States, China and Russia met in Shenzhen, exchanging greetings before the summit.",
+      "lat": 22.64,
+      "lng": 113.81,
+      "severity": 2,
+      "location": "Shenzhen, China",
+      "source": "Yonhap News",
+      "url": "https://en.yna.co.kr/view/AEN20261118010300315",
+      "image": "https://img.yna.co.kr/photo/etc/epa/2026/11/18/PEP20261118228901009_P2.jpg",
+      "ts": 1795013344000,
+      "coverage": {
+        "left": 5,
+        "center": 13,
+        "right": 7,
+        "total": 25,
+        "buckets": {
+          "left": 0,
+          "lean_left": 5,
+          "center": 13,
+          "lean_right": 1,
+          "right": 6
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/live/2026/nov/18/apec-summit-live-updates-xi-putin-trump-world-leaders-gather-in-china"
+          },
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/asia/xi-jinping-greets-trump-arrives-china-tarmac-putin-talks-shenzhen-apec-rcna609962"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/video/trump-lands-in-china-ahead-of-historic-meeting-with-xi-and-putin/"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/11/18/crowds-gather-as-trump-arrives-in-china-ahead-of-talks-with-xi-and-putin?traffic_source=rss"
+          },
+          {
+            "n": "Time",
+            "b": "lean_left",
+            "u": "https://time.com/article/2026/11/18/trump-putin-and-xi-meet-for-first-time-as-russia-claims-europe-in-humiliating-decline-at-china-summit/"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+          },
+          {
+            "n": "Axios",
+            "b": "center",
+            "u": "https://www.axios.com/2026/11/18/trump-putin-china-meeting-ukraine"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/russian-tu-95-bombers-land-vietnam-3809917"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/world/2026/1118/1599626-asia-trilateral-summit/"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb21UOHp4X2E2V05LRUhhUjhnSzI5b1NmNDRVQWhCb2RTV3gwQng0N3lKQ2lnV3JrbjB2cTBpSkNObTdwbXowR2d0UEt5NFp5blJtallNRjdFSjNoVDdxNkNXWFI4bmpETEV5TUs2OE16WW1lLTR0NkZCbEdXZF9OVDVycUFYV2p2aklNS3dR?oc=5"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FNVg3ME1zb05FTlVhMmw5SXQ4eGlxRF9hYUo3bGhVNlMyTjEyeFBMT29tMDM1WjY4QUxONVVjSkp4VFVlZFZrNkNxU0ZDR0c1LWU3cmE1c0lDeTQ?oc=5"
+          },
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/videos/2026-11-18/xi-welcomes-trump-putin-apec-leaders-to-china-summit-video"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/11/18/trump-putin-and-xi-meet-ahead-of-historic-three-way-talks-in-china/"
+          },
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/will-putin-and-trump-hold-separate-talks-in-china/"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/china/diplomacy/article/3374951/tarmac-hug-xi-and-handshake-putin-how-trump-began-his-china-visit"
+          },
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20261118010300315"
+          },
+          {
+            "n": "MercoPress",
+            "b": "center",
+            "u": "https://en.mercopress.com/2026/11/18/xi-and-putin-reaffirm-their-alliance-on-the-eve-of-the-first-three-way-summit-with-trump?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/asia-pacific/putin-trump-shake-hands-ahead-of-trilateral-china-summit"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/ukraine-strikes-one-largest-oil-refineries-southern-russia-ahead-putin-trump-meeting-china"
+          },
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2267385/trump-putin-major-first-xi-jinping-historic-talks"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/trump-xi-and-putin-greet-each-other-at-apec-welcome-banquet/"
+          },
+          {
+            "n": "Breitbart",
+            "b": "right",
+            "u": "https://www.breitbart.com/europe/2026/11/18/chinas-xi-greets-trump-with-a-hug-ahead-of-trilateral-talks-with-putin/"
+          },
+          {
+            "n": "Daily Star World",
+            "b": "right",
+            "u": "https://www.dailystar.co.uk/news/us-news/breaking-trump-welcomed-cheerleaders-waving-37888842"
+          },
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/news/article-16302135/Putins-sister-law-names-newborn-Melania-claimed-ahead-Trump-summit-China.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+          }
+        ]
+      }
+    },
     {
       "id": "88e4cb575d65",
       "title": "Russian army continues advancing on front lines in Ukraine",
@@ -2498,74 +2910,6 @@
             "n": "ANSA Mondo",
             "b": "center",
             "u": "https://www.ansa.it/sito/notizie/mondo/asia/2026/11/14/casa-bianca-trump-xi-e-putin-terranno-colloqui-trilaterali-a-shenzhen_1d0acae1-cdbb-4e03-8ffb-d184908de2c6.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b59e4cf0e3aa",
-      "title": "Trump, Xi and Putin plan an unprecedented meeting on the sidelines of APEC, officials say",
-      "description": "President Donald Trump will meet Chinese President Xi Jinping and Russian President Vladimir Putin during the APEC summit in Shenzhen, marking a rare high‑level gathering of the three leaders.",
-      "lat": 23.65,
-      "lng": 115.96519999999998,
-      "severity": 2,
-      "location": "Shenzhen, China",
-      "source": "NBC News World",
-      "url": "https://www.nbcnews.com/world/china/trump-xi-putin-plan-unprecedented-joint-meeting-sidelines-apec-officia-rcna609275",
-      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-11/261106-Xi-Trump-Putin-vsb-1846-405edd.jpg",
-      "ts": 1794614938000,
-      "coverage": {
-        "left": 1,
-        "center": 5,
-        "right": 2,
-        "total": 8,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 5,
-          "lean_right": 1,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/china/trump-xi-putin-plan-unprecedented-joint-meeting-sidelines-apec-officia-rcna609275"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/trump-xi-and-putin-to-hold-unprecedented-meeting-white-house-says-13612124"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQkl0WHV4OWtNN0k0SFVuR2E0VXhrOUpYMXZiOUxFYUVYZlBpa00zTTRXaTVmYWtwcGktWjAzUnMxckxsS0l1S2VqekRxbS15ajUwT1p6RkhjU1NtM3JwMU5uUGlqT295Y19OOXJfUXRHWFNLcGw0VFlTMXV1eFNZUXpobDNHcHVtVUxVVVZqMnA5a09LT2I4d05rWmVyUFHSAaQBQVVfeXFMT3ZsNjJfWW9FQ2VPLWROVXp2UHZsS0gwRjBUdkVZMi1tbnhFQXQ1RlBrazNCYTJUcWc2NWU2WGtETnB0MTNNQkJES1l0M011ZWJybldxTFBaZGJIQ1RIaVhXSkVvWVVZRFlSM1h3V1dnbHJiVmkxWnp6Y0wzOXJvaUdmbzk1Y0lyR2RrNTl3YkFzdVdfd21mYk5mQkRKN01TYlQ3ODA?oc=5"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-11-13/trump-to-meet-with-xi-putin-nov-19-in-china-white-house-says"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/11/trump-raise-nuclear-arms-cuts-putin-xi-thursday-white-house-says"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://rt-english.com/news/648828-trump-putin-xi-meeting-/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          },
-          {
-            "n": "Sputnik International",
-            "b": "right",
-            "u": "https://sputnikglobe.com/20261114/putin-xi-trump-to-hold-trilateral-meeting-in-chinas-shenzhen-on-november-19---peskov-1125073196.html"
           }
         ]
       }
@@ -6447,44 +6791,6 @@
       }
     },
     {
-      "id": "d7d53ec10038",
-      "title": "Trump Talks To Iran War Mediator Qatar's Emir On Call, Discusses Conflict",
-      "description": "The Emir emphasized the importance of continuing dialogue and relying on diplomatic means to settle disputes in the Iran‑Russia‑U.S. context.",
-      "lat": 26.38,
-      "lng": 51.53,
-      "severity": 2,
-      "location": "Doha, Qatar",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/trump-talks-to-iran-war-mediator-qatars-emir-on-call-discusses-conflict-12292253#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2025-10/on1r4jvk_trump-qatar-emir_625x300_26_October_25.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1793957397000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/trump-talks-to-iran-war-mediator-qatars-emir-on-call-discusses-conflict-12292253#publisher=newsstand"
-          },
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/us-iran-coordinated-deportations-during-war-3809469"
-          }
-        ]
-      }
-    },
-    {
       "id": "18d82e3afa8a",
       "title": "UAE unveils massive AI partnership with ADNOC and G42 at ADIPEC 2026",
       "description": "Abu Dhabi announced a multi‑billion‑dollar AI collaboration aimed at transforming the energy sector.",
@@ -7217,72 +7523,6 @@
             "n": "Sputnik International",
             "b": "right",
             "u": "https://sputnikglobe.com/20261105/irans-irgc-reports-two-oil-tankers-ablaze-in-strait-of-hormuz-1125015578.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e0f8ca8f5979",
-      "title": "France urges EU to adopt higher fast fashion levy",
-      "description": "French officials call on the European Union to increase a levy on fast‑fashion imports, aiming to curb environmental impact and protect domestic industry.",
-      "lat": 51.95,
-      "lng": 6.255200000000002,
-      "severity": 2,
-      "location": "Brussels, Belgium",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/13776a58-b640-4771-8256-03003498c96b?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1793858406000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/13776a58-b640-4771-8256-03003498c96b?syn-25a6b1a6=1"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f25b38186cb8",
-      "title": "Iran says U.S. election results show Americans reject the war",
-      "description": "Iranian officials claim the U.S. midterm results demonstrate that Americans oppose the ongoing war with Iran, using the outcome to criticize U.S. policy.",
-      "lat": 35.69,
-      "lng": 53.295199999999994,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/",
-      "image": null,
-      "ts": 1793840148000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/"
           }
         ]
       }
