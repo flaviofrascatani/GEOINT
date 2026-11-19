@@ -1,7 +1,421 @@
 {
   "schema": 1,
-  "updated": "2026-11-19T08:44:33.109511+00:00",
+  "updated": "2026-11-19T18:11:49.244864+00:00",
   "events": [
+    {
+      "id": "7638102aea00",
+      "title": "Russian strikes on Kyiv kill one, damage Dutch and Austrian embassies",
+      "description": "Air strikes hit Kyiv, causing civilian death and damaging foreign diplomatic missions.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 4,
+      "location": "Kyiv, Ukraine",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/world/russia-ukraine-drone-strikes-kyiv-putin-6566896",
+      "image": null,
+      "ts": 1795111124000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Bloomberg Politics",
+            "b": "center",
+            "u": "https://www.bloomberg.com/news/articles/2026-11-19/dutch-embassy-in-kyiv-damaged-in-projectile-strike"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/world/russia-ukraine-drone-strikes-kyiv-putin-6566896"
+          }
+        ]
+      }
+    },
+    {
+      "id": "628002a0670d",
+      "title": "Denmark unanimously ratifies Greenland security agreement with the U.S.",
+      "description": "Denmark's parliament approved a security pact covering Greenland with the United States, strengthening NATO presence in the Arctic.",
+      "lat": 55.68,
+      "lng": 12.57,
+      "severity": 1,
+      "location": "Copenhagen, Denmark",
+      "source": "OAN",
+      "url": "https://www.oann.com/newsroom/denmark-unanimously-ratifies-greenland-security-agreement-with-the-u-s/",
+      "image": null,
+      "ts": 1795110825000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 1,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/greenland-security-deal-us-denmark-danish-lawmakers/"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/denmark-ratifies-security-deal-with-us-and-greenland/a-79988989?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "OAN",
+            "b": "right",
+            "u": "https://www.oann.com/newsroom/denmark-unanimously-ratifies-greenland-security-agreement-with-the-u-s/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "06ff88250949",
+      "title": "Pakistan military says it killed 22 militants in raids on hideouts near Afghan border",
+      "description": "Security forces conducted raids in North Waziristan, killing 22 militants during gunbattles.",
+      "lat": 33.87,
+      "lng": 70.12,
+      "severity": 3,
+      "location": "Miranshah, Pakistan",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/pakistan-military-says-it-killed-22-militants-in-raids-on-hideouts/article71721607.ece",
+      "image": "https://th-i.thgim.com/public/incoming/i9i4g0/article66919784.ece/alternates/LANDSCAPE_1200/IMG_TH_-_PAKISTAN-UNREST_2_1_0FB7Q7P1.jpg",
+      "ts": 1795110691000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/pakistan-military-says-it-killed-22-militants-in-raids-on-hideouts/article71721607.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "67bd3cd50dca",
+      "title": "Russia's Putin vows a response 'far more painful' after Ukraine attacks prized bridge in Crimea",
+      "description": "President Putin warned of a harsher retaliation following Ukraine's attack on the Kerch Strait bridge.",
+      "lat": 45.35,
+      "lng": 36.58,
+      "severity": 2,
+      "location": "Kerch, Crimea",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/russia-putin-vows-response-far-more-painful-ukraine-attacks-prized-bridge-crimea",
+      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/11/ukraine-russia-crisis-fire.gif",
+      "ts": 1795110536000,
+      "coverage": {
+        "left": 5,
+        "center": 3,
+        "right": 3,
+        "total": 11,
+        "buckets": {
+          "left": 0,
+          "lean_left": 5,
+          "center": 3,
+          "lean_right": 2,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/11/19/world/europe/putin-shenzhen-crimea-bridge.html"
+          },
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/11/18/putin-touts-russias-economy-apec-ukraine-sends-it-toward-fuel-crisis/"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/putin-russia-ukraine-bridge-strike/"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/vladimir-putin-ukraine-war-russia-37894603"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/third-ukrainian-strike-in-4-days-halts-rail-traffic-on-russias-kerch-bridge-to-crimea/article71721511.ece"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/putin-vows-to-retaliate-as-ukraine-hits-prized-crimea-bridge-for-third-time-in-four-days-13613963"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9WV1BxNmRrQUFiOTMxd3laUEdOa2I1dzNZZWlqWnFfQW5ic05OSTJuYjhFTkpIMUprN2tyeWlEMGRmdWJEallEUVRjSnpzcXdEbTl5SXdFZEZtVWM?oc=5"
+          },
+          {
+            "n": "Washington Times World",
+            "b": "lean_right",
+            "u": "https://www.washingtontimes.com/news/2026/nov/19/ukraine-strike-russias-kerch-bridge-crimea-halts-traffic-third-attack/"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2221987"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/russia-putin-vows-response-far-more-painful-ukraine-attacks-prized-bridge-crimea"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e53aaf747a62",
+      "title": "Gazans return after Israel army ends rare ground operation",
+      "description": "Palestinians began returning to central Gaza after the Israeli military concluded its limited ground incursion.",
+      "lat": 31.52,
+      "lng": 34.46000000000001,
+      "severity": 3,
+      "location": "Gaza City, Gaza Strip",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/11/gazans-return-after-israel-army-ends-rare-ground-operation",
+      "image": null,
+      "ts": 1795109480000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/israel-army-says-it-completed-ground-operation-in-central-gaza/article71721554.ece"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/11/gazans-return-after-israel-army-ends-rare-ground-operation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "135069aa609f",
+      "title": "Myanmar guilty of genocide against Rohingya, top UN court rules",
+      "description": "The International Court of Justice ruled that Myanmar committed genocide against the Rohingya minority.",
+      "lat": 19.75,
+      "lng": 96.1,
+      "severity": 3,
+      "location": "Naypyidaw, Myanmar",
+      "source": "Le Monde English",
+      "url": "https://www.lemonde.fr/en/international/article/2026/11/19/icj-rules-that-myanmar-committed-genocide-against-rohingya-muslims_6784320_4.html",
+      "image": "https://img.lemde.fr/2026/11/19/187/0/5262/2631/644/322/60/0/1d6fc3f_ftp-1-w2etnkkgk6mk-2026-11-19t091224z-1527449319-rc2xqoa1b9gy-rtrmadp-3-myanmar-rohingya-world-court.JPG",
+      "ts": 1795091572000,
+      "coverage": {
+        "left": 5,
+        "center": 8,
+        "right": 3,
+        "total": 16,
+        "buckets": {
+          "left": 0,
+          "lean_left": 5,
+          "center": 8,
+          "lean_right": 1,
+          "right": 2
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/11/19/myanmar-committed-genocide-against-rohingya-minority-top-un-court-rules/"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/myanmar-genocide-rohingyas-un-top-court/"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/myanmar-committed-genocide-against-rohingya-37895865"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/11/19/icj-rules-that-myanmar-committed-genocide-against-rohingya-muslims_6784320_4.html"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/rohingya-a-distinct-lineage-close-to-bangladeshis-and-burmese-study/article71720631.ece"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/icj-rules-myanmar-committed-rohingya-genocide-3809965"
+          },
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/world/2026/1119/1599780-icj-myanmar/"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/myanmar-committed-genocide-against-rohingya-top-un-court-rules/a-79987898?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Africanews",
+            "b": "center",
+            "u": "http://www.africanews.com/2026/11/19/gambia-pays-tribute-to-rohingya-after-icj-genocide-ruling-against-myanmar/"
+          },
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/news/2026/11/19/asia-pacific/myanmar-rohingya-genocide/"
+          },
+          {
+            "n": "Nikkei Asia",
+            "b": "center",
+            "u": "https://asia.nikkei.com/politics/international-relations/myanmar-committed-genocide-against-rohingya-icj-rules-in-landmark-verdict"
+          },
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/reactions-as-top-un-court-finds-myanmar-guilty-of-genocide-against-rohingya"
+          },
+          {
+            "n": "Washington Times World",
+            "b": "lean_right",
+            "u": "https://www.washingtontimes.com/news/2026/nov/19/top-un-court-says-myanmar-committed-genocide-rohingya/"
+          },
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2267593/myanmar-committed-genocide-against-rohingya"
+          },
+          {
+            "n": "Washington Examiner",
+            "b": "right",
+            "u": "https://www.washingtonexaminer.com/news/world/4808809/icj-rule-myanmar-genocide-rohingya/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2fca7cc92271",
+      "title": "COP31 negotiators publish revised deal text with no mention of fossil fuels",
+      "description": "The revised draft for the climate summit removes references to fossil fuels, marking a shift in negotiation language.",
+      "lat": 40.38,
+      "lng": 49.89,
+      "severity": 2,
+      "location": "Baku, Azerbaijan",
+      "source": "Japan Times",
+      "url": "https://www.japantimes.co.jp/environment/2026/11/19/climate-change/cop-fossil-fuel-language/",
+      "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/19/575078.JPG",
+      "ts": 1795090440000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/world/2026/1119/1599773-cop31-thursday/"
+          },
+          {
+            "n": "Japan Times",
+            "b": "center",
+            "u": "https://www.japantimes.co.jp/environment/2026/11/19/climate-change/cop-fossil-fuel-language/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dcd5ec1f6b6b",
+      "title": "Europe tightens sanctions on Russia, America loosens them",
+      "description": "EU countries imposed additional economic sanctions on Moscow, while the U.S. eased some measures.",
+      "lat": 55.75,
+      "lng": 37.620000000000005,
+      "severity": 3,
+      "location": "Moscow, Russia",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQkxzUWdBcFpHVy01Y3hvOURnd0drNUZuWW9rWC1QQk5GQVV0blFhU0ZnZVFpY2JWaVZrUlVhZ0pOV2hkVmNtUUZ0ODIyVGtxUWx6RU9LNWhJcDJNTjhCYVlvODk2eWYwRHRnbnE0NFAwOGdaQ1BsTFdSWUVFSFBzaHJaVWxDc3NSRF9ZRFVqTk1TdzZTWmNCUDhqLUJsN19YUTl1YUNPMEY0MTNnenN2aHNUeklwdw?oc=5",
+      "image": null,
+      "ts": 1795082603000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQkxzUWdBcFpHVy01Y3hvOURnd0drNUZuWW9rWC1QQk5GQVV0blFhU0ZnZVFpY2JWaVZrUlVhZ0pOV2hkVmNtUUZ0ODIyVGtxUWx6RU9LNWhJcDJNTjhCYVlvODk2eWYwRHRnbnE0NFAwOGdaQ1BsTFdSWUVFSFBzaHJaVWxDc3NSRF9ZRFVqTk1TdzZTWmNCUDhqLUJsN19YUTl1YUNPMEY0MTNnenN2aHNUeklwdw?oc=5"
+          }
+        ]
+      }
+    },
     {
       "id": "b59e4cf0e3aa",
       "title": "Trump, Xi, Putin open unprecedented trilateral meeting in Shenzhen",
@@ -1591,39 +2005,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/11/eu-revive-long-stalled-association-agreement-syria-what-know"
-          }
-        ]
-      }
-    },
-    {
-      "id": "67bd3cd50dca",
-      "title": "Ukraine hits Putin's prized bridge in record drone blitz as Kremlin tells lawmakers to prepare for 'victory'",
-      "description": "Ukraine launched a massive drone attack on the Crimea bridge, causing fires at industrial facilities on the structure.",
-      "lat": 45.35,
-      "lng": 36.58,
-      "severity": 4,
-      "location": "Kerch, Crimea",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/ukraine-hits-putins-prized-bridge-record-drone-blitz-kremlin-tells-lawmakers-prepare-victory",
-      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/11/ukraine-russia-crisis-fire.gif",
-      "ts": 1794852950000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/ukraine-hits-putins-prized-bridge-record-drone-blitz-kremlin-tells-lawmakers-prepare-victory"
           }
         ]
       }
@@ -7197,302 +7578,6 @@
             "n": "RT News",
             "b": "lean_right",
             "u": "https://rt-english.com/news/648491-russia-hawk-lead-german-forces/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "710d2a979474",
-      "title": "Iran's Space Capabilities Are Growing, With U.S. Forces Facing 'Jamming' In Strait of Hormuz: Report",
-      "description": "A Pentagon document says Tehran has expanded space and electronic‑warfare capabilities, including GPS jamming, while cooperating with Russia, China and North Korea to challenge U.S. space systems.",
-      "lat": 26.57,
-      "lng": 56.25,
-      "severity": 2,
-      "location": "Strait of Hormuz",
-      "source": "IBTimes",
-      "url": "https://www.ibtimes.com/pentagon-report-iran-space-capabilities-threaten-us-3809464",
-      "image": null,
-      "ts": 1793919061000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/pentagon-report-iran-space-capabilities-threaten-us-3809464"
-          }
-        ]
-      }
-    },
-    {
-      "id": "f46b1e8a55b7",
-      "title": "Redrawing Mediterranean: New alliance for energy and security",
-      "description": "Se anunció una nueva alianza regional en el Mediterráneo para coordinar la seguridad energética y militar entre varios países del sur de Europa y el norte de África.",
-      "lat": 37.98,
-      "lng": 23.73,
-      "severity": 2,
-      "location": "Atenas, Grecia",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/opinion/op-ed/redrawing-mediterranean-new-alliance-for-energy-and-security",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/11/05/469216.jpeg",
-      "ts": 1793912700000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/opinion/op-ed/redrawing-mediterranean-new-alliance-for-energy-and-security"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4fd29b9d7a75",
-      "title": "US issues new Cuba sanctions, takes aim at sectors of Cuban economy",
-      "description": "The United States imposed fresh sanctions targeting key sectors of Cuba’s economy.",
-      "lat": 23.12,
-      "lng": -82.36,
-      "severity": 3,
-      "location": "Havana, Cuba",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQblVpSUg3SjBzNjdqeWlrY1hpeWNhQ2E0VzNmZW1RTVl3ekVfRW5ERnpNU2gwa3M3NUZuNWFFc3JWR3BnNGlHeS1VOENLeFcwRUxaYm00TnVxZWd1RkxtbEJ0WlJTQmFMeXZDZm9iX1Fybk5qTGJ5eVhCMlV6c2VFbUd4ZXZBS2VmeW9tM0d1SjRoN0FibW13RnAtcU11XzVENk5PVTVYV2RPMGJkM3ZlaQ?oc=5",
-      "image": null,
-      "ts": 1793902268000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQblVpSUg3SjBzNjdqeWlrY1hpeWNhQ2E0VzNmZW1RTVl3ekVfRW5ERnpNU2gwa3M3NUZuNWFFc3JWR3BnNGlHeS1VOENLeFcwRUxaYm00TnVxZWd1RkxtbEJ0WlJTQmFMeXZDZm9iX1Fybk5qTGJ5eVhCMlV6c2VFbUd4ZXZBS2VmeW9tM0d1SjRoN0FibW13RnAtcU11XzVENk5PVTVYV2RPMGJkM3ZlaQ?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "115ede9bd0d3",
-      "title": "Eisenkot set to receive mandate to form Israeli gov't as Herzog rounds out consultation meetings",
-      "description": "El presidente Herzog entregará el mandato a Yair Eisenkot para formar un nuevo gobierno en Israel tras consultas con partidos árabes.",
-      "lat": 31.78,
-      "lng": 35.22,
-      "severity": 3,
-      "location": "Jerusalén, Israel",
-      "source": "Jerusalem Post",
-      "url": "https://www.jpost.com/israel-election-2026/article-913989",
-      "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_854,w_1280/745127",
-      "ts": 1793901948000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Jerusalem Post",
-            "b": "center",
-            "u": "https://www.jpost.com/israel-election-2026/article-913989"
-          }
-        ]
-      }
-    },
-    {
-      "id": "51a3e9c5c3b2",
-      "title": "Hoax bomb threats target European airlines and airports for second time in a week",
-      "description": "Amenazas falsas de bombas provocaron la cancelación de al menos 21 vuelos en varios aeropuertos europeos.",
-      "lat": 51.51,
-      "lng": -0.12999999999999545,
-      "severity": 2,
-      "location": "Londres, Reino Unido",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7423/live/1976bf00-d911-11f1-94c6-3f8050561bf5.jpg",
-      "ts": 1793900388000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "fa1e94c07c6e",
-      "title": "Melania Trump hails Oleshky ceasefire as potential ‘spark’ for progress amid Ukraine-Russia war",
-      "description": "Melania Trump praised the ceasefire in Oleshky, calling it a spark for peace in the Ukraine‑Russia conflict.",
-      "lat": 46.61,
-      "lng": 32.599999999999994,
-      "severity": 1,
-      "location": "Oleshky, Ukraine",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/melania-trump-oleshky-ceasefire-spark-more-enduring-peace-ukraine-russia",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/melania-trump-ceasefire-oleshky-white-house.jpg?ve=1&tl=1",
-      "ts": 1793899567000,
-      "coverage": {
-        "left": 5,
-        "center": 3,
-        "right": 6,
-        "total": 14,
-        "buckets": {
-          "left": 0,
-          "lean_left": 5,
-          "center": 3,
-          "lean_right": 3,
-          "right": 3
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/11/05/world/europe/melania-trump-oleshky-ukraine-ceasefire.html"
-          },
-          {
-            "n": "NBC News World",
-            "b": "lean_left",
-            "u": "https://www.nbcnews.com/world/ukraine/melania-trump-host-russia-ukraine-representatives-white-house-rare-mee-rcna607390"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/russia-ukraine-war-donald-trump-meets-putin-envoy-predicts-big-deal-with-russia-on-ukraine-12290251#publisher=newsstand"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/11/06/melania-hosts-russia-and-ukraine-as-trump-touts-big-agreement_6773131_4.html"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/donald-trump-predicts-deal-with-russia-on-ukraine-and-all-of-europe/article71672626.ece"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/2026/1106/1598206-trump-russia-ukraine/"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNXlZVmtDYXdpRk5xam5pbDJqRmFyb2hNV3A1VFhQbElwUVNWSWVSdnNINy1SMXo2bjM5UkZrQWNUV29zV29oSGk1OWEtbGFwUURPVFBkSDBaSWhLdWRsNExINXpQRWxlbUNCUTg4Rk5xcWthbWVrV3lhNlowQkdaYUMyZEh4NzA4NERJRmJEWUVRdTFKSVU1RGhYV1JoaW9JbU0za1RUZEJFOThpWDhjWWZCcVNBUnlvZHlj?oc=5"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2213579"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://rt-english.com/news/648478-russia-ukraine-melania-trump-meeting/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/americas/melania-trump-urges-lasting-ukraine-truce-at-rare-white-house-talks"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/melania-trump-oleshky-ceasefire-spark-more-enduring-peace-ukraine-russia"
-          },
-          {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/newsroom/melania-trump-calls-for-peace-between-russia-and-ukraine-after-successful-humanitarian-ceasefire/"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/politics/2026/11/05/melania-trump-hopes-russia-ukraine-ceasefire-inspires-greater-peace/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d11f62a934cb",
-      "title": "Air Arabia to increase Domodedovo-Sharjah flights starting December 12",
-      "description": "Air Arabia, Domodedovo‑Sharjah hattındaki sefer sayısını artırarak bölgesel bağlantıyı güçlendirecek.",
-      "lat": 25.34,
-      "lng": 55.42,
-      "severity": 2,
-      "location": "Sharjah, United Arab Emirates",
-      "source": "TASS",
-      "url": "https://tass.com/economy/2213431",
-      "image": null,
-      "ts": 1793893389000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/economy/2213431"
           }
         ]
       }
