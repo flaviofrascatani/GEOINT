@@ -1,7 +1,172 @@
 {
   "schema": 1,
-  "updated": "2026-11-20T00:52:59.006365+00:00",
+  "updated": "2026-11-20T08:26:49.715511+00:00",
   "events": [
+    {
+      "id": "3a09f2ef75ee",
+      "title": "Ukrainian attack on Yubileyny settlement in LPR kills three",
+      "description": "A large Ukrainian strike on the Yubileyny settlement in the Luhansk People's Republic resulted in three fatalities.",
+      "lat": 48.45,
+      "lng": 39.33,
+      "severity": 3,
+      "location": "Yubileyny, Luhansk, Ukraine",
+      "source": "TASS",
+      "url": "https://tass.com/emergencies/2222277",
+      "image": null,
+      "ts": 1795162918000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/emergencies/2222277"
+          }
+        ]
+      }
+    },
+    {
+      "id": "05ff14f4c610",
+      "title": "Ukraine damages Crimean (Kerch) bridge",
+      "description": "Ukrainian forces partially destroy the bridge linking Russia to Crimea, aiming to disrupt supply lines.",
+      "lat": 45.35,
+      "lng": 38.48519999999999,
+      "severity": 3,
+      "location": "Kerch, Crimea",
+      "source": "Straits Times Asia",
+      "url": "https://www.straitstimes.com/asia/ukraine-strains-russian-logistics-with-crimean-bridge-strikes",
+      "image": null,
+      "ts": 1795162250000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Straits Times Asia",
+            "b": "center",
+            "u": "https://www.straitstimes.com/asia/ukraine-strains-russian-logistics-with-crimean-bridge-strikes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1537195c5a18",
+      "title": "South Korean unification minister and US envoy reaffirm alliance",
+      "description": "South Korea’s Unification Minister Chung Dong‑young and the senior US envoy met in Seoul, stressing the alliance as key to peace on the peninsula.",
+      "lat": 38.66,
+      "lng": 126.98000000000002,
+      "severity": 2,
+      "location": "Seoul, South Korea",
+      "source": "Yonhap News",
+      "url": "https://en.yna.co.kr/view/AEN20261119007252315",
+      "image": "https://img.yna.co.kr/etc/inner/EN/2026/11/19/AEN20261119007252315_01_i_P2.jpg",
+      "ts": 1795162080000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Yonhap News",
+            "b": "center",
+            "u": "https://en.yna.co.kr/view/AEN20261119007252315"
+          }
+        ]
+      }
+    },
+    {
+      "id": "611c39d8256a",
+      "title": "Rohingya in Bangladesh welcome UN genocide verdict",
+      "description": "Rohingya refugees in Bangladesh welcomed the International Court of Justice’s genocide ruling, expressing hope for a return to Myanmar.",
+      "lat": 24.91,
+      "lng": 90.40999999999997,
+      "severity": 1,
+      "location": "Dhaka, Bangladesh",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/rohingya-in-bangladesh-welcome-un-courts-genocide-verdict-but-say-they-want-to-go-home-to-myanmar/article71723495.ece",
+      "image": "https://th-i.thgim.com/public/incoming/oajka2/article71723550.ece/alternates/LANDSCAPE_1200/2026-11-20T052917Z_699585643_RC2HROADS0TO_RTRMADP_3_MYANMAR-ROHINGYA-UNGA-PRESIDENT.JPG",
+      "ts": 1795161161000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/rohingya-in-bangladesh-welcome-un-courts-genocide-verdict-but-say-they-want-to-go-home-to-myanmar/article71723495.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "871d004c85ca",
+      "title": "Russian forces strike Zatoka railway bridge in Odessa region",
+      "description": "The Russian armed forces hit the Zatoka railway bridge used for military logistics in Ukraine's Odessa region.",
+      "lat": 45.62,
+      "lng": 28.68,
+      "severity": 3,
+      "location": "Zatoka, Ukraine",
+      "source": "Sputnik International",
+      "url": "https://sputnikglobe.com/20261120/russia-forces-continues-strikes-against-infrastructure-used-by-ukrainian-forces-1125116799.html",
+      "image": "https://cdn.imgsputnikglobe.com/img/106450/73/1064507312_0:320:3072:2048_600x0_80_0_0_57bbc519eb69f121715562d53dd4ebbe.jpg",
+      "ts": 1795160928000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Sputnik International",
+            "b": "right",
+            "u": "https://sputnikglobe.com/20261120/russia-forces-continues-strikes-against-infrastructure-used-by-ukrainian-forces-1125116799.html"
+          }
+        ]
+      }
+    },
     {
       "id": "9892f2329c8d",
       "title": "Brazil sells US$1 billion of reserves, real still falls",
@@ -266,6 +431,39 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/11/gazans-return-after-israel-army-ends-rare-ground-operation"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b85fc5cbf580",
+      "title": "AI‑powered cyberattack targets the European Union",
+      "description": "EU officials in Brussels reported a sophisticated cyberattack using artificial‑intelligence tools against EU networks in October.",
+      "lat": 50.85,
+      "lng": 4.35,
+      "severity": 3,
+      "location": "Brussels, Belgium",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/cyberattack-artificial-intelligence-targeted-eu-october-official-138284407",
+      "image": "https://s.abcnews.com/images/International/wirestory_79705095e8141cd650196dbff1cf3c70_4x3_384.jpg",
+      "ts": 1795095035000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/cyberattack-artificial-intelligence-targeted-eu-october-official-138284407"
           }
         ]
       }
@@ -7370,204 +7568,6 @@
             "n": "The Africa Report",
             "b": "center",
             "u": "https://www.theafricareport.com/435714/ethiopia-a-201bn-economy-on-paper-a-heavier-tax-bill-in-practice/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c2a22613ddf1",
-      "title": "Ethiopia GDP rebasing: Africa’s fifth‑largest economy, same debts, bigger tax ambitions",
-      "description": "Ethiopia revised its nominal GDP upward, improving debt ratios and signalling stronger fiscal capacity as tax reforms progress.",
-      "lat": 10.13,
-      "lng": 40.64519999999999,
-      "severity": 2,
-      "location": "Addis Ababa, Ethiopia",
-      "source": "The Africa Report",
-      "url": "https://www.theafricareport.com/435714/ethiopia-a-201bn-economy-on-paper-a-heavier-tax-bill-in-practice/",
-      "image": null,
-      "ts": 1793975400000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Africa Report",
-            "b": "center",
-            "u": "https://www.theafricareport.com/435714/ethiopia-a-201bn-economy-on-paper-a-heavier-tax-bill-in-practice/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "18d82e3afa8a",
-      "title": "UAE unveils massive AI partnership with ADNOC and G42 at ADIPEC 2026",
-      "description": "Abu Dhabi announced a multi‑billion‑dollar AI collaboration aimed at transforming the energy sector.",
-      "lat": 25.57,
-      "lng": 54.370000000000005,
-      "severity": 2,
-      "location": "Abu Dhabi, United Arab Emirates",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/oil-rich-uae-makes-massive-ai-bet-sam-altman-unveils-ambitious-plan-transform-energy-industry",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/ABU.jpg?ve=1&tl=1",
-      "ts": 1793955617000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/oil-rich-uae-makes-massive-ai-bet-sam-altman-unveils-ambitious-plan-transform-energy-industry"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3b5f13b5e719",
-      "title": "France braces for fresh unrest as Yellow Vests return to streets",
-      "description": "France is preparing for another wave of protests as the Yellow Vest movement calls for nationwide blockades and mass demonstrations.",
-      "lat": 49.96,
-      "lng": 2.3499999999999943,
-      "severity": 3,
-      "location": "Paris, France",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/world/europe/france-braces-for-fresh-unrest-as-yellow-vests-return-to-streets",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/11/06/469356.JPG",
-      "ts": 1793954040000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/europe/france-braces-for-fresh-unrest-as-yellow-vests-return-to-streets"
-          }
-        ]
-      }
-    },
-    {
-      "id": "10cdbda86cfe",
-      "title": "Creative Africa Nexus (CANEX) gathers creators in Lagos to boost global market access",
-      "description": "The CANEX summit in Lagos brings together African creatives, investors and policymakers to promote cultural exports.",
-      "lat": 6.45,
-      "lng": 3.39,
-      "severity": 2,
-      "location": "Lagos, Nigeria",
-      "source": "All Africa",
-      "url": "https://allafrica.com/stories/202611060130.html",
-      "image": null,
-      "ts": 1793952573000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "All Africa",
-            "b": "center",
-            "u": "https://allafrica.com/stories/202611060130.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7602a62e3cd4",
-      "title": "Rubio places additional sanctions on Cuba targeting illicit shipping network",
-      "description": "U.S. Representative Marco Rubio announced new sanctions aimed at Cuba's illicit maritime logistics.",
-      "lat": 24.22,
-      "lng": -82.38,
-      "severity": 2,
-      "location": "Havana, Cuba",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNM1FZMGpxdDZUT2Z4WEQ1RjEzREJDOUlrS1drSmlSLWxtX1JVWHgtOURNMmZqYUZRTEhXS2F4dWxoTzZrYjZDY1pndXlPTFZSc1RuOFcyamZyWENEb0QxSmYtZUxrV2JRaXZWdGh6RGFXeGF4WmpUN3ZxeFZycnA4UGx3YTJZR2tnaUVR0gGQAUFVX3lxTE5oeDlWUFlxZFdXc2duMDJKNDBCbUs0Ti1KY0FvY3R4SEJHdVQyT0QzWV82SU1kRDI5b0lJWk5rMTFvaHo2bEN5Q0pzTmRhbXpmMDNGTnIwd3lZM3ppWVoxSGhhZmxzcFVyM1lId0JrT2hLS2l4cXptQW15UUMtWW1oSHZfRnhvRjVZdHQxaGdTbw?oc=5",
-      "image": null,
-      "ts": 1793929980000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNM1FZMGpxdDZUT2Z4WEQ1RjEzREJDOUlrS1drSmlSLWxtX1JVWHgtOURNMmZqYUZRTEhXS2F4dWxoTzZrYjZDY1pndXlPTFZSc1RuOFcyamZyWENEb0QxSmYtZUxrV2JRaXZWdGh6RGFXeGF4WmpUN3ZxeFZycnA4UGx3YTJZR2tnaUVR0gGQAUFVX3lxTE5oeDlWUFlxZFdXc2duMDJKNDBCbUs0Ti1KY0FvY3R4SEJHdVQyT0QzWV82SU1kRDI5b0lJWk5rMTFvaHo2bEN5Q0pzTmRhbXpmMDNGTnIwd3lZM3ppWVoxSGhhZmxzcFVyM1lId0JrT2hLS2l4cXptQW15UUMtWW1oSHZfRnhvRjVZdHQxaGdTbw?oc=5"
-          }
-        ]
-      }
-    },
-    {
-      "id": "71090ddd9acc",
-      "title": "Mexico Kills Cartel Boss Known as El General",
-      "description": "Mexican federal forces killed the cartel founder El General in Naucalpan, a man previously sanctioned by the U.S. Treasury.",
-      "lat": 19.48,
-      "lng": -99.24,
-      "severity": 3,
-      "location": "Naucalpan, Mexico",
-      "source": "Rio Times",
-      "url": "https://www.riotimesonline.com/el-general-nuevo-imperio-cartel-boss-killed-mexico/",
-      "image": null,
-      "ts": 1793927507000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Rio Times",
-            "b": "center",
-            "u": "https://www.riotimesonline.com/el-general-nuevo-imperio-cartel-boss-killed-mexico/"
           }
         ]
       }
