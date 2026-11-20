@@ -1,7 +1,144 @@
 {
   "schema": 1,
-  "updated": "2026-11-20T08:26:49.715511+00:00",
+  "updated": "2026-11-20T17:13:40.504433+00:00",
   "events": [
+    {
+      "id": "96f417f513cc",
+      "title": "UK and EU strike ‘landmark’ deal to rebuild ties after Brexit",
+      "description": "The United Kingdom and the European Union signed a comprehensive agreement in Brussels to ease food export checks and improve youth mobility, marking a diplomatic reset after Brexit.",
+      "lat": 53.62,
+      "lng": 4.349999999999994,
+      "severity": 1,
+      "location": "Brussels, Belgium",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/video/20261120-uk-and-eu-strike-landmark-deal-to-rebuild-ties-after-brexit",
+      "image": "https://s.france24.com/media/display/9c262fdc-e4ef-11f1-b8c1-6b451f569414/w:1024/p:16x9/burnham-00-00-07-21-Still001.jpg",
+      "ts": 1795194419000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/video/20261120-uk-and-eu-strike-landmark-deal-to-rebuild-ties-after-brexit"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/eu-and-uk-strike-landmark-deal-to-strengthen-ties-after-brexit/a-80001076?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "21fdcf876d7f",
+      "title": "Estonia to close border with Russia, Moscow decries 'new Iron Curtain'",
+      "description": "Estonia announced the closure of its land border with Russia, accusing Russian security services of attempted arson on an Estonian defence firm, heightening regional tensions.",
+      "lat": 59.38,
+      "lng": 28.12,
+      "severity": 3,
+      "location": "Narva, Estonia",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/estonia-to-close-border-with-russia-moscow-decries-new-iron-curtain/article71725791.ece",
+      "image": "https://th-i.thgim.com/public/news/national/txddrm/article71725812.ece/alternates/LANDSCAPE_1200/iStock-1348141138.jpg",
+      "ts": 1795193885000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/estonia-to-close-border-with-russia-moscow-decries-new-iron-curtain/article71725791.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "338753f031e5",
+      "title": "Saudi‑led forces strike Yemen port as Houthis warn airlines off the kingdom",
+      "description": "The Saudi‑led coalition bombarded the Red Sea port of Hodeidah in Yemen, aiming to degrade Houthi capabilities and issuing warnings to commercial aviation.",
+      "lat": 15.23,
+      "lng": 44.9726,
+      "severity": 2,
+      "location": "Taiz, Yemen",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/11/saudi-led-forces-strike-yemen-port-houthis-warn-airlines-kingdom",
+      "image": "https://c.ndtvimg.com/2026-11/u5r31ces_saudi-strikes-yemen_625x300_07_November_26.jpeg",
+      "ts": 1795193237000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/11/saudi-led-forces-strike-yemen-port-houthis-warn-airlines-kingdom"
+          }
+        ]
+      }
+    },
+    {
+      "id": "e3f7f488c2fa",
+      "title": "Russia‑Iran Relations Reach Historic High",
+      "description": "Iranian officials said bilateral cooperation between Moscow and Tehran has reached its highest level ever, encompassing strategic, military and economic domains.",
+      "lat": 36.78,
+      "lng": 53.2852,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "Sputnik International",
+      "url": "https://sputnikglobe.com/20261120/russia-iran-relations-reach-historic-high---iranian-diplomat-1125124160.html",
+      "image": "https://cdn.imgsputnikglobe.com/img/07e9/01/11/1121452281_0:161:3071:1888_600x0_80_0_0_d848ec17206ea85e0f93c766d5dd8452.jpg",
+      "ts": 1795193071000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Sputnik International",
+            "b": "right",
+            "u": "https://sputnikglobe.com/20261120/russia-iran-relations-reach-historic-high---iranian-diplomat-1125124160.html"
+          }
+        ]
+      }
+    },
     {
       "id": "3a09f2ef75ee",
       "title": "Ukrainian attack on Yubileyny settlement in LPR kills three",
@@ -7327,44 +7464,6 @@
       }
     },
     {
-      "id": "338753f031e5",
-      "title": "Yemen's Houthis say 30 dead in Saudi strikes on market in Taiz",
-      "description": "Houthis report that Saudi air strikes on a market in Taiz province killed around 30 people, intensifying the conflict in southern Yemen.",
-      "lat": 15.23,
-      "lng": 44.9726,
-      "severity": 3,
-      "location": "Taiz, Yemen",
-      "source": "NDTV World",
-      "url": "https://www.ndtv.com/world-news/yemens-houthis-say-30-dead-in-saudi-strikes-on-market-12295050#publisher=newsstand",
-      "image": "https://c.ndtvimg.com/2026-11/u5r31ces_saudi-strikes-yemen_625x300_07_November_26.jpeg",
-      "ts": 1794001201000,
-      "coverage": {
-        "left": 2,
-        "center": 0,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/yemens-houthis-say-30-dead-in-saudi-strikes-on-market-12295050#publisher=newsstand"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/airstrikes-on-market-in-southwestern-yemen-kill-at-least-20-houthis-say/article71674991.ece"
-          }
-        ]
-      }
-    },
-    {
       "id": "64db8df5623a",
       "title": "Somalia: Court Says President Term Extension Unlawful",
       "description": "Somalia's Supreme Court ruled that the president's one‑year term extension was illegal, sparking political tension and clashes.",
@@ -7469,105 +7568,6 @@
             "n": "ANSA Mondo",
             "b": "center",
             "u": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/11/06/houthi-sale-a-30-morti-e-8-feriti-il-bilancio-dellattacco-al-mercato-a-taiz_ad0fdd22-c3a9-469e-ac48-8f0b4c3d043e.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2dd7db3f0cf1",
-      "title": "China moves former provincial leaders to the National People’s Congress",
-      "description": "Beijing appointed 12 former provincial party chiefs and governors to senior positions in the legislature as part of a senior‑cadre reshuffle.",
-      "lat": 39.9,
-      "lng": 116.4,
-      "severity": 3,
-      "location": "Beijing, China",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/china-shifts-former-provincial-leaders-to-legislature-in-soft-retirement",
-      "image": null,
-      "ts": 1793983101000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/china-shifts-former-provincial-leaders-to-legislature-in-soft-retirement"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3f4d91e4efe1",
-      "title": "Ethiopia rebases its economy to $201 bn, raising tax revenue expectations",
-      "description": "Addis Ababa announced a statistical rebasing that lifts Ethiopia’s GDP to $201 bn, prompting higher tax collection forecasts.",
-      "lat": 9.03,
-      "lng": 38.74,
-      "severity": 3,
-      "location": "Addis Ababa, Ethiopia",
-      "source": "The Africa Report",
-      "url": "https://www.theafricareport.com/435714/ethiopia-a-201bn-economy-on-paper-a-heavier-tax-bill-in-practice/",
-      "image": null,
-      "ts": 1793975400000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Africa Report",
-            "b": "center",
-            "u": "https://www.theafricareport.com/435714/ethiopia-a-201bn-economy-on-paper-a-heavier-tax-bill-in-practice/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d59160a77f81",
-      "title": "Ethiopia: A $201bn economy on paper, a heavier tax bill in practice",
-      "description": "Addis Ababa rebases its GDP to $201 billion, confirming its rank as Africa’s third‑largest economy but raising concerns over higher tax burdens.",
-      "lat": 10.13,
-      "lng": 38.74000000000001,
-      "severity": 3,
-      "location": "Addis Ababa, Ethiopia",
-      "source": "The Africa Report",
-      "url": "https://www.theafricareport.com/435714/ethiopia-a-201bn-economy-on-paper-a-heavier-tax-bill-in-practice/",
-      "image": null,
-      "ts": 1793975400000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Africa Report",
-            "b": "center",
-            "u": "https://www.theafricareport.com/435714/ethiopia-a-201bn-economy-on-paper-a-heavier-tax-bill-in-practice/"
           }
         ]
       }
