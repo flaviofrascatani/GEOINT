@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-11-19T18:11:49.244864+00:00",
+  "updated": "2026-11-20T00:52:59.006365+00:00",
   "events": [
+    {
+      "id": "9892f2329c8d",
+      "title": "Brazil sells US$1 billion of reserves, real still falls",
+      "description": "Brazil's central bank intervened in the foreign‑exchange market, selling $1 bn of reserves but the real continued to weaken.",
+      "lat": -15.79,
+      "lng": -47.88,
+      "severity": 3,
+      "location": "Brasília, Brazil",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/brazil-central-bank-sells-us-1-billion-real-still-falls/",
+      "image": null,
+      "ts": 1795132153000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/brazil-central-bank-sells-us-1-billion-real-still-falls/"
+          }
+        ]
+      }
+    },
     {
       "id": "7638102aea00",
       "title": "Russian strikes on Kyiv kill one, damage Dutch and Austrian embassies",
@@ -238,6 +271,44 @@
       }
     },
     {
+      "id": "91766a72ec71",
+      "title": "Burnham says Europe 'ready to enter negotiations' to help end Russia's war in Ukraine",
+      "description": "UK Transport Secretary Andy Burnham announced that European governments are prepared to mediate to end the conflict in Ukraine.",
+      "lat": 51.51,
+      "lng": -0.13,
+      "severity": 2,
+      "location": "London, United Kingdom",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/putin-vows-to-retaliate-as-ukraine-hits-prized-crimea-bridge-for-third-time-in-four-days-13613963",
+      "image": "https://e3.365dm.com/26/11/1920x1080/skynews-andy-burnham-volodymyr-zelenskyy_7410778.jpg?20261119175118",
+      "ts": 1795091880000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/putin-vows-to-retaliate-as-ukraine-hits-prized-crimea-bridge-for-third-time-in-four-days-13613963"
+          }
+        ]
+      }
+    },
+    {
       "id": "135069aa609f",
       "title": "Myanmar guilty of genocide against Rohingya, top UN court rules",
       "description": "The International Court of Justice ruled that Myanmar committed genocide against the Rohingya minority.",
@@ -379,6 +450,44 @@
             "n": "Japan Times",
             "b": "center",
             "u": "https://www.japantimes.co.jp/environment/2026/11/19/climate-change/cop-fossil-fuel-language/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d7d53ec10038",
+      "title": "Iran-US conflict escalates with renewed attacks across Persian Gulf",
+      "description": "Both sides intensified military actions in the Persian Gulf, raising regional tensions.",
+      "lat": 26.38,
+      "lng": 51.53,
+      "severity": 4,
+      "location": "Doha, Qatar",
+      "source": "GNews Geopolitics",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORXJKZlBDZjNDUjB0VmpPUF9XVHVhdFhFYjI2ZlRsSGFrZEFSQTlCcVo1Zzh1cUJ0b202YVRMRlRxdnBMM1h6UkhZa0MxZFotQWNzanRIWjAyNUlxdlZNRkxQSVFwUTZXdUZIbnNQRmtVdjhPMnpKajRfNkxUUzc0aFpESXp2Q0ZhM2hCeTR5b0VlOEpNUVVlMHFpNzRHaW96dzVCbkdqMWVDQ1Nkak9BRFAwZ2ZBMnc5MDN2RmtiNFpLcEtVUC1HbFlVLU1DQVdheUxN?oc=5",
+      "image": "https://c.ndtvimg.com/2025-10/on1r4jvk_trump-qatar-emir_625x300_26_October_25.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "ts": 1795087266000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/iran-widens-gulf-attacks_n_6afd76a5e4b0e902c23c65f6"
+          },
+          {
+            "n": "GNews Geopolitics",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORXJKZlBDZjNDUjB0VmpPUF9XVHVhdFhFYjI2ZlRsSGFrZEFSQTlCcVo1Zzh1cUJ0b202YVRMRlRxdnBMM1h6UkhZa0MxZFotQWNzanRIWjAyNUlxdlZNRkxQSVFwUTZXdUZIbnNQRmtVdjhPMnpKajRfNkxUUzc0aFpESXp2Q0ZhM2hCeTR5b0VlOEpNUVVlMHFpNzRHaW96dzVCbkdqMWVDQ1Nkak9BRFAwZ2ZBMnc5MDN2RmtiNFpLcEtVUC1HbFlVLU1DQVdheUxN?oc=5"
           }
         ]
       }
@@ -866,54 +975,6 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israeli-forces-launch-new-military-operation-in-central-gaza?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d7d53ec10038",
-      "title": "Iran Fires Missiles and Drones at Gulf Arab States as Peace Talks Falter",
-      "description": "Kuwait and Bahrain reported missile and drone attacks, marking an escalation amid stalled peace negotiations.",
-      "lat": 26.38,
-      "lng": 51.53,
-      "severity": 3,
-      "location": "Doha, Qatar",
-      "source": "New York Times World",
-      "url": "https://www.nytimes.com/2026/11/18/world/middleeast/iran-attacks-bahrain-kuwait-ships-hormuz.html",
-      "image": "https://c.ndtvimg.com/2025-10/on1r4jvk_trump-qatar-emir_625x300_26_October_25.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-      "ts": 1795016231000,
-      "coverage": {
-        "left": 3,
-        "center": 0,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 1,
-          "lean_left": 2,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "HuffPost World",
-            "b": "left",
-            "u": "https://www.huffpost.com/entry/iran-widens-gulf-attacks_n_6afd76a5e4b0e902c23c65f6"
-          },
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/11/18/world/middleeast/iran-attacks-bahrain-kuwait-ships-hormuz.html"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/iran-army-says-it-targeted-us-military-base-in-kuwait/article71715048.ece"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/iran-targets-us-air-base-kuwait-us-defensive-strikes-criticism-gulf-states"
           }
         ]
       }
@@ -7507,77 +7568,6 @@
             "n": "Rio Times",
             "b": "center",
             "u": "https://www.riotimesonline.com/el-general-nuevo-imperio-cartel-boss-killed-mexico/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "67a79cc38a7e",
-      "title": "China’s tech megacity cleans up seedy underbelly for Apec summit",
-      "description": "Shenzhen intensified crackdowns on illicit markets ahead of the APEC leaders’ summit.",
-      "lat": 23.65,
-      "lng": 114.06,
-      "severity": 2,
-      "location": "Shenzhen, China",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/ea2ab632-1f5c-4e22-8fe2-f513e36a6862?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1793927487000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/ea2ab632-1f5c-4e22-8fe2-f513e36a6862?syn-25a6b1a6=1"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/opinion/china-opinion/article/3373140/chances-are-us-china-truce-will-be-extended-shenzhen-apec-summit"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e653ba0312e6",
-      "title": "Russia hawk appointed as Germany’s top commander",
-      "description": "Lieutenant General Christian Freuding, known for his strong stance against Russia, was appointed chief of the German Armed Forces.",
-      "lat": 53.62,
-      "lng": 15.305200000000013,
-      "severity": 3,
-      "location": "Berlin, Germany",
-      "source": "RT News",
-      "url": "https://rt-english.com/news/648491-russia-hawk-lead-german-forces/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
-      "image": "https://mf.b37mrtl.ru/files/2026.11/thumbnail/6aed024c85f5400e197e96f0.jpg",
-      "ts": 1793923447000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://rt-english.com/news/648491-russia-hawk-lead-german-forces/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
           }
         ]
       }
