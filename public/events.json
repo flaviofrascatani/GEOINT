@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-21T20:03:04.484571+00:00",
+  "updated": "2026-11-22T00:17:30.678611+00:00",
   "events": [
     {
       "id": "9f31b18ce5ea",
@@ -38,10 +38,10 @@
     {
       "id": "b127da827024",
       "title": "Egypt signs agreement to bring 100 idle oil wells back into production",
-      "description": "Egypt's petroleum ministry signed a framework with a global company to reactivate a hundred dormant oil wells.",
+      "description": "Egyptian Petroleum Minister signs framework with a global firm to reactivate dormant oil wells, boosting output.",
       "lat": 31.14,
       "lng": 33.14519999999999,
-      "severity": 2,
+      "severity": 1,
       "location": "Cairo, Egypt",
       "source": "Egypt Independent",
       "url": "https://www.egyptindependent.com/egypt-signs-agreement-to-bring-100-idle-oil-wells-back-into-production/",
@@ -64,6 +64,59 @@
             "n": "Egypt Independent",
             "b": "center",
             "u": "https://www.egyptindependent.com/egypt-signs-agreement-to-bring-100-idle-oil-wells-back-into-production/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2bc24e5ba7a2",
+      "title": "Missiles hit Poland hours after Trump defended Putin",
+      "description": "Russian cruise missiles struck Poland, causing casualties shortly after former US president defended Vladimir Putin.",
+      "lat": 53.33,
+      "lng": 21.00999999999999,
+      "severity": 4,
+      "location": "Warsaw, Poland",
+      "source": "Daily Mail World",
+      "url": "https://www.dailymail.com/news/article-16309085/Missiles-hit-Poland-Trump-defended-Putin-landing-couple-little-missiles-country-mistake.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "image": "https://i.dailymail.com/1s/2026/11/20/13/112631077-0-image-m-14_1795183100434.jpg",
+      "ts": 1795263801000,
+      "coverage": {
+        "left": 2,
+        "center": 0,
+        "right": 3,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 3
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/11/21/poland-says-russian-missiles-hit-its-territory-trump-calls-it-mistake/"
+          },
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/trump-putin-ukraine-war-russia-37900851"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/putin-launches-ukraine-barrage-hours-after-trump-meeting-amid-alleged-russian-missile-breach-nato-airspace"
+          },
+          {
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2268160/russia-missile-poland-wes-streeting-zelensky"
+          },
+          {
+            "n": "Daily Mail World",
+            "b": "right",
+            "u": "https://www.dailymail.com/news/article-16309085/Missiles-hit-Poland-Trump-defended-Putin-landing-couple-little-missiles-country-mistake.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
           }
         ]
       }
@@ -736,6 +789,39 @@
       "lat": 52.23,
       "lng": 21.01,
       "severity": 2,
+      "location": "Warsaw, Poland",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/poland-condemns-russian-provocation-after-three-airspace-violations_n_6b004317e4b0976dc4a2f08e",
+      "image": null,
+      "ts": 1795179608000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 1,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/poland-condemns-russian-provocation-after-three-airspace-violations_n_6b004317e4b0976dc4a2f08e"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dbccaff9a5b9",
+      "title": "Poland condemns Russian 'provocation' after three airspace violations",
+      "description": "Poland denounces repeated Russian incursions into its airspace, raising diplomatic tension.",
+      "lat": 53.33,
+      "lng": 22.9152,
+      "severity": 3,
       "location": "Warsaw, Poland",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/poland-condemns-russian-provocation-after-three-airspace-violations_n_6b004317e4b0976dc4a2f08e",
@@ -7467,72 +7553,6 @@
             "n": "Daily Star World",
             "b": "right",
             "u": "https://www.dailystar.co.uk/news/world-news/multiple-people-shot-gunman-opens-37854278"
-          }
-        ]
-      }
-    },
-    {
-      "id": "816362bf1e7e",
-      "title": "Masked protesters set off firecrackers and block roads in Albania",
-      "description": "Police used water cannons to disperse masked protesters who blocked streets in Tirana, Albania's capital.",
-      "lat": 41.33,
-      "lng": 19.82,
-      "severity": 3,
-      "location": "Tirana, Albania",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/masked-protesters-set-off-firecrackers-and-block-roads-in-albania?traffic_source=rss",
-      "image": null,
-      "ts": 1794080959000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/11/7/masked-protesters-set-off-firecrackers-and-block-roads-in-albania?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2f8621c6ae76",
-      "title": "U.S. Is Seeking To Expand Its Blockade On Iran Despite Growing Bipartisan Opposition To The Conflict",
-      "description": "CENTCOM created a 20‑member task force to disrupt Iran's land and Caspian Sea supply routes, intensifying Washington's economic pressure campaign.",
-      "lat": 35.69,
-      "lng": 51.389999999999986,
-      "severity": 3,
-      "location": "Tehran, Iran",
-      "source": "IBTimes",
-      "url": "https://www.ibtimes.com/centcom-task-force-iron-gate-iran-supply-routes-3809533",
-      "image": null,
-      "ts": 1794076849000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/centcom-task-force-iron-gate-iran-supply-routes-3809533"
           }
         ]
       }
