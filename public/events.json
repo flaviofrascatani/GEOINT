@@ -1,7 +1,262 @@
 {
   "schema": 1,
-  "updated": "2026-11-22T15:38:33.098507+00:00",
+  "updated": "2026-11-22T21:42:45.877307+00:00",
   "events": [
+    {
+      "id": "bdc036e2553d",
+      "title": "Russia starts towing its ship hit by drones in Baltic, Finland says",
+      "description": "A Russian cargo vessel damaged by drone strikes in the Baltic Sea was taken under tow by a Russian rescue ship after firefighting efforts.",
+      "lat": 60.1,
+      "lng": 24.9,
+      "severity": 3,
+      "location": "Baltic Sea near Finland",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3375406/russia-starts-towing-its-ship-hit-drones-baltic-finland-says",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/23/1573f6be-b5c1-4e86-89c7-c9952256d723_3ae63899.jpg?itok=caey27pe&v=1795382837",
+      "ts": 1795383157000,
+      "coverage": {
+        "left": 0,
+        "center": 5,
+        "right": 0,
+        "total": 5,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 5,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/11/22/russian-cargo-ship-still-on-fire-off-finland-after-attack.html"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFODE1OHY1cFcwSGdUUGhHdVVsdVc2NU1YVHk0eEVRT2xyLUUyR2phMkpMYmR5ZC1uTk5PSnJKTDVtUkRaU0xzdUFlVGRXRmhkUU53UnM2czBrVGc?oc=5"
+          },
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/world/russia-central-asia/article/3375406/russia-starts-towing-its-ship-hit-drones-baltic-finland-says"
+          },
+          {
+            "n": "Channel News Asia",
+            "b": "center",
+            "u": "https://www.channelnewsasia.com/world/russia-starts-towing-ship-hit-drones-in-baltic-finland-says-6573286"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d0fa689884c9",
+      "title": "Ukraine shells populated areas of Donetsk People’s Republic 45 times in last 24 hours",
+      "description": "Ukrainian forces bombarded civilian areas in the self‑declared Donetsk People’s Republic, injuring several civilians.",
+      "lat": 48.02,
+      "lng": 37.8,
+      "severity": 3,
+      "location": "Donetsk, Ukraine",
+      "source": "TASS",
+      "url": "https://tass.com/defense/2223091",
+      "image": null,
+      "ts": 1795383005000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/defense/2223091"
+          }
+        ]
+      }
+    },
+    {
+      "id": "386b9ad7a644",
+      "title": "US Says Authorized Trade Can Use Mariel Port",
+      "description": "The US Treasury permits authorized trade to continue through Cuba's Mariel port while keeping sanctioned operators on the blacklist.",
+      "lat": 22.97,
+      "lng": -82.78,
+      "severity": 2,
+      "location": "Mariel, Cuba",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/us-says-authorized-trade-can-use-cuba-mariel-port/",
+      "image": null,
+      "ts": 1795376038000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/us-says-authorized-trade-can-use-cuba-mariel-port/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "127f7bd466fd",
+      "title": "Russian ship hit in Benghazi by suspected Ukrainian drone attack, say Libyan officials",
+      "description": "A Russian warship docked at Libya’s Benghazi naval base was struck by an explosion attributed to a suspected Ukrainian drone.",
+      "lat": 32.12,
+      "lng": 20.07,
+      "severity": 3,
+      "location": "Benghazi, Libya",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+      "image": null,
+      "ts": 1795373456000,
+      "coverage": {
+        "left": 4,
+        "center": 4,
+        "right": 1,
+        "total": 9,
+        "buckets": {
+          "left": 0,
+          "lean_left": 4,
+          "center": 4,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/suspected-drone-strike-hits-russian-vessel-libya-138359178"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/news/russian-warship-struck-suspected-ukrainian-sea-drones-benghazi-naval-base-libya-officials/"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/video/newsfeed/2026/11/22/suspected-drone-attack-causes-explosion-on-russian-ship-in-libya?traffic_source=rss"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/africa/20261122-russian-warship-hit-by-suspected-ukrainian-drone-at-libya-s-benghazi-naval-base"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545?maca=en-rss-en-all-1573-rdf"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSHNFQ2hvQUxyR05zYXIyVjczNjE3eEVLWWhMdk1mS01BQV91dy03OU5SSzVzbzlvVk1ManQ2TFhqU2xkRkhZcGthVlZad0E1aVRKU1E5ZWxJTWRQVG5UYmFYYmcxZGJ1TFc1YzE0a2E4XzQ4SGJLNjNlc0otTGhGRnRWTHpmeW1mWnVBLTNhYmFLU3JOUTVfSTliN19fMG9rRWlmeFdKNHFSU1JVTTdnQUNhUlBUWmRSTDVXUUJuUW9fNEV2cjNWdTlPZw?oc=5"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/defense/2223067"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4aeddb86f46f",
+      "title": "Iran strike wounds two in Bahrain, Saudi condemns 'criminal' attacks",
+      "description": "An Iranian drone strike on a civilian industrial site in Bahrain injured two people, prompting Saudi Arabia to denounce the attack.",
+      "lat": 26.23,
+      "lng": 50.58,
+      "severity": 3,
+      "location": "Manama, Bahrain",
+      "source": "Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/11/iran-strike-wounds-two-bahrain-saudi-condemns-criminal-attacks",
+      "image": "https://s.france24.com/media/display/dc1d38c8-e108-11f1-8b7b-5f54d898a954/w:1024/p:16x9/EN-20261115-160212-160405-CS.jpg",
+      "ts": 1795372224000,
+      "coverage": {
+        "left": 1,
+        "center": 3,
+        "right": 3,
+        "total": 7,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 3,
+          "lean_right": 2,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/bahrain-says-iran-struck-industrial-site-as-tankers-hit-in-hormuz/article71730497.ece"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/11/22/saudi-houthi-bahrain-iran-attacks-araghchi-talks.html"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/11/iran-strike-wounds-two-bahrain-saudi-condemns-criminal-attacks"
+          },
+          {
+            "n": "Egypt Independent",
+            "b": "center",
+            "u": "https://www.egyptindependent.com/bahrain-strongly-condemns-irans-continued-attacks-calls-for-reparations/"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://rt-english.com/news/649196-iran-bahrain-us-bases/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/mid-east/bahrain-industrial-site-us-positions-targeted-by-fresh-iran-strikes"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/iran-backed-houthi-terrorist-attack-hits-riyadh-tallest-skyscraper-hq-saudi-public-investment-fund"
+          }
+        ]
+      }
+    },
     {
       "id": "6e936f0ca967",
       "title": "Russia Strikes Ukrainian Military‑Industrial Power Substation and Black Sea Cargo Ship – MoD",
@@ -2251,44 +2506,6 @@
             "n": "Japan Times",
             "b": "center",
             "u": "https://www.japantimes.co.jp/news/2026/11/19/world/saudi-yemen-campaign-2027/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4aeddb86f46f",
-      "title": "Iran warns Bahrain monarchy its survival is at risk amid push to 'evict' US Fifth Fleet",
-      "description": "Iran’s Islamic Revolutionary Guard Corps warned Bahrain’s monarchy that its survival is in doubt as drones and missiles target the U.S. Fifth Fleet.",
-      "lat": 26.23,
-      "lng": 50.58,
-      "severity": 2,
-      "location": "Manama, Bahrain",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/iran-warns-bahrain-monarchy-survival-risk-push-evict-us-fifth-fleet",
-      "image": "https://s.france24.com/media/display/dc1d38c8-e108-11f1-8b7b-5f54d898a954/w:1024/p:16x9/EN-20261115-160212-160405-CS.jpg",
-      "ts": 1795049697000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/iran-army-says-it-targeted-us-military-base-in-kuwait/article71715048.ece"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/iran-warns-bahrain-monarchy-survival-risk-push-evict-us-fifth-fleet"
           }
         ]
       }
@@ -7356,168 +7573,6 @@
             "n": "OAN",
             "b": "right",
             "u": "https://www.oann.com/newsroom/centcom-launches-task-force-to-disrupt-iranian-ground-routes/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2411677c8922",
-      "title": "Collision of two trains in Egypt kills at least seven",
-      "description": "Two passenger trains collided near al‑Ayyat, south of Cairo, killing seven people and injuring about 125.",
-      "lat": 31.1,
-      "lng": 31.0,
-      "severity": 4,
-      "location": "Al‑Ayyat, Egypt",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
-      "image": null,
-      "ts": 1794160277000,
-      "coverage": {
-        "left": 2,
-        "center": 1,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 1,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/egypt-train-crash-giza-derailment-37855913"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/11/09/egypt-train-crash-survivors-describe-horror-after-collision-kills-seven/"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://rt-english.com/news/648577-two-trains-collide-egypt/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a0518dc86d8d",
-      "title": "COP31 conference in Turkey aims to move climate up the agenda in a crisis‑rocked world",
-      "description": "World leaders gathered in Antalya for the 31st UN climate conference, seeking stronger commitments amid energy and geopolitical tensions.",
-      "lat": 36.89,
-      "lng": 30.7,
-      "severity": 1,
-      "location": "Antalya, Turkey",
-      "source": "Le Monde English",
-      "url": "https://www.lemonde.fr/en/environment/article/2026/11/08/cop31-conference-turkey-aims-to-move-climate-up-the-agenda-in-a-crisis-rocked-world_6775243_114.html",
-      "image": "https://img.lemde.fr/2026/11/06/144/0/4619/2309/644/322/60/0/4a04eae_upload-1-vvq1g79wlrxy-068-aa-02112026-3022578-1.jpg",
-      "ts": 1794160210000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/environment/article/2026/11/08/cop31-conference-turkey-aims-to-move-climate-up-the-agenda-in-a-crisis-rocked-world_6775243_114.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "b1f0e8046570",
-      "title": "Tens of thousands march in Amsterdam, pressing Dutch government on Gaza, Israel",
-      "description": "Demonstrators gathered in Amsterdam demanding stricter sanctions on Israel and a declaration of genocide over the Gaza conflict.",
-      "lat": 53.47,
-      "lng": 4.900000000000006,
-      "severity": 3,
-      "location": "Amsterdam, Netherlands",
-      "source": "The Hindu International",
-      "url": "https://www.thehindu.com/news/international/tens-of-thousands-march-in-amsterdam-pressing-dutch-government-on-gaza-israel/article71681124.ece",
-      "image": "https://th-i.thgim.com/public/incoming/5l38ab/article71681172.ece/alternates/LANDSCAPE_1200/Netherlands_Red_Line_Protest_35126.jpg",
-      "ts": 1794160159000,
-      "coverage": {
-        "left": 2,
-        "center": 1,
-        "right": 1,
-        "total": 4,
-        "buckets": {
-          "left": 0,
-          "lean_left": 2,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/tens-thousands-march-amsterdam-pressing-dutch-government-gaza-137954786"
-          },
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/tens-of-thousands-march-in-amsterdam-pressing-dutch-government-on-gaza-israel/article71681124.ece"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/europe/article/3373715/tens-thousands-dutch-protesters-take-amsterdam-streets-support-palestinians"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/europe/2026/11/08/tens-of-thousands-protest-in-amsterdam-against-israel/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "3489622b5013",
-      "title": "G7 ministers to discuss recent cyber attacks, Italy says",
-      "description": "Foreign ministers at the G7 meeting in Paris will address a series of cyber incidents attributed to pro‑Russian groups.",
-      "lat": 48.86,
-      "lng": 4.255200000000002,
-      "severity": 2,
-      "location": "Paris, France",
-      "source": "Straits Times Asia",
-      "url": "https://www.straitstimes.com/asia/g7-ministers-to-discuss-recent-cyber-attacks-italy-says",
-      "image": null,
-      "ts": 1794157117000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Straits Times Asia",
-            "b": "center",
-            "u": "https://www.straitstimes.com/asia/g7-ministers-to-discuss-recent-cyber-attacks-italy-says"
           }
         ]
       }
