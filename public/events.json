@@ -1,7 +1,182 @@
 {
   "schema": 1,
-  "updated": "2026-11-22T00:17:30.678611+00:00",
+  "updated": "2026-11-22T07:24:08.140736+00:00",
   "events": [
+    {
+      "id": "963409bbb8c9",
+      "title": "Laos 'least-developed' status shift, Tata meeting, Taiwan local elections",
+      "description": "Laos was reclassified from least‑developed country status, opening new avenues for trade and investment.",
+      "lat": 17.97,
+      "lng": 102.6,
+      "severity": 1,
+      "location": "Vientiane, Laos",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/spotlight/your-week-in-asia/laos-least-developed-status-shift-tata-meeting-taiwan-local-elections",
+      "image": null,
+      "ts": 1795332248000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Nikkei Asia",
+            "b": "center",
+            "u": "https://asia.nikkei.com/spotlight/your-week-in-asia/laos-least-developed-status-shift-tata-meeting-taiwan-local-elections"
+          }
+        ]
+      }
+    },
+    {
+      "id": "67bd3cd50dca",
+      "title": "Russia Hits Oil Refining Facilities Deep Inside Ukraine With Geran Drones – MoD",
+      "description": "Russian forces used Geran drones to strike oil refineries and related infrastructure in interior Ukraine.",
+      "lat": 45.35,
+      "lng": 36.58,
+      "severity": 3,
+      "location": "Kerch, Crimea",
+      "source": "Sputnik International",
+      "url": "https://sputnikglobe.com/20261122/russia-hits-oil-refining-facilities-deep-inside-ukraine-with-geran-drones--mod-1125130377.html",
+      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/11/ukraine-russia-crisis-fire.gif",
+      "ts": 1795331010000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Mirror World",
+            "b": "lean_left",
+            "u": "https://www.mirror.co.uk/news/world-news/trump-putin-ukraine-war-russia-37900851"
+          },
+          {
+            "n": "Sputnik International",
+            "b": "right",
+            "u": "https://sputnikglobe.com/20261122/russia-hits-oil-refining-facilities-deep-inside-ukraine-with-geran-drones--mod-1125130377.html"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b175b9bfe6b3",
+      "title": "Beijing vows to defend interests as US bars Chinese telecoms from accessing phone numbers",
+      "description": "China's foreign ministry warned the United States over a new FCC ban on Chinese telecom operators, promising counter‑measures.",
+      "lat": 40.0,
+      "lng": -77.04,
+      "severity": 2,
+      "location": "Washington, D.C., USA",
+      "source": "South China Morning Post",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3375364/beijing-vows-defend-interests-us-bars-chinese-telecoms-accessing-phone-numbers",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/22/0705b8c1-b044-4b49-b2f5-b114a66c35d9_d2c782b6.jpg?itok=IzP3lxyz&v=1795330912",
+      "ts": 1795330922000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "South China Morning Post",
+            "b": "center",
+            "u": "https://www.scmp.com/news/china/diplomacy/article/3375364/beijing-vows-defend-interests-us-bars-chinese-telecoms-accessing-phone-numbers"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7f3fd488598a",
+      "title": "After Ukraine strikes, Crimea bridge to take 'few months' to clear",
+      "description": "Ukraine's defence ministry says debris removal from the damaged Kerch Strait Bridge will take several months.",
+      "lat": 45.36,
+      "lng": 36.56999999999999,
+      "severity": 3,
+      "location": "Kerch, Crimea",
+      "source": "Times of India World",
+      "url": "https://timesofindia.indiatimes.com/world/europe/after-relentless-ukraine-strikes-russia-to-take-at-least-a-few-months-to-clear-crimea-bridge/articleshow/136069125.cms",
+      "image": "https://static.toiimg.com/photo/msid-136069173,imgsize-113670.cms",
+      "ts": 1795330166000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Times of India World",
+            "b": "center",
+            "u": "https://timesofindia.indiatimes.com/world/europe/after-relentless-ukraine-strikes-russia-to-take-at-least-a-few-months-to-clear-crimea-bridge/articleshow/136069125.cms"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/ukraine-deals-major-blow-putins-crimea-lifeline-european-intel-assessment-claims"
+          }
+        ]
+      }
+    },
+    {
+      "id": "46f4662fdcba",
+      "title": "Fossil fuels still absent in latest COP31 draft deal",
+      "description": "The draft for COP31, hosted by Turkey, again omits explicit references to fossil‑fuel phase‑out, drawing criticism from climate groups.",
+      "lat": 41.01,
+      "lng": 28.96,
+      "severity": 3,
+      "location": "Istanbul, Turkey",
+      "source": "RTE News",
+      "url": "https://www.rte.ie/news/world/2026/1122/1600166-cop31-turkey/",
+      "image": "https://www.rte.ie/images/002561b9-800.jpg",
+      "ts": 1795308090000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "RTE News",
+            "b": "center",
+            "u": "https://www.rte.ie/news/world/2026/1122/1600166-cop31-turkey/"
+          }
+        ]
+      }
+    },
     {
       "id": "9f31b18ce5ea",
       "title": "Iran prepares oil tanker convoy to break US naval blockade, threatens Gulf facilities",
@@ -38,10 +213,10 @@
     {
       "id": "b127da827024",
       "title": "Egypt signs agreement to bring 100 idle oil wells back into production",
-      "description": "Egyptian Petroleum Minister signs framework with a global firm to reactivate dormant oil wells, boosting output.",
+      "description": "Egypt and a global petroleum firm signed a framework to reactivate 100 dormant oil wells, boosting domestic output.",
       "lat": 31.14,
       "lng": 33.14519999999999,
-      "severity": 1,
+      "severity": 2,
       "location": "Cairo, Egypt",
       "source": "Egypt Independent",
       "url": "https://www.egyptindependent.com/egypt-signs-agreement-to-bring-100-idle-oil-wells-back-into-production/",
@@ -64,6 +239,92 @@
             "n": "Egypt Independent",
             "b": "center",
             "u": "https://www.egyptindependent.com/egypt-signs-agreement-to-bring-100-idle-oil-wells-back-into-production/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "91c49881d060",
+      "title": "At least 11 dead after suspected cartel leader 'El Chapo Isidro' captured in Mexico",
+      "description": "Violent clashes in Sinaloa following the capture of a high‑profile drug cartel leader left at least eleven people dead.",
+      "lat": 24.79,
+      "lng": -107.39,
+      "severity": 3,
+      "location": "Culiacán, Mexico",
+      "source": "Sky News World",
+      "url": "https://news.sky.com/story/suspected-cartel-leader-el-chapo-isidro-from-fbi-most-wanted-list-captured-in-mexico-13614689",
+      "image": "https://e3.365dm.com/26/11/1920x1080/skynews-fausto-isidro-meza-flores_7413068.jpg?20261122010847",
+      "ts": 1795268040000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 2,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 1,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/11/21/mexico-seizes-cartel-boss-el-chapo-isidro-among-fbis-most-wanted/"
+          },
+          {
+            "n": "Sky News World",
+            "b": "center",
+            "u": "https://news.sky.com/story/suspected-cartel-leader-el-chapo-isidro-from-fbi-most-wanted-list-captured-in-mexico-13614689"
+          },
+          {
+            "n": "Washington Times World",
+            "b": "lean_right",
+            "u": "https://www.washingtontimes.com/news/2026/nov/21/mexico-detains-top-cartel-boss-el-chapo-isidro-setting-burst-violence/"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/fbi-ten-most-wanted-cartel-leader-chapo-isidro-captured-mexicos-elite-military-forces-us-help"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9ae0a10d1493",
+      "title": "Missile attack on Zelenskyy's hometown in central Ukraine kills 2 and wounds scores",
+      "description": "A Russian missile struck Kryvyi Rih, killing two civilians and injuring dozens.",
+      "lat": 47.91,
+      "lng": 33.41,
+      "severity": 4,
+      "location": "Kryvyi Rih, Ukraine",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/ballistic-missile-attack-zelenskyys-hometown-central-ukraine-kills-138340723",
+      "image": "https://s.abcnews.com/images/International/wirestory_bfdee2ffadc2693e7338d6822e5356ef_4x3_384.jpg",
+      "ts": 1795265230000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/ballistic-missile-attack-zelenskyys-hometown-central-ukraine-kills-138340723"
+          },
+          {
+            "n": "Washington Times World",
+            "b": "lean_right",
+            "u": "https://www.washingtontimes.com/news/2026/nov/21/ballistic-missile-attack-kryvyi-rih-hometown-volodymyr-zelenskyy/"
           }
         ]
       }
@@ -446,69 +707,6 @@
             "n": "Africanews",
             "b": "center",
             "u": "http://www.africanews.com/2026/11/20/germany-berlin-student-protest-targets-rearmament-and-compulsory-service/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "67bd3cd50dca",
-      "title": "Russia missiles pummel Ukraine and hit NATO soil in Poland",
-      "description": "Russian missiles crossed into Poland overnight, part of a large‑scale attack on Ukraine, killing at least eight people.",
-      "lat": 45.35,
-      "lng": 36.58,
-      "severity": 4,
-      "location": "Kerch, Crimea",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/ukraine-war-russia-intentional-provocation-poland-missiles-nato/",
-      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/11/ukraine-russia-crisis-fire.gif",
-      "ts": 1795206518000,
-      "coverage": {
-        "left": 4,
-        "center": 2,
-        "right": 1,
-        "total": 7,
-        "buckets": {
-          "left": 0,
-          "lean_left": 4,
-          "center": 2,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/ukraine-war-russia-intentional-provocation-poland-missiles-nato/"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/intentional-provocation-russian-missile-meant-for-ukraine-hits-poland-12355081#publisher=newsstand"
-          },
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/trump-putin-ukraine-war-russia-37900851"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/11/20/russian-strikes-on-kyiv-kill-at-least-six_6785275_4.html"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-11-20/trump-defends-ties-with-putin-as-russia-steps-up-ukraine-attacks"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/russia-putin-vows-response-far-more-painful-ukraine-attacks-prized-bridge-crimea"
           }
         ]
       }
@@ -7300,259 +7498,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/11/us-military-says-it-disabled-cargo-vessel-gulf-oman"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ec3408a4784e",
-      "title": "Paraguay’s prosecutors charge former President Santiago Peña over Ueno Bank collapse",
-      "description": "El ex presidente Santiago Peña es acusado y se solicita su detención preventiva por su presunta responsabilidad en la quiebra del Banco Ueno.",
-      "lat": -24.18,
-      "lng": -57.58,
-      "severity": 3,
-      "location": "Asunción, Paraguay",
-      "source": "MercoPress",
-      "url": "https://en.mercopress.com/2026/11/08/paraguay-s-prosecutors-charge-santiago-pena-and-seek-his-pre-trial-detention-over-the-ueno-bank-collapse?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "image": "https://en.mercopress.com/data/cache/noticias/112032/100x80/pen.jpeg",
-      "ts": 1794102780000,
-      "coverage": {
-        "left": 0,
-        "center": 3,
-        "right": 0,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 3,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-11-07/paraguay-bank-crisis-drives-ex-president-horacio-cortes-to-wrest-power-back"
-          },
-          {
-            "n": "Rio Times",
-            "b": "center",
-            "u": "https://www.riotimesonline.com/paraguay-guarani-bonds-banks-after-ueno/"
-          },
-          {
-            "n": "MercoPress",
-            "b": "center",
-            "u": "https://en.mercopress.com/2026/11/08/paraguay-s-prosecutors-charge-santiago-pena-and-seek-his-pre-trial-detention-over-the-ueno-bank-collapse?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "a8374e934ef6",
-      "title": "Israeli President Herzog Tasks Eisenkot with Forming Government in Setback for Netanyahu",
-      "description": "El presidente Isaac Herzog asignó a Gadi Eisenkot la tarea de formar el próximo gobierno israelí, marcando un giro político importante.",
-      "lat": 31.78,
-      "lng": 35.22,
-      "severity": 2,
-      "location": "Jerusalén, Israel",
-      "source": "Breitbart",
-      "url": "https://www.breitbart.com/politics/2026/11/07/israeli-president-herzog-tasks-eisenkot-with-forming-government-in-setback-for-netanyahu/",
-      "image": null,
-      "ts": 1794094470000,
-      "coverage": {
-        "left": 3,
-        "center": 3,
-        "right": 1,
-        "total": 7,
-        "buckets": {
-          "left": 0,
-          "lean_left": 3,
-          "center": 3,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "New York Times World",
-            "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/11/07/world/middleeast/israel-eisenkot-government.html"
-          },
-          {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/israel-elections-gadi-eisenkot-gets-mandate-to-form-israel-government-benjamin-netanyahu-fights-for-survival-12298820#publisher=newsstand"
-          },
-          {
-            "n": "Le Monde English",
-            "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/11/07/israeli-president-tasks-eisenkot-netanyahu-s-main-opponent-with-forming-government_6774550_4.html"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
-          },
-          {
-            "n": "The Hill",
-            "b": "center",
-            "u": "https://thehill.com/policy/international/6206234-herzog-appoints-eisenkot-form-government/"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-11-07/israel-president-to-give-eisenkot-a-chance-to-form-government"
-          },
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/politics/2026/11/07/israeli-president-herzog-tasks-eisenkot-with-forming-government-in-setback-for-netanyahu/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d02556e3013b",
-      "title": "Netanyahu faces being ousted as rival given chance to form new Israeli government",
-      "description": "Israel’s president authorises opposition leader Gadi Eisenkot to attempt to build a coalition, indicating potential shift in Israeli leadership.",
-      "lat": 31.78,
-      "lng": 35.22,
-      "severity": 3,
-      "location": "Jerusalem, Israel",
-      "source": "Mirror World",
-      "url": "https://www.mirror.co.uk/news/world-news/netanyahu-faces-being-ousted-rival-37854898",
-      "image": "https://i2-prod.mirror.co.uk/incoming/article37810812.ece/ALTERNATES/s615/1_Gadi-Eisenkot-Holds-Campaign-Rally-In-Tel-Aviv.jpg",
-      "ts": 1794091777000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Mirror World",
-            "b": "lean_left",
-            "u": "https://www.mirror.co.uk/news/world-news/netanyahu-faces-being-ousted-rival-37854898"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c243b3027e09",
-      "title": "Israeli president taps Netanyahu rival to form government as coalition battle looms",
-      "description": "President appointed Gadi Eisenkot with Knesset backing, but deep divisions over Arab parties and conscription threaten coalition formation.",
-      "lat": 31.78,
-      "lng": 35.22,
-      "severity": 3,
-      "location": "Jerusalem, Israel",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/israeli-president-picks-netanyahu-rival-form-government-coalition-battle-looms",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/07/931/523/israeli-president-isaac-herzog-fox-news-digital-interview.jpg?ve=1&tl=1",
-      "ts": 1794089857000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/israeli-president-picks-netanyahu-rival-form-government-coalition-battle-looms"
-          }
-        ]
-      }
-    },
-    {
-      "id": "ad8df6c5128e",
-      "title": "Israeli president picks Gadi Eisenkot to form government: Statement",
-      "description": "President Isaac Herzog tasked former military chief Gadi Eisenkot with forming a new coalition government after Netanyahu's era ended.",
-      "lat": 31.78,
-      "lng": 35.22,
-      "severity": 2,
-      "location": "Jerusalem, Israel",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/israeli-president-picks-gadi-eisenkot-to-form-government-statement/a-79888288?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1794082219299,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/middle-east/20261107-israeli-president-picks-netanyahu-s-rival-eisenkot-to-try-to-form-government"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/israeli-president-picks-gadi-eisenkot-to-form-government-statement/a-79888288?maca=en-rss-en-all-1573-rdf"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e827dd53212e",
-      "title": "Mass shooting in Polish market leaves at least 6 dead, 15 injured",
-      "description": "A gunman drove onto Krakow's main square and opened fire, killing six people and wounding fifteen.",
-      "lat": 50.06,
-      "lng": 19.94,
-      "severity": 3,
-      "location": "Krakow, Poland",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/shooting-main-market-square-krakow-poland/",
-      "image": null,
-      "ts": 1794081103000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/shooting-main-market-square-krakow-poland/"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/at-least-6-killed-in-shooting-in-polish-city-of-krakow-police-say/a-79886489?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Daily Star World",
-            "b": "right",
-            "u": "https://www.dailystar.co.uk/news/world-news/multiple-people-shot-gunman-opens-37854278"
           }
         ]
       }
