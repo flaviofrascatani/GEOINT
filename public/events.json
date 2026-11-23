@@ -1,7 +1,40 @@
 {
   "schema": 1,
-  "updated": "2026-11-22T21:42:45.877307+00:00",
+  "updated": "2026-11-23T02:36:41.098851+00:00",
   "events": [
+    {
+      "id": "1746595c85f6",
+      "title": "Brazil to urge Russia, US and China to maintain trilateral contacts",
+      "description": "President Lula da Silva calls for continued dialogue among the three powers, emphasizing Brazil’s role as a mediator.",
+      "lat": -14.69,
+      "lng": -47.879999999999995,
+      "severity": 1,
+      "location": "Brasília, Brazil",
+      "source": "TASS",
+      "url": "https://tass.com/world/2223125",
+      "image": null,
+      "ts": 1795400099000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2223125"
+          }
+        ]
+      }
+    },
     {
       "id": "bdc036e2553d",
       "title": "Russia starts towing its ship hit by drones in Baltic, Finland says",
@@ -89,6 +122,39 @@
       }
     },
     {
+      "id": "3ea973fe2999",
+      "title": "World LNG Summit & Awards 2026: All eyes on Istanbul",
+      "description": "Global energy leaders gather in Istanbul to discuss LNG markets and future contracts.",
+      "lat": 42.11,
+      "lng": 28.960000000000008,
+      "severity": 2,
+      "location": "Istanbul, Turkey",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/opinion/op-ed/world-lng-summit-awards-2026-all-eyes-on-istanbul",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/11/22/471397.jpg",
+      "ts": 1795381500000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/opinion/op-ed/world-lng-summit-awards-2026-all-eyes-on-istanbul"
+          }
+        ]
+      }
+    },
+    {
       "id": "386b9ad7a644",
       "title": "US Says Authorized Trade Can Use Mariel Port",
       "description": "The US Treasury permits authorized trade to continue through Cuba's Mariel port while keeping sanctioned operators on the blacklist.",
@@ -117,6 +183,54 @@
             "n": "Rio Times",
             "b": "center",
             "u": "https://www.riotimesonline.com/us-says-authorized-trade-can-use-cuba-mariel-port/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "88caee0a05e5",
+      "title": "Poland says Russia twice tried to kill a Ukrainian American rapper – Denmark expelled a Russian official",
+      "description": "Denmark expelled a Russian diplomat after thwarting an alleged assassination plot linked to Russia.",
+      "lat": 56.78,
+      "lng": 14.475200000000001,
+      "severity": 3,
+      "location": "Copenhagen, Denmark",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/poland-russia-allegedly-kill-ukrainian-american-rapper-138362108",
+      "image": "https://s.abcnews.com/images/International/wirestory_291d2e6c33441c06963c4807c32eb7cd_4x3_384.jpg",
+      "ts": 1795374209000,
+      "coverage": {
+        "left": 3,
+        "center": 0,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 0,
+          "lean_left": 3,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/world/europe/denmark-accuses-russia-plotting-kill-ukrainian-american-rapper-soil-rcna610542"
+          },
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/poland-russia-allegedly-kill-ukrainian-american-rapper-138362108"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/11/23/poland-says-russia-tried-to-assassinate-ukrainian-rapper-twice?traffic_source=rss"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/denmark-accuses-russia-plotting-kill-ukrainian-american-rapper-danish-soil"
           }
         ]
       }
@@ -1461,10 +1575,10 @@
     {
       "id": "9f83e8270403",
       "title": "Central African Republic: How Wagner’s gold stands in the way of peace",
-      "description": "Negotiations in Bangui and N’Djamena over the return of three rebel leaders are stalled by Russian Wagner Group interests in CAR gold mines.",
+      "description": "Negotiations in Bangui and N’Djamena over rebel leaders are complicated by Russian Wagner Group’s gold interests.",
       "lat": 4.36,
       "lng": 18.56,
-      "severity": 3,
+      "severity": 2,
       "location": "Bangui, Central African Republic",
       "source": "The Africa Report",
       "url": "https://www.theafricareport.com/437055/central-african-republic-how-wagners-gold-stands-in-the-way-of-peace/",
@@ -7474,105 +7588,6 @@
             "n": "South China Morning Post",
             "b": "center",
             "u": "https://www.scmp.com/news/world/middle-east/article/3373721/attack-iraq-gas-complex-disrupts-supply-regions-power-plants-authorities-say"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c73d7b8d0e8a",
-      "title": "Iran Urges Washington To Accept 2-Day Proposal To End Hostilities Or Face 'Hell'",
-      "description": "Iranian foreign minister Abbas Araghchi demanded the United States accept a two‑day plan to reopen the Strait of Hormuz in exchange for lifting sanctions, warning of severe consequences.",
-      "lat": 40.0,
-      "lng": -75.1348,
-      "severity": 2,
-      "location": "Washington, D.C., United States",
-      "source": "IBTimes",
-      "url": "https://www.ibtimes.com/iran-two-day-plan-reopen-strait-hormuz-3809540",
-      "image": null,
-      "ts": 1794165916000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "IBTimes",
-            "b": "center",
-            "u": "https://www.ibtimes.com/iran-two-day-plan-reopen-strait-hormuz-3809540"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4d7bf307e77e",
-      "title": "Iran’s proposals on opening Strait of Hormuz still on table — top diplomat",
-      "description": "Iranian foreign minister Abbas Araghchi said Tehran remains ready to negotiate the reopening of the Strait of Hormuz if Washington meets its demands.",
-      "lat": 36.79,
-      "lng": 51.389999999999986,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "TASS",
-      "url": "https://tass.com/world/2214517",
-      "image": null,
-      "ts": 1794162045000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/world/2214517"
-          }
-        ]
-      }
-    },
-    {
-      "id": "922593374224",
-      "title": "CENTCOM launches task force to disrupt Iranian ground routes",
-      "description": "U.S. Central Command created a new task force to interdict Iranian overland networks used to move advanced weapons and materials.",
-      "lat": 27.95,
-      "lng": -82.46,
-      "severity": 3,
-      "location": "Tampa, USA",
-      "source": "OAN",
-      "url": "https://www.oann.com/newsroom/centcom-launches-task-force-to-disrupt-iranian-ground-routes/",
-      "image": null,
-      "ts": 1794160583000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "OAN",
-            "b": "right",
-            "u": "https://www.oann.com/newsroom/centcom-launches-task-force-to-disrupt-iranian-ground-routes/"
           }
         ]
       }
