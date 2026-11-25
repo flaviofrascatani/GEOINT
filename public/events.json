@@ -1,7 +1,159 @@
 {
   "schema": 1,
-  "updated": "2026-11-25T12:41:30.566075+00:00",
+  "updated": "2026-11-25T22:27:04.598860+00:00",
   "events": [
+    {
+      "id": "1543bc097e8d",
+      "title": "Nigeria detains 5 Mexicans, confiscates over $220 million of meth",
+      "description": "Nigeria's anti‑drug agency seized a large meth operation in Enugu state and detained five Mexican nationals linked to it.",
+      "lat": 6.45,
+      "lng": 7.51,
+      "severity": 3,
+      "location": "Enugu, Nigeria",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/nigeria-detains-5-mexicans-confiscates-over-220-million-of-meth/a-80054606?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1795645624517,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/nigeria-seizes-220-million-worth-meth-arrests-5-138448484"
+          },
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/nigeria-detains-5-mexicans-confiscates-over-220-million-of-meth/a-80054606?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d6d2b73b17f3",
+      "title": "Ukraine conflict now Europe’s proxy war against Russia – Kushner",
+      "description": "U.S. envoy Jared Kushner described the Ukraine war as a proxy conflict between Europe and Russia.",
+      "lat": 56.85,
+      "lng": 39.525199999999984,
+      "severity": 2,
+      "location": "Moscow, Russia",
+      "source": "RT News",
+      "url": "https://rt-english.com/news/649364-kushner-ukraine-proxy-war-russia/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+      "image": "https://mf.b37mrtl.ru/files/2026.11/thumbnail/6b075c1b85f5405cbb27a74f.jpg",
+      "ts": 1795644458000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 2,
+        "total": 3,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 2,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/europe-spent-more-on-russian-fuel-than-ukraine-aid-us-envoy-jared-kushner-12377750#publisher=newsstand"
+          },
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2224953"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://rt-english.com/news/649364-kushner-ukraine-proxy-war-russia/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0ab0ca80ed3c",
+      "title": "North Korea’s Kim calls for wider tactical nuclear deployment",
+      "description": "Kim Jong Un urged expanding the deployment of tactical nuclear weapons across multiple military domains during an inspection of nuclear material production.",
+      "lat": 40.13,
+      "lng": 125.75,
+      "severity": 2,
+      "location": "Pyongyang, North Korea",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/world/asia-pacific/north-koreas-kim-calls-for-wider-tactical-nuclear-deployment",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/11/25/472073.JPG",
+      "ts": 1795641780000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 2,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 2,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Wall Street Journal World",
+            "b": "lean_right",
+            "u": "https://www.wsj.com/articles/kim-jong-un-is-doing-everything-he-can-to-keep-north-koreas-youth-in-line-0866a1de"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/world/asia-pacific/north-koreas-kim-calls-for-wider-tactical-nuclear-deployment"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ffcab99e0922",
+      "title": "Putin's war death toll reportedly tops 700,000 as Russia scrambles for recruits",
+      "description": "Kremlin spokesman dismissed an investigation estimating 700,000 Russian troops have died in the war against Ukraine.",
+      "lat": 56.85,
+      "lng": 37.620000000000005,
+      "severity": 3,
+      "location": "Moscow, Russia",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/putins-war-death-toll-reportedly-tops-700000-russia-scrambles-recruits",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/05/931/523/russian-soldiers.jpg?ve=1&tl=1",
+      "ts": 1795635253000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/putins-war-death-toll-reportedly-tops-700000-russia-scrambles-recruits"
+          }
+        ]
+      }
+    },
     {
       "id": "6e2f7900844a",
       "title": "Israele bombarda (ancora) Gaza, sterminata la famiglia di un funzionario palestinese",
@@ -7511,148 +7663,6 @@
             "n": "France 24",
             "b": "center",
             "u": "https://www.france24.com/en/middle-east/20261111-lina-attalah-egypt-trial-prison"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5fbc8d2106d8",
-      "title": "End of U.S.-Iran War Focuses Iraqi Kurds on Middle East’s Challenges, Opportunities at Slemani Strategic Forum",
-      "description": "Leaders gathered in Sulaymaniyah, Iraq, for a strategic forum to discuss regional security and economic cooperation following the de‑escalation of the U.S.–Iran conflict.",
-      "lat": 35.56,
-      "lng": 45.32,
-      "severity": 2,
-      "location": "Sulaymaniyah, Iraq",
-      "source": "Breitbart",
-      "url": "https://www.breitbart.com/politics/2026/11/10/exclusive-end-of-u-s-iran-war-focuses-iraqi-kurds-on-middle-easts-challenges-opportunities-at-slemani-strategic-forum/",
-      "image": null,
-      "ts": 1794355177000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Breitbart",
-            "b": "right",
-            "u": "https://www.breitbart.com/politics/2026/11/10/exclusive-end-of-u-s-iran-war-focuses-iraqi-kurds-on-middle-easts-challenges-opportunities-at-slemani-strategic-forum/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "fb4607b7374d",
-      "title": "US charges 3 ‘Iranian operatives’ over UK airbase plot",
-      "description": "The U.S. Justice Department indicted three men as “Iranian operatives” for allegedly planning a terrorist attack on Britain’s RAF Fairford airbase.",
-      "lat": 52.6126,
-      "lng": -1.240000000000009,
-      "severity": 3,
-      "location": "Fairford, United Kingdom",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/europe/article/3374002/us-charges-3-iranian-operatives-over-uk-airbase-plot",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/11/3e2aedc6-7a23-4dd9-a2c2-e86a0c8773d2_04ff3a19.jpg?itok=7vScwF15&v=1794354482",
-      "ts": 1794354494000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/us-charges-three-iranian-operatives-over-uk-airbase-plot/article71687536.ece"
-          },
-          {
-            "n": "South China Morning Post",
-            "b": "center",
-            "u": "https://www.scmp.com/news/world/europe/article/3374002/us-charges-3-iranian-operatives-over-uk-airbase-plot"
-          }
-        ]
-      }
-    },
-    {
-      "id": "852985e4285b",
-      "title": "Dominican president says he backs Bukele and Salvadoran troops in Haiti",
-      "description": "The Dominican Republic announced logistical and intelligence support for El Salvador’s deployment of roughly 2,500 troops to Haiti amid the island’s security crisis.",
-      "lat": 18.48,
-      "lng": -69.9,
-      "severity": 3,
-      "location": "Santo Domingo, Dominican Republic",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/dominican-president-backs-bukele-salvadoran-troops-haiti-138027231",
-      "image": "https://s.abcnews.com/images/International/wirestory_55c1bdb8c82fce3b5d49ad33e6d8c194_4x3_384.jpg",
-      "ts": 1794348771000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/dominican-president-backs-bukele-salvadoran-troops-haiti-138027231"
-          }
-        ]
-      }
-    },
-    {
-      "id": "675b00d04ac4",
-      "title": "Iraq bars plane carrying Iran's soccer team from landing in Basra over US sanctions, officials say",
-      "description": "Iraq denied entry to an Iranian team’s aircraft bound for Basra, citing U.S. sanctions, heightening tensions between Tehran and Baghdad.",
-      "lat": 30.51,
-      "lng": 47.81,
-      "severity": 3,
-      "location": "Basra, Iraq",
-      "source": "GNews Geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNXZLZlE1TldPUHRna1pNTU91YTJWVHJ5NmxEZERoWGFudjU4WFI1SHlqVXl1TzFmeHBFcjNjZHhOTkNSVTIzcmFsbnktdzR3MDFaY2FYQzVlaHhBc3V5Nm52R3pvZU5vdHJhZndaV3R2LXh1cVZxUkhvcDQ0Z3lMNXA2THdaM05kZVpNOWliNGQ0cHBNOFhYYU44U3hWaVRkYldWNS11ZUtwNUs5YjBJbVdLYjhidklfMnZwYWVwRHpyMGYyMS1Z?oc=5",
-      "image": null,
-      "ts": 1794345103000,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "GNews Geopolitics",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNXZLZlE1TldPUHRna1pNTU91YTJWVHJ5NmxEZERoWGFudjU4WFI1SHlqVXl1TzFmeHBFcjNjZHhOTkNSVTIzcmFsbnktdzR3MDFaY2FYQzVlaHhBc3V5Nm52R3pvZU5vdHJhZndaV3R2LXh1cVZxUkhvcDQ0Z3lMNXA2THdaM05kZVpNOWliNGQ0cHBNOFhYYU44U3hWaVRkYldWNS11ZUtwNUs5YjBJbVdLYjhidklfMnZwYWVwRHpyMGYyMS1Z?oc=5"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/11/iraq-bars-plane-carrying-irans-soccer-team-landing-basra-over-us-sanctions"
           }
         ]
       }
