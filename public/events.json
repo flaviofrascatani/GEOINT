@@ -1,7 +1,144 @@
 {
   "schema": 1,
-  "updated": "2026-11-25T03:00:09.816979+00:00",
+  "updated": "2026-11-25T12:41:30.566075+00:00",
   "events": [
+    {
+      "id": "6e2f7900844a",
+      "title": "Israele bombarda (ancora) Gaza, sterminata la famiglia di un funzionario palestinese",
+      "description": "Un attacco aereo israeliano su Gaza ha ucciso un alto funzionario palestinese, sua moglie e le due figlie.",
+      "lat": 30.5674,
+      "lng": 36.110000000000014,
+      "severity": 3,
+      "location": "Gaza City, Gaza Strip",
+      "source": "AGI Estero",
+      "url": "https://www.agi.it/estero/news/2026-11-25/israele-gaza-bombe-40184538/",
+      "image": "https://images.agi.it/pictures/agi/agi/2026/11/25/123125671-0f04cb94-a36e-4adc-af07-39f69f0a34c9.jpg",
+      "ts": 1795610069000,
+      "coverage": {
+        "left": 0,
+        "center": 2,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ANSA Mondo",
+            "b": "center",
+            "u": "https://www.ansa.it/sito/notizie/mondo/mediooriente/2026/11/25/media-raid-idf-a-gaza-sterminata-una-famiglia-di-4-persone_a7eb69f8-b27b-4d91-bec0-3a6e6a2e8cc9.html"
+          },
+          {
+            "n": "AGI Estero",
+            "b": "center",
+            "u": "https://www.agi.it/estero/news/2026-11-25/israele-gaza-bombe-40184538/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4a3c0248fd99",
+      "title": "Iran denounces U.S. use of AI in war",
+      "description": "L'ambasciatore iraniano alle Nazioni Unite accusa gli Stati Uniti di aver impiegato sistemi di intelligenza artificiale per selezionare circa 2.000 obiettivi in quattro giorni.",
+      "lat": 36.79,
+      "lng": 51.389999999999986,
+      "severity": 2,
+      "location": "Tehran, Iran",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil/",
+      "image": null,
+      "ts": 1795608519000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3e91cc841440",
+      "title": "Overnight RSF drone attacks kill 19 in Sudan",
+      "description": "Droni della Rapid Support Forces hanno colpito lo Stato del Nilo Blu, provocando 19 morti e almeno 20 feriti.",
+      "lat": 11.78,
+      "lng": 34.33,
+      "severity": 3,
+      "location": "Ad-Damazin, Sudan",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/25/overnight-rsf-drone-attacks-kill-19-in-sudan?traffic_source=rss",
+      "image": null,
+      "ts": 1795607895000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/11/25/overnight-rsf-drone-attacks-kill-19-in-sudan?traffic_source=rss"
+          }
+        ]
+      }
+    },
+    {
+      "id": "09ac58ba4bb5",
+      "title": "Cambodia hosts Chinese military for largest Golden Dragon joint exercise yet",
+      "description": "Cambodia and China conducted their biggest joint drill, deepening military cooperation in Southeast Asia.",
+      "lat": 11.55,
+      "lng": 104.92,
+      "severity": 2,
+      "location": "Phnom Penh, Cambodia",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/cambodia-hosts-chinese-military-largest-golden-dragon-joint-138435076",
+      "image": "https://s.abcnews.com/images/International/wirestory_45c1eb364c82c346340916e6174ea8e3_4x3_384.jpg",
+      "ts": 1795607115000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/cambodia-hosts-chinese-military-largest-golden-dragon-joint-138435076"
+          }
+        ]
+      }
+    },
     {
       "id": "58da42e9c4e7",
       "title": "S. Korea, U.N. agree to set up working group on peacekeeping contributions",
@@ -239,6 +376,54 @@
             "n": "Time",
             "b": "lean_left",
             "u": "https://time.com/article/2026/11/24/hegseth-pentagon-accuses-canada-failing-credible-defense-partner/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "472659acb394",
+      "title": "Russian strike on Ukraine kills 2 and wounds 48, including children",
+      "description": "Un attacco russo nella regione di Zaporizhzhia ha causato 2 morti e 48 feriti, tra cui bambini.",
+      "lat": 50.45,
+      "lng": 30.52000000000001,
+      "severity": 3,
+      "location": "Kyiv, Ukraine",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/russian-strike-ukraine-zaporizhzhia-kills-2_n_6b05d2c7e4b01d8bd1d8b2bf",
+      "image": null,
+      "ts": 1795544554000,
+      "coverage": {
+        "left": 3,
+        "center": 0,
+        "right": 1,
+        "total": 4,
+        "buckets": {
+          "left": 1,
+          "lean_left": 2,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/russian-strike-ukraine-zaporizhzhia-kills-2_n_6b05d2c7e4b01d8bd1d8b2bf"
+          },
+          {
+            "n": "The Guardian World",
+            "b": "lean_left",
+            "u": "https://www.theguardian.com/world/2026/nov/23/ukraine-naval-drones-strike-russian-warship-libya"
+          },
+          {
+            "n": "Le Monde English",
+            "b": "lean_left",
+            "u": "https://www.lemonde.fr/en/international/article/2026/11/25/french-foreign-minister-defends-ukraine-attacks-on-russian-ships-in-libya_6787983_4.html"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/ukraines-drone-strike-russian-warship-libya-risks-serious-escalation-former-official-warns"
           }
         ]
       }
@@ -4361,39 +4546,6 @@
       }
     },
     {
-      "id": "472659acb394",
-      "title": "Russian forces deliver massive overnight strike on Ukraine’s military‑industrial sector",
-      "description": "Russian missiles hit Kyiv’s Yuzhny and Severny bridges, causing significant damage to Ukraine’s infrastructure.",
-      "lat": 50.45,
-      "lng": 30.52000000000001,
-      "severity": 4,
-      "location": "Kyiv, Ukraine",
-      "source": "TASS",
-      "url": "https://tass.com/politics/2219589",
-      "image": null,
-      "ts": 1794911296000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/politics/2219589"
-          }
-        ]
-      }
-    },
-    {
       "id": "c791ef4253b3",
       "title": "Mexico keen to strengthen cooperation with China, president says",
       "description": "President Claudia Sheinbaum met Xi Jinping and expressed interest in deepening cooperation with China.",
@@ -7501,158 +7653,6 @@
             "n": "Al-Monitor",
             "b": "center",
             "u": "https://www.al-monitor.com/originals/2026/11/iraq-bars-plane-carrying-irans-soccer-team-landing-basra-over-us-sanctions"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1ce40f489600",
-      "title": "US soldier arrested in UK on Russian espionage allegations",
-      "description": "A US Army member was detained near Gloucester, England on suspicion of spying for Russia, prompting joint US‑UK investigation.",
-      "lat": 51.86,
-      "lng": -2.25,
-      "severity": 3,
-      "location": "Gloucester, United Kingdom",
-      "source": "DW News",
-      "url": "https://www.dw.com/en/us-soldier-arrested-in-uk-on-russian-espionage-allegations/a-79913240?maca=en-rss-en-all-1573-rdf",
-      "image": null,
-      "ts": 1794339554647,
-      "coverage": {
-        "left": 0,
-        "center": 2,
-        "right": 0,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 2,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/us-soldier-arrested-in-uk-on-russian-espionage-allegations/a-79913240?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-11-10/uk-arrests-us-army-soldier-over-russia-spying-allegations"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2f2c07eee928",
-      "title": "Eisenkot vows to undo Netanyahu policies as Israeli parliament opens",
-      "description": "Prime Minister‑designate Gadi Eisenkot pledged to dismantle key policies of the outgoing Netanyahu government during the first session of the new Knesset.",
-      "lat": 31.78,
-      "lng": 35.22,
-      "severity": 2,
-      "location": "Jerusalem, Israel",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/world/mid-east/eisenkot-vows-to-undo-netanyahu-policies-as-israeli-parliament-opens",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/11/10/469927.jpg",
-      "ts": 1794335460000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/new-israeli-parliament-to-take-aim-at-netanyahu-as-eisenkot-seeks-government/article71687117.ece"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/mid-east/eisenkot-vows-to-undo-netanyahu-policies-as-israeli-parliament-opens"
-          }
-        ]
-      }
-    },
-    {
-      "id": "82181735f49f",
-      "title": "UK court overturns Trinidad and Tobago law criminalising gay sex",
-      "description": "A London court ruled that Trinidad and Tobago's law banning consensual same‑sex relations was unlawful, marking a significant human‑rights victory.",
-      "lat": 52.61,
-      "lng": -0.12999999999999545,
-      "severity": 1,
-      "location": "London, United Kingdom",
-      "source": "South China Morning Post",
-      "url": "https://www.scmp.com/news/world/americas/article/3373994/uk-court-overturns-trinidad-and-tobago-law-criminalising-gay-sex",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/11/224645fb-774b-4c24-8383-3c9d0ca7a7be_18a36545.jpg?itok=8QtGVJMG&v=1794335213",
-      "ts": 1794335225000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/uk-court-overturns-trinidad-and-tobago-law-criminalising-homosexual-sex-13610702"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d22a5b72ec92",
-      "title": "Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities",
-      "description": "The Formula 1 champion toured the Rafah border crossing and logistics warehouses run by the Egyptian Red Crescent, highlighting humanitarian assistance to Gaza.",
-      "lat": 30.2974,
-      "lng": 34.80000000000001,
-      "severity": 1,
-      "location": "Rafah, Gaza Strip (Egyptian side)",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/world/2026/nov/10/lewis-hamilton-egypt-rafah-crossing-gaza-aid-facilities",
-      "image": null,
-      "ts": 1794325166000,
-      "coverage": {
-        "left": 1,
-        "center": 1,
-        "right": 1,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/world/2026/nov/10/lewis-hamilton-egypt-rafah-crossing-gaza-aid-facilities"
-          },
-          {
-            "n": "Africanews",
-            "b": "center",
-            "u": "http://www.africanews.com/2026/11/10/lewis-hamilton-visits-egypts-rafah-border-to-highlight-humanitarian-efforts-for-war-torn-g/"
-          },
-          {
-            "n": "Daily Mail World",
-            "b": "right",
-            "u": "https://www.dailymail.com/news/article-16281005/Lewis-Hamilton-visits-Rafah-crossing-Gaza.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
           }
         ]
       }
