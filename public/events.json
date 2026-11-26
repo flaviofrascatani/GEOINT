@@ -1,7 +1,108 @@
 {
   "schema": 1,
-  "updated": "2026-11-26T14:22:28.627734+00:00",
+  "updated": "2026-11-26T23:16:16.964264+00:00",
   "events": [
+    {
+      "id": "e9f4f5abf205",
+      "title": "UK shields fighter jets, contacts reservists in Cold War‑scale push amid Russia threat",
+      "description": "The United Kingdom is contacting former service members to update its strategic reserve as Russian sabotage rises across Europe.",
+      "lat": 52.61,
+      "lng": 1.7752000000000123,
+      "severity": 2,
+      "location": "London, United Kingdom",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/uk-shields-fighter-jets-contacts-reservists-cold-war-scale-push-amid-russia-threat",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/uk-fighter-jet.jpg?ve=1&tl=1",
+      "ts": 1795727660000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/uk-shields-fighter-jets-contacts-reservists-cold-war-scale-push-amid-russia-threat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deee9af444b7",
+      "title": "Two Italians killed in drone strike on Kuwait",
+      "description": "Workers were the first reported deaths in the Gulf since the US and Iran restarted exchanging fire this month.",
+      "lat": 29.38,
+      "lng": 47.98,
+      "severity": 3,
+      "location": "Kuwait City, Kuwait",
+      "source": "Financial Times World",
+      "url": "https://www.ft.com/content/e5f3128d-5f8b-416c-90d1-2549175cb091?syn-25a6b1a6=1",
+      "image": null,
+      "ts": 1795724604000,
+      "coverage": {
+        "left": 4,
+        "center": 4,
+        "right": 0,
+        "total": 8,
+        "buckets": {
+          "left": 0,
+          "lean_left": 4,
+          "center": 4,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/11/26/world/middleeast/italians-killed-iran-drone-attack-kuwait.html"
+          },
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/11/26/two-italians-killed-kuwait-strained-iran-ramps-up-attacks/"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/2-italians-killed-in-drone-strike-in-kuwait-iran-denies-responsibility-12382629#publisher=newsstand"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/italian-rheinmetall-workers-killed-kuwait-drone-attack-3810235"
+          },
+          {
+            "n": "Financial Times World",
+            "b": "center",
+            "u": "https://www.ft.com/content/e5f3128d-5f8b-416c-90d1-2549175cb091?syn-25a6b1a6=1"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/11/iranian-drone-attack-kuwait-leaves-two-italians-dead"
+          }
+        ]
+      }
+    },
     {
       "id": "c16278bc0934",
       "title": "EU‑Indonesia trade deal opens new markets, but challenges remain",
@@ -135,6 +236,39 @@
             "n": "Buenos Aires Times",
             "b": "center",
             "u": "https://www.batimes.com.ar/news/economy/caputo-argentina-has-activated-us5-billion-chinese-currency-swap-to-guarantee-debt-payments.phtml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "732caa68f231",
+      "title": "UK nuclear test veterans win 40‑year battle for inquiry into Cold War tests",
+      "description": "Britain’s prime minister has authorized an inquiry into the impact of nuclear weapons tests on military veterans.",
+      "lat": 51.51,
+      "lng": -0.12999999999999545,
+      "severity": 1,
+      "location": "London, United Kingdom",
+      "source": "ABC News International",
+      "url": "https://abcnews.com/International/wireStory/uk-nuclear-test-veterans-win-40-year-battle-138436079",
+      "image": "https://s.abcnews.com/images/International/wirestory_2b54ada9198745cc2e7900222bdee8ef_4x3_384.jpg",
+      "ts": 1795681573000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "ABC News International",
+            "b": "lean_left",
+            "u": "https://abcnews.com/International/wireStory/uk-nuclear-test-veterans-win-40-year-battle-138436079"
           }
         ]
       }
@@ -7544,105 +7678,6 @@
             "n": "Al Jazeera",
             "b": "lean_left",
             "u": "https://www.aljazeera.com/video/newsfeed/2026/11/12/indonesian-vp-resigns-over-education-qualification-row?traffic_source=rss"
-          }
-        ]
-      }
-    },
-    {
-      "id": "243c70074a59",
-      "title": "Bessent relocates from home to military base after Iran threats",
-      "description": "U.S. Treasury Secretary Scott Bessent moved to a military installation following heightened threats from Iran.",
-      "lat": 36.79,
-      "lng": 53.295199999999994,
-      "severity": 2,
-      "location": "Tehran, Iran",
-      "source": "CBS News World",
-      "url": "https://www.cbsnews.com/news/bessent-relocate-dc-area-home-military-base-iran-threats-to-kill-him/",
-      "image": null,
-      "ts": 1794447128000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/bessent-relocate-dc-area-home-military-base-iran-threats-to-kill-him/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "c30b7527ba94",
-      "title": "El Salvador‑backed air assault destroys Haiti gang headquarters amid search for missing troops",
-      "description": "Salvadoran helicopters struck a gang compound in Haiti, destroying the headquarters while searching for four missing Salvadoran personnel.",
-      "lat": 18.54,
-      "lng": -72.34,
-      "severity": 3,
-      "location": "Port‑au‑Prince, Haiti",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/el-salvador-air-assault-destroys-haiti-gang-headquarters-search-missing-troops",
-      "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/11/rendered-helicopter-attack-gif-final.gif",
-      "ts": 1794445485000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/el-salvador-air-assault-destroys-haiti-gang-headquarters-search-missing-troops"
-          }
-        ]
-      }
-    },
-    {
-      "id": "18bc3d57c2ee",
-      "title": "UN peacekeepers failed to protect civilians before South Sudan massacre, Amnesty says",
-      "description": "Amnesty International reports that UN forces had prior warning of an attack that killed over 200 people in South Sudan but did not act to prevent it.",
-      "lat": 4.85,
-      "lng": 31.6,
-      "severity": 4,
-      "location": "Juba, South Sudan",
-      "source": "ABC News International",
-      "url": "https://abcnews.com/International/wireStory/peacekeepers-failed-protect-civilians-south-sudan-massacre-amnesty-138059244",
-      "image": "https://s.abcnews.com/images/International/wirestory_836a5022f387acbe6f4de51fc9b808ca_4x3_384.jpg",
-      "ts": 1794432851000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/peacekeepers-failed-protect-civilians-south-sudan-massacre-amnesty-138059244"
           }
         ]
       }
