@@ -1,7 +1,106 @@
 {
   "schema": 1,
-  "updated": "2026-11-25T22:27:04.598860+00:00",
+  "updated": "2026-11-26T04:20:44.843671+00:00",
   "events": [
+    {
+      "id": "4c5370e9a9ea",
+      "title": "Europe has no intention of ending war in Ukraine — Russian lawmaker",
+      "description": "Viktor Vodolatsky claims Europe is dragging Baltic states into the conflict to prolong it.",
+      "lat": 55.75,
+      "lng": 39.525199999999984,
+      "severity": 2,
+      "location": "Moscow, Russia",
+      "source": "TASS",
+      "url": "https://tass.com/politics/2224997",
+      "image": null,
+      "ts": 1795665852000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/politics/2224997"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1e18374a940b",
+      "title": "US authorizes SpaceX to launch up to one million satellites for orbital data centers",
+      "description": "The FCC grants SpaceX permission to deploy a massive satellite constellation for space‑based data centers.",
+      "lat": 38.9,
+      "lng": -77.04,
+      "severity": 2,
+      "location": "Washington, DC, USA",
+      "source": "France 24",
+      "url": "https://www.france24.com/en/technology/20261126-us-authorizes-spacex-to-launch-up-to-one-million-satellites-for-orbital-data-centers",
+      "image": "https://s.france24.com/media/display/c24be946-bb40-11f1-b551-852b23529bb9/w:1024/p:16x9/2026-09-28T131913Z-1185617274-RC2CSNAEMW2N-RTRMADP-3-SPACE-SPACEX-STARSHIP.jpg",
+      "ts": 1795662157000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "France 24",
+            "b": "center",
+            "u": "https://www.france24.com/en/technology/20261126-us-authorizes-spacex-to-launch-up-to-one-million-satellites-for-orbital-data-centers"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2c6dc1f99d2d",
+      "title": "Venezuela Signs Power Deals With Siemens",
+      "description": "Caracas signs two grid and oil‑power agreements with Siemens Energy, citing eased sanctions.",
+      "lat": 10.51,
+      "lng": -66.9,
+      "severity": 1,
+      "location": "Caracas, Venezuela",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/venezuela-signs-power-grid-deals-siemens-energy/",
+      "image": null,
+      "ts": 1795655787000,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Rio Times",
+            "b": "center",
+            "u": "https://www.riotimesonline.com/venezuela-signs-power-grid-deals-siemens-energy/"
+          }
+        ]
+      }
+    },
     {
       "id": "1543bc097e8d",
       "title": "Nigeria detains 5 Mexicans, confiscates over $220 million of meth",
@@ -150,6 +249,44 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/putins-war-death-toll-reportedly-tops-700000-russia-scrambles-recruits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aa71be65a1b9",
+      "title": "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
+      "description": "Washington announces tariffs aimed at countering what it calls unfair trade practices by China, the EU and other partners.",
+      "lat": 38.9,
+      "lng": -77.04,
+      "severity": 2,
+      "location": "Washington, DC, USA",
+      "source": "CNBC World",
+      "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html",
+      "image": null,
+      "ts": 1795622572000,
+      "coverage": {
+        "left": 1,
+        "center": 1,
+        "right": 0,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "NBC News World",
+            "b": "lean_left",
+            "u": "https://www.nbcnews.com/business/economy/trump-country-specific-tariffs-excess-capacity-rcna611087"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html"
           }
         ]
       }
@@ -534,24 +671,24 @@
     },
     {
       "id": "472659acb394",
-      "title": "Russian strike on Ukraine kills 2 and wounds 48, including children",
-      "description": "Un attacco russo nella regione di Zaporizhzhia ha causato 2 morti e 48 feriti, tra cui bambini.",
+      "title": "Russian Strike On Ukraine Kills 2 And Wounds 48, Including Children",
+      "description": "A Russian attack on Zaporizhzhia results in civilian casualties amid ongoing war.",
       "lat": 50.45,
       "lng": 30.52000000000001,
-      "severity": 3,
+      "severity": 4,
       "location": "Kyiv, Ukraine",
       "source": "HuffPost World",
       "url": "https://www.huffpost.com/entry/russian-strike-ukraine-zaporizhzhia-kills-2_n_6b05d2c7e4b01d8bd1d8b2bf",
       "image": null,
       "ts": 1795544554000,
       "coverage": {
-        "left": 3,
+        "left": 5,
         "center": 0,
         "right": 1,
-        "total": 4,
+        "total": 6,
         "buckets": {
           "left": 1,
-          "lean_left": 2,
+          "lean_left": 4,
           "center": 0,
           "lean_right": 0,
           "right": 1
@@ -563,19 +700,29 @@
             "u": "https://www.huffpost.com/entry/russian-strike-ukraine-zaporizhzhia-kills-2_n_6b05d2c7e4b01d8bd1d8b2bf"
           },
           {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/11/25/world/middleeast/libya-ukraine-russia-haftar.html"
+          },
+          {
             "n": "The Guardian World",
             "b": "lean_left",
             "u": "https://www.theguardian.com/world/2026/nov/23/ukraine-naval-drones-strike-russian-warship-libya"
           },
           {
-            "n": "Le Monde English",
+            "n": "Mirror World",
             "b": "lean_left",
-            "u": "https://www.lemonde.fr/en/international/article/2026/11/25/french-foreign-minister-defends-ukraine-attacks-on-russian-ships-in-libya_6787983_4.html"
+            "u": "https://www.mirror.co.uk/news/world-news/putin-zelensky-streeting-ukraine-russia-37913939"
+          },
+          {
+            "n": "Al Jazeera",
+            "b": "lean_left",
+            "u": "https://www.aljazeera.com/news/2026/11/26/ukraine-attacks-russian-military-base-says-five-planes-struck?traffic_source=rss"
           },
           {
             "n": "Fox News World",
             "b": "right",
-            "u": "https://www.foxnews.com/world/ukraines-drone-strike-russian-warship-libya-risks-serious-escalation-former-official-warns"
+            "u": "https://www.foxnews.com/world/libyans-pledge-retaliate-ukraine-strikes-russian-warship-benghazi-killing-2-soldiers"
           }
         ]
       }
@@ -7521,148 +7668,6 @@
             "n": "TASS",
             "b": "lean_right",
             "u": "https://tass.com/world/2216461"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8ea5d4339584",
-      "title": "EBRD plans $6B investment in Türkiye's clean energy projects",
-      "description": "The European Bank for Reconstruction and Development announced a five‑year, $6 billion programme to fund renewable‑energy projects across Turkey.",
-      "lat": 39.9334,
-      "lng": 32.8597,
-      "severity": 1,
-      "location": "Ankara, Turkey",
-      "source": "Daily Sabah",
-      "url": "https://www.dailysabah.com/business/economy/ebrd-plans-6b-investment-in-turkiyes-clean-energy-projects",
-      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/11/11/470062.jpg",
-      "ts": 1794405000000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/business/economy/ebrd-plans-6b-investment-in-turkiyes-clean-energy-projects"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5fa485567b66",
-      "title": "Russia Says Two Polish Spies Detained in Kaliningrad Region",
-      "description": "The Russian Federal Security Service announced the detention of two Polish citizens accused of espionage in the Kaliningrad enclave.",
-      "lat": 54.71,
-      "lng": 20.51,
-      "severity": 3,
-      "location": "Kaliningrad, Russia",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-11/russia-says-two-polish-spies-detained-in-kaliningrad-region",
-      "image": null,
-      "ts": 1794380088000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 2,
-        "total": 3,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 1,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-11-11/russia-says-two-polish-spies-detained-in-kaliningrad-region"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/politics/2215839"
-          },
-          {
-            "n": "Sputnik International",
-            "b": "right",
-            "u": "https://sputnikglobe.com/20261111/russian-fsb-says-identified-localized-agent-network-of-polish-intel-in-kaliningrad-region-1125047321.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "72bd643add21",
-      "title": "Public sector strike suspended as unions agree pay deal",
-      "description": "Irish trade unions called off a planned public‑sector strike after reaching a draft pay agreement with the government.",
-      "lat": 53.35,
-      "lng": -6.26,
-      "severity": 2,
-      "location": "Dublin, Ireland",
-      "source": "RTE News",
-      "url": "https://www.rte.ie/news/ireland/2026/1111/1598773-public-sector-pay-deal/",
-      "image": "https://www.rte.ie/images/002551b8-800.jpg",
-      "ts": 1794371381000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "RTE News",
-            "b": "center",
-            "u": "https://www.rte.ie/news/ireland/2026/1111/1598773-public-sector-pay-deal/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "e5d3aa5a0f99",
-      "title": "Egyptian journalist Lina Attalah faces prison as trial sparks international outcry",
-      "description": "Lina Attalah, head of independent outlet Mada Masr, was brought before a criminal court in Cairo on charges of operating without a licence and publishing false news, prompting condemnation from UN bodies.",
-      "lat": 31.69,
-      "lng": 32.1926,
-      "severity": 3,
-      "location": "Cairo, Egypt",
-      "source": "France 24",
-      "url": "https://www.france24.com/en/middle-east/20261111-lina-attalah-egypt-trial-prison",
-      "image": "https://s.france24.com/media/display/f471bf6c-dd6f-11f1-b88a-29048b396e03/w:1024/p:16x9/a44f4102d9b1178ba8efb41cfeca20fa077097ab.jpg",
-      "ts": 1794362031000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/middle-east/20261111-lina-attalah-egypt-trial-prison"
           }
         ]
       }
