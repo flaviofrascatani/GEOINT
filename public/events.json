@@ -1,7 +1,171 @@
 {
   "schema": 1,
-  "updated": "2026-11-26T23:16:16.964264+00:00",
+  "updated": "2026-11-27T05:19:25.897565+00:00",
   "events": [
+    {
+      "id": "c08effa3aaf2",
+      "title": "New Zealand election ends in hung parliament",
+      "description": "The final vote count left New Zealand without a clear governing majority, forcing coalition negotiations.",
+      "lat": -41.2865,
+      "lng": 174.7762,
+      "severity": 3,
+      "location": "Wellington, New Zealand",
+      "source": "DW News",
+      "url": "https://www.dw.com/en/new-zealand-election-ends-in-hung-parliament/a-80070240?maca=en-rss-en-all-1573-rdf",
+      "image": null,
+      "ts": 1795756765821,
+      "coverage": {
+        "left": 0,
+        "center": 1,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 1,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "DW News",
+            "b": "center",
+            "u": "https://www.dw.com/en/new-zealand-election-ends-in-hung-parliament/a-80070240?maca=en-rss-en-all-1573-rdf"
+          }
+        ]
+      }
+    },
+    {
+      "id": "378abeffe392",
+      "title": "One dead, three missing after cargo ship sinks off Cuba",
+      "description": "The cargo vessel Halima sank near Cabanas Bay in Artemisa province, resulting in one fatality and three people missing.",
+      "lat": 24.0,
+      "lng": -80.9948,
+      "severity": 3,
+      "location": "Cabanas Bay, Artemisa Province, Cuba",
+      "source": "The Hindu International",
+      "url": "https://www.thehindu.com/news/international/one-dead-three-missing-after-cargo-ship-sinks-off-cuba/article71749410.ece",
+      "image": null,
+      "ts": 1795754331000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/one-dead-three-missing-after-cargo-ship-sinks-off-cuba/article71749410.ece"
+          }
+        ]
+      }
+    },
+    {
+      "id": "deee9af444b7",
+      "title": "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
+      "description": "Iran denied involvement after a drone strike on a Kuwaiti military facility killed two Italian nationals.",
+      "lat": 29.38,
+      "lng": 47.98,
+      "severity": 4,
+      "location": "Kuwait City, Kuwait",
+      "source": "CBS News World",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil/",
+      "image": null,
+      "ts": 1795746541000,
+      "coverage": {
+        "left": 5,
+        "center": 6,
+        "right": 3,
+        "total": 14,
+        "buckets": {
+          "left": 0,
+          "lean_left": 5,
+          "center": 6,
+          "lean_right": 2,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/11/26/world/middleeast/italians-killed-iran-drone-attack-kuwait.html"
+          },
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/11/26/two-italians-killed-kuwait-strained-iran-ramps-up-attacks/"
+          },
+          {
+            "n": "CBS News World",
+            "b": "lean_left",
+            "u": "https://www.cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil/"
+          },
+          {
+            "n": "NDTV World",
+            "b": "lean_left",
+            "u": "https://www.ndtv.com/world-news/2-italians-killed-in-drone-strike-in-kuwait-iran-denies-responsibility-12382629#publisher=newsstand"
+          },
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/drone-attack-kuwait-us-iran-war-death-november-27-2026/article71748337.ece"
+          },
+          {
+            "n": "BBC World",
+            "b": "center",
+            "u": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "n": "CNBC World",
+            "b": "center",
+            "u": "https://www.cnbc.com/2026/11/27/us-iran-war-trump-hormuz-italian-killed-trump.html"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/italian-rheinmetall-workers-killed-kuwait-drone-attack-3810235"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQzFiWi01aU5HaTlZaHd0THlxMFB6RTdtR1hpUGh1RHVuclpWOGxwNVJEdXFDXzN1LWpBOUpuWmEzR3c5VGp0SGYwajFLYm90eU9OM29VVkFWWlUtQWh4eUZiUHJQN2s4STBELUZfNVhOZHVfRVltRjZsVDloTFdwVUlTU0QyVmFBTHVfQzBBYV80aXhxREh0MzVydXcydw?oc=5"
+          },
+          {
+            "n": "AGI Estero",
+            "b": "center",
+            "u": "https://www.agi.it/estero/news/2026-11-26/iran-kuwait-italiani-morti-40202166/"
+          },
+          {
+            "n": "Al-Monitor",
+            "b": "center",
+            "u": "https://www.al-monitor.com/originals/2026/11/iranian-drone-attack-kuwait-leaves-two-italians-dead"
+          },
+          {
+            "n": "RT News",
+            "b": "lean_right",
+            "u": "https://rt-english.com/news/649405-iran-denies-kuwait-attack/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/opinion/op-ed/what-is-behind-irans-latest-bahrain-and-kuwait-strikes"
+          },
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/iran-accuses-zelenskyy-false-flag-kuwait-drone-strike-op-get-trumps-attention"
+          }
+        ]
+      }
+    },
     {
       "id": "e9f4f5abf205",
       "title": "UK shields fighter jets, contacts reservists in Cold War‑scale push amid Russia threat",
@@ -36,69 +200,59 @@
       }
     },
     {
-      "id": "deee9af444b7",
-      "title": "Two Italians killed in drone strike on Kuwait",
-      "description": "Workers were the first reported deaths in the Gulf since the US and Iran restarted exchanging fire this month.",
-      "lat": 29.38,
-      "lng": 47.98,
-      "severity": 3,
-      "location": "Kuwait City, Kuwait",
-      "source": "Financial Times World",
-      "url": "https://www.ft.com/content/e5f3128d-5f8b-416c-90d1-2549175cb091?syn-25a6b1a6=1",
-      "image": null,
-      "ts": 1795724604000,
+      "id": "a4d4baf33dd5",
+      "title": "Trump Urges Putin to ‘Pull Back’ Military Aggression in Europe",
+      "description": "U.S. President Donald Trump called on Russian President Vladimir Putin to cease military actions in Europe and work toward a quick settlement of the Ukraine war.",
+      "lat": 55.75,
+      "lng": 37.62,
+      "severity": 2,
+      "location": "Moscow, Russia",
+      "source": "Time",
+      "url": "https://time.com/article/2026/11/26/trump-warns-putin-russia-to-pull-back-military-aggression-europe-ukraine-war/",
+      "image": "https://static.time.com/v3/assets/bltea6093859af6183b/blta32049aa1279f961/6b08687d729e0183efccb090/GettyImages-2230342714.jpg?branch=production",
+      "ts": 1795720019000,
       "coverage": {
-        "left": 4,
-        "center": 4,
-        "right": 0,
-        "total": 8,
+        "left": 3,
+        "center": 2,
+        "right": 1,
+        "total": 6,
         "buckets": {
           "left": 0,
-          "lean_left": 4,
-          "center": 4,
+          "lean_left": 3,
+          "center": 2,
           "lean_right": 0,
-          "right": 0
+          "right": 1
         },
         "sources": [
           {
-            "n": "New York Times World",
+            "n": "Al Jazeera",
             "b": "lean_left",
-            "u": "https://www.nytimes.com/2026/11/26/world/middleeast/italians-killed-iran-drone-attack-kuwait.html"
+            "u": "https://www.aljazeera.com/news/2026/11/27/zelenskyy-warns-of-major-russian-attack-as-trump-urges-putin-to-pull-back?traffic_source=rss"
           },
           {
-            "n": "Washington Post World",
+            "n": "Time",
             "b": "lean_left",
-            "u": "https://www.washingtonpost.com/world/2026/11/26/two-italians-killed-kuwait-strained-iran-ramps-up-attacks/"
+            "u": "https://time.com/article/2026/11/26/trump-warns-putin-russia-to-pull-back-military-aggression-europe-ukraine-war/"
           },
           {
-            "n": "CBS News World",
+            "n": "Le Monde English",
             "b": "lean_left",
-            "u": "https://www.cbsnews.com/live-updates/iran-war-us-military-ai-weapons-oil/"
+            "u": "https://www.lemonde.fr/en/international/article/2026/11/27/trump-urges-putin-to-end-military-aggression-in-europe_6789697_4.html"
           },
           {
-            "n": "NDTV World",
-            "b": "lean_left",
-            "u": "https://www.ndtv.com/world-news/2-italians-killed-in-drone-strike-in-kuwait-iran-denies-responsibility-12382629#publisher=newsstand"
-          },
-          {
-            "n": "BBC World",
+            "n": "DW News",
             "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss"
+            "u": "https://www.dw.com/en/trump-says-he-urged-putin-to-pull-back-military-aggression-in-europe/a-80067722?maca=en-rss-en-all-1573-rdf"
           },
           {
-            "n": "IBTimes",
+            "n": "Jerusalem Post",
             "b": "center",
-            "u": "https://www.ibtimes.com/italian-rheinmetall-workers-killed-kuwait-drone-attack-3810235"
+            "u": "https://www.jpost.com/international/internationalrussia-ukraine-war/article-916305"
           },
           {
-            "n": "Financial Times World",
-            "b": "center",
-            "u": "https://www.ft.com/content/e5f3128d-5f8b-416c-90d1-2549175cb091?syn-25a6b1a6=1"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/11/iranian-drone-attack-kuwait-leaves-two-italians-dead"
+            "n": "Daily Express World",
+            "b": "right",
+            "u": "https://www.express.co.uk/news/world/2269587/trump-begs-putin-end-ukraine"
           }
         ]
       }
@@ -520,6 +674,54 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/putins-war-death-toll-reportedly-tops-700000-russia-scrambles-recruits"
+          }
+        ]
+      }
+    },
+    {
+      "id": "127f7bd466fd",
+      "title": "Two Libyan Naval Officers Die Of Wounds From Ukrainian Drone Attack",
+      "description": "A Ukrainian drone struck a Russian warship docked in Benghazi, killing two Libyan officers.",
+      "lat": 32.12,
+      "lng": 20.07,
+      "severity": 4,
+      "location": "Benghazi, Libya",
+      "source": "HuffPost World",
+      "url": "https://www.huffpost.com/entry/libyan-naval-officers-die-ukrainian-attack-russia_n_6b0717f3e4b01a3571b9d70f",
+      "image": null,
+      "ts": 1795627678000,
+      "coverage": {
+        "left": 2,
+        "center": 2,
+        "right": 0,
+        "total": 4,
+        "buckets": {
+          "left": 1,
+          "lean_left": 1,
+          "center": 2,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "HuffPost World",
+            "b": "left",
+            "u": "https://www.huffpost.com/entry/libyan-naval-officers-die-ukrainian-attack-russia_n_6b0717f3e4b01a3571b9d70f"
+          },
+          {
+            "n": "New York Times World",
+            "b": "lean_left",
+            "u": "https://www.nytimes.com/2026/11/26/world/middleeast/italians-killed-iran-drone-attack-kuwait.html"
+          },
+          {
+            "n": "IBTimes",
+            "b": "center",
+            "u": "https://www.ibtimes.com/italian-rheinmetall-workers-killed-kuwait-drone-attack-3810235"
+          },
+          {
+            "n": "Google News Top",
+            "b": "center",
+            "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQzFiWi01aU5HaTlZaHd0THlxMFB6RTdtR1hpUGh1RHVuclpWOGxwNVJEdXFDXzN1LWpBOUpuWmEzR3c5VGp0SGYwajFLYm90eU9OM29VVkFWWlUtQWh4eUZiUHJQN2s4STBELUZfNVhOZHVfRVltRjZsVDloTFdwVUlTU0QyVmFBTHVfQzBBYV80aXhxREh0MzVydXcydw?oc=5"
           }
         ]
       }
@@ -1703,79 +1905,6 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/denmark-accuses-russia-plotting-kill-ukrainian-american-rapper-danish-soil"
-          }
-        ]
-      }
-    },
-    {
-      "id": "127f7bd466fd",
-      "title": "Russian ship hit in Benghazi by suspected Ukrainian drone attack, say Libyan officials",
-      "description": "A Russian warship docked at Libya’s Benghazi naval base was struck by an explosion attributed to a suspected Ukrainian drone.",
-      "lat": 32.12,
-      "lng": 20.07,
-      "severity": 3,
-      "location": "Benghazi, Libya",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
-      "image": null,
-      "ts": 1795373456000,
-      "coverage": {
-        "left": 4,
-        "center": 4,
-        "right": 1,
-        "total": 9,
-        "buckets": {
-          "left": 0,
-          "lean_left": 4,
-          "center": 4,
-          "lean_right": 1,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "The Guardian World",
-            "b": "lean_left",
-            "u": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya"
-          },
-          {
-            "n": "ABC News International",
-            "b": "lean_left",
-            "u": "https://abcnews.com/International/wireStory/suspected-drone-strike-hits-russian-vessel-libya-138359178"
-          },
-          {
-            "n": "CBS News World",
-            "b": "lean_left",
-            "u": "https://www.cbsnews.com/news/russian-warship-struck-suspected-ukrainian-sea-drones-benghazi-naval-base-libya-officials/"
-          },
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/11/22/suspected-drone-attack-causes-explosion-on-russian-ship-in-libya?traffic_source=rss"
-          },
-          {
-            "n": "BBC World",
-            "b": "center",
-            "u": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
-          },
-          {
-            "n": "France 24",
-            "b": "center",
-            "u": "https://www.france24.com/en/africa/20261122-russian-warship-hit-by-suspected-ukrainian-drone-at-libya-s-benghazi-naval-base"
-          },
-          {
-            "n": "DW News",
-            "b": "center",
-            "u": "https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545?maca=en-rss-en-all-1573-rdf"
-          },
-          {
-            "n": "Google News Top",
-            "b": "center",
-            "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSHNFQ2hvQUxyR05zYXIyVjczNjE3eEVLWWhMdk1mS01BQV91dy03OU5SSzVzbzlvVk1ManQ2TFhqU2xkRkhZcGthVlZad0E1aVRKU1E5ZWxJTWRQVG5UYmFYYmcxZGJ1TFc1YzE0a2E4XzQ4SGJLNjNlc0otTGhGRnRWTHpmeW1mWnVBLTNhYmFLU3JOUTVfSTliN19fMG9rRWlmeFdKNHFSU1JVTTdnQUNhUlBUWmRSTDVXUUJuUW9fNEV2cjNWdTlPZw?oc=5"
-          },
-          {
-            "n": "TASS",
-            "b": "lean_right",
-            "u": "https://tass.com/defense/2223067"
           }
         ]
       }
@@ -7574,110 +7703,6 @@
             "n": "All Africa",
             "b": "center",
             "u": "https://allafrica.com/stories/202611120372.html"
-          }
-        ]
-      }
-    },
-    {
-      "id": "caecc803b274",
-      "title": "US envoys meet Putin at the Kremlin to discuss Ukraine peace",
-      "description": "Gli inviati statunitensi sono arrivati al Cremlino per colloqui con Vladimir Putin, cercando di rilanciare un accordo di pace per l'Ucraina.",
-      "lat": 55.75,
-      "lng": 37.62,
-      "severity": 2,
-      "location": "Kremlin, Moscow, Russia",
-      "source": "Bloomberg Politics",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-12/us-envoys-witkoff-kushner-putin-talks-ukraine-zelenskyy-opportunity",
-      "image": null,
-      "ts": 1794463925000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Bloomberg Politics",
-            "b": "center",
-            "u": "https://www.bloomberg.com/news/articles/2026-11-12/us-envoys-witkoff-kushner-putin-talks-ukraine-zelenskyy-opportunity"
-          }
-        ]
-      }
-    },
-    {
-      "id": "efe4464c227d",
-      "title": "Fiery clashes erupt across Spain during first general strike in 14 years",
-      "description": "Scaramucce violente sono scoppiate in diverse città spagnole mentre milioni di lavoratori partecipano allo sciopero generale.",
-      "lat": 40.42,
-      "lng": -3.7,
-      "severity": 3,
-      "location": "Madrid, Spain",
-      "source": "Sky News World",
-      "url": "https://news.sky.com/story/fiery-clashes-erupt-in-spain-as-millions-join-general-strike-13611270",
-      "image": "https://e3.365dm.com/26/11/1920x1080/skynews-spain-barcelona_7404497.jpg?20261112043458",
-      "ts": 1794451260000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 1,
-        "total": 2,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Sky News World",
-            "b": "center",
-            "u": "https://news.sky.com/story/fiery-clashes-erupt-in-spain-as-millions-join-general-strike-13611270"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/fiery-chaos-erupts-spain-protesters-clash-police-massive-nationwide-strike"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2f7677ac8a2d",
-      "title": "Indonesian VP resigns over education qualification row",
-      "description": "Indonesia’s Vice President Gibran Rakabuming Raka stepped down amid controversy over his academic credentials.",
-      "lat": 6.21,
-      "lng": 106.85,
-      "severity": 3,
-      "location": "Jakarta, Indonesia",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/indonesian-vp-resigns-over-education-qualification-row?traffic_source=rss",
-      "image": null,
-      "ts": 1794450168000,
-      "coverage": {
-        "left": 1,
-        "center": 0,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 0,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "Al Jazeera",
-            "b": "lean_left",
-            "u": "https://www.aljazeera.com/video/newsfeed/2026/11/12/indonesian-vp-resigns-over-education-qualification-row?traffic_source=rss"
           }
         ]
       }
