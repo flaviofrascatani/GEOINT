@@ -1,7 +1,111 @@
 {
   "schema": 1,
-  "updated": "2026-11-27T05:19:25.897565+00:00",
+  "updated": "2026-11-27T15:31:45.608803+00:00",
   "events": [
+    {
+      "id": "4319562d6b02",
+      "title": "Bundestag approves 2027 budget draft with record defense spending",
+      "description": "Germany’s parliament passed a budget that raises defense spending to €556 billion, marking the highest level in its post‑war history.",
+      "lat": 53.62,
+      "lng": 13.379999999999995,
+      "severity": 3,
+      "location": "Berlin, Germany",
+      "source": "TASS",
+      "url": "https://tass.com/world/2226053",
+      "image": null,
+      "ts": 1795793337000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "TASS",
+            "b": "lean_right",
+            "u": "https://tass.com/world/2226053"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4aeddb86f46f",
+      "title": "After heavy strikes by Iran, U.S. naval base in Bahrain faces uncertain future",
+      "description": "Following Iranian missile strikes, the U.S. Navy’s Fifth Fleet base in Bahrain is largely deserted and its operational outlook is unclear.",
+      "lat": 26.23,
+      "lng": 50.58,
+      "severity": 4,
+      "location": "Manama, Bahrain",
+      "source": "Washington Post World",
+      "url": "https://www.washingtonpost.com/world/2026/11/27/after-heavy-strikes-by-iran-major-us-naval-base-bahrain-faces-uncertain-future/",
+      "image": "https://s.france24.com/media/display/dc1d38c8-e108-11f1-8b7b-5f54d898a954/w:1024/p:16x9/EN-20261115-160212-160405-CS.jpg",
+      "ts": 1795792501000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 0,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 0,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "Washington Post World",
+            "b": "lean_left",
+            "u": "https://www.washingtonpost.com/world/2026/11/27/after-heavy-strikes-by-iran-major-us-naval-base-bahrain-faces-uncertain-future/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4c1c21f2536f",
+      "title": "Türkiye, Pakistan, Saudi Arabia hold strategic defense talks",
+      "description": "Türkiye, Pakistan and Saudi Arabia met in Islamabad to advance trilateral security cooperation under the Mecca Agreement.",
+      "lat": 33.73,
+      "lng": 73.09,
+      "severity": 2,
+      "location": "Islamabad, Pakistan",
+      "source": "Daily Sabah",
+      "url": "https://www.dailysabah.com/politics/diplomacy/turkiye-pakistan-saudi-arabia-hold-strategic-defense-talks",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/11/27/472381.jpg",
+      "ts": 1795792260000,
+      "coverage": {
+        "left": 1,
+        "center": 0,
+        "right": 1,
+        "total": 2,
+        "buckets": {
+          "left": 0,
+          "lean_left": 1,
+          "center": 0,
+          "lean_right": 1,
+          "right": 0
+        },
+        "sources": [
+          {
+            "n": "The Hindu International",
+            "b": "lean_left",
+            "u": "https://www.thehindu.com/news/international/pakistan-set-to-host-talks-with-saudi-arabia-turkey-under-trilateral-defence-pact/article71750047.ece"
+          },
+          {
+            "n": "Daily Sabah",
+            "b": "lean_right",
+            "u": "https://www.dailysabah.com/politics/diplomacy/turkiye-pakistan-saudi-arabia-hold-strategic-defense-talks"
+          }
+        ]
+      }
+    },
     {
       "id": "c08effa3aaf2",
       "title": "New Zealand election ends in hung parliament",
@@ -162,6 +266,39 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/iran-accuses-zelenskyy-false-flag-kuwait-drone-strike-op-get-trumps-attention"
+          }
+        ]
+      }
+    },
+    {
+      "id": "652918273dc0",
+      "title": "Putin's grip on Crimea tested amid major blackout as Zelenskyy warns of looming Russian strike",
+      "description": "A massive blackout hit Sevastopol and Simferopol in Crimea, while Ukrainian President Zelenskyy issued a warning of a possible Russian strike.",
+      "lat": 44.62,
+      "lng": 33.52,
+      "severity": 2,
+      "location": "Sevastopol, Crimea",
+      "source": "Fox News World",
+      "url": "https://www.foxnews.com/world/putins-grip-crimea-tested-amid-major-blackout-zelenskyy-warns-imminent-russia-strike",
+      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/crimea-blackout-putin.jpg?ve=1&tl=1",
+      "ts": 1795746349000,
+      "coverage": {
+        "left": 0,
+        "center": 0,
+        "right": 1,
+        "total": 1,
+        "buckets": {
+          "left": 0,
+          "lean_left": 0,
+          "center": 0,
+          "lean_right": 0,
+          "right": 1
+        },
+        "sources": [
+          {
+            "n": "Fox News World",
+            "b": "right",
+            "u": "https://www.foxnews.com/world/putins-grip-crimea-tested-amid-major-blackout-zelenskyy-warns-imminent-russia-strike"
           }
         ]
       }
@@ -1905,69 +2042,6 @@
             "n": "Fox News World",
             "b": "right",
             "u": "https://www.foxnews.com/world/denmark-accuses-russia-plotting-kill-ukrainian-american-rapper-danish-soil"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4aeddb86f46f",
-      "title": "Iran strike wounds two in Bahrain, Saudi condemns 'criminal' attacks",
-      "description": "An Iranian drone strike on a civilian industrial site in Bahrain injured two people, prompting Saudi Arabia to denounce the attack.",
-      "lat": 26.23,
-      "lng": 50.58,
-      "severity": 3,
-      "location": "Manama, Bahrain",
-      "source": "Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/11/iran-strike-wounds-two-bahrain-saudi-condemns-criminal-attacks",
-      "image": "https://s.france24.com/media/display/dc1d38c8-e108-11f1-8b7b-5f54d898a954/w:1024/p:16x9/EN-20261115-160212-160405-CS.jpg",
-      "ts": 1795372224000,
-      "coverage": {
-        "left": 1,
-        "center": 3,
-        "right": 3,
-        "total": 7,
-        "buckets": {
-          "left": 0,
-          "lean_left": 1,
-          "center": 3,
-          "lean_right": 2,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "The Hindu International",
-            "b": "lean_left",
-            "u": "https://www.thehindu.com/news/international/bahrain-says-iran-struck-industrial-site-as-tankers-hit-in-hormuz/article71730497.ece"
-          },
-          {
-            "n": "CNBC World",
-            "b": "center",
-            "u": "https://www.cnbc.com/2026/11/22/saudi-houthi-bahrain-iran-attacks-araghchi-talks.html"
-          },
-          {
-            "n": "Al-Monitor",
-            "b": "center",
-            "u": "https://www.al-monitor.com/originals/2026/11/iran-strike-wounds-two-bahrain-saudi-condemns-criminal-attacks"
-          },
-          {
-            "n": "Egypt Independent",
-            "b": "center",
-            "u": "https://www.egyptindependent.com/bahrain-strongly-condemns-irans-continued-attacks-calls-for-reparations/"
-          },
-          {
-            "n": "RT News",
-            "b": "lean_right",
-            "u": "https://rt-english.com/news/649196-iran-bahrain-us-bases/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-          },
-          {
-            "n": "Daily Sabah",
-            "b": "lean_right",
-            "u": "https://www.dailysabah.com/world/mid-east/bahrain-industrial-site-us-positions-targeted-by-fresh-iran-strikes"
-          },
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/iran-backed-houthi-terrorist-attack-hits-riyadh-tallest-skyscraper-hq-saudi-public-investment-fund"
           }
         ]
       }
@@ -7604,105 +7678,6 @@
             "n": "The Africa Report",
             "b": "center",
             "u": "https://www.theafricareport.com/436210/us-south-africa-ramaphosa-tests-trumps-visa-sanctions-with-ai-focused-us-visit/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "decc48889ac5",
-      "title": "Iran's shadow operations stretch across Europe as chilling spy convictions expose Tehran's reach",
-      "description": "Two Iranian nationals were convicted of espionage in the United Kingdom, highlighting Tehran’s covert activities in Europe.",
-      "lat": 52.6074,
-      "lng": 1.7774,
-      "severity": 3,
-      "location": "London, United Kingdom",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/irans-shadow-operations-stretch-across-europe-chilling-spy-convictions-expose-tehrans-reach",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/01/931/523/iran-military-rally-001.jpg?ve=1&tl=1",
-      "ts": 1794496249000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/irans-shadow-operations-stretch-across-europe-chilling-spy-convictions-expose-tehrans-reach"
-          }
-        ]
-      }
-    },
-    {
-      "id": "7f6dcecac282",
-      "title": "Iranian spies convicted in Britain amid accusations of IRGC cyber‑attacks in France and UAE warnings",
-      "description": "Dos hombres iraníes fueron condenados por espionaje en el Reino Unido mientras Francia acusa al IRGC de ciberataques y los Emiratos advierten sobre células durmientes iraníes.",
-      "lat": 51.51,
-      "lng": 1.7752000000000123,
-      "severity": 3,
-      "location": "Londres, Reino Unido",
-      "source": "Fox News World",
-      "url": "https://www.foxnews.com/world/irans-shadow-operations-stretch-across-europe-chilling-spy-convictions-expose-tehrans-reach",
-      "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/01/931/523/iran-military-rally-001.jpg?ve=1&tl=1",
-      "ts": 1794496249000,
-      "coverage": {
-        "left": 0,
-        "center": 0,
-        "right": 1,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 0,
-          "lean_right": 0,
-          "right": 1
-        },
-        "sources": [
-          {
-            "n": "Fox News World",
-            "b": "right",
-            "u": "https://www.foxnews.com/world/irans-shadow-operations-stretch-across-europe-chilling-spy-convictions-expose-tehrans-reach"
-          }
-        ]
-      }
-    },
-    {
-      "id": "56a5eedd03b2",
-      "title": "UNHCR calls for emergency aid to address refugee crisis in Niger",
-      "description": "L'UNHCR ha chiesto aiuti urgenti per milioni di rifugiati che fuggono dal Nigeria verso il Niger e il Benin.",
-      "lat": 14.61,
-      "lng": 2.1100000000000136,
-      "severity": 3,
-      "location": "Niamey, Niger",
-      "source": "All Africa",
-      "url": "https://allafrica.com/stories/202611120372.html",
-      "image": null,
-      "ts": 1794482837000,
-      "coverage": {
-        "left": 0,
-        "center": 1,
-        "right": 0,
-        "total": 1,
-        "buckets": {
-          "left": 0,
-          "lean_left": 0,
-          "center": 1,
-          "lean_right": 0,
-          "right": 0
-        },
-        "sources": [
-          {
-            "n": "All Africa",
-            "b": "center",
-            "u": "https://allafrica.com/stories/202611120372.html"
           }
         ]
       }
